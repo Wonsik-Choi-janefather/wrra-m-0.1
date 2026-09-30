@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use WRRA-M 0.1, please cite this research note."
+title: "WRRA-M 0.1: Foundational Architecture and First Structural Calculation"
+type: article
+authors:
+  - family-names: Choi
+    given-names: Wonsik
+    orcid: "https://orcid.org/0009-0001-4263-9772"
+    email: "janefather@gmail.com"
+version: "0.1"
+date-released: 2026-09-30
+license: CC-BY-4.0
+repository-code: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1"
+url: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1"
+abstract: >-
+  WRRA-M is a testable branch of the Wonsik Reality Renderer Architecture.
+  It reinterprets the seven internal dimensions used in four-dimensional
+  M-theory compactification as seven predimensional degrees rendered through
+  a dimension filter. Its first structural calculation shows that one
+  invariant channel plus two G2 seven-sectors has exactly the SU(3) color
+  representation multiplicities of one Standard Model generation.
+keywords:
+  - WRRA
+  - Wonsik Reality Renderer Architecture
+  - meta-dimensional
+  - dimension filter
+  - M-theory
+  - G2
+  - Standard Model
+  - gravity
+  - dark matter
+  - emergent time
+references:
+  - type: software
+    title: "WRRA Core 1.0"
+    doi: "10.5281/zenodo.22650956"
+

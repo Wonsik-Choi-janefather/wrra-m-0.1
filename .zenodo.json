@@ -1,0 +1,38 @@
+{
+  "title": "WRRA-M 0.1: Foundational Architecture and First Structural Calculation",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "<p><strong>English.</strong> WRRA-M is a testable branch of the Wonsik Reality Renderer Architecture. It reinterprets the seven internal dimensions used in four-dimensional M-theory compactification as seven predimensional degrees rendered through a dimension filter. The first structural calculation shows that one invariant channel plus two G2 seven-sectors has exactly the SU(3) color representation multiplicities of one Standard Model generation. The full SU(3)×SU(2)×U(1) representation, hypercharge, chirality, masses, and generations remain open derivations.</p><p><strong>한국어.</strong> WRRA-M은 원식 현실 렌더러 아키텍처의 검증 가능한 분기다. 4차원 M이론 콤팩트화의 7개 내부 차원을 차원필터가 렌더링하는 7개의 선차원 자유도로 재해석한다. 첫 구조 계산은 하나의 불변 채널과 두 G2 7 부문이 표준모형 한 세대와 정확히 같은 SU(3) 색 표현 다중도를 가짐을 보인다. 전체 게이지 표현, 하이퍼전하, 손지기성, 질량, 세대의 도출은 열린 과제다.</p>",
+  "creators": [
+    {
+      "name": "Choi, Wonsik",
+      "orcid": "0009-0001-4263-9772",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "keywords": [
+    "WRRA",
+    "Wonsik Reality Renderer Architecture",
+    "meta-dimensional",
+    "predimensional degrees",
+    "dimension filter",
+    "M-theory",
+    "G2",
+    "Standard Model",
+    "chiral channels",
+    "gravity",
+    "dark matter",
+    "twist stress",
+    "emergent time"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.22650956",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    }
+  ]
+}
