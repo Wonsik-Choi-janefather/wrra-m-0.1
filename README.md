@@ -4,107 +4,146 @@
 
 **원식 현실 렌더러 아키텍처 메타차원 연구 분기**
 
-Latest version: **WRRA-M 0.2**
+Latest version: **WRRA-M 0.3**
 
-Latest result: **Conditional sixteen-channel reorganization, hypercharge, electric charge, and anomaly closure**
+Latest result: **A necessary and sufficient two-gap criterion for unique and stable selection of the 0.2 cross-dimensional filter within a four-filter sector**
 
-WRRA-M is a separate research branch of WRRA Core 1.0. It studies whether predimensional degrees can be rendered through a dimension filter into finite spacetime and particle-channel phenotypes. Version 0.2 closes one algebraic question left open in version 0.1 while preserving the distinction between a calculated consequence and an unproved filter hypothesis.
+WRRA-M is a research branch of WRRA Core 1.0. It studies how predimensional degrees can be rendered into finite spacetime and particle-channel phenotypes. Version 0.3 keeps the sixteen-channel algebra of 0.2 and asks a narrower question: under what fixed Source and Law does the target filter win against every binary pairing alternative?
 
-WRRA-M은 WRRA Core 1.0과 분리된 연구 분기다. 선차원 자유도가 차원필터를 거쳐 유한한 시공간과 입자채널 표현형으로 렌더링될 수 있는지 탐구한다. 0.2는 0.1이 남긴 대수적 질문 하나를 마무리하되, 계산된 귀결과 아직 증명되지 않은 필터 가설을 명확히 구분한다.
+WRRA-M은 WRRA Core 1.0의 연구 분기다. 선차원 자유도가 유한한 시공간과 입자채널 표현형으로 렌더링되는 구조를 탐구한다. 0.3은 0.2의 16채널 대수를 그대로 두고 더 좁은 질문을 묻는다. 어떤 고정된 소스와 법칙 아래에서 목표 필터가 모든 이진 짝지음 대안을 이기는가이다.
 
-## Latest documents / 최신 문서
+## Latest documents
 
-### WRRA-M 0.2
+### WRRA-M 0.3
 
-- [English PDF](paper/WRRA_M_0_2_EN.pdf) · [English DOCX](paper/WRRA_M_0_2_EN.docx)
-- [한국어 PDF](paper/WRRA_M_0_2_KO.pdf) · [한국어 DOCX](paper/WRRA_M_0_2_KO.docx)
+- [English PDF](paper/WRRA_M_0_3_EN.pdf) · [English DOCX](paper/WRRA_M_0_3_EN.docx)
+- [한국어 PDF](paper/WRRA_M_0_3_KO.pdf) · [한국어 DOCX](paper/WRRA_M_0_3_KO.docx)
 - [English overview](README_EN.md)
 - [한국어 개요](README_KO.md)
 
-### WRRA-M 0.1 archive / 0.1 보존본
+### Earlier versions
 
-- [English PDF](paper/WRRA_M_0_1_EN.pdf) · [English DOCX](paper/WRRA_M_0_1_EN.docx)
-- [한국어 PDF](paper/WRRA_M_0_1_KO.pdf) · [한국어 DOCX](paper/WRRA_M_0_1_KO.docx)
+- 0.2: [English PDF](paper/WRRA_M_0_2_EN.pdf) · [English DOCX](paper/WRRA_M_0_2_EN.docx) · [한국어 PDF](paper/WRRA_M_0_2_KO.pdf) · [한국어 DOCX](paper/WRRA_M_0_2_KO.docx)
+- 0.1: [English PDF](paper/WRRA_M_0_1_EN.pdf) · [English DOCX](paper/WRRA_M_0_1_EN.docx) · [한국어 PDF](paper/WRRA_M_0_1_KO.pdf) · [한국어 DOCX](paper/WRRA_M_0_1_KO.docx)
 
-## WRRA-M 0.2 input / 0.2 입력
+## Fixed input from WRRA-M 0.2
 
-The sixteen-channel input is
+The sixteen-channel space and target correspondence remain unchanged:
 
 \[
-\mathcal{C}_{16}=\mathbf{1}_{0}\oplus\mathbf{7}_{A}\oplus\mathbf{7}_{B}\oplus\mathbf{1}_{N}.
+\mathcal{C}_{16}=\mathbf{1}_{0}\oplus\mathbf{7}_{A}\oplus\mathbf{7}_{B}\oplus\mathbf{1}_{N},
 \]
 
-Each seven-sector uses the established branching
-
 \[
-\mathbf{7}\downarrow_{SU(3)}=\mathbf{3}\oplus\bar{\mathbf{3}}\oplus\mathbf{1}.
-\]
-
-## WRRA-specific transformation / WRRA 고유 변환
-
-WRRA-M 0.2 defines a conditional cross-dimensional filter that preserves the common color action and reorganizes the sixteen channels as
-
-\[
-DF_{\times}:\mathcal{C}_{16}\longrightarrow
+F_{\times}:\mathcal{C}_{16}\longrightarrow
 (\mathbf{4},\mathbf{2},\mathbf{1})\oplus(\bar{\mathbf{4}},\mathbf{1},\mathbf{2}).
 \]
 
-The left and right blocks are
+Version 0.3 does not use the Standard Model charges recovered in 0.2 as inputs to its selection score.
+
+## Four-filter admissible sector
+
+Two binary assignments generate four candidates:
 
 \[
-\mathcal{H}_{L}=(\mathbf{3}_{A}\oplus\mathbf{1}_{A})
-\oplus(\mathbf{3}_{B}\oplus\mathbf{1}_{B}),
+\mathcal{F}_{4}=\{F_{DX},F_{XX},F_{DD},F_{XD}\}.
 \]
 
-\[
-\mathcal{H}_{R}=(\bar{\mathbf{3}}_{A}\oplus\mathbf{1}_{N})
-\oplus(\bar{\mathbf{3}}_{B}\oplus\mathbf{1}_{0}).
-\]
+The first label records the left assignment. The second records the right assignment. The 0.2 target is \(F_{DX}\): direct on the left and crossed on the right. Every candidate preserves all sixteen channels and the common \(SU(3)\) action.
 
-This is the WRRA-M-specific contribution. The Pati-Salam multiplets, the SO(10) sixteen-component organization, the G2 branching rule, and the anomaly criteria are established external inputs rather than WRRA discoveries.
+## Source values and Law
 
-## Calculated output / 계산 산출
-
-Color symmetry and tracelessness fix the relative form of the \(B-L\) generator. Requiring the null channel to have \(Y(\nu^c)=0\) and the invariant channel to have \(Y(e^c)=1\) fixes
+Source supplies two real scalar compatibility tables:
 
 \[
-Y=T_{3R}+\frac{B-L}{2},
+W_L=(\ell_{ij})_{i,j\in\{A,B\}},
 \qquad
-Q_{\mathrm{electric}}=T_{3L}+Y.
+W_R=(r_{ij})_{i\in\{A,B\},\ j\in\{N,0\}}.
 \]
 
-The standard one-generation hypercharges and electric charges then follow for \(Q_L, L_L, u^c, d^c, \nu^c, e^c\). The following consistency checks close exactly:
+Law assigns each filter the sum of the four entries selected by its two matchings. For the target,
 
-- \(SU(3)^3\)
-- \(SU(3)^2U(1)\)
-- \(SU(2)_L^2U(1)\)
-- \(U(1)^3\)
-- mixed gravitational–\(U(1)\)
-- global \(SU(2)_L\) and \(SU(2)_R\) even-doublet conditions
+\[
+C(F_{DX})=\ell_{AA}+\ell_{BB}+r_{AN}+r_{B0}.
+\]
 
-## Boundary and falsification / 경계와 반증
+These scalar values rank pairings. They are not linear maps between inequivalent color representations and do not mix color components.
 
-**WRRA-M 0.2 does not prove that the cross-dimensional filter exists.** It proves that if a filter with the stated pairing and normalization conditions exists, the sixteen-channel placement, hypercharge, electric charge, and anomaly cancellation follow together.
+## Exact selection criterion
 
-**WRRA-M 0.2는 교차 차원필터의 존재 자체를 증명하지 않는다.** 다만 명시한 짝지음과 정규화 조건을 만족하는 필터가 존재한다면, 16채널 배치·하이퍼전하·전기전하·이상 소거가 하나의 구조에서 함께 따라옴을 보인다.
+Define
 
-The correspondence fails if the stated pairing cannot be implemented while preserving the common \(SU(3)\) action, if any channel must be duplicated or deleted, if one normalized operator cannot serve every channel, or if any listed anomaly condition fails.
+\[
+\Delta_L=(\ell_{AA}+\ell_{BB})-(\ell_{AB}+\ell_{BA}),
+\]
 
-Filter dynamics, three generations, masses, symmetry breaking, gravity, dark matter, cosmology, and consciousness are outside version 0.2.
+\[
+\Delta_R=(r_{AN}+r_{B0})-(r_{A0}+r_{BN}).
+\]
 
-## Fixed evaluation rule / 고정 판정규칙
+The three target-minus-competitor score differences are \(\Delta_L\), \(\Delta_R\), and \(\Delta_L+\Delta_R\). Therefore
 
-**Verification input → WRRA-specific transformation → Output → Falsification condition**  
+\[
+F_{\times}=F_{DX}\text{ is unique}
+\quad\Longleftrightarrow\quad
+\Delta_L>0\text{ and }\Delta_R>0.
+\]
+
+A zero gap gives a degeneracy. A negative gap selects the corresponding alternative.
+
+## Selection flow and stability
+
+For positive initial weights, Law uses the constant-score replicator flow
+
+\[
+\dot p_F=\eta p_F\bigl(C(F)-\bar C\bigr),
+\qquad
+\bar C=\sum_{G\in\mathcal F_4}p_GC(G).
+\]
+
+When both gaps are positive, \(p_{\times}(t)\to1\). With
+
+\[
+\delta=\min(\Delta_L,\Delta_R),
+\]
+
+the non-target weight obeys
+
+\[
+1-p_{\times}(t)
+\le
+\frac{1-p_{\times}(0)}{p_{\times}(0)}
+e^{-\eta\delta t}.
+\]
+
+If every score entry changes by at most \(\rho\), the same filter is guaranteed to remain selected whenever
+
+\[
+\min(\Delta_L,\Delta_R)>4\rho.
+\]
+
+## Boundary and falsification
+
+WRRA-M 0.3 proves existence, uniqueness, convergence, and perturbation stability only inside the stated finite candidate class and only after the compatibility tables are fixed independently.
+
+It does **not** derive numerical compatibility values from fundamental physics or prove that nature supplies positive gaps. The claim fails if an independently specified Source and Law give a nonpositive gap, if an admissible fifth filter matches or beats the target, if the published weight-ratio law fails, or if the scores are retuned after the target is inspected.
+
+## Fixed evaluation rule
+
+**Verification input → WRRA-specific transformation → Output → Falsification condition**
+
 **검증 입력 → WRRA 고유 변환 → 산출값 → 반증조건**
 
-Known measurements and established mathematics may be used to fix the model. Reproducing known values is counted as empirical consistency and explanatory performance. Independent prediction is not imposed as a prerequisite for theoretical value.
+The admissible class, compatibility rule, score tables, rate, and initial support must be fixed before the target outcome is evaluated. Until upstream values are supplied, 0.3 is an exact conditional theorem and measurement protocol rather than empirical confirmation.
 
-## Author / 저자
+## Author
 
-**Wonsik Choi / 최원식**  
-ORCID: [0009-0001-4263-9772](https://orcid.org/0009-0001-4263-9772)  
+**Wonsik Choi / 최원식**
+
+ORCID: [0009-0001-4263-9772](https://orcid.org/0009-0001-4263-9772)
+
 Email: [janefather@gmail.com](mailto:janefather@gmail.com)
 
-## Citation and license / 인용과 라이선스
+## Citation and license
 
 Citation metadata is provided in [`CITATION.cff`](CITATION.cff). The papers and documentation are licensed under [CC BY 4.0](LICENSE).

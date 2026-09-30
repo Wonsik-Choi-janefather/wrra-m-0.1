@@ -1,8 +1,8 @@
 {
-  "title": "WRRA-M 0.2: Cross-Dimensional Filter Correspondence",
+  "title": "WRRA-M 0.3: Source-Law Filter Selection",
   "upload_type": "publication",
   "publication_type": "preprint",
-  "description": "<p><strong>English.</strong> WRRA-M 0.2 defines a sixteen-channel input consisting of one invariant channel, two seven-dimensional sectors, and one null channel. A conditional cross-dimensional filter reorganizes those channels into the Pati-Salam representation (4,2,1) plus (anti-4,1,2). Neutrality of the null channel and unit normalization of the invariant channel fix Y = T3R + (B-L)/2. The standard one-generation hypercharges, electric charges, local anomalies, mixed gravitational anomaly, and global SU(2) parity conditions then close. The existence and dynamics of the filter are not derived.</p><p><strong>한국어.</strong> WRRA-M 0.2는 하나의 불변 채널, 두 7차원 부문, 하나의 널 채널로 이루어진 16채널 입력을 정의한다. 조건부 교차 차원필터는 이 채널을 파티-살람 표현 (4,2,1)과 (4-바,1,2)로 재배열한다. 널 채널의 중성과 불변 채널의 단위 정규화로 Y=T3R+(B-L)/2가 고정된다. 한 세대의 표준 하이퍼전하·전기전하·국소 이상·혼합 중력 이상·전역 SU(2) 짝수 조건이 함께 닫힌다. 필터의 존재와 동역학은 도출하지 않았다.</p>",
+  "description": "<p><strong>English.</strong> WRRA-M 0.3 defines a four-filter admissible class that preserves the sixteen-channel space and common color action of version 0.2. Source supplies two scalar compatibility tables and Law scores each filter by summing the entries selected by its left and right matchings. Two selection gaps give a necessary and sufficient criterion: the version 0.2 cross filter is the unique maximizer exactly when both gaps are positive. A constant-score replicator flow then converges to the target from every interior initial condition, with an explicit exponential bound. The selection survives entrywise score perturbations of size rho when the smaller gap exceeds four rho. The numerical compatibility values and their physical origin are not derived.</p><p><strong>한국어.</strong> WRRA-M 0.3은 0.2의 16채널 공간과 공통 색 작용을 보존하는 네 필터 허용집합을 정의한다. 소스는 두 개의 스칼라 적합도 표를 제공하고, 법칙은 왼쪽과 오른쪽 짝지음이 선택한 항을 합산해 필터 점수를 정한다. 두 선택 간극은 필요충분조건을 준다. 두 간극이 모두 양수일 때 그리고 그때에만 0.2의 교차필터가 유일한 최대점수 필터다. 상수점수 복제자 흐름은 모든 내부 초기조건에서 목표로 수렴하며 명시적인 지수 상계를 갖는다. 작은 간극이 4 rho보다 크면 각 점수 항에 rho 이하의 섭동이 생겨도 같은 선택이 유지된다. 수치 적합도 값과 그 물리적 기원은 도출하지 않았다.</p>",
   "creators": [
     {
       "name": "Choi, Wonsik",
@@ -17,14 +17,13 @@
     "WRRA",
     "Wonsik Reality Renderer Architecture",
     "meta-dimensional",
-    "predimensional degrees",
+    "Source and Law",
     "cross-dimensional filter",
-    "Pati-Salam",
-    "SO(10)",
-    "G2",
-    "Standard Model",
-    "hypercharge",
-    "electric charge",
-    "anomaly cancellation"
+    "filter selection",
+    "selection gap",
+    "replicator dynamics",
+    "convergence",
+    "perturbation stability",
+    "Pati-Salam"
   ]
 }

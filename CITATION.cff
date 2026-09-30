@@ -1,35 +1,38 @@
 cff-version: 1.2.0
-message: "If you use WRRA-M 0.2, please cite this research note."
-title: "WRRA-M 0.2: Cross-Dimensional Filter Correspondence"
+message: "If you use WRRA-M 0.3, please cite this research note."
+title: "WRRA-M 0.3: Source-Law Filter Selection"
 type: article
 authors:
   - family-names: Choi
     given-names: Wonsik
     orcid: "https://orcid.org/0009-0001-4263-9772"
     email: "janefather@gmail.com"
-version: "0.2"
+version: "0.3"
 date-released: 2026-09-30
 license: CC-BY-4.0
 repository-code: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1"
 url: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1"
 abstract: >-
-  WRRA-M 0.2 defines a sixteen-channel space consisting of one invariant
-  channel, two seven-dimensional sectors, and one null channel. A conditional
-  cross-dimensional filter reorganizes the space into the Pati-Salam
-  representation (4,2,1) plus (anti-4,1,2). Neutrality of the null channel and
-  unit normalization of the invariant channel fix the hypercharge operator
-  Y = T3R + (B-L)/2. The one-generation hypercharges, electric charges, local
-  anomalies, mixed gravitational anomaly, and global SU(2) parity conditions
-  then close. The existence and dynamics of the filter are not derived.
+  WRRA-M 0.3 defines a four-filter admissible class that preserves the
+  sixteen-channel space and common color action of version 0.2. Source
+  supplies two scalar compatibility tables and Law scores each filter by
+  summing the entries selected by its left and right matchings. Two selection
+  gaps give a necessary and sufficient criterion: the version 0.2 cross filter
+  is the unique maximizer exactly when both gaps are positive. A constant-score
+  replicator flow then converges to the target from every interior initial
+  condition, with an explicit exponential bound. The selection survives
+  entrywise score perturbations of size rho when the smaller gap exceeds
+  four rho. The numerical compatibility values and their physical origin are
+  not derived.
 keywords:
   - WRRA
   - Wonsik Reality Renderer Architecture
   - meta-dimensional
-  - predimensional degrees
+  - Source and Law
   - cross-dimensional filter
+  - filter selection
+  - selection gap
+  - replicator dynamics
+  - convergence
+  - perturbation stability
   - Pati-Salam
-  - SO(10)
-  - G2
-  - Standard Model
-  - hypercharge
-  - anomaly cancellation

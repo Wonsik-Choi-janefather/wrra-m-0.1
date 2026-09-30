@@ -1,66 +1,90 @@
-# WRRA-M 0.2 English Overview
+# WRRA-M 0.3 English Overview
 
 ## Research decision
 
-WRRA-M 0.2 closes one question left open in version 0.1. It asks whether a single conditional cross-dimensional filter can reorganize sixteen input channels so that weak pairing, hypercharge, electric charge, and anomaly cancellation follow together.
+WRRA-M 0.3 turns the single open assumption left by version 0.2 into a finite selection problem. The cross-dimensional filter is not added as independent machinery. It is the stable winner of Source-supplied compatibility values under a fixed Law.
 
 ## Verification input
 
-The external mathematical baseline consists of:
-
-- the Pati-Salam representation \((4,2,1)\oplus(\bar 4,1,2)\);
-- the sixteen-component organization associated with an SO(10) generation;
-- the established branching \(7\downarrow_{SU(3)}=3\oplus\bar 3\oplus1\);
-- the standard local and global anomaly conditions.
-
-These are not claimed as WRRA discoveries.
-
-## WRRA-specific transformation
-
-The input space is
+Version 0.3 retains the sixteen-channel space and target correspondence of version 0.2:
 
 \[
-\mathcal C_{16}=\mathbf1_0\oplus\mathbf7_A\oplus\mathbf7_B\oplus\mathbf1_N.
+\mathcal C_{16}=\mathbf1_0\oplus\mathbf7_A\oplus\mathbf7_B\oplus\mathbf1_N,
 \]
 
-WRRA-M defines the required action of a conditional cross-dimensional filter:
-
 \[
-DF_{\times}:\mathcal C_{16}\rightarrow
+F_{\times}:\mathcal C_{16}\rightarrow
 (\mathbf4,\mathbf2,\mathbf1)\oplus(\bar{\mathbf4},\mathbf1,\mathbf2).
 \]
 
-The triplet and singlet from sectors A and B form the left block. The antitriplet from sector A is paired with the null singlet, while the antitriplet from sector B is paired with the invariant singlet, forming the right block. No channel is created or deleted.
+Independently swapping the left and right singlet assignments produces the complete minimal class
+
+\[
+\mathcal F_4=\{F_{DX},F_{XX},F_{DD},F_{XD}\}.
+\]
+
+Every candidate preserves all channels and the common color action.
+
+## WRRA-specific transformation
+
+Source supplies a left and right scalar compatibility table. Law scores a filter by summing the four entries selected by its two matchings.
+
+Define the direct-left advantage and crossed-right advantage:
+
+\[
+\Delta_L=(\ell_{AA}+\ell_{BB})-(\ell_{AB}+\ell_{BA}),
+\]
+
+\[
+\Delta_R=(r_{AN}+r_{B0})-(r_{A0}+r_{BN}).
+\]
+
+The values must be computed or measured by a rule fixed before the target filter is evaluated.
 
 ## Output
 
-Color symmetry and tracelessness fix the relative \(B-L\) generator. Beginning with
+The 0.2 target \(F_{DX}\) is the unique maximum-score filter exactly when
 
 \[
-Y=\alpha T_{3R}+\beta(B-L),
+\Delta_L>0
+\quad\text{and}\quad
+\Delta_R>0.
 \]
 
-the conditions \(Y(\nu^c)=0\) and \(Y(e^c)=1\) give
+Positive filter weights evolve under the constant-score replicator flow
 
 \[
-Y=T_{3R}+\frac{B-L}{2}.
+\dot p_F=\eta p_F(C(F)-\bar C).
 \]
 
-Together with \(Q=T_{3L}+Y\), this recovers the standard charges of \(Q_L,L_L,u^c,d^c,\nu^c,e^c\). The \(SU(3)^3\), \(SU(3)^2U(1)\), \(SU(2)_L^2U(1)\), \(U(1)^3\), mixed gravitational–\(U(1)\), and global SU(2) consistency checks all close.
+If both gaps are positive and the target has nonzero initial weight, its weight converges to one. The minimum gap
+
+\[
+\delta=\min(\Delta_L,\Delta_R)
+\]
+
+sets the exponential convergence rate. The selection also survives every entrywise compatibility perturbation bounded by \(\rho\) when \(\delta>4\rho\).
 
 ## Falsification condition
 
-The 0.2 correspondence fails if the cross-pairing cannot preserve the common \(SU(3)\) action, if a channel must be duplicated or deleted, if the two normalization conditions cannot define one operator on every channel, or if any listed anomaly condition fails.
+The 0.3 result fails within its stated scope if:
+
+- an independently specified Source and Law give either gap a nonpositive value;
+- a fifth admissible filter equals or exceeds the target score;
+- fixed-score filter weights violate the published ratio law;
+- uncertainty exceeds the stated stability margin; or
+- scores or candidates are changed after the target is inspected.
 
 ## Exact boundary
 
-WRRA-M 0.2 does not derive the existence, uniqueness, stability, or dynamical selection of the cross-dimensional filter from Source and Law. It defines the filter's required action and proves the consequences of that action. This is where version 0.2 stops.
+Version 0.3 proves a theorem inside a defined four-filter class. It does not calculate the compatibility tables from fundamental physics, prove that the class is complete in a deeper theory, or show that nature supplies positive gaps. Until upstream values are fixed independently, the result is a conditional theorem and a measurement protocol rather than empirical confirmation.
 
 ## Files
 
-- [Full English paper PDF](paper/WRRA_M_0_2_EN.pdf)
-- [Full English paper DOCX](paper/WRRA_M_0_2_EN.docx)
+- [Full English paper PDF](paper/WRRA_M_0_3_EN.pdf)
+- [Full English paper DOCX](paper/WRRA_M_0_3_EN.docx)
 - [Korean overview](README_KO.md)
+- [Version 0.2 English PDF](paper/WRRA_M_0_2_EN.pdf)
 - [Version 0.1 English PDF](paper/WRRA_M_0_1_EN.pdf)
 
 ## Identity
