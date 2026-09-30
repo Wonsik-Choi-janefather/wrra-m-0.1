@@ -1,91 +1,77 @@
-# WRRA-M 0.3 English Overview
+# WRRA-M 0.4 English Overview
 
 ## Research decision
 
-WRRA-M 0.3 turns the single open assumption left by version 0.2 into a finite selection problem. The cross-dimensional filter is not added as independent machinery. It is the stable winner of Source-supplied compatibility values under a fixed Law.
+WRRA-M 0.4 tests whether the common carrier of Minimal Computation Cosmology can own the compatibility rule left unspecified by WRRA-M 0.3. The answer is conditionally yes, but the established fifteen-channel carrier cannot simply be renamed as a sixteen-channel solution.
 
 ## Verification input
 
-Version 0.3 retains the sixteen-channel space and target correspondence of version 0.2:
+Version 0.2 supplied the sixteen-channel space
 
 \[
 \mathcal C_{16}=\mathbf1_0\oplus\mathbf7_A\oplus\mathbf7_B\oplus\mathbf1_N,
 \]
 
-\[
-F_{\times}:\mathcal C_{16}\rightarrow
-(\mathbf4,\mathbf2,\mathbf1)\oplus(\bar{\mathbf4},\mathbf1,\mathbf2).
-\]
-
-Independently swapping the left and right singlet assignments produces the complete minimal class
+and version 0.3 proved that the target filter is unique inside its fixed four-filter class exactly when
 
 \[
-\mathcal F_4=\{F_{DX},F_{XX},F_{DD},F_{XD}\}.
+\Delta_L>0,\qquad\Delta_R>0.
 \]
 
-Every candidate preserves all channels and the common color action.
+Minimal Computation Cosmology supplies a common transport structure for fifteen chiral Standard-Model channels.
 
 ## WRRA-specific transformation
 
-Source supplies a left and right scalar compatibility table. Law scores a filter by summing the four entries selected by its two matchings.
-
-Define the direct-left advantage and crossed-right advantage:
+Version 0.4 conditionally extends the carrier by one gauge-neutral channel:
 
 \[
-\Delta_L=(\ell_{AA}+\ell_{BB})-(\ell_{AB}+\ell_{BA}),
+\mathcal H_{16}=\mathcal H_{15}\oplus\mathcal H_N.
+\]
+
+The extension is admissible only if all sixteen channels share one principal causal geometry, the response Gram operator is positive semidefinite and full rank on the declared band, and the neutral channel has positive carrier norm. Gauge-current neutrality must not be confused with transport absence.
+
+For response signatures fixed independently of the target, define
+
+\[
+c_C(i,j)=-\lVert u_i-u_j\rVert_C^2.
+\]
+
+The formerly free gaps then reduce exactly to
+
+\[
+\Delta_L=2\operatorname{Re}\langle u_{3_A}-u_{3_B},u_{1_A}-u_{1_B}\rangle_C,
 \]
 
 \[
-\Delta_R=(r_{AN}+r_{B0})-(r_{A0}+r_{BN}).
+\Delta_R=2\operatorname{Re}\langle u_{\bar3_A}-u_{\bar3_B},u_{1_N}-u_{1_0}\rangle_C.
 \]
-
-The values must be computed or measured by a rule fixed before the target filter is evaluated.
 
 ## Output
 
-The 0.2 target \(F_{DX}\) is the unique maximum-score filter exactly when
+The existing common-carrier idea is structurally reusable after a genuine fifteen-to-sixteen-channel extension. One positive response metric replaces eight free compatibility entries by one rule and eight calculated signatures. An exact finite witness yields
 
 \[
-\Delta_L>0
-\quad\text{and}\quad
-\Delta_R>0.
+\Delta_L=\Delta_R=8
 \]
 
-Positive filter weights evolve under the constant-score replicator flow
-
-\[
-\dot p_F=\eta p_F(C(F)-\bar C).
-\]
-
-If both gaps are positive and the target has nonzero initial weight, its weight converges to one. The minimum gap
-
-\[
-\delta=\min(\Delta_L,\Delta_R)
-\]
-
-sets the exponential convergence rate. The selection also survives every entrywise compatibility perturbation bounded by \(\rho\) when \(\delta>4\rho\).
+and proves that the positive-gap region is nonempty.
 
 ## Falsification condition
 
-The 0.3 result fails within its stated scope if:
-
-- an independently specified Source and Law give either gap a nonpositive value;
-- a fifth admissible filter equals or exceeds the target score;
-- fixed-score filter weights violate the published ratio law;
-- uncertainty exceeds the stated stability margin; or
-- scores or candidates are changed after the target is inspected.
+The 0.4 bridge fails if the neutral channel is transport-null, the causal cone becomes channel-dependent, the response Gram operator is not positive semidefinite or full rank, the response construction is not gauge invariant, an independently frozen carrier gives either alignment a nonpositive sign, or the protocol is altered after inspecting the target.
 
 ## Exact boundary
 
-Version 0.3 proves a theorem inside a defined four-filter class. It does not calculate the compatibility tables from fundamental physics, prove that the class is complete in a deeper theory, or show that nature supplies positive gaps. Until upstream values are fixed independently, the result is a conditional theorem and a measurement protocol rather than empirical confirmation.
+The finite witness proves constructibility only. Version 0.4 does not calculate physical response signatures from a microscopic carrier and does not claim that nature supplies the required positive alignments. That numerical carrier calculation is reserved for 0.5 or later.
 
 ## Files
 
-- [Full English paper PDF](paper/WRRA_M_0_3_EN.pdf)
-- [Full English paper DOCX](paper/WRRA_M_0_3_EN.docx)
+- [Full English paper PDF](paper/WRRA_M_0_4_EN.pdf)
+- [Full English paper DOCX](paper/WRRA_M_0_4_EN.docx)
+- [Markdown source](paper/WRRA_M_0_4_Common_Carrier_Metric_Origin_EN.md)
+- [Exact verification script](calculations/verify_wrra_m_0_4.py)
 - [Korean overview](README_KO.md)
-- [Version 0.2 English PDF](paper/WRRA_M_0_2_EN.pdf)
-- [Version 0.1 English PDF](paper/WRRA_M_0_1_EN.pdf)
+- [Version 0.3 English PDF](paper/WRRA_M_0_3_EN.pdf)
 
 ## Identity
 

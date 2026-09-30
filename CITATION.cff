@@ -1,38 +1,35 @@
 cff-version: 1.2.0
-message: "If you use WRRA-M 0.3, please cite this research note."
-title: "WRRA-M 0.3: Source-Law Filter Selection"
+message: "If you use WRRA-M 0.4, please cite this research note."
+title: "WRRA-M 0.4: Common-Carrier Metric Origin of Filter Compatibility"
 type: article
 authors:
   - family-names: Choi
     given-names: Wonsik
     orcid: "https://orcid.org/0009-0001-4263-9772"
     email: "janefather@gmail.com"
-version: "0.3"
-date-released: 2026-09-30
+version: "0.4"
+date-released: 2026-10-01
 license: CC-BY-4.0
 repository-code: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1"
 url: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1"
 abstract: >-
-  WRRA-M 0.3 defines a four-filter admissible class that preserves the
-  sixteen-channel space and common color action of version 0.2. Source
-  supplies two scalar compatibility tables and Law scores each filter by
-  summing the entries selected by its left and right matchings. Two selection
-  gaps give a necessary and sufficient criterion: the version 0.2 cross filter
-  is the unique maximizer exactly when both gaps are positive. A constant-score
-  replicator flow then converges to the target from every interior initial
-  condition, with an explicit exponential bound. The selection survives
-  entrywise score perturbations of size rho when the smaller gap exceeds
-  four rho. The numerical compatibility values and their physical origin are
-  not derived.
+  WRRA-M 0.4 tests whether the fifteen-channel common carrier of Minimal
+  Computation Cosmology can supply the compatibility structure required by
+  the sixteen-channel filter problem. It gives a conditional extension by one
+  transported gauge-neutral channel, distinguishes gauge-current neutrality
+  from transport absence, and defines compatibility as negative squared
+  mismatch in a positive common-carrier response metric. The two free 0.3
+  selection gaps then reduce exactly to carrier-metric alignment products. An
+  exact finite witness proves that the positive-gap region is nonempty, while
+  numerical microscopic response signatures remain open.
 keywords:
   - WRRA
   - Wonsik Reality Renderer Architecture
   - meta-dimensional
-  - Source and Law
-  - cross-dimensional filter
-  - filter selection
+  - common carrier
+  - fifteen-to-sixteen-channel extension
+  - null-lift criterion
+  - response metric
+  - filter compatibility
   - selection gap
-  - replicator dynamics
-  - convergence
-  - perturbation stability
-  - Pati-Salam
+  - right-handed neutrino
