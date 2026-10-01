@@ -1,0 +1,934 @@
+{
+  "title": "WRRA M particle residual-address inverse trials and fold-decay ledger v0.1",
+  "date": "2026-10-01",
+  "author": "Wonsik Choi",
+  "verified_inputs": {
+    "electron_rest_energy_MeV": 0.51099895069,
+    "proton_rest_energy_MeV": 938.27208943,
+    "neutron_rest_energy_MeV": 939.56542194,
+    "neutron_proton_difference_MeV": 1.29333251,
+    "proton_electron_mass_ratio": 1836.152673426,
+    "proton_electron_ratio_standard_uncertainty": 3.2e-08,
+    "neutron_electron_mass_ratio": 1838.683662,
+    "neutron_electron_ratio_standard_uncertainty": 7.4e-07,
+    "muon_electron_mass_ratio": 206.7682827,
+    "muon_electron_ratio_standard_uncertainty": 4.6e-06,
+    "neutron_mean_life_s": 878.3,
+    "neutron_mean_life_standard_uncertainty_s": 0.4,
+    "proton_magnetic_moment_in_nuclear_magnetons": 2.79284734463,
+    "neutron_magnetic_moment_in_nuclear_magnetons": -1.91304276,
+    "sources": {
+      "masses_ratios_moments": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "lifetime_and_decay": "https://pdg.lbl.gov/2026/tables/rpp2026-sum-baryons.pdf",
+      "quark_properties": "https://pdg.lbl.gov/2026/tables/rpp2026-sum-quarks.pdf",
+      "valence_model": "https://pdg.lbl.gov/2026/reviews/rpp2026-rev-quark-model.pdf"
+    }
+  },
+  "hypothesis": "Particle decay is a change of preserved prime-like composite fold relations and phenotype; residue energy need not return to SOURCE.",
+  "mass_readout_trial": "m(n)/m_e=(n/9)^gamma; gamma calibrated with m_p/m_e for each candidate p address. A dimensionless mass exponent gamma is distinct from zeta weight alpha and zero heights gamma_j.",
+  "fold_proxy": "Omega(n)-1, with admitted odd composites in phenotype support",
+  "trial_A": {
+    "name": "independent Omega3 baryon addresses",
+    "proton_addresses_tested": 141790,
+    "addresses_with_neutron_ratio_error_within_quoted_standard_uncertainty": 15,
+    "comparison_status": "numerical screening using central fitted proton ratio; not a full correlated statistical test or physical identification",
+    "top_20_candidates": [
+      {
+        "electron_address": 9,
+        "proton_address": 430003,
+        "neutron_address": 430853,
+        "proton_factors": [
+          7,
+          47,
+          1307
+        ],
+        "neutron_factors": [
+          29,
+          83,
+          179
+        ],
+        "calibrated_gamma_from_proton_electron": 0.6975313253526746,
+        "predicted_neutron_electron_ratio": 1838.6836621212144,
+        "absolute_neutron_ratio_error": 1.2121449799451511e-07,
+        "within_quoted_neutron_standard_uncertainty": true,
+        "initial_electron_admission": 0.8568130062359565,
+        "initial_proton_admission": 0.7900282908173195,
+        "initial_neutron_admission": 0.7902795442976429,
+        "nearest_muon_semiprime_check": {
+          "address": 18781,
+          "factors": [
+            7,
+            2683
+          ],
+          "predicted_muon_electron_ratio": 206.7467234528294,
+          "absolute_ratio_error": 0.021559247170586104,
+          "within_quoted_muon_standard_uncertainty": false
+        },
+        "particle_status": "mass-compatible address trial only; shared valence factors, charge, spin, current and lifetime not inferred by this trial"
+      },
+      {
+        "electron_address": 9,
+        "proton_address": 792699,
+        "neutron_address": 794355,
+        "proton_factors": [
+          3,
+          19,
+          13907
+        ],
+        "neutron_factors": [
+          3,
+          5,
+          52957
+        ],
+        "calibrated_gamma_from_proton_electron": 0.6600601352490685,
+        "predicted_neutron_electron_ratio": 1838.683662225926,
+        "absolute_neutron_ratio_error": 2.25925987251685e-07,
+        "within_quoted_neutron_standard_uncertainty": true,
+        "initial_electron_admission": 0.8568130062359565,
+        "initial_proton_admission": 0.8835741254362314,
+        "initial_neutron_admission": 0.8840280828470152,
+        "nearest_muon_semiprime_check": {
+          "address": 28991,
+          "factors": [
+            53,
+            547
+          ],
+          "predicted_muon_electron_ratio": 206.77813253427226,
+          "absolute_ratio_error": 0.009849834272273483,
+          "within_quoted_muon_standard_uncertainty": false
+        },
+        "particle_status": "mass-compatible address trial only; shared valence factors, charge, spin, current and lifetime not inferred by this trial"
+      },
+      {
+        "electron_address": 9,
+        "proton_address": 102697,
+        "neutron_address": 102873,
+        "proton_factors": [
+          7,
+          17,
+          863
+        ],
+        "neutron_factors": [
+          3,
+          53,
+          647
+        ],
+        "calibrated_gamma_from_proton_electron": 0.8044503791508864,
+        "predicted_neutron_electron_ratio": 1838.6836622763522,
+        "absolute_neutron_ratio_error": 2.763522388704587e-07,
+        "within_quoted_neutron_standard_uncertainty": true,
+        "initial_electron_admission": 0.8568130062359565,
+        "initial_proton_admission": 0.8594137878074949,
+        "initial_neutron_admission": 0.8606388332046925,
+        "nearest_muon_semiprime_check": {
+          "address": 6801,
+          "factors": [
+            3,
+            2267
+          ],
+          "predicted_muon_electron_ratio": 206.76349915612943,
+          "absolute_ratio_error": 0.004783543870559015,
+          "within_quoted_muon_standard_uncertainty": false
+        },
+        "particle_status": "mass-compatible address trial only; shared valence factors, charge, spin, current and lifetime not inferred by this trial"
+      },
+      {
+        "electron_address": 9,
+        "proton_address": 510861,
+        "neutron_address": 511887,
+        "proton_factors": [
+          3,
+          13,
+          13099
+        ],
+        "neutron_factors": [
+          3,
+          17,
+          10037
+        ],
+        "calibrated_gamma_from_proton_electron": 0.6865518366904332,
+        "predicted_neutron_electron_ratio": 1838.6836617056056,
+        "absolute_neutron_ratio_error": 2.9439434001687914e-07,
+        "within_quoted_neutron_standard_uncertainty": true,
+        "initial_electron_admission": 0.8568130062359565,
+        "initial_proton_admission": 0.8647852073215619,
+        "initial_neutron_admission": 0.8631106533372177,
+        "nearest_muon_semiprime_check": {
+          "address": 21223,
+          "factors": [
+            19,
+            1117
+          ],
+          "predicted_muon_electron_ratio": 206.7474635769275,
+          "absolute_ratio_error": 0.020819123072499224,
+          "within_quoted_muon_standard_uncertainty": false
+        },
+        "particle_status": "mass-compatible address trial only; shared valence factors, charge, spin, current and lifetime not inferred by this trial"
+      },
+      {
+        "electron_address": 9,
+        "proton_address": 704285,
+        "neutron_address": 705741,
+        "proton_factors": [
+          5,
+          79,
+          1783
+        ],
+        "neutron_factors": [
+          3,
+          367,
+          641
+        ],
+        "calibrated_gamma_from_proton_electron": 0.6669878071950636,
+        "predicted_neutron_electron_ratio": 1838.6836623034367,
+        "absolute_neutron_ratio_error": 3.0343676371558104e-07,
+        "within_quoted_neutron_standard_uncertainty": true,
+        "initial_electron_admission": 0.8568130062359565,
+        "initial_proton_admission": 0.8484259145113606,
+        "initial_neutron_admission": 0.8467217893107992,
+        "nearest_muon_semiprime_check": {
+          "address": 26659,
+          "factors": [
+            53,
+            503
+          ],
+          "predicted_muon_electron_ratio": 206.78344610990453,
+          "absolute_ratio_error": 0.015163409904545233,
+          "within_quoted_muon_standard_uncertainty": false
+        },
+        "particle_status": "mass-compatible address trial only; shared valence factors, charge, spin, current and lifetime not inferred by this trial"
+      },
+      {
+        "electron_address": 9,
+        "proton_address": 692727,
+        "neutron_address": 694157,
+        "proton_factors": [
+          3,
+          7,
+          32987
+        ],
+        "neutron_factors": [
+          37,
+          73,
+          257
+        ],
+        "calibrated_gamma_from_proton_electron": 0.6679687479865358,
+        "predicted_neutron_electron_ratio": 1838.683661684454,
+        "absolute_neutron_ratio_error": 3.1554600354866125e-07,
+        "within_quoted_neutron_standard_uncertainty": true,
+        "initial_electron_admission": 0.8568130062359565,
+        "initial_proton_admission": 0.8630914319920072,
+        "initial_neutron_admission": 0.8613438788581412,
+        "nearest_muon_semiprime_check": {
+          "address": 26349,
+          "factors": [
+            3,
+            8783
+          ],
+          "predicted_muon_electron_ratio": 206.78932316652646,
+          "absolute_ratio_error": 0.021040466526471846,
+          "within_quoted_muon_standard_uncertainty": false
+        },
+        "particle_status": "mass-compatible address trial only; shared valence factors, charge, spin, current and lifetime not inferred by this trial"
+      },
+      {
+        "electron_address": 9,
+        "proton_address": 687387,
+        "neutron_address": 688805,
+        "proton_factors": [
+          3,
+          29,
+          7901
+        ],
+        "neutron_factors": [
+          5,
+          13,
+          10597
+        ],
+        "calibrated_gamma_from_proton_electron": 0.6684284917570101,
+        "predicted_neutron_electron_ratio": 1838.6836623364086,
+        "absolute_neutron_ratio_error": 3.36408675138955e-07,
+        "within_quoted_neutron_standard_uncertainty": true,
+        "initial_electron_admission": 0.8568130062359565,
+        "initial_proton_admission": 0.8688825554879496,
+        "initial_neutron_admission": 0.8674794491654273,
+        "nearest_muon_semiprime_check": {
+          "address": 26207,
+          "factors": [
+            73,
+            359
+          ],
+          "predicted_muon_electron_ratio": 206.80123892893621,
+          "absolute_ratio_error": 0.032956228936228626,
+          "within_quoted_muon_standard_uncertainty": false
+        },
+        "particle_status": "mass-compatible address trial only; shared valence factors, charge, spin, current and lifetime not inferred by this trial"
+      },
+      {
+        "electron_address": 9,
+        "proton_address": 976771,
+        "neutron_address": 978849,
+        "proton_factors": [
+          19,
+          101,
+          509
+        ],
+        "neutron_factors": [
+          3,
+          3,
+          108761
+        ],
+        "calibrated_gamma_from_proton_electron": 0.6481732142094732,
+        "predicted_neutron_electron_ratio": 1838.6836623791446,
+        "absolute_neutron_ratio_error": 3.791446943068877e-07,
+        "within_quoted_neutron_standard_uncertainty": true,
+        "initial_electron_admission": 0.8568130062359565,
+        "initial_proton_admission": 0.8772500888872901,
+        "initial_neutron_admission": 0.8769701807697506,
+        "nearest_muon_semiprime_check": {
+          "address": 33607,
+          "factors": [
+            7,
+            4801
+          ],
+          "predicted_muon_electron_ratio": 206.72646717023275,
+          "absolute_ratio_error": 0.04181552976723424,
+          "within_quoted_muon_standard_uncertainty": false
+        },
+        "particle_status": "mass-compatible address trial only; shared valence factors, charge, spin, current and lifetime not inferred by this trial"
+      },
+      {
+        "electron_address": 9,
+        "proton_address": 766263,
+        "neutron_address": 767859,
+        "proton_factors": [
+          3,
+          163,
+          1567
+        ],
+        "neutron_factors": [
+          3,
+          311,
+          823
+        ],
+        "calibrated_gamma_from_proton_electron": 0.6620322892085393,
+        "predicted_neutron_electron_ratio": 1838.683662385535,
+        "absolute_neutron_ratio_error": 3.855350314552197e-07,
+        "within_quoted_neutron_standard_uncertainty": true,
+        "initial_electron_admission": 0.8568130062359565,
+        "initial_proton_admission": 0.8734980899198075,
+        "initial_neutron_admission": 0.8744110241050789,
+        "nearest_muon_semiprime_check": {
+          "address": 28299,
+          "factors": [
+            3,
+            9433
+          ],
+          "predicted_muon_electron_ratio": 206.76491737555904,
+          "absolute_ratio_error": 0.00336532444094928,
+          "within_quoted_muon_standard_uncertainty": false
+        },
+        "particle_status": "mass-compatible address trial only; shared valence factors, charge, spin, current and lifetime not inferred by this trial"
+      },
+      {
+        "electron_address": 9,
+        "proton_address": 849737,
+        "neutron_address": 851523,
+        "proton_factors": [
+          7,
+          19,
+          6389
+        ],
+        "neutron_factors": [
+          3,
+          19,
+          14939
+        ],
+        "calibrated_gamma_from_proton_electron": 0.6560565270451029,
+        "predicted_neutron_electron_ratio": 1838.6836616053868,
+        "absolute_neutron_ratio_error": 3.946131528209662e-07,
+        "within_quoted_neutron_standard_uncertainty": true,
+        "initial_electron_admission": 0.8568130062359565,
+        "initial_proton_admission": 0.8913579815973302,
+        "initial_neutron_admission": 0.891045898406301,
+        "nearest_muon_semiprime_check": {
+          "address": 30453,
+          "factors": [
+            3,
+            10151
+          ],
+          "predicted_muon_electron_ratio": 206.76534660853474,
+          "absolute_ratio_error": 0.002936091465244317,
+          "within_quoted_muon_standard_uncertainty": false
+        },
+        "particle_status": "mass-compatible address trial only; shared valence factors, charge, spin, current and lifetime not inferred by this trial"
+      },
+      {
+        "electron_address": 9,
+        "proton_address": 354415,
+        "neutron_address": 355103,
+        "proton_factors": [
+          5,
+          73,
+          971
+        ],
+        "neutron_factors": [
+          7,
+          7,
+          7247
+        ],
+        "calibrated_gamma_from_proton_electron": 0.7102758018874076,
+        "predicted_neutron_electron_ratio": 1838.6836615591267,
+        "absolute_neutron_ratio_error": 4.4087323658459354e-07,
+        "within_quoted_neutron_standard_uncertainty": true,
+        "initial_electron_admission": 0.8568130062359565,
+        "initial_proton_admission": 0.8641225436012961,
+        "initial_neutron_admission": 0.8653310908740142,
+        "nearest_muon_semiprime_check": {
+          "address": 16379,
+          "factors": [
+            11,
+            1489
+          ],
+          "predicted_muon_electron_ratio": 206.79069207782587,
+          "absolute_ratio_error": 0.022409377825880483,
+          "within_quoted_muon_standard_uncertainty": false
+        },
+        "particle_status": "mass-compatible address trial only; shared valence factors, charge, spin, current and lifetime not inferred by this trial"
+      },
+      {
+        "electron_address": 9,
+        "proton_address": 759201,
+        "neutron_address": 760781,
+        "proton_factors": [
+          3,
+          83,
+          3049
+        ],
+        "neutron_factors": [
+          7,
+          251,
+          433
+        ],
+        "calibrated_gamma_from_proton_electron": 0.6625726923317334,
+        "predicted_neutron_electron_ratio": 1838.683662464785,
+        "absolute_neutron_ratio_error": 4.6478498916258104e-07,
+        "within_quoted_neutron_standard_uncertainty": true,
+        "initial_electron_admission": 0.8568130062359565,
+        "initial_proton_admission": 0.8686204574591494,
+        "initial_neutron_admission": 0.8698381161756219,
+        "nearest_muon_semiprime_check": {
+          "address": 28115,
+          "factors": [
+            5,
+            5623
+          ],
+          "predicted_muon_electron_ratio": 206.77110957332306,
+          "absolute_ratio_error": 0.002826873323073187,
+          "within_quoted_muon_standard_uncertainty": false
+        },
+        "particle_status": "mass-compatible address trial only; shared valence factors, charge, spin, current and lifetime not inferred by this trial"
+      },
+      {
+        "electron_address": 9,
+        "proton_address": 322283,
+        "neutron_address": 322903,
+        "proton_factors": [
+          13,
+          13,
+          1907
+        ],
+        "neutron_factors": [
+          7,
+          163,
+          283
+        ],
+        "calibrated_gamma_from_proton_electron": 0.7167133186214499,
+        "predicted_neutron_electron_ratio": 1838.6836626521465,
+        "absolute_neutron_ratio_error": 6.521465820696903e-07,
+        "within_quoted_neutron_standard_uncertainty": true,
+        "initial_electron_admission": 0.8568130062359565,
+        "initial_proton_admission": 0.8481225728676135,
+        "initial_neutron_admission": 0.8505979387359781,
+        "nearest_muon_semiprime_check": {
+          "address": 15311,
+          "factors": [
+            61,
+            251
+          ],
+          "predicted_muon_electron_ratio": 206.7899707128923,
+          "absolute_ratio_error": 0.02168801289232647,
+          "within_quoted_muon_standard_uncertainty": false
+        },
+        "particle_status": "mass-compatible address trial only; shared valence factors, charge, spin, current and lifetime not inferred by this trial"
+      },
+      {
+        "electron_address": 9,
+        "proton_address": 673131,
+        "neutron_address": 674517,
+        "proton_factors": [
+          3,
+          59,
+          3803
+        ],
+        "neutron_factors": [
+          3,
+          151,
+          1489
+        ],
+        "calibrated_gamma_from_proton_electron": 0.6696767537874665,
+        "predicted_neutron_electron_ratio": 1838.6836613271623,
+        "absolute_neutron_ratio_error": 6.728375865350245e-07,
+        "within_quoted_neutron_standard_uncertainty": true,
+        "initial_electron_admission": 0.8568130062359565,
+        "initial_proton_admission": 0.8761368770381711,
+        "initial_neutron_admission": 0.8759732308550761,
+        "nearest_muon_semiprime_check": {
+          "address": 25813,
+          "factors": [
+            83,
+            311
+          ],
+          "predicted_muon_electron_ratio": 206.76243894574358,
+          "absolute_ratio_error": 0.005843754256403599,
+          "within_quoted_muon_standard_uncertainty": false
+        },
+        "particle_status": "mass-compatible address trial only; shared valence factors, charge, spin, current and lifetime not inferred by this trial"
+      },
+      {
+        "electron_address": 9,
+        "proton_address": 622137,
+        "neutron_address": 623409,
+        "proton_factors": [
+          3,
+          29,
+          7151
+        ],
+        "neutron_factors": [
+          3,
+          19,
+          10937
+        ],
+        "calibrated_gamma_from_proton_electron": 0.6744109922580904,
+        "predicted_neutron_electron_ratio": 1838.6836612991845,
+        "absolute_neutron_ratio_error": 7.008154625509633e-07,
+        "within_quoted_neutron_standard_uncertainty": true,
+        "initial_electron_admission": 0.8568130062359565,
+        "initial_proton_admission": 0.884067094756324,
+        "initial_neutron_admission": 0.8837406416029903,
+        "nearest_muon_semiprime_check": {
+          "address": 24403,
+          "factors": [
+            23,
+            1061
+          ],
+          "predicted_muon_electron_ratio": 206.7227614580087,
+          "absolute_ratio_error": 0.04552124199128116,
+          "within_quoted_muon_standard_uncertainty": false
+        },
+        "particle_status": "mass-compatible address trial only; shared valence factors, charge, spin, current and lifetime not inferred by this trial"
+      },
+      {
+        "electron_address": 9,
+        "proton_address": 508123,
+        "neutron_address": 509143,
+        "proton_factors": [
+          7,
+          11,
+          6599
+        ],
+        "neutron_factors": [
+          19,
+          127,
+          211
+        ],
+        "calibrated_gamma_from_proton_electron": 0.6868890489405849,
+        "predicted_neutron_electron_ratio": 1838.6836627527164,
+        "absolute_neutron_ratio_error": 7.527164598286618e-07,
+        "within_quoted_neutron_standard_uncertainty": false,
+        "initial_electron_admission": 0.8568130062359565,
+        "initial_proton_admission": 0.86925979460676,
+        "initial_neutron_admission": 0.8676103008998166,
+        "nearest_muon_semiprime_check": {
+          "address": 21145,
+          "factors": [
+            5,
+            4229
+          ],
+          "predicted_muon_electron_ratio": 206.76597160624456,
+          "absolute_ratio_error": 0.002311093755423599,
+          "within_quoted_muon_standard_uncertainty": false
+        },
+        "particle_status": "mass-compatible address trial only; shared valence factors, charge, spin, current and lifetime not inferred by this trial"
+      },
+      {
+        "electron_address": 9,
+        "proton_address": 428151,
+        "neutron_address": 428997,
+        "proton_factors": [
+          3,
+          43,
+          3319
+        ],
+        "neutron_factors": [
+          3,
+          29,
+          4931
+        ],
+        "calibrated_gamma_from_proton_electron": 0.6978108719215655,
+        "predicted_neutron_electron_ratio": 1838.6836629800803,
+        "absolute_neutron_ratio_error": 9.800803582038498e-07,
+        "within_quoted_neutron_standard_uncertainty": false,
+        "initial_electron_admission": 0.8568130062359565,
+        "initial_proton_admission": 0.7899017216318275,
+        "initial_neutron_admission": 0.7898880150672322,
+        "nearest_muon_semiprime_check": {
+          "address": 18727,
+          "factors": [
+            61,
+            307
+          ],
+          "predicted_muon_electron_ratio": 206.7730670614011,
+          "absolute_ratio_error": 0.004784361401107162,
+          "within_quoted_muon_standard_uncertainty": false
+        },
+        "particle_status": "mass-compatible address trial only; shared valence factors, charge, spin, current and lifetime not inferred by this trial"
+      },
+      {
+        "electron_address": 9,
+        "proton_address": 790059,
+        "neutron_address": 791709,
+        "proton_factors": [
+          3,
+          389,
+          677
+        ],
+        "neutron_factors": [
+          3,
+          31,
+          8513
+        ],
+        "calibrated_gamma_from_proton_electron": 0.660253581525788,
+        "predicted_neutron_electron_ratio": 1838.6836610131638,
+        "absolute_neutron_ratio_error": 9.86836084848619e-07,
+        "within_quoted_neutron_standard_uncertainty": false,
+        "initial_electron_admission": 0.8568130062359565,
+        "initial_proton_admission": 0.8828354719598163,
+        "initial_neutron_admission": 0.8832995558704386,
+        "nearest_muon_semiprime_check": {
+          "address": 28915,
+          "factors": [
+            5,
+            5783
+          ],
+          "predicted_muon_electron_ratio": 206.74286660188287,
+          "absolute_ratio_error": 0.025416098117119645,
+          "within_quoted_muon_standard_uncertainty": false
+        },
+        "particle_status": "mass-compatible address trial only; shared valence factors, charge, spin, current and lifetime not inferred by this trial"
+      },
+      {
+        "electron_address": 9,
+        "proton_address": 929949,
+        "neutron_address": 931919,
+        "proton_factors": [
+          3,
+          239,
+          1297
+        ],
+        "neutron_factors": [
+          37,
+          89,
+          283
+        ],
+        "calibrated_gamma_from_proton_electron": 0.6509309499708481,
+        "predicted_neutron_electron_ratio": 1838.6836629951372,
+        "absolute_neutron_ratio_error": 9.95137270365376e-07,
+        "within_quoted_neutron_standard_uncertainty": false,
+        "initial_electron_admission": 0.8568130062359565,
+        "initial_proton_admission": 0.8843576624520522,
+        "initial_neutron_admission": 0.8841989415905753,
+        "nearest_muon_semiprime_check": {
+          "address": 32471,
+          "factors": [
+            19,
+            1709
+          ],
+          "predicted_muon_electron_ratio": 206.78840097428224,
+          "absolute_ratio_error": 0.02011827428225388,
+          "within_quoted_muon_standard_uncertainty": false
+        },
+        "particle_status": "mass-compatible address trial only; shared valence factors, charge, spin, current and lifetime not inferred by this trial"
+      },
+      {
+        "electron_address": 9,
+        "proton_address": 640067,
+        "neutron_address": 641379,
+        "proton_factors": [
+          17,
+          23,
+          1637
+        ],
+        "neutron_factors": [
+          3,
+          439,
+          487
+        ],
+        "calibrated_gamma_from_proton_electron": 0.672695852021833,
+        "predicted_neutron_electron_ratio": 1838.6836630228145,
+        "absolute_neutron_ratio_error": 1.0228145583823789e-06,
+        "within_quoted_neutron_standard_uncertainty": false,
+        "initial_electron_admission": 0.8568130062359565,
+        "initial_proton_admission": 0.8751963141451684,
+        "initial_neutron_admission": 0.8746457706592096,
+        "nearest_muon_semiprime_check": {
+          "address": 24911,
+          "factors": [
+            29,
+            859
+          ],
+          "predicted_muon_electron_ratio": 206.78504200014652,
+          "absolute_ratio_error": 0.01675930014653204,
+          "within_quoted_muon_standard_uncertainty": false
+        },
+        "particle_status": "mass-compatible address trial only; shared valence factors, charge, spin, current and lifetime not inferred by this trial"
+      }
+    ]
+  },
+  "trial_B": {
+    "name": "linked uud udd prime factors",
+    "pairs_tested": 735,
+    "best_pair": {
+      "up_prime": 71,
+      "down_prime": 73,
+      "electron_address": 9,
+      "proton_address": 367993,
+      "neutron_address": 378359,
+      "gamma": 0.7077610544166317,
+      "predicted_neutron_electron_ratio": 1872.6110451196164,
+      "neutron_ratio_error": 33.92738311961648,
+      "predicted_neutron_rest_energy_MeV": 956.9022791066283,
+      "proton_charge_e": 1,
+      "neutron_charge_e": 0,
+      "required_electron_address_for_exact_two_ratios": 5.524663455945416e-61
+    },
+    "status": "the simple common power readout does not match linked proton/neutron structure at N<=1e6; energy readout needs an interaction or binding term, a different encoding, or an expanded address range"
+  },
+  "trial_C": {
+    "encoding": "u prime=3, d prime=5 in the baryon valence readout; chosen minimal odd distinct prime encoding. Electron address 9 belongs to a separate lepton channel, not two up quarks.",
+    "charge_operator": "Q(n,channel): quark valence sector uses 2/3 ku - 1/3 kd; electron channel is assigned -1, antineutrino channel 0. Integer factorization alone does not supply channel labels.",
+    "energy_readout": "E(ku,kd)=A*(ku+kd)+B*(kd-ku) for the spin-1/2 nucleon ground-state doublet",
+    "energy_parameters_MeV": {
+      "A": 312.97291856166663,
+      "B": 0.646666255
+    },
+    "energy_calibration": "A to mean p/n energy, B to neutron-proton mass difference",
+    "current_readout": "mu_p=(4 mu_u-mu_d)/3, mu_n=(4 mu_d-mu_u)/3; SU(6) nucleon moment readout used as a calibrated map",
+    "current_parameters_in_nuclear_magnetons": {
+      "mu_u": 1.8516693237040003,
+      "mu_d": -0.971864739074
+    },
+    "current_calibration": "two observed p/n magnetic moments",
+    "scope": "nucleon isospin doublet only; binding/spin excitation and lepton mass readout beyond the fitted e baseline remain extensions",
+    "addresses_chosen_from_lower_prime_support_not_identified_by_constants_alone": true,
+    "proton": {
+      "address": 45,
+      "factors": [
+        3,
+        3,
+        5
+      ],
+      "ku": 2,
+      "kd": 1,
+      "initial_admission": 0.8809239719889248,
+      "energy_MeV": 938.2720894299999,
+      "charge_e": 1,
+      "magnetic_moment": 2.7928473446300006
+    },
+    "neutron": {
+      "address": 75,
+      "factors": [
+        3,
+        5,
+        5
+      ],
+      "ku": 1,
+      "kd": 2,
+      "initial_admission": 0.8878695671042005,
+      "energy_MeV": 939.56542194,
+      "charge_e": 0,
+      "magnetic_moment": -1.91304276
+    },
+    "transition": "udd -> uud + e- + antinu_e; address 75 -> 45 with lepton channels; integer address product is a label, not a conserved energy",
+    "decay_energy_from_shared_readout_MeV": 0.7823335593100275
+  },
+  "particle_differences": {
+    "proton": {
+      "valence": "uud",
+      "charge_e": 1,
+      "spin_hbar": 0.5,
+      "beta_to_n_eplus_nu_Q_MeV": -1.8043314606899998,
+      "beta_only_channel": "closed by energy"
+    },
+    "neutron": {
+      "valence": "udd",
+      "charge_e": 0,
+      "spin_hbar": 0.5,
+      "beta_to_p_eminus_antinu_Q_MeV": 0.7823335593099999,
+      "mean_life_s": 878.3
+    }
+  },
+  "decay_trial": {
+    "transition": "n -> p + electron + electron antineutrino",
+    "physical_input_used_for_rate": "observed 878.3 s mean life; rate not derived from prime factors",
+    "channel_context": "free neutron, beta-only transition; neutrino rest masses and radiative branching resolution neglected",
+    "frame_probability_rule": "epsilon(dt)=1-exp(-dt/tau), S(k)=(1-epsilon)^k",
+    "dt_interpretation": "chosen physical observation step, not the uncalibrated fundamental universe frame",
+    "decay_v_return": "a phenotype transition among Actual states is distinct from fold leakage into SOURCE",
+    "rows": [
+      {
+        "time_s": 0.0,
+        "surviving_neutron_probability": 1.0,
+        "completed_decay_probability": 0.0,
+        "expected_neutron_count": 1.0,
+        "expected_proton_count": 0.0,
+        "expected_electron_count": 0.0,
+        "expected_antineutrino_count": 0.0,
+        "combined_daughter_kinetic_and_antineutrino_energy_MeV": 0.0,
+        "energy_ledger_MeV": 939.56542194,
+        "net_charge_e": 0.0,
+        "baryon_count": 1.0,
+        "lepton_number": 0.0,
+        "SOURCE_return_fraction": 0.0,
+        "normal_return_note": "total energy remains in Actual in this beta-only trial; radiation energy is part of Actual ledger"
+      },
+      {
+        "time_s": 1.0,
+        "surviving_neutron_probability": 0.998862084783757,
+        "completed_decay_probability": 0.0011379152162429558,
+        "expected_neutron_count": 0.998862084783757,
+        "expected_proton_count": 0.0011379152162429558,
+        "expected_electron_count": 0.0011379152162429558,
+        "expected_antineutrino_count": 0.0011379152162429558,
+        "combined_daughter_kinetic_and_antineutrino_energy_MeV": 0.0008902292613163599,
+        "energy_ledger_MeV": 939.56542194,
+        "net_charge_e": 0.0,
+        "baryon_count": 1.0,
+        "lepton_number": 0.0,
+        "SOURCE_return_fraction": 0.0,
+        "normal_return_note": "total energy remains in Actual in this beta-only trial; radiation energy is part of Actual ledger"
+      },
+      {
+        "time_s": 100.0,
+        "surviving_neutron_probability": 0.89238617066573,
+        "completed_decay_probability": 0.10761382933427,
+        "expected_neutron_count": 0.89238617066573,
+        "expected_proton_count": 0.10761382933427,
+        "expected_electron_count": 0.10761382933427,
+        "expected_antineutrino_count": 0.10761382933427,
+        "combined_daughter_kinetic_and_antineutrino_energy_MeV": 0.08418991013405833,
+        "energy_ledger_MeV": 939.56542194,
+        "net_charge_e": 0.0,
+        "baryon_count": 1.0,
+        "lepton_number": 0.0,
+        "SOURCE_return_fraction": 0.0,
+        "normal_return_note": "total energy remains in Actual in this beta-only trial; radiation energy is part of Actual ledger"
+      },
+      {
+        "time_s": 878.3,
+        "surviving_neutron_probability": 0.36787944117144233,
+        "completed_decay_probability": 0.6321205588285577,
+        "expected_neutron_count": 0.36787944117144233,
+        "expected_proton_count": 0.6321205588285577,
+        "expected_electron_count": 0.6321205588285577,
+        "expected_antineutrino_count": 0.6321205588285577,
+        "combined_daughter_kinetic_and_antineutrino_energy_MeV": 0.4945291267013717,
+        "energy_ledger_MeV": 939.56542194,
+        "net_charge_e": 0.0,
+        "baryon_count": 1.0,
+        "lepton_number": 0.0,
+        "SOURCE_return_fraction": 0.0,
+        "normal_return_note": "total energy remains in Actual in this beta-only trial; radiation energy is part of Actual ledger"
+      },
+      {
+        "time_s": 1000.0,
+        "surviving_neutron_probability": 0.3202788894156396,
+        "completed_decay_probability": 0.6797211105843604,
+        "expected_neutron_count": 0.3202788894156396,
+        "expected_proton_count": 0.6797211105843604,
+        "expected_electron_count": 0.6797211105843604,
+        "expected_antineutrino_count": 0.6797211105843604,
+        "combined_daughter_kinetic_and_antineutrino_energy_MeV": 0.5317686357816087,
+        "energy_ledger_MeV": 939.5654219400001,
+        "net_charge_e": 0.0,
+        "baryon_count": 1.0,
+        "lepton_number": 0.0,
+        "SOURCE_return_fraction": 0.0,
+        "normal_return_note": "total energy remains in Actual in this beta-only trial; radiation energy is part of Actual ledger"
+      },
+      {
+        "time_s": 4391.5,
+        "surviving_neutron_probability": 0.006737946999085467,
+        "completed_decay_probability": 0.9932620530009145,
+        "expected_neutron_count": 0.006737946999085467,
+        "expected_proton_count": 0.9932620530009145,
+        "expected_electron_count": 0.9932620530009145,
+        "expected_antineutrino_count": 0.9932620530009145,
+        "combined_daughter_kinetic_and_antineutrino_energy_MeV": 0.7770622372517633,
+        "energy_ledger_MeV": 939.5654219400001,
+        "net_charge_e": 0.0,
+        "baryon_count": 1.0,
+        "lepton_number": 0.0,
+        "SOURCE_return_fraction": 0.0,
+        "normal_return_note": "total energy remains in Actual in this beta-only trial; radiation energy is part of Actual ledger"
+      }
+    ]
+  },
+  "zeta_reference": {
+    "sha256": "a9548532c72e5af59b1e5f41f4524f2d45355a762bd29db01b363d6047dd8586",
+    "source_commit": "f145b82856f53a45611c4cc18f22ea9f1589da73",
+    "source_repository_path": "upstream/zeta_frame_v0_1/code/results.json",
+    "used_parameters": {
+      "zero_count": 4,
+      "frames": 8,
+      "xi": 0.1,
+      "phase_offset": 0.0,
+      "threshold_h": 1.44767317035244,
+      "alpha": 1.8996876950554356
+    }
+  },
+  "completed_response_components": [
+    "calibrated nucleon ground-state energy readout",
+    "calibrated signed nucleon magnetic-current readout",
+    "valence charges and free beta energy threshold",
+    "mean-life-calibrated conserved expectation ledger"
+  ],
+  "companion_audit": "channel_readout.py computes separate color, weak, EM-charge and spin-addition responses; channel_results.json records the extended state schema and uncomputed force strengths",
+  "next_readout_constraints": [
+    "nucleon mass splitting into isospin and electromagnetic contributions at stated scale/scheme",
+    "binding and interaction energy across spin, orbital and nuclear states",
+    "microscopic charge-preserving fold transition matrix element and phase space",
+    "common lepton mass response and alternative particle/environment holdouts"
+  ],
+  "verification": {
+    "trial_A_addresses_folded": true,
+    "trial_A_all_selected_have_nonzero_initial_admission": true,
+    "trial_A_calibration_reproduces_proton_ratio": true,
+    "trial_B_shared_valence_products": true,
+    "trial_B_optimal_ne9_explained": "For b>a and positive gamma, increasing ne increases the predicted n/p ratio; ne=9 is the minimum admissible odd composite.",
+    "charges_match_supplied_valence_readout": true,
+    "trial_C_shared_energy_matches_nucleons": true,
+    "trial_C_signed_current_matches_moments": true,
+    "trial_C_addresses_in_folded_phenotype_support": true,
+    "free_neutron_beta_channel_has_positive_Q": true,
+    "proton_to_neutron_positron_channel_has_negative_Q": true,
+    "decay_total_energy_preserved": true,
+    "decay_charge_baryon_lepton_ledgers_preserved": true
+  },
+  "falsification_conditions": [
+    "no folded address candidate under a stated finite search and readout",
+    "failure of shared valence-factor mass map, charge or current response",
+    "negative or nonconserved transition energy/probability",
+    "unreported lifetime or particle-specific fitting used as if derived"
+  ]
+}
