@@ -10,6 +10,8 @@ WRRA-M continues WRRA Core 1.0 and Minimal Computation Cosmology 2.3.2.
 
 - [한국어 개요](README_KO.md) · [English overview](README_EN.md)
 - [0.5 한국어 PDF](paper/WRRA_M_0_5_KO.pdf) · [DOCX](paper/WRRA_M_0_5_KO.docx) · [Markdown](paper/WRRA_M_0_5_KO.md)
+- [0.5 English PDF](paper/WRRA_M_0_5_EN.pdf) · [DOCX](paper/WRRA_M_0_5_EN.docx) · [Markdown](paper/WRRA_M_0_5_EN.md)
+- [0.5 English reproduction ZIP](paper/WRRA_M_0_5_Reproducibility_EN.zip)
 - [0.5 reproduction package](paper/WRRA_M_0_5_Reproducibility.zip) · [Calculation and results](calculations/wrra_m_0_5)
 
 ## Verification input → WRRA-specific transformation → Output → Falsification condition
@@ -27,7 +29,7 @@ Version 0.5 selects the B_C model branch: quantized mass phenotypes and gravity 
 
 0.5는 질량 양자화·중력 비양자화의 B_C 가지를 모형 전제로 선택한다. 팽창과 뒤틀림의 공존을 유지하고 현재의 정적 뒤틀림 응력을 계산한다. 표현형 이전 정보 부하와 꼬임 및 유한·무경계 공간을 조건부 수식으로 연결한다. 팽창 동역학과 실제 우주의 위상·크기 확정은 후속 범위다.
 
-The calibrated constitutive response is actually computed within WRRA. The homogeneous carrier passes transport conditions but cannot uniquely select the target filter. The phenotype and hidden fractions remain editable estimates. The full Korean paper and bilingual overviews distinguish the executed results from the remaining microscopic and covariant work.
+The calibrated constitutive response is actually computed within WRRA. The homogeneous carrier passes transport conditions but cannot uniquely select the target filter. The phenotype and hidden fractions remain editable estimates. The full Korean and English papers and bilingual overviews distinguish the executed results from the remaining microscopic and covariant work.
 
 ## Reproduce 0.5
 
@@ -115,4 +117,5 @@ Email: [janefather@gmail.com](mailto:janefather@gmail.com)
 ## Citation and license
 
 Citation metadata is provided in [`CITATION.cff`](CITATION.cff). The papers and documentation are licensed under [CC BY 4.0](LICENSE).
+
 

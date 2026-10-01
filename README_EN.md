@@ -25,12 +25,16 @@ The phenotype and hidden fractions are editable estimates rather than immutable 
 
 ## Files and reproduction
 
+- [English PDF](paper/WRRA_M_0_5_EN.pdf) · [English DOCX](paper/WRRA_M_0_5_EN.docx) · [English Markdown source](paper/WRRA_M_0_5_EN.md)
 - [Korean PDF](paper/WRRA_M_0_5_KO.pdf) · [Korean DOCX](paper/WRRA_M_0_5_KO.docx)
 - [Korean Markdown source](paper/WRRA_M_0_5_KO.md)
 - [Complete reproduction ZIP](paper/WRRA_M_0_5_Reproducibility.zip)
 - [Calculation directory](calculations/wrra_m_0_5) · [Recorded results](calculations/wrra_m_0_5/results/results.json)
 
-An English paper translation is not included in this version.
+The full English edition preserves all 15 equations and all 19 numerical table rows of the Korean original.
+
+- [English reproduction ZIP](paper/WRRA_M_0_5_Reproducibility_EN.zip)
+- [English document builder](calculations/wrra_m_0_5/build_report_en.py)
 
 ```bash
 python -m pip install -r calculations/wrra_m_0_5/requirements.txt
@@ -124,4 +128,5 @@ The finite witness proves constructibility only. Version 0.4 does not calculate 
 ## Identity
 
 Wonsik Choi · ORCID [0009-0001-4263-9772](https://orcid.org/0009-0001-4263-9772) · [janefather@gmail.com](mailto:janefather@gmail.com)
+
 

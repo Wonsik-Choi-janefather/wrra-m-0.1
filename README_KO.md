@@ -26,11 +26,15 @@
 ## 파일과 재현
 
 - [한글 PDF](paper/WRRA_M_0_5_KO.pdf) · [한글 DOCX](paper/WRRA_M_0_5_KO.docx)
+- [영문 PDF](paper/WRRA_M_0_5_EN.pdf) · [영문 DOCX](paper/WRRA_M_0_5_EN.docx) · [영문 Markdown 원고](paper/WRRA_M_0_5_EN.md)
 - [한글 Markdown 원고](paper/WRRA_M_0_5_KO.md)
 - [전체 재현 ZIP](paper/WRRA_M_0_5_Reproducibility.zip)
 - [계산 디렉터리](calculations/wrra_m_0_5) · [결과 장부](calculations/wrra_m_0_5/results/results.json)
 
-이번 게시물에는 영문 본문 번역본이 포함되지 않는다.
+영문 전체 번역본도 제공한다. 한글 원고의 수식 15개와 수치표 19개 행을 그대로 보존했다.
+
+- [영문 재현 ZIP](paper/WRRA_M_0_5_Reproducibility_EN.zip)
+- [영문 문서 생성기](calculations/wrra_m_0_5/build_report_en.py)
 
 ```bash
 python -m pip install -r calculations/wrra_m_0_5/requirements.txt
@@ -124,4 +128,5 @@ c_C(i,j)=-\lVert u_i-u_j\rVert_C^2.
 ## 저자 정보
 
 최원식 Wonsik Choi · ORCID [0009-0001-4263-9772](https://orcid.org/0009-0001-4263-9772) · [janefather@gmail.com](mailto:janefather@gmail.com)
+
 
