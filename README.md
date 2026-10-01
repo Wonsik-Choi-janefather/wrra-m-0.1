@@ -4,9 +4,35 @@
 
 **원식 현실 렌더러 아키텍처 메타차원 연구 분기**
 
-Latest version: **WRRA-M 0.6-r2** · 2026-10-01
+Latest development version: **WRRA-M 0.7** · 2026-10-01
+
+Latest Zenodo archive: **WRRA-M 0.6-r2**.
 
 WRRA-M continues WRRA Core 1.0 and Minimal Computation Cosmology 2.3.2.
+
+## Completed 0.7 · 0.7 완료
+
+Version 0.7 fixes the common definitions of Actual, quantization, phenotype, residue and physical records. A positive additive **energy-weighted information-load measure** reproduces the 4.93% phenotype and 95.07% hidden reference, recalculates shares for changed states and scale, and bridges to the same 0.6-r2 energy, pressure, gravity and expansion calculations. The shares are allocation weights; measurement outcome probabilities and particle/filter selection are the subsequent development stages.
+
+Actual·양자화·표현형·잔여·물리적 기록의 공통 정의와 에너지 가중 정보부하 측도를 확정했다. 기준 4.93%·95.07%를 재현하고 상태·공간 크기 변경 시 다시 계산한다. 같은 장부를 0.6-r2 물리 계산에 연결했다. 16개 검증 묶음과 한영 문서 대조를 완료했다.
+
+- [0.7 한국어 PDF](paper/WRRA_M_0_7_KO.pdf) · [DOCX](paper/WRRA_M_0_7_KO.docx) · [Markdown](paper/WRRA_M_0_7_KO.md)
+- [0.7 English PDF](paper/WRRA_M_0_7_EN.pdf) · [DOCX](paper/WRRA_M_0_7_EN.docx) · [Markdown](paper/WRRA_M_0_7_EN.md)
+- [0.7 bilingual reproducibility ZIP](paper/WRRA_M_0_7_Reproducibility.zip)
+- [Calculation and input ledger](calculations/wrra_m_0_7) · [Verification results](calculations/wrra_m_0_7/results/verification.json)
+- [Development record](REVISION_0_7.md)
+
+| Evaluation | WRRA-M 0.7 |
+| --- | --- |
+| Verification input / 검증 입력 | Frozen 0.6-r2 code and disclosed constants, late-universe fractions, state recipes and constitutive inputs. |
+| WRRA-specific transformation / WRRA 고유 변환 | Positive sector-load traces, additive Actual measure, normalized phenotype/hidden shares and the same energy-pressure-gravity-expansion bridge. |
+| Output / 산출값 | 4.93% / 95.07% reference reproduced; nine case ledgers, twenty-four additional state/exponent tests; inherited reference outputs retained. |
+| Falsification / 반증조건 | Negative admissible load, partition or pressure mismatch, changed undisclosed inputs, failed bridge or claim of an unexecuted transition. |
+
+```bash
+python -m pip install -r calculations/wrra_m_0_7/requirements.txt
+python calculations/wrra_m_0_7/run_release.py
+```
 
 ## 0.6-r2 correction / 0.6-r2 교정
 
@@ -173,3 +199,4 @@ Citation metadata is provided in [`CITATION.cff`](CITATION.cff). The papers and 
 The 0.5 titles and claim ledger now foreground information load and twist gravity. Its local calculation uses 26.5% of the whole universe within the hidden total of 95.07%. The zero-phenotype input executes with undefined ratios recorded as null; the radius response ratio is evaluated numerically. The original scientific outputs reproduce unchanged.
 
 [0.6 start, Korean](calculations/wrra_m_0_6_start/README_KO.md) · [0.6 start, English](calculations/wrra_m_0_6_start/README_EN.md) · [Start reproducibility archive](calculations/wrra_m_0_6_start/WRRA_M_0_6_Start_Reproducibility.zip). These files preserve the initial prototype. The completed finite homogeneous model and bilingual paper are provided above.
+

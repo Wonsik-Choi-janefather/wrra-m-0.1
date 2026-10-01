@@ -1,0 +1,101 @@
+{
+  "version": "WRRA-M 0.7",
+  "passed": true,
+  "check_count": 16,
+  "input_hash_sha256": "8d741b5b07a43e1d8d686e18024cc2eb01c330308628fb4ce69562ba3b9c66d1",
+  "checks": [
+    {
+      "name": "exact_reference_fraction_at_three_scales",
+      "passed": true,
+      "maximum_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "positive_additive_weight_and_normalized_partition",
+      "passed": true,
+      "weight_max_error": 2.6645352591003757e-15,
+      "share_max_error": 0.0
+    },
+    {
+      "name": "same_energy_and_pressure_as_0_6_r2",
+      "passed": true,
+      "density_max_absolute_error_J_m3": 4.1359030627651384e-25,
+      "pressure_max_absolute_error_Pa": 4.1359030627651384e-25
+    },
+    {
+      "name": "inherited_reference_rotation_and_lensing",
+      "passed": true,
+      "velocity_absolute_error_km_s": 0.0,
+      "lens_absolute_error_rad": 0.0
+    },
+    {
+      "name": "pressure_from_independent_volume_difference",
+      "passed": true,
+      "maximum_relative_error": 4.8402290735057016e-11
+    },
+    {
+      "name": "joint_basis_covariance",
+      "passed": true,
+      "maximum_weight_error": 1.3877787807814457e-17
+    },
+    {
+      "name": "fixed_scale_unitary_energy_and_state_spectrum",
+      "passed": true,
+      "energy_relative_error": 2.220446049250313e-16,
+      "state_spectrum_max_error": 1.1012244598904028e-16,
+      "sector_weights_change": 0.0012326820071975192
+    },
+    {
+      "name": "admissible_mixed_states_and_exponent_changes",
+      "passed": true,
+      "evaluated_cases": 24,
+      "maximum_partition_error": 8.881784197001252e-16
+    },
+    {
+      "name": "declared_recalibration_propagates",
+      "passed": true,
+      "recalibrated_phenotype_share": 0.08000000000000002
+    },
+    {
+      "name": "bookkeeping_volume_does_not_change_density_or_share",
+      "passed": true
+    },
+    {
+      "name": "information_weight_is_distinct_from_entropy_or_state_count",
+      "passed": true,
+      "low_mode_phenotype_share": 0.40520194328848963,
+      "high_mode_phenotype_share": 0.02527297893064028
+    },
+    {
+      "name": "zero_total_weight_is_undefined_fraction_not_false_probability",
+      "passed": true,
+      "state_trace": 0.9999999999999999
+    },
+    {
+      "name": "zero_background_sector",
+      "passed": true
+    },
+    {
+      "name": "invalid_inputs_and_states_rejected",
+      "passed": true,
+      "rejected_cases": [
+        "negative_fraction",
+        "overallocated_fractions",
+        "changed_SI_c",
+        "nan_H0",
+        "invalid_grid",
+        "negative_epsilon",
+        "unexecuted_physical_record",
+        "negative_state",
+        "wrong_trace"
+      ]
+    },
+    {
+      "name": "no_fictitious_measurement_or_double_counted_record",
+      "passed": true
+    },
+    {
+      "name": "input_ledger_preserved",
+      "passed": true
+    }
+  ]
+}

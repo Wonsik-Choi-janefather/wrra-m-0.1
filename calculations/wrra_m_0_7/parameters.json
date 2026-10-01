@@ -1,0 +1,105 @@
+{
+  "model_version": "WRRA-M 0.7",
+  "measure": "energy_weighted_information_load",
+  "reference_volume_m3": 1.0,
+  "carrier_and_background": {
+    "lattice_N": 128,
+    "a_min": 0.5,
+    "a_max": 2.0,
+    "output_grid_points": 401,
+    "information_clock_over_H0": 0.7,
+    "clustering_energy_exponent": 0.0,
+    "background_energy_exponent": 3.0,
+    "noncommuting_test_strength": 8.0,
+    "noncommuting_test_initial_modes": [
+      8,
+      16,
+      24
+    ],
+    "noncommuting_test_initial_weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "test_radius_kpc": 8.2,
+    "lens_impact_kpc": 10.0,
+    "rtol": 1e-11,
+    "atol": 1e-13,
+    "max_log_a_step": 0.01,
+    "scope": "Finite homogeneous constitutive completion, with inherited conditional local renderer",
+    "ownership": "Energy-volume exponents, operators and information clock are declared constitutive choices"
+  },
+  "calibration_and_local_source": {
+    "c_m_s": 299792458.0,
+    "G_SI": 6.6743e-11,
+    "H0_km_s_Mpc": 67.4,
+    "fraction_phenotype": 0.0493,
+    "fraction_twist_clustering": 0.265,
+    "M_sun_kg": 1.98847e+30,
+    "parsec_m": 3.085677581491367e+16,
+    "electron_mass_energy_eV": 510998.95069,
+    "sphere_mass_Msun": 60000000000.0,
+    "sphere_scale_kpc": 3.0,
+    "patch_radius_kpc": 200.0,
+    "report_radii_kpc": [
+      1,
+      3,
+      8.2,
+      20,
+      50,
+      100
+    ],
+    "lens_impact_kpc": [
+      5,
+      10,
+      20,
+      50
+    ],
+    "internal_lattice_N": 128,
+    "carrier_probe_frequency_squared": [
+      0.1,
+      0.5,
+      1.0,
+      2.0,
+      3.5
+    ],
+    "carrier_damping": 0.2,
+    "disk_components_mass_1e9Msun_scale_kpc": [
+      [
+        35.66,
+        2.53
+      ],
+      [
+        11.25,
+        3.38
+      ],
+      [
+        11.0,
+        7.0
+      ],
+      [
+        1.2,
+        1.5
+      ]
+    ],
+    "bulge_mass_1e9Msun_scale_kpc": [
+      9.13,
+      0.7
+    ],
+    "response_nu": "1 / (1 - exp(-sqrt(y)))",
+    "response_provenance": "Calibrated constitutive input adopted in WRRA Galactic Disk paper v1.0 2026-09-27",
+    "gravity_ontology": "B_C continuous geometric branch; no independent gravitational Hilbert space",
+    "lensing_condition": "Phi = Psi assumed in the finite weak-field patch",
+    "fraction_note": "Editable late-universe energy-weighted calibration; not counts of bits or particle channels"
+  },
+  "physical_records": [],
+  "measurement_events": [],
+  "definition_policy": {
+    "Actual": "complete current modeled state and its total weighted load",
+    "quantization": "future actual operation producing discrete phenotype and physical record; not yet executed",
+    "phenotype": "currently expressed sector budget, adopted from inherited calibrated branch",
+    "residue": "retained unexpressed state content; no extra independent sector",
+    "record": "future physical outcome record; distinct from software provenance"
+  },
+  "fraction_provenance": "Inherited rounded late-universe reference: 0.0493 phenotype and 0.265 clustering; remaining background is calculated. Information-to-energy identification is a WRRA constitutive choice."
+}

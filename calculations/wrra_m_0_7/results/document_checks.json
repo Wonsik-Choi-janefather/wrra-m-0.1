@@ -1,0 +1,23 @@
+{
+  "version": "WRRA-M 0.7",
+  "passed": true,
+  "input_hash_sha256": "8d741b5b07a43e1d8d686e18024cc2eb01c330308628fb4ce69562ba3b9c66d1",
+  "source_equations_equal": true,
+  "native_equations_equal": true,
+  "tables_match_computed_results": true,
+  "editions": {
+    "KO": {
+      "pdf_pages": 7,
+      "native_equations": 11,
+      "numerical_rows": 9,
+      "verification_rows": 16
+    },
+    "EN": {
+      "pdf_pages": 5,
+      "native_equations": 11,
+      "numerical_rows": 9,
+      "verification_rows": 16
+    }
+  },
+  "visual_QA": "All rendered pages separately inspected for the release."
+}

@@ -1,0 +1,1371 @@
+{
+  "version": "WRRA-M 0.7",
+  "date": "2026-10-01",
+  "author": "Wonsik Choi",
+  "input_hash_sha256": "8d741b5b07a43e1d8d686e18024cc2eb01c330308628fb4ce69562ba3b9c66d1",
+  "input_ledger": {
+    "model_version": "WRRA-M 0.7",
+    "measure": "energy_weighted_information_load",
+    "reference_volume_m3": 1.0,
+    "carrier_and_background": {
+      "lattice_N": 128,
+      "a_min": 0.5,
+      "a_max": 2.0,
+      "output_grid_points": 401,
+      "information_clock_over_H0": 0.7,
+      "clustering_energy_exponent": 0.0,
+      "background_energy_exponent": 3.0,
+      "noncommuting_test_strength": 8.0,
+      "noncommuting_test_initial_modes": [
+        8,
+        16,
+        24
+      ],
+      "noncommuting_test_initial_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "test_radius_kpc": 8.2,
+      "lens_impact_kpc": 10.0,
+      "rtol": 1e-11,
+      "atol": 1e-13,
+      "max_log_a_step": 0.01,
+      "scope": "Finite homogeneous constitutive completion, with inherited conditional local renderer",
+      "ownership": "Energy-volume exponents, operators and information clock are declared constitutive choices"
+    },
+    "calibration_and_local_source": {
+      "c_m_s": 299792458.0,
+      "G_SI": 6.6743e-11,
+      "H0_km_s_Mpc": 67.4,
+      "fraction_phenotype": 0.0493,
+      "fraction_twist_clustering": 0.265,
+      "M_sun_kg": 1.98847e+30,
+      "parsec_m": 3.085677581491367e+16,
+      "electron_mass_energy_eV": 510998.95069,
+      "sphere_mass_Msun": 60000000000.0,
+      "sphere_scale_kpc": 3.0,
+      "patch_radius_kpc": 200.0,
+      "report_radii_kpc": [
+        1,
+        3,
+        8.2,
+        20,
+        50,
+        100
+      ],
+      "lens_impact_kpc": [
+        5,
+        10,
+        20,
+        50
+      ],
+      "internal_lattice_N": 128,
+      "carrier_probe_frequency_squared": [
+        0.1,
+        0.5,
+        1.0,
+        2.0,
+        3.5
+      ],
+      "carrier_damping": 0.2,
+      "disk_components_mass_1e9Msun_scale_kpc": [
+        [
+          35.66,
+          2.53
+        ],
+        [
+          11.25,
+          3.38
+        ],
+        [
+          11.0,
+          7.0
+        ],
+        [
+          1.2,
+          1.5
+        ]
+      ],
+      "bulge_mass_1e9Msun_scale_kpc": [
+        9.13,
+        0.7
+      ],
+      "response_nu": "1 / (1 - exp(-sqrt(y)))",
+      "response_provenance": "Calibrated constitutive input adopted in WRRA Galactic Disk paper v1.0 2026-09-27",
+      "gravity_ontology": "B_C continuous geometric branch; no independent gravitational Hilbert space",
+      "lensing_condition": "Phi = Psi assumed in the finite weak-field patch",
+      "fraction_note": "Editable late-universe energy-weighted calibration; not counts of bits or particle channels"
+    },
+    "physical_records": [],
+    "measurement_events": [],
+    "definition_policy": {
+      "Actual": "complete current modeled state and its total weighted load",
+      "quantization": "future actual operation producing discrete phenotype and physical record; not yet executed",
+      "phenotype": "currently expressed sector budget, adopted from inherited calibrated branch",
+      "residue": "retained unexpressed state content; no extra independent sector",
+      "record": "future physical outcome record; distinct from software provenance"
+    },
+    "fraction_provenance": "Inherited rounded late-universe reference: 0.0493 phenotype and 0.265 clustering; remaining background is calculated. Information-to-energy identification is a WRRA constitutive choice."
+  },
+  "input_provenance": [
+    {
+      "path": "carrier_and_background.lattice_N",
+      "value": 128,
+      "classification": "constitutive_choice",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "carrier_and_background.a_min",
+      "value": 0.5,
+      "classification": "constitutive_choice",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "carrier_and_background.a_max",
+      "value": 2.0,
+      "classification": "constitutive_choice",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "carrier_and_background.output_grid_points",
+      "value": 401,
+      "classification": "constitutive_choice",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "carrier_and_background.information_clock_over_H0",
+      "value": 0.7,
+      "classification": "constitutive_choice",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "carrier_and_background.clustering_energy_exponent",
+      "value": 0.0,
+      "classification": "constitutive_choice",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "carrier_and_background.background_energy_exponent",
+      "value": 3.0,
+      "classification": "constitutive_choice",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "carrier_and_background.noncommuting_test_strength",
+      "value": 8.0,
+      "classification": "constitutive_choice",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "carrier_and_background.noncommuting_test_initial_modes",
+      "value": [
+        8,
+        16,
+        24
+      ],
+      "classification": "constitutive_choice",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "carrier_and_background.noncommuting_test_initial_weights",
+      "value": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "classification": "constitutive_choice",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "carrier_and_background.test_radius_kpc",
+      "value": 8.2,
+      "classification": "constitutive_choice",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "carrier_and_background.lens_impact_kpc",
+      "value": 10.0,
+      "classification": "constitutive_choice",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "carrier_and_background.rtol",
+      "value": 1e-11,
+      "classification": "constitutive_choice",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "carrier_and_background.atol",
+      "value": 1e-13,
+      "classification": "constitutive_choice",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "carrier_and_background.max_log_a_step",
+      "value": 0.01,
+      "classification": "constitutive_choice",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "carrier_and_background.scope",
+      "value": "Finite homogeneous constitutive completion, with inherited conditional local renderer",
+      "classification": "constitutive_choice",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "carrier_and_background.ownership",
+      "value": "Energy-volume exponents, operators and information clock are declared constitutive choices",
+      "classification": "constitutive_choice",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "calibration_and_local_source.c_m_s",
+      "value": 299792458.0,
+      "classification": "SI_defining_constant",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "calibration_and_local_source.G_SI",
+      "value": 6.6743e-11,
+      "classification": "inherited_constant_or_unit_conversion",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "calibration_and_local_source.H0_km_s_Mpc",
+      "value": 67.4,
+      "classification": "editable_late_universe_calibration",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "calibration_and_local_source.fraction_phenotype",
+      "value": 0.0493,
+      "classification": "editable_late_universe_calibration",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "calibration_and_local_source.fraction_twist_clustering",
+      "value": 0.265,
+      "classification": "editable_late_universe_calibration",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "calibration_and_local_source.M_sun_kg",
+      "value": 1.98847e+30,
+      "classification": "inherited_constant_or_unit_conversion",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "calibration_and_local_source.parsec_m",
+      "value": 3.085677581491367e+16,
+      "classification": "inherited_constant_or_unit_conversion",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "calibration_and_local_source.electron_mass_energy_eV",
+      "value": 510998.95069,
+      "classification": "inherited_constant_or_unit_conversion",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "calibration_and_local_source.sphere_mass_Msun",
+      "value": 60000000000.0,
+      "classification": "inherited_calibration_or_source",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "calibration_and_local_source.sphere_scale_kpc",
+      "value": 3.0,
+      "classification": "inherited_calibration_or_source",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "calibration_and_local_source.patch_radius_kpc",
+      "value": 200.0,
+      "classification": "inherited_calibration_or_source",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "calibration_and_local_source.report_radii_kpc",
+      "value": [
+        1,
+        3,
+        8.2,
+        20,
+        50,
+        100
+      ],
+      "classification": "inherited_calibration_or_source",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "calibration_and_local_source.lens_impact_kpc",
+      "value": [
+        5,
+        10,
+        20,
+        50
+      ],
+      "classification": "inherited_calibration_or_source",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "calibration_and_local_source.internal_lattice_N",
+      "value": 128,
+      "classification": "inherited_calibration_or_source",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "calibration_and_local_source.carrier_probe_frequency_squared",
+      "value": [
+        0.1,
+        0.5,
+        1.0,
+        2.0,
+        3.5
+      ],
+      "classification": "inherited_calibration_or_source",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "calibration_and_local_source.carrier_damping",
+      "value": 0.2,
+      "classification": "inherited_calibration_or_source",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "calibration_and_local_source.disk_components_mass_1e9Msun_scale_kpc",
+      "value": [
+        [
+          35.66,
+          2.53
+        ],
+        [
+          11.25,
+          3.38
+        ],
+        [
+          11.0,
+          7.0
+        ],
+        [
+          1.2,
+          1.5
+        ]
+      ],
+      "classification": "inherited_calibration_or_source",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "calibration_and_local_source.bulge_mass_1e9Msun_scale_kpc",
+      "value": [
+        9.13,
+        0.7
+      ],
+      "classification": "inherited_calibration_or_source",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "calibration_and_local_source.response_nu",
+      "value": "1 / (1 - exp(-sqrt(y)))",
+      "classification": "inherited_calibration_or_source",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "calibration_and_local_source.response_provenance",
+      "value": "Calibrated constitutive input adopted in WRRA Galactic Disk paper v1.0 2026-09-27",
+      "classification": "inherited_calibration_or_source",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "calibration_and_local_source.gravity_ontology",
+      "value": "B_C continuous geometric branch; no independent gravitational Hilbert space",
+      "classification": "inherited_calibration_or_source",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "calibration_and_local_source.lensing_condition",
+      "value": "Phi = Psi assumed in the finite weak-field patch",
+      "classification": "inherited_calibration_or_source",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "calibration_and_local_source.fraction_note",
+      "value": "Editable late-universe energy-weighted calibration; not counts of bits or particle channels",
+      "classification": "inherited_calibration_or_source",
+      "source": "WRRA-M 0.6-r2 input ledger, DOI 10.5281/zenodo.23076547"
+    },
+    {
+      "path": "reference_volume_m3",
+      "value": 1.0,
+      "classification": "bookkeeping_unit_volume",
+      "source": "0.7 convention; not cosmic size"
+    },
+    {
+      "path": "measure",
+      "value": "energy_weighted_information_load",
+      "classification": "WRRA_measure_choice",
+      "source": "0.7 additive positive sector-load definition"
+    }
+  ],
+  "cases": [
+    {
+      "scale_factor": 0.5,
+      "lattice_N": 128,
+      "carrier_epsilon": 0.0,
+      "state_trace": 1.0,
+      "state_entropy_bits": 7.0,
+      "state_rank_at_tolerance": 128,
+      "Jc": 2.0,
+      "Jb": 2.0,
+      "measure": "energy_weighted_information_load",
+      "reference_volume_m3": 1.0,
+      "physical_volume_m3": 0.125,
+      "sector_weights": {
+        "phenotype": 0.049300000000000004,
+        "hidden_clustering": 0.26500000000000007,
+        "hidden_background": 0.08571250000000001
+      },
+      "total_actual_weight": 0.4000125000000001,
+      "actual_normalized_share": 1.0,
+      "sector_shares": {
+        "phenotype": 0.12324614855785754,
+        "hidden_clustering": 0.6624792975219524,
+        "hidden_background": 0.21427455392018996
+      },
+      "hidden_share": 0.8767538514421425,
+      "sector_energy_J": {
+        "phenotype": 3.780791249536201e-11,
+        "hidden_clustering": 2.0322711584728059e-10,
+        "hidden_background": 6.573246855494354e-11
+      },
+      "total_energy_J": 3.067674968975861e-10,
+      "sector_density_J_m3": {
+        "phenotype": 3.0246329996289606e-10,
+        "hidden_clustering": 1.6258169267782447e-09,
+        "hidden_background": 5.258597484395483e-10
+      },
+      "total_density_J_m3": 2.454139975180689e-09,
+      "sector_pressure_Pa": {
+        "phenotype": -0.0,
+        "hidden_clustering": -0.0,
+        "hidden_background": -5.258597484395483e-10
+      },
+      "total_pressure_Pa": -5.258597484395483e-10,
+      "quantization_status": "not_executed_in_0.7",
+      "measurement_outcome_probabilities": null,
+      "physical_records": [],
+      "measurement_energy_transfers": [],
+      "record_energy_policy": "future record energy is a sector suballocation, not an extra fourth sector",
+      "residue_policy": "unexpressed state content retained; not equated with a bit count or a fourth energy component",
+      "bridge_0_6": {
+        "snapshot": {
+          "a": 0.5,
+          "Jc": 2.0,
+          "Jb": 2.0,
+          "density_phenotype_over_ucrit": 0.3944,
+          "density_clustering_over_ucrit": 2.12,
+          "density_background_over_ucrit": 0.6857,
+          "density_total_over_ucrit": 3.2001,
+          "pressure_over_ucrit": -0.6857000000000001,
+          "H_over_H0": 1.7888823326311878,
+          "deceleration_q": 0.17858816911971498,
+          "hidden_density_over_reference": 2.9511938571578837,
+          "hidden_comoving_energy_over_reference": 0.36889923214473547,
+          "zeta_Q_over_reference": 0.7377984642894709,
+          "twist_record_norm_over_reference": 0.8589519569157934,
+          "twist_rate_over_reference": 1.7179039138315868,
+          "aT_over_reference": 2.8284271247461903,
+          "actual_hidden_fraction": 0.8767538514421424
+        },
+        "local_readout": {
+          "aT_m_s2": 3.37095528091441e-10,
+          "zeta_kappa_total_squared_m_minus2": 8.9365477308404e-52,
+          "test_radius_kpc": 8.2,
+          "v_total_km_s": 247.7491985746642,
+          "v_direct_km_s": 161.45051053125528,
+          "g_additional_m_s2": 1.3956454758482543e-10,
+          "finite_patch_lensing": {
+            "impact_kpc": 10.0,
+            "alpha_patch_rad": 3.949638182283504e-06,
+            "alpha_baryon_patch_rad": 1.052265081800396e-06,
+            "alpha_twist_patch_rad": 2.8973731004831076e-06,
+            "alpha_patch_arcsec": 0.8146713544148407,
+            "quad_abs_error_rad": 4.381443096053546e-20
+          },
+          "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
+        },
+        "density_absolute_error_J_m3": 4.1359030627651384e-25,
+        "pressure_absolute_error_Pa": 0.0
+      },
+      "invariants": {
+        "weight_partition_absolute_error": 1.6653345369377348e-16,
+        "share_partition_absolute_error": 0.0,
+        "energy_partition_absolute_error_J": 0.0,
+        "state_rank": 128
+      },
+      "case_name": "uniform_a0.5",
+      "state_recipe": {
+        "kind": "uniform"
+      }
+    },
+    {
+      "scale_factor": 1.0,
+      "lattice_N": 128,
+      "carrier_epsilon": 0.0,
+      "state_trace": 1.0,
+      "state_entropy_bits": 7.0,
+      "state_rank_at_tolerance": 128,
+      "Jc": 2.0,
+      "Jb": 2.0,
+      "measure": "energy_weighted_information_load",
+      "reference_volume_m3": 1.0,
+      "physical_volume_m3": 1.0,
+      "sector_weights": {
+        "phenotype": 0.049300000000000004,
+        "hidden_clustering": 0.26500000000000007,
+        "hidden_background": 0.6857000000000001
+      },
+      "total_actual_weight": 1.0000000000000002,
+      "actual_normalized_share": 1.0,
+      "sector_shares": {
+        "phenotype": 0.04929999999999999,
+        "hidden_clustering": 0.265,
+        "hidden_background": 0.6857
+      },
+      "hidden_share": 0.9507,
+      "sector_energy_J": {
+        "phenotype": 3.780791249536201e-11,
+        "hidden_clustering": 2.0322711584728059e-10,
+        "hidden_background": 5.258597484395483e-10
+      },
+      "total_energy_J": 7.668947767821909e-10,
+      "sector_density_J_m3": {
+        "phenotype": 3.780791249536201e-11,
+        "hidden_clustering": 2.0322711584728059e-10,
+        "hidden_background": 5.258597484395483e-10
+      },
+      "total_density_J_m3": 7.668947767821909e-10,
+      "sector_pressure_Pa": {
+        "phenotype": -0.0,
+        "hidden_clustering": -0.0,
+        "hidden_background": -5.258597484395483e-10
+      },
+      "total_pressure_Pa": -5.258597484395483e-10,
+      "quantization_status": "not_executed_in_0.7",
+      "measurement_outcome_probabilities": null,
+      "physical_records": [],
+      "measurement_energy_transfers": [],
+      "record_energy_policy": "future record energy is a sector suballocation, not an extra fourth sector",
+      "residue_policy": "unexpressed state content retained; not equated with a bit count or a fourth energy component",
+      "bridge_0_6": {
+        "snapshot": {
+          "a": 1.0,
+          "Jc": 2.0,
+          "Jb": 2.0,
+          "density_phenotype_over_ucrit": 0.0493,
+          "density_clustering_over_ucrit": 0.265,
+          "density_background_over_ucrit": 0.6857,
+          "density_total_over_ucrit": 1.0,
+          "pressure_over_ucrit": -0.6857000000000001,
+          "H_over_H0": 1.0,
+          "deceleration_q": -0.5285500000000001,
+          "hidden_density_over_reference": 1.0,
+          "hidden_comoving_energy_over_reference": 1.0,
+          "zeta_Q_over_reference": 1.0,
+          "twist_record_norm_over_reference": 1.0,
+          "twist_rate_over_reference": 1.0,
+          "aT_over_reference": 1.0,
+          "actual_hidden_fraction": 0.9507
+        },
+        "local_readout": {
+          "aT_m_s2": 1.1918126691055912e-10,
+          "zeta_kappa_total_squared_m_minus2": 3.028112744666204e-52,
+          "test_radius_kpc": 8.2,
+          "v_total_km_s": 207.51090512661662,
+          "v_direct_km_s": 161.45051053125528,
+          "g_additional_m_s2": 6.716518395482756e-11,
+          "finite_patch_lensing": {
+            "impact_kpc": 10.0,
+            "alpha_patch_rad": 2.5965966773641974e-06,
+            "alpha_baryon_patch_rad": 1.052265081800396e-06,
+            "alpha_twist_patch_rad": 1.5443315955638014e-06,
+            "alpha_patch_arcsec": 0.5355865105583804,
+            "quad_abs_error_rad": 2.88249109488278e-20
+          },
+          "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
+        },
+        "density_absolute_error_J_m3": 2.0679515313825692e-25,
+        "pressure_absolute_error_Pa": 0.0
+      },
+      "invariants": {
+        "weight_partition_absolute_error": 2.220446049250313e-16,
+        "share_partition_absolute_error": 0.0,
+        "energy_partition_absolute_error_J": 0.0,
+        "state_rank": 128
+      },
+      "case_name": "uniform_a1.0",
+      "state_recipe": {
+        "kind": "uniform"
+      }
+    },
+    {
+      "scale_factor": 2.0,
+      "lattice_N": 128,
+      "carrier_epsilon": 0.0,
+      "state_trace": 1.0,
+      "state_entropy_bits": 7.0,
+      "state_rank_at_tolerance": 128,
+      "Jc": 2.0,
+      "Jb": 2.0,
+      "measure": "energy_weighted_information_load",
+      "reference_volume_m3": 1.0,
+      "physical_volume_m3": 8.0,
+      "sector_weights": {
+        "phenotype": 0.049300000000000004,
+        "hidden_clustering": 0.26500000000000007,
+        "hidden_background": 5.485600000000001
+      },
+      "total_actual_weight": 5.799900000000001,
+      "actual_normalized_share": 1.0,
+      "sector_shares": {
+        "phenotype": 0.008500146554250935,
+        "hidden_clustering": 0.04569044293867136,
+        "hidden_background": 0.9458094105070777
+      },
+      "hidden_share": 0.9914998534457491,
+      "sector_energy_J": {
+        "phenotype": 3.780791249536201e-11,
+        "hidden_clustering": 2.0322711584728059e-10,
+        "hidden_background": 4.206877987516386e-09
+      },
+      "total_energy_J": 4.447913015859029e-09,
+      "sector_density_J_m3": {
+        "phenotype": 4.725989061920251e-12,
+        "hidden_clustering": 2.5403389480910073e-11,
+        "hidden_background": 5.258597484395483e-10
+      },
+      "total_density_J_m3": 5.559891269823787e-10,
+      "sector_pressure_Pa": {
+        "phenotype": -0.0,
+        "hidden_clustering": -0.0,
+        "hidden_background": -5.258597484395483e-10
+      },
+      "total_pressure_Pa": -5.258597484395483e-10,
+      "quantization_status": "not_executed_in_0.7",
+      "measurement_outcome_probabilities": null,
+      "physical_records": [],
+      "measurement_energy_transfers": [],
+      "record_energy_policy": "future record energy is a sector suballocation, not an extra fourth sector",
+      "residue_policy": "unexpressed state content retained; not equated with a bit count or a fourth energy component",
+      "bridge_0_6": {
+        "snapshot": {
+          "a": 2.0,
+          "Jc": 2.0,
+          "Jb": 2.0,
+          "density_phenotype_over_ucrit": 0.0061625,
+          "density_clustering_over_ucrit": 0.033125,
+          "density_background_over_ucrit": 0.6857,
+          "density_total_over_ucrit": 0.7249875,
+          "pressure_over_ucrit": -0.6857000000000001,
+          "H_over_H0": 0.8514619780119368,
+          "deceleration_q": -0.9187141157606166,
+          "hidden_density_over_reference": 0.7561007678552645,
+          "hidden_comoving_energy_over_reference": 6.048806142842116,
+          "zeta_Q_over_reference": 3.024403071421058,
+          "twist_record_norm_over_reference": 1.7390810997250985,
+          "twist_rate_over_reference": 0.8695405498625493,
+          "aT_over_reference": 0.3535533905932738,
+          "actual_hidden_fraction": 0.991499853445749
+        },
+        "local_readout": {
+          "aT_m_s2": 4.2136941011430125e-11,
+          "zeta_kappa_total_squared_m_minus2": 2.289558371394429e-52,
+          "test_radius_kpc": 8.2,
+          "v_total_km_s": 181.57488201649517,
+          "v_direct_km_s": 161.45051053125528,
+          "g_additional_m_s2": 2.728250214169678e-11,
+          "finite_patch_lensing": {
+            "impact_kpc": 10.0,
+            "alpha_patch_rad": 1.8147441259342213e-06,
+            "alpha_baryon_patch_rad": 1.052265081800396e-06,
+            "alpha_twist_patch_rad": 7.624790441338252e-07,
+            "alpha_patch_arcsec": 0.37431784552387837,
+            "quad_abs_error_rad": 2.3848479319808935e-20
+          },
+          "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
+        },
+        "density_absolute_error_J_m3": 2.0679515313825692e-25,
+        "pressure_absolute_error_Pa": 0.0
+      },
+      "invariants": {
+        "weight_partition_absolute_error": 2.6645352591003757e-15,
+        "share_partition_absolute_error": 0.0,
+        "energy_partition_absolute_error_J": 0.0,
+        "state_rank": 128
+      },
+      "case_name": "uniform_a2.0",
+      "state_recipe": {
+        "kind": "uniform"
+      }
+    },
+    {
+      "scale_factor": 1.0,
+      "lattice_N": 128,
+      "carrier_epsilon": 0.0,
+      "state_trace": 1.0,
+      "state_entropy_bits": 0.0,
+      "state_rank_at_tolerance": 1,
+      "Jc": 0.15224093497742647,
+      "Jb": 0.15224093497742647,
+      "measure": "energy_weighted_information_load",
+      "reference_volume_m3": 1.0,
+      "physical_volume_m3": 1.0,
+      "sector_weights": {
+        "phenotype": 0.0493,
+        "hidden_clustering": 0.020171923884509002,
+        "hidden_background": 0.052195804557010644
+      },
+      "total_actual_weight": 0.12166772844151964,
+      "actual_normalized_share": 1.0,
+      "sector_shares": {
+        "phenotype": 0.40520194328848963,
+        "hidden_clustering": 0.16579518778642083,
+        "hidden_background": 0.4290028689250896
+      },
+      "hidden_share": 0.5947980567115104,
+      "sector_energy_J": {
+        "phenotype": 3.7807912495362e-11,
+        "hidden_clustering": 1.5469743064677872e-11,
+        "hidden_background": 4.002868988471553e-11
+      },
+      "total_energy_J": 9.330634544475541e-11,
+      "sector_density_J_m3": {
+        "phenotype": 3.7807912495362e-11,
+        "hidden_clustering": 1.5469743064677872e-11,
+        "hidden_background": 4.002868988471553e-11
+      },
+      "total_density_J_m3": 9.330634544475541e-11,
+      "sector_pressure_Pa": {
+        "phenotype": -0.0,
+        "hidden_clustering": -0.0,
+        "hidden_background": -4.002868988471553e-11
+      },
+      "total_pressure_Pa": -4.002868988471553e-11,
+      "quantization_status": "not_executed_in_0.7",
+      "measurement_outcome_probabilities": null,
+      "physical_records": [],
+      "measurement_energy_transfers": [],
+      "record_energy_policy": "future record energy is a sector suballocation, not an extra fourth sector",
+      "residue_policy": "unexpressed state content retained; not equated with a bit count or a fourth energy component",
+      "bridge_0_6": {
+        "snapshot": {
+          "a": 1.0,
+          "Jc": 0.15224093497742647,
+          "Jb": 0.15224093497742647,
+          "density_phenotype_over_ucrit": 0.0493,
+          "density_clustering_over_ucrit": 0.02017192388450901,
+          "density_background_over_ucrit": 0.052195804557010665,
+          "density_total_over_ucrit": 0.12166772844151968,
+          "pressure_over_ucrit": -0.052195804557010665,
+          "H_over_H0": 0.3488090142778992,
+          "deceleration_q": -0.14350430338763437,
+          "hidden_density_over_reference": 0.07612046748871323,
+          "hidden_comoving_energy_over_reference": 0.07612046748871323,
+          "zeta_Q_over_reference": 0.07612046748871323,
+          "twist_record_norm_over_reference": 0.275899379282943,
+          "twist_rate_over_reference": 0.275899379282943,
+          "aT_over_reference": 0.275899379282943,
+          "actual_hidden_fraction": 0.5947980567115104
+        },
+        "local_readout": {
+          "aT_m_s2": 3.288203756277802e-11,
+          "zeta_kappa_total_squared_m_minus2": 2.3050135773252195e-53,
+          "test_radius_kpc": 8.2,
+          "v_total_km_s": 177.25017650459,
+          "v_direct_km_s": 161.45051053125528,
+          "g_additional_m_s2": 2.1149474719177546e-11,
+          "finite_patch_lensing": {
+            "impact_kpc": 10.0,
+            "alpha_patch_rad": 1.6861612177784496e-06,
+            "alpha_baryon_patch_rad": 1.052265081800396e-06,
+            "alpha_twist_patch_rad": 6.338961359780535e-07,
+            "alpha_patch_arcsec": 0.34779571688643995,
+            "quad_abs_error_rad": 2.3268306963421104e-20
+          },
+          "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
+        },
+        "density_absolute_error_J_m3": 2.5849394142282115e-26,
+        "pressure_absolute_error_Pa": 1.9387045606711586e-26
+      },
+      "invariants": {
+        "weight_partition_absolute_error": 4.163336342344337e-17,
+        "share_partition_absolute_error": 0.0,
+        "energy_partition_absolute_error_J": 0.0,
+        "state_rank": 1
+      },
+      "case_name": "low_mode_a1.0",
+      "state_recipe": {
+        "kind": "mode",
+        "mode": 8
+      }
+    },
+    {
+      "scale_factor": 1.0,
+      "lattice_N": 128,
+      "carrier_epsilon": 0.0,
+      "state_trace": 0.9999999999999999,
+      "state_entropy_bits": 0.0,
+      "state_rank_at_tolerance": 1,
+      "Jc": 3.9999999999999996,
+      "Jb": 3.9999999999999996,
+      "measure": "energy_weighted_information_load",
+      "reference_volume_m3": 1.0,
+      "physical_volume_m3": 1.0,
+      "sector_weights": {
+        "phenotype": 0.0493,
+        "hidden_clustering": 0.53,
+        "hidden_background": 1.3714000000000002
+      },
+      "total_actual_weight": 1.9507,
+      "actual_normalized_share": 1.0,
+      "sector_shares": {
+        "phenotype": 0.02527297893064028,
+        "hidden_clustering": 0.27169733941661967,
+        "hidden_background": 0.70302968165274
+      },
+      "hidden_share": 0.9747270210693597,
+      "sector_energy_J": {
+        "phenotype": 3.7807912495362e-11,
+        "hidden_clustering": 4.064542316945611e-10,
+        "hidden_background": 1.0517194968790966e-09
+      },
+      "total_energy_J": 1.4959816410690196e-09,
+      "sector_density_J_m3": {
+        "phenotype": 3.7807912495362e-11,
+        "hidden_clustering": 4.064542316945611e-10,
+        "hidden_background": 1.0517194968790966e-09
+      },
+      "total_density_J_m3": 1.4959816410690196e-09,
+      "sector_pressure_Pa": {
+        "phenotype": -0.0,
+        "hidden_clustering": -0.0,
+        "hidden_background": -1.0517194968790966e-09
+      },
+      "total_pressure_Pa": -1.0517194968790966e-09,
+      "quantization_status": "not_executed_in_0.7",
+      "measurement_outcome_probabilities": null,
+      "physical_records": [],
+      "measurement_energy_transfers": [],
+      "record_energy_policy": "future record energy is a sector suballocation, not an extra fourth sector",
+      "residue_policy": "unexpressed state content retained; not equated with a bit count or a fourth energy component",
+      "bridge_0_6": {
+        "snapshot": {
+          "a": 1.0,
+          "Jc": 3.9999999999999996,
+          "Jb": 3.9999999999999996,
+          "density_phenotype_over_ucrit": 0.0493,
+          "density_clustering_over_ucrit": 0.5299999999999999,
+          "density_background_over_ucrit": 1.3713999999999997,
+          "density_total_over_ucrit": 1.9506999999999997,
+          "pressure_over_ucrit": -1.3713999999999997,
+          "H_over_H0": 1.3966746220934922,
+          "deceleration_q": -0.5545445224791101,
+          "hidden_density_over_reference": 1.9999999999999998,
+          "hidden_comoving_energy_over_reference": 1.9999999999999998,
+          "zeta_Q_over_reference": 1.9999999999999998,
+          "twist_record_norm_over_reference": 1.414213562373095,
+          "twist_rate_over_reference": 1.414213562373095,
+          "aT_over_reference": 1.414213562373095,
+          "actual_hidden_fraction": 0.9747270210693597
+        },
+        "local_readout": {
+          "aT_m_s2": 1.6854776404572047e-10,
+          "zeta_kappa_total_squared_m_minus2": 6.056225489332408e-52,
+          "test_radius_kpc": 8.2,
+          "v_total_km_s": 219.2159779470782,
+          "v_direct_km_s": 161.45051053125528,
+          "g_additional_m_s2": 8.690575564891559e-11,
+          "finite_patch_lensing": {
+            "impact_kpc": 10.0,
+            "alpha_patch_rad": 2.9696242612492675e-06,
+            "alpha_baryon_patch_rad": 1.052265081800396e-06,
+            "alpha_twist_patch_rad": 1.9173591794488714e-06,
+            "alpha_patch_arcsec": 0.6125289728732569,
+            "quad_abs_error_rad": 3.2964219657483886e-20
+          },
+          "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
+        },
+        "density_absolute_error_J_m3": 4.1359030627651384e-25,
+        "pressure_absolute_error_Pa": 4.1359030627651384e-25
+      },
+      "invariants": {
+        "weight_partition_absolute_error": 2.220446049250313e-16,
+        "share_partition_absolute_error": 0.0,
+        "energy_partition_absolute_error_J": 0.0,
+        "state_rank": 1
+      },
+      "case_name": "high_mode_a1.0",
+      "state_recipe": {
+        "kind": "mode",
+        "mode": 64
+      }
+    },
+    {
+      "scale_factor": 1.0,
+      "lattice_N": 128,
+      "carrier_epsilon": 0.0,
+      "state_trace": 0.9999999999999999,
+      "state_entropy_bits": 0.0,
+      "state_rank_at_tolerance": 1,
+      "Jc": 0.0,
+      "Jb": 0.0,
+      "measure": "energy_weighted_information_load",
+      "reference_volume_m3": 1.0,
+      "physical_volume_m3": 1.0,
+      "sector_weights": {
+        "phenotype": 0.0493,
+        "hidden_clustering": 0.0,
+        "hidden_background": 0.0
+      },
+      "total_actual_weight": 0.0493,
+      "actual_normalized_share": 1.0,
+      "sector_shares": {
+        "phenotype": 1.0,
+        "hidden_clustering": 0.0,
+        "hidden_background": 0.0
+      },
+      "hidden_share": 0.0,
+      "sector_energy_J": {
+        "phenotype": 3.7807912495362e-11,
+        "hidden_clustering": 0.0,
+        "hidden_background": 0.0
+      },
+      "total_energy_J": 3.7807912495362e-11,
+      "sector_density_J_m3": {
+        "phenotype": 3.7807912495362e-11,
+        "hidden_clustering": 0.0,
+        "hidden_background": 0.0
+      },
+      "total_density_J_m3": 3.7807912495362e-11,
+      "sector_pressure_Pa": {
+        "phenotype": -0.0,
+        "hidden_clustering": -0.0,
+        "hidden_background": -0.0
+      },
+      "total_pressure_Pa": 0.0,
+      "quantization_status": "not_executed_in_0.7",
+      "measurement_outcome_probabilities": null,
+      "physical_records": [],
+      "measurement_energy_transfers": [],
+      "record_energy_policy": "future record energy is a sector suballocation, not an extra fourth sector",
+      "residue_policy": "unexpressed state content retained; not equated with a bit count or a fourth energy component",
+      "bridge_0_6": {
+        "snapshot": {
+          "a": 1.0,
+          "Jc": 0.0,
+          "Jb": 0.0,
+          "density_phenotype_over_ucrit": 0.0493,
+          "density_clustering_over_ucrit": 0.0,
+          "density_background_over_ucrit": 0.0,
+          "density_total_over_ucrit": 0.0493,
+          "pressure_over_ucrit": -0.0,
+          "H_over_H0": 0.22203603311174516,
+          "deceleration_q": 0.5,
+          "hidden_density_over_reference": 0.0,
+          "hidden_comoving_energy_over_reference": 0.0,
+          "zeta_Q_over_reference": 0.0,
+          "twist_record_norm_over_reference": 0.0,
+          "twist_rate_over_reference": 0.0,
+          "aT_over_reference": 0.0,
+          "actual_hidden_fraction": 0.0
+        },
+        "local_readout": {
+          "aT_m_s2": 0.0,
+          "zeta_kappa_total_squared_m_minus2": 0.0,
+          "test_radius_kpc": 8.2,
+          "v_total_km_s": 161.45051053125528,
+          "v_direct_km_s": 161.45051053125528,
+          "g_additional_m_s2": 0.0,
+          "finite_patch_lensing": null,
+          "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
+        },
+        "density_absolute_error_J_m3": 0.0,
+        "pressure_absolute_error_Pa": 0.0
+      },
+      "invariants": {
+        "weight_partition_absolute_error": 5.551115123125783e-17,
+        "share_partition_absolute_error": 0.0,
+        "energy_partition_absolute_error_J": 0.0,
+        "state_rank": 1
+      },
+      "case_name": "zero_mode_a1.0",
+      "state_recipe": {
+        "kind": "mode",
+        "mode": 0
+      }
+    },
+    {
+      "scale_factor": 1.0,
+      "lattice_N": 128,
+      "carrier_epsilon": 0.0,
+      "state_trace": 0.9999999999999994,
+      "state_entropy_bits": 4.805139755722375e-16,
+      "state_rank_at_tolerance": 1,
+      "Jc": 0.6575535026247172,
+      "Jb": 0.6575535026247172,
+      "measure": "energy_weighted_information_load",
+      "reference_volume_m3": 1.0,
+      "physical_volume_m3": 1.0,
+      "sector_weights": {
+        "phenotype": 0.04929999999999996,
+        "hidden_clustering": 0.08712583909777505,
+        "hidden_background": 0.22544221837488432
+      },
+      "total_actual_weight": 0.3618680574726593,
+      "actual_normalized_share": 1.0,
+      "sector_shares": {
+        "phenotype": 0.13623750143717725,
+        "hidden_clustering": 0.24076686874844647,
+        "hidden_background": 0.6229956298143763
+      },
+      "hidden_share": 0.8637624985628227,
+      "sector_energy_J": {
+        "phenotype": 3.7807912495361976e-11,
+        "hidden_clustering": 6.681635092684927e-11,
+        "hidden_background": 1.7289045973788881e-10
+      },
+      "total_energy_J": 2.7751472316010006e-10,
+      "sector_density_J_m3": {
+        "phenotype": 3.7807912495361976e-11,
+        "hidden_clustering": 6.681635092684927e-11,
+        "hidden_background": 1.7289045973788881e-10
+      },
+      "total_density_J_m3": 2.7751472316010006e-10,
+      "sector_pressure_Pa": {
+        "phenotype": -0.0,
+        "hidden_clustering": -0.0,
+        "hidden_background": -1.7289045973788881e-10
+      },
+      "total_pressure_Pa": -1.7289045973788881e-10,
+      "quantization_status": "not_executed_in_0.7",
+      "measurement_outcome_probabilities": null,
+      "physical_records": [],
+      "measurement_energy_transfers": [],
+      "record_energy_policy": "future record energy is a sector suballocation, not an extra fourth sector",
+      "residue_policy": "unexpressed state content retained; not equated with a bit count or a fourth energy component",
+      "bridge_0_6": {
+        "snapshot": {
+          "a": 1.0,
+          "Jc": 0.6575535026247172,
+          "Jb": 0.6575535026247172,
+          "density_phenotype_over_ucrit": 0.0493,
+          "density_clustering_over_ucrit": 0.08712583909777503,
+          "density_background_over_ucrit": 0.2254422183748843,
+          "density_total_over_ucrit": 0.3618680574726593,
+          "pressure_over_ucrit": -0.2254422183748843,
+          "H_over_H0": 0.6015547003163214,
+          "deceleration_q": -0.4344934447215643,
+          "hidden_density_over_reference": 0.3287767513123586,
+          "hidden_comoving_energy_over_reference": 0.3287767513123586,
+          "zeta_Q_over_reference": 0.3287767513123586,
+          "twist_record_norm_over_reference": 0.5733905748373953,
+          "twist_rate_over_reference": 0.5733905748373953,
+          "aT_over_reference": 0.5733905748373953,
+          "actual_hidden_fraction": 0.8637624985628226
+        },
+        "local_readout": {
+          "aT_m_s2": 6.833741514369453e-11,
+          "zeta_kappa_total_squared_m_minus2": 9.95573070798904e-53,
+          "test_radius_kpc": 8.2,
+          "v_total_km_s": 192.00391282209793,
+          "v_direct_km_s": 161.45051053125528,
+          "g_additional_m_s2": 4.268041187772449e-11,
+          "finite_patch_lensing": {
+            "impact_kpc": 10.0,
+            "alpha_patch_rad": 2.123981982913823e-06,
+            "alpha_baryon_patch_rad": 1.052265081800396e-06,
+            "alpha_twist_patch_rad": 1.0717169011134269e-06,
+            "alpha_patch_arcsec": 0.43810273217804324,
+            "quad_abs_error_rad": 2.559611029157378e-20
+          },
+          "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
+        },
+        "density_absolute_error_J_m3": 0.0,
+        "pressure_absolute_error_Pa": 2.5849394142282115e-26
+      },
+      "invariants": {
+        "weight_partition_absolute_error": 5.551115123125783e-17,
+        "share_partition_absolute_error": 0.0,
+        "energy_partition_absolute_error_J": 0.0,
+        "state_rank": 1
+      },
+      "case_name": "coherent_packet_a1.0",
+      "state_recipe": {
+        "kind": "packet",
+        "modes": [
+          8,
+          16,
+          24
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    {
+      "scale_factor": 1.0,
+      "lattice_N": 128,
+      "carrier_epsilon": 8.0,
+      "state_trace": 1.0,
+      "state_entropy_bits": 7.0,
+      "state_rank_at_tolerance": 128,
+      "Jc": 2.0,
+      "Jb": 1.9999999999999991,
+      "measure": "energy_weighted_information_load",
+      "reference_volume_m3": 1.0,
+      "physical_volume_m3": 1.0,
+      "sector_weights": {
+        "phenotype": 0.049300000000000004,
+        "hidden_clustering": 0.26500000000000007,
+        "hidden_background": 0.6857
+      },
+      "total_actual_weight": 1.0,
+      "actual_normalized_share": 1.0,
+      "sector_shares": {
+        "phenotype": 0.049300000000000004,
+        "hidden_clustering": 0.26500000000000007,
+        "hidden_background": 0.6857
+      },
+      "hidden_share": 0.9507000000000001,
+      "sector_energy_J": {
+        "phenotype": 3.780791249536201e-11,
+        "hidden_clustering": 2.0322711584728059e-10,
+        "hidden_background": 5.258597484395482e-10
+      },
+      "total_energy_J": 7.668947767821908e-10,
+      "sector_density_J_m3": {
+        "phenotype": 3.780791249536201e-11,
+        "hidden_clustering": 2.0322711584728059e-10,
+        "hidden_background": 5.258597484395482e-10
+      },
+      "total_density_J_m3": 7.668947767821908e-10,
+      "sector_pressure_Pa": {
+        "phenotype": -0.0,
+        "hidden_clustering": -0.0,
+        "hidden_background": -5.258597484395482e-10
+      },
+      "total_pressure_Pa": -5.258597484395482e-10,
+      "quantization_status": "not_executed_in_0.7",
+      "measurement_outcome_probabilities": null,
+      "physical_records": [],
+      "measurement_energy_transfers": [],
+      "record_energy_policy": "future record energy is a sector suballocation, not an extra fourth sector",
+      "residue_policy": "unexpressed state content retained; not equated with a bit count or a fourth energy component",
+      "bridge_0_6": {
+        "snapshot": {
+          "a": 1.0,
+          "Jc": 2.0,
+          "Jb": 1.9999999999999991,
+          "density_phenotype_over_ucrit": 0.0493,
+          "density_clustering_over_ucrit": 0.265,
+          "density_background_over_ucrit": 0.6856999999999996,
+          "density_total_over_ucrit": 0.9999999999999997,
+          "pressure_over_ucrit": -0.6856999999999996,
+          "H_over_H0": 0.9999999999999998,
+          "deceleration_q": -0.5285499999999999,
+          "hidden_density_over_reference": 0.9999999999999997,
+          "hidden_comoving_energy_over_reference": 0.9999999999999997,
+          "zeta_Q_over_reference": 0.9999999999999997,
+          "twist_record_norm_over_reference": 0.9999999999999998,
+          "twist_rate_over_reference": 0.9999999999999998,
+          "aT_over_reference": 1.0,
+          "actual_hidden_fraction": 0.9507
+        },
+        "local_readout": {
+          "aT_m_s2": 1.1918126691055912e-10,
+          "zeta_kappa_total_squared_m_minus2": 3.0281127446662028e-52,
+          "test_radius_kpc": 8.2,
+          "v_total_km_s": 207.51090512661662,
+          "v_direct_km_s": 161.45051053125528,
+          "g_additional_m_s2": 6.716518395482756e-11,
+          "finite_patch_lensing": {
+            "impact_kpc": 10.0,
+            "alpha_patch_rad": 2.5965966773641974e-06,
+            "alpha_baryon_patch_rad": 1.052265081800396e-06,
+            "alpha_twist_patch_rad": 1.5443315955638014e-06,
+            "alpha_patch_arcsec": 0.5355865105583804,
+            "quad_abs_error_rad": 2.88249109488278e-20
+          },
+          "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
+        },
+        "density_absolute_error_J_m3": 3.101927297073854e-25,
+        "pressure_absolute_error_Pa": 3.101927297073854e-25
+      },
+      "invariants": {
+        "weight_partition_absolute_error": 0.0,
+        "share_partition_absolute_error": 0.0,
+        "energy_partition_absolute_error_J": 0.0,
+        "state_rank": 128
+      },
+      "case_name": "uniform_noncommuting_a1.0",
+      "state_recipe": {
+        "kind": "uniform"
+      }
+    },
+    {
+      "scale_factor": 1.0,
+      "lattice_N": 128,
+      "carrier_epsilon": 8.0,
+      "state_trace": 0.9999999999999994,
+      "state_entropy_bits": 4.805139755722375e-16,
+      "state_rank_at_tolerance": 1,
+      "Jc": 0.6575535026247172,
+      "Jb": 0.8194458207269986,
+      "measure": "energy_weighted_information_load",
+      "reference_volume_m3": 1.0,
+      "physical_volume_m3": 1.0,
+      "sector_weights": {
+        "phenotype": 0.04929999999999996,
+        "hidden_clustering": 0.08712583909777505,
+        "hidden_background": 0.28094699963625147
+      },
+      "total_actual_weight": 0.4173728387340265,
+      "actual_normalized_share": 1.0,
+      "sector_shares": {
+        "phenotype": 0.11811980901664927,
+        "hidden_clustering": 0.2087482246378197,
+        "hidden_background": 0.6731319663455311
+      },
+      "hidden_share": 0.8818801909833508,
+      "sector_energy_J": {
+        "phenotype": 3.7807912495361976e-11,
+        "hidden_clustering": 6.681635092684927e-11,
+        "hidden_background": 2.154567865736693e-10
+      },
+      "total_energy_J": 3.2008104999588056e-10,
+      "sector_density_J_m3": {
+        "phenotype": 3.7807912495361976e-11,
+        "hidden_clustering": 6.681635092684927e-11,
+        "hidden_background": 2.154567865736693e-10
+      },
+      "total_density_J_m3": 3.2008104999588056e-10,
+      "sector_pressure_Pa": {
+        "phenotype": -0.0,
+        "hidden_clustering": -0.0,
+        "hidden_background": -2.154567865736693e-10
+      },
+      "total_pressure_Pa": -2.154567865736693e-10,
+      "quantization_status": "not_executed_in_0.7",
+      "measurement_outcome_probabilities": null,
+      "physical_records": [],
+      "measurement_energy_transfers": [],
+      "record_energy_policy": "future record energy is a sector suballocation, not an extra fourth sector",
+      "residue_policy": "unexpressed state content retained; not equated with a bit count or a fourth energy component",
+      "bridge_0_6": {
+        "snapshot": {
+          "a": 1.0,
+          "Jc": 0.6575535026247172,
+          "Jb": 0.8194458207269986,
+          "density_phenotype_over_ucrit": 0.0493,
+          "density_clustering_over_ucrit": 0.08712583909777503,
+          "density_background_over_ucrit": 0.28094699963625147,
+          "density_total_over_ucrit": 0.41737283873402653,
+          "pressure_over_ucrit": -0.28094699963625147,
+          "H_over_H0": 0.6460439913303323,
+          "deceleration_q": -0.5096979495182965,
+          "hidden_density_over_reference": 0.38715981774905495,
+          "hidden_comoving_energy_over_reference": 0.38715981774905495,
+          "zeta_Q_over_reference": 0.38715981774905495,
+          "twist_record_norm_over_reference": 0.622221678944936,
+          "twist_rate_over_reference": 0.622221678944936,
+          "aT_over_reference": 0.5733905748373953,
+          "actual_hidden_fraction": 0.8818801909833506
+        },
+        "local_readout": {
+          "aT_m_s2": 6.833741514369453e-11,
+          "zeta_kappa_total_squared_m_minus2": 1.1723635783485578e-52,
+          "test_radius_kpc": 8.2,
+          "v_total_km_s": 192.00391282209793,
+          "v_direct_km_s": 161.45051053125528,
+          "g_additional_m_s2": 4.268041187772449e-11,
+          "finite_patch_lensing": {
+            "impact_kpc": 10.0,
+            "alpha_patch_rad": 2.123981982913823e-06,
+            "alpha_baryon_patch_rad": 1.052265081800396e-06,
+            "alpha_twist_patch_rad": 1.0717169011134269e-06,
+            "alpha_patch_arcsec": 0.43810273217804324,
+            "quad_abs_error_rad": 2.559611029157378e-20
+          },
+          "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
+        },
+        "density_absolute_error_J_m3": 0.0,
+        "pressure_absolute_error_Pa": 0.0
+      },
+      "invariants": {
+        "weight_partition_absolute_error": 5.551115123125783e-17,
+        "share_partition_absolute_error": 0.0,
+        "energy_partition_absolute_error_J": 0.0,
+        "state_rank": 1
+      },
+      "case_name": "coherent_packet_noncommuting_a1.0",
+      "state_recipe": {
+        "kind": "packet",
+        "modes": [
+          8,
+          16,
+          24
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    }
+  ],
+  "scope": "positive weighted Actual partition and exact 0.6-r2 bridge; no quantization event",
+  "claims": [
+    {
+      "id": "C07-1",
+      "kind": "definition",
+      "claim": "Actual 100 percent is normalized total modeled weighted load"
+    },
+    {
+      "id": "C07-2",
+      "kind": "constitutive_mapping",
+      "claim": "energy-weighted information load maps to the same comoving energy as 0.6-r2"
+    },
+    {
+      "id": "C07-3",
+      "kind": "calibrated_reproduction",
+      "claim": "reference phenotype share is 0.0493 at a=1 and rho=I/N"
+    },
+    {
+      "id": "C07-4",
+      "kind": "internal_calculation",
+      "claim": "state and scale changes recalculate shares and preserve sector accounting"
+    },
+    {
+      "id": "C07-5",
+      "kind": "scope_boundary",
+      "claim": "measurement probabilities, outcomes and records remain unexecuted"
+    }
+  ],
+  "handoff": {
+    "0.8": "channel/filter labels attached to the same input ledger",
+    "0.9": "physical measurement event and record-generation law",
+    "0.10": "repeated events and uncertainty propagation",
+    "0.11": "measurement energy exchange and coupled load update",
+    "0.12": "whole-model reproducibility and claim freeze"
+  },
+  "falsification_conditions": [
+    "negative sector weight from admissible positive state",
+    "partition or normalization failure",
+    "0.6 energy/pressure/local bridge mismatch",
+    "fractions or constants secretly changed outside the hashed input ledger",
+    "claiming measurement or filter selection without executing the corresponding law"
+  ]
+}
