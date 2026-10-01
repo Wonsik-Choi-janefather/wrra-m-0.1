@@ -36,6 +36,16 @@ The upper hypothesis constructs residue through initial admission and normalized
 - [한국어 PDF 7쪽](upstream/particle_residue_decay_v0_1/paper/WRRA_M_Particle_Residue_Decay_Trial_v0_1_KO_2026_10_01.pdf) · [Word](upstream/particle_residue_decay_v0_1/paper/WRRA_M_Particle_Residue_Decay_Trial_v0_1_KO_2026_10_01.docx) · [GitHub 원고](upstream/particle_residue_decay_v0_1/manuscript_KO.md)
 - [전체 재현 ZIP](upstream/particle_residue_decay_v0_1/paper/WRRA_M_Particle_Residue_Decay_Trial_v0_1_Reproducibility_2026_10_01.zip) · [입자 장부](upstream/particle_residue_decay_v0_1/code/results.json) · [분리한 채널 장부](upstream/particle_residue_decay_v0_1/code/channel_results.json)
 
+## Fold-current beta-rate bridge 0.2 · 접힘 전환과 붕괴율 계산 0.2
+
+선택한 **45·75 핵자 주소**의 64차원 스핀·맛 상태에서 전환 원소 **벡터 1·기본 축벡터 5/3**을 계산하고, 유한 소수 계열 응답과 베타 최종 상태공간을 연결했다. 관측 축벡터 비율과 중성자 평균수명 **878.3 s**으로 정한 공통 보정을 고정해 방출 에너지·소수 표식·전류·상태 겹침의 변화에 따른 전환율을 계산한다. 정규화 전자 에너지 분포, 각도 계수의 관측 중심값과 차이, Actual 보존 수송을 함께 기록했다. **30개 계산 검사와 독립 ZIP 재현**을 완료했다.
+
+The chosen nucleon spin-flavor states yield vector and bare axial matrix elements 1 and 5/3. A declared finite Euler-family response, supplied weak constants and allowed beta phase space connect them to rates. One neutron-lifetime anchor fixes the common response strength; subsequent controlled cases retain it. Normalized spectra and angular-response differences remain explicit.
+
+- [계산 안내와 재현](upstream/fold_decay_v0_2/README.md)
+- [한국어 PDF 7쪽](upstream/fold_decay_v0_2/paper/WRRA_M_Fold_Current_Beta_Rate_Bridge_v0_2_KO_2026_10_02.pdf) · [Word](upstream/fold_decay_v0_2/paper/WRRA_M_Fold_Current_Beta_Rate_Bridge_v0_2_KO_2026_10_02.docx) · [GitHub 원고](upstream/fold_decay_v0_2/manuscript_KO.md)
+- [전체 재현 ZIP](upstream/fold_decay_v0_2/paper/WRRA_M_Fold_Current_Beta_Rate_Bridge_v0_2_Reproducibility_2026_10_02.zip) · [계산 코드](upstream/fold_decay_v0_2/code/compute.py) · [결과 장부](upstream/fold_decay_v0_2/code/results.json)
+
 ## Completed 0.9 · 0.9 완료
 
 Version 0.9 executes the common upstream arithmetic ledger and input contract, then routes phenotype weight through the actual 0.8 particle permutation. The frozen reference reproduces **5%·26.8%·68.2%**, **resident Actual 31.8%**, and **complete accounted weight 100%**. Pending SOURCE and completed return are distinct during the transition. All nine 0.8 results and their charges are unchanged.
@@ -274,4 +284,5 @@ Citation metadata is provided in [`CITATION.cff`](CITATION.cff). The papers and 
 The 0.5 titles and claim ledger now foreground information load and twist gravity. Its local calculation uses 26.5% of the whole universe within the hidden total of 95.07%. The zero-phenotype input executes with undefined ratios recorded as null; the radius response ratio is evaluated numerically. The original scientific outputs reproduce unchanged.
 
 [0.6 start, Korean](calculations/wrra_m_0_6_start/README_KO.md) · [0.6 start, English](calculations/wrra_m_0_6_start/README_EN.md) · [Start reproducibility archive](calculations/wrra_m_0_6_start/WRRA_M_0_6_Start_Reproducibility.zip). These files preserve the initial prototype. The completed finite homogeneous model and bilingual paper are provided above.
+
 
