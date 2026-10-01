@@ -1,0 +1,238 @@
+{
+  "release": "0.9-r1",
+  "component_revisions": [
+    "0.7-r1",
+    "0.8-r1",
+    "0.9-r1"
+  ],
+  "publication_date": "2026-10-02",
+  "zenodo": {
+    "url": "https://zenodo.org/records/23091892",
+    "doi": "10.5281/zenodo.23091892",
+    "concept_doi": "10.5281/zenodo.23071877",
+    "visibility": "open",
+    "published_verified": true,
+    "files": 49,
+    "new_file_md5_checks_passed": 23,
+    "preserved_predecessor_files": 26
+  },
+  "github": {
+    "review_commit": "8d353c6ad72d1885a0086da6831d3a4220811b4b",
+    "url": "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/commit/8d353c6ad72d1885a0086da6831d3a4220811b4b",
+    "changed_files_verified": 81,
+    "other_existing_files_preserved": 194
+  },
+  "verification": {
+    "total_check_groups": 69,
+    "component_check_groups": [
+      19,
+      23,
+      27
+    ],
+    "clean_copy_outputs_byte_identical": true,
+    "bilingual_pdf_pages_visually_reviewed": 40
+  },
+  "series_archive": {
+    "path": "paper/WRRA_M_0_9_r1_Series_Release.zip",
+    "sha256": "72beff499bf7ee53d767d887b963be9f7b4c1b7a18c1c0e5702c295f602dd579"
+  },
+  "publication_screenshot_sha256": "984b1e2c470c642e292522e794a52fd20d71b376dc847fef498462025d7ea3e5",
+  "uploaded_file_md5": [
+    {
+      "name": "WRRA_M_0_4_KO.pdf",
+      "md5": "47fe73934e74c8951277c3cd27cb9b03"
+    },
+    {
+      "name": "WRRA_M_0_6_EN.pdf",
+      "md5": "64599b5905264328a8505e9274bdbfe8"
+    },
+    {
+      "name": "SHA256SUMS_0_9",
+      "md5": "160d4ef5f81f9ab4b97d24bab9cf5eba"
+    },
+    {
+      "name": "WRRA_M_0_8_KO.docx",
+      "md5": "d82d9e62a0ba093e294730514bc4d44b"
+    },
+    {
+      "name": "REVISION_0_6_R2.md",
+      "md5": "3101cfc657fe8d2caafff13b2c5af529"
+    },
+    {
+      "name": "WRRA_M_0_1_EN.docx",
+      "md5": "054df1c64571e171c21225a2dbccc74b"
+    },
+    {
+      "name": "WRRA_M_0_2_EN.pdf",
+      "md5": "13128f17a94201eeed3ae67838d1f854"
+    },
+    {
+      "name": "WRRA_M_0_5_KO.pdf",
+      "md5": "9b63df6a965d0afe8e3ac80f460a302b"
+    },
+    {
+      "name": "WRRA_M_0_2_KO.docx",
+      "md5": "2d57c7fc2f38d4e67256c0f75e77d9d1"
+    },
+    {
+      "name": "WRRA_M_0_5_KO.docx",
+      "md5": "76bb798fd8c959aa88164854a20af342"
+    },
+    {
+      "name": "WRRA_M_0_1_EN.pdf",
+      "md5": "3236406ccdd6b690d15a951c25a9e9ee"
+    },
+    {
+      "name": "WRRA_M_0_1_KO.pdf",
+      "md5": "274e17a8f3af9015b5510dbfa9525de0"
+    },
+    {
+      "name": "WRRA_M_0_3_EN.docx",
+      "md5": "9d5f02eb68aa59429fdeacf9778b91da"
+    },
+    {
+      "name": "WRRA_M_0_6_KO.pdf",
+      "md5": "1000681c3d47c2737b4c6d75dfaab5ab"
+    },
+    {
+      "name": "WRRA_M_0_2_KO.pdf",
+      "md5": "0307991bea0afc9aa24332643aeca1bc"
+    },
+    {
+      "name": "WRRA_M_0_3_KO.pdf",
+      "md5": "5ecb17c151af926b8630a8579d8c65e6"
+    },
+    {
+      "name": "WRRA_M_0_1_KO.docx",
+      "md5": "119222127fc86ea9b67e1646a4338b5d"
+    },
+    {
+      "name": "WRRA_M_0_2_EN.docx",
+      "md5": "b4989f62ad07c20e6a543fd3046bb862"
+    },
+    {
+      "name": "WRRA_M_0_3_KO.docx",
+      "md5": "ef765cf695780b0c76437493fc0f58fc"
+    },
+    {
+      "name": "WRRA_M_0_5_EN.docx",
+      "md5": "016f8c551853bc8146f686d3765b385f"
+    },
+    {
+      "name": "WRRA_M_0_3_EN.pdf",
+      "md5": "0e39cd2f9ea5887295f3777d8de7de19"
+    },
+    {
+      "name": "WRRA_M_0_4_EN.docx",
+      "md5": "8e5f1cdda525eb54de08a3906a3dca1f"
+    },
+    {
+      "name": "WRRA_M_0_4_KO.docx",
+      "md5": "37d82f6249479da83203332738376800"
+    },
+    {
+      "name": "WRRA_M_0_5_EN.pdf",
+      "md5": "0e859199e056d112eb1788ae91762cef"
+    },
+    {
+      "name": "WRRA_M_0_4_EN.pdf",
+      "md5": "4fea239403e3cf3ed664b96b5b2ba1dc"
+    },
+    {
+      "name": "WRRA_M_0_6_EN.docx",
+      "md5": "3ec1ea299bed18d298e7c83ec5e0a3b3"
+    },
+    {
+      "name": "WRRA_M_0_6_KO.docx",
+      "md5": "219d6997f2c5341b0034c0c6e5aa5d95"
+    },
+    {
+      "name": "WRRA_M_0_6_r2_Series_Release.zip",
+      "md5": "ef6a215b893350c0db1a98bdf7781118"
+    },
+    {
+      "name": "WRRA_M_0_7_KO.docx",
+      "md5": "621dc17ffe3a4eac8dd51a8829a95089"
+    },
+    {
+      "name": "WRRA_M_0_7_KO.pdf",
+      "md5": "ddc584c9d11ab9d24b15177304e0ff46"
+    },
+    {
+      "name": "WRRA_M_0_9_KO.pdf",
+      "md5": "57f40c245d3b6dfd0ea8018a081d305b"
+    },
+    {
+      "name": "WRRA_M_0_8_EN.pdf",
+      "md5": "7f0bc0cf269ee5c9a4b436a3b3ef9048"
+    },
+    {
+      "name": "review_checks.json",
+      "md5": "2501813ac718040e67ded56b94f0950b"
+    },
+    {
+      "name": "WRRA_M_0_9_EN.docx",
+      "md5": "20e64aa48b6de3ef844bbb56a2830c47"
+    },
+    {
+      "name": "WRRA_M_0_7_EN.pdf",
+      "md5": "982f2d49391b24c6c5c7f7cf3b8278b9"
+    },
+    {
+      "name": "WRRA_M_0_7_EN.docx",
+      "md5": "47d3ff92cfb109f8a4102e4b41a3fdde"
+    },
+    {
+      "name": "WRRA_M_0_8_Reproducibility.zip",
+      "md5": "bb345a6c3082655200874fa6f7a4e179"
+    },
+    {
+      "name": "WRRA_M_0_8_EN.docx",
+      "md5": "20ce45a78818e155fa77c33a59952e01"
+    },
+    {
+      "name": "SHA256SUMS_0_7",
+      "md5": "ae63940ec2f74518aba2eb4639012ce4"
+    },
+    {
+      "name": "WRRA_M_0_9_EN.pdf",
+      "md5": "afda7c4b07ebee358ed4ced250f90ba4"
+    },
+    {
+      "name": "WRRA_M_0_7_Reproducibility.zip",
+      "md5": "ce22da45271b78462b3188cae67a29db"
+    },
+    {
+      "name": "WRRA_M_0_8_KO.pdf",
+      "md5": "7ecfcbc5c0964af68a30d96146a9e681"
+    },
+    {
+      "name": "SHA256SUMS_0_8",
+      "md5": "0e9856fcf442172ef67572370f58c8ed"
+    },
+    {
+      "name": "WRRA_M_0_9_KO.docx",
+      "md5": "6f35b83953f1f80bc3c3e806492401e0"
+    },
+    {
+      "name": "WRRA_M_0_9_Reproducibility.zip",
+      "md5": "bb99be13392f551b6f3086c90f5cd475"
+    },
+    {
+      "name": "REVISION_0_7_TO_0_9_R1.md",
+      "md5": "487694c6e973b5c61ffbd2e5d68e3f41"
+    },
+    {
+      "name": "WRRA_M_0_9_r1_Series_Release.zip",
+      "md5": "94b8d12cd7c11b09056f93e67a81d75e"
+    },
+    {
+      "name": "SHA256SUMS_0_9_R1_SERIES",
+      "md5": "b94a11d6a18921d218c42cc5f09f011a"
+    },
+    {
+      "name": "series_reproduction_checks.json",
+      "md5": "e9ab1db18589a2a0e7e13e7d08c53366"
+    }
+  ]
+}
