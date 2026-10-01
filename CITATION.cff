@@ -7,11 +7,12 @@ authors:
     given-names: Wonsik
     orcid: "https://orcid.org/0009-0001-4263-9772"
     email: "janefather@gmail.com"
-version: "0.6"
+version: "0.6-r1"
 date-released: 2026-10-01
 license: CC-BY-4.0
 repository-code: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1"
-url: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1"
+url: "https://doi.org/10.5281/zenodo.23075976"
+doi: "10.5281/zenodo.23075976"
 abstract: >-
   WRRA-M 0.6 completes a finite homogeneous constitutive model connecting positive information-state loads to twist, pressure and expansion through one energy functional and classical homogeneous action. A declared unitary state update conserves total energy with volume work and permits cancelling internal exchange between two load sectors. The same clustering load enters the inherited calibrated local rotation and conditional lensing response, reproducing corrected 0.5 outputs. A chosen finite boundaryless T3 construction relates energy and twist records without identifying actual cosmic topology or length. Energy homogeneity exponents, load operators and information clock remain disclosed constitutive choices. A unique microscopic origin, four-dimensional covariant local completion and spatial perturbation stability remain open. The symmetric sixteen-channel carrier retains zero filter-selection gaps. Korean and English manuscripts, code and independent numerical checks are provided.
 keywords:

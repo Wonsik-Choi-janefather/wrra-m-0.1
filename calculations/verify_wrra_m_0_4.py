@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from fractions import Fraction
+import json
 
 
 Vector = tuple[Fraction, ...]
@@ -112,7 +113,32 @@ def verify_finite_witness() -> None:
     assert max(scores, key=scores.get) == "F_DX"
 
 
+def matrix_rank(matrix) -> int:
+    rows = [list(map(Fraction, row)) for row in matrix]
+    rank = 0
+    for column in range(len(rows[0])):
+        pivot = next((i for i in range(rank, len(rows)) if rows[i][column]), None)
+        if pivot is None:
+            continue
+        rows[rank], rows[pivot] = rows[pivot], rows[rank]
+        divisor = rows[rank][column]
+        rows[rank] = [x/divisor for x in rows[rank]]
+        for i in range(rank+1, len(rows)):
+            factor = rows[i][column]
+            rows[i] = [x-factor*y for x,y in zip(rows[i],rows[rank],strict=True)]
+        rank += 1
+        if rank == len(rows):
+            break
+    return rank
+
+
 def verify_null_lift_and_anomaly_preservation() -> None:
+    # Calculate rank directly; the two-dimensional pairing witness is separate.
+    identity = tuple(tuple(Fraction(int(i == j)) for j in range(16)) for i in range(16))
+    assert matrix_rank(identity) == 16
+    singular_control = list(identity)
+    singular_control[-1] = tuple(Fraction(0) for _ in range(16))
+    assert matrix_rank(singular_control) == 15
     # The sixteenth basis vector has unit carrier norm under G_16 = I_16.
     neutral_channel = tuple(Fraction(int(index == 15)) for index in range(16))
     assert norm_sq(neutral_channel) == 1
@@ -136,7 +162,11 @@ def main() -> None:
     verify_general_identity()
     verify_finite_witness()
     verify_null_lift_and_anomaly_preservation()
-    print("WRRA-M 0.4 exact verification: PASS")
+    print(json.dumps({'version':'0.4-r1','status':'PASS',
+        'constructed_gaps':[8,8],'scores':[0,-8,-8,-16],
+        'computed_identity_rank':16,'computed_singular_control_rank':15,
+        'neutral_channel_norm_squared':1,
+        'rank_scope':'separate transport Gram example, not the 2D response witness'},indent=2))
 
 
 if __name__ == "__main__":

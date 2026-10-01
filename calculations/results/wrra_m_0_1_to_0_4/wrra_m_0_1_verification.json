@@ -1,0 +1,18 @@
+{
+  "version": "0.1-r1",
+  "status": "PASS",
+  "complex_color_dimension": 15,
+  "color_multiplicities": {
+    "3": 2,
+    "anti3": 2,
+    "1": 3
+  },
+  "calibrated_anomalies": {
+    "gravity_U1": "0",
+    "U1_cubed": "0",
+    "SU3_squared_U1": "0",
+    "SU2_squared_U1": "0",
+    "SU3_cubed": "0"
+  },
+  "chirality": "physical assumption; not established by this character check"
+}

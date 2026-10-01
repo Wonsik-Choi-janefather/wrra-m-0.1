@@ -11,7 +11,7 @@ lang: en-US
 | Author | Wonsik Choi |
 | ORCID | 0009-0001-4263-9772 |
 | Email | janefather@gmail.com |
-| Version | WRRA-M 0.4 |
+| Version | WRRA-M 0.4-r1 |
 | Date | 1 October 2026 |
 | Status | Conditional common-carrier extension theorem |
 
@@ -297,6 +297,8 @@ and the four total filter scores are
 
 This witness proves only constructibility and nonemptiness of the positive-gap region. It is not a witness for $\operatorname{rank}G_{16}=16$, which remains a separate carrier-extension requirement. It is not evidence that nature has these signatures. A physical test must calculate the signatures from an independently frozen carrier.
 
+Relation to 0.5. The gaps of eight in this constructed witness and the zero gaps of the symmetric carrier actually tested in 0.5 are compatible: they use different response assignments. The former establishes possibility; the latter shows that the tested symmetric carrier does not select the target. Applying the 0.3 dynamical convergence result additionally requires eta > 0 and nonzero initial target support.
+
 # Non-circular calculation protocol
 
 1. Fix one admissible sixteen-channel carrier and the band $I$ without looking at the recovered particle charges.
@@ -307,7 +309,7 @@ This witness proves only constructibility and nonemptiness of the positive-gap r
 6. Publish $\Delta_L$, $\Delta_R$, uncertainty bounds, and the selected filter without relabeling channel origins.
 7. Apply the unchanged 0.3 convergence and perturbation tests.
 
-Choosing the response map, band, or metric after inspecting the target is calibration to the answer. It does not count as a carrier-origin calculation.
+Known particle assignments may calibrate the response map, band, or metric as part of legitimate model construction. Record that calibration separately from selection calculated from carrier responses frozen before the target check. After the calibration is fixed, the mismatch rule still yields exact conditional scores and gaps. A later fit to the same target is not an independent carrier-selection test.
 
 # Claim ledger
 
@@ -360,7 +362,7 @@ The accompanying verification script checks with exact rational arithmetic that:
 - the finite witness yields $\Delta_L=\Delta_R=8$;
 - the four witness scores are $0,-8,-8,-16$;
 - adding a zero-charge singlet leaves the anomaly sums unchanged;
-- an identity sixteen-channel Gram operator has full rank and positive neutral-channel norm.
+- the script explicitly constructs I16 and computes rank 16 by exact Gaussian elimination, checks neutral-channel norm 1 and a singular rank-15 control; this separate transport-Gram example does not give rank 16 to the two-dimensional response witness.
 
 # Appendix B References
 

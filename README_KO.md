@@ -13,6 +13,17 @@
 
 모이는 에너지 지수 nc=0, 배경 지수 nb=3, 부하 연산자와 정보 시계는 공개한 구성 선택이다. 압력과 보존은 그 선택에서 계산한 결과다. 실제 우주의 유일한 미시 법칙, 절대 우주 길이, 완전한 4차원 공변 국소 이론이나 공간 섭동의 안정성을 확정한 것은 아니다. 대칭 전달자 선택 격차는 0이다. 질량 표현형의 양자화와 근본 중력의 비양자 전제를 구분한다.
 
+## 0.1–0.4 corrections / 0.1~0.4 수정
+
+Correction r1 explicitly states complexification and independent Weyl-channel assumptions, the positive selection rate eta > 0 and nonzero target support, legitimate calibration provenance, and directly computed transport-Gram rank. Exact checks pass, including all 6,561 finite tables and 256 perturbation vertices. The 0.4 gap-eight construction and 0.5 gap-zero symmetric carrier are compatible. Stage 0.6 and its existing results are retained.
+
+복소화·바일 채널 배정 가정, 양의 선택속도와 초기 지지, 보정 출처, 직접 계산한 랭크를 한영 원고에 명시했다. 기존 결과를 유지하며 네 검산 모두 통과했다.
+
+- [Correction record / 수정 기록](REVISION_0_1_TO_0_4.md)
+- [Reproduce 0.1–0.4 / 검산 실행](calculations/README_0_1_to_0_4.md)
+- [Captured exact results](calculations/results/wrra_m_0_1_to_0_4)
+- [Zenodo series release 0.6-r1](https://doi.org/10.5281/zenodo.23075976)
+
 ## 파일
 
 - [0.6 한국어 PDF](paper/WRRA_M_0_6_KO.pdf) · [DOCX](paper/WRRA_M_0_6_KO.docx)

@@ -8,6 +8,17 @@ Latest version: **WRRA-M 0.6** · 2026-10-01
 
 WRRA-M continues WRRA Core 1.0 and Minimal Computation Cosmology 2.3.2.
 
+## 0.1–0.4 corrections / 0.1~0.4 수정
+
+Correction r1 explicitly states complexification and independent Weyl-channel assumptions, the positive selection rate eta > 0 and nonzero target support, legitimate calibration provenance, and directly computed transport-Gram rank. Exact checks pass, including all 6,561 finite tables and 256 perturbation vertices. The 0.4 gap-eight construction and 0.5 gap-zero symmetric carrier are compatible. Stage 0.6 and its existing results are retained.
+
+복소화·바일 채널 배정 가정, 양의 선택속도와 초기 지지, 보정 출처, 직접 계산한 랭크를 한영 원고에 명시했다. 기존 결과를 유지하며 네 검산 모두 통과했다.
+
+- [Correction record / 수정 기록](REVISION_0_1_TO_0_4.md)
+- [Reproduce 0.1–0.4 / 검산 실행](calculations/README_0_1_to_0_4.md)
+- [Captured exact results](calculations/results/wrra_m_0_1_to_0_4)
+- [Zenodo series release 0.6-r1](https://doi.org/10.5281/zenodo.23075976)
+
 ## Completed 0.6 · 0.6 완료
 
 A finite homogeneous constitutive model now connects actual information-state loads, volume-derived pressure, state evolution, expansion and twist in one energy functional and classical action. The same clustering load enters the inherited calibrated rotation and conditional lens response. The energy exponents and information clock are disclosed choices; a unique microscopic law or full four-dimensional covariant completion is not claimed.

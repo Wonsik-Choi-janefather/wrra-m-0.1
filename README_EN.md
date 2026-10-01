@@ -13,6 +13,17 @@ Version 0.6 completes a finite homogeneous constitutive model. Weighted state lo
 
 The exponents nc=0 and nb=3, operators and information clock are disclosed constitutive choices. Pressure and conservation follow from those choices. Unique microscopic laws, absolute cosmic length, a complete four-dimensional covariant local theory and spatial perturbation stability remain outside the completed claim. Symmetric-carrier filter gaps remain zero. Quantizable mass phenotypes and the nonquantum fundamental-gravity premise remain distinguished.
 
+## 0.1–0.4 corrections / 0.1~0.4 수정
+
+Correction r1 explicitly states complexification and independent Weyl-channel assumptions, the positive selection rate eta > 0 and nonzero target support, legitimate calibration provenance, and directly computed transport-Gram rank. Exact checks pass, including all 6,561 finite tables and 256 perturbation vertices. The 0.4 gap-eight construction and 0.5 gap-zero symmetric carrier are compatible. Stage 0.6 and its existing results are retained.
+
+복소화·바일 채널 배정 가정, 양의 선택속도와 초기 지지, 보정 출처, 직접 계산한 랭크를 한영 원고에 명시했다. 기존 결과를 유지하며 네 검산 모두 통과했다.
+
+- [Correction record / 수정 기록](REVISION_0_1_TO_0_4.md)
+- [Reproduce 0.1–0.4 / 검산 실행](calculations/README_0_1_to_0_4.md)
+- [Captured exact results](calculations/results/wrra_m_0_1_to_0_4)
+- [Zenodo series release 0.6-r1](https://doi.org/10.5281/zenodo.23075976)
+
 ## Files
 
 - [0.6 한국어 PDF](paper/WRRA_M_0_6_KO.pdf) · [DOCX](paper/WRRA_M_0_6_KO.docx)

@@ -1,0 +1,18 @@
+{
+  "version": "0.4-r1",
+  "status": "PASS",
+  "constructed_gaps": [
+    8,
+    8
+  ],
+  "scores": [
+    0,
+    -8,
+    -8,
+    -16
+  ],
+  "computed_identity_rank": 16,
+  "computed_singular_control_rank": 15,
+  "neutral_channel_norm_squared": 1,
+  "rank_scope": "separate transport Gram example, not the 2D response witness"
+}

@@ -1,0 +1,13 @@
+{
+  "version": "0.3-r1",
+  "status": "PASS",
+  "finite_tables": 6561,
+  "target_unique_tables": 961,
+  "tables_with_tied_maxima": 2717,
+  "flow_eta_positive": "target increases and exponential bound holds",
+  "flow_eta_zero": "weights unchanged",
+  "flow_eta_negative": "minimum-score weight increases",
+  "zero_initial_target": "remains zero",
+  "perturbation_vertices": 256,
+  "sharp_margin": "tie at delta=4*rho"
+}
