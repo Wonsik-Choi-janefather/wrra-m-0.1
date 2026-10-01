@@ -49,6 +49,16 @@ The chosen nucleon spin-flavor states yield vector and bare axial matrix element
 - [전체 재현 ZIP](upstream/fold_decay_v0_2/paper/WRRA_M_Fold_Current_Beta_Rate_Bridge_v0_2_Reproducibility_2026_10_02.zip) · [계산 코드](upstream/fold_decay_v0_2/code/compute.py) · [결과 장부](upstream/fold_decay_v0_2/code/results.json)
 
 
+## Internal fold mixing and shared currents 0.3 · 내부 접힘 혼합과 핵자 전류 0.3
+
+소수 계열 결합을 가진 내부 Hamiltonian의 고유상태에 전자기·약한 전류를 따로 적용했다. 자기모멘트만 보정한 단순 경로는 **혼합 7.3532%, 축벡터 1.568624**를 내놓으며 관측 축벡터와 23.0004% 차이가 남는다. 관측 축벡터를 함께 사용한 구성은 **혼합 29.3525%, 집단 자기 응답 c1=0.4399877929 μN**로 두 자기모멘트와 축벡터를 반환한다. 부모 수명 보정을 고정한 소수 계열 사례와 같은 자기모멘트에 대응하는 상태 자유도를 기록했다. **38개 구현 검사, 7쪽 원고와 독립 ZIP 재현**을 완료했다.
+
+The finite Euler-family Hamiltonian replaces the earlier scalar axial dressing with an explicit internal eigenstate. The magnetic-only inverse and the joint calibrated realization are both recorded, including their input roles, electromagnetic/weak current blocks, fixed prime-family responses and conserved transport.
+
+- [계산 안내와 재현](upstream/internal_mixing_v0_3/README.md)
+- [한국어 PDF 7쪽](upstream/internal_mixing_v0_3/paper/WRRA_M_Internal_Fold_Mixing_Shared_Currents_v0_3_KO_2026_10_02.pdf) · [Word](upstream/internal_mixing_v0_3/paper/WRRA_M_Internal_Fold_Mixing_Shared_Currents_v0_3_KO_2026_10_02.docx) · [원고](upstream/internal_mixing_v0_3/manuscript_KO.md)
+- [전체 재현 ZIP](upstream/internal_mixing_v0_3/paper/WRRA_M_Internal_Fold_Mixing_Shared_Currents_v0_3_Reproducibility_2026_10_02.zip) · [계산](upstream/internal_mixing_v0_3/code/compute.py) · [결과 장부](upstream/internal_mixing_v0_3/code/results.json)
+
 ## Completed 0.9 · 0.9 완료
 
 Version 0.9 executes the common upstream arithmetic ledger and input contract, then routes phenotype weight through the actual 0.8 particle permutation. The frozen reference reproduces **5%·26.8%·68.2%**, **resident Actual 31.8%**, and **complete accounted weight 100%**. Pending SOURCE and completed return are distinct during the transition. All nine 0.8 results and their charges are unchanged.
