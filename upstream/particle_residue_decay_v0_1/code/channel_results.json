@@ -1,0 +1,190 @@
+{
+  "title": "WRRA M separate channel response audit v0.1",
+  "date": "2026-10-01",
+  "carrier_status": "supplied one-generation 15-chiral-channel representation content; antiparticle channels are conjugate representations, not extra entries in this basis",
+  "hypercharge_convention": "Q = T3 + Y, with this Y equal to one half of the Y used in the PDG convention Q = T3 + Y_PDG/2",
+  "state_record_schema": {
+    "address": "candidate arithmetic residue label; may be shared by several internal states",
+    "sector": "baryon, lepton or other selected physical readout sector",
+    "valence": "net valence flavor counts; not the entire QCD constituent content",
+    "internal_state": "color, chirality, spin-flavor-spatial state, orbital excitation and density matrix",
+    "additional_QCD_content": "sea quark-antiquark pairs and gluons enter the effective state and response, not fixed prime multiplicities here",
+    "environment": "free particle or bound system, external fields, scale and renormalization scheme",
+    "response_parameters": "constrained energy, current and transition kernels; parameters must have independent input or a recorded calibration"
+  },
+  "channels": [
+    {
+      "label": "uL_r",
+      "color": "r",
+      "hypercharge_Y": 0.16666666666666666,
+      "weak_T3": 0.5,
+      "electric_Q_e": 0.6666666666666666,
+      "spin": 0.5
+    },
+    {
+      "label": "uL_g",
+      "color": "g",
+      "hypercharge_Y": 0.16666666666666666,
+      "weak_T3": 0.5,
+      "electric_Q_e": 0.6666666666666666,
+      "spin": 0.5
+    },
+    {
+      "label": "uL_b",
+      "color": "b",
+      "hypercharge_Y": 0.16666666666666666,
+      "weak_T3": 0.5,
+      "electric_Q_e": 0.6666666666666666,
+      "spin": 0.5
+    },
+    {
+      "label": "dL_r",
+      "color": "r",
+      "hypercharge_Y": 0.16666666666666666,
+      "weak_T3": -0.5,
+      "electric_Q_e": -0.33333333333333337,
+      "spin": 0.5
+    },
+    {
+      "label": "dL_g",
+      "color": "g",
+      "hypercharge_Y": 0.16666666666666666,
+      "weak_T3": -0.5,
+      "electric_Q_e": -0.33333333333333337,
+      "spin": 0.5
+    },
+    {
+      "label": "dL_b",
+      "color": "b",
+      "hypercharge_Y": 0.16666666666666666,
+      "weak_T3": -0.5,
+      "electric_Q_e": -0.33333333333333337,
+      "spin": 0.5
+    },
+    {
+      "label": "uR_r",
+      "color": "r",
+      "hypercharge_Y": 0.6666666666666666,
+      "weak_T3": 0,
+      "electric_Q_e": 0.6666666666666666,
+      "spin": 0.5
+    },
+    {
+      "label": "uR_g",
+      "color": "g",
+      "hypercharge_Y": 0.6666666666666666,
+      "weak_T3": 0,
+      "electric_Q_e": 0.6666666666666666,
+      "spin": 0.5
+    },
+    {
+      "label": "uR_b",
+      "color": "b",
+      "hypercharge_Y": 0.6666666666666666,
+      "weak_T3": 0,
+      "electric_Q_e": 0.6666666666666666,
+      "spin": 0.5
+    },
+    {
+      "label": "dR_r",
+      "color": "r",
+      "hypercharge_Y": -0.3333333333333333,
+      "weak_T3": 0,
+      "electric_Q_e": -0.3333333333333333,
+      "spin": 0.5
+    },
+    {
+      "label": "dR_g",
+      "color": "g",
+      "hypercharge_Y": -0.3333333333333333,
+      "weak_T3": 0,
+      "electric_Q_e": -0.3333333333333333,
+      "spin": 0.5
+    },
+    {
+      "label": "dR_b",
+      "color": "b",
+      "hypercharge_Y": -0.3333333333333333,
+      "weak_T3": 0,
+      "electric_Q_e": -0.3333333333333333,
+      "spin": 0.5
+    },
+    {
+      "label": "nuL",
+      "color": null,
+      "hypercharge_Y": -0.5,
+      "weak_T3": 0.5,
+      "electric_Q_e": 0.0,
+      "spin": 0.5
+    },
+    {
+      "label": "eL",
+      "color": null,
+      "hypercharge_Y": -0.5,
+      "weak_T3": -0.5,
+      "electric_Q_e": -1.0,
+      "spin": 0.5
+    },
+    {
+      "label": "eR",
+      "color": null,
+      "hypercharge_Y": -1.0,
+      "weak_T3": 0.0,
+      "electric_Q_e": -1.0,
+      "spin": 0.5
+    }
+  ],
+  "separate_responses": {
+    "constituents": "valence flavor and channel counts; address prime factors are candidate labels",
+    "strong": "eight color generators on each quark color triplet; three-quark color-singlet invariance checked. Binding energy and alpha_s running are separate constitutive inputs.",
+    "residual_nuclear": "inter-nucleon binding and effective nuclear interactions require a bound-system environment; not computed by the free-nucleon color audit",
+    "weak": "four left doublets (three colored quark and one lepton); right channels weak singlets. Raising dL->uL and eL->nuL computed. Transition strengths, mixing and gA are further inputs.",
+    "electromagnetic": "Q=T3+Y; electric charges and signed magnetic-current readout are distinct",
+    "spin": "three spin halves yield two spin-half multiplets and one spin-three-half multiplet; a full spin-flavor-spatial state must choose the branch",
+    "mass": "shared nucleon energy response in the companion trial; not integer product or Omega alone",
+    "decay": "allowed flavor-channel transition, energy condition and rate; Actual energy retention is distinct from phenotype lifetime"
+  },
+  "coupling_inputs_recorded": {
+    "inverse_fine_structure_constant": 137.035999177,
+    "Fermi_coupling_GeV_minus2": 1.1663787e-05,
+    "strong_coupling": "must specify scale and renormalization scheme; no numerical alpha_s fit in this audit"
+  },
+  "color_singlet_total_generator_norms": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "spin_J_squared_eigenvalues_hbar2": [
+    0.7499999999999996,
+    0.7499999999999996,
+    0.75,
+    0.75,
+    3.7499999999999996,
+    3.7499999999999996,
+    3.75,
+    3.75
+  ],
+  "verification": {
+    "carrier_has_15_channels": true,
+    "Q_equals_T3_plus_Y": true,
+    "weak_raise_charge_commutator": true,
+    "weak_SU2_commutator": true,
+    "color_commutes_with_weak_raise": true,
+    "color_commutes_with_EM_charge": true,
+    "three_color_singlet_normalized": true,
+    "three_color_singlet_total_color_zero": true,
+    "three_spins_have_two_half_multiplets": true,
+    "three_spins_have_one_three_half_multiplet": true,
+    "all_passed": true
+  },
+  "sources": [
+    "https://pdg.lbl.gov/2026/reviews/rpp2026-rev-standard-model.pdf",
+    "https://pdg.lbl.gov/2026/reviews/rpp2026-rev-quark-model.pdf",
+    "https://physics.nist.gov/cuu/Constants/Table/allascii.txt"
+  ]
+}

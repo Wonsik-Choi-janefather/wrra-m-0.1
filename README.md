@@ -28,6 +28,14 @@ The upper hypothesis constructs residue through initial admission and normalized
 - [한국어 PDF 6쪽](upstream/zeta_frame_v0_1/paper/WRRA_M_Zeta_Zero_Frame_Filter_Appendix_v0_1_KO_2026_10_01.pdf) · [Word](upstream/zeta_frame_v0_1/paper/WRRA_M_Zeta_Zero_Frame_Filter_Appendix_v0_1_KO_2026_10_01.docx) · [GitHub 부록](upstream/zeta_frame_v0_1/appendix_KO.md)
 - [전체 재현 ZIP](upstream/zeta_frame_v0_1/paper/WRRA_M_Zeta_Zero_Frame_Filter_v0_1_Reproducibility_2026_10_01.zip) · [계산 장부](upstream/zeta_frame_v0_1/code/results.json)
 
+## Particle residue and fold-decay trial 0.1 · 입자 잔존과 붕괴 탐색 0.1
+
+잔존 주소에서 **구성 소립자·강력과 색·잔여 핵력·약력·전자기 전류·스핀**을 별도 응답으로 읽는다. 질량비 탐색에서 후보쌍 15개를 얻고, 단순 공통 거듭제곱 판독의 핵자·뮤온 불일치를 기록했다. **선택한 45·75 핵자 구성**에 알려진 질량·자기모멘트로 보정한 에너지와 전류를 적용했다. 별도 15 카이럴 채널의 색·약력·전하·스핀 대수 10개 검사가 통과했다. 자유 중성자 붕괴의 기대 장부는 관측 평균수명을 입력해 에너지와 양자수를 보존하며, 같은 주소의 내부 상태·결합·환경 차이를 허용한다.
+
+- [입자 탐색과 재현 안내](upstream/particle_residue_decay_v0_1)
+- [한국어 PDF 7쪽](upstream/particle_residue_decay_v0_1/paper/WRRA_M_Particle_Residue_Decay_Trial_v0_1_KO_2026_10_01.pdf) · [Word](upstream/particle_residue_decay_v0_1/paper/WRRA_M_Particle_Residue_Decay_Trial_v0_1_KO_2026_10_01.docx) · [GitHub 원고](upstream/particle_residue_decay_v0_1/manuscript_KO.md)
+- [전체 재현 ZIP](upstream/particle_residue_decay_v0_1/paper/WRRA_M_Particle_Residue_Decay_Trial_v0_1_Reproducibility_2026_10_01.zip) · [입자 장부](upstream/particle_residue_decay_v0_1/code/results.json) · [분리한 채널 장부](upstream/particle_residue_decay_v0_1/code/channel_results.json)
+
 ## Completed 0.7 · 0.7 완료
 
 Version 0.7 fixes the common definitions of Actual, quantization, phenotype, residue and physical records. A positive additive **energy-weighted information-load measure** reproduces the 4.93% phenotype and 95.07% hidden reference, recalculates shares for changed states and scale, and bridges to the same 0.6-r2 energy, pressure, gravity and expansion calculations. The shares are allocation weights; measurement outcome probabilities and particle/filter selection are the subsequent development stages.

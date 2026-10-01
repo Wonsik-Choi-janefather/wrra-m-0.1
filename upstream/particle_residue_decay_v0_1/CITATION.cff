@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this computational particle trial and its parent structural hypothesis."
+type: software
+title: "WRRA-M Particle Residue Address and Fold-Decay Trial"
+version: "0.1"
+date-released: "2026-10-01"
+authors:
+  - family-names: Choi
+    given-names: Wonsik
+    orcid: "https://orcid.org/0009-0001-4263-9772"
+license: CC-BY-4.0
+repository-code: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/tree/main/upstream/particle_residue_decay_v0_1"
