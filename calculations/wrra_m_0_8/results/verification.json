@@ -1,0 +1,193 @@
+{
+  "version": "WRRA-M 0.8",
+  "passed": true,
+  "check_count": 22,
+  "input_hash_sha256": "8403336558879543b0784d6f5e009c02429107c65cfe3c09a93d4126a256af3c",
+  "checks": [
+    {
+      "name": "inherited_0_1_to_0_4_exact_checks",
+      "passed": true,
+      "versions": 4
+    },
+    {
+      "name": "fifteen_color_components_and_neutral_extension",
+      "passed": true
+    },
+    {
+      "name": "uniform_response_from_independent_periodic_spectrum",
+      "passed": true,
+      "maximum_absolute_error": 6.661338147750939e-16
+    },
+    {
+      "name": "nonuniform_response_from_direct_complex_resolvent",
+      "passed": true,
+      "maximum_absolute_error": 1.3322676295501878e-15
+    },
+    {
+      "name": "zero_calibration_recovers_tie_and_homogeneous_transport",
+      "passed": true
+    },
+    {
+      "name": "four_filter_costs_and_alignment_identities",
+      "passed": true,
+      "score_maximum_error": 0.0
+    },
+    {
+      "name": "all_nine_cases_select_calibrated_branch",
+      "passed": true,
+      "minimum_gap": 0.02428677921967631,
+      "maximum_finite_flow_residual": 6.66666677417993e-09
+    },
+    {
+      "name": "positive_rank_sixteen_and_transported_neutral_slot",
+      "passed": true
+    },
+    {
+      "name": "bijective_filter_preserves_color_action",
+      "passed": true,
+      "intertwining_error": 0.0
+    },
+    {
+      "name": "single_derived_hypercharge_and_exact_anomalies",
+      "passed": true,
+      "field_groups": 6
+    },
+    {
+      "name": "three_calibrated_generations_and_normalized_energy_budget",
+      "passed": true,
+      "observed_SM_chiral_components": 45,
+      "conditional_neutral_slots": 3,
+      "transport_rank": 48
+    },
+    {
+      "name": "weak_algebra_and_shared_B_minus_L",
+      "passed": true,
+      "commutator_error": 0.0
+    },
+    {
+      "name": "same_nine_0_7_physical_ledgers",
+      "passed": true
+    },
+    {
+      "name": "nonuniform_channel_state_has_no_energy_double_count",
+      "passed": true
+    },
+    {
+      "name": "general_entangled_channel_state_preserves_load",
+      "passed": true,
+      "maximum_load_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "grid_input_controls_load_and_filter_response",
+      "passed": true,
+      "grid_results": [
+        {
+          "N": 32,
+          "gap": 0.06031549173419187,
+          "filter": "F_DX",
+          "rank": 16
+        },
+        {
+          "N": 64,
+          "gap": 0.04687160938174453,
+          "filter": "F_DX",
+          "rank": 16
+        },
+        {
+          "N": 128,
+          "gap": 0.046691930387696756,
+          "filter": "F_DX",
+          "rank": 16
+        },
+        {
+          "N": 256,
+          "gap": 0.0466915664807778,
+          "filter": "F_DX",
+          "rank": 16
+        }
+      ]
+    },
+    {
+      "name": "declared_contrast_sensitivity",
+      "passed": true,
+      "contrast_results": [
+        {
+          "coupling": 0.0,
+          "gap": 0.0,
+          "filter": null
+        },
+        {
+          "coupling": 0.1,
+          "gap": 0.012923084559469842,
+          "filter": "F_DX"
+        },
+        {
+          "coupling": 0.25,
+          "gap": 0.046691930387696756,
+          "filter": "F_DX"
+        },
+        {
+          "coupling": 0.5,
+          "gap": 0.1300171815330757,
+          "filter": "F_DX"
+        }
+      ]
+    },
+    {
+      "name": "orientation_controls_and_global_convention_covariance",
+      "passed": true,
+      "controls": [
+        {
+          "filter": "F_XX",
+          "field_charge_benchmark_matches": true
+        },
+        {
+          "filter": "F_DD",
+          "field_charge_benchmark_matches": false
+        },
+        {
+          "filter": "F_XD",
+          "field_charge_benchmark_matches": false
+        }
+      ],
+      "equivalence_note": "Origin assignment is fixed by calibration; interchangeable origin names do not define a new observed particle spectrum."
+    },
+    {
+      "name": "joint_response_background_and_basis_covariance",
+      "passed": true,
+      "maximum_response_error": 7.771561172376096e-16,
+      "weak_background_commutator_norm": 0.7071067811865476,
+      "scope": "Component-dependent readout is a calibrated background, not an unbroken SU(2)-invariant Hamiltonian."
+    },
+    {
+      "name": "flow_equation_and_zero_support_boundary",
+      "passed": true,
+      "ODE_maximum_error": 2.3619994848900205e-14
+    },
+    {
+      "name": "invalid_calibrations_and_fake_records_rejected",
+      "passed": true,
+      "rejected_cases": [
+        "negative_coupling",
+        "nonfinite_shift",
+        "zero_rate",
+        "invalid_weight",
+        "wrong_channel_count",
+        "invalid_tag",
+        "negative_potential",
+        "zero_damping",
+        "nan_probe",
+        "empty_band",
+        "fake_record",
+        "changed_c"
+      ]
+    },
+    {
+      "name": "hash_provenance_and_explicit_recalibration",
+      "passed": true,
+      "recalibrated_alpha": "2",
+      "recalibrated_beta": "1"
+    }
+  ],
+  "random_test_seed": 808
+}

@@ -1,0 +1,41 @@
+{
+  "version": "WRRA-M 0.8",
+  "passed": true,
+  "input_hash_sha256": "8403336558879543b0784d6f5e009c02429107c65cfe3c09a93d4126a256af3c",
+  "clean_copy_check_count": 22,
+  "captured_results_removed_before_run": true,
+  "outputs_byte_identical": true,
+  "output_sha256": {
+    "results.json": "dde40094450e7747719b379367f9faa73078e795856875bfa0bf0d046562b978",
+    "case_table.csv": "3f325f677c1916b22b8c915eb076c6b47d579ae839832cdbdcc50f67f4ada57d",
+    "channel_table.csv": "575576c29eba6b508ebf61b8590476b42782a8bb0c0d172a3d17e903e0b5779a",
+    "particle_inventory.csv": "80fd62cb21194fe0765dd426daef7b0c2b4ce1aa8a3209b3d319a48748131753",
+    "verification.json": "679c7d132fe2921298fc52e80fe57d9a28b6388d29d987955da794d45ba92d0b",
+    "inherited_exact_checks.json": "cb901e280c92186a692b5b55840d3fe4977da0dc6a388ce1071f182cdb6ac07c"
+  },
+  "frozen_baseline_files_preserved": true,
+  "frozen_baseline_sha256": {
+    "calculations/wrra_m_0_6/compute.py": "4a8c1998618158436523c02e199556845a12ccb7b1ec2b662d939be14d31c69e",
+    "calculations/wrra_m_0_6/parameters.json": "1ec8ad4a11ceef2342615b1543f39f604d379e0c666510d732a50aa21efce3e3",
+    "calculations/wrra_m_0_6/baseline_0_5/compute.py": "a1933c2788548e0b3e005a6b152b2ee21613110638a8da27dbf63eda24a16c41",
+    "calculations/wrra_m_0_6/baseline_0_5/parameters.json": "3873a2a786c4c2396fc07d36985ae2651ca6229d5dfbde9f9fee22f0e13e4baa",
+    "calculations/wrra_m_0_6/results/summary.json": "2aa662e24b88eea1108f976d43d207c55bd83e756a571e87dce5ddefa094931f",
+    "calculations/wrra_m_0_7/compute.py": "6a13101b61deed3ef7119433df7cebd1c1301dbffd6480de3bcb88628715cc34",
+    "calculations/wrra_m_0_7/parameters.json": "48c8d20fd995189266c5f95557d6c604cb07d393ac4ee2610d6d59fa7883503f",
+    "calculations/wrra_m_0_7/results/results.json": "8ab2a82aae848c8bc3f5674874632231aab4f7febf5f2d22a78e563ce2867562",
+    "calculations/verify_wrra_m_0_1.py": "0db907fca2287848bb7e4801c8f9b5355da7faab25be52c03b5031cb72eaeb05",
+    "calculations/verify_wrra_m_0_2.py": "f610eaed79e8e82a8c36861b05a596d4acbe56a6bcf7b57935d9c2d53e0e9185",
+    "calculations/verify_wrra_m_0_3.py": "81bb376b5b6b60593215c163455577ff79972915cb4bd9f3707707f8c81c7550",
+    "calculations/verify_wrra_m_0_4.py": "69e1a35862d59e38383651fa4e205e38decc2fc6e891a55b3097ab6279e2c4fc"
+  },
+  "command": "python calculations/wrra_m_0_8/run_release.py",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "platform": "Linux",
+    "machine": "x86_64",
+    "random_test_seed": 808,
+    "dependency_policy": "See requirements.txt; this file records the checked runtime."
+  }
+}

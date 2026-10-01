@@ -4,7 +4,7 @@
 
 **원식 현실 렌더러 아키텍처 메타차원 연구 분기**
 
-Latest development version: **WRRA-M 0.7** · 2026-10-01
+Latest development version: **WRRA-M 0.8** · 2026-10-01
 
 Latest Zenodo archive: **WRRA-M 0.6-r2**.
 
@@ -35,6 +35,34 @@ The upper hypothesis constructs residue through initial admission and normalized
 - [입자 탐색과 재현 안내](upstream/particle_residue_decay_v0_1)
 - [한국어 PDF 7쪽](upstream/particle_residue_decay_v0_1/paper/WRRA_M_Particle_Residue_Decay_Trial_v0_1_KO_2026_10_01.pdf) · [Word](upstream/particle_residue_decay_v0_1/paper/WRRA_M_Particle_Residue_Decay_Trial_v0_1_KO_2026_10_01.docx) · [GitHub 원고](upstream/particle_residue_decay_v0_1/manuscript_KO.md)
 - [전체 재현 ZIP](upstream/particle_residue_decay_v0_1/paper/WRRA_M_Particle_Residue_Decay_Trial_v0_1_Reproducibility_2026_10_01.zip) · [입자 장부](upstream/particle_residue_decay_v0_1/code/results.json) · [분리한 채널 장부](upstream/particle_residue_decay_v0_1/code/channel_results.json)
+
+## Completed 0.8 · 0.8 완료
+
+Version 0.8 runs the common carrier response, four-filter comparison, selection flow, channel permutation and one hypercharge operator in the same input ledger. With disclosed particle-origin orientation and readout calibration, all nine cases select **F_DX**. The reference gaps are **0.046691930387696756**. Exact charges and anomaly sums pass; adoption of three known generations gives 45 Standard-Model chiral components plus three conditional neutral extension slots.
+
+공통운반자 응답에서 네 필터의 점수를 실제 계산하고, 선택된 순열에서 입자 배치와 전하를 산출했다. 공개한 보정 아래 9개 상태 모두 F_DX를 선택했다. 22개 검증 묶음, 한영 수식·표 대조, 저장 결과를 지운 깨끗한 복사본의 재현을 완료했다. 같은 격자·상태를 0.7의 부하·에너지·중력·팽창 장부에 연결한다.
+
+The readout offset is an auxiliary calibration in a fixed weak-component basis; it is not an added mass or energy sector. Generation count is an adopted input; masses and mixing are not newly derived. Optimizer weights are construction weights. Physical quantization outcomes, probabilities, post-observation states and records are the next stage, **0.9**.
+
+- [0.8 한국어 PDF](paper/WRRA_M_0_8_KO.pdf) · [DOCX](paper/WRRA_M_0_8_KO.docx) · [Markdown](paper/WRRA_M_0_8_KO.md)
+- [0.8 English PDF](paper/WRRA_M_0_8_EN.pdf) · [DOCX](paper/WRRA_M_0_8_EN.docx) · [Markdown](paper/WRRA_M_0_8_EN.md)
+- [0.8 bilingual reproducibility ZIP](paper/WRRA_M_0_8_Reproducibility.zip)
+- [Calculation and input ledger](calculations/wrra_m_0_8) · [Verification results](calculations/wrra_m_0_8/results/verification.json)
+- [48-component charge inventory](calculations/wrra_m_0_8/results/particle_inventory.csv)
+- [Document checks](calculations/wrra_m_0_8/results/document_checks.json) · [Clean-copy reproduction](calculations/wrra_m_0_8/results/reproduction_checks.json)
+- [Development record](REVISION_0_8.md) · [SHA256 manifest](SHA256SUMS_0_8)
+
+| Evaluation | WRRA-M 0.8 |
+| --- | --- |
+| Verification input / 검증 입력 | MCC 2.3.2, frozen 0.1–0.7 calculations, known particle-origin assignments, three generations and disclosed response calibration. |
+| WRRA-specific transformation / WRRA 고유 변환 | Same-state resolvent intensities → common mismatch metric → four scores and selection flow → channel permutation → one hypercharge operator → normalized family replication. |
+| Output / 산출값 | F_DX selected in nine cases; exact charge inventory and anomaly cancellation; computed ranks 16 and 48; unchanged inherited physical ledgers. |
+| Falsification / 반증조건 | Failed calibrated selection, positivity/rank, charge or energy agreement; changed undisclosed input; treating optimizer weights as physical measurement probabilities. |
+
+```bash
+python -m pip install -r calculations/wrra_m_0_8/requirements.txt
+python calculations/wrra_m_0_8/run_release.py
+```
 
 ## Completed 0.7 · 0.7 완료
 

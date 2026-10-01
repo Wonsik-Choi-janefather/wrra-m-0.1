@@ -1,0 +1,9 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "platform": "Linux",
+  "machine": "x86_64",
+  "random_test_seed": 808,
+  "dependency_policy": "See requirements.txt; this file records the checked runtime."
+}
