@@ -20,6 +20,14 @@ The upper hypothesis constructs residue through initial admission and normalized
 - [한국어 PDF](upstream/two_stage_filter_v1_0/paper/WRRA_M_Upper_Two_Stage_Filter_Hypothesis_v1_0_KO_2026_10_01.pdf) · [Word](upstream/two_stage_filter_v1_0/paper/WRRA_M_Upper_Two_Stage_Filter_Hypothesis_v1_0_KO_2026_10_01.docx) · [GitHub 원고](upstream/two_stage_filter_v1_0/manuscript_KO.md)
 - [전체 재현 ZIP](upstream/two_stage_filter_v1_0/paper/WRRA_M_Upper_Two_Stage_Filter_Hypothesis_v1_0_Reproducibility_2026_10_01.zip) · [계산 장부](upstream/two_stage_filter_v1_0/code/results_26_8.json)
 
+## Zeta zero frame appendix 0.1 · 제타 영점 프레임 계산 부록 0.1
+
+초기 필터 변동을 첫 4개 제타 영점의 위상으로 구현하고, 미진입 잔량을 프레임별로 운반했다. **5%에 보정한 임계값을 고정**하면 초기 구간 4·8·16프레임의 표현형 잔존이 **3.7048%·5%·5.6825%**로 바뀐다. 최소 소인수 3·5·7·11 가족은 기준 표현형의 **98.7275%**를 차지한다. 정상화 후 접힘 보존과 복귀 누수의 수명 조건을 계산했으며 14개 검증 항목이 통과했다.
+
+- [계산 부록과 재현 안내](upstream/zeta_frame_v0_1)
+- [한국어 PDF 6쪽](upstream/zeta_frame_v0_1/paper/WRRA_M_Zeta_Zero_Frame_Filter_Appendix_v0_1_KO_2026_10_01.pdf) · [Word](upstream/zeta_frame_v0_1/paper/WRRA_M_Zeta_Zero_Frame_Filter_Appendix_v0_1_KO_2026_10_01.docx) · [GitHub 부록](upstream/zeta_frame_v0_1/appendix_KO.md)
+- [전체 재현 ZIP](upstream/zeta_frame_v0_1/paper/WRRA_M_Zeta_Zero_Frame_Filter_v0_1_Reproducibility_2026_10_01.zip) · [계산 장부](upstream/zeta_frame_v0_1/code/results.json)
+
 ## Completed 0.7 · 0.7 완료
 
 Version 0.7 fixes the common definitions of Actual, quantization, phenotype, residue and physical records. A positive additive **energy-weighted information-load measure** reproduces the 4.93% phenotype and 95.07% hidden reference, recalculates shares for changed states and scale, and bridges to the same 0.6-r2 energy, pressure, gravity and expansion calculations. The shares are allocation weights; measurement outcome probabilities and particle/filter selection are the subsequent development stages.
