@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this internal mixing calculation and its parent bridge."
+type: software
+title: "WRRA-M Internal Fold Mixing and Shared Nucleon Currents"
+version: "0.3"
+date-released: "2026-10-02"
+authors:
+  - family-names: Choi
+    given-names: Wonsik
+    orcid: "https://orcid.org/0009-0001-4263-9772"
+license: CC-BY-4.0
+repository-code: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/tree/main/upstream/internal_mixing_v0_3"
