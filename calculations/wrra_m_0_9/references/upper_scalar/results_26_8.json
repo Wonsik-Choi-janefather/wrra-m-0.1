@@ -1,0 +1,1158 @@
+{
+  "title": "WRRA upstream 26.8% unexpressed Actual candidate",
+  "date": "2026-10-01",
+  "author": "Wonsik Choi",
+  "same_denominator_targets": {
+    "phenotype": 0.05,
+    "unexpressed_Actual": 0.268,
+    "total_Actual": 0.318,
+    "source_return": 0.682
+  },
+  "weight_rule": "w_n=n^(-alpha)/sum_{m=2..N} m^(-alpha)",
+  "candidate_partition_rule": {
+    "prime2_family": "all even composites, n=2m with m>=2, assigned to unexpressed Actual",
+    "other_composite_families": "odd composites; admitted fraction beta assigned to phenotype",
+    "source_return": "prime addresses plus rejected initial odd-composite attempts",
+    "rule_status": "declared arithmetic proxy; physical dark/matter response not yet derived",
+    "normal_filter_recovery": "all admitted composite folds are in the blocked subspace of the declared 0D return gate"
+  },
+  "prime2_identity": "f_2(N,alpha)=2^(-alpha) Z_floor(N/2)(alpha)/Z_N(alpha), Z_N=sum_{n=2..N} n^(-alpha)",
+  "coarse_exponent_scan": [
+    {
+      "alpha": 0.5,
+      "prime2_family_weight": 0.49974503335809817,
+      "odd_composite_weight": 0.41197053275918705
+    },
+    {
+      "alpha": 0.6,
+      "prime2_family_weight": 0.49924540454965316,
+      "odd_composite_weight": 0.4059277359343045
+    },
+    {
+      "alpha": 0.7,
+      "prime2_family_weight": 0.49788583657400787,
+      "odd_composite_weight": 0.3955328608592087
+    },
+    {
+      "alpha": 0.8,
+      "prime2_family_weight": 0.49452258133647137,
+      "odd_composite_weight": 0.37780650315252184
+    },
+    {
+      "alpha": 0.9,
+      "prime2_family_weight": 0.48726024520919325,
+      "odd_composite_weight": 0.34960655038067456
+    },
+    {
+      "alpha": 1.0,
+      "prime2_family_weight": 0.4741222719277633,
+      "odd_composite_weight": 0.3102884638906517
+    },
+    {
+      "alpha": 1.1,
+      "prime2_family_weight": 0.4546245263427512,
+      "odd_composite_weight": 0.2641011693661238
+    },
+    {
+      "alpha": 1.2000000000000002,
+      "prime2_family_weight": 0.43050008175964605,
+      "odd_composite_weight": 0.2182239256128897
+    },
+    {
+      "alpha": 1.3,
+      "prime2_family_weight": 0.4044036830013907,
+      "odd_composite_weight": 0.17802976479127028
+    },
+    {
+      "alpha": 1.4,
+      "prime2_family_weight": 0.37835413624015024,
+      "odd_composite_weight": 0.14521870607778575
+    },
+    {
+      "alpha": 1.5,
+      "prime2_family_weight": 0.35337151194259864,
+      "odd_composite_weight": 0.11915237087410686
+    },
+    {
+      "alpha": 1.6,
+      "prime2_family_weight": 0.3298215673383503,
+      "odd_composite_weight": 0.09849094261893564
+    },
+    {
+      "alpha": 1.7000000000000002,
+      "prime2_family_weight": 0.30776966856162763,
+      "odd_composite_weight": 0.08197802517665351
+    },
+    {
+      "alpha": 1.8,
+      "prime2_family_weight": 0.2871698094851467,
+      "odd_composite_weight": 0.06863552078820036
+    },
+    {
+      "alpha": 1.9000000000000001,
+      "prime2_family_weight": 0.2679419965219502,
+      "odd_composite_weight": 0.05774214801655873
+    },
+    {
+      "alpha": 2.0,
+      "prime2_family_weight": 0.24999961236345628,
+      "odd_composite_weight": 0.04876893353364554
+    },
+    {
+      "alpha": 2.1,
+      "prime2_family_weight": 0.23325813915608076,
+      "odd_composite_weight": 0.04132293817477566
+    },
+    {
+      "alpha": 2.2,
+      "prime2_family_weight": 0.21763761055855083,
+      "odd_composite_weight": 0.035106939492399646
+    },
+    {
+      "alpha": 2.3,
+      "prime2_family_weight": 0.2030630907173039,
+      "odd_composite_weight": 0.029892020025367193
+    },
+    {
+      "alpha": 2.4000000000000004,
+      "prime2_family_weight": 0.18946456851026408,
+      "odd_composite_weight": 0.025499000232004167
+    },
+    {
+      "alpha": 2.5,
+      "prime2_family_weight": 0.17677669466562712,
+      "odd_composite_weight": 0.021785674294751308
+    },
+    {
+      "alpha": 2.6,
+      "prime2_family_weight": 0.16493848867441535,
+      "odd_composite_weight": 0.01863784843216777
+    },
+    {
+      "alpha": 2.7,
+      "prime2_family_weight": 0.15389305162127734,
+      "odd_composite_weight": 0.01596290950283868
+    },
+    {
+      "alpha": 2.8000000000000003,
+      "prime2_family_weight": 0.14358729436192577,
+      "odd_composite_weight": 0.01368511333515492
+    },
+    {
+      "alpha": 2.9000000000000004,
+      "prime2_family_weight": 0.13397168281359953,
+      "odd_composite_weight": 0.0117420680697708
+    },
+    {
+      "alpha": 3.0,
+      "prime2_family_weight": 0.12499999999907203,
+      "odd_composite_weight": 0.010082065661386698
+    }
+  ],
+  "closest_coarse_scan_case": {
+    "alpha": 1.9000000000000001,
+    "prime2_family_weight": 0.2679419965219502,
+    "odd_composite_weight": 0.05774214801655873
+  },
+  "calibration": {
+    "alpha_fitted_to_26_8_percent": 1.8996876950554356,
+    "beta_fitted_to_5_percent": 0.8654570124136961,
+    "particle_constants_used_to_fit_alpha_or_beta": false
+  },
+  "joint_output": {
+    "N": 1000000,
+    "alpha": 1.8996876950554356,
+    "initial_odd_relation_admission": 0.8654570124136961,
+    "unexpressed_Actual_fraction": 0.26799999999999785,
+    "phenotype_fraction": 0.04999999999999991,
+    "source_return_fraction": 0.6820000000000015,
+    "odd_composite_available_fraction": 0.057772944563189425,
+    "even_composite_available_fraction": 0.2679999999999976,
+    "ledger_sum": 0.9999999999999993,
+    "Actual_total_fraction": 0.31799999999999773,
+    "effect_completeness_max_error": 0.0,
+    "all_effects_between_zero_and_one": true,
+    "Actual_has_no_allowed_return_under_declared_fold_rule": true,
+    "even_family_from_prime2_factor_identity": 0.2679999999999977
+  },
+  "old_alpha2_full_composite_limit": {
+    "N": 1000000,
+    "alpha": 2.0,
+    "initial_odd_relation_admission": 1.0,
+    "unexpressed_Actual_fraction": 0.24999961236345694,
+    "phenotype_fraction": 0.04876893353364544,
+    "source_return_fraction": 0.7012314541028986,
+    "odd_composite_available_fraction": 0.04876893353364554,
+    "even_composite_available_fraction": 0.24999961236345628,
+    "ledger_sum": 1.0000000000000022,
+    "Actual_total_fraction": 0.2987685458971023,
+    "effect_completeness_max_error": 0.0,
+    "all_effects_between_zero_and_one": true,
+    "Actual_has_no_allowed_return_under_declared_fold_rule": true,
+    "even_family_from_prime2_factor_identity": 0.24999961236345622
+  },
+  "fixed_parameter_N_sensitivity": [
+    {
+      "N": 10000,
+      "alpha": 1.8996876950554356,
+      "initial_odd_relation_admission": 0.8654570124136961,
+      "unexpressed_Actual_fraction": 0.2679147547175599,
+      "phenotype_fraction": 0.04989044498057666,
+      "source_return_fraction": 0.6821948003018636,
+      "odd_composite_available_fraction": 0.05764635824191415,
+      "even_composite_available_fraction": 0.2679147547175599,
+      "ledger_sum": 0.9999999999999999,
+      "Actual_total_fraction": 0.31780519969813653,
+      "effect_completeness_max_error": 0.0,
+      "all_effects_between_zero_and_one": true,
+      "Actual_has_no_allowed_return_under_declared_fold_rule": true,
+      "even_family_from_prime2_factor_identity": 0.26791475471755993
+    },
+    {
+      "N": 100000,
+      "alpha": 1.8996876950554356,
+      "initial_odd_relation_admission": 0.8654570124136961,
+      "unexpressed_Actual_fraction": 0.26799046403309534,
+      "phenotype_fraction": 0.04998716350993673,
+      "source_return_fraction": 0.6820223724569685,
+      "odd_composite_available_fraction": 0.057758112526613184,
+      "even_composite_available_fraction": 0.2679904640330951,
+      "ledger_sum": 1.0000000000000007,
+      "Actual_total_fraction": 0.3179776275430321,
+      "effect_completeness_max_error": 0.0,
+      "all_effects_between_zero_and_one": true,
+      "Actual_has_no_allowed_return_under_declared_fold_rule": true,
+      "even_family_from_prime2_factor_identity": 0.26799046403309507
+    },
+    {
+      "N": 1000000,
+      "alpha": 1.8996876950554356,
+      "initial_odd_relation_admission": 0.8654570124136961,
+      "unexpressed_Actual_fraction": 0.26799999999999785,
+      "phenotype_fraction": 0.04999999999999991,
+      "source_return_fraction": 0.6820000000000015,
+      "odd_composite_available_fraction": 0.057772944563189425,
+      "even_composite_available_fraction": 0.2679999999999976,
+      "ledger_sum": 0.9999999999999993,
+      "Actual_total_fraction": 0.31799999999999773,
+      "effect_completeness_max_error": 0.0,
+      "all_effects_between_zero_and_one": true,
+      "Actual_has_no_allowed_return_under_declared_fold_rule": true,
+      "even_family_from_prime2_factor_identity": 0.2679999999999977
+    }
+  ],
+  "fixed_parameter_alpha_sensitivity": [
+    {
+      "N": 1000000,
+      "alpha": 1.8896876950554355,
+      "initial_odd_relation_admission": 0.8654570124136961,
+      "unexpressed_Actual_fraction": 0.26986391305695323,
+      "phenotype_fraction": 0.050862021815792274,
+      "source_return_fraction": 0.6792740651272543,
+      "odd_composite_available_fraction": 0.05876897533471001,
+      "even_composite_available_fraction": 0.26986391305695306,
+      "ledger_sum": 1.0000000000000013,
+      "Actual_total_fraction": 0.3207259348727455,
+      "effect_completeness_max_error": 0.0,
+      "all_effects_between_zero_and_one": true,
+      "Actual_has_no_allowed_return_under_declared_fold_rule": true,
+      "even_family_from_prime2_factor_identity": 0.26986391305695323
+    },
+    {
+      "N": 1000000,
+      "alpha": 1.8996876950554356,
+      "initial_odd_relation_admission": 0.8654570124136961,
+      "unexpressed_Actual_fraction": 0.26799999999999785,
+      "phenotype_fraction": 0.04999999999999991,
+      "source_return_fraction": 0.6820000000000015,
+      "odd_composite_available_fraction": 0.057772944563189425,
+      "even_composite_available_fraction": 0.2679999999999976,
+      "ledger_sum": 0.9999999999999993,
+      "Actual_total_fraction": 0.31799999999999773,
+      "effect_completeness_max_error": 0.0,
+      "all_effects_between_zero_and_one": true,
+      "Actual_has_no_allowed_return_under_declared_fold_rule": true,
+      "even_family_from_prime2_factor_identity": 0.2679999999999977
+    },
+    {
+      "N": 1000000,
+      "alpha": 1.9096876950554356,
+      "initial_odd_relation_admission": 0.8654570124136961,
+      "unexpressed_Actual_fraction": 0.2661489416373012,
+      "phenotype_fraction": 0.04915451296723847,
+      "source_return_fraction": 0.6846965453954612,
+      "odd_composite_available_fraction": 0.05679601905373694,
+      "even_composite_available_fraction": 0.2661489416373011,
+      "ledger_sum": 1.0000000000000016,
+      "Actual_total_fraction": 0.3153034546045396,
+      "effect_completeness_max_error": 0.0,
+      "all_effects_between_zero_and_one": true,
+      "Actual_has_no_allowed_return_under_declared_fold_rule": true,
+      "even_family_from_prime2_factor_identity": 0.2661489416373012
+    }
+  ],
+  "smallest_prime_family_contributions": [
+    {
+      "smallest_prime_factor": 2,
+      "address_count": 499999,
+      "weight_fraction": 0.2679999999999976
+    },
+    {
+      "smallest_prime_factor": 3,
+      "address_count": 166666,
+      "weight_fraction": 0.04648526516651039
+    },
+    {
+      "smallest_prime_factor": 5,
+      "address_count": 66666,
+      "weight_fraction": 0.007654843450148646
+    },
+    {
+      "smallest_prime_factor": 7,
+      "address_count": 38094,
+      "weight_fraction": 0.0022950428943401026
+    },
+    {
+      "smallest_prime_factor": 11,
+      "address_count": 20778,
+      "weight_fraction": 0.0006007083336872897
+    },
+    {
+      "smallest_prime_factor": 13,
+      "address_count": 15983,
+      "weight_fraction": 0.00032550414379516144
+    },
+    {
+      "smallest_prime_factor": 17,
+      "address_count": 11283,
+      "weight_fraction": 0.00014712184308456768
+    },
+    {
+      "smallest_prime_factor": 19,
+      "address_count": 9502,
+      "weight_fraction": 9.573782010324208e-05
+    },
+    {
+      "smallest_prime_factor": 23,
+      "address_count": 7434,
+      "weight_fraction": 5.3498104023427216e-05
+    },
+    {
+      "smallest_prime_factor": 29,
+      "address_count": 5646,
+      "weight_fraction": 2.859502634644454e-05
+    },
+    {
+      "smallest_prime_factor": 31,
+      "address_count": 5098,
+      "weight_fraction": 2.188623912449853e-05
+    },
+    {
+      "smallest_prime_factor": 37,
+      "address_count": 4136,
+      "weight_fraction": 1.3558453557654567e-05
+    },
+    {
+      "smallest_prime_factor": 41,
+      "address_count": 3617,
+      "weight_fraction": 9.935303529850945e-06
+    },
+    {
+      "smallest_prime_factor": 43,
+      "address_count": 3356,
+      "weight_fraction": 8.159778821847665e-06
+    },
+    {
+      "smallest_prime_factor": 47,
+      "address_count": 2982,
+      "weight_fraction": 6.184357449125016e-06
+    },
+    {
+      "smallest_prime_factor": 53,
+      "address_count": 2575,
+      "weight_fraction": 4.446997322965523e-06
+    },
+    {
+      "smallest_prime_factor": 59,
+      "address_count": 2261,
+      "weight_fraction": 3.3187610253943255e-06
+    },
+    {
+      "smallest_prime_factor": 61,
+      "address_count": 2143,
+      "weight_fraction": 2.879598832895381e-06
+    },
+    {
+      "smallest_prime_factor": 67,
+      "address_count": 1910,
+      "weight_fraction": 2.2239958849050607e-06
+    },
+    {
+      "smallest_prime_factor": 71,
+      "address_count": 1775,
+      "weight_fraction": 1.8532483090530017e-06
+    },
+    {
+      "smallest_prime_factor": 73,
+      "address_count": 1700,
+      "weight_fraction": 1.6403275578307732e-06
+    },
+    {
+      "smallest_prime_factor": 79,
+      "address_count": 1553,
+      "weight_fraction": 1.3153438925474148e-06
+    },
+    {
+      "smallest_prime_factor": 83,
+      "address_count": 1460,
+      "weight_fraction": 1.122118576245911e-06
+    },
+    {
+      "smallest_prime_factor": 89,
+      "address_count": 1354,
+      "weight_fraction": 9.225119338063553e-07
+    },
+    {
+      "smallest_prime_factor": 97,
+      "address_count": 1244,
+      "weight_fraction": 7.384037818323212e-07
+    },
+    {
+      "smallest_prime_factor": 101,
+      "address_count": 1195,
+      "weight_fraction": 6.486762978387412e-07
+    },
+    {
+      "smallest_prime_factor": 103,
+      "address_count": 1171,
+      "weight_fraction": 5.936820925338232e-07
+    },
+    {
+      "smallest_prime_factor": 107,
+      "address_count": 1130,
+      "weight_fraction": 5.241047210684542e-07
+    },
+    {
+      "smallest_prime_factor": 109,
+      "address_count": 1109,
+      "weight_fraction": 4.808093620526794e-07
+    },
+    {
+      "smallest_prime_factor": 113,
+      "address_count": 1074,
+      "weight_fraction": 4.2621314367860486e-07
+    },
+    {
+      "smallest_prime_factor": 127,
+      "address_count": 964,
+      "weight_fraction": 3.2397463904611343e-07
+    },
+    {
+      "smallest_prime_factor": 131,
+      "address_count": 937,
+      "weight_fraction": 2.9253696536545284e-07
+    },
+    {
+      "smallest_prime_factor": 137,
+      "address_count": 898,
+      "weight_fraction": 2.5742867399958686e-07
+    },
+    {
+      "smallest_prime_factor": 139,
+      "address_count": 886,
+      "weight_fraction": 2.4050078227129385e-07
+    },
+    {
+      "smallest_prime_factor": 149,
+      "address_count": 832,
+      "weight_fraction": 2.0207856325708858e-07
+    },
+    {
+      "smallest_prime_factor": 151,
+      "address_count": 820,
+      "weight_fraction": 1.8977000225836545e-07
+    },
+    {
+      "smallest_prime_factor": 157,
+      "address_count": 794,
+      "weight_fraction": 1.6958587116531132e-07
+    },
+    {
+      "smallest_prime_factor": 163,
+      "address_count": 763,
+      "weight_fraction": 1.5213524284929504e-07
+    },
+    {
+      "smallest_prime_factor": 167,
+      "address_count": 745,
+      "weight_fraction": 1.401880289533188e-07
+    },
+    {
+      "smallest_prime_factor": 173,
+      "address_count": 719,
+      "weight_fraction": 1.2649125824294686e-07
+    },
+    {
+      "smallest_prime_factor": 179,
+      "address_count": 697,
+      "weight_fraction": 1.1452741034814552e-07
+    },
+    {
+      "smallest_prime_factor": 181,
+      "address_count": 689,
+      "weight_fraction": 1.0849864486294597e-07
+    },
+    {
+      "smallest_prime_factor": 191,
+      "address_count": 654,
+      "weight_fraction": 9.460844039094754e-08
+    },
+    {
+      "smallest_prime_factor": 193,
+      "address_count": 647,
+      "weight_fraction": 8.990611862159847e-08
+    },
+    {
+      "smallest_prime_factor": 197,
+      "address_count": 633,
+      "weight_fraction": 8.374561995410638e-08
+    },
+    {
+      "smallest_prime_factor": 199,
+      "address_count": 629,
+      "weight_fraction": 7.963197460126682e-08
+    },
+    {
+      "smallest_prime_factor": 211,
+      "address_count": 593,
+      "weight_fraction": 6.88742994864888e-08
+    },
+    {
+      "smallest_prime_factor": 223,
+      "address_count": 562,
+      "weight_fraction": 6.008107133336317e-08
+    },
+    {
+      "smallest_prime_factor": 227,
+      "address_count": 551,
+      "weight_fraction": 5.649136495656319e-08
+    },
+    {
+      "smallest_prime_factor": 229,
+      "address_count": 547,
+      "weight_fraction": 5.407567428877727e-08
+    },
+    {
+      "smallest_prime_factor": 233,
+      "address_count": 539,
+      "weight_fraction": 5.0893824188507185e-08
+    },
+    {
+      "smallest_prime_factor": 239,
+      "address_count": 523,
+      "weight_fraction": 4.712975323696342e-08
+    },
+    {
+      "smallest_prime_factor": 241,
+      "address_count": 518,
+      "weight_fraction": 4.516169023896201e-08
+    },
+    {
+      "smallest_prime_factor": 251,
+      "address_count": 496,
+      "weight_fraction": 4.059766426329929e-08
+    },
+    {
+      "smallest_prime_factor": 257,
+      "address_count": 485,
+      "weight_fraction": 3.779070466384985e-08
+    },
+    {
+      "smallest_prime_factor": 263,
+      "address_count": 473,
+      "weight_fraction": 3.52220063036452e-08
+    },
+    {
+      "smallest_prime_factor": 269,
+      "address_count": 462,
+      "weight_fraction": 3.28758650339742e-08
+    },
+    {
+      "smallest_prime_factor": 271,
+      "address_count": 457,
+      "weight_fraction": 3.162396244218332e-08
+    },
+    {
+      "smallest_prime_factor": 277,
+      "address_count": 446,
+      "weight_fraction": 2.95534795300033e-08
+    },
+    {
+      "smallest_prime_factor": 281,
+      "address_count": 439,
+      "weight_fraction": 2.8046830792740013e-08
+    },
+    {
+      "smallest_prime_factor": 283,
+      "address_count": 434,
+      "weight_fraction": 2.6996471375442755e-08
+    },
+    {
+      "smallest_prime_factor": 293,
+      "address_count": 418,
+      "weight_fraction": 2.4592108829885335e-08
+    },
+    {
+      "smallest_prime_factor": 307,
+      "address_count": 398,
+      "weight_fraction": 2.1891267879014046e-08
+    },
+    {
+      "smallest_prime_factor": 311,
+      "address_count": 391,
+      "weight_fraction": 2.0865945828327643e-08
+    },
+    {
+      "smallest_prime_factor": 313,
+      "address_count": 388,
+      "weight_fraction": 2.0157498021738928e-08
+    },
+    {
+      "smallest_prime_factor": 317,
+      "address_count": 381,
+      "weight_fraction": 1.9216054802180996e-08
+    },
+    {
+      "smallest_prime_factor": 331,
+      "address_count": 367,
+      "weight_fraction": 1.7248422183405555e-08
+    },
+    {
+      "smallest_prime_factor": 337,
+      "address_count": 360,
+      "weight_fraction": 1.6294507104761905e-08
+    },
+    {
+      "smallest_prime_factor": 347,
+      "address_count": 349,
+      "weight_fraction": 1.5047906107696874e-08
+    },
+    {
+      "smallest_prime_factor": 349,
+      "address_count": 347,
+      "weight_fraction": 1.4585145032645607e-08
+    },
+    {
+      "smallest_prime_factor": 353,
+      "address_count": 340,
+      "weight_fraction": 1.3956441816427828e-08
+    },
+    {
+      "smallest_prime_factor": 359,
+      "address_count": 333,
+      "weight_fraction": 1.3215208248404784e-08
+    },
+    {
+      "smallest_prime_factor": 367,
+      "address_count": 325,
+      "weight_fraction": 1.2386085285422105e-08
+    },
+    {
+      "smallest_prime_factor": 373,
+      "address_count": 315,
+      "weight_fraction": 1.1729994285036316e-08
+    },
+    {
+      "smallest_prime_factor": 379,
+      "address_count": 308,
+      "weight_fraction": 1.1129104515485983e-08
+    },
+    {
+      "smallest_prime_factor": 383,
+      "address_count": 304,
+      "weight_fraction": 1.0685048239987115e-08
+    },
+    {
+      "smallest_prime_factor": 389,
+      "address_count": 299,
+      "weight_fraction": 1.0154777515954578e-08
+    },
+    {
+      "smallest_prime_factor": 397,
+      "address_count": 291,
+      "weight_fraction": 9.547579568610622e-09
+    },
+    {
+      "smallest_prime_factor": 401,
+      "address_count": 289,
+      "weight_fraction": 9.187262786022268e-09
+    },
+    {
+      "smallest_prime_factor": 409,
+      "address_count": 283,
+      "weight_fraction": 8.65734586852742e-09
+    },
+    {
+      "smallest_prime_factor": 419,
+      "address_count": 274,
+      "weight_fraction": 8.075242690293777e-09
+    },
+    {
+      "smallest_prime_factor": 421,
+      "address_count": 270,
+      "weight_fraction": 7.842658670217382e-09
+    },
+    {
+      "smallest_prime_factor": 431,
+      "address_count": 262,
+      "weight_fraction": 7.327708177629775e-09
+    },
+    {
+      "smallest_prime_factor": 433,
+      "address_count": 260,
+      "weight_fraction": 7.128894132552019e-09
+    },
+    {
+      "smallest_prime_factor": 439,
+      "address_count": 254,
+      "weight_fraction": 6.793741115548312e-09
+    },
+    {
+      "smallest_prime_factor": 443,
+      "address_count": 250,
+      "weight_fraction": 6.5422702578422645e-09
+    },
+    {
+      "smallest_prime_factor": 449,
+      "address_count": 245,
+      "weight_fraction": 6.241567663941595e-09
+    },
+    {
+      "smallest_prime_factor": 457,
+      "address_count": 240,
+      "weight_fraction": 5.906733938453406e-09
+    },
+    {
+      "smallest_prime_factor": 461,
+      "address_count": 238,
+      "weight_fraction": 5.7017447502733824e-09
+    },
+    {
+      "smallest_prime_factor": 463,
+      "address_count": 236,
+      "weight_fraction": 5.549513805212051e-09
+    },
+    {
+      "smallest_prime_factor": 467,
+      "address_count": 233,
+      "weight_fraction": 5.3511885458766345e-09
+    },
+    {
+      "smallest_prime_factor": 479,
+      "address_count": 224,
+      "weight_fraction": 4.966254820051814e-09
+    },
+    {
+      "smallest_prime_factor": 487,
+      "address_count": 218,
+      "weight_fraction": 4.701685477057237e-09
+    },
+    {
+      "smallest_prime_factor": 491,
+      "address_count": 215,
+      "weight_fraction": 4.537859969038443e-09
+    },
+    {
+      "smallest_prime_factor": 499,
+      "address_count": 210,
+      "weight_fraction": 4.302559419506429e-09
+    },
+    {
+      "smallest_prime_factor": 503,
+      "address_count": 205,
+      "weight_fraction": 4.143020002471701e-09
+    },
+    {
+      "smallest_prime_factor": 509,
+      "address_count": 201,
+      "weight_fraction": 3.964046661093778e-09
+    },
+    {
+      "smallest_prime_factor": 521,
+      "address_count": 196,
+      "weight_fraction": 3.7051794746032383e-09
+    },
+    {
+      "smallest_prime_factor": 523,
+      "address_count": 194,
+      "weight_fraction": 3.6099711620909384e-09
+    },
+    {
+      "smallest_prime_factor": 541,
+      "address_count": 184,
+      "weight_fraction": 3.280122193100678e-09
+    },
+    {
+      "smallest_prime_factor": 547,
+      "address_count": 181,
+      "weight_fraction": 3.1476995418220558e-09
+    },
+    {
+      "smallest_prime_factor": 557,
+      "address_count": 177,
+      "weight_fraction": 2.974526555452806e-09
+    },
+    {
+      "smallest_prime_factor": 563,
+      "address_count": 172,
+      "weight_fraction": 2.8451997927869437e-09
+    },
+    {
+      "smallest_prime_factor": 569,
+      "address_count": 170,
+      "weight_fraction": 2.7368183590070514e-09
+    },
+    {
+      "smallest_prime_factor": 571,
+      "address_count": 168,
+      "weight_fraction": 2.6682057024164234e-09
+    },
+    {
+      "smallest_prime_factor": 577,
+      "address_count": 165,
+      "weight_fraction": 2.56128027336305e-09
+    },
+    {
+      "smallest_prime_factor": 587,
+      "address_count": 160,
+      "weight_fraction": 2.4164404042906583e-09
+    },
+    {
+      "smallest_prime_factor": 593,
+      "address_count": 156,
+      "weight_fraction": 2.31482047182472e-09
+    },
+    {
+      "smallest_prime_factor": 599,
+      "address_count": 155,
+      "weight_fraction": 2.2328914257473483e-09
+    },
+    {
+      "smallest_prime_factor": 601,
+      "address_count": 152,
+      "weight_fraction": 2.1710633340934934e-09
+    },
+    {
+      "smallest_prime_factor": 607,
+      "address_count": 149,
+      "weight_fraction": 2.0837701146265858e-09
+    },
+    {
+      "smallest_prime_factor": 613,
+      "address_count": 147,
+      "weight_fraction": 2.005035489464447e-09
+    },
+    {
+      "smallest_prime_factor": 617,
+      "address_count": 144,
+      "weight_fraction": 1.935995286134983e-09
+    },
+    {
+      "smallest_prime_factor": 619,
+      "address_count": 142,
+      "weight_fraction": 1.8856419279854664e-09
+    },
+    {
+      "smallest_prime_factor": 631,
+      "address_count": 136,
+      "weight_fraction": 1.7603014923511476e-09
+    },
+    {
+      "smallest_prime_factor": 641,
+      "address_count": 131,
+      "weight_fraction": 1.6578056759242682e-09
+    },
+    {
+      "smallest_prime_factor": 643,
+      "address_count": 129,
+      "weight_fraction": 1.6140102796508974e-09
+    },
+    {
+      "smallest_prime_factor": 647,
+      "address_count": 126,
+      "weight_fraction": 1.5563128731392244e-09
+    },
+    {
+      "smallest_prime_factor": 653,
+      "address_count": 124,
+      "weight_fraction": 1.4966161049427983e-09
+    },
+    {
+      "smallest_prime_factor": 659,
+      "address_count": 121,
+      "weight_fraction": 1.4338525147163047e-09
+    },
+    {
+      "smallest_prime_factor": 661,
+      "address_count": 120,
+      "weight_fraction": 1.3997773129051955e-09
+    },
+    {
+      "smallest_prime_factor": 673,
+      "address_count": 114,
+      "weight_fraction": 1.3015916073462503e-09
+    },
+    {
+      "smallest_prime_factor": 677,
+      "address_count": 111,
+      "weight_fraction": 1.2526974728511548e-09
+    },
+    {
+      "smallest_prime_factor": 683,
+      "address_count": 109,
+      "weight_fraction": 1.2035173506272785e-09
+    },
+    {
+      "smallest_prime_factor": 691,
+      "address_count": 105,
+      "weight_fraction": 1.1391494982552101e-09
+    },
+    {
+      "smallest_prime_factor": 701,
+      "address_count": 99,
+      "weight_fraction": 1.0609976130782071e-09
+    },
+    {
+      "smallest_prime_factor": 709,
+      "address_count": 97,
+      "weight_fraction": 1.0130122393341786e-09
+    },
+    {
+      "smallest_prime_factor": 719,
+      "address_count": 94,
+      "weight_fraction": 9.56772045220475e-10
+    },
+    {
+      "smallest_prime_factor": 727,
+      "address_count": 92,
+      "weight_fraction": 9.133008007404242e-10
+    },
+    {
+      "smallest_prime_factor": 733,
+      "address_count": 89,
+      "weight_fraction": 8.709534887457608e-10
+    },
+    {
+      "smallest_prime_factor": 739,
+      "address_count": 87,
+      "weight_fraction": 8.352147286876611e-10
+    },
+    {
+      "smallest_prime_factor": 743,
+      "address_count": 86,
+      "weight_fraction": 8.100454403563115e-10
+    },
+    {
+      "smallest_prime_factor": 751,
+      "address_count": 85,
+      "weight_fraction": 7.77585229306145e-10
+    },
+    {
+      "smallest_prime_factor": 757,
+      "address_count": 83,
+      "weight_fraction": 7.450504117414588e-10
+    },
+    {
+      "smallest_prime_factor": 761,
+      "address_count": 80,
+      "weight_fraction": 7.118617219515698e-10
+    },
+    {
+      "smallest_prime_factor": 769,
+      "address_count": 76,
+      "weight_fraction": 6.671947298140707e-10
+    },
+    {
+      "smallest_prime_factor": 773,
+      "address_count": 74,
+      "weight_fraction": 6.410292203977929e-10
+    },
+    {
+      "smallest_prime_factor": 787,
+      "address_count": 68,
+      "weight_fraction": 5.797013372173613e-10
+    },
+    {
+      "smallest_prime_factor": 797,
+      "address_count": 66,
+      "weight_fraction": 5.477371341476797e-10
+    },
+    {
+      "smallest_prime_factor": 809,
+      "address_count": 63,
+      "weight_fraction": 5.095876248658729e-10
+    },
+    {
+      "smallest_prime_factor": 811,
+      "address_count": 62,
+      "weight_fraction": 4.953329440871059e-10
+    },
+    {
+      "smallest_prime_factor": 821,
+      "address_count": 58,
+      "weight_fraction": 4.566383254183856e-10
+    },
+    {
+      "smallest_prime_factor": 823,
+      "address_count": 56,
+      "weight_fraction": 4.3799338161799063e-10
+    },
+    {
+      "smallest_prime_factor": 827,
+      "address_count": 54,
+      "weight_fraction": 4.1760842206514647e-10
+    },
+    {
+      "smallest_prime_factor": 829,
+      "address_count": 53,
+      "weight_fraction": 4.04777515754653e-10
+    },
+    {
+      "smallest_prime_factor": 839,
+      "address_count": 50,
+      "weight_fraction": 3.744626218679555e-10
+    },
+    {
+      "smallest_prime_factor": 853,
+      "address_count": 47,
+      "weight_fraction": 3.4234784151315954e-10
+    },
+    {
+      "smallest_prime_factor": 857,
+      "address_count": 45,
+      "weight_fraction": 3.2435830714547397e-10
+    },
+    {
+      "smallest_prime_factor": 859,
+      "address_count": 44,
+      "weight_fraction": 3.133871510812088e-10
+    },
+    {
+      "smallest_prime_factor": 863,
+      "address_count": 42,
+      "weight_fraction": 2.959277572364576e-10
+    },
+    {
+      "smallest_prime_factor": 877,
+      "address_count": 39,
+      "weight_fraction": 2.6751420395145123e-10
+    },
+    {
+      "smallest_prime_factor": 881,
+      "address_count": 38,
+      "weight_fraction": 2.5651071905199454e-10
+    },
+    {
+      "smallest_prime_factor": 883,
+      "address_count": 37,
+      "weight_fraction": 2.4681924927619965e-10
+    },
+    {
+      "smallest_prime_factor": 887,
+      "address_count": 35,
+      "weight_fraction": 2.3091434028334214e-10
+    },
+    {
+      "smallest_prime_factor": 907,
+      "address_count": 30,
+      "weight_fraction": 1.9233513264479712e-10
+    },
+    {
+      "smallest_prime_factor": 911,
+      "address_count": 29,
+      "weight_fraction": 1.830747769879732e-10
+    },
+    {
+      "smallest_prime_factor": 919,
+      "address_count": 25,
+      "weight_fraction": 1.5675087582527166e-10
+    },
+    {
+      "smallest_prime_factor": 929,
+      "address_count": 23,
+      "weight_fraction": 1.4113103865765837e-10
+    },
+    {
+      "smallest_prime_factor": 937,
+      "address_count": 21,
+      "weight_fraction": 1.2659980845004098e-10
+    },
+    {
+      "smallest_prime_factor": 941,
+      "address_count": 19,
+      "weight_fraction": 1.1348173557095119e-10
+    },
+    {
+      "smallest_prime_factor": 947,
+      "address_count": 17,
+      "weight_fraction": 1.0020228926146041e-10
+    },
+    {
+      "smallest_prime_factor": 953,
+      "address_count": 15,
+      "weight_fraction": 8.721584108308738e-11
+    },
+    {
+      "smallest_prime_factor": 967,
+      "address_count": 12,
+      "weight_fraction": 6.81370644989157e-11
+    },
+    {
+      "smallest_prime_factor": 971,
+      "address_count": 9,
+      "weight_fraction": 5.097828888357029e-11
+    },
+    {
+      "smallest_prime_factor": 977,
+      "address_count": 8,
+      "weight_fraction": 4.4493684364550994e-11
+    },
+    {
+      "smallest_prime_factor": 983,
+      "address_count": 5,
+      "weight_fraction": 2.7616622633551515e-11
+    },
+    {
+      "smallest_prime_factor": 991,
+      "address_count": 3,
+      "weight_fraction": 1.630131033880448e-11
+    },
+    {
+      "smallest_prime_factor": 997,
+      "address_count": 1,
+      "weight_fraction": 5.391476344281385e-12
+    }
+  ],
+  "verification": {
+    "all_effects_between_zero_and_one": true,
+    "per_address_three_way_completeness": true,
+    "weighted_three_way_ledger": true,
+    "matter_target_reproduced": true,
+    "dark_target_reproduced": true,
+    "normal_zero_return_blocks_Actual_by_declared_rule": true,
+    "prime2_family_factorization_identity": true,
+    "smallest_prime_families_partition_all_composites": true,
+    "all_passed": true
+  },
+  "scope": {
+    "computed": "common weighted three-way partition and post-recovery residue under a declared no-fold return gate",
+    "not_yet_computed": [
+      "physical fold metric",
+      "particle masses/charges from prime combinations",
+      "zeta-zero phase filter",
+      "gravity/energy readout for these candidate states"
+    ],
+    "cosmological_energy_identification": "needs the same physical energy map; arithmetic weight share alone does not establish this identification",
+    "frozen_core_and_downstream": "unchanged"
+  }
+}

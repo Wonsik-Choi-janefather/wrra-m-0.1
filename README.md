@@ -4,7 +4,7 @@
 
 **원식 현실 렌더러 아키텍처 메타차원 연구 분기**
 
-Latest development version: **WRRA-M 0.8** · 2026-10-01
+Latest development version: **WRRA-M 0.9** · 2026-10-01
 
 Latest Zenodo archive: **WRRA-M 0.6-r2**.
 
@@ -36,13 +36,34 @@ The upper hypothesis constructs residue through initial admission and normalized
 - [한국어 PDF 7쪽](upstream/particle_residue_decay_v0_1/paper/WRRA_M_Particle_Residue_Decay_Trial_v0_1_KO_2026_10_01.pdf) · [Word](upstream/particle_residue_decay_v0_1/paper/WRRA_M_Particle_Residue_Decay_Trial_v0_1_KO_2026_10_01.docx) · [GitHub 원고](upstream/particle_residue_decay_v0_1/manuscript_KO.md)
 - [전체 재현 ZIP](upstream/particle_residue_decay_v0_1/paper/WRRA_M_Particle_Residue_Decay_Trial_v0_1_Reproducibility_2026_10_01.zip) · [입자 장부](upstream/particle_residue_decay_v0_1/code/results.json) · [분리한 채널 장부](upstream/particle_residue_decay_v0_1/code/channel_results.json)
 
+## Completed 0.9 · 0.9 완료
+
+Version 0.9 executes the common upstream arithmetic ledger and input contract, then routes phenotype weight through the actual 0.8 particle permutation. The frozen reference reproduces **5%·26.8%·68.2%**, **resident Actual 31.8%**, and **complete accounted weight 100%**. Pending SOURCE and completed return are distinct during the transition. All nine 0.8 results and their charges are unchanged.
+
+같은 분모의 표현형·비표현형 잔존·복귀 장부를 실행하고 정규화한 조건부 채널 배분을 연결했다. 26개 검증 묶음을 통과했다. 산술 구성비는 기존 물리 에너지 구성비 4.93%·26.5%·68.57%와 별도로 보존한다. 복귀분을 배경 응답 출처로 대응시키되 SI 에너지·압력 함수는 다음 **0.10**에서 구현한다.
+
+The revised roadmap incorporates all ten additional review items through 0.17 and the final 1.0 audit. Physical quantization and records now belong to **0.13**. Admission and channel weights here are construction and expected transport weights. The address-to-channel kernel is a disclosed constitutive input; masses, physical time and microscopic origins are subsequent work.
+
+- [0.9 한국어 PDF](paper/WRRA_M_0_9_KO.pdf) · [DOCX](paper/WRRA_M_0_9_KO.docx) · [Markdown](paper/WRRA_M_0_9_KO.md)
+- [0.9 English PDF](paper/WRRA_M_0_9_EN.pdf) · [DOCX](paper/WRRA_M_0_9_EN.docx) · [Markdown](paper/WRRA_M_0_9_EN.md)
+- [0.9 bilingual reproducibility ZIP](paper/WRRA_M_0_9_Reproducibility.zip)
+- [Calculation and input ledger](calculations/wrra_m_0_9) · [Verification](calculations/wrra_m_0_9/results/verification.json)
+- [Upstream input contract](calculations/wrra_m_0_9/UPSTREAM_INTERFACE.md) · [Revised roadmap](calculations/wrra_m_0_9/ROADMAP_0_9_TO_1_0.md)
+- [Document checks](calculations/wrra_m_0_9/results/document_checks.json) · [Clean-copy reproduction](calculations/wrra_m_0_9/results/reproduction_checks.json)
+- [Development record](REVISION_0_9.md) · [SHA256 manifest](SHA256SUMS_0_9)
+
+```bash
+python -m pip install -r calculations/wrra_m_0_9/requirements.txt
+python calculations/wrra_m_0_9/run_release.py
+```
+
 ## Completed 0.8 · 0.8 완료
 
 Version 0.8 runs the common carrier response, four-filter comparison, selection flow, channel permutation and one hypercharge operator in the same input ledger. With disclosed particle-origin orientation and readout calibration, all nine cases select **F_DX**. The reference gaps are **0.046691930387696756**. Exact charges and anomaly sums pass; adoption of three known generations gives 45 Standard-Model chiral components plus three conditional neutral extension slots.
 
 공통운반자 응답에서 네 필터의 점수를 실제 계산하고, 선택된 순열에서 입자 배치와 전하를 산출했다. 공개한 보정 아래 9개 상태 모두 F_DX를 선택했다. 22개 검증 묶음, 한영 수식·표 대조, 저장 결과를 지운 깨끗한 복사본의 재현을 완료했다. 같은 격자·상태를 0.7의 부하·에너지·중력·팽창 장부에 연결한다.
 
-The readout offset is an auxiliary calibration in a fixed weak-component basis; it is not an added mass or energy sector. Generation count is an adopted input; masses and mixing are not newly derived. Optimizer weights are construction weights. Physical quantization outcomes, probabilities, post-observation states and records are the next stage, **0.9**.
+The readout offset is an auxiliary calibration in a fixed weak-component basis; it is not an added mass or energy sector. Generation count is an adopted input; masses and mixing are not newly derived. Optimizer weights are construction weights. Under the revised roadmap, physical quantization outcomes, probabilities, post-observation states and records are scheduled for **0.13** after common accounting and the physical energy/pressure bridge.
 
 - [0.8 한국어 PDF](paper/WRRA_M_0_8_KO.pdf) · [DOCX](paper/WRRA_M_0_8_KO.docx) · [Markdown](paper/WRRA_M_0_8_KO.md)
 - [0.8 English PDF](paper/WRRA_M_0_8_EN.pdf) · [DOCX](paper/WRRA_M_0_8_EN.docx) · [Markdown](paper/WRRA_M_0_8_EN.md)
@@ -253,5 +274,4 @@ Citation metadata is provided in [`CITATION.cff`](CITATION.cff). The papers and 
 The 0.5 titles and claim ledger now foreground information load and twist gravity. Its local calculation uses 26.5% of the whole universe within the hidden total of 95.07%. The zero-phenotype input executes with undefined ratios recorded as null; the radius response ratio is evaluated numerically. The original scientific outputs reproduce unchanged.
 
 [0.6 start, Korean](calculations/wrra_m_0_6_start/README_KO.md) · [0.6 start, English](calculations/wrra_m_0_6_start/README_EN.md) · [Start reproducibility archive](calculations/wrra_m_0_6_start/WRRA_M_0_6_Start_Reproducibility.zip). These files preserve the initial prototype. The completed finite homogeneous model and bilingual paper are provided above.
-
 

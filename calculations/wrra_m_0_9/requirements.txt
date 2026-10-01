@@ -1,0 +1,4 @@
+numpy>=2.2,<3
+scipy>=1.15,<2
+mpmath>=1.3,<2
+# Document rebuild only: python-docx, pypdf, pandoc and LibreOffice.
