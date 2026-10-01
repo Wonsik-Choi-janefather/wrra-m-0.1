@@ -33,3 +33,11 @@ python build_reports.py
 전체 재현 ZIP에는 두 언어의 PDF·DOCX, 전체 궤도 results.json, 요약, 경계 검사, 그림, 원고와 코드가 포함된다. GitHub 계산 폴더에는 큰 전체 궤도를 제외한 요약·검사·그림을 제공하며 전체 궤도는 ZIP 또는 코드 실행으로 얻는다. baseline_0_5/results.json은 비교를 위해 고정한 수정된 0.5 기록이다.
 
 정보 상태의 순수성·고윳값 보존은 unitary 구성의 결과다. 실험값과 맞는지에 대한 판단과 모형 내부 정합성 검사는 구분한다. 0.6 착수 모형의 고정 커널 제한은 기하 의존 에너지 연산자로 대체했으며 착수 기록은 별도 디렉터리에 보존한다.
+
+## 0.6-r2 shared grid and record magnitude
+
+`parameters.json:lattice_N` controls both information-state loads and transport tests. `baseline_0_5/parameters.json:internal_lattice_N` is retained as provenance; the carrier receives a private copy with the 0.6 grid. `lattice_contract` reports configured and effective sizes. `verify.py` checks the 64/128 and 128/64 combinations and unchanged uniform reference outputs. Nonuniform state loads may depend on lattice size.
+
+“Global twist record magnitude” is an instantaneous aggregate from load density and spatial size at the current state and scale. No independent temporal accumulation law is computed. Reference q₀, rotation and conditional lensing remain unchanged. See [the revision record](../../REVISION_0_6_R2.md).
+
+정보부하와 수송 전달자 검사의 격자 크기는 0.6의 lattice_N으로 통일한다. 기존 입력과 실제 적용값을 결과에 함께 표시하며, 교차 입력 검증을 추가했다. 전역 뒤틀림 기록의 크기는 그 순간의 부하 밀도와 공간 크기로 계산한 집계값이다. 시간 누적 법칙을 따로 계산하지 않는다.

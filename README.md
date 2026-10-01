@@ -4,9 +4,19 @@
 
 **원식 현실 렌더러 아키텍처 메타차원 연구 분기**
 
-Latest version: **WRRA-M 0.6** · 2026-10-01
+Latest version: **WRRA-M 0.6-r2** · 2026-10-01
 
 WRRA-M continues WRRA Core 1.0 and Minimal Computation Cosmology 2.3.2.
+
+## 0.6-r2 correction / 0.6-r2 교정
+
+The 0.6 `lattice_N` now controls both information loads and the transport carrier test. Cross-input tests at 64/128 and 128/64 pass, with preserved baseline inputs and unchanged uniform reference outputs. Both language editions and the figure use “global twist record magnitude,” defined as the instantaneous load/size aggregate, without a separate temporal accumulation law. The adopted reference values remain q₀=−0.52855, v=207.510905 km/s and conditional deflection=0.535586511 arcsec.
+
+정보부하와 수송 검사에 공통 격자를 적용하고 교차 입력을 검증했다. 한영 원고·그림에서 “전역 뒤틀림 기록의 크기”를 현재 부하·크기의 집계값으로 명시했다. 기존 기준 수치는 유지한다.
+
+- [Correction record / 수정 기록](REVISION_0_6_R2.md)
+- [Shared-grid regression results](calculations/wrra_m_0_6/results/release_checks.json)
+- [Zenodo series release 0.6-r2](https://doi.org/10.5281/zenodo.23076547)
 
 ## 0.1–0.4 corrections / 0.1~0.4 수정
 

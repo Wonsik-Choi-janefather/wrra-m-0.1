@@ -224,6 +224,9 @@ def pressure_check(carrier,p,c):
 
 def run(p,b,out,verify=True):
     validate(p,b);c=calibration(b);N=p['lattice_N'];plain=Carrier(N,0.)
+    # The 0.6 grid is authoritative for both state loads and inherited transport.
+    # Keep the original baseline input as provenance; override a private copy only.
+    carrier_inputs=dict(b,internal_lattice_N=N)
     coupled=Carrier(N,p['noncommuting_test_strength'])
     modes=p['noncommuting_test_initial_modes'];weights=p['noncommuting_test_initial_weights']
     psi0=plain.packet(modes,weights)
@@ -299,8 +302,11 @@ def run(p,b,out,verify=True):
         sigma_spectrum_bound.append({'a':a,'physical_load_kernel_min':float(eig.min()),
               'physical_load_kernel_max':float(eig.max()),'reference_load':Jref,
               'reference_in_state_domain':bool(eig.min()-1e-12<=Jref<=eig.max()+1e-12)})
-    result={'version':'WRRA-M 0.6','status':'completed finite homogeneous constitutive model; conditional local matching',
+    result={'version':'WRRA-M 0.6-r2','status':'completed finite homogeneous constitutive model; conditional local matching',
        'author':'Wonsik Choi','date':'2026-10-01','inputs':p,'baseline_inputs':b,'calibration':c,
+       'lattice_contract':{'policy':'0.6 lattice_N controls state loads and transport; baseline input retained as provenance',
+          'information_lattice_N':N,'baseline_configured_internal_lattice_N':b['internal_lattice_N'],
+          'effective_transport_lattice_N':carrier_inputs['internal_lattice_N']},
        'constitutive_choices':{'energy_operator':'h(a)=chi*a^nc*Kc+(1-chi)*a^nb*Kb',
           'physical_load_operator':'K_phys(a)=h(a)/a^3',
           'pressure':'p=-partial E_hidden/partial V at fixed rho',
@@ -308,8 +314,9 @@ def run(p,b,out,verify=True):
           'information_clock':'omega_star/H0 is declared; not identified with Planck constant',
           'action':'classical lapse minisuperspace plus coadjoint matrix information action',
           'local_matching':'aT^2=pi*G*u_clustering/3 and inherited nu',
+          'twist_record':'global twist record magnitude at the current state and scale; no independent temporal accumulation law',
           'ownership':'operators, homogeneity exponents and clock are model choices, not unique microscopic laws'},
-       'carrier':m05.carrier_calculation(b),
+       'carrier':m05.carrier_calculation(carrier_inputs),
        'operators':{'N':N,'Kc_min_eigenvalue':float(plain.eig_c.min()),
           'Kb_noncommuting_min_eigenvalue':float(coupled.eig_b.min()),
           'Kb_noncommuting_max_eigenvalue':float(coupled.eig_b.max()),
@@ -337,7 +344,8 @@ def run(p,b,out,verify=True):
           'actual spatial topology, dimensional holonomy and absolute cosmic size']}
     out.mkdir(parents=True,exist_ok=True)
     (out/'results.json').write_text(json.dumps(result,ensure_ascii=False,indent=2,allow_nan=False))
-    summary={k:result[k] for k in ['version','status','calibration','operators','present_information_state_outputs','energy_homogeneity_scan','verification','open_physics']}
+    assert result['carrier']['lattice_N']==result['operators']['N']==N
+    summary={k:result[k] for k in ['version','status','lattice_contract','calibration','operators','present_information_state_outputs','energy_homogeneity_scan','verification','open_physics']}
     summary['reference_background_rows']=[next(x for x in reference if math.isclose(x['a'],a)) for a in [p['a_min'],1.,p['a_max']]]
     summary['state_histories']=[{k:v for k,v in h.items() if k!='rows'} for h in histories]
     (out/'summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2,allow_nan=False))
@@ -355,7 +363,7 @@ def make_figures(result,out):
     axs[0].plot(a,[x['H_over_H0'] for x in rows],label='Expansion H/H0',color=colors[0])
     axs[0].plot(a,[x['deceleration_q'] for x in rows],label='Deceleration q',color=colors[1])
     axs[0].axhline(0,color='#aaa',lw=.7)
-    axs[1].plot(a,[x['twist_record_norm_over_reference'] for x in rows],label='Accumulated twist record',color=colors[0])
+    axs[1].plot(a,[x['twist_record_norm_over_reference'] for x in rows],label='Global twist record magnitude',color=colors[0])
     axs[1].plot(a,[x['twist_rate_over_reference'] for x in rows],label='Physical twist rate',color=colors[1])
     axs[0].set(xlabel='Scale factor a',ylabel='Dimensionless background output')
     axs[1].set(xlabel='Scale factor a',ylabel='Ratio to reference at a=1')

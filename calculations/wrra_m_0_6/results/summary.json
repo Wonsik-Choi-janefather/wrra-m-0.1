@@ -1,6 +1,12 @@
 {
-  "version": "WRRA-M 0.6",
+  "version": "WRRA-M 0.6-r2",
   "status": "completed finite homogeneous constitutive model; conditional local matching",
+  "lattice_contract": {
+    "policy": "0.6 lattice_N controls state loads and transport; baseline input retained as provenance",
+    "information_lattice_N": 128,
+    "baseline_configured_internal_lattice_N": 128,
+    "effective_transport_lattice_N": 128
+  },
   "calibration": {
     "H0_s_minus1": 2.1842852410855023e-18,
     "ucrit_J_m3": 7.668947767821907e-10,

@@ -8,5 +8,21 @@
     "zero_phenotype",
     "zero_background"
   ],
-  "invalid_inputs_rejected": true
+  "invalid_inputs_rejected": true,
+  "shared_lattice_regressions": [
+    {
+      "state_lattice_N": 64,
+      "baseline_configured_N": 128,
+      "effective_transport_N": 64,
+      "baseline_input_preserved": true,
+      "uniform_reference_outputs_unchanged": true
+    },
+    {
+      "state_lattice_N": 128,
+      "baseline_configured_N": 64,
+      "effective_transport_N": 128,
+      "baseline_input_preserved": true,
+      "uniform_reference_outputs_unchanged": true
+    }
+  ]
 }

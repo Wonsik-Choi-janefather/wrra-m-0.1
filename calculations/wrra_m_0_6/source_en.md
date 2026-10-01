@@ -3,7 +3,7 @@
 A continuous geometric model that computes energy load and pressure from common carrier states
 
 Wonsik Choi  
-WRRA-M 0.6 | 1 October 2026  
+WRRA-M 0.6-r2 | 1 October 2026  
 Independent Researcher Seoul Republic of Korea  
 ORCID 0009-0001-4263-9772 | janefather@gmail.com
 
@@ -28,6 +28,8 @@ Sixteen witness channels share one internal lattice. The internal information st
 $$R=\frac{I_{16}}{16}\otimes\rho,\qquad \rho\succeq0,\quad\mathrm{Tr}\rho=1,\quad J_s=\mathrm{Tr}(\rho K_s). \tag{1}$$
 
 A periodic cycle Laplacian on N=128 sites is the clustering operator. The background operator starts from the same Laplacian and adds a positive rank-one term only for the noncommuting test. The denominator maintains background load 2 in the uniform state.
+
+Version 0.6 lattice_N controls the common grid for information loads and the transport carrier test. The original 0.5 input is retained as calibration provenance; the shared value is applied only to a private copy for the carrier calculation. The result lattice_contract discloses the configured and effective sizes. Cross-input tests at 64/128 and 128/64 confirm matching grids and unchanged uniform reference outputs.
 
 $$K_c=2I-T-T^\dagger,\qquad K_b=\frac{K_c+\epsilon|0\rangle\langle0|}{1+\epsilon/(2N)}. \tag{2}$$
 
@@ -130,7 +132,7 @@ $$E_h=\frac{c^4}{16\pi G}WL,\qquad L=\frac{16\pi GE_h}{c^4W}\quad(W>0). \tag{19}
 
 For positive nonzero load, positive L₀ and finite a, volume is finite at each calculated instant and T³ has no boundary. This is an exact conditional identity of the chosen identification. It neither selects the actual universe's unique topology nor measures absolute cosmic length. A fixed volume upper bound over an indefinitely expanding future is not established.
 
-For the uniform reference with nc=0 and nb=3, expansion and accumulated record are
+For the uniform reference with nc=0 and nb=3, expansion and global twist record magnitude are
 
 $$\frac{H^2}{H_0^2}=(f_\phi+f_c)a^{-3}+f_b,\qquad \frac{W}{W_0}=\frac{f_c/a+f_ba^2}{f_h}. \tag{20}$$
 
@@ -141,7 +143,7 @@ $$\frac{H^2}{H_0^2}=(f_\phi+f_c)a^{-3}+f_b,\qquad \frac{W}{W_0}=\frac{f_c/a+f_ba
 | 2.0 | 0.851462 | -0.918714 | 3.024403 | 0.869541 | 0.353553 |
 
 
-Physical twist rate and accumulated record evolve differently. Beyond the present, the accumulated record can grow during expansion while the density-dependent physical twist rate declines. They are not combined into one scalar twist statement. The variable a is geometric scale; it is not automatically replaced by observed redshift before a twist photon-redshift kernel is derived.
+Physical twist rate and global twist record magnitude evolve differently. The record magnitude is an aggregate computed from the load density and spatial size at the current state and scale; no independent law of temporal record accumulation has been calculated. Beyond the present, this global record magnitude can grow during expansion while the density-dependent physical twist rate declines. They are not combined into one scalar twist statement. The variable a is geometric scale; it is not automatically replaced by observed redshift before a twist photon-redshift kernel is derived.
 
 ![Figure 1 Expansion and twist calculated from one energy functional](results/expansion_twist.png){width=6.4in}
 

@@ -58,7 +58,7 @@ ko='''# WRRA M 0 6 정보부하와 뒤틀림 중력 및 팽창의 유한 연결
 공통전달자 상태에서 에너지 부하와 압력을 계산하는 연속 기하 모형
 
 최원식 Wonsik Choi  
-WRRA-M 0.6 | 2026년 10월 1일  
+WRRA-M 0.6-r2 | 2026년 10월 1일  
 Independent Researcher Seoul Republic of Korea  
 ORCID 0009-0001-4263-9772 | janefather@gmail.com
 
@@ -81,6 +81,8 @@ WRRA Core 1.0과 최소계산우주론 MCC 2.3.2를 기준으로 유지한다. �
 16개 시험 채널은 같은 내부 격자를 공유한다. 내부 정보 상태 ρ는 양의 준정부호 행렬이고 trace가 1이다. 부하 Js는 상태와 양의 연산자의 trace로 계산한다.
 '''+E(1)+'''
 N=128인 주기 격자의 순환 라플라시안을 모이는 부문의 연산자로 사용한다. 배경 연산자는 같은 연산자에서 출발하고, 비가환 시험에서만 양의 rank 1 항을 추가한다. 분모는 균등 상태의 배경 부하가 2가 되도록 고정한다.
+
+0.6의 lattice_N을 정보부하와 수송 전달자 검사의 공통 격자 크기로 적용한다. 기존 0.5 입력은 보정 출처로 보존하고, 전달자 계산용 복사본에만 공통 값을 적용한다. 결과의 lattice_contract는 원래 입력과 실제 적용값을 함께 공개한다. 64/128 및 128/64의 교차 입력 시험에서 두 계산의 격자가 일치하고 균등 기준 산출값이 유지됨을 확인했다.
 '''+E(2)+'''
 기준 계산은 ε=0이고, 비가환 시험은 ε=8이다. ε=8을 실제 우주의 선호값으로 제시하지 않는다. 이는 서로 다른 두 부하 가중치가 같은 정보 상태에서 교환하는지를 검사하는 고정 시험이다. 두 연산자는 모든 채널에 동일하게 적용하므로 이 변경이 채널별 필터 선택을 해결하지는 않는다.
 
@@ -138,9 +140,9 @@ Sg와 SI를 합해 ℓ을 변분하면 Friedmann 제약을 얻고, a를 변분�
 '''+E(18)+E(19)+'''
 양의 비영 부하와 유한한 a, 양의 L₀를 둔 각 계산 시점에서 부피는 유한하고 T³의 경계는 없다. 이 관계는 선택한 접합의 정확한 조건부 관계다. 정보부하가 실제 우주의 위상을 유일하게 선택했다거나 절대 우주 길이를 측정했다고 말하지 않는다. a가 무한히 커지는 미래까지 부피의 고정 상한을 증명한 것도 아니다.
 
-균등 기준 상태의 nc=0, nb=3에서 팽창과 누적 기록은 다음과 같다.
+균등 기준 상태의 nc=0, nb=3에서 팽창과 전역 뒤틀림 기록의 크기는 다음과 같다.
 '''+E(20)+backgrounds('KO')+'''
-물리적 뒤틀림률과 누적 기록의 크기는 다르게 변한다. 현재 이후에는 팽창과 함께 누적 기록이 커질 수 있지만 밀도에 따른 물리적 뒤틀림률은 줄어든다. 둘을 한 숫자의 꼬임으로 합치지 않는다. a는 여기서 기하의 크기 변수다. 뒤틀림 광자 적색편이 커널을 계산하기 전에는 관측 적색편이로 자동 치환하지 않는다.
+물리적 뒤틀림률과 전역 뒤틀림 기록의 크기는 다르게 변한다. 기록의 크기는 그 순간의 부하 밀도와 공간 크기로 계산한 집계값이며, 시간에 걸쳐 기록을 누적하는 별도 진화 법칙을 계산한 것은 아니다. 현재 이후에는 팽창과 함께 이 전역 기록의 크기가 커질 수 있지만 밀도에 따른 물리적 뒤틀림률은 줄어든다. 둘을 한 숫자의 꼬임으로 합치지 않는다. a는 여기서 기하의 크기 변수다. 뒤틀림 광자 적색편이 커널을 계산하기 전에는 관측 적색편이로 자동 치환하지 않는다.
 
 ![그림 1 한 에너지 함수에서 함께 계산한 팽창과 뒤틀림](results/expansion_twist.png){width=6.4in}
 
@@ -204,7 +206,7 @@ en='''# WRRA M 0 6 Information Load and Twist Gravity with Expansion in a Finite
 A continuous geometric model that computes energy load and pressure from common carrier states
 
 Wonsik Choi  
-WRRA-M 0.6 | 1 October 2026  
+WRRA-M 0.6-r2 | 1 October 2026  
 Independent Researcher Seoul Republic of Korea  
 ORCID 0009-0001-4263-9772 | janefather@gmail.com
 
@@ -227,6 +229,8 @@ The present late-universe calibrations are phenotype 4.93%, entire hidden load 9
 Sixteen witness channels share one internal lattice. The internal information state ρ is positive semidefinite with unit trace. Its load Js is evaluated by the trace of the state and a positive operator.
 '''+E(1)+'''
 A periodic cycle Laplacian on N=128 sites is the clustering operator. The background operator starts from the same Laplacian and adds a positive rank-one term only for the noncommuting test. The denominator maintains background load 2 in the uniform state.
+
+Version 0.6 lattice_N controls the common grid for information loads and the transport carrier test. The original 0.5 input is retained as calibration provenance; the shared value is applied only to a private copy for the carrier calculation. The result lattice_contract discloses the configured and effective sizes. Cross-input tests at 64/128 and 128/64 confirm matching grids and unchanged uniform reference outputs.
 '''+E(2)+'''
 The reference uses ε=0 and the noncommuting test ε=8. The latter is a fixed experiment in exchange between two weighted loads of one state, not a preferred microscopic value for the physical universe. The same operators apply to every witness channel, so this modification does not solve channel-dependent filter selection.
 
@@ -284,9 +288,9 @@ The representative T³ identification of the finite boundaryless paper is retain
 '''+E(18)+E(19)+'''
 For positive nonzero load, positive L₀ and finite a, volume is finite at each calculated instant and T³ has no boundary. This is an exact conditional identity of the chosen identification. It neither selects the actual universe's unique topology nor measures absolute cosmic length. A fixed volume upper bound over an indefinitely expanding future is not established.
 
-For the uniform reference with nc=0 and nb=3, expansion and accumulated record are
+For the uniform reference with nc=0 and nb=3, expansion and global twist record magnitude are
 '''+E(20)+backgrounds('EN')+'''
-Physical twist rate and accumulated record evolve differently. Beyond the present, the accumulated record can grow during expansion while the density-dependent physical twist rate declines. They are not combined into one scalar twist statement. The variable a is geometric scale; it is not automatically replaced by observed redshift before a twist photon-redshift kernel is derived.
+Physical twist rate and global twist record magnitude evolve differently. The record magnitude is an aggregate computed from the load density and spatial size at the current state and scale; no independent law of temporal record accumulation has been calculated. Beyond the present, this global record magnitude can grow during expansion while the density-dependent physical twist rate declines. They are not combined into one scalar twist statement. The variable a is geometric scale; it is not automatically replaced by observed redshift before a twist photon-redshift kernel is derived.
 
 ![Figure 1 Expansion and twist calculated from one energy functional](results/expansion_twist.png){width=6.4in}
 

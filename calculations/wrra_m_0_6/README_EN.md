@@ -33,3 +33,9 @@ Document creation additionally needs pandoc and python-docx. Korean rendering us
 The complete ZIP includes both PDF/DOCX editions, full trajectories in results.json, summary, release checks, plots, source manuscripts and code. The GitHub calculation directory provides summary, checks and plots; obtain full trajectories from the ZIP or a computation. baseline_0_5/results.json is the corrected frozen 0.5 comparison record.
 
 Preserved purity and state eigenvalues follow from the declared unitary construction. Numerical consistency is distinguished from observational validation. The geometric energy operator replaces the start model fixed-kernel restriction; its historical prototype remains separately available.
+
+## 0.6-r2 shared grid and record magnitude
+
+`parameters.json:lattice_N` controls both information-state loads and transport tests. `baseline_0_5/parameters.json:internal_lattice_N` is retained as provenance; the carrier receives a private copy with the 0.6 grid. `lattice_contract` reports configured and effective sizes. `verify.py` checks the 64/128 and 128/64 combinations and unchanged uniform reference outputs. Nonuniform state loads may depend on lattice size.
+
+“Global twist record magnitude” is an instantaneous aggregate from load density and spatial size at the current state and scale. No independent temporal accumulation law is computed. Reference q₀, rotation and conditional lensing remain unchanged. See [the revision record](../../REVISION_0_6_R2.md).

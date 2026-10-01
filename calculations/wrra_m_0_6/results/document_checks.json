@@ -1,13 +1,24 @@
 {
-  "native_equations_matched": 22,
-  "tables_matched": 5,
-  "numerical_rows_matched": 20,
-  "parallel_claim_rows": 7,
-  "both_pdf_equation_numbers_complete": true,
-  "pages": {
-    "KO": 11,
-    "EN": 9
+  "KO": {
+    "native_display_equations": 22,
+    "equation_xml_unchanged": true,
+    "tables": 5,
+    "table_values_match_executed_ledger": true,
+    "shared_lattice_rule": true,
+    "instantaneous_record_definition": true,
+    "plots_refreshed": 2,
+    "pdf_pages": 11,
+    "all_pages_visually_reviewed": true
   },
-  "all_pages_visually_inspected": true,
-  "pdf_text_bounds_checked": true
+  "EN": {
+    "native_display_equations": 22,
+    "equation_xml_unchanged": true,
+    "tables": 5,
+    "table_values_match_executed_ledger": true,
+    "shared_lattice_rule": true,
+    "instantaneous_record_definition": true,
+    "plots_refreshed": 2,
+    "pdf_pages": 9,
+    "all_pages_visually_reviewed": true
+  }
 }

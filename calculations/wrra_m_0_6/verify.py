@@ -20,6 +20,8 @@ def main():
     assert local['v_total_km_s']==old_sphere['v_total_km_s']
     assert math.isclose(local['finite_patch_lensing']['alpha_patch_rad'],old_lens['alpha_patch_rad'],rel_tol=1e-14)
     assert result['carrier']['filter_gap_left']==old['carrier']['filter_gap_left'] if 'filter_gap_left' in old['carrier'] else result['carrier']==old['carrier']
+    assert result['operators']['N']==result['carrier']['lattice_N']==p['lattice_N']
+    assert result['lattice_contract']['effective_transport_lattice_N']==p['lattice_N']
     carrier=m.Carrier(p['lattice_N'],p['noncommuting_test_strength'])
     psi=carrier.packet(p['noncommuting_test_initial_modes'],p['noncommuting_test_initial_weights'])
     rho=np.outer(psi,psi.conj());shift=np.roll(np.eye(carrier.N),7,axis=0)
@@ -53,13 +55,34 @@ def main():
         try:m.validate(bad,b)
         except ValueError:pass
         else:raise AssertionError('invalid input accepted: '+key)
+    # Exercise the reported 64/128 mismatch and the reverse mismatch end to end.
+    # The baseline dict must remain unchanged while both active grids follow 0.6.
+    grid_checks=[]
+    for state_N,baseline_N in [(64,128),(128,64)]:
+        pp=dict(p,lattice_N=state_N);bb=dict(b,internal_lattice_N=baseline_N)
+        original_bb=bb.copy()
+        with tempfile.TemporaryDirectory() as out:
+            rr=m.run(pp,bb,Path(out),verify=False)
+        assert bb==original_bb and rr['baseline_inputs']==original_bb
+        assert rr['operators']['N']==rr['carrier']['lattice_N']==state_N
+        assert rr['lattice_contract']['baseline_configured_internal_lattice_N']==baseline_N
+        assert rr['lattice_contract']['effective_transport_lattice_N']==state_N
+        reference=next(x for x in rr['reference_background']['rows'] if x['a']==1.)
+        ll=rr['reference_background']['present_local_output']
+        assert reference['deceleration_q']==next(x for x in result['reference_background']['rows'] if x['a']==1.)['deceleration_q']
+        assert ll['v_total_km_s']==local['v_total_km_s']
+        assert ll['finite_patch_lensing']['alpha_patch_rad']==local['finite_patch_lensing']['alpha_patch_rad']
+        grid_checks.append({'state_lattice_N':state_N,'baseline_configured_N':baseline_N,
+            'effective_transport_N':rr['carrier']['lattice_N'],'baseline_input_preserved':True,
+            'uniform_reference_outputs_unchanged':True})
     report={'baseline_aT_rotation_and_lensing_reproduced':True,
             'symmetric_carrier_result_unchanged':True,
             'simultaneous_basis_change_load_max_error':max(errors),
             'zero_load_zero_phenotype_ratios_are_null':True,
             'energy_exponent_one_pressure_verified':True,
             'boundary_histories_passed':boundary_passes,
-            'invalid_inputs_rejected':True}
+            'invalid_inputs_rejected':True,
+            'shared_lattice_regressions':grid_checks}
     (ROOT/'results/release_checks.json').write_text(json.dumps(report,indent=2))
     print(json.dumps(report,indent=2))
 
