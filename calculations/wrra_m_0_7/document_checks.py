@@ -45,7 +45,7 @@ def run():
             assert number in pdf_text, (lang, number)
         assert 'creativecommons.org/licenses/by/4.0/' in pdf_text
         editions[lang] = {'pdf_pages':len(pdf.pages), 'native_equations':len(native[lang]),
-                         'numerical_rows':9, 'verification_rows':16}
+                         'numerical_rows':9, 'verification_rows':verification['check_count']}
     assert equations['KO'] == equations['EN'], 'source equations differ'
     assert native['KO'] == native['EN'], 'native equations differ'
     report = {'version':'WRRA-M 0.7', 'passed':True,

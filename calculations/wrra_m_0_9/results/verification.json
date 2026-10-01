@@ -1,7 +1,7 @@
 {
   "version": "WRRA-M 0.9",
   "passed": true,
-  "check_count": 26,
+  "check_count": 27,
   "input_hash_sha256": "7986e6afcbe26e3546111387f34f953147e16cb3c8cb6b900264adf214e51e95",
   "checks": [
     {
@@ -169,7 +169,7 @@
       "check": "nonuniform_conditional_address_and_family_kernel",
       "passed": true,
       "evidence": {
-        "maximum_channel_change": 0.0026970301314099433,
+        "maximum_channel_change": 0.0026970301314099424,
         "charge_table_preserved": true
       }
     },
@@ -281,6 +281,17 @@
       "evidence": {
         "input_hash_sha256": "7986e6afcbe26e3546111387f34f953147e16cb3c8cb6b900264adf214e51e95",
         "source_snapshots": 5
+      }
+    },
+    {
+      "id": 27,
+      "check": "exhaustive_sparse_overrides_preserve_positive_channel_budget",
+      "passed": true,
+      "evidence": {
+        "cases": 20,
+        "seed": 9,
+        "minimum_weight": 0.0,
+        "maximum_partition_error": 5.551115123125783e-16
       }
     }
   ]

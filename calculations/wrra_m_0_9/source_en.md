@@ -4,7 +4,7 @@ Arithmetic calibration on one denominator and connection to particle channels
 
 최원식 Wonsik Choi
 
-WRRA-M 0.9 | 2026-10-01
+WRRA-M 0.9-r1 | 2026-10-02
 
 Independent Researcher Seoul Republic of Korea
 
@@ -14,7 +14,7 @@ ORCID 0009-0001-4263-9772 | janefather@gmail.com
 
 Version 0.9 computes phenotype, resident nonphenotype and return using one address measure, then connects the expressed budget to the selected 0.8 particle channels. Verification inputs are WRRA Core 1.0, MCC 2.3.2, frozen 0.8 inputs, and the upstream two-stage filter and zeta-zero update calculations. Known particle assignments and composition targets are legitimate calibration inputs for this constructed model.
 
-The WRRA-specific transformation takes the address state and spectrum, accumulates admission from a depleted reservoir, closes the three-sector ledger at the recovery boundary, and applies normalized conditional channel routing followed by the computed selection permutation. Outputs are 5%, 26.8% and 68.2%, resident Actual 31.8%, total accounted weight 100%, and a 48-channel ledger. Twenty-six verification groups pass, and all nine 0.8 results and their charge assignments are reproduced unchanged.
+The WRRA-specific transformation takes the address state and spectrum, accumulates admission from a depleted reservoir, closes the three-sector ledger at the recovery boundary, and applies normalized conditional channel routing followed by the computed selection permutation. Outputs are 5%, 26.8% and 68.2%, resident Actual 31.8%, total accounted weight 100%, and a 48-channel ledger. Twenty-seven verification groups pass, and all nine 0.8 results and their charge assignments are reproduced unchanged.
 
 Falsification conditions are failure of frozen calibrated reproduction, negative or incomplete sector effects, inconsistent transition accounting, duplicated channel or generation weight, charge disagreement, or undisclosed calibration changes. Mapping arithmetic load to physical energy and pressure belongs to 0.10; individual 0/1 measurement outcomes and physical records belong to 0.13. Admission weights here are deterministic expected transport, with no newly implemented physical Born measurement rule.
 
@@ -193,7 +193,7 @@ The address-to-channel correspondence is a disclosed constitutive input. It does
 
 The common arithmetic partition is 5%, 26.8% and 68.2%, while the 0.6 to 0.8 physical energy calibration remains 4.93%, 26.5% and 68.57%. Separate ledgers preserve both; arithmetic calibration never silently overwrites physical inputs. Existing 0.8 load and pressure calculations leading to gravity and expansion are reproduced. Returned provenance is structurally assigned to the background-response branch in physical_bridge, but its energy and pressure functions remain unset.
 
-Version 0.10 must specify physical energy load epsilon_s(n,V), sector coupling and volume dependence. The following relation is a requirement for that interface, not an executed 0.9 output. R=68.2% alone does not determine pressure, and 95:5 alone does not determine length. Existing expansion response and the future causal account of twist remain distinct. The SI defining value of c stays a fixed input.
+Version 0.10 must specify physical energy load epsilon_s(n,V), sector coupling and volume dependence. The following relation is a requirement for that interface, not an executed 0.9 output. The fixed state mathcal S means the address state, effects and coupling configuration, distinct from pending SOURCE S_k. R=68.2% alone does not determine pressure, and 95:5 alone does not determine length. Existing expansion response and the future causal account of twist remain distinct. The SI defining value of c stays a fixed input.
 
 
 
@@ -207,7 +207,7 @@ Subsequent stages separate update order from physical time, address cutoff from 
 
 ## Verification and reproduction
 
-The 26 groups cover independent primality, frozen upstream code and results, independently checked zeta heights, cumulative products versus depletion, address and frame conservation, Actual denominators, equality of all 0.8 results, nonuniform channel coupling, arbitrary diagonal states and effect positivity on a small coherent state, explicit arithmetic refitting, boundary changes, equal aggregates from different microscopic rules, separate cutoffs, rejection of sixteen invalid inputs, and provenance hashes.
+The 27 groups cover independent primality, frozen upstream code and results, independently checked zeta heights, cumulative products versus depletion, address and frame conservation, Actual denominators, equality of all 0.8 results, nonuniform channel coupling, arbitrary diagonal states and effect positivity on a small coherent state, explicit arithmetic refitting, boundary changes, equal aggregates from different microscopic rules, separate cutoffs, rejection of sixteen invalid inputs, and provenance hashes. Revision r1 also checks twenty exhaustive sparse-kernel cases; direct positive accumulation preserves zero channel support without negative cancellation residuals.
 
 Changing K to 4 and 16 with other calibrations frozen gives phenotype about 3.704795% and 5.682474%. With xi=0, explicitly refitting h restores 5% while address admissions differ. Aggregate reproduction therefore does not establish a unique microscopic rule. Explanatory reproduction under validated calibration and declared rules is accepted; prediction is reserved for later unmeasured outputs after model fixation.
 

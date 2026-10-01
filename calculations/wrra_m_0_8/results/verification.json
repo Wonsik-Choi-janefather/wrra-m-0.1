@@ -1,7 +1,7 @@
 {
   "version": "WRRA-M 0.8",
   "passed": true,
-  "check_count": 22,
+  "check_count": 23,
   "input_hash_sha256": "8403336558879543b0784d6f5e009c02429107c65cfe3c09a93d4126a256af3c",
   "checks": [
     {
@@ -35,7 +35,7 @@
     {
       "name": "all_nine_cases_select_calibrated_branch",
       "passed": true,
-      "minimum_gap": 0.02428677921967631,
+      "minimum_gap": 0.024286779219676286,
       "maximum_finite_flow_residual": 6.66666677417993e-09
     },
     {
@@ -162,7 +162,7 @@
     {
       "name": "flow_equation_and_zero_support_boundary",
       "passed": true,
-      "ODE_maximum_error": 2.3619994848900205e-14
+      "ODE_maximum_error": 2.3592239273284576e-14
     },
     {
       "name": "invalid_calibrations_and_fake_records_rejected",
@@ -187,6 +187,13 @@
       "passed": true,
       "recalibrated_alpha": "2",
       "recalibrated_beta": "1"
+    },
+    {
+      "name": "tiny_positive_winner_support_converges_without_overflow",
+      "passed": true,
+      "initial_winner_weight": 1e-320,
+      "construction_time": 16175.127379910873,
+      "final_residual": 6.66666677417993e-09
     }
   ],
   "random_test_seed": 808

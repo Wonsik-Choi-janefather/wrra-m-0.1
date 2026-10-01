@@ -1,0 +1,37 @@
+{
+  "release": "WRRA-M 0.9-r1 reviewed 0.7–0.9 series",
+  "date": "2026-10-02",
+  "doi": "10.5281/zenodo.23091892",
+  "base_commit": "0a5d8c579ea143bd0982e80ed5e22d91eab6c65b",
+  "total_check_groups": 69,
+  "components": {
+    "0.7": {
+      "check_count": 19,
+      "passed": true,
+      "configuration_hash_unchanged": true,
+      "input_hash_sha256": "8d741b5b07a43e1d8d686e18024cc2eb01c330308628fb4ce69562ba3b9c66d1",
+      "maximum_share_change": 1.1102230246251565e-16,
+      "maximum_q_change": 2.220446049250313e-16
+    },
+    "0.8": {
+      "check_count": 23,
+      "passed": true,
+      "configuration_hash_unchanged": true,
+      "input_hash_sha256": "8403336558879543b0784d6f5e009c02429107c65cfe3c09a93d4126a256af3c",
+      "maximum_selection_gap_change": 2.42861286636753e-17,
+      "charge_inventory_exactly_equal": true
+    },
+    "0.9": {
+      "check_count": 27,
+      "passed": true,
+      "configuration_hash_unchanged": true,
+      "input_hash_sha256": "7986e6afcbe26e3546111387f34f953147e16cb3c8cb6b900264adf214e51e95",
+      "arithmetic_sector_totals_exactly_equal": true,
+      "maximum_reference_channel_change": 0.0
+    }
+  },
+  "roadmap_consistent": true,
+  "physical_energy_mapping_stage": "0.10",
+  "physical_quantization_and_records_stage": "0.13",
+  "baseline_0_6_modified": false
+}

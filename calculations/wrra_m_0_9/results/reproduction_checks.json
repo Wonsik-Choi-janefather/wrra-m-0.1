@@ -2,7 +2,7 @@
   "version": "WRRA-M 0.9",
   "passed": true,
   "input_hash_sha256": "7986e6afcbe26e3546111387f34f953147e16cb3c8cb6b900264adf214e51e95",
-  "clean_copy_check_count": 26,
+  "clean_copy_check_count": 27,
   "captured_results_removed_before_run": true,
   "outputs_byte_identical": true,
   "output_sha256": {
@@ -12,9 +12,9 @@
     "channel_ledger.csv": "43c0f04226818aa7c57e3092e45853a5b74551e7064f44e2245aa7ad9c169167",
     "address_samples.csv": "664b2d1c45b3dce3eb9333c21ed5ab51f838e5cabac0afbefbe714dc361b6b6d",
     "exponent_comparisons.csv": "c6824f0178542eeecd2ba2f808f41a5260f3682be006cecf92d1c0b737046cce",
-    "verification.json": "4f18621648eb8c761ab167083c4e93227cb4230dc840a9a0ab3f9d3c200881f1",
-    "baseline_0_8/results.json": "dde40094450e7747719b379367f9faa73078e795856875bfa0bf0d046562b978",
-    "baseline_0_8/case_table.csv": "3f325f677c1916b22b8c915eb076c6b47d579ae839832cdbdcc50f67f4ada57d",
+    "verification.json": "22b52dd0a029b2e415c1ebaf19520e38c26d61af670f8c375a8ea2012e0eba61",
+    "baseline_0_8/results.json": "5b7a7b2bbb2db7b0563608fe2ee5020fe3becb5d4a82f6a082657844a8244133",
+    "baseline_0_8/case_table.csv": "8a37b27810debed65bb17bcbcea643886f362907d90cef9c97760ed81412da53",
     "baseline_0_8/channel_table.csv": "575576c29eba6b508ebf61b8590476b42782a8bb0c0d172a3d17e903e0b5779a",
     "baseline_0_8/particle_inventory.csv": "80fd62cb21194fe0765dd426daef7b0c2b4ce1aa8a3209b3d319a48748131753"
   },
@@ -25,16 +25,16 @@
     "calculations/wrra_m_0_6/baseline_0_5/compute.py": "a1933c2788548e0b3e005a6b152b2ee21613110638a8da27dbf63eda24a16c41",
     "calculations/wrra_m_0_6/baseline_0_5/parameters.json": "3873a2a786c4c2396fc07d36985ae2651ca6229d5dfbde9f9fee22f0e13e4baa",
     "calculations/wrra_m_0_6/results/summary.json": "2aa662e24b88eea1108f976d43d207c55bd83e756a571e87dce5ddefa094931f",
-    "calculations/wrra_m_0_7/compute.py": "6a13101b61deed3ef7119433df7cebd1c1301dbffd6480de3bcb88628715cc34",
+    "calculations/wrra_m_0_7/compute.py": "aacb7c88b4333b112782959631d0f7db4a0d77d13cef257a901f9d5c2901addd",
     "calculations/wrra_m_0_7/parameters.json": "48c8d20fd995189266c5f95557d6c604cb07d393ac4ee2610d6d59fa7883503f",
-    "calculations/wrra_m_0_7/results/results.json": "8ab2a82aae848c8bc3f5674874632231aab4f7febf5f2d22a78e563ce2867562",
+    "calculations/wrra_m_0_7/results/results.json": "d9be1140988c20e95ad4106ea751e6bf19586b95e3fa130904e0bf438b861817",
     "calculations/verify_wrra_m_0_1.py": "0db907fca2287848bb7e4801c8f9b5355da7faab25be52c03b5031cb72eaeb05",
     "calculations/verify_wrra_m_0_2.py": "f610eaed79e8e82a8c36861b05a596d4acbe56a6bcf7b57935d9c2d53e0e9185",
     "calculations/verify_wrra_m_0_3.py": "81bb376b5b6b60593215c163455577ff79972915cb4bd9f3707707f8c81c7550",
     "calculations/verify_wrra_m_0_4.py": "69e1a35862d59e38383651fa4e205e38decc2fc6e891a55b3097ab6279e2c4fc",
-    "calculations/wrra_m_0_8/compute.py": "5dd6224be4a3e3b17707e35eddfae5dd77eea7b75adbe499efd6140ef0af809a",
+    "calculations/wrra_m_0_8/compute.py": "e1924554ac14129442c4317b633bcc7194d625aa845d2e98e86ff3a52fd2baa9",
     "calculations/wrra_m_0_8/parameters.json": "1ddd011bb4097c62583252d937988899963ffdd33031cec48cdaf1329f566b38",
-    "calculations/wrra_m_0_8/results/results.json": "dde40094450e7747719b379367f9faa73078e795856875bfa0bf0d046562b978"
+    "calculations/wrra_m_0_8/results/results.json": "5b7a7b2bbb2db7b0563608fe2ee5020fe3becb5d4a82f6a082657844a8244133"
   },
   "command": "python calculations/wrra_m_0_9/run_release.py",
   "runtime": {

@@ -11,15 +11,15 @@
       "pdf_pages": 8,
       "native_equations": 15,
       "numerical_rows": 23,
-      "verification_rows": 22,
-      "total_table_body_rows": 45
+      "verification_rows": 23,
+      "total_table_body_rows": 46
     },
     "EN": {
       "pdf_pages": 6,
       "native_equations": 15,
       "numerical_rows": 23,
-      "verification_rows": 22,
-      "total_table_body_rows": 45
+      "verification_rows": 23,
+      "total_table_body_rows": 46
     }
   },
   "visual_QA": "All final PDF pages separately rendered and inspected for the release."

@@ -33,3 +33,7 @@ verification table rows. PDF pages were rendered and visually inspected.
 0.7의 완료 범위는 공통 정의·가중 측도·공통 장부와 기존 물리 계산의 연결이다.
 기준 표현형 4.93%와 비표현형 95.07%는 갱신 가능한 보정값으로 유지한다.
 입자 선택과 실제 관측 전환은 후속 범위로 명시했다. 이번 공개 반영은 GitHub다.
+
+## Reviewed series revision r1
+
+The 2026-10-02 series review supersedes the original release schedule and numerical boundary handling. See [REVISION_0_7_TO_0_9_R1.md](REVISION_0_7_TO_0_9_R1.md). Reviewed check counts are 19, 23 and 27 for 0.7, 0.8 and 0.9. Canonical configuration hashes and adopted rounded reference outputs remain unchanged. The reviewed editions and code are included in Zenodo series version 0.9-r1, DOI 10.5281/zenodo.23091892.

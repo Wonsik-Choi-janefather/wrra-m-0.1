@@ -480,26 +480,26 @@
           {
             "construction_time": 1.0,
             "filter_weights": {
-              "F_DX": 0.26180707136231857,
+              "F_DX": 0.2618070713623185,
               "F_XX": 0.24986379097236489,
               "F_DD": 0.24986379097236489,
-              "F_XD": 0.23846534669295175
+              "F_XD": 0.2384653466929517
             },
-            "winning_residual": 0.7381929286376814
+            "winning_residual": 0.7381929286376815
           },
           {
-            "construction_time": 418.04425027078713,
+            "construction_time": 418.04425027078724,
             "filter_weights": {
               "F_DX": 0.9999999933333332,
-              "F_XX": 3.333333311111113e-09,
-              "F_DD": 3.333333311111113e-09,
-              "F_XD": 1.111111103703705e-17
+              "F_XX": 3.333333311111101e-09,
+              "F_DD": 3.333333311111101e-09,
+              "F_XD": 1.1111111037036972e-17
             },
             "winning_residual": 6.66666677417993e-09
           }
         ],
         "minimum_score_gap": 0.046691930387696756,
-        "sufficient_construction_time": 418.04425027078713,
+        "sufficient_construction_time": 418.04425027078724,
         "finite_flow_residual": 6.66666677417993e-09
       },
       "placement_and_charge": {
@@ -818,14 +818,14 @@
         "state_trace_error": 0.0,
         "permutation_unitarity_error": 0.0,
         "sector_energy_before_J": {
-          "phenotype": 3.780791249536201e-11,
-          "hidden_clustering": 2.0322711584728059e-10,
-          "hidden_background": 6.573246855494354e-11
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 2.0322711584728056e-10,
+          "hidden_background": 6.573246855494352e-11
         },
         "sector_energy_after_J": {
-          "phenotype": 3.780791249536201e-11,
-          "hidden_clustering": 2.0322711584728059e-10,
-          "hidden_background": 6.573246855494354e-11
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 2.0322711584728056e-10,
+          "hidden_background": 6.573246855494352e-11
         },
         "maximum_energy_change_J": 0.0,
         "scope": "channel-blind 0.7 energy operators; relabeling has no added SI energy or physical measurement event"
@@ -843,36 +843,36 @@
         "reference_volume_m3": 1.0,
         "physical_volume_m3": 0.125,
         "sector_weights": {
-          "phenotype": 0.049300000000000004,
-          "hidden_clustering": 0.26500000000000007,
-          "hidden_background": 0.08571250000000001
+          "phenotype": 0.0493,
+          "hidden_clustering": 0.265,
+          "hidden_background": 0.0857125
         },
-        "total_actual_weight": 0.4000125000000001,
+        "total_actual_weight": 0.4000125,
         "actual_normalized_share": 1.0,
         "sector_shares": {
-          "phenotype": 0.12324614855785754,
+          "phenotype": 0.12324614855785757,
           "hidden_clustering": 0.6624792975219524,
-          "hidden_background": 0.21427455392018996
+          "hidden_background": 0.21427455392019
         },
         "hidden_share": 0.8767538514421425,
         "sector_energy_J": {
-          "phenotype": 3.780791249536201e-11,
-          "hidden_clustering": 2.0322711584728059e-10,
-          "hidden_background": 6.573246855494354e-11
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 2.0322711584728056e-10,
+          "hidden_background": 6.573246855494352e-11
         },
         "total_energy_J": 3.067674968975861e-10,
         "sector_density_J_m3": {
-          "phenotype": 3.0246329996289606e-10,
-          "hidden_clustering": 1.6258169267782447e-09,
-          "hidden_background": 5.258597484395483e-10
+          "phenotype": 3.02463299962896e-10,
+          "hidden_clustering": 1.6258169267782445e-09,
+          "hidden_background": 5.258597484395482e-10
         },
         "total_density_J_m3": 2.454139975180689e-09,
         "sector_pressure_Pa": {
           "phenotype": -0.0,
           "hidden_clustering": -0.0,
-          "hidden_background": -5.258597484395483e-10
+          "hidden_background": -5.258597484395482e-10
         },
-        "total_pressure_Pa": -5.258597484395483e-10,
+        "total_pressure_Pa": -5.258597484395482e-10,
         "quantization_status": "not_executed_in_0.7",
         "measurement_outcome_probabilities": null,
         "physical_records": [],
@@ -917,10 +917,10 @@
             "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
           },
           "density_absolute_error_J_m3": 4.1359030627651384e-25,
-          "pressure_absolute_error_Pa": 0.0
+          "pressure_absolute_error_Pa": 1.0339757656912846e-25
         },
         "invariants": {
-          "weight_partition_absolute_error": 1.6653345369377348e-16,
+          "weight_partition_absolute_error": 5.551115123125783e-17,
           "share_partition_absolute_error": 0.0,
           "energy_partition_absolute_error_J": 0.0,
           "state_rank": 128
@@ -1032,26 +1032,26 @@
           {
             "construction_time": 1.0,
             "filter_weights": {
-              "F_DX": 0.26180707136231857,
+              "F_DX": 0.2618070713623185,
               "F_XX": 0.24986379097236489,
               "F_DD": 0.24986379097236489,
-              "F_XD": 0.23846534669295175
+              "F_XD": 0.2384653466929517
             },
-            "winning_residual": 0.7381929286376814
+            "winning_residual": 0.7381929286376815
           },
           {
-            "construction_time": 418.04425027078713,
+            "construction_time": 418.04425027078724,
             "filter_weights": {
               "F_DX": 0.9999999933333332,
-              "F_XX": 3.333333311111113e-09,
-              "F_DD": 3.333333311111113e-09,
-              "F_XD": 1.111111103703705e-17
+              "F_XX": 3.333333311111101e-09,
+              "F_DD": 3.333333311111101e-09,
+              "F_XD": 1.1111111037036972e-17
             },
             "winning_residual": 6.66666677417993e-09
           }
         ],
         "minimum_score_gap": 0.046691930387696756,
-        "sufficient_construction_time": 418.04425027078713,
+        "sufficient_construction_time": 418.04425027078724,
         "finite_flow_residual": 6.66666677417993e-09
       },
       "placement_and_charge": {
@@ -1370,14 +1370,14 @@
         "state_trace_error": 0.0,
         "permutation_unitarity_error": 0.0,
         "sector_energy_before_J": {
-          "phenotype": 3.780791249536201e-11,
-          "hidden_clustering": 2.0322711584728059e-10,
-          "hidden_background": 5.258597484395483e-10
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 2.0322711584728056e-10,
+          "hidden_background": 5.258597484395482e-10
         },
         "sector_energy_after_J": {
-          "phenotype": 3.780791249536201e-11,
-          "hidden_clustering": 2.0322711584728059e-10,
-          "hidden_background": 5.258597484395483e-10
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 2.0322711584728056e-10,
+          "hidden_background": 5.258597484395482e-10
         },
         "maximum_energy_change_J": 0.0,
         "scope": "channel-blind 0.7 energy operators; relabeling has no added SI energy or physical measurement event"
@@ -1395,36 +1395,36 @@
         "reference_volume_m3": 1.0,
         "physical_volume_m3": 1.0,
         "sector_weights": {
-          "phenotype": 0.049300000000000004,
-          "hidden_clustering": 0.26500000000000007,
-          "hidden_background": 0.6857000000000001
+          "phenotype": 0.0493,
+          "hidden_clustering": 0.265,
+          "hidden_background": 0.6857
         },
-        "total_actual_weight": 1.0000000000000002,
+        "total_actual_weight": 1.0,
         "actual_normalized_share": 1.0,
         "sector_shares": {
-          "phenotype": 0.04929999999999999,
+          "phenotype": 0.0493,
           "hidden_clustering": 0.265,
           "hidden_background": 0.6857
         },
         "hidden_share": 0.9507,
         "sector_energy_J": {
-          "phenotype": 3.780791249536201e-11,
-          "hidden_clustering": 2.0322711584728059e-10,
-          "hidden_background": 5.258597484395483e-10
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 2.0322711584728056e-10,
+          "hidden_background": 5.258597484395482e-10
         },
-        "total_energy_J": 7.668947767821909e-10,
+        "total_energy_J": 7.668947767821907e-10,
         "sector_density_J_m3": {
-          "phenotype": 3.780791249536201e-11,
-          "hidden_clustering": 2.0322711584728059e-10,
-          "hidden_background": 5.258597484395483e-10
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 2.0322711584728056e-10,
+          "hidden_background": 5.258597484395482e-10
         },
-        "total_density_J_m3": 7.668947767821909e-10,
+        "total_density_J_m3": 7.668947767821907e-10,
         "sector_pressure_Pa": {
           "phenotype": -0.0,
           "hidden_clustering": -0.0,
-          "hidden_background": -5.258597484395483e-10
+          "hidden_background": -5.258597484395482e-10
         },
-        "total_pressure_Pa": -5.258597484395483e-10,
+        "total_pressure_Pa": -5.258597484395482e-10,
         "quantization_status": "not_executed_in_0.7",
         "measurement_outcome_probabilities": null,
         "physical_records": [],
@@ -1468,11 +1468,11 @@
             },
             "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
           },
-          "density_absolute_error_J_m3": 2.0679515313825692e-25,
-          "pressure_absolute_error_Pa": 0.0
+          "density_absolute_error_J_m3": 0.0,
+          "pressure_absolute_error_Pa": 1.0339757656912846e-25
         },
         "invariants": {
-          "weight_partition_absolute_error": 2.220446049250313e-16,
+          "weight_partition_absolute_error": 0.0,
           "share_partition_absolute_error": 0.0,
           "energy_partition_absolute_error_J": 0.0,
           "state_rank": 128
@@ -1584,26 +1584,26 @@
           {
             "construction_time": 1.0,
             "filter_weights": {
-              "F_DX": 0.26180707136231857,
+              "F_DX": 0.2618070713623185,
               "F_XX": 0.24986379097236489,
               "F_DD": 0.24986379097236489,
-              "F_XD": 0.23846534669295175
+              "F_XD": 0.2384653466929517
             },
-            "winning_residual": 0.7381929286376814
+            "winning_residual": 0.7381929286376815
           },
           {
-            "construction_time": 418.04425027078713,
+            "construction_time": 418.04425027078724,
             "filter_weights": {
               "F_DX": 0.9999999933333332,
-              "F_XX": 3.333333311111113e-09,
-              "F_DD": 3.333333311111113e-09,
-              "F_XD": 1.111111103703705e-17
+              "F_XX": 3.333333311111101e-09,
+              "F_DD": 3.333333311111101e-09,
+              "F_XD": 1.1111111037036972e-17
             },
             "winning_residual": 6.66666677417993e-09
           }
         ],
         "minimum_score_gap": 0.046691930387696756,
-        "sufficient_construction_time": 418.04425027078713,
+        "sufficient_construction_time": 418.04425027078724,
         "finite_flow_residual": 6.66666677417993e-09
       },
       "placement_and_charge": {
@@ -1922,14 +1922,14 @@
         "state_trace_error": 0.0,
         "permutation_unitarity_error": 0.0,
         "sector_energy_before_J": {
-          "phenotype": 3.780791249536201e-11,
-          "hidden_clustering": 2.0322711584728059e-10,
-          "hidden_background": 4.206877987516386e-09
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 2.0322711584728056e-10,
+          "hidden_background": 4.2068779875163854e-09
         },
         "sector_energy_after_J": {
-          "phenotype": 3.780791249536201e-11,
-          "hidden_clustering": 2.0322711584728059e-10,
-          "hidden_background": 4.206877987516386e-09
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 2.0322711584728056e-10,
+          "hidden_background": 4.2068779875163854e-09
         },
         "maximum_energy_change_J": 0.0,
         "scope": "channel-blind 0.7 energy operators; relabeling has no added SI energy or physical measurement event"
@@ -1947,11 +1947,11 @@
         "reference_volume_m3": 1.0,
         "physical_volume_m3": 8.0,
         "sector_weights": {
-          "phenotype": 0.049300000000000004,
-          "hidden_clustering": 0.26500000000000007,
-          "hidden_background": 5.485600000000001
+          "phenotype": 0.0493,
+          "hidden_clustering": 0.265,
+          "hidden_background": 5.4856
         },
-        "total_actual_weight": 5.799900000000001,
+        "total_actual_weight": 5.7999,
         "actual_normalized_share": 1.0,
         "sector_shares": {
           "phenotype": 0.008500146554250935,
@@ -1960,23 +1960,23 @@
         },
         "hidden_share": 0.9914998534457491,
         "sector_energy_J": {
-          "phenotype": 3.780791249536201e-11,
-          "hidden_clustering": 2.0322711584728059e-10,
-          "hidden_background": 4.206877987516386e-09
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 2.0322711584728056e-10,
+          "hidden_background": 4.2068779875163854e-09
         },
-        "total_energy_J": 4.447913015859029e-09,
+        "total_energy_J": 4.447913015859028e-09,
         "sector_density_J_m3": {
-          "phenotype": 4.725989061920251e-12,
-          "hidden_clustering": 2.5403389480910073e-11,
-          "hidden_background": 5.258597484395483e-10
+          "phenotype": 4.72598906192025e-12,
+          "hidden_clustering": 2.540338948091007e-11,
+          "hidden_background": 5.258597484395482e-10
         },
-        "total_density_J_m3": 5.559891269823787e-10,
+        "total_density_J_m3": 5.559891269823785e-10,
         "sector_pressure_Pa": {
           "phenotype": -0.0,
           "hidden_clustering": -0.0,
-          "hidden_background": -5.258597484395483e-10
+          "hidden_background": -5.258597484395482e-10
         },
-        "total_pressure_Pa": -5.258597484395483e-10,
+        "total_pressure_Pa": -5.258597484395482e-10,
         "quantization_status": "not_executed_in_0.7",
         "measurement_outcome_probabilities": null,
         "physical_records": [],
@@ -2020,11 +2020,11 @@
             },
             "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
           },
-          "density_absolute_error_J_m3": 2.0679515313825692e-25,
-          "pressure_absolute_error_Pa": 0.0
+          "density_absolute_error_J_m3": 1.0339757656912846e-25,
+          "pressure_absolute_error_Pa": 1.0339757656912846e-25
         },
         "invariants": {
-          "weight_partition_absolute_error": 2.6645352591003757e-15,
+          "weight_partition_absolute_error": 1.7763568394002505e-15,
           "share_partition_absolute_error": 0.0,
           "energy_partition_absolute_error_J": 0.0,
           "state_rank": 128
@@ -2140,23 +2140,23 @@
               "F_DX": 0.33061784335692573,
               "F_XX": 0.2443759334415069,
               "F_DD": 0.2443759334415069,
-              "F_XD": 0.18063028976006057
+              "F_XD": 0.18063028976006054
             },
             "winning_residual": 0.6693821566430742
           },
           {
-            "construction_time": 64.57880532960777,
+            "construction_time": 64.57880532960779,
             "filter_weights": {
               "F_DX": 0.9999999933333332,
-              "F_XX": 3.333333311111113e-09,
-              "F_DD": 3.333333311111113e-09,
-              "F_XD": 1.111111103703705e-17
+              "F_XX": 3.333333311111101e-09,
+              "F_DD": 3.333333311111101e-09,
+              "F_XD": 1.1111111037036972e-17
             },
             "winning_residual": 6.66666677417993e-09
           }
         ],
         "minimum_score_gap": 0.3022554061351049,
-        "sufficient_construction_time": 64.57880532960777,
+        "sufficient_construction_time": 64.57880532960779,
         "finite_flow_residual": 6.66666677417993e-09
       },
       "placement_and_charge": {
@@ -2476,13 +2476,13 @@
         "permutation_unitarity_error": 0.0,
         "sector_energy_before_J": {
           "phenotype": 3.7807912495362e-11,
-          "hidden_clustering": 1.5469743064677872e-11,
-          "hidden_background": 4.002868988471553e-11
+          "hidden_clustering": 1.546974306467788e-11,
+          "hidden_background": 4.002868988471555e-11
         },
         "sector_energy_after_J": {
           "phenotype": 3.7807912495362e-11,
-          "hidden_clustering": 1.5469743064677872e-11,
-          "hidden_background": 4.002868988471553e-11
+          "hidden_clustering": 1.546974306467788e-11,
+          "hidden_background": 4.002868988471555e-11
         },
         "maximum_energy_change_J": 0.0,
         "scope": "channel-blind 0.7 energy operators; relabeling has no added SI energy or physical measurement event"
@@ -2501,35 +2501,35 @@
         "physical_volume_m3": 1.0,
         "sector_weights": {
           "phenotype": 0.0493,
-          "hidden_clustering": 0.020171923884509002,
-          "hidden_background": 0.052195804557010644
+          "hidden_clustering": 0.02017192388450901,
+          "hidden_background": 0.052195804557010665
         },
-        "total_actual_weight": 0.12166772844151964,
+        "total_actual_weight": 0.12166772844151967,
         "actual_normalized_share": 1.0,
         "sector_shares": {
-          "phenotype": 0.40520194328848963,
+          "phenotype": 0.4052019432884895,
           "hidden_clustering": 0.16579518778642083,
-          "hidden_background": 0.4290028689250896
+          "hidden_background": 0.42900286892508965
         },
-        "hidden_share": 0.5947980567115104,
+        "hidden_share": 0.5947980567115105,
         "sector_energy_J": {
           "phenotype": 3.7807912495362e-11,
-          "hidden_clustering": 1.5469743064677872e-11,
-          "hidden_background": 4.002868988471553e-11
+          "hidden_clustering": 1.546974306467788e-11,
+          "hidden_background": 4.002868988471555e-11
         },
-        "total_energy_J": 9.330634544475541e-11,
+        "total_energy_J": 9.330634544475544e-11,
         "sector_density_J_m3": {
           "phenotype": 3.7807912495362e-11,
-          "hidden_clustering": 1.5469743064677872e-11,
-          "hidden_background": 4.002868988471553e-11
+          "hidden_clustering": 1.546974306467788e-11,
+          "hidden_background": 4.002868988471555e-11
         },
-        "total_density_J_m3": 9.330634544475541e-11,
+        "total_density_J_m3": 9.330634544475544e-11,
         "sector_pressure_Pa": {
           "phenotype": -0.0,
           "hidden_clustering": -0.0,
-          "hidden_background": -4.002868988471553e-11
+          "hidden_background": -4.002868988471555e-11
         },
-        "total_pressure_Pa": -4.002868988471553e-11,
+        "total_pressure_Pa": -4.002868988471555e-11,
         "quantization_status": "not_executed_in_0.7",
         "measurement_outcome_probabilities": null,
         "physical_records": [],
@@ -2573,11 +2573,11 @@
             },
             "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
           },
-          "density_absolute_error_J_m3": 2.5849394142282115e-26,
-          "pressure_absolute_error_Pa": 1.9387045606711586e-26
+          "density_absolute_error_J_m3": 0.0,
+          "pressure_absolute_error_Pa": 0.0
         },
         "invariants": {
-          "weight_partition_absolute_error": 4.163336342344337e-17,
+          "weight_partition_absolute_error": 1.3877787807814457e-17,
           "share_partition_absolute_error": 0.0,
           "energy_partition_absolute_error_J": 0.0,
           "state_rank": 1
@@ -2605,24 +2605,24 @@
           "1_0": 1.25
         },
         "raw_intensity": {
-          "3_A": 0.11075380564098299,
-          "3_B": 0.18557475313807603,
-          "1_A": 0.11075380564098299,
-          "1_B": 0.18557475313807603,
-          "anti3_A": 0.18557475313807603,
-          "anti3_B": 0.11075380564098299,
-          "1_N": 0.18557475313807603,
-          "1_0": 0.11075380564098299
+          "3_A": 0.11075380564098303,
+          "3_B": 0.1855747531380761,
+          "1_A": 0.11075380564098303,
+          "1_B": 0.1855747531380761,
+          "anti3_A": 0.1855747531380761,
+          "anti3_B": 0.11075380564098303,
+          "1_N": 0.1855747531380761,
+          "1_0": 0.11075380564098303
         },
-        "common_reference_intensity": 0.7906721638149533,
+        "common_reference_intensity": 0.7906721638149536,
         "normalized_signatures": {
           "3_A": 0.37426662795494736,
-          "3_B": 0.48446367696188836,
+          "3_B": 0.4844636769618883,
           "1_A": 0.37426662795494736,
-          "1_B": 0.48446367696188836,
-          "anti3_A": 0.48446367696188836,
+          "1_B": 0.4844636769618883,
+          "anti3_A": 0.4844636769618883,
           "anti3_B": 0.37426662795494736,
-          "1_N": 0.48446367696188836,
+          "1_N": 0.4844636769618883,
           "1_0": 0.37426662795494736
         },
         "transport_gram_diagonal": [
@@ -2630,22 +2630,22 @@
           0.140075508800767,
           0.140075508800767,
           0.140075508800767,
-          0.2347050542954329,
-          0.2347050542954329,
-          0.2347050542954329,
+          0.23470505429543287,
+          0.23470505429543287,
+          0.23470505429543287,
           0.140075508800767,
-          0.2347050542954329,
-          0.2347050542954329,
-          0.2347050542954329,
+          0.23470505429543287,
+          0.23470505429543287,
+          0.23470505429543287,
           0.140075508800767,
           0.140075508800767,
           0.140075508800767,
-          0.2347050542954329,
-          0.2347050542954329
+          0.23470505429543287,
+          0.23470505429543287
         ],
         "transport_gram_rank": 16,
         "minimum_gram_eigenvalue": 0.140075508800767,
-        "neutral_channel_norm_squared": 0.2347050542954329,
+        "neutral_channel_norm_squared": 0.23470505429543287,
         "principal_channel_difference": 0.0,
         "signature_scope": "color-invariant scalar response in the calibrated weak-component basis; background and basis transform jointly",
         "operator_scope": "auxiliary lower-order readout offset; not an extra dynamical Hamiltonian or SI energy sector"
@@ -2654,21 +2654,21 @@
         "compatibility_entries": {
           "lAA": -0.0,
           "lBB": -0.0,
-          "lAB": -0.012143389609838155,
-          "lBA": -0.012143389609838155,
+          "lAB": -0.012143389609838143,
+          "lBA": -0.012143389609838143,
           "rAN": -0.0,
           "rB0": -0.0,
-          "rA0": -0.012143389609838155,
-          "rBN": -0.012143389609838155
+          "rA0": -0.012143389609838143,
+          "rBN": -0.012143389609838143
         },
         "scores": {
           "F_DX": -0.0,
-          "F_XX": -0.02428677921967631,
-          "F_DD": -0.02428677921967631,
-          "F_XD": -0.04857355843935262
+          "F_XX": -0.024286779219676286,
+          "F_DD": -0.024286779219676286,
+          "F_XD": -0.04857355843935257
         },
-        "Delta_L": 0.02428677921967631,
-        "Delta_R": 0.02428677921967631,
+        "Delta_L": 0.024286779219676286,
+        "Delta_R": 0.024286779219676286,
         "gap_identity_max_error": 0.0,
         "maximizers": [
           "F_DX"
@@ -2690,26 +2690,26 @@
           {
             "construction_time": 1.0,
             "filter_weights": {
-              "F_DX": 0.2561082582285529,
-              "F_XX": 0.24996313814606233,
-              "F_DD": 0.24996313814606233,
+              "F_DX": 0.2561082582285528,
+              "F_XX": 0.24996313814606227,
+              "F_DD": 0.24996313814606227,
               "F_XD": 0.24396546547932255
             },
-            "winning_residual": 0.7438917417714471
+            "winning_residual": 0.7438917417714472
           },
           {
-            "construction_time": 803.7003530219691,
+            "construction_time": 803.70035302197,
             "filter_weights": {
               "F_DX": 0.9999999933333332,
-              "F_XX": 3.333333311111113e-09,
-              "F_DD": 3.333333311111113e-09,
-              "F_XD": 1.111111103703705e-17
+              "F_XX": 3.333333311111101e-09,
+              "F_DD": 3.333333311111101e-09,
+              "F_XD": 1.1111111037036972e-17
             },
             "winning_residual": 6.66666677417993e-09
           }
         ],
-        "minimum_score_gap": 0.02428677921967631,
-        "sufficient_construction_time": 803.7003530219691,
+        "minimum_score_gap": 0.024286779219676286,
+        "sufficient_construction_time": 803.70035302197,
         "finite_flow_residual": 6.66666677417993e-09
       },
       "placement_and_charge": {
@@ -3030,12 +3030,12 @@
         "sector_energy_before_J": {
           "phenotype": 3.7807912495362e-11,
           "hidden_clustering": 4.064542316945611e-10,
-          "hidden_background": 1.0517194968790966e-09
+          "hidden_background": 1.0517194968790964e-09
         },
         "sector_energy_after_J": {
           "phenotype": 3.7807912495362e-11,
           "hidden_clustering": 4.064542316945611e-10,
-          "hidden_background": 1.0517194968790966e-09
+          "hidden_background": 1.0517194968790964e-09
         },
         "maximum_energy_change_J": 0.0,
         "scope": "channel-blind 0.7 energy operators; relabeling has no added SI energy or physical measurement event"
@@ -3044,45 +3044,45 @@
         "scale_factor": 1.0,
         "lattice_N": 128,
         "carrier_epsilon": 0.0,
-        "state_trace": 0.9999999999999999,
+        "state_trace": 1.0,
         "state_entropy_bits": 0.0,
         "state_rank_at_tolerance": 1,
-        "Jc": 3.9999999999999996,
-        "Jb": 3.9999999999999996,
+        "Jc": 4.0,
+        "Jb": 4.0,
         "measure": "energy_weighted_information_load",
         "reference_volume_m3": 1.0,
         "physical_volume_m3": 1.0,
         "sector_weights": {
           "phenotype": 0.0493,
           "hidden_clustering": 0.53,
-          "hidden_background": 1.3714000000000002
+          "hidden_background": 1.3714
         },
-        "total_actual_weight": 1.9507,
+        "total_actual_weight": 1.9506999999999999,
         "actual_normalized_share": 1.0,
         "sector_shares": {
           "phenotype": 0.02527297893064028,
-          "hidden_clustering": 0.27169733941661967,
+          "hidden_clustering": 0.2716973394166197,
           "hidden_background": 0.70302968165274
         },
         "hidden_share": 0.9747270210693597,
         "sector_energy_J": {
           "phenotype": 3.7807912495362e-11,
           "hidden_clustering": 4.064542316945611e-10,
-          "hidden_background": 1.0517194968790966e-09
+          "hidden_background": 1.0517194968790964e-09
         },
         "total_energy_J": 1.4959816410690196e-09,
         "sector_density_J_m3": {
           "phenotype": 3.7807912495362e-11,
           "hidden_clustering": 4.064542316945611e-10,
-          "hidden_background": 1.0517194968790966e-09
+          "hidden_background": 1.0517194968790964e-09
         },
         "total_density_J_m3": 1.4959816410690196e-09,
         "sector_pressure_Pa": {
           "phenotype": -0.0,
           "hidden_clustering": -0.0,
-          "hidden_background": -1.0517194968790966e-09
+          "hidden_background": -1.0517194968790964e-09
         },
-        "total_pressure_Pa": -1.0517194968790966e-09,
+        "total_pressure_Pa": -1.0517194968790964e-09,
         "quantization_status": "not_executed_in_0.7",
         "measurement_outcome_probabilities": null,
         "physical_records": [],
@@ -3092,25 +3092,25 @@
         "bridge_0_6": {
           "snapshot": {
             "a": 1.0,
-            "Jc": 3.9999999999999996,
-            "Jb": 3.9999999999999996,
+            "Jc": 4.0,
+            "Jb": 4.0,
             "density_phenotype_over_ucrit": 0.0493,
-            "density_clustering_over_ucrit": 0.5299999999999999,
-            "density_background_over_ucrit": 1.3713999999999997,
-            "density_total_over_ucrit": 1.9506999999999997,
-            "pressure_over_ucrit": -1.3713999999999997,
-            "H_over_H0": 1.3966746220934922,
-            "deceleration_q": -0.5545445224791101,
-            "hidden_density_over_reference": 1.9999999999999998,
-            "hidden_comoving_energy_over_reference": 1.9999999999999998,
-            "zeta_Q_over_reference": 1.9999999999999998,
-            "twist_record_norm_over_reference": 1.414213562373095,
-            "twist_rate_over_reference": 1.414213562373095,
-            "aT_over_reference": 1.414213562373095,
-            "actual_hidden_fraction": 0.9747270210693597
+            "density_clustering_over_ucrit": 0.53,
+            "density_background_over_ucrit": 1.3714,
+            "density_total_over_ucrit": 1.9506999999999999,
+            "pressure_over_ucrit": -1.3714000000000002,
+            "H_over_H0": 1.3966746220934925,
+            "deceleration_q": -0.5545445224791102,
+            "hidden_density_over_reference": 2.0,
+            "hidden_comoving_energy_over_reference": 2.0,
+            "zeta_Q_over_reference": 2.0,
+            "twist_record_norm_over_reference": 1.4142135623730951,
+            "twist_rate_over_reference": 1.4142135623730951,
+            "aT_over_reference": 1.4142135623730951,
+            "actual_hidden_fraction": 0.9747270210693598
           },
           "local_readout": {
-            "aT_m_s2": 1.6854776404572047e-10,
+            "aT_m_s2": 1.685477640457205e-10,
             "zeta_kappa_total_squared_m_minus2": 6.056225489332408e-52,
             "test_radius_kpc": 8.2,
             "v_total_km_s": 219.2159779470782,
@@ -3122,15 +3122,15 @@
               "alpha_baryon_patch_rad": 1.052265081800396e-06,
               "alpha_twist_patch_rad": 1.9173591794488714e-06,
               "alpha_patch_arcsec": 0.6125289728732569,
-              "quad_abs_error_rad": 3.2964219657483886e-20
+              "quad_abs_error_rad": 3.2964071298122355e-20
             },
             "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
           },
-          "density_absolute_error_J_m3": 4.1359030627651384e-25,
-          "pressure_absolute_error_Pa": 4.1359030627651384e-25
+          "density_absolute_error_J_m3": 2.0679515313825692e-25,
+          "pressure_absolute_error_Pa": 2.0679515313825692e-25
         },
         "invariants": {
-          "weight_partition_absolute_error": 2.220446049250313e-16,
+          "weight_partition_absolute_error": 4.440892098500626e-16,
           "share_partition_absolute_error": 0.0,
           "energy_partition_absolute_error_J": 0.0,
           "state_rank": 1
@@ -3246,23 +3246,23 @@
               "F_DX": 0.2703416446677326,
               "F_XX": 0.2496022414081906,
               "F_DD": 0.2496022414081906,
-              "F_XD": 0.2304538725158862
+              "F_XD": 0.23045387251588623
             },
             "winning_residual": 0.7296583553322674
           },
           {
-            "construction_time": 244.547835452656,
+            "construction_time": 244.54783545265602,
             "filter_weights": {
               "F_DX": 0.9999999933333332,
-              "F_XX": 3.333333311111113e-09,
-              "F_DD": 3.333333311111113e-09,
-              "F_XD": 1.111111103703705e-17
+              "F_XX": 3.333333311111101e-09,
+              "F_DD": 3.333333311111101e-09,
+              "F_XD": 1.1111111037036972e-17
             },
             "winning_residual": 6.66666677417993e-09
           }
         ],
         "minimum_score_gap": 0.0798178932824755,
-        "sufficient_construction_time": 244.547835452656,
+        "sufficient_construction_time": 244.54783545265602,
         "finite_flow_residual": 6.66666677417993e-09
       },
       "placement_and_charge": {
@@ -3597,7 +3597,7 @@
         "scale_factor": 1.0,
         "lattice_N": 128,
         "carrier_epsilon": 0.0,
-        "state_trace": 0.9999999999999999,
+        "state_trace": 1.0,
         "state_entropy_bits": 0.0,
         "state_rank_at_tolerance": 1,
         "Jc": 0.0,
@@ -3676,7 +3676,7 @@
           "pressure_absolute_error_Pa": 0.0
         },
         "invariants": {
-          "weight_partition_absolute_error": 5.551115123125783e-17,
+          "weight_partition_absolute_error": 8.326672684688674e-17,
           "share_partition_absolute_error": 0.0,
           "energy_partition_absolute_error_J": 0.0,
           "state_rank": 1
@@ -3713,47 +3713,47 @@
           "1_0": 1.25
         },
         "raw_intensity": {
-          "3_A": 2.1604339694529484,
-          "3_B": 4.358141410900533,
-          "1_A": 2.1604339694529484,
-          "1_B": 4.358141410900533,
-          "anti3_A": 4.358141410900533,
-          "anti3_B": 2.1604339694529484,
-          "1_N": 4.358141410900533,
-          "1_0": 2.1604339694529484
+          "3_A": 2.16043396945295,
+          "3_B": 4.358141410900536,
+          "1_A": 2.16043396945295,
+          "1_B": 4.358141410900536,
+          "anti3_A": 4.358141410900536,
+          "anti3_B": 2.16043396945295,
+          "1_N": 4.358141410900536,
+          "1_0": 2.16043396945295
         },
-        "common_reference_intensity": 5.078400155597887,
+        "common_reference_intensity": 5.078400155597889,
         "normalized_signatures": {
-          "3_A": 0.6522394144732068,
-          "3_B": 0.9263757966854161,
-          "1_A": 0.6522394144732068,
-          "1_B": 0.9263757966854161,
-          "anti3_A": 0.9263757966854161,
-          "anti3_B": 0.6522394144732068,
-          "1_N": 0.9263757966854161,
-          "1_0": 0.6522394144732068
+          "3_A": 0.6522394144732069,
+          "3_B": 0.9263757966854163,
+          "1_A": 0.6522394144732069,
+          "1_B": 0.9263757966854163,
+          "anti3_A": 0.9263757966854163,
+          "anti3_B": 0.6522394144732069,
+          "1_N": 0.9263757966854163,
+          "1_0": 0.6522394144732069
         },
         "transport_gram_diagonal": [
-          0.4254162537923516,
-          0.4254162537923516,
-          0.4254162537923516,
-          0.4254162537923516,
-          0.8581721166845394,
-          0.8581721166845394,
-          0.8581721166845394,
-          0.4254162537923516,
-          0.8581721166845394,
-          0.8581721166845394,
-          0.8581721166845394,
-          0.4254162537923516,
-          0.4254162537923516,
-          0.4254162537923516,
-          0.8581721166845394,
-          0.8581721166845394
+          0.42541625379235176,
+          0.42541625379235176,
+          0.42541625379235176,
+          0.42541625379235176,
+          0.8581721166845396,
+          0.8581721166845396,
+          0.8581721166845396,
+          0.42541625379235176,
+          0.8581721166845396,
+          0.8581721166845396,
+          0.8581721166845396,
+          0.42541625379235176,
+          0.42541625379235176,
+          0.42541625379235176,
+          0.8581721166845396,
+          0.8581721166845396
         ],
         "transport_gram_rank": 16,
-        "minimum_gram_eigenvalue": 0.4254162537923516,
-        "neutral_channel_norm_squared": 0.8581721166845394,
+        "minimum_gram_eigenvalue": 0.42541625379235176,
+        "neutral_channel_norm_squared": 0.8581721166845396,
         "principal_channel_difference": 0.0,
         "signature_scope": "color-invariant scalar response in the calibrated weak-component basis; background and basis transform jointly",
         "operator_scope": "auxiliary lower-order readout offset; not an extra dynamical Hamiltonian or SI energy sector"
@@ -3801,23 +3801,23 @@
               "F_DX": 0.2889114101380979,
               "F_XX": 0.24859338996893174,
               "F_DD": 0.24859338996893174,
-              "F_XD": 0.21390180992403857
+              "F_XD": 0.21390180992403854
             },
             "winning_residual": 0.7110885898619022
           },
           {
-            "construction_time": 129.86757590975353,
+            "construction_time": 129.86757590975355,
             "filter_weights": {
               "F_DX": 0.9999999933333332,
-              "F_XX": 3.333333311111113e-09,
-              "F_DD": 3.333333311111113e-09,
-              "F_XD": 1.111111103703705e-17
+              "F_XX": 3.333333311111101e-09,
+              "F_DD": 3.333333311111101e-09,
+              "F_XD": 1.1111111037036972e-17
             },
             "winning_residual": 6.66666677417993e-09
           }
         ],
         "minimum_score_gap": 0.15030151210479709,
-        "sufficient_construction_time": 129.86757590975353,
+        "sufficient_construction_time": 129.86757590975355,
         "finite_flow_residual": 6.66666677417993e-09
       },
       "placement_and_charge": {
@@ -4136,14 +4136,14 @@
         "state_trace_error": 0.0,
         "permutation_unitarity_error": 0.0,
         "sector_energy_before_J": {
-          "phenotype": 3.7807912495361976e-11,
-          "hidden_clustering": 6.681635092684927e-11,
-          "hidden_background": 1.7289045973788881e-10
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 6.681635092684929e-11,
+          "hidden_background": 1.7289045973788892e-10
         },
         "sector_energy_after_J": {
-          "phenotype": 3.7807912495361976e-11,
-          "hidden_clustering": 6.681635092684927e-11,
-          "hidden_background": 1.7289045973788881e-10
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 6.681635092684929e-11,
+          "hidden_background": 1.7289045973788892e-10
         },
         "maximum_energy_change_J": 0.0,
         "scope": "channel-blind 0.7 energy operators; relabeling has no added SI energy or physical measurement event"
@@ -4152,45 +4152,45 @@
         "scale_factor": 1.0,
         "lattice_N": 128,
         "carrier_epsilon": 0.0,
-        "state_trace": 0.9999999999999994,
-        "state_entropy_bits": 4.805139755722375e-16,
+        "state_trace": 1.0,
+        "state_entropy_bits": 0.0,
         "state_rank_at_tolerance": 1,
-        "Jc": 0.6575535026247172,
-        "Jb": 0.6575535026247172,
+        "Jc": 0.6575535026247177,
+        "Jb": 0.6575535026247177,
         "measure": "energy_weighted_information_load",
         "reference_volume_m3": 1.0,
         "physical_volume_m3": 1.0,
         "sector_weights": {
-          "phenotype": 0.04929999999999996,
-          "hidden_clustering": 0.08712583909777505,
-          "hidden_background": 0.22544221837488432
+          "phenotype": 0.0493,
+          "hidden_clustering": 0.08712583909777509,
+          "hidden_background": 0.22544221837488446
         },
-        "total_actual_weight": 0.3618680574726593,
+        "total_actual_weight": 0.36186805747265954,
         "actual_normalized_share": 1.0,
         "sector_shares": {
           "phenotype": 0.13623750143717725,
-          "hidden_clustering": 0.24076686874844647,
+          "hidden_clustering": 0.24076686874844644,
           "hidden_background": 0.6229956298143763
         },
         "hidden_share": 0.8637624985628227,
         "sector_energy_J": {
-          "phenotype": 3.7807912495361976e-11,
-          "hidden_clustering": 6.681635092684927e-11,
-          "hidden_background": 1.7289045973788881e-10
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 6.681635092684929e-11,
+          "hidden_background": 1.7289045973788892e-10
         },
-        "total_energy_J": 2.7751472316010006e-10,
+        "total_energy_J": 2.775147231601002e-10,
         "sector_density_J_m3": {
-          "phenotype": 3.7807912495361976e-11,
-          "hidden_clustering": 6.681635092684927e-11,
-          "hidden_background": 1.7289045973788881e-10
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 6.681635092684929e-11,
+          "hidden_background": 1.7289045973788892e-10
         },
-        "total_density_J_m3": 2.7751472316010006e-10,
+        "total_density_J_m3": 2.775147231601002e-10,
         "sector_pressure_Pa": {
           "phenotype": -0.0,
           "hidden_clustering": -0.0,
-          "hidden_background": -1.7289045973788881e-10
+          "hidden_background": -1.7289045973788892e-10
         },
-        "total_pressure_Pa": -1.7289045973788881e-10,
+        "total_pressure_Pa": -1.7289045973788892e-10,
         "quantization_status": "not_executed_in_0.7",
         "measurement_outcome_probabilities": null,
         "physical_records": [],
@@ -4200,42 +4200,42 @@
         "bridge_0_6": {
           "snapshot": {
             "a": 1.0,
-            "Jc": 0.6575535026247172,
-            "Jb": 0.6575535026247172,
+            "Jc": 0.6575535026247177,
+            "Jb": 0.6575535026247177,
             "density_phenotype_over_ucrit": 0.0493,
-            "density_clustering_over_ucrit": 0.08712583909777503,
-            "density_background_over_ucrit": 0.2254422183748843,
-            "density_total_over_ucrit": 0.3618680574726593,
-            "pressure_over_ucrit": -0.2254422183748843,
-            "H_over_H0": 0.6015547003163214,
-            "deceleration_q": -0.4344934447215643,
-            "hidden_density_over_reference": 0.3287767513123586,
-            "hidden_comoving_energy_over_reference": 0.3287767513123586,
-            "zeta_Q_over_reference": 0.3287767513123586,
-            "twist_record_norm_over_reference": 0.5733905748373953,
-            "twist_rate_over_reference": 0.5733905748373953,
-            "aT_over_reference": 0.5733905748373953,
-            "actual_hidden_fraction": 0.8637624985628226
+            "density_clustering_over_ucrit": 0.08712583909777509,
+            "density_background_over_ucrit": 0.22544221837488446,
+            "density_total_over_ucrit": 0.36186805747265954,
+            "pressure_over_ucrit": -0.22544221837488446,
+            "H_over_H0": 0.6015547003163216,
+            "deceleration_q": -0.4344934447215645,
+            "hidden_density_over_reference": 0.32877675131235884,
+            "hidden_comoving_energy_over_reference": 0.32877675131235884,
+            "zeta_Q_over_reference": 0.32877675131235884,
+            "twist_record_norm_over_reference": 0.5733905748373955,
+            "twist_rate_over_reference": 0.5733905748373955,
+            "aT_over_reference": 0.5733905748373955,
+            "actual_hidden_fraction": 0.8637624985628227
           },
           "local_readout": {
-            "aT_m_s2": 6.833741514369453e-11,
-            "zeta_kappa_total_squared_m_minus2": 9.95573070798904e-53,
+            "aT_m_s2": 6.833741514369455e-11,
+            "zeta_kappa_total_squared_m_minus2": 9.95573070798905e-53,
             "test_radius_kpc": 8.2,
             "v_total_km_s": 192.00391282209793,
             "v_direct_km_s": 161.45051053125528,
-            "g_additional_m_s2": 4.268041187772449e-11,
+            "g_additional_m_s2": 4.2680411877724514e-11,
             "finite_patch_lensing": {
               "impact_kpc": 10.0,
               "alpha_patch_rad": 2.123981982913823e-06,
               "alpha_baryon_patch_rad": 1.052265081800396e-06,
               "alpha_twist_patch_rad": 1.0717169011134269e-06,
               "alpha_patch_arcsec": 0.43810273217804324,
-              "quad_abs_error_rad": 2.559611029157378e-20
+              "quad_abs_error_rad": 2.5581520087076694e-20
             },
             "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
           },
           "density_absolute_error_J_m3": 0.0,
-          "pressure_absolute_error_Pa": 2.5849394142282115e-26
+          "pressure_absolute_error_Pa": 0.0
         },
         "invariants": {
           "weight_partition_absolute_error": 5.551115123125783e-17,
@@ -4350,26 +4350,26 @@
           {
             "construction_time": 1.0,
             "filter_weights": {
-              "F_DX": 0.26180707136231857,
+              "F_DX": 0.2618070713623185,
               "F_XX": 0.24986379097236489,
               "F_DD": 0.24986379097236489,
-              "F_XD": 0.23846534669295175
+              "F_XD": 0.2384653466929517
             },
-            "winning_residual": 0.7381929286376814
+            "winning_residual": 0.7381929286376815
           },
           {
-            "construction_time": 418.04425027078713,
+            "construction_time": 418.04425027078724,
             "filter_weights": {
               "F_DX": 0.9999999933333332,
-              "F_XX": 3.333333311111113e-09,
-              "F_DD": 3.333333311111113e-09,
-              "F_XD": 1.111111103703705e-17
+              "F_XX": 3.333333311111101e-09,
+              "F_DD": 3.333333311111101e-09,
+              "F_XD": 1.1111111037036972e-17
             },
             "winning_residual": 6.66666677417993e-09
           }
         ],
         "minimum_score_gap": 0.046691930387696756,
-        "sufficient_construction_time": 418.04425027078713,
+        "sufficient_construction_time": 418.04425027078724,
         "finite_flow_residual": 6.66666677417993e-09
       },
       "placement_and_charge": {
@@ -4688,14 +4688,14 @@
         "state_trace_error": 0.0,
         "permutation_unitarity_error": 0.0,
         "sector_energy_before_J": {
-          "phenotype": 3.780791249536201e-11,
-          "hidden_clustering": 2.0322711584728059e-10,
-          "hidden_background": 5.258597484395482e-10
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 2.0322711584728056e-10,
+          "hidden_background": 5.258597484395479e-10
         },
         "sector_energy_after_J": {
-          "phenotype": 3.780791249536201e-11,
-          "hidden_clustering": 2.0322711584728059e-10,
-          "hidden_background": 5.258597484395482e-10
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 2.0322711584728056e-10,
+          "hidden_background": 5.258597484395479e-10
         },
         "maximum_energy_change_J": 0.0,
         "scope": "channel-blind 0.7 energy operators; relabeling has no added SI energy or physical measurement event"
@@ -4713,36 +4713,36 @@
         "reference_volume_m3": 1.0,
         "physical_volume_m3": 1.0,
         "sector_weights": {
-          "phenotype": 0.049300000000000004,
-          "hidden_clustering": 0.26500000000000007,
-          "hidden_background": 0.6857
+          "phenotype": 0.0493,
+          "hidden_clustering": 0.265,
+          "hidden_background": 0.6856999999999996
         },
-        "total_actual_weight": 1.0,
+        "total_actual_weight": 0.9999999999999997,
         "actual_normalized_share": 1.0,
         "sector_shares": {
-          "phenotype": 0.049300000000000004,
-          "hidden_clustering": 0.26500000000000007,
-          "hidden_background": 0.6857
+          "phenotype": 0.04930000000000001,
+          "hidden_clustering": 0.2650000000000001,
+          "hidden_background": 0.6856999999999999
         },
-        "hidden_share": 0.9507000000000001,
+        "hidden_share": 0.9507,
         "sector_energy_J": {
-          "phenotype": 3.780791249536201e-11,
-          "hidden_clustering": 2.0322711584728059e-10,
-          "hidden_background": 5.258597484395482e-10
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 2.0322711584728056e-10,
+          "hidden_background": 5.258597484395479e-10
         },
-        "total_energy_J": 7.668947767821908e-10,
+        "total_energy_J": 7.668947767821904e-10,
         "sector_density_J_m3": {
-          "phenotype": 3.780791249536201e-11,
-          "hidden_clustering": 2.0322711584728059e-10,
-          "hidden_background": 5.258597484395482e-10
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 2.0322711584728056e-10,
+          "hidden_background": 5.258597484395479e-10
         },
-        "total_density_J_m3": 7.668947767821908e-10,
+        "total_density_J_m3": 7.668947767821904e-10,
         "sector_pressure_Pa": {
           "phenotype": -0.0,
           "hidden_clustering": -0.0,
-          "hidden_background": -5.258597484395482e-10
+          "hidden_background": -5.258597484395479e-10
         },
-        "total_pressure_Pa": -5.258597484395482e-10,
+        "total_pressure_Pa": -5.258597484395479e-10,
         "quantization_status": "not_executed_in_0.7",
         "measurement_outcome_probabilities": null,
         "physical_records": [],
@@ -4786,11 +4786,11 @@
             },
             "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
           },
-          "density_absolute_error_J_m3": 3.101927297073854e-25,
-          "pressure_absolute_error_Pa": 3.101927297073854e-25
+          "density_absolute_error_J_m3": 1.0339757656912846e-25,
+          "pressure_absolute_error_Pa": 0.0
         },
         "invariants": {
-          "weight_partition_absolute_error": 0.0,
+          "weight_partition_absolute_error": 3.3306690738754696e-16,
           "share_partition_absolute_error": 0.0,
           "energy_partition_absolute_error_J": 0.0,
           "state_rank": 128
@@ -4827,47 +4827,47 @@
           "1_0": 1.25
         },
         "raw_intensity": {
-          "3_A": 2.1604339694529484,
-          "3_B": 4.358141410900533,
-          "1_A": 2.1604339694529484,
-          "1_B": 4.358141410900533,
-          "anti3_A": 4.358141410900533,
-          "anti3_B": 2.1604339694529484,
-          "1_N": 4.358141410900533,
-          "1_0": 2.1604339694529484
+          "3_A": 2.16043396945295,
+          "3_B": 4.358141410900536,
+          "1_A": 2.16043396945295,
+          "1_B": 4.358141410900536,
+          "anti3_A": 4.358141410900536,
+          "anti3_B": 2.16043396945295,
+          "1_N": 4.358141410900536,
+          "1_0": 2.16043396945295
         },
-        "common_reference_intensity": 5.078400155597887,
+        "common_reference_intensity": 5.078400155597889,
         "normalized_signatures": {
-          "3_A": 0.6522394144732068,
-          "3_B": 0.9263757966854161,
-          "1_A": 0.6522394144732068,
-          "1_B": 0.9263757966854161,
-          "anti3_A": 0.9263757966854161,
-          "anti3_B": 0.6522394144732068,
-          "1_N": 0.9263757966854161,
-          "1_0": 0.6522394144732068
+          "3_A": 0.6522394144732069,
+          "3_B": 0.9263757966854163,
+          "1_A": 0.6522394144732069,
+          "1_B": 0.9263757966854163,
+          "anti3_A": 0.9263757966854163,
+          "anti3_B": 0.6522394144732069,
+          "1_N": 0.9263757966854163,
+          "1_0": 0.6522394144732069
         },
         "transport_gram_diagonal": [
-          0.4254162537923516,
-          0.4254162537923516,
-          0.4254162537923516,
-          0.4254162537923516,
-          0.8581721166845394,
-          0.8581721166845394,
-          0.8581721166845394,
-          0.4254162537923516,
-          0.8581721166845394,
-          0.8581721166845394,
-          0.8581721166845394,
-          0.4254162537923516,
-          0.4254162537923516,
-          0.4254162537923516,
-          0.8581721166845394,
-          0.8581721166845394
+          0.42541625379235176,
+          0.42541625379235176,
+          0.42541625379235176,
+          0.42541625379235176,
+          0.8581721166845396,
+          0.8581721166845396,
+          0.8581721166845396,
+          0.42541625379235176,
+          0.8581721166845396,
+          0.8581721166845396,
+          0.8581721166845396,
+          0.42541625379235176,
+          0.42541625379235176,
+          0.42541625379235176,
+          0.8581721166845396,
+          0.8581721166845396
         ],
         "transport_gram_rank": 16,
-        "minimum_gram_eigenvalue": 0.4254162537923516,
-        "neutral_channel_norm_squared": 0.8581721166845394,
+        "minimum_gram_eigenvalue": 0.42541625379235176,
+        "neutral_channel_norm_squared": 0.8581721166845396,
         "principal_channel_difference": 0.0,
         "signature_scope": "color-invariant scalar response in the calibrated weak-component basis; background and basis transform jointly",
         "operator_scope": "auxiliary lower-order readout offset; not an extra dynamical Hamiltonian or SI energy sector"
@@ -4915,23 +4915,23 @@
               "F_DX": 0.2889114101380979,
               "F_XX": 0.24859338996893174,
               "F_DD": 0.24859338996893174,
-              "F_XD": 0.21390180992403857
+              "F_XD": 0.21390180992403854
             },
             "winning_residual": 0.7110885898619022
           },
           {
-            "construction_time": 129.86757590975353,
+            "construction_time": 129.86757590975355,
             "filter_weights": {
               "F_DX": 0.9999999933333332,
-              "F_XX": 3.333333311111113e-09,
-              "F_DD": 3.333333311111113e-09,
-              "F_XD": 1.111111103703705e-17
+              "F_XX": 3.333333311111101e-09,
+              "F_DD": 3.333333311111101e-09,
+              "F_XD": 1.1111111037036972e-17
             },
             "winning_residual": 6.66666677417993e-09
           }
         ],
         "minimum_score_gap": 0.15030151210479709,
-        "sufficient_construction_time": 129.86757590975353,
+        "sufficient_construction_time": 129.86757590975355,
         "finite_flow_residual": 6.66666677417993e-09
       },
       "placement_and_charge": {
@@ -5250,14 +5250,14 @@
         "state_trace_error": 0.0,
         "permutation_unitarity_error": 0.0,
         "sector_energy_before_J": {
-          "phenotype": 3.7807912495361976e-11,
-          "hidden_clustering": 6.681635092684927e-11,
-          "hidden_background": 2.154567865736693e-10
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 6.681635092684929e-11,
+          "hidden_background": 2.1545678657366947e-10
         },
         "sector_energy_after_J": {
-          "phenotype": 3.7807912495361976e-11,
-          "hidden_clustering": 6.681635092684927e-11,
-          "hidden_background": 2.154567865736693e-10
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 6.681635092684929e-11,
+          "hidden_background": 2.1545678657366947e-10
         },
         "maximum_energy_change_J": 0.0,
         "scope": "channel-blind 0.7 energy operators; relabeling has no added SI energy or physical measurement event"
@@ -5266,45 +5266,45 @@
         "scale_factor": 1.0,
         "lattice_N": 128,
         "carrier_epsilon": 8.0,
-        "state_trace": 0.9999999999999994,
-        "state_entropy_bits": 4.805139755722375e-16,
+        "state_trace": 1.0,
+        "state_entropy_bits": 0.0,
         "state_rank_at_tolerance": 1,
-        "Jc": 0.6575535026247172,
-        "Jb": 0.8194458207269986,
+        "Jc": 0.6575535026247177,
+        "Jb": 0.8194458207269992,
         "measure": "energy_weighted_information_load",
         "reference_volume_m3": 1.0,
         "physical_volume_m3": 1.0,
         "sector_weights": {
-          "phenotype": 0.04929999999999996,
-          "hidden_clustering": 0.08712583909777505,
-          "hidden_background": 0.28094699963625147
+          "phenotype": 0.0493,
+          "hidden_clustering": 0.08712583909777509,
+          "hidden_background": 0.2809469996362517
         },
-        "total_actual_weight": 0.4173728387340265,
+        "total_actual_weight": 0.41737283873402675,
         "actual_normalized_share": 1.0,
         "sector_shares": {
           "phenotype": 0.11811980901664927,
-          "hidden_clustering": 0.2087482246378197,
-          "hidden_background": 0.6731319663455311
+          "hidden_clustering": 0.20874822463781964,
+          "hidden_background": 0.6731319663455312
         },
         "hidden_share": 0.8818801909833508,
         "sector_energy_J": {
-          "phenotype": 3.7807912495361976e-11,
-          "hidden_clustering": 6.681635092684927e-11,
-          "hidden_background": 2.154567865736693e-10
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 6.681635092684929e-11,
+          "hidden_background": 2.1545678657366947e-10
         },
-        "total_energy_J": 3.2008104999588056e-10,
+        "total_energy_J": 3.2008104999588076e-10,
         "sector_density_J_m3": {
-          "phenotype": 3.7807912495361976e-11,
-          "hidden_clustering": 6.681635092684927e-11,
-          "hidden_background": 2.154567865736693e-10
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 6.681635092684929e-11,
+          "hidden_background": 2.1545678657366947e-10
         },
-        "total_density_J_m3": 3.2008104999588056e-10,
+        "total_density_J_m3": 3.2008104999588076e-10,
         "sector_pressure_Pa": {
           "phenotype": -0.0,
           "hidden_clustering": -0.0,
-          "hidden_background": -2.154567865736693e-10
+          "hidden_background": -2.1545678657366947e-10
         },
-        "total_pressure_Pa": -2.154567865736693e-10,
+        "total_pressure_Pa": -2.1545678657366947e-10,
         "quantization_status": "not_executed_in_0.7",
         "measurement_outcome_probabilities": null,
         "physical_records": [],
@@ -5314,45 +5314,45 @@
         "bridge_0_6": {
           "snapshot": {
             "a": 1.0,
-            "Jc": 0.6575535026247172,
-            "Jb": 0.8194458207269986,
+            "Jc": 0.6575535026247177,
+            "Jb": 0.8194458207269992,
             "density_phenotype_over_ucrit": 0.0493,
-            "density_clustering_over_ucrit": 0.08712583909777503,
-            "density_background_over_ucrit": 0.28094699963625147,
-            "density_total_over_ucrit": 0.41737283873402653,
-            "pressure_over_ucrit": -0.28094699963625147,
-            "H_over_H0": 0.6460439913303323,
-            "deceleration_q": -0.5096979495182965,
-            "hidden_density_over_reference": 0.38715981774905495,
-            "hidden_comoving_energy_over_reference": 0.38715981774905495,
-            "zeta_Q_over_reference": 0.38715981774905495,
-            "twist_record_norm_over_reference": 0.622221678944936,
-            "twist_rate_over_reference": 0.622221678944936,
-            "aT_over_reference": 0.5733905748373953,
-            "actual_hidden_fraction": 0.8818801909833506
+            "density_clustering_over_ucrit": 0.08712583909777509,
+            "density_background_over_ucrit": 0.2809469996362517,
+            "density_total_over_ucrit": 0.41737283873402675,
+            "pressure_over_ucrit": -0.2809469996362517,
+            "H_over_H0": 0.6460439913303325,
+            "deceleration_q": -0.5096979495182967,
+            "hidden_density_over_reference": 0.3871598177490552,
+            "hidden_comoving_energy_over_reference": 0.3871598177490552,
+            "zeta_Q_over_reference": 0.3871598177490552,
+            "twist_record_norm_over_reference": 0.6222216789449362,
+            "twist_rate_over_reference": 0.6222216789449362,
+            "aT_over_reference": 0.5733905748373955,
+            "actual_hidden_fraction": 0.8818801909833508
           },
           "local_readout": {
-            "aT_m_s2": 6.833741514369453e-11,
-            "zeta_kappa_total_squared_m_minus2": 1.1723635783485578e-52,
+            "aT_m_s2": 6.833741514369455e-11,
+            "zeta_kappa_total_squared_m_minus2": 1.172363578348559e-52,
             "test_radius_kpc": 8.2,
             "v_total_km_s": 192.00391282209793,
             "v_direct_km_s": 161.45051053125528,
-            "g_additional_m_s2": 4.268041187772449e-11,
+            "g_additional_m_s2": 4.2680411877724514e-11,
             "finite_patch_lensing": {
               "impact_kpc": 10.0,
               "alpha_patch_rad": 2.123981982913823e-06,
               "alpha_baryon_patch_rad": 1.052265081800396e-06,
               "alpha_twist_patch_rad": 1.0717169011134269e-06,
               "alpha_patch_arcsec": 0.43810273217804324,
-              "quad_abs_error_rad": 2.559611029157378e-20
+              "quad_abs_error_rad": 2.5581520087076694e-20
             },
             "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
           },
-          "density_absolute_error_J_m3": 0.0,
+          "density_absolute_error_J_m3": 5.169878828456423e-26,
           "pressure_absolute_error_Pa": 0.0
         },
         "invariants": {
-          "weight_partition_absolute_error": 5.551115123125783e-17,
+          "weight_partition_absolute_error": 0.0,
           "share_partition_absolute_error": 0.0,
           "energy_partition_absolute_error_J": 0.0,
           "state_rank": 1

@@ -33,7 +33,7 @@ def run():
         native[lang] = [xml_signature(eq) for p in doc.paragraphs
                         for eq in p._p.xpath('.//m:oMath')]
         assert len(native[lang]) == 15 and len(doc.tables) == 4
-        assert [len(t.rows) for t in doc.tables] == [9, 10, 7, 23]
+        assert [len(t.rows) for t in doc.tables] == [9, 10, 7, 24]
         tags = result['input_ledger']['filter_calibration']['response_tags']
         for row, (origin, sign) in zip(doc.tables[0].rows[1:], tags.items()):
             expected = [origin, str(sign), f'{ref["response"]["dimensionless_shifts"][origin]:.2f}',
@@ -46,7 +46,7 @@ def run():
         for row, (field, data) in zip(doc.tables[2].rows[1:], ref['placement_and_charge']['field_groups'].items()):
             expected = [field, str(data['multiplicity']), data['Y'], ', '.join(data['Q'])]
             assert [cell.text.strip() for cell in row.cells[:4]] == expected
-        assert verification['check_count'] == 22
+        assert verification['check_count'] == 23
         for i, row in enumerate(doc.tables[3].rows[1:], 1):
             assert row.cells[0].text.strip() == str(i)
             assert row.cells[-1].text.strip() in ('Pass', '통과')
@@ -59,7 +59,7 @@ def run():
             assert number in pdf_text, (lang, number)
         assert all('creativecommons.org/licenses/by/4.0/' in t for t in page_text)
         editions[lang] = {'pdf_pages':len(pdf.pages), 'native_equations':len(native[lang]),
-                         'numerical_rows':23, 'verification_rows':22, 'total_table_body_rows':45}
+                         'numerical_rows':23, 'verification_rows':verification['check_count'], 'total_table_body_rows':46}
     assert equations['KO'] == equations['EN'], 'source equations differ'
     assert native['KO'] == native['EN'], 'native equations differ'
     with (ROOT/'results/particle_inventory.csv').open(newline='') as f:

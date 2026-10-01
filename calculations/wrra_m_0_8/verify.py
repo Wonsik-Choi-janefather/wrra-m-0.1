@@ -2,6 +2,7 @@
 import copy
 from fractions import Fraction as Q
 import json
+import math
 from pathlib import Path
 import subprocess
 import sys
@@ -207,6 +208,16 @@ def main():
           q['alpha']=='2' and q['beta']=='1' and not q['benchmark_matches'] and
           result['physical_records']==[] and result['measurement_events']==[],
           recalibrated_alpha=q['alpha'],recalibrated_beta=q['beta'])
+    tiny=copy.deepcopy(cfg)
+    tiny['filter_calibration']['initial_filter_weights']=[1e-320,1/3,1/3,1/3]
+    m.validate(tiny); tiny_selection=m.selection(ref['response'],tiny)
+    check('tiny_positive_winner_support_converges_without_overflow',
+          tiny_selection['selected_filter']=='F_DX'
+          and math.isfinite(tiny_selection['sufficient_construction_time'])
+          and tiny_selection['finite_flow_residual']<1.000001e-8,
+          initial_winner_weight=1e-320,
+          construction_time=tiny_selection['sufficient_construction_time'],
+          final_residual=tiny_selection['finite_flow_residual'])
     report={'version':'WRRA-M 0.8','passed':True,'check_count':len(checks),
             'input_hash_sha256':original,'checks':checks,'random_test_seed':808}
     (ROOT/'results/verification.json').write_text(json.dumps(report,indent=2)+'\n')

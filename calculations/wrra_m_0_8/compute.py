@@ -122,9 +122,9 @@ def responses(rho, carrier, cfg):
 def optimizer_weights(initial, score, eta, tau):
     initial=np.asarray(initial,dtype=float);score=np.asarray(score,dtype=float)
     supported=initial>0
-    exponent=eta*tau*score
-    offset=float(exponent[supported].max())
-    raw=np.zeros(4);raw[supported]=initial[supported]*np.exp(exponent[supported]-offset)
+    exponent=np.log(initial[supported])+eta*tau*score[supported]
+    offset=float(exponent.max())
+    raw=np.zeros(4);raw[supported]=np.exp(exponent-offset)
     return raw/raw.sum()
 
 
@@ -149,8 +149,11 @@ def selection(response, cfg):
     if initial[winner]==0:
         row['status']='winning_filter_has_zero_support';return row
     gap=float(min(score[winner]-score[j] for j in range(4) if j!=winner))
-    ratio=(1-initial[winner])/initial[winner]
-    tau=max(0.0,math.log(max(ratio/p['selection_residual_target'],1.0))/(eta*gap))
+    log_ratio=(math.log1p(-initial[winner])-math.log(initial[winner])
+               if initial[winner]<1 else -math.inf)
+    tau=max(0.0,(log_ratio-math.log(p['selection_residual_target']))/(eta*gap))
+    if not math.isfinite(tau):
+        raise ValueError('required construction time exceeds floating-point range')
     for t in (0.0,1.0,tau):
         weight=optimizer_weights(initial,score,eta,t)
         row['flow'].append({'construction_time':t,'filter_weights':dict(zip(FILTERS,map(float,weight))),

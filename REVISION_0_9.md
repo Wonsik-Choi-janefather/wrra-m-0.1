@@ -13,3 +13,7 @@ Conditional address-to-origin kernels feed the actual 0.8 F_DX permutation and n
 Twenty-six verification groups pass, including independent prime classification and zeta checks, per-address/per-frame conservation, source reproduction, denominator separation, full equality of all nine 0.8 results, nonuniform conditional routing, positive effect probes, explicit arithmetic calibration, cutoff and boundary sensitivity, and sixteen invalid input cases. Frozen physical energy fractions .0493/.265/.6857 remain separate from the new arithmetic .05/.268/.682.
 
 Bilingual equations and result tables are checked against execution; every final PDF page is rendered and inspected. A self-contained archive deletes captured calculation outputs in a clean copy, executes the single reproduction command, and compares bytes and preserved baseline hashes. GitHub main receives code, tables, verification, bilingual Markdown/Word/PDF, roadmap and archive. This is a development commit; Zenodo is unchanged.
+
+## Reviewed series revision r1
+
+The 2026-10-02 series review supersedes the original release schedule and numerical boundary handling. See [REVISION_0_7_TO_0_9_R1.md](REVISION_0_7_TO_0_9_R1.md). Reviewed check counts are 19, 23 and 27 for 0.7, 0.8 and 0.9. Canonical configuration hashes and adopted rounded reference outputs remain unchanged. The reviewed editions and code are included in Zenodo series version 0.9-r1, DOI 10.5281/zenodo.23091892.

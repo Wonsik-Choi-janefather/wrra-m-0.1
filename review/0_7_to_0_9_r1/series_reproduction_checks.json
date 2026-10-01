@@ -1,0 +1,31 @@
+{
+  "version": "0.9-r1",
+  "baseline_archive_sha256": "bdf320d8d8a3c7a041551d501c0574243482b75ae0b95d6938e34e8e35f54357",
+  "preserved_historical_files": 73,
+  "preserved_historical_files_unchanged": true,
+  "checks": {
+    "0.7-r1": {
+      "passed": true,
+      "checks": 19,
+      "outputs_byte_identical": true,
+      "captured_outputs_removed_before_run": true,
+      "input_sha256": "8d741b5b07a43e1d8d686e18024cc2eb01c330308628fb4ce69562ba3b9c66d1"
+    },
+    "0.8-r1": {
+      "passed": true,
+      "checks": 23,
+      "outputs_byte_identical": true,
+      "captured_outputs_removed_before_run": true,
+      "input_sha256": "8403336558879543b0784d6f5e009c02429107c65cfe3c09a93d4126a256af3c"
+    },
+    "0.9-r1": {
+      "passed": true,
+      "checks": 27,
+      "outputs_byte_identical": true,
+      "captured_outputs_removed_before_run": true,
+      "input_sha256": "7986e6afcbe26e3546111387f34f953147e16cb3c8cb6b900264adf214e51e95"
+    }
+  },
+  "total_checks": 69,
+  "passed": true
+}

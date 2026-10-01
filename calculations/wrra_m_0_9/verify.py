@@ -142,6 +142,25 @@ def run():
     check('invalid_inputs_and_unimplemented_physical_claims_rejected', rejected==len(mutations), {'rejected_cases':rejected})
     check('source_hashes_and_single_input_immutability', m.digest(cfg)==result['input_hash_sha256'] and
           len(cfg['provenance']['source_files_sha256'])==5, {'input_hash_sha256':m.digest(cfg),'source_snapshots':5})
+    # Exhaustive sparse overrides formerly left negative cancellation residuals.
+    sparse_cfg=deepcopy(test_cfg)
+    sparse_cfg['channel_coupling']['odd_smallest_prime_overrides']={
+        str(p):[1.0]+[0.0]*15 for p in np.unique(small['spf'][small['odd']])}
+    sparse_cfg['upstream']['sample_addresses']=[9]
+    m.validate(sparse_cfg)
+    sparse_effect=m.effects(sparse_cfg,small); sparse_rng=np.random.default_rng(9)
+    min_weight=0.; max_error=0.
+    for i in range(20):
+        w=sparse_rng.random(len(small['w']))*small['odd']; w/=w.sum()
+        sparse_base=dict(small,w=w)
+        rows=m.channel_join(sparse_cfg,sparse_base,sparse_effect,reference)
+        min_weight=min(min_weight,min(r['arithmetic_phenotype_weight'] for r in rows))
+        max_error=max(max_error,abs(sum(r['arithmetic_phenotype_weight'] for r in rows)-
+                                  m.shares(sparse_effect,w)['phenotype']))
+        assert sum(r['arithmetic_phenotype_weight']>0 for r in rows)==3
+    check('exhaustive_sparse_overrides_preserve_positive_channel_budget',
+          min_weight>=0 and max_error<2e-12,
+          {'cases':20,'seed':9,'minimum_weight':min_weight,'maximum_partition_error':max_error})
     report={'version':'WRRA-M 0.9','passed':all(c['passed'] for c in checks),'check_count':len(checks),
             'input_hash_sha256':m.digest(cfg),'checks':checks}
     (out/'verification.json').write_text(json.dumps(report,indent=2,ensure_ascii=False,allow_nan=False)+'\n')

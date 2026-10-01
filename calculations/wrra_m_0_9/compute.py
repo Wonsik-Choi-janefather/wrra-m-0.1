@@ -161,10 +161,14 @@ def channel_join(cfg, base, effect, reference):
     if selected is None: raise ValueError('no selected downstream filter')
     slots, P = m08.placement(selected)
     c = cfg['channel_coupling']; phi = base['w']*effect[0]
-    default = np.asarray(c['default_origin_weights']); origin = phi.sum()*default
+    default = np.asarray(c['default_origin_weights']); origin = np.zeros(16)
+    remaining = np.ones(len(phi), dtype=bool)
     for p, kernel in c['odd_smallest_prime_overrides'].items():
-        family_mass = float(phi[base['spf'] == int(p)].sum())
-        origin += family_mass*(np.asarray(kernel)-default)
+        mask = base['spf'] == int(p)
+        family_mass = float(phi[mask].sum())
+        origin += family_mass*np.asarray(kernel)
+        remaining &= ~mask
+    origin += float(phi[remaining].sum())*default
     mapped = P@origin
     inventory = m08.replicate_families(reference, cfg['baseline_0_8'])['particle_inventory']
     rows = []

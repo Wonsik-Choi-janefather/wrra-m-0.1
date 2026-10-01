@@ -2,13 +2,13 @@
   "version": "WRRA-M 0.7",
   "passed": true,
   "input_hash_sha256": "8d741b5b07a43e1d8d686e18024cc2eb01c330308628fb4ce69562ba3b9c66d1",
-  "clean_copy_check_count": 16,
+  "clean_copy_check_count": 19,
   "captured_results_removed_before_run": true,
   "outputs_byte_identical": true,
   "output_sha256": {
-    "results.json": "8ab2a82aae848c8bc3f5674874632231aab4f7febf5f2d22a78e563ce2867562",
-    "case_table.csv": "b82ba91a0cc257b6b61330cd17291b96466472a2076a97604422184c815321a9",
-    "verification.json": "48cd503d56bea581c9302e32db774ceec2ae4b3256116f99fce6b435f53832e8"
+    "results.json": "d9be1140988c20e95ad4106ea751e6bf19586b95e3fa130904e0bf438b861817",
+    "case_table.csv": "01400a84a1c0cd4111741ee2c1b44cf375321b9ec202ec3435e1fe20b856809a",
+    "verification.json": "4928434f89098fc5c633ff3d7f9e7e74d7dc8d19d403e7be0c2bd1efff8cec05"
   },
   "frozen_baseline_files_preserved": true,
   "command": "python calculations/wrra_m_0_7/run_release.py",

@@ -52,9 +52,13 @@ def validate_state(rho, N):
         raise ValueError('state is not Hermitian')
     if abs(np.trace(rho) - 1) > 1e-10:
         raise ValueError('state trace is not one')
-    if np.linalg.eigvalsh(rho).min() < -1e-10:
+    rho = (rho + rho.conj().T) / 2
+    eigenvalues = np.linalg.eigvalsh(rho)
+    roundoff = 32 * np.finfo(float).eps * N * max(1.0, float(abs(eigenvalues).max()))
+    if eigenvalues.min() < -roundoff:
         raise ValueError('state is not positive semidefinite')
-    return rho
+    # The trace tolerance admits representation noise, not an extra load budget.
+    return rho / np.trace(rho).real
 
 
 def operators(a, carrier, cfg):
@@ -73,14 +77,17 @@ def ledger(a, rho, carrier, cfg, *, validate_rho=True):
     if validate_rho:
         rho = validate_state(rho, carrier.N)
     A = operators(a, carrier, cfg)
-    raw = [float(np.trace(rho @ op).real) for op in A]
-    if min(raw) < -1e-10:
-        raise ValueError('negative sector weight')
-    # Only remove numerical zeros, without hiding negative physical weights.
-    weights = [0.0 if abs(x) < 1e-13 else x for x in raw]
+    p, b = cfg['carrier_and_background'], cfg['calibration_and_local_source']
+    jc, jb = [float(np.trace(rho @ op).real) for op in (carrier.Kc, carrier.Kb)]
+    if min(jc, jb) < -1e-10:
+        raise ValueError('negative carrier load')
+    # Correct only negative roundoff. Every positive load, however small, survives.
+    jc, jb = max(0.0, jc), max(0.0, jb)
+    weights = [b['fraction_phenotype'],
+        b['fraction_twist_clustering'] / 2 * a ** p['clustering_energy_exponent'] * jc,
+        (1-b['fraction_phenotype']-b['fraction_twist_clustering']) / 2 * a ** p['background_energy_exponent'] * jb]
     total = sum(weights)
     shares = [x / total for x in weights] if total > 0 else [None] * 3
-    p, b = cfg['carrier_and_background'], cfg['calibration_and_local_source']
     c = m06.calibration(b)
     u0, V0 = c['ucrit_J_m3'], cfg['reference_volume_m3']
     volume = V0 * a ** 3
@@ -88,10 +95,6 @@ def ledger(a, rho, carrier, cfg, *, validate_rho=True):
     densities = [e / volume for e in energies]
     exponents = (0.0, p['clustering_energy_exponent'], p['background_energy_exponent'])
     pressures = [-n * u / 3 for n, u in zip(exponents, densities)]
-    jc = float(np.trace(rho @ carrier.Kc).real)
-    jb = float(np.trace(rho @ carrier.Kb).real)
-    jc = 0.0 if abs(jc) < 1e-13 else jc
-    jb = 0.0 if abs(jb) < 1e-13 else jb
     inherited = m06.snapshot(a, jc, jb, p, c)
     local = m06.local_readout(inherited, p, b, c)
     eig = np.linalg.eigvalsh(rho)
@@ -201,11 +204,17 @@ def run(cfg, out):
             {'id': 'C07-3', 'kind': 'calibrated_reproduction', 'claim': 'reference phenotype share is 0.0493 at a=1 and rho=I/N'},
             {'id': 'C07-4', 'kind': 'internal_calculation', 'claim': 'state and scale changes recalculate shares and preserve sector accounting'},
             {'id': 'C07-5', 'kind': 'scope_boundary', 'claim': 'measurement probabilities, outcomes and records remain unexecuted'},
-        ], 'handoff': {'0.8': 'channel/filter labels attached to the same input ledger',
-             '0.9': 'physical measurement event and record-generation law',
-             '0.10': 'repeated events and uncertainty propagation',
-             '0.11': 'measurement energy exchange and coupled load update',
-             '0.12': 'whole-model reproducibility and claim freeze'},
+        ], 'handoff': {'0.8': 'calibrated channel/filter selection and charges',
+             '0.9': 'upstream input contract and common arithmetic ledger',
+             '0.10': 'address information weights to SI energy and pressure',
+             '0.11': 'sequential physical calibration and remaining freedom',
+             '0.12': 'update order, proper time and allowed-mode spectrum',
+             '0.13': 'physical quantization, post-observation states and records',
+             '0.14': 'cutoffs, capacity and uncertainty propagation',
+             '0.15': 'stress, twist, curvature and size',
+             '0.16': 'neutrino masses, mixing and oscillation',
+             '0.17': 'neutrino propagation in the shared geometry',
+             '1.0': 'whole-model reproducibility and claim freeze'},
         'falsification_conditions': ['negative sector weight from admissible positive state',
             'partition or normalization failure', '0.6 energy/pressure/local bridge mismatch',
             'fractions or constants secretly changed outside the hashed input ledger',

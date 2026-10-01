@@ -62,10 +62,13 @@ def run():
             if file.suffix in ('.md','.docx','.pdf'):
                 (stage/'paper').mkdir(exist_ok=True)
                 shutil.copyfile(file,stage/'paper'/file.name)
-        for name in ('LICENSE','REVISION_0_9.md'):
+        for name in ('LICENSE','REVISION_0_9.md','REVISION_0_7_TO_0_9_R1.md'):
             shutil.copyfile(REPO/name,stage/name)
         shutil.copyfile(ROOT/'README.md',stage/'README.md')
         shutil.copyfile(ROOT/'CITATION.cff',stage/'CITATION.cff')
+        review = Path('review/0_7_to_0_9_r1/review_checks.json')
+        (stage/review).parent.mkdir(parents=True,exist_ok=True)
+        shutil.copyfile(REPO/review,stage/review)
         staged_root = stage/'calculations/wrra_m_0_9'
         for name in OUTPUTS:
             (staged_root/'results'/name).unlink()
@@ -73,11 +76,11 @@ def run():
         reproduced = {name:sha(staged_root/'results'/name) for name in OUTPUTS}
         assert reproduced == original, 'clean-copy outputs differ'
         verification = json.loads((staged_root/'results/verification.json').read_text())
-        assert verification['passed'] and verification['check_count'] == 26
+        assert verification['passed'] and verification['check_count'] == 27
         assert all(sha(REPO/name) == sha(stage/name) for name in BASELINE)
         report = {'version':'WRRA-M 0.9', 'passed':True,
                   'input_hash_sha256':verification['input_hash_sha256'],
-                  'clean_copy_check_count':26, 'captured_results_removed_before_run':True,
+                  'clean_copy_check_count':27, 'captured_results_removed_before_run':True,
                   'outputs_byte_identical':True, 'output_sha256':original,
                   'frozen_baseline_files_preserved':True,
                   'frozen_baseline_sha256':{name:sha(REPO/name) for name in BASELINE},
@@ -93,7 +96,7 @@ def run():
         archive = REPO/'paper/WRRA_M_0_9_Reproducibility.zip'
         with zipfile.ZipFile(archive,'w',compression=zipfile.ZIP_DEFLATED) as z:
             for file in files+[stage/'SHA256SUMS']:
-                info = zipfile.ZipInfo(file.relative_to(stage).as_posix(),(2026,10,1,0,0,0))
+                info = zipfile.ZipInfo(file.relative_to(stage).as_posix(),(2026,10,2,0,0,0))
                 info.compress_type = zipfile.ZIP_DEFLATED
                 info.external_attr = 0o100644 << 16
                 z.writestr(info,file.read_bytes())

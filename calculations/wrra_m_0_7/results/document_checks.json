@@ -10,13 +10,13 @@
       "pdf_pages": 7,
       "native_equations": 11,
       "numerical_rows": 9,
-      "verification_rows": 16
+      "verification_rows": 19
     },
     "EN": {
-      "pdf_pages": 5,
+      "pdf_pages": 6,
       "native_equations": 11,
       "numerical_rows": 9,
-      "verification_rows": 16
+      "verification_rows": 19
     }
   },
   "visual_QA": "All rendered pages separately inspected for the release."

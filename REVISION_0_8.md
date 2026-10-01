@@ -32,3 +32,7 @@ Both manuscripts contain fifteen matched native equations and computed tables.
 구성 가정이며 관측된 입자로 단정하지 않는다. 질량·혼합·Yukawa의 동역학은 이번
 출력으로 새로 도출하지 않는다. 0.9가 실제 양자화 결과·확률·관측 뒤 상태·기록을
 같은 선택 배치에 연결한다. 이번 공개 반영은 GitHub다.
+
+## Reviewed series revision r1
+
+The 2026-10-02 series review supersedes the original release schedule and numerical boundary handling. See [REVISION_0_7_TO_0_9_R1.md](REVISION_0_7_TO_0_9_R1.md). Reviewed check counts are 19, 23 and 27 for 0.7, 0.8 and 0.9. Canonical configuration hashes and adopted rounded reference outputs remain unchanged. The reviewed editions and code are included in Zenodo series version 0.9-r1, DOI 10.5281/zenodo.23091892.

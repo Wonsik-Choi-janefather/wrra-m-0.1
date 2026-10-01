@@ -14,7 +14,7 @@ python -m pip install -r calculations/wrra_m_0_9/requirements.txt
 python calculations/wrra_m_0_9/run_release.py
 ```
 
-Run from the repository or reproducibility archive root. The one-command run creates `results.json`, five CSV tables, `verification.json` and regenerated frozen 0.8 results under `results/baseline_0_8`. Twenty-six check groups pass, including independent primality and zeta checks, per-address/per-frame conservation, conditional routing, source hashes and complete 0.8 regression. The release package removes captured outputs in a clean copy before repeating the run and compares bytes.
+Run from the repository or reproducibility archive root. The one-command run creates `results.json`, five CSV tables, `verification.json` and regenerated frozen 0.8 results under `results/baseline_0_8`. Twenty-seven check groups pass, including independent primality and zeta checks, per-address/per-frame conservation, conditional routing, source hashes and complete 0.8 regression. The release package removes captured outputs in a clean copy before repeating the run and compares bytes.
 
 The arithmetic state uses addresses 2 through 1,000,000 and alpha=1.8996876950554356. Four adopted zeta heights, equal coefficients 1/2, zero phases, xi=0.1 and K=8 drive admission with h=1.44767317035244. Alpha and h fit two independent arithmetic targets; return closes the ledger. Effective beta is a derived output. A constant-beta upstream comparison is executed separately. Alpha=2 and alpha=1.9 comparisons are separate normalized rows.
 
@@ -25,3 +25,5 @@ The reference conditional origin kernel is 1/16, with three normalized generatio
 See [UPSTREAM_INTERFACE.md](UPSTREAM_INTERFACE.md) for fields, units and boundary rules, [ROADMAP_0_9_TO_1_0.md](ROADMAP_0_9_TO_1_0.md) for completion gates, and the bilingual papers in `paper/WRRA_M_0_9_*`.
 
 Document rebuild: `write_papers.py`, then `build_reports.py` (pandoc and python-docx), render with LibreOffice, then `document_checks.py`. `package_release.py` verifies clean reproduction and builds the ZIP. Rendering and inspection of every final page precede publication.
+
+Reviewed series 0.9-r1, 2026-10-02: https://doi.org/10.5281/zenodo.23091892 . See REVISION_0_7_TO_0_9_R1.md at the repository root.

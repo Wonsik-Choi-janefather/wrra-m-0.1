@@ -4,7 +4,7 @@ Common carrier responses with executed placement and charge calculation
 
 Wonsik Choi
 
-WRRA-M 0.8 | 2026-10-01
+WRRA-M 0.8-r1 | 2026-10-02
 
 Independent Researcher Seoul Republic of Korea
 
@@ -16,7 +16,7 @@ Verification inputs are WRRA Core 1.0, MCC 2.3.2, the representation, charge and
 
 The WRRA-specific transformation computes responses from the same carrier state, evaluates all four filters with one positive-distance rule, and generates placement and charges from the selected permutation. Outputs are selection of F_DX, the sixteen-channel charge table, and replication into 45 Standard-Model chiral components plus three conditional neutral slots. The same input also enters the inherited energy, pressure, gravity and expansion ledger.
 
-Failure conditions are a tie or incompatible assignment under fixed calibration, loss of transport rank or positivity, disagreement in charges, anomalies or energy accounting, and undisclosed input changes. Twenty-two check groups pass. Completion means executed calibrated selection of the adopted our-universe assignment within the declared four-filter family. Calibration is legitimate model construction; independent prediction is not a completion requirement.
+Failure conditions are a tie or incompatible assignment under fixed calibration, loss of transport rank or positivity, disagreement in charges, anomalies or energy accounting, and undisclosed input changes. Twenty-three check groups pass. Completion means executed calibrated selection of the adopted our-universe assignment within the declared four-filter family. Calibration is legitimate model construction; independent prediction is not a completion requirement.
 
 
 ## The inherited tie and this release input ledger
@@ -104,7 +104,7 @@ $$
 $$
 \tau\geq\frac{\log((1-p_*(0))/(p_*(0)\varepsilon))}{\eta\Delta_{\min}}\quad\Longrightarrow\quad 1-p_*(\tau)\leq\varepsilon. \tag{9}
 $$
-Initial weights are one quarter each, eta=1 and the residual target is 10^-8. The sufficient construction time at the reference is about 418.04425027, with final F_DX weight 0.999999993333 and residual about 6.666667 times 10^-9. Independent integration of the selection differential equation differs from the closed form by at most 2.362 times 10^-14.
+Initial weights are one quarter each, eta=1 and the residual target is 10^-8. The sufficient construction time at the reference is about 418.04425027, with final F_DX weight 0.999999993333 and residual about 6.666667 times 10^-9. Independent integration of the selection differential equation differs from the closed form by at most 2.359e-14.
 
 These are candidate weights in a model-construction optimizer. They are not particle Born probabilities, physical time or observation records. Finite-time weight is not asserted to equal exactly one; adopted placement follows the checked unique-maximum selection rule.
 
@@ -162,7 +162,7 @@ $$
 $$
 Three generations are adopted from known particle information as the configured replication count. The same channel rule generates charges for u,d / c,s / t,b, e,mu,tau and the three active neutrino families. Particle_inventory.csv records all 48 components: 45 Standard-Model chiral components and three conditional neutral extension slots N1_c,N2_c,N3_c. Transport rank 48 is computed from the actual matrix. Normalized family state avoids multiplying the original energy budget by three.
 
-Family count is calibration input and family replication is an executed transformation. Masses, mixing, Yukawa structure and interaction dynamics are not newly derived by this inventory. Version 0.9 attaches physical quantization outcomes, probabilities, post-observation states and records to the selected placement.
+Family count is calibration input and family replication is an executed transformation. Masses, mixing, Yukawa structure and interaction dynamics are not newly derived by this inventory. Version 0.9 connects upstream inputs and common arithmetic accounting to this placement. Physical energy and pressure mapping in 0.10 and time and spectra in 0.12 precede physical quantization outcomes, probabilities, post-observation states and records in 0.13.
 
 
 ## Verification and reproduction
@@ -192,12 +192,13 @@ Family count is calibration input and family replication is an executed transfor
 | 20 | Flow equation and zero support | Pass |
 | 21 | Invalid calibrations and records | Pass |
 | 22 | Hash and explicit recalibration | Pass |
+| 23 | Tiny positive winner support | Pass |
 
 Checks include inherited exact code, independent periodic spectra, direct complex matrix inverses, selection-ODE integration, representations and anomalies, grid changes, reversed calibration, zero initial support and twelve invalid inputs. Failure to retain positive response, full rank, selection gaps or consistent placement charges and accounting requires revision of that configuration.
 
 From the archive root run python calculations/wrra_m_0_8/run_release.py. Parameters.json is the sole configuration input and embeds the 0.7 ledger. Outputs record both input hashes. Canonical SHA256 of the full 0.8 input is 8403336558879543b0784d6f5e009c02429107c65cfe3c09a93d4126a256af3c. A clean-copy reproduction check removes captured numerical outputs before execution, and the archive includes a file SHA256 manifest.
 
-Computation requires numpy and scipy. Write_papers.py generates manuscripts; build_reports.py uses pandoc and python-docx for Word. PDF is rendered with LibreOffice, and document checks additionally use pypdf. Random-state tests use seed 808. Results separate constitutive choices, calibrations, internal outputs and subsequent work. This development version is published on GitHub.
+Computation requires numpy and scipy. Write_papers.py generates manuscripts; build_reports.py uses pandoc and python-docx for Word. PDF is rendered with LibreOffice, and document checks additionally use pypdf. Random-state tests use seed 808. Results separate constitutive choices, calibrations, internal outputs and subsequent work. Revision r1 converges with initial winner support 10^-320 using log-space arithmetic. The reviewed series is published on GitHub and Zenodo.
 
 
 ## References

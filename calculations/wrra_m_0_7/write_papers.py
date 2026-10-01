@@ -37,7 +37,7 @@ def case_table(lang):
 
 
 def check_table(lang):
-    names_ko=['세 공간 크기의 정확 분수 대조','양의 가중치와 합계','0.6 에너지와 압력 대조','기존 회전과 렌즈 재현','별도 부피 미분과 압력','상태와 연산자의 기저 변환','상태 스펙트럼과 에너지 보존','혼합 상태와 지수 변경','공개 보정값 변경의 전달','회계 부피 변경의 불변량','정보 가중치와 엔트로피 구분','영 부하의 비율 미정 처리','배경 부하 0 경계','잘못된 입력과 상태 차단','기록의 중복 부하 방지','공통 입력 장부 보존']
+    names_ko=['세 공간 크기의 정확 분수 대조','양의 가중치와 합계','0.6 에너지와 압력 대조','기존 회전과 렌즈 재현','별도 부피 미분과 압력','상태와 연산자의 기저 변환','상태 스펙트럼과 에너지 보존','혼합 상태와 지수 변경','공개 보정값 변경의 전달','회계 부피 변경의 불변량','정보 가중치와 엔트로피 구분','영 부하의 비율 미정 처리','배경 부하 0 경계','잘못된 입력과 상태 차단','기록의 중복 부하 방지','공통 입력 장부 보존','작은 양의 부하와 중력의 일치','허용 trace 오차의 정규화','반올림 범위를 넘는 음의 상태 차단']
     rows=[]
     for i,x in enumerate(V['checks']):
         rows.append([i+1,names_ko[i] if lang=='KO' else x['name'].replace('_',' '),'통과' if lang=='KO' else 'Pass'])
@@ -49,7 +49,7 @@ ko='''# WRRA M 0 7 Actual과 표현형의 에너지 가중 정보 장부
 우리 우주 모형의 공통 정의와 부하 측도 및 재현 가능한 계산
 
 최원식 Wonsik Choi  
-WRRA-M 0.7 | 2026년 10월 1일  
+WRRA-M 0.7-r1 | 2026년 10월 2일  
 Independent Researcher Seoul Republic of Korea  
 ORCID 0009-0001-4263-9772 | janefather@gmail.com
 
@@ -107,11 +107,11 @@ V0는 대표 공변 부피이며 기본값 1 m³는 회계 단위다. 실제 우
 
 ## 검증 결과와 실패 조건
 
-16개 검증 묶음을 통과했다. 대표 장부 9개 외에 혼합 상태·격자·지수 변경의 24개 경우를 실행했다. 잘못된 보정값·상태와 실행되지 않은 기록을 입력하는 9개 경우는 차단했다. 유리수로 계산한 균등 기준 비율, 별도 부피 유한차분, 기저 동시 변환과 고정 크기의 unitary 상태 변화를 사용해 장부를 대조했다.
+19개 검증 묶음을 통과했다. 대표 장부 9개 외에 혼합 상태·격자·지수 변경의 24개 경우를 실행했다. 잘못된 보정값·상태와 실행되지 않은 기록을 입력하는 9개 경우는 차단했다. 유리수로 계산한 균등 기준 비율, 별도 부피 유한차분, 기저 동시 변환과 고정 크기의 unitary 상태 변화를 사용해 장부를 대조했다.
 '''+equation(10)+'''
 식 10은 고정된 공간 크기의 에너지 보존 검사다. unitary 상태 변화에서 개별 부하 항목은 달라질 수 있지만 같은 총 연산자의 에너지는 보존된다. 실제 양자화 사건의 에너지 교환 검사를 통과했다는 뜻으로 확장하지 않는다.
 '''+check_table('KO')+'''
-균등 기준 비율의 최대 절대 오차는 2.776×10⁻¹⁷, 부문 가중치 합계의 최대 오차는 2.665×10⁻¹⁵다. 별도 부피 미분과 압력의 최대 상대 오차는 4.840×10⁻¹¹이다. 고정 크기 unitary 변화의 총 에너지 상대 오차는 2.220×10⁻¹⁶이며, 기존 회전·렌즈 재현 오차는 출력 정밀도에서 0이다. 이는 선언된 모형의 계산 정합성과 재현 성과다.
+균등 기준 비율의 최대 절대 오차는 @REF@, 부문 가중치 합계의 최대 오차는 @PART@다. 별도 부피 미분과 압력의 최대 상대 오차는 @PRESS@이고, 고정 크기 unitary 변화의 총 에너지 상대 오차는 @UNIT@다. 기존 회전·렌즈 재현 오차는 verification.json에 기록한다. r1은 양의 부하 10^-15를 보존하고 허용 trace 오차를 정규화하며, 반올림 범위를 넘는 음의 상태를 차단한다. 이는 선언된 모형의 계산 정합성과 재현 성과다.
 
 허용 상태에서 음의 부하가 나오거나, 부문 가중치와 전체의 합이 어긋나거나, 상태 trace·양성이 깨지거나, 같은 부피 에너지의 미분과 압력이 어긋나면 대응하는 계산을 수정해야 한다. 보정 규칙을 명시하지 않고 입력을 바꾸는 것과 미실행 측정 규칙을 완료로 표시하는 것도 이 판의 실패 조건이다.
 
@@ -119,9 +119,9 @@ V0는 대표 공변 부피이며 기본값 1 m³는 회계 단위다. 실제 우
 
 parameters.json이 상수·구성비·격자·지수·시험원·회계 부피의 유일한 실행 입력이다. 결과는 이 파일의 정규 JSON 표현에 대한 SHA256을 포함한다. 입력을 변경하면 결과와 해시가 함께 바뀌며, 실행 중 입력이 변형되면 실패한다. results.json은 각 부문의 가중치·에너지·밀도·압력과 0.6 연결 출력, 상태 생성법, 측정 미실행 상태를 보유한다.
 
-0.8은 이 장부에 입자와 필터 선택 결과를 연결한다. 0.9는 실제 양자화 결과·발생확률·관측 뒤 상태·물리적 기록을 생성한다. 0.10은 반복 전환의 분기와 불확실성을 계산한다. 0.11은 그 전환과 기록계의 부하 교환을 물리 계산에 연결한다. 다음 식은 그때 사용할 회계 조건이며 0.7에서 실행한 측정 법칙이 아니다.
+0.8은 입자와 필터 선택을 연결하고, 0.9는 상류 입력과 공통 산술 장부를 실행한다. 0.10은 주소별 정보 가중치와 물리 에너지·압력을 연결하고, 0.11은 순차 물리 보정을 수행한다. 0.12는 셔터·고유시간·허용 스펙트럼, 0.13은 실제 양자화 결과·확률·관측 뒤 상태·기록을 계산한다. 반복 전환의 불확실성과 정보 용량은 0.14에서 다룬다. 다음 식은 그때 사용할 회계 조건이며 0.7에서 실행한 측정 법칙이 아니다.
 '''+equation(11)+'''
-0.12는 전체 실행·문서·주장 장부를 대조한 뒤 1.0으로 확정한다. 0.7의 완료 판정은 공통 정의와 에너지 가중 측도 및 기존 부하 계산의 연결에 한정한다. 입자 선택·관측 법칙·전체 이론의 통합을 완료했다고 선행 판정하지 않는다. 같은 기준으로 기존 이론의 검증 입력과 WRRA 내부 실행을 구분한다.
+0.15는 응력·뒤틀림·곡률·크기, 0.16은 중성미자 질량·혼합·진동, 0.17은 같은 기하 안의 전파를 연결한다. 1.0은 전체 실행·문서·주장 장부를 대조한 뒤 확정한다. 0.7의 완료 판정은 공통 정의와 에너지 가중 측도 및 기존 부하 계산의 연결에 한정한다. 입자 선택·관측 법칙·전체 이론의 통합을 완료했다고 선행 판정하지 않는다. 같은 기준으로 기존 이론의 검증 입력과 WRRA 내부 실행을 구분한다.
 
 ## 재현 방법과 참고 자료
 
@@ -143,7 +143,7 @@ en='''# WRRA M 0 7 Actual and Phenotype in an Energy Weighted Information Ledger
 Common definitions and a reproducible load measure for our universe model
 
 Wonsik Choi  
-WRRA-M 0.7 | October 1 2026  
+WRRA-M 0.7-r1 | October 2 2026  
 Independent Researcher Seoul Republic of Korea  
 ORCID 0009-0001-4263-9772 | janefather@gmail.com
 
@@ -201,11 +201,11 @@ Global twist record magnitude remains an instantaneous aggregate of load and spa
 
 ## Verification and failure conditions
 
-Sixteen check groups pass. In addition to nine representative ledgers, twenty-four mixed-state, grid and exponent combinations are evaluated. Nine invalid input or state cases, including a fictitious physical record, are rejected. Independent comparisons use rational reference fractions, finite volume differences, simultaneous basis changes and fixed-scale unitary propagation.
+Nineteen check groups pass. In addition to nine representative ledgers, twenty-four mixed-state, grid and exponent combinations are evaluated. Nine invalid input or state cases, including a fictitious physical record, are rejected. Independent comparisons use rational reference fractions, finite volume differences, simultaneous basis changes and fixed-scale unitary propagation.
 '''+equation(10)+'''
 Equation ten tests energy conservation at fixed scale. Individual sector loads may change under unitary evolution while the energy of the same total operator is preserved. This is not expanded into a completed test of energy exchange during a physical quantization event.
 '''+check_table('EN')+'''
-The maximum reference-share error is 2.776 times 10 to the minus 17; the maximum sector-weight partition error is 2.665 times 10 to the minus 15. The independent pressure difference has maximum relative error 4.840 times 10 to the minus 11. The fixed-scale unitary total-energy relative error is 2.220 times 10 to the minus 16. Inherited rotation and lensing have zero discrepancy at output precision. These establish computation consistency and reproduction within the declared model.
+The maximum reference-share error is @REF@; the maximum sector-weight partition error is @PART@. The independent pressure difference has maximum relative error @PRESS@; fixed-scale unitary total-energy relative error is @UNIT@. Inherited rotation and lensing discrepancies are recorded in verification.json. Revision r1 retains positive load 10^-15, normalizes accepted trace roundoff and rejects negative states beyond numerical roundoff. These establish computation consistency and reproduction within the declared model.
 
 A negative admissible load, inconsistent sector sum, loss of state positivity or trace, or mismatch between pressure and the same energy-volume derivative requires revision of the corresponding calculation. Undisclosed recalibration and reporting an unexecuted measurement law as complete are also failure conditions.
 
@@ -213,9 +213,9 @@ A negative admissible load, inconsistent sector sum, loss of state positivity or
 
 Parameters.json is the sole executable input for constants, fractions, grid, exponents, test source and bookkeeping volume. Outputs include a SHA256 hash of its canonical JSON representation. Changing the input changes the result and hash; mutation during execution fails. Results.json retains sector weights, energy, density, pressure, the 0.6 bridge outputs, state recipes and the unexecuted measurement status.
 
-Version 0.8 attaches particle and filter selection to this ledger. Version 0.9 generates physical quantization outcomes, probabilities, post-observation states and records. Version 0.10 computes repeated-event branching and uncertainty. Version 0.11 connects event and record-system energy exchanges to physical loads. The next equation is a future accounting contract, not an executed measurement law in 0.7.
+Version 0.8 connects particle and filter selection; 0.9 executes upstream inputs and common arithmetic accounting. Version 0.10 maps address information weights to physical energy and pressure; 0.11 performs sequential physical calibration. Version 0.12 connects shutter order, proper time and allowed spectra; 0.13 implements quantization outcomes, probabilities, post-observation states and records. Repeated-event uncertainty and capacity belong to 0.14. The next equation is a future accounting contract, not an executed measurement law in 0.7.
 '''+equation(11)+'''
-Version 0.12 compares the integrated run, documents and claim ledger before freezing 1.0. Completion of 0.7 covers common definitions, the energy-weighted measure and the inherited load bridge. It does not pre-emptively certify particle selection, measurement dynamics or full theoretical integration. The same evidentiary standard distinguishes external validation inputs and actual WRRA execution.
+Version 0.15 connects stress, twist, curvature and size; 0.16 covers neutrino masses, mixing and oscillation; 0.17 propagates neutrinos in the shared geometry. Version 1.0 compares the integrated run, documents and claim ledger before fixation. Completion of 0.7 covers common definitions, the energy-weighted measure and the inherited load bridge. It does not pre-emptively certify particle selection, measurement dynamics or full theoretical integration. The same evidentiary standard distinguishes external validation inputs and actual WRRA execution.
 
 ## Reproduction and references
 
@@ -233,5 +233,11 @@ Copyright 2026 Wonsik Choi. CC BY 4.0. https://creativecommons.org/licenses/by/4
 '''
 
 for lang, source in [('KO',ko),('EN',en)]:
+    metrics={x['name']:x for x in V['checks']}
+    for token,name,key in [('REF','exact_reference_fraction_at_three_scales','maximum_absolute_error'),('PART','positive_additive_weight_and_normalized_partition','weight_max_error'),('PRESS','pressure_from_independent_volume_difference','maximum_relative_error'),('UNIT','fixed_scale_unitary_energy_and_state_spectrum','energy_relative_error')]:
+        source=source.replace('@'+token+'@',f'{metrics[name][key]:.3e}')
+    metrics={x['name']:x for x in V['checks']}
+    for token,name,key in [('REF','exact_reference_fraction_at_three_scales','maximum_absolute_error'),('PART','positive_additive_weight_and_normalized_partition','weight_max_error'),('PRESS','pressure_from_independent_volume_difference','maximum_relative_error'),('UNIT','fixed_scale_unitary_energy_and_state_spectrum','energy_relative_error')]:
+        source=source.replace('@'+token+'@',f'{metrics[name][key]:.3e}')
     (ROOT/f'source_{lang.lower()}.md').write_text(source)
 print('Wrote matched KO/EN sources with 11 equations and executed result tables')

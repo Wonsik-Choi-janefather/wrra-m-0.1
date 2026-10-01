@@ -27,4 +27,4 @@ Sector effects after recovery are e_phi=1_odd T_n, e_D=1_even, e_R=1−e_phi−e
 
 Outputs contain the full input, its canonical SHA256, sector and conditional-scope rows, recovery frames, sample address effects, channel ledger, separate exponent comparisons and inherited 0.8 results. Reference snapshots are source provenance, not a physical observation record. Software logs are not called accumulated twist records.
 
-In paper equation 12, the held condition S denotes the future declared state and sector-weight evolution rule for differentiation with volume. It is distinct from the pending SOURCE field S_k in equation 7. Equation 12 states a 0.10 interface requirement; neither an SI load nor its derivative is evaluated in 0.9.
+In paper equation 12, the held condition S denotes the fixed address state, sector effects and coupling configuration for differentiation with volume. It is distinct from the pending SOURCE field S_k in equation 7. Equation 12 states a 0.10 interface requirement; neither an SI load nor its derivative is evaluated in 0.9.

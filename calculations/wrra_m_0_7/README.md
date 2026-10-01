@@ -9,7 +9,7 @@ python calculations/wrra_m_0_7/run_release.py
 
 The single authoritative input is `parameters.json`. The result and verification
 files record its canonical SHA256 hash. `results/case_table.csv` contains nine
-representative ledgers; sixteen physical-accounting check groups include twenty-four
+representative ledgers; nineteen physical-accounting check groups include twenty-four
 additional mixed-state/exponent cases and nine rejected invalid inputs/states.
 
 Actual 100 percent is normalized **energy-weighted information load**. The 4.93 percent
@@ -31,5 +31,7 @@ with LibreOffice, then run `document_checks.py` with python-docx and pypdf.
 `package_release.py` builds the bilingual ZIP after checking a clean copy with
 the captured numerical outputs removed. Its SHA256SUMS covers every packaged file.
 
-This 0.7 development version is available on GitHub. The 0.6-r2 DOI identifies
-the frozen baseline, not version 0.7. Use the included 0.7 CITATION.cff for this release.
+Revision 0.7-r1 is included in the reviewed 0.7–0.9 series, DOI 10.5281/zenodo.23091892. The 0.6-r2 DOI identifies
+the frozen baseline, not the reviewed series. Use the included 0.7 CITATION.cff for this release.
+
+Reviewed series 0.9-r1, 2026-10-02: https://doi.org/10.5281/zenodo.23091892 . See REVISION_0_7_TO_0_9_R1.md at the repository root.

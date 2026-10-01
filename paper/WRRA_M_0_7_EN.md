@@ -3,7 +3,7 @@
 Common definitions and a reproducible load measure for our universe model
 
 Wonsik Choi  
-WRRA-M 0.7 | October 1 2026  
+WRRA-M 0.7-r1 | October 2 2026  
 Independent Researcher Seoul Republic of Korea  
 ORCID 0009-0001-4263-9772 | janefather@gmail.com
 
@@ -111,7 +111,7 @@ Global twist record magnitude remains an instantaneous aggregate of load and spa
 
 ## Verification and failure conditions
 
-Sixteen check groups pass. In addition to nine representative ledgers, twenty-four mixed-state, grid and exponent combinations are evaluated. Nine invalid input or state cases, including a fictitious physical record, are rejected. Independent comparisons use rational reference fractions, finite volume differences, simultaneous basis changes and fixed-scale unitary propagation.
+Nineteen check groups pass. In addition to nine representative ledgers, twenty-four mixed-state, grid and exponent combinations are evaluated. Nine invalid input or state cases, including a fictitious physical record, are rejected. Independent comparisons use rational reference fractions, finite volume differences, simultaneous basis changes and fixed-scale unitary propagation.
 
 
 $$A=A_\phi+A_c+A_b,\quad\rho^{\prime}=U\rho U^\dagger,\quad U=e^{-i\tau A},\quad\mathrm{Tr}(\rho^{\prime}A)=\mathrm{Tr}(\rho A).\tag{10}$$
@@ -138,9 +138,12 @@ Equation ten tests energy conservation at fixed scale. Individual sector loads m
 |14|invalid inputs and states rejected|Pass|
 |15|no fictitious measurement or double counted record|Pass|
 |16|input ledger preserved|Pass|
+|17|tiny positive load is retained with matching gravity|Pass|
+|18|accepted trace roundoff is normalized before accounting|Pass|
+|19|negative state above roundoff is rejected|Pass|
 
 
-The maximum reference-share error is 2.776 times 10 to the minus 17; the maximum sector-weight partition error is 2.665 times 10 to the minus 15. The independent pressure difference has maximum relative error 4.840 times 10 to the minus 11. The fixed-scale unitary total-energy relative error is 2.220 times 10 to the minus 16. Inherited rotation and lensing have zero discrepancy at output precision. These establish computation consistency and reproduction within the declared model.
+The maximum reference-share error is 6.939e-18; the maximum sector-weight partition error is 1.776e-15. The independent pressure difference has maximum relative error 1.241e-11; fixed-scale unitary total-energy relative error is 2.220e-16. Inherited rotation and lensing discrepancies are recorded in verification.json. Revision r1 retains positive load 10^-15, normalizes accepted trace roundoff and rejects negative states beyond numerical roundoff. These establish computation consistency and reproduction within the declared model.
 
 A negative admissible load, inconsistent sector sum, loss of state positivity or trace, or mismatch between pressure and the same energy-volume derivative requires revision of the corresponding calculation. Undisclosed recalibration and reporting an unexecuted measurement law as complete are also failure conditions.
 
@@ -148,13 +151,13 @@ A negative admissible load, inconsistent sector sum, loss of state positivity or
 
 Parameters.json is the sole executable input for constants, fractions, grid, exponents, test source and bookkeeping volume. Outputs include a SHA256 hash of its canonical JSON representation. Changing the input changes the result and hash; mutation during execution fails. Results.json retains sector weights, energy, density, pressure, the 0.6 bridge outputs, state recipes and the unexecuted measurement status.
 
-Version 0.8 attaches particle and filter selection to this ledger. Version 0.9 generates physical quantization outcomes, probabilities, post-observation states and records. Version 0.10 computes repeated-event branching and uncertainty. Version 0.11 connects event and record-system energy exchanges to physical loads. The next equation is a future accounting contract, not an executed measurement law in 0.7.
+Version 0.8 connects particle and filter selection; 0.9 executes upstream inputs and common arithmetic accounting. Version 0.10 maps address information weights to physical energy and pressure; 0.11 performs sequential physical calibration. Version 0.12 connects shutter order, proper time and allowed spectra; 0.13 implements quantization outcomes, probabilities, post-observation states and records. Repeated-event uncertainty and capacity belong to 0.14. The next equation is a future accounting contract, not an executed measurement law in 0.7.
 
 
 $$E_{\mathrm{before}}+E_{\mathrm{environment,before}}=E_{\mathrm{after}}+E_{\mathrm{environment,after}}.\tag{11}$$
 
 
-Version 0.12 compares the integrated run, documents and claim ledger before freezing 1.0. Completion of 0.7 covers common definitions, the energy-weighted measure and the inherited load bridge. It does not pre-emptively certify particle selection, measurement dynamics or full theoretical integration. The same evidentiary standard distinguishes external validation inputs and actual WRRA execution.
+Version 0.15 connects stress, twist, curvature and size; 0.16 covers neutrino masses, mixing and oscillation; 0.17 propagates neutrinos in the shared geometry. Version 1.0 compares the integrated run, documents and claim ledger before fixation. Completion of 0.7 covers common definitions, the energy-weighted measure and the inherited load bridge. It does not pre-emptively certify particle selection, measurement dynamics or full theoretical integration. The same evidentiary standard distinguishes external validation inputs and actual WRRA execution.
 
 ## Reproduction and references
 

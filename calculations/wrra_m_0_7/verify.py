@@ -173,6 +173,31 @@ def main():
           all(x['measurement_outcome_probabilities'] is None and x['physical_records'] == []
               and set(x['sector_energy_J']) == set(m.SECTORS) for x in cases))
     check('input_ledger_preserved', m.digest(cfg) == result['input_hash_sha256'])
+    tiny = copy.deepcopy(cfg)
+    tiny['calibration_and_local_source']['fraction_phenotype'] = 1e-15
+    zero_state = m.state_from_recipe(plain, {'kind':'mode','mode':0})
+    row = m.ledger(1.0, zero_state, plain, tiny)
+    check('tiny_positive_load_is_retained_with_matching_gravity',
+          row['sector_weights']['phenotype'] == 1e-15
+          and row['actual_normalized_share'] == 1
+          and row['sector_shares']['phenotype'] == 1
+          and math.isclose(row['total_density_J_m3'],
+              m.m06.calibration(tiny['calibration_and_local_source'])['ucrit_J_m3'] * 1e-15, rel_tol=1e-14),
+          phenotype_weight=row['sector_weights']['phenotype'],
+          H_over_H0=row['bridge_0_6']['snapshot']['H_over_H0'])
+    near_trace = np.eye(N) / N * (1+9e-11)
+    normalized = m.validate_state(near_trace, N)
+    normalized_row = m.ledger(1.0, near_trace, plain, cfg)
+    check('accepted_trace_roundoff_is_normalized_before_accounting',
+          abs(np.trace(normalized)-1) < 1e-14
+          and abs(normalized_row['total_actual_weight']-1) < 1e-14,
+          incoming_trace=float(np.trace(near_trace)),
+          effective_trace=float(np.trace(normalized).real))
+    negative = np.zeros((N,N)); negative[0,0]=1+9e-11; negative[1,1]=-9e-11
+    try: m.validate_state(negative,N)
+    except ValueError: rejected_small_negative=True
+    else: rejected_small_negative=False
+    check('negative_state_above_roundoff_is_rejected', rejected_small_negative)
     report = {'version':'WRRA-M 0.7', 'passed':True, 'check_count':len(checks),
               'input_hash_sha256':result['input_hash_sha256'], 'checks':checks}
     (ROOT/'results/verification.json').write_text(json.dumps(report,indent=2,allow_nan=False))

@@ -15,7 +15,7 @@ def signature(node):
 
 def run():
     r=json.loads((ROOT/'results/results.json').read_text()); v=json.loads((ROOT/'results/verification.json').read_text())
-    assert v['passed'] and v['check_count']==26
+    assert v['passed'] and v['check_count']==27
     sources={}; native={}; editions={}
     for lang in ('KO','EN'):
         source=(PAPER/f'WRRA_M_0_9_{lang}.md').read_text()

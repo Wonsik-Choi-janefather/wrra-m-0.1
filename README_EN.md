@@ -1,3 +1,9 @@
+# WRRA-M reviewed 0.7 to 0.9 series
+
+Latest reviewed release 0.9-r1: https://doi.org/10.5281/zenodo.23091892 .
+
+See [current overview](README.md), [review record](REVISION_0_7_TO_0_9_R1.md), and the bilingual 0.7, 0.8 and 0.9 papers under paper/. The material below retains the 0.6 historical overview.
+
 # WRRA-M 0.6 Information Load and Twist Gravity with Expansion
 
 Wonsik Choi · 2026-10-01 · CC BY 4.0
