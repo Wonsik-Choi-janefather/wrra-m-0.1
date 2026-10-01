@@ -17,6 +17,7 @@ WRRA-M은 WRRA Core 1.0의 연구 분기다. 선차원 자유도가 유한한 �
 ### WRRA-M 0.4
 
 - [English PDF](paper/WRRA_M_0_4_EN.pdf) · [English DOCX](paper/WRRA_M_0_4_EN.docx) · [Markdown source](paper/WRRA_M_0_4_Common_Carrier_Metric_Origin_EN.md)
+- [한국어 PDF](paper/WRRA_M_0_4_KO.pdf) · [한국어 DOCX](paper/WRRA_M_0_4_KO.docx) · [한국어 Markdown 원고](paper/WRRA_M_0_4_Common_Carrier_Metric_Origin_KO.md)
 - [Exact verification script](calculations/verify_wrra_m_0_4.py)
 - [English overview](README_EN.md)
 - [한국어 개요](README_KO.md)

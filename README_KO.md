@@ -66,6 +66,9 @@ c_C(i,j)=-\lVert u_i-u_j\rVert_C^2.
 
 ## 파일
 
+- [한글 본문 PDF](paper/WRRA_M_0_4_KO.pdf)
+- [한글 본문 DOCX](paper/WRRA_M_0_4_KO.docx)
+- [한글 Markdown 원고](paper/WRRA_M_0_4_Common_Carrier_Metric_Origin_KO.md)
 - [영문 본문 PDF](paper/WRRA_M_0_4_EN.pdf)
 - [영문 본문 DOCX](paper/WRRA_M_0_4_EN.docx)
 - [영문 Markdown 원고](paper/WRRA_M_0_4_Common_Carrier_Metric_Origin_EN.md)

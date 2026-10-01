@@ -66,6 +66,9 @@ The finite witness proves constructibility only. Version 0.4 does not calculate 
 
 ## Files
 
+- [Full Korean paper PDF](paper/WRRA_M_0_4_KO.pdf)
+- [Full Korean paper DOCX](paper/WRRA_M_0_4_KO.docx)
+- [Korean Markdown source](paper/WRRA_M_0_4_Common_Carrier_Metric_Origin_KO.md)
 - [Full English paper PDF](paper/WRRA_M_0_4_EN.pdf)
 - [Full English paper DOCX](paper/WRRA_M_0_4_EN.docx)
 - [Markdown source](paper/WRRA_M_0_4_Common_Carrier_Metric_Origin_EN.md)
