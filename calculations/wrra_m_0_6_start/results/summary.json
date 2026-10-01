@@ -1,0 +1,291 @@
+{
+  "version": "WRRA-M 0.6 start calculation",
+  "status": "finite prototype; microscopic completion remains open",
+  "load_kernel": {
+    "operator": "periodic cycle Laplacian L_C; same for all 16 witness channels",
+    "state": "I_16/16 tensor rho_internal, trace one; not a bit count",
+    "N": 128,
+    "minimum_kernel_eigenvalue": 7.694046807819536e-16,
+    "reference_J": 2.0,
+    "energy_density_per_dimensionless_load_J_m3": 3.6454343214341433e-10,
+    "clustering_partition": 0.2787419795939834,
+    "calibration": "u_hidden,0=(1-f_phi,0)*rho_critical,0*c^2",
+    "ownership": "L_C load kernel and partition are explicit new constitutive choices; not unique LAW"
+  },
+  "information_to_gravity": [
+    {
+      "state": "reference_uniform",
+      "trace": 1.0,
+      "carrier_load_dense": 2.0,
+      "carrier_load_spectral": 2.0,
+      "load_over_reference": 1.0,
+      "u_hidden_J_m3": 7.290868642868287e-10,
+      "u_clustering_J_m3": 2.0322711584728053e-10,
+      "zeta_kappa_squared_m_minus2": 3.028112744666204e-52,
+      "aT_m_s2": 1.1918126691055912e-10,
+      "H_snapshot_over_H0": 1.0,
+      "actual_fraction_hidden": 0.9506999999999999,
+      "test_radius_kpc": 8.2,
+      "v_total_km_s": 207.51090512661662,
+      "v_direct_km_s": 161.45051053125528,
+      "g_additional_m_s2": 6.716518395482756e-11,
+      "finite_patch_lensing": {
+        "impact_kpc": 10,
+        "alpha_patch_rad": 2.5965966773641974e-06,
+        "alpha_baryon_patch_rad": 1.052265081800396e-06,
+        "alpha_twist_patch_rad": 1.5443315955638014e-06,
+        "alpha_patch_arcsec": 0.5355865105583804,
+        "quad_abs_error_rad": 2.88249109488278e-20
+      }
+    },
+    {
+      "state": "low_mode",
+      "trace": 1.0,
+      "carrier_load_dense": 0.15224093497742647,
+      "carrier_load_spectral": 0.15224093497742647,
+      "load_over_reference": 0.07612046748871323,
+      "u_hidden_J_m3": 5.549843294939342e-11,
+      "u_clustering_J_m3": 1.5469743064677875e-11,
+      "zeta_kappa_squared_m_minus2": 2.3050135773252195e-53,
+      "aT_m_s2": 3.288203756277801e-11,
+      "H_snapshot_over_H0": 0.3488090142778992,
+      "actual_fraction_hidden": 0.5947980567115104,
+      "test_radius_kpc": 8.2,
+      "v_total_km_s": 177.25017650459,
+      "v_direct_km_s": 161.45051053125528,
+      "g_additional_m_s2": 2.1149474719177546e-11,
+      "finite_patch_lensing": {
+        "impact_kpc": 10,
+        "alpha_patch_rad": 1.6861612177784496e-06,
+        "alpha_baryon_patch_rad": 1.052265081800396e-06,
+        "alpha_twist_patch_rad": 6.338961359780535e-07,
+        "alpha_patch_arcsec": 0.34779571688643995,
+        "quad_abs_error_rad": 2.3268306864756044e-20
+      }
+    },
+    {
+      "state": "coherent_packet",
+      "trace": 0.9999999999999998,
+      "carrier_load_dense": 0.6575535026247176,
+      "carrier_load_spectral": 0.6575535026247172,
+      "load_over_reference": 0.3287767513123588,
+      "u_hidden_J_m3": 2.3970681066473816e-10,
+      "u_clustering_J_m3": 6.681635092684928e-11,
+      "zeta_kappa_squared_m_minus2": 9.955730707989047e-53,
+      "aT_m_s2": 6.833741514369455e-11,
+      "H_snapshot_over_H0": 0.6015547003163215,
+      "actual_fraction_hidden": 0.8637624985628227,
+      "test_radius_kpc": 8.2,
+      "v_total_km_s": 192.00391282209793,
+      "v_direct_km_s": 161.45051053125528,
+      "g_additional_m_s2": 4.2680411877724514e-11,
+      "finite_patch_lensing": {
+        "impact_kpc": 10,
+        "alpha_patch_rad": 2.123981982913823e-06,
+        "alpha_baryon_patch_rad": 1.052265081800396e-06,
+        "alpha_twist_patch_rad": 1.0717169011134269e-06,
+        "alpha_patch_arcsec": 0.43810273217804324,
+        "quad_abs_error_rad": 2.5581520087076694e-20
+      }
+    },
+    {
+      "state": "high_mode",
+      "trace": 0.9999999999999999,
+      "carrier_load_dense": 3.9999999999999996,
+      "carrier_load_spectral": 4.0,
+      "load_over_reference": 1.9999999999999998,
+      "u_hidden_J_m3": 1.4581737285736571e-09,
+      "u_clustering_J_m3": 4.06454231694561e-10,
+      "zeta_kappa_squared_m_minus2": 6.056225489332407e-52,
+      "aT_m_s2": 1.6854776404572047e-10,
+      "H_snapshot_over_H0": 1.3966746220934922,
+      "actual_fraction_hidden": 0.9747270210693597,
+      "test_radius_kpc": 8.2,
+      "v_total_km_s": 219.2159779470782,
+      "v_direct_km_s": 161.45051053125528,
+      "g_additional_m_s2": 8.690575564891559e-11,
+      "finite_patch_lensing": {
+        "impact_kpc": 10,
+        "alpha_patch_rad": 2.9696242612492675e-06,
+        "alpha_baryon_patch_rad": 1.052265081800396e-06,
+        "alpha_twist_patch_rad": 1.9173591794488714e-06,
+        "alpha_patch_arcsec": 0.6125289728732569,
+        "quad_abs_error_rad": 3.2964219657483886e-20
+      }
+    },
+    {
+      "state": "zero_mode",
+      "trace": 0.9999999999999999,
+      "carrier_load_dense": 0.0,
+      "carrier_load_spectral": 0.0,
+      "load_over_reference": 0.0,
+      "u_hidden_J_m3": 0.0,
+      "u_clustering_J_m3": 0.0,
+      "zeta_kappa_squared_m_minus2": 0.0,
+      "aT_m_s2": 0.0,
+      "H_snapshot_over_H0": 0.2220360331117452,
+      "actual_fraction_hidden": 0.0,
+      "test_radius_kpc": 8.2,
+      "v_total_km_s": 161.45051053125528,
+      "v_direct_km_s": 161.45051053125528,
+      "g_additional_m_s2": 0.0,
+      "finite_patch_lensing": null
+    }
+  ],
+  "verification": {
+    "translation_unitary_load_invariance_error": 0.0,
+    "baseline_aT_relative_error": 0.0,
+    "zero_mode_load": 0.0
+  },
+  "unresolved": [
+    "physical choice and evolution of carrier information states",
+    "microscopic ownership of the energy calibration and clustering partition",
+    "covariant action linking the load kernel to both background and local response",
+    "sound speed, anisotropic stress, lens slip and perturbation stability",
+    "photon transport twist redshift kernel and combined observational fit",
+    "actual cosmic topology, dimensional holonomy and absolute finite length"
+  ],
+  "backgrounds": [
+    {
+      "name": "frozen_whole_hidden",
+      "components": [
+        {
+          "name": "whole_hidden",
+          "omega_present": 0.9507,
+          "w": -0.3333333333333333
+        }
+      ],
+      "present": {
+        "a": 1.0,
+        "H_over_H0": 1.0,
+        "deceleration_q": 0.02465,
+        "hidden_energy_density_over_present": 1.0,
+        "zeta_Q_over_present": 1.0,
+        "twist_record_norm_over_present_if_fixed_zeta": 1.0,
+        "twist_rate_over_present_if_fixed_zeta": 1.0,
+        "information_energy_in_comoving_volume_over_present": 1.0,
+        "aT_over_present": 1.0,
+        "relative_time_H0_t": 0.0,
+        "component_density_over_critical_present": [
+          0.9507
+        ],
+        "required_J_if_same_fixed_kernel_and_eta": 2.0,
+        "within_fixed_kernel_state_domain": true,
+        "high_mode_weight_in_zero_high_mixture": 0.4999999999999999
+      },
+      "verification": {
+        "ode_vs_exact_W_max_relative_error": 0.0,
+        "continuity_finite_difference_max_scaled_residual": 5.426956837727676e-10,
+        "H_fraction_vs_energy_aT_max_absolute_error": 4.440892098500626e-16
+      },
+      "fixed_kernel_admissibility": {
+        "required_J_bounds": [
+          0.0,
+          4.000000000000001
+        ],
+        "number_of_grid_rows_outside_domain": 100,
+        "minimum_a_within_domain_in_test_interval": 0.7071067811865616,
+        "meaning": "necessary fixed-kernel state-domain condition; no derived microscopic pressure or state update",
+        "outside_domain": "cannot represent that background density with trace-one rho and the same fixed K and eta"
+      }
+    },
+    {
+      "name": "cold_plus_frozen_background",
+      "components": [
+        {
+          "name": "clustering",
+          "omega_present": 0.265,
+          "w": 0
+        },
+        {
+          "name": "background",
+          "omega_present": 0.6857,
+          "w": -0.3333333333333333
+        }
+      ],
+      "present": {
+        "a": 1.0,
+        "H_over_H0": 0.9999999999999999,
+        "deceleration_q": 0.15715,
+        "hidden_energy_density_over_present": 0.9999999999999999,
+        "zeta_Q_over_present": 0.9999999999999999,
+        "twist_record_norm_over_present_if_fixed_zeta": 0.9999999999999999,
+        "twist_rate_over_present_if_fixed_zeta": 0.9999999999999999,
+        "information_energy_in_comoving_volume_over_present": 0.9999999999999999,
+        "aT_over_present": 0.9999999999999999,
+        "relative_time_H0_t": 0.0,
+        "component_density_over_critical_present": [
+          0.26499999999999996,
+          0.6857
+        ],
+        "required_J_if_same_fixed_kernel_and_eta": 1.9999999999999998,
+        "within_fixed_kernel_state_domain": true,
+        "high_mode_weight_in_zero_high_mixture": 0.49999999999999983
+      },
+      "verification": {
+        "ode_vs_exact_W_max_relative_error": 4.762594615883862e-16,
+        "continuity_finite_difference_max_scaled_residual": 1.8107744710948035e-09,
+        "H_fraction_vs_energy_aT_max_absolute_error": 4.440892098500626e-16
+      },
+      "fixed_kernel_admissibility": {
+        "required_J_bounds": [
+          0.0,
+          4.000000000000001
+        ],
+        "number_of_grid_rows_outside_domain": 114,
+        "minimum_a_within_domain_in_test_interval": 0.7407885659466831,
+        "meaning": "necessary fixed-kernel state-domain condition; no derived microscopic pressure or state update",
+        "outside_domain": "cannot represent that background density with trace-one rho and the same fixed K and eta"
+      }
+    },
+    {
+      "name": "cold_plus_constant_energy_background",
+      "components": [
+        {
+          "name": "clustering",
+          "omega_present": 0.265,
+          "w": 0
+        },
+        {
+          "name": "background",
+          "omega_present": 0.6857,
+          "w": -1
+        }
+      ],
+      "present": {
+        "a": 1.0,
+        "H_over_H0": 0.9999999999999997,
+        "deceleration_q": -0.5285499999999999,
+        "hidden_energy_density_over_present": 0.9999999999999994,
+        "zeta_Q_over_present": 0.9999999999999994,
+        "twist_record_norm_over_present_if_fixed_zeta": 0.9999999999999997,
+        "twist_rate_over_present_if_fixed_zeta": 0.9999999999999997,
+        "information_energy_in_comoving_volume_over_present": 0.9999999999999994,
+        "aT_over_present": 1.0,
+        "relative_time_H0_t": 0.0,
+        "component_density_over_critical_present": [
+          0.265,
+          0.6856999999999994
+        ],
+        "required_J_if_same_fixed_kernel_and_eta": 1.999999999999999,
+        "within_fixed_kernel_state_domain": true,
+        "high_mode_weight_in_zero_high_mixture": 0.4999999999999996
+      },
+      "verification": {
+        "ode_vs_exact_W_max_relative_error": 2.3509958559637996e-15,
+        "continuity_finite_difference_max_scaled_residual": 1.810773908621254e-09,
+        "H_fraction_vs_energy_aT_max_absolute_error": 4.440892098500626e-16
+      },
+      "fixed_kernel_admissibility": {
+        "required_J_bounds": [
+          0.0,
+          4.000000000000001
+        ],
+        "number_of_grid_rows_outside_domain": 54,
+        "minimum_a_within_domain_in_test_interval": 0.6018290573673616,
+        "meaning": "necessary fixed-kernel state-domain condition; no derived microscopic pressure or state update",
+        "outside_domain": "cannot represent that background density with trace-one rho and the same fixed K and eta"
+      }
+    }
+  ]
+}

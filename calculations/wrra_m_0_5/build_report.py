@@ -32,7 +32,7 @@ sensitivity=table(['모이는 응력 비율','물질 비율','남은 전체 비�
  [[f"{r['f_twist']:.3f}",f"{r['f_phenotype']:.4f}",f"{r['f_hidden_total']:.4f}",
    f"{r['aT_m_s2']:.4e}",f"{r['asymptotic_velocity_km_s']:.2f}"] for r in D['sensitivity']])
 
-text=r'''# WRRA M 0 5 질량 양자화와 연속 중력의 뒤틀림 계산
+text=r'''# WRRA M 0 5 정보부하와 뒤틀림 중력의 유한 계산
 
 팽창과 뒤틀림이 공존하는 우주에서 표현형 이전 응력의 유한 계산
 
@@ -88,7 +88,7 @@ H=\frac{\dot a}{a}. \tag{3}$$
 
 a는 등방 크기 변화이고 Θ는 뒤틀림 상태다. 식 (3)은 변수의 분리이며 각각의 동역학을 유도한 식이 아니다. 은하 내부의 이번 정적 계산에서는 현재 a와 전역 경계상태를 고정하고 국소 응답을 구한다. 팽창과 가속팽창도 다른 관측량이므로 같은 원인 문장으로 합치지 않는다.
 
-표현형 약 5%와 그 이전에 남은 약 95%는 갱신 가능한 에너지 가중 보정값으로 둔다. 비트 개수나 채널 개수의 측정비로 사용하지 않는다. 이번 입력 f_Φ=0.0493, 모이는 응력 부문 f_T=0.265에서 남은 전체 부문은 0.9507이고 잔여 배경 장부는 0.6857이다. 이 배경 장부의 값을 독립적인 암흑에너지의 미시 원인으로 확정하지 않는다. 이번 계산은 f_T에 해당하는 국소 추가 인력 부문에 집중한다.
+표현형 약 5%와 그 이전에 남은 약 95%는 갱신 가능한 에너지 가중 보정값으로 둔다. 비트 개수나 채널 개수의 측정비로 사용하지 않는다. 이번 입력 f_Φ=0.0493, 모이는 응력 부문 f_T=0.265에서 남은 전체 부문은 0.9507이고 잔여 배경 장부는 0.6857이다. 이 배경 장부의 값을 독립적인 암흑에너지의 미시 원인으로 확정하지 않는다. 이번 계산은 f_T에 해당하는 국소 추가 인력 부문에 집중한다. 따라서 회전장과 렌즈의 이번 결과는 숨은 약 95% 안에 속하며 우주 전체 기준 약 26.5%인 모이는 응력 부문의 작용이다. 숨은 95% 전체의 중력과 팽창을 계산한 결과는 아니다.
 
 직접 물질과 모이는 응력만 비교하면 f_T/f_Φ=5.37525이며, 직접 성분의 비중은 f_Φ/(f_Φ+f_T)=15.6857%다. 약 5%와 15.7%는 분모가 다르므로 함께 사용할 수 있다. 이 우주 평균 원천비를 모든 은하 반경의 중력비로 고정하지 않는다.
 
@@ -201,6 +201,8 @@ S(F_{DX})=S(F_{XX})=S(F_{DD})=S(F_{XD})=0. \tag{13}$$
 | 질량의 내부 모드 이산성 | 지정 모형의 정확한 결과 | 주기 경계와 정수 모드 |
 | 중력의 근본 비양자 지위 | B_C 모형 전제 | 이번 가지의 선택 |
 | 팽창과 뒤틀림의 공존 | 보존한 구조 가정 | 식 (3) |
+| 정보부하에서 뒤틀림으로의 변환 | 구성 가설 | 식 (14)와 미확정 상태 가중치 |
+| 유한 무경계 우주 구성 | 조건부 계산 | 식 (15)의 선언한 T³ 접합 |
 | 뒤틀림 가속도척도 | 보정 후 WRRA 산출 | 식 (4)와 (5) |
 | 구성응답의 정적 작용 및 양의성 | 조건부 구성과 계산 | 식 (7)에서 (9) |
 | 구형 응력질량과 회전속도 | 유한 모형 산출 | 식 (10)과 (11) |
@@ -237,7 +239,7 @@ new_section=r'''## 표현형 이전 정보와 닫힌 우주의 연결
 $$E_{\rm pre}=\sum_a w_a I_a,\qquad u_{\rm pre}=\frac{E_{\rm pre}}{V},\qquad
 \zeta\kappa_{\rm tot}^2=\frac{16\pi G}{c^4}\frac{E_{\rm pre}}{V}. \tag{14}$$
 
-w_a는 정보 상태를 에너지 부하로 바꾸는 모형의 가중치다. 이 변환을 고정한 뒤 남은 정보량은 꼬임률을 계산하는 입력이 된다. 따라서 고정 부피와 강성에서는 κ_tot²가 E_pre에 비례한다. 임의의 정보 비트 하나에 보편적 정지질량을 부여하는 식은 사용하지 않는다.
+w_a는 정보 상태를 에너지 부하로 바꾸는 모형의 가중치다. 이 변환을 고정한 뒤 남은 정보량은 꼬임률을 계산하는 입력이 된다. 따라서 고정 부피와 강성에서는 κ_tot²가 E_pre에 비례한다. 임의의 정보 비트 하나에 보편적 정지질량을 부여하는 식은 사용하지 않는다. 정보 상태별 가중치에서 실제 부하를 계산해 전달자 시험과 국소 중력을 잇는 구현은 아직 남아 있다.
 
 전역 접합의 한 구성 가능성 모형으로 세 방향을 주기 접합한 T³를 사용할 수 있다. 이 모형은 하나의 공통 Source에 대한 모든 국소 패치를 동등하게 취급한다. 정적 대표 길이 L인 세 폐곡선의 뒤틀림 기록을 Θ_i=κ_i L로 두면 다음 관계가 성립한다.
 
@@ -263,7 +265,7 @@ def renumber_equation(match):
     return '('+renumber.get(match.group(2),match.group(2))+')'
 text=re.sub(r'\\tag\{(\d+)\}|\((\d+)\)',renumber_equation,text)
 source=ROOT/'source.md';source.write_text(text)
-docx=OUT/(stem+'.docx')
+docx=OUT/'WRRA_M_0_5_KO.docx'
 subprocess.run(['pandoc',str(source),'-o',str(docx),'--resource-path',str(ROOT)],check=True,cwd=ROOT)
 doc=Document(docx)
 for name in ['Normal','Body Text','First Paragraph','Title','Subtitle','Heading 1','Heading 2','Heading 3','Caption']:
@@ -302,6 +304,11 @@ for p,number in zip(equation_paragraphs,tags):
     run=OxmlElement('m:r');mrp=OxmlElement('m:rPr')
     sty=OxmlElement('m:sty');sty.set(qn('m:val'),'p');mrp.append(sty);run.append(mrp)
     txt=OxmlElement('m:t');txt.set(qn('xml:space'),'preserve');txt.text='   ('+number+')';run.append(txt);math.append(run)
+    p.paragraph_format.space_before=Pt(4)
+    p.paragraph_format.space_after=Pt(9)
+for p in doc.paragraphs:
+    if p.text.endswith(('다음과 같다.','다음 관계가 성립한다.','기록한다.')):
+        p.paragraph_format.keep_with_next=True
 for t in doc.tables:
     t.alignment=WD_TABLE_ALIGNMENT.CENTER;t.autofit=False
     tpr=t._tbl.tblPr
@@ -335,7 +342,21 @@ for t in doc.tables:
 footer=section.footer.paragraphs[0];footer.alignment=WD_ALIGN_PARAGRAPH.RIGHT
 field=OxmlElement('w:fldSimple');field.set(qn('w:instr'),'PAGE');footer._p.append(field)
 doc.core_properties.author='Wonsik Choi'
-doc.core_properties.title='WRRA-M 0.5 Quantized Mass and Continuous Gravity in a Finite Twist Model'
+doc.core_properties.title='WRRA-M 0.5 Information Load and Twist Gravity in a Finite Model'
 doc.core_properties.subject='B_C finite calculations with calibrated twist response'
+table_widths=[[1.3,5.64],[.75,1.2,1.2,1.69,2.1],[1.3,1.64,2,2],
+              [1,1.7,1.7,2.54],[1.22,1.1,1.46,1.64,1.52],[2.42,2.1,2.42]]
+assert len(doc.tables)==len(table_widths)
+for table,widths in zip(doc.tables,table_widths):
+    for col,width in zip(table.columns,widths):
+        col.width=Inches(width)
+    for col,width in zip(table._tbl.tblGrid.gridCol_lst,widths):
+        col.set(qn('w:w'),str(round(width*1440)))
+    for ri,row in enumerate(table.rows):
+        row._tr.get_or_add_trPr().append(OxmlElement('w:cantSplit'))
+        for cell,width in zip(row.cells,widths):
+            cell.width=Inches(width)
+            if len(widths)==2 and ri>0:
+                for p in cell.paragraphs:p.alignment=WD_ALIGN_PARAGRAPH.LEFT
 doc.save(docx)
 print(docx)

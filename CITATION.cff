@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use WRRA-M 0.5, please cite this research note."
-title: "WRRA-M 0.5: Quantized Mass and Continuous Gravity in a Finite Twist Model"
+title: "WRRA-M 0.5: Information Load and Twist Gravity in a Finite Model"
 type: article
 authors:
   - family-names: Choi
@@ -13,7 +13,7 @@ license: CC-BY-4.0
 repository-code: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1"
 url: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1"
 abstract: >-
-  WRRA-M 0.5 separates quantized mass phenotypes from the upstream continuous
+  WRRA-M 0.5 foregrounds information load and twist gravity while separating mass phenotypes from the upstream continuous
   geometric response in the B_C model branch. Expansion and twist coexist,
   while the executed sector is static twist stress. A calibrated response
   from the earlier WRRA Galactic Disk paper is actually evaluated for finite
@@ -22,7 +22,9 @@ abstract: >-
   sixteen-channel carrier passes transport rank conditions while producing
   zero filter-selection gaps. Hidden energy-weighted information load is
   linked to twist and a conditional finite, boundaryless T3 gluing example.
-  Editable calibrations and reproducible calculations are supplied.
+  Individual state weights are not computed in 0.5; the full hidden fraction
+  and its local clustering subset are explicitly distinguished. Editable
+  calibrations and reproducible calculations are supplied.
 keywords:
   - WRRA
   - Wonsik Reality Renderer Architecture

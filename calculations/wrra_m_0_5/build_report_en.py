@@ -49,7 +49,7 @@ doc.styles["Heading 2"].paragraph_format.space_before = Pt(13)
 for p in doc.paragraphs:
     p.paragraph_format.first_line_indent = Inches(0)
     p.alignment = WD_ALIGN_PARAGRAPH.LEFT
-    if p.style.name == "Heading 1" and p.text.startswith("WRRA-M"):
+    if p.style.name == "Heading 1" and p.text.startswith("WRRA"):
         p.style = doc.styles["Title"]
     if p.text.rstrip().endswith(":") or p.text.rstrip().endswith("then"):
         p.paragraph_format.keep_with_next = True
@@ -153,7 +153,7 @@ for p in doc.paragraphs:
             run.font.size = Pt(10)
 doc.core_properties.author = "Wonsik Choi"
 doc.core_properties.title = (
-    "WRRA-M 0.5 Quantized Mass and Continuous Gravity in a Finite Twist Model"
+    "WRRA-M 0.5 Information Load and Twist Gravity in a Finite Model"
 )
 doc.core_properties.subject = (
     "English edition of the Korean WRRA-M 0.5 paper with identical calculations"

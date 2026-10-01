@@ -1,6 +1,6 @@
 # WRRA-M 0.5 한국어 개요
 
-**질량 양자화와 연속 중력의 뒤틀림 계산**
+**정보부하와 뒤틀림 중력의 유한 계산**
 
 최원식 Wonsik Choi · 2026년 10월 1일 · ORCID [0009-0001-4263-9772](https://orcid.org/0009-0001-4263-9772) · [janefather@gmail.com](mailto:janefather@gmail.com)
 
@@ -130,3 +130,9 @@ c_C(i,j)=-\lVert u_i-u_j\rVert_C^2.
 최원식 Wonsik Choi · ORCID [0009-0001-4263-9772](https://orcid.org/0009-0001-4263-9772) · [janefather@gmail.com](mailto:janefather@gmail.com)
 
 
+
+## 검토 반영 및 0.6 착수
+
+국소 계산 부문은 우주 전체 기준 26.5%이며, 숨은 전체 95.07% 안의 부분이다. 0.5의 정보부하 사상은 구성 가설이고 개별 정보 상태 가중치는 계산하지 않았다. 표현형 비율 0도 실행되며 정의할 수 없는 원천비는 null로 기록한다. 반경 응답비는 두 가속도 값을 계산해 산출한다. 기존 운동·렌즈·전달자 결과는 그대로 재현됐다.
+
+[0.6 범위와 착수 계산](calculations/wrra_m_0_6_start/README_KO.md)은 선언한 전달자 부하 연산자를 실제로 계산하고 배경 압력 구성을 비교한다. 완성된 0.6 논문이 아니라 실행한 첫 모형이다.

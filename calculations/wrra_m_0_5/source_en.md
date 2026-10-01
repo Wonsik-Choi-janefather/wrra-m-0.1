@@ -1,4 +1,4 @@
-# WRRA-M 0.5: Quantized Mass and Continuous Gravity in a Finite Twist Model
+# WRRA M 0 5 Information Load and Twist Gravity in a Finite Model
 
 Finite calculations of prephenotypic stress in a universe with expansion and twist
 
@@ -54,7 +54,7 @@ H=\frac{\dot a}{a}. \tag{3}$$
 
 Here a describes the isotropic change of scale, while Θ describes the twist state. Equation (3) separates variables; it does not derive their dynamics. The present static calculation inside a galaxy fixes the current a and global boundary state and evaluates the local response. Expansion and accelerated expansion are distinct observables and are not merged into a single causal claim.
 
-The approximately 5% phenotype fraction and approximately 95% remaining before phenotype are editable energy-weighted calibrations. They are not measured fractions of information bits or channel counts. With the present inputs f_Φ = 0.0493 and clustering-stress fraction f_T = 0.265, the entire remaining fraction is 0.9507 and the residual background account is 0.6857. That background account is not identified as a microscopic derivation of a separate dark-energy cause. The executed calculation focuses on the local additional-attraction sector represented by f_T.
+The approximately 5% phenotype fraction and approximately 95% remaining before phenotype are editable energy-weighted calibrations. They are not measured fractions of information bits or channel counts. With the present inputs f_Φ = 0.0493 and clustering-stress fraction f_T = 0.265, the entire remaining fraction is 0.9507 and the residual background account is 0.6857. That background account is not identified as a microscopic derivation of a separate dark-energy cause. The executed calculation focuses on the local additional-attraction sector represented by f_T. The rotation and lensing outputs therefore evaluate the clustering-stress sector corresponding to about 26.5% of the total, within the whole hidden sector of about 95%; they do not calculate the gravity and expansion of that entire hidden sector.
 
 Comparing direct matter with clustering stress alone gives f_T/f_Φ = 5.37525 and a direct-component share of f_Φ/(f_Φ + f_T) = 15.6857%. The approximately 5% and 15.7% figures can coexist because they use different denominators. This cosmic mean source ratio is not imposed as the gravitational ratio at every galactic radius.
 
@@ -65,7 +65,7 @@ The upstream hypothesis is fixed as follows. The physical load of information th
 $$E_{\mathrm{pre}}=\sum_a w_a I_a,\qquad u_{\mathrm{pre}}=\frac{E_{\mathrm{pre}}}{V},\qquad
 \zeta\kappa_{\mathrm{tot}}^2=\frac{16\pi G}{c^4}\frac{E_{\mathrm{pre}}}{V}. \tag{4}$$
 
-The model weights w_a convert information states into an energy load. Once this transformation is fixed, the remaining information content is an input to the twist-rate calculation. At fixed volume and stiffness, κ_tot² is therefore proportional to E_pre. No universal rest mass is assigned to an arbitrary information bit.
+The model weights w_a convert information states into an energy load. Once this transformation is fixed, the remaining information content is an input to the twist-rate calculation. At fixed volume and stiffness, κ_tot² is therefore proportional to E_pre. No universal rest mass is assigned to an arbitrary information bit. Computing the load from the individual weighted information states and connecting the carrier test to local gravity remain to be implemented.
 
 A three-torus T³, periodically glued in three directions, provides one constructibility model of the global identification. This model treats all local patches of one common Source equally. If Θ_i = κ_i L records twist along the three closed curves of representative static length L, then
 
@@ -211,6 +211,8 @@ Model revision using known observations is permitted. Revised inputs, constituti
 | Discrete internal mass modes | Exact result in the specified model | Periodic boundary and integer modes |
 | Fundamentally nonquantum gravity | B_C model premise | Selection of this branch |
 | Coexistence of expansion and twist | Preserved structural assumption | Equation (3) |
+| Information-load to twist transformation | Constitutive hypothesis | Equation (4) and unspecified state weights |
+| Finite boundaryless universe construction | Conditional calculation | Equation (5) in the declared T³ gluing model |
 | Twist acceleration scale | WRRA output after calibration | Equations (6) and (7) |
 | Static constitutive action and positivity | Conditional construction and calculation | Equations (9) through (11) |
 | Spherical stress mass and rotation speed | Finite model outputs | Equations (12) and (13) |

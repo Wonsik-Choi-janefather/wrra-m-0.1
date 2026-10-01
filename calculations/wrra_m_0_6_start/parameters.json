@@ -1,0 +1,10 @@
+{
+  "lattice_N":128,
+  "test_radius_kpc":8.2,
+  "lens_impact_kpc":10,
+  "a_min":0.5,
+  "a_max":2.0,
+  "load_kernel":"periodic cycle Laplacian, explicit constitutive prototype",
+  "units_note":"carrier load is dimensionless; one energy-density calibration fixes the units",
+  "scope":"start calculation; no claim of a unique microscopic information-weight law"
+}

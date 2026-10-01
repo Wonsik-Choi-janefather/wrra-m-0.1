@@ -1,6 +1,6 @@
 # WRRA-M 0.5 English Overview
 
-**Quantized Mass and Continuous Gravity in a Finite Twist Model**
+**Information Load and Twist Gravity in a Finite Model**
 
 Wonsik Choi · 2026-10-01 · ORCID [0009-0001-4263-9772](https://orcid.org/0009-0001-4263-9772) · [janefather@gmail.com](mailto:janefather@gmail.com)
 
@@ -130,3 +130,9 @@ The finite witness proves constructibility only. Version 0.4 does not calculate 
 Wonsik Choi · ORCID [0009-0001-4263-9772](https://orcid.org/0009-0001-4263-9772) · [janefather@gmail.com](mailto:janefather@gmail.com)
 
 
+
+## Review corrections and 0.6 start
+
+The local outputs use the clustering sector, 26.5% of the whole universe, within the hidden total of 95.07%. The information-load map in 0.5 is a constitutive hypothesis; individual state weights were not computed there. Zero phenotype input now executes, with undefined source ratios recorded as null, and the radius response ratio is evaluated from both accelerations. Original motion, lensing and carrier results reproduce unchanged.
+
+The [0.6 start scope and calculation](calculations/wrra_m_0_6_start/README_EN.md) implement an explicit carrier load operator and compare declared background pressure closures. This is an executed prototype, not a completed 0.6 paper.

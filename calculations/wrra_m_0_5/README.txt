@@ -1,5 +1,5 @@
 WRRA-M 0.5
-Quantized Mass and Continuous Gravity in a Finite Twist Model
+Information Load and Twist Gravity in a Finite Model
 Wonsik Choi / 2026-10-01
 ORCID: 0009-0001-4263-9772
 Contact: janefather@gmail.com
@@ -41,3 +41,8 @@ Word math and consumes the results directory. The DOCX and PDF supplied
 with this package were rendered and visually inspected.
 
 Copyright 2026 Wonsik Choi. CC BY 4.0.
+
+Review corrections: the 26.5% clustering share is a fraction of the whole
+universe, within the hidden total 95.07%. Individual information-state weights
+are not computed in 0.5. A zero phenotype fraction executes; undefined ratios
+are null. The response ratio at r and 2r is computed from both accelerations.

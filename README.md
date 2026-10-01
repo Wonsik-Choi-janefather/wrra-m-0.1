@@ -119,3 +119,9 @@ Email: [janefather@gmail.com](mailto:janefather@gmail.com)
 Citation metadata is provided in [`CITATION.cff`](CITATION.cff). The papers and documentation are licensed under [CC BY 4.0](LICENSE).
 
 
+
+## Review corrections · 검토 반영
+
+The 0.5 titles and claim ledger now foreground information load and twist gravity. Its local calculation uses 26.5% of the whole universe within the hidden total of 95.07%. The zero-phenotype input executes with undefined ratios recorded as null; the radius response ratio is evaluated numerically. The original scientific outputs reproduce unchanged.
+
+[0.6 start, Korean](calculations/wrra_m_0_6_start/README_KO.md) · [0.6 start, English](calculations/wrra_m_0_6_start/README_EN.md) · [Start reproducibility archive](calculations/wrra_m_0_6_start/WRRA_M_0_6_Start_Reproducibility.zip). These files document scope and an executed initial prototype; no completed 0.6 paper is claimed.
