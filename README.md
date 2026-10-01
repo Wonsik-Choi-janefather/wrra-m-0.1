@@ -4,29 +4,46 @@
 
 **원식 현실 렌더러 아키텍처 메타차원 연구 분기**
 
-Latest version: **WRRA-M 0.4**
+Latest version: **WRRA-M 0.5** · 2026-10-01
 
-Latest result: **The fifteen-channel common carrier is reusable only through a transported, gauge-neutral sixteenth-channel extension; one carrier metric then generates the 0.3 compatibility gaps as exact alignment products.**
+WRRA-M continues WRRA Core 1.0 and Minimal Computation Cosmology 2.3.2.
 
-WRRA-M is a research branch of WRRA Core 1.0. It studies how predimensional degrees can be rendered into finite spacetime and particle-channel phenotypes. Version 0.4 asks whether the common carrier of Minimal Computation Cosmology can physically own the compatibility rule left open by 0.3.
+- [한국어 개요](README_KO.md) · [English overview](README_EN.md)
+- [0.5 한국어 PDF](paper/WRRA_M_0_5_KO.pdf) · [DOCX](paper/WRRA_M_0_5_KO.docx) · [Markdown](paper/WRRA_M_0_5_KO.md)
+- [0.5 reproduction package](paper/WRRA_M_0_5_Reproducibility.zip) · [Calculation and results](calculations/wrra_m_0_5)
 
-WRRA-M은 WRRA Core 1.0의 연구 분기다. 선차원 자유도가 유한한 시공간과 입자채널 표현형으로 렌더링되는 구조를 탐구한다. 0.4는 최소계산우주론의 공통전달자가 0.3에서 미정으로 남은 적합도 규칙을 실제로 소유할 수 있는지 묻는다.
+## Verification input → WRRA-specific transformation → Output → Falsification condition
 
-## Latest documents
+| Stage | WRRA-M 0.5 |
+| --- | --- |
+| Verification input / 검증 입력 | MCC 2.3.2 mass modes, the 0.4 carrier criterion, earlier twist papers, and editable observed calibrations. |
+| WRRA-specific transformation / WRRA 고유 변환 | Discrete mass phenotype and upstream continuous gravity; the same frozen twist response for motion and conditional lensing; a declared homogeneous 16-channel carrier. |
+| Output / 산출값 | aT = 1.191812669 × 10⁻¹⁰ m/s²; finite spherical stress, rotation and conditional lensing; earlier Milky Way calculation reproduced with RMS 2.41784 km/s against its linearized reference; transport rank 16, ΔL = ΔR = 0. |
+| Falsification condition / 반증조건 | Failed positivity/rank, a nonpositive gap for a positive-selection claim, static constitutive instability, or inconsistent motion/lensing require rejection or revision of the corresponding claim. |
 
-### WRRA-M 0.4
+## Scope / 범위
 
-- [English PDF](paper/WRRA_M_0_4_EN.pdf) · [English DOCX](paper/WRRA_M_0_4_EN.docx) · [Markdown source](paper/WRRA_M_0_4_Common_Carrier_Metric_Origin_EN.md)
-- [한국어 PDF](paper/WRRA_M_0_4_KO.pdf) · [한국어 DOCX](paper/WRRA_M_0_4_KO.docx) · [한국어 Markdown 원고](paper/WRRA_M_0_4_Common_Carrier_Metric_Origin_KO.md)
-- [Exact verification script](calculations/verify_wrra_m_0_4.py)
-- [English overview](README_EN.md)
-- [한국어 개요](README_KO.md)
+Version 0.5 selects the B_C model branch: quantized mass phenotypes and gravity without fundamental quantum degrees of freedom. Expansion and twist coexist; this calculation covers present static twist stress. Hidden information load is linked to twist and to a conditional finite, boundaryless T³ construction. It does not determine the actual cosmic topology or size.
 
-### Earlier versions
+0.5는 질량 양자화·중력 비양자화의 B_C 가지를 모형 전제로 선택한다. 팽창과 뒤틀림의 공존을 유지하고 현재의 정적 뒤틀림 응력을 계산한다. 표현형 이전 정보 부하와 꼬임 및 유한·무경계 공간을 조건부 수식으로 연결한다. 팽창 동역학과 실제 우주의 위상·크기 확정은 후속 범위다.
 
+The calibrated constitutive response is actually computed within WRRA. The homogeneous carrier passes transport conditions but cannot uniquely select the target filter. The phenotype and hidden fractions remain editable estimates. The full Korean paper and bilingual overviews distinguish the executed results from the remaining microscopic and covariant work.
+
+## Reproduce 0.5
+
+```bash
+python -m pip install -r calculations/wrra_m_0_5/requirements.txt
+python calculations/wrra_m_0_5/compute.py --out calculations/wrra_m_0_5/results
+```
+
+## Earlier documents
+
+- 0.4: [English PDF](paper/WRRA_M_0_4_EN.pdf) · [English DOCX](paper/WRRA_M_0_4_EN.docx) · [한국어 PDF](paper/WRRA_M_0_4_KO.pdf) · [한국어 DOCX](paper/WRRA_M_0_4_KO.docx) · [Verification script](calculations/verify_wrra_m_0_4.py)
 - 0.3: [English PDF](paper/WRRA_M_0_3_EN.pdf) · [English DOCX](paper/WRRA_M_0_3_EN.docx) · [한국어 PDF](paper/WRRA_M_0_3_KO.pdf) · [한국어 DOCX](paper/WRRA_M_0_3_KO.docx)
 - 0.2: [English PDF](paper/WRRA_M_0_2_EN.pdf) · [English DOCX](paper/WRRA_M_0_2_EN.docx) · [한국어 PDF](paper/WRRA_M_0_2_KO.pdf) · [한국어 DOCX](paper/WRRA_M_0_2_KO.docx)
 - 0.1: [English PDF](paper/WRRA_M_0_1_EN.pdf) · [English DOCX](paper/WRRA_M_0_1_EN.docx) · [한국어 PDF](paper/WRRA_M_0_1_KO.pdf) · [한국어 DOCX](paper/WRRA_M_0_1_KO.docx)
+
+## Version 0.4 foundations
 
 ## Verified inputs
 
@@ -77,7 +94,7 @@ An exact finite witness gives \(\Delta_L=\Delta_R=8\), proving that the positive
 
 ## Boundary and falsification
 
-The bridge fails if the neutral channel is transport-null, the principal causal cone splits by channel, the response metric is not positive semidefinite or full rank on the declared band, either independently calculated alignment is nonpositive, or the carrier protocol is retuned after the target is inspected. Numerical microscopic response signatures are reserved for 0.5 or later.
+The bridge fails if the neutral channel is transport-null, the principal causal cone splits by channel, the response metric is not positive semidefinite or full rank on the declared band, either independently calculated alignment is nonpositive, or the carrier protocol is retuned after the target is inspected. Version 0.5 evaluates a homogeneous numerical carrier and obtains zero selection gaps. Channel-specific microscopic responses that produce positive gaps remain open.
 
 ## Fixed evaluation rule
 
@@ -98,3 +115,4 @@ Email: [janefather@gmail.com](mailto:janefather@gmail.com)
 ## Citation and license
 
 Citation metadata is provided in [`CITATION.cff`](CITATION.cff). The papers and documentation are licensed under [CC BY 4.0](LICENSE).
+

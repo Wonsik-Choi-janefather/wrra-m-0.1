@@ -1,35 +1,37 @@
 cff-version: 1.2.0
-message: "If you use WRRA-M 0.4, please cite this research note."
-title: "WRRA-M 0.4: Common-Carrier Metric Origin of Filter Compatibility"
+message: "If you use WRRA-M 0.5, please cite this research note."
+title: "WRRA-M 0.5: Quantized Mass and Continuous Gravity in a Finite Twist Model"
 type: article
 authors:
   - family-names: Choi
     given-names: Wonsik
     orcid: "https://orcid.org/0009-0001-4263-9772"
     email: "janefather@gmail.com"
-version: "0.4"
+version: "0.5"
 date-released: 2026-10-01
 license: CC-BY-4.0
 repository-code: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1"
 url: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1"
 abstract: >-
-  WRRA-M 0.4 tests whether the fifteen-channel common carrier of Minimal
-  Computation Cosmology can supply the compatibility structure required by
-  the sixteen-channel filter problem. It gives a conditional extension by one
-  transported gauge-neutral channel, distinguishes gauge-current neutrality
-  from transport absence, and defines compatibility as negative squared
-  mismatch in a positive common-carrier response metric. The two free 0.3
-  selection gaps then reduce exactly to carrier-metric alignment products. An
-  exact finite witness proves that the positive-gap region is nonempty, while
-  numerical microscopic response signatures remain open.
+  WRRA-M 0.5 separates quantized mass phenotypes from the upstream continuous
+  geometric response in the B_C model branch. Expansion and twist coexist,
+  while the executed sector is static twist stress. A calibrated response
+  from the earlier WRRA Galactic Disk paper is actually evaluated for finite
+  spherical motion, effective stress mass, and conditional lensing. The
+  earlier Milky Way algebraic calculation is reproduced, and a homogeneous
+  sixteen-channel carrier passes transport rank conditions while producing
+  zero filter-selection gaps. Hidden energy-weighted information load is
+  linked to twist and a conditional finite, boundaryless T3 gluing example.
+  Editable calibrations and reproducible calculations are supplied.
 keywords:
   - WRRA
   - Wonsik Reality Renderer Architecture
-  - meta-dimensional
+  - mass quantization
+  - continuous gravity
+  - twist stress
+  - dark matter
+  - finite boundaryless universe
   - common carrier
-  - fifteen-to-sixteen-channel extension
-  - null-lift criterion
-  - response metric
-  - filter compatibility
-  - selection gap
-  - right-handed neutrino
+  - filter selection
+  - conditional lensing
+

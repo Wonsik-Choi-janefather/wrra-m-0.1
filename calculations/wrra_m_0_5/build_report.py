@@ -1,0 +1,341 @@
+from pathlib import Path
+import json
+import subprocess
+import re
+from docx import Document
+from docx.shared import Inches, Pt, RGBColor
+from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.enum.style import WD_STYLE_TYPE
+from docx.enum.table import WD_TABLE_ALIGNMENT, WD_CELL_VERTICAL_ALIGNMENT
+from docx.oxml import OxmlElement
+from docx.oxml.ns import qn
+
+ROOT=Path(__file__).resolve().parent
+D=json.loads((ROOT/'results/results.json').read_text())
+OUT=ROOT/'deliverables';OUT.mkdir(exist_ok=True)
+stem='WRRA_M_0_5_Quantized_Mass_Continuous_Gravity_Twist_Wonsik_Choi_KO_2026_10_01'
+
+def table(headers, rows):
+    return '\n'.join(['| '+' | '.join(headers)+' |', '| '+' | '.join(['---']*len(headers))+' |']+
+                     ['| '+' | '.join(map(str,row))+' |' for row in rows])
+
+sphere=table(['반경 kpc','직접 속도 km/s','전체 속도 km/s','추가 중력 / 직접 중력','등가 응력질량 태양질량'],
+ [[f"{r['r_kpc']:g}",f"{r['v_baryon_km_s']:.2f}",f"{r['v_total_km_s']:.2f}",
+   f"{r['twist_to_baryon_acceleration']:.3f}",f"{r['M_twist_eff_Msun']:.3e}"] for r in D['sphere']])
+lens=table(['충격반경 kpc','전체 편향 각초','직접 성분 rad','뒤틀림 성분 rad'],
+ [[r['impact_kpc'],f"{r['alpha_patch_arcsec']:.4f}",f"{r['alpha_baryon_patch_rad']:.4e}",
+   f"{r['alpha_twist_patch_rad']:.4e}"] for r in D['finite_patch_lensing']])
+disk=table(['반경 kpc','직접 속도 km/s','WRRA 속도 km/s','추가 중력 / 직접 중력'],
+ [[f"{r['R_kpc']:g}",f"{r['v_baryon_km_s']:.2f}",f"{r['v_total_km_s']:.2f}",
+   f"{r['twist_to_baryon_acceleration']:.3f}"] for r in D['inherited_disk_renderer']['rows']])
+sensitivity=table(['모이는 응력 비율','물질 비율','남은 전체 비율','전환 가속도 m/s²','구형 극한속도 km/s'],
+ [[f"{r['f_twist']:.3f}",f"{r['f_phenotype']:.4f}",f"{r['f_hidden_total']:.4f}",
+   f"{r['aT_m_s2']:.4e}",f"{r['asymptotic_velocity_km_s']:.2f}"] for r in D['sensitivity']])
+
+text=r'''# WRRA M 0 5 질량 양자화와 연속 중력의 뒤틀림 계산
+
+팽창과 뒤틀림이 공존하는 우주에서 표현형 이전 응력의 유한 계산
+
+최원식 Wonsik Choi  
+WRRA-M 0.5 | 2026년 10월 1일  
+Independent Researcher Seoul Republic of Korea  
+ORCID 0009-0001-4263-9772 | janefather@gmail.com
+
+## 검증 입력에서 반증조건까지
+
+| 단계 | 이번 계산의 내용 |
+| --- | --- |
+| 검증 입력 | 최소계산우주론 2.3.2의 질량 모드, WRRA-M 0.4의 전달자 조건, 개별 뒤틀림 논문의 구성응답과 보정값 |
+| WRRA 고유 변환 | 이산 질량 출력과 연속 기하 출력을 구분하고, 고정한 응력 응답으로 추가 중력과 유효 질량 및 광선 편향을 계산 |
+| 산출값 | 질량 모드, 16채널 수송 응답, 필터 격차, 유한 구형 회전장과 렌즈 편향, 기존 우리 은하 계산의 재현 |
+| 반증조건 | 전달자 조건 실패, 선택 격차 미성립, 응력 구성식의 정적 불안정, 같은 기하의 운동과 렌즈 출력 불일치 |
+
+## 연구 결정과 결과
+
+이번 버전은 질량은 표현형이므로 양자화될 수 있고 중력 자체는 표현형 이전이므로 근본 양자 자유도를 갖지 않는다는 B_C 가지를 선택한다. 중력의 측정 출력인 계량과 궤도는 계산하지만, 중력 자체의 독립 힐베르트 공간이나 중력자를 이 모형에 도입하지 않는다. 이 선택은 0.5의 모형 전제다. 질량 모드의 이산성은 지정된 내부 모형에서 계산하며, 중력의 보편적 양자화 불가능성을 실험이나 일반 정리로 증명했다고 분류하지 않는다.
+
+전체 우주 그림에는 팽창과 뒤틀림을 동시에 둔다. 이번 0.5는 국소 뒤틀림 응력 계산을 먼저 마무리한다. 팽창의 원인과 전역 시간발전은 이번 정적 계산의 결론으로 확정하지 않는다. 한 응력의 전역 효과와 국소 효과를 연결하는 과제는 남겨 둔다.
+
+계산은 세 결과를 낸다. 첫째, 기존 보정값으로 전환 가속도 1.191812669×10⁻¹⁰ m/s²를 재현한다. 둘째, 동일한 구성응답으로 유한 구형 회전장과 조건부 렌즈 편향을 계산하고, 기존 우리 은하 모형의 8∼25 kpc 선형화 기준 대비 RMS 2.41784 km/s를 재현한다. 셋째, 가장 단순한 대칭 16채널 전달자에서는 두 필터 격차가 모두 0이 된다. 이 마지막 결과는 중력 계산의 실패가 아니라, 공통 수송만으로 목표 필터의 미시 선택까지 결정되지 않는다는 계산 결과다.
+
+## 기존 개별 논문에서 이어받은 구조
+
+통합판만 요약하지 않고 다음 원문의 계산층을 확인했다. 뒤틀림 응력 우주 논문 v1.0은 배경 응력의 정규화, 국소 구성응답, 유효 질량과 조건부 렌즈 계산을 제공한다. 이중 성분 중력 모형 v0.4는 직접 중력과 응력 중력의 분해, 15.7%와 84.3%의 분모, 두 분기의 이중계산 금지를 제공한다. 은하 원반면 논문 v1.0은 보정한 전 구간 응답을 실제 우리 은하 계산에 채택했고, 무방향 평면과 각운동량을 구분했다. 유한 무경계 논문 v1.0은 팽창과 뒤틀림의 공존 및 전역 정보에서 국소 응력으로 가는 동역학의 필요성을 명시했다. 인과 지평선 v1.1의 5.3.3절은 근본 비양자 중력인 B_C를 명시했다.
+
+2.3.2의 7.4절 자체는 중력의 근본 양자화가 그 증명에 포함되지 않았다고 쓴다. 0.5는 이 원문을 소급 수정하지 않고 B_C를 연구 가지로 선택한다. 따라서 원문의 조건부 성과와 이번 버전의 강한 모형 선택을 각각 보존한다.
+
+## 질량 모드와 중력의 서로 다른 지위
+
+닫힌 내부 모형의 주기 경계조건은 정수 모드 n을 허용한다. 자연단위에서 질량은 다음과 같다.
+
+$$n\in\mathbb Z,\qquad m_n^2=m_0^2+\frac{n^2}{R^2}. \tag{1}$$
+
+이번 재현 예에서는 m₀=0과 질량에너지 단위 μ_M=m_ec²/23을 사용한다. μ_M=22,217.345682 eV이며 n=23의 출력은 입력 전자질량에너지 510,998.95069 eV를 재현한다. 이는 내부 모형의 이산성 및 보정의 재현이다. 실제 모든 입자의 pole mass가 같은 단위의 정수배라고 주장하는 계산은 아니다. 유카와 결합, 자체에너지와 강상호작용의 후단 질량 변환은 2.3.2의 기존 층으로 유지한다.
+
+중력은 전체 원천 및 경계상태에 대한 기하 응답으로 둔다. 같은 기하를 모든 물질 채널이 공유한다. 원천이 이산적으로 바뀌어 중력 출력이 점프하는 것과 중력 자체가 양자화되는 것은 구분해야 한다. 직접 성분의 단순한 예는 다음과 같다.
+
+$$\Delta g_M(r)=\frac{G\mu_M}{r^2},\qquad
+\Delta g_M(2r)=\frac{\Delta g_M(r)}{4}. \tag{2}$$
+
+식 (2)의 μ_M은 질량 단위로 환산해 사용한다. 같은 질량 모드 변화라도 반경과 경계조건에 따라 출력 간격이 달라진다. 이산 원천만으로 보편적인 중력 양자 단위가 정해지지 않는다. 수치 격자나 계산 정밀도의 유한성도 중력의 물리적 양자화를 뜻하지 않는다. 양자중첩 물질과 고전 기하의 완전한 갱신법칙은 이번 정적 모형의 범위 밖이다.
+
+## 팽창과 뒤틀림의 공존 및 구성비
+
+공존 구조를 공간 계량의 분리 표기로 기록한다.
+
+$$\gamma_{ij}(t)=a(t)^2\widehat\gamma_{ij}[\Theta(t)],\qquad
+H=\frac{\dot a}{a}. \tag{3}$$
+
+a는 등방 크기 변화이고 Θ는 뒤틀림 상태다. 식 (3)은 변수의 분리이며 각각의 동역학을 유도한 식이 아니다. 은하 내부의 이번 정적 계산에서는 현재 a와 전역 경계상태를 고정하고 국소 응답을 구한다. 팽창과 가속팽창도 다른 관측량이므로 같은 원인 문장으로 합치지 않는다.
+
+표현형 약 5%와 그 이전에 남은 약 95%는 갱신 가능한 에너지 가중 보정값으로 둔다. 비트 개수나 채널 개수의 측정비로 사용하지 않는다. 이번 입력 f_Φ=0.0493, 모이는 응력 부문 f_T=0.265에서 남은 전체 부문은 0.9507이고 잔여 배경 장부는 0.6857이다. 이 배경 장부의 값을 독립적인 암흑에너지의 미시 원인으로 확정하지 않는다. 이번 계산은 f_T에 해당하는 국소 추가 인력 부문에 집중한다.
+
+직접 물질과 모이는 응력만 비교하면 f_T/f_Φ=5.37525이며, 직접 성분의 비중은 f_Φ/(f_Φ+f_T)=15.6857%다. 약 5%와 15.7%는 분모가 다르므로 함께 사용할 수 있다. 이 우주 평균 원천비를 모든 은하 반경의 중력비로 고정하지 않는다.
+
+## 현재 우주의 뒤틀림 정규화
+
+이전 개별 논문의 이차 응력 에너지와 교차척도 폐쇄식을 사용한다.
+
+$$u_T=\frac{\zeta c^4\kappa^2}{16\pi G},\qquad
+\rho_c=\frac{3H_0^2}{8\pi G},\qquad
+f_T=\frac{u_T}{\rho_c c^2}. \tag{4}$$
+
+$$a_T=cH_0\sqrt{\frac{f_T}{8}},\qquad
+\zeta\kappa^2=6f_T\left(\frac{H_0}{c}\right)^2. \tag{5}$$
+
+c=299,792,458 m/s, G=6.67430×10⁻¹¹ SI, H₀=67.4 km/s/Mpc와 f_T=0.265를 사용한다. c는 단위 환산의 정의된 입력이며 예측 대상이 아니다. 식 (5)의 계수 1/8과 matched response 연결은 기존에 보정한 모형 요소다. 알려진 값으로 모형을 확정한 뒤 이 식에서 나온 산출값의 WRRA 계산 소유권은 유지한다.
+
+산출값은 a_T=1.191812669×10⁻¹⁰ m/s², ρ_c=8.532855164×10⁻²⁷ kg/m³, ζκ²=8.440621409×10⁻⁵³ m⁻²다. 정규화 지수 √(6f_T)=1.260952는 직접 측정된 뒤틀림 각도가 아니다. ζ와 κ 각각은 아직 분리되지 않는다.
+
+## 보정된 구성응답과 정적 작용
+
+원반면 논문이 채택한 전 구간 구성응답을 변경 없이 사용한다.
+
+$$y=\frac{g_M}{a_T},\qquad
+\nu(y)=\frac{1}{1-e^{-\sqrt y}},\qquad
+g=\nu(y)g_M,\quad g_T=g-g_M. \tag{6}$$
+
+응답함수의 형태는 관측으로 보정한 입력이고, 상류 공통전달자에서 유일하게 유도된 함수는 아니다. 이번 버전은 이를 내부 계산에 실제로 넣어 결과를 낸다. 원천으로 해석한 유효 응력과 수정된 기하를 한 계산에서 두 번 더하지 않는다.
+
+B_C의 구형 정적 기하 응답에는 다음 작용을 구성할 수 있다. x=g/a_T=yν(y)이고 μ(x)=y/x로 정의한다.
+
+$$E[\Phi]=\int d^3x\left[\frac{a_T^2}{8\pi G}F(Y)+\rho_b\Phi\right],
+\quad Y=\frac{|\nabla\Phi|^2}{a_T^2},\quad F_Y=\mu. \tag{7}$$
+
+$$\nabla\!\cdot\!\left[\mu(|\nabla\Phi|/a_T)\nabla\Phi\right]=4\pi G\rho_b. \tag{8}$$
+
+이 정적 변분 골격은 기존 AQUAL 수학을 사용한다. 이번에 선택한 ν와 같은 구형 응답을 내도록 μ를 역으로 구성한다. 구형 밖에서는 QUMOND와 AQUAL을 동일한 방정식으로 취급하지 않는다. 식 (7)은 4차원 공변 작용의 완성이 아니다.
+
+$$F[Y(y)]=\int_0^y2q\frac{dx}{dq}\,dq,\qquad
+\frac{dx}{dy}=\frac{1-e^{-s}-(s/2)e^{-s}}{(1-e^{-s})^2}>0,
+\quad s=\sqrt y>0. \tag{9}$$
+
+양의성은 eˢ>1+s/2에서 따른다. 정적 변분의 횡방향 고유값 μ와 종방향 고유값 d(μx)/dx=dy/dx는 x>0에서 양수다. 코드의 수치 미분은 dF/dY=μ를 최대 상대오차 4.11×10⁻¹⁰ 이내로 재현했다. g=0에서는 방정식이 퇴화하므로 엄격한 타원성 검사는 중심을 제외한다. 이 결과를 공변 모형 전체의 안정성이나 인과성 증명으로 확장하지 않는다.
+
+## 유한 구형 계산과 암흑질량 장부
+
+구형 시험 원천은 총 바리온 질량 6×10¹⁰ 태양질량, Plummer 척도 b=3 kpc다. 실제 우리 은하의 모형과 구별되는 재현용 입력이다. 계산 패치는 반경 200 kpc로 선언한다.
+
+$$M_b(<r)=M\frac{r^3}{(r^2+b^2)^{3/2}},\qquad
+g_M=\frac{GM_b(<r)}{r^2},\qquad v_c^2=rg. \tag{10}$$
+
+$$M_{T,\mathrm{eff}}(<r)=\frac{r^2g_T}{G},\qquad
+\rho_{T,\mathrm{eff}}=\frac{1}{4\pi r^2}\frac{dM_{T,\mathrm{eff}}}{dr}. \tag{11}$$
+
+식 (11)은 같은 기하의 추가 효과를 뉴턴식 질량으로 환산한 장부다. 양자화된 암흑입자의 개수나 물질 정지질량을 뜻하지 않는다. 국소 미시 뒤틀림률 κ(r)을 식 (11)에서 직접 측정한 것처럼 보고하지 않는다.
+
+@@SPHERE@@
+
+낮은 가속도에서는 g≈√(a_Tg_M)와 v_f⁴=GMa_T를 얻는다. 시험 원천의 깊은 영역 속도척도는 175.5177 km/s다. 100 kpc의 속도가 이 값보다 조금 큰 것은 고정된 전이응답의 효과다. 0.01∼200 kpc 패치에서 유효 응력밀도는 음수가 되지 않았고, 구형 플럭스 보존의 최대 상대오차는 3.42×10⁻¹⁶이었다. 패치 밖 전역 응력 및 유한 우주의 접합조건은 이번 계산에서 정하지 않는다.
+
+## 같은 기하의 조건부 렌즈 계산
+
+개별 응력 논문의 조건 Φ=Ψ를 사용해 같은 퍼텐셜의 광선 편향을 계산한다. 이는 공변 완성에서 확인해야 하는 조건이다.
+
+$$\widehat\alpha_R(b)=\frac{2}{c^2}\int_{-\sqrt{R^2-b^2}}^{\sqrt{R^2-b^2}}
+g(\sqrt{b^2+z^2})\frac{b}{\sqrt{b^2+z^2}}\,dz. \tag{12}$$
+
+@@LENS@@
+
+표는 200 kpc 패치 내부에서 누적된 물리 편향각이다. 패치 밖 기하, 관측자와 렌즈와 광원의 거리인자, 실제 관측 영상각은 포함하지 않는다. 새로운 렌즈 전용 응력이나 별도의 정규화는 사용하지 않았다. 따라서 동일한 정적 응답에서 운동과 빛의 출력이 함께 계산된다는 조건부 결과를 얻는다. 관측 렌즈 적합과 중력 slip의 공변 유도는 아직 별도 과제다.
+
+## 개별 우리 은하 논문의 계산 재현
+
+별원반 35.66×10⁹ 및 11.25×10⁹ 태양질량과 척도 2.53 및 3.38 kpc, HI와 H₂ 원반 11.0×10⁹ 및 1.2×10⁹ 태양질량과 척도 7.0 및 1.5 kpc, 팽대부 9.13×10⁹ 태양질량과 Hernquist 척도 0.70 kpc를 그대로 사용한다. 지수원반의 수정 Bessel 함수 계산 및 팽대부의 직접 속도제곱을 합한 뒤 식 (6)을 적용했다.
+
+@@DISK@@
+
+8∼25 kpc에서 Eilers의 선형화 기준 229−1.7(R−8.2) km/s와 비교한 RMS는 2.41784 km/s다. 이는 이전 논문의 2.42 km/s를 재현한다. 이 비교는 실제 개별 관측자료점과 공분산을 사용한 likelihood가 아니다. 또한 원반 계산은 이전의 대수적 Renderer 근사이며, 이번 구형 변분식의 3차원 원반 해를 풀었다고 분류하지 않는다.
+
+![구형 시험모형과 기존 우리 은하 Renderer의 회전속도](results/rotation.png){width=6.4in}
+
+무방향 평면은 P=I−nnᵀ로 이어받는다. n을 −n으로 바꾸어도 P가 같고 P²=P다. 코드의 부호 불변 결함은 0, 투영 결함은 5.56×10⁻¹⁷ 이하다. 이 평면장은 회전 방향이나 각운동량을 정의하지 않는다. 방향 응력 q_T가 아직 고정되지 않아 수직 두께나 복원력을 이번 버전에서 산출하지 않는다.
+
+## 공통전달자의 실제 시험과 선택 경계
+
+0.4의 다음 계산을 가장 단순한 동질 전달자에서 수행했다. 같은 주 수송 골격과 주기적 내부 모형을 가진 16개 채널을 두고, 내부 순환격자의 라플라시안 고유값 4sin²(πj/N)을 사용했다. N=128, 선언한 다섯 주파수의 양의 Green 함수 강도를 평균해 각 채널의 스칼라 서명을 추출한다. 채널별 하위차수 연산자는 이 시험에서 동일하게 둔다.
+
+동일한 전달자에 직교 채널 주입을 사용하면 수송 그람 연산자는 양의 상수배 I₁₆이며 정규화 후 랭크는 16, 최소 고유값은 1, 중성 채널 수송 노름제곱도 1이다. 그러나 게이지 불변 스칼라 응답 여덟 개는 모두 같다. 0.4의 불일치제곱 점수로 계산하면 다음을 얻는다.
+
+$$\Delta_L=0,\qquad\Delta_R=0,\qquad
+S(F_{DX})=S(F_{XX})=S(F_{DD})=S(F_{XD})=0. \tag{13}$$
+
+따라서 이 동질 시험은 수송 조건을 통과하지만 목표 필터를 유일하게 선택하지 못한다. 이는 고정한 시험모형에 대한 정확한 음성 결과이며 전체 WRRA-M의 불가능성 정리가 아니다. 다음 선택 계산에는 채널 기원과 잔여가 실제로 만드는 하위차수 응답 차이가 필요하다. 수송 랭크를 확보한 것과 양의 선택 격차를 얻은 것은 별개의 결과다. 또한 게이지 중성인 열여섯 번째 채널을 표현형 이전 응력 부문과 자동 동일시하지 않는다.
+
+## 보정값 변경과 반증조건
+
+구성비는 parameters.json의 입력이며 실행 중에 고칠 수 있다. 예시 변경을 적용한 결과는 다음과 같다.
+
+@@SENSITIVITY@@
+
+모이는 응력 부문 f_T를 바꾸면 a_T와 속도척도가 함께 바뀐다. f_Φ만 바꾸면 전체 숨은 비율 및 평균 원천비가 바뀌고, f_T를 고정한 국소 가속도척도는 유지된다. 따라서 약 5%와 약 95%를 구조상 불변 상수로 만들지 않았다.
+
+이번 계산을 기각하거나 수정해야 하는 조건은 다음과 같다. 선언한 전달자의 그람 양의성이나 전체 수송 랭크가 깨지면 수송 가지가 실패한다. 양의 선택 격차를 주장했는데 실제 격차가 0 이하이면 그 선택 주장이 실패한다. 구성응답의 정적 고유값이 음수가 되거나 구형 보존식이 깨지면 정적 구현이 실패한다. 동일한 기하로 운동과 렌즈를 함께 설명하지 못하면 현재 slip 조건이나 응력 법칙을 수정해야 한다. 전역 동역학이 팽창과 뒤틀림의 공존 또는 총 보존과 양립하지 못하면 해당 후속 완성이 실패한다.
+
+알려진 관측으로 모형을 수정하는 것은 허용한다. 수정한 입력과 구성법칙 및 버전을 기록하고 새 모형의 산출값을 다시 판정한다. 계산되지 않은 외부 이론을 통합으로 부르지 않는다. 이 버전에서 실행한 항목은 코드와 결과 장부에 기록하고 공변 작용, 물질과 고전 기하의 혼합 갱신, 전역 경계 동역학, 수직 응력은 다음 항목으로 남긴다.
+
+## 주장 장부와 종료선
+
+| 주장 | 지위 | 이번 근거 |
+| --- | --- | --- |
+| 질량의 내부 모드 이산성 | 지정 모형의 정확한 결과 | 주기 경계와 정수 모드 |
+| 중력의 근본 비양자 지위 | B_C 모형 전제 | 이번 가지의 선택 |
+| 팽창과 뒤틀림의 공존 | 보존한 구조 가정 | 식 (3) |
+| 뒤틀림 가속도척도 | 보정 후 WRRA 산출 | 식 (4)와 (5) |
+| 구성응답의 정적 작용 및 양의성 | 조건부 구성과 계산 | 식 (7)에서 (9) |
+| 구형 응력질량과 회전속도 | 유한 모형 산출 | 식 (10)과 (11) |
+| 유한 패치 렌즈 편향 | 무슬립 조건부 산출 | 식 (12) |
+| 기존 우리 은하 속도 재현 | 보정 모형의 재현 | RMS 2.41784 km/s |
+| 동질 전달자의 목표 선택 | 이 시험에서 미성립 | 두 격차 0 |
+| 전달자에서 응력법칙의 미시 유도 | 미해결 | 하위차수 응답 및 연결법칙 필요 |
+
+0.5의 종료선은 B_C의 양자화 지위를 고정하고, 실제 계산으로 뒤틀림 응력의 추가 중력과 유효 질량 및 조건부 광선 효과를 내며, 단순 전달자의 필터 선택 결과까지 공개하는 것이다. 이번 유한 계산은 이 종료선까지 수행했다. 구조의 고유성은 새 숫자만이 아니라 이산 질량과 연속 기하, 물질 출력과 상류 응력, 운동과 광선의 공통 수송을 연결하는 방법에서 평가한다. 미시 필터 선택 및 완전 공변 통합은 이번 결과와 분리해 후속 계산으로 기록한다.
+
+## 참고문헌과 재현 자료
+
+1. 최원식. 최소계산우주론 2.3.2 통합모형. 2026. 현재 원문의 7.1에서 7.5 및 제6부. https://doi.org/10.5281/zenodo.22733000
+2. 최원식. 뒤틀림 응력 우주와 암흑물질의 질량 표현형. v1.0. 2026년 9월 11일. https://doi.org/10.5281/zenodo.22700557
+3. 최원식. 질량중력과 공간 뒤틀림 응력 중력의 이중 성분 모형. v0.4. 2026년 9월 27일. 현재 개별 원문을 기준으로 사용.
+4. 최원식. WRRA 공간 뒤틀림의 은하 원반면 선택과 암흑질량 표현형. v1.0. 2026년 9월 27일. https://doi.org/10.5281/zenodo.23003875
+5. Choi W. WRRA Causal Horizons and Finite Universe. v1.1. 2026년 9월 24일. 5.3.3절 B_C. https://doi.org/10.5281/zenodo.22931512
+6. Choi W. WRRA Finite Boundaryless Universe. v1.0. 2026년 9월 28일. 현재 개별 원문을 기준으로 사용.
+7. 최원식. WRRA-M 0.4 필터 적합성의 공통전달자 계량 기원. 2026년 10월 1일. 현재 한글 원문.
+8. Bekenstein J and Milgrom M. Does the missing mass problem signal the breakdown of Newtonian gravity. Astrophysical Journal 286 7 to 14. 1984. https://doi.org/10.1086/162570
+9. Milgrom M. Quasi linear formulation of MOND. MNRAS 403 886. 2010. https://doi.org/10.1111/j.1365-2966.2009.16184.x
+10. McMillan PJ. The mass distribution and gravitational potential of the Milky Way. MNRAS 465 76. 2017. https://doi.org/10.1093/mnras/stw2759
+11. Eilers AC and colleagues. The Circular Velocity Curve of the Milky Way from 5 to 25 kpc. ApJ 871 120. 2019. https://doi.org/10.3847/1538-4357/aaf648
+
+재현 패키지의 compute.py는 parameters.json을 읽어 질량 모드, 전달자 응답, 구형 응력, 유한 패치 렌즈 및 우리 은하 속도를 계산한다. results.json에는 입력과 결과 및 검산을 함께 기록했다. source.md는 이 문서의 수식 원본이다. 필요한 패키지는 numpy scipy matplotlib이다.
+
+Copyright 2026 Wonsik Choi. 본문과 계산 자료는 CC BY 4.0으로 배포한다.
+'''
+text=text.replace('@@SPHERE@@',sphere).replace('@@LENS@@',lens).replace('@@DISK@@',disk).replace('@@SENSITIVITY@@',sensitivity)
+new_section=r'''## 표현형 이전 정보와 닫힌 우주의 연결
+
+상류 가설을 다음과 같이 고정한다. 표현형으로 출력되지 않은 정보의 물리적 부하가 뒤틀림을 결정하고, 전역 접합이 그 뒤틀림을 보존하여 유한하지만 경계 없는 우주를 구성한다. 이때 정보의 개수에서 물리적 부하로 가는 변환이 필요하다. 현재 단계에서는 각 정보 상태에 에너지 가중치를 부여한 E_pre를 사용한다.
+
+$$E_{\rm pre}=\sum_a w_a I_a,\qquad u_{\rm pre}=\frac{E_{\rm pre}}{V},\qquad
+\zeta\kappa_{\rm tot}^2=\frac{16\pi G}{c^4}\frac{E_{\rm pre}}{V}. \tag{14}$$
+
+w_a는 정보 상태를 에너지 부하로 바꾸는 모형의 가중치다. 이 변환을 고정한 뒤 남은 정보량은 꼬임률을 계산하는 입력이 된다. 따라서 고정 부피와 강성에서는 κ_tot²가 E_pre에 비례한다. 임의의 정보 비트 하나에 보편적 정지질량을 부여하는 식은 사용하지 않는다.
+
+전역 접합의 한 구성 가능성 모형으로 세 방향을 주기 접합한 T³를 사용할 수 있다. 이 모형은 하나의 공통 Source에 대한 모든 국소 패치를 동등하게 취급한다. 정적 대표 길이 L인 세 폐곡선의 뒤틀림 기록을 Θ_i=κ_i L로 두면 다음 관계가 성립한다.
+
+$$V=L^3,\quad Q=\sum_{i=1}^3\Theta_i^2>0,\quad
+E_{\rm pre}=\frac{\zeta c^4 Q}{16\pi G}L,\quad
+L=\frac{16\pi G E_{\rm pre}}{\zeta c^4 Q}. \tag{15}$$
+
+유한한 E_pre와 양의 강성 및 고정된 비영 접합 기록 아래에서 L과 부피는 유한하고 T³의 경계는 없다. 식 (15)는 선택한 접합 모형의 정확한 대수 관계다. 이 계산은 정보 부하에서 꼬임을 거쳐 닫힌 기하로 가는 하나의 가능한 구현을 제공한다. 모든 뒤틀림이 자동으로 T³를 선택한다는 정리나 실제 우주의 위상을 측정한 결과로 분류하지 않는다. 시간에 따른 L의 변화는 팽창 변수와 연결할 수 있지만 그 진화방정식은 이번에 계산하지 않는다.
+
+정보가 늘면 꼬임이 반드시 커진다는 단일 방향 관계도 강제하지 않는다. 고정 부피에서는 꼬임률이 커지지만, 접합 기록을 고정하고 부피까지 함께 바꾸면 식 (15)에 따라 길이도 달라진다. ζ와 Θ_i 및 정보 가중치가 미확정이므로 실제 우주의 길이를 단일 숫자로 확정하지 않는다.
+
+국소 모이는 응력 f_T와 남은 전체 부하 f_pre를 구분하면 기존 개별 논문의 국소 척도를 보존하면서 새로운 상류 가설을 넣을 수 있다. 동일한 이차 부하 사상을 전체 숨은 부문으로 확장한다는 추가 가정에서, 이번 보정 f_pre=0.9507은 정규화 지수 √(6f_pre)=2.388347를 준다. 이는 실제 각도가 아니라 전체 부하에 대한 지수다. 국소 추가 인력 척도는 여전히 f_T=0.265로 계산한다.
+
+'''
+text=text.replace('## 현재 우주의 뒤틀림 정규화',new_section+'## 현재 우주의 뒤틀림 정규화')
+text=text.replace(r'\rm pre',r'\mathrm{pre}').replace(r'\rm tot',r'\mathrm{tot}')
+text=text.replace('2.388347',f"{(6*(1-D['inputs']['fraction_phenotype']))**0.5:.6f}")
+ordered_tags=re.findall(r'\\tag\{(\d+)\}',text)
+renumber={old:str(i+1) for i,old in enumerate(ordered_tags)}
+def renumber_equation(match):
+    if match.group(1):
+        return '\\tag{'+renumber[match.group(1)]+'}'
+    return '('+renumber.get(match.group(2),match.group(2))+')'
+text=re.sub(r'\\tag\{(\d+)\}|\((\d+)\)',renumber_equation,text)
+source=ROOT/'source.md';source.write_text(text)
+docx=OUT/(stem+'.docx')
+subprocess.run(['pandoc',str(source),'-o',str(docx),'--resource-path',str(ROOT)],check=True,cwd=ROOT)
+doc=Document(docx)
+for name in ['Normal','Body Text','First Paragraph','Title','Subtitle','Heading 1','Heading 2','Heading 3','Caption']:
+    if name not in doc.styles:
+        st=doc.styles.add_style(name,WD_STYLE_TYPE.PARAGRAPH)
+        st.base_style=doc.styles['Normal']
+section=doc.sections[0]
+section.page_width=Inches(8.5);section.page_height=Inches(11)
+section.top_margin=section.bottom_margin=Inches(.72)
+section.left_margin=section.right_margin=Inches(.78)
+for name in ['Normal','Body Text','First Paragraph','Title','Subtitle','Heading 1','Heading 2','Heading 3','Table','Caption']:
+    if name not in doc.styles:continue
+    st=doc.styles[name];st.font.name='Noto Sans KR';st.font.size=Pt(11)
+    st.font.color.rgb=RGBColor(0,0,0)
+    rpr=st.element.get_or_add_rPr();rf=rpr.find(qn('w:rFonts'))
+    if rf is None:rf=OxmlElement('w:rFonts');rpr.append(rf)
+    rf.set(qn('w:eastAsia'),'Noto Sans KR')
+    st.paragraph_format.space_after=Pt(7)
+    st.paragraph_format.line_spacing=1.15
+doc.styles['Title'].font.size=Pt(21)
+doc.styles['Heading 1'].font.size=Pt(18)
+doc.styles['Heading 2'].font.size=Pt(14)
+doc.styles['Heading 2'].paragraph_format.space_before=Pt(14)
+for stname in ['Heading 1','Heading 2','Heading 3']:
+    doc.styles[stname].paragraph_format.keep_with_next=True
+for p in doc.paragraphs:
+    p.paragraph_format.first_line_indent=Inches(0)
+    p.alignment=WD_ALIGN_PARAGRAPH.LEFT
+    if p.style.name=='Heading 1' and p.text.startswith('WRRA M'):
+        p.style=doc.styles['Title']
+tags=re.findall(r'\\tag\{(\d+)\}',text)
+equation_paragraphs=[p for p in doc.paragraphs if p._p.xpath('.//m:oMath')]
+assert len(tags)==len(equation_paragraphs)==15
+for p,number in zip(equation_paragraphs,tags):
+    math=p._p.xpath('.//m:oMath')[-1]
+    run=OxmlElement('m:r');mrp=OxmlElement('m:rPr')
+    sty=OxmlElement('m:sty');sty.set(qn('m:val'),'p');mrp.append(sty);run.append(mrp)
+    txt=OxmlElement('m:t');txt.set(qn('xml:space'),'preserve');txt.text='   ('+number+')';run.append(txt);math.append(run)
+for t in doc.tables:
+    t.alignment=WD_TABLE_ALIGNMENT.CENTER;t.autofit=False
+    tpr=t._tbl.tblPr
+    borders=OxmlElement('w:tblBorders')
+    for tag in ['top','left','bottom','right','insideH','insideV']:
+        e=OxmlElement('w:'+tag);e.set(qn('w:val'),'single');e.set(qn('w:sz'),'4');e.set(qn('w:color'),'D9D9D9');borders.append(e)
+    tpr.append(borders)
+    for ri,row in enumerate(t.rows):
+        rowpr=row._tr.get_or_add_trPr()
+        if ri==0:
+            repeat=OxmlElement('w:tblHeader');rowpr.append(repeat)
+        for ci,cell in enumerate(row.cells):
+            cell.vertical_alignment=WD_CELL_VERTICAL_ALIGNMENT.CENTER
+            tcp=cell._tc.get_or_add_tcPr();shd=OxmlElement('w:shd')
+            shd.set(qn('w:fill'),'E5EBF0' if ri==0 else ('F7F8FA' if ri%2==0 else 'FFFFFF'));tcp.append(shd)
+            margins=OxmlElement('w:tcMar')
+            for side in ['top','left','bottom','right']:
+                e=OxmlElement('w:'+side);e.set(qn('w:w'),'90');e.set(qn('w:type'),'dxa');margins.append(e)
+            tcp.append(margins)
+            for p in cell.paragraphs:
+                p.paragraph_format.space_after=Pt(3);p.paragraph_format.space_before=Pt(3)
+                p.paragraph_format.line_spacing=1.1
+                p.alignment=WD_ALIGN_PARAGRAPH.LEFT if ci==0 else WD_ALIGN_PARAGRAPH.CENTER
+                for run in p.runs:run.font.size=Pt(9.5);run.bold=ri==0
+    if len(t.columns)==2:
+        t.columns[0].width=Inches(1.10)
+        t.columns[1].width=Inches(5.84)
+        for col,w in zip(t._tbl.tblGrid.gridCol_lst,[1.10,5.84]):col.set(qn('w:w'),str(round(w*1440)))
+        for cell in t.columns[0].cells:cell.width=Inches(1.10)
+        for cell in t.columns[1].cells:cell.width=Inches(5.84)
+footer=section.footer.paragraphs[0];footer.alignment=WD_ALIGN_PARAGRAPH.RIGHT
+field=OxmlElement('w:fldSimple');field.set(qn('w:instr'),'PAGE');footer._p.append(field)
+doc.core_properties.author='Wonsik Choi'
+doc.core_properties.title='WRRA-M 0.5 Quantized Mass and Continuous Gravity in a Finite Twist Model'
+doc.core_properties.subject='B_C finite calculations with calibrated twist response'
+doc.save(docx)
+print(docx)

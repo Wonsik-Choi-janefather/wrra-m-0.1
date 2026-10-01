@@ -1,8 +1,8 @@
 {
-  "title": "WRRA-M 0.3: Source-Law Filter Selection",
+  "title": "WRRA-M 0.5: Quantized Mass and Continuous Gravity in a Finite Twist Model",
   "upload_type": "publication",
   "publication_type": "preprint",
-  "description": "<p><strong>English.</strong> WRRA-M 0.3 defines a four-filter admissible class that preserves the sixteen-channel space and common color action of version 0.2. Source supplies two scalar compatibility tables and Law scores each filter by summing the entries selected by its left and right matchings. Two selection gaps give a necessary and sufficient criterion: the version 0.2 cross filter is the unique maximizer exactly when both gaps are positive. A constant-score replicator flow then converges to the target from every interior initial condition, with an explicit exponential bound. The selection survives entrywise score perturbations of size rho when the smaller gap exceeds four rho. The numerical compatibility values and their physical origin are not derived.</p><p><strong>한국어.</strong> WRRA-M 0.3은 0.2의 16채널 공간과 공통 색 작용을 보존하는 네 필터 허용집합을 정의한다. 소스는 두 개의 스칼라 적합도 표를 제공하고, 법칙은 왼쪽과 오른쪽 짝지음이 선택한 항을 합산해 필터 점수를 정한다. 두 선택 간극은 필요충분조건을 준다. 두 간극이 모두 양수일 때 그리고 그때에만 0.2의 교차필터가 유일한 최대점수 필터다. 상수점수 복제자 흐름은 모든 내부 초기조건에서 목표로 수렴하며 명시적인 지수 상계를 갖는다. 작은 간극이 4 rho보다 크면 각 점수 항에 rho 이하의 섭동이 생겨도 같은 선택이 유지된다. 수치 적합도 값과 그 물리적 기원은 도출하지 않았다.</p>",
+  "description": "<p><strong>English.</strong> WRRA-M 0.5 separates quantized mass phenotypes from the upstream continuous geometric response in the B_C model branch. Expansion and twist coexist, while the executed sector is static twist stress. A calibrated response from the earlier WRRA Galactic Disk paper is actually evaluated for finite spherical motion, effective stress mass, and conditional lensing. The earlier Milky Way algebraic calculation is reproduced, and a homogeneous sixteen-channel carrier passes transport rank conditions while producing zero filter-selection gaps. Hidden energy-weighted information load is linked to twist and a conditional finite, boundaryless T3 gluing example. Editable calibrations and reproducible calculations are supplied.</p><p><strong>한국어.</strong> 질량은 표현형, 중력은 표현형 이전이라는 B_C 가지에서 팽창과 뒤틀림의 공존을 보존하며 현재의 정적 뒤틀림 응력을 계산한다. 기존 구성응답을 실제 WRRA 계산에 넣어 구형 운동·유효 응력질량·조건부 렌즈를 산출하고 우리은하 계산을 재현한다. 동질 16채널 전달자는 수송 조건을 통과하지만 두 선택 격차는 0이다. 정보 부하와 유한·무경계 공간의 조건부 접합 구성을 포함한다.</p>",
   "creators": [
     {
       "name": "Choi, Wonsik",
@@ -12,18 +12,19 @@
   ],
   "access_right": "open",
   "license": "cc-by-4.0",
-  "language": "eng",
+  "language": "kor",
   "keywords": [
     "WRRA",
     "Wonsik Reality Renderer Architecture",
-    "meta-dimensional",
-    "Source and Law",
-    "cross-dimensional filter",
+    "mass quantization",
+    "continuous gravity",
+    "twist stress",
+    "dark matter",
+    "finite boundaryless universe",
+    "common carrier",
     "filter selection",
-    "selection gap",
-    "replicator dynamics",
-    "convergence",
-    "perturbation stability",
-    "Pati-Salam"
-  ]
+    "conditional lensing"
+  ],
+  "version": "0.5"
 }
+

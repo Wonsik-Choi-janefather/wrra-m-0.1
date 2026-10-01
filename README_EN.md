@@ -1,3 +1,48 @@
+# WRRA-M 0.5 English Overview
+
+**Quantized Mass and Continuous Gravity in a Finite Twist Model**
+
+Wonsik Choi · 2026-10-01 · ORCID [0009-0001-4263-9772](https://orcid.org/0009-0001-4263-9772) · [janefather@gmail.com](mailto:janefather@gmail.com)
+
+## Verification input → WRRA-specific transformation → Output → Falsification condition
+
+| Stage | Version 0.5 |
+| --- | --- |
+| Verification input | Minimal Computation Cosmology 2.3.2, the 0.4 carrier criterion, the constitutive response actually adopted in the earlier WRRA Galactic Disk paper, and editable observed calibrations. |
+| WRRA-specific transformation | Distinguish discrete mass phenotypes from the upstream continuous geometric response; evaluate the same frozen twist response for motion and conditional lensing; evaluate a declared homogeneous 16-channel carrier. |
+| Output | Transition scale 1.191812669 × 10⁻¹⁰ m/s²; finite spherical stress and rotation; conditional 200 kpc lens contribution; reproduction of the earlier Milky Way algebraic calculation with RMS 2.41784 km/s against its linearized Eilers reference; full transport rank 16 and both selection gaps zero. |
+| Falsification condition | Loss of transport positivity or rank, failure of an asserted positive gap, negative static constitutive eigenvalues, or inconsistent motion and lensing in the same geometry require rejection or revision of the corresponding claim. |
+
+## Scope and result
+
+Version 0.5 selects the B_C branch as a model premise: mass may be quantized as a phenotype, while gravity has no fundamental quantum degree of freedom in this branch. This is not presented as a universal experimental or mathematical proof of nonquantization.
+
+Expansion and twist coexist in the architecture. The executed sector is present static twist stress; cosmological expansion dynamics remain a subsequent calculation. The hidden energy-weighted information load is connected to twist through a quadratic stress relation. A declared T³ gluing example gives a conditional finite, boundaryless construction; it does not determine the actual cosmic topology or size.
+
+The constitutive response is calibrated, explicitly evaluated inside this WRRA calculation, and not claimed to be uniquely derived from the microscopic carrier. The homogeneous carrier passes the transport conditions but does not uniquely select the target filter: ΔL = ΔR = 0. The carrier-specific response differences needed for positive selection remain unresolved.
+
+The phenotype and hidden fractions are editable estimates rather than immutable 5/95 laws. The code distinguishes the whole hidden fraction from the clustering-stress fraction used for the local acceleration scale.
+
+## Files and reproduction
+
+- [Korean PDF](paper/WRRA_M_0_5_KO.pdf) · [Korean DOCX](paper/WRRA_M_0_5_KO.docx)
+- [Korean Markdown source](paper/WRRA_M_0_5_KO.md)
+- [Complete reproduction ZIP](paper/WRRA_M_0_5_Reproducibility.zip)
+- [Calculation directory](calculations/wrra_m_0_5) · [Recorded results](calculations/wrra_m_0_5/results/results.json)
+
+An English paper translation is not included in this version.
+
+```bash
+python -m pip install -r calculations/wrra_m_0_5/requirements.txt
+python calculations/wrra_m_0_5/compute.py --out calculations/wrra_m_0_5/results
+```
+
+The lens output is conditional on Φ = Ψ and includes only the declared 200 kpc patch. The Milky Way RMS is a comparison with the earlier linearized reference, not a new fit to individual observations. A covariant completion and a quantum-matter/classical-geometry update law are not supplied.
+
+CC BY 4.0. Earlier versions 0.1–0.4 remain available.
+
+---
+
 # WRRA-M 0.4 English Overview
 
 ## Research decision
@@ -62,7 +107,7 @@ The 0.4 bridge fails if the neutral channel is transport-null, the causal cone b
 
 ## Exact boundary
 
-The finite witness proves constructibility only. Version 0.4 does not calculate physical response signatures from a microscopic carrier and does not claim that nature supplies the required positive alignments. That numerical carrier calculation is reserved for 0.5 or later.
+The finite witness proves constructibility only. Version 0.4 does not calculate physical response signatures from a microscopic carrier and does not claim that nature supplies the required positive alignments. Version 0.5 executes a homogeneous carrier calculation and finds zero selection gaps; a microscopic positive-selection response remains open.
 
 ## Files
 
@@ -79,3 +124,4 @@ The finite witness proves constructibility only. Version 0.4 does not calculate 
 ## Identity
 
 Wonsik Choi · ORCID [0009-0001-4263-9772](https://orcid.org/0009-0001-4263-9772) · [janefather@gmail.com](mailto:janefather@gmail.com)
+
