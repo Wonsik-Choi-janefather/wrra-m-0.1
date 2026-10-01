@@ -1,0 +1,27 @@
+{
+  "status": "declared arithmetic proxy with alpha>1",
+  "limits": [
+    {
+      "alpha": 2.0,
+      "zeta": 1.6449340668482266,
+      "prime_zeta": 0.4522474200410657,
+      "odd_composite_fraction": 0.04876952809891832,
+      "even_composite_fraction": 0.25,
+      "prime_fraction": 0.7012304719010817
+    },
+    {
+      "alpha": 1.9,
+      "zeta": 1.7497464351250611,
+      "prime_zeta": 0.5055632238135221,
+      "odd_composite_fraction": 0.05774436007122875,
+      "even_composite_fraction": 0.2679433656340733,
+      "prime_fraction": 0.6743122742946979
+    }
+  ],
+  "alpha_for_even_target_in_infinite_limit": 1.8996950942043145,
+  "checks": {
+    "prime_zeta_40_vs_80": true,
+    "alpha2_partition": true
+  },
+  "scope": "No topology, particle constants, zeta-zero dynamics or pressure is calculated."
+}

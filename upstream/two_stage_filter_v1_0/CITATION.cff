@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this upper-structure hypothesis separately from the WRRA-M downstream series."
+type: article
+title: "WRRA-M Upper Structure Two-Stage Dimensional Filter Hypothesis"
+version: "1.0"
+date-released: "2026-10-01"
+authors:
+  - family-names: "Choi"
+    given-names: "Wonsik"
+    orcid: "https://orcid.org/0009-0001-4263-9772"
+url: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/tree/main/upstream/two_stage_filter_v1_0"
+license: CC-BY-4.0

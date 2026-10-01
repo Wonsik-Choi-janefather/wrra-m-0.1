@@ -10,6 +10,16 @@ Latest Zenodo archive: **WRRA-M 0.6-r2**.
 
 WRRA-M continues WRRA Core 1.0 and Minimal Computation Cosmology 2.3.2.
 
+## Upper structure hypothesis 1.0 · 상위 구조 가설 1.0
+
+초기 진입과 정상 0차원 복귀라는 **두 단계 차원필터**로 접힘 상태의 잔존을 구성하는 상류 가설이다. **5%·26.8%·68.2%** 공동 보정 장부와 프레임 갱신에 따른 시간·양자화 가설을 담았다. 지수 2의 고정 시험에서는 **4.8769%** 산술적 잔존율을 계산했다.
+
+The upper hypothesis constructs residue through initial admission and normalized return. It includes the common calibrated partition and the frame-update hypothesis, together with the interfaces for particle constants and physical loads.
+
+- [상류 가설과 재현 안내](upstream/two_stage_filter_v1_0)
+- [한국어 PDF](upstream/two_stage_filter_v1_0/paper/WRRA_M_Upper_Two_Stage_Filter_Hypothesis_v1_0_KO_2026_10_01.pdf) · [Word](upstream/two_stage_filter_v1_0/paper/WRRA_M_Upper_Two_Stage_Filter_Hypothesis_v1_0_KO_2026_10_01.docx) · [GitHub 원고](upstream/two_stage_filter_v1_0/manuscript_KO.md)
+- [전체 재현 ZIP](upstream/two_stage_filter_v1_0/paper/WRRA_M_Upper_Two_Stage_Filter_Hypothesis_v1_0_Reproducibility_2026_10_01.zip) · [계산 장부](upstream/two_stage_filter_v1_0/code/results_26_8.json)
+
 ## Completed 0.7 · 0.7 완료
 
 Version 0.7 fixes the common definitions of Actual, quantization, phenotype, residue and physical records. A positive additive **energy-weighted information-load measure** reproduces the 4.93% phenotype and 95.07% hidden reference, recalculates shares for changed states and scale, and bridges to the same 0.6-r2 energy, pressure, gravity and expansion calculations. The shares are allocation weights; measurement outcome probabilities and particle/filter selection are the subsequent development stages.
@@ -199,4 +209,5 @@ Citation metadata is provided in [`CITATION.cff`](CITATION.cff). The papers and 
 The 0.5 titles and claim ledger now foreground information load and twist gravity. Its local calculation uses 26.5% of the whole universe within the hidden total of 95.07%. The zero-phenotype input executes with undefined ratios recorded as null; the radius response ratio is evaluated numerically. The original scientific outputs reproduce unchanged.
 
 [0.6 start, Korean](calculations/wrra_m_0_6_start/README_KO.md) · [0.6 start, English](calculations/wrra_m_0_6_start/README_EN.md) · [Start reproducibility archive](calculations/wrra_m_0_6_start/WRRA_M_0_6_Start_Reproducibility.zip). These files preserve the initial prototype. The completed finite homogeneous model and bilingual paper are provided above.
+
 
