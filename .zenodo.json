@@ -1,8 +1,8 @@
 {
-  "title": "WRRA-M 0.5: Information Load and Twist Gravity in a Finite Model",
+  "title": "WRRA-M 0.6: Information Load and Twist Gravity with Expansion in a Finite Model",
   "upload_type": "publication",
   "publication_type": "preprint",
-  "description": "<p><strong>English.</strong> WRRA-M 0.5 foregrounds information load and twist gravity while separating mass phenotypes from the upstream continuous geometric response in the B_C model branch. Expansion and twist coexist, while the executed sector is static twist stress. A calibrated response from the earlier WRRA Galactic Disk paper is actually evaluated for finite spherical motion, effective stress mass, and conditional lensing. The earlier Milky Way algebraic calculation is reproduced, and a homogeneous sixteen-channel carrier passes transport rank conditions while producing zero filter-selection gaps. Hidden energy-weighted information load is linked to twist and a conditional finite, boundaryless T3 gluing example. Editable calibrations and reproducible calculations are supplied.</p><p><strong>한국어.</strong> 질량은 표현형, 중력은 표현형 이전이라는 B_C 가지에서 팽창과 뒤틀림의 공존을 보존하며 현재의 정적 뒤틀림 응력을 계산한다. 기존 구성응답을 실제 WRRA 계산에 넣어 구형 운동·유효 응력질량·조건부 렌즈를 산출하고 우리은하 계산을 재현한다. 동질 16채널 전달자는 수송 조건을 통과하지만 두 선택 격차는 0이다. 정보 부하와 유한·무경계 공간의 조건부 접합 구성을 포함한다.</p><p>The 0.5 information-load map is a constitutive hypothesis; individual state weights are not computed in this version. Local outputs use the clustering subset, 26.5% of the whole universe, within the hidden total 95.07%. Zero-phenotype inputs and the radius-response calculation have been corrected.</p>",
+  "description": "<p>WRRA-M 0.6 completes a finite homogeneous constitutive model connecting positive information-state loads to twist, pressure and expansion through one energy functional and classical homogeneous action. A declared unitary state update conserves total energy with volume work and permits cancelling internal exchange between two load sectors. The same clustering load enters the inherited calibrated local rotation and conditional lensing response, reproducing corrected 0.5 outputs. A chosen finite boundaryless T3 construction relates energy and twist records without identifying actual cosmic topology or length. Energy homogeneity exponents, load operators and information clock remain disclosed constitutive choices. A unique microscopic origin, four-dimensional covariant local completion and spatial perturbation stability remain open. The symmetric sixteen-channel carrier retains zero filter-selection gaps. Korean and English manuscripts, code and independent numerical checks are provided.</p><p>한국어와 영문 원고는 같은 수식과 수치 장부를 사용한다. 상태별 부하에서 압력·동역학까지 계산한 유한 동질 구성 모형이며 국소 응답은 기존 보정값의 조건부 연결이다.</p>",
   "creators": [
     {
       "name": "Choi, Wonsik",
@@ -23,7 +23,11 @@
     "finite boundaryless universe",
     "common carrier",
     "filter selection",
-    "conditional lensing"
+    "conditional lensing",
+    "information load",
+    "homogeneous action",
+    "energy conservation",
+    "expansion"
   ],
-  "version": "0.5"
+  "version": "0.6"
 }

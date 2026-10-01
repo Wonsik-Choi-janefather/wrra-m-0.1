@@ -1,0 +1,560 @@
+{
+  "version": "WRRA-M 0.6",
+  "status": "completed finite homogeneous constitutive model; conditional local matching",
+  "calibration": {
+    "H0_s_minus1": 2.1842852410855023e-18,
+    "ucrit_J_m3": 7.668947767821907e-10,
+    "eta_J_m3": 3.6454343214341433e-10,
+    "fp": 0.0493,
+    "fc": 0.265,
+    "fb": 0.6857,
+    "fh": 0.9507,
+    "chi": 0.2787419795939834,
+    "aT0_m_s2": 1.1918126691055912e-10
+  },
+  "operators": {
+    "N": 128,
+    "Kc_min_eigenvalue": 7.694046807819536e-16,
+    "Kb_noncommuting_min_eigenvalue": 0.0005795731733596631,
+    "Kb_noncommuting_max_eigenvalue": 9.93572000119789,
+    "uniform_Jc": 2.0,
+    "uniform_Jb": 1.9999999999999991,
+    "noncommuting_commutator_norm": 15.515151515151516,
+    "geometric_load_bound_checks": [
+      {
+        "a": 0.5,
+        "physical_load_kernel_min": -1.0585743436333783e-15,
+        "physical_load_kernel_max": 11.804775428631539,
+        "reference_load": 5.902387714315766,
+        "reference_in_state_domain": true
+      },
+      {
+        "a": 1.0,
+        "physical_load_kernel_min": 7.694046807819536e-16,
+        "physical_load_kernel_max": 4.000000000000001,
+        "reference_load": 2.0,
+        "reference_in_state_domain": true
+      },
+      {
+        "a": 2.0,
+        "physical_load_kernel_min": 1.4831882974134922e-15,
+        "physical_load_kernel_max": 3.024403071421059,
+        "reference_load": 1.5122015357105287,
+        "reference_in_state_domain": true
+      }
+    ]
+  },
+  "present_information_state_outputs": [
+    {
+      "state": "uniform",
+      "J": 2.0,
+      "trace": 1.0,
+      "snapshot": {
+        "a": 1.0,
+        "Jc": 2.0,
+        "Jb": 2.0,
+        "density_phenotype_over_ucrit": 0.0493,
+        "density_clustering_over_ucrit": 0.265,
+        "density_background_over_ucrit": 0.6857,
+        "density_total_over_ucrit": 1.0,
+        "pressure_over_ucrit": -0.6857000000000001,
+        "H_over_H0": 1.0,
+        "deceleration_q": -0.5285500000000001,
+        "hidden_density_over_reference": 1.0,
+        "hidden_comoving_energy_over_reference": 1.0,
+        "zeta_Q_over_reference": 1.0,
+        "twist_record_norm_over_reference": 1.0,
+        "twist_rate_over_reference": 1.0,
+        "aT_over_reference": 1.0,
+        "actual_hidden_fraction": 0.9507
+      },
+      "aT_m_s2": 1.1918126691055912e-10,
+      "zeta_kappa_total_squared_m_minus2": 3.028112744666204e-52,
+      "test_radius_kpc": 8.2,
+      "v_total_km_s": 207.51090512661662,
+      "v_direct_km_s": 161.45051053125528,
+      "g_additional_m_s2": 6.716518395482756e-11,
+      "finite_patch_lensing": {
+        "impact_kpc": 10.0,
+        "alpha_patch_rad": 2.5965966773641974e-06,
+        "alpha_baryon_patch_rad": 1.052265081800396e-06,
+        "alpha_twist_patch_rad": 1.5443315955638014e-06,
+        "alpha_patch_arcsec": 0.5355865105583804,
+        "quad_abs_error_rad": 2.88249109488278e-20
+      },
+      "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
+    },
+    {
+      "state": "low_mode",
+      "J": 0.15224093497742647,
+      "trace": 1.0,
+      "snapshot": {
+        "a": 1.0,
+        "Jc": 0.15224093497742647,
+        "Jb": 0.15224093497742647,
+        "density_phenotype_over_ucrit": 0.0493,
+        "density_clustering_over_ucrit": 0.02017192388450901,
+        "density_background_over_ucrit": 0.052195804557010665,
+        "density_total_over_ucrit": 0.12166772844151968,
+        "pressure_over_ucrit": -0.052195804557010665,
+        "H_over_H0": 0.3488090142778992,
+        "deceleration_q": -0.14350430338763437,
+        "hidden_density_over_reference": 0.07612046748871323,
+        "hidden_comoving_energy_over_reference": 0.07612046748871323,
+        "zeta_Q_over_reference": 0.07612046748871323,
+        "twist_record_norm_over_reference": 0.275899379282943,
+        "twist_rate_over_reference": 0.275899379282943,
+        "aT_over_reference": 0.275899379282943,
+        "actual_hidden_fraction": 0.5947980567115104
+      },
+      "aT_m_s2": 3.288203756277802e-11,
+      "zeta_kappa_total_squared_m_minus2": 2.3050135773252195e-53,
+      "test_radius_kpc": 8.2,
+      "v_total_km_s": 177.25017650459,
+      "v_direct_km_s": 161.45051053125528,
+      "g_additional_m_s2": 2.1149474719177546e-11,
+      "finite_patch_lensing": {
+        "impact_kpc": 10.0,
+        "alpha_patch_rad": 1.6861612177784496e-06,
+        "alpha_baryon_patch_rad": 1.052265081800396e-06,
+        "alpha_twist_patch_rad": 6.338961359780535e-07,
+        "alpha_patch_arcsec": 0.34779571688643995,
+        "quad_abs_error_rad": 2.3268306963421104e-20
+      },
+      "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
+    },
+    {
+      "state": "coherent_packet",
+      "J": 0.6575535026247172,
+      "trace": 0.9999999999999994,
+      "snapshot": {
+        "a": 1.0,
+        "Jc": 0.6575535026247172,
+        "Jb": 0.6575535026247172,
+        "density_phenotype_over_ucrit": 0.0493,
+        "density_clustering_over_ucrit": 0.08712583909777503,
+        "density_background_over_ucrit": 0.2254422183748843,
+        "density_total_over_ucrit": 0.3618680574726593,
+        "pressure_over_ucrit": -0.2254422183748843,
+        "H_over_H0": 0.6015547003163214,
+        "deceleration_q": -0.4344934447215643,
+        "hidden_density_over_reference": 0.3287767513123586,
+        "hidden_comoving_energy_over_reference": 0.3287767513123586,
+        "zeta_Q_over_reference": 0.3287767513123586,
+        "twist_record_norm_over_reference": 0.5733905748373953,
+        "twist_rate_over_reference": 0.5733905748373953,
+        "aT_over_reference": 0.5733905748373953,
+        "actual_hidden_fraction": 0.8637624985628226
+      },
+      "aT_m_s2": 6.833741514369453e-11,
+      "zeta_kappa_total_squared_m_minus2": 9.95573070798904e-53,
+      "test_radius_kpc": 8.2,
+      "v_total_km_s": 192.00391282209793,
+      "v_direct_km_s": 161.45051053125528,
+      "g_additional_m_s2": 4.268041187772449e-11,
+      "finite_patch_lensing": {
+        "impact_kpc": 10.0,
+        "alpha_patch_rad": 2.123981982913823e-06,
+        "alpha_baryon_patch_rad": 1.052265081800396e-06,
+        "alpha_twist_patch_rad": 1.0717169011134269e-06,
+        "alpha_patch_arcsec": 0.43810273217804324,
+        "quad_abs_error_rad": 2.559611029157378e-20
+      },
+      "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
+    },
+    {
+      "state": "high_mode",
+      "J": 3.9999999999999996,
+      "trace": 0.9999999999999999,
+      "snapshot": {
+        "a": 1.0,
+        "Jc": 3.9999999999999996,
+        "Jb": 3.9999999999999996,
+        "density_phenotype_over_ucrit": 0.0493,
+        "density_clustering_over_ucrit": 0.5299999999999999,
+        "density_background_over_ucrit": 1.3713999999999997,
+        "density_total_over_ucrit": 1.9506999999999997,
+        "pressure_over_ucrit": -1.3713999999999997,
+        "H_over_H0": 1.3966746220934922,
+        "deceleration_q": -0.5545445224791101,
+        "hidden_density_over_reference": 1.9999999999999998,
+        "hidden_comoving_energy_over_reference": 1.9999999999999998,
+        "zeta_Q_over_reference": 1.9999999999999998,
+        "twist_record_norm_over_reference": 1.414213562373095,
+        "twist_rate_over_reference": 1.414213562373095,
+        "aT_over_reference": 1.414213562373095,
+        "actual_hidden_fraction": 0.9747270210693597
+      },
+      "aT_m_s2": 1.6854776404572047e-10,
+      "zeta_kappa_total_squared_m_minus2": 6.056225489332408e-52,
+      "test_radius_kpc": 8.2,
+      "v_total_km_s": 219.2159779470782,
+      "v_direct_km_s": 161.45051053125528,
+      "g_additional_m_s2": 8.690575564891559e-11,
+      "finite_patch_lensing": {
+        "impact_kpc": 10.0,
+        "alpha_patch_rad": 2.9696242612492675e-06,
+        "alpha_baryon_patch_rad": 1.052265081800396e-06,
+        "alpha_twist_patch_rad": 1.9173591794488714e-06,
+        "alpha_patch_arcsec": 0.6125289728732569,
+        "quad_abs_error_rad": 3.2964219657483886e-20
+      },
+      "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
+    },
+    {
+      "state": "zero_mode",
+      "J": 0.0,
+      "trace": 0.9999999999999999,
+      "snapshot": {
+        "a": 1.0,
+        "Jc": 0.0,
+        "Jb": 0.0,
+        "density_phenotype_over_ucrit": 0.0493,
+        "density_clustering_over_ucrit": 0.0,
+        "density_background_over_ucrit": 0.0,
+        "density_total_over_ucrit": 0.0493,
+        "pressure_over_ucrit": -0.0,
+        "H_over_H0": 0.22203603311174516,
+        "deceleration_q": 0.5,
+        "hidden_density_over_reference": 0.0,
+        "hidden_comoving_energy_over_reference": 0.0,
+        "zeta_Q_over_reference": 0.0,
+        "twist_record_norm_over_reference": 0.0,
+        "twist_rate_over_reference": 0.0,
+        "aT_over_reference": 0.0,
+        "actual_hidden_fraction": 0.0
+      },
+      "aT_m_s2": 0.0,
+      "zeta_kappa_total_squared_m_minus2": 0.0,
+      "test_radius_kpc": 8.2,
+      "v_total_km_s": 161.45051053125528,
+      "v_direct_km_s": 161.45051053125528,
+      "g_additional_m_s2": 0.0,
+      "finite_patch_lensing": null,
+      "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
+    }
+  ],
+  "energy_homogeneity_scan": [
+    {
+      "background_energy_exponent": 0.0,
+      "derived_w_background": -0.0,
+      "q_present_uniform": 0.5
+    },
+    {
+      "background_energy_exponent": 1.0,
+      "derived_w_background": -0.3333333333333333,
+      "q_present_uniform": 0.15715
+    },
+    {
+      "background_energy_exponent": 1.5,
+      "derived_w_background": -0.5,
+      "q_present_uniform": -0.014275000000000038
+    },
+    {
+      "background_energy_exponent": 2.0,
+      "derived_w_background": -0.6666666666666666,
+      "q_present_uniform": -0.18569999999999998
+    },
+    {
+      "background_energy_exponent": 3.0,
+      "derived_w_background": -1.0,
+      "q_present_uniform": -0.5285500000000001
+    }
+  ],
+  "verification": {
+    "pressure_from_finite_volume_variation_max_relative_error": 2.8479479238656355e-11,
+    "baseline_aT_relative_error": 0.0,
+    "coherent_dense_vs_spectral_load_error": 0.0,
+    "all_reference_loads_in_geometric_kernel_domain": true
+  },
+  "open_physics": [
+    "unique microscopic origin of operators, homogeneity exponents, clock and fractions",
+    "four-dimensional covariant action and local-source backreaction",
+    "spatial perturbations, sound speed, anisotropic stress and gravitational slip",
+    "physical carrier filter selection; symmetric gaps remain zero",
+    "hybrid measurement law, photon twist-redshift kernel and observed joint fit",
+    "actual spatial topology, dimensional holonomy and absolute cosmic size"
+  ],
+  "reference_background_rows": [
+    {
+      "a": 0.5,
+      "Jc": 2.0,
+      "Jb": 2.0,
+      "density_phenotype_over_ucrit": 0.3944,
+      "density_clustering_over_ucrit": 2.12,
+      "density_background_over_ucrit": 0.6857,
+      "density_total_over_ucrit": 3.2001,
+      "pressure_over_ucrit": -0.6857000000000001,
+      "H_over_H0": 1.7888823326311878,
+      "deceleration_q": 0.17858816911971498,
+      "hidden_density_over_reference": 2.9511938571578837,
+      "hidden_comoving_energy_over_reference": 0.36889923214473547,
+      "zeta_Q_over_reference": 0.7377984642894709,
+      "twist_record_norm_over_reference": 0.8589519569157934,
+      "twist_rate_over_reference": 1.7179039138315868,
+      "aT_over_reference": 2.8284271247461903,
+      "actual_hidden_fraction": 0.8767538514421424,
+      "relative_time_H0_t": -0.5482395591905538
+    },
+    {
+      "a": 1.0,
+      "Jc": 2.0,
+      "Jb": 2.0,
+      "density_phenotype_over_ucrit": 0.0493,
+      "density_clustering_over_ucrit": 0.265,
+      "density_background_over_ucrit": 0.6857,
+      "density_total_over_ucrit": 1.0,
+      "pressure_over_ucrit": -0.6857000000000001,
+      "H_over_H0": 1.0,
+      "deceleration_q": -0.5285500000000001,
+      "hidden_density_over_reference": 1.0,
+      "hidden_comoving_energy_over_reference": 1.0,
+      "zeta_Q_over_reference": 1.0,
+      "twist_record_norm_over_reference": 1.0,
+      "twist_rate_over_reference": 1.0,
+      "aT_over_reference": 1.0,
+      "actual_hidden_fraction": 0.9507,
+      "relative_time_H0_t": 0.0
+    },
+    {
+      "a": 2.0,
+      "Jc": 2.0,
+      "Jb": 2.0,
+      "density_phenotype_over_ucrit": 0.0061625,
+      "density_clustering_over_ucrit": 0.033125,
+      "density_background_over_ucrit": 0.6857,
+      "density_total_over_ucrit": 0.7249875,
+      "pressure_over_ucrit": -0.6857000000000001,
+      "H_over_H0": 0.8514619780119368,
+      "deceleration_q": -0.9187141157606166,
+      "hidden_density_over_reference": 0.7561007678552645,
+      "hidden_comoving_energy_over_reference": 6.048806142842116,
+      "zeta_Q_over_reference": 3.024403071421058,
+      "twist_record_norm_over_reference": 1.7390810997250985,
+      "twist_rate_over_reference": 0.8695405498625493,
+      "aT_over_reference": 0.3535533905932738,
+      "actual_hidden_fraction": 0.991499853445749,
+      "relative_time_H0_t": 0.7688360688580617
+    }
+  ],
+  "state_histories": [
+    {
+      "verification": {
+        "raw_norm_max_error": 1.021405182655144e-14,
+        "continuity_finite_difference_max_scaled_residual": 3.749339342439372e-10,
+        "acceleration_from_H_max_absolute_error": 4.1364217606698617e-11,
+        "internal_exchange_cancellation_max_scaled_error": 3.2814296610237173e-16,
+        "finite_T3_closure_max_absolute_error": 4.440892098500626e-16
+      },
+      "name": "coherent_commuting",
+      "operator_commutator_norm": 0.0,
+      "independent_propagation_checks": [
+        {
+          "a": 0.5,
+          "midpoint_steps": [
+            320,
+            640
+          ],
+          "midpoint_load_absolute_errors": [
+            0.0,
+            1.1102230246251565e-16
+          ],
+          "midpoint_error_improvement_factor": null,
+          "acceleration_solver_load_max_absolute_error": 1.1102230246251565e-16,
+          "acceleration_solver_time_absolute_error": 4.440892098500626e-16,
+          "acceleration_solver_constraint_max_relative_error": 1.1803269135127597e-15
+        },
+        {
+          "a": 2.0,
+          "midpoint_steps": [
+            320,
+            640
+          ],
+          "midpoint_load_absolute_errors": [
+            9.992007221626409e-16,
+            2.220446049250313e-16
+          ],
+          "midpoint_error_improvement_factor": null,
+          "acceleration_solver_load_max_absolute_error": 6.217248937900877e-15,
+          "acceleration_solver_time_absolute_error": 1.3322676295501878e-15,
+          "acceleration_solver_constraint_max_relative_error": 9.271108554730268e-15
+        }
+      ],
+      "initial_state_trace": 1.0,
+      "endpoint_local_outputs": [
+        {
+          "a": 0.5,
+          "aT_m_s2": 1.9328739862746674e-10,
+          "zeta_kappa_total_squared_m_minus2": 2.9381291308935385e-52,
+          "test_radius_kpc": 8.2,
+          "v_total_km_s": 224.29796273879637,
+          "v_direct_km_s": 161.45051053125528,
+          "g_additional_m_s2": 9.58136742263704e-11,
+          "finite_patch_lensing": {
+            "impact_kpc": 10.0,
+            "alpha_patch_rad": 3.136603367986957e-06,
+            "alpha_baryon_patch_rad": 1.052265081800396e-06,
+            "alpha_twist_patch_rad": 2.084338286186561e-06,
+            "alpha_patch_arcsec": 0.6469708859718196,
+            "quad_abs_error_rad": 3.484547780979163e-20
+          },
+          "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
+        },
+        {
+          "a": 1.0,
+          "aT_m_s2": 6.833741514369454e-11,
+          "zeta_kappa_total_squared_m_minus2": 9.955730707989047e-53,
+          "test_radius_kpc": 8.2,
+          "v_total_km_s": 192.00391282209793,
+          "v_direct_km_s": 161.45051053125528,
+          "g_additional_m_s2": 4.268041187772449e-11,
+          "finite_patch_lensing": {
+            "impact_kpc": 10.0,
+            "alpha_patch_rad": 2.123981982913823e-06,
+            "alpha_baryon_patch_rad": 1.052265081800396e-06,
+            "alpha_twist_patch_rad": 1.0717169011134269e-06,
+            "alpha_patch_arcsec": 0.43810273217804324,
+            "quad_abs_error_rad": 2.5581320611624584e-20
+          },
+          "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
+        },
+        {
+          "a": 2.0,
+          "aT_m_s2": 2.416092482843333e-11,
+          "zeta_kappa_total_squared_m_minus2": 7.527535632870748e-53,
+          "test_radius_kpc": 8.2,
+          "v_total_km_s": 172.7786388525471,
+          "v_direct_km_s": 161.45051053125528,
+          "g_additional_m_s2": 1.496366876043142e-11,
+          "finite_patch_lensing": {
+            "impact_kpc": 10.0,
+            "alpha_patch_rad": 1.5506023634446597e-06,
+            "alpha_baryon_patch_rad": 1.052265081800396e-06,
+            "alpha_twist_patch_rad": 4.983372816442635e-07,
+            "alpha_patch_arcsec": 0.31983469606220244,
+            "quad_abs_error_rad": 2.2745958570722333e-20
+          },
+          "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
+        }
+      ],
+      "Jc_range": [
+        0.6575535026247129,
+        0.6575535026247243
+      ],
+      "Jb_range": [
+        0.6575535026247129,
+        0.6575535026247243
+      ],
+      "state_density_distance_from_initial_max": 1.2577224041884028
+    },
+    {
+      "verification": {
+        "raw_norm_max_error": 4.666933506314308e-12,
+        "continuity_finite_difference_max_scaled_residual": 4.1053728307814874e-08,
+        "acceleration_from_H_max_absolute_error": 2.0525842026053454e-08,
+        "internal_exchange_cancellation_max_scaled_error": 2.892085061047029e-15,
+        "finite_T3_closure_max_absolute_error": 8.881784197001252e-16
+      },
+      "name": "coherent_noncommuting",
+      "operator_commutator_norm": 15.515151515151516,
+      "independent_propagation_checks": [
+        {
+          "a": 0.5,
+          "midpoint_steps": [
+            320,
+            640
+          ],
+          "midpoint_load_absolute_errors": [
+            2.0928905175576773e-07,
+            5.2322985943931144e-08
+          ],
+          "midpoint_error_improvement_factor": 3.999944727543647,
+          "acceleration_solver_load_max_absolute_error": 1.1102230246251565e-16,
+          "acceleration_solver_time_absolute_error": 3.3306690738754696e-16,
+          "acceleration_solver_constraint_max_relative_error": 8.989036373039612e-16
+        },
+        {
+          "a": 2.0,
+          "midpoint_steps": [
+            320,
+            640
+          ],
+          "midpoint_load_absolute_errors": [
+            4.221411514793161e-07,
+            1.0554149443287031e-07
+          ],
+          "midpoint_error_improvement_factor": 3.999764772592064,
+          "acceleration_solver_load_max_absolute_error": 1.8726242778654978e-11,
+          "acceleration_solver_time_absolute_error": 5.085709631202917e-12,
+          "acceleration_solver_constraint_max_relative_error": 4.805140321766927e-11
+        }
+      ],
+      "initial_state_trace": 1.0,
+      "endpoint_local_outputs": [
+        {
+          "a": 0.5,
+          "aT_m_s2": 2.0140104975652835e-10,
+          "zeta_kappa_total_squared_m_minus2": 3.2441533656271172e-52,
+          "test_radius_kpc": 8.2,
+          "v_total_km_s": 225.87565977135523,
+          "v_direct_km_s": 161.45051053125528,
+          "g_additional_m_s2": 9.86206538202437e-11,
+          "finite_patch_lensing": {
+            "impact_kpc": 10.0,
+            "alpha_patch_rad": 3.1890881678449967e-06,
+            "alpha_baryon_patch_rad": 1.052265081800396e-06,
+            "alpha_twist_patch_rad": 2.1368230860446006e-06,
+            "alpha_patch_arcsec": 0.6577966530454558,
+            "quad_abs_error_rad": 3.536589284293522e-20
+          },
+          "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
+        },
+        {
+          "a": 1.0,
+          "aT_m_s2": 6.833741514369454e-11,
+          "zeta_kappa_total_squared_m_minus2": 1.1723635783485584e-52,
+          "test_radius_kpc": 8.2,
+          "v_total_km_s": 192.00391282209793,
+          "v_direct_km_s": 161.45051053125528,
+          "g_additional_m_s2": 4.268041187772449e-11,
+          "finite_patch_lensing": {
+            "impact_kpc": 10.0,
+            "alpha_patch_rad": 2.123981982913823e-06,
+            "alpha_baryon_patch_rad": 1.052265081800396e-06,
+            "alpha_twist_patch_rad": 1.0717169011134269e-06,
+            "alpha_patch_arcsec": 0.43810273217804324,
+            "quad_abs_error_rad": 2.5581320611624584e-20
+          },
+          "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
+        },
+        {
+          "a": 2.0,
+          "aT_m_s2": 2.500695412684438e-11,
+          "zeta_kappa_total_squared_m_minus2": 9.131473173978269e-53,
+          "test_radius_kpc": 8.2,
+          "v_total_km_s": 173.23036234039998,
+          "v_direct_km_s": 161.45051053125528,
+          "g_additional_m_s2": 1.5581394462957973e-11,
+          "finite_patch_lensing": {
+            "impact_kpc": 10.0,
+            "alpha_patch_rad": 1.5645094310062662e-06,
+            "alpha_baryon_patch_rad": 1.052265081800396e-06,
+            "alpha_twist_patch_rad": 5.122443492058701e-07,
+            "alpha_patch_arcsec": 0.32270323465826245,
+            "quad_abs_error_rad": 2.281037795718343e-20
+          },
+          "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
+        }
+      ],
+      "Jc_range": [
+        0.6575535026247176,
+        0.764647223639409
+      ],
+      "Jb_range": [
+        0.7635294799433752,
+        0.819445820726999
+      ],
+      "state_density_distance_from_initial_max": 1.208993134218234
+    }
+  ]
+}

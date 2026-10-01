@@ -1,0 +1,12 @@
+{
+  "baseline_aT_rotation_and_lensing_reproduced": true,
+  "symmetric_carrier_result_unchanged": true,
+  "simultaneous_basis_change_load_max_error": 1.1102314949223176e-16,
+  "zero_load_zero_phenotype_ratios_are_null": true,
+  "energy_exponent_one_pressure_verified": true,
+  "boundary_histories_passed": [
+    "zero_phenotype",
+    "zero_background"
+  ],
+  "invalid_inputs_rejected": true
+}

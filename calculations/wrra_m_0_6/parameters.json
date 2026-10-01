@@ -1,0 +1,19 @@
+{
+  "lattice_N": 128,
+  "a_min": 0.5,
+  "a_max": 2.0,
+  "output_grid_points": 401,
+  "information_clock_over_H0": 0.7,
+  "clustering_energy_exponent": 0.0,
+  "background_energy_exponent": 3.0,
+  "noncommuting_test_strength": 8.0,
+  "noncommuting_test_initial_modes": [8, 16, 24],
+  "noncommuting_test_initial_weights": [0.3333333333333333, 0.3333333333333333, 0.3333333333333333],
+  "test_radius_kpc": 8.2,
+  "lens_impact_kpc": 10.0,
+  "rtol": 1e-11,
+  "atol": 1e-13,
+  "max_log_a_step": 0.01,
+  "scope": "Finite homogeneous constitutive completion, with inherited conditional local renderer",
+  "ownership": "Energy-volume exponents, operators and information clock are declared constitutive choices"
+}

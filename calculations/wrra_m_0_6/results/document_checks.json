@@ -1,0 +1,13 @@
+{
+  "native_equations_matched": 22,
+  "tables_matched": 5,
+  "numerical_rows_matched": 20,
+  "parallel_claim_rows": 7,
+  "both_pdf_equation_numbers_complete": true,
+  "pages": {
+    "KO": 11,
+    "EN": 9
+  },
+  "all_pages_visually_inspected": true,
+  "pdf_text_bounds_checked": true
+}
