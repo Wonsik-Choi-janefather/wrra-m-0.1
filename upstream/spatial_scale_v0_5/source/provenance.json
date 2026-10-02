@@ -1,0 +1,49 @@
+{
+  "baseline_0_4": {
+    "commit": "f738de76baeca16b28058ac48b66452d7ab5ac23",
+    "results_sha256": "588b2ee1ed7a22da47cf55b9d3fce38a83125232e5724ada074dfb401048b337",
+    "C": 13.19347429753741,
+    "delta_MeV": 312.97291856166663,
+    "eta": 0.4380928926453053,
+    "x": 1.1027408856938528,
+    "code_sha256": "8761ee56eb365008a8b7a626805dd15feab036736c3873407ccb0c6e58fc2f5f"
+  },
+  "frozen_parent": {
+    "parent_release_commit": "a9a364ff46414c92f83bc299dc597882a47a23a5",
+    "parent_kernel_sha256": "3cc75ba4290189daed78058e112647cc1f1d1df6b7eb74c15ba6069df2ec9f55",
+    "parent_results_sha256": "970c65aea8fef904b89ac8b7668256f2af7e72ceab66ce449175a0d1f1f391a3",
+    "nucleon_reference_sha256": "a67181db67dece51d42f555079e743097c009d73966ec13257cb3dc9e85a9721",
+    "parent_path": "upstream/fold_decay_v0_2/code/compute.py",
+    "parent_v0_3_r1_code_sha256": "11ab2947b48788e79526b27ade3aec2459766a70e5f8f8c065a3aa0033646bc0"
+  },
+  "new_sources": {
+    "PDG_2026_baryons": {
+      "url": "https://pdg.lbl.gov/2026/tables/rpp2026-sum-baryons.pdf",
+      "inputs": [
+        "N(1440) positive-parity pole centroid: 1370 MeV, range 1360–1380 MeV",
+        "Neutron mean-square charge radius: -0.1155 ± 0.0017 fm²"
+      ],
+      "pages": "5 and 4, printed table page numbers"
+    },
+    "NIST_2022_CODATA": {
+      "url": "https://physics.nist.gov/cgi-bin/cuu/Value?rp=",
+      "input": "proton rms charge radius 0.84075 ± 0.00064 fm"
+    }
+  },
+  "author": "Wonsik Choi",
+  "orcid": "0009-0001-4263-9772",
+  "date": "2026-10-02",
+  "source_status": "official source values checked on 2026-10-02",
+  "new_assumptions": [
+    "bounded W_lambda constitutive law with lambda=1",
+    "first retained positive-parity excitation assigned to real N(1440) pole centroid",
+    "point-valence intrinsic charge radius used to calibrate ell"
+  ],
+  "not_derived": [
+    "resonance width and imaginary pole",
+    "QCD binding law",
+    "constituent/relativistic/exchange charge terms",
+    "unique lambda",
+    "universe size"
+  ]
+}

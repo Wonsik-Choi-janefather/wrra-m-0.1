@@ -1,0 +1,18 @@
+{
+  "pages": 9,
+  "native_equations": 22,
+  "tables": 9,
+  "checks": {
+    "native_equations_22": true,
+    "tables_9": true,
+    "pdf_9_pages": true,
+    "no_math_placeholder_box": true,
+    "no_raw_TeX_commands": true,
+    "scale_numbers_present": true,
+    "neutron_mismatch_present": true,
+    "check_count_140_present": true,
+    "last_page_has_references": true,
+    "visual_review_all_final_pages": true
+  },
+  "visual_review": "Every final page inspected; pages 1–8 identical to inspected first render, final page 9 reviewed after orphan removal."
+}

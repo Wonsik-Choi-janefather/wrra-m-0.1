@@ -1,0 +1,1461 @@
+{
+  "version": "0.5",
+  "scope": "Conditional bounded effective spatial completion; fitted scales and current anchors, no QCD derivation or resonance width prediction.",
+  "calibrated_parameters": {
+    "q": 0.293525,
+    "R": 0.00698600035,
+    "c0": -0.06285265964,
+    "c1": 0.43998779293,
+    "mu_u": 2.00276064425,
+    "mu_d": -0.99725074034,
+    "x": 0.82088771644,
+    "C": 9.82131081605,
+    "delta_MeV": 507.03221768584,
+    "ell_fm": 0.61619621794,
+    "eta": 0.47605566734,
+    "coherence": 1.12589821549
+  },
+  "reference": {
+    "shell_order": 8,
+    "spatial_modes": 165,
+    "retained_dimension": 95,
+    "ground_energy_over_delta": -0.56194107772,
+    "gap_over_delta": 0.85020483764,
+    "gap_MeV": 431.081244315,
+    "q_E": 0.293525,
+    "gA": 1.2753,
+    "gV": 1.0,
+    "mean_life_s": 878.3,
+    "proton_radius_fm": 0.84075,
+    "neutron_charge_mean_square_fm2": -0.18691173831,
+    "old_two_configuration_probability": 0.94930085286,
+    "higher_configuration_probability": 0.05069914714,
+    "shell_probabilities": {
+      "0": 0.6582219685,
+      "1": 0.32373684486,
+      "2": 0.01598278918,
+      "3": 0.00173028762,
+      "4": 0.00026059893,
+      "5": 5.109149e-05,
+      "6": 1.212617e-05,
+      "7": 3.30488e-06,
+      "8": 9.8836e-07
+    },
+    "nucleons": {
+      "proton": {
+        "moment_muN": 2.79284734463,
+        "excited_moment_muN": 2.75172124083,
+        "first_transition_abs_muN": 0.14671480992,
+        "internal_susceptibility_MeV_minus1": 0.00092249478,
+        "first_state_susceptibility_fraction": 0.10825671974,
+        "ground_mass_MeV": 938.27208943
+      },
+      "neutron": {
+        "moment_muN": -1.91304276,
+        "excited_moment_muN": -1.8719166562,
+        "first_transition_abs_muN": 0.14671480992,
+        "internal_susceptibility_MeV_minus1": 0.00092249478,
+        "first_state_susceptibility_fraction": 0.10825671974,
+        "ground_mass_MeV": 939.56542194
+      }
+    }
+  },
+  "bare_instability": {
+    "critical_x": 0.6123724357,
+    "old_x": 1.10274088569,
+    "shell_sequence": [
+      {
+        "shell_order": 1,
+        "ground_energy_over_delta": -1.01025292028
+      },
+      {
+        "shell_order": 2,
+        "ground_energy_over_delta": -1.629248816
+      },
+      {
+        "shell_order": 3,
+        "ground_energy_over_delta": -2.24244714437
+      },
+      {
+        "shell_order": 4,
+        "ground_energy_over_delta": -2.86894346311
+      },
+      {
+        "shell_order": 5,
+        "ground_energy_over_delta": -3.51242303221
+      },
+      {
+        "shell_order": 6,
+        "ground_energy_over_delta": -4.17012444883
+      },
+      {
+        "shell_order": 7,
+        "ground_energy_over_delta": -4.83953532925
+      },
+      {
+        "shell_order": 8,
+        "ground_energy_over_delta": -5.51863956253
+      }
+    ]
+  },
+  "bounded_norm_ceiling": 2.13168374866,
+  "screening_normalization_k": 0.19151447335,
+  "frozen_parameter_convergence": [
+    {
+      "shell_order": 1,
+      "spatial_modes": 4,
+      "retained_dimension": 3,
+      "ground_energy_over_delta": -0.51900660624,
+      "gap_over_delta": 1.24186285362,
+      "gap_MeV": 629.66447673492,
+      "q_E": 0.27420695794,
+      "gA": 1.30105738942,
+      "gV": 1.0,
+      "mean_life_s": 849.53307377591,
+      "proton_radius_fm": 0.83876734354,
+      "neutron_charge_mean_square_fm2": -0.17186845566,
+      "old_two_configuration_probability": 0.96016920301,
+      "higher_configuration_probability": 0.03983079699,
+      "shell_probabilities": {
+        "0": 0.68596224508,
+        "1": 0.31403775492
+      },
+      "nucleons": {
+        "proton": {
+          "moment_muN": 2.78807127173,
+          "excited_moment_muN": 2.6789671509,
+          "first_transition_abs_muN": 0.23243648545,
+          "internal_susceptibility_MeV_minus1": 0.00090881759,
+          "first_state_susceptibility_fraction": 0.18882203759,
+          "ground_mass_MeV": 938.27208943
+        },
+        "neutron": {
+          "moment_muN": -1.9082666871,
+          "excited_moment_muN": -1.79916256627,
+          "first_transition_abs_muN": 0.23243648545,
+          "internal_susceptibility_MeV_minus1": 0.00090881759,
+          "first_state_susceptibility_fraction": 0.18882203759,
+          "ground_mass_MeV": 939.56542194
+        }
+      }
+    },
+    {
+      "shell_order": 2,
+      "spatial_modes": 10,
+      "retained_dimension": 7,
+      "ground_energy_over_delta": -0.55451858022,
+      "gap_over_delta": 0.87616986052,
+      "gap_MeV": 444.24634745101,
+      "q_E": 0.29089073654,
+      "gA": 1.27881235127,
+      "gV": 1.0,
+      "mean_life_s": 874.29776555104,
+      "proton_radius_fm": 0.84286895453,
+      "neutron_charge_mean_square_fm2": -0.18531206936,
+      "old_two_configuration_probability": 0.95150651581,
+      "higher_configuration_probability": 0.04849348419,
+      "shell_probabilities": {
+        "0": 0.66162417404,
+        "1": 0.32486333304,
+        "2": 0.01351249292
+      },
+      "nucleons": {
+        "proton": {
+          "moment_muN": 2.78962823984,
+          "excited_moment_muN": 2.73203660684,
+          "first_transition_abs_muN": 0.15293849641,
+          "internal_susceptibility_MeV_minus1": 0.00092374823,
+          "first_state_susceptibility_fraction": 0.11399508874,
+          "ground_mass_MeV": 938.27208943
+        },
+        "neutron": {
+          "moment_muN": -1.90982365521,
+          "excited_moment_muN": -1.85223202221,
+          "first_transition_abs_muN": 0.15293849641,
+          "internal_susceptibility_MeV_minus1": 0.00092374823,
+          "first_state_susceptibility_fraction": 0.11399508874,
+          "ground_mass_MeV": 939.56542194
+        }
+      }
+    },
+    {
+      "shell_order": 3,
+      "spatial_modes": 20,
+      "retained_dimension": 13,
+      "ground_energy_over_delta": -0.56035244211,
+      "gap_over_delta": 0.85409650086,
+      "gap_MeV": 433.05444294929,
+      "q_E": 0.29312744796,
+      "gA": 1.27583006939,
+      "gV": 1.0,
+      "mean_life_s": 877.69436097702,
+      "proton_radius_fm": 0.84171183114,
+      "neutron_charge_mean_square_fm2": -0.18688764322,
+      "old_two_configuration_probability": 0.94956899743,
+      "higher_configuration_probability": 0.05043100257,
+      "shell_probabilities": {
+        "0": 0.65852251302,
+        "1": 0.32439125549,
+        "2": 0.0155769089,
+        "3": 0.0015093226
+      },
+      "nucleons": {
+        "proton": {
+          "moment_muN": 2.79182842644,
+          "excited_moment_muN": 2.74787561382,
+          "first_transition_abs_muN": 0.14712821109,
+          "internal_susceptibility_MeV_minus1": 0.00092277477,
+          "first_state_susceptibility_fraction": 0.10833871866,
+          "ground_mass_MeV": 938.27208943
+        },
+        "neutron": {
+          "moment_muN": -1.91202384181,
+          "excited_moment_muN": -1.86807102919,
+          "first_transition_abs_muN": 0.14712821109,
+          "internal_susceptibility_MeV_minus1": 0.00092277477,
+          "first_state_susceptibility_fraction": 0.10833871866,
+          "ground_mass_MeV": 939.56542194
+        }
+      }
+    },
+    {
+      "shell_order": 4,
+      "spatial_modes": 35,
+      "retained_dimension": 22,
+      "ground_energy_over_delta": -0.56153303571,
+      "gap_over_delta": 0.85120673885,
+      "gap_MeV": 431.58924051045,
+      "q_E": 0.29345765788,
+      "gA": 1.2753897895,
+      "gV": 1.0,
+      "mean_life_s": 878.19736853401,
+      "proton_radius_fm": 0.84106207352,
+      "neutron_charge_mean_square_fm2": -0.18695267884,
+      "old_two_configuration_probability": 0.94931702376,
+      "higher_configuration_probability": 0.05068297624,
+      "shell_probabilities": {
+        "0": 0.65820812211,
+        "1": 0.32397972607,
+        "2": 0.01589864457,
+        "3": 0.00168136582,
+        "4": 0.00023214143
+      },
+      "nucleons": {
+        "proton": {
+          "moment_muN": 2.79252820506,
+          "excited_moment_muN": 2.75064046174,
+          "first_transition_abs_muN": 0.14669269308,
+          "internal_susceptibility_MeV_minus1": 0.00092252243,
+          "first_state_susceptibility_fraction": 0.1080934589,
+          "ground_mass_MeV": 938.27208943
+        },
+        "neutron": {
+          "moment_muN": -1.91272362043,
+          "excited_moment_muN": -1.87083587711,
+          "first_transition_abs_muN": 0.14669269308,
+          "internal_susceptibility_MeV_minus1": 0.00092252243,
+          "first_state_susceptibility_fraction": 0.1080934589,
+          "ground_mass_MeV": 939.56542194
+        }
+      }
+    },
+    {
+      "shell_order": 5,
+      "spatial_modes": 56,
+      "retained_dimension": 34,
+      "ground_energy_over_delta": -0.56182253354,
+      "gap_over_delta": 0.85051885865,
+      "gap_MeV": 431.24046308305,
+      "q_E": 0.29351355475,
+      "gA": 1.27531526033,
+      "gV": 1.0,
+      "mean_life_s": 878.28255590318,
+      "proton_radius_fm": 0.84085207583,
+      "neutron_charge_mean_square_fm2": -0.18693273835,
+      "old_two_configuration_probability": 0.9492924601,
+      "higher_configuration_probability": 0.0507075399,
+      "shell_probabilities": {
+        "0": 0.65819679705,
+        "1": 0.32382358081,
+        "2": 0.01596228645,
+        "3": 0.00171781025,
+        "4": 0.00025317942,
+        "5": 4.634601e-05
+      },
+      "nucleons": {
+        "proton": {
+          "moment_muN": 2.79274291446,
+          "excited_moment_muN": 2.75136514875,
+          "first_transition_abs_muN": 0.14668071559,
+          "internal_susceptibility_MeV_minus1": 0.00092248832,
+          "first_state_susceptibility_fraction": 0.10816721745,
+          "ground_mass_MeV": 938.27208943
+        },
+        "neutron": {
+          "moment_muN": -1.91293832983,
+          "excited_moment_muN": -1.87156056412,
+          "first_transition_abs_muN": 0.14668071559,
+          "internal_susceptibility_MeV_minus1": 0.00092248832,
+          "first_state_susceptibility_fraction": 0.10816721745,
+          "ground_mass_MeV": 939.56542194
+        }
+      }
+    },
+    {
+      "shell_order": 6,
+      "spatial_modes": 84,
+      "retained_dimension": 50,
+      "ground_energy_over_delta": -0.56190510972,
+      "gap_over_delta": 0.85030765693,
+      "gap_MeV": 431.1333770074,
+      "q_E": 0.29352344983,
+      "gA": 1.27530206689,
+      "gV": 1.0,
+      "mean_life_s": 878.2976373113,
+      "proton_radius_fm": 0.84078319505,
+      "neutron_charge_mean_square_fm2": -0.18691999966,
+      "old_two_configuration_probability": 0.94929514872,
+      "higher_configuration_probability": 0.05070485128,
+      "shell_probabilities": {
+        "0": 0.65820937141,
+        "1": 0.3237668299,
+        "2": 0.01597739608,
+        "3": 0.00172687394,
+        "4": 0.00025855143,
+        "5": 4.976353e-05,
+        "6": 1.121371e-05
+      },
+      "nucleons": {
+        "proton": {
+          "moment_muN": 2.79281314323,
+          "excited_moment_muN": 2.75160031502,
+          "first_transition_abs_muN": 0.14669815891,
+          "internal_susceptibility_MeV_minus1": 0.000922489,
+          "first_state_susceptibility_fraction": 0.10821973806,
+          "ground_mass_MeV": 938.27208943
+        },
+        "neutron": {
+          "moment_muN": -1.9130085586,
+          "excited_moment_muN": -1.87179573039,
+          "first_transition_abs_muN": 0.14669815891,
+          "internal_susceptibility_MeV_minus1": 0.000922489,
+          "first_state_susceptibility_fraction": 0.10821973806,
+          "ground_mass_MeV": 939.56542194
+        }
+      }
+    },
+    {
+      "shell_order": 7,
+      "spatial_modes": 120,
+      "retained_dimension": 70,
+      "ground_energy_over_delta": -0.56193166771,
+      "gap_over_delta": 0.8502333887,
+      "gap_MeV": 431.09572062403,
+      "q_E": 0.29352496968,
+      "gA": 1.27530004043,
+      "gV": 1.0,
+      "mean_life_s": 878.29995378893,
+      "proton_radius_fm": 0.84075906212,
+      "neutron_charge_mean_square_fm2": -0.18691423426,
+      "old_two_configuration_probability": 0.9492987423,
+      "higher_configuration_probability": 0.0507012577,
+      "shell_probabilities": {
+        "0": 0.65821771422,
+        "1": 0.32374538719,
+        "2": 0.0159815265,
+        "3": 0.00172946131,
+        "4": 0.00026010083,
+        "5": 5.076701e-05,
+        "6": 1.190082e-05,
+        "7": 3.14212e-06
+      },
+      "nucleons": {
+        "proton": {
+          "moment_muN": 2.79283793884,
+          "excited_moment_muN": 2.75168675993,
+          "first_transition_abs_muN": 0.14670925034,
+          "internal_susceptibility_MeV_minus1": 0.00092249249,
+          "first_state_susceptibility_fraction": 0.10824514804,
+          "ground_mass_MeV": 938.27208943
+        },
+        "neutron": {
+          "moment_muN": -1.91303335421,
+          "excited_moment_muN": -1.8718821753,
+          "first_transition_abs_muN": 0.14670925034,
+          "internal_susceptibility_MeV_minus1": 0.00092249249,
+          "first_state_susceptibility_fraction": 0.10824514804,
+          "ground_mass_MeV": 939.56542194
+        }
+      }
+    },
+    {
+      "shell_order": 8,
+      "spatial_modes": 165,
+      "retained_dimension": 95,
+      "ground_energy_over_delta": -0.56194107772,
+      "gap_over_delta": 0.85020483764,
+      "gap_MeV": 431.081244315,
+      "q_E": 0.293525,
+      "gA": 1.2753,
+      "gV": 1.0,
+      "mean_life_s": 878.3,
+      "proton_radius_fm": 0.84075,
+      "neutron_charge_mean_square_fm2": -0.18691173831,
+      "old_two_configuration_probability": 0.94930085286,
+      "higher_configuration_probability": 0.05069914714,
+      "shell_probabilities": {
+        "0": 0.6582219685,
+        "1": 0.32373684486,
+        "2": 0.01598278918,
+        "3": 0.00173028762,
+        "4": 0.00026059893,
+        "5": 5.109149e-05,
+        "6": 1.212617e-05,
+        "7": 3.30488e-06,
+        "8": 9.8836e-07
+      },
+      "nucleons": {
+        "proton": {
+          "moment_muN": 2.79284734463,
+          "excited_moment_muN": 2.75172124083,
+          "first_transition_abs_muN": 0.14671480992,
+          "internal_susceptibility_MeV_minus1": 0.00092249478,
+          "first_state_susceptibility_fraction": 0.10825671974,
+          "ground_mass_MeV": 938.27208943
+        },
+        "neutron": {
+          "moment_muN": -1.91304276,
+          "excited_moment_muN": -1.8719166562,
+          "first_transition_abs_muN": 0.14671480992,
+          "internal_susceptibility_MeV_minus1": 0.00092249478,
+          "first_state_susceptibility_fraction": 0.10825671974,
+          "ground_mass_MeV": 939.56542194
+        }
+      }
+    }
+  ],
+  "refitted_shell_convergence": [
+    {
+      "parameters": {
+        "q": 0.293525,
+        "R": 0.00698600035,
+        "c0": -0.06285265964,
+        "c1": 0.43998779293,
+        "mu_u": 2.00276064425,
+        "mu_d": -0.99725074034,
+        "x": 0.89867764292,
+        "C": 10.75200941356,
+        "delta_MeV": 327.86324203954,
+        "ell_fm": 0.61041581084,
+        "eta": 0.4686807266,
+        "coherence": 1.04462302826
+      },
+      "observables": {
+        "shell_order": 1,
+        "spatial_modes": 4,
+        "retained_dimension": 3,
+        "ground_energy_over_delta": -0.59914719493,
+        "gap_over_delta": 1.31482029408,
+        "gap_MeV": 431.081244315,
+        "q_E": 0.293525,
+        "gA": 1.2753,
+        "gV": 1.0,
+        "mean_life_s": 878.3,
+        "proton_radius_fm": 0.84075,
+        "neutron_charge_mean_square_fm2": -0.1748113063,
+        "old_two_configuration_probability": 0.95389283415,
+        "higher_configuration_probability": 0.04610716585,
+        "shell_probabilities": {
+          "0": 0.66036783415,
+          "1": 0.33963216585
+        },
+        "nucleons": {
+          "proton": {
+            "moment_muN": 2.79284734463,
+            "excited_moment_muN": 2.71018116548,
+            "first_transition_abs_muN": 0.22035623247,
+            "internal_susceptibility_MeV_minus1": 0.00137226567,
+            "first_state_susceptibility_fraction": 0.16416604933,
+            "ground_mass_MeV": 938.27208943
+          },
+          "neutron": {
+            "moment_muN": -1.91304276,
+            "excited_moment_muN": -1.83037658085,
+            "first_transition_abs_muN": 0.22035623247,
+            "internal_susceptibility_MeV_minus1": 0.00137226567,
+            "first_state_susceptibility_fraction": 0.16416604933,
+            "ground_mass_MeV": 939.56542194
+          }
+        }
+      }
+    },
+    {
+      "parameters": {
+        "q": 0.293525,
+        "R": 0.00698600035,
+        "c0": -0.06285265964,
+        "c1": 0.43998779293,
+        "mu_u": 2.00276064425,
+        "mu_d": -0.99725074034,
+        "x": 0.82981893086,
+        "C": 9.92816615208,
+        "delta_MeV": 491.49937513723,
+        "ell_fm": 0.61336816851,
+        "eta": 0.47809288063,
+        "coherence": 1.10903438823
+      },
+      "observables": {
+        "shell_order": 2,
+        "spatial_modes": 10,
+        "retained_dimension": 7,
+        "ground_energy_over_delta": -0.56440198783,
+        "gap_over_delta": 0.87707384001,
+        "gap_MeV": 431.081244315,
+        "q_E": 0.293525,
+        "gA": 1.2753,
+        "gV": 1.0,
+        "mean_life_s": 878.3,
+        "proton_radius_fm": 0.84075,
+        "neutron_charge_mean_square_fm2": -0.18476836052,
+        "old_two_configuration_probability": 0.95044737316,
+        "higher_configuration_probability": 0.04955262684,
+        "shell_probabilities": {
+          "0": 0.65788014485,
+          "1": 0.3283439678,
+          "2": 0.01377588735
+        },
+        "nucleons": {
+          "proton": {
+            "moment_muN": 2.79284734463,
+            "excited_moment_muN": 2.73831853471,
+            "first_transition_abs_muN": 0.14973403428,
+            "internal_susceptibility_MeV_minus1": 0.00094669435,
+            "first_state_susceptibility_fraction": 0.10987582134,
+            "ground_mass_MeV": 938.27208943
+          },
+          "neutron": {
+            "moment_muN": -1.91304276,
+            "excited_moment_muN": -1.85851395008,
+            "first_transition_abs_muN": 0.14973403428,
+            "internal_susceptibility_MeV_minus1": 0.00094669435,
+            "first_state_susceptibility_fraction": 0.10987582134,
+            "ground_mass_MeV": 939.56542194
+          }
+        }
+      }
+    },
+    {
+      "parameters": {
+        "q": 0.293525,
+        "R": 0.00698600035,
+        "c0": -0.06285265964,
+        "c1": 0.43998779293,
+        "mu_u": 2.00276064425,
+        "mu_d": -0.99725074034,
+        "x": 0.82220326861,
+        "C": 9.83705041903,
+        "delta_MeV": 504.68828945896,
+        "ell_fm": 0.61529874977,
+        "eta": 0.47693565991,
+        "coherence": 1.12202267392
+      },
+      "observables": {
+        "shell_order": 3,
+        "spatial_modes": 20,
+        "retained_dimension": 13,
+        "ground_energy_over_delta": -0.56182801755,
+        "gap_over_delta": 0.85415345139,
+        "gap_MeV": 431.081244315,
+        "q_E": 0.293525,
+        "gA": 1.2753,
+        "gV": 1.0,
+        "mean_life_s": 878.3,
+        "proton_radius_fm": 0.84075,
+        "neutron_charge_mean_square_fm2": -0.1865240029,
+        "old_two_configuration_probability": 0.94940122235,
+        "higher_configuration_probability": 0.05059877765,
+        "shell_probabilities": {
+          "0": 0.65795278298,
+          "1": 0.32490634994,
+          "2": 0.01562625879,
+          "3": 0.00151460829
+        },
+        "nucleons": {
+          "proton": {
+            "moment_muN": 2.79284734463,
+            "excited_moment_muN": 2.74937755013,
+            "first_transition_abs_muN": 0.14645658547,
+            "internal_susceptibility_MeV_minus1": 0.00092545361,
+            "first_state_susceptibility_fraction": 0.10753108355,
+            "ground_mass_MeV": 938.27208943
+          },
+          "neutron": {
+            "moment_muN": -1.91304276,
+            "excited_moment_muN": -1.8695729655,
+            "first_transition_abs_muN": 0.14645658547,
+            "internal_susceptibility_MeV_minus1": 0.00092545361,
+            "first_state_susceptibility_fraction": 0.10753108355,
+            "ground_mass_MeV": 939.56542194
+          }
+        }
+      }
+    },
+    {
+      "parameters": {
+        "q": 0.293525,
+        "R": 0.00698600035,
+        "c0": -0.06285265964,
+        "c1": 0.43998779293,
+        "mu_u": 2.00276064425,
+        "mu_d": -0.99725074034,
+        "x": 0.82110974131,
+        "C": 9.8239671785,
+        "delta_MeV": 506.43052929941,
+        "ell_fm": 0.61593504829,
+        "eta": 0.47636281906,
+        "coherence": 1.12486801074
+      },
+      "observables": {
+        "shell_order": 4,
+        "spatial_modes": 35,
+        "retained_dimension": 22,
+        "ground_energy_over_delta": -0.56178276983,
+        "gap_over_delta": 0.85121496311,
+        "gap_MeV": 431.081244315,
+        "q_E": 0.293525,
+        "gA": 1.2753,
+        "gV": 1.0,
+        "mean_life_s": 878.3,
+        "proton_radius_fm": 0.84075,
+        "neutron_charge_mean_square_fm2": -0.18682483661,
+        "old_two_configuration_probability": 0.94928843852,
+        "higher_configuration_probability": 0.05071156148,
+        "shell_probabilities": {
+          "0": 0.65811159165,
+          "1": 0.32406647726,
+          "2": 0.01590723817,
+          "3": 0.00168241383,
+          "4": 0.0002322791
+        },
+        "nucleons": {
+          "proton": {
+            "moment_muN": 2.79284734463,
+            "excited_moment_muN": 2.75103746409,
+            "first_transition_abs_muN": 0.1465322665,
+            "internal_susceptibility_MeV_minus1": 0.00092315547,
+            "first_state_susceptibility_fraction": 0.10791021376,
+            "ground_mass_MeV": 938.27208943
+          },
+          "neutron": {
+            "moment_muN": -1.91304276,
+            "excited_moment_muN": -1.87123287946,
+            "first_transition_abs_muN": 0.1465322665,
+            "internal_susceptibility_MeV_minus1": 0.00092315547,
+            "first_state_susceptibility_fraction": 0.10791021376,
+            "ground_mass_MeV": 939.56542194
+          }
+        }
+      }
+    },
+    {
+      "parameters": {
+        "q": 0.293525,
+        "R": 0.00698600035,
+        "c0": -0.06285265964,
+        "c1": 0.43998779293,
+        "mu_u": 2.00276064425,
+        "mu_d": -0.99725074034,
+        "x": 0.82092542622,
+        "C": 9.8217619855,
+        "delta_MeV": 506.84421614096,
+        "ell_fm": 0.61611589791,
+        "eta": 0.47616214176,
+        "coherence": 1.12559474652
+      },
+      "observables": {
+        "shell_order": 5,
+        "spatial_modes": 56,
+        "retained_dimension": 34,
+        "ground_energy_over_delta": -0.56186497905,
+        "gap_over_delta": 0.85052020046,
+        "gap_MeV": 431.081244315,
+        "q_E": 0.293525,
+        "gA": 1.2753,
+        "gV": 1.0,
+        "mean_life_s": 878.3,
+        "proton_radius_fm": 0.84075,
+        "neutron_charge_mean_square_fm2": -0.18688920868,
+        "old_two_configuration_probability": 0.94928759941,
+        "higher_configuration_probability": 0.05071240059,
+        "shell_probabilities": {
+          "0": 0.65818039483,
+          "1": 0.32383830012,
+          "2": 0.01596375454,
+          "3": 0.00171799383,
+          "4": 0.00025320611,
+          "5": 4.635057e-05
+        },
+        "nucleons": {
+          "proton": {
+            "moment_muN": 2.79284734463,
+            "excited_moment_muN": 2.75148128743,
+            "first_transition_abs_muN": 0.14663740302,
+            "internal_susceptibility_MeV_minus1": 0.00092268592,
+            "first_state_susceptibility_fraction": 0.10812011447,
+            "ground_mass_MeV": 938.27208943
+          },
+          "neutron": {
+            "moment_muN": -1.91304276,
+            "excited_moment_muN": -1.8716767028,
+            "first_transition_abs_muN": 0.14663740302,
+            "internal_susceptibility_MeV_minus1": 0.00092268592,
+            "first_state_susceptibility_fraction": 0.10812011447,
+            "ground_mass_MeV": 939.56542194
+          }
+        }
+      }
+    },
+    {
+      "parameters": {
+        "q": 0.293525,
+        "R": 0.00698600035,
+        "c0": -0.06285265964,
+        "c1": 0.43998779293,
+        "mu_u": 2.00276064425,
+        "mu_d": -0.99725074034,
+        "x": 0.82089282326,
+        "C": 9.82137191543,
+        "delta_MeV": 506.97080034557,
+        "ell_fm": 0.61617114322,
+        "eta": 0.47609178826,
+        "coherence": 1.12580579023
+      },
+      "observables": {
+        "shell_order": 6,
+        "spatial_modes": 84,
+        "retained_dimension": 50,
+        "ground_energy_over_delta": -0.56191085901,
+        "gap_over_delta": 0.85030783631,
+        "gap_MeV": 431.081244315,
+        "q_E": 0.293525,
+        "gA": 1.2753,
+        "gV": 1.0,
+        "mean_life_s": 878.3,
+        "proton_radius_fm": 0.84075,
+        "neutron_charge_mean_square_fm2": -0.18690549155,
+        "old_two_configuration_probability": 0.94929449044,
+        "higher_configuration_probability": 0.05070550956,
+        "shell_probabilities": {
+          "0": 0.65820715016,
+          "1": 0.32376882246,
+          "2": 0.01597759516,
+          "3": 0.00172689898,
+          "4": 0.00025855516,
+          "5": 4.976422e-05,
+          "6": 1.121385e-05
+        },
+        "nucleons": {
+          "proton": {
+            "moment_muN": 2.79284734463,
+            "excited_moment_muN": 2.75163548196,
+            "first_transition_abs_muN": 0.14668586306,
+            "internal_susceptibility_MeV_minus1": 0.00092255481,
+            "first_state_susceptibility_fraction": 0.10820696427,
+            "ground_mass_MeV": 938.27208943
+          },
+          "neutron": {
+            "moment_muN": -1.91304276,
+            "excited_moment_muN": -1.87183089733,
+            "first_transition_abs_muN": 0.14668586306,
+            "internal_susceptibility_MeV_minus1": 0.00092255481,
+            "first_state_susceptibility_fraction": 0.10820696427,
+            "ground_mass_MeV": 939.56542194
+          }
+        }
+      }
+    },
+    {
+      "parameters": {
+        "q": 0.293525,
+        "R": 0.00698600035,
+        "c0": -0.06285265964,
+        "c1": 0.43998779293,
+        "mu_u": 2.00276064425,
+        "mu_d": -0.99725074034,
+        "x": 0.82088781632,
+        "C": 9.82131201104,
+        "delta_MeV": 507.01518932665,
+        "ell_fm": 0.61618956167,
+        "eta": 0.47606582703,
+        "coherence": 1.12587405078
+      },
+      "observables": {
+        "shell_order": 7,
+        "spatial_modes": 120,
+        "retained_dimension": 70,
+        "ground_energy_over_delta": -0.56193178016,
+        "gap_over_delta": 0.85023339219,
+        "gap_MeV": 431.081244315,
+        "q_E": 0.293525,
+        "gA": 1.2753,
+        "gV": 1.0,
+        "mean_life_s": 878.3,
+        "proton_radius_fm": 0.84075,
+        "neutron_charge_mean_square_fm2": -0.18691020988,
+        "old_two_configuration_probability": 0.94929872942,
+        "higher_configuration_probability": 0.05070127058,
+        "shell_probabilities": {
+          "0": 0.65821767078,
+          "1": 0.32374542616,
+          "2": 0.0159815304,
+          "3": 0.0017294618,
+          "4": 0.0002601009,
+          "5": 5.076703e-05,
+          "6": 1.190082e-05,
+          "7": 3.14212e-06
+        },
+        "nucleons": {
+          "proton": {
+            "moment_muN": 2.79284734463,
+            "excited_moment_muN": 2.75169591339,
+            "first_transition_abs_muN": 0.14670620761,
+            "internal_susceptibility_MeV_minus1": 0.00092251109,
+            "first_state_susceptibility_fraction": 0.1082421114,
+            "ground_mass_MeV": 938.27208943
+          },
+          "neutron": {
+            "moment_muN": -1.91304276,
+            "excited_moment_muN": -1.87189132876,
+            "first_transition_abs_muN": 0.14670620761,
+            "internal_susceptibility_MeV_minus1": 0.00092251109,
+            "first_state_susceptibility_fraction": 0.1082421114,
+            "ground_mass_MeV": 939.56542194
+          }
+        }
+      }
+    },
+    {
+      "parameters": {
+        "q": 0.293525,
+        "R": 0.00698600035,
+        "c0": -0.06285265964,
+        "c1": 0.43998779293,
+        "mu_u": 2.00276064425,
+        "mu_d": -0.99725074034,
+        "x": 0.82088771644,
+        "C": 9.82131081605,
+        "delta_MeV": 507.03221768584,
+        "ell_fm": 0.61619621794,
+        "eta": 0.47605566734,
+        "coherence": 1.12589821549
+      },
+      "observables": {
+        "shell_order": 8,
+        "spatial_modes": 165,
+        "retained_dimension": 95,
+        "ground_energy_over_delta": -0.56194107772,
+        "gap_over_delta": 0.85020483764,
+        "gap_MeV": 431.081244315,
+        "q_E": 0.293525,
+        "gA": 1.2753,
+        "gV": 1.0,
+        "mean_life_s": 878.3,
+        "proton_radius_fm": 0.84075,
+        "neutron_charge_mean_square_fm2": -0.18691173831,
+        "old_two_configuration_probability": 0.94930085286,
+        "higher_configuration_probability": 0.05069914714,
+        "shell_probabilities": {
+          "0": 0.6582219685,
+          "1": 0.32373684486,
+          "2": 0.01598278918,
+          "3": 0.00173028762,
+          "4": 0.00026059893,
+          "5": 5.109149e-05,
+          "6": 1.212617e-05,
+          "7": 3.30488e-06,
+          "8": 9.8836e-07
+        },
+        "nucleons": {
+          "proton": {
+            "moment_muN": 2.79284734463,
+            "excited_moment_muN": 2.75172124083,
+            "first_transition_abs_muN": 0.14671480992,
+            "internal_susceptibility_MeV_minus1": 0.00092249478,
+            "first_state_susceptibility_fraction": 0.10825671974,
+            "ground_mass_MeV": 938.27208943
+          },
+          "neutron": {
+            "moment_muN": -1.91304276,
+            "excited_moment_muN": -1.8719166562,
+            "first_transition_abs_muN": 0.14671480992,
+            "internal_susceptibility_MeV_minus1": 0.00092249478,
+            "first_state_susceptibility_fraction": 0.10825671974,
+            "ground_mass_MeV": 939.56542194
+          }
+        }
+      }
+    }
+  ],
+  "alternate_quadrature": {
+    "shell_order": 8,
+    "spatial_modes": 165,
+    "retained_dimension": 95,
+    "ground_energy_over_delta": -0.56194107759,
+    "gap_over_delta": 0.85020483638,
+    "gap_MeV": 431.08124367894,
+    "q_E": 0.29352499977,
+    "gA": 1.27530000031,
+    "gV": 1.0,
+    "mean_life_s": 878.29999964998,
+    "proton_radius_fm": 0.84074999963,
+    "neutron_charge_mean_square_fm2": -0.18691173812,
+    "old_two_configuration_probability": 0.94930085317,
+    "higher_configuration_probability": 0.05069914683,
+    "shell_probabilities": {
+      "0": 0.65822196908,
+      "1": 0.32373684429,
+      "2": 0.01598278917,
+      "3": 0.00173028763,
+      "4": 0.00026059893,
+      "5": 5.109149e-05,
+      "6": 1.212617e-05,
+      "7": 3.30488e-06,
+      "8": 9.8836e-07
+    },
+    "nucleons": {
+      "proton": {
+        "moment_muN": 2.79284734477,
+        "excited_moment_muN": 2.7517212415,
+        "first_transition_abs_muN": 0.14671481008,
+        "internal_susceptibility_MeV_minus1": 0.00092249477,
+        "first_state_susceptibility_fraction": 0.10825672016,
+        "ground_mass_MeV": 938.27208943
+      },
+      "neutron": {
+        "moment_muN": -1.91304276014,
+        "excited_moment_muN": -1.87191665687,
+        "first_transition_abs_muN": 0.14671481008,
+        "internal_susceptibility_MeV_minus1": 0.00092249477,
+        "first_state_susceptibility_fraction": 0.10825672016,
+        "ground_mass_MeV": 939.56542194
+      }
+    }
+  },
+  "unfitted_shell_holdout": {
+    "shell_order": 10,
+    "spatial_modes": 286,
+    "retained_dimension": 161,
+    "ground_energy_over_delta": -0.56194616711,
+    "gap_over_delta": 0.85018799032,
+    "gap_MeV": 431.0727021821,
+    "q_E": 0.29352471615,
+    "gA": 1.27530037847,
+    "gV": 1.0,
+    "mean_life_s": 878.2995673625,
+    "proton_radius_fm": 0.84074483954,
+    "neutron_charge_mean_square_fm2": -0.18691014905,
+    "old_two_configuration_probability": 0.94930248593,
+    "higher_configuration_probability": 0.05069751407,
+    "shell_probabilities": {
+      "0": 0.65822502571,
+      "1": 0.32373167978,
+      "2": 0.01598336435,
+      "3": 0.00173068627,
+      "4": 0.00026084094,
+      "5": 5.124962e-05,
+      "6": 1.223658e-05,
+      "7": 3.38566e-06,
+      "8": 1.04924e-06,
+      "9": 3.545e-07,
+      "10": 1.2734e-07
+    },
+    "nucleons": {
+      "proton": {
+        "moment_muN": 2.79285277199,
+        "excited_moment_muN": 2.75174238004,
+        "first_transition_abs_muN": 0.14671875813,
+        "internal_susceptibility_MeV_minus1": 0.00092249663,
+        "first_state_susceptibility_fraction": 0.10826447353,
+        "ground_mass_MeV": 938.27208943
+      },
+      "neutron": {
+        "moment_muN": -1.91304818736,
+        "excited_moment_muN": -1.87193779541,
+        "first_transition_abs_muN": 0.14671875813,
+        "internal_susceptibility_MeV_minus1": 0.00092249663,
+        "first_state_susceptibility_fraction": 0.10826447353,
+        "ground_mass_MeV": 939.56542194
+      }
+    }
+  },
+  "screening_sensitivity": [
+    {
+      "lambda": 0.5,
+      "parameters": {
+        "q": 0.293525,
+        "R": 0.00698600035,
+        "c0": -0.06285265964,
+        "c1": 0.43998779293,
+        "mu_u": 2.00276064425,
+        "mu_d": -0.99725074034,
+        "x": 0.7763355499,
+        "C": 9.2882772887,
+        "delta_MeV": 533.73206683369,
+        "ell_fm": 0.60060090459,
+        "eta": 0.4893151074,
+        "coherence": 1.15825058735
+      },
+      "observables": {
+        "shell_order": 8,
+        "spatial_modes": 165,
+        "retained_dimension": 95,
+        "ground_energy_over_delta": -0.52457495866,
+        "gap_over_delta": 0.80767349594,
+        "gap_MeV": 431.081244315,
+        "q_E": 0.293525,
+        "gA": 1.2753,
+        "gV": 1.0,
+        "mean_life_s": 878.3,
+        "proton_radius_fm": 0.84075,
+        "neutron_charge_mean_square_fm2": -0.18735877194,
+        "old_two_configuration_probability": 0.93746083551,
+        "higher_configuration_probability": 0.06253916449,
+        "shell_probabilities": {
+          "0": 0.64492667695,
+          "1": 0.33730467587,
+          "2": 0.01621235871,
+          "3": 0.00137367046,
+          "4": 0.00015410689,
+          "5": 2.310452e-05,
+          "6": 4.27058e-06,
+          "7": 9.1846e-07,
+          "8": 2.1756e-07
+        },
+        "nucleons": {
+          "proton": {
+            "moment_muN": 2.79284734463,
+            "excited_moment_muN": 2.77269542929,
+            "first_transition_abs_muN": 0.13655634852,
+            "internal_susceptibility_MeV_minus1": 0.00089438189,
+            "first_state_susceptibility_fraction": 0.09673233279,
+            "ground_mass_MeV": 938.27208943
+          },
+          "neutron": {
+            "moment_muN": -1.91304276,
+            "excited_moment_muN": -1.89289084466,
+            "first_transition_abs_muN": 0.13655634852,
+            "internal_susceptibility_MeV_minus1": 0.00089438189,
+            "first_state_susceptibility_fraction": 0.09673233279,
+            "ground_mass_MeV": 939.56542194
+          }
+        }
+      }
+    },
+    {
+      "lambda": 1.0,
+      "parameters": {
+        "q": 0.293525,
+        "R": 0.00698600035,
+        "c0": -0.06285265964,
+        "c1": 0.43998779293,
+        "mu_u": 2.00276064425,
+        "mu_d": -0.99725074034,
+        "x": 0.82088771644,
+        "C": 9.82131081605,
+        "delta_MeV": 507.03221768584,
+        "ell_fm": 0.61619621794,
+        "eta": 0.47605566734,
+        "coherence": 1.12589821549
+      },
+      "observables": {
+        "shell_order": 8,
+        "spatial_modes": 165,
+        "retained_dimension": 95,
+        "ground_energy_over_delta": -0.56194107772,
+        "gap_over_delta": 0.85020483764,
+        "gap_MeV": 431.081244315,
+        "q_E": 0.293525,
+        "gA": 1.2753,
+        "gV": 1.0,
+        "mean_life_s": 878.3,
+        "proton_radius_fm": 0.84075,
+        "neutron_charge_mean_square_fm2": -0.18691173831,
+        "old_two_configuration_probability": 0.94930085286,
+        "higher_configuration_probability": 0.05069914714,
+        "shell_probabilities": {
+          "0": 0.6582219685,
+          "1": 0.32373684486,
+          "2": 0.01598278918,
+          "3": 0.00173028762,
+          "4": 0.00026059893,
+          "5": 5.109149e-05,
+          "6": 1.212617e-05,
+          "7": 3.30488e-06,
+          "8": 9.8836e-07
+        },
+        "nucleons": {
+          "proton": {
+            "moment_muN": 2.79284734463,
+            "excited_moment_muN": 2.75172124083,
+            "first_transition_abs_muN": 0.14671480992,
+            "internal_susceptibility_MeV_minus1": 0.00092249478,
+            "first_state_susceptibility_fraction": 0.10825671974,
+            "ground_mass_MeV": 938.27208943
+          },
+          "neutron": {
+            "moment_muN": -1.91304276,
+            "excited_moment_muN": -1.8719166562,
+            "first_transition_abs_muN": 0.14671480992,
+            "internal_susceptibility_MeV_minus1": 0.00092249478,
+            "first_state_susceptibility_fraction": 0.10825671974,
+            "ground_mass_MeV": 939.56542194
+          }
+        }
+      }
+    },
+    {
+      "lambda": 2.0,
+      "parameters": {
+        "q": 0.293525,
+        "R": 0.00698600035,
+        "c0": -0.06285265964,
+        "c1": 0.43998779293,
+        "mu_u": 2.00276064425,
+        "mu_d": -0.99725074034,
+        "x": 0.85314534055,
+        "C": 10.20724929001,
+        "delta_MeV": 491.73827296907,
+        "ell_fm": 0.62844151093,
+        "eta": 0.46389982653,
+        "coherence": 1.1117148175
+      },
+      "observables": {
+        "shell_order": 8,
+        "spatial_modes": 165,
+        "retained_dimension": 95,
+        "ground_energy_over_delta": -0.59221020262,
+        "gap_over_delta": 0.87664773724,
+        "gap_MeV": 431.081244315,
+        "q_E": 0.293525,
+        "gA": 1.2753,
+        "gV": 1.0,
+        "mean_life_s": 878.3,
+        "proton_radius_fm": 0.84075,
+        "neutron_charge_mean_square_fm2": -0.18661767258,
+        "old_two_configuration_probability": 0.95573392593,
+        "higher_configuration_probability": 0.04426607407,
+        "shell_probabilities": {
+          "0": 0.66743505926,
+          "1": 0.3123780363,
+          "2": 0.0174200159,
+          "3": 0.00222801977,
+          "4": 0.000405387,
+          "5": 9.509903e-05,
+          "6": 2.676262e-05,
+          "7": 8.59325e-06,
+          "8": 3.02687e-06
+        },
+        "nucleons": {
+          "proton": {
+            "moment_muN": 2.79284734463,
+            "excited_moment_muN": 2.73796682398,
+            "first_transition_abs_muN": 0.15364048719,
+            "internal_susceptibility_MeV_minus1": 0.00093740896,
+            "first_state_susceptibility_fraction": 0.11682966203,
+            "ground_mass_MeV": 938.27208943
+          },
+          "neutron": {
+            "moment_muN": -1.91304276,
+            "excited_moment_muN": -1.85816223935,
+            "first_transition_abs_muN": 0.15364048719,
+            "internal_susceptibility_MeV_minus1": 0.00093740896,
+            "first_state_susceptibility_fraction": 0.11682966203,
+            "ground_mass_MeV": 939.56542194
+          }
+        }
+      }
+    }
+  ],
+  "conditional_input_ranges": [
+    {
+      "input": "pole_centroid",
+      "value_MeV": 1360.0,
+      "delta_MeV": 495.27034624345
+    },
+    {
+      "input": "pole_centroid",
+      "value_MeV": 1380.0,
+      "delta_MeV": 518.79408912823
+    },
+    {
+      "input": "proton_radius",
+      "value_fm": 0.84011,
+      "ell_fm": 0.61572715392
+    },
+    {
+      "input": "proton_radius",
+      "value_fm": 0.84139,
+      "ell_fm": 0.61666528197
+    },
+    {
+      "input": "Breit_Wigner_definition_control",
+      "value_MeV": 1440.0,
+      "delta_MeV": 589.36531778257
+    }
+  ],
+  "field_derivatives": [
+    {
+      "nucleon": "proton",
+      "b_step_MeV": 0.001,
+      "minus_energy_derivative": 2.79284734461,
+      "moment_derivative": 0.00092249478
+    },
+    {
+      "nucleon": "neutron",
+      "b_step_MeV": 0.001,
+      "minus_energy_derivative": -1.91304275995,
+      "moment_derivative": 0.00092249478
+    },
+    {
+      "nucleon": "proton",
+      "b_step_MeV": 0.01,
+      "minus_energy_derivative": 2.79284734461,
+      "moment_derivative": 0.00092249478
+    },
+    {
+      "nucleon": "neutron",
+      "b_step_MeV": 0.01,
+      "minus_energy_derivative": -1.91304275991,
+      "moment_derivative": 0.00092249478
+    }
+  ],
+  "frozen_activity_controls": [
+    {
+      "case": "N=100",
+      "activity": 0.00696891179,
+      "x": 0.81988310886,
+      "observables": {
+        "shell_order": 8,
+        "spatial_modes": 165,
+        "retained_dimension": 95,
+        "ground_energy_over_delta": -0.56081029125,
+        "gap_over_delta": 0.85016980049,
+        "gap_MeV": 431.06347935344,
+        "q_E": 0.29321980526,
+        "gA": 1.27570692632,
+        "gV": 1.0,
+        "mean_life_s": 879.98755867304,
+        "proton_radius_fm": 0.84054956957,
+        "neutron_charge_mean_square_fm2": -0.18677315484,
+        "old_two_configuration_probability": 0.94943028031,
+        "higher_configuration_probability": 0.05056971969,
+        "shell_probabilities": {
+          "0": 0.6586590987,
+          "1": 0.32334472457,
+          "2": 0.01594363888,
+          "3": 0.00172535266,
+          "4": 0.00025985816,
+          "5": 5.095039e-05,
+          "6": 1.209403e-05,
+          "7": 3.29657e-06,
+          "8": 9.8605e-07
+        },
+        "nucleons": {
+          "proton": {
+            "moment_muN": 2.79268654985,
+            "excited_moment_muN": 2.75116482883,
+            "first_transition_abs_muN": 0.14702623059,
+            "internal_susceptibility_MeV_minus1": 0.00092289496,
+            "first_state_susceptibility_fraction": 0.1086741218,
+            "ground_mass_MeV": 938.27208943
+          },
+          "neutron": {
+            "moment_muN": -1.91288196522,
+            "excited_moment_muN": -1.8713602442,
+            "first_transition_abs_muN": 0.14702623059,
+            "internal_susceptibility_MeV_minus1": 0.00092289496,
+            "first_state_susceptibility_fraction": 0.1086741218,
+            "ground_mass_MeV": 939.56542194
+          }
+        }
+      }
+    },
+    {
+      "case": "alpha+0.05",
+      "activity": 0.00603247715,
+      "x": 0.76281161639,
+      "observables": {
+        "shell_order": 8,
+        "spatial_modes": 165,
+        "retained_dimension": 95,
+        "ground_energy_over_delta": -0.49759025016,
+        "gap_over_delta": 0.84827313978,
+        "gap_MeV": 430.10181126683,
+        "q_E": 0.27508156222,
+        "gA": 1.29989125038,
+        "gV": 1.0,
+        "mean_life_s": 985.28946619412,
+        "proton_radius_fm": 0.82884203169,
+        "neutron_charge_mean_square_fm2": -0.17865396358,
+        "old_two_configuration_probability": 0.95660309923,
+        "higher_configuration_probability": 0.04339690077,
+        "shell_probabilities": {
+          "0": 0.68413024639,
+          "1": 0.30031768864,
+          "2": 0.01381324418,
+          "3": 0.0014611502,
+          "4": 0.00022020969,
+          "5": 4.338644e-05,
+          "6": 1.03662e-05,
+          "7": 2.84778e-06,
+          "8": 8.6049e-07
+        },
+        "nucleons": {
+          "proton": {
+            "moment_muN": 2.78539865281,
+            "excited_moment_muN": 2.71882515719,
+            "first_transition_abs_muN": 0.16455544865,
+            "internal_susceptibility_MeV_minus1": 0.0009433653,
+            "first_state_susceptibility_fraction": 0.13347605493,
+            "ground_mass_MeV": 938.27208943
+          },
+          "neutron": {
+            "moment_muN": -1.90559406818,
+            "excited_moment_muN": -1.83902057256,
+            "first_transition_abs_muN": 0.16455544865,
+            "internal_susceptibility_MeV_minus1": 0.0009433653,
+            "first_state_susceptibility_fraction": 0.13347605493,
+            "ground_mass_MeV": 939.56542194
+          }
+        }
+      }
+    }
+  ],
+  "neutron_radius_comparison": {
+    "observed_fm2": -0.1155,
+    "standard_uncertainty_fm2": 0.0017,
+    "role": "unfitted diagnostic; mismatch requires charge-operator improvement"
+  },
+  "checks": {
+    "basis_spatial_gram": true,
+    "basis_permutation_projector_idempotent": true,
+    "basis_retained_basis_orthonormal": true,
+    "basis_all_retained_states_permutation_symmetric": true,
+    "basis_bare_link_hermitian": true,
+    "basis_bounded_link_hermitian": true,
+    "basis_bare_link_permutation_invariant": true,
+    "basis_bounded_link_permutation_invariant": true,
+    "basis_point_radius_permutation_invariant": true,
+    "basis_proton_charge_one_neutron_zero": true,
+    "basis_axial_block_uses_same_E_weight": true,
+    "basis_old_two_state_bare_block_recovered": true,
+    "basis_old_two_state_bounded_block_recovered": true,
+    "bare_old_coupling_exceeds_analytic_stability_threshold": true,
+    "bare_variational_energies_fall_with_shell_extension": true,
+    "bounded_frozen_variational_energies_do_not_increase": true,
+    "bounded_operator_satisfies_analytic_norm_ceiling": true,
+    "bounded_ground_satisfies_uniform_lower_bound": true,
+    "shared_axial_anchor_returned": true,
+    "shared_magnetic_anchors_returned": true,
+    "proton_radius_anchor_returned": true,
+    "excitation_centroid_gap_returned": true,
+    "frozen_parent_lifetime_returned": true,
+    "frozen_parent_reference_unchanged": true,
+    "old_two_configuration_truncation_is_not_silently_closed": true,
+    "neutron_radius_is_comparison_not_an_anchor": true,
+    "density_positive_trace_one": true,
+    "unitary_evolution_preserves_superposition_density": true,
+    "proton_energy_derivative_0.001": true,
+    "proton_spectral_susceptibility_derivative_0.001": true,
+    "neutron_energy_derivative_0.001": true,
+    "neutron_spectral_susceptibility_derivative_0.001": true,
+    "proton_energy_derivative_0.01": true,
+    "proton_spectral_susceptibility_derivative_0.01": true,
+    "neutron_energy_derivative_0.01": true,
+    "neutron_spectral_susceptibility_derivative_0.01": true,
+    "alternate_spatial_gram": true,
+    "alternate_permutation_projector_idempotent": true,
+    "alternate_retained_basis_orthonormal": true,
+    "alternate_all_retained_states_permutation_symmetric": true,
+    "alternate_bare_link_hermitian": true,
+    "alternate_bounded_link_hermitian": true,
+    "alternate_bare_link_permutation_invariant": true,
+    "alternate_bounded_link_permutation_invariant": true,
+    "alternate_point_radius_permutation_invariant": true,
+    "alternate_proton_charge_one_neutron_zero": true,
+    "alternate_axial_block_uses_same_E_weight": true,
+    "alternate_old_two_state_bare_block_recovered": true,
+    "alternate_old_two_state_bounded_block_recovered": true,
+    "alternate_quadrature_same_ground_energy": true,
+    "alternate_quadrature_same_radius": true,
+    "alternate_quadrature_same_currents": true,
+    "holdout_spatial_gram": true,
+    "holdout_permutation_projector_idempotent": true,
+    "holdout_retained_basis_orthonormal": true,
+    "holdout_all_retained_states_permutation_symmetric": true,
+    "holdout_bare_link_hermitian": true,
+    "holdout_bounded_link_hermitian": true,
+    "holdout_bare_link_permutation_invariant": true,
+    "holdout_bounded_link_permutation_invariant": true,
+    "holdout_point_radius_permutation_invariant": true,
+    "holdout_proton_charge_one_neutron_zero": true,
+    "holdout_axial_block_uses_same_E_weight": true,
+    "holdout_old_two_state_bare_block_recovered": true,
+    "holdout_old_two_state_bounded_block_recovered": true,
+    "holdout_ground_energy_converges": true,
+    "holdout_gap_converges_MeV": true,
+    "holdout_axial_converges": true,
+    "holdout_radius_converges_fm": true,
+    "holdout_moments_converge_muN": true,
+    "lambda_0.5_spatial_gram": true,
+    "lambda_0.5_permutation_projector_idempotent": true,
+    "lambda_0.5_retained_basis_orthonormal": true,
+    "lambda_0.5_all_retained_states_permutation_symmetric": true,
+    "lambda_0.5_bare_link_hermitian": true,
+    "lambda_0.5_bounded_link_hermitian": true,
+    "lambda_0.5_bare_link_permutation_invariant": true,
+    "lambda_0.5_bounded_link_permutation_invariant": true,
+    "lambda_0.5_point_radius_permutation_invariant": true,
+    "lambda_0.5_proton_charge_one_neutron_zero": true,
+    "lambda_0.5_axial_block_uses_same_E_weight": true,
+    "lambda_0.5_old_two_state_bare_block_recovered": true,
+    "lambda_0.5_old_two_state_bounded_block_recovered": true,
+    "lambda_0.5_joint_anchors_returned": true,
+    "lambda_1.0_spatial_gram": true,
+    "lambda_1.0_permutation_projector_idempotent": true,
+    "lambda_1.0_retained_basis_orthonormal": true,
+    "lambda_1.0_all_retained_states_permutation_symmetric": true,
+    "lambda_1.0_bare_link_hermitian": true,
+    "lambda_1.0_bounded_link_hermitian": true,
+    "lambda_1.0_bare_link_permutation_invariant": true,
+    "lambda_1.0_bounded_link_permutation_invariant": true,
+    "lambda_1.0_point_radius_permutation_invariant": true,
+    "lambda_1.0_proton_charge_one_neutron_zero": true,
+    "lambda_1.0_axial_block_uses_same_E_weight": true,
+    "lambda_1.0_old_two_state_bare_block_recovered": true,
+    "lambda_1.0_old_two_state_bounded_block_recovered": true,
+    "lambda_1.0_joint_anchors_returned": true,
+    "lambda_2.0_spatial_gram": true,
+    "lambda_2.0_permutation_projector_idempotent": true,
+    "lambda_2.0_retained_basis_orthonormal": true,
+    "lambda_2.0_all_retained_states_permutation_symmetric": true,
+    "lambda_2.0_bare_link_hermitian": true,
+    "lambda_2.0_bounded_link_hermitian": true,
+    "lambda_2.0_bare_link_permutation_invariant": true,
+    "lambda_2.0_bounded_link_permutation_invariant": true,
+    "lambda_2.0_point_radius_permutation_invariant": true,
+    "lambda_2.0_proton_charge_one_neutron_zero": true,
+    "lambda_2.0_axial_block_uses_same_E_weight": true,
+    "lambda_2.0_old_two_state_bare_block_recovered": true,
+    "lambda_2.0_old_two_state_bounded_block_recovered": true,
+    "lambda_2.0_joint_anchors_returned": true,
+    "proton_susceptibility_positive": true,
+    "proton_higher_excited_states_contribute": true,
+    "neutron_susceptibility_positive": true,
+    "neutron_higher_excited_states_contribute": true,
+    "N=100_changes_shared_state_with_frozen_C": true,
+    "alpha+0.05_changes_shared_state_with_frozen_C": true
+  },
+  "checks_total": 118,
+  "checks_passed": 118
+}

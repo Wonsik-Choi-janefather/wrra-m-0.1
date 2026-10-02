@@ -1,5 +1,19 @@
 # WRRA-M Research Notes
 
+## Current upstream 0.5 · 내부 공간의 안정성, 여기 척도와 핵자 크기 · 2026-10-02
+
+0.4의 이차 결합을 무한 공간으로 확장할 때 드러나는 에너지 무하한을 기록하고,
+기존 두 상태 결합과 순열 대칭을 보존하는 제한 결합으로 보강했습니다.
+같은 바닥상태의 공동 전류와 알려진 여기·양성자 반지름 입력으로
+**Δ=507.032217686 MeV, ℓ=0.61619621794 fm**를 보정했습니다.
+보정값을 고정한 K=10에서 여기 간격 변화는 **0.00854213 MeV**입니다.
+중성자 전하 반지름의 불일치와 제한 방식의 선택 자유도를 공개했습니다.
+**구현 118개 + 별도 검증 22개, 총 140개 통과**, 새 디렉터리 결과 바이트 재현을 확인했습니다.
+
+- [상류 0.5 원고·코드·재현 안내](upstream/spatial_scale_v0_5/README.md)
+- [한글 PDF](upstream/spatial_scale_v0_5/paper/WRRA_M_Spatial_Stability_Excitation_Scale_v0_5_KO_2026_10_02.pdf) · [Word](upstream/spatial_scale_v0_5/paper/WRRA_M_Spatial_Stability_Excitation_Scale_v0_5_KO_2026_10_02.docx)
+- [전체 재현 ZIP](upstream/spatial_scale_v0_5/paper/WRRA_M_Spatial_Stability_Excitation_Scale_v0_5_Reproducibility_2026_10_02.zip) · [검증](upstream/spatial_scale_v0_5/verification.json)
+
 ## Current upstream 0.4 · 내부 공간 결합과 핵자의 공동 전류 · 2026-10-02
 
 실제 가우스·야코비 공간 모드의 결합과 그 자기장 미분 전류를 구현했습니다.
