@@ -41,7 +41,9 @@ N·전자기 상수 입력 전달, 제타 부록 생성 경로 및 후보 집계
 
 **원식 현실 렌더러 아키텍처 메타차원 연구 분기**
 
-Latest reviewed version: **WRRA-M 0.9-r1** · 2026-10-02
+Latest completed downstream version: **WRRA-M 0.10** · 2026-10-02
+
+Reviewed predecessor: **WRRA-M 0.9-r1**.
 
 Latest Zenodo archive: **WRRA-M 0.9-r1**, reviewed 0.7–0.9 series, [DOI 10.5281/zenodo.23091892](https://doi.org/10.5281/zenodo.23091892).
 
@@ -95,6 +97,33 @@ The finite Euler-family Hamiltonian replaces the earlier scalar axial dressing w
 - [계산 안내와 재현](upstream/internal_mixing_v0_3/README.md)
 - [한국어 PDF 7쪽](upstream/internal_mixing_v0_3/paper/WRRA_M_Internal_Fold_Mixing_Shared_Currents_v0_3_KO_2026_10_02.pdf) · [Word](upstream/internal_mixing_v0_3/paper/WRRA_M_Internal_Fold_Mixing_Shared_Currents_v0_3_KO_2026_10_02.docx) · [원고](upstream/internal_mixing_v0_3/manuscript_KO.md)
 - [전체 재현 ZIP](upstream/internal_mixing_v0_3/paper/WRRA_M_Internal_Fold_Mixing_Shared_Currents_v0_3_Reproducibility_2026_10_02.zip) · [계산](upstream/internal_mixing_v0_3/code/compute.py) · [결과 장부](upstream/internal_mixing_v0_3/code/results.json)
+
+## Completed 0.10 · 0.10 완료
+
+주소별 정보 가중치를 양의 SI 에너지 응답에 연결하고, 같은 에너지의 부피 미분으로 압력을 계산했다. 기준 보정을 한 번 적용한 뒤 주소·상태 변경에도 계수를 고정한다. 32개 수치 검사, 한영 12개 수식과 12개 결과표 행 대조, 저장 결과를 제거한 복사본에서 17개 파일의 바이트 단위 재현을 완료했다.
+
+The positive address energy map, carrier traces and one energy operator now calculate pressure, sector exchange, gravity and homogeneous expansion. The inherited reference reproduces **q=-0.52855**, **v=207.5109051266 km/s** and conditional finite-patch deflection **0.5355865106 arcsec**. All nine inherited state/volume cases agree. Arithmetic 5%/26.8%/68.2% and calibrated energy 4.93%/26.5%/68.57% remain distinct.
+
+Conversion work is a signed exchange with the environment owning that work; it is not a fourth cosmic density fraction. The microscopic environment, physical proper time and measurement records remain subsequent stages under the expanded roadmap.
+
+| Evaluation | WRRA-M 0.10 |
+| --- | --- |
+| 검증 입력 / Verification input | Frozen reviewed 0.9 address inputs, 0.8 particle/filter ledger, 0.6-r2 carrier and disclosed constants, target energies and constitutive responses. |
+| WRRA 고유 변환 / WRRA-specific transformation | Address-state effects → positive SI response and carrier loads → energy operator → volume pressure and conserved exchanges → gravity and expansion. |
+| 산출값 / Output | 32 checks; inherited reference and all nine cases reproduced; frozen-coefficient address responses, 48-channel budgets and conversion-work ledger. |
+| 반증조건 / Falsification | Failed positivity, calibrated reproduction, pressure derivative, exchange conservation, channel accounting or document/execution agreement. |
+
+- [0.10 한국어 PDF](paper/WRRA_M_0_10_KO.pdf) · [DOCX](paper/WRRA_M_0_10_KO.docx) · [Markdown](paper/WRRA_M_0_10_KO.md)
+- [0.10 English PDF](paper/WRRA_M_0_10_EN.pdf) · [DOCX](paper/WRRA_M_0_10_EN.docx) · [Markdown](paper/WRRA_M_0_10_EN.md)
+- [Bilingual reproducibility ZIP](paper/WRRA_M_0_10_Reproducibility.zip)
+- [Calculation and input ledger](calculations/wrra_m_0_10) · [32 verification groups](calculations/wrra_m_0_10/results/verification.json)
+- [Document checks](calculations/wrra_m_0_10/results/document_checks.json) · [Clean-copy reproduction](calculations/wrra_m_0_10/results/reproduction_checks.json)
+- [Completion record](REVISION_0_10.md) · [SHA256 manifest](SHA256SUMS_0_10)
+
+```bash
+python -m pip install -r calculations/wrra_m_0_10/requirements.txt
+python calculations/wrra_m_0_10/run_release.py
+```
 
 ## Completed 0.9 · 0.9 완료
 
