@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "이 연구를 인용할 때 두 공동저자를 함께 표시해 주세요."
+title: "WRRA의 확장 가능성과 접속 조건"
+type: article
+authors:
+  - family-names: "Choi"
+    given-names: "Wonsik"
+    orcid: "https://orcid.org/0009-0001-4263-9772"
+  - family-names: "Choi"
+    given-names: "Jeongin"
+version: "r8"
+date-released: 2026-10-02
+url: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/tree/main/submission/extensions_r8"

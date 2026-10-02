@@ -1,5 +1,13 @@
 # WRRA-M Research Notes
 
+## 학회 등록용 분리 원고 두 편 · 2026-10-03
+
+공동저자: **최원식 Wonsik Choi · 최정인 Jeongin Choi**
+
+- [보통 물질 5퍼센트 구성비의 재현 · r9 · 한글 22쪽](submission/matter_fraction_r9/README.md) — 두 단계 차원필터와 공동 구성비 계산, 구동 대조 및 검산 부록
+- [WRRA의 확장 가능성과 접속 조건 · r8 · 한글 7쪽](submission/extensions_r8/README.md) — 공통전달자·진공 기준·뒤틀림·균일 팽창과 후속 미시 구현
+- [두 원고와 계산 자료 안내](submission/README.md)
+
 ## Current upstream 0.6 · 핵자 전하 반지름과 유한 운동량 전류 · 2026-10-03
 
 0.5와 같은 내부 상태에서 유한 운동량 전자기·약한 전류를 계산하고,
