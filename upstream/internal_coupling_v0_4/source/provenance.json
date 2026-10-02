@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-02",
+  "inherited_upstream_review": {
+    "doi": "10.5281/zenodo.23092499",
+    "repo_commit": "e852f0407195fb598e4a0ed1f7c96a8a8abb32b8",
+    "reproduction_zip_sha256": "2e0b71baabfabe59d4973041abc3b5e455764c9bde88b0e48e2ad9e2d833bc80"
+  },
+  "mcc_read_files": [
+    {
+      "url": "https://github.com/Wonsik-Choi-janefather/minimal-computing-cosmology-2.3.2/blob/main/gitbook/english-edition/part-iv/chapter-23-mass-charge-and-mixing.md",
+      "git_blob_sha": "f307d32f5a5a8af7097db40ed942996b946e4045"
+    },
+    {
+      "url": "https://github.com/Wonsik-Choi-janefather/minimal-computing-cosmology-2.3.2/blob/main/gitbook/english-edition/part-i/chapter-5-the-four-forces-mass-and-phenotype.md",
+      "git_blob_sha": "bef10c1bf424b08cedb4358b17c87e97960be366"
+    },
+    {
+      "url": "https://github.com/Wonsik-Choi-janefather/minimal-computing-cosmology-2.3.2/blob/main/gitbook/2.3.2/home/part5/part5-sub2.md",
+      "git_blob_sha": "92ee0e93722f9bbaf621172b7e307ce63f05ce24"
+    }
+  ],
+  "physical_input_sources": [
+    "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+    "https://pdg.lbl.gov/2026/tables/rpp2026-sum-baryons.pdf",
+    "https://pdg.lbl.gov/2026/reviews/rpp2026-rev-quark-model.pdf"
+  ],
+  "construction_choices": [
+    "Gaussian Jacobi S and E modes with retained-space projection",
+    "Delta=(mp+mn)/6 inherited reference scale",
+    "linear magnetic field deformation with fitted eta",
+    "no explicit b squared term; reduced internal curvature only"
+  ]
+}

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this finite calibrated research model and its disclosed input roles."
+title: "WRRA-M Internal Spatial Coupling and Joint Nucleon Currents Upstream 0.4"
+authors:
+  - family-names: Choi
+    given-names: Wonsik
+    orcid: "https://orcid.org/0009-0001-4263-9772"
+version: "0.4"
+date-released: "2026-10-02"
+license: CC-BY-4.0
+url: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/tree/main/upstream/internal_coupling_v0_4"
+repository-code: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1"
+abstract: "An explicit retained Gaussian/Jacobi mode construction and field-dependent mixing link jointly reproduce calibrated axial and magnetic nucleon currents, with fixed-input controls and disclosed projection and transverse-response assumptions."

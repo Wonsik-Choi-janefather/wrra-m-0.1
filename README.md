@@ -1,5 +1,17 @@
 # WRRA-M Research Notes
 
+## Current upstream 0.4 · 내부 공간 결합과 핵자의 공동 전류 · 2026-10-02
+
+실제 가우스·야코비 공간 모드의 결합과 그 자기장 미분 전류를 구현했습니다.
+같은 내부 고유상태에서 **gA=1.2753**과 두 핵자 자기모멘트를 공동 반환하며,
+**c₁=0.439987792930 μN**을 결합 미분의 기대값으로 연결합니다.
+자기장 응답 η의 보정, 유한 공간 투영과 Δ의 선택을 원고에 명시했습니다.
+**86개 구현 검사와 17개 별도 검증, 총 103개 통과** 및 새 ZIP 재현을 완료했습니다.
+
+- [상류 0.4 논문·코드·재현 안내](upstream/internal_coupling_v0_4/README.md)
+- [한글 PDF 10쪽](upstream/internal_coupling_v0_4/paper/WRRA_M_Internal_Spatial_Coupling_Joint_Currents_v0_4_KO_2026_10_02.pdf) · [Word](upstream/internal_coupling_v0_4/paper/WRRA_M_Internal_Spatial_Coupling_Joint_Currents_v0_4_KO_2026_10_02.docx)
+- [전체 재현 ZIP](upstream/internal_coupling_v0_4/paper/WRRA_M_Internal_Spatial_Coupling_Joint_Currents_v0_4_Reproducibility_2026_10_02.zip) · [검증 결과](upstream/internal_coupling_v0_4/verification.json)
+
 ## Current upstream reviewed collection r1 · 2026-10-02
 
 [Zenodo DOI: 10.5281/zenodo.23092499](https://doi.org/10.5281/zenodo.23092499) ·

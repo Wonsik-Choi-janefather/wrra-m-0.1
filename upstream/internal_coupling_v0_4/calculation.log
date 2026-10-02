@@ -1,0 +1,121 @@
+{
+  "checks_passed": 86,
+  "calibration": {
+    "C": 13.19347429753741,
+    "c0": -0.06285265964158282,
+    "eta": 0.4380928926453053,
+    "q_calibration": 0.293525,
+    "x_calibration": 1.1027408856938528,
+    "c1_target_muN": 0.4399877929300249,
+    "activity_reference": 0.006986000352730204,
+    "coherence": 0.9107536974945165
+  },
+  "baseline": {
+    "primes": [
+      3,
+      5
+    ],
+    "activity": 0.006986000352730204,
+    "delta_MeV": 312.97291856166663,
+    "x": 1.1027408856938528,
+    "off_diagonal_t_MeV": 345.1280334128823,
+    "q": 0.29352499999999987,
+    "ground_vector": [
+      0.8405206719647055,
+      0.5417794754325784
+    ],
+    "gap_MeV": 757.8954317996527,
+    "charge_proton": 1.0,
+    "charge_neutron": 0.0,
+    "vector": 0.9999999999999999,
+    "axial_magnitude": 1.2752999999999999,
+    "mean_life_s": 878.3000000000001,
+    "phase_space": 1.6916652367741625,
+    "nucleons": {
+      "proton": {
+        "hamiltonian_zero_MeV": [
+          [
+            1160.733346048993,
+            -345.1280334128823
+          ],
+          [
+            -345.1280334128823,
+            1473.7062646106597
+          ]
+        ],
+        "magnetic_operator_muN": [
+          [
+            2.9399117794748513,
+            0.48310294445184654
+          ],
+          [
+            0.48310294445184654,
+            0.9399041897469704
+          ]
+        ],
+        "magnetic_exchange_operator_muN": [
+          [
+            1.1909407064851098e-31,
+            0.48310294445184654
+          ],
+          [
+            0.48310294445184654,
+            -5.9547035324255495e-33
+          ]
+        ],
+        "ground_moment_muN": 2.79284734463,
+        "excited_moment_muN": 1.0869686245918215,
+        "transition_moment_muN": -0.7112597927695281,
+        "reduced_internal_susceptibility_MeV_minus1": 0.001334987576344919,
+        "c1_expectation_signed_muN": 0.4399877929300248,
+        "field_b_MeV": 0.0,
+        "field_energy_MeV": 938.27208943,
+        "field_ground_moment_muN": 2.79284734463,
+        "field_q": 0.293525,
+        "ground_mass_MeV": 938.27208943
+      },
+      "neutron": {
+        "hamiltonian_zero_MeV": [
+          [
+            1162.026678558993,
+            -345.1280334128823
+          ],
+          [
+            -345.1280334128823,
+            1474.9995971206595
+          ]
+        ],
+        "magnetic_operator_muN": [
+          [
+            -2.060107194844851,
+            -0.48310294445184654
+          ],
+          [
+            -0.48310294445184654,
+            -0.0600996051169701
+          ]
+        ],
+        "magnetic_exchange_operator_muN": [
+          [
+            -1.1909407064851098e-31,
+            -0.48310294445184654
+          ],
+          [
+            -0.48310294445184654,
+            5.9547035324255495e-33
+          ]
+        ],
+        "ground_moment_muN": -1.9130427599999995,
+        "excited_moment_muN": -0.20716403996182117,
+        "transition_moment_muN": 0.711259792769528,
+        "reduced_internal_susceptibility_MeV_minus1": 0.0013349875763449183,
+        "c1_expectation_signed_muN": -0.4399877929300248,
+        "field_b_MeV": 0.0,
+        "field_energy_MeV": 939.5654219399999,
+        "field_ground_moment_muN": -1.9130427599999997,
+        "field_q": 0.293525,
+        "ground_mass_MeV": 939.5654219399999
+      }
+    }
+  }
+}

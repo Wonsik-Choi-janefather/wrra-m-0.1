@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "pdf_pages_10": true,
+    "native_equations_29": true,
+    "all_table_captions_present": true,
+    "main_values_present": true
+  },
+  "pages": 10,
+  "native_equations": 29,
+  "tables": 7,
+  "visual_review": "All ten final rendered pages inspected; no clipping, missing glyphs, overlap or broken tables."
+}
