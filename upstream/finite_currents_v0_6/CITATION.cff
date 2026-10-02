@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this research release and its explicitly stated calibration scope."
+type: software
+title: "WRRA M upstream 0.6: finite-momentum currents and beta corrections"
+version: "0.6"
+date-released: "2026-10-03"
+authors:
+  - family-names: Choi
+    given-names: Wonsik
+    orcid: "https://orcid.org/0009-0001-4263-9772"
+repository-code: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1"
+url: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/tree/main/upstream/finite_currents_v0_6"
+license: CC-BY-4.0

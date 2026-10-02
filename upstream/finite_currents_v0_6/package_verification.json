@@ -1,0 +1,9 @@
+{
+  "zip_crc_pass": true,
+  "all_payload_hashes_pass": true,
+  "fresh_zip_results_bytes_identical": true,
+  "fresh_zip_implementation_checks": 84,
+  "archive_members": 30,
+  "archive_sha256": "6bf1aac124989f9e148c3aa632009faeb84403f8768a36ee2c6449551a59dd15",
+  "result_sha256": "7fa734513f862db6c417d0fb9077ecea8c039ff83cc4ad1fe327c070ab07df2e"
+}

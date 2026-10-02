@@ -1,0 +1,13 @@
+{
+  "pages": 10,
+  "native_equations": 30,
+  "tables": 9,
+  "scientific_figures": 2,
+  "all_pages_visually_inspected": true,
+  "equation_23_layout_repaired": true,
+  "no_clipped_tables_or_orphan_pages": true,
+  "docx_sha256": "04d142b37395bd671e50f972b03168b202e8a1f8e9d1ff2e96437245feb400ec",
+  "pdf_sha256": "a49a66ee45ceaeb142778d2d687bbe9b0be030706caadcb1bd4ee8fc4e5db7fc",
+  "pdf_text_bounds_pass": true,
+  "math_run_and_delimiter_properties_in_schema_order": true
+}

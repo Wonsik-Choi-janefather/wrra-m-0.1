@@ -1,5 +1,19 @@
 # WRRA-M Research Notes
 
+## Current upstream 0.6 · 핵자 전하 반지름과 유한 운동량 전류 · 2026-10-03
+
+0.5와 같은 내부 상태에서 유한 운동량 전자기·약한 전류를 계산하고,
+영전하 아이소벡터 항과 공간 폭을 두 전하 반지름에 공동 보정했습니다.
+Sachs–Dirac–Pauli 변환, CVC와 투영 연속 방정식을 확인했습니다.
+반동·선도 복사 보정 뒤 **고정 부모 κ의 수명은 846.204102초**이며,
+878.3초에 맞춘 **별도 κ=11.975301266**을 구분해 기록했습니다.
+중성자 자기 반지름의 남은 불일치와 유한 Q² 곡률의 구성 의존성을 공개했습니다.
+**구현 84개 + 독립 감사 24개, 총 108개 통과**.
+
+- [상류 0.6 원고·코드·재현 안내](upstream/finite_currents_v0_6/README.md)
+- [한글 PDF 10쪽](upstream/finite_currents_v0_6/paper/WRRA_M_Finite_Momentum_Currents_Beta_Corrections_v0_6_KO_2026_10_03.pdf) · [Word](upstream/finite_currents_v0_6/paper/WRRA_M_Finite_Momentum_Currents_Beta_Corrections_v0_6_KO_2026_10_03.docx)
+- [전체 재현 ZIP](upstream/finite_currents_v0_6/paper/WRRA_M_Finite_Momentum_Currents_Beta_Corrections_v0_6_Reproducibility_2026_10_03.zip) · [검증](upstream/finite_currents_v0_6/verification.json)
+
 ## Current upstream 0.5 · 내부 공간의 안정성, 여기 척도와 핵자 크기 · 2026-10-02
 
 0.4의 이차 결합을 무한 공간으로 확장할 때 드러나는 에너지 무하한을 기록하고,
@@ -363,3 +377,4 @@ Citation metadata is provided in [`CITATION.cff`](CITATION.cff). The papers and 
 The 0.5 titles and claim ledger now foreground information load and twist gravity. Its local calculation uses 26.5% of the whole universe within the hidden total of 95.07%. The zero-phenotype input executes with undefined ratios recorded as null; the radius response ratio is evaluated numerically. The original scientific outputs reproduce unchanged.
 
 [0.6 start, Korean](calculations/wrra_m_0_6_start/README_KO.md) · [0.6 start, English](calculations/wrra_m_0_6_start/README_EN.md) · [Start reproducibility archive](calculations/wrra_m_0_6_start/WRRA_M_0_6_Start_Reproducibility.zip). These files preserve the initial prototype. The completed finite homogeneous model and bilingual paper are provided above.
+
