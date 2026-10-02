@@ -1,5 +1,16 @@
 # WRRA-M Research Notes
 
+## Current upstream reviewed collection r1 · 2026-10-02
+
+[Zenodo DOI: 10.5281/zenodo.23092499](https://doi.org/10.5281/zenodo.23092499) ·
+[교정 자료집과 여섯 PDF](upstream/review_r1/README.md)
+
+상류 다섯 연구의 원고와 코드를 다시 검토하고 교정했습니다. 내부 혼합 모델의
+N·전자기 상수 입력 전달, 제타 부록 생성 경로 및 후보 집계를 수정했습니다.
+122개 구현 검사와 56개 추가 검사, 총 178개가 통과했으며 새 압축 해제 환경에서
+결과 파일의 바이트 단위 재현과 여섯 Word 원고 재생성을 확인했습니다.
+교정 코드 전체는 자료집의 재현 ZIP에 있고, 기존 버전 파일은 기록으로 보존합니다.
+
 **Wonsik Reality Renderer Architecture Meta-dimensional Branch**
 
 **원식 현실 렌더러 아키텍처 메타차원 연구 분기**
@@ -297,4 +308,3 @@ Citation metadata is provided in [`CITATION.cff`](CITATION.cff). The papers and 
 The 0.5 titles and claim ledger now foreground information load and twist gravity. Its local calculation uses 26.5% of the whole universe within the hidden total of 95.07%. The zero-phenotype input executes with undefined ratios recorded as null; the radius response ratio is evaluated numerically. The original scientific outputs reproduce unchanged.
 
 [0.6 start, Korean](calculations/wrra_m_0_6_start/README_KO.md) · [0.6 start, English](calculations/wrra_m_0_6_start/README_EN.md) · [Start reproducibility archive](calculations/wrra_m_0_6_start/WRRA_M_0_6_Start_Reproducibility.zip). These files preserve the initial prototype. The completed finite homogeneous model and bilingual paper are provided above.
-
