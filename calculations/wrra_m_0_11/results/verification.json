@@ -1,0 +1,452 @@
+{
+  "version": "WRRA-M 0.11",
+  "passed": true,
+  "check_count": 28,
+  "inherited_0_10_check_count": 32,
+  "input_hash_sha256": "67de28abf0741c406178a2fe4ce07962e69bce827c3196b78e887da3bd0dab13",
+  "checks": [
+    {
+      "id": 1,
+      "check": "frozen_0_10_input_and_inherited_checks",
+      "passed": true,
+      "evidence": {
+        "baseline_hash": "8342c02c3d872994b13c54c9512d6e7440a45e7ef9602cb1ac4ebe34eddb540f",
+        "inherited_checks": 32
+      }
+    },
+    {
+      "id": 2,
+      "check": "exact_order_and_partial_input_ownership",
+      "passed": true,
+      "evidence": {
+        "order": [
+          "G_SI",
+          "H0_km_s_Mpc",
+          "f_phi",
+          "f_c",
+          "electron_energy_eV"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "check": "future_targets_are_not_read_by_partial_stages",
+      "passed": true,
+      "evidence": {
+        "independent_prefixes": 5
+      }
+    },
+    {
+      "id": 4,
+      "check": "stages_add_outputs_without_retracting_prior_outputs",
+      "passed": true,
+      "evidence": {
+        "available_output_counts": [
+          4,
+          8,
+          13,
+          22,
+          25
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "check": "G_sets_action_and_response_normalization",
+      "passed": true,
+      "evidence": {
+        "action_J_per_m": 2.4077269433612114e+42,
+        "response_m_J": 2.0766474428449717e-43
+      }
+    },
+    {
+      "id": 6,
+      "check": "H0_conversion_and_critical_density",
+      "passed": true,
+      "evidence": {
+        "H0_s_minus1": 2.1842852410855023e-18,
+        "ucrit_J_m3": 7.668947767821907e-10
+      }
+    },
+    {
+      "id": 7,
+      "check": "physical_fractions_close_one_energy_budget",
+      "passed": true,
+      "evidence": {
+        "f_phi": 0.0493,
+        "f_c": 0.265,
+        "f_b": 0.6857,
+        "f_h": 0.9507
+      }
+    },
+    {
+      "id": 8,
+      "check": "arithmetic_and_physical_targets_remain_distinct",
+      "passed": true,
+      "evidence": {
+        "arithmetic": {
+          "phenotype": 0.05,
+          "resident_nonphenotype": 0.268,
+          "return": 0.682
+        },
+        "physical": {
+          "phenotype": 0.0493,
+          "resident_nonphenotype": 0.265,
+          "return": 0.6857
+        }
+      }
+    },
+    {
+      "id": 9,
+      "check": "three_once_fitted_SI_coefficients_reproduce_reference",
+      "passed": true,
+      "evidence": {
+        "eta_J_m3": {
+          "phenotype": 7.561582499072265e-10,
+          "resident_nonphenotype": 7.285761328795971e-10,
+          "return": 7.646102818811323e-10
+        }
+      }
+    },
+    {
+      "id": 10,
+      "check": "all_nine_0_10_cases_are_retained",
+      "passed": true,
+      "evidence": {
+        "cases": 9,
+        "maximum_scaled_difference": 0.0
+      }
+    },
+    {
+      "id": 11,
+      "check": "reference_gravity_expansion_and_conditional_lensing",
+      "passed": true,
+      "evidence": {
+        "q": -0.52855,
+        "v_km_s": 207.51090512661662,
+        "lens_arcsec": 0.5355865105583804
+      }
+    },
+    {
+      "id": 12,
+      "check": "independent_volume_derivative_at_three_volumes",
+      "passed": true,
+      "evidence": {
+        "maximum_error_over_ucrit": 3.4792934993565737e-12
+      }
+    },
+    {
+      "id": 13,
+      "check": "weighted_twist_and_length_coefficient_units",
+      "passed": true,
+      "evidence": {
+        "zeta_kappa_squared_m_minus2": 3.028112744666204e-52,
+        "length_coefficient_m": 5.746639841098109e+25
+      }
+    },
+    {
+      "id": 14,
+      "check": "stiffness_twist_rescaling_is_unidentifiable",
+      "passed": true,
+      "evidence": {
+        "rescaling_factor": 11.0,
+        "W0_assigned": false,
+        "actual_cosmic_length_assigned": false
+      }
+    },
+    {
+      "id": 15,
+      "check": "electron_mode_23_fixes_mass_unit",
+      "passed": true,
+      "evidence": {
+        "n_e": 23,
+        "mu_eV": 22217.345682173913
+      }
+    },
+    {
+      "id": 16,
+      "check": "mass_modes_have_sign_symmetry_and_zero_intercept",
+      "passed": true,
+      "evidence": {
+        "generic_mass_modes": [
+          {
+            "mode": -23,
+            "rest_energy_eV": 510998.95068999997,
+            "rest_energy_J": 8.187105787940361e-14
+          },
+          {
+            "mode": -3,
+            "rest_energy_eV": 66652.03704652174,
+            "rest_energy_J": 1.067883363644395e-14
+          },
+          {
+            "mode": -2,
+            "rest_energy_eV": 44434.691364347826,
+            "rest_energy_J": 7.119222424295966e-15
+          },
+          {
+            "mode": -1,
+            "rest_energy_eV": 22217.345682173913,
+            "rest_energy_J": 3.559611212147983e-15
+          },
+          {
+            "mode": 0,
+            "rest_energy_eV": 0.0,
+            "rest_energy_J": 0.0
+          },
+          {
+            "mode": 1,
+            "rest_energy_eV": 22217.345682173913,
+            "rest_energy_J": 3.559611212147983e-15
+          },
+          {
+            "mode": 2,
+            "rest_energy_eV": 44434.691364347826,
+            "rest_energy_J": 7.119222424295966e-15
+          },
+          {
+            "mode": 3,
+            "rest_energy_eV": 66652.03704652174,
+            "rest_energy_J": 1.067883363644395e-14
+          },
+          {
+            "mode": 23,
+            "rest_energy_eV": 510998.95068999997,
+            "rest_energy_J": 8.187105787940361e-14
+          }
+        ],
+        "particle_label_prediction": false
+      }
+    },
+    {
+      "id": 17,
+      "check": "electron_SI_mass_energy_conversion",
+      "passed": true,
+      "evidence": {
+        "energy_J": 8.187105787940362e-14,
+        "mass_kg": 9.109383713868749e-31
+      }
+    },
+    {
+      "id": 18,
+      "check": "electron_units_do_not_duplicate_cosmic_energy",
+      "passed": true,
+      "evidence": {
+        "total_energy_in_electron_units": 9367.104769939942,
+        "added_electron_budget_J": 0
+      }
+    },
+    {
+      "id": 19,
+      "check": "five_anchor_dependency_rank_and_analytic_Jacobian",
+      "passed": true,
+      "evidence": {
+        "rank": 5,
+        "maximum_Jacobian_error": 3.931291958636507e-10,
+        "scope": "conditional on fixed constitutive choices"
+      }
+    },
+    {
+      "id": 20,
+      "check": "electron_anchor_changes_mass_unit_but_not_macro_budget",
+      "passed": true,
+      "evidence": {
+        "electron_input_probes": [
+          {
+            "changed_input": "electron_energy_eV",
+            "multiplier": 0.99,
+            "ucrit_J_m3": 7.668947767821907e-10,
+            "q0": -0.5285500000000001,
+            "aT_m_s2": 1.1918126691055912e-10,
+            "mu_eV": 21995.172225352173,
+            "v_km_s": 207.51090512661662,
+            "scope": "input response probe; not an observational confidence interval"
+          },
+          {
+            "changed_input": "electron_energy_eV",
+            "multiplier": 1.01,
+            "ucrit_J_m3": 7.668947767821907e-10,
+            "q0": -0.5285500000000001,
+            "aT_m_s2": 1.1918126691055912e-10,
+            "mu_eV": 22439.519138995653,
+            "v_km_s": 207.51090512661662,
+            "scope": "input response probe; not an observational confidence interval"
+          }
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "check": "G_and_H0_scalings_are_executed",
+      "passed": true,
+      "evidence": {
+        "G_probes": [
+          {
+            "changed_input": "G_SI",
+            "multiplier": 0.99,
+            "ucrit_J_m3": 7.746411886688796e-10,
+            "q0": -0.5285500000000001,
+            "aT_m_s2": 1.1918126691055912e-10,
+            "mu_eV": 22217.345682173913,
+            "v_km_s": 206.7858644646645,
+            "scope": "input response probe; not an observational confidence interval"
+          },
+          {
+            "changed_input": "G_SI",
+            "multiplier": 1.01,
+            "ucrit_J_m3": 7.593017591902878e-10,
+            "q0": -0.5285500000000001,
+            "aT_m_s2": 1.1918126691055912e-10,
+            "mu_eV": 22217.345682173913,
+            "v_km_s": 208.23207695501944,
+            "scope": "input response probe; not an observational confidence interval"
+          }
+        ],
+        "H0_probes": [
+          {
+            "changed_input": "H0_km_s_Mpc",
+            "multiplier": 0.99,
+            "ucrit_J_m3": 7.516335707242252e-10,
+            "q0": -0.5285500000000001,
+            "aT_m_s2": 1.179894542414535e-10,
+            "mu_eV": 22217.345682173913,
+            "v_km_s": 207.19552920011722,
+            "scope": "input response probe; not an observational confidence interval"
+          },
+          {
+            "changed_input": "H0_km_s_Mpc",
+            "multiplier": 1.01,
+            "ucrit_J_m3": 7.823093617955131e-10,
+            "q0": -0.5285500000000001,
+            "aT_m_s2": 1.2037307957966475e-10,
+            "mu_eV": 22217.345682173913,
+            "v_km_s": 207.8244554994103,
+            "scope": "input response probe; not an observational confidence interval"
+          }
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "check": "physical_fraction_responses_are_separate_from_address_refit",
+      "passed": true,
+      "evidence": {
+        "fraction_probes": [
+          {
+            "changed_input": "f_phi",
+            "multiplier": 0.99,
+            "ucrit_J_m3": 7.668947767821907e-10,
+            "q0": -0.5292895,
+            "aT_m_s2": 1.1918126691055912e-10,
+            "mu_eV": 22217.345682173913,
+            "v_km_s": 207.51090512661662,
+            "scope": "input response probe; not an observational confidence interval"
+          },
+          {
+            "changed_input": "f_phi",
+            "multiplier": 1.01,
+            "ucrit_J_m3": 7.668947767821907e-10,
+            "q0": -0.5278105,
+            "aT_m_s2": 1.1918126691055912e-10,
+            "mu_eV": 22217.345682173913,
+            "v_km_s": 207.51090512661662,
+            "scope": "input response probe; not an observational confidence interval"
+          },
+          {
+            "changed_input": "f_c",
+            "multiplier": 0.99,
+            "ucrit_J_m3": 7.668947767821907e-10,
+            "q0": -0.5325250000000001,
+            "aT_m_s2": 1.1858386331445724e-10,
+            "mu_eV": 22217.345682173913,
+            "v_km_s": 207.35305074432708,
+            "scope": "input response probe; not an observational confidence interval"
+          },
+          {
+            "changed_input": "f_c",
+            "multiplier": 1.01,
+            "ucrit_J_m3": 7.668947767821907e-10,
+            "q0": -0.524575,
+            "aT_m_s2": 1.19775690881873e-10,
+            "mu_eV": 22217.345682173913,
+            "v_km_s": 207.6675169350805,
+            "scope": "input response probe; not an observational confidence interval"
+          }
+        ],
+        "arithmetic_refit": false
+      }
+    },
+    {
+      "id": 23,
+      "check": "address_alpha_and_beta_are_reexpressed_from_two_legacy_targets",
+      "passed": true,
+      "evidence": {
+        "alpha": 1.8996876950554225,
+        "threshold_h": 1.4476731703525931,
+        "derived_effective_beta": 0.8654570124136763,
+        "input_degrees_of_freedom": "alpha and h fitted to two independent arithmetic targets; return closes the ledger; beta_eff is derived",
+        "frozen_alpha_addr": 1.8996876950554356,
+        "frozen_beta_scalar": 0.8654570124136961,
+        "calibrated_from": "two separately disclosed arithmetic targets, not the physical energy fractions",
+        "independent_beta_required": false,
+        "electromagnetic_alpha": null
+      }
+    },
+    {
+      "id": 24,
+      "check": "fixed_energy_coefficients_retain_address_rule_response",
+      "passed": true,
+      "evidence": {
+        "K4_q": -0.5479085215622206,
+        "K16_q": -0.5183430250542751,
+        "refit": false
+      }
+    },
+    {
+      "id": 25,
+      "check": "same_five_anchors_allow_different_unfitted_response_shapes",
+      "passed": true,
+      "evidence": [
+        {
+          "lambda_R": 0.0,
+          "reference_q": -0.52855,
+          "K4_q": -0.5478198545212197,
+          "eta_R_J_m3": 7.710553496181046e-10
+        },
+        {
+          "lambda_R": 1.0,
+          "reference_q": -0.52855,
+          "K4_q": -0.5486431486602406,
+          "eta_R_J_m3": 7.111139918470929e-10
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "check": "inherited_internal_exchange_conserves_energy_and_state",
+      "passed": true,
+      "evidence": {
+        "clock_points": 6,
+        "maximum_exchange_residual_over_reference": 1.2639964564667904e-16
+      }
+    },
+    {
+      "id": 27,
+      "check": "invalid_units_inputs_records_and_order_are_rejected",
+      "passed": true,
+      "evidence": {
+        "invalid_cases": 13,
+        "rejected": 13
+      }
+    },
+    {
+      "id": 28,
+      "check": "execution_preserves_frozen_inputs_and_scope",
+      "passed": true,
+      "evidence": {
+        "input_sha256": "67de28abf0741c406178a2fe4ce07962e69bce827c3196b78e887da3bd0dab13",
+        "measurement_records": 0
+      }
+    }
+  ]
+}

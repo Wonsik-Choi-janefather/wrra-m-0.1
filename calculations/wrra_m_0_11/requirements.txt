@@ -1,0 +1,5 @@
+numpy>=2.0
+scipy>=1.13
+mpmath>=1.3
+# Rebuilding the publication DOCX requires python-docx and pandoc.
+# PDF rendering uses LibreOffice and Poppler with a Korean font.

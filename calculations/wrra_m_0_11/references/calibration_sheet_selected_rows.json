@@ -1,0 +1,645 @@
+[
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "1",
+    "values": [
+      "WRRA-M: 첫 5개 입력 → 순차 보정"
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "2",
+    "values": [
+      "선정 기준: 현재 0.5·0.6 계산에 연결되고, 종속 산출을 먼저 확인할 수 있는 수치 입력."
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "3",
+    "values": []
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "4",
+    "values": [
+      "검증 입력 → WRRA 고유 변환 → 산출값 → 반증조건"
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "5",
+    "values": [
+      "검증 입력",
+      "G, H0, fφ, fc, me c²의 5개 수치. SI 기준과 구성 선택은 별도 공개한다."
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "6",
+    "values": [
+      "WRRA 고유 변환",
+      "정보 부하→에너지 밀도→뒤틀림·인력·팽창, 전자 기준→질량 모드 척도."
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "7",
+    "values": [
+      "산출값",
+      "fh·fb, ucrit·uh, eta_load, ζκh², aT, q0, 질량 모드 척도 등."
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "8",
+    "values": [
+      "반증조건",
+      "같은 입력·변환·상태에서 검증 자료의 허용 오차 또는 보존·확률·기하 조건을 충족하지 못함."
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "9",
+    "values": []
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "10",
+    "values": []
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "11",
+    "values": [
+      "첫 보정 입력",
+      "기호",
+      "채택 수치",
+      "단위",
+      "성격",
+      "선정 이유",
+      "연결되는 산출",
+      "후보 ID"
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "12",
+    "values": [
+      "중력 상수",
+      "G",
+      "6.6743e-11",
+      "m³/(kg s²)",
+      "관측 보정",
+      "부하→중력의 물리 척도",
+      "에너지 밀도·뒤틀림·중력 응답",
+      "C005"
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "13",
+    "values": [
+      "현재 허블 상수",
+      "H0",
+      "67.4",
+      "km/s/Mpc",
+      "관측 보정",
+      "우리 우주의 현재 팽창·시간 척도",
+      "ucrit, aT, H(a)",
+      "C050"
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "14",
+    "values": [
+      "표현형 비율",
+      "fφ",
+      "0.0493",
+      "1",
+      "관측 보정",
+      "표현형/표현형 이전의 가중 장부",
+      "fh와 배경 잔여·숨은 밀도",
+      "C047"
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "15",
+    "values": [
+      "모이는 부하 비율",
+      "fc",
+      "0.265",
+      "1",
+      "관측 보정",
+      "95% 안에서 모이는 부분을 지정",
+      "fb, uc, aT·회전·렌즈 응답",
+      "C048"
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "16",
+    "values": [
+      "전자 질량 에너지",
+      "me c²",
+      "510998.95069",
+      "eV",
+      "관측 보정",
+      "입자 부문의 물리 질량 척도",
+      "채택한 전자 모드의 질량 척도",
+      "C013"
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "17",
+    "values": []
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "18",
+    "values": [
+      "c·h(ℏ)·e·kB는 현재 SI의 정확한 단위 기준으로 둔다. 에너지 가중 구성비를 양자화 결과의 정보 비율로 연결하는 식은 별도로 완성해야 한다. fφ만으로 fc는 정해지지 않는다."
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "19",
+    "values": [
+      "c·h(ℏ)·e·kB는 현재 SI의 정확한 단위 기준으로 둔다. 에너지 가중 구성비를 양자화 결과의 정보 비율로 연결하는 식은 별도로 완성해야 한다. fφ만으로 fc는 정해지지 않는다."
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "20",
+    "values": []
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "21",
+    "values": [
+      "지금 계산되는 항목",
+      "관계",
+      "산출 수치",
+      "단위",
+      "분류",
+      "전제",
+      "해석",
+      "관련 ID"
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "22",
+    "values": [
+      "표현형 이전 총비율",
+      "1−fφ",
+      "0.9507",
+      "1",
+      "종속 산출",
+      "공통 분모",
+      "현재 95.07%; 추가 보정 없음",
+      "C049"
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "23",
+    "values": [
+      "배경 잔여 비율",
+      "1−fφ−fc",
+      "0.6857",
+      "1",
+      "종속 산출",
+      "fc⊂fh",
+      "현재 68.57%; 추가 보정 없음",
+      "C049"
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "24",
+    "values": [
+      "임계 에너지 밀도",
+      "3H0²c²/(8πG)",
+      "7.668947767821907e-10",
+      "J/m³",
+      "종속 산출",
+      "채택한 평탄 기준",
+      "물리 부하의 정규화 기준",
+      "C084"
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "25",
+    "values": [
+      "현재 숨은 부하",
+      "fh ucrit",
+      "7.290868642868287e-10",
+      "J/m³",
+      "종속 산출",
+      "기준 상태",
+      "전체 95.07%의 에너지 가중 밀도",
+      "C084"
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "26",
+    "values": [
+      "부하 에너지 척도",
+      "fh ucrit/2",
+      "3.6454343214341433e-10",
+      "J/m³",
+      "종속 산출",
+      "Jc=Jb=2",
+      "연산자 정규화에 의존",
+      "C037"
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "27",
+    "values": [
+      "가중 뒤틀림 제곱",
+      "16πG uh/c⁴",
+      "3.028112744666204e-52",
+      "m⁻²",
+      "종속 산출",
+      "0.6 부하 사상",
+      "ζ와 κ 각각은 아직 분리되지 않음",
+      "C042"
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "28",
+    "values": [
+      "추가 인력 기준",
+      "cH0√(fc/8)",
+      "1.1918126691055912e-10",
+      "m/s²",
+      "종속 산출",
+      "기존 1/8 보정",
+      "WRRA 식의 실행 산출",
+      "C043"
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "29",
+    "values": [
+      "현재 감속계수",
+      "(1−3fb)/2",
+      "-0.5285500000000001",
+      "1",
+      "조건부 산출",
+      "nc=0, nb=3",
+      "압력·팽창 미분에서 계산",
+      "C086"
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "30",
+    "values": [
+      "전자 모드 질량 척도",
+      "me c²/23",
+      "22217.345682173913",
+      "eV",
+      "조건부 산출",
+      "n_e=23, 질량절편 0",
+      "모든 입자가 정수배라는 결과는 아님",
+      "C013"
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "31",
+    "values": [
+      "전역 길이 계수",
+      "1/√(ζκh²)",
+      "5.746639841098109e+25",
+      "m",
+      "조건부 산출",
+      "L0=계수√W0",
+      "W0가 없으므로 L0 자체는 미정",
+      "C059"
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "32",
+    "values": []
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "33",
+    "values": [
+      "공개해야 할 기존 구성·보정: 전자 모드 n_e=23와 질량절편 0, 기준 상태 Jc=Jb=2, 에너지 지수 nc=0·nb=3, 추가 인력 정규화 1/8, 국소 응답 ν(y)=1/[1−exp(−√y)], 필요 시 Φ=Ψ. 따라서 위 산출은 “5개 숫자만으로 모든 법칙이 생김”을 뜻하지 않는다."
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "34",
+    "values": [
+      "공개해야 할 기존 구성·보정: 전자 모드 n_e=23와 질량절편 0, 기준 상태 Jc=Jb=2, 에너지 지수 nc=0·nb=3, 추가 인력 정규화 1/8, 국소 응답 ν(y)=1/[1−exp(−√y)], 필요 시 Φ=Ψ. 따라서 위 산출은 “5개 숫자만으로 모든 법칙이 생김”을 뜻하지 않는다."
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "35",
+    "values": [
+      "공개해야 할 기존 구성·보정: 전자 모드 n_e=23와 질량절편 0, 기준 상태 Jc=Jb=2, 에너지 지수 nc=0·nb=3, 추가 인력 정규화 1/8, 국소 응답 ν(y)=1/[1−exp(−√y)], 필요 시 Φ=Ψ. 따라서 위 산출은 “5개 숫자만으로 모든 법칙이 생김”을 뜻하지 않는다."
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "36",
+    "values": []
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "37",
+    "values": [
+      "순차 보정 절차"
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "38",
+    "values": [
+      "1. 첫 5개 고정",
+      "현재 값·출처·오차와 구성 조건을 기록하고, 해당 버전의 입력으로 고정한다."
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "39",
+    "values": [
+      "1. 첫 5개 고정",
+      "현재 값·출처·오차와 구성 조건을 기록하고, 해당 버전의 입력으로 고정한다."
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "40",
+    "values": []
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "41",
+    "values": [
+      "2. 내부 변환 실행",
+      "나머지 값을 WRRA 식에서 산출한다. 알려진 값이면 같은 정의·단위·에너지 척도로 대조한다. 재현도 설명 성과다."
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "42",
+    "values": [
+      "2. 내부 변환 실행",
+      "나머지 값을 WRRA 식에서 산출한다. 알려진 값이면 같은 정의·단위·에너지 척도로 대조한다. 재현도 설명 성과다."
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "43",
+    "values": []
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "44",
+    "values": [
+      "3. 미정과 불일치 구별",
+      "변환식이 미완성이면 식을 완성한다. 불일치가 있으면 입력 오류·단위·종속 관계부터 확인하고 필요한 자유도만 보정한다."
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "45",
+    "values": [
+      "3. 미정과 불일치 구별",
+      "변환식이 미완성이면 식을 완성한다. 불일치가 있으면 입력 오류·단위·종속 관계부터 확인하고 필요한 자유도만 보정한다."
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "46",
+    "values": []
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "47",
+    "values": [
+      "4. 최소 입력 추가",
+      "현 모형에서 남는 자유도에만 새 입력을 추가한다. 하나의 관측값으로 여러 계수가 구별되지 않으면 제약되는 조합을 먼저 기록한다."
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "48",
+    "values": [
+      "4. 최소 입력 추가",
+      "현 모형에서 남는 자유도에만 새 입력을 추가한다. 하나의 관측값으로 여러 계수가 구별되지 않으면 제약되는 조합을 먼저 기록한다."
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "49",
+    "values": []
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "50",
+    "values": [
+      "5. 앞선 산출 재확인",
+      "새 입력이 앞선 결과를 바꾸는 만큼만 다시 계산한다. 같은 효과를 두 개의 상수로 중복 보정하지 않는다."
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "51",
+    "values": [
+      "5. 앞선 산출 재확인",
+      "새 입력이 앞선 결과를 바꾸는 만큼만 다시 계산한다. 같은 효과를 두 개의 상수로 중복 보정하지 않는다."
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "52",
+    "values": []
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "53",
+    "values": [
+      "6. 1.0의 범위 닫기",
+      "선언한 범위의 모든 설명이 공개한 유한 입력·변환으로 실제 계산되고, 필요한 보정과 미정 범위가 장부에 드러나면 1.0으로 닫는다."
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "54",
+    "values": [
+      "6. 1.0의 범위 닫기",
+      "선언한 범위의 모든 설명이 공개한 유한 입력·변환으로 실제 계산되고, 필요한 보정과 미정 범위가 장부에 드러나면 1.0으로 닫는다."
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "55",
+    "values": []
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "56",
+    "values": []
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "57",
+    "values": [
+      "다음 추가 후보는 자동 확정하지 않는다. 현재 식으로 전자기 α·다른 입자 질량·혼합각·양자화의 물리 시계·전역 W0는 결정되지 않는다. 해당 변환을 실행한 뒤 계속 미정인 자유도에 관측값 또는 명시한 구성 조건을 추가한다."
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "58",
+    "values": [
+      "다음 추가 후보는 자동 확정하지 않는다. 현재 식으로 전자기 α·다른 입자 질량·혼합각·양자화의 물리 시계·전역 W0는 결정되지 않는다. 해당 변환을 실행한 뒤 계속 미정인 자유도에 관측값 또는 명시한 구성 조건을 추가한다."
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "59",
+    "values": [
+      "다음 추가 후보는 자동 확정하지 않는다. 현재 식으로 전자기 α·다른 입자 질량·혼합각·양자화의 물리 시계·전역 W0는 결정되지 않는다. 해당 변환을 실행한 뒤 계속 미정인 자유도에 관측값 또는 명시한 구성 조건을 추가한다."
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "60",
+    "values": []
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "61",
+    "values": [
+      "보정 정책: 독립 예측이나 새 숫자를 1.0의 필수조건으로 두지 않는다. 알려진 값의 보정·재현을 인정한다. 단, 입력한 값과 WRRA에서 산출한 값, 현재 구현한 범위를 구별한다."
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "62",
+    "values": [
+      "보정 정책: 독립 예측이나 새 숫자를 1.0의 필수조건으로 두지 않는다. 알려진 값의 보정·재현을 인정한다. 단, 입력한 값과 WRRA에서 산출한 값, 현재 구현한 범위를 구별한다."
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "63",
+    "values": [
+      "보정 정책: 독립 예측이나 새 숫자를 1.0의 필수조건으로 두지 않는다. 알려진 값의 보정·재현을 인정한다. 단, 입력한 값과 WRRA에서 산출한 값, 현재 구현한 범위를 구별한다."
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "64",
+    "values": []
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "65",
+    "values": [
+      "수치 근거는 “보정 후보 요약”의 현행 입력과 “후보 장부”의 원문 링크. 전체 95개 항목군은 필요할 때 추가할 후보이며, 이번 시작 입력은 5개다."
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet1.xml",
+    "row": "66",
+    "values": [
+      "수치 근거는 “보정 후보 요약”의 현행 입력과 “후보 장부”의 원문 링크. 전체 95개 항목군은 필요할 때 추가할 후보이며, 이번 시작 입력은 5개다."
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet3.xml",
+    "row": "19",
+    "values": [
+      "C018",
+      "입자·상호작용",
+      "전자기 결합 alpha",
+      "관측 보정",
+      "1.0 우선",
+      "전자 완성층의 보정값. 척도 명시",
+      "https://github.com/Wonsik-Choi-janefather/minimal-computing-cosmology-2.3.2/blob/21daec110c0cbecb228c445d587eac8302e7f767/gitbook/english-edition/part-iv/chapter-23-mass-charge-and-mixing.md",
+      "https://physics.nist.gov/cuu/Constants/"
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet3.xml",
+    "row": "21",
+    "values": [
+      "C020",
+      "입자·상호작용",
+      "강한 결합 alpha_s 또는 QCD 척도",
+      "관측 보정",
+      "범위 채택 시",
+      "한 척도와 방식에서 기준 선택",
+      "https://github.com/Wonsik-Choi-janefather/minimal-computing-cosmology-2.3.2/blob/21daec110c0cbecb228c445d587eac8302e7f767/gitbook/english-edition/part-iv/chapter-23-mass-charge-and-mixing.md",
+      "https://pdgaws.lbl.gov/2026/listings/particle_properties.html"
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet3.xml",
+    "row": "75",
+    "values": [
+      "C072",
+      "끈·국소 구현",
+      "끈 장력과 alpha-prime 척도",
+      "관측 한계",
+      "후속",
+      "MCC 선택적 수학 재료. 직접 관측값 미정",
+      "https://github.com/Wonsik-Choi-janefather/minimal-computing-cosmology-2.3.2/blob/21daec110c0cbecb228c445d587eac8302e7f767/gitbook/english-edition/part-iii/chapter-15-the-local-standard-model-parent.md",
+      "https://davidtong.org/teaching/string-theory/"
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet4.xml",
+    "row": "19",
+    "values": [
+      "C018",
+      "전자기 결합 alpha",
+      "미세구조상수·전자기 응답",
+      "정규화된 전류와 광자 결합 보정",
+      "전자기 상호작용",
+      "같은 보정으로 전하·응답·Ward 관계 실패"
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet4.xml",
+    "row": "21",
+    "values": [
+      "C020",
+      "강한 결합 alpha_s 또는 QCD 척도",
+      "강한 결합·하드론 자료",
+      "게이지 결합의 실행과 문턱 연결",
+      "강한 상호작용 및 하드론 질량",
+      "같은 실행 규칙으로 강한 부문 재현 실패"
+    ]
+  },
+  {
+    "sheet": "xl/worksheets/sheet4.xml",
+    "row": "75",
+    "values": [
+      "C072",
+      "끈 장력과 alpha-prime 척도",
+      "저에너지 스펙트럼과 실험 한계",
+      "운반자와 채택한 끈 작용의 척도 대응",
+      "진동·질량 스펙트럼의 조건부 대응",
+      "같은 척도에서 목표 스펙트럼·저에너지 응답 실패"
+    ]
+  }
+]

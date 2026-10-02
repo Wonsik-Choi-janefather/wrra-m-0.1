@@ -1,0 +1,9 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "mpmath": "1.3.0",
+  "platform": "Linux",
+  "machine": "x86_64",
+  "randomness": "No random sampling in the 0.11 calculation."
+}

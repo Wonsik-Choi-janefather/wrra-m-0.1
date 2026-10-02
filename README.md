@@ -55,7 +55,7 @@ N·전자기 상수 입력 전달, 제타 부록 생성 경로 및 후보 집계
 
 **원식 현실 렌더러 아키텍처 메타차원 연구 분기**
 
-Latest completed downstream version: **WRRA-M 0.10** · 2026-10-02
+Latest completed downstream version: **WRRA-M 0.11** · 2026-10-02
 
 Reviewed predecessor: **WRRA-M 0.9-r1**.
 
@@ -111,6 +111,35 @@ The finite Euler-family Hamiltonian replaces the earlier scalar axial dressing w
 - [계산 안내와 재현](upstream/internal_mixing_v0_3/README.md)
 - [한국어 PDF 7쪽](upstream/internal_mixing_v0_3/paper/WRRA_M_Internal_Fold_Mixing_Shared_Currents_v0_3_KO_2026_10_02.pdf) · [Word](upstream/internal_mixing_v0_3/paper/WRRA_M_Internal_Fold_Mixing_Shared_Currents_v0_3_KO_2026_10_02.docx) · [원고](upstream/internal_mixing_v0_3/manuscript_KO.md)
 - [전체 재현 ZIP](upstream/internal_mixing_v0_3/paper/WRRA_M_Internal_Fold_Mixing_Shared_Currents_v0_3_Reproducibility_2026_10_02.zip) · [계산](upstream/internal_mixing_v0_3/code/compute.py) · [결과 장부](upstream/internal_mixing_v0_3/code/results.json)
+
+## Completed 0.11 · 0.11 완료
+
+첫 다섯 물리 입력 **G→H0→f_phi→f_c→m_e c²**를 순차 보정했다. 각 부분 단계가 뒤의 목표를 읽지 않으며, 단계별 산출값과 남은 자유도를 공개한다. 전자 모드 23과 영 절편 아래 **mu_E=22217.345682173913 eV**를 계산했다. 주소 alpha_addr·입장 beta_eff의 재표현에서 두 추가 산술 입력을 명시하고, 전자기 alpha와 구분한다.
+
+The staged calibration retains all nine 0.10 cases and the reference **q0=−0.52855**, **v=207.5109051266 km/s** and conditional deflection **0.5355865106 arcsec**. The five-anchor dependency matrix has rank five conditional on fixed model choices. Two separately fitted response shapes reproduce the same anchors but give different subsequent K=4 responses, explicitly retaining the unfitted shape freedom.
+
+**28 new checks + 32 inherited checks pass.** Both five-page editions contain matching 14 native equations and four tables with 21 body rows. A clean copy with captured outputs removed reproduces 23 numerical/source files byte for byte. Frozen dependency sources remain unchanged.
+
+| Evaluation | WRRA_M 0.11 |
+| --- | --- |
+| 검증 입력 / Verification inputs | Frozen 0.10 ledger, ordered five physical anchors, exact SI references and declared address/carrier/mass choices. |
+| WRRA 고유 변환 / WRRA-specific transformation | Partial calibration → density and sector load → same energy/pressure/gravity/expansion → mass-mode and electron-unit re-expression. |
+| 산출값 / Outputs | Sequential outputs, 28 checks, nine inherited cases, mass unit, address alpha/beta re-expression, sensitivity rank and explicit residual-freedom controls. |
+| 반증조건 / Falsifiers | Future-input leakage, failed reproduction or pressure differentiation, nonconservation, duplicated electron budget or treating unidentified quantities as fixed. |
+
+Weighted twist fixes zeta*kappa_h², not the separate factors. The calculated length coefficient is not a measured cosmic size; W0 remains unassigned. Physical quantization and records remain 0.13 under the expanded roadmap.
+
+- [0.11 한국어 PDF](paper/WRRA_M_0_11_KO.pdf) · [Word](paper/WRRA_M_0_11_KO.docx) · [Markdown](paper/WRRA_M_0_11_KO.md)
+- [0.11 English PDF](paper/WRRA_M_0_11_EN.pdf) · [Word](paper/WRRA_M_0_11_EN.docx) · [Markdown](paper/WRRA_M_0_11_EN.md)
+- [Reproducibility ZIP](paper/WRRA_M_0_11_Reproducibility.zip)
+- [Calculation and input guide](calculations/wrra_m_0_11/README.md) · [28 checks](calculations/wrra_m_0_11/results/verification.json)
+- [Document comparison](calculations/wrra_m_0_11/results/document_checks.json) · [Clean-copy reproduction](calculations/wrra_m_0_11/results/reproduction_checks.json)
+- [Completion record](REVISION_0_11.md) · [Archive-content SHA256 manifest](SHA256SUMS_0_11)
+
+```bash
+python -m pip install -r calculations/wrra_m_0_11/requirements.txt
+python calculations/wrra_m_0_11/run_release.py
+```
 
 ## Completed 0.10 · 0.10 완료
 
