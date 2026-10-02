@@ -1,5 +1,17 @@
 # WRRA-M Research Notes
 
+## Current upstream 0.4–0.6 reviewed collection r1 · 2026-10-03
+
+상류 0.4, 0.5, 0.6의 논문·실행 코드·계승 입력을 재검토하고 교정했습니다.
+기저 정렬 표기, 비유한 입력 계약, 공간 구적 조건과 운동량 배열에 의존하던 검증을 고쳤습니다.
+기존 물리 수치와 남은 불일치를 유지했고, **395개 검사 및 최종 ZIP 새 환경 재현**을 완료했습니다.
+세 한국어 교정 Word/PDF와 4쪽 통합 검토보고서를 함께 공개합니다.
+
+- [교정 자료집·논문·코드·재현 안내](upstream/review_0_4_0_6_r1/README.md)
+- [통합 검토보고서 PDF](upstream/review_0_4_0_6_r1/report/paper/WRRA_M_Upstream_0_4_to_0_6_Review_r1_KO_2026_10_03.pdf) · [Word](upstream/review_0_4_0_6_r1/report/paper/WRRA_M_Upstream_0_4_to_0_6_Review_r1_KO_2026_10_03.docx)
+- [전체 재현 ZIP](upstream/review_0_4_0_6_r1/archive/WRRA_M_Upstream_0_4_to_0_6_Reviewed_Collection_r1_Reproducibility_2026_10_03.zip) · [395개 검증 장부](upstream/review_0_4_0_6_r1/reproduction_results.json)
+- [Zenodo DOI 10.5281/zenodo.23112253](https://doi.org/10.5281/zenodo.23112253)
+
 ## 학회 등록용 분리 원고 두 편 · 2026-10-03
 
 공동저자: **최원식 Wonsik Choi · 최정인 Jeongin Choi**
@@ -8,7 +20,7 @@
 - [WRRA의 확장 가능성과 접속 조건 · r8 · 한글 7쪽](submission/extensions_r8/README.md) — 공통전달자·진공 기준·뒤틀림·균일 팽창과 후속 미시 구현
 - [두 원고와 계산 자료 안내](submission/README.md)
 
-## Current upstream 0.6 · 핵자 전하 반지름과 유한 운동량 전류 · 2026-10-03
+## Original upstream 0.6 · 핵자 전하 반지름과 유한 운동량 전류 · 2026-10-03
 
 0.5와 같은 내부 상태에서 유한 운동량 전자기·약한 전류를 계산하고,
 영전하 아이소벡터 항과 공간 폭을 두 전하 반지름에 공동 보정했습니다.
@@ -22,7 +34,7 @@ Sachs–Dirac–Pauli 변환, CVC와 투영 연속 방정식을 확인했습니�
 - [한글 PDF 10쪽](upstream/finite_currents_v0_6/paper/WRRA_M_Finite_Momentum_Currents_Beta_Corrections_v0_6_KO_2026_10_03.pdf) · [Word](upstream/finite_currents_v0_6/paper/WRRA_M_Finite_Momentum_Currents_Beta_Corrections_v0_6_KO_2026_10_03.docx)
 - [전체 재현 ZIP](upstream/finite_currents_v0_6/paper/WRRA_M_Finite_Momentum_Currents_Beta_Corrections_v0_6_Reproducibility_2026_10_03.zip) · [검증](upstream/finite_currents_v0_6/verification.json)
 
-## Current upstream 0.5 · 내부 공간의 안정성, 여기 척도와 핵자 크기 · 2026-10-02
+## Original upstream 0.5 · 내부 공간의 안정성, 여기 척도와 핵자 크기 · 2026-10-02
 
 0.4의 이차 결합을 무한 공간으로 확장할 때 드러나는 에너지 무하한을 기록하고,
 기존 두 상태 결합과 순열 대칭을 보존하는 제한 결합으로 보강했습니다.
@@ -36,7 +48,7 @@ Sachs–Dirac–Pauli 변환, CVC와 투영 연속 방정식을 확인했습니�
 - [한글 PDF](upstream/spatial_scale_v0_5/paper/WRRA_M_Spatial_Stability_Excitation_Scale_v0_5_KO_2026_10_02.pdf) · [Word](upstream/spatial_scale_v0_5/paper/WRRA_M_Spatial_Stability_Excitation_Scale_v0_5_KO_2026_10_02.docx)
 - [전체 재현 ZIP](upstream/spatial_scale_v0_5/paper/WRRA_M_Spatial_Stability_Excitation_Scale_v0_5_Reproducibility_2026_10_02.zip) · [검증](upstream/spatial_scale_v0_5/verification.json)
 
-## Current upstream 0.4 · 내부 공간 결합과 핵자의 공동 전류 · 2026-10-02
+## Original upstream 0.4 · 내부 공간 결합과 핵자의 공동 전류 · 2026-10-02
 
 실제 가우스·야코비 공간 모드의 결합과 그 자기장 미분 전류를 구현했습니다.
 같은 내부 고유상태에서 **gA=1.2753**과 두 핵자 자기모멘트를 공동 반환하며,
@@ -414,4 +426,5 @@ Citation metadata is provided in [`CITATION.cff`](CITATION.cff). The papers and 
 The 0.5 titles and claim ledger now foreground information load and twist gravity. Its local calculation uses 26.5% of the whole universe within the hidden total of 95.07%. The zero-phenotype input executes with undefined ratios recorded as null; the radius response ratio is evaluated numerically. The original scientific outputs reproduce unchanged.
 
 [0.6 start, Korean](calculations/wrra_m_0_6_start/README_KO.md) · [0.6 start, English](calculations/wrra_m_0_6_start/README_EN.md) · [Start reproducibility archive](calculations/wrra_m_0_6_start/WRRA_M_0_6_Start_Reproducibility.zip). These files preserve the initial prototype. The completed finite homogeneous model and bilingual paper are provided above.
+
 

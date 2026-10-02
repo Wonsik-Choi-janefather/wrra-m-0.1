@@ -1,0 +1,38 @@
+{
+  "implementation_checks": 86,
+  "audit_checks": 26,
+  "total_checks": 112,
+  "checks": {
+    "all_implementation_checks_pass": true,
+    "alternate_quadrature_same_spatial_gram": true,
+    "alternate_quadrature_same_projected_link": true,
+    "alternate_quadrature_same_discarded_norm": true,
+    "changed_ell_same_projected_link": true,
+    "changed_ell_same_oscillator_gap": true,
+    "link_operator_is_not_scalar_c1": true,
+    "proton_characteristic_root_b-2.0": true,
+    "proton_characteristic_root_b0.4": true,
+    "proton_characteristic_root_b2.0": true,
+    "neutron_characteristic_root_b-2.0": true,
+    "neutron_characteristic_root_b0.4": true,
+    "neutron_characteristic_root_b2.0": true,
+    "changed_axial_anchor_changes_C_and_shared_state": true,
+    "changed_magnetic_anchor_changes_eta_and_c0": true,
+    "review_reject_nan_kappa": true,
+    "review_reject_inf_kappa": true,
+    "review_reject_nan_lifetime": true,
+    "review_reject_nan_proton_moment": true,
+    "review_reject_inf_neutron_moment": true,
+    "review_reject_unknown_model": true,
+    "review_reject_nan_field": true,
+    "review_reject_negative_gap": true,
+    "review_reject_bool_quadrature": true,
+    "fresh_directory_exact_results_bytes": true,
+    "fresh_directory_all_checks_pass": true
+  },
+  "results_sha256": "98a20a4551dddbbb1598be2aa51bb4455a4c2692c40d5b52c40849cd43093f63",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  }
+}

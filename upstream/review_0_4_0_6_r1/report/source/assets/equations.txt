@@ -1,0 +1,11 @@
+$$
+X_a=\sum_b{X_b^{\mathrm{raw}}O_{ba}},\qquad \phi_{E_a}=X_a\phi_S
+$$
+
+$$
+J_L(q)=\frac{[H,\rho(q)]}{q},\qquad J_L(q)^\dagger=J_L(-q)=-J_L(q)
+$$
+
+$$
+K_\beta=(K_{\mathrm{tree}}+\delta K_{\mathrm{out}})(1+\Delta_R^V)
+$$

@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite this reviewed upstream collection."
+title: "WRRA M Upstream 0.4 to 0.6 Reviewed Collection: Spatial Coupling, Stability, Finite Currents and Beta Corrections"
+type: dataset
+version: "0.4-0.6-r1"
+date-released: "2026-10-03"
+doi: "10.5281/zenodo.23112253"
+authors:
+  - family-names: Choi
+    given-names: Wonsik
+    orcid: "https://orcid.org/0009-0001-4263-9772"
+repository-code: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1"
+license: CC-BY-4.0
+abstract: "Author-reviewed Korean preprint collection containing corrected upstream stages 0.4-r1, 0.5-r1 and 0.6-r1, a unified review report, code, historical baselines and 395 reproducibility and numerical checks."

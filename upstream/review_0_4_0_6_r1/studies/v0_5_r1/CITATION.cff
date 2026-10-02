@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite this upstream 0.5 research note using these metadata."
+title: "내부 공간의 안정성, 여기 척도와 핵자 크기"
+version: "0.5-r1"
+date-released: "2026-10-03"
+type: software
+authors:
+  - family-names: Choi
+    given-names: Wonsik
+    orcid: "https://orcid.org/0009-0001-4263-9772"
+repository-code: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/tree/main/upstream/review_0_4_0_6_r1/studies/v0_5_r1"
+license: CC-BY-4.0
+abstract: "Conditional bounded spatial completion, joint nucleon currents, calibrated excitation and size scales, cutoff verification and an unfitted neutron-radius mismatch."
+
+doi: "10.5281/zenodo.23112253"

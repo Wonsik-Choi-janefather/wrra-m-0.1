@@ -1,0 +1,10 @@
+{
+  "native_equations": 30,
+  "expected_equations": 30,
+  "pages": 10,
+  "full_page_visual_review": true,
+  "equations_are_native_OMML": true,
+  "no_pdf_replacement_glyph": true,
+  "docx_sha256": "83e820da52eda3d8a9d6814be8a54a8c869e7b96d74190a4b0eb54c85290efd1",
+  "pdf_sha256": "65dac407ed3c14ec53ffcafe55898166bb0b967d78f852188069845696edbdfd"
+}

@@ -1,0 +1,119 @@
+$$
+G_{E,B}^{\mathrm{point}}(Q^2)=\langle g\rvert\sum_{i=1}^{3}{q_{i,B}j_0(\sqrt{Q^2}\,r_i/HC)}\lvert g\rangle
+$$
+
+$$
+C_E(Q^2)=-\frac{Q^2 c_E}{6HC^2}\exp\!\left[-\frac{Q^2 a_E^2}{6HC^2}\right],\quad a_E=\ell
+$$
+
+$$
+G_{E,p}=G_{E,p}^{\mathrm{point}}+C_E,\quad G_{E,n}=G_{E,n}^{\mathrm{point}}-C_E
+$$
+
+$$
+r_{E,B}^2=-6HC^2G_{E,B}^{\prime}(0),\quad a_B=\langle g\rvert\sum_i{q_{i,B}r_i^2/\ell^2}\lvert g\rangle
+$$
+
+$$
+\ell^2=\frac{r_{E,p}^2+r_{E,n}^2}{a_p+a_n},\quad c_E=r_{E,p}^2-\ell^2a_p
+$$
+
+$$
+M_B(Q^2)=Q^\dagger\sum_i{\mu_i\sigma_{zi}j_i}Q+c_0Q^\dagger\bar jQ+\frac{\tau_B\eta x_c}{2}\{Q^\dagger\bar jQ,W_\lambda\}
+$$
+
+$$
+G_V^{\mathrm{point}}=\langle g\rvert\sum_i{\tau_i^+j_i}\lvert g\rangle,\quad G_A=\langle g\rvert\sum_i{\tau_i^+\sigma_{zi}j_i}\lvert g\rangle
+$$
+
+$$
+G_V^{\mathrm{point}}=G_{E,p}^{\mathrm{point}}-G_{E,n}^{\mathrm{point}},\quad G_E^V=G_V^{\mathrm{point}}+2C_E
+$$
+
+$$
+J_L(q)=\frac{\left[H,\rho(q)\right]}{q},\quad q=1000\sqrt{Q^2}\,\mathrm{MeV},\quad q>0
+$$
+
+$$
+q(J_L)_{mn}=(E_m-E_n)\rho_{mn},\quad \frac{d\rho}{dt}=i\left[H,\rho\right]\quad(\hbar=1)
+$$
+
+$$
+G_{M,B}=\frac{\bar M}{m_p}\langle M_B\rangle,\quad \tau=\frac{Q^2}{4\bar M^2},\quad \bar M/m_p=1.00068920973
+$$
+
+$$
+F_{1,B}=\frac{G_{E,B}+\tau G_{M,B}}{1+\tau},\quad F_{2,B}=\frac{G_{M,B}-G_{E,B}}{1+\tau}
+$$
+
+$$
+r_{E,B}^2=r_{1,B}^2+r_{F,B}^2,\quad r_{F,B}^2=\frac{3HC^2F_{2,B}(0)}{2\bar M^2},\quad r_{1,B}^2=-6HC^2F_{1,B}^{\prime}(0)
+$$
+
+$$
+F_1^V=F_{1,p}-F_{1,n},\quad F_2^V=F_{2,p}-F_{2,n}
+$$
+
+$$
+\Gamma^\mu=F_1^V\gamma^\mu+\frac{iF_2^V\sigma^{\mu\nu}q_\nu}{m_p+m_n}-G_A\gamma^\mu\gamma_5
+$$
+
+$$
+L_{\mu\nu}=\mathrm{Tr}\left[(\not p_e+m_e)\gamma_\mu(1-\gamma_5)\not p_\nu\gamma_\nu(1-\gamma_5)\right]
+$$
+
+$$
+H^{\mu\nu}=\frac12\mathrm{Tr}\left[(\not p_p+m_p)\Gamma^\mu(\not p_n+m_n)\bar\Gamma^\nu\right],\quad\bar\Gamma^\nu=\gamma^0(\Gamma^\nu)^\dagger\gamma^0
+$$
+
+$$
+p=\sqrt{E^2-m_e^2},\quad D=m_n-E+pz,\quad k=\frac{m_n^2+m_e^2-m_p^2-2m_nE}{2D}
+$$
+
+$$
+E_m=\frac{m_n^2+m_e^2-m_p^2}{2m_n},\quad\mathcal T(E,z)=\frac{pk}{D}L_{\mu\nu}H^{\mu\nu}
+$$
+
+$$
+K_{\mathrm{tree}}=\frac{\int_{m_e}^{E_m}dE\,F(E)\int_{-1}^{1}dz\,\mathcal T(E,z)}{64m_n(1+3g_A^2)I_0}
+$$
+
+$$
+F_j(t)=F_j(0)-tF_j^{\prime}(0),\quad Q^2=-t,\quad t=q^2,\quad j=1V,2V,A
+$$
+
+$$
+\beta=p/E,\quad A=\mathrm{atanh}\,\beta,\quad d=E_m-E
+$$
+
+$$
+g=g_0+g_1+g_2,\quad g_0=3\ln(m_p/m_e)-3/4
+$$
+
+$$
+g_1=4(A/\beta-1)\left[\ln(2d/m_e)+d/(3E)-3/2\right]
+$$
+
+$$
+g_2=-\frac4\beta\mathrm{Li}_2\!\left(\frac{2\beta}{1+\beta}\right)+\frac A\beta\left[2+2\beta^2+d^2/(6E^2)-4A\right]
+$$
+
+$$
+\delta K_{\mathrm{out}}=\frac1{I_0}\int_{m_e}^{E_m}dE\,pE(E_m-E)^2F(E)\frac{\alpha_{\mathrm{em}}}{2\pi}g(E,E_m)
+$$
+
+$$
+K_\beta=(K_{\mathrm{tree}}+\delta K_{\mathrm{out}})(1+\Delta_R^V)
+$$
+
+$$
+\Gamma_0=\frac{\kappa^2 R G_F^2\lvert V_{ud}\rvert^2(1+3g_A^2)I_0}{2\pi^3\hbar},\quad\tau_{\mathrm{frozen}}=(\Gamma_0K_\beta)^{-1}
+$$
+
+$$
+\kappa_{0.6}=\kappa_{\mathrm{parent}}\sqrt{\frac{\tau_{\mathrm{frozen}}}{878.3\,\mathrm s}}
+$$
+
+$$
+H_B(b)=H_B(0)-bM_B-\frac12b^2d_BI,\quad\chi_B^{\mathrm{total}}=\chi_B^{\mathrm{spectral}}+d_B
+$$

@@ -1,0 +1,141 @@
+from pathlib import Path
+import json
+
+ROOT=Path(__file__).resolve().parents[1]
+R=json.loads((ROOT/'code/results.json').read_text())
+V=json.loads((ROOT/'verification.json').read_text())
+TITLE='내부 공간 결합과 핵자의 공동 전류'
+SUBTITLE='WRRA M 상류 0.4-r1   공간 모드의 투영과 자기장에 의존하는 접힘 결합'
+B=[]
+def h(s):B.append({'kind':'h','text':s})
+def p(s):B.append({'kind':'p','text':s})
+def eq(label,s):B.append({'kind':'eq','label':str(label),'tex':s})
+def table(caption,headers,rows,widths):B.append({'kind':'table','caption':caption,'headers':headers,'rows':rows,'widths':widths})
+def page():B.append({'kind':'break'})
+def f(x,n=9):return f'{x:.{n}f}'
+
+h('초록')
+p('교정 상류 0.3-r1의 핵자 구성에서 내부 혼합과 자기 응답을 같은 결합 연산자에 연결한다. 추상적인 공간 순열 표식을 가우스 함수와 두 야코비 이차 모드로 구현하고, 보존 공간에 투영한 결합을 자기장에 따라 변형한다. 자기 전류는 그 Hamiltonian의 자기장 미분으로 계산하며, 약한 벡터·축벡터 전류는 같은 영자기장 고유상태에서 읽는다. 알려진 핵자 질량·자기모멘트·축벡터 비율로 공동 보정하면 혼합 가중치 0.293525, 결합 계수 C=13.193474298, 자기장 응답 계수 η=0.438092893을 얻는다. 이 상태는 gV=1, gA=1.2753과 두 자기모멘트를 반환한다.')
+p(f'이전의 집단 응답 c₁=0.439987793 μN은 이번 결합의 자기장 미분을 고유상태에 적용한 기대값으로 재현된다. 바닥상태 값이 같은 c₁ 상수 모델과 비교하면 들뜬 상태 자기모멘트와 전이 응답이 달라진다. {V["implementation_checks"]}개 구현 검사와 {V["audit_checks"]}개 별도 검증, 총 {V["total_checks"]}개가 통과했고 새 디렉터리에서 결과 파일의 바이트 단위 재현을 확인했다. η와 내부 에너지 척도의 역할, 투영 전 고차 모드의 존재를 함께 공개한다.')
+h('1 검증 입력과 이번 연구의 범위')
+p('기준은 공개한 상류 교정 자료집 r1이다[1]. 주소 45·75, 소수 가족 3·5, 유한 계열 응답과 핵자 전류 블록을 상속한다. WRRA Core 1.0과 MCC 2.3.2의 기준 본문은 유지한다. 알려진 관측값을 입력해 같은 내부 계산에서 반환하는 공동 보정을 이번 연구의 정당한 설명 경로로 사용한다. 수명 보정은 부모 0.2의 기준값을 고정하여 전달한다.')
+table('표 1 주요 입력과 역할',['입력','값','역할'],[
+['mₚ·mₙ [MeV]','938.27208943 · 939.56542194','응답 에너지·질량 기준'],
+['μₚ·μₙ [μN]','2.79284734463 · −1.91304276','c₀·η 공동 보정'],
+['|gA/gV|','1.2753 ± 0.0013','혼합과 C 보정'],
+['α·N','1.8996876950554356 · 10⁶','상속한 유한 계열'],
+['κ·τₙ [s]','12.200294834431162 · 878.3','고정된 부모 수명 보정'],
+['Δ [MeV]','(mₚ+mₙ)/6 = 312.972918562','이번 내부 기준 척도'],
+], [1.35,3.15,2.4])
+p('질량과 자기모멘트는 NIST의 CODATA 2022 표, 축벡터 비율과 수명은 PDG 2026 기준값이다[4,5]. 이 계산의 Δ는 관측 핵자 여기 에너지로 보정하지 않았다. 공간 폭 ℓ은 무차원 1로 두며 물리적 핵자 반지름은 이번 입력·출력에 포함하지 않는다.')
+
+page();h('2 공간 모드와 순열 대칭의 실행')
+p('동일한 세 슬롯의 상대 좌표를 직교 야코비 좌표로 잡는다. 이 좌표는 전체 질량중심 이동을 제거한다. 색 부분은 완전 반대칭 SU(3) 단일항이고, 공간·스핀·맛 부분은 결합된 순열 대칭 상태이다. 이 구조는 표준 핵자 상태의 교환 대칭 조건을 따른다[6].')
+eq(1,r'\mathbf{x}=\frac{\mathbf{r}_1-\mathbf{r}_2}{\sqrt{2}},\qquad \mathbf{y}=\frac{\mathbf{r}_1+\mathbf{r}_2-2\mathbf{r}_3}{\sqrt{6}}')
+eq(2,r'\phi_S=(\pi\ell^2)^{-3/2}\exp\!\left[-\frac{x^2+y^2}{2\ell^2}\right]')
+eq(3,r'X_1^{\mathrm{raw}}=\frac{x^2-y^2}{\sqrt{3}\ell^2},\qquad X_2^{\mathrm{raw}}=\frac{2\mathbf{x}\cdot\mathbf{y}}{\sqrt{3}\ell^2}')
+eq('3a',r'X_a=\sum_{b=1}^{2}{X_b^{\mathrm{raw}}O_{ba}},\qquad \phi_{E_a}=X_a\phi_S')
+p('두 이차식은 공간 회전의 스칼라이며 짝수 패리티를 갖는다. 가우스 가중치 아래 평균이 0이고 서로 직교하며 노름은 1이다. 소프트웨어는 스핀·맛 E 표현과 실제 야코비 E 표현을 잇는 직교 행렬 O를 먼저 계산한다. 기준 실행에서 O는 수치 오차 내에서 diag(1,−1)이다. 아래 E 표기는 이 정렬 이후의 공간 모드를 뜻한다.')
+eq(4,r'\langle\phi_S|\phi_{E_a}\rangle=0,\qquad \langle\phi_{E_a}|\phi_{E_b}\rangle=\delta_{ab}')
+eq(5,r'\lvert S_B\rangle=\lvert S_{sf,B}\rangle\phi_S,\quad \lvert M_B\rangle=\frac{1}{\sqrt{2}}\sum_{a=1}^{2}{\lvert E_{sf,B,a}\rangle\phi_{E_a}}')
+p('스핀·아이소스핀 1/2의 네 성분을 포함하여 S와 E의 전이를 완성한다. 정렬한 X와 스핀·맛 전이의 내적은 순열에 불변이며, 스핀 회전과 아이소스핀의 스칼라이다. 이 연산자 W를 공간 S⊕E의 보존 공간 Pᵣ에 투영한다.')
+eq(6,r'W=P_r\!\left[\frac{1}{\sqrt{2}}\sum_{\chi,a}{X_a\bigl(\lvert S_{sf,\chi}\rangle\langle E_{sf,\chi,a}\rvert+\mathrm{h.c.}\bigr)}\right]\!P_r')
+eq(7,r'W_B=\begin{pmatrix}0&1\\1&0\end{pmatrix},\qquad B\in\{p,n\}')
+p('χ는 두 아이소스핀 성분과 두 스핀 성분을 돈다. 64차원 스핀·맛 공간과 세 공간 모드의 곱에서 W를 실제 구성하고, 양성자·중성자 두 구성 블록을 계산하였다. 위 결과는 임의의 2×2 행렬을 선언한 것에 그치지 않고 공간 적분과 상태 투영에서 얻은 것이다.')
+
+page();h('3 내부 척도와 유한 공간 투영')
+p('공간 모드에 대한 유한 에너지 구현으로 6차원 등방 조화진동자를 사용한다. 이는 공개한 유효 결합 선택이다. 가우스 모드의 고유값은 3, 두 이차 모드의 고유값은 5이며, 바닥값을 뺀 뒤 Δ/2를 곱하면 S와 E 사이의 미혼합 간격이 Δ가 된다.')
+eq(8,r'K=-\frac{\ell^2}{2}(\nabla_x^2+\nabla_y^2)+\frac{x^2+y^2}{2\ell^2},\quad K_r=\operatorname{diag}(3,5,5)')
+eq(9,r'H_{\mathrm{space},r}=\frac{\Delta}{2}(K_r-3I)=\operatorname{diag}(0,\Delta,\Delta)')
+p('이차 X를 곱하는 투영 전 연산자는 보존 공간 밖의 고차 공간 모드를 만들 수 있다. 기준 상태 |M⟩에 작용시킨 투영 전 노름 제곱은 10/3이고 보존 공간의 노름 제곱은 1이다. 따라서 버린 성분의 노름 제곱은 7/3이다. 이 값은 투영 전 출력 벡터의 노름이며 확률로 읽지 않는다. 이를 숨긴 채 모든 공간 모드가 닫혔다고 주장하지 않는다.')
+eq(10,r'\|W_{\mathrm{bare}}M\|^2=\frac{10}{3},\quad \|P_rW_{\mathrm{bare}}M\|^2=1,\quad \|(I-P_r)W_{\mathrm{bare}}M\|^2=\frac{7}{3}')
+p('최종 Hamiltonian은 이 보존 공간에서 정의한 유효 연산자이다. 그 안의 핵자 S·M 공간은 닫혀 있고 전하·순열·스핀 대칭을 보존한다. 더 많은 모드를 추가하면 보존 공간의 연산자와 보정 계수를 다시 평가해야 한다. 본 구성은 전체 QCD 결합상태나 끈 압축화의 직접 해를 대체하지 않는다.')
+h('4 MCC의 미시 재료와 이번 접속')
+p('MCC 2.3.2의 끈이론 보강은 공통 내부 연산자의 모드 전개, 저에너지 공간으로의 투영, 내부 파동함수 겹침을 결합 재료로 제시한다[2]. 이번 연구는 그 연산자→내부 모드→보존 공간→전류 판독의 구조를 수치 실행한다. 압축 공간·게이지 번들·끈 유래 Yukawa를 새로 계산한 것은 아니며, 명시적인 핵자 유효 모드와 결합을 그 접속 자리에 둔다.')
+p('MCC의 질량·전하·혼합 장은 영자기장 내부 커널과 종방향 게이지 폐쇄만으로 횡방향 자기 응답이 정해지지 않는다는 점을 분리한다[3]. 이에 따라 이번 연구는 자기장에 따른 결합 변형을 추가 구성식으로 공개한다. 자기장 응답 η는 실제로 보정하며, 영자기장 결합 C만에서 η까지 결정되었다고 서술하지 않는다.')
+
+page();h('5 소수 계열과 같은 고유상태의 전류')
+p('상류의 유한 소수 계열을 그대로 사용한다. 3·5의 표식은 이번에 새 입자로 식별한 결과가 아니라 이미 선택한 핵자 주소를 위한 구성 입력이다.')
+eq(11,r'r_p(N)=\sum_{p^k\le N}p^{-\alpha k},\qquad R=r_3r_5,\qquad x=C\sqrt{R}')
+eq(12,r'H_B(0)=(m_B-e_-)I+\Delta\begin{pmatrix}0&-x\\-x&1\end{pmatrix}')
+p('e₋는 질량 기준을 더하기 전 최저 고유값이다. mB−e₋는 알려진 핵자 질량에 맞춘 공통 오프셋이다. 양성자·중성자는 같은 내부 혼합을 갖고 질량 기준만 다르다.')
+eq(13,r'\lvert g\rangle=\sqrt{1-q}\lvert S\rangle+\sqrt{q}\lvert M\rangle,\quad q=\frac12\!\left(1-\frac{1}{\sqrt{1+4x^2}}\right)')
+eq(14,r'V=I,\qquad A_z=\operatorname{diag}(5/3,1/3),\qquad g_A=5/3-4q/3')
+p('q는 이 핵자 구성 안의 혼합 가중치이다. 우주 잔존 구성비나 Actual의 보유량과 동일시하지 않는다. 벡터·축벡터 블록은 0.3-r1의 스핀·맛 상태에서 다시 계산한다. gA 입력으로 q와 C를 공동 보정하는 양의 간격 가지는 1<gA<5/3이다.')
+eq(15,r'q=\frac{5/3-g_A^{\mathrm{in}}}{4/3},\qquad C=\frac{\sqrt{q(1-q)}}{(1-2q)\sqrt{R}}')
+p('같은 질량 응답 선택으로 전자기 단일 슬롯 전류를 계산한다. 이 응답 에너지는 현재 쿼크 질량과 별개인 상류의 유효 Dirac 응답이다.')
+eq(16,r'\varepsilon_u=\frac{2m_p-m_n}{3},\quad \varepsilon_d=\frac{2m_n-m_p}{3},\quad \mu_u=\frac{2m_p}{3\varepsilon_u},\quad \mu_d=-\frac{m_p}{3\varepsilon_d}')
+eq(17,r'D_p=\operatorname{diag}\!\left(\frac{4\mu_u-\mu_d}{3},\frac{2\mu_u+\mu_d}{3}\right)')
+eq(18,r'D_n=\operatorname{diag}\!\left(\frac{4\mu_d-\mu_u}{3},\frac{2\mu_d+\mu_u}{3}\right)')
+
+page();h('6 결합의 자기장 미분으로 얻는 자기 전류')
+p('b=μNB를 MeV 단위의 자기장 에너지 변수로 둔다. D·c₀·자기 전류는 μN을 단위로 한 무차원 계수이다. 스핀 위 성분에서 τp=+1, τn=−1이며 같은 내부 결합 xW를 아래처럼 자기장에 따라 변형한다.')
+eq(19,r't_\tau(b)=\Delta x\!\left(1+\tau\eta\frac{b}{\Delta}\right)')
+eq(20,r'H_B(b)=H_B(0)-b\!\left[D_B+c_0I+\tau_B\eta xW_B\right]')
+eq(21,r'\mathcal{M}_B=-\frac{\partial H_B}{\partial b}=D_B+c_0I+\tau_B\eta xW_B')
+p('이 자기 전류는 공간·스핀·맛 결합에서 계산한 W를 공유한다. 전체 스핀 다중항에서는 등벡터 인자 2Iz와 2J·b를 곱한 회전 공변 형태를 사용한다. 균일한 정적 자기장의 내부 스핀 응답을 다루며, 질량중심 Landau 운동이나 전체 상대론적 전자기 정점은 이번 계산에 포함하지 않는다.')
+eq(22,r'\langle g\vert W\vert g\rangle=2\sqrt{q(1-q)},\quad c_1^{\mathrm{out}}=\eta x\,2\sqrt{q(1-q)}')
+eq(23,r'c_1^{\mathrm{out}}=\eta\frac{2q(1-q)}{1-2q}')
+p('μp+μn으로 등스칼라 c₀를, μp−μn과 이미 보정한 gA로 η를 정한다. 입력은 두 자기모멘트이며 c₁은 그 입력들이 요구하는 응답의 이름이다. 실제 연산자에는 c₁I를 넣지 않고 ηxW를 넣는다.')
+eq(24,r'c_0=\frac{\mu_p^{\mathrm{in}}+\mu_n^{\mathrm{in}}-(\mu_u+\mu_d)}{2}')
+eq(25,r'\eta=\frac{\mu_p^{\mathrm{in}}-\mu_n^{\mathrm{in}}-(\mu_u-\mu_d)g_A^{\mathrm{in}}}{4x\sqrt{q(1-q)}}')
+p('η는 영자기장 Hamiltonian에 보이지 않는 추가 자기 정보이다. 주어진 영자기장 결합을 가진 서로 다른 자기장 변형은 가능하므로 이 구성식의 선택과 보정은 논문의 일부다. c₁을 기대값으로 연결하는 성취와 η의 보정 역할을 함께 유지한다. 자기장 선형식에는 명시적인 b² 항을 넣지 않았으며, 이 선택은 다음 절의 곡률 산출에도 적용된다.')
+
+page();h('7 공동 보정 결과와 직접 판독')
+pars=R['calibrated_parameters'];base=R['baseline'];np_=base['nucleons']['proton'];nn=base['nucleons']['neutron']
+table('표 2 같은 상태를 만드는 보정 계수',['항목','계산값','지위'],[
+['q',f(base['q'],6),'축벡터로 보정한 구성'],['C',f(pars['C']),'소수 계열 결합 보정'],['η',f(pars['eta']),'자기장 응답 보정'],['c₀ [μN]',f(pars['c0']),'등스칼라 자기 보정'],['c₁ 기대값 [μN]',f(pars['c1_target_muN']),'결합 미분의 기대값'],['t [MeV]',f(base['off_diagonal_t_MeV']),'ΔC√R'],['내부 간격 [MeV]',f(base['gap_MeV']),'선택한 Δ의 조건부 출력'],],[1.7,2.3,2.9])
+eq(26,r'\lvert g\rangle=0.840520672\lvert S\rangle+0.541779475\lvert M\rangle')
+eq(27,r'\mathcal{M}_p=\begin{pmatrix}2.939911779&0.483102944\\0.483102944&0.939904190\end{pmatrix}')
+eq(28,r'\mathcal{M}_n=\begin{pmatrix}-2.060107195&-0.483102944\\-0.483102944&-0.060099605\end{pmatrix}')
+table('표 3 고유상태에서 판독한 기준값',['판독량','입력 또는 기준','공동 계산 출력'],[
+['전하 p·n [e]','1 · 0','1 · 0'],['gV','1','1'],['gA','1.2753',f(base['axial_magnitude'],6)],['μp [μN]','2.79284734463',f(np_['ground_moment_muN'],11)],['μn [μN]','−1.91304276',f(nn['ground_moment_muN'],8)],['τn [s]','부모 기준 878.3',f(base['mean_life_s'],6)],],[1.65,2.5,2.75])
+p('수명은 상속한 κ와 위상공간을 고정한 전환율의 반환값이다. 입력 축벡터와 부모 수명 보정의 관계를 유지하므로 새로운 수명 보정이나 독립 추정을 주장하지 않는다. 기준 질량도 오프셋 입력으로 정확히 반환된다.')
+
+page();h('8 같은 바닥값을 갖는 두 자기 모델의 차이')
+p('0.3의 집단 c₁ 상수 모델을 대조군으로 유지한다. 그 자기 연산자는 D+c₀I+τc₁I이다. 두 모델은 영자기장 H와 바닥상태 자기모멘트를 공유하지만, 이번 연산자의 비대각 성분은 고유상태 사이의 전이를 바꾼다. 들뜬 상태의 첫 성분은 음수, 두 번째 성분은 양수로 위상을 고정한다.')
+eq(29,r'\chi_{\mathrm{int}}=-\left.\frac{d^2E_g}{db^2}\right|_0=\frac{2\left|\langle e\vert\mathcal{M}\vert g\rangle\right|^2}{E_e-E_g}')
+p('식 (29)는 명시적 b² 항이 없는 두 상태 유효 모델의 내부 곡률이다. 측정된 Compton 자기 편극률과 바로 동일시하지 않는다. 제거한 모드, 연속체, 질량중심 응답과 추가 b² 접촉항은 그 물리량과 접속할 때 평가해야 한다.')
+sc=R['scalar_c1_control']['nucleons']
+table('표 4 공동 보정 뒤의 조건부 응답',['응답','c₁ 상수 모델','결합 미분 모델'],[
+['바닥 μp [μN]',f(sc['proton']['ground_moment_muN']),f(np_['ground_moment_muN'])],
+['들뜬 μp [μN]',f(sc['proton']['excited_moment_muN']),f(np_['excited_moment_muN'])],
+['들뜬 μn [μN]',f(sc['neutron']['excited_moment_muN']),f(nn['excited_moment_muN'])],
+['전이 p [μN]',f(sc['proton']['transition_moment_muN']),f(np_['transition_moment_muN'])],
+['전이 n [μN]',f(sc['neutron']['transition_moment_muN']),f(nn['transition_moment_muN'])],
+['χint [MeV⁻¹]',f(sc['proton']['reduced_internal_susceptibility_MeV_minus1'],12),f(np_['reduced_internal_susceptibility_MeV_minus1'],12)],],[2.25,2.3,2.35])
+p('같은 관측값에 보정한 이후에도 연산자 구조의 차이가 남는다. 새 구성은 c₁의 문자만 바꾼 모델이 아니며, 이 차이는 수치로 검증했다. 위 들뜬 상태는 선택한 보존 공간의 조건부 고유상태이고 특정 관측 핵자 공명으로 식별하지 않았다.')
+table('표 5 Δ만 변경하고 C·η·c₀를 고정한 응답',['Δ [MeV]','q','χint [MeV⁻¹]'],[[f(r['delta_MeV'],6),f(r['q'],6),f(r['nucleons']['proton']['reduced_internal_susceptibility_MeV_minus1'],12)] for r in R['delta_sensitivity']],[2.3,2.05,2.55])
+p('정적 혼합과 자기모멘트는 Δ 변경에 불변이고, 내부 간격은 Δ에 비례하며 곡률은 Δ의 역수에 비례한다. 따라서 이번 정적 공동 보정만으로 물리적 여기 척도까지 정해지지 않는다.')
+
+page();h('9 보정 계수를 고정한 입력 응답')
+p('기준의 C·η·c₀·κ를 고정한 뒤 소수 가족과 유한 컷오프를 변경한다. 같은 Δ와 응답 에너지를 유지하는 소수 가족 사례는 입력 표식에 대한 구성 비교이며 새로운 입자 식별이 아니다. 결합 미분 모델의 c₁ 기대값은 x와 상태가 변할 때 함께 변한다.')
+table('표 6 소수 가족의 공동 상태·응답',['가족','q','gA','c₁ 기대값 [μN]'],[[str(r['primes']),f(r['q'],6),f(r['axial_magnitude'],6),f(r['nucleons']['proton']['c1_expectation_signed_muN'],9)] for r in R['fixed_parameter_prime_cases']],[1.25,1.65,1.6,2.4])
+table('표 7 입력 변경과 고정 보정 전달',['변경 입력','q','gA','τn [s]'],[[r['name'],f(r['q'],6),f(r['axial'],6),f(r['mean_life_s'],6)] for r in R['fixed_parameter_input_controls']],[2.5,1.3,1.35,1.75])
+p('N을 바꾸면 유한 소수 계열, 내부 상태와 붕괴율이 함께 바뀐다. 전자기 상수 αem을 0으로 두면 위상공간과 수명은 바뀌고 영자기장 혼합은 유지된다. κ는 전환율에 제곱으로 들어가며, 질량 변경은 응답 에너지와 열린 채널의 위상공간에 전달된다. η만 변경하면 영자기장 gA는 유지되고 자기 응답이 바뀐다. C 변경은 같은 상태의 축벡터와 자기 전류에 함께 전달된다.')
+h('10 보존 장부와 재현 검증')
+p('내부 Hamiltonian과 자기 연산자는 전하를 보존하고, 결합 W는 모든 슬롯 순열에 불변이다. 색 단일항과 스핀·아이소스핀 1/2 조건을 다시 확인했다. 고유상태 밀도행렬의 유니터리 수송은 노름·양성·내부 에너지를 보존한다. 상속한 베타 거친 입자화 수송에서는 Actual 에너지, 총 전하와 바리온 수가 유지되고 SOURCE 복귀는 0이다. 이는 기대 장부의 보존이며 미시적 측정 사건의 새 유도를 뜻하지 않는다.')
+p('기준 공간 적분은 각 좌표에서 5차 Gauss–Hermite를 사용하여 15,625개 점을 계산했다. 투영 전 결합 출력의 노름은 8차 다항식이므로 이 차수를 사용한다. 별도 6차 46,656개 점 결과와 일치한다. 자기장의 세 작은 간격에서 에너지 미분, 전류 미분과 내부 곡률을 대조하고, 유한 자기장의 특성방정식 근과 직접 대각화를 비교했다. 공간 폭 변경, 잘못된 입력 거부, 관측 보정값 변경도 검증했다.')
+
+page();h('11 반증조건과 결과의 판정')
+p('입력은 공개한 관측값과 상류 계열·주소·척도 선택이다. WRRA 고유 변환은 실제 공간 모드의 순열 정렬, 유한 결합 투영, 소수 계열에 따른 같은 고유상태의 구성, 자기장 미분을 통한 자기 전류와 약한 전류의 공동 판독이다. 산출값은 보정된 세 정적 응답과 수명 반환, 상태 전이·들뜬 응답·내부 곡률, 고정 보정 아래의 입력 변화 사례이다.')
+p('현재 유한 구성은 다음 조건에서 실패로 판정한다. 같은 허용 입력의 공동 보정이 두 자기모멘트와 축벡터를 동시에 반환하지 못하거나, 공간 적분으로 얻은 W가 순열·전하·스핀 조건을 깨거나, Hamiltonian 미분 전류와 직접 에너지 미분이 일치하지 않는 경우이다. 바뀐 선언 입력이 관련 상태·위상공간·응답에 전달되지 않거나, 보존 수송이 Actual 에너지·전하·노름을 위반하는 경우도 실패이다. 검사 결과는 이 조건들을 실제 수치로 다룬다.')
+p('이번 구성의 선택성을 추가로 줄이려면 보존 모드 확대에 따른 유효 결합의 안정성, 관측 여기 척도와 공간 폭의 보정, 자기장 이차항과 전체 전자기 정점, 강력 유래 결합의 미시 계산을 이어갈 수 있다. η를 미시적으로 정하는 더 좁은 결합법칙이 주어지면 같은 관측 장부에서 다시 평가한다. 이 후속 과제 때문에 현재 공동 재현의 성취를 취소하지 않으며, 현재 코드가 실행한 범위를 넘겨 주장하지 않는다.')
+h('12 결론')
+p('상류 0.4는 추상 공간 표식을 실제 정규화 공간 모드로 바꾸고, 그 모드 사이의 결합과 자기 전류를 하나의 자기장 의존 Hamiltonian으로 연결했다. 같은 내부 고유상태가 전자기·약한 정적 응답을 공동 반환한다. c₁은 결합 미분의 기대값으로 이어지고, 상수 c₁ 모델과 달라지는 전이·들뜬 응답을 계산하였다. 이는 공개한 공동 보정 아래의 유한 내부 계산 통합이다.')
+p('C·c₀·η는 관측 입력에서 정한 보정 계수이다. Δ와 선형 자기장 법칙, 보존 공간의 투영은 구성 선택으로 유지된다. 따라서 최종 판정은 정적 공동 응답과 연산자 차이의 실행에는 성공했고, 전체 강력·공간 모드·횡방향 전자기 동역학의 미시적 폐쇄는 후속 대상으로 남는다는 것이다. 부모 0.2의 보정 기준과 교정 자료집 r1의 공개 기록은 유지했다.')
+h('재현 안내')
+p(f'동봉 코드에서 python code/compute.py를 실행하면 입력·보정·기준·대조군·민감도·보존·{V["implementation_checks"]}개 검사 결과가 code/results.json에 기록된다. python verify_release.py는 별도 적분, 특성방정식, 변경 보정과 새 디렉터리 재현의 {V["audit_checks"]}개 검사를 실행한다. 결과 총 {V["total_checks"]}개 검사와 해시는 verification.json에 있다. 수식은 Word에서 편집 가능한 원래 수학 개체이며, 원고 생성 소스와 출처·SHA256 장부를 함께 제공한다.')
+
+page();h('참고문헌과 공개 계보')
+p('[1] Wonsik Choi. WRRA M 상류 전체 검토와 교정 자료집 r1. 2026-10-02. Zenodo DOI 10.5281/zenodo.23092499. 기준 0.3-r1 및 고정 부모 0.2 실행자료. https://doi.org/10.5281/zenodo.23092499')
+p('[2] Wonsik Choi. 최소계산우주론 2.3.2. 제5부 미시구조 보강, 공통운반자와 내부 모드·파동함수 겹침. gitbook/2.3.2/home/part5/part5-sub2.md. https://github.com/Wonsik-Choi-janefather/minimal-computing-cosmology-2.3.2')
+p('[3] Wonsik Choi. Minimal Computation Cosmology 2.3.2. English edition, Chapter 23 Mass charge and mixing, 영자기장 커널과 횡방향 전류의 분리. gitbook/english-edition/part-iv/chapter-23-mass-charge-and-mixing.md. 같은 저장소. 이번 읽은 파일의 Git SHA와 접근 일자는 source/provenance.json에 보존하였다.')
+p('[4] NIST. 2022 CODATA recommended values of the fundamental physical constants. 핵자·전자 질량, 핵자 자기모멘트와 전자기 상수. https://physics.nist.gov/cuu/Constants/Table/allascii.txt  2026-10-02 확인.')
+p('[5] F. Takahashi et al. Particle Data Group. Review of Particle Physics. Int. J. Mod. Phys. A 41, 2630011 (2026). Baryon summary tables, neutron λ=−1.2753 ± 0.0013 및 평균수명 878.3 ± 0.4 s. https://pdg.lbl.gov/2026/tables/rpp2026-sum-baryons.pdf  2026-10-02 확인.')
+p('[6] Particle Data Group. Quark Model review, 2026. 색 단일항과 공간·스핀·맛의 교환 대칭. https://pdg.lbl.gov/2026/reviews/rpp2026-rev-quark-model.pdf  2026-10-02 확인.')
+p('이 논문의 조화진동자·가우스 투영과 선형 자기장 결합은 저자가 공개한 유효 구성식이다. 원고의 수치는 code/results.json에서 생성했고, 검증은 verification.json과 연결된다. 끈이론에서 C나 η를 직접 산출했다는 출처 주장은 두지 않는다.')
+
+h('교정판 r1의 변경 기록')
+p('식 (3)의 원시 야코비 모드와 식 (3a)의 정렬된 모드를 분리했다. 비유한 κ·수명·자기모멘트, 잘못된 모델 이름·장·갭·구적 차수를 계산 전에 거부한다. 기존 물리 수치와 대조군은 유지했다.')
+p('이 교정 자료집 DOI: 10.5281/zenodo.23112253. 2026-10-03. 원본 0.4·0.5·0.6과 고정 계승 코드는 원래 해시로 보존하며, 교정 실행 경로와 새 검증 장부는 별도 공개한다. 검사 통과는 공개한 모형의 수치·입력 일관성에 대한 결과이며 실험적 타당성의 확률이 아니다.')

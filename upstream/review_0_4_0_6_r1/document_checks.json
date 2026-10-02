@@ -1,0 +1,42 @@
+{
+  "v0_4_r1": {
+    "native_equations": 30,
+    "expected_equations": 30,
+    "pages": 10,
+    "full_page_visual_review": true,
+    "equations_are_native_OMML": true,
+    "no_pdf_replacement_glyph": true,
+    "docx_sha256": "a7b5bbce402d65bdd3bed3a0edcd2d9fc7f351050b05f379645b0a6e27ba4452",
+    "pdf_sha256": "d79700691a1ea1719e714db4d3b957c6bf8d473dc51b7801e4bfa7ba9bab630f"
+  },
+  "v0_5_r1": {
+    "native_equations": 22,
+    "expected_equations": 22,
+    "pages": 9,
+    "full_page_visual_review": true,
+    "equations_are_native_OMML": true,
+    "no_pdf_replacement_glyph": true,
+    "docx_sha256": "45db278e4ca48995cc272102317e3f6191c2c674a39df69885a728f1d80a505d",
+    "pdf_sha256": "6652204a7b3ba751fd1992dd4846e4d144d83154519af86db326fe1ec2bf3c52"
+  },
+  "v0_6_r1": {
+    "native_equations": 30,
+    "expected_equations": 30,
+    "pages": 10,
+    "full_page_visual_review": true,
+    "equations_are_native_OMML": true,
+    "no_pdf_replacement_glyph": true,
+    "docx_sha256": "83e820da52eda3d8a9d6814be8a54a8c869e7b96d74190a4b0eb54c85290efd1",
+    "pdf_sha256": "65dac407ed3c14ec53ffcafe55898166bb0b967d78f852188069845696edbdfd"
+  },
+  "report": {
+    "native_equations": 3,
+    "expected_equations": 3,
+    "pages": 4,
+    "full_page_visual_review": true,
+    "equations_are_native_OMML": true,
+    "no_pdf_replacement_glyph": true,
+    "docx_sha256": "05a7dd3603d344c591fe2e23503396f9e0f7b8fbf04f99d6b0fa78776f0fddc2",
+    "pdf_sha256": "de6ed30177740117b73df273c880b5b175f4b8ce1a7aad2c1368ee83bd81f58c"
+  }
+}

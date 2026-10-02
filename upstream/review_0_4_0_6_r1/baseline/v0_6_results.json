@@ -1,0 +1,1265 @@
+{
+  "version": "0.6",
+  "scope": "Same-state finite monopole current completion with fitted charge counterterm, CVC and leading recoil/radiative rate controls; no microscopic exchange-charge derivation or complete precision beta calculation.",
+  "inherited_parameters": {
+    "q": 0.293525,
+    "R": 0.00698600035,
+    "c0": -0.06285265964,
+    "c1": 0.43998779293,
+    "mu_u": 2.00276064425,
+    "mu_d": -0.99725074034,
+    "x": 0.82088771644,
+    "C": 9.82131081605,
+    "delta_MeV": 507.03221768584,
+    "ell_fm": 0.61619621794,
+    "eta": 0.47605566734,
+    "coherence": 1.12589821549
+  },
+  "new_charge_calibration": {
+    "ell_fm": 0.65715059784,
+    "isovector_counterterm_radius_fm2": -0.09708290347,
+    "regulator_length_fm": 0.65715059784,
+    "common_Sachs_mass_MeV": 938.918755685,
+    "GM_common_to_muN_scale": 1.00068920973
+  },
+  "zero_momentum": {
+    "proton": {
+      "GE_point": 1.0,
+      "GE": 1.0,
+      "GM_muN": 2.79284734463,
+      "GM_common_mass": 2.7947722022,
+      "F1": 1.0,
+      "F2": 1.7947722022
+    },
+    "neutron": {
+      "GE_point": 0.0,
+      "GE": 0.0,
+      "GM_muN": -1.91304276,
+      "GM_common_mass": -1.91436124769,
+      "F1": 0.0,
+      "F2": -1.91436124769
+    },
+    "weak": {
+      "GV_point": 1.0,
+      "GEV": 1.0,
+      "GAV": 1.2753,
+      "F1V": 1.0,
+      "F2V": 3.70913344989
+    },
+    "Q2_GeV2": 0
+  },
+  "slopes_and_radii": {
+    "proton": {
+      "sachs_charge_radius_squared_fm2": 0.7068605625,
+      "point_radius_squared_fm2": 0.80394346597,
+      "counterterm_signed_fm2": -0.09708290347,
+      "dirac_radius_squared_fm2": 0.58795080191,
+      "foldy_radius_squared_fm2": 0.11890976059,
+      "magnetic_radius_squared_fm2": 0.81350784853,
+      "GE_derivative_GeV_minus2": -3.02558641367,
+      "GM_derivative_GeV_minus2": -9.73159376685,
+      "F1_derivative_GeV_minus2": -2.51661509007,
+      "F2_derivative_GeV_minus2": -7.21497867678
+    },
+    "neutron": {
+      "sachs_charge_radius_squared_fm2": -0.1155,
+      "point_radius_squared_fm2": -0.21258290347,
+      "counterterm_signed_fm2": 0.09708290347,
+      "dirac_radius_squared_fm2": 0.01133294146,
+      "foldy_radius_squared_fm2": -0.12683294146,
+      "magnetic_radius_squared_fm2": 0.69220254692,
+      "GE_derivative_GeV_minus2": 0.49437647157,
+      "GM_derivative_GeV_minus2": 5.6719565668,
+      "F1_derivative_GeV_minus2": -0.04850856805,
+      "F2_derivative_GeV_minus2": 5.72046513484
+    },
+    "weak": {
+      "F1V0": 1.0,
+      "F2V0": 3.70913344989,
+      "GA0": 1.2753,
+      "F1V_prime": -2.46810652203,
+      "F2V_prime": -12.93544381162,
+      "GA_prime": -4.30101948455,
+      "axial_radius_squared_fm2": 0.78792202568
+    }
+  },
+  "form_factors": [
+    {
+      "proton": {
+        "GE_point": 1.0,
+        "GE": 1.0,
+        "GM_muN": 2.79284734463,
+        "GM_common_mass": 2.7947722022,
+        "F1": 1.0,
+        "F2": 1.7947722022
+      },
+      "neutron": {
+        "GE_point": 0.0,
+        "GE": 0.0,
+        "GM_muN": -1.91304276,
+        "GM_common_mass": -1.91436124769,
+        "F1": 0.0,
+        "F2": -1.91436124769
+      },
+      "weak": {
+        "GV_point": 1.0,
+        "GEV": 1.0,
+        "GAV": 1.2753,
+        "F1V": 1.0,
+        "F2V": 3.70913344989
+      },
+      "Q2_GeV2": 0.0
+    },
+    {
+      "proton": {
+        "GE_point": 0.96609038709,
+        "GE": 0.97016973633,
+        "GM_muN": 2.69705129423,
+        "GM_common_mass": 2.69891012823,
+        "F1": 0.97505832961,
+        "F2": 1.72385179862
+      },
+      "neutron": {
+        "GE_point": 0.00891841767,
+        "GE": 0.00483906843,
+        "GM_muN": -1.85716919234,
+        "GM_common_mass": -1.85844917142,
+        "F1": -0.00043000401,
+        "F2": -1.85801916741
+      },
+      "weak": {
+        "GV_point": 0.95717196942,
+        "GEV": 0.9653306679,
+        "GAV": 1.23292709759,
+        "F1V": 0.97548833362,
+        "F2V": 3.58187096603
+      },
+      "Q2_GeV2": 0.01
+    },
+    {
+      "proton": {
+        "GE_point": 0.91706567999,
+        "GE": 0.92698517081,
+        "GM_muN": 2.55868212861,
+        "GM_common_mass": 2.56044559723,
+        "F1": 0.93848428744,
+        "F2": 1.62196130979
+      },
+      "neutron": {
+        "GE_point": 0.0216349264,
+        "GE": 0.01171543558,
+        "GM_muN": -1.77631729704,
+        "GM_common_mass": -1.7775415522,
+        "F1": -0.00088044642,
+        "F2": -1.77666110579
+      },
+      "weak": {
+        "GV_point": 0.8954307536,
+        "GEV": 0.91526973523,
+        "GAV": 1.17170358146,
+        "F1V": 0.93936473385,
+        "F2V": 3.39862241558
+      },
+      "Q2_GeV2": 0.025
+    },
+    {
+      "proton": {
+        "GE_point": 0.84004834481,
+        "GE": 0.85899140681,
+        "GM_muN": 2.34162975069,
+        "GM_common_mass": 2.3432436247,
+        "F1": 0.87974278569,
+        "F2": 1.46350083902
+      },
+      "neutron": {
+        "GE_point": 0.04115322474,
+        "GE": 0.02221016274,
+        "GM_muN": -1.64910451993,
+        "GM_common_mass": -1.65024109881,
+        "F1": -0.00117243313,
+        "F2": -1.64906866569
+      },
+      "weak": {
+        "GV_point": 0.79889512006,
+        "GEV": 0.83678124408,
+        "GAV": 1.07561438042,
+        "F1V": 0.88091521881,
+        "F2V": 3.1125695047
+      },
+      "Q2_GeV2": 0.05
+    },
+    {
+      "proton": {
+        "GE_point": 0.70223837637,
+        "GE": 0.73677992362,
+        "GM_muN": 1.95435522368,
+        "GM_common_mass": 1.95570218431,
+        "F1": 0.77039355444,
+        "F2": 1.18530862987
+      },
+      "neutron": {
+        "GE_point": 0.07445493534,
+        "GE": 0.03991338809,
+        "GM_muN": -1.42074723693,
+        "GM_common_mass": -1.42172642976,
+        "F1": -0.00039354765,
+        "F2": -1.4213328821
+      },
+      "weak": {
+        "GV_point": 0.62778344104,
+        "GEV": 0.69686653553,
+        "GAV": 0.90398331131,
+        "F1V": 0.7707871021,
+        "F2V": 2.60664151197
+      },
+      "Q2_GeV2": 0.1
+    },
+    {
+      "proton": {
+        "GE_point": 0.4820994701,
+        "GE": 0.53952367685,
+        "GM_muN": 1.33937169349,
+        "GM_common_mass": 1.34029480149,
+        "F1": 0.58250340325,
+        "F2": 0.75779139825
+      },
+      "neutron": {
+        "GE_point": 0.12188270116,
+        "GE": 0.06445849441,
+        "GM_muN": -1.05309393644,
+        "GM_common_mass": -1.05381973903,
+        "F1": 0.00443723362,
+        "F2": -1.05825697264
+      },
+      "weak": {
+        "GV_point": 0.36021676894,
+        "GEV": 0.47506518244,
+        "GAV": 0.63075602555,
+        "F1V": 0.57806616963,
+        "F2V": 1.81604837089
+      },
+      "Q2_GeV2": 0.2
+    }
+  ],
+  "regulator_sensitivity": [
+    {
+      "regulator_in_ell": 0.5,
+      "curve": [
+        {
+          "proton": {
+            "GE_point": 1.0,
+            "GE": 1.0,
+            "GM_muN": 2.79284734463,
+            "GM_common_mass": 2.7947722022,
+            "F1": 1.0,
+            "F2": 1.7947722022
+          },
+          "neutron": {
+            "GE_point": 0.0,
+            "GE": 0.0,
+            "GM_muN": -1.91304276,
+            "GM_common_mass": -1.91436124769,
+            "F1": 0.0,
+            "F2": -1.91436124769
+          },
+          "weak": {
+            "GV_point": 1.0,
+            "GEV": 1.0,
+            "GAV": 1.2753,
+            "F1V": 1.0,
+            "F2V": 3.70913344989
+          },
+          "Q2_GeV2": 0.0
+        },
+        {
+          "proton": {
+            "GE_point": 0.96609038709,
+            "GE": 0.97022668344,
+            "GM_muN": 2.69705129423,
+            "GM_common_mass": 2.69891012823,
+            "F1": 0.97511511567,
+            "F2": 1.72379501255
+          },
+          "neutron": {
+            "GE_point": 0.00891841767,
+            "GE": 0.00478212133,
+            "GM_muN": -1.85716919234,
+            "GM_common_mass": -1.85844917142,
+            "F1": -0.00048679008,
+            "F2": -1.85796238134
+          },
+          "weak": {
+            "GV_point": 0.95717196942,
+            "GEV": 0.96544456211,
+            "GAV": 1.23292709759,
+            "F1V": 0.97560190575,
+            "F2V": 3.5817573939
+          },
+          "Q2_GeV2": 0.01
+        },
+        {
+          "proton": {
+            "GE_point": 0.91706567999,
+            "GE": 0.92733499027,
+            "GM_muN": 2.55868212861,
+            "GM_common_mass": 2.56044559723,
+            "F1": 0.93883164426,
+            "F2": 1.62161395297
+          },
+          "neutron": {
+            "GE_point": 0.0216349264,
+            "GE": 0.01136561612,
+            "GM_muN": -1.77631729704,
+            "GM_common_mass": -1.7775415522,
+            "F1": -0.00122780324,
+            "F2": -1.77631374897
+          },
+          "weak": {
+            "GV_point": 0.8954307536,
+            "GEV": 0.91596937415,
+            "GAV": 1.17170358146,
+            "F1V": 0.9400594475,
+            "F2V": 3.39792770194
+          },
+          "Q2_GeV2": 0.025
+        },
+        {
+          "proton": {
+            "GE_point": 0.84004834481,
+            "GE": 0.86035105301,
+            "GM_muN": 2.34162975069,
+            "GM_common_mass": 2.3432436247,
+            "F1": 0.88108342262,
+            "F2": 1.46216020208
+          },
+          "neutron": {
+            "GE_point": 0.04115322474,
+            "GE": 0.02085051654,
+            "GM_muN": -1.64910451993,
+            "GM_common_mass": -1.65024109881,
+            "F1": -0.00251307006,
+            "F2": -1.64772802875
+          },
+          "weak": {
+            "GV_point": 0.79889512006,
+            "GEV": 0.83950053646,
+            "GAV": 1.07561438042,
+            "F1V": 0.88359649268,
+            "F2V": 3.10988823083
+          },
+          "Q2_GeV2": 0.05
+        },
+        {
+          "proton": {
+            "GE_point": 0.70223837637,
+            "GE": 0.74191633965,
+            "GM_muN": 1.95435522368,
+            "GM_common_mass": 1.95570218431,
+            "F1": 0.77538832601,
+            "F2": 1.1803138583
+          },
+          "neutron": {
+            "GE_point": 0.07445493534,
+            "GE": 0.03477697206,
+            "GM_muN": -1.42074723693,
+            "GM_common_mass": -1.42172642976,
+            "F1": -0.00538831922,
+            "F2": -1.41633811054
+          },
+          "weak": {
+            "GV_point": 0.62778344104,
+            "GEV": 0.70713936759,
+            "GAV": 0.90398331131,
+            "F1V": 0.78077664523,
+            "F2V": 2.59665196884
+          },
+          "Q2_GeV2": 0.1
+        },
+        {
+          "proton": {
+            "GE_point": 0.4820994701,
+            "GE": 0.55787171813,
+            "GM_muN": 1.33937169349,
+            "GM_common_mass": 1.34029480149,
+            "F1": 0.59986665153,
+            "F2": 0.74042814996
+          },
+          "neutron": {
+            "GE_point": 0.12188270116,
+            "GE": 0.04611045313,
+            "GM_muN": -1.05309393644,
+            "GM_common_mass": -1.05381973903,
+            "F1": -0.01292601467,
+            "F2": -1.04089372436
+          },
+          "weak": {
+            "GV_point": 0.36021676894,
+            "GEV": 0.511761265,
+            "GAV": 0.63075602555,
+            "F1V": 0.6127926662,
+            "F2V": 1.78132187432
+          },
+          "Q2_GeV2": 0.2
+        }
+      ]
+    },
+    {
+      "regulator_in_ell": 1.0,
+      "curve": [
+        {
+          "proton": {
+            "GE_point": 1.0,
+            "GE": 1.0,
+            "GM_muN": 2.79284734463,
+            "GM_common_mass": 2.7947722022,
+            "F1": 1.0,
+            "F2": 1.7947722022
+          },
+          "neutron": {
+            "GE_point": 0.0,
+            "GE": 0.0,
+            "GM_muN": -1.91304276,
+            "GM_common_mass": -1.91436124769,
+            "F1": 0.0,
+            "F2": -1.91436124769
+          },
+          "weak": {
+            "GV_point": 1.0,
+            "GEV": 1.0,
+            "GAV": 1.2753,
+            "F1V": 1.0,
+            "F2V": 3.70913344989
+          },
+          "Q2_GeV2": 0.0
+        },
+        {
+          "proton": {
+            "GE_point": 0.96609038709,
+            "GE": 0.97016973633,
+            "GM_muN": 2.69705129423,
+            "GM_common_mass": 2.69891012823,
+            "F1": 0.97505832961,
+            "F2": 1.72385179862
+          },
+          "neutron": {
+            "GE_point": 0.00891841767,
+            "GE": 0.00483906843,
+            "GM_muN": -1.85716919234,
+            "GM_common_mass": -1.85844917142,
+            "F1": -0.00043000401,
+            "F2": -1.85801916741
+          },
+          "weak": {
+            "GV_point": 0.95717196942,
+            "GEV": 0.9653306679,
+            "GAV": 1.23292709759,
+            "F1V": 0.97548833362,
+            "F2V": 3.58187096603
+          },
+          "Q2_GeV2": 0.01
+        },
+        {
+          "proton": {
+            "GE_point": 0.91706567999,
+            "GE": 0.92698517081,
+            "GM_muN": 2.55868212861,
+            "GM_common_mass": 2.56044559723,
+            "F1": 0.93848428744,
+            "F2": 1.62196130979
+          },
+          "neutron": {
+            "GE_point": 0.0216349264,
+            "GE": 0.01171543558,
+            "GM_muN": -1.77631729704,
+            "GM_common_mass": -1.7775415522,
+            "F1": -0.00088044642,
+            "F2": -1.77666110579
+          },
+          "weak": {
+            "GV_point": 0.8954307536,
+            "GEV": 0.91526973523,
+            "GAV": 1.17170358146,
+            "F1V": 0.93936473385,
+            "F2V": 3.39862241558
+          },
+          "Q2_GeV2": 0.025
+        },
+        {
+          "proton": {
+            "GE_point": 0.84004834481,
+            "GE": 0.85899140681,
+            "GM_muN": 2.34162975069,
+            "GM_common_mass": 2.3432436247,
+            "F1": 0.87974278569,
+            "F2": 1.46350083902
+          },
+          "neutron": {
+            "GE_point": 0.04115322474,
+            "GE": 0.02221016274,
+            "GM_muN": -1.64910451993,
+            "GM_common_mass": -1.65024109881,
+            "F1": -0.00117243313,
+            "F2": -1.64906866569
+          },
+          "weak": {
+            "GV_point": 0.79889512006,
+            "GEV": 0.83678124408,
+            "GAV": 1.07561438042,
+            "F1V": 0.88091521881,
+            "F2V": 3.1125695047
+          },
+          "Q2_GeV2": 0.05
+        },
+        {
+          "proton": {
+            "GE_point": 0.70223837637,
+            "GE": 0.73677992362,
+            "GM_muN": 1.95435522368,
+            "GM_common_mass": 1.95570218431,
+            "F1": 0.77039355444,
+            "F2": 1.18530862987
+          },
+          "neutron": {
+            "GE_point": 0.07445493534,
+            "GE": 0.03991338809,
+            "GM_muN": -1.42074723693,
+            "GM_common_mass": -1.42172642976,
+            "F1": -0.00039354765,
+            "F2": -1.4213328821
+          },
+          "weak": {
+            "GV_point": 0.62778344104,
+            "GEV": 0.69686653553,
+            "GAV": 0.90398331131,
+            "F1V": 0.7707871021,
+            "F2V": 2.60664151197
+          },
+          "Q2_GeV2": 0.1
+        },
+        {
+          "proton": {
+            "GE_point": 0.4820994701,
+            "GE": 0.53952367685,
+            "GM_muN": 1.33937169349,
+            "GM_common_mass": 1.34029480149,
+            "F1": 0.58250340325,
+            "F2": 0.75779139825
+          },
+          "neutron": {
+            "GE_point": 0.12188270116,
+            "GE": 0.06445849441,
+            "GM_muN": -1.05309393644,
+            "GM_common_mass": -1.05381973903,
+            "F1": 0.00443723362,
+            "F2": -1.05825697264
+          },
+          "weak": {
+            "GV_point": 0.36021676894,
+            "GEV": 0.47506518244,
+            "GAV": 0.63075602555,
+            "F1V": 0.57806616963,
+            "F2V": 1.81604837089
+          },
+          "Q2_GeV2": 0.2
+        }
+      ]
+    },
+    {
+      "regulator_in_ell": 2.0,
+      "curve": [
+        {
+          "proton": {
+            "GE_point": 1.0,
+            "GE": 1.0,
+            "GM_muN": 2.79284734463,
+            "GM_common_mass": 2.7947722022,
+            "F1": 1.0,
+            "F2": 1.7947722022
+          },
+          "neutron": {
+            "GE_point": 0.0,
+            "GE": 0.0,
+            "GM_muN": -1.91304276,
+            "GM_common_mass": -1.91436124769,
+            "F1": 0.0,
+            "F2": -1.91436124769
+          },
+          "weak": {
+            "GV_point": 1.0,
+            "GEV": 1.0,
+            "GAV": 1.2753,
+            "F1V": 1.0,
+            "F2V": 3.70913344989
+          },
+          "Q2_GeV2": 0.0
+        },
+        {
+          "proton": {
+            "GE_point": 0.96609038709,
+            "GE": 0.969949681,
+            "GM_muN": 2.69705129423,
+            "GM_common_mass": 2.69891012823,
+            "F1": 0.97483889656,
+            "F2": 1.72407123167
+          },
+          "neutron": {
+            "GE_point": 0.00891841767,
+            "GE": 0.00505912376,
+            "GM_muN": -1.85716919234,
+            "GM_common_mass": -1.85844917142,
+            "F1": -0.00021057096,
+            "F2": -1.85823860046
+          },
+          "weak": {
+            "GV_point": 0.95717196942,
+            "GEV": 0.96489055724,
+            "GAV": 1.23292709759,
+            "F1V": 0.97504946752,
+            "F2V": 3.58230983213
+          },
+          "Q2_GeV2": 0.01
+        },
+        {
+          "proton": {
+            "GE_point": 0.91706567999,
+            "GE": 0.92570106681,
+            "GM_muN": 2.55868212861,
+            "GM_common_mass": 2.56044559723,
+            "F1": 0.93720922317,
+            "F2": 1.62323637406
+          },
+          "neutron": {
+            "GE_point": 0.0216349264,
+            "GE": 0.01299953959,
+            "GM_muN": -1.77631729704,
+            "GM_common_mass": -1.7775415522,
+            "F1": 0.00039461785,
+            "F2": -1.77793617005
+          },
+          "weak": {
+            "GV_point": 0.8954307536,
+            "GEV": 0.91270152722,
+            "GAV": 1.17170358146,
+            "F1V": 0.93681460532,
+            "F2V": 3.40117254411
+          },
+          "Q2_GeV2": 0.025
+        },
+        {
+          "proton": {
+            "GE_point": 0.84004834481,
+            "GE": 0.85440439649,
+            "GM_muN": 2.34162975069,
+            "GM_common_mass": 2.3432436247,
+            "F1": 0.87521990651,
+            "F2": 1.46802371819
+          },
+          "neutron": {
+            "GE_point": 0.04115322474,
+            "GE": 0.02679717306,
+            "GM_muN": -1.64910451993,
+            "GM_common_mass": -1.65024109881,
+            "F1": 0.00335044605,
+            "F2": -1.65359154486
+          },
+          "weak": {
+            "GV_point": 0.79889512006,
+            "GEV": 0.82760722344,
+            "GAV": 1.07561438042,
+            "F1V": 0.87186946046,
+            "F2V": 3.12161526306
+          },
+          "Q2_GeV2": 0.05
+        },
+        {
+          "proton": {
+            "GE_point": 0.70223837637,
+            "GE": 0.72207699607,
+            "GM_muN": 1.95435522368,
+            "GM_common_mass": 1.95570218431,
+            "F1": 0.75609608244,
+            "F2": 1.19960610188
+          },
+          "neutron": {
+            "GE_point": 0.07445493534,
+            "GE": 0.05461631564,
+            "GM_muN": -1.42074723693,
+            "GM_common_mass": -1.42172642976,
+            "F1": 0.01390392436,
+            "F2": -1.43563035411
+          },
+          "weak": {
+            "GV_point": 0.62778344104,
+            "GEV": 0.66746068043,
+            "GAV": 0.90398331131,
+            "F1V": 0.74219215808,
+            "F2V": 2.63523645599
+          },
+          "Q2_GeV2": 0.1
+        },
+        {
+          "proton": {
+            "GE_point": 0.4820994701,
+            "GE": 0.50104184093,
+            "GM_muN": 1.33937169349,
+            "GM_common_mass": 1.34029480149,
+            "F1": 0.54608699991,
+            "F2": 0.79420780158
+          },
+          "neutron": {
+            "GE_point": 0.12188270116,
+            "GE": 0.10294033033,
+            "GM_muN": -1.05309393644,
+            "GM_common_mass": -1.05381973903,
+            "F1": 0.04085363695,
+            "F2": -1.09467337598
+          },
+          "weak": {
+            "GV_point": 0.36021676894,
+            "GEV": 0.39810151059,
+            "GAV": 0.63075602555,
+            "F1V": 0.50523336297,
+            "F2V": 1.88888117755
+          },
+          "Q2_GeV2": 0.2
+        }
+      ]
+    }
+  ],
+  "continuity_controls": [
+    {
+      "nucleon": "proton",
+      "Q2_GeV2": 0.01,
+      "transition_residual_MeV": 1e-11,
+      "longitudinal_current_norm": 2.58598034012
+    },
+    {
+      "nucleon": "neutron",
+      "Q2_GeV2": 0.01,
+      "transition_residual_MeV": 0.0,
+      "longitudinal_current_norm": 1.17202941061
+    },
+    {
+      "nucleon": "proton",
+      "Q2_GeV2": 0.1,
+      "transition_residual_MeV": 1e-11,
+      "longitudinal_current_norm": 4.24328493199
+    },
+    {
+      "nucleon": "neutron",
+      "Q2_GeV2": 0.1,
+      "transition_residual_MeV": 1e-11,
+      "longitudinal_current_norm": 2.079098535
+    }
+  ],
+  "beta": {
+    "parent_allowed_integral_MeV5": 0.05894058832,
+    "endpoint_parent_total_electron_MeV": 1.29333251,
+    "endpoint_recoil_total_electron_MeV": 1.29258131747,
+    "tree_cases": [
+      {
+        "case": "recoil_only",
+        "rate_ratio_to_parent_allowed": 0.99794084967
+      },
+      {
+        "case": "recoil_weak_magnetism",
+        "rate_ratio_to_parent_allowed": 0.99793625894
+      },
+      {
+        "case": "recoil_finite_currents",
+        "rate_ratio_to_parent_allowed": 0.99794274322
+      }
+    ],
+    "outer_rate_increment_relative_parent": 0.0149972888,
+    "inner_delta_R_V": 0.02467,
+    "full_rate_ratio_relative_parent": 1.03792926261,
+    "parent_allowed_rate_s_minus1": 0.00113856313,
+    "frozen_parent_kappa_lifetime_s": 846.20410238025,
+    "separately_refitted_kappa": 11.97530126586,
+    "refitted_lifetime_s": 878.3,
+    "parent_kappa_squared_R": 1.03984655012,
+    "refitted_kappa_squared_R": 1.00184722367,
+    "electron_spectrum": {
+      "energy_MeV": [
+        0.51099898959,
+        0.51100002989,
+        0.51100546152,
+        0.51102135791,
+        0.5110564305,
+        0.51112196222,
+        0.51123172137,
+        0.51140185611,
+        0.51165077057,
+        0.51199898321,
+        0.51246896827,
+        0.5130849815,
+        0.51387287118,
+        0.51485987564,
+        0.51607440861,
+        0.51754583383,
+        0.51930423023,
+        0.52138014933,
+        0.52380436642,
+        0.52660762702,
+        0.52982039038,
+        0.53347257165,
+        0.53759328435,
+        0.54221058493,
+        0.54735122095,
+        0.55304038475,
+        0.55930147392,
+        0.56615586053,
+        0.57362267035,
+        0.58171857373,
+        0.59045758947,
+        0.599850903,
+        0.60990670027,
+        0.62063001829,
+        0.63202261359,
+        0.64408284936,
+        0.65680560232,
+        0.67018218985,
+        0.68420031816,
+        0.69884405178,
+        0.71409380488,
+        0.72992635462,
+        0.74631487645,
+        0.76322900153,
+        0.78063489591,
+        0.79849536124,
+        0.81676995651,
+        0.83541514028,
+        0.85438443266,
+        0.8736285962,
+        0.89309583481,
+        0.91273200957,
+        0.93248087031,
+        0.95228430171,
+        0.97208258254,
+        0.99181465661,
+        1.01141841397,
+        1.03083098067,
+        1.04998901561,
+        1.06882901267,
+        1.08728760644,
+        1.10530187989,
+        1.1228096721,
+        1.1397498844,
+        1.15606278309,
+        1.17169029706,
+        1.18657630854,
+        1.20066693537,
+        1.21391080311,
+        1.22625930547,
+        1.23766685147,
+        1.24809109804,
+        1.25749316657,
+        1.26583784236,
+        1.27309375572,
+        1.27923354416,
+        1.28423399556,
+        1.28807617611,
+        1.29074557212,
+        1.29223263202
+      ],
+      "quadrature_probability": [
+        2.489e-08,
+        3.0498e-07,
+        1.17581e-06,
+        2.99161e-06,
+        6.30768e-06,
+        1.211604e-05,
+        2.1881e-05,
+        3.756139e-05,
+        6.166196e-05,
+        9.728094e-05,
+        0.0001481435,
+        0.00021861949,
+        0.0003137245,
+        0.00043910361,
+        0.00060099712,
+        0.00080618763,
+        0.00106192752,
+        0.0013758465,
+        0.00175583802,
+        0.00220992405,
+        0.00274609726,
+        0.00337213976,
+        0.00409541795,
+        0.00492265324,
+        0.00585966892,
+        0.00691111481,
+        0.00808017214,
+        0.00936824299,
+        0.01077463086,
+        0.01229622068,
+        0.01392716986,
+        0.01565862397,
+        0.01747847358,
+        0.01937117066,
+        0.02131762468,
+        0.02329519904,
+        0.02527782789,
+        0.02723627146,
+        0.02913852423,
+        0.03095038508,
+        0.03263619125,
+        0.03415970944,
+        0.03548516752,
+        0.03657839972,
+        0.03740806758,
+        0.03794690882,
+        0.03817295815,
+        0.03807067755,
+        0.03763193108,
+        0.03685673993,
+        0.03575375887,
+        0.03434042487,
+        0.03264274296,
+        0.03069469213,
+        0.02853725494,
+        0.02621709737,
+        0.02378494775,
+        0.02129374551,
+        0.0187966484,
+        0.01634500052,
+        0.01398637093,
+        0.01176277289,
+        0.00970916647,
+        0.00785233274,
+        0.00621018571,
+        0.00479156164,
+        0.00359649372,
+        0.00261694831,
+        0.00183796703,
+        0.00123913073,
+        0.00079623913,
+        0.00048308468,
+        0.00027319348,
+        0.00014140953,
+        6.521207e-05,
+        2.567747e-05,
+        8.02622e-06,
+        1.72922e-06,
+        1.8352e-07,
+        2.84e-09
+      ],
+      "density_per_MeV": [
+        0.12467219836,
+        0.12467237474,
+        0.12468745845,
+        0.12561493951,
+        0.1308338331,
+        0.14229288656,
+        0.15964173043,
+        0.18209281776,
+        0.20904112535,
+        0.24008211208,
+        0.27494200465,
+        0.31342370678,
+        0.3553735552,
+        0.40066162737,
+        0.44916982731,
+        0.5007842918,
+        0.55539015477,
+        0.61286755208,
+        0.67308821503,
+        0.73591226296,
+        0.80118495962,
+        0.86873329622,
+        0.93836233245,
+        1.00985128146,
+        1.08294937147,
+        1.15737156151,
+        1.23279423086,
+        1.30885100334,
+        1.38512890622,
+        1.46116509902,
+        1.53644443655,
+        1.6103981521,
+        1.68240395725,
+        1.751787853,
+        1.8178279288,
+        1.87976039231,
+        1.93678801875,
+        1.98809113754,
+        2.03284118294,
+        2.07021672826,
+        2.09942180212,
+        2.11970615408,
+        2.13038700192,
+        2.13087165971,
+        2.12068032279,
+        2.09946818029,
+        2.06704594653,
+        2.02339785665,
+        1.96869616702,
+        1.90331124168,
+        1.82781639614,
+        1.74298681092,
+        1.64979201557,
+        1.54938167734,
+        1.44306469635,
+        1.33228190303,
+        1.21857295855,
+        1.1035383607,
+        0.98879774038,
+        0.87594587951,
+        0.76650807593,
+        0.66189660892,
+        0.56337011016,
+        0.47199761066,
+        0.38862891169,
+        0.31387271746,
+        0.24808367615,
+        0.19135911458,
+        0.14354583599,
+        0.10425689945,
+        0.07289783565,
+        0.04870130064,
+        0.0307687509,
+        0.01811736304,
+        0.00973013908,
+        0.00460695137,
+        0.00181420033,
+        0.00053078929,
+        8.826075e-05,
+        3.17441e-06
+      ],
+      "mean_kinetic_energy_MeV": 0.30091894374
+    },
+    "trace_diagnostics": {
+      "recoil_only": {
+        "on_shell_residual_MeV2": 3.5e-10,
+        "minimum_trace": 67638.88790186579,
+        "maximum_imaginary_trace": 0.0,
+        "timelike_t_range_GeV2": [
+          2.6121e-07,
+          1.66171e-06
+        ]
+      },
+      "recoil_weak_magnetism": {
+        "on_shell_residual_MeV2": 3.5e-10,
+        "minimum_trace": 67629.31585337888,
+        "maximum_imaginary_trace": 0.0,
+        "timelike_t_range_GeV2": [
+          2.6121e-07,
+          1.66171e-06
+        ]
+      },
+      "recoil_finite_currents": {
+        "on_shell_residual_MeV2": 3.5e-10,
+        "minimum_trace": 67629.42357191152,
+        "maximum_imaginary_trace": 0.0,
+        "timelike_t_range_GeV2": [
+          2.6121e-07,
+          1.66171e-06
+        ]
+      }
+    },
+    "finite_slope_scheme": "First-order analytic continuation Q2=-t. No timelike fit or pion-pole completion.",
+    "radiative_scope": "Leading outer electron-inclusive Sirlin RC added to tree recoil spectrum, separate fixed-reference inner RC. Mixed radiative recoil, higher QED and induced pseudoscalar omitted."
+  },
+  "beta_alternate_quadrature": {
+    "full_rate_ratio_relative_parent": 1.03792926261,
+    "electron_order": 120,
+    "angular_order": 16
+  },
+  "larger_shell_holdout": {
+    "K": 10,
+    "radii": {
+      "proton": {
+        "sachs_charge_radius_squared_fm2": 0.70685069343,
+        "point_radius_squared_fm2": 0.80393359691,
+        "counterterm_signed_fm2": -0.09708290347,
+        "dirac_radius_squared_fm2": 0.58794057301,
+        "foldy_radius_squared_fm2": 0.11891012042,
+        "magnetic_radius_squared_fm2": 0.81349564525,
+        "GE_derivative_GeV_minus2": -3.02554417095,
+        "GM_derivative_GeV_minus2": -9.73146669625,
+        "F1_derivative_GeV_minus2": -2.51657130717,
+        "F2_derivative_GeV_minus2": -7.21489538907
+      },
+      "neutron": {
+        "sachs_charge_radius_squared_fm2": -0.11549819246,
+        "point_radius_squared_fm2": -0.21258109594,
+        "counterterm_signed_fm2": 0.09708290347,
+        "dirac_radius_squared_fm2": 0.01133510882,
+        "foldy_radius_squared_fm2": -0.12683330128,
+        "magnetic_radius_squared_fm2": 0.69219068312,
+        "GE_derivative_GeV_minus2": 0.49436873474,
+        "GM_derivative_GeV_minus2": 5.6718754452,
+        "F1_derivative_GeV_minus2": -0.04851784506,
+        "F2_derivative_GeV_minus2": 5.72039329026
+      },
+      "weak": {
+        "F1V0": 1.0,
+        "F2V0": 3.70914431208,
+        "GA0": 1.27530037847,
+        "F1V_prime": -2.46805346212,
+        "F2V_prime": -12.93528867933,
+        "GA_prime": -4.30096971032,
+        "axial_radius_squared_fm2": 0.7879126735
+      }
+    },
+    "finite_Q2_point": {
+      "proton": {
+        "GE_point": 0.70224176452,
+        "GE": 0.73678331176,
+        "GM_muN": 1.95437069445,
+        "GM_common_mass": 1.95571766576,
+        "F1": 0.77039727608,
+        "F2": 1.18532038968
+      },
+      "neutron": {
+        "GE_point": 0.0744544067,
+        "GE": 0.03991285946,
+        "GM_muN": -1.42075912881,
+        "GM_common_mass": -1.42173832982,
+        "F1": -0.00039438987,
+        "F2": -1.42134393995
+      },
+      "weak": {
+        "GV_point": 0.62778735782,
+        "GEV": 0.69687045231,
+        "GAV": 0.90398764962,
+        "F1V": 0.77079166595,
+        "F2V": 2.60666432963
+      },
+      "Q2_GeV2": 0.1
+    }
+  },
+  "direct_b2_controls": [
+    {
+      "nucleon": "proton",
+      "direct_b2_coefficient_MeV_minus1": 0.0,
+      "total_internal_response_MeV_minus1": 0.00092249478,
+      "finite_field_moment_derivative": 0.00092249478
+    },
+    {
+      "nucleon": "neutron",
+      "direct_b2_coefficient_MeV_minus1": 0.0,
+      "total_internal_response_MeV_minus1": 0.00092249478,
+      "finite_field_moment_derivative": 0.00092249478
+    },
+    {
+      "nucleon": "proton",
+      "direct_b2_coefficient_MeV_minus1": 0.0001,
+      "total_internal_response_MeV_minus1": 0.00102249478,
+      "finite_field_moment_derivative": 0.00102249478
+    },
+    {
+      "nucleon": "neutron",
+      "direct_b2_coefficient_MeV_minus1": 0.0001,
+      "total_internal_response_MeV_minus1": 0.00102249478,
+      "finite_field_moment_derivative": 0.00102249478
+    },
+    {
+      "nucleon": "proton",
+      "direct_b2_coefficient_MeV_minus1": -0.0001,
+      "total_internal_response_MeV_minus1": 0.00082249478,
+      "finite_field_moment_derivative": 0.00082249478
+    },
+    {
+      "nucleon": "neutron",
+      "direct_b2_coefficient_MeV_minus1": -0.0001,
+      "total_internal_response_MeV_minus1": 0.00082249478,
+      "finite_field_moment_derivative": 0.00082249478
+    }
+  ],
+  "unfitted_diagnostic": {
+    "neutron_magnetic_radius_fm": 0.83198710743,
+    "PDG_reference_fm": 0.864,
+    "PDG_plus_fm": 0.009,
+    "PDG_minus_fm": 0.008,
+    "role": "unfitted comparison; remaining mismatch is not hidden"
+  },
+  "checks": {
+    "basis_spatial_gram": true,
+    "basis_permutation_projector_idempotent": true,
+    "basis_retained_basis_orthonormal": true,
+    "basis_all_retained_states_permutation_symmetric": true,
+    "basis_bare_link_hermitian": true,
+    "basis_bounded_link_hermitian": true,
+    "basis_bare_link_permutation_invariant": true,
+    "basis_bounded_link_permutation_invariant": true,
+    "basis_point_radius_permutation_invariant": true,
+    "basis_proton_charge_one_neutron_zero": true,
+    "basis_axial_block_uses_same_E_weight": true,
+    "basis_old_two_state_bare_block_recovered": true,
+    "basis_old_two_state_bounded_block_recovered": true,
+    "v0_5_code_hash_unchanged": true,
+    "v0_5_model_hash_unchanged": true,
+    "projection_reconstructed_same_H0": true,
+    "proton_zero_charge_preserved": true,
+    "neutron_zero_charge_preserved": true,
+    "axial_zero_anchor_preserved": true,
+    "zero_magnetic_anchors_preserved": true,
+    "radius_proton_refitted": true,
+    "radius_neutron_refitted": true,
+    "point_0_5_radius_not_relabelled_as_Dirac": true,
+    "slot_vector_CVC_independent": true,
+    "Sachs_Dirac_Pauli_proton_q0": true,
+    "Sachs_Dirac_Pauli_neutron_q0": true,
+    "CVC_finite_charge_q0": true,
+    "Sachs_Dirac_Pauli_proton_q1": true,
+    "Sachs_Dirac_Pauli_neutron_q1": true,
+    "CVC_finite_charge_q1": true,
+    "Sachs_Dirac_Pauli_proton_q2": true,
+    "Sachs_Dirac_Pauli_neutron_q2": true,
+    "CVC_finite_charge_q2": true,
+    "Sachs_Dirac_Pauli_proton_q3": true,
+    "Sachs_Dirac_Pauli_neutron_q3": true,
+    "CVC_finite_charge_q3": true,
+    "Sachs_Dirac_Pauli_proton_q4": true,
+    "Sachs_Dirac_Pauli_neutron_q4": true,
+    "CVC_finite_charge_q4": true,
+    "Sachs_Dirac_Pauli_proton_q5": true,
+    "Sachs_Dirac_Pauli_neutron_q5": true,
+    "CVC_finite_charge_q5": true,
+    "proton_Foldy_decomposition_same_Sachs_radius": true,
+    "neutron_Foldy_decomposition_same_Sachs_radius": true,
+    "proton_radius_from_finite_Q2_derivative": true,
+    "neutron_radius_from_finite_Q2_derivative": true,
+    "proton_density_hermitian_Q2_0.01": true,
+    "proton_density_ground_integral_Q2_0.01": true,
+    "proton_transition_continuity_Q2_0.01": true,
+    "proton_density_time_derivative_Q2_0.01": true,
+    "neutron_density_hermitian_Q2_0.01": true,
+    "neutron_density_ground_integral_Q2_0.01": true,
+    "neutron_transition_continuity_Q2_0.01": true,
+    "neutron_density_time_derivative_Q2_0.01": true,
+    "proton_density_hermitian_Q2_0.1": true,
+    "proton_density_ground_integral_Q2_0.1": true,
+    "proton_transition_continuity_Q2_0.1": true,
+    "proton_density_time_derivative_Q2_0.1": true,
+    "neutron_density_hermitian_Q2_0.1": true,
+    "neutron_density_ground_integral_Q2_0.1": true,
+    "neutron_transition_continuity_Q2_0.1": true,
+    "neutron_density_time_derivative_Q2_0.1": true,
+    "beta_alternate_quadrature_total_rate": true,
+    "beta_spectrum_positive_and_normalized": true,
+    "recoil_endpoint_lower_than_parent": true,
+    "radiative_correction_changes_frozen_lifetime": true,
+    "explicit_kappa_refit_changes_value": true,
+    "refitted_lifetime_return_from_actual_rate": true,
+    "recoil_only_mass_shell_conserved": true,
+    "recoil_only_real_positive_probability": true,
+    "recoil_weak_magnetism_mass_shell_conserved": true,
+    "recoil_weak_magnetism_real_positive_probability": true,
+    "recoil_finite_currents_mass_shell_conserved": true,
+    "recoil_finite_currents_real_positive_probability": true,
+    "regulator_changes_finite_Q2_without_changing_radius": true,
+    "spatial_alternate_quadrature_GE_GM_GA": true,
+    "holdout_frozen_charge_radii_converge": true,
+    "holdout_finite_currents_converge": true,
+    "proton_explicit_b2_direct_response_0.0": true,
+    "neutron_explicit_b2_direct_response_0.0": true,
+    "proton_explicit_b2_direct_response_0.0001": true,
+    "neutron_explicit_b2_direct_response_0.0001": true,
+    "proton_explicit_b2_direct_response_-0.0001": true,
+    "neutron_explicit_b2_direct_response_-0.0001": true
+  },
+  "checks_total": 84,
+  "checks_passed": 84
+}

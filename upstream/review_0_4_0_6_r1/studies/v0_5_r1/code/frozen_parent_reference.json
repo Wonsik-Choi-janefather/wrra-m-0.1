@@ -1,0 +1,21 @@
+{
+  "masses": {
+    "proton": 938.27208943,
+    "neutron": 939.56542194,
+    "electron": 0.51099895069
+  },
+  "weak_constants": {
+    "GF_GeV_minus2": 1.1663787e-05,
+    "Vud": 0.97367,
+    "hbar_MeV_s": 6.582119569e-22,
+    "alpha_em": 0.0072973525643
+  },
+  "inherited": {
+    "alpha": 1.8996876950554356,
+    "N": 1000000,
+    "kappa": 12.200294834431162,
+    "neutron_mean_life_s": 878.3
+  },
+  "axial_magnitude": 1.2753,
+  "role": "frozen 0.2 calibration inputs; do not change when running input-response controls"
+}

@@ -1,0 +1,79 @@
+{
+  "masses": {
+    "proton": 938.27208943,
+    "neutron": 939.56542194,
+    "electron": 0.51099895069
+  },
+  "magnetic_moments_muN": {
+    "proton": 2.79284734463,
+    "neutron": -1.91304276
+  },
+  "weak_constants": {
+    "GF_GeV_minus2": 1.1663787e-05,
+    "Vud": 0.97367,
+    "hbar_MeV_s": 6.582119569e-22,
+    "alpha_em": 0.0072973525643
+  },
+  "inherited": {
+    "alpha": 1.8996876950554356,
+    "N": 1000000,
+    "kappa": 12.200294834431162,
+    "neutron_mean_life_s": 878.3
+  },
+  "provenance": {
+    "parent_release_commit": "a9a364ff46414c92f83bc299dc597882a47a23a5",
+    "parent_kernel_sha256": "3cc75ba4290189daed78058e112647cc1f1d1df6b7eb74c15ba6069df2ec9f55",
+    "parent_results_sha256": "970c65aea8fef904b89ac8b7668256f2af7e72ceab66ce449175a0d1f1f391a3",
+    "nucleon_reference_sha256": "a67181db67dece51d42f555079e743097c009d73966ec13257cb3dc9e85a9721",
+    "parent_path": "upstream/fold_decay_v0_2/code/compute.py",
+    "parent_v0_3_r1_code_sha256": "11ab2947b48788e79526b27ade3aec2459766a70e5f8f8c065a3aa0033646bc0"
+  },
+  "sources": {
+    "magnetic_moments_and_masses": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+    "axial_comparison": "https://pdg.lbl.gov/2026/tables/rpp2026-sum-baryons.pdf",
+    "quark_model": "https://pdg.lbl.gov/2026/reviews/rpp2026-rev-quark-model.pdf"
+  },
+  "parent_calibration_reference": {
+    "masses": {
+      "proton": 938.27208943,
+      "neutron": 939.56542194,
+      "electron": 0.51099895069
+    },
+    "weak_constants": {
+      "GF_GeV_minus2": 1.1663787e-05,
+      "Vud": 0.97367,
+      "hbar_MeV_s": 6.582119569e-22,
+      "alpha_em": 0.0072973525643
+    },
+    "inherited": {
+      "alpha": 1.8996876950554356,
+      "N": 1000000,
+      "kappa": 12.200294834431162,
+      "neutron_mean_life_s": 878.3
+    },
+    "axial_magnitude": 1.2753,
+    "role": "frozen 0.2 calibration inputs; do not change when running input-response controls"
+  },
+  "axial_calibration": {
+    "signed_lambda": -1.2753,
+    "uncertainty": 0.0013,
+    "role": "joint calibration of the shared zero-field ground state"
+  },
+  "internal_completion": {
+    "delta_mode": "mass_reference",
+    "ell_dimensionless": 1.0,
+    "magnetic_link_model": "linear_field_deformation",
+    "field_calibration": "joint_magnetic_moments",
+    "quadrature_order": 5,
+    "response_field_steps_MeV": [
+      0.001,
+      0.003,
+      0.01
+    ],
+    "delta_sensitivity_MeV": [
+      100.0,
+      312.97291856166663,
+      1000.0
+    ]
+  }
+}
