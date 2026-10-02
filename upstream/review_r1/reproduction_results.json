@@ -1,0 +1,80 @@
+{
+  "rows": [
+    {
+      "study": "two_stage_filter_v1_0",
+      "script": "compute.py",
+      "result": "results.json",
+      "checks": 7,
+      "all_passed": true,
+      "result_sha256": "e9184850a67e5c1b220e3951c0682a529ee113fb400a26f93385b6af8d5a3d9f",
+      "matches_reviewed_result_byte_for_byte": true
+    },
+    {
+      "study": "two_stage_filter_v1_0",
+      "script": "partition_26_8.py",
+      "result": "results_26_8.json",
+      "checks": 8,
+      "all_passed": true,
+      "result_sha256": "0649d68cddbaa7772ca61ed3e3f666b23882f08f90e0974002254aa352b14221",
+      "matches_reviewed_result_byte_for_byte": true
+    },
+    {
+      "study": "two_stage_filter_v1_0",
+      "script": "analytic_limit.py",
+      "result": "analytic_limit.json",
+      "checks": 2,
+      "all_passed": true,
+      "result_sha256": "81c18899cc79983f4c962bb415f4ec11446a61eb1671e0dafd71fcbaa140ed0d",
+      "matches_reviewed_result_byte_for_byte": true
+    },
+    {
+      "study": "zeta_frame_v0_1",
+      "script": "compute.py",
+      "result": "results.json",
+      "checks": 14,
+      "all_passed": true,
+      "result_sha256": "a9548532c72e5af59b1e5f41f4524f2d45355a762bd29db01b363d6047dd8586",
+      "matches_reviewed_result_byte_for_byte": true
+    },
+    {
+      "study": "particle_residue_decay_v0_1",
+      "script": "compute.py",
+      "result": "results.json",
+      "checks": 12,
+      "all_passed": true,
+      "result_sha256": "5fc93ff1861b6241cdc91b496d35d3f28b37a5914f337f25ccef3ae186686d5f",
+      "matches_reviewed_result_byte_for_byte": true
+    },
+    {
+      "study": "particle_residue_decay_v0_1",
+      "script": "channel_readout.py",
+      "result": "channel_results.json",
+      "checks": 10,
+      "all_passed": true,
+      "result_sha256": "d52ee4f361885e4b40366c6e804580f079ad34ec961c1bdfa94435b7bd4d08ae",
+      "matches_reviewed_result_byte_for_byte": true
+    },
+    {
+      "study": "fold_decay_v0_2",
+      "script": "compute.py",
+      "result": "results.json",
+      "checks": 30,
+      "all_passed": true,
+      "result_sha256": "970c65aea8fef904b89ac8b7668256f2af7e72ceab66ce449175a0d1f1f391a3",
+      "matches_reviewed_result_byte_for_byte": true
+    },
+    {
+      "study": "internal_mixing_v0_3",
+      "script": "compute.py",
+      "result": "results.json",
+      "checks": 39,
+      "all_passed": true,
+      "result_sha256": "381f302efeccdb823d1d04af9df204febef9e45d616019207b56a304b02eaf3b",
+      "matches_reviewed_result_byte_for_byte": true
+    }
+  ],
+  "implementation_checks": 122,
+  "all_passed": true,
+  "additional_checks": 56,
+  "all_checks": 178
+}

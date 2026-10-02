@@ -1,0 +1,18 @@
+WRRA M upstream collection r1 — 2026-10-02
+
+Five manuscripts are reviewed through verified inputs, WRRA transforms,
+outputs and falsification conditions. Known-observable reproduction is
+retained as an explanatory accomplishment, with calibration roles stated.
+Core 1.0, MCC 2.3.2 and downstream 0.9-r1 are preserved.
+
+Internal 0.3: propagate declared cutoff N and electromagnetic alpha;
+freeze the parent calibration reference; test changed-input rate transfer.
+Zeta 0.1: locate code/results.json from the released source directory.
+Particle 0.1: distinguish 142527 raw candidates from 141790 valid pairs.
+Builders: discover Korean figure fonts by family name.
+All five papers: add the r1 review ledger and cross-study conclusions.
+
+Original baseline: 121 checks passed, results reproduced byte for byte.
+Reviewed release: 122 implementation checks + 56 added controls = 178.
+Scientific baseline blocks remain unchanged. The shared-state calibrated
+nucleon response and the restricted c1=0 discrepancy both remain visible.

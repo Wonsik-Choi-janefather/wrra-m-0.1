@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the reviewed upstream collection using its DOI."
+title: "WRRA M Upstream Studies Reviewed Collection r1"
+authors:
+  - family-names: "Choi"
+    given-names: "Wonsik"
+    affiliation: "Independent Researcher, Seoul"
+    orcid: "https://orcid.org/0009-0001-4263-9772"
+version: "1.0-r1"
+date-released: "2026-10-02"
+doi: "10.5281/zenodo.23092499"
+url: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/tree/main/upstream/review_r1"
+license: "CC-BY-4.0"
