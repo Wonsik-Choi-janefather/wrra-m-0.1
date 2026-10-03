@@ -1,0 +1,67 @@
+[
+  {
+    "capture_decay_rate_ratio": 0,
+    "window_s": 180,
+    "free_neutron_fraction": 0.10170601622290891,
+    "captured_neutron_fraction": 0.0,
+    "beta_decayed_fraction": 0.02313334765253825,
+    "proton_fraction": 0.8982939837770911,
+    "electron_fraction": 0.8982939837770911,
+    "helium4_mass_proxy": 0.0,
+    "hydrogen_mass_proxy": 0.8982939837770911,
+    "free_neutron_mass_proxy": 0.10170601622290891,
+    "beta_antineutrino_per_initial_baryon": 0.02313334765253825
+  },
+  {
+    "capture_decay_rate_ratio": 0.1,
+    "window_s": 180,
+    "free_neutron_fraction": 0.09964285284149484,
+    "captured_neutron_fraction": 0.002290591912177485,
+    "beta_decayed_fraction": 0.022905919121774844,
+    "proton_fraction": 0.8980665552463277,
+    "electron_fraction": 0.8980665552463277,
+    "helium4_mass_proxy": 0.00458118382435497,
+    "hydrogen_mass_proxy": 0.8957759633341502,
+    "free_neutron_mass_proxy": 0.09964285284149484,
+    "beta_antineutrino_per_initial_baryon": 0.022905919121774844
+  },
+  {
+    "capture_decay_rate_ratio": 1,
+    "window_s": 180,
+    "free_neutron_fraction": 0.08285939157984643,
+    "captured_neutron_fraction": 0.02098998614780037,
+    "beta_decayed_fraction": 0.02098998614780037,
+    "proton_fraction": 0.8961506222723532,
+    "electron_fraction": 0.8961506222723532,
+    "helium4_mass_proxy": 0.04197997229560074,
+    "hydrogen_mass_proxy": 0.8751606361245529,
+    "free_neutron_mass_proxy": 0.08285939157984643,
+    "beta_antineutrino_per_initial_baryon": 0.02098998614780037
+  },
+  {
+    "capture_decay_rate_ratio": 10,
+    "window_s": 180,
+    "free_neutron_fraction": 0.013100793722637371,
+    "captured_neutron_fraction": 0.10158051832073617,
+    "beta_decayed_fraction": 0.010158051832073618,
+    "proton_fraction": 0.8853186879566265,
+    "electron_fraction": 0.8853186879566265,
+    "helium4_mass_proxy": 0.20316103664147234,
+    "hydrogen_mass_proxy": 0.7837381696358903,
+    "free_neutron_mass_proxy": 0.013100793722637371,
+    "beta_antineutrino_per_initial_baryon": 0.010158051832073618
+  },
+  {
+    "capture_decay_rate_ratio": 100,
+    "window_s": 180,
+    "free_neutron_fraction": 1.2789580320564548e-10,
+    "captured_neutron_fraction": 0.12360333044312018,
+    "beta_decayed_fraction": 0.0012360333044312017,
+    "proton_fraction": 0.8763966694289841,
+    "electron_fraction": 0.8763966694289841,
+    "helium4_mass_proxy": 0.24720666088624035,
+    "hydrogen_mass_proxy": 0.7527933389858639,
+    "free_neutron_mass_proxy": 1.2789580320564548e-10,
+    "beta_antineutrino_per_initial_baryon": 0.0012360333044312017
+  }
+]

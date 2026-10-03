@@ -1,0 +1,235 @@
+{
+  "input_scope": "conditional admitted 5% arithmetic weights",
+  "new_load_assumption": "E(n)=epsilon*n, each component E(p)=epsilon*p, residual E(r)=epsilon*r; epsilon fixed to fit whole-universe 5%",
+  "calibration_status": "5% imposed common budget, not new derived observation",
+  "summary": {
+    "small_first": {
+      "conditional_mean_address_load_units": 237.73155146477922,
+      "residual_whole_universe_percent": 0.003558171062949416,
+      "component_whole_universe_percent": 4.996441828937051,
+      "whole_matter_budget_percent": 5.0
+    },
+    "large_first": {
+      "conditional_mean_address_load_units": 237.73155146478072,
+      "residual_whole_universe_percent": 0.003408749273467551,
+      "component_whole_universe_percent": 4.996591250726532,
+      "whole_matter_budget_percent": 5.0
+    }
+  },
+  "rows": [
+    {
+      "rule": "small_first",
+      "prime_label": 2,
+      "linear_load_whole_universe_percent": 0.13848163789365447,
+      "equal_part_load_whole_universe_percent": 1.03075318683544,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "small_first",
+      "prime_label": 3,
+      "linear_load_whole_universe_percent": 0.1375873374804338,
+      "equal_part_load_whole_universe_percent": 0.6827311246615403,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "small_first",
+      "prime_label": 5,
+      "linear_load_whole_universe_percent": 0.15450371495480592,
+      "equal_part_load_whole_universe_percent": 0.46000379253133616,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "small_first",
+      "prime_label": 7,
+      "linear_load_whole_universe_percent": 0.17319303893160345,
+      "equal_part_load_whole_universe_percent": 0.36831964466665396,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "small_first",
+      "prime_label": 11,
+      "linear_load_whole_universe_percent": 0.2204380665528294,
+      "equal_part_load_whole_universe_percent": 0.29832276690280685,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "small_first",
+      "prime_label": 13,
+      "linear_load_whole_universe_percent": 0.2338905832458689,
+      "equal_part_load_whole_universe_percent": 0.26783163648533864,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "small_first",
+      "prime_label": 17,
+      "linear_load_whole_universe_percent": 0.2800484695845575,
+      "equal_part_load_whole_universe_percent": 0.2452317925307516,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "small_first",
+      "prime_label": 19,
+      "linear_load_whole_universe_percent": 0.2993182452687174,
+      "equal_part_load_whole_universe_percent": 0.23451578500829998,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "small_first",
+      "prime_label": 23,
+      "linear_load_whole_universe_percent": 0.34202728639481506,
+      "equal_part_load_whole_universe_percent": 0.22137338664279443,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "small_first",
+      "prime_label": 29,
+      "linear_load_whole_universe_percent": 0.41525775278278415,
+      "equal_part_load_whole_universe_percent": 0.21316320520746979,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "small_first",
+      "prime_label": 31,
+      "linear_load_whole_universe_percent": 0.42871531392713835,
+      "equal_part_load_whole_universe_percent": 0.20587318979356076,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "small_first",
+      "prime_label": 37,
+      "linear_load_whole_universe_percent": 0.49724534360468403,
+      "equal_part_load_whole_universe_percent": 0.20006056509981138,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "small_first",
+      "prime_label": 41,
+      "linear_load_whole_universe_percent": 0.5358540938187883,
+      "equal_part_load_whole_universe_percent": 0.19456072978820435,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "small_first",
+      "prime_label": 43,
+      "linear_load_whole_universe_percent": 0.5505156702250327,
+      "equal_part_load_whole_universe_percent": 0.19058719587205528,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "small_first",
+      "prime_label": 47,
+      "linear_load_whole_universe_percent": 0.5893652742713378,
+      "equal_part_load_whole_universe_percent": 0.18667199797393655,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "large_first",
+      "prime_label": 2,
+      "linear_load_whole_universe_percent": 0.055854724547905556,
+      "equal_part_load_whole_universe_percent": 0.5809998661897469,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "large_first",
+      "prime_label": 3,
+      "linear_load_whole_universe_percent": 0.04782352531225547,
+      "equal_part_load_whole_universe_percent": 0.33163964829643405,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "large_first",
+      "prime_label": 5,
+      "linear_load_whole_universe_percent": 0.06492428199971437,
+      "equal_part_load_whole_universe_percent": 0.27013649756304386,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "large_first",
+      "prime_label": 7,
+      "linear_load_whole_universe_percent": 0.14680138796507605,
+      "equal_part_load_whole_universe_percent": 0.4362929901993227,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "large_first",
+      "prime_label": 11,
+      "linear_load_whole_universe_percent": 0.14022052070490137,
+      "equal_part_load_whole_universe_percent": 0.26519479995491985,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "large_first",
+      "prime_label": 13,
+      "linear_load_whole_universe_percent": 0.20881404061451073,
+      "equal_part_load_whole_universe_percent": 0.33416615263299676,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "large_first",
+      "prime_label": 17,
+      "linear_load_whole_universe_percent": 0.22222245032846813,
+      "equal_part_load_whole_universe_percent": 0.2719475335350419,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "large_first",
+      "prime_label": 19,
+      "linear_load_whole_universe_percent": 0.2810446844703442,
+      "equal_part_load_whole_universe_percent": 0.3077286193730769,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "large_first",
+      "prime_label": 23,
+      "linear_load_whole_universe_percent": 0.3555440486628864,
+      "equal_part_load_whole_universe_percent": 0.32159677957992566,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "large_first",
+      "prime_label": 29,
+      "linear_load_whole_universe_percent": 0.3883747244480132,
+      "equal_part_load_whole_universe_percent": 0.27861152272432466,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "large_first",
+      "prime_label": 31,
+      "linear_load_whole_universe_percent": 0.46558608460613704,
+      "equal_part_load_whole_universe_percent": 0.31245279323537223,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "large_first",
+      "prime_label": 37,
+      "linear_load_whole_universe_percent": 0.5366251353976144,
+      "equal_part_load_whole_universe_percent": 0.3017278517242666,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "large_first",
+      "prime_label": 41,
+      "linear_load_whole_universe_percent": 0.5858528341449549,
+      "equal_part_load_whole_universe_percent": 0.2972698008202269,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "large_first",
+      "prime_label": 43,
+      "linear_load_whole_universe_percent": 0.6715083340794299,
+      "equal_part_load_whole_universe_percent": 0.3248845547197716,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "large_first",
+      "prime_label": 47,
+      "linear_load_whole_universe_percent": 0.8253944734443208,
+      "equal_part_load_whole_universe_percent": 0.365350589451529,
+      "linear_pair_plus_and_minus_counts_equal": true
+    }
+  ],
+  "energy_and_charge": "linear arithmetic load conserved; +/- equal-count pairing compatible; physical mass/spin/species not identified",
+  "residual_status": "included within 5% load as unresolved residue, not automatically dark matter or source return",
+  "equal_part_alternative": "same fixed 5% total but different per-address load function; demonstrates load-map sensitivity",
+  "conclusion": "Under declared common linear load both assembly orders preserve the same total while allocating it differently. Species and SI energy map remain open."
+}

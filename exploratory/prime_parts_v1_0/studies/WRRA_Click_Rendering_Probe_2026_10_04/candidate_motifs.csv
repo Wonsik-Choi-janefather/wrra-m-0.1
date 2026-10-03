@@ -1,0 +1,5 @@
+candidate,3_A_r,3_A_g,3_A_b,3_B_r,3_B_g,3_B_b,1_A,1_B,anti3_A_r,anti3_A_g,anti3_A_b,anti3_B_r,anti3_B_g,anti3_B_b,1_N,1_0,total_charge
+proton_electron,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0
+neutron,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+electron_conjugate_pair,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+neutral_channel,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0

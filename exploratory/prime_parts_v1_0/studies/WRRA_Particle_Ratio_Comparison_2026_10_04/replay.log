@@ -1,0 +1,97 @@
+{
+  "fit_small_apply_both": {
+    "neutron_prime_labels": [
+      23,
+      29,
+      43
+    ],
+    "assignment_status": "fitted candidate, not derived particle identity",
+    "small_first": {
+      "neutron_motif_fraction": 0.1250247575444639,
+      "p_n_e_number_percent": [
+        46.665962442769995,
+        6.668075114460013,
+        46.665962442769995
+      ],
+      "p_per_n": 6.998415830915403,
+      "helium_mass_fraction_proxy": 0.2500495150889278,
+      "net_charge": 0
+    },
+    "large_first": {
+      "neutron_motif_fraction": 0.1850185714048044,
+      "p_n_e_number_percent": [
+        44.90301750503283,
+        10.19396498993434,
+        44.90301750503283
+      ],
+      "p_per_n": 4.4048628329968444,
+      "helium_mass_fraction_proxy": 0.3700371428096088,
+      "net_charge": 0
+    }
+  },
+  "fit_large_apply_both": {
+    "neutron_prime_labels": [
+      37,
+      43
+    ],
+    "assignment_status": "fitted candidate, not derived particle identity",
+    "small_first": {
+      "neutron_motif_fraction": 0.07812955219437333,
+      "p_n_e_number_percent": [
+        47.96735642916044,
+        4.065287141679134,
+        47.96735642916044
+      ],
+      "p_per_n": 11.799254211929519,
+      "helium_mass_fraction_proxy": 0.15625910438874666,
+      "net_charge": 0
+    },
+    "large_first": {
+      "neutron_motif_fraction": 0.12532248128880763,
+      "p_n_e_number_percent": [
+        46.65749228766117,
+        6.68501542467766,
+        46.65749228766117
+      ],
+      "p_per_n": 6.97941430552659,
+      "helium_mass_fraction_proxy": 0.25064496257761526,
+      "net_charge": 0
+    }
+  },
+  "joint_fit": {
+    "neutron_prime_labels": [
+      5,
+      47
+    ],
+    "assignment_status": "fitted candidate, not derived particle identity",
+    "small_first": {
+      "neutron_motif_fraction": 0.1293351581010545,
+      "p_n_e_number_percent": [
+        46.54306973637875,
+        6.9138605272425,
+        46.54306973637875
+      ],
+      "p_per_n": 6.731849673997088,
+      "helium_mass_fraction_proxy": 0.258670316202109,
+      "net_charge": 0
+    },
+    "large_first": {
+      "neutron_motif_fraction": 0.12709741740291458,
+      "p_n_e_number_percent": [
+        46.60693998225275,
+        6.786120035494491,
+        46.60693998225275
+      ],
+      "p_per_n": 6.86798048641599,
+      "helium_mass_fraction_proxy": 0.25419483480582916,
+      "net_charge": 0
+    }
+  },
+  "best_contiguous_threshold_joint": {
+    "threshold": 43,
+    "side": "above_equal",
+    "small_fraction": 0.07545183876919836,
+    "large_fraction": 0.13804702883426012,
+    "max_error": 0.049548161230801635
+  }
+}

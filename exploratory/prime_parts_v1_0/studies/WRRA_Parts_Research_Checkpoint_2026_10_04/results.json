@@ -1,0 +1,112 @@
+{
+  "cases": 56,
+  "numerical_conservation": "PASS all cases",
+  "assignment": "prime5/47 -> n, other allowed primes -> p+e; fixed from prior calibration no refit",
+  "summary": [
+    {
+      "K": 2,
+      "order": "small",
+      "neutron_fraction_N1k": 0.0,
+      "neutron_fraction_N1m": 0.0,
+      "change_N100k_to_1m": 0.0
+    },
+    {
+      "K": 2,
+      "order": "large",
+      "neutron_fraction_N1k": 0.0,
+      "neutron_fraction_N1m": 0.0,
+      "change_N100k_to_1m": 0.0
+    },
+    {
+      "K": 4,
+      "order": "small",
+      "neutron_fraction_N1k": 0.21062403084729328,
+      "neutron_fraction_N1m": 0.24061054904474108,
+      "change_N100k_to_1m": 0.004590037416001808
+    },
+    {
+      "K": 4,
+      "order": "large",
+      "neutron_fraction_N1k": 0.23628650604337437,
+      "neutron_fraction_N1m": 0.24706686710146616,
+      "change_N100k_to_1m": 0.0014968864841028995
+    },
+    {
+      "K": 8,
+      "order": "small",
+      "neutron_fraction_N1k": 0.12940328414510474,
+      "neutron_fraction_N1m": 0.1265328794267001,
+      "change_N100k_to_1m": -0.0006396011931283363
+    },
+    {
+      "K": 8,
+      "order": "large",
+      "neutron_fraction_N1k": 0.08894441001444679,
+      "neutron_fraction_N1m": 0.11693868963851085,
+      "change_N100k_to_1m": 0.004073948526764307
+    },
+    {
+      "K": 12,
+      "order": "small",
+      "neutron_fraction_N1k": 0.12048706610629524,
+      "neutron_fraction_N1m": 0.09877504051994952,
+      "change_N100k_to_1m": -0.0052921369775076055
+    },
+    {
+      "K": 12,
+      "order": "large",
+      "neutron_fraction_N1k": 0.034439633879111364,
+      "neutron_fraction_N1m": 0.07144740797967974,
+      "change_N100k_to_1m": 0.005820350215259881
+    },
+    {
+      "K": 15,
+      "order": "small",
+      "neutron_fraction_N1k": 0.12516935753771896,
+      "neutron_fraction_N1m": 0.12933515810105534,
+      "change_N100k_to_1m": 0.001181461282720092
+    },
+    {
+      "K": 15,
+      "order": "large",
+      "neutron_fraction_N1k": 0.10752864728745723,
+      "neutron_fraction_N1m": 0.12709741740291308,
+      "change_N100k_to_1m": 0.002940911920316716
+    },
+    {
+      "K": 16,
+      "order": "small",
+      "neutron_fraction_N1k": 0.12484676786254618,
+      "neutron_fraction_N1m": 0.12483936387544436,
+      "change_N100k_to_1m": 4.413344066891978e-05
+    },
+    {
+      "K": 16,
+      "order": "large",
+      "neutron_fraction_N1k": 0.072431004924512,
+      "neutron_fraction_N1m": 0.11124850208031278,
+      "change_N100k_to_1m": 0.006394700223855826
+    },
+    {
+      "K": 20,
+      "order": "small",
+      "neutron_fraction_N1k": 0.1243089457686037,
+      "neutron_fraction_N1m": 0.11395798213936047,
+      "change_N100k_to_1m": -0.003268654009685762
+    },
+    {
+      "K": 20,
+      "order": "large",
+      "neutron_fraction_N1k": 0.040069536759878385,
+      "neutron_fraction_N1m": 0.08186595688503774,
+      "change_N100k_to_1m": 0.007918505448580415
+    }
+  ],
+  "limits": [
+    "arithmetic prime labels not derived quark channels",
+    "p/n/e assignment calibrated; not independent prediction",
+    "N and K sensitivity are numerical/model checks, not observational uncertainty",
+    "physical species energy, capture/decay times and CMB spectrum remain open"
+  ],
+  "conclusion": "finite candidate stability evaluated; no automatic preferred K from this fitted species decoder"
+}

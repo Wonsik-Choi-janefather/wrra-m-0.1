@@ -1,0 +1,86 @@
+{
+  "input": "5u+3d per color, 7 electrons: prescribed target-compatible input, NOT inferred cosmic distribution",
+  "proton_first": {
+    "priority": [
+      "p",
+      "n"
+    ],
+    "protons": 7,
+    "neutrons": 1,
+    "electrons": 7,
+    "remaining_u": 0,
+    "remaining_d": 0,
+    "net_charge": 0.0,
+    "sequence": [
+      "p",
+      "p",
+      "p",
+      "p",
+      "p",
+      "p",
+      "p",
+      "n"
+    ],
+    "color_stock": {
+      "r": {
+        "u": 0,
+        "d": 0
+      },
+      "g": {
+        "u": 0,
+        "d": 0
+      },
+      "b": {
+        "u": 0,
+        "d": 0
+      }
+    }
+  },
+  "neutron_first": {
+    "priority": [
+      "n",
+      "p"
+    ],
+    "protons": 3,
+    "neutrons": 3,
+    "electrons": 7,
+    "remaining_u": 6,
+    "remaining_d": 0,
+    "net_charge": 0.0,
+    "sequence": [
+      "n",
+      "n",
+      "n",
+      "p",
+      "p",
+      "p"
+    ],
+    "color_stock": {
+      "r": {
+        "u": 2,
+        "d": 0
+      },
+      "g": {
+        "u": 2,
+        "d": 0
+      },
+      "b": {
+        "u": 2,
+        "d": 0
+      }
+    }
+  },
+  "maximum_use_aggregate_candidates": [
+    {
+      "p": 7,
+      "n": 1,
+      "remaining_u": 0,
+      "remaining_d": 0,
+      "used_quarks": 24
+    }
+  ],
+  "physical_status": "color-compatible valence bookkeeping; no QCD binding energies or confinement evolution",
+  "unbound_quark_status": "unresolved model residual, NOT claim of observable free quarks; requires hadronization/other channels",
+  "neutrino_photon_status": "separate open branches; no conversion rates or spectra calculated",
+  "conclusion": "same constituents, different greedy binding priorities leave different baryon composition/residue; global all-quark use constrains composition for this chosen input"
+}

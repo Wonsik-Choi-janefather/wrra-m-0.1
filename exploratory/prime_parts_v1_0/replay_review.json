@@ -1,0 +1,67 @@
+[
+  {
+    "study": "WRRA_Binding_Order_Probe_2026_10_04",
+    "exit": 0,
+    "json_equal": true
+  },
+  {
+    "study": "WRRA_Capture_Decay_Probe_2026_10_04",
+    "exit": 0,
+    "json_equal": true
+  },
+  {
+    "study": "WRRA_Click_Rendering_Probe_2026_10_04",
+    "exit": 0,
+    "json_equal": true
+  },
+  {
+    "study": "WRRA_Component_Abundance_2026_10_04",
+    "exit": 0,
+    "json_equal": false
+  },
+  {
+    "study": "WRRA_Decay_Open_Ledger_2026_10_04",
+    "exit": 0,
+    "json_equal": true
+  },
+  {
+    "study": "WRRA_Global_Neutrality_Probe_2026_10_04",
+    "exit": 0,
+    "json_equal": true
+  },
+  {
+    "study": "WRRA_Matter5_Load_Ledger_2026_10_04",
+    "exit": 0,
+    "json_equal": true
+  },
+  {
+    "study": "WRRA_Particle_Ratio_Comparison_2026_10_04",
+    "exit": 0,
+    "json_equal": true
+  },
+  {
+    "study": "WRRA_Parts_Research_Checkpoint_2026_10_04",
+    "exit": 0,
+    "json_equal": false
+  },
+  {
+    "study": "WRRA_Prime_Residual_Pair_Probe_2026_10_04",
+    "exit": 0,
+    "json_equal": false
+  },
+  {
+    "study": "WRRA_Quark_Open_Branches_2026_10_04",
+    "exit": 0,
+    "json_equal": true
+  },
+  {
+    "study": "WRRA_Render_Order_Comparison_2026_10_04",
+    "exit": 0,
+    "json_equal": false
+  },
+  {
+    "study": "WRRA_Response_Pair_Followup_2026_10_04",
+    "exit": 0,
+    "json_equal": true
+  }
+]

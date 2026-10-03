@@ -1,0 +1,117 @@
+{
+  "input": "u15 d9 e7, same chosen trial inventory; not cosmological generation result",
+  "neutrality_constraint": "global sum_i N_i q_i=0 with unresolved reservoir charge included",
+  "scanned_allocations": 193,
+  "full_use_allocations": 11,
+  "full_use_examples": [
+    {
+      "uuu": 0,
+      "uud": 7,
+      "udd": 1,
+      "ddd": 0,
+      "remaining_u": 0,
+      "remaining_d": 0,
+      "used_quarks": 24,
+      "electrons": 7,
+      "whole_charge_e": 0.0,
+      "bound_plus_e_charge_e": 0
+    },
+    {
+      "uuu": 1,
+      "uud": 5,
+      "udd": 2,
+      "ddd": 0,
+      "remaining_u": 0,
+      "remaining_d": 0,
+      "used_quarks": 24,
+      "electrons": 7,
+      "whole_charge_e": 0.0,
+      "bound_plus_e_charge_e": 0
+    },
+    {
+      "uuu": 1,
+      "uud": 6,
+      "udd": 0,
+      "ddd": 1,
+      "remaining_u": 0,
+      "remaining_d": 0,
+      "used_quarks": 24,
+      "electrons": 7,
+      "whole_charge_e": 0.0,
+      "bound_plus_e_charge_e": 0
+    },
+    {
+      "uuu": 2,
+      "uud": 3,
+      "udd": 3,
+      "ddd": 0,
+      "remaining_u": 0,
+      "remaining_d": 0,
+      "used_quarks": 24,
+      "electrons": 7,
+      "whole_charge_e": 0.0,
+      "bound_plus_e_charge_e": 0
+    },
+    {
+      "uuu": 2,
+      "uud": 4,
+      "udd": 1,
+      "ddd": 1,
+      "remaining_u": 0,
+      "remaining_d": 0,
+      "used_quarks": 24,
+      "electrons": 7,
+      "whole_charge_e": 0.0,
+      "bound_plus_e_charge_e": 0
+    },
+    {
+      "uuu": 3,
+      "uud": 1,
+      "udd": 4,
+      "ddd": 0,
+      "remaining_u": 0,
+      "remaining_d": 0,
+      "used_quarks": 24,
+      "electrons": 7,
+      "whole_charge_e": 0.0,
+      "bound_plus_e_charge_e": 0
+    },
+    {
+      "uuu": 3,
+      "uud": 2,
+      "udd": 2,
+      "ddd": 1,
+      "remaining_u": 0,
+      "remaining_d": 0,
+      "used_quarks": 24,
+      "electrons": 7,
+      "whole_charge_e": 0.0,
+      "bound_plus_e_charge_e": 0
+    },
+    {
+      "uuu": 3,
+      "uud": 3,
+      "udd": 0,
+      "ddd": 2,
+      "remaining_u": 0,
+      "remaining_d": 0,
+      "used_quarks": 24,
+      "electrons": 7,
+      "whole_charge_e": 0.0,
+      "bound_plus_e_charge_e": 0
+    }
+  ],
+  "counterexample_to_neutrality_selects_pne": "non-uud/udd candidates also globally neutral",
+  "constraints_not_added": [
+    "binding energies",
+    "stability",
+    "full spin/flavor and statistics",
+    "prime-to-quark rendering",
+    "antiquark/meson channels",
+    "initial physical baryon-lepton supply"
+  ],
+  "color_scope": "one rgb singlet can carry any listed flavor composition; aggregate feasible counts only, no full dynamical state",
+  "neutrality_scope": "electric charge tested only; signed weak/color/orientation variables need separate operators; not all signs one scalar",
+  "neutrino_photon": "electrically neutral outputs do not fix their abundance or energy; open ledger",
+  "conclusion": "whole charge conservation necessary but does not uniquely fix hadron composition, ordering, or neutral output fractions"
+}

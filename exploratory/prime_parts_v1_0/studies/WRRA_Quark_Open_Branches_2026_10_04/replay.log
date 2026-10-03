@@ -1,0 +1,42 @@
+{
+  "color_max_error": 0.0,
+  "beta_Q": 0.7823335593099138,
+  "rows": [
+    {
+      "rule": "small_first",
+      "withheld_component_fraction": 0,
+      "proton": 0.8706648418989456,
+      "neutron": 0.1293351581010545,
+      "electron": 0.8706648418989456,
+      "valence_u": 1.8706648418989456,
+      "valence_d": 1.1293351581010547,
+      "valence_u_per_d": 1.6564301823777592,
+      "neutrino_photon_unresolved_branch": 0,
+      "net_charge": 0.0
+    },
+    {
+      "rule": "small_first",
+      "withheld_component_fraction": 0.05,
+      "proton": 0.8271315998039982,
+      "neutron": 0.12286840019600177,
+      "electron": 0.8271315998039982,
+      "valence_u": 1.7771315998039983,
+      "valence_d": 1.0728684001960018,
+      "valence_u_per_d": 1.6564301823777594,
+      "neutrino_photon_unresolved_branch": 0.05,
+      "net_charge": 1.1102230246251565e-16
+    },
+    {
+      "rule": "small_first",
+      "withheld_component_fraction": 0.2,
+      "proton": 0.6965318735191565,
+      "neutron": 0.10346812648084361,
+      "electron": 0.6965318735191565,
+      "valence_u": 1.4965318735191566,
+      "valence_d": 0.9034681264808437,
+      "valence_u_per_d": 1.6564301823777594,
+      "neutrino_photon_unresolved_branch": 0.2,
+      "net_charge": 0.0
+    }
+  ]
+}

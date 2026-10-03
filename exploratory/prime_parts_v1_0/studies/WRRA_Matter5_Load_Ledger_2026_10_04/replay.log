@@ -1,0 +1,60 @@
+{
+  "summary": {
+    "small_first": {
+      "conditional_mean_address_load_units": 237.73155146477922,
+      "residual_whole_universe_percent": 0.003558171062949416,
+      "component_whole_universe_percent": 4.996441828937051,
+      "whole_matter_budget_percent": 5.0
+    },
+    "large_first": {
+      "conditional_mean_address_load_units": 237.73155146478072,
+      "residual_whole_universe_percent": 0.003408749273467551,
+      "component_whole_universe_percent": 4.996591250726532,
+      "whole_matter_budget_percent": 5.0
+    }
+  },
+  "first_rows": [
+    {
+      "rule": "small_first",
+      "prime_label": 2,
+      "linear_load_whole_universe_percent": 0.13848163789365447,
+      "equal_part_load_whole_universe_percent": 1.03075318683544,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "small_first",
+      "prime_label": 3,
+      "linear_load_whole_universe_percent": 0.1375873374804338,
+      "equal_part_load_whole_universe_percent": 0.6827311246615403,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "small_first",
+      "prime_label": 5,
+      "linear_load_whole_universe_percent": 0.15450371495480592,
+      "equal_part_load_whole_universe_percent": 0.46000379253133616,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "large_first",
+      "prime_label": 2,
+      "linear_load_whole_universe_percent": 0.055854724547905556,
+      "equal_part_load_whole_universe_percent": 0.5809998661897469,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "large_first",
+      "prime_label": 3,
+      "linear_load_whole_universe_percent": 0.04782352531225547,
+      "equal_part_load_whole_universe_percent": 0.33163964829643405,
+      "linear_pair_plus_and_minus_counts_equal": true
+    },
+    {
+      "rule": "large_first",
+      "prime_label": 5,
+      "linear_load_whole_universe_percent": 0.06492428199971437,
+      "equal_part_load_whole_universe_percent": 0.27013649756304386,
+      "linear_pair_plus_and_minus_counts_equal": true
+    }
+  ]
+}

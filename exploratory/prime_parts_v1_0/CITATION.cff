@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this exploratory synthesis."
+title: "WRRA Prime-Parts Rendering: Finite Assembly, Neutrality, Composition and Decay"
+version: "1.0"
+doi: 10.5281/zenodo.23128482
+date-released: 2026-10-04
+authors:
+  - family-names: Choi
+    given-names: Wonsik
+    orcid: https://orcid.org/0009-0001-4263-9772
+license: CC-BY-4.0

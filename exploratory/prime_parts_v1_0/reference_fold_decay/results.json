@@ -1,0 +1,637 @@
+{
+  "title": "WRRA-M fold-current and neutron beta-rate bridge v0.2",
+  "date": "2026-10-02",
+  "author": "Wonsik Choi",
+  "hypothesis": "a retained arithmetic fold admits internal prime-label substitution; charge/current matrix elements, available final-state phase space and a calibrated response strength set phenotype decay while Actual energy remains retained",
+  "empirical_inputs": {
+    "GF_GeV_minus2": 1.1663787e-05,
+    "Vud": 0.97367,
+    "Vud_uncertainty": 0.00032,
+    "lambda_axial_vector": -1.2753,
+    "lambda_uncertainty": 0.0013,
+    "hbar_MeV_s": 6.582119569e-22,
+    "alpha_em": 0.0072973525643,
+    "neutron_mean_life_s": 878.3,
+    "mean_life_uncertainty_s": 0.4,
+    "sources": {
+      "constants": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "Vud": "https://pdg.lbl.gov/2026/reviews/rpp2026-rev-ckm-matrix.pdf",
+      "lambda_and_lifetime": "https://pdg.lbl.gov/2026/tables/rpp2026-sum-baryons.pdf",
+      "beta_formula": "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=902353",
+      "quark_model": "https://pdg.lbl.gov/2026/reviews/rpp2026-rev-quark-model.pdf"
+    }
+  },
+  "mass_inputs": {
+    "electron_rest_energy_MeV": 0.51099895069,
+    "proton_rest_energy_MeV": 938.27208943,
+    "neutron_rest_energy_MeV": 939.56542194
+  },
+  "reference_provenance": {
+    "sha256": "6bb13db4d69588fa1cb6d89da006851abedcbfb068c06bec5ec730183764fe8a",
+    "commit": "fa761e6f67abcc74ac9589e5a501f005c66a6993",
+    "repository_path": "upstream/particle_residue_decay_v0_1/code/results.json"
+  },
+  "spin_flavor": {
+    "one_slot_basis": [
+      "3u_up",
+      "3u_down",
+      "5d_up",
+      "5d_down"
+    ],
+    "state_scope": "supplied symmetric S-wave three-valence-quark spin-flavor ansatz, antisymmetric color singlet; not a QCD bound-state solution",
+    "state_dimensions": {
+      "spin_flavor": 64,
+      "color": 27,
+      "combined": 1728
+    },
+    "proton_state": null,
+    "neutron_state": null,
+    "matrix_elements": {
+      "vector_n_to_p": 1.0,
+      "bare_axial_z_n_to_p": 1.666666666666667,
+      "vector_to_J_three_half": 3.3306690738754696e-16,
+      "axial_z_to_J_three_half": -0.9428090415820631
+    },
+    "color_singlet_generator_norms": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "checks": {
+      "nucleon_states_normalized": true,
+      "spin_flavor_exchange_symmetric": true,
+      "color_exchange_antisymmetric": true,
+      "color_singlet_total_generators_zero": true,
+      "nucleon_total_spin_half": true,
+      "nucleon_isospin_half": true,
+      "spin_projection_half": true,
+      "proton_charge_one_neutron_zero": true,
+      "current_raises_charge_one": true,
+      "vector_current_preserves_total_spin": true,
+      "vector_matrix_element_one": true,
+      "bare_axial_matrix_element_five_thirds": true,
+      "vector_to_spin_three_half_zero": true
+    }
+  },
+  "fold_response": {
+    "alpha_from_cosmic_zeta_calibration": 1.8996876950554356,
+    "arithmetic_cutoff_N": 1000000,
+    "Euler_activity_definition": "r_p(N)=sum_(k=1)^K p^(-alpha*k)=x*(1-x^K)/(1-x), x=p^(-alpha), K=max integer with p^K<=N",
+    "chosen_kernel": "kappa*sqrt(r_up*r_down)*sum_i |up_prime>_i<down_prime| for vector; axial has sigma_z at that slot",
+    "status": "symmetric local Euler-factor amplitude is a declared WRRA kernel ansatz; calibration cannot uniquely select this ansatz",
+    "activity_3": 0.14162580829171015,
+    "activity_5": 0.04932717021703394,
+    "activity_product_3_5": 0.006986000352730204,
+    "calibrated_kappa": 12.200294834431162,
+    "anchor_rate_multiplier_kappa2_r3_r5": 1.0398465501155763,
+    "calibration": "one observed neutron mean life fixes kappa at the supplied masses, GF, Vud and axial ratio; kappa also absorbs omitted radiative, recoil and constitutive corrections"
+  },
+  "rate_bridge": {
+    "formula": "Gamma=kappa^2*r_up*r_down*GF^2*|Vud|^2*me^5/(2*pi^3*hbar)*(|v|^2+3|etaA*a|^2)*f_C(Q)*overlap^2",
+    "units": "GF converted to MeV^-2; c=1 for energy algebra; hbar in MeV*s restores inverse seconds",
+    "axial_dressing_etaA": 0.76518,
+    "bare_axial": 1.666666666666667,
+    "effective_axial": 1.2753,
+    "axial_sign_convention": "effective_axial is the positive magnitude; the signed observed lambda is used separately in V-A angular correlations",
+    "Q_anchor_MeV": 0.7823335593099138,
+    "phase_factor_no_Coulomb": 1.6360991820475685,
+    "phase_factor_Coulomb_approximation": 1.6916652367741625,
+    "Coulomb_model": "point-charge Sommerfeld/Fermi factor 2*pi*alpha*W/p divided by 1-exp(-2*pi*alpha*W/p); not full precision beta radiative/recoil theory",
+    "physical_kernel_before_fold_calibration_rate_per_s": 0.0010949337988371405,
+    "physical_kernel_before_fold_calibration_mean_life_s": 913.2972249665106,
+    "bare_SU6_axial_same_physical_kernel_mean_life_s": 575.2960599317797,
+    "calibrated_rate_per_s": 0.0011385631333257432,
+    "calibrated_mean_life_s": 878.2999999999997,
+    "local_log_rate_Q_elasticity": 3.943133031849044
+  },
+  "energy_cases": [
+    {
+      "Q_MeV": -1.80433146069,
+      "phase_factor": 0.0,
+      "rate_per_s": 0.0,
+      "mean_life_s": null,
+      "rate_relative_to_anchor": 0.0,
+      "context": "controlled same-kernel energy case, not identification of a real bound nucleus"
+    },
+    {
+      "Q_MeV": 0.0,
+      "phase_factor": 0.0,
+      "rate_per_s": 0.0,
+      "mean_life_s": null,
+      "rate_relative_to_anchor": 0.0,
+      "context": "controlled same-kernel energy case, not identification of a real bound nucleus"
+    },
+    {
+      "Q_MeV": 0.05,
+      "phase_factor": 7.365772512593781e-05,
+      "rate_per_s": 4.957480267960955e-08,
+      "mean_life_s": 20171537.675354313,
+      "rate_relative_to_anchor": 4.3541549193501055e-05,
+      "context": "controlled same-kernel energy case, not identification of a real bound nucleus"
+    },
+    {
+      "Q_MeV": 0.1,
+      "phase_factor": 0.0008390687413765858,
+      "rate_per_s": 5.64729187838096e-07,
+      "mean_life_s": 1770760.253827527,
+      "rate_relative_to_anchor": 0.0004960016456781995,
+      "context": "controlled same-kernel energy case, not identification of a real bound nucleus"
+    },
+    {
+      "Q_MeV": 0.25,
+      "phase_factor": 0.022547097708332166,
+      "rate_per_s": 1.5175162116089209e-05,
+      "mean_life_s": 65897.15433351231,
+      "rate_relative_to_anchor": 0.013328344886561148,
+      "context": "controlled same-kernel energy case, not identification of a real bound nucleus"
+    },
+    {
+      "Q_MeV": 0.5,
+      "phase_factor": 0.29866545977565123,
+      "rate_per_s": 0.00020101464184886825,
+      "mean_life_s": 4974.761991476444,
+      "rate_relative_to_anchor": 0.17655115993586093,
+      "context": "controlled same-kernel energy case, not identification of a real bound nucleus"
+    },
+    {
+      "Q_MeV": 0.7823335593099138,
+      "phase_factor": 1.6916652367741625,
+      "rate_per_s": 0.0011385631333257432,
+      "mean_life_s": 878.2999999999997,
+      "rate_relative_to_anchor": 1.0,
+      "context": "controlled same-kernel energy case, not identification of a real bound nucleus"
+    },
+    {
+      "Q_MeV": 1.0,
+      "phase_factor": 4.499215725514154,
+      "rate_per_s": 0.0030281648180689813,
+      "mean_life_s": 330.23301573052623,
+      "rate_relative_to_anchor": 2.6596371597099857,
+      "context": "controlled same-kernel energy case, not identification of a real bound nucleus"
+    },
+    {
+      "Q_MeV": 1.5,
+      "phase_factor": 23.746618134882752,
+      "rate_per_s": 0.01598249072085854,
+      "mean_life_s": 62.568470551020745,
+      "rate_relative_to_anchor": 14.037421600130052,
+      "context": "controlled same-kernel energy case, not identification of a real bound nucleus"
+    },
+    {
+      "Q_MeV": 2.0,
+      "phase_factor": 80.30637821382525,
+      "rate_per_s": 0.05404963087113524,
+      "mean_life_s": 18.501513958239478,
+      "rate_relative_to_anchor": 47.47179079411807,
+      "context": "controlled same-kernel energy case, not identification of a real bound nucleus"
+    },
+    {
+      "Q_MeV": 3.0,
+      "phase_factor": 471.9515504700148,
+      "rate_per_s": 0.31764360016391263,
+      "mean_life_s": 3.148182426732266,
+      "rate_relative_to_anchor": 278.9863740239644,
+      "context": "controlled same-kernel energy case, not identification of a real bound nucleus"
+    }
+  ],
+  "prime_label_cases": [
+    {
+      "up_prime": 3,
+      "down_prime": 5,
+      "proton_label": 45,
+      "neutron_label": 75,
+      "Euler_activity_product": 0.006986000352730204,
+      "rate_relative_to_anchor": 1.0,
+      "mean_life_s": 878.2999999999997,
+      "status": "controlled arithmetic-label case holding energy and supplied physical currents fixed; not a particle identification"
+    },
+    {
+      "up_prime": 3,
+      "down_prime": 7,
+      "proton_label": 63,
+      "neutron_label": 147,
+      "Euler_activity_product": 0.003602712158165466,
+      "rate_relative_to_anchor": 0.515704548562968,
+      "mean_life_s": 1703.106948440573,
+      "status": "controlled arithmetic-label case holding energy and supplied physical currents fixed; not a particle identification"
+    },
+    {
+      "up_prime": 5,
+      "down_prime": 7,
+      "proton_label": 175,
+      "neutron_label": 245,
+      "Euler_activity_product": 0.001254796692865249,
+      "rate_relative_to_anchor": 0.17961589314476067,
+      "mean_life_s": 4889.879089330572,
+      "status": "controlled arithmetic-label case holding energy and supplied physical currents fixed; not a particle identification"
+    },
+    {
+      "up_prime": 3,
+      "down_prime": 11,
+      "proton_label": 99,
+      "neutron_label": 363,
+      "Euler_activity_product": 0.0015045649277477223,
+      "rate_relative_to_anchor": 0.21536857311490426,
+      "mean_life_s": 4078.125175354186,
+      "status": "controlled arithmetic-label case holding energy and supplied physical currents fixed; not a particle identification"
+    },
+    {
+      "up_prime": 5,
+      "down_prime": 11,
+      "proton_label": 275,
+      "neutron_label": 605,
+      "Euler_activity_product": 0.0005240282910917402,
+      "rate_relative_to_anchor": 0.07501120306799643,
+      "mean_life_s": 11708.917655991134,
+      "status": "controlled arithmetic-label case holding energy and supplied physical currents fixed; not a particle identification"
+    }
+  ],
+  "axial_current_cases": [
+    {
+      "effective_axial": 0.0,
+      "mean_life_s": 5163.675248141,
+      "rate_relative_to_anchor": 0.1700920289896621
+    },
+    {
+      "effective_axial": 1.2753,
+      "mean_life_s": 878.2999999999997,
+      "rate_relative_to_anchor": 1.0
+    },
+    {
+      "effective_axial": 1.666666666666667,
+      "mean_life_s": 553.2509194436785,
+      "rate_relative_to_anchor": 1.5875256039035135
+    }
+  ],
+  "extra_overlap_cases": [
+    {
+      "additional_amplitude_overlap": 1.0,
+      "rate_per_s": 0.0011385631333257432,
+      "mean_life_s": 878.2999999999997
+    },
+    {
+      "additional_amplitude_overlap": 0.75,
+      "rate_per_s": 0.0006404417624957305,
+      "mean_life_s": 1561.422222222222
+    },
+    {
+      "additional_amplitude_overlap": 0.5,
+      "rate_per_s": 0.0002846407833314358,
+      "mean_life_s": 3513.199999999999
+    },
+    {
+      "additional_amplitude_overlap": 0.0,
+      "rate_per_s": 0.0,
+      "mean_life_s": null
+    }
+  ],
+  "leading_angular_correlations": {
+    "lambda_input": -1.2753,
+    "a_electron_antineutrino": -0.10654396134711715,
+    "A_electron_spin_asymmetry": -0.11943525153252624,
+    "B_antineutrino_spin_asymmetry": 0.9871087098145909,
+    "scope": "leading allowed V-A correlation outputs using observed signed lambda; not independent of the lambda input or its extraction data",
+    "central_value_comparison": [
+      {
+        "name": "a",
+        "calculated": -0.10654396134711715,
+        "PDG_2026_central": -0.1044,
+        "PDG_quoted_uncertainty": 0.0007,
+        "central_difference": -0.0021439613471171404
+      },
+      {
+        "name": "A",
+        "calculated": -0.11943525153252624,
+        "PDG_2026_central": -0.11958,
+        "PDG_quoted_uncertainty": 0.00021,
+        "central_difference": 0.00014474846747376813
+      },
+      {
+        "name": "B",
+        "calculated": 0.9871087098145909,
+        "PDG_2026_central": 0.9807,
+        "PDG_quoted_uncertainty": 0.003,
+        "central_difference": 0.006408709814590852
+      }
+    ],
+    "comparison_status": "No simultaneous refit to a,A,B performed; central differences are recorded, not a correlated goodness-of-fit statistic. Normalization kappa cannot change these leading ratios."
+  },
+  "electron_spectrum": {
+    "scope": "leading unpolarized electron kinetic spectrum with point-charge Coulomb factor, massless antineutrino and neglected proton recoil; normalized shape independent of lifetime anchor",
+    "endpoint_T_MeV": 0.7823335593099138,
+    "mean_T_MeV": 0.30144818325648176,
+    "median_T_MeV": 0.2897299865255425,
+    "mode_T_MeV": 0.24510934464016243,
+    "mean_antineutrino_energy_MeV": 0.480885376053432,
+    "samples": [
+      {
+        "T_MeV": 0.0,
+        "normalized_density_per_MeV": 0.12432391235151367,
+        "CDF": 0.0
+      },
+      {
+        "T_MeV": 0.1,
+        "normalized_density_per_MeV": 1.685194722556391,
+        "CDF": 0.11728001163604658
+      },
+      {
+        "T_MeV": 0.2,
+        "normalized_density_per_MeV": 2.0897236520496616,
+        "CDF": 0.31013417784973574
+      },
+      {
+        "T_MeV": 0.3,
+        "normalized_density_per_MeV": 2.076038270835895,
+        "CDF": 0.5214129615748695
+      },
+      {
+        "T_MeV": 0.4,
+        "normalized_density_per_MeV": 1.7516151052375164,
+        "CDF": 0.7149712270660298
+      },
+      {
+        "T_MeV": 0.5,
+        "normalized_density_per_MeV": 1.2247315745404304,
+        "CDF": 0.8649514266675662
+      },
+      {
+        "T_MeV": 0.6,
+        "normalized_density_per_MeV": 0.6343043353512229,
+        "CDF": 0.9577572216976461
+      },
+      {
+        "T_MeV": 0.7,
+        "normalized_density_per_MeV": 0.15681371379620448,
+        "CDF": 0.9955324189891747
+      },
+      {
+        "T_MeV": 0.7823335593099138,
+        "normalized_density_per_MeV": 0.0,
+        "CDF": 1.0
+      }
+    ]
+  },
+  "phase_integral_cross_checks": [
+    {
+      "Q_MeV": 0.01,
+      "Coulomb": false,
+      "adaptive": 2.2777600720597211e-07,
+      "Gaussian": 2.2777600720597047e-07,
+      "relative_difference": 7.205000892921867e-15
+    },
+    {
+      "Q_MeV": 0.01,
+      "Coulomb": true,
+      "adaptive": 2.922111576311553e-07,
+      "Gaussian": 2.9221115763115025e-07,
+      "relative_difference": 1.721104069089179e-14
+    },
+    {
+      "Q_MeV": 0.05,
+      "Coulomb": false,
+      "adaptive": 6.57441345018106e-05,
+      "Gaussian": 6.574413450180942e-05,
+      "relative_difference": 1.793422137978734e-14
+    },
+    {
+      "Q_MeV": 0.05,
+      "Coulomb": true,
+      "adaptive": 7.365772512593781e-05,
+      "Gaussian": 7.365772512593631e-05,
+      "relative_difference": 2.0423255154182095e-14
+    },
+    {
+      "Q_MeV": 0.25,
+      "Coulomb": false,
+      "adaptive": 0.021385279986878357,
+      "Gaussian": 0.021385279986877875,
+      "relative_difference": 2.2550704345112836e-14
+    },
+    {
+      "Q_MeV": 0.25,
+      "Coulomb": true,
+      "adaptive": 0.022547097708332166,
+      "Gaussian": 0.0225470977083317,
+      "relative_difference": 2.061932305327176e-14
+    },
+    {
+      "Q_MeV": 0.7823335593099138,
+      "Coulomb": false,
+      "adaptive": 1.6360991820475685,
+      "Gaussian": 1.6360991820475352,
+      "relative_difference": 2.0357378760541625e-14
+    },
+    {
+      "Q_MeV": 0.7823335593099138,
+      "Coulomb": true,
+      "adaptive": 1.6916652367741625,
+      "Gaussian": 1.6916652367741243,
+      "relative_difference": 2.257637694319067e-14
+    },
+    {
+      "Q_MeV": 1.0,
+      "Coulomb": false,
+      "adaptive": 4.362374666250159,
+      "Gaussian": 4.362374666250071,
+      "relative_difference": 2.015637589099966e-14
+    },
+    {
+      "Q_MeV": 1.0,
+      "Coulomb": true,
+      "adaptive": 4.499215725514154,
+      "Gaussian": 4.499215725514064,
+      "relative_difference": 1.9938146081995516e-14
+    },
+    {
+      "Q_MeV": 2.0,
+      "Coulomb": false,
+      "adaptive": 78.23068149992501,
+      "Gaussian": 78.23068149992343,
+      "relative_difference": 2.0163506736023187e-14
+    },
+    {
+      "Q_MeV": 2.0,
+      "Coulomb": true,
+      "adaptive": 80.30637821382525,
+      "Gaussian": 80.30637821382341,
+      "relative_difference": 2.300453779720098e-14
+    },
+    {
+      "Q_MeV": 3.0,
+      "Coulomb": false,
+      "adaptive": 460.4394805750226,
+      "Gaussian": 460.43948057501325,
+      "relative_difference": 2.037002582906248e-14
+    },
+    {
+      "Q_MeV": 3.0,
+      "Coulomb": true,
+      "adaptive": 471.9515504700148,
+      "Gaussian": 471.9515504700047,
+      "relative_difference": 2.143891369177031e-14
+    }
+  ],
+  "transport": {
+    "rows": [
+      {
+        "time_s": 0.0,
+        "neutron_survival": 1.0,
+        "daughter_bundle": 0.0,
+        "SOURCE": 0.0,
+        "trace": 1.0,
+        "minimum_eigenvalue": 0.0,
+        "energy_MeV": 939.56542194,
+        "charge_e": 0.0,
+        "baryon_number": 1.0
+      },
+      {
+        "time_s": 1.0,
+        "neutron_survival": 0.998862084783757,
+        "daughter_bundle": 0.0011379152162429562,
+        "SOURCE": 0.0,
+        "trace": 1.0,
+        "minimum_eigenvalue": 0.0,
+        "energy_MeV": 939.56542194,
+        "charge_e": 0.0,
+        "baryon_number": 1.0
+      },
+      {
+        "time_s": 100.0,
+        "neutron_survival": 0.89238617066573,
+        "daughter_bundle": 0.10761382933427002,
+        "SOURCE": 0.0,
+        "trace": 1.0,
+        "minimum_eigenvalue": 0.0,
+        "energy_MeV": 939.56542194,
+        "charge_e": 0.0,
+        "baryon_number": 1.0
+      },
+      {
+        "time_s": 878.3,
+        "neutron_survival": 0.3678794411714422,
+        "daughter_bundle": 0.6321205588285578,
+        "SOURCE": 0.0,
+        "trace": 1.0,
+        "minimum_eigenvalue": 0.0,
+        "energy_MeV": 939.56542194,
+        "charge_e": 0.0,
+        "baryon_number": 1.0
+      },
+      {
+        "time_s": 1000.0,
+        "neutron_survival": 0.3202788894156393,
+        "daughter_bundle": 0.6797211105843605,
+        "SOURCE": 0.0,
+        "trace": 0.9999999999999998,
+        "minimum_eigenvalue": 0.0,
+        "energy_MeV": 939.5654219399997,
+        "charge_e": 0.0,
+        "baryon_number": 0.9999999999999998
+      },
+      {
+        "time_s": 4391.5,
+        "neutron_survival": 0.006737946999085455,
+        "daughter_bundle": 0.993262053000913,
+        "SOURCE": 0.0,
+        "trace": 0.9999999999999984,
+        "minimum_eigenvalue": 0.0,
+        "energy_MeV": 939.5654219399985,
+        "charge_e": 0.0,
+        "baryon_number": 0.9999999999999984
+      }
+    ],
+    "K0": [
+      [
+        0.9994308804433436,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "K1": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.03373299892157464,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "description": "Markov coarse-grained beta channel after continuum integration; not fundamental time discretization or derivation of a QCD Hamiltonian",
+    "checks": {
+      "Kraus_trace_preserving": true,
+      "Kraus_equals_generator": true,
+      "trace_positive": true,
+      "survival_matches_rate_exponential": true,
+      "Actual_energy_preserved": true,
+      "SOURCE_return_zero": true,
+      "baryon_charge_preserved": true
+    }
+  },
+  "calibration_held_fixed_in_responses": "kappa, GF, Vud, axial dressing and cosmic alpha held fixed; only explicitly named Q, prime labels, axial override or additional overlap changes",
+  "next_constraints": [
+    "separate radiative/recoil correction from fold-response normalization",
+    "derive the axial dressing from a specified internal state or binding Hamiltonian",
+    "test a fixed constitutive mass kernel and transition against another measured particle without refitting per case",
+    "compare alternative arithmetic kernels at fixed calibration and common physical cases"
+  ],
+  "verification": {
+    "checks": {
+      "nucleon_states_normalized": true,
+      "spin_flavor_exchange_symmetric": true,
+      "color_exchange_antisymmetric": true,
+      "color_singlet_total_generators_zero": true,
+      "nucleon_total_spin_half": true,
+      "nucleon_isospin_half": true,
+      "spin_projection_half": true,
+      "proton_charge_one_neutron_zero": true,
+      "current_raises_charge_one": true,
+      "vector_current_preserves_total_spin": true,
+      "vector_matrix_element_one": true,
+      "bare_axial_matrix_element_five_thirds": true,
+      "vector_to_spin_three_half_zero": true,
+      "Kraus_trace_preserving": true,
+      "Kraus_equals_generator": true,
+      "trace_positive": true,
+      "survival_matches_rate_exponential": true,
+      "Actual_energy_preserved": true,
+      "SOURCE_return_zero": true,
+      "baryon_charge_preserved": true,
+      "phase_integrals_independently_agree": true,
+      "closed_channel_rate_zero": true,
+      "positive_Q_cases_have_positive_rates": true,
+      "calibrated_neutron_lifetime_returned": true,
+      "dressed_axial_matches_observed_magnitude": true,
+      "fold_labels_have_equal_three_factor_multiplicity": true,
+      "zero_overlap_blocks_channel": true,
+      "finite_Euler_family_sum": true,
+      "spectrum_mean_energies_sum_to_Q": true,
+      "spectrum_median_and_endpoint": true
+    },
+    "passed": 30,
+    "total": 30,
+    "all_passed": true
+  }
+}

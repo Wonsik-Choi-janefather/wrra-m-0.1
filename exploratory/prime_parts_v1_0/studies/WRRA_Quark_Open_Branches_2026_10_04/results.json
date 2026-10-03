@@ -1,0 +1,102 @@
+{
+  "color_singlet_norm": 1.0000000000000002,
+  "color_generator_residuals": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "rows": [
+    {
+      "rule": "small_first",
+      "withheld_component_fraction": 0,
+      "proton": 0.8706648418989456,
+      "neutron": 0.1293351581010545,
+      "electron": 0.8706648418989456,
+      "valence_u": 1.8706648418989456,
+      "valence_d": 1.1293351581010547,
+      "valence_u_per_d": 1.6564301823777592,
+      "neutrino_photon_unresolved_branch": 0,
+      "net_charge": 0.0
+    },
+    {
+      "rule": "small_first",
+      "withheld_component_fraction": 0.05,
+      "proton": 0.8271315998039982,
+      "neutron": 0.12286840019600177,
+      "electron": 0.8271315998039982,
+      "valence_u": 1.7771315998039983,
+      "valence_d": 1.0728684001960018,
+      "valence_u_per_d": 1.6564301823777594,
+      "neutrino_photon_unresolved_branch": 0.05,
+      "net_charge": 1.1102230246251565e-16
+    },
+    {
+      "rule": "small_first",
+      "withheld_component_fraction": 0.2,
+      "proton": 0.6965318735191565,
+      "neutron": 0.10346812648084361,
+      "electron": 0.6965318735191565,
+      "valence_u": 1.4965318735191566,
+      "valence_d": 0.9034681264808437,
+      "valence_u_per_d": 1.6564301823777594,
+      "neutrino_photon_unresolved_branch": 0.2,
+      "net_charge": 0.0
+    },
+    {
+      "rule": "large_first",
+      "withheld_component_fraction": 0,
+      "proton": 0.8729025825970854,
+      "neutron": 0.12709741740291458,
+      "electron": 0.8729025825970854,
+      "valence_u": 1.8729025825970855,
+      "valence_d": 1.1270974174029145,
+      "valence_u_per_d": 1.6617042623632956,
+      "neutrino_photon_unresolved_branch": 0,
+      "net_charge": 1.1102230246251565e-16
+    },
+    {
+      "rule": "large_first",
+      "withheld_component_fraction": 0.05,
+      "proton": 0.8292574534672311,
+      "neutron": 0.12074254653276885,
+      "electron": 0.8292574534672311,
+      "valence_u": 1.7792574534672312,
+      "valence_d": 1.070742546532769,
+      "valence_u_per_d": 1.6617042623632954,
+      "neutrino_photon_unresolved_branch": 0.05,
+      "net_charge": 1.1102230246251565e-16
+    },
+    {
+      "rule": "large_first",
+      "withheld_component_fraction": 0.2,
+      "proton": 0.6983220660776683,
+      "neutron": 0.10167793392233167,
+      "electron": 0.6983220660776683,
+      "valence_u": 1.4983220660776684,
+      "valence_d": 0.9016779339223316,
+      "valence_u_per_d": 1.6617042623632954,
+      "neutrino_photon_unresolved_branch": 0.2,
+      "net_charge": 0.0
+    }
+  ],
+  "beta_transition_Q_MeV": 0.7823335593099138,
+  "beta_decay_scope": "charge and calibrated rest-energy difference only; rate, weak amplitude, neutrino spectrum not computed",
+  "all_information_assigned_to_pne": false,
+  "withheld_scope": "0/5/20% hypothetical component routing fractions, NOT cosmic measured energy fractions or a fitted neutrino abundance",
+  "non_baryonic_outputs": [
+    "neutrino and antineutrino",
+    "photon",
+    "unresolved state/residue"
+  ],
+  "CMB_candidate_condition": "photon spectral occupation must match blackbody around 2.72548K; residue amount alone insufficient",
+  "CMB_source": "https://lambda.gsfc.nasa.gov/resources/lambda_graphics/cmb_monopole.html",
+  "CMB_energy_fraction_reference": 5.38e-05,
+  "CMB_fraction_scope": "external present-day critical-density fraction; not included silently in baryon 5%",
+  "quark_scope": "valence bookkeeping and color singlet tested; sea/gluons, full spin-flavor wavefunction, confinement and binding Hamiltonian not calculated",
+  "status": "lower-level structural test, not complete nucleon assembly"
+}

@@ -1,0 +1,60 @@
+{
+  "total_variation": 0.20476801178539025,
+  "tails": {
+    "small_first": {
+      "residue1_weight": 0.16917790543440941,
+      "expected_parts": 15.969610885664865
+    },
+    "large_first": {
+      "residue1_weight": 0.162073450667177,
+      "expected_parts": 11.427223219940428
+    }
+  },
+  "first5": [
+    {
+      "prime_label": 2,
+      "small_first_number_percent": 20.615063736708812,
+      "small_first_address_value_percent": 2.7716051269051762,
+      "large_first_number_percent": 11.619997323795287,
+      "large_first_address_value_percent": 1.1178565895256272,
+      "small_repeat_avoid1_number_percent": 99.15516119941555,
+      "small_repeat_avoid1_address_value_percent": 98.73807242601347
+    },
+    {
+      "prime_label": 3,
+      "small_first_number_percent": 13.654622493230518,
+      "small_first_address_value_percent": 2.753706381280955,
+      "large_first_number_percent": 6.632792965928748,
+      "large_first_address_value_percent": 0.9571230247281557,
+      "small_repeat_avoid1_number_percent": 0.8448388005844526,
+      "small_repeat_avoid1_address_value_percent": 1.2619275739865228
+    },
+    {
+      "prime_label": 5,
+      "small_first_number_percent": 9.200075850626789,
+      "small_first_address_value_percent": 3.092274867686707,
+      "large_first_number_percent": 5.402729951260783,
+      "large_first_address_value_percent": 1.2993714863162598,
+      "small_repeat_avoid1_number_percent": 0.0,
+      "small_repeat_avoid1_address_value_percent": 0.0
+    },
+    {
+      "prime_label": 7,
+      "small_first_number_percent": 7.36639289333318,
+      "small_first_address_value_percent": 3.466327535898692,
+      "large_first_number_percent": 8.725859803986449,
+      "large_first_address_value_percent": 2.938030761346166,
+      "small_repeat_avoid1_number_percent": 0.0,
+      "small_repeat_avoid1_address_value_percent": 0.0
+    },
+    {
+      "prime_label": 11,
+      "small_first_number_percent": 5.966455338056122,
+      "small_first_address_value_percent": 4.411900990744133,
+      "large_first_number_percent": 5.3038959990984,
+      "large_first_address_value_percent": 2.806323624821487,
+      "small_repeat_avoid1_number_percent": 0.0,
+      "small_repeat_avoid1_address_value_percent": 0.0
+    }
+  ]
+}

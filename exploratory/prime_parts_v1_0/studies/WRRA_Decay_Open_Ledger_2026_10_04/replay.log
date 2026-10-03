@@ -1,0 +1,60 @@
+{
+  "Qpp": 154.15752056999995,
+  "Qminus": 152.86418806000003,
+  "examples": [
+    {
+      "initial_Delta_pp": 0,
+      "initial_p": 7,
+      "initial_n": 1,
+      "initial_Delta_minus": 0,
+      "after_resonances_p": 7,
+      "after_resonances_n": 1,
+      "electrons": 7,
+      "positrons": 0,
+      "chain_neutrinos_antineutrinos": 0,
+      "annihilation_photons_count": 0,
+      "initial_rest_MeV": 7511.047040604831,
+      "final_rest_MeV": 7511.047040604831,
+      "nonrest_energy_budget_MeV": 0.0,
+      "free_late_p": 8,
+      "free_late_e": 8,
+      "free_late_neutrino_count": 1
+    },
+    {
+      "initial_Delta_pp": 1,
+      "initial_p": 5,
+      "initial_n": 2,
+      "initial_Delta_minus": 0,
+      "after_resonances_p": 6,
+      "after_resonances_n": 2,
+      "electrons": 6,
+      "positrons": 0,
+      "chain_neutrinos_antineutrinos": 3,
+      "annihilation_photons_count": 2,
+      "initial_rest_MeV": 7806.06828368483,
+      "final_rest_MeV": 7511.82937416414,
+      "nonrest_energy_budget_MeV": 294.23890952068996,
+      "free_late_p": 8,
+      "free_late_e": 8,
+      "free_late_neutrino_count": 5
+    },
+    {
+      "initial_Delta_pp": 1,
+      "initial_p": 6,
+      "initial_n": 0,
+      "initial_Delta_minus": 1,
+      "after_resonances_p": 7,
+      "after_resonances_n": 1,
+      "electrons": 7,
+      "positrons": 0,
+      "chain_neutrinos_antineutrinos": 6,
+      "annihilation_photons_count": 2,
+      "initial_rest_MeV": 8097.20952923483,
+      "final_rest_MeV": 7511.047040604831,
+      "nonrest_energy_budget_MeV": 586.1624886299996,
+      "free_late_p": 8,
+      "free_late_e": 8,
+      "free_late_neutrino_count": 7
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "N": 1000000,
+  "addresses": 421502,
+  "phenotype_weight": 0.05000000000000001,
+  "matching_status": "NEW DECLARED CANDIDATE; not existing filter confusion decoder",
+  "lower_rule_max_pair_count": 56,
+  "lower_rule_mean_pair_count_unweighted": 5.646025404387168,
+  "lower_rule_weighted_pair_count_conditional": 1.3110671162836594,
+  "nearest_rule_max_pair_count": 28,
+  "nearest_rule_weighted_pair_count_conditional": 1.0712895519998595,
+  "addresses_with_different_reference": 194071,
+  "addresses_with_different_pair_count": 194071,
+  "lower_rule_weight_fraction_one_pair": 0.7988191351967856,
+  "arithmetic_and_neutral_pair_checks": "PASS on all addresses",
+  "energy_check": "UNDETERMINED: L(n), reference output and pair energy map missing",
+  "unit_pair_law": "k=abs(n-p)/2, declared convention, not derived physical multiplicity",
+  "particle_assignment": "charge +/- template only; proton/electron assignment needs mass, baryon/lepton and binding ledger",
+  "negative_residual": "nearest rule may yield negative delta; never negative energy or negative count",
+  "reference_component": "p is a numerical template label; not assumed emitted prime particle",
+  "conclusion": "Arithmetic neutral-pair rendering is constructible. Reference and count-law sensitivity prevent unique physical decoder."
+}

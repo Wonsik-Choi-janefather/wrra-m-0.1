@@ -1,0 +1,32 @@
+{
+  "status": "conditional_charge_feasibility_pass",
+  "input_channel_sha256": "575576c29eba6b508ebf61b8590476b42782a8bb0c0d172a3d17e903e0b5779a",
+  "channel_count": 16,
+  "preexisting_core_channels": 15,
+  "additional_neutral_channel": 1,
+  "odd_composite_addresses": 421502,
+  "phenotype_weight": 0.05000000000000001,
+  "neutral_bag_counts_by_occupation_size": {
+    "1": 2,
+    "2": 22,
+    "3": 96,
+    "4": 398
+  },
+  "motif_charges": {
+    "proton_electron": "0",
+    "neutron": "0",
+    "electron_conjugate_pair": "0",
+    "neutral_channel": "0"
+  },
+  "witness_A": "every admitted address -> one declared uud+electron motif",
+  "witness_B": "every admitted address -> one declared udd motif",
+  "witness_both_preserve_input_weights": true,
+  "witness_both_zero_charge": true,
+  "witness_A_proton_electron_equal_counts": true,
+  "rendering_law_unique": false,
+  "mass_energy_conservation_test": "NOT EVALUABLE: no upstream per-address SI load to output energy map",
+  "forces_spin_binding_generations": "NOT DERIVED by charge neutrality or channel count",
+  "prime_factorization_used_for_rendering": false,
+  "before_click_decomposition": false,
+  "interpretation": "Compatibility demonstration only. Motifs and probabilities are declared; no physical particle production or abundance prediction."
+}
