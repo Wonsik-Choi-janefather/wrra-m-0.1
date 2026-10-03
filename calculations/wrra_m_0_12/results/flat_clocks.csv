@@ -1,0 +1,5 @@
+name,beta_local,phi_over_c2,lapse,coordinate_s,proper_s,tick_coordinate,complete_ticks,residual_tick_fraction,coherent_overlap,scope
+flat_beta_0,0,0,1.0,9.480332585061563e-20,9.480332585061563e-20,64.0,64,0.0,0.0008526121026234629,generic equal fold-mode pair with gap mu_E; no physical outcome record
+flat_beta_0.6,0.6,0,0.8,9.480332585061563e-20,7.58426606804925e-20,51.2,51,0.20000000000000284,0.08220561143429607,generic equal fold-mode pair with gap mu_E; no physical outcome record
+flat_beta_0.8,0.8,0,0.5999999999999999,9.480332585061563e-20,5.688199551036936e-20,38.39999999999999,38,0.3999999999999915,0.32892517442455105,generic equal fold-mode pair with gap mu_E; no physical outcome record
+flat_beta_1.0,1.0,0,0.0,9.480332585061563e-20,0.0,,,,,null path: no rest-clock update; not frozen photon propagation

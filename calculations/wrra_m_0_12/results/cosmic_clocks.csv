@@ -1,0 +1,7 @@
+a_start,a_end,beta_peculiar,coordinate_interval_H0_t,proper_interval_s,tick_count_order,scope
+0.5,1.0,0.0,0.5482395591905475,2.509926583206204e+17,1.6944057593329036e+38,"uniform reference FRW clock; tick estimate inherits floating-point and input precision, not an exact giant integer"
+0.5,1.0,0.6,0.5482395591905475,2.0079412665649635e+17,1.355524607466323e+38,"uniform reference FRW clock; tick estimate inherits floating-point and input precision, not an exact giant integer"
+1.0,2.0,0.0,0.7688360688580811,3.5198519607082106e+17,2.3761880025210384e+38,"uniform reference FRW clock; tick estimate inherits floating-point and input precision, not an exact giant integer"
+1.0,2.0,0.6,0.7688360688580811,2.8158815685665686e+17,1.900950402016831e+38,"uniform reference FRW clock; tick estimate inherits floating-point and input precision, not an exact giant integer"
+0.5,2.0,0.0,1.3170756280486287,6.029778543914415e+17,4.0705937618539426e+38,"uniform reference FRW clock; tick estimate inherits floating-point and input precision, not an exact giant integer"
+0.5,2.0,0.6,1.3170756280486287,4.823822835131533e+17,3.2564750094831543e+38,"uniform reference FRW clock; tick estimate inherits floating-point and input precision, not an exact giant integer"

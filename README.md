@@ -75,7 +75,7 @@ N·전자기 상수 입력 전달, 제타 부록 생성 경로 및 후보 집계
 
 **원식 현실 렌더러 아키텍처 메타차원 연구 분기**
 
-Latest completed downstream version: **WRRA-M 0.11** · 2026-10-02
+Latest completed downstream version: **WRRA-M 0.12** · 2026-10-03
 
 Reviewed predecessor: **WRRA-M 0.9-r1**.
 
@@ -131,6 +131,32 @@ The finite Euler-family Hamiltonian replaces the earlier scalar axial dressing w
 - [계산 안내와 재현](upstream/internal_mixing_v0_3/README.md)
 - [한국어 PDF 7쪽](upstream/internal_mixing_v0_3/paper/WRRA_M_Internal_Fold_Mixing_Shared_Currents_v0_3_KO_2026_10_02.pdf) · [Word](upstream/internal_mixing_v0_3/paper/WRRA_M_Internal_Fold_Mixing_Shared_Currents_v0_3_KO_2026_10_02.docx) · [원고](upstream/internal_mixing_v0_3/manuscript_KO.md)
 - [전체 재현 ZIP](upstream/internal_mixing_v0_3/paper/WRRA_M_Internal_Fold_Mixing_Shared_Currents_v0_3_Reproducibility_2026_10_02.zip) · [계산](upstream/internal_mixing_v0_3/code/compute.py) · [결과 장부](upstream/internal_mixing_v0_3/code/results.json)
+
+## Completed 0.12 · 0.12 완료
+
+0.11의 고정 보정 위에서 **경로별 고유시간 갱신과 유한 경계의 모드 스펙트럼**을 실행했다. epsilon=0.05를 공개한 구성 입력으로 두어 **delta_tau=1.4813019664158691e-21 s**를 계산했다. 평탄·가속·유한 중력·균질 FRW 시계, 접힘과 periodic·Dirichlet 공간 스펙트럼, 자유 연속 분산 및 정수 위상 가지를 대조했다. 이 간격은 측정한 최소시간으로 확정하지 않는다.
+
+The same fixed-volume SI energy operator now evolves with converted proper-time phases and conserves its energy. **The old slow expansion schedule fails identification with that SI clock:** omega_info/(E_star/hbar)=2.102556972196466e-43. Historical nonuniform trajectories remain constitutive-schedule outputs; fully covariant interacting dynamics and empirical shutter/confinement selection remain open.
+
+**36 new checks + 60 inherited checks pass.** Both six-page editions contain matching 18 native equations and five tables with 21 computed body rows. A clean copy with captured results removed reproduces 35 numerical/source files byte for byte. Realized operators and supports are finite.
+
+| Evaluation | WRRA_M 0.12 |
+| --- | --- |
+| 검증 입력 / Verification inputs | Frozen 0.11 inputs and exact SI units; declared epsilon, finite basis, boundary phases and cavity length. |
+| WRRA 고유 변환 / WRRA-specific transformation | Worldline proper-time integral → update events; finite modes/boundaries → Hamiltonian → unitary eigenphases; inherited SI ledger → exact time conversion. |
+| 산출값 / Outputs | Path clocks and 57 accelerated-worldline events, fold and spatial spectra, continuous free dispersion, alias controls, conserving fixed-volume load exchange and inherited-clock failure. |
+| 반증조건 / Falsifiers | Lorentz disagreement, energy/phase mismatch, missing integer branch, failed conservation or unconverted identification of the slow schedule with the SI Hamiltonian phase. |
+
+- [0.12 한국어 PDF](paper/WRRA_M_0_12_KO.pdf) · [Word](paper/WRRA_M_0_12_KO.docx) · [원고](paper/WRRA_M_0_12_KO.md)
+- [0.12 English PDF](paper/WRRA_M_0_12_EN.pdf) · [Word](paper/WRRA_M_0_12_EN.docx) · [Source](paper/WRRA_M_0_12_EN.md)
+- [Reproducibility ZIP](paper/WRRA_M_0_12_Reproducibility.zip) · [Calculation guide](calculations/wrra_m_0_12/README.md)
+- [Verification](calculations/wrra_m_0_12/results/verification.json) · [Document checks](calculations/wrra_m_0_12/results/document_checks.json) · [Clean-copy replay](calculations/wrra_m_0_12/results/reproduction_checks.json)
+- [Completion record](REVISION_0_12.md) · [SHA256 manifest](SHA256SUMS_0_12)
+
+```bash
+python -m pip install -r calculations/wrra_m_0_12/requirements.txt
+python calculations/wrra_m_0_12/run_release.py
+```
 
 ## Completed 0.11 · 0.11 완료
 

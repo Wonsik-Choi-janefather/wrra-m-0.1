@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this component as WRRA-M 0.12."
+type: software
+title: "WRRA-M 0.12 Proper-Time Updates and Mode Spectra under Finite Boundaries"
+authors:
+  - family-names: Choi
+    given-names: Wonsik
+    orcid: "https://orcid.org/0009-0001-4263-9772"
+version: "0.12"
+date-released: "2026-10-03"
+license: CC-BY-4.0
+repository-code: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1"
+url: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/tree/main/calculations/wrra_m_0_12"
