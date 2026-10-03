@@ -1,5 +1,11 @@
 # WRRA-M Research Notes
 
+## Upstream 0.8-r1 · finite shutter and microscopic record contract
+
+상류 0.7의 백만 주소 SOURCE·필터 상태에서 분기 norm과 조건부 기록을 실행했습니다. **28개 주소 연결 검사 + 403개 셔터 감사 검사**, 새 복사본의 바이트 동일 재현을 완료했습니다. 물리 시간 환산·기록 매체·입자 사상은 전달 장부에 열린 항목으로 남깁니다.
+
+[한국어 설명](upstream/shutter_v0_8/README.md) · [English](upstream/shutter_v0_8/README_EN.md) · [재현 코드](upstream/shutter_v0_8/reproduce_all.py) · [0.9 전달 명세](upstream/shutter_v0_8/handoff.json)
+
 ## Downstream endpoint correction · 하류 마감 범위 정정 · 2026-10-03
 
 **하류 개발은 0.12에서 마감한다. WRRA_M 1.0은 0.1~0.12 통합 확정판이다.**
