@@ -1,8 +1,8 @@
 {
-  "title": "WRRA-M 0.9: Reviewed Information Ledger, Filter Selection and Upstream Accounting",
+  "title": "WRRA-M 0.12: Reviewed SI Energy and Pressure, Sequential Calibration and Proper-Time Mode Spectra",
   "upload_type": "publication",
   "publication_type": "preprint",
-  "description": "<p>Reviewed 0.7–0.9 series: positive energy-weighted Actual accounting, calibrated four-filter selection and exact charges, and the common upstream arithmetic ledger. The adopted arithmetic reference reproduces 5%, 26.8% and 68.2%, with resident Actual 31.8% and complete accounted weight 100%. Physical energy fractions .0493/.265/.6857 remain separately calibrated. Address-to-SI energy and pressure mapping belongs to 0.10; physical quantization and records belong to 0.13.</p><p>Revision r1 retains tiny positive loads, normalizes accepted trace roundoff, stabilizes selection from tiny positive winner support, and accumulates sparse channel budgets without cancellation. All 69 check groups pass: 19 in 0.7, 23 in 0.8 and 27 in 0.9. Revised Korean and English manuscripts, code, calculated tables, input hashes and clean-copy reproduction packages are included. WRRA Core 1.0 and MCC 2.3.2 are retained.</p><p>0.7~0.9를 재검토하고 수치 경계 처리와 한영 문서의 일정을 교정했다. 산술 구성비와 물리 에너지 구성비, 잔존 Actual과 전체 장부, 계산 기록과 물리 관측 기록을 구분한다. 보정된 모형의 재현 성과와 이후 미측정 출력의 예측을 구분한다.</p>",
+  "description": "<p>Reviewed 0.10–0.12 series includes all three English and Korean papers. Frozen address/carrier inputs map to one SI energy and volume-derived pressure function. Five-anchor sequential calibration supplies the electron mass unit; worldline proper-time updates and finite boundary spectra are calculated. All 96 component check groups pass with unchanged inputs and numerical results.</p><p>The old slow expansion clock fails identification with the SI energy phase at frequency ratio 2.10e-43. This failure is retained in 0.10, 0.11 and 0.12. The shutter interval is a disclosed construction choice, not a measured minimum. Physical observation outcomes and records remain 0.13. Conservation, pressure differentiation, anchor isolation, Lorentz invariance and boundary/phase-branch consistency are falsifiers. Calibration and reproduction are legitimate achievements, with no requirement for numerical novelty or a unique universe solution.</p>",
   "creators": [
     {
       "name": "Choi, Wonsik",
@@ -12,7 +12,7 @@
   ],
   "access_right": "open",
   "license": "cc-by-4.0",
-  "language": "kor",
+  "language": "eng",
   "keywords": [
     "WRRA",
     "Wonsik Reality Renderer Architecture",
@@ -27,9 +27,13 @@
     "information load",
     "homogeneous action",
     "energy conservation",
-    "expansion"
+    "expansion",
+    "proper time",
+    "finite spectra",
+    "sequential calibration",
+    "pressure"
   ],
-  "version": "0.9-r1",
-  "doi": "10.5281/zenodo.23091892",
-  "publication_date": "2026-10-02"
+  "version": "0.12-r1",
+  "doi": "10.5281/zenodo.23113101",
+  "publication_date": "2026-10-03"
 }

@@ -4,7 +4,7 @@ Sector exchange gravity and expansion calculated from one energy functional
 
 최원식 Wonsik Choi
 
-2026-10-02 · WRRA-M 0.10
+2026-10-03 · WRRA-M 0.10-r1
 
 Independent Researcher Seoul Republic of Korea
 
@@ -97,15 +97,17 @@ The reference adopts nu_phi=nu_D=0 and nu_R=3. Fixed comoving phenotype and D en
 
 ## State evolution and expansion from the same operator
 
-At fixed volume, the energy operator divided by E_star=ucrit V0 generates updates in dimensionless clock coordinate tau. This inherits a constitutive clock and does not replace the later shutter-to-proper-time calculation. Noncommuting Kc and Kb transfer energy between D and R, with zero total internal exchange.
+At fixed volume, the energy operator divided by E_star=ucrit V0 generates updates in dimensionless clock coordinate xi. This inherits a constitutive clock and does not replace the later shutter-to-proper-time calculation. Noncommuting Kc and Kb transfer energy between D and R, with zero total internal exchange.
 
 
 $$
-\begin{aligned}U(\tau)&=e^{-i\tau\widehat E/E_*},\quad \rho(\tau)=U\rho_0U^\dagger,\\\frac{d\rho}{d\tau}&=-i[\widehat E/E_*,\rho],\quad \operatorname{Tr}\!\left(\widehat E\frac{d\rho}{d\tau}\right)=0.\end{aligned} \tag{8}
+\begin{aligned}U(\xi)&=e^{-i\xi\widehat E/E_*},\quad \rho(\xi)=U\rho_0U^\dagger,\\\frac{d\rho}{d\xi}&=-i[\widehat E/E_*,\rho],\quad \operatorname{Tr}\!\left(\widehat E\frac{d\rho}{d\xi}\right)=0.\end{aligned} \tag{8}
 $$
 
 
-The expansion test integrates the same generator against log a and calculates H from energy density. Pressure is the same volume derivative. At fixed address configuration, cancellation of state exchange gives the continuity relation. The homogeneous flat background and local lens condition retain the scope of the inherited implementation.
+The expansion test integrates the normalized energy generator against log a using the slow constitutive schedule dxi/dt=omega_info, and calculates H from energy density. Pressure is the same volume derivative. At fixed address configuration, cancellation of state exchange gives the continuity relation. The homogeneous flat background and local lens condition retain the scope of the inherited implementation.
+
+Revision r1 incorporates the clock comparison executed in 0.12. At fixed volume xi=E_star tau_phys/hbar gives exactly the same SI energy phase. However, the expansion schedule omega_info=0.7H0 is about 2.10×10⁻⁴³ of E_star/hbar. The old nonuniform histories remain outputs of a slow constitutive schedule and are not identified with physical proper-time evolution of the SI Hamiltonian. Expansion of the uniform I/N state and energy, pressure and local-gravity reproduction are retained.
 
 
 $$
@@ -170,6 +172,8 @@ python calculations/wrra_m_0_10/run_release.py
 ```
 
 Parameters.json is the full configuration input and embeds the 0.9 input. Results.json and verification.json record calculation and falsification checks. CSV files contain address energy samples, state-volume results and frame exchange accounts. Run_release.py executes checks and generates both Markdown manuscripts. Word and PDF editions are final publications built from the same sources and are distinguished from raw execution outputs.
+
+Reviewed 0.10 to 0.12 series DOI 10.5281/zenodo.23113101 · https://doi.org/10.5281/zenodo.23113101
 
 Input SHA256 8342c02c3d872994b13c54c9512d6e7440a45e7ef9602cb1ac4ebe34eddb540f
 

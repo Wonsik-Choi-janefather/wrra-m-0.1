@@ -1,5 +1,16 @@
 # WRRA-M Research Notes
 
+## Current downstream reviewed 0.10 to 0.12 series r1 · 2026-10-03
+
+주소·공통운반자 부하의 SI 에너지·압력 연결, 첫 다섯 입력의 순차 보정, 고유시간 갱신과 유한 경계 스펙트럼을 재검토했습니다. 입력 해시와 기존 계산값을 유지하며 **96개 구성 검사**가 통과했습니다. 시계 환산의 범위를 앞선 원고에 반영하고, 시작점을 포함한 사건 수와 두 모드 overlap의 적용 상태를 교정했습니다. 양의 유한 간격 오차 한계를 검증했습니다.
+
+**English PDF and Word editions of all three papers are included**, together with their Korean counterparts and reproducible code. The old slow nonuniform expansion schedule differs from the SI energy phase; that connection remains open.
+
+- [Six papers and calculation guide](review/0_10_to_0_12_r1/README.md)
+- [Review and corrections](REVISION_0_10_TO_0_12_R1.md) · [Review checks](review/0_10_to_0_12_r1/review_checks.json)
+- [Complete reviewed series ZIP](paper/WRRA_M_0_12_r1_Series_Release.zip)
+- [Zenodo DOI 10.5281/zenodo.23113101](https://doi.org/10.5281/zenodo.23113101)
+
 ## Current upstream 0.7 · SOURCE와 두 단계 필터의 생성 장부 · 2026-10-03
 
 소수 SOURCE 진폭을 관계 주소와 순서 있는 양성 필터에 연결했습니다.
@@ -88,11 +99,11 @@ N·전자기 상수 입력 전달, 제타 부록 생성 경로 및 후보 집계
 
 **원식 현실 렌더러 아키텍처 메타차원 연구 분기**
 
-Latest completed downstream version: **WRRA-M 0.12** · 2026-10-03
+Latest completed downstream version: **WRRA-M 0.12-r1** · 2026-10-03
 
 Reviewed predecessor: **WRRA-M 0.9-r1**.
 
-Latest Zenodo archive: **WRRA-M 0.9-r1**, reviewed 0.7–0.9 series, [DOI 10.5281/zenodo.23091892](https://doi.org/10.5281/zenodo.23091892).
+Latest Zenodo archive: **WRRA-M 0.12-r1**, reviewed 0.10–0.12 series, [DOI 10.5281/zenodo.23113101](https://doi.org/10.5281/zenodo.23113101).
 
 WRRA-M continues WRRA Core 1.0 and Minimal Computation Cosmology 2.3.2.
 
@@ -465,6 +476,5 @@ Citation metadata is provided in [`CITATION.cff`](CITATION.cff). The papers and 
 The 0.5 titles and claim ledger now foreground information load and twist gravity. Its local calculation uses 26.5% of the whole universe within the hidden total of 95.07%. The zero-phenotype input executes with undefined ratios recorded as null; the radius response ratio is evaluated numerically. The original scientific outputs reproduce unchanged.
 
 [0.6 start, Korean](calculations/wrra_m_0_6_start/README_KO.md) · [0.6 start, English](calculations/wrra_m_0_6_start/README_EN.md) · [Start reproducibility archive](calculations/wrra_m_0_6_start/WRRA_M_0_6_Start_Reproducibility.zip). These files preserve the initial prototype. The completed finite homogeneous model and bilingual paper are provided above.
-
 
 

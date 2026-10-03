@@ -87,9 +87,13 @@ def main():
     check('same_SI_energy_operator_has_actual_internal_exchange',change>1e-4,{'D_load_range':change,'energy_operator_replaced':False})
     lc=r['legacy_clock_comparison']
     check('old_slow_expansion_clock_is_not_silently_identified_with_SI_phase',lc['old_expansion_clock_is_physical_SI_phase'] is False and close(lc['old_frequency_over_SI_frequency'],u['hbar_J_s']*p['information_clock_over_H0']*o['H0_s_minus1']/E0) and lc['old_frequency_over_SI_frequency']<1e-40,lc)
-    errors=[];A=H/u['mu_E_eV']
-    for step in (.001,.0005,.00025):errors.append(float(np.linalg.norm((expm(-1j*step*A)-np.eye(N))/step+1j*A)/np.linalg.norm(A)))
-    check('small_step_update_converges_to_the_same_generator',all(1.99<a/z<2.01 for a,z in zip(errors,errors[1:])),{'generator_relative_errors':errors})
+    errors=[];bounds=[];A=H/u['mu_E_eV'];Anorm=np.linalg.norm(A,2)
+    for step in (.001,.0005,.00025):
+        difference=1j*(expm(-1j*step*A)-np.eye(N))/step-A
+        errors.append(float(np.linalg.norm(difference)/np.linalg.norm(A)))
+        bounds.append({'step':step,'operator_norm_error':float(np.linalg.norm(difference,2)),
+                       'finite_step_bound':float(step*Anorm**2/2)})
+    check('small_step_update_converges_to_the_same_generator',all(1.99<a/z<2.01 for a,z in zip(errors,errors[1:])) and all(x['operator_norm_error']<=x['finite_step_bound']*(1+1e-10) for x in bounds),{'generator_relative_errors':errors,'finite_positive_step_bounds':bounds})
     j22=int(np.flatnonzero(n==22)[0]);j23=int(np.flatnonzero(n==23)[0]);psi=(F[:,j22]+F[:,j23])/math.sqrt(2);overlap_errors=[]
     for x in flat[:3]:
         tau=x['proper_s']

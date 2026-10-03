@@ -1,3 +1,9 @@
+# Reviewed 0.10 r1
+
+2026-10-03 · [Reviewed series DOI](https://doi.org/10.5281/zenodo.23113101) · [Corrections](../../REVISION_0_10_TO_0_12_R1.md)
+
+The parameter hash and calculated outputs are preserved. The old slow nonuniform expansion schedule is distinct from the SI Hamiltonian phase; its clock mismatch remains open. Both English and Korean papers are corrected.
+
 # WRRA M 0 10 Physical energy and pressure
 
 0.9-r1 address effects now feed a positive SI energy operator. Pressure is the

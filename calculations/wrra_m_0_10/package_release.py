@@ -61,8 +61,8 @@ def run():
         for name in ('LICENSE', 'REVISION_0_10.md'):
             shutil.copyfile(REPO/name, stage/name)
         (stage/'README.md').write_text(
-            '# WRRA-M 0.10 reproducibility package\n\n'
-            'Wonsik Choi · 2026-10-02 · CC BY 4.0\n\n'
+            '# WRRA-M 0.10-r1 reproducibility package\n\n'
+            'Wonsik Choi · 2026-10-03 · CC BY 4.0\n\n'
             'Address information load → physical energy and volume-derived pressure. '
             'The frozen calibration reproduces q=-0.52855, v=207.5109051266 km/s '
             'and conditional deflection=0.5355865106 arcsec.\n\n'

@@ -4,7 +4,7 @@
 
 최원식 Wonsik Choi
 
-2026-10-02 · WRRA-M 0.10
+2026-10-03 · WRRA-M 0.10-r1
 
 Independent Researcher Seoul Republic of Korea
 
@@ -97,15 +97,17 @@ $$
 
 ## 같은 연산자의 상태 변화와 팽창
 
-고정 부피에서 에너지 연산자를 기준 에너지 E_star=ucrit V0로 나누어 차원 없는 시계 좌표 tau의 갱신을 생성한다. 이 시계는 계승한 구성 시계이며 셔터의 고유시간 기원을 확정하는 0.12를 대신하지 않는다. 비가환 Kc와 Kb에서는 D와 R의 에너지가 실제로 교환되지만 교환 합은 0이다.
+고정 부피에서 에너지 연산자를 기준 에너지 E_star=ucrit V0로 나누어 차원 없는 시계 좌표 xi의 갱신을 생성한다. 이 시계는 계승한 구성 시계이며 셔터의 고유시간 기원을 확정하는 0.12를 대신하지 않는다. 비가환 Kc와 Kb에서는 D와 R의 에너지가 실제로 교환되지만 교환 합은 0이다.
 
 
 $$
-\begin{aligned}U(\tau)&=e^{-i\tau\widehat E/E_*},\quad \rho(\tau)=U\rho_0U^\dagger,\\\frac{d\rho}{d\tau}&=-i[\widehat E/E_*,\rho],\quad \operatorname{Tr}\!\left(\widehat E\frac{d\rho}{d\tau}\right)=0.\end{aligned} \tag{8}
+\begin{aligned}U(\xi)&=e^{-i\xi\widehat E/E_*},\quad \rho(\xi)=U\rho_0U^\dagger,\\\frac{d\rho}{d\xi}&=-i[\widehat E/E_*,\rho],\quad \operatorname{Tr}\!\left(\widehat E\frac{d\rho}{d\xi}\right)=0.\end{aligned} \tag{8}
 $$
 
 
-팽창 시험에서는 같은 생성자를 log a에 대해 적분하고 에너지 밀도에서 H를 계산한다. 압력은 앞 식의 같은 부피 미분이다. 고정 주소 구성 아래 상태 교환이 상쇄되므로 연속 방정식이 성립한다. 이 동질 평탄 배경과 국소 렌즈 조건은 계승한 물리 구현 범위다.
+팽창 시험에서는 정규화한 에너지 생성자를 dxi/dt=omega_info의 느린 구성 일정으로 log a에 대해 적분하고 에너지 밀도에서 H를 계산한다. 압력은 앞 식의 같은 부피 미분이다. 고정 주소 구성 아래 상태 교환이 상쇄되므로 연속 방정식이 성립한다. 이 동질 평탄 배경과 국소 렌즈 조건은 계승한 물리 구현 범위다.
+
+r1 재검토에서 0.12의 시계 대조를 반영한다. 고정 부피에서 xi=E_star tau_phys/hbar로 환산하면 같은 SI 에너지 위상과 정확히 일치한다. 그러나 팽창 일정의 omega_info=0.7H0는 E_star/hbar의 약 2.10×10⁻⁴³배다. 따라서 기존 비균질 팽창 이력은 느린 구성 일정의 결과로 보존하며, SI Hamiltonian의 물리적 고유시간 진화와 동일하다고 판정하지 않는다. 균질 I/N 상태의 팽창 및 에너지·압력·국소 중력 재현은 유지된다.
 
 
 $$
@@ -170,6 +172,8 @@ python calculations/wrra_m_0_10/run_release.py
 ```
 
 parameters.json는 전체 구성 입력이며 0.9 입력을 포함한다. results.json와 verification.json는 실행 결과와 반증 검사를 기록한다. 주소 에너지 표본, 상태·부피 결과, 프레임 교환 장부는 CSV로 함께 제공한다. run_release.py는 계산·검사와 한영 Markdown 원고를 생성한다. Word와 PDF는 동일 원고에서 만든 최종 판이며 원시 실행 결과와 구분한다.
+
+Reviewed 0.10 to 0.12 series DOI 10.5281/zenodo.23113101 · https://doi.org/10.5281/zenodo.23113101
 
 Input SHA256 8342c02c3d872994b13c54c9512d6e7440a45e7ef9602cb1ac4ebe34eddb540f
 

@@ -40,8 +40,8 @@ def build(lang):
         st.paragraph_format.space_after=Pt(7)
         st.paragraph_format.line_spacing=1.13
         if lang=='KO' and name in ('Normal','Body Text','First Paragraph'):
-            st.paragraph_format.line_spacing=1.08
-            st.paragraph_format.space_after=Pt(5)
+            st.paragraph_format.line_spacing=1.00
+            st.paragraph_format.space_after=Pt(3)
         if lang=='EN' and name in ('Normal','Body Text','First Paragraph'):
             st.paragraph_format.line_spacing=1.05
             st.paragraph_format.space_after=Pt(4)
@@ -80,11 +80,11 @@ def build(lang):
     # Keep the reference heading and its short bibliography together.
     in_refs=False
     for p in doc.paragraphs:
-        if p.text in ('References','참고 자료'): in_refs=True
+        if p.text in ('References and public links','참고 자료와 공개 연결'): in_refs=True
         if in_refs and not p.text.startswith('Copyright'):
             p.paragraph_format.keep_with_next=True
     for p in reversed(doc.paragraphs):
-        if p.text.startswith('NIST Digital'):
+        if p.text.startswith('Minimal Computation Cosmology'):
             p.paragraph_format.keep_with_next=False
             break
     widths=[[.65,1.55,1.65,3.09],[2.1,2.42,2.42],[1.6,2.8,2.54]]

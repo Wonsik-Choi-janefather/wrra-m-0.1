@@ -1,6 +1,6 @@
-# WRRA_M 0.12 Proper-Time Updates and Mode Spectra under Finite Boundaries
+# WRRA M 0 12 Proper Time Updates and Mode Spectra under Finite Boundaries
 
-Wonsik Choi · 2026-10-03 · WRRA Core 1.0 / MCC 2.3.2 · CC BY 4.0
+Wonsik Choi · 2026-10-03 · Revision 0.12-r1 · ORCID 0009-0001-4263-9772 · janefather@gmail.com · WRRA Core 1.0 / MCC 2.3.2 · CC BY 4.0
 
 ## Abstract
 
@@ -61,7 +61,7 @@ t^{\prime}=\gamma_u(t-ux/c^2),\quad x^{\prime}=\gamma_u(x-ut),\quad c^2\Delta t^
 $$
 
 
-The accelerated path is divided into 16/32/64/128 chords and each proper interval compared in a frame boosted by u/c=0.3. Errors against the path integral tau/T=0.877980386396 decrease by approximately four per refinement. Inverting accumulated proper time generates 57 update events. This is a numerical convergence check on a finite path.
+The accelerated path is divided into 16/32/64/128 chords and each proper interval compared in a frame boosted by u/c=0.3. Errors against the path integral tau/T=0.877980386396 decrease by approximately four per refinement. Solving accumulated proper time gives 57 events including the initial point k=0, representing 56 completed updates and a retained final residual interval. This is a numerical convergence check on a finite path.
 
 The static local-clock potential integrates the inherited g(r) to finite boundary R. Phi(R)=0 normalizes the boundary clock. No reference at infinite distance is introduced. Independent numerical differentiation of the potential returns the same gravitational acceleration.
 
@@ -171,7 +171,7 @@ U_{0.10}(\xi)=e^{-i\xi\widehat E/E_*}=e^{-i\widehat E\tau/\hbar},\quad \xi=E_*\t
 $$
 
 
-States and D/R loads are executed at k=0/1/2/4/8 actual delta_tau intervals. Total energy remains 3.200810499959×10⁻¹⁰ J while the D-load range is 0.038059728227. Normalization and positivity hold within numerical tolerances. This fixed-volume internal exchange includes no measurement apparatus or physical record generation yet.
+States and D/R loads are executed at k=0/1/2/4/8 actual delta_tau intervals. Total energy remains 3.200810499959×10⁻¹⁰ J while the D-load range is 0.038059728227. Normalization and positivity hold within numerical tolerances. This fixed-volume internal exchange includes no measurement apparatus or physical record generation yet. The final overlap expression in equation 16 applies only to an equal-weight fold-mode pair with gap mu_E; it is not a general overlap formula for the collective ledger state.
 
 
 $$
@@ -195,11 +195,11 @@ $$
 | Old / SI frequency | 2.102556972196e-43 | ratio |
 
 
-The old nonuniform slow expansion histories remain records of a constitutive schedule. The new physical phase is executed on the fixed-volume ledger; the uniform FRW clock connects through the stationary I/N state. Fully covariant nonuniform carrier/gravity/expansion dynamics are not closed here. Numerical small-step controls approach the same continuous Hamiltonian generator; this approximation requires no physically infinite spatial or temporal support.
+The old nonuniform slow expansion histories remain records of a constitutive schedule. The new physical phase is executed on the fixed-volume ledger; the uniform FRW clock connects through the stationary I/N state. Fully covariant nonuniform carrier/gravity/expansion dynamics are not closed here. Three positive finite steps check the error against the same Hamiltonian generator, and halving each step approximately halves that error. Equation 18 bounds the operator-norm error for finite Hermitian H without requiring physically infinite support.
 
 
 $$
-\frac{i\hbar(U(\delta\tau)-I)}{\delta\tau}\longrightarrow H,\quad \delta\tau\longrightarrow0. \tag{18}
+\begin{aligned}H_\delta&=\frac{i\hbar(U(\delta\tau)-I)}{\delta\tau},\quad\delta\tau>0,\\\|H_\delta-H\|_2&\leq\frac{\delta\tau}{2\hbar}\|H\|_2^2.\end{aligned} \tag{18}
 $$
 
 
@@ -213,6 +213,8 @@ python calculations/wrra_m_0_12/run_release.py
 ```
 
 Parameters.json discloses inputs, provenance and constitutive choices. JSON and eight CSVs provide path clocks, update events, allowed modes, spatial dispersion and load exchange. A clean copy with captured results removed reproduces outputs and both manuscripts byte for byte. The 18 native Word equations and five computed tables are compared between editions, with every PDF page rendered and inspected. Numerical verification, document comparison and clean-copy reproduction verdicts are separate JSON records.
+
+Reviewed 0.10 to 0.12 series DOI 10.5281/zenodo.23113101 · https://doi.org/10.5281/zenodo.23113101
 
 Input SHA256 c80742fa4d0e0bdbb94e3390a2cc02da4a535168eaf66fb28f7318ec9b7b8b3d
 

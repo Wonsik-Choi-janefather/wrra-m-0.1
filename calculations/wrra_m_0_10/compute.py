@@ -168,7 +168,11 @@ def fixed_volume_exchange(cfg, calibration, mu, carrier, rho0):
 
 
 def expansion_history(cfg, calibration, mu, carrier, psi0):
-    """The same energy generator and volume pressure in a flat homogeneous model."""
+    """Constitutive slow schedule with the energy shape and volume pressure.
+
+    This schedule does not identify omega_info with the SI phase frequency
+    E_star/hbar. The mismatch established in 0.12 is retained explicitly.
+    """
     E0 = calibration['ucrit_J_m3']*cfg['reference_volume_m3']
     omega = cfg['upstream_0_9']['baseline_0_8']['ledger_0_7']['carrier_and_background']['information_clock_over_H0']
     def rhs(loga, psi):
@@ -198,8 +202,15 @@ def expansion_history(cfg, calibration, mu, carrier, psi0):
         n=np.array([cfg['energy_map']['energy_volume_exponents'][s] for s in SECTORS])
         u=np.array(list(item['sector_density_J_m3'].values()))/calibration['ucrit_J_m3']
         continuity=float(np.sum((n-3)*u)+3*(u.sum()+item['total_pressure_Pa']/calibration['ucrit_J_m3']))
+        hbar = 6.62607015e-34/(2*math.pi)
+        omega_info = omega*calibration['H0_s_minus1']
         item.update(raw_state_norm=norm,state_exchange_sum_over_reference=float(sector_exchange.sum()),
-                    continuity_residual_over_ucrit=continuity)
+                    continuity_residual_over_ucrit=continuity,
+                    state_clock_rule='constitutive slow schedule; dxi/dt=omega_info',
+                    old_information_frequency_s_minus1=omega_info,
+                    SI_energy_phase_frequency_s_minus1=E0/hbar,
+                    old_frequency_over_SI_frequency=hbar*omega_info/E0,
+                    physical_SI_phase_identification=False)
         rows.append(item)
     return rows
 

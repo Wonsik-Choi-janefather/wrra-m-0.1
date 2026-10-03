@@ -40,8 +40,8 @@ def build(lang):
         st.paragraph_format.space_after=Pt(7)
         st.paragraph_format.line_spacing=1.13
         if lang=='KO' and name in ('Normal','Body Text','First Paragraph'):
-            st.paragraph_format.line_spacing=1.08
-            st.paragraph_format.space_after=Pt(5)
+            st.paragraph_format.line_spacing=1.04
+            st.paragraph_format.space_after=Pt(4)
         if lang=='EN' and name in ('Normal','Body Text','First Paragraph'):
             st.paragraph_format.line_spacing=1.05
             st.paragraph_format.space_after=Pt(4)

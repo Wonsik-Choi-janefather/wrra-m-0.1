@@ -1,0 +1,24 @@
+{
+  "baseline_commit": "f7508586628a4f31ae02c0e13861976afdc71c89",
+  "excluded_new_clock_metadata": [
+    "SI_energy_phase_frequency_s_minus1",
+    "old_frequency_over_SI_frequency",
+    "old_information_frequency_s_minus1",
+    "physical_SI_phase_identification",
+    "state_clock_rule"
+  ],
+  "components": {
+    "10": {
+      "input_sha256": "8342c02c3d872994b13c54c9512d6e7440a45e7ef9602cb1ac4ebe34eddb540f",
+      "original_result_fingerprint": "e61eecc4d6140b821206b5aa46e7385c3f919972c41467069107d9b25fc376bd"
+    },
+    "11": {
+      "input_sha256": "67de28abf0741c406178a2fe4ce07962e69bce827c3196b78e887da3bd0dab13",
+      "original_result_fingerprint": "2d292732e47f957f9682de4953a18e00851be50e891e820b71c2f8fc4e746d32"
+    },
+    "12": {
+      "input_sha256": "c80742fa4d0e0bdbb94e3390a2cc02da4a535168eaf66fb28f7318ec9b7b8b3d",
+      "original_result_fingerprint": "e38227e583d211cdb739dc9ce0c89148b2bce89a811de97e513a4600648b6afd"
+    }
+  }
+}

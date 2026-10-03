@@ -40,7 +40,7 @@ def run():
         for name in ('LICENSE','REVISION_0_12.md'):shutil.copyfile(REPO/name,stage/name)
         shutil.copyfile(ROOT/'CITATION.cff',stage/'CITATION.cff')
         (stage/'README.md').write_text(
-            '# WRRA_M 0.12 reproducibility package\n\nWonsik Choi · 2026-10-03 · CC BY 4.0\n\n'
+            '# WRRA_M 0.12-r1 reproducibility package\n\nWonsik Choi · 2026-10-03 · CC BY 4.0\n\n'
             'Worldline proper-time updates and finite boundary spectra retain the frozen 0.11 calibration. '
             'The construction epsilon=0.05 is not a measured minimum time. The old slow expansion-state '
             'clock fails identification with the SI energy phase; that failure is preserved.\n\n'

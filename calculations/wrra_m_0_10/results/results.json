@@ -1611,7 +1611,12 @@
       },
       "raw_state_norm": 0.9999999999999997,
       "state_exchange_sum_over_reference": -1.0842021724855044e-18,
-      "continuity_residual_over_ucrit": 4.440892098500626e-16
+      "continuity_residual_over_ucrit": 4.440892098500626e-16,
+      "state_clock_rule": "constitutive slow schedule; dxi/dt=omega_info",
+      "old_information_frequency_s_minus1": 1.5289996687598515e-18,
+      "SI_energy_phase_frequency_s_minus1": 7.272096256980661e+24,
+      "old_frequency_over_SI_frequency": 2.102556972196466e-43,
+      "physical_SI_phase_identification": false
     },
     {
       "scale_factor": 1.0,
@@ -1676,7 +1681,12 @@
       },
       "raw_state_norm": 0.9999999999999994,
       "state_exchange_sum_over_reference": 1.478205578775426e-17,
-      "continuity_residual_over_ucrit": 5.551115123125783e-17
+      "continuity_residual_over_ucrit": 5.551115123125783e-17,
+      "state_clock_rule": "constitutive slow schedule; dxi/dt=omega_info",
+      "old_information_frequency_s_minus1": 1.5289996687598515e-18,
+      "SI_energy_phase_frequency_s_minus1": 7.272096256980661e+24,
+      "old_frequency_over_SI_frequency": 2.102556972196466e-43,
+      "physical_SI_phase_identification": false
     },
     {
       "scale_factor": 2.0,
@@ -1741,7 +1751,12 @@
       },
       "raw_state_norm": 0.999999999971084,
       "state_exchange_sum_over_reference": -2.0816681711721685e-16,
-      "continuity_residual_over_ucrit": 4.85722573273506e-17
+      "continuity_residual_over_ucrit": 4.85722573273506e-17,
+      "state_clock_rule": "constitutive slow schedule; dxi/dt=omega_info",
+      "old_information_frequency_s_minus1": 1.5289996687598515e-18,
+      "SI_energy_phase_frequency_s_minus1": 7.272096256980661e+24,
+      "old_frequency_over_SI_frequency": 2.102556972196466e-43,
+      "physical_SI_phase_identification": false
     }
   ],
   "frame_energy_transport": [

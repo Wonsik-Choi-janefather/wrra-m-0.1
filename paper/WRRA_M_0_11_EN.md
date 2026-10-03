@@ -1,6 +1,6 @@
-# WRRA_M 0.11 Sequential Calibration of the First Five Inputs
+# WRRA M 0 11 Sequential Calibration of the First Five Inputs
 
-Wonsik Choi · 2026-10-02 · WRRA Core 1.0 / MCC 2.3.2 · CC BY 4.0
+Wonsik Choi · 2026-10-03 · Revision 0.11-r1 · ORCID 0009-0001-4263-9772 · janefather@gmail.com · WRRA Core 1.0 / MCC 2.3.2 · CC BY 4.0
 
 ## Abstract
 
@@ -8,7 +8,7 @@ On fixed WRRA Core 1.0 and MCC 2.3.2, WRRA_M calibrates its first five physical 
 
 ## Verification inputs
 
-The complete 0.10 input is frozen by hash. G and electron energy use NIST 2022 CODATA; H0=67.4 is the Planck 2018 base-LambdaCDM calibration benchmark. Standard uncertainties are 1.5×10⁻¹⁵ SI for G, 0.00016 eV for electron energy and 0.5 km s⁻¹ Mpc⁻¹ for the adopted H0 benchmark. Physical fractions 4.93% and 26.5% are inherited rounded calibrations without a covariance assigned here. The first five candidate-sheet entries and the MCC electron-mode relation are recorded as provenance.
+The complete 0.10 input is frozen by hash. G and electron energy use NIST 2022 CODATA; H0=67.4 is the Planck 2018 base-LambdaCDM calibration benchmark. CODATA standard uncertainties are 1.5×10⁻¹⁵ SI for G and 0.00016 eV for electron energy. The adopted H0 interval of ±0.5 km s⁻¹ Mpc⁻¹ is the Planck base-LambdaCDM 68% confidence interval. Physical fractions 4.93% and 26.5% are inherited rounded calibrations without a covariance assigned here. The first five candidate-sheet entries and the MCC electron-mode relation are recorded as provenance.
 
 | Input | Adopted value | Unit / role |
 | --- | --- | --- |
@@ -163,6 +163,8 @@ Ten runs changing each anchor by ±1% are construction-sensitivity controls, not
 
 The fixed-reference homogeneous expansion uses the same pressureless/background energy relation. Noncommuting-carrier internal exchange at fixed volume sums to zero and preserves state positivity/normalization. The required conversion work and its environmental account retain the 0.10 conservation checks.
 
+Revision r1 retains the clock verdict established in 0.12. Fixed-volume state evolution connects to SI phase through xi=E_star tau_phys/hbar. The slow nonuniform expansion schedule of 0.10 differs from that SI phase, so completion of sequential calibration does not imply completion of covariant nonuniform dynamics. The uniform I/N state is stationary under unitary updates and retains the inputs and outputs of the expansion relation below.
+
 
 $$
 \frac{H(a)^2}{H_0^2}=(f_\varphi+f_c)a^{-3}+f_b,\qquad \frac{du}{d\log a}+3(u+P)=0. \tag{14}
@@ -179,6 +181,8 @@ python calculations/wrra_m_0_11/run_release.py
 ```
 
 Parameters.json contains inputs, units, provenance and constitutive choices. Sequential calibration, physical cases, mass modes and input responses are supplied as JSON/CSV. A clean copy with all captured results removed compares regenerated outputs and bilingual sources byte for byte. Word/PDF are final publications built from those sources, with equations/tables checked against execution and every rendered page inspected.
+
+Reviewed 0.10 to 0.12 series DOI 10.5281/zenodo.23113101 · https://doi.org/10.5281/zenodo.23113101
 
 Input SHA256 67de28abf0741c406178a2fe4ce07962e69bce827c3196b78e887da3bd0dab13
 

@@ -39,7 +39,7 @@ def run():
         for name in ('LICENSE','REVISION_0_11.md'):shutil.copyfile(REPO/name,stage/name)
         shutil.copyfile(ROOT/'CITATION.cff',stage/'CITATION.cff')
         (stage/'README.md').write_text(
-            '# WRRA_M 0.11 reproducibility package\n\nWonsik Choi · 2026-10-02 · CC BY 4.0\n\n'
+            '# WRRA_M 0.11-r1 reproducibility package\n\nWonsik Choi · 2026-10-03 · CC BY 4.0\n\n'
             'The ordered G → H0 → f_phi → f_c → electron-energy calibration retains the frozen 0.10 physics, '
             'identifies mu_E=22217.345682173913 eV under electron mode 23, and reports residual freedoms.\n\n'
             '[Input and calculation guide](calculations/wrra_m_0_11/README.md) · [Completion record](REVISION_0_11.md)\n\n'

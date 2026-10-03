@@ -1,3 +1,9 @@
+# Reviewed 0.11 r1
+
+2026-10-03 · [Reviewed series DOI](https://doi.org/10.5281/zenodo.23113101) · [Corrections](../../REVISION_0_10_TO_0_12_R1.md)
+
+The parameter hash and calculated outputs are preserved. The old slow nonuniform expansion schedule is distinct from the SI Hamiltonian phase; its clock mismatch remains open. Both English and Korean papers are corrected.
+
 # WRRA_M 0.11 · First five inputs, sequential calibration
 
 Wonsik Choi · 2026-10-02 · Fixed WRRA Core 1.0 / MCC 2.3.2 · CC BY 4.0

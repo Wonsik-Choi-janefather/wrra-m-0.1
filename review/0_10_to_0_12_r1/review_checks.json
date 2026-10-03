@@ -1,0 +1,129 @@
+{
+  "release": "0.12-r1",
+  "passed": true,
+  "review_check_count": 9,
+  "component_check_groups": 96,
+  "checks": [
+    {
+      "id": 1,
+      "check": "all_three_frozen_input_hashes_preserved",
+      "passed": true,
+      "evidence": {
+        "10": "8342c02c3d872994b13c54c9512d6e7440a45e7ef9602cb1ac4ebe34eddb540f",
+        "11": "67de28abf0741c406178a2fe4ce07962e69bce827c3196b78e887da3bd0dab13",
+        "12": "c80742fa4d0e0bdbb94e3390a2cc02da4a535168eaf66fb28f7318ec9b7b8b3d"
+      }
+    },
+    {
+      "id": 2,
+      "check": "complete_pre_review_results_unchanged_except_added_clock_metadata",
+      "passed": true,
+      "evidence": {
+        "10": "e61eecc4d6140b821206b5aa46e7385c3f919972c41467069107d9b25fc376bd",
+        "11": "2d292732e47f957f9682de4953a18e00851be50e891e820b71c2f8fc4e746d32",
+        "12": "e38227e583d211cdb739dc9ce0c89148b2bce89a811de97e513a4600648b6afd"
+      }
+    },
+    {
+      "id": 3,
+      "check": "96_distinct_component_groups_pass",
+      "passed": true,
+      "evidence": {
+        "component_groups": 96
+      }
+    },
+    {
+      "id": 4,
+      "check": "slow_clock_verdict_carried_back_to_all_expansion_rows",
+      "passed": true,
+      "evidence": {
+        "rows": 3,
+        "frequency_ratio": 2.102556972196466e-43
+      }
+    },
+    {
+      "id": 5,
+      "check": "57_events_include_initial_point_and_56_completed_updates",
+      "passed": true,
+      "evidence": {
+        "events": 57,
+        "completed_updates": 56,
+        "residual": 0.19074472932912556
+      }
+    },
+    {
+      "id": 6,
+      "check": "finite_step_bound_holds_for_independent_signed_Hermitian_control",
+      "passed": true,
+      "evidence": {
+        "eigenvalues": [
+          -1.3032881784400496,
+          2.011719417032965,
+          3.2915687614070848
+        ],
+        "controls": [
+          {
+            "positive_step": 0.1,
+            "norm_error": 0.5400928633419377,
+            "bound": 0.5417212455535483
+          },
+          {
+            "positive_step": 0.05,
+            "norm_error": 0.27065689111071073,
+            "bound": 0.27086062277677414
+          },
+          {
+            "positive_step": 0.025,
+            "norm_error": 0.13540483918103122,
+            "bound": 0.13543031138838707
+          },
+          {
+            "positive_step": 0.0125,
+            "norm_error": 0.06771197148859578,
+            "bound": 0.06771515569419354
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "check": "clock_scope_explicit_in_both_editions_of_all_components",
+      "passed": true,
+      "evidence": {
+        "editions_checked": 6
+      }
+    },
+    {
+      "id": 8,
+      "check": "review_identity_and_DOI_present_in_six_sources",
+      "passed": true,
+      "evidence": {
+        "DOI": "10.5281/zenodo.23113101",
+        "editions": 6
+      }
+    },
+    {
+      "id": 9,
+      "check": "bilingual_native_equations_and_computed_tables_match",
+      "passed": true,
+      "evidence": {
+        "native_equations_per_edition": 44,
+        "bilingual_equations": 88,
+        "pdf_pages": {
+          "10": {
+            "KO": 5,
+            "EN": 5
+          },
+          "11": {
+            "KO": 5,
+            "EN": 5
+          },
+          "12": {
+            "KO": 6,
+            "EN": 6
+          }
+        }
+      }
+    }
+  ]
+}
