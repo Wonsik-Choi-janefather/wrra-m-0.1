@@ -1,0 +1,63 @@
+$$
+z_p=p^{-\alpha/2}\exp(\epsilon_p/2+i\theta_p),\qquad g_n=\prod_{p\mid n}z_p^{v_p(n)}
+$$
+
+$$
+Z_N=\sum_{n=2}^{N}|g_n|^2,\qquad \psi_n=g_n/\sqrt{Z_N},\qquad w_n=|\psi_n|^2
+$$
+
+$$
+|g_n|^2=n^{-\alpha}\exp\!\left(\sum_{p\mid n}\epsilon_p v_p(n)\right)
+$$
+
+$$
+L=(I-A^\dagger A)^{1/2},\qquad C=(I-B^\dagger B)^{1/2}
+$$
+
+$$
+K_L=L,\quad K_R=BA,\quad K_\phi=Q_\phi^{1/2}CA,\quad K_D=(I-Q_\phi)^{1/2}CA
+$$
+
+$$
+\rho_j=K_j\rho K_j^\dagger,\qquad f_j=\mathrm{Tr}(\rho_j),\qquad \sum_jK_j^\dagger K_j=I
+$$
+
+$$
+\frac{\partial w_n}{\partial\epsilon_p}=w_n\left(v_p(n)-\langle v_p\rangle_w\right),\qquad \frac{\partial f_j}{\partial\epsilon_p}=\mathrm{Cov}_w(e_j,v_p)
+$$
+
+$$
+\rho_\gamma=\gamma|\psi\rangle\langle\psi|+(1-\gamma)\operatorname{diag}(w),\qquad 0\leq\gamma\leq1
+$$
+
+$$
+\psi^{\prime}_9=\sin\chi\,\psi_3+\cos\chi\,\psi_9
+$$
+
+$$
+f_\phi=\beta\left[W_{\mathrm{odd}}+\sin^2\chi(w_3-w_9)+2\gamma\sin\chi\cos\chi\sqrt{w_3w_9}\cos\theta_3\right]
+$$
+
+$$
+\widetilde S_k=S_k+\nu(P_k+D_k),\quad \widetilde P_k=(1-\nu)P_k,\quad \widetilde D_k=(1-\nu)D_k
+$$
+
+$$
+J_k=u_k\widetilde S_k,\qquad S_{k+1}=\widetilde S_k-J_k+J_kf_R
+$$
+
+$$
+P_{k+1}=\widetilde P_k+J_kf_\phi,\quad D_{k+1}=\widetilde D_k+J_kf_D,\quad S_{k+1}+P_{k+1}+D_{k+1}=1
+$$
+
+$$
+a_{k+1}=ur+(1-\nu)(1-ur)a_k,\qquad r=f_\phi+f_D,\quad a_k=P_k+D_k
+$$
+
+$$
+\nu=0:\quad a_k=1-(1-ur)^k;\qquad \nu>0:\quad a_*=\frac{ur}{\nu+(1-\nu)ur}
+$$
+
+$$
+\nu_{\mathrm{target}}=\frac{ur(1-a_{\mathrm{target}})}{a_{\mathrm{target}}(1-ur)}
+$$

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this release and retain its explicitly conditional SOURCE and stock assumptions."
+type: software
+title: "WRRA M upstream 0.7: SOURCE state and ordered two-stage filter generation ledger"
+version: "0.7"
+date-released: "2026-10-03"
+authors:
+  - family-names: Choi
+    given-names: Wonsik
+    orcid: "https://orcid.org/0009-0001-4263-9772"
+repository-code: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1"
+url: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/tree/main/upstream/source_filter_v0_7"
+license: CC-BY-4.0

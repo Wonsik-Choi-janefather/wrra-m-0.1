@@ -1,6 +1,19 @@
 # WRRA-M Research Notes
 
-## Current upstream 0.4–0.6 reviewed collection r1 · 2026-10-03
+## Current upstream 0.7 · SOURCE와 두 단계 필터의 생성 장부 · 2026-10-03
+
+소수 SOURCE 진폭을 관계 주소와 순서 있는 양성 필터에 연결했습니다.
+이전 α·β를 동결하여 **5%·26.8%·68.2%**를 재현하고, SOURCE 세기·위상 변화와
+유한 stock의 반복 방출을 계산했습니다. 기준 잔존 31.8%는 무제한 재방출의 자동 고정점이 아니며,
+생성 창의 닫힘 또는 별도 균형 제어가 필요하다는 조건을 공개합니다.
+**53개 구현 검사 + 60개 독립 감사, 총 113개 통과**, 9쪽 한글 원고와 새 ZIP 재현을 완료했습니다.
+
+- [상류 0.7 원고·계산·재현 안내](upstream/source_filter_v0_7/README.md)
+- [한글 PDF 9쪽](upstream/source_filter_v0_7/paper/WRRA_M_SOURCE_State_Two_Stage_Filter_Generation_Ledger_v0_7_KO_2026_10_03.pdf) · [Word](upstream/source_filter_v0_7/paper/WRRA_M_SOURCE_State_Two_Stage_Filter_Generation_Ledger_v0_7_KO_2026_10_03.docx)
+- [전체 재현 ZIP](upstream/source_filter_v0_7/archive/WRRA_M_SOURCE_State_Two_Stage_Filter_v0_7_Reproducibility_2026_10_03.zip) · [113개 검증](upstream/source_filter_v0_7/verification/independent_audit.json)
+- [다음 단계 전달 명세](upstream/source_filter_v0_7/code/handoff.json) · [상류 1.0까지의 종료 계획](upstream/source_filter_v0_7/ROADMAP.md)
+
+## Upstream 0.4–0.6 reviewed collection r1 · 2026-10-03
 
 상류 0.4, 0.5, 0.6의 논문·실행 코드·계승 입력을 재검토하고 교정했습니다.
 기저 정렬 표기, 비유한 입력 계약, 공간 구적 조건과 운동량 배열에 의존하던 검증을 고쳤습니다.
@@ -452,5 +465,6 @@ Citation metadata is provided in [`CITATION.cff`](CITATION.cff). The papers and 
 The 0.5 titles and claim ledger now foreground information load and twist gravity. Its local calculation uses 26.5% of the whole universe within the hidden total of 95.07%. The zero-phenotype input executes with undefined ratios recorded as null; the radius response ratio is evaluated numerically. The original scientific outputs reproduce unchanged.
 
 [0.6 start, Korean](calculations/wrra_m_0_6_start/README_KO.md) · [0.6 start, English](calculations/wrra_m_0_6_start/README_EN.md) · [Start reproducibility archive](calculations/wrra_m_0_6_start/WRRA_M_0_6_Start_Reproducibility.zip). These files preserve the initial prototype. The completed finite homogeneous model and bilingual paper are provided above.
+
 
 

@@ -1,0 +1,1848 @@
+{
+  "title": "WRRA M zeta-zero frame admission and normalized residue v0.1",
+  "author": "Wonsik Choi",
+  "date": "2026-10-01",
+  "inputs": {
+    "N": 1000000,
+    "J": 4,
+    "K": 8,
+    "xi": 0.1,
+    "phase_offsets": "all zero",
+    "drive_coefficients": "equal 1/sqrt(J)",
+    "verified_mathematical_inputs": "low positive zeta zeros computed with mpmath and independently checked with Euler--Maclaurin",
+    "targets_used_for_calibration": {
+      "nonphenotypic_Actual": 0.268,
+      "phenotype": 0.05
+    }
+  },
+  "calibration": {
+    "alpha": 1.8996876950554356,
+    "sigmoid_threshold_h": 1.44767317035244,
+    "constant_beta_supplied_as_input": false,
+    "fitting_rule": "alpha to even-composite 26.8%, h to odd-composite admitted 5%; K,J,xi fixed before h fit"
+  },
+  "rules": {
+    "weights": "n^-alpha / sum_{m=2..N} m^-alpha",
+    "drive": "delta_n(k)=sum_{j=1..J} cos(gamma_j*(log(n)+xi*k))/sqrt(J)",
+    "odd_admission": "a_n(k)=sigmoid(delta_n(k)-h), only 0<=k<K",
+    "birth": "b_n(k)=s_n(k)*a_n(k); s_n(k+1)=s_n(k)*(1-a_n(k))",
+    "cumulative": "T_n(K)=1-product_{k=0..K-1}(1-a_n(k))",
+    "even_composites": "all admitted at frame 0, assigned nonphenotypic Actual as in v1.0",
+    "primes": "stay in SOURCE until release at normalized recovery",
+    "second_filter": "prime no-fold proxy passes; admitted composites lie in blocked kernel; no new admission after frame K",
+    "post_recovery": "resident identity evolution preserves folds and the two readout sectors; reservoir returned at K",
+    "WRRA_prime_like_composite": "incomplete-readout composite, not Fermat pseudoprime",
+    "method": "deterministic expectation-weight transport, not individual stochastic histories",
+    "time": "dimensionless frame index; xi not seconds; no inferred Planck clock"
+  },
+  "zeta_zero_validation": [
+    {
+      "index": 1,
+      "gamma_decimal_38_digits": "14.134725141734693790457251983562470271",
+      "gamma_used_double": 14.134725141734695,
+      "abs_zeta_at_60_digit_zero": "2.53603994489616082070283792492476569238012614957859504717099e-61",
+      "abs_40_60_digit_gamma_difference": "2.15742884300756824314433458256790554026147159997266212760836e-37",
+      "abs_Euler_Maclaurin_zeta_double": 6.4784916507819795e-15,
+      "abs_Euler_Maclaurin_cutoff_difference": 6.6647870598604865e-15
+    },
+    {
+      "index": 2,
+      "gamma_decimal_38_digits": "21.022039638771554992628479593896902777",
+      "gamma_used_double": 21.022039638771556,
+      "abs_zeta_at_60_digit_zero": "1.38071061736680354849972554459068516687693366142160386466629e-60",
+      "abs_40_60_digit_gamma_difference": "3.34340524902781754629519689604637920009604654299471393221237e-37",
+      "abs_Euler_Maclaurin_zeta_double": 1.1813260891192462e-14,
+      "abs_Euler_Maclaurin_cutoff_difference": 4.606259925746351e-15
+    },
+    {
+      "index": 3,
+      "gamma_decimal_38_digits": "25.010857580145688763213790992562821819",
+      "gamma_used_double": 25.01085758014569,
+      "abs_zeta_at_60_digit_zero": "2.25571446285231248386256262345439819569808444859162451633673e-62",
+      "abs_40_60_digit_gamma_difference": "3.40450327442003327503456841339343259351265613852722434956693e-37",
+      "abs_Euler_Maclaurin_zeta_double": 7.42849374875304e-15,
+      "abs_Euler_Maclaurin_cutoff_difference": 7.844208987929667e-15
+    },
+    {
+      "index": 4,
+      "gamma_decimal_38_digits": "30.42487612585951321031189753058409132",
+      "gamma_used_double": 30.424876125859512,
+      "abs_zeta_at_60_digit_zero": "4.93945588886002893377723325728320907551599375951924155289236e-61",
+      "abs_40_60_digit_gamma_difference": "1.8156002371544018096214602748445040384630344228202754817478e-37",
+      "abs_Euler_Maclaurin_zeta_double": 1.1691645087263985e-15,
+      "abs_Euler_Maclaurin_cutoff_difference": 5.038015188739101e-16
+    },
+    {
+      "index": 5,
+      "gamma_decimal_38_digits": "32.935061587739189690662368964074903489",
+      "gamma_used_double": 32.93506158773919,
+      "abs_zeta_at_60_digit_zero": "3.35833149200728421581975881190346244504758530420924532131069e-60",
+      "abs_40_60_digit_gamma_difference": "1.87284396482960990719998074062896377477295113846228093236228e-37",
+      "abs_Euler_Maclaurin_zeta_double": 1.2646935811649677e-14,
+      "abs_Euler_Maclaurin_cutoff_difference": 1.2155928895173604e-14
+    },
+    {
+      "index": 6,
+      "gamma_decimal_38_digits": "37.586178158825671257217763480705332821",
+      "gamma_used_double": 37.586178158825675,
+      "abs_zeta_at_60_digit_zero": "1.04969619309973652402032740631587470596082291819232054868843e-60",
+      "abs_40_60_digit_gamma_difference": "4.05597350830793218333001889531163231730727217688087248465308e-37",
+      "abs_Euler_Maclaurin_zeta_double": 2.1303805907811675e-15,
+      "abs_Euler_Maclaurin_cutoff_difference": 9.456870290770968e-15
+    },
+    {
+      "index": 7,
+      "gamma_decimal_38_digits": "40.918719012147495187398126914633254396",
+      "gamma_used_double": 40.9187190121475,
+      "abs_zeta_at_60_digit_zero": "3.24813577142074773995854977334233609999578297238016905754842e-60",
+      "abs_40_60_digit_gamma_difference": "2.73834037222720463838696523544895951454783021636912629413557e-37",
+      "abs_Euler_Maclaurin_zeta_double": 8.452456902726728e-15,
+      "abs_Euler_Maclaurin_cutoff_difference": 9.342559417216324e-15
+    },
+    {
+      "index": 8,
+      "gamma_decimal_38_digits": "43.327073280914999519496122165406805783",
+      "gamma_used_double": 43.327073280915,
+      "abs_zeta_at_60_digit_zero": "2.69094478648215607027548831917449951415835526647925170351486e-60",
+      "abs_40_60_digit_gamma_difference": "3.54331628163128553121102956838623125267512381869996872069014e-37",
+      "abs_Euler_Maclaurin_zeta_double": 2.2793537689098643e-14,
+      "abs_Euler_Maclaurin_cutoff_difference": 1.2441608069996697e-14
+    }
+  ],
+  "terminal": {
+    "phenotype": 0.05000000000000083,
+    "nonphenotypic_Actual": 0.2679999999999976,
+    "Actual": 0.3179999999999984,
+    "return": 0.6820000000000012,
+    "weighted_effective_beta": 0.8654570124137104
+  },
+  "frames": [
+    {
+      "frame": 0,
+      "new_phenotype": 0.015017943212746283,
+      "phenotype": 0.015017943212746283,
+      "nonphenotypic_Actual": 0.2679999999999976,
+      "SOURCE_reservoir": 0.7169820567872557,
+      "returned": 0.0,
+      "ledger_sum": 0.9999999999999996,
+      "phase": "initial_admission"
+    },
+    {
+      "frame": 1,
+      "new_phenotype": 0.01012104541450697,
+      "phenotype": 0.025138988627253254,
+      "nonphenotypic_Actual": 0.2679999999999976,
+      "SOURCE_reservoir": 0.7068610113727487,
+      "returned": 0.0,
+      "ledger_sum": 0.9999999999999996,
+      "phase": "initial_admission"
+    },
+    {
+      "frame": 2,
+      "new_phenotype": 0.005308963818713693,
+      "phenotype": 0.030447952445966948,
+      "nonphenotypic_Actual": 0.2679999999999976,
+      "SOURCE_reservoir": 0.7015520475540351,
+      "returned": 0.0,
+      "ledger_sum": 0.9999999999999996,
+      "phase": "initial_admission"
+    },
+    {
+      "frame": 3,
+      "new_phenotype": 0.00659999374605498,
+      "phenotype": 0.037047946192021924,
+      "nonphenotypic_Actual": 0.2679999999999976,
+      "SOURCE_reservoir": 0.6949520538079801,
+      "returned": 0.0,
+      "ledger_sum": 0.9999999999999996,
+      "phase": "initial_admission"
+    },
+    {
+      "frame": 4,
+      "new_phenotype": 0.003452308306223447,
+      "phenotype": 0.040500254498245375,
+      "nonphenotypic_Actual": 0.2679999999999976,
+      "SOURCE_reservoir": 0.6914997455017566,
+      "returned": 0.0,
+      "ledger_sum": 0.9999999999999996,
+      "phase": "initial_admission"
+    },
+    {
+      "frame": 5,
+      "new_phenotype": 0.005806227542351355,
+      "phenotype": 0.04630648204059673,
+      "nonphenotypic_Actual": 0.2679999999999976,
+      "SOURCE_reservoir": 0.6856935179594053,
+      "returned": 0.0,
+      "ledger_sum": 0.9999999999999996,
+      "phase": "initial_admission"
+    },
+    {
+      "frame": 6,
+      "new_phenotype": 0.002228545570841341,
+      "phenotype": 0.04853502761143807,
+      "nonphenotypic_Actual": 0.2679999999999976,
+      "SOURCE_reservoir": 0.683464972388564,
+      "returned": 0.0,
+      "ledger_sum": 0.9999999999999996,
+      "phase": "initial_admission"
+    },
+    {
+      "frame": 7,
+      "new_phenotype": 0.0014649723885628134,
+      "phenotype": 0.050000000000000884,
+      "nonphenotypic_Actual": 0.2679999999999976,
+      "SOURCE_reservoir": 0.6820000000000012,
+      "returned": 0.0,
+      "ledger_sum": 0.9999999999999996,
+      "phase": "initial_admission"
+    },
+    {
+      "frame": 8,
+      "new_phenotype": 0.0,
+      "phenotype": 0.050000000000000884,
+      "nonphenotypic_Actual": 0.2679999999999976,
+      "SOURCE_reservoir": 0.0,
+      "returned": 0.6820000000000012,
+      "ledger_sum": 0.9999999999999997,
+      "phase": "normalized_return_gate"
+    },
+    {
+      "frame": 9,
+      "new_phenotype": 0.0,
+      "phenotype": 0.050000000000000884,
+      "nonphenotypic_Actual": 0.2679999999999976,
+      "SOURCE_reservoir": 0.0,
+      "returned": 0.6820000000000012,
+      "ledger_sum": 0.9999999999999997,
+      "phase": "normalized_return_gate"
+    },
+    {
+      "frame": 16,
+      "new_phenotype": 0.0,
+      "phenotype": 0.050000000000000884,
+      "nonphenotypic_Actual": 0.2679999999999976,
+      "SOURCE_reservoir": 0.0,
+      "returned": 0.6820000000000012,
+      "ledger_sum": 0.9999999999999997,
+      "phase": "normalized_return_gate"
+    },
+    {
+      "frame": 72,
+      "new_phenotype": 0.0,
+      "phenotype": 0.050000000000000884,
+      "nonphenotypic_Actual": 0.2679999999999976,
+      "SOURCE_reservoir": 0.0,
+      "returned": 0.6820000000000012,
+      "ledger_sum": 0.9999999999999997,
+      "phase": "normalized_return_gate"
+    },
+    {
+      "frame": 1032,
+      "new_phenotype": 0.0,
+      "phenotype": 0.050000000000000884,
+      "nonphenotypic_Actual": 0.2679999999999976,
+      "SOURCE_reservoir": 0.0,
+      "returned": 0.6820000000000012,
+      "ledger_sum": 0.9999999999999997,
+      "phase": "normalized_return_gate"
+    }
+  ],
+  "address_samples": [
+    {
+      "address": 9,
+      "prime_power": true,
+      "initial_admission_by_frame": [
+        0.16680938934451578,
+        0.3246752494222969,
+        0.09847688978601113,
+        0.22446094147039214,
+        0.11256157288775091,
+        0.48099039849775027,
+        0.11458490914358581,
+        0.1075056908857604
+      ],
+      "cumulative_admission": 0.8568130062359565,
+      "weight_fraction": 0.020516984846312567,
+      "residual_weight_fraction": 0.017579219465066635
+    },
+    {
+      "address": 15,
+      "prime_power": false,
+      "initial_admission_by_frame": [
+        0.4767501196170886,
+        0.0964493879214933,
+        0.11891307004096484,
+        0.28919092874257274,
+        0.22763724348029737,
+        0.13914898420044708,
+        0.3281412961753778,
+        0.04462144593105356
+      ],
+      "cumulative_admission": 0.8736322948349837,
+      "weight_fraction": 0.007774459363486777,
+      "residual_weight_fraction": 0.00679201877482428
+    },
+    {
+      "address": 21,
+      "prime_power": false,
+      "initial_admission_by_frame": [
+        0.3500807730043349,
+        0.12782117197572862,
+        0.2723698098347994,
+        0.1440330190169697,
+        0.09273208381409109,
+        0.5018071990982004,
+        0.12838848892714425,
+        0.16363452234513423
+      ],
+      "cumulative_admission": 0.8836718815810284,
+      "weight_fraction": 0.004102726500295041,
+      "residual_weight_fraction": 0.0036254640461280663
+    },
+    {
+      "address": 25,
+      "prime_power": true,
+      "initial_admission_by_frame": [
+        0.16890248878579409,
+        0.2753570666296841,
+        0.04978291876982685,
+        0.5104313010535425,
+        0.1610132967023983,
+        0.17015805426673963,
+        0.10595644716488126,
+        0.31531177486488504
+      ],
+      "cumulative_admission": 0.8805971988588227,
+      "weight_fraction": 0.0029459600836703936,
+      "residual_weight_fraction": 0.0025942041976300518
+    },
+    {
+      "address": 27,
+      "prime_power": true,
+      "initial_admission_by_frame": [
+        0.3694167021112822,
+        0.0449319597872501,
+        0.4003968775557842,
+        0.23983284197275148,
+        0.1548110037430627,
+        0.1123574718899786,
+        0.25264042583722723,
+        0.23771910194799
+      ],
+      "cumulative_admission": 0.8826761409315191,
+      "weight_fraction": 0.0025452600506199576,
+      "residual_weight_fraction": 0.0022466403191483872
+    },
+    {
+      "address": 33,
+      "prime_power": false,
+      "initial_admission_by_frame": [
+        0.4049151658716695,
+        0.23676309048650676,
+        0.15542363237902226,
+        0.11192146313288598,
+        0.2547666463759882,
+        0.2361924520295122,
+        0.1989833463770842,
+        0.14374335831546567
+      ],
+      "cumulative_admission": 0.867000418565395,
+      "weight_fraction": 0.0017384973963879807,
+      "residual_weight_fraction": 0.0015072779703432287
+    },
+    {
+      "address": 35,
+      "prime_power": false,
+      "initial_admission_by_frame": [
+        0.4605526061611914,
+        0.12678112892710885,
+        0.15362873437675922,
+        0.14097891430153622,
+        0.3261148007624957,
+        0.1739330580352527,
+        0.19020860487322708,
+        0.14343520327178383
+      ],
+      "cumulative_admission": 0.867757367279959,
+      "weight_fraction": 0.001554637813254354,
+      "residual_weight_fraction": 0.0013490484159034708
+    },
+    {
+      "address": 49,
+      "prime_power": true,
+      "initial_admission_by_frame": [
+        0.23980331417134365,
+        0.2470886971436636,
+        0.1954989795368366,
+        0.14802336060638474,
+        0.18035551101277386,
+        0.14136552080559056,
+        0.4517413988543907,
+        0.11356423154494658
+      ],
+      "cumulative_admission": 0.8658191163182455,
+      "weight_fraction": 0.0008204112281755868,
+      "residual_weight_fraction": 0.000710327724596553
+    },
+    {
+      "address": 77,
+      "prime_power": false,
+      "initial_admission_by_frame": [
+        0.1814157051624802,
+        0.21517655469373165,
+        0.42910002855292784,
+        0.03221753652484907,
+        0.3834572266387245,
+        0.183727113909043,
+        0.21061506864063018,
+        0.2010535648541745
+      ],
+      "cumulative_admission": 0.8873378009942263,
+      "weight_fraction": 0.00034764266739402525,
+      "residual_weight_fraction": 0.00030847648001718157
+    },
+    {
+      "address": 91,
+      "prime_power": false,
+      "initial_admission_by_frame": [
+        0.5066616044029625,
+        0.05837953319397598,
+        0.1643004031610937,
+        0.34004976310992213,
+        0.14094599393741958,
+        0.2606566782798278,
+        0.13852781600708305,
+        0.12339211289201191
+      ],
+      "cumulative_admission": 0.8771159706950652,
+      "weight_fraction": 0.00025311009327449893,
+      "residual_weight_fraction": 0.00022200690515518061
+    },
+    {
+      "address": 119,
+      "prime_power": false,
+      "initial_admission_by_frame": [
+        0.465985415376947,
+        0.12231057915432408,
+        0.2749334156536985,
+        0.15321887751470903,
+        0.12926574494308424,
+        0.21147270928810075,
+        0.37930186005790173,
+        0.09719882149307521
+      ],
+      "cumulative_admission": 0.8892820693055997,
+      "weight_fraction": 0.00015204959507245268,
+      "residual_weight_fraction": 0.00013521497854310924
+    },
+    {
+      "address": 121,
+      "prime_power": true,
+      "initial_admission_by_frame": [
+        0.41583960434794787,
+        0.12486138626760244,
+        0.27630203415876936,
+        0.14284780626149243,
+        0.1250493555363681,
+        0.2708054936329479,
+        0.3098110658095814,
+        0.10165436090019817
+      ],
+      "cumulative_admission": 0.8745523157676997,
+      "weight_fraction": 0.0001473107876175567,
+      "residual_weight_fraction": 0.00012883099044849798
+    },
+    {
+      "address": 133,
+      "prime_power": false,
+      "initial_admission_by_frame": [
+        0.12219007134135677,
+        0.2782305106442431,
+        0.1454801365747237,
+        0.1262882985943916,
+        0.24999657831344987,
+        0.3343138280888876,
+        0.09900222588232672,
+        0.16924407053958224
+      ],
+      "cumulative_admission": 0.8232256410539379,
+      "weight_fraction": 0.00012308962894366283,
+      "residual_weight_fraction": 0.00010133053869423819
+    },
+    {
+      "address": 143,
+      "prime_power": false,
+      "initial_admission_by_frame": [
+        0.2532316992753777,
+        0.17082609499315873,
+        0.1332731230132928,
+        0.16897040493210724,
+        0.42143958997075254,
+        0.10453907728982635,
+        0.1742692383123133,
+        0.1264967539512452
+      ],
+      "cumulative_admission": 0.8333410686452867,
+      "weight_fraction": 0.00010725336873554463,
+      "residual_weight_fraction": 8.937863691788574e-05
+    },
+    {
+      "address": 161,
+      "prime_power": false,
+      "initial_admission_by_frame": [
+        0.15137356018050527,
+        0.12864423064524017,
+        0.2187363599230765,
+        0.37099128956186783,
+        0.09714471502525321,
+        0.17482023152836987,
+        0.1512515655640275,
+        0.4436430017861421
+      ],
+      "cumulative_admission": 0.8721603421987355,
+      "weight_fraction": 8.562416102200154e-05,
+      "residual_weight_fraction": 7.467799757742849e-05
+    }
+  ],
+  "smallest_prime_family_residue": [
+    {
+      "smallest_prime_factor": 3,
+      "raw_weight_fraction": 0.04648526516651037,
+      "residual_weight_fraction": 0.04018338372160307,
+      "effective_admission": 0.8644327095406685
+    },
+    {
+      "smallest_prime_factor": 5,
+      "raw_weight_fraction": 0.0076548434501486455,
+      "residual_weight_fraction": 0.006665377039723057,
+      "effective_admission": 0.8707398241558579
+    },
+    {
+      "smallest_prime_factor": 7,
+      "raw_weight_fraction": 0.002295042894340104,
+      "residual_weight_fraction": 0.001997811684441825,
+      "effective_admission": 0.8704899108285543
+    },
+    {
+      "smallest_prime_factor": 11,
+      "raw_weight_fraction": 0.0006007083336872894,
+      "residual_weight_fraction": 0.0005171671227627707,
+      "effective_admission": 0.8609288297837934
+    },
+    {
+      "smallest_prime_factor": 13,
+      "raw_weight_fraction": 0.0003255041437951615,
+      "residual_weight_fraction": 0.00027982269548892865,
+      "effective_admission": 0.8596593955037946
+    },
+    {
+      "smallest_prime_factor": 17,
+      "raw_weight_fraction": 0.00014712184308456766,
+      "residual_weight_fraction": 0.0001280490592021451,
+      "effective_admission": 0.8703606243468605
+    },
+    {
+      "smallest_prime_factor": 19,
+      "raw_weight_fraction": 9.573782010324209e-05,
+      "residual_weight_fraction": 8.257077411657175e-05,
+      "effective_admission": 0.8624676645815498
+    },
+    {
+      "smallest_prime_factor": 23,
+      "raw_weight_fraction": 5.349810402342723e-05,
+      "residual_weight_fraction": 4.633455684970391e-05,
+      "effective_admission": 0.8660971766291685
+    },
+    {
+      "smallest_prime_factor": 29,
+      "raw_weight_fraction": 2.859502634644454e-05,
+      "residual_weight_fraction": 2.472482562172813e-05,
+      "effective_admission": 0.8646547592638386
+    },
+    {
+      "smallest_prime_factor": 31,
+      "raw_weight_fraction": 2.188623912449853e-05,
+      "residual_weight_fraction": 1.8801276492222457e-05,
+      "effective_admission": 0.8590455575886089
+    },
+    {
+      "smallest_prime_factor": 37,
+      "raw_weight_fraction": 1.3558453557654568e-05,
+      "residual_weight_fraction": 1.1754063127280993e-05,
+      "effective_admission": 0.8669176818211034
+    },
+    {
+      "smallest_prime_factor": 41,
+      "raw_weight_fraction": 9.935303529850945e-06,
+      "residual_weight_fraction": 8.640476401903219e-06,
+      "effective_admission": 0.8696741247957475
+    },
+    {
+      "smallest_prime_factor": 43,
+      "raw_weight_fraction": 8.159778821847667e-06,
+      "residual_weight_fraction": 7.06474870842939e-06,
+      "effective_admission": 0.8658014956868253
+    },
+    {
+      "smallest_prime_factor": 47,
+      "raw_weight_fraction": 6.184357449125014e-06,
+      "residual_weight_fraction": 5.306821270777432e-06,
+      "effective_admission": 0.858103903992202
+    },
+    {
+      "smallest_prime_factor": 53,
+      "raw_weight_fraction": 4.446997322965523e-06,
+      "residual_weight_fraction": 3.841799187070019e-06,
+      "effective_admission": 0.8639085900119405
+    },
+    {
+      "smallest_prime_factor": 59,
+      "raw_weight_fraction": 3.3187610253943246e-06,
+      "residual_weight_fraction": 2.8374924982742685e-06,
+      "effective_admission": 0.8549854830047988
+    },
+    {
+      "smallest_prime_factor": 61,
+      "raw_weight_fraction": 2.879598832895381e-06,
+      "residual_weight_fraction": 2.466875680586467e-06,
+      "effective_admission": 0.856673385336134
+    },
+    {
+      "smallest_prime_factor": 67,
+      "raw_weight_fraction": 2.2239958849050607e-06,
+      "residual_weight_fraction": 1.916113299856179e-06,
+      "effective_admission": 0.8615633297082179
+    },
+    {
+      "smallest_prime_factor": 71,
+      "raw_weight_fraction": 1.853248309053001e-06,
+      "residual_weight_fraction": 1.6003087536299725e-06,
+      "effective_admission": 0.8635155611973663
+    },
+    {
+      "smallest_prime_factor": 73,
+      "raw_weight_fraction": 1.6403275578307736e-06,
+      "residual_weight_fraction": 1.4275214498362249e-06,
+      "effective_admission": 0.8702660898558755
+    },
+    {
+      "smallest_prime_factor": 79,
+      "raw_weight_fraction": 1.3153438925474144e-06,
+      "residual_weight_fraction": 1.1380830908901656e-06,
+      "effective_admission": 0.8652361540874686
+    },
+    {
+      "smallest_prime_factor": 83,
+      "raw_weight_fraction": 1.1221185762459105e-06,
+      "residual_weight_fraction": 9.71955231653585e-07,
+      "effective_admission": 0.8661787196370079
+    },
+    {
+      "smallest_prime_factor": 89,
+      "raw_weight_fraction": 9.225119338063555e-07,
+      "residual_weight_fraction": 7.972375955653539e-07,
+      "effective_admission": 0.8642030160801172
+    },
+    {
+      "smallest_prime_factor": 97,
+      "raw_weight_fraction": 7.384037818323212e-07,
+      "residual_weight_fraction": 6.407366813975373e-07,
+      "effective_admission": 0.8677321232125507
+    },
+    {
+      "smallest_prime_factor": 101,
+      "raw_weight_fraction": 6.486762978387413e-07,
+      "residual_weight_fraction": 5.613229028399869e-07,
+      "effective_admission": 0.8653359228789488
+    },
+    {
+      "smallest_prime_factor": 103,
+      "raw_weight_fraction": 5.936820925338233e-07,
+      "residual_weight_fraction": 5.117712061405702e-07,
+      "effective_admission": 0.8620290431135305
+    },
+    {
+      "smallest_prime_factor": 107,
+      "raw_weight_fraction": 5.241047210684544e-07,
+      "residual_weight_fraction": 4.481718734786106e-07,
+      "effective_admission": 0.8551189399037561
+    },
+    {
+      "smallest_prime_factor": 109,
+      "raw_weight_fraction": 4.808093620526794e-07,
+      "residual_weight_fraction": 4.1176587104454895e-07,
+      "effective_admission": 0.8564015253085572
+    },
+    {
+      "smallest_prime_factor": 113,
+      "raw_weight_fraction": 4.2621314367860486e-07,
+      "residual_weight_fraction": 3.6554020878725703e-07,
+      "effective_admission": 0.8576464949727136
+    },
+    {
+      "smallest_prime_factor": 127,
+      "raw_weight_fraction": 3.2397463904611353e-07,
+      "residual_weight_fraction": 2.786165120904492e-07,
+      "effective_admission": 0.8599948221588785
+    },
+    {
+      "smallest_prime_factor": 131,
+      "raw_weight_fraction": 2.9253696536545274e-07,
+      "residual_weight_fraction": 2.521240625004201e-07,
+      "effective_admission": 0.861853688081618
+    },
+    {
+      "smallest_prime_factor": 137,
+      "raw_weight_fraction": 2.574286739995868e-07,
+      "residual_weight_fraction": 2.2212199708918555e-07,
+      "effective_admission": 0.862848701499127
+    },
+    {
+      "smallest_prime_factor": 139,
+      "raw_weight_fraction": 2.405007822712939e-07,
+      "residual_weight_fraction": 2.0728833590219816e-07,
+      "effective_admission": 0.8619029590863
+    },
+    {
+      "smallest_prime_factor": 149,
+      "raw_weight_fraction": 2.0207856325708855e-07,
+      "residual_weight_fraction": 1.750027433129897e-07,
+      "effective_admission": 0.8660133984144948
+    },
+    {
+      "smallest_prime_factor": 151,
+      "raw_weight_fraction": 1.897700022583654e-07,
+      "residual_weight_fraction": 1.6440686069378914e-07,
+      "effective_admission": 0.8663479935567203
+    },
+    {
+      "smallest_prime_factor": 157,
+      "raw_weight_fraction": 1.6958587116531132e-07,
+      "residual_weight_fraction": 1.4669202548288513e-07,
+      "effective_admission": 0.8650014560463625
+    },
+    {
+      "smallest_prime_factor": 163,
+      "raw_weight_fraction": 1.5213524284929498e-07,
+      "residual_weight_fraction": 1.3133143675967886e-07,
+      "effective_admission": 0.8632545247242659
+    },
+    {
+      "smallest_prime_factor": 167,
+      "raw_weight_fraction": 1.401880289533188e-07,
+      "residual_weight_fraction": 1.2122883966377743e-07,
+      "effective_admission": 0.8647588568646282
+    },
+    {
+      "smallest_prime_factor": 173,
+      "raw_weight_fraction": 1.2649125824294684e-07,
+      "residual_weight_fraction": 1.0960973205977334e-07,
+      "effective_admission": 0.8665399774050014
+    },
+    {
+      "smallest_prime_factor": 179,
+      "raw_weight_fraction": 1.1452741034814553e-07,
+      "residual_weight_fraction": 9.92498136677999e-08,
+      "effective_admission": 0.8666031421307434
+    },
+    {
+      "smallest_prime_factor": 181,
+      "raw_weight_fraction": 1.0849864486294597e-07,
+      "residual_weight_fraction": 9.40107952369444e-08,
+      "effective_admission": 0.8664697642601672
+    },
+    {
+      "smallest_prime_factor": 191,
+      "raw_weight_fraction": 9.460844039094757e-08,
+      "residual_weight_fraction": 8.188349043788016e-08,
+      "effective_admission": 0.8654987874180728
+    },
+    {
+      "smallest_prime_factor": 193,
+      "raw_weight_fraction": 8.990611862159849e-08,
+      "residual_weight_fraction": 7.777806202243978e-08,
+      "effective_admission": 0.8651031010447251
+    },
+    {
+      "smallest_prime_factor": 197,
+      "raw_weight_fraction": 8.374561995410638e-08,
+      "residual_weight_fraction": 7.23486038640993e-08,
+      "effective_admission": 0.8639091083658726
+    },
+    {
+      "smallest_prime_factor": 199,
+      "raw_weight_fraction": 7.963197460126683e-08,
+      "residual_weight_fraction": 6.877096928812294e-08,
+      "effective_admission": 0.8636099962668623
+    },
+    {
+      "smallest_prime_factor": 211,
+      "raw_weight_fraction": 6.88742994864888e-08,
+      "residual_weight_fraction": 5.9410787530564316e-08,
+      "effective_admission": 0.8625973399877416
+    },
+    {
+      "smallest_prime_factor": 223,
+      "raw_weight_fraction": 6.008107133336318e-08,
+      "residual_weight_fraction": 5.1944422570245226e-08,
+      "effective_admission": 0.8645721758526691
+    },
+    {
+      "smallest_prime_factor": 227,
+      "raw_weight_fraction": 5.649136495656317e-08,
+      "residual_weight_fraction": 4.892181647260512e-08,
+      "effective_admission": 0.8660052117738991
+    },
+    {
+      "smallest_prime_factor": 229,
+      "raw_weight_fraction": 5.407567428877728e-08,
+      "residual_weight_fraction": 4.681469211277435e-08,
+      "effective_admission": 0.8657255360843488
+    },
+    {
+      "smallest_prime_factor": 233,
+      "raw_weight_fraction": 5.089382418850719e-08,
+      "residual_weight_fraction": 4.400653711506256e-08,
+      "effective_admission": 0.8646734219080376
+    },
+    {
+      "smallest_prime_factor": 239,
+      "raw_weight_fraction": 4.712975323696342e-08,
+      "residual_weight_fraction": 4.071182254907366e-08,
+      "effective_admission": 0.8638242246756291
+    },
+    {
+      "smallest_prime_factor": 241,
+      "raw_weight_fraction": 4.5161690238962015e-08,
+      "residual_weight_fraction": 3.898549630937364e-08,
+      "effective_admission": 0.8632426311568819
+    },
+    {
+      "smallest_prime_factor": 251,
+      "raw_weight_fraction": 4.059766426329929e-08,
+      "residual_weight_fraction": 3.5007793156233085e-08,
+      "effective_admission": 0.8623105242998055
+    },
+    {
+      "smallest_prime_factor": 257,
+      "raw_weight_fraction": 3.779070466384985e-08,
+      "residual_weight_fraction": 3.246874905893918e-08,
+      "effective_admission": 0.8591728931161849
+    },
+    {
+      "smallest_prime_factor": 263,
+      "raw_weight_fraction": 3.522200630364521e-08,
+      "residual_weight_fraction": 3.018036186576549e-08,
+      "effective_admission": 0.8568609523711901
+    },
+    {
+      "smallest_prime_factor": 269,
+      "raw_weight_fraction": 3.28758650339742e-08,
+      "residual_weight_fraction": 2.818822665642192e-08,
+      "effective_admission": 0.8574139913061438
+    },
+    {
+      "smallest_prime_factor": 271,
+      "raw_weight_fraction": 3.162396244218332e-08,
+      "residual_weight_fraction": 2.7175057117569697e-08,
+      "effective_admission": 0.8593185362919857
+    },
+    {
+      "smallest_prime_factor": 277,
+      "raw_weight_fraction": 2.9553479530003296e-08,
+      "residual_weight_fraction": 2.551564870290966e-08,
+      "effective_admission": 0.86337206679862
+    },
+    {
+      "smallest_prime_factor": 281,
+      "raw_weight_fraction": 2.8046830792740013e-08,
+      "residual_weight_fraction": 2.4221078003737186e-08,
+      "effective_admission": 0.8635941145267246
+    },
+    {
+      "smallest_prime_factor": 283,
+      "raw_weight_fraction": 2.6996471375442755e-08,
+      "residual_weight_fraction": 2.3289959534101957e-08,
+      "effective_admission": 0.8627038404466293
+    },
+    {
+      "smallest_prime_factor": 293,
+      "raw_weight_fraction": 2.4592108829885342e-08,
+      "residual_weight_fraction": 2.1147410551607253e-08,
+      "effective_admission": 0.8599266820870625
+    },
+    {
+      "smallest_prime_factor": 307,
+      "raw_weight_fraction": 2.1891267879014042e-08,
+      "residual_weight_fraction": 1.886336596411988e-08,
+      "effective_admission": 0.8616844884623215
+    },
+    {
+      "smallest_prime_factor": 311,
+      "raw_weight_fraction": 2.0865945828327646e-08,
+      "residual_weight_fraction": 1.7990132495685252e-08,
+      "effective_admission": 0.8621767085804383
+    },
+    {
+      "smallest_prime_factor": 313,
+      "raw_weight_fraction": 2.015749802173893e-08,
+      "residual_weight_fraction": 1.737383649254144e-08,
+      "effective_admission": 0.8619044126311989
+    },
+    {
+      "smallest_prime_factor": 317,
+      "raw_weight_fraction": 1.9216054802180996e-08,
+      "residual_weight_fraction": 1.655400693211287e-08,
+      "effective_admission": 0.8614675125840094
+    },
+    {
+      "smallest_prime_factor": 331,
+      "raw_weight_fraction": 1.724842218340555e-08,
+      "residual_weight_fraction": 1.4838017089290275e-08,
+      "effective_admission": 0.8602535890828152
+    },
+    {
+      "smallest_prime_factor": 337,
+      "raw_weight_fraction": 1.6294507104761905e-08,
+      "residual_weight_fraction": 1.4019955826586847e-08,
+      "effective_admission": 0.860409936701286
+    },
+    {
+      "smallest_prime_factor": 347,
+      "raw_weight_fraction": 1.504790610769687e-08,
+      "residual_weight_fraction": 1.2968506254767119e-08,
+      "effective_admission": 0.8618146712208581
+    },
+    {
+      "smallest_prime_factor": 349,
+      "raw_weight_fraction": 1.4585145032645607e-08,
+      "residual_weight_fraction": 1.2580997878606917e-08,
+      "effective_admission": 0.8625898371560343
+    },
+    {
+      "smallest_prime_factor": 353,
+      "raw_weight_fraction": 1.3956441816427828e-08,
+      "residual_weight_fraction": 1.205512931354247e-08,
+      "effective_admission": 0.8637681059475085
+    },
+    {
+      "smallest_prime_factor": 359,
+      "raw_weight_fraction": 1.3215208248404784e-08,
+      "residual_weight_fraction": 1.1435657905243927e-08,
+      "effective_admission": 0.8653407264031825
+    },
+    {
+      "smallest_prime_factor": 367,
+      "raw_weight_fraction": 1.2386085285422103e-08,
+      "residual_weight_fraction": 1.0731661200286465e-08,
+      "effective_admission": 0.8664288153188459
+    },
+    {
+      "smallest_prime_factor": 373,
+      "raw_weight_fraction": 1.1729994285036316e-08,
+      "residual_weight_fraction": 1.0167938807902671e-08,
+      "effective_admission": 0.86683237526157
+    },
+    {
+      "smallest_prime_factor": 379,
+      "raw_weight_fraction": 1.1129104515485984e-08,
+      "residual_weight_fraction": 9.64093690486271e-09,
+      "effective_admission": 0.8662814597030236
+    },
+    {
+      "smallest_prime_factor": 383,
+      "raw_weight_fraction": 1.0685048239987117e-08,
+      "residual_weight_fraction": 9.247199901971776e-09,
+      "effective_admission": 0.8654336128652731
+    },
+    {
+      "smallest_prime_factor": 389,
+      "raw_weight_fraction": 1.0154777515954576e-08,
+      "residual_weight_fraction": 8.783669944121324e-09,
+      "effective_admission": 0.8649790633345682
+    },
+    {
+      "smallest_prime_factor": 397,
+      "raw_weight_fraction": 9.547579568610624e-09,
+      "residual_weight_fraction": 8.260399789506479e-09,
+      "effective_admission": 0.8651826078165424
+    },
+    {
+      "smallest_prime_factor": 401,
+      "raw_weight_fraction": 9.187262786022268e-09,
+      "residual_weight_fraction": 7.946451443777512e-09,
+      "effective_admission": 0.8649422171604193
+    },
+    {
+      "smallest_prime_factor": 409,
+      "raw_weight_fraction": 8.657345868527421e-09,
+      "residual_weight_fraction": 7.490437759256844e-09,
+      "effective_admission": 0.865211795047636
+    },
+    {
+      "smallest_prime_factor": 419,
+      "raw_weight_fraction": 8.075242690293779e-09,
+      "residual_weight_fraction": 6.99884007687009e-09,
+      "effective_admission": 0.8667033729255598
+    },
+    {
+      "smallest_prime_factor": 421,
+      "raw_weight_fraction": 7.84265867021738e-09,
+      "residual_weight_fraction": 6.7997261214462986e-09,
+      "effective_admission": 0.8670179855293674
+    },
+    {
+      "smallest_prime_factor": 431,
+      "raw_weight_fraction": 7.3277081776297755e-09,
+      "residual_weight_fraction": 6.354041382214643e-09,
+      "effective_admission": 0.8671253314388844
+    },
+    {
+      "smallest_prime_factor": 433,
+      "raw_weight_fraction": 7.128894132552017e-09,
+      "residual_weight_fraction": 6.180324035015381e-09,
+      "effective_admission": 0.8669400779560935
+    },
+    {
+      "smallest_prime_factor": 439,
+      "raw_weight_fraction": 6.793741115548312e-09,
+      "residual_weight_fraction": 5.889474178720525e-09,
+      "effective_admission": 0.8668970569458027
+    },
+    {
+      "smallest_prime_factor": 443,
+      "raw_weight_fraction": 6.5422702578422645e-09,
+      "residual_weight_fraction": 5.670639068620355e-09,
+      "effective_admission": 0.8667693086849965
+    },
+    {
+      "smallest_prime_factor": 449,
+      "raw_weight_fraction": 6.241567663941595e-09,
+      "residual_weight_fraction": 5.40734385109171e-09,
+      "effective_admission": 0.8663438645920141
+    },
+    {
+      "smallest_prime_factor": 457,
+      "raw_weight_fraction": 5.906733938453406e-09,
+      "residual_weight_fraction": 5.111909325239861e-09,
+      "effective_admission": 0.8654375461134013
+    },
+    {
+      "smallest_prime_factor": 461,
+      "raw_weight_fraction": 5.7017447502733824e-09,
+      "residual_weight_fraction": 4.93116730158505e-09,
+      "effective_admission": 0.8648523421446765
+    },
+    {
+      "smallest_prime_factor": 463,
+      "raw_weight_fraction": 5.549513805212052e-09,
+      "residual_weight_fraction": 4.797114379534451e-09,
+      "effective_admission": 0.8644206588024063
+    },
+    {
+      "smallest_prime_factor": 467,
+      "raw_weight_fraction": 5.351188545876636e-09,
+      "residual_weight_fraction": 4.621956258846197e-09,
+      "effective_admission": 0.8637251741779218
+    },
+    {
+      "smallest_prime_factor": 479,
+      "raw_weight_fraction": 4.966254820051813e-09,
+      "residual_weight_fraction": 4.282019029451469e-09,
+      "effective_admission": 0.8622229798121382
+    },
+    {
+      "smallest_prime_factor": 487,
+      "raw_weight_fraction": 4.701685477057236e-09,
+      "residual_weight_fraction": 4.050978550223951e-09,
+      "effective_admission": 0.8616013491313844
+    },
+    {
+      "smallest_prime_factor": 491,
+      "raw_weight_fraction": 4.5378599690384434e-09,
+      "residual_weight_fraction": 3.9084263308684055e-09,
+      "effective_admission": 0.8612928467461253
+    },
+    {
+      "smallest_prime_factor": 499,
+      "raw_weight_fraction": 4.302559419506429e-09,
+      "residual_weight_fraction": 3.7036801774402496e-09,
+      "effective_admission": 0.8608086063027851
+    },
+    {
+      "smallest_prime_factor": 503,
+      "raw_weight_fraction": 4.1430200024717e-09,
+      "residual_weight_fraction": 3.564433287229197e-09,
+      "effective_admission": 0.8603466276056303
+    },
+    {
+      "smallest_prime_factor": 509,
+      "raw_weight_fraction": 3.964046661093779e-09,
+      "residual_weight_fraction": 3.408459403832829e-09,
+      "effective_admission": 0.8598434113518609
+    },
+    {
+      "smallest_prime_factor": 521,
+      "raw_weight_fraction": 3.705179474603238e-09,
+      "residual_weight_fraction": 3.1820907162609116e-09,
+      "effective_admission": 0.8588222886562493
+    },
+    {
+      "smallest_prime_factor": 523,
+      "raw_weight_fraction": 3.6099711620909388e-09,
+      "residual_weight_fraction": 3.0982487065269767e-09,
+      "effective_admission": 0.8582474949003286
+    },
+    {
+      "smallest_prime_factor": 541,
+      "raw_weight_fraction": 3.2801221931006787e-09,
+      "residual_weight_fraction": 2.811918589303278e-09,
+      "effective_admission": 0.8572603164655855
+    },
+    {
+      "smallest_prime_factor": 547,
+      "raw_weight_fraction": 3.1476995418220554e-09,
+      "residual_weight_fraction": 2.697599369878347e-09,
+      "effective_admission": 0.8570066278679297
+    },
+    {
+      "smallest_prime_factor": 557,
+      "raw_weight_fraction": 2.974526555452806e-09,
+      "residual_weight_fraction": 2.5490837461571426e-09,
+      "effective_admission": 0.8569712519406643
+    },
+    {
+      "smallest_prime_factor": 563,
+      "raw_weight_fraction": 2.845199792786944e-09,
+      "residual_weight_fraction": 2.439797859624613e-09,
+      "effective_admission": 0.8575137204107451
+    },
+    {
+      "smallest_prime_factor": 569,
+      "raw_weight_fraction": 2.736818359007051e-09,
+      "residual_weight_fraction": 2.3488956813274307e-09,
+      "effective_admission": 0.8582577917884318
+    },
+    {
+      "smallest_prime_factor": 571,
+      "raw_weight_fraction": 2.6682057024164234e-09,
+      "residual_weight_fraction": 2.290127083534044e-09,
+      "effective_admission": 0.8583022971055128
+    },
+    {
+      "smallest_prime_factor": 577,
+      "raw_weight_fraction": 2.56128027336305e-09,
+      "residual_weight_fraction": 2.1971180877270544e-09,
+      "effective_admission": 0.8578202512925936
+    },
+    {
+      "smallest_prime_factor": 587,
+      "raw_weight_fraction": 2.4164404042906587e-09,
+      "residual_weight_fraction": 2.069989277177802e-09,
+      "effective_admission": 0.8566274895512861
+    },
+    {
+      "smallest_prime_factor": 593,
+      "raw_weight_fraction": 2.3148204718247202e-09,
+      "residual_weight_fraction": 1.9820075107117514e-09,
+      "effective_admission": 0.8562251521602366
+    },
+    {
+      "smallest_prime_factor": 599,
+      "raw_weight_fraction": 2.2328914257473483e-09,
+      "residual_weight_fraction": 1.911545142646183e-09,
+      "effective_admission": 0.8560851282799787
+    },
+    {
+      "smallest_prime_factor": 601,
+      "raw_weight_fraction": 2.1710633340934934e-09,
+      "residual_weight_fraction": 1.8575253610653498e-09,
+      "effective_admission": 0.8555832213162687
+    },
+    {
+      "smallest_prime_factor": 607,
+      "raw_weight_fraction": 2.0837701146265854e-09,
+      "residual_weight_fraction": 1.7805761615838804e-09,
+      "effective_admission": 0.8544974078884714
+    },
+    {
+      "smallest_prime_factor": 613,
+      "raw_weight_fraction": 2.005035489464447e-09,
+      "residual_weight_fraction": 1.7106357482310433e-09,
+      "effective_admission": 0.8531698103198965
+    },
+    {
+      "smallest_prime_factor": 617,
+      "raw_weight_fraction": 1.935995286134983e-09,
+      "residual_weight_fraction": 1.649951403123676e-09,
+      "effective_admission": 0.8522497006785773
+    },
+    {
+      "smallest_prime_factor": 619,
+      "raw_weight_fraction": 1.885641927985466e-09,
+      "residual_weight_fraction": 1.6063474131032096e-09,
+      "effective_admission": 0.8518835889586728
+    },
+    {
+      "smallest_prime_factor": 631,
+      "raw_weight_fraction": 1.7603014923511482e-09,
+      "residual_weight_fraction": 1.5004560256053456e-09,
+      "effective_admission": 0.8523858169325643
+    },
+    {
+      "smallest_prime_factor": 641,
+      "raw_weight_fraction": 1.657805675924268e-09,
+      "residual_weight_fraction": 1.4159351671322551e-09,
+      "effective_admission": 0.8541020143044425
+    },
+    {
+      "smallest_prime_factor": 643,
+      "raw_weight_fraction": 1.6140102796508978e-09,
+      "residual_weight_fraction": 1.380319478625595e-09,
+      "effective_admission": 0.8552110826234335
+    },
+    {
+      "smallest_prime_factor": 647,
+      "raw_weight_fraction": 1.5563128731392244e-09,
+      "residual_weight_fraction": 1.3332930281847518e-09,
+      "effective_admission": 0.85669986491558
+    },
+    {
+      "smallest_prime_factor": 653,
+      "raw_weight_fraction": 1.4966161049427985e-09,
+      "residual_weight_fraction": 1.2853430101581619e-09,
+      "effective_admission": 0.858832806832109
+    },
+    {
+      "smallest_prime_factor": 659,
+      "raw_weight_fraction": 1.4338525147163047e-09,
+      "residual_weight_fraction": 1.2346464270460382e-09,
+      "effective_admission": 0.8610693320088921
+    },
+    {
+      "smallest_prime_factor": 661,
+      "raw_weight_fraction": 1.3997773129051955e-09,
+      "residual_weight_fraction": 1.2075199563617844e-09,
+      "effective_admission": 0.8626514697938726
+    },
+    {
+      "smallest_prime_factor": 673,
+      "raw_weight_fraction": 1.3015916073462501e-09,
+      "residual_weight_fraction": 1.125868509945979e-09,
+      "effective_admission": 0.8649936766582691
+    },
+    {
+      "smallest_prime_factor": 677,
+      "raw_weight_fraction": 1.2526974728511546e-09,
+      "residual_weight_fraction": 1.0849366405356473e-09,
+      "effective_admission": 0.8660803298870865
+    },
+    {
+      "smallest_prime_factor": 683,
+      "raw_weight_fraction": 1.203517350627278e-09,
+      "residual_weight_fraction": 1.0436250416325713e-09,
+      "effective_admission": 0.8671458214446431
+    },
+    {
+      "smallest_prime_factor": 691,
+      "raw_weight_fraction": 1.1391494982552101e-09,
+      "residual_weight_fraction": 9.886731602366844e-10,
+      "effective_admission": 0.8679046619877336
+    },
+    {
+      "smallest_prime_factor": 701,
+      "raw_weight_fraction": 1.0609976130782071e-09,
+      "residual_weight_fraction": 9.210276511313367e-10,
+      "effective_admission": 0.8680770246590997
+    },
+    {
+      "smallest_prime_factor": 709,
+      "raw_weight_fraction": 1.0130122393341784e-09,
+      "residual_weight_fraction": 8.793984951555978e-10,
+      "effective_admission": 0.8681025371752659
+    },
+    {
+      "smallest_prime_factor": 719,
+      "raw_weight_fraction": 9.56772045220475e-10,
+      "residual_weight_fraction": 8.312699369517125e-10,
+      "effective_admission": 0.8688275761235874
+    },
+    {
+      "smallest_prime_factor": 727,
+      "raw_weight_fraction": 9.133008007404241e-10,
+      "residual_weight_fraction": 7.946271700715404e-10,
+      "effective_admission": 0.8700607394927569
+    },
+    {
+      "smallest_prime_factor": 733,
+      "raw_weight_fraction": 8.709534887457607e-10,
+      "residual_weight_fraction": 7.584434775471332e-10,
+      "effective_admission": 0.8708197249882419
+    },
+    {
+      "smallest_prime_factor": 739,
+      "raw_weight_fraction": 8.352147286876612e-10,
+      "residual_weight_fraction": 7.27552258373529e-10,
+      "effective_admission": 0.8710960587544979
+    },
+    {
+      "smallest_prime_factor": 743,
+      "raw_weight_fraction": 8.100454403563118e-10,
+      "residual_weight_fraction": 7.056365027599376e-10,
+      "effective_admission": 0.8711073078191167
+    },
+    {
+      "smallest_prime_factor": 751,
+      "raw_weight_fraction": 7.775852293061453e-10,
+      "residual_weight_fraction": 6.774514034160356e-10,
+      "effective_admission": 0.8712246296403274
+    },
+    {
+      "smallest_prime_factor": 757,
+      "raw_weight_fraction": 7.450504117414587e-10,
+      "residual_weight_fraction": 6.496231482861604e-10,
+      "effective_admission": 0.8719183803519424
+    },
+    {
+      "smallest_prime_factor": 761,
+      "raw_weight_fraction": 7.118617219515698e-10,
+      "residual_weight_fraction": 6.213997375366097e-10,
+      "effective_admission": 0.8729219711842935
+    },
+    {
+      "smallest_prime_factor": 769,
+      "raw_weight_fraction": 6.671947298140706e-10,
+      "residual_weight_fraction": 5.833536592746088e-10,
+      "effective_admission": 0.8743379304527391
+    },
+    {
+      "smallest_prime_factor": 773,
+      "raw_weight_fraction": 6.41029220397793e-10,
+      "residual_weight_fraction": 5.60902123007298e-10,
+      "effective_admission": 0.875002426034851
+    },
+    {
+      "smallest_prime_factor": 787,
+      "raw_weight_fraction": 5.797013372173613e-10,
+      "residual_weight_fraction": 5.073149675454313e-10,
+      "effective_admission": 0.8751316151530826
+    },
+    {
+      "smallest_prime_factor": 797,
+      "raw_weight_fraction": 5.477371341476798e-10,
+      "residual_weight_fraction": 4.790945449953342e-10,
+      "effective_admission": 0.8746796868918544
+    },
+    {
+      "smallest_prime_factor": 809,
+      "raw_weight_fraction": 5.095876248658729e-10,
+      "residual_weight_fraction": 4.456027793857761e-10,
+      "effective_admission": 0.8744379919019067
+    },
+    {
+      "smallest_prime_factor": 811,
+      "raw_weight_fraction": 4.953329440871059e-10,
+      "residual_weight_fraction": 4.331319097546932e-10,
+      "effective_admission": 0.8744258077825842
+    },
+    {
+      "smallest_prime_factor": 821,
+      "raw_weight_fraction": 4.566383254183856e-10,
+      "residual_weight_fraction": 3.991542287306051e-10,
+      "effective_admission": 0.8741146034224969
+    },
+    {
+      "smallest_prime_factor": 823,
+      "raw_weight_fraction": 4.379933816179907e-10,
+      "residual_weight_fraction": 3.828035039089699e-10,
+      "effective_admission": 0.873993808981442
+    },
+    {
+      "smallest_prime_factor": 827,
+      "raw_weight_fraction": 4.176084220651464e-10,
+      "residual_weight_fraction": 3.649347475483231e-10,
+      "effective_admission": 0.8738682657396064
+    },
+    {
+      "smallest_prime_factor": 829,
+      "raw_weight_fraction": 4.0477751575465297e-10,
+      "residual_weight_fraction": 3.537482762091713e-10,
+      "effective_admission": 0.8739326233317468
+    },
+    {
+      "smallest_prime_factor": 839,
+      "raw_weight_fraction": 3.744626218679555e-10,
+      "residual_weight_fraction": 3.2752527441678126e-10,
+      "effective_admission": 0.8746541184350157
+    },
+    {
+      "smallest_prime_factor": 853,
+      "raw_weight_fraction": 3.4234784151315943e-10,
+      "residual_weight_fraction": 3.004218332653973e-10,
+      "effective_admission": 0.8775338904943832
+    },
+    {
+      "smallest_prime_factor": 857,
+      "raw_weight_fraction": 3.2435830714547376e-10,
+      "residual_weight_fraction": 2.8523378185590646e-10,
+      "effective_admission": 0.8793786857691916
+    },
+    {
+      "smallest_prime_factor": 859,
+      "raw_weight_fraction": 3.133871510812089e-10,
+      "residual_weight_fraction": 2.760110360425972e-10,
+      "effective_admission": 0.8807350112802602
+    },
+    {
+      "smallest_prime_factor": 863,
+      "raw_weight_fraction": 2.959277572364576e-10,
+      "residual_weight_fraction": 2.611061289029515e-10,
+      "effective_admission": 0.8823306449564234
+    },
+    {
+      "smallest_prime_factor": 877,
+      "raw_weight_fraction": 2.675142039514513e-10,
+      "residual_weight_fraction": 2.365317099943651e-10,
+      "effective_admission": 0.8841837423978096
+    },
+    {
+      "smallest_prime_factor": 881,
+      "raw_weight_fraction": 2.565107190519945e-10,
+      "residual_weight_fraction": 2.2688151075431805e-10,
+      "effective_admission": 0.8844913444273234
+    },
+    {
+      "smallest_prime_factor": 883,
+      "raw_weight_fraction": 2.4681924927619975e-10,
+      "residual_weight_fraction": 2.1835315252150626e-10,
+      "effective_admission": 0.884668246750727
+    },
+    {
+      "smallest_prime_factor": 887,
+      "raw_weight_fraction": 2.3091434028334222e-10,
+      "residual_weight_fraction": 2.0434474142726022e-10,
+      "effective_admission": 0.8849374238798685
+    },
+    {
+      "smallest_prime_factor": 907,
+      "raw_weight_fraction": 1.9233513264479715e-10,
+      "residual_weight_fraction": 1.7017122122096493e-10,
+      "effective_admission": 0.8847641035776636
+    },
+    {
+      "smallest_prime_factor": 911,
+      "raw_weight_fraction": 1.8307477698797316e-10,
+      "residual_weight_fraction": 1.6185683952768748e-10,
+      "effective_admission": 0.8841023443569205
+    },
+    {
+      "smallest_prime_factor": 919,
+      "raw_weight_fraction": 1.5675087582527166e-10,
+      "residual_weight_fraction": 1.3852545769583063e-10,
+      "effective_admission": 0.8837300395708365
+    },
+    {
+      "smallest_prime_factor": 929,
+      "raw_weight_fraction": 1.411310386576584e-10,
+      "residual_weight_fraction": 1.2454890131604387e-10,
+      "effective_admission": 0.8825053829452937
+    },
+    {
+      "smallest_prime_factor": 937,
+      "raw_weight_fraction": 1.2659980845004095e-10,
+      "residual_weight_fraction": 1.1161785953961696e-10,
+      "effective_admission": 0.8816589922698326
+    },
+    {
+      "smallest_prime_factor": 941,
+      "raw_weight_fraction": 1.1348173557095123e-10,
+      "residual_weight_fraction": 1.0001729638451096e-10,
+      "effective_admission": 0.8813514869269689
+    },
+    {
+      "smallest_prime_factor": 947,
+      "raw_weight_fraction": 1.002022892614604e-10,
+      "residual_weight_fraction": 8.82696796327513e-11,
+      "effective_admission": 0.8809148002839233
+    },
+    {
+      "smallest_prime_factor": 953,
+      "raw_weight_fraction": 8.721584108308737e-11,
+      "residual_weight_fraction": 7.67853776974007e-11,
+      "effective_admission": 0.8804063200428243
+    },
+    {
+      "smallest_prime_factor": 967,
+      "raw_weight_fraction": 6.813706449891571e-11,
+      "residual_weight_fraction": 5.989492068758496e-11,
+      "effective_admission": 0.8790358247461348
+    },
+    {
+      "smallest_prime_factor": 971,
+      "raw_weight_fraction": 5.0978288883570286e-11,
+      "residual_weight_fraction": 4.479799657071875e-11,
+      "effective_admission": 0.8787661875633616
+    },
+    {
+      "smallest_prime_factor": 977,
+      "raw_weight_fraction": 4.4493684364550994e-11,
+      "residual_weight_fraction": 3.90382694347704e-11,
+      "effective_admission": 0.8773890045813553
+    },
+    {
+      "smallest_prime_factor": 983,
+      "raw_weight_fraction": 2.7616622633551527e-11,
+      "residual_weight_fraction": 2.421391358550937e-11,
+      "effective_admission": 0.8767876473096246
+    },
+    {
+      "smallest_prime_factor": 991,
+      "raw_weight_fraction": 1.6301310338804485e-11,
+      "residual_weight_fraction": 1.4274818843445028e-11,
+      "effective_admission": 0.8756853618978412
+    },
+    {
+      "smallest_prime_factor": 997,
+      "raw_weight_fraction": 5.391476344281395e-12,
+      "residual_weight_fraction": 4.718833573184931e-12,
+      "effective_admission": 0.8752395952158967
+    }
+  ],
+  "prime_power_residue_fraction": 0.02384407201846238,
+  "non_prime_power_residue_fraction": 0.026155927981538495,
+  "naive_attempt_sum_without_reservoir_depletion": 0.09772458157261726,
+  "per_address_completeness_max_error": 2.220446049250313e-16,
+  "frozen_threshold_sensitivity": [
+    {
+      "case": "recovery_after_4_frames",
+      "J": 4,
+      "K": 4,
+      "xi": 0.1,
+      "threshold": 1.44767317035244,
+      "threshold_refitted": false,
+      "phenotype": 0.037047946192021904,
+      "nonphenotypic_Actual": 0.2679999999999976,
+      "Actual": 0.30504794619201947,
+      "return": 0.6949520538079801,
+      "weighted_effective_beta": 0.6412680965482129
+    },
+    {
+      "case": "recovery_after_16_frames",
+      "J": 4,
+      "K": 16,
+      "xi": 0.1,
+      "threshold": 1.44767317035244,
+      "threshold_refitted": false,
+      "phenotype": 0.05682473858490965,
+      "nonphenotypic_Actual": 0.2679999999999976,
+      "Actual": 0.32482473858490724,
+      "return": 0.6751752614150922,
+      "weighted_effective_beta": 0.9835873697377037
+    },
+    {
+      "case": "phase_step_005",
+      "J": 4,
+      "K": 8,
+      "xi": 0.05,
+      "threshold": 1.44767317035244,
+      "threshold_refitted": false,
+      "phenotype": 0.04983465447203275,
+      "nonphenotypic_Actual": 0.2679999999999976,
+      "Actual": 0.3178346544720303,
+      "return": 0.6821653455279694,
+      "weighted_effective_beta": 0.8625950234806861
+    },
+    {
+      "case": "phase_step_020",
+      "J": 4,
+      "K": 8,
+      "xi": 0.2,
+      "threshold": 1.44767317035244,
+      "threshold_refitted": false,
+      "phenotype": 0.046763328413147655,
+      "nonphenotypic_Actual": 0.2679999999999976,
+      "Actual": 0.31476332841314525,
+      "return": 0.6852366715868543,
+      "weighted_effective_beta": 0.8094330099792655
+    },
+    {
+      "case": "one_zero",
+      "J": 1,
+      "K": 8,
+      "xi": 0.1,
+      "threshold": 1.44767317035244,
+      "threshold_refitted": false,
+      "phenotype": 0.04989889502390886,
+      "nonphenotypic_Actual": 0.2679999999999976,
+      "Actual": 0.31789889502390645,
+      "return": 0.6821011049760931,
+      "weighted_effective_beta": 0.8637069722027362
+    },
+    {
+      "case": "two_zeros",
+      "J": 2,
+      "K": 8,
+      "xi": 0.1,
+      "threshold": 1.44767317035244,
+      "threshold_refitted": false,
+      "phenotype": 0.04963693511220099,
+      "nonphenotypic_Actual": 0.2679999999999976,
+      "Actual": 0.3176369351121986,
+      "return": 0.682363064887801,
+      "weighted_effective_beta": 0.8591726713515592
+    },
+    {
+      "case": "eight_zeros",
+      "J": 8,
+      "K": 8,
+      "xi": 0.1,
+      "threshold": 1.44767317035244,
+      "threshold_refitted": false,
+      "phenotype": 0.05041635081560798,
+      "nonphenotypic_Actual": 0.2679999999999976,
+      "Actual": 0.31841635081560554,
+      "return": 0.6815836491843941,
+      "weighted_effective_beta": 0.8726636870735379
+    },
+    {
+      "case": "static_phase",
+      "J": 4,
+      "K": 8,
+      "xi": 0,
+      "threshold": 1.44767317035244,
+      "threshold_refitted": false,
+      "phenotype": 0.04859795776963851,
+      "nonphenotypic_Actual": 0.2679999999999976,
+      "Actual": 0.31659795776963606,
+      "return": 0.6834020422303635,
+      "weighted_effective_beta": 0.8411888668143662
+    },
+    {
+      "case": "zero_drive",
+      "J": 0,
+      "K": 8,
+      "xi": null,
+      "threshold": 1.44767317035244,
+      "threshold_refitted": false,
+      "phenotype": 0.04710549810611805,
+      "nonphenotypic_Actual": 0.2679999999999976,
+      "Actual": 0.3151054981061156,
+      "return": 0.6848945018938839,
+      "weighted_effective_beta": 0.8153556731835989
+    },
+    {
+      "case": "threshold_shift_-0.1",
+      "J": 4,
+      "K": 8,
+      "xi": 0.1,
+      "threshold": 1.3476731703524398,
+      "threshold_refitted": false,
+      "phenotype": 0.051243096339321316,
+      "nonphenotypic_Actual": 0.2679999999999976,
+      "Actual": 0.3192430963393189,
+      "return": 0.6807569036606806,
+      "weighted_effective_beta": 0.8869739412931247
+    },
+    {
+      "case": "threshold_shift_+0.1",
+      "J": 4,
+      "K": 8,
+      "xi": 0.1,
+      "threshold": 1.54767317035244,
+      "threshold_refitted": false,
+      "phenotype": 0.04863067442134321,
+      "nonphenotypic_Actual": 0.2679999999999976,
+      "Actual": 0.3166306744213408,
+      "return": 0.6833693255786588,
+      "weighted_effective_beta": 0.8417551639271769
+    }
+  ],
+  "same_aggregate_different_address_controls": [
+    {
+      "case": "static_zeta_phase",
+      "frequencies": [
+        14.134725141734695,
+        21.022039638771556,
+        25.01085758014569,
+        30.424876125859512
+      ],
+      "xi": 0.0,
+      "threshold_refitted_to_5_percent": 1.327223188267821,
+      "phenotype": 0.049999999999999996,
+      "nonphenotypic_Actual": 0.2679999999999976,
+      "Actual": 0.31799999999999756,
+      "return": 0.682000000000002,
+      "weighted_effective_beta": 0.865457012413696,
+      "weighted_address_admission_absolute_difference": 0.08938131730714031,
+      "address_9_cumulative_admission": 0.8038671714112208
+    },
+    {
+      "case": "equally_spaced_control",
+      "frequencies": [
+        14.0,
+        21.0,
+        28.0,
+        35.0
+      ],
+      "xi": 0.1,
+      "threshold_refitted_to_5_percent": 1.5258414200781683,
+      "phenotype": 0.050000000000002785,
+      "nonphenotypic_Actual": 0.2679999999999976,
+      "Actual": 0.31800000000000034,
+      "return": 0.6819999999999993,
+      "weighted_effective_beta": 0.8654570124137443,
+      "weighted_address_admission_absolute_difference": 0.027085904839711124,
+      "address_9_cumulative_admission": 0.8858008519974042
+    }
+  ],
+  "fixed_parameter_cutoff_sensitivity": [
+    {
+      "N": 10000,
+      "phenotype": 0.049891158638527194,
+      "nonphenotypic_Actual": 0.2679147547175599,
+      "Actual": 0.3178059133560871,
+      "return": 0.6821940866439129
+    },
+    {
+      "N": 100000,
+      "phenotype": 0.04998723938464016,
+      "nonphenotypic_Actual": 0.2679904640330951,
+      "Actual": 0.3179777034177353,
+      "return": 0.6820222965822648
+    },
+    {
+      "N": 1000000,
+      "phenotype": 0.05000000000000089,
+      "nonphenotypic_Actual": 0.2679999999999976,
+      "Actual": 0.31799999999999845,
+      "return": 0.6820000000000015
+    }
+  ],
+  "return_leakage_stress": [
+    {
+      "return_event_count": 1,
+      "epsilon_probability": 0.0,
+      "residue_survival_fraction": 1.0,
+      "Actual": 0.3179999999999984,
+      "return": 0.6820000000000016
+    },
+    {
+      "return_event_count": 1000,
+      "epsilon_probability": 0.0,
+      "residue_survival_fraction": 1.0,
+      "Actual": 0.3179999999999984,
+      "return": 0.6820000000000016
+    },
+    {
+      "return_event_count": 1000000,
+      "epsilon_probability": 0.0,
+      "residue_survival_fraction": 1.0,
+      "Actual": 0.3179999999999984,
+      "return": 0.6820000000000016
+    },
+    {
+      "return_event_count": 1,
+      "epsilon_probability": 1e-08,
+      "residue_survival_fraction": 0.99999999,
+      "Actual": 0.31799999681999835,
+      "return": 0.6820000031800016
+    },
+    {
+      "return_event_count": 1000,
+      "epsilon_probability": 1e-08,
+      "residue_survival_fraction": 0.9999900000499499,
+      "Actual": 0.3179968200158825,
+      "return": 0.6820031799841175
+    },
+    {
+      "return_event_count": 1000000,
+      "epsilon_probability": 1e-08,
+      "residue_survival_fraction": 0.9900498336996656,
+      "Actual": 0.3148358471164921,
+      "return": 0.685164152883508
+    },
+    {
+      "return_event_count": 1,
+      "epsilon_probability": 1e-06,
+      "residue_survival_fraction": 0.999999,
+      "Actual": 0.3179996819999984,
+      "return": 0.6820003180000016
+    },
+    {
+      "return_event_count": 1000,
+      "epsilon_probability": 1e-06,
+      "residue_survival_fraction": 0.9990004993338744,
+      "Actual": 0.31768215878817047,
+      "return": 0.6823178412118296
+    },
+    {
+      "return_event_count": 1000000,
+      "epsilon_probability": 1e-06,
+      "residue_survival_fraction": 0.3678792572316451,
+      "Actual": 0.11698560379966255,
+      "return": 0.8830143962003374
+    },
+    {
+      "return_event_count": 1,
+      "epsilon_probability": 0.0001,
+      "residue_survival_fraction": 0.9999,
+      "Actual": 0.3179681999999984,
+      "return": 0.6820318000000016
+    },
+    {
+      "return_event_count": 1000,
+      "epsilon_probability": 0.0001,
+      "residue_survival_fraction": 0.9048328935585462,
+      "Actual": 0.28773686015161626,
+      "return": 0.7122631398483837
+    },
+    {
+      "return_event_count": 1000000,
+      "epsilon_probability": 0.0001,
+      "residue_survival_fraction": 3.7015207857526025e-44,
+      "Actual": 1.1770836098693216e-44,
+      "return": 1.0
+    }
+  ],
+  "retention_condition": {
+    "formula": "(1-epsilon)^L >= 1-delta",
+    "delta": 0.01,
+    "L": 1000000,
+    "epsilon_max": 1.0050335802996816e-08,
+    "physical_time_assigned": false
+  },
+  "verification": {
+    "zero_dps_comparison_below_1e_36": true,
+    "high_precision_zeta_residual_below_1e_55": true,
+    "independent_Euler_Maclaurin_residual_below_1e_11": true,
+    "matter_target_within_1e_10": true,
+    "dark_target_within_1e_10": true,
+    "sequential_and_product_results_agree": true,
+    "each_address_admission_survival_complete": true,
+    "each_frame_weight_ledger_complete": true,
+    "first_stage_effects_are_probabilities": true,
+    "odd_prime_families_exhaust_support": true,
+    "prime_family_residue_partition": true,
+    "early_recovery_reduces_residue": true,
+    "late_recovery_increases_residue": true,
+    "zero_leakage_recovers_blocked_residue": true,
+    "all_passed": true
+  },
+  "falsification_conditions": [
+    "negative admission/return weights or failure of a common per-frame ledger",
+    "independent zero recomputation or normalization convergence fails tolerance",
+    "a proposed normal return/internal evolution maps preserved folds outside the blocked subspace at a rate inconsistent with the chosen retention horizon",
+    "a future shared physical readout maps these address weights to incompatible energy fractions or particle responses under frozen calibrated parameters"
+  ],
+  "scope": "phase-resolved extension of the calibrated arithmetic partition; physical energy, gravity and particle readout are the continuing WRRA tasks",
+  "sources": [
+    "https://dlmf.nist.gov/25.10",
+    "https://dlmf.nist.gov/25.11.iii",
+    "https://mpmath.readthedocs.io/en/latest/functions/zeta.html"
+  ],
+  "runtime": {
+    "numpy": "2.3.5",
+    "mpmath": "1.4.1"
+  }
+}
