@@ -1,0 +1,10 @@
+{
+  "version": "upstream-0.9",
+  "preparation_map": "address dephasing; v_3(n) odd prepares mixture (1-lambda)|g><g|+lambda|e1><e1|; other addresses prepare |g><g|",
+  "trace_contract": "conditional phi density has trace 1; unnormalized density has trace f_phi; D and R remain outside nucleon preparation",
+  "energy_contract": "excitation above frozen ground computed from same H; energy supply and creation rest mass are not supplied by dimensionless phi norm",
+  "physical_time_unit": null,
+  "species_selection": "externally specified proton/neutron channel",
+  "next_stage": "0.10 integrate SOURCE-filter-record-preparation-current ledgers; preserve open interfaces",
+  "results_sha256": "8ae5f18c860acef5164abe0bb94b25e28580c696ba9100074932c71c937680ea"
+}

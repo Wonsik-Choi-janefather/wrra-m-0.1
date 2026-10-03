@@ -1,0 +1,10 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "reportlab": "4.4.9",
+    "pypdf": "6.10.0"
+  },
+  "mpmath": "not installed; not imported by executed bridge calculations"
+}

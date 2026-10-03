@@ -1,0 +1,11 @@
+{
+  "clean_directory_replay": "passed",
+  "byte_identical_results": {
+    "review_checks.json": true,
+    "studies/bridge_0_1/audit_results.json": true,
+    "studies/bridge_0_2/results.json": true,
+    "studies/bridge_0_3/results.json": true,
+    "studies/bridge_0_4/results.json": true
+  },
+  "numerical_values_unchanged_from_initial_stages": true
+}

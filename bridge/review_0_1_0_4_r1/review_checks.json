@@ -1,0 +1,176 @@
+{
+  "version": "bridge-0.1-0.4-r1",
+  "stages": [
+    {
+      "stage": "0.1",
+      "passed": 15,
+      "failed": 0
+    },
+    {
+      "stage": "0.2",
+      "passed": 95,
+      "failed": 0
+    },
+    {
+      "stage": "0.3",
+      "passed": 134,
+      "failed": 0
+    },
+    {
+      "stage": "0.4",
+      "passed": 600,
+      "failed": 0
+    }
+  ],
+  "stage_case_checks": 844,
+  "cross_checks": [
+    {
+      "name": "inherited proton baseline SI propagation",
+      "passed": true
+    },
+    {
+      "name": "inherited proton baseline gravity propagation",
+      "passed": true
+    },
+    {
+      "name": "alternate proton baseline SI propagation",
+      "passed": true
+    },
+    {
+      "name": "alternate proton baseline gravity propagation",
+      "passed": true
+    },
+    {
+      "name": "inherited neutron baseline SI propagation",
+      "passed": true
+    },
+    {
+      "name": "inherited neutron baseline gravity propagation",
+      "passed": true
+    },
+    {
+      "name": "alternate neutron baseline SI propagation",
+      "passed": true
+    },
+    {
+      "name": "alternate neutron baseline gravity propagation",
+      "passed": true
+    },
+    {
+      "name": "inherited proton p3_low SI propagation",
+      "passed": true
+    },
+    {
+      "name": "inherited proton p3_low gravity propagation",
+      "passed": true
+    },
+    {
+      "name": "alternate proton p3_low SI propagation",
+      "passed": true
+    },
+    {
+      "name": "alternate proton p3_low gravity propagation",
+      "passed": true
+    },
+    {
+      "name": "inherited neutron p3_low SI propagation",
+      "passed": true
+    },
+    {
+      "name": "inherited neutron p3_low gravity propagation",
+      "passed": true
+    },
+    {
+      "name": "alternate neutron p3_low SI propagation",
+      "passed": true
+    },
+    {
+      "name": "alternate neutron p3_low gravity propagation",
+      "passed": true
+    },
+    {
+      "name": "inherited proton p3_high SI propagation",
+      "passed": true
+    },
+    {
+      "name": "inherited proton p3_high gravity propagation",
+      "passed": true
+    },
+    {
+      "name": "alternate proton p3_high SI propagation",
+      "passed": true
+    },
+    {
+      "name": "alternate proton p3_high gravity propagation",
+      "passed": true
+    },
+    {
+      "name": "inherited neutron p3_high SI propagation",
+      "passed": true
+    },
+    {
+      "name": "inherited neutron p3_high gravity propagation",
+      "passed": true
+    },
+    {
+      "name": "alternate neutron p3_high SI propagation",
+      "passed": true
+    },
+    {
+      "name": "alternate neutron p3_high gravity propagation",
+      "passed": true
+    },
+    {
+      "name": "inherited proton p3_phase SI propagation",
+      "passed": true
+    },
+    {
+      "name": "inherited proton p3_phase gravity propagation",
+      "passed": true
+    },
+    {
+      "name": "alternate proton p3_phase SI propagation",
+      "passed": true
+    },
+    {
+      "name": "alternate proton p3_phase gravity propagation",
+      "passed": true
+    },
+    {
+      "name": "inherited neutron p3_phase SI propagation",
+      "passed": true
+    },
+    {
+      "name": "inherited neutron p3_phase gravity propagation",
+      "passed": true
+    },
+    {
+      "name": "alternate neutron p3_phase SI propagation",
+      "passed": true
+    },
+    {
+      "name": "alternate neutron p3_phase gravity propagation",
+      "passed": true
+    },
+    {
+      "name": "inherited proton internal exchange no extra total load",
+      "passed": true
+    },
+    {
+      "name": "inherited neutron internal exchange no extra total load",
+      "passed": true
+    },
+    {
+      "name": "alternate proton internal exchange no extra total load",
+      "passed": true
+    },
+    {
+      "name": "alternate neutron internal exchange no extra total load",
+      "passed": true
+    }
+  ],
+  "cross_passed": 36,
+  "cross_failed": 0,
+  "count_scope": "implementation and mathematical case checks; repeated source checks not experiments",
+  "closure": "upstream 0.10; downstream 0.12; bridge 0.8 then consolidated 1.0"
+}

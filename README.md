@@ -1,5 +1,15 @@
 # WRRA-M Research Notes
 
+## Upstream–downstream bridge 0.1–0.4 reviewed r1
+
+상하류 연결 연구 0.1–0.4 검토판입니다. 조건부 결합 상태, SI 에너지 교체·교환, 같은 에너지의 압력·균일 팽창을 선언한 가정 아래 실행했습니다. 공급 장치·실제 입자 풍부도·소스 프레임 SI 시간·영속 기록·비균질 공변 동역학은 후속 과제로 유지합니다.
+
+- [Reviewed bilingual PDFs, sources and results](bridge/review_0_1_0_4_r1/README.md)
+- [Zenodo reviewed report and package](https://doi.org/10.5281/zenodo.23119802)
+- 844 stage case checks + 36 cross-stage checks passed; five clean replay JSON files byte-identical. Numerical rows preserved.
+- Upstream closes at 0.10; downstream at 0.12; bridge ends at 0.8 with consolidated 1.0.
+
+
 ## Upstream integrated manuscript 1.0-r1 — reviewed release
 
 상류 개발은 0.10에서 마감했습니다. 한·영 통합 논문 1.0-r1은 단위·기호·기준 부피의 적용 범위와 Physics 준비 원고 인용을 재검토한 개정판입니다.

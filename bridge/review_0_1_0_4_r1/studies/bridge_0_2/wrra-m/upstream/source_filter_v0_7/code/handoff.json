@@ -1,0 +1,24 @@
+{
+  "N": 1000000,
+  "address_basis": "n=2..N; prime-factor exponents label relation ports",
+  "alpha": 1.8996876950554356,
+  "baseline_density": "rho=|psi><psi| or dephased diag(|psi|^2); diagonal output agrees",
+  "baseline_outputs": {
+    "Actual": 0.3179999999999976,
+    "dark": 0.26799999999999763,
+    "phenotype": 0.05,
+    "return": 0.6820000000000018,
+    "sum": 0.9999999999999994
+  },
+  "beta": 0.8654570124136961,
+  "energy_map": null,
+  "initial_gate": "A=diag(1 on primes/even composites, sqrt(beta) on odd composites)",
+  "normal_return_gate": "B=prime projector; K=ker(B) is composite residue",
+  "parent_upstream_0_6_sha256": "49ecf74da93760fe5cc203b987d5eee9590f632ff3f152c82acb41f4d779a549",
+  "physical_time_unit": null,
+  "reference_protocol": "one complete initial release, followed by no new release and no fold leakage",
+  "source_amplitude_rule": "z_p=p^(-alpha/2) exp(epsilon_p/2+i theta_p); g_n=product z_p^v_p(n)",
+  "source_filter_parent_doi": "10.5281/zenodo.23092499",
+  "upstream_0_4_to_0_6_doi": "10.5281/zenodo.23112253",
+  "version": "upstream-0.7"
+}

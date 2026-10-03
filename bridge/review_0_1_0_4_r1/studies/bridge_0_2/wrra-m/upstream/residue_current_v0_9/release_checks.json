@@ -1,0 +1,11 @@
+{
+  "implementation_checks": 183,
+  "independent_audit_checks": 135,
+  "total_counted_checks": 318,
+  "archive_clean_copy_byte_identical": true,
+  "output_files": [
+    "results.json",
+    "audit.json",
+    "handoff.json"
+  ]
+}

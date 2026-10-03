@@ -1,0 +1,18 @@
+{
+  "version": "upstream-0.7",
+  "N": 1000000,
+  "alpha": 1.8996876950554356,
+  "beta": 0.8654570124136961,
+  "controlled_primes": [2, 3, 5],
+  "log_intensity_scan": [-0.15, -0.1, -0.05, 0.0, 0.05, 0.1, 0.15],
+  "derivative_step": 0.00001,
+  "coherent_N": 161,
+  "coherent_pair": [3, 9],
+  "mixing_angle": 0.25,
+  "phase_scan": [0.0, 1.5707963267948966, 3.141592653589793],
+  "reference_event_count": 8,
+  "recycling_event_count": 32,
+  "recycling_release_fraction": 0.2,
+  "leakage_control": 0.1,
+  "retention_target": 0.318
+}

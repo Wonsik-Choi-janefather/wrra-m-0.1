@@ -1,0 +1,10 @@
+{
+  "version": "upstream-0.9",
+  "reference_preparation_strength": 0.2,
+  "preparation_strength_scan": [0.0, 0.2, 1.0],
+  "selector_prime": 3,
+  "excited_mode_index": 1,
+  "Q2_GeV2": [0.0, 0.01, 0.1],
+  "source_controls": [{"name":"baseline","controls":{}},{"name":"p3_low","controls":{"3":{"epsilon":-0.15}}},{"name":"p3_high","controls":{"3":{"epsilon":0.15}}},{"name":"p3_phase","controls":{"3":{"phase":0.7}}}],
+  "contract": "Only phi is prepared as a conditional nucleon test state. D and return stay in their original ledgers. Species selection and preparation strength are construction inputs, not arithmetic predictions."
+}
