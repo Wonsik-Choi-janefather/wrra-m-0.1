@@ -1,0 +1,12 @@
+{
+  "embedded_Korean_font": "NanumGothic",
+  "missing_source_glyphs": 0,
+  "rendered_pages_inspected": 7,
+  "page_counts": {
+    "0.8-r1": 2,
+    "0.9": 2,
+    "0.10": 3
+  },
+  "tables_kept_together": true,
+  "upstream_endpoint": "0.10"
+}

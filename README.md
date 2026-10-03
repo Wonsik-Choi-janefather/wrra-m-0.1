@@ -1,5 +1,13 @@
 # WRRA-M Research Notes
 
+## Upstream closes at 0.10 · 상류 개발 0.10 마감
+
+**상류 개발은 0.10에서 마무리합니다.** SOURCE → 필터 → 실제 조건부 기록 → 내부 상태 → 동일 상태 전류와 유한 stock 장부를 한 번 실행으로 통합했습니다. **156개 통합 검사 + 309개 독립 감사**, 새 복사본의 바이트 동일 재현을 완료했습니다. 미계산 물리 대응은 0.10 마감 장부에 남기며 추가 개발 단계는 만들지 않습니다. 1.0을 만든다면 0.10까지의 검토·정리·동결판으로만 둡니다.
+
+[0.10 한국어 PDF](upstream/generator_v0_10/paper/WRRA_M_Upstream_0_10_KO_2026_10_03.pdf) · [한국어 원고](upstream/generator_v0_10/README.md) · [English](upstream/generator_v0_10/README_EN.md) · [단일 재현 실행](upstream/generator_v0_10/reproduce_all.py) · [최종 전달 장부](upstream/generator_v0_10/handoff.json)
+
+[0.8 PDF](upstream/shutter_v0_8/paper/WRRA_M_Upstream_0_8_r1_KO_2026_10_03.pdf) · [0.9 PDF](upstream/residue_current_v0_9/paper/WRRA_M_Upstream_0_9_KO_2026_10_03.pdf)
+
 ## Upstream 0.9 · conditional residue and same-state current connection
 
 상류 0.8의 실제 표현 잔존을 교정된 0.6의 내부 밀도 상태와 전자기·약전류에 연결했습니다. SOURCE 세기 변화가 내부 모드 비중과 전류 판독에 전달됩니다. **183개 구현 검사 + 135개 독립 감사**, ZIP 새 복사본의 바이트 동일 재현을 완료했습니다. 준비 사상·강도·종 선택은 공개한 구성 입력이고, 에너지 공급·물리 시간·기록 매체와 기존 자기반경 오차는 열린 장부에 남깁니다.
