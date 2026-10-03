@@ -26,9 +26,9 @@ for case in r['rows']:
         checks[f'{name}_record_branch_{i}']=wanted==rec['branch']
         checks[f'{name}_record_ownership_{i}']=(rec['internal_readout'] is not None)==(rec['branch']=='phi')
     checks[name+'_information_Actual_split']=abs(sum(f.values())-1)<2e-11
-base=r['rows'][0];phase=next(x for x in r['rows'] if x['case']=='p3_phase')
+base=next(x for x in r['rows'] if x['case']=='baseline');phase=next(x for x in r['rows'] if x['case']=='p3_phase')
 checks['phase_only_pipeline_invariant']=abs(base['excited_population']-phase['excited_population'])<2e-11
-checks['baseline_current_matches_stage09']=abs(base['curves'][-1]['proton']['GE']-0.7301767666507732)<2e-10
+checks['baseline_current_matches_stage09']=abs(next(x for x in base['curves'] if x['Q2_GeV2']==.1)['proton']['GE']-0.7301767666507732)<2e-10
 checks['reference_is_single_window_not_repeated_fixed_point']=abs(base['stock_protocols']['recycling_control'][-1]['Actual_stock']-.318)>.1
 for key in ['physical_time_unit','energy_fraction_map']:
     bad=copy.deepcopy(r['inputs']);bad[key]=1

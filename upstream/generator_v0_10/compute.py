@@ -9,17 +9,31 @@ v9=importlib.util.module_from_spec(spec);spec.loader.exec_module(v9)
 
 def validate(inp):
     if inp.get('physical_time_unit') is not None or inp.get('energy_fraction_map') is not None:raise ValueError('unimplemented physical maps must remain null')
+    q=inp['record_readout_Q2_GeV2']
+    if isinstance(q,bool) or not isinstance(q,(int,float)) or not math.isfinite(q) or q<0:raise ValueError('record readout Q2')
+    if not isinstance(inp['source_cases'],list) or not isinstance(inp['record_draws'],list) or not isinstance(inp['protocols'],list):raise ValueError('list inputs required')
     names=[]
     if not inp['source_cases']:raise ValueError('empty cases')
     for c in inp['source_cases']:
         if not isinstance(c['name'],str) or not c['name'] or c['name'] in names:raise ValueError('case names')
         names.append(c['name'])
+    if 'baseline' not in names or next(c for c in inp['source_cases'] if c['name']=='baseline')['controls']!={}:raise ValueError('uncontrolled named baseline required')
+    for case in inp['source_cases']:v9.b8.parent.validate_controls(case['controls'],1000000)
     if not inp['record_draws']:raise ValueError('empty records')
     for x in inp['record_draws']:
         if isinstance(x,bool) or not isinstance(x,(int,float)) or not math.isfinite(x) or not 0<=x<1:raise ValueError('record draw')
+    protocol_names=[]
+    if not inp['protocols']:raise ValueError('empty protocols')
     for p in inp['protocols']:
+        if not isinstance(p['name'],str) or not p['name'] or p['name'] in protocol_names:raise ValueError('protocol names')
+        protocol_names.append(p['name'])
         if 'release_fractions' not in p:
             if type(p['event_count']) is not int or not 1<=p['event_count']<=10000:raise ValueError('event count')
+        releases=p.get('release_fractions')
+        if releases is None:releases=[p['release_fraction']]*p['event_count']
+        v9.b8.parent.transport({'phenotype':.05,'dark':.268,'return':.682},releases,p['leakage'])
+    ref=next((p for p in inp['protocols'] if p['name']=='reference_closed_window'),None)
+    if ref is None or ref.get('leakage')!=0 or 'release_fractions' not in ref or ref['release_fractions'][0]!=1 or any(x!=0 for x in ref['release_fractions'][1:]):raise ValueError('reference must be one full release followed by closed events without leakage')
     return inp
 
 
@@ -27,11 +41,13 @@ def run():
     inp=validate(json.loads((ROOT/'inputs.json').read_text()))
     cfg=json.loads((UP/'residue_current_v0_9/inputs.json').read_text());v9.validate(cfg)
     h=json.loads((UP/'shutter_v0_8/handoff.json').read_text());p6=json.loads((v9.P6/'inputs.json').read_text())
-    m,p,e,V,g,c=v9.v6.construct(p6);excited=V[:,cfg['excited_mode_index']];ce=v9.state_current_context(c,excited)
+    m,p,e,V,g,c=v9.v6.construct(p6)
+    if cfg['excited_mode_index']>=len(e):raise ValueError('mode outside frozen basis')
+    excited=V[:,cfg['excited_mode_index']];ce=v9.state_current_context(c,excited)
     H=p['delta_MeV']*(m['h0']-p['x']*m['bounded']);gap=float(p['delta_MeV']*(e[cfg['excited_mode_index']]-e[0]))
     ops={(q,name):v9.v6.currents.full_charge(c,q,name) for q in cfg['Q2_GeV2'] for name in ['proton','neutron']}
     inherited=json.loads((UP/'residue_current_v0_9/results.json').read_text())
-    rows=[];checks={};vectors_hash={}
+    rows=[];checks={}
     for case in inp['source_cases']:
         name=case['name'];n,vec,b=v9.b8.branches(h['N'],h['alpha'],h['beta'],case['controls'])
         f={'phenotype':b['phi'],'dark':b['D'],'return':b['initial_reflection']+b['normal_return']}
@@ -58,7 +74,7 @@ def run():
                 selected_selector=v9.residue_fraction(n,state,cfg['selector_prime'])
                 sigma,selected_a=v9.prepare(g,excited,selected_selector,cfg['reference_preparation_strength'])
                 checks[name+f'_selected_phi_matches_ensemble_{i}']=np.linalg.norm(sigma-rho)<2e-11
-                internal={'excited_population':selected_a,'current_at_Q2_0_1':v9.mixed_currents(c,ce,selected_a,.1)}
+                internal={'excited_population':selected_a,'Q2_GeV2':inp['record_readout_Q2_GeV2'],'currents':v9.mixed_currents(c,ce,selected_a,inp['record_readout_Q2_GeV2'])}
             records.append({'record_index':i,'draw':draw,'branch':label,'conditional_address_norm':norm,'internal_readout':internal})
         protocols={}
         for protocol in inp['protocols']:
@@ -71,9 +87,12 @@ def run():
         checks[name+'_closed_window_fraction']=max(abs(reference[k]-f[z]) for k,z in [('SOURCE_stock','return'),('phenotype_stock','phenotype'),('dark_stock','dark')])<2e-11
         parent=next((x for x in inherited['rows'] if x['case']==name and x['strength']==cfg['reference_preparation_strength']),None)
         if parent:
+            parent_case=next(x for x in cfg['source_controls'] if x['name']==name)
+            if case['controls']!=parent_case['controls']:raise ValueError('shared stage09 case must preserve SOURCE controls')
             checks[name+'_frozen_0_9_population']=abs(a-parent['excited_population'])<2e-11
             checks[name+'_frozen_0_9_energy']=abs(excitation-parent['conditional_excitation_MeV'])<2e-8
-            checks[name+'_frozen_0_9_currents']=max(abs(ff[name2][key]-parent['curves'][-1][name2][key]) for name2 in ['proton','neutron','weak'] for key in ff[name2])<2e-10
+            parent_curves={x['Q2_GeV2']:x for x in parent['curves']}
+            checks[name+'_frozen_0_9_currents']=all(q in parent_curves and max(abs(curve[species][key]-parent_curves[q][species][key]) for species in ['proton','neutron','weak'] for key in curve[species])<2e-10 for q,curve in ((x['Q2_GeV2'],x) for x in curves))
         rows.append({'case':name,'branch_probabilities':b,'aggregate_fractions':f,'selector_fraction_in_phi':selector,'excited_population':a,'conditional_excitation_MeV':excitation,'curves':curves,'finite_records':records,'stock_protocols':protocols})
     if not all(checks.values()):raise AssertionError([k for k,v in checks.items() if not v])
     sources={'0_7_source_code':UP/'source_filter_v0_7/code/compute.py','0_8_branch_code':UP/'shutter_v0_8/address_bridge.py',
@@ -85,7 +104,7 @@ def run():
         'scope':'conditional finite upstream generation pipeline; branch statistics and sampled records remain separate; physical timing/species/energy-origin interfaces are open',
         'inherited_mismatch':inherited['remaining']}
     (ROOT/'results.json').write_text(json.dumps(out,indent=2,allow_nan=False)+'\n')
-    baseline=rows[0]
+    baseline=next(x for x in rows if x['case']=='baseline')
     handoff={'version':'upstream-0.10','upstream_endpoint':'0.10 integration complete within declared conditional scope; 1.0 is freeze/review edition, not new automatic development stages',
        'baseline_information_fractions':baseline['aggregate_fractions'],'Actual_fraction':baseline['aggregate_fractions']['phenotype']+baseline['aggregate_fractions']['dark'],
        'SOURCE_definition':'finite prime addresses and disclosed multiplicative amplitude state','record_type':'one branch label and normalized address vector per supplied draw; sample counts are not branch probabilities',

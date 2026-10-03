@@ -36,3 +36,8 @@
 0.8의 유한 실행 계약은 준비→필터→셔터 판독→하나의 조건부 기록까지 닫는다. 0.9에는 입자·전류 사상을 남긴다. 추가 독립예측을 종료 조건으로 요구하지 않는다. 0.7 보정 출력의 재현은 계승 구조의 정합성으로 판정하며, 새 변환의 실행 증거와 구별하여 함께 보존한다.
 
 재현: `python reproduce_all.py`. 순서 대조와 미시 주소 연결은 서로 다른 시험이며 세 분기 결맞음 시험을 백만 주소 축약으로 동일시하지 않는다.
+
+
+## 2026-10-03 reviewed collection
+
+This executable implementation is reviewed in [0.7-0.10-r1](../review_0_7_0_10_r1/README.md), DOI 10.5281/zenodo.23115550. Physical baseline outputs are preserved; input validation, clean reproduction and named/Q2-matched references are corrected. Historical PDFs remain available; consult the bilingual review report for the corrected implementation contract. Upstream development ends at 0.10.

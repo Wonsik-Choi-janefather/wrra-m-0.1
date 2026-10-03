@@ -4,15 +4,15 @@
   "alpha": 1.8996876950554356,
   "beta": 0.8654570124136961,
   "microscopic_branch_probabilities": {
-    "phi": 0.049999999999999774,
-    "D": 0.26799999999999696,
-    "initial_reflection": 0.007772944563189441,
-    "normal_return": 0.674227055436812
+    "phi": 0.04999999999999984,
+    "D": 0.26800000000000024,
+    "initial_reflection": 0.0077729445631895076,
+    "normal_return": 0.6742270554368127
   },
   "aggregate_outputs": {
-    "phenotype": 0.049999999999999774,
-    "dark": 0.26799999999999696,
-    "return": 0.6820000000000015
+    "phenotype": 0.04999999999999984,
+    "dark": 0.26800000000000024,
+    "return": 0.6820000000000023
   },
   "checks_passed": 28,
   "parent_sha256": "5b70746f0aede4b0c2a39747e4a5a6720e1ad8c7bba49e639acaa046e3fba947",

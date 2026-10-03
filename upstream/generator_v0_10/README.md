@@ -71,3 +71,8 @@
 `python reproduce_all.py`를 실행한다. 구현 검사 156개, 독립 검사 309개를 저장한다. 독립 감사는 사건별 scalar stock, 유한 반복식, 분기 선택, φ에만 속하는 내부 판독, SOURCE phase 대조와 비정상 입력 거부를 확인한다. 결과 파일을 지운 새 복사본의 바이트 동일 재현도 검증한다.
 
 계승 공개자료: DOI 10.5281/zenodo.23112253 (교정된 상류 0.4-0.6). 이번 0.10에 새 DOI를 발급하지 않았다. 한영 설명·실행 코드·기계 판독 전달 명세를 함께 제공한다.
+
+
+## 2026-10-03 reviewed collection
+
+This executable implementation is reviewed in [0.7-0.10-r1](../review_0_7_0_10_r1/README.md), DOI 10.5281/zenodo.23115550. Physical baseline outputs are preserved; input validation, clean reproduction and named/Q2-matched references are corrected. Historical PDFs remain available; consult the bilingual review report for the corrected implementation contract. Upstream development ends at 0.10.

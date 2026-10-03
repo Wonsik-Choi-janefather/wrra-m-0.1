@@ -1,0 +1,77 @@
+{
+  "version": "upstream-0.8",
+  "parent_sha256": "5b70746f0aede4b0c2a39747e4a5a6720e1ad8c7bba49e639acaa046e3fba947",
+  "branch_order": [
+    "phi",
+    "D",
+    "R"
+  ],
+  "baseline_probabilities": [
+    0.05000000000000003,
+    0.2679999999999978,
+    0.6820000000000022
+  ],
+  "shutter_scan": [
+    {
+      "eta": 0,
+      "trace": 1.0000000000000002,
+      "probabilities": [
+        0.05000000000000004,
+        0.26799999999999785,
+        0.6820000000000023
+      ],
+      "purity": 1.0000000000000002,
+      "off_diagonal_norm": 0.6786398161027677
+    },
+    {
+      "eta": 0.25,
+      "trace": 1.0000000000000002,
+      "probabilities": [
+        0.05000000000000004,
+        0.26799999999999785,
+        0.6820000000000023
+      ],
+      "purity": 0.7985085000000011,
+      "off_diagonal_norm": 0.5089798620770757
+    },
+    {
+      "eta": 0.5,
+      "trace": 1.0000000000000002,
+      "probabilities": [
+        0.05000000000000004,
+        0.26799999999999785,
+        0.6820000000000023
+      ],
+      "purity": 0.6545860000000014,
+      "off_diagonal_norm": 0.33931990805138385
+    },
+    {
+      "eta": 1,
+      "trace": 1.0000000000000002,
+      "probabilities": [
+        0.05000000000000004,
+        0.26799999999999785,
+        0.6820000000000023
+      ],
+      "purity": 0.5394480000000019,
+      "off_diagonal_norm": 0.0
+    }
+  ],
+  "order_contrast": {
+    "rotate_then_record": [
+      0.007845982334803351,
+      0.3101540176651945,
+      0.6820000000000023
+    ],
+    "record_then_rotate": [
+      0.06334350075394928,
+      0.2546564992460486,
+      0.6820000000000023
+    ]
+  },
+  "physical_time_unit": null,
+  "minimal_physical_time": null,
+  "frame": "one finite ordered update; no realized infinite address space",
+  "record_contract": "one branch per supplied draw; probability is not a simultaneously actualized record",
+  "status": "conditional finite shutter construction"
+}

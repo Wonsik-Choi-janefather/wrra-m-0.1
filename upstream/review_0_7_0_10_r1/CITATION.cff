@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the reviewed finite upstream collection."
+title: "WRRA M Upstream 0.7 to 0.10 Reviewed Collection"
+version: "0.7-0.10-r1"
+date-released: "2026-10-03"
+doi: "10.5281/zenodo.23115550"
+authors:
+  - family-names: "Choi"
+    given-names: "Wonsik"
+    orcid: "https://orcid.org/0009-0001-4263-9772"
+url: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1"
+license: CC-BY-4.0

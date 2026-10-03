@@ -1,0 +1,10 @@
+{
+  "version": "0.7",
+  "all_passed": true,
+  "archive_sha256": "c32a0cdd5daac09f7c5a6e7975ee6cb062b31f948218e5bd924431c1d4d864f6",
+  "crc_valid": true,
+  "member_paths_safe": true,
+  "internal_sha256s_match": true,
+  "clean_extraction_reproduces_reference_bytes": true,
+  "total_checks": 113
+}

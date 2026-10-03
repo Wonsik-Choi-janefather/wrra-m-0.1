@@ -83,3 +83,8 @@ https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/tree/main/upstream/source_f
 SOURCE에서 입자 상태로 가는 물리 사상은 아직 연결하지 않았다.
 0.6의 전류·수명·계수는 본 단계에서 변경하지 않는다. 다음 단계는
 사건 번호를 시간과 구분하면서 셔터 갱신·프레임·최소 판독 단위를 정의하는 0.8이다.
+
+
+## 2026-10-03 reviewed collection
+
+This executable implementation is reviewed in [0.7-0.10-r1](../review_0_7_0_10_r1/README.md), DOI 10.5281/zenodo.23115550. Physical baseline outputs are preserved; input validation, clean reproduction and named/Q2-matched references are corrected. Historical PDFs remain available; consult the bilingual review report for the corrected implementation contract. Upstream development ends at 0.10.

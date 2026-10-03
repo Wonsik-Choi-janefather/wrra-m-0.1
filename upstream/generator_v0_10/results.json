@@ -77,7 +77,8 @@
       }
     ],
     "physical_time_unit": null,
-    "energy_fraction_map": null
+    "energy_fraction_map": null,
+    "record_readout_Q2_GeV2": 0.1
   },
   "frozen_inputs": {
     "N": 1000000,
@@ -89,11 +90,11 @@
   },
   "parent_sha256": {
     "0_7_source_code": "f432a744f9df84b97116909f0fe69fff2ea37905f91df1baf1b2d1eb8f6e56b7",
-    "0_8_branch_code": "580d14c6ae1c2d2d0bbc2a0de1fbfd9f2271c1dbc75e98987b4b6c4307d85a2c",
-    "0_8_handoff": "b90919290a8a7b3bfd15c849a48979a90893cc61c329cb93ecac4fde3462ba6b",
-    "0_9_preparation_code": "c4d16589b29e47c299b8e3c833701068f3d34cc0985de1da59594aa7c8f25ca9",
+    "0_8_branch_code": "113e709c4024ccdec5ef53505db50965ccc494a4a060185427c9c84aaf032ade",
+    "0_8_handoff": "187fe3246abf4876428736bb2ec378f5970be6f5db444e80f94fc4f79e82833b",
+    "0_9_preparation_code": "7e2f0dc9d9647b45134c421b0098773d2225749e841c0a8f671dd5c84503349c",
     "0_9_inputs": "3b4b07c403c16fa665977fb4ca981ad36906dba4cce2b87552325a29ed1be9f4",
-    "0_9_results": "f574f9d14d2c37bce0a784d190656f1fdfa97d61bd812795690b0530ce15290f",
+    "0_9_results": "8ae5f18c860acef5164abe0bb94b25e28580c696ba9100074932c71c937680ea",
     "0_6_inputs": "c0fc741d39569208e80289268b5e028d5a219ab3aab7ab913d141863f2cb5fb2",
     "0_6_current_code": "1a314e69c5c33c5fd137a37fa57efe8494b1d0af50a83de4946a80bb9195e1da",
     "0_6_results": "49ecf74da93760fe5cc203b987d5eee9590f632ff3f152c82acb41f4d779a549"
@@ -205,7 +206,8 @@
           "conditional_address_norm": 1.000000000000004,
           "internal_readout": {
             "excited_population": 0.07997665450257804,
-            "current_at_Q2_0_1": {
+            "Q2_GeV2": 0.1,
+            "currents": {
               "proton": {
                 "GE_point": 0.6956352194068474,
                 "GE": 0.7301767666507732,
@@ -925,7 +927,8 @@
           "conditional_address_norm": 1.0000000000000144,
           "internal_readout": {
             "excited_population": 0.07997665450257804,
-            "current_at_Q2_0_1": {
+            "Q2_GeV2": 0.1,
+            "currents": {
               "proton": {
                 "GE_point": 0.6956352194068474,
                 "GE": 0.7301767666507732,
@@ -1645,7 +1648,8 @@
           "conditional_address_norm": 0.9999999999999998,
           "internal_readout": {
             "excited_population": 0.07997665450257802,
-            "current_at_Q2_0_1": {
+            "Q2_GeV2": 0.1,
+            "currents": {
               "proton": {
                 "GE_point": 0.6956352194068474,
                 "GE": 0.7301767666507732,
@@ -2365,7 +2369,8 @@
           "conditional_address_norm": 1.0000000000000047,
           "internal_readout": {
             "excited_population": 0.08051014298579888,
-            "current_at_Q2_0_1": {
+            "Q2_GeV2": 0.1,
+            "currents": {
               "proton": {
                 "GE_point": 0.6955911727007539,
                 "GE": 0.7301327199446798,
@@ -3085,7 +3090,8 @@
           "conditional_address_norm": 0.9999999999999895,
           "internal_readout": {
             "excited_population": 0.07892297725436007,
-            "current_at_Q2_0_1": {
+            "Q2_GeV2": 0.1,
+            "currents": {
               "proton": {
                 "GE_point": 0.6957222147470082,
                 "GE": 0.7302637619909341,
@@ -3805,7 +3811,8 @@
           "conditional_address_norm": 0.9999999999999921,
           "internal_readout": {
             "excited_population": 0.079976654502578,
-            "current_at_Q2_0_1": {
+            "Q2_GeV2": 0.1,
+            "currents": {
               "proton": {
                 "GE_point": 0.6956352194068474,
                 "GE": 0.7301767666507732,

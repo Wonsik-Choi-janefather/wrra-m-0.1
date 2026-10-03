@@ -1,0 +1,26 @@
+{
+  "version": "0.7",
+  "page_count": 9,
+  "native_OMML_equations": 16,
+  "tables": 9,
+  "table_body_rows": 44,
+  "figures": 2,
+  "visual_pages_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "all_passed": true,
+  "review": "All nine rendered pages inspected at full resolution; equations, tables, figures and references remain within margins.",
+  "citation_schema": "CFF 1.2.0 validated",
+  "paper_sha256": {
+    "WRRA_M_SOURCE_State_Two_Stage_Filter_Generation_Ledger_v0_7_KO_2026_10_03.docx": "116e65c7716270015c170b0e58a916b2ff22e49d5935259fefd57b4e13a9eb3e",
+    "WRRA_M_SOURCE_State_Two_Stage_Filter_Generation_Ledger_v0_7_KO_2026_10_03.pdf": "2f759ca9c86dfb3ce80d4f69db692bdca0486e428c6114f51ea40fe766092cfb"
+  }
+}

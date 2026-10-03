@@ -1,5 +1,15 @@
 # WRRA-M Research Notes
 
+## Upstream 0.7-0.10 reviewed collection r1 · 2026-10-03
+
+0.7~0.10의 코드·입력·결과·문서를 다시 검토하고 수정했습니다. **기존 단계 검사 1,327개 + 새 재검토 검사 68개 = 총 1,395개 통과**. 비정상 상태 입력, 확률 0 분기, 기준 사례와 Q² 목록 순서 의존, 결과 파일 없는 재생성을 보완했습니다. 기존 물리 수치는 유지합니다. 초기 ROADMAP의 1.0 개발 목표 표기도 정정했습니다. **상류 개발은 0.10에서 마감**하고, 미계산 물리 대응은 null 계약과 기존 불일치 장부에 남깁니다.
+
+- [한·영 재검토 보고서와 재현 안내](upstream/review_0_7_0_10_r1/README.md)
+- [한국어 검토 PDF](upstream/review_0_7_0_10_r1/paper/WRRA_M_Upstream_0_7_0_10_Reviewed_r1_KO_2026_10_03.pdf) · [English reviewed PDF](upstream/review_0_7_0_10_r1/paper/WRRA_M_Upstream_0_7_0_10_Reviewed_r1_EN_2026_10_03.pdf)
+- [전체 재현 ZIP](upstream/review_0_7_0_10_r1/archive/WRRA_M_Upstream_0_7_0_10_Reviewed_Collection_r1_2026_10_03.zip) · [검증 장부](upstream/review_0_7_0_10_r1/review_checks.json)
+- [Zenodo DOI 10.5281/zenodo.23115550](https://doi.org/10.5281/zenodo.23115550)
+
+
 ## Downstream 1.0 completed · 하류 통합정리 1.0 완료 · 2026-10-03
 
 **하류 개발은 0.12에서 마감했고, 0.1–0.12 통합정리 논문 1.0을 최종 확정했습니다.** 공동저자는 **Wonsik Choi (최원식), Jeongin Choi (최정인)**입니다. Physics 투고용 물질 구성비 r9·확장 및 접속조건 r8의 용어, 보정값과 검증 범위를 유지했습니다.
@@ -64,7 +74,7 @@ The automatic downstream extension to 0.13–0.17 is withdrawn. [Dated scope cor
 - [상류 0.7 원고·계산·재현 안내](upstream/source_filter_v0_7/README.md)
 - [한글 PDF 9쪽](upstream/source_filter_v0_7/paper/WRRA_M_SOURCE_State_Two_Stage_Filter_Generation_Ledger_v0_7_KO_2026_10_03.pdf) · [Word](upstream/source_filter_v0_7/paper/WRRA_M_SOURCE_State_Two_Stage_Filter_Generation_Ledger_v0_7_KO_2026_10_03.docx)
 - [전체 재현 ZIP](upstream/source_filter_v0_7/archive/WRRA_M_SOURCE_State_Two_Stage_Filter_v0_7_Reproducibility_2026_10_03.zip) · [113개 검증](upstream/source_filter_v0_7/verification/independent_audit.json)
-- [다음 단계 전달 명세](upstream/source_filter_v0_7/code/handoff.json) · [상류 1.0까지의 종료 계획](upstream/source_filter_v0_7/ROADMAP.md)
+- [다음 단계 전달 명세](upstream/source_filter_v0_7/code/handoff.json) · [상류 0.10 마감 범위](upstream/source_filter_v0_7/ROADMAP.md)
 
 ## Upstream 0.4–0.6 reviewed collection r1 · 2026-10-03
 

@@ -14,6 +14,18 @@ sys.path.insert(0,str(P6));v6=load('v6compute09',P6/'compute.py')
 b8=load('bridge08',P8/'address_bridge.py')
 
 def validate(c):
+    for key in ['preparation_strength_scan','Q2_GeV2','source_controls']:
+        if not isinstance(c[key],list) or not c[key]:raise ValueError('nonempty '+key+' required')
+    for key in ['preparation_strength_scan','Q2_GeV2']:
+        if len(c[key])!=len(set(c[key])):raise ValueError('duplicate '+key)
+    names=[]
+    for case in c['source_controls']:
+        name=case['name']
+        if not isinstance(name,str) or not name or name in names:raise ValueError('source case names')
+        names.append(name)
+        b8.parent.validate_controls(case['controls'],1000000)
+    if 'baseline' not in names or next(x for x in c['source_controls'] if x['name']=='baseline')['controls']!={}:raise ValueError('uncontrolled named baseline required')
+    if c['reference_preparation_strength'] not in c['preparation_strength_scan']:raise ValueError('reference strength missing from scan')
     for x in c['preparation_strength_scan']+[c['reference_preparation_strength']]:
         if isinstance(x,bool) or not isinstance(x,(int,float)) or not np.isfinite(x) or not 0<=x<=1:raise ValueError('preparation strength')
     if type(c['selector_prime']) is not int or not b8.parent.is_prime(c['selector_prime']):raise ValueError('selector must be prime')
@@ -24,20 +36,33 @@ def validate(c):
 
 
 def residue_fraction(n,phi_vector,p):
+    n=np.asarray(n);phi_vector=np.asarray(phi_vector)
+    if n.ndim!=1 or not n.size or n.dtype.kind not in 'iu' or np.any(n<2) or np.any(n[1:]<=n[:-1]):raise ValueError('sorted distinct integer addresses >=2 required')
+    if phi_vector.shape!=n.shape or not np.all(np.isfinite(phi_vector)):raise ValueError('finite aligned phi vector required')
+    if not b8.parent.is_prime(p):raise ValueError('prime selector required')
     weight=np.abs(phi_vector)**2;total=float(weight.sum())
-    if not total>0:raise ValueError('zero phi has no conditional state')
+    if not np.isfinite(total) or not total>0:raise ValueError('zero phi has no conditional state')
     mask=b8.parent.valuations(n,p)%2==1
     return float(weight[mask].sum()/total)
 
 
 def prepare(g,excited,selector_fraction,strength):
-    if not np.isfinite(selector_fraction) or not 0<=selector_fraction<=1 or not np.isfinite(strength) or not 0<=strength<=1:raise ValueError('preparation inputs')
+    if isinstance(selector_fraction,bool) or isinstance(strength,bool) or not isinstance(selector_fraction,(int,float)) or not isinstance(strength,(int,float)) or not np.isfinite(selector_fraction) or not 0<=selector_fraction<=1 or not np.isfinite(strength) or not 0<=strength<=1:raise ValueError('preparation inputs')
+    g=np.asarray(g);excited=np.asarray(excited)
+    if g.ndim!=1 or not g.size or excited.shape!=g.shape or not np.all(np.isfinite(g)) or not np.all(np.isfinite(excited)):raise ValueError('finite aligned internal modes required')
+    if abs(np.vdot(g,g)-1)>2e-11 or abs(np.vdot(excited,excited)-1)>2e-11 or abs(np.vdot(g,excited))>2e-11:raise ValueError('normalized orthogonal modes required')
     a=strength*selector_fraction
     return (1-a)*np.outer(g,g.conj())+a*np.outer(excited,excited.conj()),a
 
 
 def state_current_context(c,v):
     # Frozen geometry, counterterm and calibration; no call to currents.prepare for this vector.
+    v=np.asarray(v)
+    if v.shape!=c['g'].shape or not np.all(np.isfinite(v)) or abs(np.vdot(v,v)-1)>2e-11:raise ValueError('normalized finite internal vector required')
+    # The inherited density/link implementation is defined on real frozen modes.
+    # Reject unsupported complex states instead of silently omitting conjugation.
+    if np.iscomplexobj(v) and np.any(v.imag!=0):raise ValueError('current adapter supports real frozen modes only')
+    v=v.real
     out=copy.copy(c);n=c['nspace'];F=c['F'];Q=c['Q'];a=F@(Q@v).reshape(3,n).T
     b=F@(Q@(c['m']['bounded']@v)).reshape(3,n).T
     def density(slots):return np.column_stack([np.einsum('na,ab,nb->n',a,s,a) for s in slots])
@@ -113,5 +138,5 @@ def run():
              'physical_time_unit':None,'species_selection':'externally specified proton/neutron channel','next_stage':'0.10 integrate SOURCE-filter-record-preparation-current ledgers; preserve open interfaces',
              'results_sha256':sha(ROOT/'results.json')}
     (ROOT/'handoff.json').write_text(json.dumps(handoff,indent=2)+'\n')
-    print('0.9 checks passed:',out['checks_passed']);print('reference:',json.dumps({k:rows[1][k] for k in ['selector_fraction_in_phi','excited_population','conditional_excitation_MeV']}))
+    print('0.9 checks passed:',out['checks_passed']);reference=next(x for x in rows if x['case']=='baseline' and x['strength']==cfg['reference_preparation_strength']);print('reference:',json.dumps({k:reference[k] for k in ['selector_fraction_in_phi','excited_population','conditional_excitation_MeV']}))
 if __name__=='__main__':run()

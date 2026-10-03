@@ -20,11 +20,17 @@ def branches(N,alpha,beta,controls=None):
 
 def record(amplitudes,draw):
     if isinstance(draw,bool) or not isinstance(draw,(int,float)) or not np.isfinite(draw) or not 0<=draw<1:raise ValueError('finite draw in [0,1) required')
-    keys=list(amplitudes);p=np.array([np.vdot(amplitudes[k],amplitudes[k]).real for k in keys])
+    keys=['phi','D','initial_reflection','normal_return']
+    if not isinstance(amplitudes,dict) or set(amplitudes)!=set(keys):raise ValueError('four named branches required')
+    vectors={k:np.asarray(amplitudes[k]) for k in keys}
+    shape=vectors[keys[0]].shape
+    if len(shape)!=1 or not shape[0] or any(v.shape!=shape or not np.all(np.isfinite(v)) for v in vectors.values()):raise ValueError('finite aligned branch vectors required')
+    p=np.array([np.vdot(vectors[k],vectors[k]).real for k in keys])
+    if not np.all(np.isfinite(p)):raise ValueError('finite branch norms required')
     if abs(p.sum()-1)>2e-11:raise ValueError('instrument norm mismatch')
     positive=np.flatnonzero(p>0); cumulative=np.cumsum(p[positive]/p.sum())
     ix=min(int(np.searchsorted(cumulative,draw,side='right')),len(positive)-1);j=int(positive[ix])
-    return keys[j],amplitudes[keys[j]]/np.sqrt(p[j])
+    return keys[j],vectors[keys[j]]/np.sqrt(p[j])
 
 def run():
     h=json.loads((PARENT/'handoff.json').read_text())

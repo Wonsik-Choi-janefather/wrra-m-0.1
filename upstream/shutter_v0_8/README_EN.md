@@ -18,3 +18,8 @@ A supplied draw in [0,1) selects exactly one conditional record. The model does 
 Known-value calibration and reproduction are retained as legitimate construction and explanatory achievements. Independent predictions or numerical novelty are not additional completion requirements. Stage 0.8 closes this conditional finite execution contract; upstream 0.9 connects the residual address state to the frozen 0.6 particle/current readout, and 0.10 integrates the generator.
 
 Run `python reproduce_all.py` with Python 3 and NumPy. `results.json`, `audit.json`, and `handoff.json` are deterministic calculation outputs. The handoff owns the microscopic state contract and explicitly preserves unresolved physical interfaces.
+
+
+## 2026-10-03 reviewed collection
+
+This executable implementation is reviewed in [0.7-0.10-r1](../review_0_7_0_10_r1/README.md), DOI 10.5281/zenodo.23115550. Physical baseline outputs are preserved; input validation, clean reproduction and named/Q2-matched references are corrected. Historical PDFs remain available; consult the bilingual review report for the corrected implementation contract. Upstream development ends at 0.10.

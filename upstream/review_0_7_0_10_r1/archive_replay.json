@@ -1,0 +1,8 @@
+{
+  "all_passed": true,
+  "archive_files_verified": 151,
+  "outputs_byte_identical": 13,
+  "total_counted_checks": 1395,
+  "archive_sha256": "a677d8313f0c1c66bae513405f19739401f5ed2597617b039116e3b50a39ac43",
+  "upstream_endpoint": "0.10"
+}

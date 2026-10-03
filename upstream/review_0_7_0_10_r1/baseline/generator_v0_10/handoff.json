@@ -1,0 +1,20 @@
+{
+  "version": "upstream-0.10",
+  "upstream_endpoint": "0.10 integration complete within declared conditional scope; 1.0 is freeze/review edition, not new automatic development stages",
+  "baseline_information_fractions": {
+    "phenotype": 0.04999999999999984,
+    "dark": 0.26800000000000024,
+    "return": 0.6820000000000023
+  },
+  "Actual_fraction": 0.31800000000000006,
+  "SOURCE_definition": "finite prime addresses and disclosed multiplicative amplitude state",
+  "record_type": "one branch label and normalized address vector per supplied draw; sample counts are not branch probabilities",
+  "internal_state": "phi-only trace-preserving conditional density preparation; same-state frozen nucleon currents",
+  "physical_time_unit": null,
+  "physical_energy_fraction_map": null,
+  "species_origin": null,
+  "energy_supply": null,
+  "record_medium_stability": null,
+  "downstream_contract": "information fractions, finite states and conditional currents are typed outputs; importing them into a downstream energy/gravity simulator requires its explicit energy/state map",
+  "results_sha256": "a762de668f20c7800be143ed1fadde31b021980d90b837cff68cc16e633237b0"
+}

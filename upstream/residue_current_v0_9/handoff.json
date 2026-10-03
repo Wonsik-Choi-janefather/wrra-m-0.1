@@ -6,5 +6,5 @@
   "physical_time_unit": null,
   "species_selection": "externally specified proton/neutron channel",
   "next_stage": "0.10 integrate SOURCE-filter-record-preparation-current ledgers; preserve open interfaces",
-  "results_sha256": "f574f9d14d2c37bce0a784d190656f1fdfa97d61bd812795690b0530ce15290f"
+  "results_sha256": "8ae5f18c860acef5164abe0bb94b25e28580c696ba9100074932c71c937680ea"
 }

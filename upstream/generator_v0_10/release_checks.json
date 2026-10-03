@@ -2,7 +2,9 @@
   "implementation_checks": 156,
   "independent_audit_checks": 309,
   "total_counted_checks": 465,
-  "clean_copy_byte_identical": true,
   "upstream_development_endpoint": "0.10",
-  "new_stage_after_endpoint": false
+  "new_stage_after_endpoint": false,
+  "review_edition": "0.7-0.10-r1",
+  "cross_stage_review_checks": 68,
+  "physical_baseline_preserved": true
 }

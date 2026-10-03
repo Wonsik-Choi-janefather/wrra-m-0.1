@@ -1,18 +1,80 @@
 {
   "version": "upstream-0.10",
   "source_cases": [
-    {"name":"baseline","controls":{}},
-    {"name":"p2_low","controls":{"2":{"epsilon":-0.15}}},
-    {"name":"p2_high","controls":{"2":{"epsilon":0.15}}},
-    {"name":"p3_low","controls":{"3":{"epsilon":-0.15}}},
-    {"name":"p3_high","controls":{"3":{"epsilon":0.15}}},
-    {"name":"p3_phase","controls":{"3":{"phase":0.7}}}
+    {
+      "name": "baseline",
+      "controls": {}
+    },
+    {
+      "name": "p2_low",
+      "controls": {
+        "2": {
+          "epsilon": -0.15
+        }
+      }
+    },
+    {
+      "name": "p2_high",
+      "controls": {
+        "2": {
+          "epsilon": 0.15
+        }
+      }
+    },
+    {
+      "name": "p3_low",
+      "controls": {
+        "3": {
+          "epsilon": -0.15
+        }
+      }
+    },
+    {
+      "name": "p3_high",
+      "controls": {
+        "3": {
+          "epsilon": 0.15
+        }
+      }
+    },
+    {
+      "name": "p3_phase",
+      "controls": {
+        "3": {
+          "phase": 0.7
+        }
+      }
+    }
   ],
-  "record_draws": [0.02,0.1,0.32,0.9],
+  "record_draws": [
+    0.02,
+    0.1,
+    0.32,
+    0.9
+  ],
   "protocols": [
-    {"name":"reference_closed_window","release_fractions":[1,0,0,0,0,0,0,0],"leakage":0},
-    {"name":"recycling_control","release_fraction":0.2,"event_count":32,"leakage":0}
+    {
+      "name": "reference_closed_window",
+      "release_fractions": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "leakage": 0
+    },
+    {
+      "name": "recycling_control",
+      "release_fraction": 0.2,
+      "event_count": 32,
+      "leakage": 0
+    }
   ],
   "physical_time_unit": null,
-  "energy_fraction_map": null
+  "energy_fraction_map": null,
+  "record_readout_Q2_GeV2": 0.1
 }

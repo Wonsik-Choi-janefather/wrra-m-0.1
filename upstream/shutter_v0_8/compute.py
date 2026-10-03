@@ -6,16 +6,20 @@ ROOT=Path(__file__).resolve().parent
 PARENT=ROOT.parent/'source_filter_v0_7/code/handoff.json'
 
 def shutter(rho, eta):
-    if not np.isfinite(eta) or not 0<=eta<=1: raise ValueError('eta outside [0,1]')
+    if isinstance(eta,bool) or not isinstance(eta,(int,float)) or not np.isfinite(eta) or not 0<=eta<=1: raise ValueError('eta outside [0,1]')
+    rho=np.asarray(rho)
     if rho.shape!=(3,3) or not np.all(np.isfinite(rho)): raise ValueError('state')
-    if not np.allclose(rho,rho.conj().T) or np.linalg.eigvalsh(rho).min() < -1e-12: raise ValueError('positive state required')
+    if not np.allclose(rho,rho.conj().T,rtol=0,atol=1e-12) or np.linalg.eigvalsh(rho).min() < -1e-12: raise ValueError('positive state required')
     if abs(np.trace(rho)-1)>1e-12: raise ValueError('normalized state required')
     return (1-eta)*rho+eta*np.diag(np.diag(rho))
 
 def select_record(rho, draw):
-    if not np.isfinite(draw) or not 0 <= draw < 1: raise ValueError('draw outside [0,1)')
+    if isinstance(draw,bool) or not isinstance(draw,(int,float)) or not np.isfinite(draw) or not 0 <= draw < 1: raise ValueError('draw outside [0,1)')
     probabilities=np.real(np.diag(shutter(rho,1)))
-    j=min(int(np.searchsorted(np.cumsum(probabilities),draw,side='right')),2)
+    probabilities=np.maximum(probabilities,0)
+    positive=np.flatnonzero(probabilities>0)
+    cumulative=np.cumsum(probabilities[positive]/probabilities.sum())
+    j=int(positive[min(int(np.searchsorted(cumulative,draw,side='right')),len(positive)-1)])
     state=np.zeros((3,3)); state[j,j]=1
     return j,state
 

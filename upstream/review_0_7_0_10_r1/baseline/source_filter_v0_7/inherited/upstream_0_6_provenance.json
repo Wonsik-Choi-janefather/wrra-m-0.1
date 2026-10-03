@@ -1,0 +1,80 @@
+{
+  "release": "0.6",
+  "author": "Wonsik Choi",
+  "orcid": "0009-0001-4263-9772",
+  "date": "2026-10-03",
+  "baseline": {
+    "commit": "8ac07a7d33dcc29701e49d31650997ec77030eb6",
+    "code_sha256": "bfe70f0a0df9dbac6f6752ff3bccb615618b2128da1e5cc70810913d6e071594",
+    "model_sha256": "95b5cae6947c4c5c0803468ed1f68698c79090d1a3aaeb17b34f52f4fc3ff652",
+    "results_sha256": "f50b19946eb374fa4a127d1fa4e91b14b434ba9e249fe801cd79e91985b348f9"
+  },
+  "inherited_parent": {
+    "parent_release_commit": "a9a364ff46414c92f83bc299dc597882a47a23a5",
+    "parent_kernel_sha256": "3cc75ba4290189daed78058e112647cc1f1d1df6b7eb74c15ba6069df2ec9f55",
+    "parent_results_sha256": "970c65aea8fef904b89ac8b7668256f2af7e72ceab66ce449175a0d1f1f391a3",
+    "nucleon_reference_sha256": "a67181db67dece51d42f555079e743097c009d73966ec13257cb3dc9e85a9721",
+    "parent_path": "upstream/fold_decay_v0_2/code/compute.py",
+    "parent_v0_3_r1_code_sha256": "11ab2947b48788e79526b27ade3aec2459766a70e5f8f8c065a3aa0033646bc0"
+  },
+  "definitions": {
+    "GE": "Sachs point charge plus zero-charge fitted isovector completion",
+    "magnetic_units": "mu_N=e/(2m_p); F1,F2 use common M=(m_p+m_n)/2",
+    "CVC": "same state, common-mass isospin limit",
+    "continuity": "finite projected longitudinal completion",
+    "beta_q": "p_proton-p_neutron",
+    "outer_RC": "additive leading electron-inclusive spectrum; no complete mixed radiative recoil",
+    "inner_RC": "Seng et al.2018 fixed reference 0.02467(22), not a latest-value claim",
+    "kappa": "retain frozen parent and explicitly separate lifetime refit"
+  },
+  "sources": [
+    {
+      "title": "PDG2026 baryons",
+      "url": "https://pdg.lbl.gov/2026/tables/rpp2026-sum-baryons.pdf",
+      "used": "neutron radii, axial and lifetime comparison"
+    },
+    {
+      "title": "NIST2022 proton radius",
+      "url": "https://physics.nist.gov/cgi-bin/cuu/Value?rp=",
+      "used": "inherited proton radius anchor"
+    },
+    {
+      "title": "de Araujo et al.2003 Foldy term",
+      "url": "https://arxiv.org/pdf/hep-ph/0305120",
+      "used": "Sachs and Dirac definitions; no imported microscopic dynamics"
+    },
+    {
+      "title": "Seng2021 review",
+      "url": "https://doi.org/10.3390/particles4040034",
+      "used": "eq108 outer function, eq126 weak vertex convention"
+    },
+    {
+      "title": "Seng et al.2018",
+      "url": "https://arxiv.org/pdf/1807.10197",
+      "used": "fixed internal radiative reference"
+    },
+    {
+      "title": "PDG2026 CKM",
+      "url": "https://pdg.lbl.gov/2026/reviews/rpp2026-rev-ckm-matrix.pdf",
+      "used": "inherited Vud comparison"
+    }
+  ],
+  "checked_date": "2026-10-03",
+  "omitted": [
+    "microscopic exchange-charge derivation",
+    "finite-Q2 experimental fit",
+    "full covariant transverse current",
+    "induced pseudoscalar and second-class currents",
+    "higher QED and complete alpha E/M mixed terms",
+    "dynamical isospin breaking",
+    "microscopic hadronic gamma-W box",
+    "complete experimental polarizability"
+  ],
+  "review_r1": {
+    "date": "2026-10-03",
+    "collection_doi": "10.5281/zenodo.23112253",
+    "changes": "../../../CHANGES.md",
+    "entrypoint_sha256": "d6241322c103c081126466de31acd2fc4f526cd38e5ef9f9dc5cafdb0a6386da",
+    "frozen_snapshots_preserved": true
+  }
+}

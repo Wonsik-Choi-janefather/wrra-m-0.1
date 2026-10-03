@@ -26,3 +26,8 @@ Energy supply, physical seconds per update, species origin and record-medium sta
 Upstream 0.10 completes the declared finite conditional execution path. Upstream 1.0 is the review/freeze edition of these results and contracts; it does not silently add development stages or certify missing physical interfaces. WRRA Core 1.0 is unchanged. Calibration and reproduction of known values remain legitimate explanatory achievements; independent prediction and numerical novelty are not additional completion requirements.
 
 Run `python reproduce_all.py` with Python 3, NumPy 2.x and SciPy. Audits cover 156 integrated and 309 independently formulated checks, plus byte-identical fresh-copy reproduction. Inherited reviewed 0.4-0.6 DOI: 10.5281/zenodo.23112253; no new 0.10 DOI has been issued.
+
+
+## 2026-10-03 reviewed collection
+
+This executable implementation is reviewed in [0.7-0.10-r1](../review_0_7_0_10_r1/README.md), DOI 10.5281/zenodo.23115550. Physical baseline outputs are preserved; input validation, clean reproduction and named/Q2-matched references are corrected. Historical PDFs remain available; consult the bilingual review report for the corrected implementation contract. Upstream development ends at 0.10.

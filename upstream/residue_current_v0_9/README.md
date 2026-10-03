@@ -49,3 +49,8 @@ Q²=0.1 GeV²에서 아래 전류를 계산했다. 표의 에너지는 핵자 �
 0.10은 이 상태 준비 사상을 포함해 SOURCE→필터→기록→내부 상태→전류를 하나의 실행 경로와 하류 전달 장부로 통합한다. 1.0은 실제 실행 범위·입력·보정·산출·남은 물리 대응을 함께 동결한다. 무한=Null 전제를 유지하며 실현된 무한 상태·무한 반복을 요구하지 않는다.
 
 계승 DOI: 10.5281/zenodo.23112253 (교정 상류 0.4–0.6). 0.9의 새 DOI는 발급하지 않았다.
+
+
+## 2026-10-03 reviewed collection
+
+This executable implementation is reviewed in [0.7-0.10-r1](../review_0_7_0_10_r1/README.md), DOI 10.5281/zenodo.23115550. Physical baseline outputs are preserved; input validation, clean reproduction and named/Q2-matched references are corrected. Historical PDFs remain available; consult the bilingual review report for the corrected implementation contract. Upstream development ends at 0.10.

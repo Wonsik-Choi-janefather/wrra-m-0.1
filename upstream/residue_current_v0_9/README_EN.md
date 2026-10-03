@@ -22,3 +22,8 @@ The inherited neutron magnetic-radius mismatch (0.83198710743 versus 0.864 fm), 
 Run `python reproduce_all.py` with Python 3, NumPy 2.x and SciPy. The independent audit uses explicit Kraus/Choi matrices, random density states and trial integer factorization rather than the parent's sieve/valuation implementation. Upstream 0.10 integrates SOURCE/filter/record/preparation/current ledgers. Independent prediction and numerical novelty are not added completion requirements; calibrated reproduction and executed structural connections remain achievements. Infinity=Null remains the adopted premise.
 
 Inherited reviewed 0.4–0.6 DOI: 10.5281/zenodo.23112253. No new 0.9 DOI has been issued.
+
+
+## 2026-10-03 reviewed collection
+
+This executable implementation is reviewed in [0.7-0.10-r1](../review_0_7_0_10_r1/README.md), DOI 10.5281/zenodo.23115550. Physical baseline outputs are preserved; input validation, clean reproduction and named/Q2-matched references are corrected. Historical PDFs remain available; consult the bilingual review report for the corrected implementation contract. Upstream development ends at 0.10.
