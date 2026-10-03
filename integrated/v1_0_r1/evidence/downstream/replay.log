@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "check_count": 32,
+  "reference_q": -0.52855,
+  "reference_v_km_s": 207.51090512661662,
+  "reference_lens_arcsec": 0.5355865105583804,
+  "alternate_q": -0.5230000000000001
+}
+{
+  "passed": true,
+  "check_count": 32,
+  "reference_q": -0.52855,
+  "reference_v_km_s": 207.51090512661662,
+  "reference_lens_arcsec": 0.5355865105583804,
+  "alternate_q": -0.5230000000000001
+}
+{"passed": true, "checks": 28, "inherited_checks": 32, "q0": -0.5285500000000001, "mu_eV": 22217.345682173913}
+{"passed": true, "checks": 36, "inherited_checks": 60, "delta_tau_s": 1.4813019664158691e-21, "phase_error_eV": 6.51925802230835e-09}
+{"passed": true, "review_checks": 9, "component_checks": 96}

@@ -1,0 +1,6 @@
+numpy
+scipy
+mpmath
+python-docx
+lxml
+pypdf

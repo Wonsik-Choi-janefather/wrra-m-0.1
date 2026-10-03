@@ -1,0 +1,5210 @@
+{
+  "version": "bridge-0.4",
+  "constitutive_rule": "fixed comoving particle count and prepared internal state; Ephi and ED constant, ER=L*V; included reservoir constant comoving energy if selected",
+  "boundaries": {
+    "external": "environment excluded from gravitational subsystem; exchange is boundary work at fixed V",
+    "included_pressureless": "finite reservoir included with assumed Penv=0; reference total differs from inherited benchmark"
+  },
+  "rows": [
+    {
+      "calibration": "inherited",
+      "species": "proton",
+      "case": "baseline",
+      "boundary": "external",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.0676749689758606e-10,
+      "u_J_m3": 2.4541399751806885e-09,
+      "P_Pa": -5.258597484395482e-10,
+      "q": 0.178588169119715,
+      "H_over_inherited_H0": 1.7888823326311878,
+      "pressure_fd_Pa": -5.258597484392392e-10,
+      "continuity_residual_J_m3": 1.3640208300999426e-21
+    },
+    {
+      "calibration": "inherited",
+      "species": "proton",
+      "case": "baseline",
+      "boundary": "external",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.668947767821907e-10,
+      "u_J_m3": 7.668947767821907e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.52855,
+      "H_over_inherited_H0": 1.0,
+      "pressure_fd_Pa": -5.258597484394977e-10,
+      "continuity_residual_J_m3": 4.28996545185314e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "proton",
+      "case": "baseline",
+      "boundary": "external",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.4479130158590276e-09,
+      "u_J_m3": 5.559891269823784e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.9187141157606167,
+      "H_over_inherited_H0": 0.8514619780119368,
+      "pressure_fd_Pa": -5.258597484394288e-10,
+      "continuity_residual_J_m3": 1.6117097247712899e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "proton",
+      "case": "baseline",
+      "boundary": "included_pressureless",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.1432907939665847e-10,
+      "u_J_m3": 2.5146326351732677e-09,
+      "P_Pa": -5.258597484395482e-10,
+      "q": 0.18632013613989717,
+      "H_over_inherited_H0": 1.8107954053398745,
+      "pressure_fd_Pa": -5.258597484393771e-10,
+      "continuity_residual_J_m3": 6.145951951268996e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "proton",
+      "case": "baseline",
+      "boundary": "included_pressureless",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.744563592812631e-10,
+      "u_J_m3": 7.744563592812631e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.5185075158932921,
+      "H_over_inherited_H0": 1.004917907094903,
+      "pressure_fd_Pa": -5.25859748439446e-10,
+      "continuity_residual_J_m3": 7.660726448006728e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "proton",
+      "case": "baseline",
+      "boundary": "included_pressureless",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.4554745983581e-09,
+      "u_J_m3": 5.569343247947625e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.9163063534466139,
+      "H_over_inherited_H0": 0.8521854258317259,
+      "pressure_fd_Pa": -5.258597484394719e-10,
+      "continuity_residual_J_m3": 5.049679145694811e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "proton",
+      "case": "p3_low",
+      "boundary": "external",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.06776435431543e-10,
+      "u_J_m3": 2.454211483452344e-09,
+      "P_Pa": -5.258597484395482e-10,
+      "q": 0.17859753408466236,
+      "H_over_inherited_H0": 1.7889083945007802,
+      "pressure_fd_Pa": -5.25859748439515e-10,
+      "continuity_residual_J_m3": 2.6147179162801205e-21
+    },
+    {
+      "calibration": "inherited",
+      "species": "proton",
+      "case": "p3_low",
+      "boundary": "external",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.669037153161476e-10,
+      "u_J_m3": 7.669037153161476e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.5285380118860846,
+      "H_over_inherited_H0": 1.0000058277277286,
+      "pressure_fd_Pa": -5.258597484394288e-10,
+      "continuity_residual_J_m3": 6.281402776574554e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "proton",
+      "case": "p3_low",
+      "boundary": "external",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.447921954392985e-09,
+      "u_J_m3": 5.559902442991232e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.9187112647159198,
+      "H_over_inherited_H0": 0.8514628335612645,
+      "pressure_fd_Pa": -5.258597484394719e-10,
+      "continuity_residual_J_m3": 5.202707559017121e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "proton",
+      "case": "p3_low",
+      "boundary": "included_pressureless",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.1432907939665847e-10,
+      "u_J_m3": 2.5146326351732677e-09,
+      "P_Pa": -5.258597484395482e-10,
+      "q": 0.18632013613989717,
+      "H_over_inherited_H0": 1.8107954053398745,
+      "pressure_fd_Pa": -5.258597484393771e-10,
+      "continuity_residual_J_m3": 6.145951951268996e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "proton",
+      "case": "p3_low",
+      "boundary": "included_pressureless",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.744563592812631e-10,
+      "u_J_m3": 7.744563592812631e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.5185075158932921,
+      "H_over_inherited_H0": 1.004917907094903,
+      "pressure_fd_Pa": -5.25859748439446e-10,
+      "continuity_residual_J_m3": 7.660726448006728e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "proton",
+      "case": "p3_low",
+      "boundary": "included_pressureless",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.4554745983581e-09,
+      "u_J_m3": 5.569343247947625e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.9163063534466139,
+      "H_over_inherited_H0": 0.8521854258317259,
+      "pressure_fd_Pa": -5.258597484394719e-10,
+      "continuity_residual_J_m3": 5.049679145694811e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "proton",
+      "case": "p3_high",
+      "boundary": "external",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.0674984266481617e-10,
+      "u_J_m3": 2.4539987413185294e-09,
+      "P_Pa": -5.258597484395482e-10,
+      "q": 0.17856967105227325,
+      "H_over_inherited_H0": 1.7888308574915444,
+      "pressure_fd_Pa": -5.258597484392392e-10,
+      "continuity_residual_J_m3": 2.573358885652469e-21
+    },
+    {
+      "calibration": "inherited",
+      "species": "proton",
+      "case": "p3_high",
+      "boundary": "external",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.668771225494208e-10,
+      "u_J_m3": 7.668771225494208e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.528573678188567,
+      "H_over_inherited_H0": 0.9999884897283777,
+      "pressure_fd_Pa": -5.258597484394977e-10,
+      "continuity_residual_J_m3": 3.2166986070655864e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "proton",
+      "case": "p3_high",
+      "boundary": "external",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.4478953616262585e-09,
+      "u_J_m3": 5.559869202032823e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.9187197468079314,
+      "H_over_inherited_H0": 0.8514602882393607,
+      "pressure_fd_Pa": -5.258597484395322e-10,
+      "continuity_residual_J_m3": 4.0657219576688424e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "proton",
+      "case": "p3_high",
+      "boundary": "included_pressureless",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.1432907939665847e-10,
+      "u_J_m3": 2.5146326351732677e-09,
+      "P_Pa": -5.258597484395482e-10,
+      "q": 0.18632013613989717,
+      "H_over_inherited_H0": 1.8107954053398745,
+      "pressure_fd_Pa": -5.258597484393771e-10,
+      "continuity_residual_J_m3": 6.145951951268996e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "proton",
+      "case": "p3_high",
+      "boundary": "included_pressureless",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.744563592812631e-10,
+      "u_J_m3": 7.744563592812631e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.5185075158932921,
+      "H_over_inherited_H0": 1.004917907094903,
+      "pressure_fd_Pa": -5.25859748439446e-10,
+      "continuity_residual_J_m3": 7.660726448006728e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "proton",
+      "case": "p3_high",
+      "boundary": "included_pressureless",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.4554745983581e-09,
+      "u_J_m3": 5.569343247947625e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.9163063534466139,
+      "H_over_inherited_H0": 0.8521854258317259,
+      "pressure_fd_Pa": -5.258597484394719e-10,
+      "continuity_residual_J_m3": 5.049679145694811e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "proton",
+      "case": "p3_phase",
+      "boundary": "external",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.0676749689758606e-10,
+      "u_J_m3": 2.4541399751806885e-09,
+      "P_Pa": -5.258597484395482e-10,
+      "q": 0.178588169119715,
+      "H_over_inherited_H0": 1.7888823326311878,
+      "pressure_fd_Pa": -5.258597484392392e-10,
+      "continuity_residual_J_m3": 1.3640208300999426e-21
+    },
+    {
+      "calibration": "inherited",
+      "species": "proton",
+      "case": "p3_phase",
+      "boundary": "external",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.668947767821907e-10,
+      "u_J_m3": 7.668947767821907e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.52855,
+      "H_over_inherited_H0": 1.0,
+      "pressure_fd_Pa": -5.258597484394977e-10,
+      "continuity_residual_J_m3": 4.28996545185314e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "proton",
+      "case": "p3_phase",
+      "boundary": "external",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.4479130158590276e-09,
+      "u_J_m3": 5.559891269823784e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.9187141157606167,
+      "H_over_inherited_H0": 0.8514619780119368,
+      "pressure_fd_Pa": -5.258597484394288e-10,
+      "continuity_residual_J_m3": 1.6117097247712899e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "proton",
+      "case": "p3_phase",
+      "boundary": "included_pressureless",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.1432907939665847e-10,
+      "u_J_m3": 2.5146326351732677e-09,
+      "P_Pa": -5.258597484395482e-10,
+      "q": 0.18632013613989717,
+      "H_over_inherited_H0": 1.8107954053398745,
+      "pressure_fd_Pa": -5.258597484393771e-10,
+      "continuity_residual_J_m3": 6.145951951268996e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "proton",
+      "case": "p3_phase",
+      "boundary": "included_pressureless",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.744563592812631e-10,
+      "u_J_m3": 7.744563592812631e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.5185075158932921,
+      "H_over_inherited_H0": 1.004917907094903,
+      "pressure_fd_Pa": -5.25859748439446e-10,
+      "continuity_residual_J_m3": 7.660726448006728e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "proton",
+      "case": "p3_phase",
+      "boundary": "included_pressureless",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.4554745983581e-09,
+      "u_J_m3": 5.569343247947625e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.9163063534466139,
+      "H_over_inherited_H0": 0.8521854258317259,
+      "pressure_fd_Pa": -5.258597484394719e-10,
+      "continuity_residual_J_m3": 5.049679145694811e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "neutron",
+      "case": "baseline",
+      "boundary": "external",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.0676749689758606e-10,
+      "u_J_m3": 2.4541399751806885e-09,
+      "P_Pa": -5.258597484395482e-10,
+      "q": 0.178588169119715,
+      "H_over_inherited_H0": 1.7888823326311878,
+      "pressure_fd_Pa": -5.258597484392392e-10,
+      "continuity_residual_J_m3": 1.3640208300999426e-21
+    },
+    {
+      "calibration": "inherited",
+      "species": "neutron",
+      "case": "baseline",
+      "boundary": "external",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.668947767821907e-10,
+      "u_J_m3": 7.668947767821907e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.52855,
+      "H_over_inherited_H0": 1.0,
+      "pressure_fd_Pa": -5.258597484394977e-10,
+      "continuity_residual_J_m3": 4.28996545185314e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "neutron",
+      "case": "baseline",
+      "boundary": "external",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.4479130158590276e-09,
+      "u_J_m3": 5.559891269823784e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.9187141157606167,
+      "H_over_inherited_H0": 0.8514619780119368,
+      "pressure_fd_Pa": -5.258597484394288e-10,
+      "continuity_residual_J_m3": 1.6117097247712899e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "neutron",
+      "case": "baseline",
+      "boundary": "included_pressureless",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.1432907939665847e-10,
+      "u_J_m3": 2.5146326351732677e-09,
+      "P_Pa": -5.258597484395482e-10,
+      "q": 0.18632013613989717,
+      "H_over_inherited_H0": 1.8107954053398745,
+      "pressure_fd_Pa": -5.258597484393771e-10,
+      "continuity_residual_J_m3": 6.145951951268996e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "neutron",
+      "case": "baseline",
+      "boundary": "included_pressureless",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.744563592812631e-10,
+      "u_J_m3": 7.744563592812631e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.5185075158932921,
+      "H_over_inherited_H0": 1.004917907094903,
+      "pressure_fd_Pa": -5.25859748439446e-10,
+      "continuity_residual_J_m3": 7.660726448006728e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "neutron",
+      "case": "baseline",
+      "boundary": "included_pressureless",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.4554745983581e-09,
+      "u_J_m3": 5.569343247947625e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.9163063534466139,
+      "H_over_inherited_H0": 0.8521854258317259,
+      "pressure_fd_Pa": -5.258597484394719e-10,
+      "continuity_residual_J_m3": 5.049679145694811e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "neutron",
+      "case": "p3_low",
+      "boundary": "external",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.067764235629601e-10,
+      "u_J_m3": 2.454211388503681e-09,
+      "P_Pa": -5.258597484395482e-10,
+      "q": 0.17859752165022633,
+      "H_over_inherited_H0": 1.7889083598960887,
+      "pressure_fd_Pa": -5.258597484393771e-10,
+      "continuity_residual_J_m3": 7.4859845436049e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "neutron",
+      "case": "p3_low",
+      "boundary": "external",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.669037034475648e-10,
+      "u_J_m3": 7.669037034475648e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.5285380278037136,
+      "H_over_inherited_H0": 1.000005819989696,
+      "pressure_fd_Pa": -5.25859748439515e-10,
+      "continuity_residual_J_m3": 9.357480679506126e-23
+    },
+    {
+      "calibration": "inherited",
+      "species": "neutron",
+      "case": "p3_low",
+      "boundary": "external",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.447921942524402e-09,
+      "u_J_m3": 5.559902428155502e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.9187112685015288,
+      "H_over_inherited_H0": 0.8514628324252669,
+      "pressure_fd_Pa": -5.25859748439515e-10,
+      "continuity_residual_J_m3": -5.300418268874948e-23
+    },
+    {
+      "calibration": "inherited",
+      "species": "neutron",
+      "case": "p3_low",
+      "boundary": "included_pressureless",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.1432907939665847e-10,
+      "u_J_m3": 2.5146326351732677e-09,
+      "P_Pa": -5.258597484395482e-10,
+      "q": 0.18632013613989717,
+      "H_over_inherited_H0": 1.8107954053398745,
+      "pressure_fd_Pa": -5.258597484393771e-10,
+      "continuity_residual_J_m3": 6.145951951268996e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "neutron",
+      "case": "p3_low",
+      "boundary": "included_pressureless",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.744563592812631e-10,
+      "u_J_m3": 7.744563592812631e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.5185075158932921,
+      "H_over_inherited_H0": 1.004917907094903,
+      "pressure_fd_Pa": -5.25859748439446e-10,
+      "continuity_residual_J_m3": 7.660726448006728e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "neutron",
+      "case": "p3_low",
+      "boundary": "included_pressureless",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.4554745983581e-09,
+      "u_J_m3": 5.569343247947625e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.9163063534466139,
+      "H_over_inherited_H0": 0.8521854258317259,
+      "pressure_fd_Pa": -5.258597484394719e-10,
+      "continuity_residual_J_m3": 5.049679145694811e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "neutron",
+      "case": "p3_high",
+      "boundary": "external",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.0674986610610154e-10,
+      "u_J_m3": 2.4539989288488123e-09,
+      "P_Pa": -5.258597484395482e-10,
+      "q": 0.17856969561541378,
+      "H_over_inherited_H0": 1.7888309258412025,
+      "pressure_fd_Pa": -5.25859748439446e-10,
+      "continuity_residual_J_m3": -7.1881995230858105e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "neutron",
+      "case": "p3_high",
+      "boundary": "external",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.668771459907062e-10,
+      "u_J_m3": 7.668771459907062e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.528573646747952,
+      "H_over_inherited_H0": 0.999988505011801,
+      "pressure_fd_Pa": -5.258597484394891e-10,
+      "continuity_residual_J_m3": -4.775934061728044e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "neutron",
+      "case": "p3_high",
+      "boundary": "external",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.447895385067544e-09,
+      "u_J_m3": 5.55986923133443e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.9187197393309987,
+      "H_over_inherited_H0": 0.8514602904830425,
+      "pressure_fd_Pa": -5.258597484394719e-10,
+      "continuity_residual_J_m3": -2.31907839547484e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "neutron",
+      "case": "p3_high",
+      "boundary": "included_pressureless",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.1432907939665847e-10,
+      "u_J_m3": 2.5146326351732677e-09,
+      "P_Pa": -5.258597484395482e-10,
+      "q": 0.18632013613989717,
+      "H_over_inherited_H0": 1.8107954053398745,
+      "pressure_fd_Pa": -5.258597484393771e-10,
+      "continuity_residual_J_m3": 6.145951951268996e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "neutron",
+      "case": "p3_high",
+      "boundary": "included_pressureless",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.744563592812631e-10,
+      "u_J_m3": 7.744563592812631e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.5185075158932921,
+      "H_over_inherited_H0": 1.004917907094903,
+      "pressure_fd_Pa": -5.25859748439446e-10,
+      "continuity_residual_J_m3": 7.660726448006728e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "neutron",
+      "case": "p3_high",
+      "boundary": "included_pressureless",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.4554745983581e-09,
+      "u_J_m3": 5.569343247947625e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.9163063534466139,
+      "H_over_inherited_H0": 0.8521854258317259,
+      "pressure_fd_Pa": -5.258597484394719e-10,
+      "continuity_residual_J_m3": 5.049679145694811e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "neutron",
+      "case": "p3_phase",
+      "boundary": "external",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.0676749689758606e-10,
+      "u_J_m3": 2.4541399751806885e-09,
+      "P_Pa": -5.258597484395482e-10,
+      "q": 0.178588169119715,
+      "H_over_inherited_H0": 1.7888823326311878,
+      "pressure_fd_Pa": -5.258597484392392e-10,
+      "continuity_residual_J_m3": 1.3640208300999426e-21
+    },
+    {
+      "calibration": "inherited",
+      "species": "neutron",
+      "case": "p3_phase",
+      "boundary": "external",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.668947767821907e-10,
+      "u_J_m3": 7.668947767821907e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.52855,
+      "H_over_inherited_H0": 1.0,
+      "pressure_fd_Pa": -5.258597484394977e-10,
+      "continuity_residual_J_m3": 4.28996545185314e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "neutron",
+      "case": "p3_phase",
+      "boundary": "external",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.4479130158590276e-09,
+      "u_J_m3": 5.559891269823784e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.9187141157606167,
+      "H_over_inherited_H0": 0.8514619780119368,
+      "pressure_fd_Pa": -5.258597484394288e-10,
+      "continuity_residual_J_m3": 1.6117097247712899e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "neutron",
+      "case": "p3_phase",
+      "boundary": "included_pressureless",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.1432907939665847e-10,
+      "u_J_m3": 2.5146326351732677e-09,
+      "P_Pa": -5.258597484395482e-10,
+      "q": 0.18632013613989717,
+      "H_over_inherited_H0": 1.8107954053398745,
+      "pressure_fd_Pa": -5.258597484393771e-10,
+      "continuity_residual_J_m3": 6.145951951268996e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "neutron",
+      "case": "p3_phase",
+      "boundary": "included_pressureless",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.744563592812631e-10,
+      "u_J_m3": 7.744563592812631e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.5185075158932921,
+      "H_over_inherited_H0": 1.004917907094903,
+      "pressure_fd_Pa": -5.25859748439446e-10,
+      "continuity_residual_J_m3": 7.660726448006728e-22
+    },
+    {
+      "calibration": "inherited",
+      "species": "neutron",
+      "case": "p3_phase",
+      "boundary": "included_pressureless",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.4554745983581e-09,
+      "u_J_m3": 5.569343247947625e-10,
+      "P_Pa": -5.258597484395482e-10,
+      "q": -0.9163063534466139,
+      "H_over_inherited_H0": 0.8521854258317259,
+      "pressure_fd_Pa": -5.258597484394719e-10,
+      "continuity_residual_J_m3": 5.049679145694811e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "proton",
+      "case": "baseline",
+      "boundary": "external",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.092503187374184e-10,
+      "u_J_m3": 2.4740025498993473e-09,
+      "P_Pa": -5.230222377654542e-10,
+      "q": 0.18288902665840043,
+      "H_over_inherited_H0": 1.7961069010501574,
+      "pressure_fd_Pa": -5.230222377653956e-10,
+      "continuity_residual_J_m3": 2.4128858468171817e-21
+    },
+    {
+      "calibration": "alternate",
+      "species": "proton",
+      "case": "baseline",
+      "boundary": "external",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.668947767821908e-10,
+      "u_J_m3": 7.668947767821908e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.5230000000000001,
+      "H_over_inherited_H0": 1.0,
+      "pressure_fd_Pa": -5.230222377654559e-10,
+      "continuity_residual_J_m3": 8.1859861369779e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "proton",
+      "case": "baseline",
+      "boundary": "external",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.42805044114037e-09,
+      "u_J_m3": 5.535063051425462e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.9173882923449949,
+      "H_over_inherited_H0": 0.8495587089777846,
+      "pressure_fd_Pa": -5.230222377654128e-10,
+      "continuity_residual_J_m3": 1.9926005474578168e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "proton",
+      "case": "baseline",
+      "boundary": "included_pressureless",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.169192665052403e-10,
+      "u_J_m3": 2.5353541320419226e-09,
+      "P_Pa": -5.230222377654542e-10,
+      "q": 0.19056261343012698,
+      "H_over_inherited_H0": 1.818240908130713,
+      "pressure_fd_Pa": -5.230222377654645e-10,
+      "continuity_residual_J_m3": 2.903403950061127e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "proton",
+      "case": "baseline",
+      "boundary": "included_pressureless",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.745637245500127e-10,
+      "u_J_m3": 7.745637245500127e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.512871287128713,
+      "H_over_inherited_H0": 1.0049875621120892,
+      "pressure_fd_Pa": -5.230222377654645e-10,
+      "continuity_residual_J_m3": -1.3607121076497305e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "proton",
+      "case": "baseline",
+      "boundary": "included_pressureless",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.435719388908192e-09,
+      "u_J_m3": 5.54464923613524e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.9149377593360997,
+      "H_over_inherited_H0": 0.8502940667792526,
+      "pressure_fd_Pa": -5.230222377654473e-10,
+      "continuity_residual_J_m3": -7.081441525278185e-23
+    },
+    {
+      "calibration": "alternate",
+      "species": "proton",
+      "case": "p3_low",
+      "boundary": "external",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.09259384187679e-10,
+      "u_J_m3": 2.474075073501432e-09,
+      "P_Pa": -5.230222377654542e-10,
+      "q": 0.18289832226559263,
+      "H_over_inherited_H0": 1.7961332266470313,
+      "pressure_fd_Pa": -5.230222377654301e-10,
+      "continuity_residual_J_m3": 2.266474878395296e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "proton",
+      "case": "p3_low",
+      "boundary": "external",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.669038422324513e-10,
+      "u_J_m3": 7.669038422324513e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.5229879072771504,
+      "H_over_inherited_H0": 1.0000059104741255,
+      "pressure_fd_Pa": -5.230222377654301e-10,
+      "continuity_residual_J_m3": -4.456435550129437e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "proton",
+      "case": "p3_low",
+      "boundary": "external",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.42805950659063e-09,
+      "u_J_m3": 5.535074383238288e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.9173853905630643,
+      "H_over_inherited_H0": 0.8495595786187677,
+      "pressure_fd_Pa": -5.230222377654301e-10,
+      "continuity_residual_J_m3": 4.396206461777919e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "proton",
+      "case": "p3_low",
+      "boundary": "included_pressureless",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.169192665052403e-10,
+      "u_J_m3": 2.5353541320419226e-09,
+      "P_Pa": -5.230222377654542e-10,
+      "q": 0.19056261343012698,
+      "H_over_inherited_H0": 1.818240908130713,
+      "pressure_fd_Pa": -5.230222377654645e-10,
+      "continuity_residual_J_m3": 2.903403950061127e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "proton",
+      "case": "p3_low",
+      "boundary": "included_pressureless",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.745637245500127e-10,
+      "u_J_m3": 7.745637245500127e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.512871287128713,
+      "H_over_inherited_H0": 1.0049875621120892,
+      "pressure_fd_Pa": -5.230222377654645e-10,
+      "continuity_residual_J_m3": -1.3607121076497305e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "proton",
+      "case": "p3_low",
+      "boundary": "included_pressureless",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.435719388908192e-09,
+      "u_J_m3": 5.54464923613524e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.9149377593360997,
+      "H_over_inherited_H0": 0.8502940667792526,
+      "pressure_fd_Pa": -5.230222377654473e-10,
+      "continuity_residual_J_m3": -7.081441525278185e-23
+    },
+    {
+      "calibration": "alternate",
+      "species": "proton",
+      "case": "p3_high",
+      "boundary": "external",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.0923241383602906e-10,
+      "u_J_m3": 2.4738593106882325e-09,
+      "P_Pa": -5.230222377654542e-10,
+      "q": 0.18287066557963533,
+      "H_over_inherited_H0": 1.7960549050124848,
+      "pressure_fd_Pa": -5.230222377655335e-10,
+      "continuity_residual_J_m3": 3.0928283103357705e-21
+    },
+    {
+      "calibration": "alternate",
+      "species": "proton",
+      "case": "p3_high",
+      "boundary": "external",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.668768718808015e-10,
+      "u_J_m3": 7.668768718808015e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.523023884817489,
+      "H_over_inherited_H0": 0.9999883262955752,
+      "pressure_fd_Pa": -5.230222377654042e-10,
+      "continuity_residual_J_m3": 5.158505095033819e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "proton",
+      "case": "p3_high",
+      "boundary": "external",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.428032536238981e-09,
+      "u_J_m3": 5.535040670298726e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.9173940236031545,
+      "H_over_inherited_H0": 0.8495569913731087,
+      "pressure_fd_Pa": -5.230222377654386e-10,
+      "continuity_residual_J_m3": 4.307672286840603e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "proton",
+      "case": "p3_high",
+      "boundary": "included_pressureless",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.169192665052403e-10,
+      "u_J_m3": 2.5353541320419226e-09,
+      "P_Pa": -5.230222377654542e-10,
+      "q": 0.19056261343012698,
+      "H_over_inherited_H0": 1.818240908130713,
+      "pressure_fd_Pa": -5.230222377654645e-10,
+      "continuity_residual_J_m3": 2.903403950061127e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "proton",
+      "case": "p3_high",
+      "boundary": "included_pressureless",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.745637245500127e-10,
+      "u_J_m3": 7.745637245500127e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.512871287128713,
+      "H_over_inherited_H0": 1.0049875621120892,
+      "pressure_fd_Pa": -5.230222377654645e-10,
+      "continuity_residual_J_m3": -1.3607121076497305e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "proton",
+      "case": "p3_high",
+      "boundary": "included_pressureless",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.435719388908192e-09,
+      "u_J_m3": 5.54464923613524e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.9149377593360997,
+      "H_over_inherited_H0": 0.8502940667792526,
+      "pressure_fd_Pa": -5.230222377654473e-10,
+      "continuity_residual_J_m3": -7.081441525278185e-23
+    },
+    {
+      "calibration": "alternate",
+      "species": "proton",
+      "case": "p3_phase",
+      "boundary": "external",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.092503187374184e-10,
+      "u_J_m3": 2.4740025498993473e-09,
+      "P_Pa": -5.230222377654542e-10,
+      "q": 0.18288902665840043,
+      "H_over_inherited_H0": 1.7961069010501574,
+      "pressure_fd_Pa": -5.230222377653956e-10,
+      "continuity_residual_J_m3": 2.4128858468171817e-21
+    },
+    {
+      "calibration": "alternate",
+      "species": "proton",
+      "case": "p3_phase",
+      "boundary": "external",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.668947767821908e-10,
+      "u_J_m3": 7.668947767821908e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.5230000000000001,
+      "H_over_inherited_H0": 1.0,
+      "pressure_fd_Pa": -5.230222377654559e-10,
+      "continuity_residual_J_m3": 8.1859861369779e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "proton",
+      "case": "p3_phase",
+      "boundary": "external",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.42805044114037e-09,
+      "u_J_m3": 5.535063051425462e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.9173882923449949,
+      "H_over_inherited_H0": 0.8495587089777846,
+      "pressure_fd_Pa": -5.230222377654128e-10,
+      "continuity_residual_J_m3": 1.9926005474578168e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "proton",
+      "case": "p3_phase",
+      "boundary": "included_pressureless",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.169192665052403e-10,
+      "u_J_m3": 2.5353541320419226e-09,
+      "P_Pa": -5.230222377654542e-10,
+      "q": 0.19056261343012698,
+      "H_over_inherited_H0": 1.818240908130713,
+      "pressure_fd_Pa": -5.230222377654645e-10,
+      "continuity_residual_J_m3": 2.903403950061127e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "proton",
+      "case": "p3_phase",
+      "boundary": "included_pressureless",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.745637245500127e-10,
+      "u_J_m3": 7.745637245500127e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.512871287128713,
+      "H_over_inherited_H0": 1.0049875621120892,
+      "pressure_fd_Pa": -5.230222377654645e-10,
+      "continuity_residual_J_m3": -1.3607121076497305e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "proton",
+      "case": "p3_phase",
+      "boundary": "included_pressureless",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.435719388908192e-09,
+      "u_J_m3": 5.54464923613524e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.9149377593360997,
+      "H_over_inherited_H0": 0.8502940667792526,
+      "pressure_fd_Pa": -5.230222377654473e-10,
+      "continuity_residual_J_m3": -7.081441525278185e-23
+    },
+    {
+      "calibration": "alternate",
+      "species": "neutron",
+      "case": "baseline",
+      "boundary": "external",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.092503187374184e-10,
+      "u_J_m3": 2.4740025498993473e-09,
+      "P_Pa": -5.230222377654542e-10,
+      "q": 0.18288902665840043,
+      "H_over_inherited_H0": 1.7961069010501574,
+      "pressure_fd_Pa": -5.230222377653956e-10,
+      "continuity_residual_J_m3": 2.4128858468171817e-21
+    },
+    {
+      "calibration": "alternate",
+      "species": "neutron",
+      "case": "baseline",
+      "boundary": "external",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.668947767821908e-10,
+      "u_J_m3": 7.668947767821908e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.5230000000000001,
+      "H_over_inherited_H0": 1.0,
+      "pressure_fd_Pa": -5.230222377654559e-10,
+      "continuity_residual_J_m3": 8.1859861369779e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "neutron",
+      "case": "baseline",
+      "boundary": "external",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.42805044114037e-09,
+      "u_J_m3": 5.535063051425462e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.9173882923449949,
+      "H_over_inherited_H0": 0.8495587089777846,
+      "pressure_fd_Pa": -5.230222377654128e-10,
+      "continuity_residual_J_m3": 1.9926005474578168e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "neutron",
+      "case": "baseline",
+      "boundary": "included_pressureless",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.169192665052403e-10,
+      "u_J_m3": 2.5353541320419226e-09,
+      "P_Pa": -5.230222377654542e-10,
+      "q": 0.19056261343012698,
+      "H_over_inherited_H0": 1.818240908130713,
+      "pressure_fd_Pa": -5.230222377654645e-10,
+      "continuity_residual_J_m3": 2.903403950061127e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "neutron",
+      "case": "baseline",
+      "boundary": "included_pressureless",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.745637245500127e-10,
+      "u_J_m3": 7.745637245500127e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.512871287128713,
+      "H_over_inherited_H0": 1.0049875621120892,
+      "pressure_fd_Pa": -5.230222377654645e-10,
+      "continuity_residual_J_m3": -1.3607121076497305e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "neutron",
+      "case": "baseline",
+      "boundary": "included_pressureless",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.435719388908192e-09,
+      "u_J_m3": 5.54464923613524e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.9149377593360997,
+      "H_over_inherited_H0": 0.8502940667792526,
+      "pressure_fd_Pa": -5.230222377654473e-10,
+      "continuity_residual_J_m3": -7.081441525278185e-23
+    },
+    {
+      "calibration": "alternate",
+      "species": "neutron",
+      "case": "p3_low",
+      "boundary": "external",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.0925937215057665e-10,
+      "u_J_m3": 2.474074977204613e-09,
+      "P_Pa": -5.230222377654542e-10,
+      "q": 0.18289830992324932,
+      "H_over_inherited_H0": 1.7961331916921668,
+      "pressure_fd_Pa": -5.230222377653267e-10,
+      "continuity_residual_J_m3": 5.318771338715968e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "neutron",
+      "case": "p3_low",
+      "boundary": "external",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.66903830195349e-10,
+      "u_J_m3": 7.66903830195349e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.5229879233336748,
+      "H_over_inherited_H0": 1.0000059026262227,
+      "pressure_fd_Pa": -5.230222377654128e-10,
+      "continuity_residual_J_m3": 1.9573161244536017e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "neutron",
+      "case": "p3_low",
+      "boundary": "external",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.4280594945535285e-09,
+      "u_J_m3": 5.535074368191911e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.9173853944160416,
+      "H_over_inherited_H0": 0.8495595774640593,
+      "pressure_fd_Pa": -5.230222377654559e-10,
+      "continuity_residual_J_m3": -1.6928768223780557e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "neutron",
+      "case": "p3_low",
+      "boundary": "included_pressureless",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.169192665052403e-10,
+      "u_J_m3": 2.5353541320419226e-09,
+      "P_Pa": -5.230222377654542e-10,
+      "q": 0.19056261343012698,
+      "H_over_inherited_H0": 1.818240908130713,
+      "pressure_fd_Pa": -5.230222377654645e-10,
+      "continuity_residual_J_m3": 2.903403950061127e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "neutron",
+      "case": "p3_low",
+      "boundary": "included_pressureless",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.745637245500127e-10,
+      "u_J_m3": 7.745637245500127e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.512871287128713,
+      "H_over_inherited_H0": 1.0049875621120892,
+      "pressure_fd_Pa": -5.230222377654645e-10,
+      "continuity_residual_J_m3": -1.3607121076497305e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "neutron",
+      "case": "p3_low",
+      "boundary": "included_pressureless",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.435719388908192e-09,
+      "u_J_m3": 5.54464923613524e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.9149377593360997,
+      "H_over_inherited_H0": 0.8502940667792526,
+      "pressure_fd_Pa": -5.230222377654473e-10,
+      "continuity_residual_J_m3": -7.081441525278185e-23
+    },
+    {
+      "calibration": "alternate",
+      "species": "neutron",
+      "case": "p3_high",
+      "boundary": "external",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.0923243761015216e-10,
+      "u_J_m3": 2.4738595008812172e-09,
+      "P_Pa": -5.230222377654542e-10,
+      "q": 0.18287068996088038,
+      "H_over_inherited_H0": 1.7960549740538072,
+      "pressure_fd_Pa": -5.230222377653956e-10,
+      "continuity_residual_J_m3": 4.234337555658949e-21
+    },
+    {
+      "calibration": "alternate",
+      "species": "neutron",
+      "case": "p3_high",
+      "boundary": "external",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.668768956549246e-10,
+      "u_J_m3": 7.668768956549246e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.5230238531024954,
+      "H_over_inherited_H0": 0.999988341796007,
+      "pressure_fd_Pa": -5.230222377654559e-10,
+      "continuity_residual_J_m3": 3.5703183189320057e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "neutron",
+      "case": "p3_high",
+      "boundary": "external",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.428032560013104e-09,
+      "u_J_m3": 5.53504070001638e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.917394015993161,
+      "H_over_inherited_H0": 0.849556993653746,
+      "pressure_fd_Pa": -5.230222377654473e-10,
+      "continuity_residual_J_m3": -7.38517190645e-23
+    },
+    {
+      "calibration": "alternate",
+      "species": "neutron",
+      "case": "p3_high",
+      "boundary": "included_pressureless",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.169192665052403e-10,
+      "u_J_m3": 2.5353541320419226e-09,
+      "P_Pa": -5.230222377654542e-10,
+      "q": 0.19056261343012698,
+      "H_over_inherited_H0": 1.818240908130713,
+      "pressure_fd_Pa": -5.230222377654645e-10,
+      "continuity_residual_J_m3": 2.903403950061127e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "neutron",
+      "case": "p3_high",
+      "boundary": "included_pressureless",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.745637245500127e-10,
+      "u_J_m3": 7.745637245500127e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.512871287128713,
+      "H_over_inherited_H0": 1.0049875621120892,
+      "pressure_fd_Pa": -5.230222377654645e-10,
+      "continuity_residual_J_m3": -1.3607121076497305e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "neutron",
+      "case": "p3_high",
+      "boundary": "included_pressureless",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.435719388908192e-09,
+      "u_J_m3": 5.54464923613524e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.9149377593360997,
+      "H_over_inherited_H0": 0.8502940667792526,
+      "pressure_fd_Pa": -5.230222377654473e-10,
+      "continuity_residual_J_m3": -7.081441525278185e-23
+    },
+    {
+      "calibration": "alternate",
+      "species": "neutron",
+      "case": "p3_phase",
+      "boundary": "external",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.092503187374184e-10,
+      "u_J_m3": 2.4740025498993473e-09,
+      "P_Pa": -5.230222377654542e-10,
+      "q": 0.18288902665840043,
+      "H_over_inherited_H0": 1.7961069010501574,
+      "pressure_fd_Pa": -5.230222377653956e-10,
+      "continuity_residual_J_m3": 2.4128858468171817e-21
+    },
+    {
+      "calibration": "alternate",
+      "species": "neutron",
+      "case": "p3_phase",
+      "boundary": "external",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.668947767821908e-10,
+      "u_J_m3": 7.668947767821908e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.5230000000000001,
+      "H_over_inherited_H0": 1.0,
+      "pressure_fd_Pa": -5.230222377654559e-10,
+      "continuity_residual_J_m3": 8.1859861369779e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "neutron",
+      "case": "p3_phase",
+      "boundary": "external",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.42805044114037e-09,
+      "u_J_m3": 5.535063051425462e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.9173882923449949,
+      "H_over_inherited_H0": 0.8495587089777846,
+      "pressure_fd_Pa": -5.230222377654128e-10,
+      "continuity_residual_J_m3": 1.9926005474578168e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "neutron",
+      "case": "p3_phase",
+      "boundary": "included_pressureless",
+      "a": 0.5,
+      "V_m3": 0.125,
+      "E_J": 3.169192665052403e-10,
+      "u_J_m3": 2.5353541320419226e-09,
+      "P_Pa": -5.230222377654542e-10,
+      "q": 0.19056261343012698,
+      "H_over_inherited_H0": 1.818240908130713,
+      "pressure_fd_Pa": -5.230222377654645e-10,
+      "continuity_residual_J_m3": 2.903403950061127e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "neutron",
+      "case": "p3_phase",
+      "boundary": "included_pressureless",
+      "a": 1,
+      "V_m3": 1,
+      "E_J": 7.745637245500127e-10,
+      "u_J_m3": 7.745637245500127e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.512871287128713,
+      "H_over_inherited_H0": 1.0049875621120892,
+      "pressure_fd_Pa": -5.230222377654645e-10,
+      "continuity_residual_J_m3": -1.3607121076497305e-22
+    },
+    {
+      "calibration": "alternate",
+      "species": "neutron",
+      "case": "p3_phase",
+      "boundary": "included_pressureless",
+      "a": 2,
+      "V_m3": 8,
+      "E_J": 4.435719388908192e-09,
+      "u_J_m3": 5.54464923613524e-10,
+      "P_Pa": -5.230222377654542e-10,
+      "q": -0.9149377593360997,
+      "H_over_inherited_H0": 0.8502940667792526,
+      "pressure_fd_Pa": -5.230222377654473e-10,
+      "continuity_residual_J_m3": -7.081441525278185e-23
+    }
+  ],
+  "histories": [
+    {
+      "tag": "inherited_proton_baseline_external",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.0635727759898506,
+        1.1294513788356668,
+        1.1978739176918738,
+        1.2690772289612193,
+        1.3432988306160867,
+        1.420778605776256,
+        1.5017602887810242,
+        1.5864928058757237,
+        1.6752315088111285,
+        1.7682393312804776,
+        1.8657878904322118,
+        1.9681585512111675,
+        2.0756434677461644,
+        2.18854661337471,
+        2.307184808972055,
+        2.4318887578148094
+      ],
+      "analytic_max_error": 3.29669624932194e-11
+    },
+    {
+      "tag": "inherited_proton_baseline_included_pressureless",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.063871096021803,
+        1.1300320687011571,
+        1.1987239157880147,
+        1.270185992033652,
+        1.3446580374692414,
+        1.422381917388749,
+        1.5036031529418425,
+        1.5885722964816769,
+        1.6775461936651144,
+        1.7707891628715764,
+        1.8685741159160727,
+        1.9711836385107682,
+        2.0789110453759916,
+        2.192061422096113,
+        2.310952663767856,
+        2.435916518965913
+      ],
+      "analytic_max_error": 2.8752999980952154e-11
+    },
+    {
+      "tag": "inherited_proton_p3_low_external",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.0635731295243214,
+        1.1294520670424149,
+        1.1978749251194216,
+        1.2690785431338003,
+        1.3433004416852377,
+        1.4207805062383378,
+        1.5017624732470063,
+        1.5864952708817497,
+        1.675234252662495,
+        1.7682423539226986,
+        1.8657911933446936,
+        1.9681621373198894,
+        2.0756473413525516,
+        2.1885507800984754,
+        2.307189275706232,
+        2.431893532691544
+      ],
+      "analytic_max_error": 3.296363182414552e-11
+    },
+    {
+      "tag": "inherited_proton_p3_low_included_pressureless",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.063871096021803,
+        1.1300320687011571,
+        1.1987239157880147,
+        1.270185992033652,
+        1.3446580374692414,
+        1.422381917388749,
+        1.5036031529418425,
+        1.5885722964816769,
+        1.6775461936651144,
+        1.7707891628715764,
+        1.8685741159160727,
+        1.9711836385107682,
+        2.0789110453759916,
+        2.192061422096113,
+        2.310952663767856,
+        2.435916518965913
+      ],
+      "analytic_max_error": 2.8752999980952154e-11
+    },
+    {
+      "tag": "inherited_proton_p3_high_external",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.0635720777281987,
+        1.1294500195665733,
+        1.1978719279331713,
+        1.2690746333535123,
+        1.3432956486108645,
+        1.4207748521938048,
+        1.501755974265114,
+        1.586487937267749,
+        1.6752260894582585,
+        1.7682333612903145,
+        1.8657813668827885,
+        1.9681514683234083,
+        2.0756358170243674,
+        2.1885383837194383,
+        2.307175986768949,
+        2.4318793270021506
+      ],
+      "analytic_max_error": 3.2973845875972074e-11
+    },
+    {
+      "tag": "inherited_proton_p3_high_included_pressureless",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.063871096021803,
+        1.1300320687011571,
+        1.1987239157880147,
+        1.270185992033652,
+        1.3446580374692414,
+        1.422381917388749,
+        1.5036031529418425,
+        1.5885722964816769,
+        1.6775461936651144,
+        1.7707891628715764,
+        1.8685741159160727,
+        1.9711836385107682,
+        2.0789110453759916,
+        2.192061422096113,
+        2.310952663767856,
+        2.435916518965913
+      ],
+      "analytic_max_error": 2.8752999980952154e-11
+    },
+    {
+      "tag": "inherited_proton_p3_phase_external",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.0635727759898506,
+        1.1294513788356668,
+        1.1978739176918738,
+        1.2690772289612193,
+        1.3432988306160867,
+        1.420778605776256,
+        1.5017602887810242,
+        1.5864928058757237,
+        1.6752315088111285,
+        1.7682393312804776,
+        1.8657878904322118,
+        1.9681585512111675,
+        2.0756434677461644,
+        2.18854661337471,
+        2.307184808972055,
+        2.4318887578148094
+      ],
+      "analytic_max_error": 3.29669624932194e-11
+    },
+    {
+      "tag": "inherited_proton_p3_phase_included_pressureless",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.063871096021803,
+        1.1300320687011571,
+        1.1987239157880147,
+        1.270185992033652,
+        1.3446580374692414,
+        1.422381917388749,
+        1.5036031529418425,
+        1.5885722964816769,
+        1.6775461936651144,
+        1.7707891628715764,
+        1.8685741159160727,
+        1.9711836385107682,
+        2.0789110453759916,
+        2.192061422096113,
+        2.310952663767856,
+        2.435916518965913
+      ],
+      "analytic_max_error": 2.8752999980952154e-11
+    },
+    {
+      "tag": "inherited_neutron_baseline_external",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.0635727759898506,
+        1.1294513788356668,
+        1.1978739176918738,
+        1.2690772289612193,
+        1.3432988306160867,
+        1.420778605776256,
+        1.5017602887810242,
+        1.5864928058757237,
+        1.6752315088111285,
+        1.7682393312804776,
+        1.8657878904322118,
+        1.9681585512111675,
+        2.0756434677461644,
+        2.18854661337471,
+        2.307184808972055,
+        2.4318887578148094
+      ],
+      "analytic_max_error": 3.29669624932194e-11
+    },
+    {
+      "tag": "inherited_neutron_baseline_included_pressureless",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.063871096021803,
+        1.1300320687011571,
+        1.1987239157880147,
+        1.270185992033652,
+        1.3446580374692414,
+        1.422381917388749,
+        1.5036031529418425,
+        1.5885722964816769,
+        1.6775461936651144,
+        1.7707891628715764,
+        1.8685741159160727,
+        1.9711836385107682,
+        2.0789110453759916,
+        2.192061422096113,
+        2.310952663767856,
+        2.435916518965913
+      ],
+      "analytic_max_error": 2.8752999980952154e-11
+    },
+    {
+      "tag": "inherited_neutron_p3_low_external",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.0635731290548998,
+        1.129452066128617,
+        1.1978749237817639,
+        1.2690785413888477,
+        1.3433004395460675,
+        1.4207805037149133,
+        1.501762470346483,
+        1.5864952676087267,
+        1.6752342490192222,
+        1.7682423499092488,
+        1.8657911889591021,
+        1.9681621325582714,
+        2.075647336209195,
+        2.188550774565919,
+        2.307189269775323,
+        2.431893526351485
+      ],
+      "analytic_max_error": 3.296385386875045e-11
+    },
+    {
+      "tag": "inherited_neutron_p3_low_included_pressureless",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.063871096021803,
+        1.1300320687011571,
+        1.1987239157880147,
+        1.270185992033652,
+        1.3446580374692414,
+        1.422381917388749,
+        1.5036031529418425,
+        1.5885722964816769,
+        1.6775461936651144,
+        1.7707891628715764,
+        1.8685741159160727,
+        1.9711836385107682,
+        2.0789110453759916,
+        2.192061422096113,
+        2.310952663767856,
+        2.435916518965913
+      ],
+      "analytic_max_error": 2.8752999980952154e-11
+    },
+    {
+      "tag": "inherited_neutron_p3_high_external",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.063572078655356,
+        1.1294500213714216,
+        1.197871930575189,
+        1.2690746367999814,
+        1.3432956528359574,
+        1.420774857177843,
+        1.5017559799939646,
+        1.586487943732328,
+        1.6752260966541217,
+        1.7682333692173187,
+        1.8657813755448138,
+        1.968151477728128,
+        2.075635827183062,
+        2.188538394646846,
+        2.3071759984831473,
+        2.431879339524466
+      ],
+      "analytic_max_error": 3.2974289965181924e-11
+    },
+    {
+      "tag": "inherited_neutron_p3_high_included_pressureless",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.063871096021803,
+        1.1300320687011571,
+        1.1987239157880147,
+        1.270185992033652,
+        1.3446580374692414,
+        1.422381917388749,
+        1.5036031529418425,
+        1.5885722964816769,
+        1.6775461936651144,
+        1.7707891628715764,
+        1.8685741159160727,
+        1.9711836385107682,
+        2.0789110453759916,
+        2.192061422096113,
+        2.310952663767856,
+        2.435916518965913
+      ],
+      "analytic_max_error": 2.8752999980952154e-11
+    },
+    {
+      "tag": "inherited_neutron_p3_phase_external",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.0635727759898506,
+        1.1294513788356668,
+        1.1978739176918738,
+        1.2690772289612193,
+        1.3432988306160867,
+        1.420778605776256,
+        1.5017602887810242,
+        1.5864928058757237,
+        1.6752315088111285,
+        1.7682393312804776,
+        1.8657878904322118,
+        1.9681585512111675,
+        2.0756434677461644,
+        2.18854661337471,
+        2.307184808972055,
+        2.4318887578148094
+      ],
+      "analytic_max_error": 3.29669624932194e-11
+    },
+    {
+      "tag": "inherited_neutron_p3_phase_included_pressureless",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.063871096021803,
+        1.1300320687011571,
+        1.1987239157880147,
+        1.270185992033652,
+        1.3446580374692414,
+        1.422381917388749,
+        1.5036031529418425,
+        1.5885722964816769,
+        1.6775461936651144,
+        1.7707891628715764,
+        1.8685741159160727,
+        1.9711836385107682,
+        2.0789110453759916,
+        2.192061422096113,
+        2.310952663767856,
+        2.435916518965913
+      ],
+      "analytic_max_error": 2.8752999980952154e-11
+    },
+    {
+      "tag": "alternate_proton_baseline_external",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.063561925879007,
+        1.1294078596950363,
+        1.1977755705415647,
+        1.2689013562403946,
+        1.3430220134353323,
+        1.4203765311657943,
+        1.5012075831022813,
+        1.5857628708299438,
+        1.6742963579029881,
+        1.7670694245235454,
+        1.8643519657194616,
+        1.9664234508992668,
+        2.0735739591852083,
+        2.186105202232204,
+        2.304331544273886,
+        2.4285810276720055
+      ],
+      "analytic_max_error": 3.094124956248834e-11
+    },
+    {
+      "tag": "alternate_proton_baseline_included_pressureless",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.0638644707848086,
+        1.129996771714506,
+        1.1986375989405562,
+        1.2700258008657541,
+        1.344400423582736,
+        1.4220024621002445,
+        1.5030763975956676,
+        1.587871576218792,
+        1.6766434719138354,
+        1.769654864503958,
+        1.8671769573245374,
+        1.969490453107045,
+        2.0768866032086,
+        2.1896682424024543,
+        2.308150819357793,
+        2.432663431386493
+      ],
+      "analytic_max_error": 2.615951899542779e-11
+    },
+    {
+      "tag": "alternate_proton_p3_low_external",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.0635622844331079,
+        1.1294085576717914,
+        1.1977765922655947,
+        1.2689026890500996,
+        1.3430236473288235,
+        1.4203784585140165,
+        1.5012097984155675,
+        1.5857653705654653,
+        1.6742991403067302,
+        1.7670724894994416,
+        1.8643553147215284,
+        1.9664270868430143,
+        2.07357788637544,
+        2.1861094263049443,
+        2.3043360721506354,
+        2.428585867524863
+      ],
+      "analytic_max_error": 3.093658662578491e-11
+    },
+    {
+      "tag": "alternate_proton_p3_low_included_pressureless",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.0638644707848086,
+        1.129996771714506,
+        1.1986375989405562,
+        1.2700258008657541,
+        1.344400423582736,
+        1.4220024621002445,
+        1.5030763975956676,
+        1.587871576218792,
+        1.6766434719138354,
+        1.769654864503958,
+        1.8671769573245374,
+        1.969490453107045,
+        2.0768866032086,
+        2.1896682424024543,
+        2.308150819357793,
+        2.432663431386493
+      ],
+      "analytic_max_error": 2.615951899542779e-11
+    },
+    {
+      "tag": "alternate_proton_p3_high_external",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.0635612177030545,
+        1.1294064811291362,
+        1.1977735525457749,
+        1.2688987238223552,
+        1.3430187863495624,
+        1.4203727244802882,
+        1.501203207659576,
+        1.5857579336274081,
+        1.6742908624049373,
+        1.7670633709197077,
+        1.864345351138016,
+        1.9664162695818135,
+        2.0735662026293724,
+        2.1860968593063297,
+        2.304322601307388,
+        2.4285714685242503
+      ],
+      "analytic_max_error": 3.095013134668534e-11
+    },
+    {
+      "tag": "alternate_proton_p3_high_included_pressureless",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.0638644707848086,
+        1.129996771714506,
+        1.1986375989405562,
+        1.2700258008657541,
+        1.344400423582736,
+        1.4220024621002445,
+        1.5030763975956676,
+        1.587871576218792,
+        1.6766434719138354,
+        1.769654864503958,
+        1.8671769573245374,
+        1.969490453107045,
+        2.0768866032086,
+        2.1896682424024543,
+        2.308150819357793,
+        2.432663431386493
+      ],
+      "analytic_max_error": 2.615951899542779e-11
+    },
+    {
+      "tag": "alternate_proton_p3_phase_external",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.063561925879007,
+        1.1294078596950363,
+        1.1977755705415647,
+        1.2689013562403946,
+        1.3430220134353323,
+        1.4203765311657943,
+        1.5012075831022813,
+        1.5857628708299438,
+        1.6742963579029881,
+        1.7670694245235454,
+        1.8643519657194616,
+        1.9664234508992668,
+        2.0735739591852083,
+        2.186105202232204,
+        2.304331544273886,
+        2.4285810276720055
+      ],
+      "analytic_max_error": 3.094124956248834e-11
+    },
+    {
+      "tag": "alternate_proton_p3_phase_included_pressureless",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.0638644707848086,
+        1.129996771714506,
+        1.1986375989405562,
+        1.2700258008657541,
+        1.344400423582736,
+        1.4220024621002445,
+        1.5030763975956676,
+        1.587871576218792,
+        1.6766434719138354,
+        1.769654864503958,
+        1.8671769573245374,
+        1.969490453107045,
+        2.0768866032086,
+        2.1896682424024543,
+        2.308150819357793,
+        2.432663431386493
+      ],
+      "analytic_max_error": 2.615951899542779e-11
+    },
+    {
+      "tag": "alternate_neutron_baseline_external",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.063561925879007,
+        1.1294078596950363,
+        1.1977755705415647,
+        1.2689013562403946,
+        1.3430220134353323,
+        1.4203765311657943,
+        1.5012075831022813,
+        1.5857628708299438,
+        1.6742963579029881,
+        1.7670694245235454,
+        1.8643519657194616,
+        1.9664234508992668,
+        2.0735739591852083,
+        2.186105202232204,
+        2.304331544273886,
+        2.4285810276720055
+      ],
+      "analytic_max_error": 3.094124956248834e-11
+    },
+    {
+      "tag": "alternate_neutron_baseline_included_pressureless",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.0638644707848086,
+        1.129996771714506,
+        1.1986375989405562,
+        1.2700258008657541,
+        1.344400423582736,
+        1.4220024621002445,
+        1.5030763975956676,
+        1.587871576218792,
+        1.6766434719138354,
+        1.769654864503958,
+        1.8671769573245374,
+        1.969490453107045,
+        2.0768866032086,
+        2.1896682424024543,
+        2.308150819357793,
+        2.432663431386493
+      ],
+      "analytic_max_error": 2.615951899542779e-11
+    },
+    {
+      "tag": "alternate_neutron_p3_low_external",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.0635622839570211,
+        1.129408556745021,
+        1.1977765909089542,
+        1.2689026872804008,
+        1.3430236451593471,
+        1.4203784559548922,
+        1.5012097954740846,
+        1.5857653672463283,
+        1.674299136612268,
+        1.7670724854297812,
+        1.8643553102747397,
+        1.966427082015226,
+        2.073577881160936,
+        2.186109420696241,
+        2.3043360661385424,
+        2.4285858610985303
+      ],
+      "analytic_max_error": 3.093658662578491e-11
+    },
+    {
+      "tag": "alternate_neutron_p3_low_included_pressureless",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.0638644707848086,
+        1.129996771714506,
+        1.1986375989405562,
+        1.2700258008657541,
+        1.344400423582736,
+        1.4220024621002445,
+        1.5030763975956676,
+        1.587871576218792,
+        1.6766434719138354,
+        1.769654864503958,
+        1.8671769573245374,
+        1.969490453107045,
+        2.0768866032086,
+        2.1896682424024543,
+        2.308150819357793,
+        2.432663431386493
+      ],
+      "analytic_max_error": 2.615951899542779e-11
+    },
+    {
+      "tag": "alternate_neutron_p3_high_external",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.0635612186433758,
+        1.1294064829596069,
+        1.1977735552252857,
+        1.2688987273177015,
+        1.3430187906345137,
+        1.420372729534837,
+        1.5012032134693258,
+        1.5857579401830677,
+        1.6742908697019065,
+        1.7670633789577352,
+        1.8643453599209145,
+        1.9664162791172295,
+        2.0735662129285948,
+        2.1860968703841395,
+        2.3043226131819368,
+        2.42857148121697
+      ],
+      "analytic_max_error": 3.095013134668534e-11
+    },
+    {
+      "tag": "alternate_neutron_p3_high_included_pressureless",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.0638644707848086,
+        1.129996771714506,
+        1.1986375989405562,
+        1.2700258008657541,
+        1.344400423582736,
+        1.4220024621002445,
+        1.5030763975956676,
+        1.587871576218792,
+        1.6766434719138354,
+        1.769654864503958,
+        1.8671769573245374,
+        1.969490453107045,
+        2.0768866032086,
+        2.1896682424024543,
+        2.308150819357793,
+        2.432663431386493
+      ],
+      "analytic_max_error": 2.615951899542779e-11
+    },
+    {
+      "tag": "alternate_neutron_p3_phase_external",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.063561925879007,
+        1.1294078596950363,
+        1.1977755705415647,
+        1.2689013562403946,
+        1.3430220134353323,
+        1.4203765311657943,
+        1.5012075831022813,
+        1.5857628708299438,
+        1.6742963579029881,
+        1.7670694245235454,
+        1.8643519657194616,
+        1.9664234508992668,
+        2.0735739591852083,
+        2.186105202232204,
+        2.304331544273886,
+        2.4285810276720055
+      ],
+      "analytic_max_error": 3.094124956248834e-11
+    },
+    {
+      "tag": "alternate_neutron_p3_phase_included_pressureless",
+      "tau_H0t": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "scale_factor": [
+        1.0,
+        1.0638644707848086,
+        1.129996771714506,
+        1.1986375989405562,
+        1.2700258008657541,
+        1.344400423582736,
+        1.4220024621002445,
+        1.5030763975956676,
+        1.587871576218792,
+        1.6766434719138354,
+        1.769654864503958,
+        1.8671769573245374,
+        1.969490453107045,
+        2.0768866032086,
+        2.1896682424024543,
+        2.308150819357793,
+        2.432663431386493
+      ],
+      "analytic_max_error": 2.615951899542779e-11
+    }
+  ],
+  "checks": [
+    {
+      "name": "inherited_proton_baseline_external positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_external a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_external a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_external a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_external a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_external a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_external a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_external a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_external a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_external a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_external a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_external inherited/dedicated q reference",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_external H reference unchanged",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_external a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_external a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_external a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_external a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_external a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_external homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_external expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_included_pressureless positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_included_pressureless exchange invisible in full gravity load",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_included_pressureless a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_included_pressureless a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_included_pressureless a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_included_pressureless a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_included_pressureless a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_included_pressureless a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_included_pressureless a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_included_pressureless a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_included_pressureless a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_included_pressureless a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_included_pressureless a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_included_pressureless a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_included_pressureless a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_included_pressureless a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_included_pressureless a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_included_pressureless homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline_included_pressureless expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_external positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_external a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_external a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_external a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_external a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_external a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_external a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_external a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_external a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_external a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_external a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_external a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_external a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_external a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_external a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_external a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_external homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_external expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_included_pressureless positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_included_pressureless exchange invisible in full gravity load",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_included_pressureless a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_included_pressureless a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_included_pressureless a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_included_pressureless a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_included_pressureless a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_included_pressureless a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_included_pressureless a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_included_pressureless a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_included_pressureless a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_included_pressureless a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_included_pressureless a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_included_pressureless a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_included_pressureless a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_included_pressureless a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_included_pressureless a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_included_pressureless homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low_included_pressureless expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_external positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_external a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_external a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_external a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_external a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_external a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_external a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_external a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_external a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_external a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_external a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_external a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_external a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_external a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_external a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_external a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_external homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_external expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_included_pressureless positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_included_pressureless exchange invisible in full gravity load",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_included_pressureless a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_included_pressureless a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_included_pressureless a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_included_pressureless a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_included_pressureless a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_included_pressureless a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_included_pressureless a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_included_pressureless a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_included_pressureless a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_included_pressureless a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_included_pressureless a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_included_pressureless a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_included_pressureless a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_included_pressureless a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_included_pressureless a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_included_pressureless homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high_included_pressureless expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_external positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_external a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_external a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_external a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_external a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_external a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_external a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_external a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_external a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_external a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_external a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_external a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_external a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_external a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_external a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_external a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_external homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_external expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_included_pressureless positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_included_pressureless exchange invisible in full gravity load",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_included_pressureless a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_included_pressureless a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_included_pressureless a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_included_pressureless a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_included_pressureless a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_included_pressureless a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_included_pressureless a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_included_pressureless a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_included_pressureless a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_included_pressureless a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_included_pressureless a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_included_pressureless a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_included_pressureless a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_included_pressureless a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_included_pressureless a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_included_pressureless homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase_included_pressureless expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_external positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_external a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_external a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_external a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_external a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_external a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_external a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_external a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_external a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_external a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_external a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_external inherited/dedicated q reference",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_external H reference unchanged",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_external a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_external a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_external a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_external a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_external a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_external homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_external expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_included_pressureless positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_included_pressureless exchange invisible in full gravity load",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_included_pressureless a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_included_pressureless a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_included_pressureless a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_included_pressureless a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_included_pressureless a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_included_pressureless a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_included_pressureless a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_included_pressureless a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_included_pressureless a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_included_pressureless a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_included_pressureless a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_included_pressureless a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_included_pressureless a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_included_pressureless a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_included_pressureless a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_included_pressureless homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline_included_pressureless expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_external positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_external a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_external a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_external a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_external a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_external a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_external a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_external a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_external a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_external a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_external a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_external a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_external a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_external a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_external a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_external a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_external homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_external expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_included_pressureless positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_included_pressureless exchange invisible in full gravity load",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_included_pressureless a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_included_pressureless a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_included_pressureless a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_included_pressureless a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_included_pressureless a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_included_pressureless a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_included_pressureless a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_included_pressureless a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_included_pressureless a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_included_pressureless a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_included_pressureless a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_included_pressureless a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_included_pressureless a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_included_pressureless a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_included_pressureless a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_included_pressureless homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low_included_pressureless expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_external positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_external a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_external a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_external a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_external a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_external a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_external a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_external a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_external a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_external a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_external a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_external a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_external a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_external a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_external a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_external a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_external homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_external expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_included_pressureless positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_included_pressureless exchange invisible in full gravity load",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_included_pressureless a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_included_pressureless a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_included_pressureless a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_included_pressureless a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_included_pressureless a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_included_pressureless a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_included_pressureless a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_included_pressureless a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_included_pressureless a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_included_pressureless a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_included_pressureless a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_included_pressureless a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_included_pressureless a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_included_pressureless a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_included_pressureless a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_included_pressureless homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high_included_pressureless expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_external positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_external a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_external a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_external a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_external a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_external a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_external a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_external a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_external a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_external a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_external a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_external a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_external a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_external a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_external a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_external a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_external homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_external expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_included_pressureless positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_included_pressureless exchange invisible in full gravity load",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_included_pressureless a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_included_pressureless a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_included_pressureless a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_included_pressureless a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_included_pressureless a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_included_pressureless a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_included_pressureless a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_included_pressureless a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_included_pressureless a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_included_pressureless a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_included_pressureless a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_included_pressureless a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_included_pressureless a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_included_pressureless a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_included_pressureless a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_included_pressureless homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase_included_pressureless expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_external positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_external a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_external a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_external a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_external a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_external a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_external a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_external a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_external a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_external a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_external a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_external inherited/dedicated q reference",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_external H reference unchanged",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_external a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_external a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_external a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_external a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_external a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_external homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_external expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_included_pressureless positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_included_pressureless exchange invisible in full gravity load",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_included_pressureless a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_included_pressureless a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_included_pressureless a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_included_pressureless a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_included_pressureless a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_included_pressureless a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_included_pressureless a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_included_pressureless a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_included_pressureless a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_included_pressureless a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_included_pressureless a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_included_pressureless a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_included_pressureless a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_included_pressureless a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_included_pressureless a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_included_pressureless homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline_included_pressureless expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_external positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_external a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_external a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_external a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_external a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_external a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_external a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_external a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_external a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_external a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_external a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_external a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_external a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_external a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_external a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_external a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_external homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_external expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_included_pressureless positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_included_pressureless exchange invisible in full gravity load",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_included_pressureless a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_included_pressureless a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_included_pressureless a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_included_pressureless a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_included_pressureless a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_included_pressureless a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_included_pressureless a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_included_pressureless a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_included_pressureless a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_included_pressureless a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_included_pressureless a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_included_pressureless a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_included_pressureless a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_included_pressureless a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_included_pressureless a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_included_pressureless homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low_included_pressureless expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_external positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_external a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_external a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_external a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_external a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_external a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_external a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_external a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_external a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_external a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_external a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_external a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_external a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_external a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_external a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_external a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_external homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_external expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_included_pressureless positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_included_pressureless exchange invisible in full gravity load",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_included_pressureless a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_included_pressureless a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_included_pressureless a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_included_pressureless a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_included_pressureless a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_included_pressureless a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_included_pressureless a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_included_pressureless a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_included_pressureless a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_included_pressureless a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_included_pressureless a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_included_pressureless a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_included_pressureless a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_included_pressureless a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_included_pressureless a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_included_pressureless homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high_included_pressureless expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_external positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_external a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_external a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_external a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_external a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_external a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_external a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_external a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_external a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_external a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_external a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_external a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_external a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_external a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_external a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_external a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_external homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_external expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_included_pressureless positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_included_pressureless exchange invisible in full gravity load",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_included_pressureless a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_included_pressureless a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_included_pressureless a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_included_pressureless a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_included_pressureless a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_included_pressureless a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_included_pressureless a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_included_pressureless a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_included_pressureless a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_included_pressureless a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_included_pressureless a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_included_pressureless a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_included_pressureless a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_included_pressureless a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_included_pressureless a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_included_pressureless homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase_included_pressureless expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_external positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_external a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_external a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_external a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_external a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_external a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_external a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_external a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_external a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_external a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_external a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_external inherited/dedicated q reference",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_external H reference unchanged",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_external a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_external a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_external a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_external a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_external a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_external homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_external expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_included_pressureless positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_included_pressureless exchange invisible in full gravity load",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_included_pressureless a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_included_pressureless a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_included_pressureless a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_included_pressureless a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_included_pressureless a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_included_pressureless a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_included_pressureless a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_included_pressureless a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_included_pressureless a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_included_pressureless a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_included_pressureless a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_included_pressureless a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_included_pressureless a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_included_pressureless a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_included_pressureless a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_included_pressureless homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline_included_pressureless expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_external positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_external a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_external a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_external a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_external a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_external a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_external a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_external a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_external a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_external a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_external a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_external a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_external a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_external a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_external a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_external a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_external homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_external expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_included_pressureless positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_included_pressureless exchange invisible in full gravity load",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_included_pressureless a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_included_pressureless a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_included_pressureless a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_included_pressureless a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_included_pressureless a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_included_pressureless a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_included_pressureless a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_included_pressureless a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_included_pressureless a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_included_pressureless a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_included_pressureless a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_included_pressureless a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_included_pressureless a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_included_pressureless a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_included_pressureless a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_included_pressureless homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low_included_pressureless expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_external positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_external a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_external a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_external a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_external a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_external a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_external a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_external a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_external a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_external a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_external a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_external a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_external a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_external a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_external a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_external a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_external homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_external expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_included_pressureless positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_included_pressureless exchange invisible in full gravity load",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_included_pressureless a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_included_pressureless a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_included_pressureless a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_included_pressureless a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_included_pressureless a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_included_pressureless a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_included_pressureless a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_included_pressureless a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_included_pressureless a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_included_pressureless a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_included_pressureless a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_included_pressureless a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_included_pressureless a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_included_pressureless a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_included_pressureless a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_included_pressureless homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high_included_pressureless expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_external positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_external a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_external a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_external a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_external a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_external a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_external a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_external a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_external a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_external a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_external a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_external a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_external a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_external a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_external a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_external a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_external homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_external expansion monotonic",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_included_pressureless positive coefficients",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_included_pressureless exchange invisible in full gravity load",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_included_pressureless a=0.5 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_included_pressureless a=0.5 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_included_pressureless a=0.5 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_included_pressureless a=0.5 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_included_pressureless a=0.5 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_included_pressureless a=1 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_included_pressureless a=1 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_included_pressureless a=1 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_included_pressureless a=1 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_included_pressureless a=1 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_included_pressureless a=2 same-energy pressure",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_included_pressureless a=2 background density constant",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_included_pressureless a=2 positive density",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_included_pressureless a=2 continuity",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_included_pressureless a=2 Friedmann acceleration consistency",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_included_pressureless homogeneous integration",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase_included_pressureless expansion monotonic",
+      "passed": true
+    }
+  ],
+  "passed": 600,
+  "failed": 0,
+  "source_sha256": "571affd15c58c5b6c13a2fb146e0ce479eda910d1ca45ebb47acf0bb8f01a0e2",
+  "scope": "homogeneous FRW effective load evolution after preparation; no time law for preparation or covariant nonuniform dynamics",
+  "open": [
+    "pressure law of actual physical reservoir",
+    "volume-dependent microscopic state coupling",
+    "particle creation and population dynamics",
+    "SI identification of source frames",
+    "time-resolved exchange Q(t)",
+    "nonuniform geometry and dynamics"
+  ]
+}

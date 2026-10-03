@@ -1,0 +1,3 @@
+scope,denominator,phenotype,resident_nonphenotype,return_background_response,sum
+complete_current_Actual,1.0,0.05000000000000089,0.26799999999999863,0.6820000000000007,1.0000000000000002
+upstream_resident_Actual_conditional,0.3179999999999995,0.15723270440251877,0.8427672955974813,0.0,1.0

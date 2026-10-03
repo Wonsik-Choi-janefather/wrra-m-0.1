@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "edition": "1.0-r1",
+  "numerical_claims": 55,
+  "actual_table_value_checks": 72,
+  "actual_prose_value_checks": 38,
+  "bilingual_native_equations_identical": true,
+  "native_equations_per_language": 25,
+  "tables_per_language": 8,
+  "bridge_stage_checks": 1116,
+  "bridge_review_checks": 188,
+  "bridge_failed": 0,
+  "downstream_distinct_checks": {
+    "10": 32,
+    "11": 28,
+    "12": 36
+  },
+  "downstream_distinct_total": 96,
+  "downstream_identical_files": 37,
+  "pdf_pages": {
+    "KO": 16,
+    "EN": 16
+  },
+  "manifest_entries": 67,
+  "scope": "Computational reproduction and document validation, not observational experiments or independent physical proofs.",
+  "new_document_QA": {
+    "all_pages_visually_reviewed": true,
+    "equation_and_table_layout_checked": true
+  }
+}

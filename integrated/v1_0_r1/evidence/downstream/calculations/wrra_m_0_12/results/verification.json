@@ -1,0 +1,428 @@
+{
+  "version": "WRRA-M 0.12",
+  "passed": true,
+  "check_count": 36,
+  "inherited_check_count": 60,
+  "input_hash_sha256": "c80742fa4d0e0bdbb94e3390a2cc02da4a535168eaf66fb28f7318ec9b7b8b3d",
+  "checks": [
+    {
+      "id": 1,
+      "check": "frozen_0_11_and_all_60_inherited_checks",
+      "passed": true,
+      "evidence": {
+        "frozen_input_hash": "67de28abf0741c406178a2fe4ce07962e69bce827c3196b78e887da3bd0dab13",
+        "inherited_checks": 60
+      }
+    },
+    {
+      "id": 2,
+      "check": "proper_shutter_units_use_the_frozen_mass_scale",
+      "passed": true,
+      "evidence": {
+        "delta_tau_s": 1.4813019664158691e-21,
+        "epsilon": 0.05
+      }
+    },
+    {
+      "id": 3,
+      "check": "Planck_time_is_comparison_not_measured_minimum",
+      "passed": true,
+      "evidence": {
+        "delta_over_tP": 2.7476057357370933e+22,
+        "minimum_time_claim": false
+      }
+    },
+    {
+      "id": 4,
+      "check": "changing_shutter_granularity_does_not_refit_spectrum",
+      "passed": true,
+      "evidence": {
+        "step_multiplier": 2,
+        "mass_refit": false
+      }
+    },
+    {
+      "id": 5,
+      "check": "flat_worldline_clock_rates_and_residuals",
+      "passed": true,
+      "evidence": {
+        "proper_tick_coordinates": [
+          64,
+          51.2,
+          38.4
+        ],
+        "complete_ticks": [
+          64,
+          51,
+          38
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "check": "null_paths_have_no_rest_clock_or_frozen_photon_claim",
+      "passed": true,
+      "evidence": {
+        "name": "flat_beta_1.0",
+        "beta_local": 1.0,
+        "phi_over_c2": 0,
+        "lapse": 0.0,
+        "coordinate_s": 9.480332585061563e-20,
+        "proper_s": 0.0,
+        "tick_coordinate": null,
+        "complete_ticks": null,
+        "residual_tick_fraction": null,
+        "coherent_overlap": null,
+        "scope": "null path: no rest-clock update; not frozen photon propagation"
+      }
+    },
+    {
+      "id": 7,
+      "check": "Lorentz_transformed_event_intervals_preserve_proper_time",
+      "passed": true,
+      "evidence": {
+        "maximum_interval_error": 2.220446049250313e-16,
+        "boost_beta": 0.3
+      }
+    },
+    {
+      "id": 8,
+      "check": "accelerated_worldline_chords_preserve_proper_time_under_boost",
+      "passed": true,
+      "evidence": {
+        "maximum_boosted_path_error": 1.1102230246251565e-16
+      }
+    },
+    {
+      "id": 9,
+      "check": "halved_worldline_steps_converge_quadratically",
+      "passed": true,
+      "evidence": {
+        "error_improvement_factors": [
+          3.9988319978120654,
+          3.9997073185282144,
+          3.999926786763853
+        ],
+        "last_error": 9.86820447246295e-07
+      }
+    },
+    {
+      "id": 10,
+      "check": "proper_shutter_events_are_monotone_and_match_path_integrals",
+      "passed": true,
+      "evidence": {
+        "event_count": 57,
+        "maximum_tick_error": 8.988365607365267e-13
+      }
+    },
+    {
+      "id": 11,
+      "check": "finite_patch_boundary_clock_and_redshift_order",
+      "passed": true,
+      "evidence": {
+        "radii_kpc": [
+          3,
+          8.2,
+          50,
+          200
+        ],
+        "lapses": [
+          0.9999982716922456,
+          0.9999987513059405,
+          0.9999995033968523,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "check": "independent_potential_derivative_matches_inherited_gravity",
+      "passed": true,
+      "evidence": {
+        "relative_gradient_error": 5.572148298327306e-09,
+        "finite_boundary_kpc": 200.0
+      }
+    },
+    {
+      "id": 13,
+      "check": "inherited_rotation_enters_moving_local_clock",
+      "passed": true,
+      "evidence": {
+        "local_speed_km_s": 207.51090512661662,
+        "moving_lapse": 0.9999985117483382
+      }
+    },
+    {
+      "id": 14,
+      "check": "uniform_FRW_time_integral_is_additive",
+      "passed": true,
+      "evidence": {
+        "intervals": [
+          0.5482395591905475,
+          0.7688360688580811,
+          1.3170756280486287
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "check": "peculiar_worldline_proper_time_uses_same_expansion_history",
+      "passed": true,
+      "evidence": {
+        "peculiar_beta": 0.6,
+        "proper_time_ratio": 0.8
+      }
+    },
+    {
+      "id": 16,
+      "check": "clock_background_keeps_all_uniform_0_11_outputs",
+      "passed": true,
+      "evidence": {
+        "uniform_cases": 3,
+        "q0": -0.52855
+      }
+    },
+    {
+      "id": 17,
+      "check": "finite_spectral_basis_and_fold_Hamiltonian_are_unitary_Hermitian",
+      "passed": true,
+      "evidence": {
+        "basis_error": 1.4691864968726158e-13,
+        "finite_modes": 128
+      }
+    },
+    {
+      "id": 18,
+      "check": "periodic_fold_rest_spectrum_reproduces_electron_mode_23",
+      "passed": true,
+      "evidence": {
+        "electron_energy_eV": 510998.95068999997,
+        "zero_mode_eV": 0.0
+      }
+    },
+    {
+      "id": 19,
+      "check": "antiperiodic_boundary_changes_modes_without_hidden_refit",
+      "passed": true,
+      "evidence": {
+        "periodic_mode23_eV": 510998.95068999997,
+        "antiperiodic_mode23_eV": 522107.62353108695,
+        "physical_boundary_error": 4.0299545420860154e-14,
+        "shifted_generator_residual": 1.5449111327125167e-14,
+        "refit": false
+      }
+    },
+    {
+      "id": 20,
+      "check": "both_spatial_boundaries_have_positive_Hermitian_operators",
+      "passed": true,
+      "evidence": {
+        "maximum_basis_error": 1.7753666919773154e-13,
+        "boundaries": [
+          "periodic",
+          "dirichlet"
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "check": "periodic_and_Dirichlet_zero_ground_modes_are_distinct",
+      "passed": true,
+      "evidence": {
+        "periodic_ground_kinetic_eV": 0,
+        "Dirichlet_ground_kinetic_eV": 11.917057384329382
+      }
+    },
+    {
+      "id": 22,
+      "check": "spatial_energy_matches_independent_SI_dispersion",
+      "passed": true,
+      "evidence": {
+        "SI_ground_energy_eV": 511010.86774738436,
+        "zero_endpoint_wavefunctions": true
+      }
+    },
+    {
+      "id": 23,
+      "check": "finite_length_controls_change_momentum_and_energy_spacing",
+      "passed": true,
+      "evidence": {
+        "finite_lengths_m": [
+          1.7763326302081875e-10,
+          3.552665260416375e-10,
+          7.10533052083275e-10
+        ],
+        "energy_gap_ratios": [
+          3.9998600864546843,
+          3.999965018886382
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "check": "same_shutter_accepts_continuous_noninteger_free_momenta",
+      "passed": true,
+      "evidence": {
+        "noninteger_momentum_probes": [
+          0,
+          0.1,
+          0.5,
+          1,
+          2
+        ],
+        "discrete_time_implies_discrete_momentum": false
+      }
+    },
+    {
+      "id": 25,
+      "check": "finite_difference_mass_error_decreases_without_electron_refit",
+      "passed": true,
+      "evidence": {
+        "relative_errors": [
+          -0.05227112907207909,
+          -0.013224953008963092,
+          -0.0033161315539118608
+        ],
+        "refinement_factors": [
+          3.9524623669099475,
+          3.9880664545296254
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "check": "independent_update_eigenphases_recover_all_three_spectra",
+      "passed": true,
+      "evidence": {
+        "fold_energy_error_eV": 6.51925802230835e-09,
+        "spatial_energy_errors_eV": [
+          3.725290298461914e-09,
+          4.773028194904327e-09
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "check": "one_unitary_does_not_identify_integer_energy_branch",
+      "passed": true,
+      "evidence": {
+        "energy_shift_eV": 2791913.9990952983,
+        "same_unitary_error": 1.0377107187075873e-13
+      }
+    },
+    {
+      "id": 28,
+      "check": "owned_branch_restores_aliased_energies_and_naive_branch_fails",
+      "passed": true,
+      "evidence": {
+        "phase_step_epsilon": 0.25,
+        "nonzero_branch_modes": 77,
+        "max_naive_sorted_energy_error_eV": 866476.4816047825,
+        "max_owned_branch_error_eV": 4.656612873077393e-10,
+        "claim": "one update unitary alone leaves integer energy branches undetermined"
+      }
+    },
+    {
+      "id": 29,
+      "check": "fixed_volume_SI_phase_exactly_matches_converted_legacy_coordinate",
+      "passed": true,
+      "evidence": {
+        "converted_proper_s": 5.500477247066557e-25,
+        "matrix_error": 5.510868164585967e-15
+      }
+    },
+    {
+      "id": 30,
+      "check": "physical_proper_time_updates_conserve_energy_and_state",
+      "passed": true,
+      "evidence": {
+        "maximum_energy_relative_error": 4.440892098500626e-16,
+        "proper_frames": [
+          0,
+          1,
+          2,
+          4,
+          8
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "check": "same_SI_energy_operator_has_actual_internal_exchange",
+      "passed": true,
+      "evidence": {
+        "D_load_range": 0.03805972822727727,
+        "energy_operator_replaced": false
+      }
+    },
+    {
+      "id": 32,
+      "check": "old_slow_expansion_clock_is_not_silently_identified_with_SI_phase",
+      "passed": true,
+      "evidence": {
+        "old_information_frequency_s_minus1": 1.5289996687598515e-18,
+        "SI_ledger_frequency_s_minus1": 7.272096256980661e+24,
+        "old_frequency_over_SI_frequency": 2.102556972196466e-43,
+        "fixed_volume_identity": "xi=E_star*tau/hbar gives exactly the same SI-energy update",
+        "old_expansion_clock_is_physical_SI_phase": false,
+        "scope": "old slow expansion-state schedule retained as a constitutive record, not identified with the SI Hamiltonian proper-time phase"
+      }
+    },
+    {
+      "id": 33,
+      "check": "small_step_update_converges_to_the_same_generator",
+      "passed": true,
+      "evidence": {
+        "generator_relative_errors": [
+          0.024788607120883745,
+          0.012395059385277126,
+          0.006197624174200803
+        ],
+        "finite_positive_step_bounds": [
+          {
+            "step": 0.001,
+            "operator_norm_error": 2.0477669937157725,
+            "finite_step_bound": 2.048000000000002
+          },
+          {
+            "step": 0.0005,
+            "operator_norm_error": 1.0239708732202266,
+            "finite_step_bound": 1.024000000000001
+          },
+          {
+            "step": 0.00025,
+            "operator_norm_error": 0.5119963591214205,
+            "finite_step_bound": 0.5120000000000005
+          }
+        ]
+      }
+    },
+    {
+      "id": 34,
+      "check": "coherent_clock_readout_matches_full_mode_update",
+      "passed": true,
+      "evidence": {
+        "maximum_overlap_error": 1.429412144204889e-15,
+        "physical_measurement_records": 0
+      }
+    },
+    {
+      "id": 35,
+      "check": "invalid_clock_boundary_inputs_and_unexecuted_records_are_rejected",
+      "passed": true,
+      "evidence": {
+        "invalid_cases": 15,
+        "rejected": 15
+      }
+    },
+    {
+      "id": 36,
+      "check": "execution_keeps_inputs_and_scope_frozen",
+      "passed": true,
+      "evidence": {
+        "input_sha256": "c80742fa4d0e0bdbb94e3390a2cc02da4a535168eaf66fb28f7318ec9b7b8b3d",
+        "measurement_records": 0
+      }
+    }
+  ]
+}

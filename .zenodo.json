@@ -1,39 +1,26 @@
 {
-  "title": "WRRA-M 0.12: Reviewed SI Energy and Pressure, Sequential Calibration and Proper-Time Mode Spectra",
+  "title": "WRRA M Integrated Upstream and Downstream Model 1.0 Reviewed r1",
   "upload_type": "publication",
   "publication_type": "preprint",
-  "description": "<p>Reviewed 0.10–0.12 series includes all three English and Korean papers. Frozen address/carrier inputs map to one SI energy and volume-derived pressure function. Five-anchor sequential calibration supplies the electron mass unit; worldline proper-time updates and finite boundary spectra are calculated. All 96 component check groups pass with unchanged inputs and numerical results.</p><p>The old slow expansion clock fails identification with the SI energy phase at frequency ratio 2.10e-43. This failure is retained in 0.10, 0.11 and 0.12. The shutter interval is a disclosed construction choice, not a measured minimum. Physical observation outcomes and records remain 0.13. Conservation, pressure differentiation, anchor isolation, Lorentz invariance and boundary/phase-branch consistency are falsifiers. Calibration and reproduction are legitimate achievements, with no requirement for numerical novelty or a unique universe solution.</p>",
+  "version": "1.0-r1",
+  "publication_date": "2026-10-03",
+  "doi": "10.5281/zenodo.23126800",
   "creators": [
     {
       "name": "Choi, Wonsik",
-      "orcid": "0009-0001-4263-9772",
-      "affiliation": "Independent Researcher"
+      "orcid": "0009-0001-4263-9772"
+    },
+    {
+      "name": "Choi, Jeongin"
     }
   ],
-  "access_right": "open",
-  "license": "cc-by-4.0",
-  "language": "eng",
-  "keywords": [
-    "WRRA",
-    "Wonsik Reality Renderer Architecture",
-    "mass quantization",
-    "continuous gravity",
-    "twist stress",
-    "dark matter",
-    "finite boundaryless universe",
-    "common carrier",
-    "filter selection",
-    "conditional lensing",
-    "information load",
-    "homogeneous action",
-    "energy conservation",
-    "expansion",
-    "proper time",
-    "finite spectra",
-    "sequential calibration",
-    "pressure"
-  ],
-  "version": "0.12-r1",
-  "doi": "10.5281/zenodo.23113101",
-  "publication_date": "2026-10-03"
+  "license": "CC-BY-4.0",
+  "description": "Author-reviewed bilingual integrated manuscript and computational reproduction package. See integrated/v1_0_r1/README.md for the executed scope, corrections, audit and source publications.",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/tree/main/integrated/v1_0_r1",
+      "scheme": "url",
+      "relation": "isSupplementedBy"
+    }
+  ]
 }

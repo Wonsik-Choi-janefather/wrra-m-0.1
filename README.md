@@ -1,5 +1,14 @@
 # WRRA-M Research Notes
 
+## 상류·하류 통합 논문 1.0 검토판 r1 / Integrated upstream–downstream manuscript
+
+최원식·최정인 / Wonsik Choi and Jeongin Choi · 2026-10-03
+
+**[Reviewed integrated manuscript and reproducibility package](integrated/v1_0_r1/README.md)** · DOI [10.5281/zenodo.23126800](https://doi.org/10.5281/zenodo.23126800)
+
+Korean and English 16-page PDF, editable Word and source files consolidate upstream 0.10, downstream 0.12 and bridge 0.8. The author review clarifies relative-energy and SI phase notation; a portable audit checks 55 actual manuscript values against frozen sources. Fresh execution passes 1,116 bridge stage checks, 188 final review checks and 96 distinct downstream checks; 37 downstream files match byte for byte. These counts refer to computation, not independent physical experiments. The original stage endpoints and source publications remain preserved.
+
+
 ## Upstream–downstream bridge 0.5–0.8 reviewed r1 · 2026-10-03
 
 상하류 연결 연구 0.5–0.8을 재검토하고 수정했습니다. SI 생성자의 상대 오차 검사, 원래 Hamiltonian의 두 모드 불변 부분공간, 공간 운동 연산자와 gradient 에너지의 일치, 밀도·에너지 수렴 검사를 보강했습니다. **기존 과학적 산출값은 유지**했고, **1,116 단계 검사 + 188 검토 검사 = 1,304개 통과**, 깨끗한 폴더의 결과 JSON 8개가 바이트 단위로 동일합니다. 공동저자는 **Wonsik Choi (최원식), Jeongin Choi (최정인)**입니다.

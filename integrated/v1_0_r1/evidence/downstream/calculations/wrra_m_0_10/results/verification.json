@@ -1,0 +1,356 @@
+{
+  "version": "WRRA-M 0.10",
+  "passed": true,
+  "check_count": 32,
+  "input_hash_sha256": "8342c02c3d872994b13c54c9512d6e7440a45e7ef9602cb1ac4ebe34eddb540f",
+  "checks": [
+    {
+      "id": 1,
+      "check": "frozen_0_9_input_and_arithmetic_reference",
+      "passed": true,
+      "evidence": {
+        "input_sha256": "7986e6afcbe26e3546111387f34f953147e16cb3c8cb6b900264adf214e51e95",
+        "shares": {
+          "phenotype": 0.05000000000000089,
+          "resident_nonphenotype": 0.26799999999999863,
+          "return": 0.6820000000000007
+        }
+      }
+    },
+    {
+      "id": 2,
+      "check": "positive_once_fitted_dimensional_coefficients",
+      "passed": true,
+      "evidence": {
+        "phenotype": 7.561582499072265e-10,
+        "resident_nonphenotype": 7.285761328795971e-10,
+        "return": 7.646102818811323e-10
+      }
+    },
+    {
+      "id": 3,
+      "check": "every_address_positive_energy_response",
+      "passed": true,
+      "evidence": {
+        "address_count": 999999,
+        "minimum_response": 1.0
+      }
+    },
+    {
+      "id": 4,
+      "check": "independent_address_energy_sum",
+      "passed": true,
+      "evidence": {
+        "maximum_absolute_moment_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "id": 5,
+      "check": "three_reference_SI_energies_and_one_total",
+      "passed": true,
+      "evidence": {
+        "fractions": {
+          "phenotype": 0.0493,
+          "resident_nonphenotype": 0.26500000000000007,
+          "return": 0.6857
+        },
+        "ucrit_J_m3": 7.668947767821907e-10
+      }
+    },
+    {
+      "id": 6,
+      "check": "all_nine_inherited_state_and_physical_cases",
+      "passed": true,
+      "evidence": {
+        "case_count": 9,
+        "maximum_scaled_difference": 2.220446049250313e-16
+      }
+    },
+    {
+      "id": 7,
+      "check": "inherited_q_rotation_and_conditional_lensing",
+      "passed": true,
+      "evidence": {
+        "q": -0.52855,
+        "v_km_s": 207.51090512661662,
+        "deflection_arcsec": 0.5355865105583804
+      }
+    },
+    {
+      "id": 8,
+      "check": "explicit_alternate_three_sector_calibration",
+      "passed": true,
+      "evidence": {
+        "fractions": {
+          "phenotype": 0.05,
+          "resident_nonphenotype": 0.26799999999999996,
+          "return": 0.682
+        },
+        "q": -0.5230000000000001
+      }
+    },
+    {
+      "id": 9,
+      "check": "positive_total_energy_operator",
+      "passed": true,
+      "evidence": {
+        "minimum_eigenvalue_over_reference": 0.049577040168944486
+      }
+    },
+    {
+      "id": 10,
+      "check": "independent_five_point_volume_pressure",
+      "passed": true,
+      "evidence": {
+        "maximum_pressure_error_over_ucrit": 4.392707898657735e-12,
+        "states_and_volumes": 6
+      }
+    },
+    {
+      "id": 11,
+      "check": "background_equation_of_state_from_energy_homogeneity",
+      "passed": true,
+      "evidence": {
+        "exponents": [
+          0,
+          1.5,
+          3
+        ],
+        "derived_w": [
+          -0.0,
+          -0.5,
+          -1.0
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "check": "pressureless_expressed_and_clustering_components",
+      "passed": true,
+      "evidence": {
+        "checked_cases": 9
+      }
+    },
+    {
+      "id": 13,
+      "check": "reference_volume_is_representative_not_universe_size",
+      "passed": true,
+      "evidence": {
+        "volume_multiplier": 13.7,
+        "density_unchanged": true
+      }
+    },
+    {
+      "id": 14,
+      "check": "frozen_SI_coefficients_respond_to_address_rule_changes",
+      "passed": true,
+      "evidence": {
+        "K4_q": -0.5479085215622206,
+        "K16_q": -0.5183430250542751,
+        "coefficient_refit": false
+      }
+    },
+    {
+      "id": 15,
+      "check": "separate_address_and_carrier_cutoff_probe",
+      "passed": true,
+      "evidence": {
+        "address_N": 300,
+        "carrier_N": 128,
+        "q": -0.5246046012649056,
+        "SI_coefficients_held": true
+      }
+    },
+    {
+      "id": 16,
+      "check": "arbitrary_normalized_address_state_changes_SI_energy",
+      "passed": true,
+      "evidence": {
+        "reversed_state_density_J_m3": 8.57805446407051e-10
+      }
+    },
+    {
+      "id": 17,
+      "check": "zero_hidden_carrier_mode_retains_phenotype_energy",
+      "passed": true,
+      "evidence": {
+        "zero_hidden_does_not_delete_phi": true
+      }
+    },
+    {
+      "id": 18,
+      "check": "zero_total_energy_has_explicit_undefined_ratios",
+      "passed": true,
+      "evidence": {
+        "zero_domain": {
+          "scale_factor": 1.0,
+          "volume_m3": 1.0,
+          "lattice_N": 128,
+          "carrier_epsilon": 0,
+          "state_trace": 1.0,
+          "address_moments": {
+            "phenotype": 0.0,
+            "resident_nonphenotype": 0.0,
+            "return": 0.0
+          },
+          "operator_loads": {
+            "phenotype": 1.0,
+            "resident_nonphenotype": 1.0,
+            "return": 1.0
+          },
+          "sector_energy_J": {
+            "phenotype": 0.0,
+            "resident_nonphenotype": 0.0,
+            "return": 0.0
+          },
+          "sector_density_J_m3": {
+            "phenotype": 0.0,
+            "resident_nonphenotype": 0.0,
+            "return": 0.0
+          },
+          "sector_pressure_Pa": {
+            "phenotype": -0.0,
+            "resident_nonphenotype": -0.0,
+            "return": -0.0
+          },
+          "sector_energy_fractions": {
+            "phenotype": null,
+            "resident_nonphenotype": null,
+            "return": null
+          },
+          "total_energy_J": 0.0,
+          "total_density_J_m3": 0.0,
+          "total_pressure_Pa": 0.0,
+          "H_over_H0": 0.0,
+          "H_s_minus1": 0.0,
+          "deceleration_q": null,
+          "arithmetic_share_policy": "arithmetic shares are preserved separately and are not energy fractions",
+          "measurement_records": []
+        }
+      }
+    },
+    {
+      "id": 19,
+      "check": "small_positive_hidden_load_is_retained",
+      "passed": true,
+      "evidence": {
+        "small_clustering_energy_J": 5.952384451195782e-19
+      }
+    },
+    {
+      "id": 20,
+      "check": "48_channel_energies_preserve_one_phenotype_budget",
+      "passed": true,
+      "evidence": {
+        "channel_count": 48,
+        "energy_J": 3.7807912495362e-11,
+        "no_generation_multiplier": true
+      }
+    },
+    {
+      "id": 21,
+      "check": "inherited_filter_charge_and_channel_labels_preserved",
+      "passed": true,
+      "evidence": {
+        "selected_filter": "F_DX"
+      }
+    },
+    {
+      "id": 22,
+      "check": "same_energy_operator_internal_exchange_cancels",
+      "passed": true,
+      "evidence": {
+        "maximum_exchange_error_over_reference": 1.2639964564667904e-16
+      }
+    },
+    {
+      "id": 23,
+      "check": "noncommuting_carrier_has_actual_sector_exchange",
+      "passed": true,
+      "evidence": {
+        "commutator_norm": 15.515151515151516,
+        "D_load_range": 0.05105717303690599
+      }
+    },
+    {
+      "id": 24,
+      "check": "unitary_state_trace_and_positivity_preserved",
+      "passed": true,
+      "evidence": {
+        "clock_points": 6
+      }
+    },
+    {
+      "id": 25,
+      "check": "same_energy_generator_during_expansion",
+      "passed": true,
+      "evidence": {
+        "norm_error": 2.8915980720967127e-11,
+        "scale_factors": [
+          0.5,
+          1.0,
+          2.0
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "check": "homogeneous_energy_pressure_continuity",
+      "passed": true,
+      "evidence": {
+        "maximum_continuity_error_over_ucrit": 4.440892098500626e-16
+      }
+    },
+    {
+      "id": 27,
+      "check": "four_field_transition_weight_conservation",
+      "passed": true,
+      "evidence": {
+        "frames": 10
+      }
+    },
+    {
+      "id": 28,
+      "check": "conversion_work_owns_admission_energy_changes",
+      "passed": true,
+      "evidence": {
+        "maximum_accounted_energy_error_over_reference": 1.4830891755877007e-15,
+        "terminal_conversion_work_J": 1.3279304601367386e-12
+      }
+    },
+    {
+      "id": 29,
+      "check": "SOURCE_return_relabel_does_not_duplicate_energy",
+      "passed": true,
+      "evidence": {
+        "recovery_frame": 8,
+        "return_energy_J": 5.258597484395469e-10
+      }
+    },
+    {
+      "id": 30,
+      "check": "missing_conversion_owner_is_detectable",
+      "passed": true,
+      "evidence": {
+        "energy_error_without_work_account_over_reference": 0.0017315680069021364
+      }
+    },
+    {
+      "id": 31,
+      "check": "invalid_maps_states_and_unexecuted_records_rejected",
+      "passed": true,
+      "evidence": {
+        "invalid_cases": 12,
+        "rejected": 12
+      }
+    },
+    {
+      "id": 32,
+      "check": "execution_does_not_mutate_inputs_or_silently_refit",
+      "passed": true,
+      "evidence": {
+        "input_sha256": "8342c02c3d872994b13c54c9512d6e7440a45e7ef9602cb1ac4ebe34eddb540f"
+      }
+    }
+  ]
+}

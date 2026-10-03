@@ -1,0 +1,6165 @@
+{
+  "version": "WRRA-M 0.8",
+  "date": "2026-10-01",
+  "author": "Wonsik Choi",
+  "input_hash_sha256": "8403336558879543b0784d6f5e009c02429107c65cfe3c09a93d4126a256af3c",
+  "inherited_0_7_hash_sha256": "8d741b5b07a43e1d8d686e18024cc2eb01c330308628fb4ce69562ba3b9c66d1",
+  "input_ledger": {
+    "model_version": "WRRA-M 0.8",
+    "ledger_0_7": {
+      "model_version": "WRRA-M 0.7",
+      "measure": "energy_weighted_information_load",
+      "reference_volume_m3": 1.0,
+      "carrier_and_background": {
+        "lattice_N": 128,
+        "a_min": 0.5,
+        "a_max": 2.0,
+        "output_grid_points": 401,
+        "information_clock_over_H0": 0.7,
+        "clustering_energy_exponent": 0.0,
+        "background_energy_exponent": 3.0,
+        "noncommuting_test_strength": 8.0,
+        "noncommuting_test_initial_modes": [
+          8,
+          16,
+          24
+        ],
+        "noncommuting_test_initial_weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "test_radius_kpc": 8.2,
+        "lens_impact_kpc": 10.0,
+        "rtol": 1e-11,
+        "atol": 1e-13,
+        "max_log_a_step": 0.01,
+        "scope": "Finite homogeneous constitutive completion, with inherited conditional local renderer",
+        "ownership": "Energy-volume exponents, operators and information clock are declared constitutive choices"
+      },
+      "calibration_and_local_source": {
+        "c_m_s": 299792458.0,
+        "G_SI": 6.6743e-11,
+        "H0_km_s_Mpc": 67.4,
+        "fraction_phenotype": 0.0493,
+        "fraction_twist_clustering": 0.265,
+        "M_sun_kg": 1.98847e+30,
+        "parsec_m": 3.085677581491367e+16,
+        "electron_mass_energy_eV": 510998.95069,
+        "sphere_mass_Msun": 60000000000.0,
+        "sphere_scale_kpc": 3.0,
+        "patch_radius_kpc": 200.0,
+        "report_radii_kpc": [
+          1,
+          3,
+          8.2,
+          20,
+          50,
+          100
+        ],
+        "lens_impact_kpc": [
+          5,
+          10,
+          20,
+          50
+        ],
+        "internal_lattice_N": 128,
+        "carrier_probe_frequency_squared": [
+          0.1,
+          0.5,
+          1.0,
+          2.0,
+          3.5
+        ],
+        "carrier_damping": 0.2,
+        "disk_components_mass_1e9Msun_scale_kpc": [
+          [
+            35.66,
+            2.53
+          ],
+          [
+            11.25,
+            3.38
+          ],
+          [
+            11.0,
+            7.0
+          ],
+          [
+            1.2,
+            1.5
+          ]
+        ],
+        "bulge_mass_1e9Msun_scale_kpc": [
+          9.13,
+          0.7
+        ],
+        "response_nu": "1 / (1 - exp(-sqrt(y)))",
+        "response_provenance": "Calibrated constitutive input adopted in WRRA Galactic Disk paper v1.0 2026-09-27",
+        "gravity_ontology": "B_C continuous geometric branch; no independent gravitational Hilbert space",
+        "lensing_condition": "Phi = Psi assumed in the finite weak-field patch",
+        "fraction_note": "Editable late-universe energy-weighted calibration; not counts of bits or particle channels"
+      },
+      "physical_records": [],
+      "measurement_events": [],
+      "definition_policy": {
+        "Actual": "complete current modeled state and its total weighted load",
+        "quantization": "future actual operation producing discrete phenotype and physical record; not yet executed",
+        "phenotype": "currently expressed sector budget, adopted from inherited calibrated branch",
+        "residue": "retained unexpressed state content; no extra independent sector",
+        "record": "future physical outcome record; distinct from software provenance"
+      },
+      "fraction_provenance": "Inherited rounded late-universe reference: 0.0493 phenotype and 0.265 clustering; remaining background is calculated. Information-to-energy identification is a WRRA constitutive choice."
+    },
+    "filter_calibration": {
+      "central_response_shift": 1.0,
+      "charge_contrast_to_response": 0.25,
+      "left_charge_anchors": {
+        "neutral_lepton": "0",
+        "charged_lepton": "-1"
+      },
+      "right_hypercharge_anchors": {
+        "neutral_singlet": "0",
+        "invariant_singlet": "1"
+      },
+      "response_tags": {
+        "3_A": 1,
+        "3_B": -1,
+        "1_A": 1,
+        "1_B": -1,
+        "anti3_A": -1,
+        "anti3_B": 1,
+        "1_N": -1,
+        "1_0": 1
+      },
+      "tag_provenance": "Calibrated origin-to-weak-component orientation preserving the 0.2 known-particle branch; signs are inputs, not a microscopic discovery.",
+      "left_lepton_B_minus_L": "-1",
+      "right_lepton_B_minus_L": "1",
+      "selection_rate": 1.0,
+      "initial_filter_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "gap_tolerance": 1e-12,
+      "selection_residual_target": 1e-08,
+      "channel_state_weights": [
+        0.0625,
+        0.0625,
+        0.0625,
+        0.0625,
+        0.0625,
+        0.0625,
+        0.0625,
+        0.0625,
+        0.0625,
+        0.0625,
+        0.0625,
+        0.0625,
+        0.0625,
+        0.0625,
+        0.0625,
+        0.0625
+      ],
+      "neutral_channel_status": "Transported gauge-neutral extension interpreted as nu_R^c; its particle existence, mass and occupation are not measured by this release.",
+      "response_shift_scope": "Dimensionless lower-order readout calibration. Not a rest-mass value or an extra SI energy sector."
+    },
+    "benchmark": {
+      "selected_filter": "F_DX",
+      "fields": {
+        "Q_L": {
+          "multiplicity": 6,
+          "Y": "1/6",
+          "Q": [
+            "2/3",
+            "-1/3"
+          ]
+        },
+        "L_L": {
+          "multiplicity": 2,
+          "Y": "-1/2",
+          "Q": [
+            "0",
+            "-1"
+          ]
+        },
+        "u_c": {
+          "multiplicity": 3,
+          "Y": "-2/3",
+          "Q": [
+            "-2/3"
+          ]
+        },
+        "d_c": {
+          "multiplicity": 3,
+          "Y": "1/3",
+          "Q": [
+            "1/3"
+          ]
+        },
+        "nu_c": {
+          "multiplicity": 1,
+          "Y": "0",
+          "Q": [
+            "0"
+          ]
+        },
+        "e_c": {
+          "multiplicity": 1,
+          "Y": "1",
+          "Q": [
+            "1"
+          ]
+        }
+      }
+    },
+    "physical_baseline": {
+      "MCC_version": "2.3.2",
+      "WRRA_Core_version": "1.0",
+      "MCC_source_commit": "21daec110c0cbecb228c445d587eac8302e7f767",
+      "PDG_reference": "https://pdg.lbl.gov/2025/reviews/rpp2025-rev-guts.pdf",
+      "PDG_charge_convention": "PDG Q=T3+Y_PDG/2; this release uses Y=Y_PDG/2 and Q=T3+Y."
+    },
+    "scope": "Calibrated selection within the fixed four-filter family; three-generation charge inventory with conditional neutral extensions; no mass/mixing derivation or physical quantization event.",
+    "family_replication": {
+      "family_count": 3,
+      "family_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "provenance": "Three observed Standard-Model generations adopted as calibration; replication count is not derived here.",
+      "labels": [
+        {
+          "Q_L": [
+            "u_L",
+            "d_L"
+          ],
+          "L_L": [
+            "nu_e_L",
+            "e_L"
+          ],
+          "u_c": "u_c",
+          "d_c": "d_c",
+          "nu_c": "N1_c",
+          "e_c": "e_c"
+        },
+        {
+          "Q_L": [
+            "c_L",
+            "s_L"
+          ],
+          "L_L": [
+            "nu_mu_L",
+            "mu_L"
+          ],
+          "u_c": "c_c",
+          "d_c": "s_c",
+          "nu_c": "N2_c",
+          "e_c": "mu_c"
+        },
+        {
+          "Q_L": [
+            "t_L",
+            "b_L"
+          ],
+          "L_L": [
+            "nu_tau_L",
+            "tau_L"
+          ],
+          "u_c": "t_c",
+          "d_c": "b_c",
+          "nu_c": "N3_c",
+          "e_c": "tau_c"
+        }
+      ]
+    }
+  },
+  "source_inventory": [
+    {
+      "source": "1_0",
+      "origin": "1_0",
+      "color": "1",
+      "sector": "invariant"
+    },
+    {
+      "source": "3_A_r",
+      "origin": "3_A",
+      "color": "3",
+      "sector": "7_A"
+    },
+    {
+      "source": "3_A_g",
+      "origin": "3_A",
+      "color": "3",
+      "sector": "7_A"
+    },
+    {
+      "source": "3_A_b",
+      "origin": "3_A",
+      "color": "3",
+      "sector": "7_A"
+    },
+    {
+      "source": "anti3_A_r",
+      "origin": "anti3_A",
+      "color": "anti3",
+      "sector": "7_A"
+    },
+    {
+      "source": "anti3_A_g",
+      "origin": "anti3_A",
+      "color": "anti3",
+      "sector": "7_A"
+    },
+    {
+      "source": "anti3_A_b",
+      "origin": "anti3_A",
+      "color": "anti3",
+      "sector": "7_A"
+    },
+    {
+      "source": "1_A",
+      "origin": "1_A",
+      "color": "1",
+      "sector": "7_A"
+    },
+    {
+      "source": "3_B_r",
+      "origin": "3_B",
+      "color": "3",
+      "sector": "7_B"
+    },
+    {
+      "source": "3_B_g",
+      "origin": "3_B",
+      "color": "3",
+      "sector": "7_B"
+    },
+    {
+      "source": "3_B_b",
+      "origin": "3_B",
+      "color": "3",
+      "sector": "7_B"
+    },
+    {
+      "source": "anti3_B_r",
+      "origin": "anti3_B",
+      "color": "anti3",
+      "sector": "7_B"
+    },
+    {
+      "source": "anti3_B_g",
+      "origin": "anti3_B",
+      "color": "anti3",
+      "sector": "7_B"
+    },
+    {
+      "source": "anti3_B_b",
+      "origin": "anti3_B",
+      "color": "anti3",
+      "sector": "7_B"
+    },
+    {
+      "source": "1_B",
+      "origin": "1_B",
+      "color": "1",
+      "sector": "7_B"
+    },
+    {
+      "source": "1_N",
+      "origin": "1_N",
+      "color": "1",
+      "sector": "neutral_extension"
+    }
+  ],
+  "cases": [
+    {
+      "case_name": "uniform_a0.5",
+      "state_recipe": {
+        "kind": "uniform"
+      },
+      "lattice_N": 128,
+      "scale_factor": 0.5,
+      "carrier_epsilon": 0.0,
+      "response": {
+        "dimensionless_shifts": {
+          "3_A": 1.25,
+          "3_B": 0.75,
+          "1_A": 1.25,
+          "1_B": 0.75,
+          "anti3_A": 0.75,
+          "anti3_B": 1.25,
+          "1_N": 0.75,
+          "1_0": 1.25
+        },
+        "raw_intensity": {
+          "3_A": 1.5511432119649604,
+          "3_B": 2.335890516492746,
+          "1_A": 1.5511432119649604,
+          "1_B": 2.335890516492746,
+          "anti3_A": 2.335890516492746,
+          "anti3_B": 1.5511432119649604,
+          "1_N": 2.335890516492746,
+          "1_0": 1.5511432119649604
+        },
+        "common_reference_intensity": 3.4284205352862167,
+        "normalized_signatures": {
+          "3_A": 0.672634136912357,
+          "3_B": 0.8254280019523133,
+          "1_A": 0.672634136912357,
+          "1_B": 0.8254280019523133,
+          "anti3_A": 0.8254280019523133,
+          "anti3_B": 0.672634136912357,
+          "1_N": 0.8254280019523133,
+          "1_0": 0.672634136912357
+        },
+        "transport_gram_diagonal": [
+          0.45243668213983135,
+          0.45243668213983135,
+          0.45243668213983135,
+          0.45243668213983135,
+          0.681331386406988,
+          0.681331386406988,
+          0.681331386406988,
+          0.45243668213983135,
+          0.681331386406988,
+          0.681331386406988,
+          0.681331386406988,
+          0.45243668213983135,
+          0.45243668213983135,
+          0.45243668213983135,
+          0.681331386406988,
+          0.681331386406988
+        ],
+        "transport_gram_rank": 16,
+        "minimum_gram_eigenvalue": 0.45243668213983135,
+        "neutral_channel_norm_squared": 0.681331386406988,
+        "principal_channel_difference": 0.0,
+        "signature_scope": "color-invariant scalar response in the calibrated weak-component basis; background and basis transform jointly",
+        "operator_scope": "auxiliary lower-order readout offset; not an extra dynamical Hamiltonian or SI energy sector"
+      },
+      "selection": {
+        "compatibility_entries": {
+          "lAA": -0.0,
+          "lBB": -0.0,
+          "lAB": -0.023345965193848378,
+          "lBA": -0.023345965193848378,
+          "rAN": -0.0,
+          "rB0": -0.0,
+          "rA0": -0.023345965193848378,
+          "rBN": -0.023345965193848378
+        },
+        "scores": {
+          "F_DX": -0.0,
+          "F_XX": -0.046691930387696756,
+          "F_DD": -0.046691930387696756,
+          "F_XD": -0.09338386077539351
+        },
+        "Delta_L": 0.046691930387696756,
+        "Delta_R": 0.046691930387696756,
+        "gap_identity_max_error": 0.0,
+        "maximizers": [
+          "F_DX"
+        ],
+        "selected_filter": "F_DX",
+        "status": "selected",
+        "optimizer_scope": "dimensionless construction flow; no measurement probability",
+        "flow": [
+          {
+            "construction_time": 0.0,
+            "filter_weights": {
+              "F_DX": 0.25,
+              "F_XX": 0.25,
+              "F_DD": 0.25,
+              "F_XD": 0.25
+            },
+            "winning_residual": 0.75
+          },
+          {
+            "construction_time": 1.0,
+            "filter_weights": {
+              "F_DX": 0.2618070713623185,
+              "F_XX": 0.24986379097236489,
+              "F_DD": 0.24986379097236489,
+              "F_XD": 0.2384653466929517
+            },
+            "winning_residual": 0.7381929286376815
+          },
+          {
+            "construction_time": 418.04425027078724,
+            "filter_weights": {
+              "F_DX": 0.9999999933333332,
+              "F_XX": 3.333333311111101e-09,
+              "F_DD": 3.333333311111101e-09,
+              "F_XD": 1.1111111037036972e-17
+            },
+            "winning_residual": 6.66666677417993e-09
+          }
+        ],
+        "minimum_score_gap": 0.046691930387696756,
+        "sufficient_construction_time": 418.04425027078724,
+        "finite_flow_residual": 6.66666677417993e-09
+      },
+      "placement_and_charge": {
+        "alpha": "1",
+        "beta": "1/2",
+        "anchor_determinant": "-1",
+        "channel_table": [
+          {
+            "field": "Q_L",
+            "source": "3_A_r",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 0,
+            "source_index": 1,
+            "color": "3",
+            "origin": "3_A",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "2/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_A_g",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 1,
+            "source_index": 2,
+            "color": "3",
+            "origin": "3_A",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "2/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_A_b",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 2,
+            "source_index": 3,
+            "color": "3",
+            "origin": "3_A",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "2/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_B_r",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 3,
+            "source_index": 8,
+            "color": "3",
+            "origin": "3_B",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "-1/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_B_g",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 4,
+            "source_index": 9,
+            "color": "3",
+            "origin": "3_B",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "-1/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_B_b",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 5,
+            "source_index": 10,
+            "color": "3",
+            "origin": "3_B",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "-1/3"
+          },
+          {
+            "field": "L_L",
+            "source": "1_A",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 6,
+            "source_index": 7,
+            "color": "1",
+            "origin": "1_A",
+            "B_minus_L": "-1",
+            "Y": "-1/2",
+            "Q": "0"
+          },
+          {
+            "field": "L_L",
+            "source": "1_B",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 7,
+            "source_index": 14,
+            "color": "1",
+            "origin": "1_B",
+            "B_minus_L": "-1",
+            "Y": "-1/2",
+            "Q": "-1"
+          },
+          {
+            "field": "u_c",
+            "source": "anti3_A_r",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 8,
+            "source_index": 4,
+            "color": "anti3",
+            "origin": "anti3_A",
+            "B_minus_L": "-1/3",
+            "Y": "-2/3",
+            "Q": "-2/3"
+          },
+          {
+            "field": "u_c",
+            "source": "anti3_A_g",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 9,
+            "source_index": 5,
+            "color": "anti3",
+            "origin": "anti3_A",
+            "B_minus_L": "-1/3",
+            "Y": "-2/3",
+            "Q": "-2/3"
+          },
+          {
+            "field": "u_c",
+            "source": "anti3_A_b",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 10,
+            "source_index": 6,
+            "color": "anti3",
+            "origin": "anti3_A",
+            "B_minus_L": "-1/3",
+            "Y": "-2/3",
+            "Q": "-2/3"
+          },
+          {
+            "field": "d_c",
+            "source": "anti3_B_r",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 11,
+            "source_index": 11,
+            "color": "anti3",
+            "origin": "anti3_B",
+            "B_minus_L": "-1/3",
+            "Y": "1/3",
+            "Q": "1/3"
+          },
+          {
+            "field": "d_c",
+            "source": "anti3_B_g",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 12,
+            "source_index": 12,
+            "color": "anti3",
+            "origin": "anti3_B",
+            "B_minus_L": "-1/3",
+            "Y": "1/3",
+            "Q": "1/3"
+          },
+          {
+            "field": "d_c",
+            "source": "anti3_B_b",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 13,
+            "source_index": 13,
+            "color": "anti3",
+            "origin": "anti3_B",
+            "B_minus_L": "-1/3",
+            "Y": "1/3",
+            "Q": "1/3"
+          },
+          {
+            "field": "nu_c",
+            "source": "1_N",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 14,
+            "source_index": 15,
+            "color": "1",
+            "origin": "1_N",
+            "B_minus_L": "1",
+            "Y": "0",
+            "Q": "0"
+          },
+          {
+            "field": "e_c",
+            "source": "1_0",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 15,
+            "source_index": 0,
+            "color": "1",
+            "origin": "1_0",
+            "B_minus_L": "1",
+            "Y": "1",
+            "Q": "1"
+          }
+        ],
+        "field_groups": {
+          "Q_L": {
+            "multiplicity": 6,
+            "Y": "1/6",
+            "Q": [
+              "2/3",
+              "-1/3"
+            ]
+          },
+          "L_L": {
+            "multiplicity": 2,
+            "Y": "-1/2",
+            "Q": [
+              "0",
+              "-1"
+            ]
+          },
+          "u_c": {
+            "multiplicity": 3,
+            "Y": "-2/3",
+            "Q": [
+              "-2/3"
+            ]
+          },
+          "d_c": {
+            "multiplicity": 3,
+            "Y": "1/3",
+            "Q": [
+              "1/3"
+            ]
+          },
+          "nu_c": {
+            "multiplicity": 1,
+            "Y": "0",
+            "Q": [
+              "0"
+            ]
+          },
+          "e_c": {
+            "multiplicity": 1,
+            "Y": "1",
+            "Q": [
+              "1"
+            ]
+          }
+        },
+        "benchmark_matches": true,
+        "anomalies": {
+          "gravity_U1": "0",
+          "U1_cubed": "0",
+          "SU3_squared_U1": "0",
+          "SU2_squared_U1": "0",
+          "SU3_cubed": "0"
+        },
+        "SU2_doublets": {
+          "left": 4,
+          "right": 4
+        },
+        "color_branching_dimension": 15,
+        "extended_transport_dimension": 16,
+        "chirality": "independent complex left-handed Weyl channels assumed"
+      },
+      "channel_energy_bridge": {
+        "channel_state_before": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "channel_state_after": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "state_trace_error": 0.0,
+        "permutation_unitarity_error": 0.0,
+        "sector_energy_before_J": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 2.0322711584728056e-10,
+          "hidden_background": 6.573246855494352e-11
+        },
+        "sector_energy_after_J": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 2.0322711584728056e-10,
+          "hidden_background": 6.573246855494352e-11
+        },
+        "maximum_energy_change_J": 0.0,
+        "scope": "channel-blind 0.7 energy operators; relabeling has no added SI energy or physical measurement event"
+      },
+      "ledger_0_7": {
+        "scale_factor": 0.5,
+        "lattice_N": 128,
+        "carrier_epsilon": 0.0,
+        "state_trace": 1.0,
+        "state_entropy_bits": 7.0,
+        "state_rank_at_tolerance": 128,
+        "Jc": 2.0,
+        "Jb": 2.0,
+        "measure": "energy_weighted_information_load",
+        "reference_volume_m3": 1.0,
+        "physical_volume_m3": 0.125,
+        "sector_weights": {
+          "phenotype": 0.0493,
+          "hidden_clustering": 0.265,
+          "hidden_background": 0.0857125
+        },
+        "total_actual_weight": 0.4000125,
+        "actual_normalized_share": 1.0,
+        "sector_shares": {
+          "phenotype": 0.12324614855785757,
+          "hidden_clustering": 0.6624792975219524,
+          "hidden_background": 0.21427455392019
+        },
+        "hidden_share": 0.8767538514421425,
+        "sector_energy_J": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 2.0322711584728056e-10,
+          "hidden_background": 6.573246855494352e-11
+        },
+        "total_energy_J": 3.067674968975861e-10,
+        "sector_density_J_m3": {
+          "phenotype": 3.02463299962896e-10,
+          "hidden_clustering": 1.6258169267782445e-09,
+          "hidden_background": 5.258597484395482e-10
+        },
+        "total_density_J_m3": 2.454139975180689e-09,
+        "sector_pressure_Pa": {
+          "phenotype": -0.0,
+          "hidden_clustering": -0.0,
+          "hidden_background": -5.258597484395482e-10
+        },
+        "total_pressure_Pa": -5.258597484395482e-10,
+        "quantization_status": "not_executed_in_0.7",
+        "measurement_outcome_probabilities": null,
+        "physical_records": [],
+        "measurement_energy_transfers": [],
+        "record_energy_policy": "future record energy is a sector suballocation, not an extra fourth sector",
+        "residue_policy": "unexpressed state content retained; not equated with a bit count or a fourth energy component",
+        "bridge_0_6": {
+          "snapshot": {
+            "a": 0.5,
+            "Jc": 2.0,
+            "Jb": 2.0,
+            "density_phenotype_over_ucrit": 0.3944,
+            "density_clustering_over_ucrit": 2.12,
+            "density_background_over_ucrit": 0.6857,
+            "density_total_over_ucrit": 3.2001,
+            "pressure_over_ucrit": -0.6857000000000001,
+            "H_over_H0": 1.7888823326311878,
+            "deceleration_q": 0.17858816911971498,
+            "hidden_density_over_reference": 2.9511938571578837,
+            "hidden_comoving_energy_over_reference": 0.36889923214473547,
+            "zeta_Q_over_reference": 0.7377984642894709,
+            "twist_record_norm_over_reference": 0.8589519569157934,
+            "twist_rate_over_reference": 1.7179039138315868,
+            "aT_over_reference": 2.8284271247461903,
+            "actual_hidden_fraction": 0.8767538514421424
+          },
+          "local_readout": {
+            "aT_m_s2": 3.37095528091441e-10,
+            "zeta_kappa_total_squared_m_minus2": 8.9365477308404e-52,
+            "test_radius_kpc": 8.2,
+            "v_total_km_s": 247.7491985746642,
+            "v_direct_km_s": 161.45051053125528,
+            "g_additional_m_s2": 1.3956454758482543e-10,
+            "finite_patch_lensing": {
+              "impact_kpc": 10.0,
+              "alpha_patch_rad": 3.949638182283504e-06,
+              "alpha_baryon_patch_rad": 1.052265081800396e-06,
+              "alpha_twist_patch_rad": 2.8973731004831076e-06,
+              "alpha_patch_arcsec": 0.8146713544148407,
+              "quad_abs_error_rad": 4.381443096053546e-20
+            },
+            "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
+          },
+          "density_absolute_error_J_m3": 4.1359030627651384e-25,
+          "pressure_absolute_error_Pa": 1.0339757656912846e-25
+        },
+        "invariants": {
+          "weight_partition_absolute_error": 5.551115123125783e-17,
+          "share_partition_absolute_error": 0.0,
+          "energy_partition_absolute_error_J": 0.0,
+          "state_rank": 128
+        }
+      }
+    },
+    {
+      "case_name": "uniform_a1.0",
+      "state_recipe": {
+        "kind": "uniform"
+      },
+      "lattice_N": 128,
+      "scale_factor": 1.0,
+      "carrier_epsilon": 0.0,
+      "response": {
+        "dimensionless_shifts": {
+          "3_A": 1.25,
+          "3_B": 0.75,
+          "1_A": 1.25,
+          "1_B": 0.75,
+          "anti3_A": 0.75,
+          "anti3_B": 1.25,
+          "1_N": 0.75,
+          "1_0": 1.25
+        },
+        "raw_intensity": {
+          "3_A": 1.5511432119649604,
+          "3_B": 2.335890516492746,
+          "1_A": 1.5511432119649604,
+          "1_B": 2.335890516492746,
+          "anti3_A": 2.335890516492746,
+          "anti3_B": 1.5511432119649604,
+          "1_N": 2.335890516492746,
+          "1_0": 1.5511432119649604
+        },
+        "common_reference_intensity": 3.4284205352862167,
+        "normalized_signatures": {
+          "3_A": 0.672634136912357,
+          "3_B": 0.8254280019523133,
+          "1_A": 0.672634136912357,
+          "1_B": 0.8254280019523133,
+          "anti3_A": 0.8254280019523133,
+          "anti3_B": 0.672634136912357,
+          "1_N": 0.8254280019523133,
+          "1_0": 0.672634136912357
+        },
+        "transport_gram_diagonal": [
+          0.45243668213983135,
+          0.45243668213983135,
+          0.45243668213983135,
+          0.45243668213983135,
+          0.681331386406988,
+          0.681331386406988,
+          0.681331386406988,
+          0.45243668213983135,
+          0.681331386406988,
+          0.681331386406988,
+          0.681331386406988,
+          0.45243668213983135,
+          0.45243668213983135,
+          0.45243668213983135,
+          0.681331386406988,
+          0.681331386406988
+        ],
+        "transport_gram_rank": 16,
+        "minimum_gram_eigenvalue": 0.45243668213983135,
+        "neutral_channel_norm_squared": 0.681331386406988,
+        "principal_channel_difference": 0.0,
+        "signature_scope": "color-invariant scalar response in the calibrated weak-component basis; background and basis transform jointly",
+        "operator_scope": "auxiliary lower-order readout offset; not an extra dynamical Hamiltonian or SI energy sector"
+      },
+      "selection": {
+        "compatibility_entries": {
+          "lAA": -0.0,
+          "lBB": -0.0,
+          "lAB": -0.023345965193848378,
+          "lBA": -0.023345965193848378,
+          "rAN": -0.0,
+          "rB0": -0.0,
+          "rA0": -0.023345965193848378,
+          "rBN": -0.023345965193848378
+        },
+        "scores": {
+          "F_DX": -0.0,
+          "F_XX": -0.046691930387696756,
+          "F_DD": -0.046691930387696756,
+          "F_XD": -0.09338386077539351
+        },
+        "Delta_L": 0.046691930387696756,
+        "Delta_R": 0.046691930387696756,
+        "gap_identity_max_error": 0.0,
+        "maximizers": [
+          "F_DX"
+        ],
+        "selected_filter": "F_DX",
+        "status": "selected",
+        "optimizer_scope": "dimensionless construction flow; no measurement probability",
+        "flow": [
+          {
+            "construction_time": 0.0,
+            "filter_weights": {
+              "F_DX": 0.25,
+              "F_XX": 0.25,
+              "F_DD": 0.25,
+              "F_XD": 0.25
+            },
+            "winning_residual": 0.75
+          },
+          {
+            "construction_time": 1.0,
+            "filter_weights": {
+              "F_DX": 0.2618070713623185,
+              "F_XX": 0.24986379097236489,
+              "F_DD": 0.24986379097236489,
+              "F_XD": 0.2384653466929517
+            },
+            "winning_residual": 0.7381929286376815
+          },
+          {
+            "construction_time": 418.04425027078724,
+            "filter_weights": {
+              "F_DX": 0.9999999933333332,
+              "F_XX": 3.333333311111101e-09,
+              "F_DD": 3.333333311111101e-09,
+              "F_XD": 1.1111111037036972e-17
+            },
+            "winning_residual": 6.66666677417993e-09
+          }
+        ],
+        "minimum_score_gap": 0.046691930387696756,
+        "sufficient_construction_time": 418.04425027078724,
+        "finite_flow_residual": 6.66666677417993e-09
+      },
+      "placement_and_charge": {
+        "alpha": "1",
+        "beta": "1/2",
+        "anchor_determinant": "-1",
+        "channel_table": [
+          {
+            "field": "Q_L",
+            "source": "3_A_r",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 0,
+            "source_index": 1,
+            "color": "3",
+            "origin": "3_A",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "2/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_A_g",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 1,
+            "source_index": 2,
+            "color": "3",
+            "origin": "3_A",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "2/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_A_b",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 2,
+            "source_index": 3,
+            "color": "3",
+            "origin": "3_A",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "2/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_B_r",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 3,
+            "source_index": 8,
+            "color": "3",
+            "origin": "3_B",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "-1/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_B_g",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 4,
+            "source_index": 9,
+            "color": "3",
+            "origin": "3_B",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "-1/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_B_b",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 5,
+            "source_index": 10,
+            "color": "3",
+            "origin": "3_B",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "-1/3"
+          },
+          {
+            "field": "L_L",
+            "source": "1_A",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 6,
+            "source_index": 7,
+            "color": "1",
+            "origin": "1_A",
+            "B_minus_L": "-1",
+            "Y": "-1/2",
+            "Q": "0"
+          },
+          {
+            "field": "L_L",
+            "source": "1_B",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 7,
+            "source_index": 14,
+            "color": "1",
+            "origin": "1_B",
+            "B_minus_L": "-1",
+            "Y": "-1/2",
+            "Q": "-1"
+          },
+          {
+            "field": "u_c",
+            "source": "anti3_A_r",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 8,
+            "source_index": 4,
+            "color": "anti3",
+            "origin": "anti3_A",
+            "B_minus_L": "-1/3",
+            "Y": "-2/3",
+            "Q": "-2/3"
+          },
+          {
+            "field": "u_c",
+            "source": "anti3_A_g",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 9,
+            "source_index": 5,
+            "color": "anti3",
+            "origin": "anti3_A",
+            "B_minus_L": "-1/3",
+            "Y": "-2/3",
+            "Q": "-2/3"
+          },
+          {
+            "field": "u_c",
+            "source": "anti3_A_b",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 10,
+            "source_index": 6,
+            "color": "anti3",
+            "origin": "anti3_A",
+            "B_minus_L": "-1/3",
+            "Y": "-2/3",
+            "Q": "-2/3"
+          },
+          {
+            "field": "d_c",
+            "source": "anti3_B_r",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 11,
+            "source_index": 11,
+            "color": "anti3",
+            "origin": "anti3_B",
+            "B_minus_L": "-1/3",
+            "Y": "1/3",
+            "Q": "1/3"
+          },
+          {
+            "field": "d_c",
+            "source": "anti3_B_g",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 12,
+            "source_index": 12,
+            "color": "anti3",
+            "origin": "anti3_B",
+            "B_minus_L": "-1/3",
+            "Y": "1/3",
+            "Q": "1/3"
+          },
+          {
+            "field": "d_c",
+            "source": "anti3_B_b",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 13,
+            "source_index": 13,
+            "color": "anti3",
+            "origin": "anti3_B",
+            "B_minus_L": "-1/3",
+            "Y": "1/3",
+            "Q": "1/3"
+          },
+          {
+            "field": "nu_c",
+            "source": "1_N",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 14,
+            "source_index": 15,
+            "color": "1",
+            "origin": "1_N",
+            "B_minus_L": "1",
+            "Y": "0",
+            "Q": "0"
+          },
+          {
+            "field": "e_c",
+            "source": "1_0",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 15,
+            "source_index": 0,
+            "color": "1",
+            "origin": "1_0",
+            "B_minus_L": "1",
+            "Y": "1",
+            "Q": "1"
+          }
+        ],
+        "field_groups": {
+          "Q_L": {
+            "multiplicity": 6,
+            "Y": "1/6",
+            "Q": [
+              "2/3",
+              "-1/3"
+            ]
+          },
+          "L_L": {
+            "multiplicity": 2,
+            "Y": "-1/2",
+            "Q": [
+              "0",
+              "-1"
+            ]
+          },
+          "u_c": {
+            "multiplicity": 3,
+            "Y": "-2/3",
+            "Q": [
+              "-2/3"
+            ]
+          },
+          "d_c": {
+            "multiplicity": 3,
+            "Y": "1/3",
+            "Q": [
+              "1/3"
+            ]
+          },
+          "nu_c": {
+            "multiplicity": 1,
+            "Y": "0",
+            "Q": [
+              "0"
+            ]
+          },
+          "e_c": {
+            "multiplicity": 1,
+            "Y": "1",
+            "Q": [
+              "1"
+            ]
+          }
+        },
+        "benchmark_matches": true,
+        "anomalies": {
+          "gravity_U1": "0",
+          "U1_cubed": "0",
+          "SU3_squared_U1": "0",
+          "SU2_squared_U1": "0",
+          "SU3_cubed": "0"
+        },
+        "SU2_doublets": {
+          "left": 4,
+          "right": 4
+        },
+        "color_branching_dimension": 15,
+        "extended_transport_dimension": 16,
+        "chirality": "independent complex left-handed Weyl channels assumed"
+      },
+      "channel_energy_bridge": {
+        "channel_state_before": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "channel_state_after": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "state_trace_error": 0.0,
+        "permutation_unitarity_error": 0.0,
+        "sector_energy_before_J": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 2.0322711584728056e-10,
+          "hidden_background": 5.258597484395482e-10
+        },
+        "sector_energy_after_J": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 2.0322711584728056e-10,
+          "hidden_background": 5.258597484395482e-10
+        },
+        "maximum_energy_change_J": 0.0,
+        "scope": "channel-blind 0.7 energy operators; relabeling has no added SI energy or physical measurement event"
+      },
+      "ledger_0_7": {
+        "scale_factor": 1.0,
+        "lattice_N": 128,
+        "carrier_epsilon": 0.0,
+        "state_trace": 1.0,
+        "state_entropy_bits": 7.0,
+        "state_rank_at_tolerance": 128,
+        "Jc": 2.0,
+        "Jb": 2.0,
+        "measure": "energy_weighted_information_load",
+        "reference_volume_m3": 1.0,
+        "physical_volume_m3": 1.0,
+        "sector_weights": {
+          "phenotype": 0.0493,
+          "hidden_clustering": 0.265,
+          "hidden_background": 0.6857
+        },
+        "total_actual_weight": 1.0,
+        "actual_normalized_share": 1.0,
+        "sector_shares": {
+          "phenotype": 0.0493,
+          "hidden_clustering": 0.265,
+          "hidden_background": 0.6857
+        },
+        "hidden_share": 0.9507,
+        "sector_energy_J": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 2.0322711584728056e-10,
+          "hidden_background": 5.258597484395482e-10
+        },
+        "total_energy_J": 7.668947767821907e-10,
+        "sector_density_J_m3": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 2.0322711584728056e-10,
+          "hidden_background": 5.258597484395482e-10
+        },
+        "total_density_J_m3": 7.668947767821907e-10,
+        "sector_pressure_Pa": {
+          "phenotype": -0.0,
+          "hidden_clustering": -0.0,
+          "hidden_background": -5.258597484395482e-10
+        },
+        "total_pressure_Pa": -5.258597484395482e-10,
+        "quantization_status": "not_executed_in_0.7",
+        "measurement_outcome_probabilities": null,
+        "physical_records": [],
+        "measurement_energy_transfers": [],
+        "record_energy_policy": "future record energy is a sector suballocation, not an extra fourth sector",
+        "residue_policy": "unexpressed state content retained; not equated with a bit count or a fourth energy component",
+        "bridge_0_6": {
+          "snapshot": {
+            "a": 1.0,
+            "Jc": 2.0,
+            "Jb": 2.0,
+            "density_phenotype_over_ucrit": 0.0493,
+            "density_clustering_over_ucrit": 0.265,
+            "density_background_over_ucrit": 0.6857,
+            "density_total_over_ucrit": 1.0,
+            "pressure_over_ucrit": -0.6857000000000001,
+            "H_over_H0": 1.0,
+            "deceleration_q": -0.5285500000000001,
+            "hidden_density_over_reference": 1.0,
+            "hidden_comoving_energy_over_reference": 1.0,
+            "zeta_Q_over_reference": 1.0,
+            "twist_record_norm_over_reference": 1.0,
+            "twist_rate_over_reference": 1.0,
+            "aT_over_reference": 1.0,
+            "actual_hidden_fraction": 0.9507
+          },
+          "local_readout": {
+            "aT_m_s2": 1.1918126691055912e-10,
+            "zeta_kappa_total_squared_m_minus2": 3.028112744666204e-52,
+            "test_radius_kpc": 8.2,
+            "v_total_km_s": 207.51090512661662,
+            "v_direct_km_s": 161.45051053125528,
+            "g_additional_m_s2": 6.716518395482756e-11,
+            "finite_patch_lensing": {
+              "impact_kpc": 10.0,
+              "alpha_patch_rad": 2.5965966773641974e-06,
+              "alpha_baryon_patch_rad": 1.052265081800396e-06,
+              "alpha_twist_patch_rad": 1.5443315955638014e-06,
+              "alpha_patch_arcsec": 0.5355865105583804,
+              "quad_abs_error_rad": 2.88249109488278e-20
+            },
+            "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
+          },
+          "density_absolute_error_J_m3": 0.0,
+          "pressure_absolute_error_Pa": 1.0339757656912846e-25
+        },
+        "invariants": {
+          "weight_partition_absolute_error": 0.0,
+          "share_partition_absolute_error": 0.0,
+          "energy_partition_absolute_error_J": 0.0,
+          "state_rank": 128
+        }
+      }
+    },
+    {
+      "case_name": "uniform_a2.0",
+      "state_recipe": {
+        "kind": "uniform"
+      },
+      "lattice_N": 128,
+      "scale_factor": 2.0,
+      "carrier_epsilon": 0.0,
+      "response": {
+        "dimensionless_shifts": {
+          "3_A": 1.25,
+          "3_B": 0.75,
+          "1_A": 1.25,
+          "1_B": 0.75,
+          "anti3_A": 0.75,
+          "anti3_B": 1.25,
+          "1_N": 0.75,
+          "1_0": 1.25
+        },
+        "raw_intensity": {
+          "3_A": 1.5511432119649604,
+          "3_B": 2.335890516492746,
+          "1_A": 1.5511432119649604,
+          "1_B": 2.335890516492746,
+          "anti3_A": 2.335890516492746,
+          "anti3_B": 1.5511432119649604,
+          "1_N": 2.335890516492746,
+          "1_0": 1.5511432119649604
+        },
+        "common_reference_intensity": 3.4284205352862167,
+        "normalized_signatures": {
+          "3_A": 0.672634136912357,
+          "3_B": 0.8254280019523133,
+          "1_A": 0.672634136912357,
+          "1_B": 0.8254280019523133,
+          "anti3_A": 0.8254280019523133,
+          "anti3_B": 0.672634136912357,
+          "1_N": 0.8254280019523133,
+          "1_0": 0.672634136912357
+        },
+        "transport_gram_diagonal": [
+          0.45243668213983135,
+          0.45243668213983135,
+          0.45243668213983135,
+          0.45243668213983135,
+          0.681331386406988,
+          0.681331386406988,
+          0.681331386406988,
+          0.45243668213983135,
+          0.681331386406988,
+          0.681331386406988,
+          0.681331386406988,
+          0.45243668213983135,
+          0.45243668213983135,
+          0.45243668213983135,
+          0.681331386406988,
+          0.681331386406988
+        ],
+        "transport_gram_rank": 16,
+        "minimum_gram_eigenvalue": 0.45243668213983135,
+        "neutral_channel_norm_squared": 0.681331386406988,
+        "principal_channel_difference": 0.0,
+        "signature_scope": "color-invariant scalar response in the calibrated weak-component basis; background and basis transform jointly",
+        "operator_scope": "auxiliary lower-order readout offset; not an extra dynamical Hamiltonian or SI energy sector"
+      },
+      "selection": {
+        "compatibility_entries": {
+          "lAA": -0.0,
+          "lBB": -0.0,
+          "lAB": -0.023345965193848378,
+          "lBA": -0.023345965193848378,
+          "rAN": -0.0,
+          "rB0": -0.0,
+          "rA0": -0.023345965193848378,
+          "rBN": -0.023345965193848378
+        },
+        "scores": {
+          "F_DX": -0.0,
+          "F_XX": -0.046691930387696756,
+          "F_DD": -0.046691930387696756,
+          "F_XD": -0.09338386077539351
+        },
+        "Delta_L": 0.046691930387696756,
+        "Delta_R": 0.046691930387696756,
+        "gap_identity_max_error": 0.0,
+        "maximizers": [
+          "F_DX"
+        ],
+        "selected_filter": "F_DX",
+        "status": "selected",
+        "optimizer_scope": "dimensionless construction flow; no measurement probability",
+        "flow": [
+          {
+            "construction_time": 0.0,
+            "filter_weights": {
+              "F_DX": 0.25,
+              "F_XX": 0.25,
+              "F_DD": 0.25,
+              "F_XD": 0.25
+            },
+            "winning_residual": 0.75
+          },
+          {
+            "construction_time": 1.0,
+            "filter_weights": {
+              "F_DX": 0.2618070713623185,
+              "F_XX": 0.24986379097236489,
+              "F_DD": 0.24986379097236489,
+              "F_XD": 0.2384653466929517
+            },
+            "winning_residual": 0.7381929286376815
+          },
+          {
+            "construction_time": 418.04425027078724,
+            "filter_weights": {
+              "F_DX": 0.9999999933333332,
+              "F_XX": 3.333333311111101e-09,
+              "F_DD": 3.333333311111101e-09,
+              "F_XD": 1.1111111037036972e-17
+            },
+            "winning_residual": 6.66666677417993e-09
+          }
+        ],
+        "minimum_score_gap": 0.046691930387696756,
+        "sufficient_construction_time": 418.04425027078724,
+        "finite_flow_residual": 6.66666677417993e-09
+      },
+      "placement_and_charge": {
+        "alpha": "1",
+        "beta": "1/2",
+        "anchor_determinant": "-1",
+        "channel_table": [
+          {
+            "field": "Q_L",
+            "source": "3_A_r",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 0,
+            "source_index": 1,
+            "color": "3",
+            "origin": "3_A",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "2/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_A_g",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 1,
+            "source_index": 2,
+            "color": "3",
+            "origin": "3_A",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "2/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_A_b",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 2,
+            "source_index": 3,
+            "color": "3",
+            "origin": "3_A",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "2/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_B_r",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 3,
+            "source_index": 8,
+            "color": "3",
+            "origin": "3_B",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "-1/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_B_g",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 4,
+            "source_index": 9,
+            "color": "3",
+            "origin": "3_B",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "-1/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_B_b",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 5,
+            "source_index": 10,
+            "color": "3",
+            "origin": "3_B",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "-1/3"
+          },
+          {
+            "field": "L_L",
+            "source": "1_A",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 6,
+            "source_index": 7,
+            "color": "1",
+            "origin": "1_A",
+            "B_minus_L": "-1",
+            "Y": "-1/2",
+            "Q": "0"
+          },
+          {
+            "field": "L_L",
+            "source": "1_B",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 7,
+            "source_index": 14,
+            "color": "1",
+            "origin": "1_B",
+            "B_minus_L": "-1",
+            "Y": "-1/2",
+            "Q": "-1"
+          },
+          {
+            "field": "u_c",
+            "source": "anti3_A_r",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 8,
+            "source_index": 4,
+            "color": "anti3",
+            "origin": "anti3_A",
+            "B_minus_L": "-1/3",
+            "Y": "-2/3",
+            "Q": "-2/3"
+          },
+          {
+            "field": "u_c",
+            "source": "anti3_A_g",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 9,
+            "source_index": 5,
+            "color": "anti3",
+            "origin": "anti3_A",
+            "B_minus_L": "-1/3",
+            "Y": "-2/3",
+            "Q": "-2/3"
+          },
+          {
+            "field": "u_c",
+            "source": "anti3_A_b",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 10,
+            "source_index": 6,
+            "color": "anti3",
+            "origin": "anti3_A",
+            "B_minus_L": "-1/3",
+            "Y": "-2/3",
+            "Q": "-2/3"
+          },
+          {
+            "field": "d_c",
+            "source": "anti3_B_r",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 11,
+            "source_index": 11,
+            "color": "anti3",
+            "origin": "anti3_B",
+            "B_minus_L": "-1/3",
+            "Y": "1/3",
+            "Q": "1/3"
+          },
+          {
+            "field": "d_c",
+            "source": "anti3_B_g",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 12,
+            "source_index": 12,
+            "color": "anti3",
+            "origin": "anti3_B",
+            "B_minus_L": "-1/3",
+            "Y": "1/3",
+            "Q": "1/3"
+          },
+          {
+            "field": "d_c",
+            "source": "anti3_B_b",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 13,
+            "source_index": 13,
+            "color": "anti3",
+            "origin": "anti3_B",
+            "B_minus_L": "-1/3",
+            "Y": "1/3",
+            "Q": "1/3"
+          },
+          {
+            "field": "nu_c",
+            "source": "1_N",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 14,
+            "source_index": 15,
+            "color": "1",
+            "origin": "1_N",
+            "B_minus_L": "1",
+            "Y": "0",
+            "Q": "0"
+          },
+          {
+            "field": "e_c",
+            "source": "1_0",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 15,
+            "source_index": 0,
+            "color": "1",
+            "origin": "1_0",
+            "B_minus_L": "1",
+            "Y": "1",
+            "Q": "1"
+          }
+        ],
+        "field_groups": {
+          "Q_L": {
+            "multiplicity": 6,
+            "Y": "1/6",
+            "Q": [
+              "2/3",
+              "-1/3"
+            ]
+          },
+          "L_L": {
+            "multiplicity": 2,
+            "Y": "-1/2",
+            "Q": [
+              "0",
+              "-1"
+            ]
+          },
+          "u_c": {
+            "multiplicity": 3,
+            "Y": "-2/3",
+            "Q": [
+              "-2/3"
+            ]
+          },
+          "d_c": {
+            "multiplicity": 3,
+            "Y": "1/3",
+            "Q": [
+              "1/3"
+            ]
+          },
+          "nu_c": {
+            "multiplicity": 1,
+            "Y": "0",
+            "Q": [
+              "0"
+            ]
+          },
+          "e_c": {
+            "multiplicity": 1,
+            "Y": "1",
+            "Q": [
+              "1"
+            ]
+          }
+        },
+        "benchmark_matches": true,
+        "anomalies": {
+          "gravity_U1": "0",
+          "U1_cubed": "0",
+          "SU3_squared_U1": "0",
+          "SU2_squared_U1": "0",
+          "SU3_cubed": "0"
+        },
+        "SU2_doublets": {
+          "left": 4,
+          "right": 4
+        },
+        "color_branching_dimension": 15,
+        "extended_transport_dimension": 16,
+        "chirality": "independent complex left-handed Weyl channels assumed"
+      },
+      "channel_energy_bridge": {
+        "channel_state_before": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "channel_state_after": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "state_trace_error": 0.0,
+        "permutation_unitarity_error": 0.0,
+        "sector_energy_before_J": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 2.0322711584728056e-10,
+          "hidden_background": 4.2068779875163854e-09
+        },
+        "sector_energy_after_J": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 2.0322711584728056e-10,
+          "hidden_background": 4.2068779875163854e-09
+        },
+        "maximum_energy_change_J": 0.0,
+        "scope": "channel-blind 0.7 energy operators; relabeling has no added SI energy or physical measurement event"
+      },
+      "ledger_0_7": {
+        "scale_factor": 2.0,
+        "lattice_N": 128,
+        "carrier_epsilon": 0.0,
+        "state_trace": 1.0,
+        "state_entropy_bits": 7.0,
+        "state_rank_at_tolerance": 128,
+        "Jc": 2.0,
+        "Jb": 2.0,
+        "measure": "energy_weighted_information_load",
+        "reference_volume_m3": 1.0,
+        "physical_volume_m3": 8.0,
+        "sector_weights": {
+          "phenotype": 0.0493,
+          "hidden_clustering": 0.265,
+          "hidden_background": 5.4856
+        },
+        "total_actual_weight": 5.7999,
+        "actual_normalized_share": 1.0,
+        "sector_shares": {
+          "phenotype": 0.008500146554250935,
+          "hidden_clustering": 0.04569044293867136,
+          "hidden_background": 0.9458094105070777
+        },
+        "hidden_share": 0.9914998534457491,
+        "sector_energy_J": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 2.0322711584728056e-10,
+          "hidden_background": 4.2068779875163854e-09
+        },
+        "total_energy_J": 4.447913015859028e-09,
+        "sector_density_J_m3": {
+          "phenotype": 4.72598906192025e-12,
+          "hidden_clustering": 2.540338948091007e-11,
+          "hidden_background": 5.258597484395482e-10
+        },
+        "total_density_J_m3": 5.559891269823785e-10,
+        "sector_pressure_Pa": {
+          "phenotype": -0.0,
+          "hidden_clustering": -0.0,
+          "hidden_background": -5.258597484395482e-10
+        },
+        "total_pressure_Pa": -5.258597484395482e-10,
+        "quantization_status": "not_executed_in_0.7",
+        "measurement_outcome_probabilities": null,
+        "physical_records": [],
+        "measurement_energy_transfers": [],
+        "record_energy_policy": "future record energy is a sector suballocation, not an extra fourth sector",
+        "residue_policy": "unexpressed state content retained; not equated with a bit count or a fourth energy component",
+        "bridge_0_6": {
+          "snapshot": {
+            "a": 2.0,
+            "Jc": 2.0,
+            "Jb": 2.0,
+            "density_phenotype_over_ucrit": 0.0061625,
+            "density_clustering_over_ucrit": 0.033125,
+            "density_background_over_ucrit": 0.6857,
+            "density_total_over_ucrit": 0.7249875,
+            "pressure_over_ucrit": -0.6857000000000001,
+            "H_over_H0": 0.8514619780119368,
+            "deceleration_q": -0.9187141157606166,
+            "hidden_density_over_reference": 0.7561007678552645,
+            "hidden_comoving_energy_over_reference": 6.048806142842116,
+            "zeta_Q_over_reference": 3.024403071421058,
+            "twist_record_norm_over_reference": 1.7390810997250985,
+            "twist_rate_over_reference": 0.8695405498625493,
+            "aT_over_reference": 0.3535533905932738,
+            "actual_hidden_fraction": 0.991499853445749
+          },
+          "local_readout": {
+            "aT_m_s2": 4.2136941011430125e-11,
+            "zeta_kappa_total_squared_m_minus2": 2.289558371394429e-52,
+            "test_radius_kpc": 8.2,
+            "v_total_km_s": 181.57488201649517,
+            "v_direct_km_s": 161.45051053125528,
+            "g_additional_m_s2": 2.728250214169678e-11,
+            "finite_patch_lensing": {
+              "impact_kpc": 10.0,
+              "alpha_patch_rad": 1.8147441259342213e-06,
+              "alpha_baryon_patch_rad": 1.052265081800396e-06,
+              "alpha_twist_patch_rad": 7.624790441338252e-07,
+              "alpha_patch_arcsec": 0.37431784552387837,
+              "quad_abs_error_rad": 2.3848479319808935e-20
+            },
+            "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
+          },
+          "density_absolute_error_J_m3": 1.0339757656912846e-25,
+          "pressure_absolute_error_Pa": 1.0339757656912846e-25
+        },
+        "invariants": {
+          "weight_partition_absolute_error": 1.7763568394002505e-15,
+          "share_partition_absolute_error": 0.0,
+          "energy_partition_absolute_error_J": 0.0,
+          "state_rank": 128
+        }
+      }
+    },
+    {
+      "case_name": "low_mode_a1.0",
+      "state_recipe": {
+        "kind": "mode",
+        "mode": 8
+      },
+      "lattice_N": 128,
+      "scale_factor": 1.0,
+      "carrier_epsilon": 0.0,
+      "response": {
+        "dimensionless_shifts": {
+          "3_A": 1.25,
+          "3_B": 0.75,
+          "1_A": 1.25,
+          "1_B": 0.75,
+          "anti3_A": 0.75,
+          "anti3_B": 1.25,
+          "1_N": 0.75,
+          "1_0": 1.25
+        },
+        "raw_intensity": {
+          "3_A": 1.8889080342540947,
+          "3_B": 5.509529431047951,
+          "1_A": 1.8889080342540947,
+          "1_B": 5.509529431047951,
+          "anti3_A": 5.509529431047951,
+          "anti3_B": 1.8889080342540947,
+          "1_N": 5.509529431047951,
+          "1_0": 1.8889080342540947
+        },
+        "common_reference_intensity": 6.262668844762421,
+        "normalized_signatures": {
+          "3_A": 0.549193872428495,
+          "3_B": 0.9379453393936403,
+          "1_A": 0.549193872428495,
+          "1_B": 0.9379453393936403,
+          "anti3_A": 0.9379453393936403,
+          "anti3_B": 0.549193872428495,
+          "1_N": 0.9379453393936403,
+          "1_0": 0.549193872428495
+        },
+        "transport_gram_diagonal": [
+          0.30161390951300604,
+          0.30161390951300604,
+          0.30161390951300604,
+          0.30161390951300604,
+          0.8797414596902512,
+          0.8797414596902512,
+          0.8797414596902512,
+          0.30161390951300604,
+          0.8797414596902512,
+          0.8797414596902512,
+          0.8797414596902512,
+          0.30161390951300604,
+          0.30161390951300604,
+          0.30161390951300604,
+          0.8797414596902512,
+          0.8797414596902512
+        ],
+        "transport_gram_rank": 16,
+        "minimum_gram_eigenvalue": 0.30161390951300604,
+        "neutral_channel_norm_squared": 0.8797414596902512,
+        "principal_channel_difference": 0.0,
+        "signature_scope": "color-invariant scalar response in the calibrated weak-component basis; background and basis transform jointly",
+        "operator_scope": "auxiliary lower-order readout offset; not an extra dynamical Hamiltonian or SI energy sector"
+      },
+      "selection": {
+        "compatibility_entries": {
+          "lAA": -0.0,
+          "lBB": -0.0,
+          "lAB": -0.15112770306755244,
+          "lBA": -0.15112770306755244,
+          "rAN": -0.0,
+          "rB0": -0.0,
+          "rA0": -0.15112770306755244,
+          "rBN": -0.15112770306755244
+        },
+        "scores": {
+          "F_DX": -0.0,
+          "F_XX": -0.3022554061351049,
+          "F_DD": -0.3022554061351049,
+          "F_XD": -0.6045108122702098
+        },
+        "Delta_L": 0.3022554061351049,
+        "Delta_R": 0.3022554061351049,
+        "gap_identity_max_error": 0.0,
+        "maximizers": [
+          "F_DX"
+        ],
+        "selected_filter": "F_DX",
+        "status": "selected",
+        "optimizer_scope": "dimensionless construction flow; no measurement probability",
+        "flow": [
+          {
+            "construction_time": 0.0,
+            "filter_weights": {
+              "F_DX": 0.25,
+              "F_XX": 0.25,
+              "F_DD": 0.25,
+              "F_XD": 0.25
+            },
+            "winning_residual": 0.75
+          },
+          {
+            "construction_time": 1.0,
+            "filter_weights": {
+              "F_DX": 0.33061784335692573,
+              "F_XX": 0.2443759334415069,
+              "F_DD": 0.2443759334415069,
+              "F_XD": 0.18063028976006054
+            },
+            "winning_residual": 0.6693821566430742
+          },
+          {
+            "construction_time": 64.57880532960779,
+            "filter_weights": {
+              "F_DX": 0.9999999933333332,
+              "F_XX": 3.333333311111101e-09,
+              "F_DD": 3.333333311111101e-09,
+              "F_XD": 1.1111111037036972e-17
+            },
+            "winning_residual": 6.66666677417993e-09
+          }
+        ],
+        "minimum_score_gap": 0.3022554061351049,
+        "sufficient_construction_time": 64.57880532960779,
+        "finite_flow_residual": 6.66666677417993e-09
+      },
+      "placement_and_charge": {
+        "alpha": "1",
+        "beta": "1/2",
+        "anchor_determinant": "-1",
+        "channel_table": [
+          {
+            "field": "Q_L",
+            "source": "3_A_r",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 0,
+            "source_index": 1,
+            "color": "3",
+            "origin": "3_A",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "2/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_A_g",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 1,
+            "source_index": 2,
+            "color": "3",
+            "origin": "3_A",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "2/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_A_b",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 2,
+            "source_index": 3,
+            "color": "3",
+            "origin": "3_A",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "2/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_B_r",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 3,
+            "source_index": 8,
+            "color": "3",
+            "origin": "3_B",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "-1/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_B_g",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 4,
+            "source_index": 9,
+            "color": "3",
+            "origin": "3_B",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "-1/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_B_b",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 5,
+            "source_index": 10,
+            "color": "3",
+            "origin": "3_B",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "-1/3"
+          },
+          {
+            "field": "L_L",
+            "source": "1_A",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 6,
+            "source_index": 7,
+            "color": "1",
+            "origin": "1_A",
+            "B_minus_L": "-1",
+            "Y": "-1/2",
+            "Q": "0"
+          },
+          {
+            "field": "L_L",
+            "source": "1_B",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 7,
+            "source_index": 14,
+            "color": "1",
+            "origin": "1_B",
+            "B_minus_L": "-1",
+            "Y": "-1/2",
+            "Q": "-1"
+          },
+          {
+            "field": "u_c",
+            "source": "anti3_A_r",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 8,
+            "source_index": 4,
+            "color": "anti3",
+            "origin": "anti3_A",
+            "B_minus_L": "-1/3",
+            "Y": "-2/3",
+            "Q": "-2/3"
+          },
+          {
+            "field": "u_c",
+            "source": "anti3_A_g",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 9,
+            "source_index": 5,
+            "color": "anti3",
+            "origin": "anti3_A",
+            "B_minus_L": "-1/3",
+            "Y": "-2/3",
+            "Q": "-2/3"
+          },
+          {
+            "field": "u_c",
+            "source": "anti3_A_b",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 10,
+            "source_index": 6,
+            "color": "anti3",
+            "origin": "anti3_A",
+            "B_minus_L": "-1/3",
+            "Y": "-2/3",
+            "Q": "-2/3"
+          },
+          {
+            "field": "d_c",
+            "source": "anti3_B_r",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 11,
+            "source_index": 11,
+            "color": "anti3",
+            "origin": "anti3_B",
+            "B_minus_L": "-1/3",
+            "Y": "1/3",
+            "Q": "1/3"
+          },
+          {
+            "field": "d_c",
+            "source": "anti3_B_g",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 12,
+            "source_index": 12,
+            "color": "anti3",
+            "origin": "anti3_B",
+            "B_minus_L": "-1/3",
+            "Y": "1/3",
+            "Q": "1/3"
+          },
+          {
+            "field": "d_c",
+            "source": "anti3_B_b",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 13,
+            "source_index": 13,
+            "color": "anti3",
+            "origin": "anti3_B",
+            "B_minus_L": "-1/3",
+            "Y": "1/3",
+            "Q": "1/3"
+          },
+          {
+            "field": "nu_c",
+            "source": "1_N",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 14,
+            "source_index": 15,
+            "color": "1",
+            "origin": "1_N",
+            "B_minus_L": "1",
+            "Y": "0",
+            "Q": "0"
+          },
+          {
+            "field": "e_c",
+            "source": "1_0",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 15,
+            "source_index": 0,
+            "color": "1",
+            "origin": "1_0",
+            "B_minus_L": "1",
+            "Y": "1",
+            "Q": "1"
+          }
+        ],
+        "field_groups": {
+          "Q_L": {
+            "multiplicity": 6,
+            "Y": "1/6",
+            "Q": [
+              "2/3",
+              "-1/3"
+            ]
+          },
+          "L_L": {
+            "multiplicity": 2,
+            "Y": "-1/2",
+            "Q": [
+              "0",
+              "-1"
+            ]
+          },
+          "u_c": {
+            "multiplicity": 3,
+            "Y": "-2/3",
+            "Q": [
+              "-2/3"
+            ]
+          },
+          "d_c": {
+            "multiplicity": 3,
+            "Y": "1/3",
+            "Q": [
+              "1/3"
+            ]
+          },
+          "nu_c": {
+            "multiplicity": 1,
+            "Y": "0",
+            "Q": [
+              "0"
+            ]
+          },
+          "e_c": {
+            "multiplicity": 1,
+            "Y": "1",
+            "Q": [
+              "1"
+            ]
+          }
+        },
+        "benchmark_matches": true,
+        "anomalies": {
+          "gravity_U1": "0",
+          "U1_cubed": "0",
+          "SU3_squared_U1": "0",
+          "SU2_squared_U1": "0",
+          "SU3_cubed": "0"
+        },
+        "SU2_doublets": {
+          "left": 4,
+          "right": 4
+        },
+        "color_branching_dimension": 15,
+        "extended_transport_dimension": 16,
+        "chirality": "independent complex left-handed Weyl channels assumed"
+      },
+      "channel_energy_bridge": {
+        "channel_state_before": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "channel_state_after": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "state_trace_error": 0.0,
+        "permutation_unitarity_error": 0.0,
+        "sector_energy_before_J": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 1.546974306467788e-11,
+          "hidden_background": 4.002868988471555e-11
+        },
+        "sector_energy_after_J": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 1.546974306467788e-11,
+          "hidden_background": 4.002868988471555e-11
+        },
+        "maximum_energy_change_J": 0.0,
+        "scope": "channel-blind 0.7 energy operators; relabeling has no added SI energy or physical measurement event"
+      },
+      "ledger_0_7": {
+        "scale_factor": 1.0,
+        "lattice_N": 128,
+        "carrier_epsilon": 0.0,
+        "state_trace": 1.0,
+        "state_entropy_bits": 0.0,
+        "state_rank_at_tolerance": 1,
+        "Jc": 0.15224093497742647,
+        "Jb": 0.15224093497742647,
+        "measure": "energy_weighted_information_load",
+        "reference_volume_m3": 1.0,
+        "physical_volume_m3": 1.0,
+        "sector_weights": {
+          "phenotype": 0.0493,
+          "hidden_clustering": 0.02017192388450901,
+          "hidden_background": 0.052195804557010665
+        },
+        "total_actual_weight": 0.12166772844151967,
+        "actual_normalized_share": 1.0,
+        "sector_shares": {
+          "phenotype": 0.4052019432884895,
+          "hidden_clustering": 0.16579518778642083,
+          "hidden_background": 0.42900286892508965
+        },
+        "hidden_share": 0.5947980567115105,
+        "sector_energy_J": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 1.546974306467788e-11,
+          "hidden_background": 4.002868988471555e-11
+        },
+        "total_energy_J": 9.330634544475544e-11,
+        "sector_density_J_m3": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 1.546974306467788e-11,
+          "hidden_background": 4.002868988471555e-11
+        },
+        "total_density_J_m3": 9.330634544475544e-11,
+        "sector_pressure_Pa": {
+          "phenotype": -0.0,
+          "hidden_clustering": -0.0,
+          "hidden_background": -4.002868988471555e-11
+        },
+        "total_pressure_Pa": -4.002868988471555e-11,
+        "quantization_status": "not_executed_in_0.7",
+        "measurement_outcome_probabilities": null,
+        "physical_records": [],
+        "measurement_energy_transfers": [],
+        "record_energy_policy": "future record energy is a sector suballocation, not an extra fourth sector",
+        "residue_policy": "unexpressed state content retained; not equated with a bit count or a fourth energy component",
+        "bridge_0_6": {
+          "snapshot": {
+            "a": 1.0,
+            "Jc": 0.15224093497742647,
+            "Jb": 0.15224093497742647,
+            "density_phenotype_over_ucrit": 0.0493,
+            "density_clustering_over_ucrit": 0.02017192388450901,
+            "density_background_over_ucrit": 0.052195804557010665,
+            "density_total_over_ucrit": 0.12166772844151968,
+            "pressure_over_ucrit": -0.052195804557010665,
+            "H_over_H0": 0.3488090142778992,
+            "deceleration_q": -0.14350430338763437,
+            "hidden_density_over_reference": 0.07612046748871323,
+            "hidden_comoving_energy_over_reference": 0.07612046748871323,
+            "zeta_Q_over_reference": 0.07612046748871323,
+            "twist_record_norm_over_reference": 0.275899379282943,
+            "twist_rate_over_reference": 0.275899379282943,
+            "aT_over_reference": 0.275899379282943,
+            "actual_hidden_fraction": 0.5947980567115104
+          },
+          "local_readout": {
+            "aT_m_s2": 3.288203756277802e-11,
+            "zeta_kappa_total_squared_m_minus2": 2.3050135773252195e-53,
+            "test_radius_kpc": 8.2,
+            "v_total_km_s": 177.25017650459,
+            "v_direct_km_s": 161.45051053125528,
+            "g_additional_m_s2": 2.1149474719177546e-11,
+            "finite_patch_lensing": {
+              "impact_kpc": 10.0,
+              "alpha_patch_rad": 1.6861612177784496e-06,
+              "alpha_baryon_patch_rad": 1.052265081800396e-06,
+              "alpha_twist_patch_rad": 6.338961359780535e-07,
+              "alpha_patch_arcsec": 0.34779571688643995,
+              "quad_abs_error_rad": 2.3268306963421104e-20
+            },
+            "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
+          },
+          "density_absolute_error_J_m3": 0.0,
+          "pressure_absolute_error_Pa": 0.0
+        },
+        "invariants": {
+          "weight_partition_absolute_error": 1.3877787807814457e-17,
+          "share_partition_absolute_error": 0.0,
+          "energy_partition_absolute_error_J": 0.0,
+          "state_rank": 1
+        }
+      }
+    },
+    {
+      "case_name": "high_mode_a1.0",
+      "state_recipe": {
+        "kind": "mode",
+        "mode": 64
+      },
+      "lattice_N": 128,
+      "scale_factor": 1.0,
+      "carrier_epsilon": 0.0,
+      "response": {
+        "dimensionless_shifts": {
+          "3_A": 1.25,
+          "3_B": 0.75,
+          "1_A": 1.25,
+          "1_B": 0.75,
+          "anti3_A": 0.75,
+          "anti3_B": 1.25,
+          "1_N": 0.75,
+          "1_0": 1.25
+        },
+        "raw_intensity": {
+          "3_A": 0.11075380564098303,
+          "3_B": 0.1855747531380761,
+          "1_A": 0.11075380564098303,
+          "1_B": 0.1855747531380761,
+          "anti3_A": 0.1855747531380761,
+          "anti3_B": 0.11075380564098303,
+          "1_N": 0.1855747531380761,
+          "1_0": 0.11075380564098303
+        },
+        "common_reference_intensity": 0.7906721638149536,
+        "normalized_signatures": {
+          "3_A": 0.37426662795494736,
+          "3_B": 0.4844636769618883,
+          "1_A": 0.37426662795494736,
+          "1_B": 0.4844636769618883,
+          "anti3_A": 0.4844636769618883,
+          "anti3_B": 0.37426662795494736,
+          "1_N": 0.4844636769618883,
+          "1_0": 0.37426662795494736
+        },
+        "transport_gram_diagonal": [
+          0.140075508800767,
+          0.140075508800767,
+          0.140075508800767,
+          0.140075508800767,
+          0.23470505429543287,
+          0.23470505429543287,
+          0.23470505429543287,
+          0.140075508800767,
+          0.23470505429543287,
+          0.23470505429543287,
+          0.23470505429543287,
+          0.140075508800767,
+          0.140075508800767,
+          0.140075508800767,
+          0.23470505429543287,
+          0.23470505429543287
+        ],
+        "transport_gram_rank": 16,
+        "minimum_gram_eigenvalue": 0.140075508800767,
+        "neutral_channel_norm_squared": 0.23470505429543287,
+        "principal_channel_difference": 0.0,
+        "signature_scope": "color-invariant scalar response in the calibrated weak-component basis; background and basis transform jointly",
+        "operator_scope": "auxiliary lower-order readout offset; not an extra dynamical Hamiltonian or SI energy sector"
+      },
+      "selection": {
+        "compatibility_entries": {
+          "lAA": -0.0,
+          "lBB": -0.0,
+          "lAB": -0.012143389609838143,
+          "lBA": -0.012143389609838143,
+          "rAN": -0.0,
+          "rB0": -0.0,
+          "rA0": -0.012143389609838143,
+          "rBN": -0.012143389609838143
+        },
+        "scores": {
+          "F_DX": -0.0,
+          "F_XX": -0.024286779219676286,
+          "F_DD": -0.024286779219676286,
+          "F_XD": -0.04857355843935257
+        },
+        "Delta_L": 0.024286779219676286,
+        "Delta_R": 0.024286779219676286,
+        "gap_identity_max_error": 0.0,
+        "maximizers": [
+          "F_DX"
+        ],
+        "selected_filter": "F_DX",
+        "status": "selected",
+        "optimizer_scope": "dimensionless construction flow; no measurement probability",
+        "flow": [
+          {
+            "construction_time": 0.0,
+            "filter_weights": {
+              "F_DX": 0.25,
+              "F_XX": 0.25,
+              "F_DD": 0.25,
+              "F_XD": 0.25
+            },
+            "winning_residual": 0.75
+          },
+          {
+            "construction_time": 1.0,
+            "filter_weights": {
+              "F_DX": 0.2561082582285528,
+              "F_XX": 0.24996313814606227,
+              "F_DD": 0.24996313814606227,
+              "F_XD": 0.24396546547932255
+            },
+            "winning_residual": 0.7438917417714472
+          },
+          {
+            "construction_time": 803.70035302197,
+            "filter_weights": {
+              "F_DX": 0.9999999933333332,
+              "F_XX": 3.333333311111101e-09,
+              "F_DD": 3.333333311111101e-09,
+              "F_XD": 1.1111111037036972e-17
+            },
+            "winning_residual": 6.66666677417993e-09
+          }
+        ],
+        "minimum_score_gap": 0.024286779219676286,
+        "sufficient_construction_time": 803.70035302197,
+        "finite_flow_residual": 6.66666677417993e-09
+      },
+      "placement_and_charge": {
+        "alpha": "1",
+        "beta": "1/2",
+        "anchor_determinant": "-1",
+        "channel_table": [
+          {
+            "field": "Q_L",
+            "source": "3_A_r",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 0,
+            "source_index": 1,
+            "color": "3",
+            "origin": "3_A",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "2/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_A_g",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 1,
+            "source_index": 2,
+            "color": "3",
+            "origin": "3_A",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "2/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_A_b",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 2,
+            "source_index": 3,
+            "color": "3",
+            "origin": "3_A",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "2/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_B_r",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 3,
+            "source_index": 8,
+            "color": "3",
+            "origin": "3_B",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "-1/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_B_g",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 4,
+            "source_index": 9,
+            "color": "3",
+            "origin": "3_B",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "-1/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_B_b",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 5,
+            "source_index": 10,
+            "color": "3",
+            "origin": "3_B",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "-1/3"
+          },
+          {
+            "field": "L_L",
+            "source": "1_A",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 6,
+            "source_index": 7,
+            "color": "1",
+            "origin": "1_A",
+            "B_minus_L": "-1",
+            "Y": "-1/2",
+            "Q": "0"
+          },
+          {
+            "field": "L_L",
+            "source": "1_B",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 7,
+            "source_index": 14,
+            "color": "1",
+            "origin": "1_B",
+            "B_minus_L": "-1",
+            "Y": "-1/2",
+            "Q": "-1"
+          },
+          {
+            "field": "u_c",
+            "source": "anti3_A_r",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 8,
+            "source_index": 4,
+            "color": "anti3",
+            "origin": "anti3_A",
+            "B_minus_L": "-1/3",
+            "Y": "-2/3",
+            "Q": "-2/3"
+          },
+          {
+            "field": "u_c",
+            "source": "anti3_A_g",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 9,
+            "source_index": 5,
+            "color": "anti3",
+            "origin": "anti3_A",
+            "B_minus_L": "-1/3",
+            "Y": "-2/3",
+            "Q": "-2/3"
+          },
+          {
+            "field": "u_c",
+            "source": "anti3_A_b",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 10,
+            "source_index": 6,
+            "color": "anti3",
+            "origin": "anti3_A",
+            "B_minus_L": "-1/3",
+            "Y": "-2/3",
+            "Q": "-2/3"
+          },
+          {
+            "field": "d_c",
+            "source": "anti3_B_r",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 11,
+            "source_index": 11,
+            "color": "anti3",
+            "origin": "anti3_B",
+            "B_minus_L": "-1/3",
+            "Y": "1/3",
+            "Q": "1/3"
+          },
+          {
+            "field": "d_c",
+            "source": "anti3_B_g",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 12,
+            "source_index": 12,
+            "color": "anti3",
+            "origin": "anti3_B",
+            "B_minus_L": "-1/3",
+            "Y": "1/3",
+            "Q": "1/3"
+          },
+          {
+            "field": "d_c",
+            "source": "anti3_B_b",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 13,
+            "source_index": 13,
+            "color": "anti3",
+            "origin": "anti3_B",
+            "B_minus_L": "-1/3",
+            "Y": "1/3",
+            "Q": "1/3"
+          },
+          {
+            "field": "nu_c",
+            "source": "1_N",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 14,
+            "source_index": 15,
+            "color": "1",
+            "origin": "1_N",
+            "B_minus_L": "1",
+            "Y": "0",
+            "Q": "0"
+          },
+          {
+            "field": "e_c",
+            "source": "1_0",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 15,
+            "source_index": 0,
+            "color": "1",
+            "origin": "1_0",
+            "B_minus_L": "1",
+            "Y": "1",
+            "Q": "1"
+          }
+        ],
+        "field_groups": {
+          "Q_L": {
+            "multiplicity": 6,
+            "Y": "1/6",
+            "Q": [
+              "2/3",
+              "-1/3"
+            ]
+          },
+          "L_L": {
+            "multiplicity": 2,
+            "Y": "-1/2",
+            "Q": [
+              "0",
+              "-1"
+            ]
+          },
+          "u_c": {
+            "multiplicity": 3,
+            "Y": "-2/3",
+            "Q": [
+              "-2/3"
+            ]
+          },
+          "d_c": {
+            "multiplicity": 3,
+            "Y": "1/3",
+            "Q": [
+              "1/3"
+            ]
+          },
+          "nu_c": {
+            "multiplicity": 1,
+            "Y": "0",
+            "Q": [
+              "0"
+            ]
+          },
+          "e_c": {
+            "multiplicity": 1,
+            "Y": "1",
+            "Q": [
+              "1"
+            ]
+          }
+        },
+        "benchmark_matches": true,
+        "anomalies": {
+          "gravity_U1": "0",
+          "U1_cubed": "0",
+          "SU3_squared_U1": "0",
+          "SU2_squared_U1": "0",
+          "SU3_cubed": "0"
+        },
+        "SU2_doublets": {
+          "left": 4,
+          "right": 4
+        },
+        "color_branching_dimension": 15,
+        "extended_transport_dimension": 16,
+        "chirality": "independent complex left-handed Weyl channels assumed"
+      },
+      "channel_energy_bridge": {
+        "channel_state_before": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "channel_state_after": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "state_trace_error": 0.0,
+        "permutation_unitarity_error": 0.0,
+        "sector_energy_before_J": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 4.064542316945611e-10,
+          "hidden_background": 1.0517194968790964e-09
+        },
+        "sector_energy_after_J": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 4.064542316945611e-10,
+          "hidden_background": 1.0517194968790964e-09
+        },
+        "maximum_energy_change_J": 0.0,
+        "scope": "channel-blind 0.7 energy operators; relabeling has no added SI energy or physical measurement event"
+      },
+      "ledger_0_7": {
+        "scale_factor": 1.0,
+        "lattice_N": 128,
+        "carrier_epsilon": 0.0,
+        "state_trace": 1.0,
+        "state_entropy_bits": 0.0,
+        "state_rank_at_tolerance": 1,
+        "Jc": 4.0,
+        "Jb": 4.0,
+        "measure": "energy_weighted_information_load",
+        "reference_volume_m3": 1.0,
+        "physical_volume_m3": 1.0,
+        "sector_weights": {
+          "phenotype": 0.0493,
+          "hidden_clustering": 0.53,
+          "hidden_background": 1.3714
+        },
+        "total_actual_weight": 1.9506999999999999,
+        "actual_normalized_share": 1.0,
+        "sector_shares": {
+          "phenotype": 0.02527297893064028,
+          "hidden_clustering": 0.2716973394166197,
+          "hidden_background": 0.70302968165274
+        },
+        "hidden_share": 0.9747270210693597,
+        "sector_energy_J": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 4.064542316945611e-10,
+          "hidden_background": 1.0517194968790964e-09
+        },
+        "total_energy_J": 1.4959816410690196e-09,
+        "sector_density_J_m3": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 4.064542316945611e-10,
+          "hidden_background": 1.0517194968790964e-09
+        },
+        "total_density_J_m3": 1.4959816410690196e-09,
+        "sector_pressure_Pa": {
+          "phenotype": -0.0,
+          "hidden_clustering": -0.0,
+          "hidden_background": -1.0517194968790964e-09
+        },
+        "total_pressure_Pa": -1.0517194968790964e-09,
+        "quantization_status": "not_executed_in_0.7",
+        "measurement_outcome_probabilities": null,
+        "physical_records": [],
+        "measurement_energy_transfers": [],
+        "record_energy_policy": "future record energy is a sector suballocation, not an extra fourth sector",
+        "residue_policy": "unexpressed state content retained; not equated with a bit count or a fourth energy component",
+        "bridge_0_6": {
+          "snapshot": {
+            "a": 1.0,
+            "Jc": 4.0,
+            "Jb": 4.0,
+            "density_phenotype_over_ucrit": 0.0493,
+            "density_clustering_over_ucrit": 0.53,
+            "density_background_over_ucrit": 1.3714,
+            "density_total_over_ucrit": 1.9506999999999999,
+            "pressure_over_ucrit": -1.3714000000000002,
+            "H_over_H0": 1.3966746220934925,
+            "deceleration_q": -0.5545445224791102,
+            "hidden_density_over_reference": 2.0,
+            "hidden_comoving_energy_over_reference": 2.0,
+            "zeta_Q_over_reference": 2.0,
+            "twist_record_norm_over_reference": 1.4142135623730951,
+            "twist_rate_over_reference": 1.4142135623730951,
+            "aT_over_reference": 1.4142135623730951,
+            "actual_hidden_fraction": 0.9747270210693598
+          },
+          "local_readout": {
+            "aT_m_s2": 1.685477640457205e-10,
+            "zeta_kappa_total_squared_m_minus2": 6.056225489332408e-52,
+            "test_radius_kpc": 8.2,
+            "v_total_km_s": 219.2159779470782,
+            "v_direct_km_s": 161.45051053125528,
+            "g_additional_m_s2": 8.690575564891559e-11,
+            "finite_patch_lensing": {
+              "impact_kpc": 10.0,
+              "alpha_patch_rad": 2.9696242612492675e-06,
+              "alpha_baryon_patch_rad": 1.052265081800396e-06,
+              "alpha_twist_patch_rad": 1.9173591794488714e-06,
+              "alpha_patch_arcsec": 0.6125289728732569,
+              "quad_abs_error_rad": 3.2964071298122355e-20
+            },
+            "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
+          },
+          "density_absolute_error_J_m3": 2.0679515313825692e-25,
+          "pressure_absolute_error_Pa": 2.0679515313825692e-25
+        },
+        "invariants": {
+          "weight_partition_absolute_error": 4.440892098500626e-16,
+          "share_partition_absolute_error": 0.0,
+          "energy_partition_absolute_error_J": 0.0,
+          "state_rank": 1
+        }
+      }
+    },
+    {
+      "case_name": "zero_mode_a1.0",
+      "state_recipe": {
+        "kind": "mode",
+        "mode": 0
+      },
+      "lattice_N": 128,
+      "scale_factor": 1.0,
+      "carrier_epsilon": 0.0,
+      "response": {
+        "dimensionless_shifts": {
+          "3_A": 1.25,
+          "3_B": 0.75,
+          "1_A": 1.25,
+          "1_B": 0.75,
+          "anti3_A": 0.75,
+          "anti3_B": 1.25,
+          "1_N": 0.75,
+          "1_0": 1.25
+        },
+        "raw_intensity": {
+          "3_A": 2.8011053902760605,
+          "3_B": 4.485983584832952,
+          "1_A": 2.8011053902760605,
+          "1_B": 4.485983584832952,
+          "anti3_A": 4.485983584832952,
+          "anti3_B": 2.8011053902760605,
+          "1_N": 4.485983584832952,
+          "1_0": 2.8011053902760605
+        },
+        "common_reference_intensity": 4.947741208218974,
+        "normalized_signatures": {
+          "3_A": 0.7524215692714872,
+          "3_B": 0.9521938061845221,
+          "1_A": 0.7524215692714872,
+          "1_B": 0.9521938061845221,
+          "anti3_A": 0.9521938061845221,
+          "anti3_B": 0.7524215692714872,
+          "1_N": 0.9521938061845221,
+          "1_0": 0.7524215692714872
+        },
+        "transport_gram_diagonal": [
+          0.5661382179049674,
+          0.5661382179049674,
+          0.5661382179049674,
+          0.5661382179049674,
+          0.9066730445361673,
+          0.9066730445361673,
+          0.9066730445361673,
+          0.5661382179049674,
+          0.9066730445361673,
+          0.9066730445361673,
+          0.9066730445361673,
+          0.5661382179049674,
+          0.5661382179049674,
+          0.5661382179049674,
+          0.9066730445361673,
+          0.9066730445361673
+        ],
+        "transport_gram_rank": 16,
+        "minimum_gram_eigenvalue": 0.5661382179049674,
+        "neutral_channel_norm_squared": 0.9066730445361673,
+        "principal_channel_difference": 0.0,
+        "signature_scope": "color-invariant scalar response in the calibrated weak-component basis; background and basis transform jointly",
+        "operator_scope": "auxiliary lower-order readout offset; not an extra dynamical Hamiltonian or SI energy sector"
+      },
+      "selection": {
+        "compatibility_entries": {
+          "lAA": -0.0,
+          "lBB": -0.0,
+          "lAB": -0.03990894664123775,
+          "lBA": -0.03990894664123775,
+          "rAN": -0.0,
+          "rB0": -0.0,
+          "rA0": -0.03990894664123775,
+          "rBN": -0.03990894664123775
+        },
+        "scores": {
+          "F_DX": -0.0,
+          "F_XX": -0.0798178932824755,
+          "F_DD": -0.0798178932824755,
+          "F_XD": -0.159635786564951
+        },
+        "Delta_L": 0.0798178932824755,
+        "Delta_R": 0.0798178932824755,
+        "gap_identity_max_error": 0.0,
+        "maximizers": [
+          "F_DX"
+        ],
+        "selected_filter": "F_DX",
+        "status": "selected",
+        "optimizer_scope": "dimensionless construction flow; no measurement probability",
+        "flow": [
+          {
+            "construction_time": 0.0,
+            "filter_weights": {
+              "F_DX": 0.25,
+              "F_XX": 0.25,
+              "F_DD": 0.25,
+              "F_XD": 0.25
+            },
+            "winning_residual": 0.75
+          },
+          {
+            "construction_time": 1.0,
+            "filter_weights": {
+              "F_DX": 0.2703416446677326,
+              "F_XX": 0.2496022414081906,
+              "F_DD": 0.2496022414081906,
+              "F_XD": 0.23045387251588623
+            },
+            "winning_residual": 0.7296583553322674
+          },
+          {
+            "construction_time": 244.54783545265602,
+            "filter_weights": {
+              "F_DX": 0.9999999933333332,
+              "F_XX": 3.333333311111101e-09,
+              "F_DD": 3.333333311111101e-09,
+              "F_XD": 1.1111111037036972e-17
+            },
+            "winning_residual": 6.66666677417993e-09
+          }
+        ],
+        "minimum_score_gap": 0.0798178932824755,
+        "sufficient_construction_time": 244.54783545265602,
+        "finite_flow_residual": 6.66666677417993e-09
+      },
+      "placement_and_charge": {
+        "alpha": "1",
+        "beta": "1/2",
+        "anchor_determinant": "-1",
+        "channel_table": [
+          {
+            "field": "Q_L",
+            "source": "3_A_r",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 0,
+            "source_index": 1,
+            "color": "3",
+            "origin": "3_A",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "2/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_A_g",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 1,
+            "source_index": 2,
+            "color": "3",
+            "origin": "3_A",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "2/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_A_b",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 2,
+            "source_index": 3,
+            "color": "3",
+            "origin": "3_A",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "2/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_B_r",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 3,
+            "source_index": 8,
+            "color": "3",
+            "origin": "3_B",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "-1/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_B_g",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 4,
+            "source_index": 9,
+            "color": "3",
+            "origin": "3_B",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "-1/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_B_b",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 5,
+            "source_index": 10,
+            "color": "3",
+            "origin": "3_B",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "-1/3"
+          },
+          {
+            "field": "L_L",
+            "source": "1_A",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 6,
+            "source_index": 7,
+            "color": "1",
+            "origin": "1_A",
+            "B_minus_L": "-1",
+            "Y": "-1/2",
+            "Q": "0"
+          },
+          {
+            "field": "L_L",
+            "source": "1_B",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 7,
+            "source_index": 14,
+            "color": "1",
+            "origin": "1_B",
+            "B_minus_L": "-1",
+            "Y": "-1/2",
+            "Q": "-1"
+          },
+          {
+            "field": "u_c",
+            "source": "anti3_A_r",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 8,
+            "source_index": 4,
+            "color": "anti3",
+            "origin": "anti3_A",
+            "B_minus_L": "-1/3",
+            "Y": "-2/3",
+            "Q": "-2/3"
+          },
+          {
+            "field": "u_c",
+            "source": "anti3_A_g",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 9,
+            "source_index": 5,
+            "color": "anti3",
+            "origin": "anti3_A",
+            "B_minus_L": "-1/3",
+            "Y": "-2/3",
+            "Q": "-2/3"
+          },
+          {
+            "field": "u_c",
+            "source": "anti3_A_b",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 10,
+            "source_index": 6,
+            "color": "anti3",
+            "origin": "anti3_A",
+            "B_minus_L": "-1/3",
+            "Y": "-2/3",
+            "Q": "-2/3"
+          },
+          {
+            "field": "d_c",
+            "source": "anti3_B_r",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 11,
+            "source_index": 11,
+            "color": "anti3",
+            "origin": "anti3_B",
+            "B_minus_L": "-1/3",
+            "Y": "1/3",
+            "Q": "1/3"
+          },
+          {
+            "field": "d_c",
+            "source": "anti3_B_g",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 12,
+            "source_index": 12,
+            "color": "anti3",
+            "origin": "anti3_B",
+            "B_minus_L": "-1/3",
+            "Y": "1/3",
+            "Q": "1/3"
+          },
+          {
+            "field": "d_c",
+            "source": "anti3_B_b",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 13,
+            "source_index": 13,
+            "color": "anti3",
+            "origin": "anti3_B",
+            "B_minus_L": "-1/3",
+            "Y": "1/3",
+            "Q": "1/3"
+          },
+          {
+            "field": "nu_c",
+            "source": "1_N",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 14,
+            "source_index": 15,
+            "color": "1",
+            "origin": "1_N",
+            "B_minus_L": "1",
+            "Y": "0",
+            "Q": "0"
+          },
+          {
+            "field": "e_c",
+            "source": "1_0",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 15,
+            "source_index": 0,
+            "color": "1",
+            "origin": "1_0",
+            "B_minus_L": "1",
+            "Y": "1",
+            "Q": "1"
+          }
+        ],
+        "field_groups": {
+          "Q_L": {
+            "multiplicity": 6,
+            "Y": "1/6",
+            "Q": [
+              "2/3",
+              "-1/3"
+            ]
+          },
+          "L_L": {
+            "multiplicity": 2,
+            "Y": "-1/2",
+            "Q": [
+              "0",
+              "-1"
+            ]
+          },
+          "u_c": {
+            "multiplicity": 3,
+            "Y": "-2/3",
+            "Q": [
+              "-2/3"
+            ]
+          },
+          "d_c": {
+            "multiplicity": 3,
+            "Y": "1/3",
+            "Q": [
+              "1/3"
+            ]
+          },
+          "nu_c": {
+            "multiplicity": 1,
+            "Y": "0",
+            "Q": [
+              "0"
+            ]
+          },
+          "e_c": {
+            "multiplicity": 1,
+            "Y": "1",
+            "Q": [
+              "1"
+            ]
+          }
+        },
+        "benchmark_matches": true,
+        "anomalies": {
+          "gravity_U1": "0",
+          "U1_cubed": "0",
+          "SU3_squared_U1": "0",
+          "SU2_squared_U1": "0",
+          "SU3_cubed": "0"
+        },
+        "SU2_doublets": {
+          "left": 4,
+          "right": 4
+        },
+        "color_branching_dimension": 15,
+        "extended_transport_dimension": 16,
+        "chirality": "independent complex left-handed Weyl channels assumed"
+      },
+      "channel_energy_bridge": {
+        "channel_state_before": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "channel_state_after": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "state_trace_error": 0.0,
+        "permutation_unitarity_error": 0.0,
+        "sector_energy_before_J": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 0.0,
+          "hidden_background": 0.0
+        },
+        "sector_energy_after_J": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 0.0,
+          "hidden_background": 0.0
+        },
+        "maximum_energy_change_J": 0.0,
+        "scope": "channel-blind 0.7 energy operators; relabeling has no added SI energy or physical measurement event"
+      },
+      "ledger_0_7": {
+        "scale_factor": 1.0,
+        "lattice_N": 128,
+        "carrier_epsilon": 0.0,
+        "state_trace": 1.0,
+        "state_entropy_bits": 0.0,
+        "state_rank_at_tolerance": 1,
+        "Jc": 0.0,
+        "Jb": 0.0,
+        "measure": "energy_weighted_information_load",
+        "reference_volume_m3": 1.0,
+        "physical_volume_m3": 1.0,
+        "sector_weights": {
+          "phenotype": 0.0493,
+          "hidden_clustering": 0.0,
+          "hidden_background": 0.0
+        },
+        "total_actual_weight": 0.0493,
+        "actual_normalized_share": 1.0,
+        "sector_shares": {
+          "phenotype": 1.0,
+          "hidden_clustering": 0.0,
+          "hidden_background": 0.0
+        },
+        "hidden_share": 0.0,
+        "sector_energy_J": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 0.0,
+          "hidden_background": 0.0
+        },
+        "total_energy_J": 3.7807912495362e-11,
+        "sector_density_J_m3": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 0.0,
+          "hidden_background": 0.0
+        },
+        "total_density_J_m3": 3.7807912495362e-11,
+        "sector_pressure_Pa": {
+          "phenotype": -0.0,
+          "hidden_clustering": -0.0,
+          "hidden_background": -0.0
+        },
+        "total_pressure_Pa": 0.0,
+        "quantization_status": "not_executed_in_0.7",
+        "measurement_outcome_probabilities": null,
+        "physical_records": [],
+        "measurement_energy_transfers": [],
+        "record_energy_policy": "future record energy is a sector suballocation, not an extra fourth sector",
+        "residue_policy": "unexpressed state content retained; not equated with a bit count or a fourth energy component",
+        "bridge_0_6": {
+          "snapshot": {
+            "a": 1.0,
+            "Jc": 0.0,
+            "Jb": 0.0,
+            "density_phenotype_over_ucrit": 0.0493,
+            "density_clustering_over_ucrit": 0.0,
+            "density_background_over_ucrit": 0.0,
+            "density_total_over_ucrit": 0.0493,
+            "pressure_over_ucrit": -0.0,
+            "H_over_H0": 0.22203603311174516,
+            "deceleration_q": 0.5,
+            "hidden_density_over_reference": 0.0,
+            "hidden_comoving_energy_over_reference": 0.0,
+            "zeta_Q_over_reference": 0.0,
+            "twist_record_norm_over_reference": 0.0,
+            "twist_rate_over_reference": 0.0,
+            "aT_over_reference": 0.0,
+            "actual_hidden_fraction": 0.0
+          },
+          "local_readout": {
+            "aT_m_s2": 0.0,
+            "zeta_kappa_total_squared_m_minus2": 0.0,
+            "test_radius_kpc": 8.2,
+            "v_total_km_s": 161.45051053125528,
+            "v_direct_km_s": 161.45051053125528,
+            "g_additional_m_s2": 0.0,
+            "finite_patch_lensing": null,
+            "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
+          },
+          "density_absolute_error_J_m3": 0.0,
+          "pressure_absolute_error_Pa": 0.0
+        },
+        "invariants": {
+          "weight_partition_absolute_error": 8.326672684688674e-17,
+          "share_partition_absolute_error": 0.0,
+          "energy_partition_absolute_error_J": 0.0,
+          "state_rank": 1
+        }
+      }
+    },
+    {
+      "case_name": "coherent_packet_a1.0",
+      "state_recipe": {
+        "kind": "packet",
+        "modes": [
+          8,
+          16,
+          24
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      },
+      "lattice_N": 128,
+      "scale_factor": 1.0,
+      "carrier_epsilon": 0.0,
+      "response": {
+        "dimensionless_shifts": {
+          "3_A": 1.25,
+          "3_B": 0.75,
+          "1_A": 1.25,
+          "1_B": 0.75,
+          "anti3_A": 0.75,
+          "anti3_B": 1.25,
+          "1_N": 0.75,
+          "1_0": 1.25
+        },
+        "raw_intensity": {
+          "3_A": 2.16043396945295,
+          "3_B": 4.358141410900536,
+          "1_A": 2.16043396945295,
+          "1_B": 4.358141410900536,
+          "anti3_A": 4.358141410900536,
+          "anti3_B": 2.16043396945295,
+          "1_N": 4.358141410900536,
+          "1_0": 2.16043396945295
+        },
+        "common_reference_intensity": 5.078400155597889,
+        "normalized_signatures": {
+          "3_A": 0.6522394144732069,
+          "3_B": 0.9263757966854163,
+          "1_A": 0.6522394144732069,
+          "1_B": 0.9263757966854163,
+          "anti3_A": 0.9263757966854163,
+          "anti3_B": 0.6522394144732069,
+          "1_N": 0.9263757966854163,
+          "1_0": 0.6522394144732069
+        },
+        "transport_gram_diagonal": [
+          0.42541625379235176,
+          0.42541625379235176,
+          0.42541625379235176,
+          0.42541625379235176,
+          0.8581721166845396,
+          0.8581721166845396,
+          0.8581721166845396,
+          0.42541625379235176,
+          0.8581721166845396,
+          0.8581721166845396,
+          0.8581721166845396,
+          0.42541625379235176,
+          0.42541625379235176,
+          0.42541625379235176,
+          0.8581721166845396,
+          0.8581721166845396
+        ],
+        "transport_gram_rank": 16,
+        "minimum_gram_eigenvalue": 0.42541625379235176,
+        "neutral_channel_norm_squared": 0.8581721166845396,
+        "principal_channel_difference": 0.0,
+        "signature_scope": "color-invariant scalar response in the calibrated weak-component basis; background and basis transform jointly",
+        "operator_scope": "auxiliary lower-order readout offset; not an extra dynamical Hamiltonian or SI energy sector"
+      },
+      "selection": {
+        "compatibility_entries": {
+          "lAA": -0.0,
+          "lBB": -0.0,
+          "lAB": -0.07515075605239854,
+          "lBA": -0.07515075605239854,
+          "rAN": -0.0,
+          "rB0": -0.0,
+          "rA0": -0.07515075605239854,
+          "rBN": -0.07515075605239854
+        },
+        "scores": {
+          "F_DX": -0.0,
+          "F_XX": -0.15030151210479709,
+          "F_DD": -0.15030151210479709,
+          "F_XD": -0.30060302420959417
+        },
+        "Delta_L": 0.15030151210479709,
+        "Delta_R": 0.15030151210479709,
+        "gap_identity_max_error": 0.0,
+        "maximizers": [
+          "F_DX"
+        ],
+        "selected_filter": "F_DX",
+        "status": "selected",
+        "optimizer_scope": "dimensionless construction flow; no measurement probability",
+        "flow": [
+          {
+            "construction_time": 0.0,
+            "filter_weights": {
+              "F_DX": 0.25,
+              "F_XX": 0.25,
+              "F_DD": 0.25,
+              "F_XD": 0.25
+            },
+            "winning_residual": 0.75
+          },
+          {
+            "construction_time": 1.0,
+            "filter_weights": {
+              "F_DX": 0.2889114101380979,
+              "F_XX": 0.24859338996893174,
+              "F_DD": 0.24859338996893174,
+              "F_XD": 0.21390180992403854
+            },
+            "winning_residual": 0.7110885898619022
+          },
+          {
+            "construction_time": 129.86757590975355,
+            "filter_weights": {
+              "F_DX": 0.9999999933333332,
+              "F_XX": 3.333333311111101e-09,
+              "F_DD": 3.333333311111101e-09,
+              "F_XD": 1.1111111037036972e-17
+            },
+            "winning_residual": 6.66666677417993e-09
+          }
+        ],
+        "minimum_score_gap": 0.15030151210479709,
+        "sufficient_construction_time": 129.86757590975355,
+        "finite_flow_residual": 6.66666677417993e-09
+      },
+      "placement_and_charge": {
+        "alpha": "1",
+        "beta": "1/2",
+        "anchor_determinant": "-1",
+        "channel_table": [
+          {
+            "field": "Q_L",
+            "source": "3_A_r",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 0,
+            "source_index": 1,
+            "color": "3",
+            "origin": "3_A",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "2/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_A_g",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 1,
+            "source_index": 2,
+            "color": "3",
+            "origin": "3_A",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "2/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_A_b",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 2,
+            "source_index": 3,
+            "color": "3",
+            "origin": "3_A",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "2/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_B_r",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 3,
+            "source_index": 8,
+            "color": "3",
+            "origin": "3_B",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "-1/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_B_g",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 4,
+            "source_index": 9,
+            "color": "3",
+            "origin": "3_B",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "-1/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_B_b",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 5,
+            "source_index": 10,
+            "color": "3",
+            "origin": "3_B",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "-1/3"
+          },
+          {
+            "field": "L_L",
+            "source": "1_A",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 6,
+            "source_index": 7,
+            "color": "1",
+            "origin": "1_A",
+            "B_minus_L": "-1",
+            "Y": "-1/2",
+            "Q": "0"
+          },
+          {
+            "field": "L_L",
+            "source": "1_B",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 7,
+            "source_index": 14,
+            "color": "1",
+            "origin": "1_B",
+            "B_minus_L": "-1",
+            "Y": "-1/2",
+            "Q": "-1"
+          },
+          {
+            "field": "u_c",
+            "source": "anti3_A_r",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 8,
+            "source_index": 4,
+            "color": "anti3",
+            "origin": "anti3_A",
+            "B_minus_L": "-1/3",
+            "Y": "-2/3",
+            "Q": "-2/3"
+          },
+          {
+            "field": "u_c",
+            "source": "anti3_A_g",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 9,
+            "source_index": 5,
+            "color": "anti3",
+            "origin": "anti3_A",
+            "B_minus_L": "-1/3",
+            "Y": "-2/3",
+            "Q": "-2/3"
+          },
+          {
+            "field": "u_c",
+            "source": "anti3_A_b",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 10,
+            "source_index": 6,
+            "color": "anti3",
+            "origin": "anti3_A",
+            "B_minus_L": "-1/3",
+            "Y": "-2/3",
+            "Q": "-2/3"
+          },
+          {
+            "field": "d_c",
+            "source": "anti3_B_r",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 11,
+            "source_index": 11,
+            "color": "anti3",
+            "origin": "anti3_B",
+            "B_minus_L": "-1/3",
+            "Y": "1/3",
+            "Q": "1/3"
+          },
+          {
+            "field": "d_c",
+            "source": "anti3_B_g",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 12,
+            "source_index": 12,
+            "color": "anti3",
+            "origin": "anti3_B",
+            "B_minus_L": "-1/3",
+            "Y": "1/3",
+            "Q": "1/3"
+          },
+          {
+            "field": "d_c",
+            "source": "anti3_B_b",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 13,
+            "source_index": 13,
+            "color": "anti3",
+            "origin": "anti3_B",
+            "B_minus_L": "-1/3",
+            "Y": "1/3",
+            "Q": "1/3"
+          },
+          {
+            "field": "nu_c",
+            "source": "1_N",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 14,
+            "source_index": 15,
+            "color": "1",
+            "origin": "1_N",
+            "B_minus_L": "1",
+            "Y": "0",
+            "Q": "0"
+          },
+          {
+            "field": "e_c",
+            "source": "1_0",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 15,
+            "source_index": 0,
+            "color": "1",
+            "origin": "1_0",
+            "B_minus_L": "1",
+            "Y": "1",
+            "Q": "1"
+          }
+        ],
+        "field_groups": {
+          "Q_L": {
+            "multiplicity": 6,
+            "Y": "1/6",
+            "Q": [
+              "2/3",
+              "-1/3"
+            ]
+          },
+          "L_L": {
+            "multiplicity": 2,
+            "Y": "-1/2",
+            "Q": [
+              "0",
+              "-1"
+            ]
+          },
+          "u_c": {
+            "multiplicity": 3,
+            "Y": "-2/3",
+            "Q": [
+              "-2/3"
+            ]
+          },
+          "d_c": {
+            "multiplicity": 3,
+            "Y": "1/3",
+            "Q": [
+              "1/3"
+            ]
+          },
+          "nu_c": {
+            "multiplicity": 1,
+            "Y": "0",
+            "Q": [
+              "0"
+            ]
+          },
+          "e_c": {
+            "multiplicity": 1,
+            "Y": "1",
+            "Q": [
+              "1"
+            ]
+          }
+        },
+        "benchmark_matches": true,
+        "anomalies": {
+          "gravity_U1": "0",
+          "U1_cubed": "0",
+          "SU3_squared_U1": "0",
+          "SU2_squared_U1": "0",
+          "SU3_cubed": "0"
+        },
+        "SU2_doublets": {
+          "left": 4,
+          "right": 4
+        },
+        "color_branching_dimension": 15,
+        "extended_transport_dimension": 16,
+        "chirality": "independent complex left-handed Weyl channels assumed"
+      },
+      "channel_energy_bridge": {
+        "channel_state_before": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "channel_state_after": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "state_trace_error": 0.0,
+        "permutation_unitarity_error": 0.0,
+        "sector_energy_before_J": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 6.681635092684929e-11,
+          "hidden_background": 1.7289045973788892e-10
+        },
+        "sector_energy_after_J": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 6.681635092684929e-11,
+          "hidden_background": 1.7289045973788892e-10
+        },
+        "maximum_energy_change_J": 0.0,
+        "scope": "channel-blind 0.7 energy operators; relabeling has no added SI energy or physical measurement event"
+      },
+      "ledger_0_7": {
+        "scale_factor": 1.0,
+        "lattice_N": 128,
+        "carrier_epsilon": 0.0,
+        "state_trace": 1.0,
+        "state_entropy_bits": 0.0,
+        "state_rank_at_tolerance": 1,
+        "Jc": 0.6575535026247177,
+        "Jb": 0.6575535026247177,
+        "measure": "energy_weighted_information_load",
+        "reference_volume_m3": 1.0,
+        "physical_volume_m3": 1.0,
+        "sector_weights": {
+          "phenotype": 0.0493,
+          "hidden_clustering": 0.08712583909777509,
+          "hidden_background": 0.22544221837488446
+        },
+        "total_actual_weight": 0.36186805747265954,
+        "actual_normalized_share": 1.0,
+        "sector_shares": {
+          "phenotype": 0.13623750143717725,
+          "hidden_clustering": 0.24076686874844644,
+          "hidden_background": 0.6229956298143763
+        },
+        "hidden_share": 0.8637624985628227,
+        "sector_energy_J": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 6.681635092684929e-11,
+          "hidden_background": 1.7289045973788892e-10
+        },
+        "total_energy_J": 2.775147231601002e-10,
+        "sector_density_J_m3": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 6.681635092684929e-11,
+          "hidden_background": 1.7289045973788892e-10
+        },
+        "total_density_J_m3": 2.775147231601002e-10,
+        "sector_pressure_Pa": {
+          "phenotype": -0.0,
+          "hidden_clustering": -0.0,
+          "hidden_background": -1.7289045973788892e-10
+        },
+        "total_pressure_Pa": -1.7289045973788892e-10,
+        "quantization_status": "not_executed_in_0.7",
+        "measurement_outcome_probabilities": null,
+        "physical_records": [],
+        "measurement_energy_transfers": [],
+        "record_energy_policy": "future record energy is a sector suballocation, not an extra fourth sector",
+        "residue_policy": "unexpressed state content retained; not equated with a bit count or a fourth energy component",
+        "bridge_0_6": {
+          "snapshot": {
+            "a": 1.0,
+            "Jc": 0.6575535026247177,
+            "Jb": 0.6575535026247177,
+            "density_phenotype_over_ucrit": 0.0493,
+            "density_clustering_over_ucrit": 0.08712583909777509,
+            "density_background_over_ucrit": 0.22544221837488446,
+            "density_total_over_ucrit": 0.36186805747265954,
+            "pressure_over_ucrit": -0.22544221837488446,
+            "H_over_H0": 0.6015547003163216,
+            "deceleration_q": -0.4344934447215645,
+            "hidden_density_over_reference": 0.32877675131235884,
+            "hidden_comoving_energy_over_reference": 0.32877675131235884,
+            "zeta_Q_over_reference": 0.32877675131235884,
+            "twist_record_norm_over_reference": 0.5733905748373955,
+            "twist_rate_over_reference": 0.5733905748373955,
+            "aT_over_reference": 0.5733905748373955,
+            "actual_hidden_fraction": 0.8637624985628227
+          },
+          "local_readout": {
+            "aT_m_s2": 6.833741514369455e-11,
+            "zeta_kappa_total_squared_m_minus2": 9.95573070798905e-53,
+            "test_radius_kpc": 8.2,
+            "v_total_km_s": 192.00391282209793,
+            "v_direct_km_s": 161.45051053125528,
+            "g_additional_m_s2": 4.2680411877724514e-11,
+            "finite_patch_lensing": {
+              "impact_kpc": 10.0,
+              "alpha_patch_rad": 2.123981982913823e-06,
+              "alpha_baryon_patch_rad": 1.052265081800396e-06,
+              "alpha_twist_patch_rad": 1.0717169011134269e-06,
+              "alpha_patch_arcsec": 0.43810273217804324,
+              "quad_abs_error_rad": 2.5581520087076694e-20
+            },
+            "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
+          },
+          "density_absolute_error_J_m3": 0.0,
+          "pressure_absolute_error_Pa": 0.0
+        },
+        "invariants": {
+          "weight_partition_absolute_error": 5.551115123125783e-17,
+          "share_partition_absolute_error": 0.0,
+          "energy_partition_absolute_error_J": 0.0,
+          "state_rank": 1
+        }
+      }
+    },
+    {
+      "case_name": "uniform_noncommuting_a1.0",
+      "state_recipe": {
+        "kind": "uniform"
+      },
+      "lattice_N": 128,
+      "scale_factor": 1.0,
+      "carrier_epsilon": 8.0,
+      "response": {
+        "dimensionless_shifts": {
+          "3_A": 1.25,
+          "3_B": 0.75,
+          "1_A": 1.25,
+          "1_B": 0.75,
+          "anti3_A": 0.75,
+          "anti3_B": 1.25,
+          "1_N": 0.75,
+          "1_0": 1.25
+        },
+        "raw_intensity": {
+          "3_A": 1.5511432119649604,
+          "3_B": 2.335890516492746,
+          "1_A": 1.5511432119649604,
+          "1_B": 2.335890516492746,
+          "anti3_A": 2.335890516492746,
+          "anti3_B": 1.5511432119649604,
+          "1_N": 2.335890516492746,
+          "1_0": 1.5511432119649604
+        },
+        "common_reference_intensity": 3.4284205352862167,
+        "normalized_signatures": {
+          "3_A": 0.672634136912357,
+          "3_B": 0.8254280019523133,
+          "1_A": 0.672634136912357,
+          "1_B": 0.8254280019523133,
+          "anti3_A": 0.8254280019523133,
+          "anti3_B": 0.672634136912357,
+          "1_N": 0.8254280019523133,
+          "1_0": 0.672634136912357
+        },
+        "transport_gram_diagonal": [
+          0.45243668213983135,
+          0.45243668213983135,
+          0.45243668213983135,
+          0.45243668213983135,
+          0.681331386406988,
+          0.681331386406988,
+          0.681331386406988,
+          0.45243668213983135,
+          0.681331386406988,
+          0.681331386406988,
+          0.681331386406988,
+          0.45243668213983135,
+          0.45243668213983135,
+          0.45243668213983135,
+          0.681331386406988,
+          0.681331386406988
+        ],
+        "transport_gram_rank": 16,
+        "minimum_gram_eigenvalue": 0.45243668213983135,
+        "neutral_channel_norm_squared": 0.681331386406988,
+        "principal_channel_difference": 0.0,
+        "signature_scope": "color-invariant scalar response in the calibrated weak-component basis; background and basis transform jointly",
+        "operator_scope": "auxiliary lower-order readout offset; not an extra dynamical Hamiltonian or SI energy sector"
+      },
+      "selection": {
+        "compatibility_entries": {
+          "lAA": -0.0,
+          "lBB": -0.0,
+          "lAB": -0.023345965193848378,
+          "lBA": -0.023345965193848378,
+          "rAN": -0.0,
+          "rB0": -0.0,
+          "rA0": -0.023345965193848378,
+          "rBN": -0.023345965193848378
+        },
+        "scores": {
+          "F_DX": -0.0,
+          "F_XX": -0.046691930387696756,
+          "F_DD": -0.046691930387696756,
+          "F_XD": -0.09338386077539351
+        },
+        "Delta_L": 0.046691930387696756,
+        "Delta_R": 0.046691930387696756,
+        "gap_identity_max_error": 0.0,
+        "maximizers": [
+          "F_DX"
+        ],
+        "selected_filter": "F_DX",
+        "status": "selected",
+        "optimizer_scope": "dimensionless construction flow; no measurement probability",
+        "flow": [
+          {
+            "construction_time": 0.0,
+            "filter_weights": {
+              "F_DX": 0.25,
+              "F_XX": 0.25,
+              "F_DD": 0.25,
+              "F_XD": 0.25
+            },
+            "winning_residual": 0.75
+          },
+          {
+            "construction_time": 1.0,
+            "filter_weights": {
+              "F_DX": 0.2618070713623185,
+              "F_XX": 0.24986379097236489,
+              "F_DD": 0.24986379097236489,
+              "F_XD": 0.2384653466929517
+            },
+            "winning_residual": 0.7381929286376815
+          },
+          {
+            "construction_time": 418.04425027078724,
+            "filter_weights": {
+              "F_DX": 0.9999999933333332,
+              "F_XX": 3.333333311111101e-09,
+              "F_DD": 3.333333311111101e-09,
+              "F_XD": 1.1111111037036972e-17
+            },
+            "winning_residual": 6.66666677417993e-09
+          }
+        ],
+        "minimum_score_gap": 0.046691930387696756,
+        "sufficient_construction_time": 418.04425027078724,
+        "finite_flow_residual": 6.66666677417993e-09
+      },
+      "placement_and_charge": {
+        "alpha": "1",
+        "beta": "1/2",
+        "anchor_determinant": "-1",
+        "channel_table": [
+          {
+            "field": "Q_L",
+            "source": "3_A_r",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 0,
+            "source_index": 1,
+            "color": "3",
+            "origin": "3_A",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "2/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_A_g",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 1,
+            "source_index": 2,
+            "color": "3",
+            "origin": "3_A",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "2/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_A_b",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 2,
+            "source_index": 3,
+            "color": "3",
+            "origin": "3_A",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "2/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_B_r",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 3,
+            "source_index": 8,
+            "color": "3",
+            "origin": "3_B",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "-1/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_B_g",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 4,
+            "source_index": 9,
+            "color": "3",
+            "origin": "3_B",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "-1/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_B_b",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 5,
+            "source_index": 10,
+            "color": "3",
+            "origin": "3_B",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "-1/3"
+          },
+          {
+            "field": "L_L",
+            "source": "1_A",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 6,
+            "source_index": 7,
+            "color": "1",
+            "origin": "1_A",
+            "B_minus_L": "-1",
+            "Y": "-1/2",
+            "Q": "0"
+          },
+          {
+            "field": "L_L",
+            "source": "1_B",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 7,
+            "source_index": 14,
+            "color": "1",
+            "origin": "1_B",
+            "B_minus_L": "-1",
+            "Y": "-1/2",
+            "Q": "-1"
+          },
+          {
+            "field": "u_c",
+            "source": "anti3_A_r",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 8,
+            "source_index": 4,
+            "color": "anti3",
+            "origin": "anti3_A",
+            "B_minus_L": "-1/3",
+            "Y": "-2/3",
+            "Q": "-2/3"
+          },
+          {
+            "field": "u_c",
+            "source": "anti3_A_g",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 9,
+            "source_index": 5,
+            "color": "anti3",
+            "origin": "anti3_A",
+            "B_minus_L": "-1/3",
+            "Y": "-2/3",
+            "Q": "-2/3"
+          },
+          {
+            "field": "u_c",
+            "source": "anti3_A_b",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 10,
+            "source_index": 6,
+            "color": "anti3",
+            "origin": "anti3_A",
+            "B_minus_L": "-1/3",
+            "Y": "-2/3",
+            "Q": "-2/3"
+          },
+          {
+            "field": "d_c",
+            "source": "anti3_B_r",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 11,
+            "source_index": 11,
+            "color": "anti3",
+            "origin": "anti3_B",
+            "B_minus_L": "-1/3",
+            "Y": "1/3",
+            "Q": "1/3"
+          },
+          {
+            "field": "d_c",
+            "source": "anti3_B_g",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 12,
+            "source_index": 12,
+            "color": "anti3",
+            "origin": "anti3_B",
+            "B_minus_L": "-1/3",
+            "Y": "1/3",
+            "Q": "1/3"
+          },
+          {
+            "field": "d_c",
+            "source": "anti3_B_b",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 13,
+            "source_index": 13,
+            "color": "anti3",
+            "origin": "anti3_B",
+            "B_minus_L": "-1/3",
+            "Y": "1/3",
+            "Q": "1/3"
+          },
+          {
+            "field": "nu_c",
+            "source": "1_N",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 14,
+            "source_index": 15,
+            "color": "1",
+            "origin": "1_N",
+            "B_minus_L": "1",
+            "Y": "0",
+            "Q": "0"
+          },
+          {
+            "field": "e_c",
+            "source": "1_0",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 15,
+            "source_index": 0,
+            "color": "1",
+            "origin": "1_0",
+            "B_minus_L": "1",
+            "Y": "1",
+            "Q": "1"
+          }
+        ],
+        "field_groups": {
+          "Q_L": {
+            "multiplicity": 6,
+            "Y": "1/6",
+            "Q": [
+              "2/3",
+              "-1/3"
+            ]
+          },
+          "L_L": {
+            "multiplicity": 2,
+            "Y": "-1/2",
+            "Q": [
+              "0",
+              "-1"
+            ]
+          },
+          "u_c": {
+            "multiplicity": 3,
+            "Y": "-2/3",
+            "Q": [
+              "-2/3"
+            ]
+          },
+          "d_c": {
+            "multiplicity": 3,
+            "Y": "1/3",
+            "Q": [
+              "1/3"
+            ]
+          },
+          "nu_c": {
+            "multiplicity": 1,
+            "Y": "0",
+            "Q": [
+              "0"
+            ]
+          },
+          "e_c": {
+            "multiplicity": 1,
+            "Y": "1",
+            "Q": [
+              "1"
+            ]
+          }
+        },
+        "benchmark_matches": true,
+        "anomalies": {
+          "gravity_U1": "0",
+          "U1_cubed": "0",
+          "SU3_squared_U1": "0",
+          "SU2_squared_U1": "0",
+          "SU3_cubed": "0"
+        },
+        "SU2_doublets": {
+          "left": 4,
+          "right": 4
+        },
+        "color_branching_dimension": 15,
+        "extended_transport_dimension": 16,
+        "chirality": "independent complex left-handed Weyl channels assumed"
+      },
+      "channel_energy_bridge": {
+        "channel_state_before": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "channel_state_after": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "state_trace_error": 0.0,
+        "permutation_unitarity_error": 0.0,
+        "sector_energy_before_J": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 2.0322711584728056e-10,
+          "hidden_background": 5.258597484395479e-10
+        },
+        "sector_energy_after_J": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 2.0322711584728056e-10,
+          "hidden_background": 5.258597484395479e-10
+        },
+        "maximum_energy_change_J": 0.0,
+        "scope": "channel-blind 0.7 energy operators; relabeling has no added SI energy or physical measurement event"
+      },
+      "ledger_0_7": {
+        "scale_factor": 1.0,
+        "lattice_N": 128,
+        "carrier_epsilon": 8.0,
+        "state_trace": 1.0,
+        "state_entropy_bits": 7.0,
+        "state_rank_at_tolerance": 128,
+        "Jc": 2.0,
+        "Jb": 1.9999999999999991,
+        "measure": "energy_weighted_information_load",
+        "reference_volume_m3": 1.0,
+        "physical_volume_m3": 1.0,
+        "sector_weights": {
+          "phenotype": 0.0493,
+          "hidden_clustering": 0.265,
+          "hidden_background": 0.6856999999999996
+        },
+        "total_actual_weight": 0.9999999999999997,
+        "actual_normalized_share": 1.0,
+        "sector_shares": {
+          "phenotype": 0.04930000000000001,
+          "hidden_clustering": 0.2650000000000001,
+          "hidden_background": 0.6856999999999999
+        },
+        "hidden_share": 0.9507,
+        "sector_energy_J": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 2.0322711584728056e-10,
+          "hidden_background": 5.258597484395479e-10
+        },
+        "total_energy_J": 7.668947767821904e-10,
+        "sector_density_J_m3": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 2.0322711584728056e-10,
+          "hidden_background": 5.258597484395479e-10
+        },
+        "total_density_J_m3": 7.668947767821904e-10,
+        "sector_pressure_Pa": {
+          "phenotype": -0.0,
+          "hidden_clustering": -0.0,
+          "hidden_background": -5.258597484395479e-10
+        },
+        "total_pressure_Pa": -5.258597484395479e-10,
+        "quantization_status": "not_executed_in_0.7",
+        "measurement_outcome_probabilities": null,
+        "physical_records": [],
+        "measurement_energy_transfers": [],
+        "record_energy_policy": "future record energy is a sector suballocation, not an extra fourth sector",
+        "residue_policy": "unexpressed state content retained; not equated with a bit count or a fourth energy component",
+        "bridge_0_6": {
+          "snapshot": {
+            "a": 1.0,
+            "Jc": 2.0,
+            "Jb": 1.9999999999999991,
+            "density_phenotype_over_ucrit": 0.0493,
+            "density_clustering_over_ucrit": 0.265,
+            "density_background_over_ucrit": 0.6856999999999996,
+            "density_total_over_ucrit": 0.9999999999999997,
+            "pressure_over_ucrit": -0.6856999999999996,
+            "H_over_H0": 0.9999999999999998,
+            "deceleration_q": -0.5285499999999999,
+            "hidden_density_over_reference": 0.9999999999999997,
+            "hidden_comoving_energy_over_reference": 0.9999999999999997,
+            "zeta_Q_over_reference": 0.9999999999999997,
+            "twist_record_norm_over_reference": 0.9999999999999998,
+            "twist_rate_over_reference": 0.9999999999999998,
+            "aT_over_reference": 1.0,
+            "actual_hidden_fraction": 0.9507
+          },
+          "local_readout": {
+            "aT_m_s2": 1.1918126691055912e-10,
+            "zeta_kappa_total_squared_m_minus2": 3.0281127446662028e-52,
+            "test_radius_kpc": 8.2,
+            "v_total_km_s": 207.51090512661662,
+            "v_direct_km_s": 161.45051053125528,
+            "g_additional_m_s2": 6.716518395482756e-11,
+            "finite_patch_lensing": {
+              "impact_kpc": 10.0,
+              "alpha_patch_rad": 2.5965966773641974e-06,
+              "alpha_baryon_patch_rad": 1.052265081800396e-06,
+              "alpha_twist_patch_rad": 1.5443315955638014e-06,
+              "alpha_patch_arcsec": 0.5355865105583804,
+              "quad_abs_error_rad": 2.88249109488278e-20
+            },
+            "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
+          },
+          "density_absolute_error_J_m3": 1.0339757656912846e-25,
+          "pressure_absolute_error_Pa": 0.0
+        },
+        "invariants": {
+          "weight_partition_absolute_error": 3.3306690738754696e-16,
+          "share_partition_absolute_error": 0.0,
+          "energy_partition_absolute_error_J": 0.0,
+          "state_rank": 128
+        }
+      }
+    },
+    {
+      "case_name": "coherent_packet_noncommuting_a1.0",
+      "state_recipe": {
+        "kind": "packet",
+        "modes": [
+          8,
+          16,
+          24
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      },
+      "lattice_N": 128,
+      "scale_factor": 1.0,
+      "carrier_epsilon": 8.0,
+      "response": {
+        "dimensionless_shifts": {
+          "3_A": 1.25,
+          "3_B": 0.75,
+          "1_A": 1.25,
+          "1_B": 0.75,
+          "anti3_A": 0.75,
+          "anti3_B": 1.25,
+          "1_N": 0.75,
+          "1_0": 1.25
+        },
+        "raw_intensity": {
+          "3_A": 2.16043396945295,
+          "3_B": 4.358141410900536,
+          "1_A": 2.16043396945295,
+          "1_B": 4.358141410900536,
+          "anti3_A": 4.358141410900536,
+          "anti3_B": 2.16043396945295,
+          "1_N": 4.358141410900536,
+          "1_0": 2.16043396945295
+        },
+        "common_reference_intensity": 5.078400155597889,
+        "normalized_signatures": {
+          "3_A": 0.6522394144732069,
+          "3_B": 0.9263757966854163,
+          "1_A": 0.6522394144732069,
+          "1_B": 0.9263757966854163,
+          "anti3_A": 0.9263757966854163,
+          "anti3_B": 0.6522394144732069,
+          "1_N": 0.9263757966854163,
+          "1_0": 0.6522394144732069
+        },
+        "transport_gram_diagonal": [
+          0.42541625379235176,
+          0.42541625379235176,
+          0.42541625379235176,
+          0.42541625379235176,
+          0.8581721166845396,
+          0.8581721166845396,
+          0.8581721166845396,
+          0.42541625379235176,
+          0.8581721166845396,
+          0.8581721166845396,
+          0.8581721166845396,
+          0.42541625379235176,
+          0.42541625379235176,
+          0.42541625379235176,
+          0.8581721166845396,
+          0.8581721166845396
+        ],
+        "transport_gram_rank": 16,
+        "minimum_gram_eigenvalue": 0.42541625379235176,
+        "neutral_channel_norm_squared": 0.8581721166845396,
+        "principal_channel_difference": 0.0,
+        "signature_scope": "color-invariant scalar response in the calibrated weak-component basis; background and basis transform jointly",
+        "operator_scope": "auxiliary lower-order readout offset; not an extra dynamical Hamiltonian or SI energy sector"
+      },
+      "selection": {
+        "compatibility_entries": {
+          "lAA": -0.0,
+          "lBB": -0.0,
+          "lAB": -0.07515075605239854,
+          "lBA": -0.07515075605239854,
+          "rAN": -0.0,
+          "rB0": -0.0,
+          "rA0": -0.07515075605239854,
+          "rBN": -0.07515075605239854
+        },
+        "scores": {
+          "F_DX": -0.0,
+          "F_XX": -0.15030151210479709,
+          "F_DD": -0.15030151210479709,
+          "F_XD": -0.30060302420959417
+        },
+        "Delta_L": 0.15030151210479709,
+        "Delta_R": 0.15030151210479709,
+        "gap_identity_max_error": 0.0,
+        "maximizers": [
+          "F_DX"
+        ],
+        "selected_filter": "F_DX",
+        "status": "selected",
+        "optimizer_scope": "dimensionless construction flow; no measurement probability",
+        "flow": [
+          {
+            "construction_time": 0.0,
+            "filter_weights": {
+              "F_DX": 0.25,
+              "F_XX": 0.25,
+              "F_DD": 0.25,
+              "F_XD": 0.25
+            },
+            "winning_residual": 0.75
+          },
+          {
+            "construction_time": 1.0,
+            "filter_weights": {
+              "F_DX": 0.2889114101380979,
+              "F_XX": 0.24859338996893174,
+              "F_DD": 0.24859338996893174,
+              "F_XD": 0.21390180992403854
+            },
+            "winning_residual": 0.7110885898619022
+          },
+          {
+            "construction_time": 129.86757590975355,
+            "filter_weights": {
+              "F_DX": 0.9999999933333332,
+              "F_XX": 3.333333311111101e-09,
+              "F_DD": 3.333333311111101e-09,
+              "F_XD": 1.1111111037036972e-17
+            },
+            "winning_residual": 6.66666677417993e-09
+          }
+        ],
+        "minimum_score_gap": 0.15030151210479709,
+        "sufficient_construction_time": 129.86757590975355,
+        "finite_flow_residual": 6.66666677417993e-09
+      },
+      "placement_and_charge": {
+        "alpha": "1",
+        "beta": "1/2",
+        "anchor_determinant": "-1",
+        "channel_table": [
+          {
+            "field": "Q_L",
+            "source": "3_A_r",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 0,
+            "source_index": 1,
+            "color": "3",
+            "origin": "3_A",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "2/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_A_g",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 1,
+            "source_index": 2,
+            "color": "3",
+            "origin": "3_A",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "2/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_A_b",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 2,
+            "source_index": 3,
+            "color": "3",
+            "origin": "3_A",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "2/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_B_r",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 3,
+            "source_index": 8,
+            "color": "3",
+            "origin": "3_B",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "-1/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_B_g",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 4,
+            "source_index": 9,
+            "color": "3",
+            "origin": "3_B",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "-1/3"
+          },
+          {
+            "field": "Q_L",
+            "source": "3_B_b",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 5,
+            "source_index": 10,
+            "color": "3",
+            "origin": "3_B",
+            "B_minus_L": "1/3",
+            "Y": "1/6",
+            "Q": "-1/3"
+          },
+          {
+            "field": "L_L",
+            "source": "1_A",
+            "T3L": "1/2",
+            "T3R": "0",
+            "target_index": 6,
+            "source_index": 7,
+            "color": "1",
+            "origin": "1_A",
+            "B_minus_L": "-1",
+            "Y": "-1/2",
+            "Q": "0"
+          },
+          {
+            "field": "L_L",
+            "source": "1_B",
+            "T3L": "-1/2",
+            "T3R": "0",
+            "target_index": 7,
+            "source_index": 14,
+            "color": "1",
+            "origin": "1_B",
+            "B_minus_L": "-1",
+            "Y": "-1/2",
+            "Q": "-1"
+          },
+          {
+            "field": "u_c",
+            "source": "anti3_A_r",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 8,
+            "source_index": 4,
+            "color": "anti3",
+            "origin": "anti3_A",
+            "B_minus_L": "-1/3",
+            "Y": "-2/3",
+            "Q": "-2/3"
+          },
+          {
+            "field": "u_c",
+            "source": "anti3_A_g",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 9,
+            "source_index": 5,
+            "color": "anti3",
+            "origin": "anti3_A",
+            "B_minus_L": "-1/3",
+            "Y": "-2/3",
+            "Q": "-2/3"
+          },
+          {
+            "field": "u_c",
+            "source": "anti3_A_b",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 10,
+            "source_index": 6,
+            "color": "anti3",
+            "origin": "anti3_A",
+            "B_minus_L": "-1/3",
+            "Y": "-2/3",
+            "Q": "-2/3"
+          },
+          {
+            "field": "d_c",
+            "source": "anti3_B_r",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 11,
+            "source_index": 11,
+            "color": "anti3",
+            "origin": "anti3_B",
+            "B_minus_L": "-1/3",
+            "Y": "1/3",
+            "Q": "1/3"
+          },
+          {
+            "field": "d_c",
+            "source": "anti3_B_g",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 12,
+            "source_index": 12,
+            "color": "anti3",
+            "origin": "anti3_B",
+            "B_minus_L": "-1/3",
+            "Y": "1/3",
+            "Q": "1/3"
+          },
+          {
+            "field": "d_c",
+            "source": "anti3_B_b",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 13,
+            "source_index": 13,
+            "color": "anti3",
+            "origin": "anti3_B",
+            "B_minus_L": "-1/3",
+            "Y": "1/3",
+            "Q": "1/3"
+          },
+          {
+            "field": "nu_c",
+            "source": "1_N",
+            "T3L": "0",
+            "T3R": "-1/2",
+            "target_index": 14,
+            "source_index": 15,
+            "color": "1",
+            "origin": "1_N",
+            "B_minus_L": "1",
+            "Y": "0",
+            "Q": "0"
+          },
+          {
+            "field": "e_c",
+            "source": "1_0",
+            "T3L": "0",
+            "T3R": "1/2",
+            "target_index": 15,
+            "source_index": 0,
+            "color": "1",
+            "origin": "1_0",
+            "B_minus_L": "1",
+            "Y": "1",
+            "Q": "1"
+          }
+        ],
+        "field_groups": {
+          "Q_L": {
+            "multiplicity": 6,
+            "Y": "1/6",
+            "Q": [
+              "2/3",
+              "-1/3"
+            ]
+          },
+          "L_L": {
+            "multiplicity": 2,
+            "Y": "-1/2",
+            "Q": [
+              "0",
+              "-1"
+            ]
+          },
+          "u_c": {
+            "multiplicity": 3,
+            "Y": "-2/3",
+            "Q": [
+              "-2/3"
+            ]
+          },
+          "d_c": {
+            "multiplicity": 3,
+            "Y": "1/3",
+            "Q": [
+              "1/3"
+            ]
+          },
+          "nu_c": {
+            "multiplicity": 1,
+            "Y": "0",
+            "Q": [
+              "0"
+            ]
+          },
+          "e_c": {
+            "multiplicity": 1,
+            "Y": "1",
+            "Q": [
+              "1"
+            ]
+          }
+        },
+        "benchmark_matches": true,
+        "anomalies": {
+          "gravity_U1": "0",
+          "U1_cubed": "0",
+          "SU3_squared_U1": "0",
+          "SU2_squared_U1": "0",
+          "SU3_cubed": "0"
+        },
+        "SU2_doublets": {
+          "left": 4,
+          "right": 4
+        },
+        "color_branching_dimension": 15,
+        "extended_transport_dimension": 16,
+        "chirality": "independent complex left-handed Weyl channels assumed"
+      },
+      "channel_energy_bridge": {
+        "channel_state_before": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "channel_state_after": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "state_trace_error": 0.0,
+        "permutation_unitarity_error": 0.0,
+        "sector_energy_before_J": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 6.681635092684929e-11,
+          "hidden_background": 2.1545678657366947e-10
+        },
+        "sector_energy_after_J": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 6.681635092684929e-11,
+          "hidden_background": 2.1545678657366947e-10
+        },
+        "maximum_energy_change_J": 0.0,
+        "scope": "channel-blind 0.7 energy operators; relabeling has no added SI energy or physical measurement event"
+      },
+      "ledger_0_7": {
+        "scale_factor": 1.0,
+        "lattice_N": 128,
+        "carrier_epsilon": 8.0,
+        "state_trace": 1.0,
+        "state_entropy_bits": 0.0,
+        "state_rank_at_tolerance": 1,
+        "Jc": 0.6575535026247177,
+        "Jb": 0.8194458207269992,
+        "measure": "energy_weighted_information_load",
+        "reference_volume_m3": 1.0,
+        "physical_volume_m3": 1.0,
+        "sector_weights": {
+          "phenotype": 0.0493,
+          "hidden_clustering": 0.08712583909777509,
+          "hidden_background": 0.2809469996362517
+        },
+        "total_actual_weight": 0.41737283873402675,
+        "actual_normalized_share": 1.0,
+        "sector_shares": {
+          "phenotype": 0.11811980901664927,
+          "hidden_clustering": 0.20874822463781964,
+          "hidden_background": 0.6731319663455312
+        },
+        "hidden_share": 0.8818801909833508,
+        "sector_energy_J": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 6.681635092684929e-11,
+          "hidden_background": 2.1545678657366947e-10
+        },
+        "total_energy_J": 3.2008104999588076e-10,
+        "sector_density_J_m3": {
+          "phenotype": 3.7807912495362e-11,
+          "hidden_clustering": 6.681635092684929e-11,
+          "hidden_background": 2.1545678657366947e-10
+        },
+        "total_density_J_m3": 3.2008104999588076e-10,
+        "sector_pressure_Pa": {
+          "phenotype": -0.0,
+          "hidden_clustering": -0.0,
+          "hidden_background": -2.1545678657366947e-10
+        },
+        "total_pressure_Pa": -2.1545678657366947e-10,
+        "quantization_status": "not_executed_in_0.7",
+        "measurement_outcome_probabilities": null,
+        "physical_records": [],
+        "measurement_energy_transfers": [],
+        "record_energy_policy": "future record energy is a sector suballocation, not an extra fourth sector",
+        "residue_policy": "unexpressed state content retained; not equated with a bit count or a fourth energy component",
+        "bridge_0_6": {
+          "snapshot": {
+            "a": 1.0,
+            "Jc": 0.6575535026247177,
+            "Jb": 0.8194458207269992,
+            "density_phenotype_over_ucrit": 0.0493,
+            "density_clustering_over_ucrit": 0.08712583909777509,
+            "density_background_over_ucrit": 0.2809469996362517,
+            "density_total_over_ucrit": 0.41737283873402675,
+            "pressure_over_ucrit": -0.2809469996362517,
+            "H_over_H0": 0.6460439913303325,
+            "deceleration_q": -0.5096979495182967,
+            "hidden_density_over_reference": 0.3871598177490552,
+            "hidden_comoving_energy_over_reference": 0.3871598177490552,
+            "zeta_Q_over_reference": 0.3871598177490552,
+            "twist_record_norm_over_reference": 0.6222216789449362,
+            "twist_rate_over_reference": 0.6222216789449362,
+            "aT_over_reference": 0.5733905748373955,
+            "actual_hidden_fraction": 0.8818801909833508
+          },
+          "local_readout": {
+            "aT_m_s2": 6.833741514369455e-11,
+            "zeta_kappa_total_squared_m_minus2": 1.172363578348559e-52,
+            "test_radius_kpc": 8.2,
+            "v_total_km_s": 192.00391282209793,
+            "v_direct_km_s": 161.45051053125528,
+            "g_additional_m_s2": 4.2680411877724514e-11,
+            "finite_patch_lensing": {
+              "impact_kpc": 10.0,
+              "alpha_patch_rad": 2.123981982913823e-06,
+              "alpha_baryon_patch_rad": 1.052265081800396e-06,
+              "alpha_twist_patch_rad": 1.0717169011134269e-06,
+              "alpha_patch_arcsec": 0.43810273217804324,
+              "quad_abs_error_rad": 2.5581520087076694e-20
+            },
+            "scope": "fixed test source; conditional Phi=Psi lensing, not an observed galaxy history"
+          },
+          "density_absolute_error_J_m3": 5.169878828456423e-26,
+          "pressure_absolute_error_Pa": 0.0
+        },
+        "invariants": {
+          "weight_partition_absolute_error": 0.0,
+          "share_partition_absolute_error": 0.0,
+          "energy_partition_absolute_error_J": 0.0,
+          "state_rank": 1
+        }
+      }
+    }
+  ],
+  "closure_passed": true,
+  "claims": {
+    "calibrated_selection": "computed within four fixed filters, with disclosed origin tags and lower-order response calibration",
+    "charge_reproduction": "one hypercharge operator from two anchors after the selected placement",
+    "shared_ledger": "same grid, internal state and unchanged 0.7 energy/pressure/gravity/expansion inputs",
+    "scope": "replicated three-generation charge inventory; no mass, mixing or physical quantization/record generation"
+  },
+  "falsification_conditions": [
+    "response metric loses positivity or transport rank",
+    "fixed calibration leaves a tie or chooses a benchmark-incompatible assignment",
+    "charge/representation/anomaly or channel-energy accounting mismatch",
+    "undeclared input change or describing optimizer weights as measurement probabilities"
+  ],
+  "physical_records": [],
+  "measurement_events": [],
+  "calibration_provenance": {
+    "response_tags": "Calibrated origin-to-weak-component orientation preserving the 0.2 known-particle branch; signs are inputs, not a microscopic discovery.",
+    "response_shifts": "Dimensionless lower-order readout calibration. Not a rest-mass value or an extra SI energy sector.",
+    "neutral_extension": "Transported gauge-neutral extension interpreted as nu_R^c; its particle existence, mass and occupation are not measured by this release."
+  },
+  "family_replication": {
+    "family_count": 3,
+    "calibration_provenance": "Three observed Standard-Model generations adopted as calibration; replication count is not derived here.",
+    "particle_inventory": [
+      {
+        "field": "Q_L",
+        "source": "g1:3_A_r",
+        "T3L": "1/2",
+        "T3R": "0",
+        "target_index": 0,
+        "source_index": 1,
+        "color": "3",
+        "origin": "3_A",
+        "B_minus_L": "1/3",
+        "Y": "1/6",
+        "Q": "2/3",
+        "generation": 1,
+        "particle_label": "u_L_r",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "Q_L",
+        "source": "g1:3_A_g",
+        "T3L": "1/2",
+        "T3R": "0",
+        "target_index": 1,
+        "source_index": 2,
+        "color": "3",
+        "origin": "3_A",
+        "B_minus_L": "1/3",
+        "Y": "1/6",
+        "Q": "2/3",
+        "generation": 1,
+        "particle_label": "u_L_g",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "Q_L",
+        "source": "g1:3_A_b",
+        "T3L": "1/2",
+        "T3R": "0",
+        "target_index": 2,
+        "source_index": 3,
+        "color": "3",
+        "origin": "3_A",
+        "B_minus_L": "1/3",
+        "Y": "1/6",
+        "Q": "2/3",
+        "generation": 1,
+        "particle_label": "u_L_b",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "Q_L",
+        "source": "g1:3_B_r",
+        "T3L": "-1/2",
+        "T3R": "0",
+        "target_index": 3,
+        "source_index": 8,
+        "color": "3",
+        "origin": "3_B",
+        "B_minus_L": "1/3",
+        "Y": "1/6",
+        "Q": "-1/3",
+        "generation": 1,
+        "particle_label": "d_L_r",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "Q_L",
+        "source": "g1:3_B_g",
+        "T3L": "-1/2",
+        "T3R": "0",
+        "target_index": 4,
+        "source_index": 9,
+        "color": "3",
+        "origin": "3_B",
+        "B_minus_L": "1/3",
+        "Y": "1/6",
+        "Q": "-1/3",
+        "generation": 1,
+        "particle_label": "d_L_g",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "Q_L",
+        "source": "g1:3_B_b",
+        "T3L": "-1/2",
+        "T3R": "0",
+        "target_index": 5,
+        "source_index": 10,
+        "color": "3",
+        "origin": "3_B",
+        "B_minus_L": "1/3",
+        "Y": "1/6",
+        "Q": "-1/3",
+        "generation": 1,
+        "particle_label": "d_L_b",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "L_L",
+        "source": "g1:1_A",
+        "T3L": "1/2",
+        "T3R": "0",
+        "target_index": 6,
+        "source_index": 7,
+        "color": "1",
+        "origin": "1_A",
+        "B_minus_L": "-1",
+        "Y": "-1/2",
+        "Q": "0",
+        "generation": 1,
+        "particle_label": "nu_e_L",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "L_L",
+        "source": "g1:1_B",
+        "T3L": "-1/2",
+        "T3R": "0",
+        "target_index": 7,
+        "source_index": 14,
+        "color": "1",
+        "origin": "1_B",
+        "B_minus_L": "-1",
+        "Y": "-1/2",
+        "Q": "-1",
+        "generation": 1,
+        "particle_label": "e_L",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "u_c",
+        "source": "g1:anti3_A_r",
+        "T3L": "0",
+        "T3R": "-1/2",
+        "target_index": 8,
+        "source_index": 4,
+        "color": "anti3",
+        "origin": "anti3_A",
+        "B_minus_L": "-1/3",
+        "Y": "-2/3",
+        "Q": "-2/3",
+        "generation": 1,
+        "particle_label": "u_c_r",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "u_c",
+        "source": "g1:anti3_A_g",
+        "T3L": "0",
+        "T3R": "-1/2",
+        "target_index": 9,
+        "source_index": 5,
+        "color": "anti3",
+        "origin": "anti3_A",
+        "B_minus_L": "-1/3",
+        "Y": "-2/3",
+        "Q": "-2/3",
+        "generation": 1,
+        "particle_label": "u_c_g",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "u_c",
+        "source": "g1:anti3_A_b",
+        "T3L": "0",
+        "T3R": "-1/2",
+        "target_index": 10,
+        "source_index": 6,
+        "color": "anti3",
+        "origin": "anti3_A",
+        "B_minus_L": "-1/3",
+        "Y": "-2/3",
+        "Q": "-2/3",
+        "generation": 1,
+        "particle_label": "u_c_b",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "d_c",
+        "source": "g1:anti3_B_r",
+        "T3L": "0",
+        "T3R": "1/2",
+        "target_index": 11,
+        "source_index": 11,
+        "color": "anti3",
+        "origin": "anti3_B",
+        "B_minus_L": "-1/3",
+        "Y": "1/3",
+        "Q": "1/3",
+        "generation": 1,
+        "particle_label": "d_c_r",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "d_c",
+        "source": "g1:anti3_B_g",
+        "T3L": "0",
+        "T3R": "1/2",
+        "target_index": 12,
+        "source_index": 12,
+        "color": "anti3",
+        "origin": "anti3_B",
+        "B_minus_L": "-1/3",
+        "Y": "1/3",
+        "Q": "1/3",
+        "generation": 1,
+        "particle_label": "d_c_g",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "d_c",
+        "source": "g1:anti3_B_b",
+        "T3L": "0",
+        "T3R": "1/2",
+        "target_index": 13,
+        "source_index": 13,
+        "color": "anti3",
+        "origin": "anti3_B",
+        "B_minus_L": "-1/3",
+        "Y": "1/3",
+        "Q": "1/3",
+        "generation": 1,
+        "particle_label": "d_c_b",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "nu_c",
+        "source": "g1:1_N",
+        "T3L": "0",
+        "T3R": "-1/2",
+        "target_index": 14,
+        "source_index": 15,
+        "color": "1",
+        "origin": "1_N",
+        "B_minus_L": "1",
+        "Y": "0",
+        "Q": "0",
+        "generation": 1,
+        "particle_label": "N1_c",
+        "status": "conditional_neutral_extension"
+      },
+      {
+        "field": "e_c",
+        "source": "g1:1_0",
+        "T3L": "0",
+        "T3R": "1/2",
+        "target_index": 15,
+        "source_index": 0,
+        "color": "1",
+        "origin": "1_0",
+        "B_minus_L": "1",
+        "Y": "1",
+        "Q": "1",
+        "generation": 1,
+        "particle_label": "e_c",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "Q_L",
+        "source": "g2:3_A_r",
+        "T3L": "1/2",
+        "T3R": "0",
+        "target_index": 0,
+        "source_index": 1,
+        "color": "3",
+        "origin": "3_A",
+        "B_minus_L": "1/3",
+        "Y": "1/6",
+        "Q": "2/3",
+        "generation": 2,
+        "particle_label": "c_L_r",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "Q_L",
+        "source": "g2:3_A_g",
+        "T3L": "1/2",
+        "T3R": "0",
+        "target_index": 1,
+        "source_index": 2,
+        "color": "3",
+        "origin": "3_A",
+        "B_minus_L": "1/3",
+        "Y": "1/6",
+        "Q": "2/3",
+        "generation": 2,
+        "particle_label": "c_L_g",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "Q_L",
+        "source": "g2:3_A_b",
+        "T3L": "1/2",
+        "T3R": "0",
+        "target_index": 2,
+        "source_index": 3,
+        "color": "3",
+        "origin": "3_A",
+        "B_minus_L": "1/3",
+        "Y": "1/6",
+        "Q": "2/3",
+        "generation": 2,
+        "particle_label": "c_L_b",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "Q_L",
+        "source": "g2:3_B_r",
+        "T3L": "-1/2",
+        "T3R": "0",
+        "target_index": 3,
+        "source_index": 8,
+        "color": "3",
+        "origin": "3_B",
+        "B_minus_L": "1/3",
+        "Y": "1/6",
+        "Q": "-1/3",
+        "generation": 2,
+        "particle_label": "s_L_r",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "Q_L",
+        "source": "g2:3_B_g",
+        "T3L": "-1/2",
+        "T3R": "0",
+        "target_index": 4,
+        "source_index": 9,
+        "color": "3",
+        "origin": "3_B",
+        "B_minus_L": "1/3",
+        "Y": "1/6",
+        "Q": "-1/3",
+        "generation": 2,
+        "particle_label": "s_L_g",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "Q_L",
+        "source": "g2:3_B_b",
+        "T3L": "-1/2",
+        "T3R": "0",
+        "target_index": 5,
+        "source_index": 10,
+        "color": "3",
+        "origin": "3_B",
+        "B_minus_L": "1/3",
+        "Y": "1/6",
+        "Q": "-1/3",
+        "generation": 2,
+        "particle_label": "s_L_b",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "L_L",
+        "source": "g2:1_A",
+        "T3L": "1/2",
+        "T3R": "0",
+        "target_index": 6,
+        "source_index": 7,
+        "color": "1",
+        "origin": "1_A",
+        "B_minus_L": "-1",
+        "Y": "-1/2",
+        "Q": "0",
+        "generation": 2,
+        "particle_label": "nu_mu_L",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "L_L",
+        "source": "g2:1_B",
+        "T3L": "-1/2",
+        "T3R": "0",
+        "target_index": 7,
+        "source_index": 14,
+        "color": "1",
+        "origin": "1_B",
+        "B_minus_L": "-1",
+        "Y": "-1/2",
+        "Q": "-1",
+        "generation": 2,
+        "particle_label": "mu_L",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "u_c",
+        "source": "g2:anti3_A_r",
+        "T3L": "0",
+        "T3R": "-1/2",
+        "target_index": 8,
+        "source_index": 4,
+        "color": "anti3",
+        "origin": "anti3_A",
+        "B_minus_L": "-1/3",
+        "Y": "-2/3",
+        "Q": "-2/3",
+        "generation": 2,
+        "particle_label": "c_c_r",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "u_c",
+        "source": "g2:anti3_A_g",
+        "T3L": "0",
+        "T3R": "-1/2",
+        "target_index": 9,
+        "source_index": 5,
+        "color": "anti3",
+        "origin": "anti3_A",
+        "B_minus_L": "-1/3",
+        "Y": "-2/3",
+        "Q": "-2/3",
+        "generation": 2,
+        "particle_label": "c_c_g",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "u_c",
+        "source": "g2:anti3_A_b",
+        "T3L": "0",
+        "T3R": "-1/2",
+        "target_index": 10,
+        "source_index": 6,
+        "color": "anti3",
+        "origin": "anti3_A",
+        "B_minus_L": "-1/3",
+        "Y": "-2/3",
+        "Q": "-2/3",
+        "generation": 2,
+        "particle_label": "c_c_b",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "d_c",
+        "source": "g2:anti3_B_r",
+        "T3L": "0",
+        "T3R": "1/2",
+        "target_index": 11,
+        "source_index": 11,
+        "color": "anti3",
+        "origin": "anti3_B",
+        "B_minus_L": "-1/3",
+        "Y": "1/3",
+        "Q": "1/3",
+        "generation": 2,
+        "particle_label": "s_c_r",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "d_c",
+        "source": "g2:anti3_B_g",
+        "T3L": "0",
+        "T3R": "1/2",
+        "target_index": 12,
+        "source_index": 12,
+        "color": "anti3",
+        "origin": "anti3_B",
+        "B_minus_L": "-1/3",
+        "Y": "1/3",
+        "Q": "1/3",
+        "generation": 2,
+        "particle_label": "s_c_g",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "d_c",
+        "source": "g2:anti3_B_b",
+        "T3L": "0",
+        "T3R": "1/2",
+        "target_index": 13,
+        "source_index": 13,
+        "color": "anti3",
+        "origin": "anti3_B",
+        "B_minus_L": "-1/3",
+        "Y": "1/3",
+        "Q": "1/3",
+        "generation": 2,
+        "particle_label": "s_c_b",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "nu_c",
+        "source": "g2:1_N",
+        "T3L": "0",
+        "T3R": "-1/2",
+        "target_index": 14,
+        "source_index": 15,
+        "color": "1",
+        "origin": "1_N",
+        "B_minus_L": "1",
+        "Y": "0",
+        "Q": "0",
+        "generation": 2,
+        "particle_label": "N2_c",
+        "status": "conditional_neutral_extension"
+      },
+      {
+        "field": "e_c",
+        "source": "g2:1_0",
+        "T3L": "0",
+        "T3R": "1/2",
+        "target_index": 15,
+        "source_index": 0,
+        "color": "1",
+        "origin": "1_0",
+        "B_minus_L": "1",
+        "Y": "1",
+        "Q": "1",
+        "generation": 2,
+        "particle_label": "mu_c",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "Q_L",
+        "source": "g3:3_A_r",
+        "T3L": "1/2",
+        "T3R": "0",
+        "target_index": 0,
+        "source_index": 1,
+        "color": "3",
+        "origin": "3_A",
+        "B_minus_L": "1/3",
+        "Y": "1/6",
+        "Q": "2/3",
+        "generation": 3,
+        "particle_label": "t_L_r",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "Q_L",
+        "source": "g3:3_A_g",
+        "T3L": "1/2",
+        "T3R": "0",
+        "target_index": 1,
+        "source_index": 2,
+        "color": "3",
+        "origin": "3_A",
+        "B_minus_L": "1/3",
+        "Y": "1/6",
+        "Q": "2/3",
+        "generation": 3,
+        "particle_label": "t_L_g",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "Q_L",
+        "source": "g3:3_A_b",
+        "T3L": "1/2",
+        "T3R": "0",
+        "target_index": 2,
+        "source_index": 3,
+        "color": "3",
+        "origin": "3_A",
+        "B_minus_L": "1/3",
+        "Y": "1/6",
+        "Q": "2/3",
+        "generation": 3,
+        "particle_label": "t_L_b",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "Q_L",
+        "source": "g3:3_B_r",
+        "T3L": "-1/2",
+        "T3R": "0",
+        "target_index": 3,
+        "source_index": 8,
+        "color": "3",
+        "origin": "3_B",
+        "B_minus_L": "1/3",
+        "Y": "1/6",
+        "Q": "-1/3",
+        "generation": 3,
+        "particle_label": "b_L_r",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "Q_L",
+        "source": "g3:3_B_g",
+        "T3L": "-1/2",
+        "T3R": "0",
+        "target_index": 4,
+        "source_index": 9,
+        "color": "3",
+        "origin": "3_B",
+        "B_minus_L": "1/3",
+        "Y": "1/6",
+        "Q": "-1/3",
+        "generation": 3,
+        "particle_label": "b_L_g",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "Q_L",
+        "source": "g3:3_B_b",
+        "T3L": "-1/2",
+        "T3R": "0",
+        "target_index": 5,
+        "source_index": 10,
+        "color": "3",
+        "origin": "3_B",
+        "B_minus_L": "1/3",
+        "Y": "1/6",
+        "Q": "-1/3",
+        "generation": 3,
+        "particle_label": "b_L_b",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "L_L",
+        "source": "g3:1_A",
+        "T3L": "1/2",
+        "T3R": "0",
+        "target_index": 6,
+        "source_index": 7,
+        "color": "1",
+        "origin": "1_A",
+        "B_minus_L": "-1",
+        "Y": "-1/2",
+        "Q": "0",
+        "generation": 3,
+        "particle_label": "nu_tau_L",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "L_L",
+        "source": "g3:1_B",
+        "T3L": "-1/2",
+        "T3R": "0",
+        "target_index": 7,
+        "source_index": 14,
+        "color": "1",
+        "origin": "1_B",
+        "B_minus_L": "-1",
+        "Y": "-1/2",
+        "Q": "-1",
+        "generation": 3,
+        "particle_label": "tau_L",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "u_c",
+        "source": "g3:anti3_A_r",
+        "T3L": "0",
+        "T3R": "-1/2",
+        "target_index": 8,
+        "source_index": 4,
+        "color": "anti3",
+        "origin": "anti3_A",
+        "B_minus_L": "-1/3",
+        "Y": "-2/3",
+        "Q": "-2/3",
+        "generation": 3,
+        "particle_label": "t_c_r",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "u_c",
+        "source": "g3:anti3_A_g",
+        "T3L": "0",
+        "T3R": "-1/2",
+        "target_index": 9,
+        "source_index": 5,
+        "color": "anti3",
+        "origin": "anti3_A",
+        "B_minus_L": "-1/3",
+        "Y": "-2/3",
+        "Q": "-2/3",
+        "generation": 3,
+        "particle_label": "t_c_g",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "u_c",
+        "source": "g3:anti3_A_b",
+        "T3L": "0",
+        "T3R": "-1/2",
+        "target_index": 10,
+        "source_index": 6,
+        "color": "anti3",
+        "origin": "anti3_A",
+        "B_minus_L": "-1/3",
+        "Y": "-2/3",
+        "Q": "-2/3",
+        "generation": 3,
+        "particle_label": "t_c_b",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "d_c",
+        "source": "g3:anti3_B_r",
+        "T3L": "0",
+        "T3R": "1/2",
+        "target_index": 11,
+        "source_index": 11,
+        "color": "anti3",
+        "origin": "anti3_B",
+        "B_minus_L": "-1/3",
+        "Y": "1/3",
+        "Q": "1/3",
+        "generation": 3,
+        "particle_label": "b_c_r",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "d_c",
+        "source": "g3:anti3_B_g",
+        "T3L": "0",
+        "T3R": "1/2",
+        "target_index": 12,
+        "source_index": 12,
+        "color": "anti3",
+        "origin": "anti3_B",
+        "B_minus_L": "-1/3",
+        "Y": "1/3",
+        "Q": "1/3",
+        "generation": 3,
+        "particle_label": "b_c_g",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "d_c",
+        "source": "g3:anti3_B_b",
+        "T3L": "0",
+        "T3R": "1/2",
+        "target_index": 13,
+        "source_index": 13,
+        "color": "anti3",
+        "origin": "anti3_B",
+        "B_minus_L": "-1/3",
+        "Y": "1/3",
+        "Q": "1/3",
+        "generation": 3,
+        "particle_label": "b_c_b",
+        "status": "SM_chiral_component"
+      },
+      {
+        "field": "nu_c",
+        "source": "g3:1_N",
+        "T3L": "0",
+        "T3R": "-1/2",
+        "target_index": 14,
+        "source_index": 15,
+        "color": "1",
+        "origin": "1_N",
+        "B_minus_L": "1",
+        "Y": "0",
+        "Q": "0",
+        "generation": 3,
+        "particle_label": "N3_c",
+        "status": "conditional_neutral_extension"
+      },
+      {
+        "field": "e_c",
+        "source": "g3:1_0",
+        "T3L": "0",
+        "T3R": "1/2",
+        "target_index": 15,
+        "source_index": 0,
+        "color": "1",
+        "origin": "1_0",
+        "B_minus_L": "1",
+        "Y": "1",
+        "Q": "1",
+        "generation": 3,
+        "particle_label": "tau_c",
+        "status": "SM_chiral_component"
+      }
+    ],
+    "SM_component_count": 45,
+    "conditional_neutral_component_count": 3,
+    "transport_dimension": 48,
+    "transport_gram_rank": 48,
+    "minimum_gram_eigenvalue": 0.45243668213983135,
+    "family_state_trace": 1.0,
+    "energy_policy": "normalized family state tensor channel state; the same 0.7 energy budget is not multiplied by the family count",
+    "mass_and_mixing_status": "not derived in 0.8"
+  }
+}

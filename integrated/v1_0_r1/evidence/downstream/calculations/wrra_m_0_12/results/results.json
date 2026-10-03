@@ -1,0 +1,1515 @@
+{
+  "version": "WRRA-M 0.12",
+  "date": "2026-10-03",
+  "input_hash_sha256": "c80742fa4d0e0bdbb94e3390a2cc02da4a535168eaf66fb28f7318ec9b7b8b3d",
+  "input_ledger": {
+    "model_version": "WRRA-M 0.12",
+    "baseline_0_11": {
+      "model_version": "WRRA-M 0.11",
+      "baseline_0_10": {
+        "model_version": "WRRA-M 0.10",
+        "upstream_0_9": {
+          "model_version": "WRRA-M 0.9",
+          "interface_version": "wrra.upstream-ledger/1",
+          "upstream": {
+            "address_cutoff_N": 1000000,
+            "state": {
+              "kind": "normalized_power_law",
+              "alpha": 1.8996876950554356
+            },
+            "spectrum": {
+              "kind": "adopted_zeta_zero_heights",
+              "J_zero": 4,
+              "gamma": [
+                14.134725141734695,
+                21.022039638771556,
+                25.01085758014569,
+                30.424876125859512
+              ],
+              "coefficients": [
+                0.5,
+                0.5,
+                0.5,
+                0.5
+              ],
+              "phase_offsets": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            "update": {
+              "admission_frames_K": 8,
+              "phase_step_xi": 0.1,
+              "sigmoid_threshold_h": 1.44767317035244,
+              "frame_unit": "dimensionless_order",
+              "post_recovery": "identity_on_resident_folds"
+            },
+            "scalar_comparison": {
+              "odd_composite_admission_beta": 0.8654570124136961
+            },
+            "targets": {
+              "phenotype": 0.05,
+              "resident_nonphenotype": 0.268,
+              "return": 0.682
+            },
+            "sample_addresses": [
+              9,
+              15,
+              21,
+              25,
+              27,
+              33,
+              35,
+              49,
+              77,
+              91,
+              119,
+              121,
+              133,
+              143,
+              161
+            ]
+          },
+          "channel_coupling": {
+            "rule": "normalized_conditional_origin_kernel_then_selected_permutation",
+            "default_origin_weights": [
+              0.0625,
+              0.0625,
+              0.0625,
+              0.0625,
+              0.0625,
+              0.0625,
+              0.0625,
+              0.0625,
+              0.0625,
+              0.0625,
+              0.0625,
+              0.0625,
+              0.0625,
+              0.0625,
+              0.0625,
+              0.0625
+            ],
+            "odd_smallest_prime_overrides": {},
+            "family_weights": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "ownership": "Conditional address-to-origin routing is a constitutive input. Shared reference kernel does not derive specific particle identities from primes."
+          },
+          "baseline_0_8": {
+            "model_version": "WRRA-M 0.8",
+            "ledger_0_7": {
+              "model_version": "WRRA-M 0.7",
+              "measure": "energy_weighted_information_load",
+              "reference_volume_m3": 1.0,
+              "carrier_and_background": {
+                "lattice_N": 128,
+                "a_min": 0.5,
+                "a_max": 2.0,
+                "output_grid_points": 401,
+                "information_clock_over_H0": 0.7,
+                "clustering_energy_exponent": 0.0,
+                "background_energy_exponent": 3.0,
+                "noncommuting_test_strength": 8.0,
+                "noncommuting_test_initial_modes": [
+                  8,
+                  16,
+                  24
+                ],
+                "noncommuting_test_initial_weights": [
+                  0.3333333333333333,
+                  0.3333333333333333,
+                  0.3333333333333333
+                ],
+                "test_radius_kpc": 8.2,
+                "lens_impact_kpc": 10.0,
+                "rtol": 1e-11,
+                "atol": 1e-13,
+                "max_log_a_step": 0.01,
+                "scope": "Finite homogeneous constitutive completion, with inherited conditional local renderer",
+                "ownership": "Energy-volume exponents, operators and information clock are declared constitutive choices"
+              },
+              "calibration_and_local_source": {
+                "c_m_s": 299792458.0,
+                "G_SI": 6.6743e-11,
+                "H0_km_s_Mpc": 67.4,
+                "fraction_phenotype": 0.0493,
+                "fraction_twist_clustering": 0.265,
+                "M_sun_kg": 1.98847e+30,
+                "parsec_m": 3.085677581491367e+16,
+                "electron_mass_energy_eV": 510998.95069,
+                "sphere_mass_Msun": 60000000000.0,
+                "sphere_scale_kpc": 3.0,
+                "patch_radius_kpc": 200.0,
+                "report_radii_kpc": [
+                  1,
+                  3,
+                  8.2,
+                  20,
+                  50,
+                  100
+                ],
+                "lens_impact_kpc": [
+                  5,
+                  10,
+                  20,
+                  50
+                ],
+                "internal_lattice_N": 128,
+                "carrier_probe_frequency_squared": [
+                  0.1,
+                  0.5,
+                  1.0,
+                  2.0,
+                  3.5
+                ],
+                "carrier_damping": 0.2,
+                "disk_components_mass_1e9Msun_scale_kpc": [
+                  [
+                    35.66,
+                    2.53
+                  ],
+                  [
+                    11.25,
+                    3.38
+                  ],
+                  [
+                    11.0,
+                    7.0
+                  ],
+                  [
+                    1.2,
+                    1.5
+                  ]
+                ],
+                "bulge_mass_1e9Msun_scale_kpc": [
+                  9.13,
+                  0.7
+                ],
+                "response_nu": "1 / (1 - exp(-sqrt(y)))",
+                "response_provenance": "Calibrated constitutive input adopted in WRRA Galactic Disk paper v1.0 2026-09-27",
+                "gravity_ontology": "B_C continuous geometric branch; no independent gravitational Hilbert space",
+                "lensing_condition": "Phi = Psi assumed in the finite weak-field patch",
+                "fraction_note": "Editable late-universe energy-weighted calibration; not counts of bits or particle channels"
+              },
+              "physical_records": [],
+              "measurement_events": [],
+              "definition_policy": {
+                "Actual": "complete current modeled state and its total weighted load",
+                "quantization": "future actual operation producing discrete phenotype and physical record; not yet executed",
+                "phenotype": "currently expressed sector budget, adopted from inherited calibrated branch",
+                "residue": "retained unexpressed state content; no extra independent sector",
+                "record": "future physical outcome record; distinct from software provenance"
+              },
+              "fraction_provenance": "Inherited rounded late-universe reference: 0.0493 phenotype and 0.265 clustering; remaining background is calculated. Information-to-energy identification is a WRRA constitutive choice."
+            },
+            "filter_calibration": {
+              "central_response_shift": 1.0,
+              "charge_contrast_to_response": 0.25,
+              "left_charge_anchors": {
+                "neutral_lepton": "0",
+                "charged_lepton": "-1"
+              },
+              "right_hypercharge_anchors": {
+                "neutral_singlet": "0",
+                "invariant_singlet": "1"
+              },
+              "response_tags": {
+                "3_A": 1,
+                "3_B": -1,
+                "1_A": 1,
+                "1_B": -1,
+                "anti3_A": -1,
+                "anti3_B": 1,
+                "1_N": -1,
+                "1_0": 1
+              },
+              "tag_provenance": "Calibrated origin-to-weak-component orientation preserving the 0.2 known-particle branch; signs are inputs, not a microscopic discovery.",
+              "left_lepton_B_minus_L": "-1",
+              "right_lepton_B_minus_L": "1",
+              "selection_rate": 1.0,
+              "initial_filter_weights": [
+                0.25,
+                0.25,
+                0.25,
+                0.25
+              ],
+              "gap_tolerance": 1e-12,
+              "selection_residual_target": 1e-08,
+              "channel_state_weights": [
+                0.0625,
+                0.0625,
+                0.0625,
+                0.0625,
+                0.0625,
+                0.0625,
+                0.0625,
+                0.0625,
+                0.0625,
+                0.0625,
+                0.0625,
+                0.0625,
+                0.0625,
+                0.0625,
+                0.0625,
+                0.0625
+              ],
+              "neutral_channel_status": "Transported gauge-neutral extension interpreted as nu_R^c; its particle existence, mass and occupation are not measured by this release.",
+              "response_shift_scope": "Dimensionless lower-order readout calibration. Not a rest-mass value or an extra SI energy sector."
+            },
+            "benchmark": {
+              "selected_filter": "F_DX",
+              "fields": {
+                "Q_L": {
+                  "multiplicity": 6,
+                  "Y": "1/6",
+                  "Q": [
+                    "2/3",
+                    "-1/3"
+                  ]
+                },
+                "L_L": {
+                  "multiplicity": 2,
+                  "Y": "-1/2",
+                  "Q": [
+                    "0",
+                    "-1"
+                  ]
+                },
+                "u_c": {
+                  "multiplicity": 3,
+                  "Y": "-2/3",
+                  "Q": [
+                    "-2/3"
+                  ]
+                },
+                "d_c": {
+                  "multiplicity": 3,
+                  "Y": "1/3",
+                  "Q": [
+                    "1/3"
+                  ]
+                },
+                "nu_c": {
+                  "multiplicity": 1,
+                  "Y": "0",
+                  "Q": [
+                    "0"
+                  ]
+                },
+                "e_c": {
+                  "multiplicity": 1,
+                  "Y": "1",
+                  "Q": [
+                    "1"
+                  ]
+                }
+              }
+            },
+            "physical_baseline": {
+              "MCC_version": "2.3.2",
+              "WRRA_Core_version": "1.0",
+              "MCC_source_commit": "21daec110c0cbecb228c445d587eac8302e7f767",
+              "PDG_reference": "https://pdg.lbl.gov/2025/reviews/rpp2025-rev-guts.pdf",
+              "PDG_charge_convention": "PDG Q=T3+Y_PDG/2; this release uses Y=Y_PDG/2 and Q=T3+Y."
+            },
+            "scope": "Calibrated selection within the fixed four-filter family; three-generation charge inventory with conditional neutral extensions; no mass/mixing derivation or physical quantization event.",
+            "family_replication": {
+              "family_count": 3,
+              "family_weights": [
+                0.3333333333333333,
+                0.3333333333333333,
+                0.3333333333333333
+              ],
+              "provenance": "Three observed Standard-Model generations adopted as calibration; replication count is not derived here.",
+              "labels": [
+                {
+                  "Q_L": [
+                    "u_L",
+                    "d_L"
+                  ],
+                  "L_L": [
+                    "nu_e_L",
+                    "e_L"
+                  ],
+                  "u_c": "u_c",
+                  "d_c": "d_c",
+                  "nu_c": "N1_c",
+                  "e_c": "e_c"
+                },
+                {
+                  "Q_L": [
+                    "c_L",
+                    "s_L"
+                  ],
+                  "L_L": [
+                    "nu_mu_L",
+                    "mu_L"
+                  ],
+                  "u_c": "c_c",
+                  "d_c": "s_c",
+                  "nu_c": "N2_c",
+                  "e_c": "mu_c"
+                },
+                {
+                  "Q_L": [
+                    "t_L",
+                    "b_L"
+                  ],
+                  "L_L": [
+                    "nu_tau_L",
+                    "tau_L"
+                  ],
+                  "u_c": "t_c",
+                  "d_c": "b_c",
+                  "nu_c": "N3_c",
+                  "e_c": "tau_c"
+                }
+              ]
+            }
+          },
+          "physical_bridge": {
+            "status": "pending_0.10",
+            "branch_correspondence": {
+              "phenotype": "expressed",
+              "resident_nonphenotype": "clustering_nonphenotype",
+              "return": "background_response"
+            },
+            "energy_map": null,
+            "pressure_map": null,
+            "ownership": "Structural correspondence only; arithmetic shares do not define SI energy or pressure."
+          },
+          "physical_records": [],
+          "measurement_events": [],
+          "provenance": {
+            "source_commit": "9ca21c547e5238be34ceace5a1015db50cb824ff",
+            "source_files_sha256": {
+              "references/upper_frames/compute.py": "56b75fa9e006334e55a0abb0a7d6fc3f2bc95bea0a3a411a89448164210e0a37",
+              "references/upper_frames/results.json": "ae6be361bc90e6fb8483707f83cfb3d941b2738598ba3c647c6a85eae935688a",
+              "references/upper_scalar/compute.py": "cbf65d390fe07522dab4a8867e5ee6f06e4ede69018b1c2e7f197702f8029b8b",
+              "references/upper_scalar/partition_26_8.py": "4a90b2b7a7a96fdf217972dd46b1ec2171f69e6a4da705f1473c547c0e1642dc",
+              "references/upper_scalar/results_26_8.json": "8c4a76941241cb20851587c4e062d914b9be28024ad74dd1102bc4f0352f5a5d"
+            }
+          }
+        },
+        "reference_volume_m3": 1.0,
+        "energy_map": {
+          "rule": "positive_address_response_times_carrier_operator",
+          "address_response_lambda": {
+            "phenotype": 0.0,
+            "resident_nonphenotype": 0.25,
+            "return": 0.1
+          },
+          "energy_volume_exponents": {
+            "phenotype": 0.0,
+            "resident_nonphenotype": 0.0,
+            "return": 3.0
+          },
+          "reference_energy_fractions": {
+            "phenotype": 0.0493,
+            "resident_nonphenotype": 0.265,
+            "return": 0.6857
+          },
+          "alternate_energy_fractions": {
+            "phenotype": 0.05,
+            "resident_nonphenotype": 0.268,
+            "return": 0.682
+          },
+          "operator_rule": "phenotype_I_D_Kc_over_2_R_Kb_over_2",
+          "calibration_policy": "fit SI coefficients once on frozen upstream reference and uniform carrier then hold for all probes",
+          "pending_SOURCE_response": "same epsilon as return background response"
+        },
+        "probes": {
+          "scale_factors": [
+            0.5,
+            1.0,
+            2.0
+          ],
+          "fixed_volume_clock_coordinates": [
+            0.0,
+            0.25,
+            0.5,
+            1.0,
+            2.0,
+            4.0
+          ],
+          "transition_scale_factor": 1.0,
+          "zero_energy_domains": "undefined density fractions and expansion q are null; local baryonic source remains separate"
+        },
+        "scope": {
+          "stage": "energy pressure map before physical measurement records",
+          "constitutive_inputs": [
+            "address response lambda",
+            "energy volume exponents",
+            "factorized address and carrier input state",
+            "finite homogeneous expansion and inherited conditional local renderer"
+          ],
+          "measurement_records": [],
+          "microscopic_source_origin": "upstream deferred",
+          "shutter_to_proper_time": "later development"
+        },
+        "provenance": {
+          "baseline_0_9_input_sha256": "7986e6afcbe26e3546111387f34f953147e16cb3c8cb6b900264adf214e51e95",
+          "reviewed_baseline_commit": "e852f0407195fb598e4a0ed1f7c96a8a8abb32b8"
+        }
+      },
+      "calibration_order": [
+        "G_SI",
+        "H0_km_s_Mpc",
+        "f_phi",
+        "f_c",
+        "electron_energy_eV"
+      ],
+      "targets": {
+        "G_SI": 6.6743e-11,
+        "H0_km_s_Mpc": 67.4,
+        "f_phi": 0.0493,
+        "f_c": 0.265,
+        "electron_energy_eV": 510998.95069
+      },
+      "SI": {
+        "c_m_s": 299792458.0,
+        "h_J_s": 6.62607015e-34,
+        "eV_J": 1.602176634e-19,
+        "parsec_m": 3.085677581491367e+16
+      },
+      "mass_construction": {
+        "electron_mode": 23,
+        "mass_intercept_eV": 0.0,
+        "report_modes": [
+          -23,
+          -3,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          23
+        ]
+      },
+      "target_provenance": {
+        "G_SI": {
+          "source": "https://physics.nist.gov/cuu/pdf/wall_2022.pdf",
+          "standard_uncertainty": 1.5e-15
+        },
+        "H0_km_s_Mpc": {
+          "source": "https://doi.org/10.1051/0004-6361/201833910",
+          "standard_uncertainty": 0.5,
+          "model": "Planck 2018 base LCDM adopted benchmark"
+        },
+        "electron_energy_eV": {
+          "source": "https://physics.nist.gov/cgi-bin/cuu/Value?mec2mev|search_for=all!",
+          "standard_uncertainty": 0.00016
+        },
+        "fractions": {
+          "source": "inherited rounded 0.6-r2/0.10 energy calibration",
+          "uncertainty": null,
+          "arithmetic_targets_are_separate": true
+        }
+      },
+      "physical_records": [],
+      "provenance": {
+        "baseline_0_10_input_sha256": "8342c02c3d872994b13c54c9512d6e7440a45e7ef9602cb1ac4ebe34eddb540f",
+        "baseline_commit": "24707c512c3994f2b19a96d6f257ef7d1249dab3",
+        "MCC_commit": "21daec110c0cbecb228c445d587eac8302e7f767",
+        "workbook_sha256": "f7ccd9636b7d3b1e9aa6d81fe7e20a14400e41303bf3e6ade4b5e5d6cf2eff32",
+        "workbook_scope": "sheet1 rows12-16,22-33,38-65; reference copy read 2026-10-02"
+      }
+    },
+    "clock": {
+      "rule": "worldline_proper_time",
+      "phase_step_epsilon": 0.05,
+      "physical_minimum_time_claim": false,
+      "reference_ticks": 64,
+      "flat_speed_probes": [
+        0,
+        0.6,
+        0.8,
+        1.0
+      ],
+      "accelerated_beta_coefficients": [
+        0.2,
+        0.5
+      ],
+      "lorentz_boost_beta": 0.3,
+      "local_radius_probes_kpc": [
+        3,
+        8.2,
+        50,
+        200
+      ],
+      "scale_factor_intervals": [
+        [
+          0.5,
+          1.0
+        ],
+        [
+          1.0,
+          2.0
+        ],
+        [
+          0.5,
+          2.0
+        ]
+      ],
+      "potential_boundary": "Phi(R_patch)=0; inherited conditional Phi=Psi weak static metric"
+    },
+    "spectra": {
+      "mode_lattice_N": 128,
+      "fold_boundary_phases": [
+        0,
+        0.5
+      ],
+      "report_fold_modes": [
+        -23,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        23
+      ],
+      "cavity_length_over_length_unit": 20.0,
+      "cavity_length_probes": [
+        20,
+        40,
+        80
+      ],
+      "free_momentum_probes": [
+        -2,
+        -1,
+        -0.5,
+        -0.1,
+        0,
+        0.1,
+        0.5,
+        1,
+        2
+      ],
+      "finite_difference_N": [
+        128,
+        256,
+        512
+      ],
+      "alias_phase_step_epsilon": 0.25,
+      "spatial_boundaries": [
+        "periodic",
+        "dirichlet"
+      ],
+      "operator_rule": "finite spectral derivative and relativistic positive energy"
+    },
+    "physical_records": [],
+    "provenance": {
+      "baseline_0_11_commit": "6e9e9c9162c650b71b78035abf02ec6c1f753d02",
+      "baseline_0_11_input_sha256": "67de28abf0741c406178a2fe4ce07962e69bce827c3196b78e887da3bd0dab13",
+      "upper_clock_source": "WRRA_M_Upper_Two_Stage_Filter_Hypothesis_v1_0_r1_KO_2026_10_02.pdf, pages 5,11,12",
+      "clock_origin": "epsilon and boundary choices are disclosed construction inputs; not measured minimum-time data"
+    }
+  },
+  "units": {
+    "hbar_J_s": 1.0545718176461565e-34,
+    "mu_E_eV": 22217.345682173913,
+    "mu_E_J": 3.559611212147983e-15,
+    "electron_energy_eV": 510998.95069,
+    "t_mu_s": 2.962603932831738e-20,
+    "length_unit_m": 8.881663151040937e-12,
+    "delta_tau_s": 1.4813019664158691e-21,
+    "Planck_time_s": 5.391246448313605e-44,
+    "delta_tau_over_Planck": 2.7476057357370933e+22,
+    "c_delta_tau_m": 4.4408315755204687e-13,
+    "phase_bandwidth_eV": 2791913.9990952983
+  },
+  "flat_clocks": [
+    {
+      "name": "flat_beta_0",
+      "beta_local": 0,
+      "phi_over_c2": 0,
+      "lapse": 1.0,
+      "coordinate_s": 9.480332585061563e-20,
+      "proper_s": 9.480332585061563e-20,
+      "tick_coordinate": 64.0,
+      "complete_ticks": 64,
+      "residual_tick_fraction": 0.0,
+      "coherent_overlap": 0.0008526121026234629,
+      "scope": "generic equal fold-mode pair with gap mu_E; no physical outcome record"
+    },
+    {
+      "name": "flat_beta_0.6",
+      "beta_local": 0.6,
+      "phi_over_c2": 0,
+      "lapse": 0.8,
+      "coordinate_s": 9.480332585061563e-20,
+      "proper_s": 7.58426606804925e-20,
+      "tick_coordinate": 51.2,
+      "complete_ticks": 51,
+      "residual_tick_fraction": 0.20000000000000284,
+      "coherent_overlap": 0.08220561143429607,
+      "scope": "generic equal fold-mode pair with gap mu_E; no physical outcome record"
+    },
+    {
+      "name": "flat_beta_0.8",
+      "beta_local": 0.8,
+      "phi_over_c2": 0,
+      "lapse": 0.5999999999999999,
+      "coordinate_s": 9.480332585061563e-20,
+      "proper_s": 5.688199551036936e-20,
+      "tick_coordinate": 38.39999999999999,
+      "complete_ticks": 38,
+      "residual_tick_fraction": 0.3999999999999915,
+      "coherent_overlap": 0.32892517442455105,
+      "scope": "generic equal fold-mode pair with gap mu_E; no physical outcome record"
+    },
+    {
+      "name": "flat_beta_1.0",
+      "beta_local": 1.0,
+      "phi_over_c2": 0,
+      "lapse": 0.0,
+      "coordinate_s": 9.480332585061563e-20,
+      "proper_s": 0.0,
+      "tick_coordinate": null,
+      "complete_ticks": null,
+      "residual_tick_fraction": null,
+      "coherent_overlap": null,
+      "scope": "null path: no rest-clock update; not frozen photon propagation"
+    }
+  ],
+  "local_clocks": [
+    {
+      "name": "static_r3",
+      "beta_local": 0,
+      "phi_over_c2": -1.7283062608312234e-06,
+      "lapse": 0.9999982716922456,
+      "coordinate_s": 9.480332585061563e-20,
+      "proper_s": 9.480316200129241e-20,
+      "tick_coordinate": 63.999889388303714,
+      "complete_ticks": 63,
+      "residual_tick_fraction": 0.9998893883037141,
+      "coherent_overlap": 0.0008524506886816774,
+      "scope": "generic equal fold-mode pair with gap mu_E; no physical outcome record",
+      "radius_kpc": 3
+    },
+    {
+      "name": "static_r8.2",
+      "beta_local": 0,
+      "phi_over_c2": -1.2486932798102258e-06,
+      "lapse": 0.9999987513059405,
+      "coordinate_s": 9.480332585061563e-20,
+      "proper_s": 9.480320747026581e-20,
+      "tick_coordinate": 63.99992008358019,
+      "complete_ticks": 63,
+      "residual_tick_fraction": 0.9999200835801929,
+      "coherent_overlap": 0.0008524954802944967,
+      "scope": "generic equal fold-mode pair with gap mu_E; no physical outcome record",
+      "radius_kpc": 8.2
+    },
+    {
+      "name": "static_r50",
+      "beta_local": 0,
+      "phi_over_c2": -4.966030243693153e-07,
+      "lapse": 0.9999995033968523,
+      "coordinate_s": 9.480332585061563e-20,
+      "proper_s": 9.480327877098559e-20,
+      "tick_coordinate": 63.999968217398546,
+      "complete_ticks": 63,
+      "residual_tick_fraction": 0.9999682173985462,
+      "coherent_overlap": 0.0008525657212003207,
+      "scope": "generic equal fold-mode pair with gap mu_E; no physical outcome record",
+      "radius_kpc": 50
+    },
+    {
+      "name": "static_r200",
+      "beta_local": 0,
+      "phi_over_c2": -0.0,
+      "lapse": 1.0,
+      "coordinate_s": 9.480332585061563e-20,
+      "proper_s": 9.480332585061563e-20,
+      "tick_coordinate": 64.0,
+      "complete_ticks": 64,
+      "residual_tick_fraction": 0.0,
+      "coherent_overlap": 0.0008526121026234629,
+      "scope": "generic equal fold-mode pair with gap mu_E; no physical outcome record",
+      "radius_kpc": 200
+    },
+    {
+      "name": "inherited_circular_clock",
+      "beta_local": 0.0006921818731230945,
+      "phi_over_c2": -1.2486932798102258e-06,
+      "lapse": 0.9999985117483382,
+      "coordinate_s": 9.480332585061563e-20,
+      "proper_s": 9.480318475940838e-20,
+      "tick_coordinate": 63.999904751893645,
+      "complete_ticks": 63,
+      "residual_tick_fraction": 0.999904751893645,
+      "coherent_overlap": 0.0008524731076183839,
+      "scope": "generic equal fold-mode pair with gap mu_E; no physical outcome record",
+      "radius_kpc": 8.2
+    }
+  ],
+  "cosmic_clocks": [
+    {
+      "a_start": 0.5,
+      "a_end": 1.0,
+      "beta_peculiar": 0.0,
+      "coordinate_interval_H0_t": 0.5482395591905475,
+      "proper_interval_s": 2.509926583206204e+17,
+      "tick_count_order": 1.6944057593329036e+38,
+      "scope": "uniform reference FRW clock; tick estimate inherits floating-point and input precision, not an exact giant integer"
+    },
+    {
+      "a_start": 0.5,
+      "a_end": 1.0,
+      "beta_peculiar": 0.6,
+      "coordinate_interval_H0_t": 0.5482395591905475,
+      "proper_interval_s": 2.0079412665649635e+17,
+      "tick_count_order": 1.355524607466323e+38,
+      "scope": "uniform reference FRW clock; tick estimate inherits floating-point and input precision, not an exact giant integer"
+    },
+    {
+      "a_start": 1.0,
+      "a_end": 2.0,
+      "beta_peculiar": 0.0,
+      "coordinate_interval_H0_t": 0.7688360688580811,
+      "proper_interval_s": 3.5198519607082106e+17,
+      "tick_count_order": 2.3761880025210384e+38,
+      "scope": "uniform reference FRW clock; tick estimate inherits floating-point and input precision, not an exact giant integer"
+    },
+    {
+      "a_start": 1.0,
+      "a_end": 2.0,
+      "beta_peculiar": 0.6,
+      "coordinate_interval_H0_t": 0.7688360688580811,
+      "proper_interval_s": 2.8158815685665686e+17,
+      "tick_count_order": 1.900950402016831e+38,
+      "scope": "uniform reference FRW clock; tick estimate inherits floating-point and input precision, not an exact giant integer"
+    },
+    {
+      "a_start": 0.5,
+      "a_end": 2.0,
+      "beta_peculiar": 0.0,
+      "coordinate_interval_H0_t": 1.3170756280486287,
+      "proper_interval_s": 6.029778543914415e+17,
+      "tick_count_order": 4.0705937618539426e+38,
+      "scope": "uniform reference FRW clock; tick estimate inherits floating-point and input precision, not an exact giant integer"
+    },
+    {
+      "a_start": 0.5,
+      "a_end": 2.0,
+      "beta_peculiar": 0.6,
+      "coordinate_interval_H0_t": 1.3170756280486287,
+      "proper_interval_s": 4.823822835131533e+17,
+      "tick_count_order": 3.2564750094831543e+38,
+      "scope": "uniform reference FRW clock; tick estimate inherits floating-point and input precision, not an exact giant integer"
+    }
+  ],
+  "accelerated_worldline": {
+    "beta_coefficients": [
+      0.2,
+      0.5
+    ],
+    "coordinate_duration_s": 9.480332585061563e-20,
+    "exact_proper_over_T": 0.8779803863957676,
+    "complete_frames": 56,
+    "residual_tick_fraction": 0.19074472932912556,
+    "refinement": [
+      {
+        "segments": 16,
+        "proper_over_T": 0.8780435186872697,
+        "exact_proper_over_T": 0.8779803863957676,
+        "absolute_ratio_error": 6.313229150212152e-05,
+        "boosted_proper_over_T": 0.8780435186872697
+      },
+      {
+        "segments": 32,
+        "proper_over_T": 0.8779961740786552,
+        "exact_proper_over_T": 0.8779803863957676,
+        "absolute_ratio_error": 1.5787682887569154e-05,
+        "boosted_proper_over_T": 0.877996174078655
+      },
+      {
+        "segments": 64,
+        "proper_over_T": 0.8779843336053083,
+        "exact_proper_over_T": 0.8779803863957676,
+        "absolute_ratio_error": 3.947209540666741e-06,
+        "boosted_proper_over_T": 0.8779843336053081
+      },
+      {
+        "segments": 128,
+        "proper_over_T": 0.8779813732162148,
+        "exact_proper_over_T": 0.8779803863957676,
+        "absolute_ratio_error": 9.86820447246295e-07,
+        "boosted_proper_over_T": 0.8779813732162147
+      }
+    ],
+    "events": [
+      {
+        "proper_frame": 0,
+        "coordinate_time_over_T": 0.0,
+        "proper_time_s": 0.0
+      },
+      {
+        "proper_frame": 1,
+        "coordinate_time_over_T": 0.015960650731788262,
+        "proper_time_s": 1.4813019664158691e-21
+      },
+      {
+        "proper_frame": 2,
+        "coordinate_time_over_T": 0.0319490394592565,
+        "proper_time_s": 2.9626039328317383e-21
+      },
+      {
+        "proper_frame": 3,
+        "coordinate_time_over_T": 0.04796643754998844,
+        "proper_time_s": 4.443905899247608e-21
+      },
+      {
+        "proper_frame": 4,
+        "coordinate_time_over_T": 0.0640141443776376,
+        "proper_time_s": 5.9252078656634766e-21
+      },
+      {
+        "proper_frame": 5,
+        "coordinate_time_over_T": 0.08009348901763379,
+        "proper_time_s": 7.406509832079345e-21
+      },
+      {
+        "proper_frame": 6,
+        "coordinate_time_over_T": 0.09620583203619651,
+        "proper_time_s": 8.887811798495216e-21
+      },
+      {
+        "proper_frame": 7,
+        "coordinate_time_over_T": 0.11235256738036754,
+        "proper_time_s": 1.0369113764911084e-20
+      },
+      {
+        "proper_frame": 8,
+        "coordinate_time_over_T": 0.12853512437778192,
+        "proper_time_s": 1.1850415731326953e-20
+      },
+      {
+        "proper_frame": 9,
+        "coordinate_time_over_T": 0.14475496985482736,
+        "proper_time_s": 1.3331717697742822e-20
+      },
+      {
+        "proper_frame": 10,
+        "coordinate_time_over_T": 0.16101361038409243,
+        "proper_time_s": 1.481301966415869e-20
+      },
+      {
+        "proper_frame": 11,
+        "coordinate_time_over_T": 0.17731259467153965,
+        "proper_time_s": 1.629432163057456e-20
+      },
+      {
+        "proper_frame": 12,
+        "coordinate_time_over_T": 0.19365351609588047,
+        "proper_time_s": 1.777562359699043e-20
+      },
+      {
+        "proper_frame": 13,
+        "coordinate_time_over_T": 0.21003801541343003,
+        "proper_time_s": 1.92569255634063e-20
+      },
+      {
+        "proper_frame": 14,
+        "coordinate_time_over_T": 0.2264677836431691,
+        "proper_time_s": 2.073822752982217e-20
+      },
+      {
+        "proper_frame": 15,
+        "coordinate_time_over_T": 0.24294456514824875,
+        "proper_time_s": 2.2219529496238037e-20
+      },
+      {
+        "proper_frame": 16,
+        "coordinate_time_over_T": 0.2594701609318722,
+        "proper_time_s": 2.3700831462653906e-20
+      },
+      {
+        "proper_frame": 17,
+        "coordinate_time_over_T": 0.2760464321674076,
+        "proper_time_s": 2.5182133429069775e-20
+      },
+      {
+        "proper_frame": 18,
+        "coordinate_time_over_T": 0.29267530398474534,
+        "proper_time_s": 2.6663435395485644e-20
+      },
+      {
+        "proper_frame": 19,
+        "coordinate_time_over_T": 0.30935876953735136,
+        "proper_time_s": 2.8144737361901516e-20
+      },
+      {
+        "proper_frame": 20,
+        "coordinate_time_over_T": 0.3260988943772337,
+        "proper_time_s": 2.962603932831738e-20
+      },
+      {
+        "proper_frame": 21,
+        "coordinate_time_over_T": 0.3428978211681674,
+        "proper_time_s": 3.1107341294733253e-20
+      },
+      {
+        "proper_frame": 22,
+        "coordinate_time_over_T": 0.35975777477108567,
+        "proper_time_s": 3.258864326114912e-20
+      },
+      {
+        "proper_frame": 23,
+        "coordinate_time_over_T": 0.3766810677396013,
+        "proper_time_s": 3.406994522756499e-20
+      },
+      {
+        "proper_frame": 24,
+        "coordinate_time_over_T": 0.39367010626824644,
+        "proper_time_s": 3.555124719398086e-20
+      },
+      {
+        "proper_frame": 25,
+        "coordinate_time_over_T": 0.4107273966413255,
+        "proper_time_s": 3.703254916039673e-20
+      },
+      {
+        "proper_frame": 26,
+        "coordinate_time_over_T": 0.42785555223635036,
+        "proper_time_s": 3.85138511268126e-20
+      },
+      {
+        "proper_frame": 27,
+        "coordinate_time_over_T": 0.4450573011430212,
+        "proper_time_s": 3.9995153093228466e-20
+      },
+      {
+        "proper_frame": 28,
+        "coordinate_time_over_T": 0.46233549446678585,
+        "proper_time_s": 4.147645505964434e-20
+      },
+      {
+        "proper_frame": 29,
+        "coordinate_time_over_T": 0.47969311539533854,
+        "proper_time_s": 4.2957757026060203e-20
+      },
+      {
+        "proper_frame": 30,
+        "coordinate_time_over_T": 0.4971332891172475,
+        "proper_time_s": 4.4439058992476075e-20
+      },
+      {
+        "proper_frame": 31,
+        "coordinate_time_over_T": 0.5146592936944923,
+        "proper_time_s": 4.592036095889194e-20
+      },
+      {
+        "proper_frame": 32,
+        "coordinate_time_over_T": 0.532274572005404,
+        "proper_time_s": 4.740166292530781e-20
+      },
+      {
+        "proper_frame": 33,
+        "coordinate_time_over_T": 0.5499827448917184,
+        "proper_time_s": 4.8882964891723684e-20
+      },
+      {
+        "proper_frame": 34,
+        "coordinate_time_over_T": 0.567787625663701,
+        "proper_time_s": 5.036426685813955e-20
+      },
+      {
+        "proper_frame": 35,
+        "coordinate_time_over_T": 0.5856932361411795,
+        "proper_time_s": 5.184556882455542e-20
+      },
+      {
+        "proper_frame": 36,
+        "coordinate_time_over_T": 0.6037038244365956,
+        "proper_time_s": 5.332687079097129e-20
+      },
+      {
+        "proper_frame": 37,
+        "coordinate_time_over_T": 0.6218238847198092,
+        "proper_time_s": 5.480817275738715e-20
+      },
+      {
+        "proper_frame": 38,
+        "coordinate_time_over_T": 0.640058179244514,
+        "proper_time_s": 5.628947472380303e-20
+      },
+      {
+        "proper_frame": 39,
+        "coordinate_time_over_T": 0.658411762964247,
+        "proper_time_s": 5.77707766902189e-20
+      },
+      {
+        "proper_frame": 40,
+        "coordinate_time_over_T": 0.6768900111239425,
+        "proper_time_s": 5.925207865663476e-20
+      },
+      {
+        "proper_frame": 41,
+        "coordinate_time_over_T": 0.6954986502831441,
+        "proper_time_s": 6.073338062305064e-20
+      },
+      {
+        "proper_frame": 42,
+        "coordinate_time_over_T": 0.7142437933123623,
+        "proper_time_s": 6.221468258946651e-20
+      },
+      {
+        "proper_frame": 43,
+        "coordinate_time_over_T": 0.7331319790084914,
+        "proper_time_s": 6.369598455588237e-20
+      },
+      {
+        "proper_frame": 44,
+        "coordinate_time_over_T": 0.7521702171036713,
+        "proper_time_s": 6.517728652229824e-20
+      },
+      {
+        "proper_frame": 45,
+        "coordinate_time_over_T": 0.7713660396009995,
+        "proper_time_s": 6.665858848871412e-20
+      },
+      {
+        "proper_frame": 46,
+        "coordinate_time_over_T": 0.7907275595685626,
+        "proper_time_s": 6.813989045512998e-20
+      },
+      {
+        "proper_frame": 47,
+        "coordinate_time_over_T": 0.8102635387716823,
+        "proper_time_s": 6.962119242154585e-20
+      },
+      {
+        "proper_frame": 48,
+        "coordinate_time_over_T": 0.8299834658370765,
+        "proper_time_s": 7.110249438796172e-20
+      },
+      {
+        "proper_frame": 49,
+        "coordinate_time_over_T": 0.8498976470421516,
+        "proper_time_s": 7.258379635437759e-20
+      },
+      {
+        "proper_frame": 50,
+        "coordinate_time_over_T": 0.8700173123354408,
+        "proper_time_s": 7.406509832079346e-20
+      },
+      {
+        "proper_frame": 51,
+        "coordinate_time_over_T": 0.8903547398583015,
+        "proper_time_s": 7.554640028720932e-20
+      },
+      {
+        "proper_frame": 52,
+        "coordinate_time_over_T": 0.9109234031061946,
+        "proper_time_s": 7.70277022536252e-20
+      },
+      {
+        "proper_frame": 53,
+        "coordinate_time_over_T": 0.9317381460145986,
+        "proper_time_s": 7.850900422004107e-20
+      },
+      {
+        "proper_frame": 54,
+        "coordinate_time_over_T": 0.9528153927860546,
+        "proper_time_s": 7.999030618645693e-20
+      },
+      {
+        "proper_frame": 55,
+        "coordinate_time_over_T": 0.9741734013446519,
+        "proper_time_s": 8.14716081528728e-20
+      },
+      {
+        "proper_frame": 56,
+        "coordinate_time_over_T": 0.9958325721383929,
+        "proper_time_s": 8.295291011928867e-20
+      }
+    ]
+  },
+  "fold_modes": [
+    {
+      "boundary_phase": 0,
+      "mode": -23,
+      "energy_eV": 510998.95068999997,
+      "theta": 1.1500000000000001
+    },
+    {
+      "boundary_phase": 0,
+      "mode": -3,
+      "energy_eV": 66652.03704652174,
+      "theta": 0.15000000000000002
+    },
+    {
+      "boundary_phase": 0,
+      "mode": -2,
+      "energy_eV": 44434.691364347826,
+      "theta": 0.1
+    },
+    {
+      "boundary_phase": 0,
+      "mode": -1,
+      "energy_eV": 22217.345682173913,
+      "theta": 0.05
+    },
+    {
+      "boundary_phase": 0,
+      "mode": 0,
+      "energy_eV": 0.0,
+      "theta": 0.0
+    },
+    {
+      "boundary_phase": 0,
+      "mode": 1,
+      "energy_eV": 22217.345682173913,
+      "theta": 0.05
+    },
+    {
+      "boundary_phase": 0,
+      "mode": 2,
+      "energy_eV": 44434.691364347826,
+      "theta": 0.1
+    },
+    {
+      "boundary_phase": 0,
+      "mode": 3,
+      "energy_eV": 66652.03704652174,
+      "theta": 0.15000000000000002
+    },
+    {
+      "boundary_phase": 0,
+      "mode": 23,
+      "energy_eV": 510998.95068999997,
+      "theta": 1.1500000000000001
+    },
+    {
+      "boundary_phase": 0.5,
+      "mode": -23,
+      "energy_eV": 499890.27784891304,
+      "theta": 1.125
+    },
+    {
+      "boundary_phase": 0.5,
+      "mode": -3,
+      "energy_eV": 55543.36420543478,
+      "theta": 0.125
+    },
+    {
+      "boundary_phase": 0.5,
+      "mode": -2,
+      "energy_eV": 33326.01852326087,
+      "theta": 0.07500000000000001
+    },
+    {
+      "boundary_phase": 0.5,
+      "mode": -1,
+      "energy_eV": 11108.672841086956,
+      "theta": 0.025
+    },
+    {
+      "boundary_phase": 0.5,
+      "mode": 0,
+      "energy_eV": 11108.672841086956,
+      "theta": 0.025
+    },
+    {
+      "boundary_phase": 0.5,
+      "mode": 1,
+      "energy_eV": 33326.01852326087,
+      "theta": 0.07500000000000001
+    },
+    {
+      "boundary_phase": 0.5,
+      "mode": 2,
+      "energy_eV": 55543.36420543478,
+      "theta": 0.125
+    },
+    {
+      "boundary_phase": 0.5,
+      "mode": 3,
+      "energy_eV": 77760.7098876087,
+      "theta": 0.17500000000000002
+    },
+    {
+      "boundary_phase": 0.5,
+      "mode": 23,
+      "energy_eV": 522107.62353108695,
+      "theta": 1.175
+    }
+  ],
+  "cavity_modes": [
+    {
+      "boundary": "periodic",
+      "mode": 0,
+      "length_m": 1.7763326302081875e-10,
+      "energy_eV": 510998.95069,
+      "kinetic_energy_eV": 0.0
+    },
+    {
+      "boundary": "periodic",
+      "mode": 1,
+      "length_m": 1.7763326302081875e-10,
+      "energy_eV": 511046.6172521796,
+      "kinetic_energy_eV": 47.666562179569155
+    },
+    {
+      "boundary": "periodic",
+      "mode": 2,
+      "length_m": 1.7763326302081875e-10,
+      "energy_eV": 511189.590270322,
+      "kinetic_energy_eV": 190.63958032196388
+    },
+    {
+      "boundary": "periodic",
+      "mode": 3,
+      "length_m": 1.7763326302081875e-10,
+      "energy_eV": 511427.7898137849,
+      "kinetic_energy_eV": 428.8391237848555
+    },
+    {
+      "boundary": "periodic",
+      "mode": 4,
+      "length_m": 1.7763326302081875e-10,
+      "energy_eV": 511761.08291283296,
+      "kinetic_energy_eV": 762.1322228329373
+    },
+    {
+      "boundary": "dirichlet",
+      "mode": 1,
+      "length_m": 1.7763326302081875e-10,
+      "energy_eV": 511010.86774738436,
+      "kinetic_energy_eV": 11.917057384329382
+    },
+    {
+      "boundary": "dirichlet",
+      "mode": 2,
+      "length_m": 1.7763326302081875e-10,
+      "energy_eV": 511046.6172521796,
+      "kinetic_energy_eV": 47.666562179569155
+    },
+    {
+      "boundary": "dirichlet",
+      "mode": 3,
+      "length_m": 1.7763326302081875e-10,
+      "energy_eV": 511106.1942034787,
+      "kinetic_energy_eV": 107.24351347866468
+    },
+    {
+      "boundary": "dirichlet",
+      "mode": 4,
+      "length_m": 1.7763326302081875e-10,
+      "energy_eV": 511189.590270322,
+      "kinetic_energy_eV": 190.63958032196388
+    },
+    {
+      "boundary": "dirichlet",
+      "mode": 5,
+      "length_m": 1.7763326302081875e-10,
+      "energy_eV": 511296.793797519,
+      "kinetic_energy_eV": 297.84310751897283
+    }
+  ],
+  "finite_volume_spacing": [
+    {
+      "length_over_unit": 20,
+      "length_m": 1.7763326302081875e-10,
+      "momentum_step_c_eV": 6979.7849977382475,
+      "first_kinetic_gap_eV": 47.666562179569155,
+      "scope": "finite-volume spacing control; no physically realized infinite support"
+    },
+    {
+      "length_over_unit": 40,
+      "length_m": 3.552665260416375e-10,
+      "momentum_step_c_eV": 3489.8924988691238,
+      "first_kinetic_gap_eV": 11.917057384329382,
+      "scope": "finite-volume spacing control; no physically realized infinite support"
+    },
+    {
+      "length_over_unit": 80,
+      "length_m": 7.10533052083275e-10,
+      "momentum_step_c_eV": 1744.9462494345619,
+      "first_kinetic_gap_eV": 2.9792904008063488,
+      "scope": "finite-volume spacing control; no physically realized infinite support"
+    }
+  ],
+  "free_dispersion": [
+    {
+      "pc_over_mu": -2,
+      "energy_eV": 512927.255468966,
+      "theta": 1.1543396380615196,
+      "scope": "continuous local dispersion evaluated at finite noninteger momentum probes"
+    },
+    {
+      "pc_over_mu": -1,
+      "energy_eV": 511481.7084270387,
+      "theta": 1.1510864433221337,
+      "scope": "continuous local dispersion evaluated at finite noninteger momentum probes"
+    },
+    {
+      "pc_over_mu": -0.5,
+      "energy_eV": 511119.6828714106,
+      "theta": 1.1502717070327342,
+      "scope": "continuous local dispersion evaluated at finite noninteger momentum probes"
+    },
+    {
+      "pc_over_mu": -0.1,
+      "energy_eV": 511003.78052493173,
+      "theta": 1.1500108695138493,
+      "scope": "continuous local dispersion evaluated at finite noninteger momentum probes"
+    },
+    {
+      "pc_over_mu": 0,
+      "energy_eV": 510998.95068999997,
+      "theta": 1.1500000000000001,
+      "scope": "continuous local dispersion evaluated at finite noninteger momentum probes"
+    },
+    {
+      "pc_over_mu": 0.1,
+      "energy_eV": 511003.78052493173,
+      "theta": 1.1500108695138493,
+      "scope": "continuous local dispersion evaluated at finite noninteger momentum probes"
+    },
+    {
+      "pc_over_mu": 0.5,
+      "energy_eV": 511119.6828714106,
+      "theta": 1.1502717070327342,
+      "scope": "continuous local dispersion evaluated at finite noninteger momentum probes"
+    },
+    {
+      "pc_over_mu": 1,
+      "energy_eV": 511481.7084270387,
+      "theta": 1.1510864433221337,
+      "scope": "continuous local dispersion evaluated at finite noninteger momentum probes"
+    },
+    {
+      "pc_over_mu": 2,
+      "energy_eV": 512927.255468966,
+      "theta": 1.1543396380615196,
+      "scope": "continuous local dispersion evaluated at finite noninteger momentum probes"
+    }
+  ],
+  "finite_difference_controls": [
+    {
+      "N": 128,
+      "mode": 23,
+      "energy_eV": 484288.458582786,
+      "relative_mass_error": -0.05227112907207909,
+      "calibration_refit": false
+    },
+    {
+      "N": 256,
+      "mode": 23,
+      "energy_eV": 504241.0135794953,
+      "relative_mass_error": -0.013224953008963092,
+      "calibration_refit": false
+    },
+    {
+      "N": 512,
+      "mode": 23,
+      "energy_eV": 509304.41094560106,
+      "relative_mass_error": -0.0033161315539118608,
+      "calibration_refit": false
+    }
+  ],
+  "phase_recovery": {
+    "fold_dimension": 128,
+    "unwrapped_branch": 0,
+    "max_spectral_phase_energy_error_eV": 6.51925802230835e-09,
+    "unitarity_error": 3.577111785603528e-14
+  },
+  "alias_control": {
+    "phase_step_epsilon": 0.25,
+    "nonzero_branch_modes": 77,
+    "max_naive_sorted_energy_error_eV": 866476.4816047825,
+    "max_owned_branch_error_eV": 4.656612873077393e-10,
+    "claim": "one update unitary alone leaves integer energy branches undetermined"
+  },
+  "physical_ledger_updates": [
+    {
+      "proper_frame": 0,
+      "proper_s": 0.0,
+      "legacy_dimensionless_coordinate": 0.0,
+      "state_trace": 0.9999999999999991,
+      "minimum_state_eigenvalue": -4.3528162947507893e-16,
+      "total_energy_J": 3.2008104999588066e-10,
+      "D_load": 0.32877675131235873,
+      "R_load": 0.4097229103634995,
+      "q": -0.5096979495182966
+    },
+    {
+      "proper_frame": 1,
+      "proper_s": 1.4813019664158691e-21,
+      "legacy_dimensionless_coordinate": 10772.170485430936,
+      "state_trace": 0.9999999999999996,
+      "minimum_state_eigenvalue": -5.297908864610849e-16,
+      "total_energy_J": 3.200810499958807e-10,
+      "D_load": 0.366836479539636,
+      "R_load": 0.395014104792217,
+      "q": -0.47345040160350865
+    },
+    {
+      "proper_frame": 2,
+      "proper_s": 2.9626039328317383e-21,
+      "legacy_dimensionless_coordinate": 21544.34097086187,
+      "state_trace": 0.9999999999999994,
+      "minimum_state_eigenvalue": -3.852960506269263e-16,
+      "total_energy_J": 3.2008104999588076e-10,
+      "D_load": 0.361037335646739,
+      "R_load": 0.39725527896695484,
+      "q": -0.47897342438673174
+    },
+    {
+      "proper_frame": 4,
+      "proper_s": 5.9252078656634766e-21,
+      "legacy_dimensionless_coordinate": 43088.68194172374,
+      "state_trace": 0.9999999999999993,
+      "minimum_state_eigenvalue": -4.783904313084784e-16,
+      "total_energy_J": 3.2008104999588076e-10,
+      "D_load": 0.3623502129345705,
+      "R_load": 0.39674789602795035,
+      "q": -0.4777230585902991
+    },
+    {
+      "proper_frame": 8,
+      "proper_s": 1.1850415731326953e-20,
+      "legacy_dimensionless_coordinate": 86177.36388344748,
+      "state_trace": 0.9999999999999994,
+      "minimum_state_eigenvalue": -3.5102929096444994e-16,
+      "total_energy_J": 3.200810499958808e-10,
+      "D_load": 0.3573717323023384,
+      "R_load": 0.3986719114392696,
+      "q": -0.48246449326849916
+    }
+  ],
+  "legacy_clock_comparison": {
+    "old_information_frequency_s_minus1": 1.5289996687598515e-18,
+    "SI_ledger_frequency_s_minus1": 7.272096256980661e+24,
+    "old_frequency_over_SI_frequency": 2.102556972196466e-43,
+    "fixed_volume_identity": "xi=E_star*tau/hbar gives exactly the same SI-energy update",
+    "old_expansion_clock_is_physical_SI_phase": false,
+    "scope": "old slow expansion-state schedule retained as a constitutive record, not identified with the SI Hamiltonian proper-time phase"
+  },
+  "physical_records": [],
+  "remaining": [
+    "origin and empirical calibration of shutter epsilon",
+    "selection of actual microscopic confinement and boundary phases",
+    "complete covariant interacting mode/clock dynamics",
+    "physical measurements and records 0.13"
+  ],
+  "falsifiers": [
+    "improper clock lapse or Lorentz-frame disagreement",
+    "nonunitary or nonconserving static SI update",
+    "failed mode/phase reproduction under stated boundaries",
+    "discarded integer quasienergy branch",
+    "identifying the old slow clock with SI energy phase without the computed conversion",
+    "claiming a measured minimum time or actual infinite support"
+  ]
+}

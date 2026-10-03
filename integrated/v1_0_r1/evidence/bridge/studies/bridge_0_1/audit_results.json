@@ -1,0 +1,118 @@
+{
+  "stage": "0.1",
+  "scope": "source-contract consistency, no new coupled dynamics",
+  "checks": [
+    {
+      "name": "address shares normalized",
+      "passed": true
+    },
+    {
+      "name": "resident Actual is .318",
+      "passed": true
+    },
+    {
+      "name": "inherited energy shares normalized",
+      "passed": true
+    },
+    {
+      "name": "inherited q follows pressureless phi,D and constant-density R",
+      "passed": true
+    },
+    {
+      "name": "alternate energy shares normalized",
+      "passed": true
+    },
+    {
+      "name": "alternate q follows pressureless phi,D and constant-density R",
+      "passed": true
+    },
+    {
+      "name": "upstream seconds remain unassigned",
+      "passed": true
+    },
+    {
+      "name": "upstream preparation excludes D,R",
+      "passed": true
+    },
+    {
+      "name": "upstream energy supply not derived from norm",
+      "passed": true
+    },
+    {
+      "name": "same address cutoff",
+      "passed": true
+    },
+    {
+      "name": "same exponent",
+      "passed": true
+    },
+    {
+      "name": "same frame convention",
+      "passed": true
+    },
+    {
+      "name": "downstream preserves failed clock identification",
+      "passed": true
+    },
+    {
+      "name": "downstream records outcome implementation gap",
+      "passed": true
+    },
+    {
+      "name": "upstream records physical persistence gap",
+      "passed": true
+    }
+  ],
+  "passed": 15,
+  "failed": 0,
+  "sources_sha256": {
+    "source/downstream_0_11_parameters.json": "3ca3ef3b17ca96f059571b6ae4ae33fb65c71c410121b83175f715148b449d83",
+    "source/downstream_synthesis_EN.md": "9690b359baa9ed8c59c8d3302f3cc17820776e3062f92d6bba61de863fa6d57f",
+    "source/upstream_0_9_handoff.json": "54fa378fcdd829f9003d8a9433d6e33e7ae380eab66bdd8fd79660d80d1c01ba",
+    "source/upstream_synthesis_EN.md": "eed11e0125f0e43f65e131c8c17fbc413c03dc2b06f3ec2899773b837c40b147"
+  },
+  "open_issues": [
+    {
+      "id": "B04",
+      "status": "open",
+      "owner": "0.2",
+      "topic": "product state versus address-conditioned internal correlation"
+    },
+    {
+      "id": "B05",
+      "status": "open",
+      "owner": "0.3",
+      "topic": "excitation supply, population and duplicate energy accounting"
+    },
+    {
+      "id": "B06",
+      "status": "failed-identification-preserved",
+      "owner": "0.5",
+      "topic": "slow schedule/SI phase ratio 2.102556972196466e-43"
+    },
+    {
+      "id": "B07",
+      "status": "open",
+      "owner": "0.6",
+      "topic": "mathematical record instrument versus coupled physical durable record"
+    },
+    {
+      "id": "B08",
+      "status": "open",
+      "owner": "0.2-0.7",
+      "topic": "95-state nucleon,128-site carrier,16 channels are distinct spaces"
+    },
+    {
+      "id": "B09",
+      "status": "open",
+      "owner": "0.7",
+      "topic": "nonuniform coupled covariant dynamics"
+    },
+    {
+      "id": "B10",
+      "status": "open",
+      "owner": "0.2-0.8",
+      "topic": "different address histories at equal totals; externally chosen species and boundary"
+    }
+  ]
+}

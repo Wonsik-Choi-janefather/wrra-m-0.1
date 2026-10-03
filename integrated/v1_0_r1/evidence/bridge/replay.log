@@ -1,0 +1,97 @@
+stage 0.1 replayed
+stage 0.2 replayed
+stage 0.3 replayed
+stage 0.4 replayed
+stage 0.5 replayed
+stage 0.6 replayed
+stage 0.7 replayed
+{
+  "stage_checks": 1116,
+  "review_passed": 188,
+  "review_failed": 0,
+  "total": 1304,
+  "boundary_diagnostics": [
+    {
+      "calibration": "inherited",
+      "species": "proton",
+      "expected_population_input": 0.2425893463937076,
+      "system_excitation_increase_J": 7.037439522161991e-12,
+      "record_energy_increase_J": 4.3176187868534624e-16,
+      "controller_supply_J": 7.037871284040674e-12,
+      "reservoir_before_J": 7.561582499072401e-12,
+      "reservoir_after_J": 5.237112150317267e-13,
+      "external_q_before": -0.52855,
+      "external_q_after": -0.5191967280747398,
+      "included_pressureless_q": -0.518507515893292,
+      "scope": "conditional mean ledger insertion at V=1 m3; post-write pressure law adopted from 0.4; not time-resolved apparatus or covariant evolution"
+    },
+    {
+      "calibration": "inherited",
+      "species": "neutron",
+      "expected_population_input": 0.2422672363264686,
+      "system_excitation_increase_J": 7.028095211905286e-12,
+      "record_energy_increase_J": 4.311885853819014e-16,
+      "controller_supply_J": 7.028526400490666e-12,
+      "reservoir_before_J": 7.561582499072401e-12,
+      "reservoir_after_J": 5.330560985817354e-13,
+      "external_q_before": -0.52855,
+      "external_q_after": -0.5192090345587278,
+      "included_pressureless_q": -0.5185075158932921,
+      "scope": "conditional mean ledger insertion at V=1 m3; post-write pressure law adopted from 0.4; not time-resolved apparatus or covariant evolution"
+    },
+    {
+      "calibration": "alternate",
+      "species": "proton",
+      "expected_population_input": 0.24603381987191444,
+      "system_excitation_increase_J": 7.137362598541574e-12,
+      "record_energy_increase_J": 4.3789237189183194e-16,
+      "controller_supply_J": 7.137800490913464e-12,
+      "reservoir_before_J": 7.668947767821908e-12,
+      "reservoir_after_J": 5.311472769084441e-13,
+      "external_q_before": -0.5230000000000002,
+      "external_q_after": -0.5135663274174727,
+      "included_pressureless_q": -0.5128712871287131,
+      "scope": "conditional mean ledger insertion at V=1 m3; post-write pressure law adopted from 0.4; not time-resolved apparatus or covariant evolution"
+    },
+    {
+      "calibration": "alternate",
+      "species": "neutron",
+      "expected_population_input": 0.24570713623374102,
+      "system_excitation_increase_J": 7.12788561045161e-12,
+      "record_energy_increase_J": 4.373109385211982e-16,
+      "controller_supply_J": 7.128322921390129e-12,
+      "reservoir_before_J": 7.668947767821908e-12,
+      "reservoir_after_J": 5.406248464317789e-13,
+      "external_q_before": -0.5230000000000002,
+      "external_q_after": -0.5135787380875655,
+      "included_pressureless_q": -0.5128712871287131,
+      "scope": "conditional mean ledger insertion at V=1 m3; post-write pressure law adopted from 0.4; not time-resolved apparatus or covariant evolution"
+    }
+  ],
+  "dependency_probes": [
+    {
+      "name": "0.7 clock is provenance-only",
+      "numerical_difference": 0.0,
+      "behavior_confirmed": true,
+      "scope": "single declared input perturbation; no new physical model coupling"
+    },
+    {
+      "name": "0.7 measurement is provenance-only",
+      "numerical_difference": 0.0,
+      "behavior_confirmed": true,
+      "scope": "single declared input perturbation; no new physical model coupling"
+    },
+    {
+      "name": "0.7 state population is a numerical dependency",
+      "numerical_difference": 0.016811254159630806,
+      "behavior_confirmed": true,
+      "scope": "single declared input perturbation; no new physical model coupling"
+    },
+    {
+      "name": "0.6 frame duration is a numerical dependency",
+      "numerical_difference": 0.5524342094560526,
+      "behavior_confirmed": true,
+      "scope": "single declared input perturbation; no new physical model coupling"
+    }
+  ]
+}

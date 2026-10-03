@@ -1,0 +1,1562 @@
+{
+  "scope": "Actual manuscript locations, zero-based indices, exact JSON paths and explicit display-rounding tolerances.",
+  "claims": [
+    {
+      "name": "internal gap",
+      "source_file": "evidence/bridge/studies/bridge_0_2/wrra-m/upstream/residue_current_v0_9/results.json",
+      "json_path": [
+        "excitation_gap_MeV"
+      ],
+      "displayed_numeric_value": 431.081244315,
+      "source_numeric_value": 431.08124431500005,
+      "unit": "MeV",
+      "relative_tolerance": 1e-09,
+      "document_locations": {
+        "KO": {
+          "type": "prose",
+          "line_index": 159,
+          "number_index": 6,
+          "excerpt": "양의 kinetic·confining 항과 유계 결합은 하한을 제공한다. K = 8에서 165개 공간 모드와 95개 대칭 상태를 사용한다. 축전하 입력으로 xc = 0.8208877164를 보정하고 첫 양의 parity 여기의 중심을 1370 MeV로 배정하면 Δ = 507.032217686 MeV와 gap = 431.081244315 MeV를 얻는다. 이 이산 Hermitian 계산은 공명 폭과 복소 pole을 계산하지 않는다."
+        },
+        "EN": {
+          "type": "prose",
+          "line_index": 158,
+          "number_index": 6,
+          "excerpt": "Positive kinetic-confining terms with bounded coupling supply a lower bound. K = 8 has 165 spatial modes and 95 symmetric states. Axial calibration gives xc = 0.8208877164. Assigning the first positive-parity excitation centre to 1370 MeV gives Δ = 507.032217686 MeV and gap = 431.081244315 MeV. The discrete Hermitian model does not calculate a resonance width or complex pole."
+        }
+      }
+    },
+    {
+      "name": "charge width",
+      "source_file": "evidence/bridge/studies/bridge_0_2/wrra-m/upstream/residue_current_v0_9/results.json",
+      "json_path": [
+        "frozen_charge_width_fm"
+      ],
+      "displayed_numeric_value": 0.65715059784,
+      "source_numeric_value": 0.6571505978447694,
+      "unit": "fm",
+      "relative_tolerance": 1e-09,
+      "document_locations": {
+        "KO": {
+          "type": "prose",
+          "line_index": 161,
+          "number_index": 4,
+          "excerpt": "전하 반지름의 초기 점전하 모형은 중성자 평균제곱 반지름 −0.186912 fm²를 내어 비교값 −0.1155 fm²와 어긋났다. 영 전하의 isovector 보정항과 공통 폭을 추가해 두 전하 반지름을 공동 보정하며 ℓ = 0.65715059784 fm, cE = −0.09708290347 fm²를 얻었다 [6]. 이 수정은 검증값을 반영한 모형 구성이다. 차원 없는 내부 Hamiltonian과 여기 척도는 유지한다."
+        },
+        "EN": {
+          "type": "prose",
+          "line_index": 160,
+          "number_index": 4,
+          "excerpt": "The original point-charge model gives neutron mean-square radius −0.186912 fm², disagreeing with −0.1155 fm². A zero-charge isovector term and common width jointly recalibrate both charge radii, yielding ℓ = 0.65715059784 fm and cE = −0.09708290347 fm² [6]. This is verified-input model construction; the dimensionless internal Hamiltonian and excitation scale remain fixed."
+        }
+      }
+    },
+    {
+      "name": "charge counterterm",
+      "source_file": "evidence/bridge/studies/bridge_0_2/wrra-m/upstream/residue_current_v0_9/results.json",
+      "json_path": [
+        "frozen_counterterm_radius_fm2"
+      ],
+      "displayed_numeric_value": -0.09708290347,
+      "source_numeric_value": -0.09708290347271198,
+      "unit": "fm^2",
+      "relative_tolerance": 1e-09,
+      "document_locations": {
+        "KO": {
+          "type": "prose",
+          "line_index": 161,
+          "number_index": 5,
+          "excerpt": "전하 반지름의 초기 점전하 모형은 중성자 평균제곱 반지름 −0.186912 fm²를 내어 비교값 −0.1155 fm²와 어긋났다. 영 전하의 isovector 보정항과 공통 폭을 추가해 두 전하 반지름을 공동 보정하며 ℓ = 0.65715059784 fm, cE = −0.09708290347 fm²를 얻었다 [6]. 이 수정은 검증값을 반영한 모형 구성이다. 차원 없는 내부 Hamiltonian과 여기 척도는 유지한다."
+        },
+        "EN": {
+          "type": "prose",
+          "line_index": 160,
+          "number_index": 5,
+          "excerpt": "The original point-charge model gives neutron mean-square radius −0.186912 fm², disagreeing with −0.1155 fm². A zero-charge isovector term and common width jointly recalibrate both charge radii, yielding ℓ = 0.65715059784 fm and cE = −0.09708290347 fm² [6]. This is verified-input model construction; the dimensionless internal Hamiltonian and excitation scale remain fixed."
+        }
+      }
+    },
+    {
+      "name": "selector",
+      "source_file": "evidence/bridge/studies/bridge_0_2/wrra-m/upstream/residue_current_v0_9/results.json",
+      "json_path": [
+        "rows",
+        1,
+        "selector_fraction_in_phi"
+      ],
+      "displayed_numeric_value": 0.3998832725128899,
+      "source_numeric_value": 0.3998832725128899,
+      "unit": "probability",
+      "relative_tolerance": 1e-09,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 3,
+          "row_index": 1,
+          "column_index": 1,
+          "number_index": 0
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 3,
+          "row_index": 1,
+          "column_index": 1,
+          "number_index": 0
+        }
+      }
+    },
+    {
+      "name": "prepared population",
+      "source_file": "evidence/bridge/studies/bridge_0_2/wrra-m/upstream/residue_current_v0_9/results.json",
+      "json_path": [
+        "rows",
+        1,
+        "excited_population"
+      ],
+      "displayed_numeric_value": 0.07997665450257799,
+      "source_numeric_value": 0.07997665450257799,
+      "unit": "probability",
+      "relative_tolerance": 1e-09,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 3,
+          "row_index": 2,
+          "column_index": 1,
+          "number_index": 0
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 3,
+          "row_index": 2,
+          "column_index": 1,
+          "number_index": 0
+        }
+      }
+    },
+    {
+      "name": "prepared excitation",
+      "source_file": "evidence/bridge/studies/bridge_0_2/wrra-m/upstream/residue_current_v0_9/results.json",
+      "json_path": [
+        "rows",
+        1,
+        "conditional_excitation_MeV"
+      ],
+      "displayed_numeric_value": 34.47643573911998,
+      "source_numeric_value": 34.47643573911998,
+      "unit": "MeV",
+      "relative_tolerance": 1e-09,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 3,
+          "row_index": 3,
+          "column_index": 1,
+          "number_index": 0
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 3,
+          "row_index": 3,
+          "column_index": 1,
+          "number_index": 0
+        }
+      }
+    },
+    {
+      "name": "prepared proton charge",
+      "source_file": "evidence/bridge/studies/bridge_0_2/wrra-m/upstream/residue_current_v0_9/results.json",
+      "json_path": [
+        "rows",
+        1,
+        "curves",
+        2,
+        "proton",
+        "GE"
+      ],
+      "displayed_numeric_value": 0.730176767,
+      "source_numeric_value": 0.7301767666507732,
+      "unit": "1",
+      "relative_tolerance": 1e-09,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 3,
+          "row_index": 4,
+          "column_index": 1,
+          "number_index": 0
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 3,
+          "row_index": 4,
+          "column_index": 1,
+          "number_index": 0
+        }
+      }
+    },
+    {
+      "name": "prepared neutron charge",
+      "source_file": "evidence/bridge/studies/bridge_0_2/wrra-m/upstream/residue_current_v0_9/results.json",
+      "json_path": [
+        "rows",
+        1,
+        "curves",
+        2,
+        "neutron",
+        "GE"
+      ],
+      "displayed_numeric_value": 0.04166269,
+      "source_numeric_value": 0.04166268978028403,
+      "unit": "1",
+      "relative_tolerance": 2e-08,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 3,
+          "row_index": 4,
+          "column_index": 1,
+          "number_index": 1
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 3,
+          "row_index": 4,
+          "column_index": 1,
+          "number_index": 1
+        }
+      }
+    },
+    {
+      "name": "prepared proton magnetic",
+      "source_file": "evidence/bridge/studies/bridge_0_2/wrra-m/upstream/residue_current_v0_9/results.json",
+      "json_path": [
+        "rows",
+        1,
+        "curves",
+        2,
+        "proton",
+        "GM_muN"
+      ],
+      "displayed_numeric_value": 1.93518641,
+      "source_numeric_value": 1.9351864102662408,
+      "unit": "mu_N",
+      "relative_tolerance": 1e-09,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 3,
+          "row_index": 5,
+          "column_index": 1,
+          "number_index": 0
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 3,
+          "row_index": 5,
+          "column_index": 1,
+          "number_index": 0
+        }
+      }
+    },
+    {
+      "name": "prepared neutron magnetic",
+      "source_file": "evidence/bridge/studies/bridge_0_2/wrra-m/upstream/residue_current_v0_9/results.json",
+      "json_path": [
+        "rows",
+        1,
+        "curves",
+        2,
+        "neutron",
+        "GM_muN"
+      ],
+      "displayed_numeric_value": -1.409366748,
+      "source_numeric_value": -1.4093667479958487,
+      "unit": "mu_N",
+      "relative_tolerance": 1e-09,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 3,
+          "row_index": 5,
+          "column_index": 1,
+          "number_index": 1
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 3,
+          "row_index": 5,
+          "column_index": 1,
+          "number_index": 1
+        }
+      }
+    },
+    {
+      "name": "prepared vector",
+      "source_file": "evidence/bridge/studies/bridge_0_2/wrra-m/upstream/residue_current_v0_9/results.json",
+      "json_path": [
+        "rows",
+        1,
+        "curves",
+        2,
+        "weak",
+        "GEV"
+      ],
+      "displayed_numeric_value": 0.688514077,
+      "source_numeric_value": 0.688514076870489,
+      "unit": "1",
+      "relative_tolerance": 1e-09,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 3,
+          "row_index": 6,
+          "column_index": 1,
+          "number_index": 0
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 3,
+          "row_index": 6,
+          "column_index": 1,
+          "number_index": 0
+        }
+      }
+    },
+    {
+      "name": "prepared axial",
+      "source_file": "evidence/bridge/studies/bridge_0_2/wrra-m/upstream/residue_current_v0_9/results.json",
+      "json_path": [
+        "rows",
+        1,
+        "curves",
+        2,
+        "weak",
+        "GAV"
+      ],
+      "displayed_numeric_value": 0.897125841,
+      "source_numeric_value": 0.8971258414783907,
+      "unit": "1",
+      "relative_tolerance": 1e-09,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 3,
+          "row_index": 6,
+          "column_index": 1,
+          "number_index": 1
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 3,
+          "row_index": 6,
+          "column_index": 1,
+          "number_index": 1
+        }
+      }
+    },
+    {
+      "name": "address correlation diagnostic",
+      "source_file": "evidence/bridge/studies/bridge_0_2/results.json",
+      "json_path": [
+        "rows",
+        0,
+        "probe_difference_MeV"
+      ],
+      "displayed_numeric_value": 0.1447722277,
+      "source_numeric_value": 0.1447722277347907,
+      "unit": "MeV",
+      "relative_tolerance": 5e-10,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 3,
+          "row_index": 7,
+          "column_index": 1,
+          "number_index": 0
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 3,
+          "row_index": 7,
+          "column_index": 1,
+          "number_index": 0
+        }
+      }
+    },
+    {
+      "name": "expected proton occupancy",
+      "source_file": "evidence/bridge/studies/bridge_0_3/results.json",
+      "json_path": [
+        "rows",
+        0,
+        "expected_population_input"
+      ],
+      "displayed_numeric_value": 0.2425893464,
+      "source_numeric_value": 0.2425893463937076,
+      "unit": "expected count",
+      "relative_tolerance": 5e-10,
+      "document_locations": {
+        "KO": {
+          "type": "prose",
+          "line_index": 210,
+          "number_index": 1,
+          "excerpt": "식 13은 기존 Eφ를 정지·여기 분해로 교체한다. 기존 총 에너지에 그 분해를 다시 더하면 Eφ 전체가 중복된다. 기존 보정 양성자 예시의 N̄ = 0.2425893464이며 기준 표현형 에너지는 정지 3.6467913480 × 10⁻¹¹ J와 여기 1.3399990150 × 10⁻¹² J로 나뉜다. 1 MeV = 1.602176634 × 10⁻¹³ J를 사용한다."
+        },
+        "EN": {
+          "type": "prose",
+          "line_index": 209,
+          "number_index": 1,
+          "excerpt": "Equation 13 replaces Eφ by its rest/excitation decomposition. Adding that decomposition to the unchanged total would duplicate all of Eφ. The inherited proton example has N̄ = 0.2425893464, with rest 3.6467913480 × 10⁻¹¹ J and baseline excitation 1.3399990150 × 10⁻¹² J. The conversion is 1 MeV = 1.602176634 × 10⁻¹³ J."
+        }
+      }
+    },
+    {
+      "name": "rest allocation",
+      "source_file": "evidence/bridge/studies/bridge_0_3/results.json",
+      "json_path": [
+        "rows",
+        0,
+        "rest_total_J"
+      ],
+      "displayed_numeric_value": 3.646791348e-11,
+      "source_numeric_value": 3.6467913480354414e-11,
+      "unit": "J",
+      "relative_tolerance": 5e-10,
+      "document_locations": {
+        "KO": {
+          "type": "prose",
+          "line_index": 210,
+          "number_index": 2,
+          "excerpt": "식 13은 기존 Eφ를 정지·여기 분해로 교체한다. 기존 총 에너지에 그 분해를 다시 더하면 Eφ 전체가 중복된다. 기존 보정 양성자 예시의 N̄ = 0.2425893464이며 기준 표현형 에너지는 정지 3.6467913480 × 10⁻¹¹ J와 여기 1.3399990150 × 10⁻¹² J로 나뉜다. 1 MeV = 1.602176634 × 10⁻¹³ J를 사용한다."
+        },
+        "EN": {
+          "type": "prose",
+          "line_index": 209,
+          "number_index": 2,
+          "excerpt": "Equation 13 replaces Eφ by its rest/excitation decomposition. Adding that decomposition to the unchanged total would duplicate all of Eφ. The inherited proton example has N̄ = 0.2425893464, with rest 3.6467913480 × 10⁻¹¹ J and baseline excitation 1.3399990150 × 10⁻¹² J. The conversion is 1 MeV = 1.602176634 × 10⁻¹³ J."
+        }
+      }
+    },
+    {
+      "name": "excitation allocation",
+      "source_file": "evidence/bridge/studies/bridge_0_3/results.json",
+      "json_path": [
+        "rows",
+        0,
+        "excitation_total_J"
+      ],
+      "displayed_numeric_value": 1.339999015e-12,
+      "source_numeric_value": 1.3399990150075855e-12,
+      "unit": "J",
+      "relative_tolerance": 5e-10,
+      "document_locations": {
+        "KO": {
+          "type": "prose",
+          "line_index": 210,
+          "number_index": 3,
+          "excerpt": "식 13은 기존 Eφ를 정지·여기 분해로 교체한다. 기존 총 에너지에 그 분해를 다시 더하면 Eφ 전체가 중복된다. 기존 보정 양성자 예시의 N̄ = 0.2425893464이며 기준 표현형 에너지는 정지 3.6467913480 × 10⁻¹¹ J와 여기 1.3399990150 × 10⁻¹² J로 나뉜다. 1 MeV = 1.602176634 × 10⁻¹³ J를 사용한다."
+        },
+        "EN": {
+          "type": "prose",
+          "line_index": 209,
+          "number_index": 3,
+          "excerpt": "Equation 13 replaces Eφ by its rest/excitation decomposition. Adding that decomposition to the unchanged total would duplicate all of Eφ. The inherited proton example has N̄ = 0.2425893464, with rest 3.6467913480 × 10⁻¹¹ J and baseline excitation 1.3399990150 × 10⁻¹² J. The conversion is 1 MeV = 1.602176634 × 10⁻¹³ J."
+        }
+      }
+    },
+    {
+      "name": "small preparation supply",
+      "source_file": "evidence/bridge/studies/bridge_0_3/results.json",
+      "json_path": [
+        "rows",
+        1,
+        "system_change_J"
+      ],
+      "displayed_numeric_value": 8.9385339569e-15,
+      "source_numeric_value": 8.938533956944637e-15,
+      "unit": "J",
+      "relative_tolerance": 5e-10,
+      "document_locations": {
+        "KO": {
+          "type": "prose",
+          "line_index": 217,
+          "number_index": 0,
+          "excerpt": "**검증 입력 → WRRA 고유 변환 → 산출값 → 반증조건.** 같은 내부 여기, MeV 변환, 고정 기대 점유수와 유한 저장고에서 교체·signed 교환을 계산한다. 작은 준비 변화는 양성자 기준 시스템에 8.9385339569 × 10⁻¹⁵ J를 공급하고 환경에 반대 증분을 남긴다. 음의 저장고, 공급 부족, 비유한 값 또는 포함 총량 변화는 실패로 처리한다."
+        },
+        "EN": {
+          "type": "prose",
+          "line_index": 216,
+          "number_index": 0,
+          "excerpt": "**Verified inputs → WRRA transformation → outputs → falsifiers.** The same excitation, MeV conversion, fixed expected population and finite reservoir determine replacement and signed exchange. A small preparation variation supplies 8.9385339569 × 10⁻¹⁵ J in the proton example and an opposite environmental increment. Negative reservoir, insufficient supply, nonfinite data or changing included total cause rejection."
+        }
+      }
+    },
+    {
+      "name": "electron-mode unit",
+      "source_file": "evidence/bridge/studies/bridge_0_5/results.json",
+      "json_path": [
+        "calibration",
+        "mu_eV"
+      ],
+      "displayed_numeric_value": 22217.345682174,
+      "source_numeric_value": 22217.345682173913,
+      "unit": "eV",
+      "relative_tolerance": 5e-10,
+      "document_locations": {
+        "KO": {
+          "type": "prose",
+          "line_index": 262,
+          "number_index": 2,
+          "excerpt": "하류 전자 모드 23은 μE = Ee/23 = 22217.345682174 eV를 정한다. 그 시간 단위 tμ = ℏ/μE = 2.962603932832 × 10⁻²⁰ s이다. 하류의 선택 갱신 간격 0.05tμ와 소스의 위상 증분 0.1에 연결한 프레임 간격은 다르다."
+        },
+        "EN": {
+          "type": "prose",
+          "line_index": 261,
+          "number_index": 2,
+          "excerpt": "Electron mode 23 gives μE = Ee/23 = 22217.345682174 eV and tμ = ℏ/μE = 2.962603932832 × 10⁻²⁰ s. The downstream update 0.05tμ differs from the source frame assigned to phase increment 0.1."
+        }
+      }
+    },
+    {
+      "name": "frame duration",
+      "source_file": "evidence/bridge/studies/bridge_0_5/results.json",
+      "json_path": [
+        "calibration",
+        "chosen_frame_duration_s"
+      ],
+      "displayed_numeric_value": 2.962603932832e-21,
+      "source_numeric_value": 2.9626039328317383e-21,
+      "unit": "s",
+      "relative_tolerance": 5e-10,
+      "document_locations": {
+        "KO": {
+          "type": "prose",
+          "line_index": 265,
+          "number_index": 1,
+          "excerpt": "\\Delta\\tau_{\\rm frame}=\\frac{0.1}{\\omega}=2.962603932832\\times10^{-21}\\ {\\rm s},\\qquad"
+        },
+        "EN": {
+          "type": "prose",
+          "line_index": 264,
+          "number_index": 1,
+          "excerpt": "\\Delta\\tau_{\\rm frame}=\\frac{0.1}{\\omega}=2.962603932832\\times10^{-21}\\ {\\rm s},\\qquad"
+        }
+      }
+    },
+    {
+      "name": "first internal phase",
+      "source_file": "evidence/bridge/studies/bridge_0_5/results.json",
+      "json_path": [
+        "internal_rows",
+        0,
+        "excitation_phase_rad"
+      ],
+      "displayed_numeric_value": 1940.2913853,
+      "source_numeric_value": 1940.2913853065702,
+      "unit": "rad",
+      "relative_tolerance": 5e-10,
+      "document_locations": {
+        "KO": {
+          "type": "prose",
+          "line_index": 270,
+          "number_index": 1,
+          "excerpt": "같은 고유시간을 95차원 내부 생성자에 적용하면 첫 gap의 한 프레임 상대 위상은 약 1940.2913853 rad이다. 95개 상대 에너지 중 94개는 비영 정수 가지를 필요로 한다. 위상만 읽어 가지를 버리면 원래 에너지를 복원할 수 없다. 실행한 상대 생성자는 Hrel = HB − EB,rest I이다. 식 20의 고유값 εj = Ej − EB,rest는 joule 단위이며 τ = kΔτframe이다. θj는 대응하는 Urel† 고유값의 주값 위상으로 정의하여 양의 생성자 위상과 부호를 맞춘다."
+        },
+        "EN": {
+          "type": "prose",
+          "line_index": 269,
+          "number_index": 1,
+          "excerpt": "Using the same proper time in the 95D internal generator gives first-gap phase approximately 1940.2913853 rad per frame. Ninety-four of the 95 relative energies require nonzero integer branches. Reading phase alone and discarding branches loses the original energy. The executed relative generator is Hrel = HB − EB,rest I. Its eigenvalues εj = Ej − EB,rest are expressed in joules in Eq. 20; τ = kΔτframe. Here θj is the principal phase of the corresponding eigenvalue of Urel†, matching the positive generator-phase convention."
+        }
+      }
+    },
+    {
+      "name": "phase recovery error",
+      "source_file": "evidence/bridge/studies/bridge_0_5/results.json",
+      "json_path": [
+        "internal_rows",
+        0,
+        "relative_phase_recovery_max_MeV"
+      ],
+      "displayed_numeric_value": 1.8189894035e-12,
+      "source_numeric_value": 1.8189894035458565e-12,
+      "unit": "MeV",
+      "relative_tolerance": 5e-10,
+      "document_locations": {
+        "KO": {
+          "type": "prose",
+          "line_index": 277,
+          "number_index": 1,
+          "excerpt": "**검증 입력 → WRRA 고유 변환 → 산출값 → 반증조건.** 고정 전자 에너지·소스 위상과 같은 내부 H에 선언한 SI 프레임을 적용한다. 25개 주소·프레임 조합의 구동과 내부 위상, 에너지 복원을 재현하며 최대 복원 오차는 1.8189894035 × 10⁻¹² MeV이다. 위상 가지, SI 단위 또는 고유시간 불변성이 깨지면 그 시간 연결은 실패한다."
+        },
+        "EN": {
+          "type": "prose",
+          "line_index": 276,
+          "number_index": 0,
+          "excerpt": "**Verified inputs → WRRA transformation → outputs → falsifiers.** Fixed electron energy, source phases and the same internal H are evolved at the adopted SI spacing. Twenty-five address-frame cases reproduce the driver, internal phases and energy recovery, with maximum recovery error 1.8189894035 × 10⁻¹² MeV. Lost phase branches, inconsistent units or failed proper-time invariance reject the clock connection."
+        }
+      }
+    },
+    {
+      "name": "preserved failed clock ratio",
+      "source_file": "evidence/bridge/studies/bridge_0_5/results.json",
+      "json_path": [
+        "failed_clock_ratio_preserved"
+      ],
+      "displayed_numeric_value": 2.102556972196466e-43,
+      "source_numeric_value": 2.102556972196466e-43,
+      "unit": "1",
+      "relative_tolerance": 5e-10,
+      "document_locations": {
+        "KO": {
+          "type": "prose",
+          "line_index": 279,
+          "number_index": 0,
+          "excerpt": "**판정.** 조건부 SI 위상 연결을 실행했다. 구동률을 두 배로 하고 프레임 길이를 반으로 하면 같은 무차원 프레임 unitary가 유지되므로 실제 시계율은 아직 유일하게 식별되지 않는다. 기존 느린 스케줄과 SI Hamiltonian의 비 2.102556972196466 × 10⁻⁴³ ≠ 1은 실패로 유지한다. 새 선택 생성자는 옛 시계 동일성을 복구하지 않는다. 프레임 간격이나 선택 cavity 길이를 관측된 최소 시간·길이 또는 우주 크기라고 부르지 않는다."
+        },
+        "EN": {
+          "type": "prose",
+          "line_index": 278,
+          "number_index": 0,
+          "excerpt": "**Verdict.** Conditional SI phase connection executes. Doubling driver rate while halving frame duration preserves frame unitaries, so the actual physical rate is not uniquely identified by dimensionless frame data. The old slow-schedule/SI-generator ratio 2.102556972196466 × 10⁻⁴³ ≠ 1 remains failed. The separately chosen generator does not repair that old equality. Adopted spacing and cavity lengths are not measured minimum time, minimum length or cosmic size."
+        }
+      }
+    },
+    {
+      "name": "single-particle write work",
+      "source_file": "evidence/bridge/studies/bridge_0_6/results.json",
+      "json_path": [
+        "write_work_J"
+      ],
+      "displayed_numeric_value": 2.901146067898069e-11,
+      "source_numeric_value": 2.901146067898069e-11,
+      "unit": "J",
+      "relative_tolerance": 5e-10,
+      "document_locations": {
+        "KO": {
+          "type": "prose",
+          "line_index": 293,
+          "number_index": 0,
+          "excerpt": "W는 내부·기록 에너지와 일반적으로 교환하지 않으므로 외부 제어 일이 필요하다. 입자별 평균 기록 일은 2.901146067898069 × 10⁻¹¹ J이다. 0.8 검토는 그 비용을 기준 기대 점유수와 연결해 우주 장부에 한 번 넣었다."
+        },
+        "EN": {
+          "type": "prose",
+          "line_index": 292,
+          "number_index": 0,
+          "excerpt": "W generally does not commute with system plus record energy, so externally controlled work is required. Mean single-particle writing work is 2.901146067898069 × 10⁻¹¹ J. The 0.8 review inserts that cost once using the reference expected population."
+        }
+      }
+    },
+    {
+      "name": "record error at 256 ticks",
+      "source_file": "evidence/bridge/studies/bridge_0_6/results.json",
+      "json_path": [
+        "record_retention",
+        5,
+        "record_error_probability"
+      ],
+      "displayed_numeric_value": 0.200505691292,
+      "source_numeric_value": 0.20050569129219964,
+      "unit": "probability",
+      "relative_tolerance": 5e-10,
+      "document_locations": {
+        "KO": {
+          "type": "prose",
+          "line_index": 20,
+          "number_index": 8,
+          "excerpt": "**산출값.** 유한 비보정 잔존 4.876893353%, 공동 보정 주소 분할 5%·26.8%·68.2%, 같은 내부 상태의 기준 여기 34.4764357391 MeV를 연결한다. 에너지 보정에 따라 현재 감속계수 −0.52855 또는 −0.523을 재현한다. 이상적 측정·기록의 일과 공급 경계를 함께 계산하며, 지정한 기록 잡음에서 256회 뒤 오류 0.2005056913을 산출한다. 이번 재실행에서 연결 연구의 1,116개 단계 검사와 188개 검토 검사, 하류 96개 구별된 검사군 및 37개 파일의 동일 재현을 확인했다."
+        },
+        "EN": {
+          "type": "prose",
+          "line_index": 19,
+          "number_index": 7,
+          "excerpt": "**Outputs.** The connected construction yields the uncalibrated finite residue 4.876893353%, joint address calibration 5% / 26.8% / 68.2%, and baseline conditional excitation 34.4764357391 MeV. The two named energy calibrations reproduce present deceleration −0.52855 and −0.523. Ideal measurement and recording work is linked to finite supply boundaries; the declared record-noise model gives error 0.2005056913 after 256 ticks. This execution passes 1,116 bridge stage checks and 188 review checks, and reproduces 96 distinct downstream check groups and 37 result/source files."
+        }
+      }
+    },
+    {
+      "name": "record retention time",
+      "source_file": "evidence/bridge/studies/bridge_0_6/results.json",
+      "json_path": [
+        "record_retention",
+        5,
+        "proper_time_s"
+      ],
+      "displayed_numeric_value": 7.584266068e-19,
+      "source_numeric_value": 7.58426606804925e-19,
+      "unit": "s",
+      "relative_tolerance": 5e-10,
+      "document_locations": {
+        "KO": {
+          "type": "prose",
+          "line_index": 309,
+          "number_index": 3,
+          "excerpt": "**검증 입력 → WRRA 고유 변환 → 산출값 → 반증조건.** 고정 gap, 준비 인구, 프레임과 기록 gap에 유한 판독을 적용한다. Born 확률·조건부 상태·평균 일·반복 전이와 기록 잡음을 계산한다. pflip = 0.001에서 256회 오류는 0.200505691292이며 선택한 시간으로 7.5842660680 × 10⁻¹⁹ s이다. 내부·기록 증가가 공급과 다르거나 포함 총량이 변하거나 저장고가 음수가 되면 연결을 기각한다."
+        },
+        "EN": {
+          "type": "prose",
+          "line_index": 308,
+          "number_index": 3,
+          "excerpt": "**Verified inputs → WRRA transformation → outputs → falsifiers.** Frozen gap, population, spacing and record gap specify the finite readout. Born probabilities, conditional states, mean work, repeated transitions and record noise are calculated. At pflip = 0.001, 256 ticks give error 0.200505691292 over the adopted time 7.5842660680 × 10⁻¹⁹ s. Internal plus record increase differing from supply, a changing included total or a negative reservoir rejects the connection."
+        }
+      }
+    },
+    {
+      "name": "temporal convergence ratio",
+      "source_file": "evidence/bridge/studies/bridge_0_7/results.json",
+      "json_path": [
+        "convergence",
+        "ratio"
+      ],
+      "displayed_numeric_value": 4.000041,
+      "source_numeric_value": 4.0000410155016874,
+      "unit": "1",
+      "relative_tolerance": 1e-07,
+      "document_locations": {
+        "KO": {
+          "type": "prose",
+          "line_index": 326,
+          "number_index": 7,
+          "excerpt": "**검증 입력 → WRRA 고유 변환 → 산출값 → 반증조건.** L = 20, λ = 1, 주기 경계와 Gaussian 초기 상태에서 최종 s = 1까지 진화한다. N = 64의 시간 간격 0.01, 0.005, 0.0025에서 밀도 차이의 비 4.000041을 얻는다. N = 64와 128의 격자 비교 L2 차이는 9.02348 × 10⁻¹²이다. 빠른 내부 정지 에너지를 오차 분모에 넣지 않고 동적 에너지 drift, Poisson 잔차, 국소 전류·연속식, 역진화와 자유 대조를 검사한다. 정규화·전류·수렴·에너지 진단이 명세에 어긋나면 유효 구간을 기각한다."
+        },
+        "EN": {
+          "type": "prose",
+          "line_index": 325,
+          "number_index": 7,
+          "excerpt": "**Verified inputs → WRRA transformation → outputs → falsifiers.** With L = 20, λ = 1, periodic boundaries and Gaussian profiles, runs reach s = 1. At N = 64 and steps 0.01, 0.005 and 0.0025, successive density differences have ratio 4.000041. The N = 64/128 grid L2 difference is 9.02348 × 10⁻¹². Dynamic-energy drift is checked without diluting it by large constant rest/internal energy, alongside Poisson residuals, local current continuity, reversal and free controls. Failed normalization, currents, convergence or energy diagnostics reject this effective interval."
+        }
+      }
+    },
+    {
+      "name": "spatial convergence L2",
+      "source_file": "evidence/bridge/studies/bridge_0_7/results.json",
+      "json_path": [
+        "convergence",
+        "grid_L2"
+      ],
+      "displayed_numeric_value": 9.02348e-12,
+      "source_numeric_value": 9.023481162852002e-12,
+      "unit": "dimensionless",
+      "relative_tolerance": 2e-07,
+      "document_locations": {
+        "KO": {
+          "type": "prose",
+          "line_index": 326,
+          "number_index": 11,
+          "excerpt": "**검증 입력 → WRRA 고유 변환 → 산출값 → 반증조건.** L = 20, λ = 1, 주기 경계와 Gaussian 초기 상태에서 최종 s = 1까지 진화한다. N = 64의 시간 간격 0.01, 0.005, 0.0025에서 밀도 차이의 비 4.000041을 얻는다. N = 64와 128의 격자 비교 L2 차이는 9.02348 × 10⁻¹²이다. 빠른 내부 정지 에너지를 오차 분모에 넣지 않고 동적 에너지 drift, Poisson 잔차, 국소 전류·연속식, 역진화와 자유 대조를 검사한다. 정규화·전류·수렴·에너지 진단이 명세에 어긋나면 유효 구간을 기각한다."
+        },
+        "EN": {
+          "type": "prose",
+          "line_index": 325,
+          "number_index": 11,
+          "excerpt": "**Verified inputs → WRRA transformation → outputs → falsifiers.** With L = 20, λ = 1, periodic boundaries and Gaussian profiles, runs reach s = 1. At N = 64 and steps 0.01, 0.005 and 0.0025, successive density differences have ratio 4.000041. The N = 64/128 grid L2 difference is 9.02348 × 10⁻¹². Dynamic-energy drift is checked without diluting it by large constant rest/internal energy, alongside Poisson residuals, local current continuity, reversal and free controls. Failed normalization, currents, convergence or energy diagnostics reject this effective interval."
+        }
+      }
+    },
+    {
+      "name": "mean write supply 0",
+      "source_file": "evidence/bridge/results.json",
+      "json_path": [
+        "ideal_readout_boundary_diagnostics",
+        0,
+        "controller_supply_J"
+      ],
+      "displayed_numeric_value": 7.0378713e-12,
+      "source_numeric_value": 7.037871284040674e-12,
+      "unit": "J",
+      "relative_tolerance": 1e-07,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 1,
+          "column_index": 1,
+          "number_index": 0
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 1,
+          "column_index": 1,
+          "number_index": 0
+        }
+      }
+    },
+    {
+      "name": "external_q_before 0",
+      "source_file": "evidence/bridge/results.json",
+      "json_path": [
+        "ideal_readout_boundary_diagnostics",
+        0,
+        "external_q_before"
+      ],
+      "displayed_numeric_value": -0.52855,
+      "source_numeric_value": -0.52855,
+      "unit": "1",
+      "relative_tolerance": 2e-06,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 1,
+          "column_index": 2,
+          "number_index": 0
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 1,
+          "column_index": 2,
+          "number_index": 0
+        }
+      }
+    },
+    {
+      "name": "external_q_after 0",
+      "source_file": "evidence/bridge/results.json",
+      "json_path": [
+        "ideal_readout_boundary_diagnostics",
+        0,
+        "external_q_after"
+      ],
+      "displayed_numeric_value": -0.519197,
+      "source_numeric_value": -0.5191967280747398,
+      "unit": "1",
+      "relative_tolerance": 2e-06,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 1,
+          "column_index": 2,
+          "number_index": 1
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 1,
+          "column_index": 2,
+          "number_index": 1
+        }
+      }
+    },
+    {
+      "name": "included_pressureless_q 0",
+      "source_file": "evidence/bridge/results.json",
+      "json_path": [
+        "ideal_readout_boundary_diagnostics",
+        0,
+        "included_pressureless_q"
+      ],
+      "displayed_numeric_value": -0.518508,
+      "source_numeric_value": -0.518507515893292,
+      "unit": "1",
+      "relative_tolerance": 2e-06,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 1,
+          "column_index": 3,
+          "number_index": 0
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 1,
+          "column_index": 3,
+          "number_index": 0
+        }
+      }
+    },
+    {
+      "name": "mean write supply 1",
+      "source_file": "evidence/bridge/results.json",
+      "json_path": [
+        "ideal_readout_boundary_diagnostics",
+        1,
+        "controller_supply_J"
+      ],
+      "displayed_numeric_value": 7.0285264e-12,
+      "source_numeric_value": 7.028526400490666e-12,
+      "unit": "J",
+      "relative_tolerance": 1e-07,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 2,
+          "column_index": 1,
+          "number_index": 0
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 2,
+          "column_index": 1,
+          "number_index": 0
+        }
+      }
+    },
+    {
+      "name": "external_q_before 1",
+      "source_file": "evidence/bridge/results.json",
+      "json_path": [
+        "ideal_readout_boundary_diagnostics",
+        1,
+        "external_q_before"
+      ],
+      "displayed_numeric_value": -0.52855,
+      "source_numeric_value": -0.52855,
+      "unit": "1",
+      "relative_tolerance": 2e-06,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 2,
+          "column_index": 2,
+          "number_index": 0
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 2,
+          "column_index": 2,
+          "number_index": 0
+        }
+      }
+    },
+    {
+      "name": "external_q_after 1",
+      "source_file": "evidence/bridge/results.json",
+      "json_path": [
+        "ideal_readout_boundary_diagnostics",
+        1,
+        "external_q_after"
+      ],
+      "displayed_numeric_value": -0.519209,
+      "source_numeric_value": -0.5192090345587278,
+      "unit": "1",
+      "relative_tolerance": 2e-06,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 2,
+          "column_index": 2,
+          "number_index": 1
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 2,
+          "column_index": 2,
+          "number_index": 1
+        }
+      }
+    },
+    {
+      "name": "included_pressureless_q 1",
+      "source_file": "evidence/bridge/results.json",
+      "json_path": [
+        "ideal_readout_boundary_diagnostics",
+        1,
+        "included_pressureless_q"
+      ],
+      "displayed_numeric_value": -0.518508,
+      "source_numeric_value": -0.5185075158932921,
+      "unit": "1",
+      "relative_tolerance": 2e-06,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 2,
+          "column_index": 3,
+          "number_index": 0
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 2,
+          "column_index": 3,
+          "number_index": 0
+        }
+      }
+    },
+    {
+      "name": "mean write supply 2",
+      "source_file": "evidence/bridge/results.json",
+      "json_path": [
+        "ideal_readout_boundary_diagnostics",
+        2,
+        "controller_supply_J"
+      ],
+      "displayed_numeric_value": 7.1378005e-12,
+      "source_numeric_value": 7.137800490913464e-12,
+      "unit": "J",
+      "relative_tolerance": 1e-07,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 3,
+          "column_index": 1,
+          "number_index": 0
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 3,
+          "column_index": 1,
+          "number_index": 0
+        }
+      }
+    },
+    {
+      "name": "external_q_before 2",
+      "source_file": "evidence/bridge/results.json",
+      "json_path": [
+        "ideal_readout_boundary_diagnostics",
+        2,
+        "external_q_before"
+      ],
+      "displayed_numeric_value": -0.523,
+      "source_numeric_value": -0.5230000000000002,
+      "unit": "1",
+      "relative_tolerance": 2e-06,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 3,
+          "column_index": 2,
+          "number_index": 0
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 3,
+          "column_index": 2,
+          "number_index": 0
+        }
+      }
+    },
+    {
+      "name": "external_q_after 2",
+      "source_file": "evidence/bridge/results.json",
+      "json_path": [
+        "ideal_readout_boundary_diagnostics",
+        2,
+        "external_q_after"
+      ],
+      "displayed_numeric_value": -0.513566,
+      "source_numeric_value": -0.5135663274174727,
+      "unit": "1",
+      "relative_tolerance": 2e-06,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 3,
+          "column_index": 2,
+          "number_index": 1
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 3,
+          "column_index": 2,
+          "number_index": 1
+        }
+      }
+    },
+    {
+      "name": "included_pressureless_q 2",
+      "source_file": "evidence/bridge/results.json",
+      "json_path": [
+        "ideal_readout_boundary_diagnostics",
+        2,
+        "included_pressureless_q"
+      ],
+      "displayed_numeric_value": -0.512871,
+      "source_numeric_value": -0.5128712871287131,
+      "unit": "1",
+      "relative_tolerance": 2e-06,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 3,
+          "column_index": 3,
+          "number_index": 0
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 3,
+          "column_index": 3,
+          "number_index": 0
+        }
+      }
+    },
+    {
+      "name": "mean write supply 3",
+      "source_file": "evidence/bridge/results.json",
+      "json_path": [
+        "ideal_readout_boundary_diagnostics",
+        3,
+        "controller_supply_J"
+      ],
+      "displayed_numeric_value": 7.1283229e-12,
+      "source_numeric_value": 7.128322921390129e-12,
+      "unit": "J",
+      "relative_tolerance": 1e-07,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 4,
+          "column_index": 1,
+          "number_index": 0
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 4,
+          "column_index": 1,
+          "number_index": 0
+        }
+      }
+    },
+    {
+      "name": "external_q_before 3",
+      "source_file": "evidence/bridge/results.json",
+      "json_path": [
+        "ideal_readout_boundary_diagnostics",
+        3,
+        "external_q_before"
+      ],
+      "displayed_numeric_value": -0.523,
+      "source_numeric_value": -0.5230000000000002,
+      "unit": "1",
+      "relative_tolerance": 2e-06,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 4,
+          "column_index": 2,
+          "number_index": 0
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 4,
+          "column_index": 2,
+          "number_index": 0
+        }
+      }
+    },
+    {
+      "name": "external_q_after 3",
+      "source_file": "evidence/bridge/results.json",
+      "json_path": [
+        "ideal_readout_boundary_diagnostics",
+        3,
+        "external_q_after"
+      ],
+      "displayed_numeric_value": -0.513579,
+      "source_numeric_value": -0.5135787380875655,
+      "unit": "1",
+      "relative_tolerance": 2e-06,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 4,
+          "column_index": 2,
+          "number_index": 1
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 4,
+          "column_index": 2,
+          "number_index": 1
+        }
+      }
+    },
+    {
+      "name": "included_pressureless_q 3",
+      "source_file": "evidence/bridge/results.json",
+      "json_path": [
+        "ideal_readout_boundary_diagnostics",
+        3,
+        "included_pressureless_q"
+      ],
+      "displayed_numeric_value": -0.512871,
+      "source_numeric_value": -0.5128712871287131,
+      "unit": "1",
+      "relative_tolerance": 2e-06,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 4,
+          "column_index": 3,
+          "number_index": 0
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 5,
+          "row_index": 4,
+          "column_index": 3,
+          "number_index": 0
+        }
+      }
+    },
+    {
+      "name": "dependency probe 2",
+      "source_file": "evidence/bridge/results.json",
+      "json_path": [
+        "dependency_probes",
+        2,
+        "numerical_difference"
+      ],
+      "displayed_numeric_value": 0.01681125416,
+      "source_numeric_value": 0.016811254159630806,
+      "unit": "dimensionless",
+      "relative_tolerance": 5e-10,
+      "document_locations": {
+        "KO": {
+          "type": "prose",
+          "line_index": 328,
+          "number_index": 2,
+          "excerpt": "**판정.** 유한 비균질 자기일관 되먹임을 구현했다. source는 여기 에너지까지 포함한 stress energy tensor가 아니라 동일 가중 운반 점유 밀도이다. 시계율과 기록 일을 두 배로 바꿔도 이 계산의 밀도·장이 변하지 않는다는 0.8 의존성 대조를 유지한다. 준비 인구를 0.12로 바꾸면 최종 밀도가 최대 0.01681125416 변한다. 따라서 내부 인구는 실제 입력이며 시계·기록 파일은 근거로 보관된 자료이다. 균질 밀도에서 Φ = 0은 평균을 뺀 Poisson의 결과이고 FRW 배경 재현이 아니다. SI kinetic·길이·G의 공통 보정, 기록 후 상태의 공간장 전달 및 전체 공변 배경·섭동 통합은 아직 열려 있다."
+        },
+        "EN": {
+          "type": "prose",
+          "line_index": 327,
+          "number_index": 2,
+          "excerpt": "**Verdict.** Finite nonuniform self-consistent feedback executes. Its source is equal-weight carrier occupancy, not a stress-energy tensor including excitation energy. The 0.8 dependency probe preserves the finding that doubled clock rate or record work does not change its density/field. Changing population to 0.12 changes final density by up to 0.01681125416, confirming population as an actual numerical input while clock/record files are provenance. Uniform Φ = 0 follows from mean-subtracted Poisson and does not reproduce FRW expansion. Common SI kinetic, length and G calibration, post-measurement state transfer to fields and covariant background/perturbation integration remain open."
+        }
+      }
+    },
+    {
+      "name": "dependency probe 3",
+      "source_file": "evidence/bridge/results.json",
+      "json_path": [
+        "dependency_probes",
+        3,
+        "numerical_difference"
+      ],
+      "displayed_numeric_value": 0.55243420946,
+      "source_numeric_value": 0.5524342094560526,
+      "unit": "dimensionless",
+      "relative_tolerance": 5e-10,
+      "document_locations": {
+        "KO": {
+          "type": "prose",
+          "line_index": 351,
+          "number_index": 0,
+          "excerpt": "검증값을 고정한 뒤의 WRRA 조건부 예측에는 주소 변화에 따른 여기·전류 변화, 같은 gap과 프레임의 반복 전이, 지정 잡음에서의 기록 오류, 선언한 공간 상태의 밀도·장 진화가 포함된다. 그 조건부 예측은 준비와 관측량이 일치하는 실험에서 판정한다. 선언한 프레임을 두 배로 바꾸면 첫 반복 전이행렬의 최대 차이는 0.55243420946으로 계산된다. 이는 단위 연결이 반복 관측 결과에 실제로 작용함을 보여준다."
+        },
+        "EN": {
+          "type": "prose",
+          "line_index": 350,
+          "number_index": 0,
+          "excerpt": "Conditional WRRA predictions after fixing inputs include source-dependent excitation and currents, repeated transitions at the same gap/frame, noise-conditioned record errors and specified spatial density/field evolution. Their physical tests must match the preparation and observable. Doubling the adopted frame changes the first repeated-transition matrix by a maximum 0.55243420946, demonstrating that the time adapter actually affects repeated readout."
+        }
+      }
+    },
+    {
+      "name": "11 density",
+      "source_file": "evidence/downstream/calculations/wrra_m_0_11/results/results.json",
+      "json_path": [
+        "reference",
+        "total_density_J_m3"
+      ],
+      "displayed_numeric_value": 7.6689477678e-10,
+      "source_numeric_value": 7.668947767821907e-10,
+      "unit": "J/m^3",
+      "relative_tolerance": 1e-09,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 4,
+          "row_index": 2,
+          "column_index": 1,
+          "number_index": 0
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 4,
+          "row_index": 2,
+          "column_index": 1,
+          "number_index": 0
+        }
+      }
+    },
+    {
+      "name": "11 pressure",
+      "source_file": "evidence/downstream/calculations/wrra_m_0_11/results/results.json",
+      "json_path": [
+        "reference",
+        "total_pressure_Pa"
+      ],
+      "displayed_numeric_value": -5.2585974844e-10,
+      "source_numeric_value": -5.258597484395482e-10,
+      "unit": "Pa",
+      "relative_tolerance": 1e-09,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 4,
+          "row_index": 3,
+          "column_index": 1,
+          "number_index": 0
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 4,
+          "row_index": 3,
+          "column_index": 1,
+          "number_index": 0
+        }
+      }
+    },
+    {
+      "name": "11 deceleration",
+      "source_file": "evidence/downstream/calculations/wrra_m_0_11/results/results.json",
+      "json_path": [
+        "reference",
+        "deceleration_q"
+      ],
+      "displayed_numeric_value": -0.52855,
+      "source_numeric_value": -0.52855,
+      "unit": "1",
+      "relative_tolerance": 1e-09,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 4,
+          "row_index": 4,
+          "column_index": 1,
+          "number_index": 0
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 4,
+          "row_index": 4,
+          "column_index": 1,
+          "number_index": 0
+        }
+      }
+    },
+    {
+      "name": "11 trial rotation",
+      "source_file": "evidence/downstream/calculations/wrra_m_0_11/results/results.json",
+      "json_path": [
+        "reference",
+        "local_readout",
+        "v_total_km_s"
+      ],
+      "displayed_numeric_value": 207.510905127,
+      "source_numeric_value": 207.51090512661662,
+      "unit": "km/s",
+      "relative_tolerance": 1e-09,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 4,
+          "row_index": 5,
+          "column_index": 1,
+          "number_index": 0
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 4,
+          "row_index": 5,
+          "column_index": 1,
+          "number_index": 0
+        }
+      }
+    },
+    {
+      "name": "11 trial lensing",
+      "source_file": "evidence/downstream/calculations/wrra_m_0_11/results/results.json",
+      "json_path": [
+        "reference",
+        "local_readout",
+        "finite_patch_lensing",
+        "alpha_patch_arcsec"
+      ],
+      "displayed_numeric_value": 0.535586511,
+      "source_numeric_value": 0.5355865105583804,
+      "unit": "arcsec",
+      "relative_tolerance": 1e-09,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 4,
+          "row_index": 6,
+          "column_index": 1,
+          "number_index": 0
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 4,
+          "row_index": 6,
+          "column_index": 1,
+          "number_index": 0
+        }
+      }
+    },
+    {
+      "name": "10 density",
+      "source_file": "evidence/downstream/calculations/wrra_m_0_10/results/results.json",
+      "json_path": [
+        "alternate_reference",
+        "total_density_J_m3"
+      ],
+      "displayed_numeric_value": 7.6689477678e-10,
+      "source_numeric_value": 7.668947767821908e-10,
+      "unit": "J/m^3",
+      "relative_tolerance": 1e-09,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 4,
+          "row_index": 2,
+          "column_index": 2,
+          "number_index": 0
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 4,
+          "row_index": 2,
+          "column_index": 2,
+          "number_index": 0
+        }
+      }
+    },
+    {
+      "name": "10 pressure",
+      "source_file": "evidence/downstream/calculations/wrra_m_0_10/results/results.json",
+      "json_path": [
+        "alternate_reference",
+        "total_pressure_Pa"
+      ],
+      "displayed_numeric_value": -5.2302223777e-10,
+      "source_numeric_value": -5.230222377654542e-10,
+      "unit": "Pa",
+      "relative_tolerance": 1e-09,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 4,
+          "row_index": 3,
+          "column_index": 2,
+          "number_index": 0
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 4,
+          "row_index": 3,
+          "column_index": 2,
+          "number_index": 0
+        }
+      }
+    },
+    {
+      "name": "10 deceleration",
+      "source_file": "evidence/downstream/calculations/wrra_m_0_10/results/results.json",
+      "json_path": [
+        "alternate_reference",
+        "deceleration_q"
+      ],
+      "displayed_numeric_value": -0.523,
+      "source_numeric_value": -0.5230000000000001,
+      "unit": "1",
+      "relative_tolerance": 1e-09,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 4,
+          "row_index": 4,
+          "column_index": 2,
+          "number_index": 0
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 4,
+          "row_index": 4,
+          "column_index": 2,
+          "number_index": 0
+        }
+      }
+    },
+    {
+      "name": "10 trial rotation",
+      "source_file": "evidence/downstream/calculations/wrra_m_0_10/results/results.json",
+      "json_path": [
+        "alternate_reference",
+        "local_readout",
+        "v_total_km_s"
+      ],
+      "displayed_numeric_value": 207.688109769,
+      "source_numeric_value": 207.6881097690525,
+      "unit": "km/s",
+      "relative_tolerance": 1e-09,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 4,
+          "row_index": 5,
+          "column_index": 2,
+          "number_index": 0
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 4,
+          "row_index": 5,
+          "column_index": 2,
+          "number_index": 0
+        }
+      }
+    },
+    {
+      "name": "10 trial lensing",
+      "source_file": "evidence/downstream/calculations/wrra_m_0_10/results/results.json",
+      "json_path": [
+        "alternate_reference",
+        "local_readout",
+        "finite_patch_lensing",
+        "alpha_patch_arcsec"
+      ],
+      "displayed_numeric_value": 0.536727827,
+      "source_numeric_value": 0.5367278271351137,
+      "unit": "arcsec",
+      "relative_tolerance": 1e-09,
+      "document_locations": {
+        "KO": {
+          "type": "table",
+          "table_index": 4,
+          "row_index": 6,
+          "column_index": 2,
+          "number_index": 0
+        },
+        "EN": {
+          "type": "table",
+          "table_index": 4,
+          "row_index": 6,
+          "column_index": 2,
+          "number_index": 0
+        }
+      }
+    }
+  ]
+}

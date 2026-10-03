@@ -1,0 +1,10 @@
+pc_over_mu,energy_eV,theta,scope
+-2,512927.255468966,1.1543396380615196,continuous local dispersion evaluated at finite noninteger momentum probes
+-1,511481.7084270387,1.1510864433221337,continuous local dispersion evaluated at finite noninteger momentum probes
+-0.5,511119.6828714106,1.1502717070327342,continuous local dispersion evaluated at finite noninteger momentum probes
+-0.1,511003.78052493173,1.1500108695138493,continuous local dispersion evaluated at finite noninteger momentum probes
+0,510998.95068999997,1.1500000000000001,continuous local dispersion evaluated at finite noninteger momentum probes
+0.1,511003.78052493173,1.1500108695138493,continuous local dispersion evaluated at finite noninteger momentum probes
+0.5,511119.6828714106,1.1502717070327342,continuous local dispersion evaluated at finite noninteger momentum probes
+1,511481.7084270387,1.1510864433221337,continuous local dispersion evaluated at finite noninteger momentum probes
+2,512927.255468966,1.1543396380615196,continuous local dispersion evaluated at finite noninteger momentum probes
