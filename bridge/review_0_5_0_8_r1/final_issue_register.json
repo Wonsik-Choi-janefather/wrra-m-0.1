@@ -1,0 +1,56 @@
+{
+  "version": "bridge-0.8-r1",
+  "supersedes_issue_status_only": "0.1 issue status snapshot; original artifact preserved",
+  "issues": [
+    {
+      "id": "B01",
+      "status": "defined",
+      "finding": "31.8% resident Actual and 100% complete ledger refer to different scopes."
+    },
+    {
+      "id": "B02",
+      "status": "conditional",
+      "finding": "Address fractions and SI energy fractions have separate typed calibrations; abundance is external."
+    },
+    {
+      "id": "B03",
+      "status": "conditional",
+      "finding": "Two q values and included/external reservoir values follow their declared energy boundary."
+    },
+    {
+      "id": "B04",
+      "status": "executed_in_declared_scope",
+      "finding": "Diagonal-address CQ blocks and observable-specific reductions executed; general entanglement is not claimed."
+    },
+    {
+      "id": "B05",
+      "status": "conditional_with_open_physical_supply",
+      "finding": "Replacement and signed supply implemented; actual apparatus, creation and species abundance remain open."
+    },
+    {
+      "id": "B06",
+      "status": "failed_identity_preserved_with_conditional_adapter",
+      "finding": "Old clock equality fails; selected SI generator/frame reproduces adopted driver; physical rate selection remains open."
+    },
+    {
+      "id": "B07",
+      "status": "conditional_ideal_record",
+      "finding": "Finite instrument, write work, conditional outcomes and noise retention executed; physical durable medium/reset open."
+    },
+    {
+      "id": "B08",
+      "status": "typed_separation_with_open_carrier_dynamics",
+      "finding": "95-dimensional internal, 128-dimensional carrier and channel spaces remain distinct; carrier is stationary."
+    },
+    {
+      "id": "B09",
+      "status": "effective_feedback_with_open_covariant_bridge",
+      "finding": "Nonuniform Schrodinger-Poisson feedback executed; SI stress-energy and metric dynamics remain open."
+    },
+    {
+      "id": "B10",
+      "status": "conditional_controls_with_open_abundance",
+      "finding": "Four source controls preserve address-sensitive covariance tests; species and boundary choices remain declared external inputs."
+    }
+  ]
+}

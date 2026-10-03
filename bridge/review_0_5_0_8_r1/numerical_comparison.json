@@ -1,0 +1,110 @@
+{
+  "comparison": "original delivered 0.8 stage snapshots versus reviewed r1",
+  "rows": [
+    {
+      "stage": "0.1",
+      "original_checks": 15,
+      "reviewed_checks": 15,
+      "numerical_payload_unchanged": true,
+      "compared_keys": [
+        "stage",
+        "scope",
+        "sources_sha256",
+        "open_issues"
+      ]
+    },
+    {
+      "stage": "0.2",
+      "original_checks": 95,
+      "reviewed_checks": 95,
+      "numerical_payload_unchanged": true,
+      "compared_keys": [
+        "state",
+        "representation",
+        "address_dephasing",
+        "rows",
+        "physical_scope"
+      ]
+    },
+    {
+      "stage": "0.3",
+      "original_checks": 134,
+      "reviewed_checks": 134,
+      "numerical_payload_unchanged": true,
+      "compared_keys": [
+        "scope",
+        "unit_conversion_MeV_to_J",
+        "ucrit_J_m3",
+        "rows",
+        "policy",
+        "assumptions",
+        "open"
+      ]
+    },
+    {
+      "stage": "0.4",
+      "original_checks": 600,
+      "reviewed_checks": 600,
+      "numerical_payload_unchanged": true,
+      "compared_keys": [
+        "constitutive_rule",
+        "boundaries",
+        "rows",
+        "histories",
+        "scope",
+        "open"
+      ]
+    },
+    {
+      "stage": "0.5",
+      "original_checks": 133,
+      "reviewed_checks": 134,
+      "numerical_payload_unchanged": true,
+      "compared_keys": [
+        "scope",
+        "calibration",
+        "source_rows",
+        "internal_rows",
+        "worldline_rows",
+        "failed_clock_ratio_preserved",
+        "open"
+      ]
+    },
+    {
+      "stage": "0.6",
+      "original_checks": 83,
+      "reviewed_checks": 87,
+      "numerical_payload_unchanged": true,
+      "compared_keys": [
+        "scope",
+        "system_gap_MeV",
+        "frame_duration_s",
+        "record_gap_J",
+        "write_work_J",
+        "initial_system_relative_energy_J",
+        "after_write_system_and_record_energy_J",
+        "finite_controller_initial_energy_J",
+        "hierarchical_routes",
+        "outcomes",
+        "repeated_readout",
+        "record_retention",
+        "assumptions",
+        "open"
+      ]
+    },
+    {
+      "stage": "0.7",
+      "original_checks": 40,
+      "reviewed_checks": 51,
+      "numerical_payload_unchanged": true,
+      "compared_keys": [
+        "scope",
+        "runs",
+        "convergence",
+        "clock_interface",
+        "open"
+      ]
+    }
+  ],
+  "scope": "scientific numeric payloads unchanged; added checks, version and dependency hashes intentionally revised"
+}

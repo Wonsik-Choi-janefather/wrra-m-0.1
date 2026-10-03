@@ -1,0 +1,21 @@
+{
+  "reports": [
+    {
+      "language": "KO",
+      "file": "WRRA_M_Bridge_0_5_0_8_Reviewed_r1_KO_2026_10_03.pdf",
+      "pages": 6,
+      "all_pages_visually_inspected": true,
+      "layout": "passed",
+      "author_metadata": "Wonsik Choi; Jeongin Choi"
+    },
+    {
+      "language": "EN",
+      "file": "WRRA_M_Bridge_0_5_0_8_Reviewed_r1_EN_2026_10_03.pdf",
+      "pages": 6,
+      "all_pages_visually_inspected": true,
+      "layout": "passed",
+      "author_metadata": "Wonsik Choi; Jeongin Choi"
+    }
+  ],
+  "total_pages_visually_inspected": 12
+}

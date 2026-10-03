@@ -1,0 +1,13 @@
+{
+  "version": "0.5",
+  "frame_coordinate": "dimensionless xi*k",
+  "proper_time_mapping": "tau=xi*k/omega",
+  "chosen_rate": "electron-mode energy unit / hbar",
+  "identifiability": "rate is external construction choice; not fixed by source frame data",
+  "source_generator_dimension": 5,
+  "internal_generator_dimension": 95,
+  "same_time_does_not_imply_same_generator": true,
+  "preparation_coupling_executed": false,
+  "SI_source_clock_uniquely_derived": false,
+  "stage_completion": "conditional realization and diagnostics only"
+}

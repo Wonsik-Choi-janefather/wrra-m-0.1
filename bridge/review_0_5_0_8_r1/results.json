@@ -1,0 +1,1160 @@
+{
+  "version": "bridge-0.8-r1",
+  "authors": [
+    "Wonsik Choi",
+    "Jeongin Choi"
+  ],
+  "stages": [
+    {
+      "stage": "0.1",
+      "passed": 15,
+      "failed": 0,
+      "result_sha256": "24a1a6a817092962945cf19e69921e2e260d33c8cd1f3429293f7d388db9ff91"
+    },
+    {
+      "stage": "0.2",
+      "passed": 95,
+      "failed": 0,
+      "result_sha256": "c8a0d17a86582887cbcafed2708a890b136cc89b162df251c70ae5e48e2c6e90"
+    },
+    {
+      "stage": "0.3",
+      "passed": 134,
+      "failed": 0,
+      "result_sha256": "571affd15c58c5b6c13a2fb146e0ce479eda910d1ca45ebb47acf0bb8f01a0e2"
+    },
+    {
+      "stage": "0.4",
+      "passed": 600,
+      "failed": 0,
+      "result_sha256": "4104332912af6855217112b51c767783d81393a7bb3a8d1068fdc3f0eb665daf"
+    },
+    {
+      "stage": "0.5",
+      "passed": 134,
+      "failed": 0,
+      "result_sha256": "cc02fc56605d5826c370b336e43f0ad510472303d521554b5321848a79c2bf7a"
+    },
+    {
+      "stage": "0.6",
+      "passed": 87,
+      "failed": 0,
+      "result_sha256": "b9f36abcf89fbe284966da9e58e3431ab282138ae43d7a2c6a4551daf9ace930"
+    },
+    {
+      "stage": "0.7",
+      "passed": 51,
+      "failed": 0,
+      "result_sha256": "0fb65fa68b85dcd4257a712f3fa92d3de06119482cc358ca31daa9a41628b57a"
+    }
+  ],
+  "stage_case_checks": 1116,
+  "review_checks": [
+    {
+      "name": "0.1 recorded check count",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.1 stage checks pass",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.1 frozen numerical result byte identity",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 recorded check count",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 stage checks pass",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 frozen numerical result byte identity",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.3 recorded check count",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.3 stage checks pass",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.3 frozen numerical result byte identity",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.4 recorded check count",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.4 stage checks pass",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.4 frozen numerical result byte identity",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.5 recorded check count",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.5 stage checks pass",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.5 frozen numerical result byte identity",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.6 recorded check count",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.6 stage checks pass",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.6 frozen numerical result byte identity",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.7 recorded check count",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.7 stage checks pass",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.7 frozen numerical result byte identity",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.1 source hash source/downstream_0_11_parameters.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.1 source hash source/downstream_synthesis_EN.md",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.1 source hash source/upstream_0_9_handoff.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.1 source hash source/upstream_synthesis_EN.md",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/residue_current_v0_9/audit.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/residue_current_v0_9/compute.py",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/residue_current_v0_9/handoff.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/residue_current_v0_9/inputs.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/residue_current_v0_9/release_checks.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/residue_current_v0_9/reproduce_all.py",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/residue_current_v0_9/results.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/residue_current_v0_9/verify_release.py",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/review_0_4_0_6_r1/studies/v0_6_r1/code/beta.py",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/review_0_4_0_6_r1/studies/v0_6_r1/code/compute.py",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/review_0_4_0_6_r1/studies/v0_6_r1/code/currents.py",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/review_0_4_0_6_r1/studies/v0_6_r1/code/frozen_parent_reference.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/review_0_4_0_6_r1/studies/v0_6_r1/code/inherited_v0_3_r1.py",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/review_0_4_0_6_r1/studies/v0_6_r1/code/inherited_v0_4.py",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/review_0_4_0_6_r1/studies/v0_6_r1/code/inherited_v0_5.py",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/review_0_4_0_6_r1/studies/v0_6_r1/code/inputs.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/review_0_4_0_6_r1/studies/v0_6_r1/code/model.py",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/review_0_4_0_6_r1/studies/v0_6_r1/code/parent_kernel.py",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/review_0_4_0_6_r1/studies/v0_6_r1/code/results.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/review_0_4_0_6_r1/studies/v0_6_r1/code/review_contracts.py",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/shutter_v0_8/address_bridge.py",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/shutter_v0_8/audit.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/shutter_v0_8/compute.py",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/shutter_v0_8/handoff.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/shutter_v0_8/reproduce_all.py",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/shutter_v0_8/results.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/shutter_v0_8/verify_release.py",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/source_filter_v0_7/code/compute.py",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/source_filter_v0_7/code/handoff.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/source_filter_v0_7/code/inputs.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.2 source hash upstream/source_filter_v0_7/code/results.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.3 source hash bridge_0_2_results.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.3 source hash downstream_0_11_results.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.3 source hash internal_inputs.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.4 source hash",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.5 source hash bridge_0_2_results.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.5 source hash downstream_0_12_parameters.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.5 source hash internal_and_carrier_basis.npz",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.6 source hash clock_0_5.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.6 source hash internal_and_carrier_basis.npz",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.6 source hash state_0_2.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.7 source hash clock_0_5.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.7 source hash measurement_0_6.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "0.7 source hash state_0_2.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "fresh 0.2 results.json -> 0.3 bridge_0_2_results.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "fresh 0.3 results.json -> 0.4 bridge_0_3_results.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "fresh 0.2 results.json -> 0.5 bridge_0_2_results.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "fresh 0.2 internal_and_carrier_basis.npz -> 0.5 internal_and_carrier_basis.npz",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "fresh 0.2 results.json -> 0.6 state_0_2.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "fresh 0.2 internal_and_carrier_basis.npz -> 0.6 internal_and_carrier_basis.npz",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "fresh 0.5 results.json -> 0.6 clock_0_5.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "fresh 0.2 results.json -> 0.7 state_0_2.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "fresh 0.5 results.json -> 0.7 clock_0_5.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "fresh 0.6 results.json -> 0.7 measurement_0_6.json",
+      "category": "provenance",
+      "passed": true
+    },
+    {
+      "name": "inherited proton baseline SI propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "inherited proton baseline gravity propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "alternate proton baseline SI propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "alternate proton baseline gravity propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "inherited neutron baseline SI propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "inherited neutron baseline gravity propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "alternate neutron baseline SI propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "alternate neutron baseline gravity propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "inherited proton p3_low SI propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "inherited proton p3_low gravity propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "alternate proton p3_low SI propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "alternate proton p3_low gravity propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "inherited neutron p3_low SI propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "inherited neutron p3_low gravity propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "alternate neutron p3_low SI propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "alternate neutron p3_low gravity propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "inherited proton p3_high SI propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "inherited proton p3_high gravity propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "alternate proton p3_high SI propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "alternate proton p3_high gravity propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "inherited neutron p3_high SI propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "inherited neutron p3_high gravity propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "alternate neutron p3_high SI propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "alternate neutron p3_high gravity propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "inherited proton p3_phase SI propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "inherited proton p3_phase gravity propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "alternate proton p3_phase SI propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "alternate proton p3_phase gravity propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "inherited neutron p3_phase SI propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "inherited neutron p3_phase gravity propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "alternate neutron p3_phase SI propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "alternate neutron p3_phase gravity propagation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "inherited proton closed preparation total load constant",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "inherited neutron closed preparation total load constant",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "alternate proton closed preparation total load constant",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "alternate neutron closed preparation total load constant",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "0.2 population times same 0.6 gap gives excitation",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "0.5 clock duration forwarded to 0.6",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "0.7 initial population forwarded from 0.2",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "0.6 relative system initial energy matches 0.2",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "measurement outcome weights sum to one",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "nonselective internal state is I/2",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "pointer internal state has population .5",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "pointer marginal is I/2",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "after-write reported energy includes system and record once",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "controller work equals excitation change plus record change",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "write work positive for adopted baseline",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "inherited proton expected-population measurement cost",
+      "category": "boundary_diagnostic",
+      "passed": true
+    },
+    {
+      "name": "inherited proton inherited finite reservoir covers ideal readout",
+      "category": "boundary_diagnostic",
+      "passed": true
+    },
+    {
+      "name": "inherited proton included system record controller balance",
+      "category": "boundary_diagnostic",
+      "passed": true
+    },
+    {
+      "name": "inherited proton external load change equals supplied work",
+      "category": "boundary_diagnostic",
+      "passed": true
+    },
+    {
+      "name": "inherited proton included pressureless q independent of readout redistribution",
+      "category": "boundary_diagnostic",
+      "passed": true
+    },
+    {
+      "name": "inherited proton external q responds to ideal readout load",
+      "category": "boundary_diagnostic",
+      "passed": true
+    },
+    {
+      "name": "inherited proton same energy gives unchanged post-write background pressure",
+      "category": "boundary_diagnostic",
+      "passed": true
+    },
+    {
+      "name": "inherited neutron expected-population measurement cost",
+      "category": "boundary_diagnostic",
+      "passed": true
+    },
+    {
+      "name": "inherited neutron inherited finite reservoir covers ideal readout",
+      "category": "boundary_diagnostic",
+      "passed": true
+    },
+    {
+      "name": "inherited neutron included system record controller balance",
+      "category": "boundary_diagnostic",
+      "passed": true
+    },
+    {
+      "name": "inherited neutron external load change equals supplied work",
+      "category": "boundary_diagnostic",
+      "passed": true
+    },
+    {
+      "name": "inherited neutron included pressureless q independent of readout redistribution",
+      "category": "boundary_diagnostic",
+      "passed": true
+    },
+    {
+      "name": "inherited neutron external q responds to ideal readout load",
+      "category": "boundary_diagnostic",
+      "passed": true
+    },
+    {
+      "name": "inherited neutron same energy gives unchanged post-write background pressure",
+      "category": "boundary_diagnostic",
+      "passed": true
+    },
+    {
+      "name": "alternate proton expected-population measurement cost",
+      "category": "boundary_diagnostic",
+      "passed": true
+    },
+    {
+      "name": "alternate proton inherited finite reservoir covers ideal readout",
+      "category": "boundary_diagnostic",
+      "passed": true
+    },
+    {
+      "name": "alternate proton included system record controller balance",
+      "category": "boundary_diagnostic",
+      "passed": true
+    },
+    {
+      "name": "alternate proton external load change equals supplied work",
+      "category": "boundary_diagnostic",
+      "passed": true
+    },
+    {
+      "name": "alternate proton included pressureless q independent of readout redistribution",
+      "category": "boundary_diagnostic",
+      "passed": true
+    },
+    {
+      "name": "alternate proton external q responds to ideal readout load",
+      "category": "boundary_diagnostic",
+      "passed": true
+    },
+    {
+      "name": "alternate proton same energy gives unchanged post-write background pressure",
+      "category": "boundary_diagnostic",
+      "passed": true
+    },
+    {
+      "name": "alternate neutron expected-population measurement cost",
+      "category": "boundary_diagnostic",
+      "passed": true
+    },
+    {
+      "name": "alternate neutron inherited finite reservoir covers ideal readout",
+      "category": "boundary_diagnostic",
+      "passed": true
+    },
+    {
+      "name": "alternate neutron included system record controller balance",
+      "category": "boundary_diagnostic",
+      "passed": true
+    },
+    {
+      "name": "alternate neutron external load change equals supplied work",
+      "category": "boundary_diagnostic",
+      "passed": true
+    },
+    {
+      "name": "alternate neutron included pressureless q independent of readout redistribution",
+      "category": "boundary_diagnostic",
+      "passed": true
+    },
+    {
+      "name": "alternate neutron external q responds to ideal readout load",
+      "category": "boundary_diagnostic",
+      "passed": true
+    },
+    {
+      "name": "alternate neutron same energy gives unchanged post-write background pressure",
+      "category": "boundary_diagnostic",
+      "passed": true
+    },
+    {
+      "name": "repeated k1 same-generator clock phase",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "repeated k2 same-generator clock phase",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "repeated k4 same-generator clock phase",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "retention 1 noise 0.0",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "retention 64 noise 0.0",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "retention 256 noise 0.0",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "retention 1 noise 0.001",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "retention 64 noise 0.001",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "retention 256 noise 0.001",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "retention 1 noise 0.01",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "retention 64 noise 0.01",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "retention 256 noise 0.01",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "old slow clock equality still fails",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "SI gravity calibration still explicitly absent",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "0.7 field source is occupancy not stress energy",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "0.7 populations remain baseline, not measured .5",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "0.4 fixed prepared-state scope differs from measurement changing populations",
+      "category": "cross_contract",
+      "passed": true
+    },
+    {
+      "name": "0.7 clock is provenance-only probe run passes",
+      "category": "dependency_probe",
+      "passed": true
+    },
+    {
+      "name": "0.7 clock is provenance-only behavior matches declared dependency",
+      "category": "dependency_probe",
+      "passed": true
+    },
+    {
+      "name": "0.7 measurement is provenance-only probe run passes",
+      "category": "dependency_probe",
+      "passed": true
+    },
+    {
+      "name": "0.7 measurement is provenance-only behavior matches declared dependency",
+      "category": "dependency_probe",
+      "passed": true
+    },
+    {
+      "name": "0.7 state population is a numerical dependency probe run passes",
+      "category": "dependency_probe",
+      "passed": true
+    },
+    {
+      "name": "0.7 state population is a numerical dependency behavior matches declared dependency",
+      "category": "dependency_probe",
+      "passed": true
+    },
+    {
+      "name": "0.6 frame duration is a numerical dependency probe run passes",
+      "category": "dependency_probe",
+      "passed": true
+    },
+    {
+      "name": "0.6 frame duration is a numerical dependency behavior matches declared dependency",
+      "category": "dependency_probe",
+      "passed": true
+    },
+    {
+      "name": "0.1 original numerical payload preserved",
+      "category": "revision_review",
+      "passed": true
+    },
+    {
+      "name": "0.2 original numerical payload preserved",
+      "category": "revision_review",
+      "passed": true
+    },
+    {
+      "name": "0.3 original numerical payload preserved",
+      "category": "revision_review",
+      "passed": true
+    },
+    {
+      "name": "0.4 original numerical payload preserved",
+      "category": "revision_review",
+      "passed": true
+    },
+    {
+      "name": "0.5 original numerical payload preserved",
+      "category": "revision_review",
+      "passed": true
+    },
+    {
+      "name": "0.6 original numerical payload preserved",
+      "category": "revision_review",
+      "passed": true
+    },
+    {
+      "name": "0.7 original numerical payload preserved",
+      "category": "revision_review",
+      "passed": true
+    },
+    {
+      "name": "all ten original bridge issues retained",
+      "category": "revision_review",
+      "passed": true
+    },
+    {
+      "name": "covariant issue B09 remains open in scope",
+      "category": "revision_review",
+      "passed": true
+    }
+  ],
+  "review_passed": 188,
+  "review_failed": 0,
+  "total_case_checks": 1304,
+  "count_scope": "implementation/mathematical case checks including provenance and expected counterexamples; not independent experiments; prior 36 cross checks retained once",
+  "ideal_readout_boundary_diagnostics": [
+    {
+      "calibration": "inherited",
+      "species": "proton",
+      "expected_population_input": 0.2425893463937076,
+      "system_excitation_increase_J": 7.037439522161991e-12,
+      "record_energy_increase_J": 4.3176187868534624e-16,
+      "controller_supply_J": 7.037871284040674e-12,
+      "reservoir_before_J": 7.561582499072401e-12,
+      "reservoir_after_J": 5.237112150317267e-13,
+      "external_q_before": -0.52855,
+      "external_q_after": -0.5191967280747398,
+      "included_pressureless_q": -0.518507515893292,
+      "scope": "conditional mean ledger insertion at V=1 m3; post-write pressure law adopted from 0.4; not time-resolved apparatus or covariant evolution"
+    },
+    {
+      "calibration": "inherited",
+      "species": "neutron",
+      "expected_population_input": 0.2422672363264686,
+      "system_excitation_increase_J": 7.028095211905286e-12,
+      "record_energy_increase_J": 4.311885853819014e-16,
+      "controller_supply_J": 7.028526400490666e-12,
+      "reservoir_before_J": 7.561582499072401e-12,
+      "reservoir_after_J": 5.330560985817354e-13,
+      "external_q_before": -0.52855,
+      "external_q_after": -0.5192090345587278,
+      "included_pressureless_q": -0.5185075158932921,
+      "scope": "conditional mean ledger insertion at V=1 m3; post-write pressure law adopted from 0.4; not time-resolved apparatus or covariant evolution"
+    },
+    {
+      "calibration": "alternate",
+      "species": "proton",
+      "expected_population_input": 0.24603381987191444,
+      "system_excitation_increase_J": 7.137362598541574e-12,
+      "record_energy_increase_J": 4.3789237189183194e-16,
+      "controller_supply_J": 7.137800490913464e-12,
+      "reservoir_before_J": 7.668947767821908e-12,
+      "reservoir_after_J": 5.311472769084441e-13,
+      "external_q_before": -0.5230000000000002,
+      "external_q_after": -0.5135663274174727,
+      "included_pressureless_q": -0.5128712871287131,
+      "scope": "conditional mean ledger insertion at V=1 m3; post-write pressure law adopted from 0.4; not time-resolved apparatus or covariant evolution"
+    },
+    {
+      "calibration": "alternate",
+      "species": "neutron",
+      "expected_population_input": 0.24570713623374102,
+      "system_excitation_increase_J": 7.12788561045161e-12,
+      "record_energy_increase_J": 4.373109385211982e-16,
+      "controller_supply_J": 7.128322921390129e-12,
+      "reservoir_before_J": 7.668947767821908e-12,
+      "reservoir_after_J": 5.406248464317789e-13,
+      "external_q_before": -0.5230000000000002,
+      "external_q_after": -0.5135787380875655,
+      "included_pressureless_q": -0.5128712871287131,
+      "scope": "conditional mean ledger insertion at V=1 m3; post-write pressure law adopted from 0.4; not time-resolved apparatus or covariant evolution"
+    }
+  ],
+  "dependency_probes": [
+    {
+      "name": "0.7 clock is provenance-only",
+      "numerical_difference": 0.0,
+      "behavior_confirmed": true,
+      "scope": "single declared input perturbation; no new physical model coupling"
+    },
+    {
+      "name": "0.7 measurement is provenance-only",
+      "numerical_difference": 0.0,
+      "behavior_confirmed": true,
+      "scope": "single declared input perturbation; no new physical model coupling"
+    },
+    {
+      "name": "0.7 state population is a numerical dependency",
+      "numerical_difference": 0.016811254159630806,
+      "behavior_confirmed": true,
+      "scope": "single declared input perturbation; no new physical model coupling"
+    },
+    {
+      "name": "0.6 frame duration is a numerical dependency",
+      "numerical_difference": 0.5524342094560526,
+      "behavior_confirmed": true,
+      "scope": "single declared input perturbation; no new physical model coupling"
+    }
+  ],
+  "contracts": [
+    {
+      "edge": "0.2 -> 0.3 -> 0.4",
+      "status": "executed",
+      "payload": "conditional excitation -> matched SI energy -> homogeneous pressure and FRW",
+      "limit": "external expected population, species and volume laws"
+    },
+    {
+      "edge": "0.2 + 0.5 -> 0.6",
+      "status": "executed",
+      "payload": "same internal gap and adopted proper frame -> ideal measurement/repeated phase",
+      "limit": "controlled instrument; autonomous apparatus and reset absent"
+    },
+    {
+      "edge": "0.2 -> 0.7",
+      "status": "executed",
+      "payload": "baseline mode population -> constructed nonuniform occupancy field feedback",
+      "limit": "dimensionless nonrelativistic effective source"
+    },
+    {
+      "edge": "0.5 -> 0.7",
+      "status": "provenance_only",
+      "payload": "clock snapshot and possible s=omega*tau convention",
+      "limit": "SI kinetic/length/G coefficients absent; rate perturbation leaves runs unchanged"
+    },
+    {
+      "edge": "0.6 -> 0.7",
+      "status": "provenance_only",
+      "payload": "measurement snapshot",
+      "limit": "state/controller/record update not consumed by field evolution"
+    },
+    {
+      "edge": "0.6 -> 0.3/0.4 readout ledger",
+      "status": "review_diagnostic",
+      "payload": "mean write work and signed reservoir insertion calculated in 0.8",
+      "limit": "conditional expected population and pressureless included reservoir; no Q(t) or apparatus geometry"
+    },
+    {
+      "edge": "source -> preparation apparatus",
+      "status": "open",
+      "payload": "actual coupling and finite supply dynamics",
+      "limit": "no autonomous joint Hamiltonian execution"
+    },
+    {
+      "edge": "homogeneous + nonuniform -> one covariant geometry",
+      "status": "open",
+      "payload": "energy-momentum tensor, metric and common SI scale",
+      "limit": "periodic mean-subtracted Poisson zero mode does not generate FRW background"
+    }
+  ],
+  "failed_or_unestablished_claims": [
+    {
+      "claim": "old slow schedule is the physical SI source clock",
+      "status": "failed",
+      "witness_ratio": 2.102556972196466e-43
+    },
+    {
+      "claim": "all stages form a single autonomously coupled covariant simulator",
+      "status": "not established",
+      "witness": "clock/measurement perturbations leave 0.7 numerical runs identical; 0.7 uses occupancy, not stress-energy"
+    }
+  ],
+  "verdict": {
+    "bridge_development": "closed at 0.8 within declared finite conditional implementation scope",
+    "full_covariant_bridge": "open, not supplied by this review",
+    "reproduction": "known outputs reproduced; legitimate explanatory achievements under declared calibration",
+    "prediction": "unmeasured outputs after fixing verified inputs and construction choices are conditional WRRA model predictions; empirical accuracy awaits matching observations",
+    "closure": "upstream 0.10; downstream 0.12; bridge 0.8; 1.0 publication consolidation; corrections r1/r2; no automatic additional development stage"
+  },
+  "source_result_sha256": {
+    "0.1": "24a1a6a817092962945cf19e69921e2e260d33c8cd1f3429293f7d388db9ff91",
+    "0.2": "c8a0d17a86582887cbcafed2708a890b136cc89b162df251c70ae5e48e2c6e90",
+    "0.3": "571affd15c58c5b6c13a2fb146e0ce479eda910d1ca45ebb47acf0bb8f01a0e2",
+    "0.4": "4104332912af6855217112b51c767783d81393a7bb3a8d1068fdc3f0eb665daf",
+    "0.5": "cc02fc56605d5826c370b336e43f0ad510472303d521554b5321848a79c2bf7a",
+    "0.6": "b9f36abcf89fbe284966da9e58e3431ab282138ae43d7a2c6a4551daf9ace930",
+    "0.7": "0fb65fa68b85dcd4257a712f3fa92d3de06119482cc358ca31daa9a41628b57a"
+  }
+}

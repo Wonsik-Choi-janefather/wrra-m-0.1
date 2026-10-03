@@ -1,0 +1,1 @@
+WRRA M bridge review text and code: Copyright (C) 2026 Wonsik Choi and Jeongin Choi. Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/ . Bundled inherited sources retain their recorded provenance. This package contains no claim of new publication at a DOI or repository URL.

@@ -1,0 +1,686 @@
+{
+  "version": "bridge-0.2",
+  "state": "conditional phi CQ blocks, normalized; D and return retain original branch ledgers without nucleon preparation",
+  "representation": "exact diagonal-address blocks, two-mode internal support in frozen 95-dimensional basis, 128-dimensional stationary carrier",
+  "address_dephasing": "inherited upstream measure-and-prepare scope; no coherent address preservation claim",
+  "rows": [
+    {
+      "case": "baseline",
+      "four_branch_probabilities": {
+        "phi": 0.05000000000000012,
+        "D": 0.26799999999999985,
+        "initial_reflection": 0.007772944563189536,
+        "normal_return": 0.6742270554368117
+      },
+      "selector_fraction": 0.3998832725128894,
+      "excited_population": 0.07997665450257789,
+      "conditional_excitation_MeV": 34.47643573912226,
+      "probe_joint_MeV": 36.66101843585741,
+      "probe_product_MeV": 36.51624620812262,
+      "probe_difference_MeV": 0.1447722277347907,
+      "currents": [
+        {
+          "Q2_GeV2": 0.0,
+          "species": "proton",
+          "GE": 0.9999999999999991,
+          "address_weighted_joint": 1.0591653523709714,
+          "address_weighted_product": 1.0591653523709716,
+          "difference": -2.220446049250313e-16
+        },
+        {
+          "Q2_GeV2": 0.0,
+          "species": "neutron",
+          "GE": -4.088732252486862e-18,
+          "address_weighted_joint": -4.3307075934738125e-18,
+          "address_weighted_product": -4.330643536955808e-18,
+          "difference": -6.405651800460689e-23
+        },
+        {
+          "Q2_GeV2": 0.01,
+          "species": "proton",
+          "GE": 0.9691214415300522,
+          "address_weighted_joint": 1.0264554511460295,
+          "address_weighted_product": 1.0264598531084426,
+          "difference": -4.401962413025373e-06
+        },
+        {
+          "Q2_GeV2": 0.01,
+          "species": "neutron",
+          "GE": 0.005161769876201937,
+          "address_weighted_joint": 0.005468522886263333,
+          "address_weighted_product": 0.0054671678097852955,
+          "difference": 1.3550764780372038e-06
+        },
+        {
+          "Q2_GeV2": 0.1,
+          "species": "proton",
+          "GE": 0.7301767666507734,
+          "address_weighted_joint": 0.773350204599918,
+          "address_weighted_product": 0.7733779323427638,
+          "difference": -2.7727742845762293e-05
+        },
+        {
+          "Q2_GeV2": 0.1,
+          "species": "neutron",
+          "GE": 0.04166268978028405,
+          "address_weighted_joint": 0.04413502310753761,
+          "address_weighted_product": 0.044127677501857074,
+          "difference": 7.345605680539324e-06
+        }
+      ]
+    },
+    {
+      "case": "p3_low",
+      "four_branch_probabilities": {
+        "phi": 0.04329724273048873,
+        "D": 0.2680000287545491,
+        "initial_reflection": 0.006730941349660979,
+        "normal_return": 0.6819717871652973
+      },
+      "selector_fraction": 0.4025507149289948,
+      "excited_population": 0.08051014298579896,
+      "conditional_excitation_MeV": 34.706412618296916,
+      "probe_joint_MeV": 36.903135656495024,
+      "probe_product_MeV": 36.80769095176609,
+      "probe_difference_MeV": 0.09544470472893352,
+      "currents": [
+        {
+          "Q2_GeV2": 0.0,
+          "species": "proton",
+          "GE": 0.9999999999999989,
+          "address_weighted_joint": 1.0605443828660464,
+          "address_weighted_product": 1.060544382866046,
+          "difference": 4.440892098500626e-16
+        },
+        {
+          "Q2_GeV2": 0.0,
+          "species": "neutron",
+          "GE": -4.088834009006983e-18,
+          "address_weighted_joint": -4.3364321715823884e-18,
+          "address_weighted_product": -4.336389940724016e-18,
+          "difference": -4.223085837235344e-23
+        },
+        {
+          "Q2_GeV2": 0.01,
+          "species": "proton",
+          "GE": 0.969114448824388,
+          "address_weighted_joint": 1.0277859829514255,
+          "address_weighted_product": 1.0277888850550299,
+          "difference": -2.90210360431864e-06
+        },
+        {
+          "Q2_GeV2": 0.01,
+          "species": "neutron",
+          "GE": 0.005163922473176812,
+          "address_weighted_joint": 0.005477462340475004,
+          "address_weighted_product": 0.005476568972483413,
+          "difference": 8.933679915912665e-07
+        },
+        {
+          "Q2_GeV2": 0.1,
+          "species": "proton",
+          "GE": 0.7301327199446799,
+          "address_weighted_joint": 0.774319874677465,
+          "address_weighted_product": 0.7743381548840389,
+          "difference": -1.8280206573906277e-05
+        },
+        {
+          "Q2_GeV2": 0.1,
+          "species": "neutron",
+          "GE": 0.041674358589257395,
+          "address_weighted_joint": 0.044202349685277385,
+          "address_weighted_product": 0.04419750691138233,
+          "difference": 4.8427738950571064e-06
+        }
+      ]
+    },
+    {
+      "case": "p3_high",
+      "four_branch_probabilities": {
+        "phi": 0.058316434162266804,
+        "D": 0.2679999565869583,
+        "initial_reflection": 0.009065808197323628,
+        "normal_return": 0.6646178010534518
+      },
+      "selector_fraction": 0.39461488627179986,
+      "excited_population": 0.07892297725435998,
+      "conditional_excitation_MeV": 34.02221523985407,
+      "probe_joint_MeV": 36.18158531771729,
+      "probe_product_MeV": 35.993570661163886,
+      "probe_difference_MeV": 0.1880146565534062,
+      "currents": [
+        {
+          "Q2_GeV2": 0.0,
+          "species": "proton",
+          "GE": 0.9999999999999993,
+          "address_weighted_joint": 1.0579431823416516,
+          "address_weighted_product": 1.0579431823416519,
+          "difference": -2.220446049250313e-16
+        },
+        {
+          "Q2_GeV2": 0.0,
+          "species": "neutron",
+          "GE": -4.088531276208123e-18,
+          "address_weighted_joint": -4.325516979196727e-18,
+          "address_weighted_product": -4.325433789455e-18,
+          "difference": -8.318974172711059e-23
+        },
+        {
+          "Q2_GeV2": 0.01,
+          "species": "proton",
+          "GE": 0.9691352526151913,
+          "address_weighted_joint": 1.0252843164741086,
+          "address_weighted_product": 1.0252900332711967,
+          "difference": -5.7167970881621955e-06
+        },
+        {
+          "Q2_GeV2": 0.01,
+          "species": "neutron",
+          "GE": 0.005157518345890886,
+          "address_weighted_joint": 0.005458121199966002,
+          "address_weighted_product": 0.00545636137183726,
+          "difference": 1.7598281287422787e-06
+        },
+        {
+          "Q2_GeV2": 0.1,
+          "species": "proton",
+          "GE": 0.7302637619909343,
+          "address_weighted_joint": 0.7725415584881938,
+          "address_weighted_product": 0.7725775683094762,
+          "difference": -3.600982128237895e-05
+        },
+        {
+          "Q2_GeV2": 0.1,
+          "species": "neutron",
+          "GE": 0.04163964306247153,
+          "address_weighted_joint": 0.044061916178633254,
+          "address_weighted_product": 0.04405237649308165,
+          "difference": 9.539685551604449e-06
+        }
+      ]
+    },
+    {
+      "case": "p3_phase",
+      "four_branch_probabilities": {
+        "phi": 0.05000000000000053,
+        "D": 0.26799999999999735,
+        "initial_reflection": 0.007772944563189431,
+        "normal_return": 0.674227055436813
+      },
+      "selector_fraction": 0.39988327251288946,
+      "excited_population": 0.0799766545025779,
+      "conditional_excitation_MeV": 34.47643573912226,
+      "probe_joint_MeV": 36.66101843585741,
+      "probe_product_MeV": 36.516246208122624,
+      "probe_difference_MeV": 0.1447722277347836,
+      "currents": [
+        {
+          "Q2_GeV2": 0.0,
+          "species": "proton",
+          "GE": 0.999999999999999,
+          "address_weighted_joint": 1.0591653523709716,
+          "address_weighted_product": 1.0591653523709716,
+          "difference": 0.0
+        },
+        {
+          "Q2_GeV2": 0.0,
+          "species": "neutron",
+          "GE": -4.088732252486861e-18,
+          "address_weighted_joint": -4.3307075934738125e-18,
+          "address_weighted_product": -4.330643536955808e-18,
+          "difference": -6.405651800460689e-23
+        },
+        {
+          "Q2_GeV2": 0.01,
+          "species": "proton",
+          "GE": 0.9691214415300521,
+          "address_weighted_joint": 1.0264554511460295,
+          "address_weighted_product": 1.0264598531084428,
+          "difference": -4.401962413247418e-06
+        },
+        {
+          "Q2_GeV2": 0.01,
+          "species": "neutron",
+          "GE": 0.005161769876201936,
+          "address_weighted_joint": 0.005468522886263333,
+          "address_weighted_product": 0.0054671678097852955,
+          "difference": 1.3550764780372038e-06
+        },
+        {
+          "Q2_GeV2": 0.1,
+          "species": "proton",
+          "GE": 0.7301767666507732,
+          "address_weighted_joint": 0.773350204599918,
+          "address_weighted_product": 0.7733779323427638,
+          "difference": -2.7727742845762293e-05
+        },
+        {
+          "Q2_GeV2": 0.1,
+          "species": "neutron",
+          "GE": 0.04166268978028404,
+          "address_weighted_joint": 0.04413502310753761,
+          "address_weighted_product": 0.044127677501857074,
+          "difference": 7.345605680539324e-06
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "orthonormal internal support",
+      "passed": true
+    },
+    {
+      "name": "internal basis dimension",
+      "passed": true
+    },
+    {
+      "name": "carrier positivity/trace",
+      "passed": true
+    },
+    {
+      "name": "baseline instrument trace",
+      "passed": true
+    },
+    {
+      "name": "baseline conditional address trace",
+      "passed": true
+    },
+    {
+      "name": "baseline all block positivity",
+      "passed": true
+    },
+    {
+      "name": "baseline internal marginal positivity/trace",
+      "passed": true
+    },
+    {
+      "name": "baseline weighted phi trace",
+      "passed": true
+    },
+    {
+      "name": "baseline same H energy",
+      "passed": true
+    },
+    {
+      "name": "baseline covariance identity",
+      "passed": true
+    },
+    {
+      "name": "baseline correlation detected",
+      "passed": true
+    },
+    {
+      "name": "baseline joint trace equals address marginal",
+      "passed": true
+    },
+    {
+      "name": "baseline product limit constant response",
+      "passed": true
+    },
+    {
+      "name": "baseline proton Q2=0.0 marginal-current",
+      "passed": true
+    },
+    {
+      "name": "baseline proton Q2=0.0 correlated-current identity",
+      "passed": true
+    },
+    {
+      "name": "baseline neutron Q2=0.0 marginal-current",
+      "passed": true
+    },
+    {
+      "name": "baseline neutron Q2=0.0 correlated-current identity",
+      "passed": true
+    },
+    {
+      "name": "baseline proton Q2=0.01 marginal-current",
+      "passed": true
+    },
+    {
+      "name": "baseline proton Q2=0.01 correlated-current identity",
+      "passed": true
+    },
+    {
+      "name": "baseline neutron Q2=0.01 marginal-current",
+      "passed": true
+    },
+    {
+      "name": "baseline neutron Q2=0.01 correlated-current identity",
+      "passed": true
+    },
+    {
+      "name": "baseline proton Q2=0.1 marginal-current",
+      "passed": true
+    },
+    {
+      "name": "baseline proton Q2=0.1 correlated-current identity",
+      "passed": true
+    },
+    {
+      "name": "baseline neutron Q2=0.1 marginal-current",
+      "passed": true
+    },
+    {
+      "name": "baseline neutron Q2=0.1 correlated-current identity",
+      "passed": true
+    },
+    {
+      "name": "baseline upstream reference excitation",
+      "passed": true
+    },
+    {
+      "name": "p3_low instrument trace",
+      "passed": true
+    },
+    {
+      "name": "p3_low conditional address trace",
+      "passed": true
+    },
+    {
+      "name": "p3_low all block positivity",
+      "passed": true
+    },
+    {
+      "name": "p3_low internal marginal positivity/trace",
+      "passed": true
+    },
+    {
+      "name": "p3_low weighted phi trace",
+      "passed": true
+    },
+    {
+      "name": "p3_low same H energy",
+      "passed": true
+    },
+    {
+      "name": "p3_low covariance identity",
+      "passed": true
+    },
+    {
+      "name": "p3_low correlation detected",
+      "passed": true
+    },
+    {
+      "name": "p3_low joint trace equals address marginal",
+      "passed": true
+    },
+    {
+      "name": "p3_low product limit constant response",
+      "passed": true
+    },
+    {
+      "name": "p3_low proton Q2=0.0 marginal-current",
+      "passed": true
+    },
+    {
+      "name": "p3_low proton Q2=0.0 correlated-current identity",
+      "passed": true
+    },
+    {
+      "name": "p3_low neutron Q2=0.0 marginal-current",
+      "passed": true
+    },
+    {
+      "name": "p3_low neutron Q2=0.0 correlated-current identity",
+      "passed": true
+    },
+    {
+      "name": "p3_low proton Q2=0.01 marginal-current",
+      "passed": true
+    },
+    {
+      "name": "p3_low proton Q2=0.01 correlated-current identity",
+      "passed": true
+    },
+    {
+      "name": "p3_low neutron Q2=0.01 marginal-current",
+      "passed": true
+    },
+    {
+      "name": "p3_low neutron Q2=0.01 correlated-current identity",
+      "passed": true
+    },
+    {
+      "name": "p3_low proton Q2=0.1 marginal-current",
+      "passed": true
+    },
+    {
+      "name": "p3_low proton Q2=0.1 correlated-current identity",
+      "passed": true
+    },
+    {
+      "name": "p3_low neutron Q2=0.1 marginal-current",
+      "passed": true
+    },
+    {
+      "name": "p3_low neutron Q2=0.1 correlated-current identity",
+      "passed": true
+    },
+    {
+      "name": "p3_low upstream reference excitation",
+      "passed": true
+    },
+    {
+      "name": "p3_high instrument trace",
+      "passed": true
+    },
+    {
+      "name": "p3_high conditional address trace",
+      "passed": true
+    },
+    {
+      "name": "p3_high all block positivity",
+      "passed": true
+    },
+    {
+      "name": "p3_high internal marginal positivity/trace",
+      "passed": true
+    },
+    {
+      "name": "p3_high weighted phi trace",
+      "passed": true
+    },
+    {
+      "name": "p3_high same H energy",
+      "passed": true
+    },
+    {
+      "name": "p3_high covariance identity",
+      "passed": true
+    },
+    {
+      "name": "p3_high correlation detected",
+      "passed": true
+    },
+    {
+      "name": "p3_high joint trace equals address marginal",
+      "passed": true
+    },
+    {
+      "name": "p3_high product limit constant response",
+      "passed": true
+    },
+    {
+      "name": "p3_high proton Q2=0.0 marginal-current",
+      "passed": true
+    },
+    {
+      "name": "p3_high proton Q2=0.0 correlated-current identity",
+      "passed": true
+    },
+    {
+      "name": "p3_high neutron Q2=0.0 marginal-current",
+      "passed": true
+    },
+    {
+      "name": "p3_high neutron Q2=0.0 correlated-current identity",
+      "passed": true
+    },
+    {
+      "name": "p3_high proton Q2=0.01 marginal-current",
+      "passed": true
+    },
+    {
+      "name": "p3_high proton Q2=0.01 correlated-current identity",
+      "passed": true
+    },
+    {
+      "name": "p3_high neutron Q2=0.01 marginal-current",
+      "passed": true
+    },
+    {
+      "name": "p3_high neutron Q2=0.01 correlated-current identity",
+      "passed": true
+    },
+    {
+      "name": "p3_high proton Q2=0.1 marginal-current",
+      "passed": true
+    },
+    {
+      "name": "p3_high proton Q2=0.1 correlated-current identity",
+      "passed": true
+    },
+    {
+      "name": "p3_high neutron Q2=0.1 marginal-current",
+      "passed": true
+    },
+    {
+      "name": "p3_high neutron Q2=0.1 correlated-current identity",
+      "passed": true
+    },
+    {
+      "name": "p3_high upstream reference excitation",
+      "passed": true
+    },
+    {
+      "name": "p3_phase instrument trace",
+      "passed": true
+    },
+    {
+      "name": "p3_phase conditional address trace",
+      "passed": true
+    },
+    {
+      "name": "p3_phase all block positivity",
+      "passed": true
+    },
+    {
+      "name": "p3_phase internal marginal positivity/trace",
+      "passed": true
+    },
+    {
+      "name": "p3_phase weighted phi trace",
+      "passed": true
+    },
+    {
+      "name": "p3_phase same H energy",
+      "passed": true
+    },
+    {
+      "name": "p3_phase covariance identity",
+      "passed": true
+    },
+    {
+      "name": "p3_phase correlation detected",
+      "passed": true
+    },
+    {
+      "name": "p3_phase joint trace equals address marginal",
+      "passed": true
+    },
+    {
+      "name": "p3_phase product limit constant response",
+      "passed": true
+    },
+    {
+      "name": "p3_phase proton Q2=0.0 marginal-current",
+      "passed": true
+    },
+    {
+      "name": "p3_phase proton Q2=0.0 correlated-current identity",
+      "passed": true
+    },
+    {
+      "name": "p3_phase neutron Q2=0.0 marginal-current",
+      "passed": true
+    },
+    {
+      "name": "p3_phase neutron Q2=0.0 correlated-current identity",
+      "passed": true
+    },
+    {
+      "name": "p3_phase proton Q2=0.01 marginal-current",
+      "passed": true
+    },
+    {
+      "name": "p3_phase proton Q2=0.01 correlated-current identity",
+      "passed": true
+    },
+    {
+      "name": "p3_phase neutron Q2=0.01 marginal-current",
+      "passed": true
+    },
+    {
+      "name": "p3_phase neutron Q2=0.01 correlated-current identity",
+      "passed": true
+    },
+    {
+      "name": "p3_phase proton Q2=0.1 marginal-current",
+      "passed": true
+    },
+    {
+      "name": "p3_phase proton Q2=0.1 correlated-current identity",
+      "passed": true
+    },
+    {
+      "name": "p3_phase neutron Q2=0.1 marginal-current",
+      "passed": true
+    },
+    {
+      "name": "p3_phase neutron Q2=0.1 correlated-current identity",
+      "passed": true
+    },
+    {
+      "name": "p3_phase upstream reference excitation",
+      "passed": true
+    }
+  ],
+  "passed": 95,
+  "failed": 0,
+  "physical_scope": "no new energy supply, particle number, SI time, durable record or coupled gravity dynamics",
+  "source_sha256": {
+    "upstream/residue_current_v0_9/audit.json": "2893441f285c120db7cf7066853a87cca4c0d811160dbbe14887fba523b91df2",
+    "upstream/residue_current_v0_9/compute.py": "7e2f0dc9d9647b45134c421b0098773d2225749e841c0a8f671dd5c84503349c",
+    "upstream/residue_current_v0_9/handoff.json": "ed0a5ef27b4ae14ceaa391d1d210e3cda23275a4f7914936a36b4142e3758e51",
+    "upstream/residue_current_v0_9/inputs.json": "3b4b07c403c16fa665977fb4ca981ad36906dba4cce2b87552325a29ed1be9f4",
+    "upstream/residue_current_v0_9/release_checks.json": "d1b14c23ae391079fc5e821c98442f86b2c2461cb9bdc23d51c3f5366b3ab5fd",
+    "upstream/residue_current_v0_9/reproduce_all.py": "9bd0f0f8f118331e9a4f7e8379c23881c0c252271d2f235ebbbc3f85f7fb240c",
+    "upstream/residue_current_v0_9/results.json": "8ae5f18c860acef5164abe0bb94b25e28580c696ba9100074932c71c937680ea",
+    "upstream/residue_current_v0_9/verify_release.py": "cf799a90a3bbb5b7552abe1953d5d312f6d13a4dd7259d51db394b2083fdbd0f",
+    "upstream/review_0_4_0_6_r1/studies/v0_6_r1/code/beta.py": "46f1a0cdb1a37580100b792292bee5a4a8eb262dacbc2a64d675c2da9f4318d8",
+    "upstream/review_0_4_0_6_r1/studies/v0_6_r1/code/compute.py": "d6241322c103c081126466de31acd2fc4f526cd38e5ef9f9dc5cafdb0a6386da",
+    "upstream/review_0_4_0_6_r1/studies/v0_6_r1/code/currents.py": "1a314e69c5c33c5fd137a37fa57efe8494b1d0af50a83de4946a80bb9195e1da",
+    "upstream/review_0_4_0_6_r1/studies/v0_6_r1/code/frozen_parent_reference.json": "595c7d48c3ee6dd813b33cc8a4337fed0ccd21706f2ef27fb01872a466a78e9e",
+    "upstream/review_0_4_0_6_r1/studies/v0_6_r1/code/inherited_v0_3_r1.py": "11ab2947b48788e79526b27ade3aec2459766a70e5f8f8c065a3aa0033646bc0",
+    "upstream/review_0_4_0_6_r1/studies/v0_6_r1/code/inherited_v0_4.py": "8761ee56eb365008a8b7a626805dd15feab036736c3873407ccb0c6e58fc2f5f",
+    "upstream/review_0_4_0_6_r1/studies/v0_6_r1/code/inherited_v0_5.py": "bfe70f0a0df9dbac6f6752ff3bccb615618b2128da1e5cc70810913d6e071594",
+    "upstream/review_0_4_0_6_r1/studies/v0_6_r1/code/inputs.json": "c0fc741d39569208e80289268b5e028d5a219ab3aab7ab913d141863f2cb5fb2",
+    "upstream/review_0_4_0_6_r1/studies/v0_6_r1/code/model.py": "95b5cae6947c4c5c0803468ed1f68698c79090d1a3aaeb17b34f52f4fc3ff652",
+    "upstream/review_0_4_0_6_r1/studies/v0_6_r1/code/parent_kernel.py": "3cc75ba4290189daed78058e112647cc1f1d1df6b7eb74c15ba6069df2ec9f55",
+    "upstream/review_0_4_0_6_r1/studies/v0_6_r1/code/results.json": "49ecf74da93760fe5cc203b987d5eee9590f632ff3f152c82acb41f4d779a549",
+    "upstream/review_0_4_0_6_r1/studies/v0_6_r1/code/review_contracts.py": "0e245fb0b2dca91d338d0ea8fd53956ab5c2d30aa6ff097a1fd5d17add22802f",
+    "upstream/shutter_v0_8/address_bridge.py": "113e709c4024ccdec5ef53505db50965ccc494a4a060185427c9c84aaf032ade",
+    "upstream/shutter_v0_8/audit.json": "c4e92589789d8f628d3c96355219fd47676bb07ae4bc3584e64fbba3b435f440",
+    "upstream/shutter_v0_8/compute.py": "412c89f1aec991c77a894bf53a894b5351ecf1dca2758add90032cbd43d3e0c5",
+    "upstream/shutter_v0_8/handoff.json": "187fe3246abf4876428736bb2ec378f5970be6f5db444e80f94fc4f79e82833b",
+    "upstream/shutter_v0_8/reproduce_all.py": "c13b8e1cd508ec6e675d4d0a4bea6501a2caeccd7e8ef32802680a311cddd7b9",
+    "upstream/shutter_v0_8/results.json": "1ded346f198ccf29e193840951ced63f378eda2bdfabaa08743305b7e855f45e",
+    "upstream/shutter_v0_8/verify_release.py": "7fa0a6613e0ecdcee05b87c5f0b2e438dbadcd3869a9d3f22ef5a6feaf1737d6",
+    "upstream/source_filter_v0_7/code/compute.py": "f432a744f9df84b97116909f0fe69fff2ea37905f91df1baf1b2d1eb8f6e56b7",
+    "upstream/source_filter_v0_7/code/handoff.json": "5b70746f0aede4b0c2a39747e4a5a6720e1ad8c7bba49e639acaa046e3fba947",
+    "upstream/source_filter_v0_7/code/inputs.json": "935f5062cf4af3a6872146b9a367ff3d16326b70c214deff430f033ddb00479a",
+    "upstream/source_filter_v0_7/code/results.json": "24935b28556d64ad1eaccd8b7d119a4ca4cdd6c78c71b291150b4fffe5aef787"
+  }
+}

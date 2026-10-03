@@ -1,0 +1,167 @@
+{
+  "schema": "wrra.bridge/0.1",
+  "scope": "interface-definition-and-source-audit-only",
+  "endpoints": {
+    "upstream": "0.10 / integrated 1.0-r1",
+    "downstream": "0.12 / integrated 1.0"
+  },
+  "roadmap_end": "0.8; 1.0 publication consolidation",
+  "baseline": {
+    "N": 1000000,
+    "alpha": 1.8996876950554356,
+    "beta_constant": 0.865457012413696,
+    "frames": 8,
+    "phase_step": 0.1,
+    "threshold": 1.44767317035244,
+    "address_fractions": [
+      0.05,
+      0.268,
+      0.682
+    ],
+    "inherited_energy_fractions": [
+      0.0493,
+      0.265,
+      0.6857
+    ],
+    "alternate_energy_fractions": [
+      0.05,
+      0.268,
+      0.682
+    ],
+    "reference_volume_m3": 1,
+    "q_inherited": -0.52855,
+    "q_alternate": -0.523
+  },
+  "typed_ports": [
+    {
+      "name": "address_state",
+      "unit": "dimensionless",
+      "normalization": "trace=1 over n=2..N; vacuum n=1 excluded",
+      "required": "weights plus source hash, admission history and recovery rule"
+    },
+    {
+      "name": "branch_instrument",
+      "unit": "dimensionless",
+      "normalization": "sum K†K=I",
+      "required": "four microscopic branches; coarse return is density sum"
+    },
+    {
+      "name": "conditional_internal_state",
+      "unit": "dimensionless",
+      "normalization": "trace=1 conditional on phi; weighted state trace=f_phi",
+      "required": "basis, Hamiltonian, species label, current operators, Q2 in GeV^2"
+    },
+    {
+      "name": "carrier_state",
+      "unit": "dimensionless",
+      "normalization": "trace=1 in declared carrier basis",
+      "required": "128-site carrier is distinct from 95-dimensional nucleon space"
+    },
+    {
+      "name": "energy",
+      "unit": "J",
+      "normalization": "extensive energy at declared volume and population",
+      "required": "MeV conversion, particle number, supply and signed environment exchange"
+    },
+    {
+      "name": "pressure",
+      "unit": "Pa",
+      "normalization": "-partial E/partial V at specified fixed state variables",
+      "required": "reference calibration and volume dependence"
+    },
+    {
+      "name": "clock",
+      "unit": "s only after validated conversion",
+      "normalization": "frame order is dimensionless; proper time is worldline-specific",
+      "required": "generator and calibration; null means unassigned"
+    },
+    {
+      "name": "record",
+      "unit": "declared finite register",
+      "normalization": "ensemble and sampled outcome kept separate",
+      "required": "instrument, conditional state, medium energy, persistence interval"
+    }
+  ],
+  "issues": [
+    {
+      "id": "B01",
+      "status": "resolved-by-definition",
+      "owner": "0.1",
+      "topic": "resident Actual 31.8% vs complete ledger 100%"
+    },
+    {
+      "id": "B02",
+      "status": "resolved-conditionally",
+      "owner": "0.3-0.4",
+      "topic": "address shares vs SI energy shares; freeze response coefficients"
+    },
+    {
+      "id": "B03",
+      "status": "resolved-conditionally",
+      "owner": "0.4",
+      "topic": "two q0 values follow two energy calibrations at V0"
+    },
+    {
+      "id": "B04",
+      "status": "open",
+      "owner": "0.2",
+      "topic": "product state versus address-conditioned internal correlation"
+    },
+    {
+      "id": "B05",
+      "status": "open",
+      "owner": "0.3",
+      "topic": "excitation supply, population and duplicate energy accounting"
+    },
+    {
+      "id": "B06",
+      "status": "failed-identification-preserved",
+      "owner": "0.5",
+      "topic": "slow schedule/SI phase ratio 2.102556972196466e-43"
+    },
+    {
+      "id": "B07",
+      "status": "open",
+      "owner": "0.6",
+      "topic": "mathematical record instrument versus coupled physical durable record"
+    },
+    {
+      "id": "B08",
+      "status": "open",
+      "owner": "0.2-0.7",
+      "topic": "95-state nucleon,128-site carrier,16 channels are distinct spaces"
+    },
+    {
+      "id": "B09",
+      "status": "open",
+      "owner": "0.7",
+      "topic": "nonuniform coupled covariant dynamics"
+    },
+    {
+      "id": "B10",
+      "status": "open",
+      "owner": "0.2-0.8",
+      "topic": "different address histories at equal totals; externally chosen species and boundary"
+    }
+  ],
+  "adapter_proposal": {
+    "joint_state": "Sigma=sum_n w_n |n><n| tensor rho_internal(n) tensor rho_carrier(n), with branch register as needed",
+    "qualification": "proposed classical-quantum construction, not executed in 0.1; general entanglement not assumed",
+    "product_limit": "conditional internal/carrier states independent of address, or validated observable-specific reduction",
+    "energy_bridge": "E_s=V0 eta_s mu_s a^nu_s Tr(rho_carrier A_s); any internal contribution requires population and declared replacement/addition rule",
+    "calibration_rule": "fit once at named reference; controls hold coefficients fixed"
+  },
+  "acceptance_next": {
+    "0.2": [
+      "joint-state positivity and trace",
+      "same marginal address fractions",
+      "correlation-sensitive energy/current comparison",
+      "basis dimensions and trace-preserving reduction"
+    ],
+    "0.3": [
+      "explicit particle population",
+      "system+environment energy balance",
+      "no duplicate rest or excitation energy"
+    ]
+  }
+}

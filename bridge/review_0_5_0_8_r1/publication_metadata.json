@@ -1,0 +1,13 @@
+{
+  "doi": "10.5281/zenodo.23120693",
+  "zenodo_draft_url": "https://zenodo.org/uploads/23120693",
+  "version": "0.8-r1",
+  "title": "WRRA M Upstream–Downstream Bridge 0.5–0.8: Reviewed Clock, Measurement, Effective Feedback and Final Consistency Collection r1",
+  "github_path": "bridge/review_0_5_0_8_r1",
+  "authors": [
+    "Wonsik Choi",
+    "Jeongin Choi"
+  ],
+  "prior_bridge_doi": "10.5281/zenodo.23119802",
+  "publication_state_at_packaging": "DOI reserved; public status verified separately after publication"
+}

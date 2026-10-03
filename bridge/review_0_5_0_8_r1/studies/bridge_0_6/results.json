@@ -1,0 +1,711 @@
+{
+  "version": "bridge-0.6-r1",
+  "scope": "two-mode ideal projective readout, explicit finite write unitary, postselected phase dynamics, seeded repeated-outcome statistics and qubit noise retention",
+  "system_gap_MeV": 431.08124431500164,
+  "frame_duration_s": 2.9626039328317383e-21,
+  "record_gap_J": 3.559611212147983e-15,
+  "write_work_J": 2.901146067898069e-11,
+  "initial_system_relative_energy_J": 5.523733976482419e-12,
+  "after_write_system_and_record_energy_J": 3.453519465546311e-11,
+  "finite_controller_initial_energy_J": 6.907038931092624e-11,
+  "hierarchical_routes": [
+    {
+      "source_case": "baseline",
+      "named_routes": [
+        "phi_plus",
+        "phi_minus",
+        "D",
+        "initial_reflection",
+        "normal_return"
+      ],
+      "probabilities": [
+        0.02500000000000006,
+        0.02500000000000006,
+        0.26799999999999985,
+        0.007772944563189536,
+        0.6742270554368117
+      ],
+      "sample_frequencies": [
+        0.02458,
+        0.02518,
+        0.26937,
+        0.0078,
+        0.67307
+      ],
+      "scope": "classical branch routing from 0.2; phi receives the chosen internal instrument; D and returns stay outside nuclear preparation"
+    },
+    {
+      "source_case": "p3_low",
+      "named_routes": [
+        "phi_plus",
+        "phi_minus",
+        "D",
+        "initial_reflection",
+        "normal_return"
+      ],
+      "probabilities": [
+        0.021648621365244366,
+        0.021648621365244366,
+        0.2680000287545491,
+        0.006730941349660979,
+        0.6819717871652973
+      ],
+      "sample_frequencies": [
+        0.02271,
+        0.02145,
+        0.26649,
+        0.00693,
+        0.68242
+      ],
+      "scope": "classical branch routing from 0.2; phi receives the chosen internal instrument; D and returns stay outside nuclear preparation"
+    },
+    {
+      "source_case": "p3_high",
+      "named_routes": [
+        "phi_plus",
+        "phi_minus",
+        "D",
+        "initial_reflection",
+        "normal_return"
+      ],
+      "probabilities": [
+        0.029158217081133402,
+        0.029158217081133402,
+        0.2679999565869583,
+        0.009065808197323628,
+        0.6646178010534518
+      ],
+      "sample_frequencies": [
+        0.02945,
+        0.02905,
+        0.26732,
+        0.00908,
+        0.6651
+      ],
+      "scope": "classical branch routing from 0.2; phi receives the chosen internal instrument; D and returns stay outside nuclear preparation"
+    },
+    {
+      "source_case": "p3_phase",
+      "named_routes": [
+        "phi_plus",
+        "phi_minus",
+        "D",
+        "initial_reflection",
+        "normal_return"
+      ],
+      "probabilities": [
+        0.025000000000000265,
+        0.025000000000000265,
+        0.26799999999999735,
+        0.007772944563189431,
+        0.674227055436813
+      ],
+      "sample_frequencies": [
+        0.02481,
+        0.02485,
+        0.26841,
+        0.00782,
+        0.67411
+      ],
+      "scope": "classical branch routing from 0.2; phi receives the chosen internal instrument; D and returns stay outside nuclear preparation"
+    }
+  ],
+  "outcomes": [
+    {
+      "record_bit": 0,
+      "probability": 0.4999999999999998,
+      "conditional_system_relative_energy_J": 3.453341484985705e-11,
+      "record_energy_J": 0.0,
+      "conditional_controller_work_J": 2.9009680873374628e-11,
+      "current_scope": [
+        {
+          "Q2_GeV2": 0.0,
+          "species": "proton",
+          "available": "inherited marginal only; coherent transition current not reconstructed"
+        },
+        {
+          "Q2_GeV2": 0.0,
+          "species": "neutron",
+          "available": "inherited marginal only; coherent transition current not reconstructed"
+        },
+        {
+          "Q2_GeV2": 0.01,
+          "species": "proton",
+          "available": "inherited marginal only; coherent transition current not reconstructed"
+        },
+        {
+          "Q2_GeV2": 0.01,
+          "species": "neutron",
+          "available": "inherited marginal only; coherent transition current not reconstructed"
+        },
+        {
+          "Q2_GeV2": 0.1,
+          "species": "proton",
+          "available": "inherited marginal only; coherent transition current not reconstructed"
+        },
+        {
+          "Q2_GeV2": 0.1,
+          "species": "neutron",
+          "available": "inherited marginal only; coherent transition current not reconstructed"
+        }
+      ]
+    },
+    {
+      "record_bit": 1,
+      "probability": 0.4999999999999998,
+      "conditional_system_relative_energy_J": 3.453341484985705e-11,
+      "record_energy_J": 3.559611212147983e-15,
+      "conditional_controller_work_J": 2.9013240484586777e-11,
+      "current_scope": [
+        {
+          "Q2_GeV2": 0.0,
+          "species": "proton",
+          "available": "inherited marginal only; coherent transition current not reconstructed"
+        },
+        {
+          "Q2_GeV2": 0.0,
+          "species": "neutron",
+          "available": "inherited marginal only; coherent transition current not reconstructed"
+        },
+        {
+          "Q2_GeV2": 0.01,
+          "species": "proton",
+          "available": "inherited marginal only; coherent transition current not reconstructed"
+        },
+        {
+          "Q2_GeV2": 0.01,
+          "species": "neutron",
+          "available": "inherited marginal only; coherent transition current not reconstructed"
+        },
+        {
+          "Q2_GeV2": 0.1,
+          "species": "proton",
+          "available": "inherited marginal only; coherent transition current not reconstructed"
+        },
+        {
+          "Q2_GeV2": 0.1,
+          "species": "neutron",
+          "available": "inherited marginal only; coherent transition current not reconstructed"
+        }
+      ]
+    }
+  ],
+  "repeated_readout": [
+    {
+      "frame_separation": 1,
+      "transition_matrix": [
+        [
+          0.6751642067213942,
+          0.32483579327860534
+        ],
+        [
+          0.32483579327860534,
+          0.6751642067213942
+        ]
+      ],
+      "transition_counts": [
+        [
+          33312,
+          16323
+        ],
+        [
+          16323,
+          34042
+        ]
+      ],
+      "samples": 100000,
+      "same_probability": 0.6751642067213945,
+      "lag1_sign_correlation": 0.3503284134427891
+    },
+    {
+      "frame_separation": 2,
+      "transition_matrix": [
+        [
+          0.12272999726534167,
+          0.8772700027346578
+        ],
+        [
+          0.8772700027346578,
+          0.12272999726534167
+        ]
+      ],
+      "transition_counts": [
+        [
+          6146,
+          43883
+        ],
+        [
+          43882,
+          6089
+        ]
+      ],
+      "samples": 100000,
+      "same_probability": 0.12272999726534173,
+      "lag1_sign_correlation": -0.7545400054693165
+    },
+    {
+      "frame_separation": 4,
+      "transition_matrix": [
+        [
+          0.569330619853636,
+          0.4306693801463636
+        ],
+        [
+          0.4306693801463636,
+          0.569330619853636
+        ]
+      ],
+      "transition_counts": [
+        [
+          28376,
+          21630
+        ],
+        [
+          21631,
+          28363
+        ]
+      ],
+      "samples": 100000,
+      "same_probability": 0.5693306198536362,
+      "lag1_sign_correlation": 0.1386612397072724
+    }
+  ],
+  "record_retention": [
+    {
+      "flip_probability_per_tick_input": 0.0,
+      "ticks": 1,
+      "proper_time_s": 2.9626039328317383e-21,
+      "record_error_probability": 0.0,
+      "record_energy_increase_J": 0.0
+    },
+    {
+      "flip_probability_per_tick_input": 0.0,
+      "ticks": 64,
+      "proper_time_s": 1.8960665170123125e-19,
+      "record_error_probability": 0.0,
+      "record_energy_increase_J": 0.0
+    },
+    {
+      "flip_probability_per_tick_input": 0.0,
+      "ticks": 256,
+      "proper_time_s": 7.58426606804925e-19,
+      "record_error_probability": 0.0,
+      "record_energy_increase_J": 0.0
+    },
+    {
+      "flip_probability_per_tick_input": 0.001,
+      "ticks": 1,
+      "proper_time_s": 2.9626039328317383e-21,
+      "record_error_probability": 0.001,
+      "record_energy_increase_J": 3.5596112121479834e-18
+    },
+    {
+      "flip_probability_per_tick_input": 0.001,
+      "ticks": 64,
+      "proper_time_s": 1.8960665170123125e-19,
+      "record_error_probability": 0.060129692624210626,
+      "record_energy_increase_J": 2.1403832804815203e-16
+    },
+    {
+      "flip_probability_per_tick_input": 0.001,
+      "ticks": 256,
+      "proper_time_s": 7.58426606804925e-19,
+      "record_error_probability": 0.20050569129219964,
+      "record_energy_increase_J": 7.137223068231961e-16
+    },
+    {
+      "flip_probability_per_tick_input": 0.01,
+      "ticks": 1,
+      "proper_time_s": 2.9626039328317383e-21,
+      "record_error_probability": 0.01,
+      "record_energy_increase_J": 3.559611212147983e-17
+    },
+    {
+      "flip_probability_per_tick_input": 0.01,
+      "ticks": 64,
+      "proper_time_s": 1.8960665170123125e-19,
+      "record_error_probability": 0.36277322763642667,
+      "record_energy_increase_J": 1.2913316485617369e-15
+    },
+    {
+      "flip_probability_per_tick_input": 0.01,
+      "ticks": 256,
+      "proper_time_s": 7.58426606804925e-19,
+      "record_error_probability": 0.49716309115330787,
+      "record_energy_increase_J": 1.7697073135354644e-15
+    }
+  ],
+  "checks": [
+    {
+      "name": "two-mode support orthonormal",
+      "passed": true
+    },
+    {
+      "name": "inherited full H Hermitian relative norm",
+      "passed": true
+    },
+    {
+      "name": "two-mode support invariant under full H",
+      "passed": true
+    },
+    {
+      "name": "relative two-mode generator from full H",
+      "passed": true
+    },
+    {
+      "name": "initial excitation energy from original full H",
+      "passed": true
+    },
+    {
+      "name": "instrument complete",
+      "passed": true
+    },
+    {
+      "name": "write coupling unitary",
+      "passed": true
+    },
+    {
+      "name": "write preserves joint positivity/trace",
+      "passed": true
+    },
+    {
+      "name": "finite controller covers write work",
+      "passed": true
+    },
+    {
+      "name": "write signed energy balance",
+      "passed": true
+    },
+    {
+      "name": "outcome0 Born instrument",
+      "passed": true
+    },
+    {
+      "name": "outcome0 conditional state/correct pointer",
+      "passed": true
+    },
+    {
+      "name": "outcome0 positivity/trace",
+      "passed": true
+    },
+    {
+      "name": "outcome0 branch energy account",
+      "passed": true
+    },
+    {
+      "name": "outcome1 Born instrument",
+      "passed": true
+    },
+    {
+      "name": "outcome1 conditional state/correct pointer",
+      "passed": true
+    },
+    {
+      "name": "outcome1 positivity/trace",
+      "passed": true
+    },
+    {
+      "name": "outcome1 branch energy account",
+      "passed": true
+    },
+    {
+      "name": "nonselective pointer matches dephased system",
+      "passed": true
+    },
+    {
+      "name": "nonselective energy same as pre-pointer write",
+      "passed": true
+    },
+    {
+      "name": "k1 Born transition rows normalized",
+      "passed": true
+    },
+    {
+      "name": "k1 analytic repeated transition",
+      "passed": true
+    },
+    {
+      "name": "k1 row0 seeded frequency",
+      "passed": true
+    },
+    {
+      "name": "k1 row1 seeded frequency",
+      "passed": true
+    },
+    {
+      "name": "k2 Born transition rows normalized",
+      "passed": true
+    },
+    {
+      "name": "k2 analytic repeated transition",
+      "passed": true
+    },
+    {
+      "name": "k2 row0 seeded frequency",
+      "passed": true
+    },
+    {
+      "name": "k2 row1 seeded frequency",
+      "passed": true
+    },
+    {
+      "name": "k4 Born transition rows normalized",
+      "passed": true
+    },
+    {
+      "name": "k4 analytic repeated transition",
+      "passed": true
+    },
+    {
+      "name": "k4 row0 seeded frequency",
+      "passed": true
+    },
+    {
+      "name": "k4 row1 seeded frequency",
+      "passed": true
+    },
+    {
+      "name": "noise0.0 ticks1 retention",
+      "passed": true
+    },
+    {
+      "name": "noise0.0 ticks1 state contract",
+      "passed": true
+    },
+    {
+      "name": "noise0.0 ticks1 noise supply account",
+      "passed": true
+    },
+    {
+      "name": "noise0.0 ticks64 retention",
+      "passed": true
+    },
+    {
+      "name": "noise0.0 ticks64 state contract",
+      "passed": true
+    },
+    {
+      "name": "noise0.0 ticks64 noise supply account",
+      "passed": true
+    },
+    {
+      "name": "noise0.0 ticks256 retention",
+      "passed": true
+    },
+    {
+      "name": "noise0.0 ticks256 state contract",
+      "passed": true
+    },
+    {
+      "name": "noise0.0 ticks256 noise supply account",
+      "passed": true
+    },
+    {
+      "name": "noise0.001 ticks1 retention",
+      "passed": true
+    },
+    {
+      "name": "noise0.001 ticks1 state contract",
+      "passed": true
+    },
+    {
+      "name": "noise0.001 ticks1 noise supply account",
+      "passed": true
+    },
+    {
+      "name": "noise0.001 ticks64 retention",
+      "passed": true
+    },
+    {
+      "name": "noise0.001 ticks64 state contract",
+      "passed": true
+    },
+    {
+      "name": "noise0.001 ticks64 noise supply account",
+      "passed": true
+    },
+    {
+      "name": "noise0.001 ticks256 retention",
+      "passed": true
+    },
+    {
+      "name": "noise0.001 ticks256 state contract",
+      "passed": true
+    },
+    {
+      "name": "noise0.001 ticks256 noise supply account",
+      "passed": true
+    },
+    {
+      "name": "noise0.01 ticks1 retention",
+      "passed": true
+    },
+    {
+      "name": "noise0.01 ticks1 state contract",
+      "passed": true
+    },
+    {
+      "name": "noise0.01 ticks1 noise supply account",
+      "passed": true
+    },
+    {
+      "name": "noise0.01 ticks64 retention",
+      "passed": true
+    },
+    {
+      "name": "noise0.01 ticks64 state contract",
+      "passed": true
+    },
+    {
+      "name": "noise0.01 ticks64 noise supply account",
+      "passed": true
+    },
+    {
+      "name": "noise0.01 ticks256 retention",
+      "passed": true
+    },
+    {
+      "name": "noise0.01 ticks256 state contract",
+      "passed": true
+    },
+    {
+      "name": "noise0.01 ticks256 noise supply account",
+      "passed": true
+    },
+    {
+      "name": "baseline hierarchical routing normalized",
+      "passed": true
+    },
+    {
+      "name": "baseline phi route coarse probability preserved",
+      "passed": true
+    },
+    {
+      "name": "baseline route phi_plus",
+      "passed": true
+    },
+    {
+      "name": "baseline route phi_minus",
+      "passed": true
+    },
+    {
+      "name": "baseline route D",
+      "passed": true
+    },
+    {
+      "name": "baseline route initial_reflection",
+      "passed": true
+    },
+    {
+      "name": "baseline route normal_return",
+      "passed": true
+    },
+    {
+      "name": "p3_low hierarchical routing normalized",
+      "passed": true
+    },
+    {
+      "name": "p3_low phi route coarse probability preserved",
+      "passed": true
+    },
+    {
+      "name": "p3_low route phi_plus",
+      "passed": true
+    },
+    {
+      "name": "p3_low route phi_minus",
+      "passed": true
+    },
+    {
+      "name": "p3_low route D",
+      "passed": true
+    },
+    {
+      "name": "p3_low route initial_reflection",
+      "passed": true
+    },
+    {
+      "name": "p3_low route normal_return",
+      "passed": true
+    },
+    {
+      "name": "p3_high hierarchical routing normalized",
+      "passed": true
+    },
+    {
+      "name": "p3_high phi route coarse probability preserved",
+      "passed": true
+    },
+    {
+      "name": "p3_high route phi_plus",
+      "passed": true
+    },
+    {
+      "name": "p3_high route phi_minus",
+      "passed": true
+    },
+    {
+      "name": "p3_high route D",
+      "passed": true
+    },
+    {
+      "name": "p3_high route initial_reflection",
+      "passed": true
+    },
+    {
+      "name": "p3_high route normal_return",
+      "passed": true
+    },
+    {
+      "name": "p3_phase hierarchical routing normalized",
+      "passed": true
+    },
+    {
+      "name": "p3_phase phi route coarse probability preserved",
+      "passed": true
+    },
+    {
+      "name": "p3_phase route phi_plus",
+      "passed": true
+    },
+    {
+      "name": "p3_phase route phi_minus",
+      "passed": true
+    },
+    {
+      "name": "p3_phase route D",
+      "passed": true
+    },
+    {
+      "name": "p3_phase route initial_reflection",
+      "passed": true
+    },
+    {
+      "name": "p3_phase route normal_return",
+      "passed": true
+    }
+  ],
+  "passed": 87,
+  "failed": 0,
+  "assumptions": [
+    "X-basis measurement chosen, not derived from address readout",
+    "record is a modeled qubit, not actual hardware",
+    "write is an externally controlled finite operation; duration and autonomous controller Hamiltonian not derived",
+    "bit flip noise is an input per tick",
+    "record resetting and many-record storage work not modeled; transition samples do not accumulate physical memory energy",
+    "two-mode invariant internal energy support; coherent transition currents remain unexecuted"
+  ],
+  "open": [
+    "autonomous apparatus and energy-conserving controller dilation",
+    "physical record material, barriers, rate and stability",
+    "reset/work cycle for repeated measurements",
+    "full branch/address instrument on coupled physical state",
+    "off-diagonal current operator adapter",
+    "nonuniform covariant coupling"
+  ],
+  "source_sha256": {
+    "clock_0_5.json": "cc02fc56605d5826c370b336e43f0ad510472303d521554b5321848a79c2bf7a",
+    "internal_and_carrier_basis.npz": "813ab9d81cdc5ffb615f6a6c84955d00856ca37c7aa92e021037cf3514ea3e70",
+    "state_0_2.json": "c8a0d17a86582887cbcafed2708a890b136cc89b162df251c70ae5e48e2c6e90"
+  }
+}

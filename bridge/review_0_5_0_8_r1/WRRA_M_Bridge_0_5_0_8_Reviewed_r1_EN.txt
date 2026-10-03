@@ -1,0 +1,190 @@
+WRRA M Bridge Research 0.5-0.8 r1
+
+Reviewed Clock, Measurement and Feedback Collection
+
+최원식 · 최정인 / Wonsik Choi · Jeongin Choi
+2026-10-03 · CC BY 4.0
+
+1. Evaluation and executed scope
+
+Evaluation | Evidence in this review
+
+Verified/frozen inputs | SI conversion, downstream electron energy/mode, finite upstream address state/internal H and reviewed r1 ledger. Population, species, reservoir, clock and spatial coefficients remain disclosed construction inputs.
+
+WRRA transformation | Address-conditioned state -> same internal H -> nonduplicated SI ledger -> homogeneous pressure/expansion; adopted proper-time measurement/record and a separate effective spatial feedback path.
+
+Outputs | Seven stages replayed: 1,116 stage checks + 188 review checks = 1,304 passed. Eight result JSON files are byte-identical in a clean directory.
+
+Falsification | Reject an adapter if trace, positivity, energy, pressure, phase, current, convergence or input dependence contradicts its specification. A full covariant bridge remains open because its joint dynamics is not implemented.
+
+Stage check counts
+
+Stage | Execution | Passed
+
+0.1 | Typed scope contract | 15
+
+0.2 | Address-conditioned CQ state | 95
+
+0.3 | SI exchange without duplication | 134
+
+0.4 | Homogeneous pressure/FRW | 600
+
+0.5 | Conditional SI clock/phase | 134
+
+0.6 | Measurement/record/repetition | 87
+
+0.7 | Effective nonuniform feedback | 51
+
+Counts include mathematical/implementation checks, provenance and confirmation of expected limitations. They are not numbers of independent experiments or observational confirmations.
+
+
+
+
+2. Executed connections and retained provenance
+
+Connection | Status | Payload / limit
+
+0.2 -> 0.3 -> 0.4 | Executed | Excitation -> externally matched SI population load -> pressure/FRW from one E(V). Particle creation and preparation time law remain open.
+
+0.2 + 0.5 -> 0.6 | Executed | Same internal gap and adopted frame -> post-observation states/repeated transitions. Autonomous apparatus/reset remain open.
+
+0.2 -> 0.7 | Executed | Baseline populations -> chosen spatial profiles -> occupancy -> field -> state. Dimensionless nonrelativistic effective model.
+
+0.5 -> 0.7 | Provenance | Clock snapshot is retained. Changing its rate leaves field results unchanged. SI length/kinetic/G calibration remains open.
+
+0.6 -> 0.7 | Provenance | Measurement snapshot is retained; post-measurement state/apparatus/record energy is not fed into field evolution.
+
+0.6 -> 0.3/0.4 | Review diagnostic | 0.8 inserts one mean write cost into the existing SI ledger and checks external/included supply boundaries. Actual apparatus space-time dynamics remains open.
+
+Behavioral input-dependency probes
+
+Isolated input change | Numerical response
+
+Double 0.7 clock rate | Density/field/convergence unchanged; maximum density difference 0
+
+Double 0.7 measurement work | Density/field/convergence unchanged; maximum density difference 0
+
+Set 0.7 baseline population to 0.12 | Maximum final density difference 0.01681125416
+
+Double 0.6 frame duration | First repeated-transition matrix maximum difference 0.55243420946
+
+These synthetic perturbations test actual code dependencies. The population perturbation is not counted as a recalibrated upstream state or a particle-creation calculation.
+
+The 0.7 time-refinement ratio is 4.000041; the 64/128 grid density L2 difference is 9.02348e-12. This establishes convergence for the declared smooth finite test, not universal accuracy.
+
+
+
+
+3. SI ledger check with measurement cost
+
+Verified/frozen inputs: baseline excited population p=0.07997665450, the same-H gap Delta, 0.5 frame/0.6 record gap, and 0.3 fixed expected population Nbar/reservoir. The reservoir choice 0.2 Ephi is a diagnostic construction input.
+
+WRRA transformation: the chosen X readout changes the nonselective internal state to I/2. Mean one-write supply is W=(1/2-p) Delta_J + record_gap_J/2. Internal excitation and record energy are each counted once. Total supply is Nbar W, opposed by reservoir change -Nbar W.
+
+Outputs: inherited/proton calibration at reference 1 m3 gives excitation increase 7.0374395222e-12 J, record increase 4.3176187869e-16 J and total supply 7.0378712840e-12 J. Reservoir energy falls from 7.5615824991e-12 J to positive 5.2371121503e-13 J.
+
+Calibration/species | Supply / J | External q: before -> after | Included q
+
+inherited/proton | 7.0378713e-12 | -0.528550 -> -0.519197 | -0.518508
+
+inherited/neutron | 7.0285264e-12 | -0.528550 -> -0.519209 | -0.518508
+
+alternate/proton | 7.1378005e-12 | -0.523000 -> -0.513566 | -0.512871
+
+alternate/neutron | 7.1283229e-12 | -0.523000 -> -0.513579 | -0.512871
+
+External boundary: the subsystem excluding its supplier gains the supplied energy. Included boundary: with the existing pressureless-supplier assumption, total energy and q are unchanged by redistribution. The two boundaries have different reference total energy, so their distinct q values are consistent.
+
+Falsification: reject this ledger insertion if internal plus record increase differs from supply, the reservoir turns negative, included total energy changes, or pressure disagrees with the same E(V). All four declared combinations pass.
+
+Scope: a conditional one-write mean ledger followed by the fixed-comoving-energy rule. It does not implement Q(t), actual apparatus distribution, record reset, 100,000 physical memory costs or nonuniform covariant gravity.
+
+
+
+
+4. Consistency and resolution of apparent conflicts
+
+Apparent conflict | Assessment / resolution
+
+31.8% versus 100% | Resident Actual is retained phi+D; the complete ledger includes returns. Separate them through typed scope.
+
+5/26.8/68.2 versus 4.93/26.5/68.57 | Address probabilities and SI energy fractions are different input types. Use a named energy calibration rather than automatic substitution.
+
+q=-0.52855 versus -0.523 | The same pressure law reproduces each stated energy calibration. Always retain calibration and subsystem boundary.
+
+Post-readout p=0.5 versus fixed prepared state in 0.4 | Readout changes the state and requires work. A post-write E(V) can use the new load; Q(t) remains open.
+
+Uniform phi=0 in 0.7 versus FRW expansion | Periodic Poisson subtracts the mean and does not calculate the background zero mode. Do not count the uniform test as FRW reproduction; a common background/perturbation adapter remains open.
+
+Clock/record snapshots imply field integration? | Perturbation confirms these files are not numerical dependencies of 0.7. Claim integration only for executed connections.
+
+Reproduction, explanation and prediction
+
+Reproducing known values through WRRA transformations is a consistency and explanatory achievement. The structural contribution is the executed connection of address-conditioned state, internal H, signed SI exchange, pressure and observation/record costs through typed ledgers and explicit boundaries.
+
+After verified inputs and construction choices are fixed, repeated-transition probabilities, noise-conditioned record errors and finite spatial density/field evolution are conditional WRRA model predictions. At p_flip=0.001 and 256 ticks the predicted error is 0.2005056913. Observations must match the declared medium/noise conditions; a disagreement under matched conditions requires revising or rejecting that model rule.
+
+
+
+
+5. Final status of the ten original bridge issues
+
+Issue | Final status
+
+B01 | Scope distinction resolved
+
+B02 | Address/energy types and conditional calibration resolved; abundance origin open
+
+B03 | q reproduced for each stated calibration/boundary
+
+B04 | Diagonal-address CQ correlation and observable reduction executed; no general entanglement claim
+
+B05 | Nonduplication and signed finite supply executed; physical preparation/creation apparatus open
+
+B06 | Old clock equality remains failed; selected SI adapter executes, physical rate open
+
+B07 | Ideal instrument/work/record noise executed; physical durability/reset open
+
+B08 | Internal 95D, carrier 128D and channel spaces separated; carrier dynamics open
+
+B09 | Effective nonuniform feedback executes; full SI covariant bridge open
+
+B10 | Source-history correlations tested; actual species population/boundary are construction inputs
+
+6. Verdict, replay and handoff to 1.0
+
+Bridge development closes at the agreed 0.8. Preserve the finite conditional achievements of 0.1-0.7 and retain autonomous/covariant interfaces as open. Upstream closure at 0.10 and downstream at 0.12 remain unchanged. Version 1.0 consolidates this reviewed scope for publication; it does not erase open issues. Corrections use r1/r2 without automatic extra stages.
+
+Replay: install numpy/scipy and run OPENBLAS_NUM_THREADS=1 python reproduce_all.py. Forward freshly generated state/basis and results in dependency order. Mark 0.7 clock/measurement copies as provenance. Eight result JSON files are byte-identical; input hashes are checked. See environment.json, results.json and clean_replay.json.
+
+선행 공개 자료 / Prior public sources:
+Bridge 0.1-0.4 r1: doi.org/10.5281/zenodo.23119802
+Upstream 1.0-r1: doi.org/10.5281/zenodo.23119041
+Downstream 0.10-0.12: doi.org/10.5281/zenodo.23113101
+GitHub: github.com/Wonsik-Choi-janefather/wrra-m-0.1
+
+Reviewed release DOI: 10.5281/zenodo.23120693. Repository directory: bridge/review_0_5_0_8_r1. No journal submission or acceptance is claimed.
+
+
+
+
+7. Revision r1 and release specification
+
+Stage | Revision | Checks: original -> r1
+
+0.5 | Use a relative norm for the small SI generator Hermitian test; directly compare electron-mode calibration and SI energy scale. | 133 -> 134
+
+0.6 | Verify the full 95D H Hermiticity, invariant two-mode support, projected relative generator and initial excitation energy. | 83 -> 87
+
+0.7 | Check FFT kinetic Hermiticity, matrix/gradient energy equivalence and quantitative second-order density/energy refinement. Define drho as the discrete cell-mass derivative. | 40 -> 51
+
+0.8 | Read original ZIP result payloads and compare all seven stages; verify ten issues/B09 open scope; propagate current outputs and freeze reviewed references. | 179 -> 188
+
+All scientific numerical payloads remain identical. Version/check/dependency metadata is intentionally updated. Original 0.5-0.8 ZIPs are retained in historical/. Reviewed 0.1-0.4 code is unchanged and bundled as a dependency.
+
+The complete run passes 1,116 stage checks + 188 review checks = 1,304, an increase of 25 over the original 1,279. Revised 0.5-0.7 stages contribute 272 checks; prior stages contribute 844 dependency checks. The 188 review checks include the prior 36 cross-stage checks once.
+
+Release files are Korean/English PDFs and the complete reproduction ZIP. The ZIP includes revised code, declared inputs, results, before/after comparison, final issue register, environment and SHA256SUMS. Preserve reproduction/explanation/conditional prediction under stated assumptions and retain autonomous apparatus/full SI covariance as open.
+
+DOI: https://doi.org/10.5281/zenodo.23120693
+GitHub: https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/tree/main/bridge/review_0_5_0_8_r1

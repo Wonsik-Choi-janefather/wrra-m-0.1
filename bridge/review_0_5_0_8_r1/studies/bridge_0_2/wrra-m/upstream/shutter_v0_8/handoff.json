@@ -1,0 +1,30 @@
+{
+  "version": "upstream-0.8-r1",
+  "N": 1000000,
+  "alpha": 1.8996876950554356,
+  "beta": 0.8654570124136961,
+  "microscopic_branch_probabilities": {
+    "phi": 0.04999999999999984,
+    "D": 0.26800000000000024,
+    "initial_reflection": 0.0077729445631895076,
+    "normal_return": 0.6742270554368127
+  },
+  "aggregate_outputs": {
+    "phenotype": 0.04999999999999984,
+    "dark": 0.26800000000000024,
+    "return": 0.6820000000000023
+  },
+  "checks_passed": 28,
+  "parent_sha256": "5b70746f0aede4b0c2a39747e4a5a6720e1ad8c7bba49e639acaa046e3fba947",
+  "state_contract": "classical label plus normalized microscopic conditional vector; returned mixture is not a fictitious pure amplitude",
+  "frame_order": [
+    "SOURCE preparation",
+    "ordered parent filters",
+    "branch readout",
+    "one conditional record"
+  ],
+  "minimum_readout_unit": "one finite branch record",
+  "physical_time_unit": null,
+  "energy_map": null,
+  "next_stage": "0.9: map microscopic conditional residue into frozen 0.6 particle/current readout"
+}

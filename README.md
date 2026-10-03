@@ -1,5 +1,19 @@
 # WRRA-M Research Notes
 
+## Upstream–downstream bridge 0.5–0.8 reviewed r1 · 2026-10-03
+
+상하류 연결 연구 0.5–0.8을 재검토하고 수정했습니다. SI 생성자의 상대 오차 검사, 원래 Hamiltonian의 두 모드 불변 부분공간, 공간 운동 연산자와 gradient 에너지의 일치, 밀도·에너지 수렴 검사를 보강했습니다. **기존 과학적 산출값은 유지**했고, **1,116 단계 검사 + 188 검토 검사 = 1,304개 통과**, 깨끗한 폴더의 결과 JSON 8개가 바이트 단위로 동일합니다. 공동저자는 **Wonsik Choi (최원식), Jeongin Choi (최정인)**입니다.
+
+- [Reviewed bilingual reports, code, inputs, results and reproduction](bridge/review_0_5_0_8_r1/README.md)
+- [한국어 PDF](bridge/review_0_5_0_8_r1/WRRA_M_Bridge_0_5_0_8_Reviewed_r1_KO_2026_10_03.pdf) · [English PDF](bridge/review_0_5_0_8_r1/WRRA_M_Bridge_0_5_0_8_Reviewed_r1_EN_2026_10_03.pdf)
+- [Zenodo reviewed collection, DOI 10.5281/zenodo.23120693](https://zenodo.org/records/23120693)
+- [Complete reproduction ZIP](bridge/review_0_5_0_8_r1/archive/WRRA_M_Bridge_0_5_0_8_Reviewed_r1_2026_10_03.zip) · [Revision notes](bridge/review_0_5_0_8_r1/REVISION_r1.md)
+
+Verified/frozen inputs -> WRRA state, same-H phase and signed SI ledger -> homogeneous pressure/expansion, ideal measurement/record and effective spatial feedback -> declared falsification checks. Known-value reproduction is an explanatory achievement; fixed-input unmeasured outputs are conditional WRRA model predictions. Counts are mathematical/implementation/provenance case checks, not experiments.
+
+Clock and measurement files retained by 0.7 are provenance only; isolated perturbations confirm they do not feed its field evolution. The ideal one-write energy ledger is checked, while autonomous physical apparatus, durable record/reset and full SI covariant geometry remain open. **Upstream closes at 0.10, downstream at 0.12, bridge at 0.8; 1.0 consolidates the reviewed executed scope.** Original 0.5–0.8 packages are preserved in historical/. This is the latest bridge status; earlier sections retain their historical stage scope.
+
+
 ## Upstream–downstream bridge 0.1–0.4 reviewed r1
 
 상하류 연결 연구 0.1–0.4 검토판입니다. 조건부 결합 상태, SI 에너지 교체·교환, 같은 에너지의 압력·균일 팽창을 선언한 가정 아래 실행했습니다. 공급 장치·실제 입자 풍부도·소스 프레임 SI 시간·영속 기록·비균질 공변 동역학은 후속 과제로 유지합니다.

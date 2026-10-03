@@ -1,0 +1,49 @@
+{
+  "version": "0.8-r1",
+  "clean_directory_replay": "passed",
+  "result_json_files": 8,
+  "all_results_byte_identical": true,
+  "files": [
+    {
+      "path": "results.json",
+      "byte_identical": true,
+      "sha256": "4b13b740992bc2723aabb703059b924c1ca6dddf52616b5ea15f823db4130631"
+    },
+    {
+      "path": "studies/bridge_0_1/audit_results.json",
+      "byte_identical": true,
+      "sha256": "24a1a6a817092962945cf19e69921e2e260d33c8cd1f3429293f7d388db9ff91"
+    },
+    {
+      "path": "studies/bridge_0_2/results.json",
+      "byte_identical": true,
+      "sha256": "c8a0d17a86582887cbcafed2708a890b136cc89b162df251c70ae5e48e2c6e90"
+    },
+    {
+      "path": "studies/bridge_0_3/results.json",
+      "byte_identical": true,
+      "sha256": "571affd15c58c5b6c13a2fb146e0ce479eda910d1ca45ebb47acf0bb8f01a0e2"
+    },
+    {
+      "path": "studies/bridge_0_4/results.json",
+      "byte_identical": true,
+      "sha256": "4104332912af6855217112b51c767783d81393a7bb3a8d1068fdc3f0eb665daf"
+    },
+    {
+      "path": "studies/bridge_0_5/results.json",
+      "byte_identical": true,
+      "sha256": "cc02fc56605d5826c370b336e43f0ad510472303d521554b5321848a79c2bf7a"
+    },
+    {
+      "path": "studies/bridge_0_6/results.json",
+      "byte_identical": true,
+      "sha256": "b9f36abcf89fbe284966da9e58e3431ab282138ae43d7a2c6a4551daf9ace930"
+    },
+    {
+      "path": "studies/bridge_0_7/results.json",
+      "byte_identical": true,
+      "sha256": "0fb65fa68b85dcd4257a712f3fa92d3de06119482cc358ca31daa9a41628b57a"
+    }
+  ],
+  "scope": "isolated directory; recorded numerical dependencies; bundled frozen upstream sources; original numeric payload comparisons rerun"
+}

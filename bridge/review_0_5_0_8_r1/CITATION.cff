@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the authors and reviewed bridge stage when using this package."
+title: "WRRA M Upstream-Downstream Bridge 0.5-0.8: Reviewed Clock, Measurement, Effective Feedback and Final Consistency Collection r1"
+version: "0.8-r1"
+date-released: "2026-10-03"
+authors:
+  - family-names: "Choi"
+    given-names: "Wonsik"
+    orcid: "https://orcid.org/0009-0001-4263-9772"
+  - family-names: "Choi"
+    given-names: "Jeongin"
+license: CC-BY-4.0
+url: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1"
+doi: "10.5281/zenodo.23120693"

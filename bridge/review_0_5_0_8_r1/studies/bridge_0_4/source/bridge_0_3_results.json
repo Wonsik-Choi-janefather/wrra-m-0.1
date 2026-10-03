@@ -1,0 +1,857 @@
+{
+  "version": "bridge-0.3",
+  "scope": "finite signed energy account for externally matched expected nucleon population; no SI dynamics",
+  "unit_conversion_MeV_to_J": 1.6021766339999998e-13,
+  "ucrit_J_m3": 7.668947767821907e-10,
+  "rows": [
+    {
+      "calibration": "inherited",
+      "species": "proton",
+      "case": "baseline",
+      "V0_m3": 1,
+      "expected_population_input": 0.2425893463937076,
+      "rest_energy_per_particle_J": 1.5032776180191043e-10,
+      "reference_phi_allocation_J": 3.7807912495362e-11,
+      "rest_total_J": 3.6467913480354414e-11,
+      "excitation_total_J": 1.3399990150075855e-12,
+      "system_energy_J": 7.668947767821907e-10,
+      "system_change_J": 0.0,
+      "environment_initial_J": 7.561582499072401e-12,
+      "environment_final_J": 7.561582499072401e-12,
+      "naive_double_count_total_J": 8.047026892775528e-10,
+      "duplicate_J": 3.7807912495362053e-11,
+      "protocol": "fixed expected population; conditional preparation controls only"
+    },
+    {
+      "calibration": "inherited",
+      "species": "proton",
+      "case": "p3_low",
+      "V0_m3": 1,
+      "expected_population_input": 0.2425893463937076,
+      "rest_energy_per_particle_J": 1.5032776180191043e-10,
+      "reference_phi_allocation_J": 3.7807912495362e-11,
+      "rest_total_J": 3.6467913480354414e-11,
+      "excitation_total_J": 1.3489375489645301e-12,
+      "system_energy_J": 7.669037153161476e-10,
+      "system_change_J": 8.938533956944637e-15,
+      "environment_initial_J": 7.561582499072401e-12,
+      "environment_final_J": 7.552643965115456e-12,
+      "naive_double_count_total_J": 8.047116278115097e-10,
+      "duplicate_J": 3.7807912495362053e-11,
+      "protocol": "fixed expected population; conditional preparation controls only"
+    },
+    {
+      "calibration": "inherited",
+      "species": "proton",
+      "case": "p3_high",
+      "V0_m3": 1,
+      "expected_population_input": 0.2425893463937076,
+      "rest_energy_per_particle_J": 1.5032776180191043e-10,
+      "reference_phi_allocation_J": 3.7807912495362e-11,
+      "rest_total_J": 3.6467913480354414e-11,
+      "excitation_total_J": 1.3223447822376663e-12,
+      "system_energy_J": 7.668771225494208e-10,
+      "system_change_J": -1.7654232769919182e-14,
+      "environment_initial_J": 7.561582499072401e-12,
+      "environment_final_J": 7.579236731842321e-12,
+      "naive_double_count_total_J": 8.046850350447828e-10,
+      "duplicate_J": 3.780791249536195e-11,
+      "protocol": "fixed expected population; conditional preparation controls only"
+    },
+    {
+      "calibration": "inherited",
+      "species": "proton",
+      "case": "p3_phase",
+      "V0_m3": 1,
+      "expected_population_input": 0.2425893463937076,
+      "rest_energy_per_particle_J": 1.5032776180191043e-10,
+      "reference_phi_allocation_J": 3.7807912495362e-11,
+      "rest_total_J": 3.6467913480354414e-11,
+      "excitation_total_J": 1.3399990150075855e-12,
+      "system_energy_J": 7.668947767821907e-10,
+      "system_change_J": 0.0,
+      "environment_initial_J": 7.561582499072401e-12,
+      "environment_final_J": 7.561582499072401e-12,
+      "naive_double_count_total_J": 8.047026892775528e-10,
+      "duplicate_J": 3.7807912495362053e-11,
+      "protocol": "fixed expected population; conditional preparation controls only"
+    },
+    {
+      "calibration": "inherited",
+      "species": "neutron",
+      "case": "baseline",
+      "V0_m3": 1,
+      "expected_population_input": 0.2422672363264686,
+      "rest_energy_per_particle_J": 1.5053497651466188e-10,
+      "reference_phi_allocation_J": 3.7807912495362e-11,
+      "rest_total_J": 3.6469692730676986e-11,
+      "excitation_total_J": 1.3382197646850105e-12,
+      "system_energy_J": 7.668947767821907e-10,
+      "system_change_J": 0.0,
+      "environment_initial_J": 7.561582499072401e-12,
+      "environment_final_J": 7.561582499072401e-12,
+      "naive_double_count_total_J": 8.047026892775528e-10,
+      "duplicate_J": 3.7807912495362053e-11,
+      "protocol": "fixed expected population; conditional preparation controls only"
+    },
+    {
+      "calibration": "inherited",
+      "species": "neutron",
+      "case": "p3_low",
+      "V0_m3": 1,
+      "expected_population_input": 0.2422672363264686,
+      "rest_energy_per_particle_J": 1.5053497651466188e-10,
+      "reference_phi_allocation_J": 3.7807912495362e-11,
+      "rest_total_J": 3.6469692730676986e-11,
+      "excitation_total_J": 1.3471464300590321e-12,
+      "system_energy_J": 7.669037034475648e-10,
+      "system_change_J": 8.926665374021605e-15,
+      "environment_initial_J": 7.561582499072401e-12,
+      "environment_final_J": 7.552655833698379e-12,
+      "naive_double_count_total_J": 8.047116159429267e-10,
+      "duplicate_J": 3.780791249536195e-11,
+      "protocol": "fixed expected population; conditional preparation controls only"
+    },
+    {
+      "calibration": "inherited",
+      "species": "neutron",
+      "case": "p3_high",
+      "V0_m3": 1,
+      "expected_population_input": 0.2422672363264686,
+      "rest_energy_per_particle_J": 1.5053497651466188e-10,
+      "reference_phi_allocation_J": 3.7807912495362e-11,
+      "rest_total_J": 3.6469692730676986e-11,
+      "excitation_total_J": 1.3205889732004944e-12,
+      "system_energy_J": 7.668771459907062e-10,
+      "system_change_J": -1.7630791484516133e-14,
+      "environment_initial_J": 7.561582499072401e-12,
+      "environment_final_J": 7.579213290556917e-12,
+      "naive_double_count_total_J": 8.046850584860683e-10,
+      "duplicate_J": 3.7807912495362053e-11,
+      "protocol": "fixed expected population; conditional preparation controls only"
+    },
+    {
+      "calibration": "inherited",
+      "species": "neutron",
+      "case": "p3_phase",
+      "V0_m3": 1,
+      "expected_population_input": 0.2422672363264686,
+      "rest_energy_per_particle_J": 1.5053497651466188e-10,
+      "reference_phi_allocation_J": 3.7807912495362e-11,
+      "rest_total_J": 3.6469692730676986e-11,
+      "excitation_total_J": 1.3382197646850105e-12,
+      "system_energy_J": 7.668947767821907e-10,
+      "system_change_J": 0.0,
+      "environment_initial_J": 7.561582499072401e-12,
+      "environment_final_J": 7.561582499072401e-12,
+      "naive_double_count_total_J": 8.047026892775528e-10,
+      "duplicate_J": 3.7807912495362053e-11,
+      "protocol": "fixed expected population; conditional preparation controls only"
+    },
+    {
+      "calibration": "alternate",
+      "species": "proton",
+      "case": "baseline",
+      "V0_m3": 1,
+      "expected_population_input": 0.24603381987191444,
+      "rest_energy_per_particle_J": 1.5032776180191043e-10,
+      "reference_phi_allocation_J": 3.834473883910954e-11,
+      "rest_total_J": 3.698571346891929e-11,
+      "excitation_total_J": 1.3590253701902493e-12,
+      "system_energy_J": 7.668947767821908e-10,
+      "system_change_J": 0.0,
+      "environment_initial_J": 7.668947767821908e-12,
+      "environment_final_J": 7.668947767821908e-12,
+      "naive_double_count_total_J": 8.052395156213003e-10,
+      "duplicate_J": 3.8344738839109515e-11,
+      "protocol": "fixed expected population; conditional preparation controls only"
+    },
+    {
+      "calibration": "alternate",
+      "species": "proton",
+      "case": "p3_low",
+      "V0_m3": 1,
+      "expected_population_input": 0.24603381987191444,
+      "rest_energy_per_particle_J": 1.5032776180191043e-10,
+      "reference_phi_allocation_J": 3.834473883910954e-11,
+      "rest_total_J": 3.698571346891929e-11,
+      "excitation_total_J": 1.3680908204508422e-12,
+      "system_energy_J": 7.669038422324514e-10,
+      "system_change_J": 9.065450260592871e-15,
+      "environment_initial_J": 7.668947767821908e-12,
+      "environment_final_J": 7.659882317561315e-12,
+      "naive_double_count_total_J": 8.052485810715609e-10,
+      "duplicate_J": 3.834473883910941e-11,
+      "protocol": "fixed expected population; conditional preparation controls only"
+    },
+    {
+      "calibration": "alternate",
+      "species": "proton",
+      "case": "p3_high",
+      "V0_m3": 1,
+      "expected_population_input": 0.24603381987191444,
+      "rest_energy_per_particle_J": 1.5032776180191043e-10,
+      "reference_phi_allocation_J": 3.834473883910954e-11,
+      "rest_total_J": 3.698571346891929e-11,
+      "excitation_total_J": 1.341120468800879e-12,
+      "system_energy_J": 7.668768718808015e-10,
+      "system_change_J": -1.7904901389370357e-14,
+      "environment_initial_J": 7.668947767821908e-12,
+      "environment_final_J": 7.686852669211278e-12,
+      "naive_double_count_total_J": 8.052216107199109e-10,
+      "duplicate_J": 3.834473883910941e-11,
+      "protocol": "fixed expected population; conditional preparation controls only"
+    },
+    {
+      "calibration": "alternate",
+      "species": "proton",
+      "case": "p3_phase",
+      "V0_m3": 1,
+      "expected_population_input": 0.24603381987191444,
+      "rest_energy_per_particle_J": 1.5032776180191043e-10,
+      "reference_phi_allocation_J": 3.834473883910954e-11,
+      "rest_total_J": 3.698571346891929e-11,
+      "excitation_total_J": 1.3590253701902493e-12,
+      "system_energy_J": 7.668947767821908e-10,
+      "system_change_J": 0.0,
+      "environment_initial_J": 7.668947767821908e-12,
+      "environment_final_J": 7.668947767821908e-12,
+      "naive_double_count_total_J": 8.052395156213003e-10,
+      "duplicate_J": 3.8344738839109515e-11,
+      "protocol": "fixed expected population; conditional preparation controls only"
+    },
+    {
+      "calibration": "alternate",
+      "species": "neutron",
+      "case": "baseline",
+      "V0_m3": 1,
+      "expected_population_input": 0.24570713623374102,
+      "rest_energy_per_particle_J": 1.5053497651466188e-10,
+      "reference_phi_allocation_J": 3.834473883910954e-11,
+      "rest_total_J": 3.698751798243103e-11,
+      "excitation_total_J": 1.3572208566785099e-12,
+      "system_energy_J": 7.668947767821908e-10,
+      "system_change_J": 0.0,
+      "environment_initial_J": 7.668947767821908e-12,
+      "environment_final_J": 7.668947767821908e-12,
+      "naive_double_count_total_J": 8.052395156213002e-10,
+      "duplicate_J": 3.834473883910941e-11,
+      "protocol": "fixed expected population; conditional preparation controls only"
+    },
+    {
+      "calibration": "alternate",
+      "species": "neutron",
+      "case": "p3_low",
+      "V0_m3": 1,
+      "expected_population_input": 0.24570713623374102,
+      "rest_energy_per_particle_J": 1.5053497651466188e-10,
+      "reference_phi_allocation_J": 3.834473883910954e-11,
+      "rest_total_J": 3.698751798243103e-11,
+      "excitation_total_J": 1.3662742698367467e-12,
+      "system_energy_J": 7.66903830195349e-10,
+      "system_change_J": 9.053413158236846e-15,
+      "environment_initial_J": 7.668947767821908e-12,
+      "environment_final_J": 7.659894354663671e-12,
+      "naive_double_count_total_J": 8.052485690344585e-10,
+      "duplicate_J": 3.834473883910941e-11,
+      "protocol": "fixed expected population; conditional preparation controls only"
+    },
+    {
+      "calibration": "alternate",
+      "species": "neutron",
+      "case": "p3_high",
+      "V0_m3": 1,
+      "expected_population_input": 0.24570713623374102,
+      "rest_energy_per_particle_J": 1.5053497651466188e-10,
+      "reference_phi_allocation_J": 3.834473883910954e-11,
+      "rest_total_J": 3.698751798243103e-11,
+      "excitation_total_J": 1.3393397294122663e-12,
+      "system_energy_J": 7.668768956549246e-10,
+      "system_change_J": -1.788112726624361e-14,
+      "environment_initial_J": 7.668947767821908e-12,
+      "environment_final_J": 7.686828895088151e-12,
+      "naive_double_count_total_J": 8.05221634494034e-10,
+      "duplicate_J": 3.834473883910941e-11,
+      "protocol": "fixed expected population; conditional preparation controls only"
+    },
+    {
+      "calibration": "alternate",
+      "species": "neutron",
+      "case": "p3_phase",
+      "V0_m3": 1,
+      "expected_population_input": 0.24570713623374102,
+      "rest_energy_per_particle_J": 1.5053497651466188e-10,
+      "reference_phi_allocation_J": 3.834473883910954e-11,
+      "rest_total_J": 3.698751798243103e-11,
+      "excitation_total_J": 1.3572208566785099e-12,
+      "system_energy_J": 7.668947767821908e-10,
+      "system_change_J": 0.0,
+      "environment_initial_J": 7.668947767821908e-12,
+      "environment_final_J": 7.668947767821908e-12,
+      "naive_double_count_total_J": 8.052395156213002e-10,
+      "duplicate_J": 3.834473883910941e-11,
+      "protocol": "fixed expected population; conditional preparation controls only"
+    }
+  ],
+  "checks": [
+    {
+      "name": "exact MeV SI conversion",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton reference replacement",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton total calibration preserved",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton split nonnegative",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton baseline no extra energy",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline signed balance",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline replacement energy",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline D R unchanged",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline reservoir nonnegative",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline reverse exchange",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_baseline naive duplicate detected",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low signed balance",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low replacement energy",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low D R unchanged",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low reservoir nonnegative",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low reverse exchange",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_low naive duplicate detected",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high signed balance",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high replacement energy",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high D R unchanged",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high reservoir nonnegative",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high reverse exchange",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_high naive duplicate detected",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase signed balance",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase replacement energy",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase D R unchanged",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase reservoir nonnegative",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase reverse exchange",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton_p3_phase naive duplicate detected",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton deexcitation balance",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton full excitation exhaustion rejected",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton ground route distinct calibration",
+      "passed": true
+    },
+    {
+      "name": "inherited_proton ground route exchange conserved",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron reference replacement",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron total calibration preserved",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron split nonnegative",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron baseline no extra energy",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline signed balance",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline replacement energy",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline D R unchanged",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline reservoir nonnegative",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline reverse exchange",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_baseline naive duplicate detected",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low signed balance",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low replacement energy",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low D R unchanged",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low reservoir nonnegative",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low reverse exchange",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_low naive duplicate detected",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high signed balance",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high replacement energy",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high D R unchanged",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high reservoir nonnegative",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high reverse exchange",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_high naive duplicate detected",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase signed balance",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase replacement energy",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase D R unchanged",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase reservoir nonnegative",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase reverse exchange",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron_p3_phase naive duplicate detected",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron deexcitation balance",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron full excitation exhaustion rejected",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron ground route distinct calibration",
+      "passed": true
+    },
+    {
+      "name": "inherited_neutron ground route exchange conserved",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton reference replacement",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton total calibration preserved",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton split nonnegative",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton baseline no extra energy",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline signed balance",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline replacement energy",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline D R unchanged",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline reservoir nonnegative",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline reverse exchange",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_baseline naive duplicate detected",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low signed balance",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low replacement energy",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low D R unchanged",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low reservoir nonnegative",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low reverse exchange",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_low naive duplicate detected",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high signed balance",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high replacement energy",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high D R unchanged",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high reservoir nonnegative",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high reverse exchange",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_high naive duplicate detected",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase signed balance",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase replacement energy",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase D R unchanged",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase reservoir nonnegative",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase reverse exchange",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton_p3_phase naive duplicate detected",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton deexcitation balance",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton full excitation exhaustion rejected",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton ground route distinct calibration",
+      "passed": true
+    },
+    {
+      "name": "alternate_proton ground route exchange conserved",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron reference replacement",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron total calibration preserved",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron split nonnegative",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron baseline no extra energy",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline signed balance",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline replacement energy",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline D R unchanged",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline reservoir nonnegative",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline reverse exchange",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_baseline naive duplicate detected",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low signed balance",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low replacement energy",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low D R unchanged",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low reservoir nonnegative",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low reverse exchange",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_low naive duplicate detected",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high signed balance",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high replacement energy",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high D R unchanged",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high reservoir nonnegative",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high reverse exchange",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_high naive duplicate detected",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase signed balance",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase replacement energy",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase D R unchanged",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase reservoir nonnegative",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase reverse exchange",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron_p3_phase naive duplicate detected",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron deexcitation balance",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron full excitation exhaustion rejected",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron ground route distinct calibration",
+      "passed": true
+    },
+    {
+      "name": "alternate_neutron ground route exchange conserved",
+      "passed": true
+    },
+    {
+      "name": "invalid exchange (1.0, 1.0, nan)",
+      "passed": true
+    },
+    {
+      "name": "invalid exchange (1.0, 1.0, inf)",
+      "passed": true
+    },
+    {
+      "name": "invalid exchange (-1.0, 1.0, 0.0)",
+      "passed": true
+    },
+    {
+      "name": "invalid exchange (1.0, -1.0, 0.0)",
+      "passed": true
+    },
+    {
+      "name": "invalid exchange (1.0, 1.0, -2.0)",
+      "passed": true
+    }
+  ],
+  "passed": 134,
+  "failed": 0,
+  "policy": "replace existing reference phi allocation by matched rest+excitation; do not add it again",
+  "assumptions": [
+    "pure proton or pure neutron illustration, not mixed observed abundance",
+    "fixed expected population at V0; no particle creation",
+    "conditional preparation changes, not full SOURCE mass-transfer prediction",
+    "reservoir0=0.2*Ephi is a disclosed diagnostic input",
+    "D and R held fixed; address-weighted probes from 0.2 are not physical energy additions"
+  ],
+  "open": [
+    "particle abundance and creation rest-energy supply",
+    "physical preparation apparatus and reservoir dynamics",
+    "source-branch changes with joint population transport",
+    "volume-dependent coupling and pressure in 0.4",
+    "proper time in 0.5",
+    "pre-existing downstream admission work is a separate ledger and is not added here"
+  ],
+  "source_sha256": {
+    "bridge_0_2_results.json": "c8a0d17a86582887cbcafed2708a890b136cc89b162df251c70ae5e48e2c6e90",
+    "downstream_0_11_results.json": "15683d7e9b38034964601a1b19011c236c879aa3ac47bd3d59226b27687cc641",
+    "internal_inputs.json": "c0fc741d39569208e80289268b5e028d5a219ab3aab7ab913d141863f2cb5fb2"
+  }
+}

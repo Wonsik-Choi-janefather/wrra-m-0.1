@@ -1,0 +1,799 @@
+{
+  "version": "bridge-0.5-r1",
+  "scope": "conditional SI realization of adopted phase driver plus frozen internal Hamiltonian evolution; no autonomous source/preparation dynamics",
+  "calibration": {
+    "electron_energy_eV": 510998.95069,
+    "mode": 23,
+    "mu_eV": 22217.345682173913,
+    "hbar_J_s": 1.0545718176461565e-34,
+    "chosen_driver_rate_s_minus1": 3.375409007319357e+19,
+    "chosen_frame_duration_s": 2.9626039328317383e-21,
+    "source_energy_levels_eV": [
+      0.0,
+      314036.07459643437,
+      467053.92159895005,
+      555674.8686657165,
+      675959.990225541
+    ],
+    "construction_choice": "omega=mu/hbar; not uniquely derived or measured; another positive omega defines another valid clock mapping"
+  },
+  "source_rows": [
+    {
+      "n": 3,
+      "frame": 0,
+      "proper_time_s": 0.0,
+      "driver_dimensionless": -1.2786729521011062,
+      "driver_SI": -1.2786729521011062
+    },
+    {
+      "n": 3,
+      "frame": 1,
+      "proper_time_s": 2.9626039328317383e-21,
+      "driver_dimensionless": 0.5665894177557239,
+      "driver_SI": 0.5665894177557192
+    },
+    {
+      "n": 3,
+      "frame": 2,
+      "proper_time_s": 5.9252078656634766e-21,
+      "driver_dimensionless": 0.2835341248716677,
+      "driver_SI": 0.2835341248716665
+    },
+    {
+      "n": 3,
+      "frame": 4,
+      "proper_time_s": 1.1850415731326953e-20,
+      "driver_dimensionless": 0.6200611983149651,
+      "driver_SI": 0.620061198314968
+    },
+    {
+      "n": 3,
+      "frame": 8,
+      "proper_time_s": 2.3700831462653906e-20,
+      "driver_dimensionless": -0.6600010261785105,
+      "driver_SI": -0.6600010261785108
+    },
+    {
+      "n": 45,
+      "frame": 0,
+      "proper_time_s": 0.0,
+      "driver_dimensionless": -0.6735468378691007,
+      "driver_SI": -0.6735468378691007
+    },
+    {
+      "n": 45,
+      "frame": 1,
+      "proper_time_s": 2.9626039328317383e-21,
+      "driver_dimensionless": 0.5301128310612457,
+      "driver_SI": 0.5301128310612424
+    },
+    {
+      "n": 45,
+      "frame": 2,
+      "proper_time_s": 5.9252078656634766e-21,
+      "driver_dimensionless": 0.151593927562794,
+      "driver_SI": 0.15159392756279785
+    },
+    {
+      "n": 45,
+      "frame": 4,
+      "proper_time_s": 1.1850415731326953e-20,
+      "driver_dimensionless": -0.3979323042877709,
+      "driver_SI": -0.39793230428776877
+    },
+    {
+      "n": 45,
+      "frame": 8,
+      "proper_time_s": 2.3700831462653906e-20,
+      "driver_dimensionless": -1.1882645396309361,
+      "driver_SI": -1.188264539630939
+    },
+    {
+      "n": 75,
+      "frame": 0,
+      "proper_time_s": 0.0,
+      "driver_dimensionless": 0.024229658969459056,
+      "driver_SI": 0.024229658969459063
+    },
+    {
+      "n": 75,
+      "frame": 1,
+      "proper_time_s": 2.9626039328317383e-21,
+      "driver_dimensionless": -0.26277773584021286,
+      "driver_SI": -0.26277773584020875
+    },
+    {
+      "n": 75,
+      "frame": 2,
+      "proper_time_s": 5.9252078656634766e-21,
+      "driver_dimensionless": 1.4874594578469194,
+      "driver_SI": 1.4874594578469125
+    },
+    {
+      "n": 75,
+      "frame": 4,
+      "proper_time_s": 1.1850415731326953e-20,
+      "driver_dimensionless": 0.0901825764937283,
+      "driver_SI": 0.09018257649372097
+    },
+    {
+      "n": 75,
+      "frame": 8,
+      "proper_time_s": 2.3700831462653906e-20,
+      "driver_dimensionless": -0.3874592002313444,
+      "driver_SI": -0.38745920023134345
+    },
+    {
+      "n": 315,
+      "frame": 0,
+      "proper_time_s": 0.0,
+      "driver_dimensionless": 1.186152460591002,
+      "driver_SI": 1.1861524605910023
+    },
+    {
+      "n": 315,
+      "frame": 1,
+      "proper_time_s": 2.9626039328317383e-21,
+      "driver_dimensionless": -0.5963817922375897,
+      "driver_SI": -0.5963817922376056
+    },
+    {
+      "n": 315,
+      "frame": 2,
+      "proper_time_s": 5.9252078656634766e-21,
+      "driver_dimensionless": 0.09876365896044875,
+      "driver_SI": 0.09876365896045913
+    },
+    {
+      "n": 315,
+      "frame": 4,
+      "proper_time_s": 1.1850415731326953e-20,
+      "driver_dimensionless": -0.5275293396977554,
+      "driver_SI": -0.5275293396977544
+    },
+    {
+      "n": 315,
+      "frame": 8,
+      "proper_time_s": 2.3700831462653906e-20,
+      "driver_dimensionless": 0.7825234358311675,
+      "driver_SI": 0.7825234358311902
+    },
+    {
+      "n": 999999,
+      "frame": 0,
+      "proper_time_s": 0.0,
+      "driver_dimensionless": 1.423263166096215,
+      "driver_SI": 1.4232631660962152
+    },
+    {
+      "n": 999999,
+      "frame": 1,
+      "proper_time_s": 2.9626039328317383e-21,
+      "driver_dimensionless": -1.3946003744195927,
+      "driver_SI": -1.3946003744195825
+    },
+    {
+      "n": 999999,
+      "frame": 2,
+      "proper_time_s": 5.9252078656634766e-21,
+      "driver_dimensionless": 0.3587333608001707,
+      "driver_SI": 0.3587333608001854
+    },
+    {
+      "n": 999999,
+      "frame": 4,
+      "proper_time_s": 1.1850415731326953e-20,
+      "driver_dimensionless": -0.13998799036441628,
+      "driver_SI": -0.13998799036444357
+    },
+    {
+      "n": 999999,
+      "frame": 8,
+      "proper_time_s": 2.3700831462653906e-20,
+      "driver_dimensionless": 1.0540325169018805,
+      "driver_SI": 1.0540325169018956
+    }
+  ],
+  "internal_rows": [
+    {
+      "frame": 1,
+      "relative_phase_recovery_max_MeV": 1.8189894035458565e-12,
+      "nonzero_integer_branches": 94,
+      "excitation_phase_rad": 1940.2913853065702
+    },
+    {
+      "frame": 2,
+      "relative_phase_recovery_max_MeV": 1.8189894035458565e-12,
+      "nonzero_integer_branches": 94,
+      "excitation_phase_rad": 3880.5827706131404
+    },
+    {
+      "frame": 4,
+      "relative_phase_recovery_max_MeV": 1.8189894035458565e-12,
+      "nonzero_integer_branches": 94,
+      "excitation_phase_rad": 7761.165541226281
+    },
+    {
+      "frame": 8,
+      "relative_phase_recovery_max_MeV": 1.8189894035458565e-12,
+      "nonzero_integer_branches": 94,
+      "excitation_phase_rad": 15522.331082452562
+    }
+  ],
+  "worldline_rows": [
+    {
+      "beta": 0.0,
+      "coordinate_time_s": 1.8960665170123125e-19,
+      "proper_time_s": 1.8960665170123125e-19,
+      "completed_frames": 64,
+      "fractional_remainder": 0.0
+    },
+    {
+      "beta": 0.6,
+      "coordinate_time_s": 1.8960665170123125e-19,
+      "proper_time_s": 1.51685321360985e-19,
+      "completed_frames": 51,
+      "fractional_remainder": 0.20000000000000284
+    },
+    {
+      "beta": 0.8,
+      "coordinate_time_s": 1.8960665170123125e-19,
+      "proper_time_s": 1.1376399102073872e-19,
+      "completed_frames": 38,
+      "fractional_remainder": 0.3999999999999915
+    }
+  ],
+  "failed_clock_ratio_preserved": 2.102556972196466e-43,
+  "checks": [
+    {
+      "name": "Hermitian source generator",
+      "passed": true
+    },
+    {
+      "name": "positive source energy",
+      "passed": true
+    },
+    {
+      "name": "source energy SI scale matches electron-mode calibration",
+      "passed": true
+    },
+    {
+      "name": "frame choice equals twice inherited proper update",
+      "passed": true
+    },
+    {
+      "name": "n3 k0 SI phase reproduces dimensionless driver",
+      "passed": true
+    },
+    {
+      "name": "n3 k0 source norm",
+      "passed": true
+    },
+    {
+      "name": "n3 k0 source energy conservation",
+      "passed": true
+    },
+    {
+      "name": "n3 k0 common shift invariant driver",
+      "passed": true
+    },
+    {
+      "name": "n3 k1 SI phase reproduces dimensionless driver",
+      "passed": true
+    },
+    {
+      "name": "n3 k1 source norm",
+      "passed": true
+    },
+    {
+      "name": "n3 k1 source energy conservation",
+      "passed": true
+    },
+    {
+      "name": "n3 k1 common shift invariant driver",
+      "passed": true
+    },
+    {
+      "name": "n3 k2 SI phase reproduces dimensionless driver",
+      "passed": true
+    },
+    {
+      "name": "n3 k2 source norm",
+      "passed": true
+    },
+    {
+      "name": "n3 k2 source energy conservation",
+      "passed": true
+    },
+    {
+      "name": "n3 k2 common shift invariant driver",
+      "passed": true
+    },
+    {
+      "name": "n3 k4 SI phase reproduces dimensionless driver",
+      "passed": true
+    },
+    {
+      "name": "n3 k4 source norm",
+      "passed": true
+    },
+    {
+      "name": "n3 k4 source energy conservation",
+      "passed": true
+    },
+    {
+      "name": "n3 k4 common shift invariant driver",
+      "passed": true
+    },
+    {
+      "name": "n3 k8 SI phase reproduces dimensionless driver",
+      "passed": true
+    },
+    {
+      "name": "n3 k8 source norm",
+      "passed": true
+    },
+    {
+      "name": "n3 k8 source energy conservation",
+      "passed": true
+    },
+    {
+      "name": "n3 k8 common shift invariant driver",
+      "passed": true
+    },
+    {
+      "name": "n45 k0 SI phase reproduces dimensionless driver",
+      "passed": true
+    },
+    {
+      "name": "n45 k0 source norm",
+      "passed": true
+    },
+    {
+      "name": "n45 k0 source energy conservation",
+      "passed": true
+    },
+    {
+      "name": "n45 k0 common shift invariant driver",
+      "passed": true
+    },
+    {
+      "name": "n45 k1 SI phase reproduces dimensionless driver",
+      "passed": true
+    },
+    {
+      "name": "n45 k1 source norm",
+      "passed": true
+    },
+    {
+      "name": "n45 k1 source energy conservation",
+      "passed": true
+    },
+    {
+      "name": "n45 k1 common shift invariant driver",
+      "passed": true
+    },
+    {
+      "name": "n45 k2 SI phase reproduces dimensionless driver",
+      "passed": true
+    },
+    {
+      "name": "n45 k2 source norm",
+      "passed": true
+    },
+    {
+      "name": "n45 k2 source energy conservation",
+      "passed": true
+    },
+    {
+      "name": "n45 k2 common shift invariant driver",
+      "passed": true
+    },
+    {
+      "name": "n45 k4 SI phase reproduces dimensionless driver",
+      "passed": true
+    },
+    {
+      "name": "n45 k4 source norm",
+      "passed": true
+    },
+    {
+      "name": "n45 k4 source energy conservation",
+      "passed": true
+    },
+    {
+      "name": "n45 k4 common shift invariant driver",
+      "passed": true
+    },
+    {
+      "name": "n45 k8 SI phase reproduces dimensionless driver",
+      "passed": true
+    },
+    {
+      "name": "n45 k8 source norm",
+      "passed": true
+    },
+    {
+      "name": "n45 k8 source energy conservation",
+      "passed": true
+    },
+    {
+      "name": "n45 k8 common shift invariant driver",
+      "passed": true
+    },
+    {
+      "name": "n75 k0 SI phase reproduces dimensionless driver",
+      "passed": true
+    },
+    {
+      "name": "n75 k0 source norm",
+      "passed": true
+    },
+    {
+      "name": "n75 k0 source energy conservation",
+      "passed": true
+    },
+    {
+      "name": "n75 k0 common shift invariant driver",
+      "passed": true
+    },
+    {
+      "name": "n75 k1 SI phase reproduces dimensionless driver",
+      "passed": true
+    },
+    {
+      "name": "n75 k1 source norm",
+      "passed": true
+    },
+    {
+      "name": "n75 k1 source energy conservation",
+      "passed": true
+    },
+    {
+      "name": "n75 k1 common shift invariant driver",
+      "passed": true
+    },
+    {
+      "name": "n75 k2 SI phase reproduces dimensionless driver",
+      "passed": true
+    },
+    {
+      "name": "n75 k2 source norm",
+      "passed": true
+    },
+    {
+      "name": "n75 k2 source energy conservation",
+      "passed": true
+    },
+    {
+      "name": "n75 k2 common shift invariant driver",
+      "passed": true
+    },
+    {
+      "name": "n75 k4 SI phase reproduces dimensionless driver",
+      "passed": true
+    },
+    {
+      "name": "n75 k4 source norm",
+      "passed": true
+    },
+    {
+      "name": "n75 k4 source energy conservation",
+      "passed": true
+    },
+    {
+      "name": "n75 k4 common shift invariant driver",
+      "passed": true
+    },
+    {
+      "name": "n75 k8 SI phase reproduces dimensionless driver",
+      "passed": true
+    },
+    {
+      "name": "n75 k8 source norm",
+      "passed": true
+    },
+    {
+      "name": "n75 k8 source energy conservation",
+      "passed": true
+    },
+    {
+      "name": "n75 k8 common shift invariant driver",
+      "passed": true
+    },
+    {
+      "name": "n315 k0 SI phase reproduces dimensionless driver",
+      "passed": true
+    },
+    {
+      "name": "n315 k0 source norm",
+      "passed": true
+    },
+    {
+      "name": "n315 k0 source energy conservation",
+      "passed": true
+    },
+    {
+      "name": "n315 k0 common shift invariant driver",
+      "passed": true
+    },
+    {
+      "name": "n315 k1 SI phase reproduces dimensionless driver",
+      "passed": true
+    },
+    {
+      "name": "n315 k1 source norm",
+      "passed": true
+    },
+    {
+      "name": "n315 k1 source energy conservation",
+      "passed": true
+    },
+    {
+      "name": "n315 k1 common shift invariant driver",
+      "passed": true
+    },
+    {
+      "name": "n315 k2 SI phase reproduces dimensionless driver",
+      "passed": true
+    },
+    {
+      "name": "n315 k2 source norm",
+      "passed": true
+    },
+    {
+      "name": "n315 k2 source energy conservation",
+      "passed": true
+    },
+    {
+      "name": "n315 k2 common shift invariant driver",
+      "passed": true
+    },
+    {
+      "name": "n315 k4 SI phase reproduces dimensionless driver",
+      "passed": true
+    },
+    {
+      "name": "n315 k4 source norm",
+      "passed": true
+    },
+    {
+      "name": "n315 k4 source energy conservation",
+      "passed": true
+    },
+    {
+      "name": "n315 k4 common shift invariant driver",
+      "passed": true
+    },
+    {
+      "name": "n315 k8 SI phase reproduces dimensionless driver",
+      "passed": true
+    },
+    {
+      "name": "n315 k8 source norm",
+      "passed": true
+    },
+    {
+      "name": "n315 k8 source energy conservation",
+      "passed": true
+    },
+    {
+      "name": "n315 k8 common shift invariant driver",
+      "passed": true
+    },
+    {
+      "name": "n999999 k0 SI phase reproduces dimensionless driver",
+      "passed": true
+    },
+    {
+      "name": "n999999 k0 source norm",
+      "passed": true
+    },
+    {
+      "name": "n999999 k0 source energy conservation",
+      "passed": true
+    },
+    {
+      "name": "n999999 k0 common shift invariant driver",
+      "passed": true
+    },
+    {
+      "name": "n999999 k1 SI phase reproduces dimensionless driver",
+      "passed": true
+    },
+    {
+      "name": "n999999 k1 source norm",
+      "passed": true
+    },
+    {
+      "name": "n999999 k1 source energy conservation",
+      "passed": true
+    },
+    {
+      "name": "n999999 k1 common shift invariant driver",
+      "passed": true
+    },
+    {
+      "name": "n999999 k2 SI phase reproduces dimensionless driver",
+      "passed": true
+    },
+    {
+      "name": "n999999 k2 source norm",
+      "passed": true
+    },
+    {
+      "name": "n999999 k2 source energy conservation",
+      "passed": true
+    },
+    {
+      "name": "n999999 k2 common shift invariant driver",
+      "passed": true
+    },
+    {
+      "name": "n999999 k4 SI phase reproduces dimensionless driver",
+      "passed": true
+    },
+    {
+      "name": "n999999 k4 source norm",
+      "passed": true
+    },
+    {
+      "name": "n999999 k4 source energy conservation",
+      "passed": true
+    },
+    {
+      "name": "n999999 k4 common shift invariant driver",
+      "passed": true
+    },
+    {
+      "name": "n999999 k8 SI phase reproduces dimensionless driver",
+      "passed": true
+    },
+    {
+      "name": "n999999 k8 source norm",
+      "passed": true
+    },
+    {
+      "name": "n999999 k8 source energy conservation",
+      "passed": true
+    },
+    {
+      "name": "n999999 k8 common shift invariant driver",
+      "passed": true
+    },
+    {
+      "name": "nuclear generator distinct from source generator",
+      "passed": true
+    },
+    {
+      "name": "internal k1 unitarity",
+      "passed": true
+    },
+    {
+      "name": "internal k1 phase branch recovery",
+      "passed": true
+    },
+    {
+      "name": "internal k1 alias exists",
+      "passed": true
+    },
+    {
+      "name": "internal k1 coherent same H phase",
+      "passed": true
+    },
+    {
+      "name": "internal k1 diagonal mixed state stationary",
+      "passed": true
+    },
+    {
+      "name": "internal k2 unitarity",
+      "passed": true
+    },
+    {
+      "name": "internal k2 phase branch recovery",
+      "passed": true
+    },
+    {
+      "name": "internal k2 alias exists",
+      "passed": true
+    },
+    {
+      "name": "internal k2 coherent same H phase",
+      "passed": true
+    },
+    {
+      "name": "internal k2 diagonal mixed state stationary",
+      "passed": true
+    },
+    {
+      "name": "internal k4 unitarity",
+      "passed": true
+    },
+    {
+      "name": "internal k4 phase branch recovery",
+      "passed": true
+    },
+    {
+      "name": "internal k4 alias exists",
+      "passed": true
+    },
+    {
+      "name": "internal k4 coherent same H phase",
+      "passed": true
+    },
+    {
+      "name": "internal k4 diagonal mixed state stationary",
+      "passed": true
+    },
+    {
+      "name": "internal k8 unitarity",
+      "passed": true
+    },
+    {
+      "name": "internal k8 phase branch recovery",
+      "passed": true
+    },
+    {
+      "name": "internal k8 alias exists",
+      "passed": true
+    },
+    {
+      "name": "internal k8 coherent same H phase",
+      "passed": true
+    },
+    {
+      "name": "internal k8 diagonal mixed state stationary",
+      "passed": true
+    },
+    {
+      "name": "beta0.0 Lorentz proper-time invariant",
+      "passed": true
+    },
+    {
+      "name": "beta0.0 count including remainder",
+      "passed": true
+    },
+    {
+      "name": "beta0.6 Lorentz proper-time invariant",
+      "passed": true
+    },
+    {
+      "name": "beta0.6 count including remainder",
+      "passed": true
+    },
+    {
+      "name": "beta0.8 Lorentz proper-time invariant",
+      "passed": true
+    },
+    {
+      "name": "beta0.8 count including remainder",
+      "passed": true
+    },
+    {
+      "name": "old slow schedule identification remains failed",
+      "passed": true
+    },
+    {
+      "name": "alternative driver rate 0.5",
+      "passed": true
+    },
+    {
+      "name": "alternative driver rate 2.0",
+      "passed": true
+    }
+  ],
+  "passed": 134,
+  "failed": 0,
+  "open": [
+    "physical driver selection and rate",
+    "source-to-nucleon preparation coupling Hamiltonian",
+    "energy supply during state-changing preparation",
+    "frame-triggered measurement and durable record",
+    "nonuniform covariant dynamics"
+  ],
+  "source_sha256": {
+    "bridge_0_2_results.json": "c8a0d17a86582887cbcafed2708a890b136cc89b162df251c70ae5e48e2c6e90",
+    "downstream_0_12_parameters.json": "904885291a0097e6ab4c2abeaeea1d2d0c48236d67c4b18321b80f864c06e6fc",
+    "internal_and_carrier_basis.npz": "813ab9d81cdc5ffb615f6a6c84955d00856ca37c7aa92e021037cf3514ea3e70"
+  }
+}
