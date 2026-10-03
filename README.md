@@ -1,5 +1,11 @@
 # WRRA-M Research Notes
 
+## Upstream 0.9 · conditional residue and same-state current connection
+
+상류 0.8의 실제 표현 잔존을 교정된 0.6의 내부 밀도 상태와 전자기·약전류에 연결했습니다. SOURCE 세기 변화가 내부 모드 비중과 전류 판독에 전달됩니다. **183개 구현 검사 + 135개 독립 감사**, ZIP 새 복사본의 바이트 동일 재현을 완료했습니다. 준비 사상·강도·종 선택은 공개한 구성 입력이고, 에너지 공급·물리 시간·기록 매체와 기존 자기반경 오차는 열린 장부에 남깁니다.
+
+[한국어 원고](upstream/residue_current_v0_9/README.md) · [English](upstream/residue_current_v0_9/README_EN.md) · [재현](upstream/residue_current_v0_9/reproduce_all.py) · [0.10 전달 명세](upstream/residue_current_v0_9/handoff.json)
+
 ## Upstream 0.8-r1 · finite shutter and microscopic record contract
 
 상류 0.7의 백만 주소 SOURCE·필터 상태에서 분기 norm과 조건부 기록을 실행했습니다. **28개 주소 연결 검사 + 403개 셔터 감사 검사**, 새 복사본의 바이트 동일 재현을 완료했습니다. 물리 시간 환산·기록 매체·입자 사상은 전달 장부에 열린 항목으로 남깁니다.
