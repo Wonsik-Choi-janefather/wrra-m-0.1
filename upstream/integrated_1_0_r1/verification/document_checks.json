@@ -1,0 +1,22 @@
+{
+  "release": "1.0-r1",
+  "upstream_closed_at": "0.10",
+  "visual_QA": "All 26 final rendered pages inspected; Korean and mathematical fonts readable.",
+  "checks": {
+    "upstream_0_4_to_0_6": 395,
+    "upstream_0_7_to_0_10": 1395,
+    "physics_preparation": 83
+  },
+  "documents": {
+    "KO": {
+      "pages": 13,
+      "equations": 24,
+      "tables": 4
+    },
+    "EN": {
+      "pages": 13,
+      "equations": 24,
+      "tables": 4
+    }
+  }
+}

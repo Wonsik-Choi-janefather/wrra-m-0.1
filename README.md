@@ -1,5 +1,14 @@
 # WRRA-M Research Notes
 
+## Upstream integrated manuscript 1.0-r1 — reviewed release
+
+상류 개발은 0.10에서 마감했습니다. 한·영 통합 논문 1.0-r1은 단위·기호·기준 부피의 적용 범위와 Physics 준비 원고 인용을 재검토한 개정판입니다.
+
+- [Zenodo preprint and complete package](https://doi.org/10.5281/zenodo.23119041)
+- [Bilingual PDFs, editable manuscripts, sources and verification](upstream/integrated_1_0_r1/README.md)
+- Re-executed implementation/mathematical checks: 395 + 1,395 + 83 passed; both manuscripts: 13 pages, 24 native equations, four tables.
+
+
 ## Upstream 0.7-0.10 reviewed collection r1 · 2026-10-03
 
 0.7~0.10의 코드·입력·결과·문서를 다시 검토하고 수정했습니다. **기존 단계 검사 1,327개 + 새 재검토 검사 68개 = 총 1,395개 통과**. 비정상 상태 입력, 확률 0 분기, 기준 사례와 Q² 목록 순서 의존, 결과 파일 없는 재생성을 보완했습니다. 기존 물리 수치는 유지합니다. 초기 ROADMAP의 1.0 개발 목표 표기도 정정했습니다. **상류 개발은 0.10에서 마감**하고, 미계산 물리 대응은 null 계약과 기존 불일치 장부에 남깁니다.

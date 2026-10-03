@@ -1,0 +1,211 @@
+{
+  "title": "WRRA finite vacuum reference and background load check",
+  "status": "proposed finite energy map executed; not a Standard Model vacuum derivation",
+  "input_sha256": "0649d68cddbaa7772ca61ed3e3f666b23882f08f90e0974002254aa352b14221",
+  "inputs": {
+    "upstream_joint_output": {
+      "N": 1000000,
+      "alpha": 1.8996876950554356,
+      "initial_odd_relation_admission": 0.8654570124136961,
+      "unexpressed_Actual_fraction": 0.26799999999999785,
+      "phenotype_fraction": 0.04999999999999991,
+      "source_return_fraction": 0.6820000000000015,
+      "odd_composite_available_fraction": 0.057772944563189425,
+      "even_composite_available_fraction": 0.2679999999999976,
+      "ledger_sum": 0.9999999999999993,
+      "Actual_total_fraction": 0.31799999999999773,
+      "effect_completeness_max_error": 0.0,
+      "all_effects_between_zero_and_one": true,
+      "Actual_has_no_allowed_return_under_declared_fold_rule": true,
+      "even_family_from_prime2_factor_identity": 0.2679999999999977
+    },
+    "raw_trace": "0.99999999999999926",
+    "trace_normalized_phi_D_R": [
+      "0.04999999999999994699999999999996077999999999997098",
+      "0.26799999999999804831999999999855575679999999893126",
+      "0.68200000000000200468000000000148346320000000109776"
+    ],
+    "u_star": "1 in energy density units",
+    "V0": "1 in volume units",
+    "precision_decimal_digits": 200,
+    "offsets_C_over_u_star": [
+      "0",
+      "1",
+      "1E+40",
+      "1E+120"
+    ]
+  },
+  "transformation": {
+    "reference_state": "rho0=diag(1,0,0,0)",
+    "retained_and_returned_state": "rhohat=diag(0,f_phi,f_D,f_R)",
+    "micro_H": "diag(CV,CV+u_star*V0,CV+u_star*V0,CV)",
+    "gravitating_energy": "Tr[(rhohat-rho0)H]+f_R*u_star*V",
+    "physical_delta_control": "add delta*V only to active-state levels",
+    "scope": "a four-state homogeneous compression of the address ledger"
+  },
+  "outputs": {
+    "rows": [
+      {
+        "reference_density_C_over_u_star": "0",
+        "V_over_V0": "0.25",
+        "relative_matter_energy_over_u_star_V0": "0.3179999999999979953199999999985165367999999989022400",
+        "background_energy_over_u_star_V0": "0.1705000000000005011700000000003708658000000002744400",
+        "total_energy_over_u_star_V0": "0.4884999999999984964899999999988874025999999991766800",
+        "pressure_over_u_star": "-0.68200000000000200468000000000148346320000000109776"
+      },
+      {
+        "reference_density_C_over_u_star": "0",
+        "V_over_V0": "1",
+        "relative_matter_energy_over_u_star_V0": "0.31799999999999799531999999999851653679999999890224",
+        "background_energy_over_u_star_V0": "0.68200000000000200468000000000148346320000000109776",
+        "total_energy_over_u_star_V0": "1.00000000000000000000000000000000000000000000000000",
+        "pressure_over_u_star": "-0.68200000000000200468000000000148346320000000109776"
+      },
+      {
+        "reference_density_C_over_u_star": "0",
+        "V_over_V0": "4",
+        "relative_matter_energy_over_u_star_V0": "0.31799999999999799531999999999851653679999999890224",
+        "background_energy_over_u_star_V0": "2.72800000000000801872000000000593385280000000439104",
+        "total_energy_over_u_star_V0": "3.04600000000000601404000000000445038960000000329328",
+        "pressure_over_u_star": "-0.68200000000000200468000000000148346320000000109776"
+      },
+      {
+        "reference_density_C_over_u_star": "1",
+        "V_over_V0": "0.25",
+        "relative_matter_energy_over_u_star_V0": "0.3179999999999979953199999999985165367999999989022400",
+        "background_energy_over_u_star_V0": "0.1705000000000005011700000000003708658000000002744400",
+        "total_energy_over_u_star_V0": "0.4884999999999984964899999999988874025999999991766800",
+        "pressure_over_u_star": "-0.68200000000000200468000000000148346320000000109776"
+      },
+      {
+        "reference_density_C_over_u_star": "1",
+        "V_over_V0": "1",
+        "relative_matter_energy_over_u_star_V0": "0.31799999999999799531999999999851653679999999890224",
+        "background_energy_over_u_star_V0": "0.68200000000000200468000000000148346320000000109776",
+        "total_energy_over_u_star_V0": "1.00000000000000000000000000000000000000000000000000",
+        "pressure_over_u_star": "-0.68200000000000200468000000000148346320000000109776"
+      },
+      {
+        "reference_density_C_over_u_star": "1",
+        "V_over_V0": "4",
+        "relative_matter_energy_over_u_star_V0": "0.31799999999999799531999999999851653679999999890224",
+        "background_energy_over_u_star_V0": "2.72800000000000801872000000000593385280000000439104",
+        "total_energy_over_u_star_V0": "3.04600000000000601404000000000445038960000000329328",
+        "pressure_over_u_star": "-0.68200000000000200468000000000148346320000000109776"
+      },
+      {
+        "reference_density_C_over_u_star": "1E+40",
+        "V_over_V0": "0.25",
+        "relative_matter_energy_over_u_star_V0": "0.3179999999999979953199999999985165367999999989022400",
+        "background_energy_over_u_star_V0": "0.1705000000000005011700000000003708658000000002744400",
+        "total_energy_over_u_star_V0": "0.4884999999999984964899999999988874025999999991766800",
+        "pressure_over_u_star": "-0.68200000000000200468000000000148346320000000109776"
+      },
+      {
+        "reference_density_C_over_u_star": "1E+40",
+        "V_over_V0": "1",
+        "relative_matter_energy_over_u_star_V0": "0.31799999999999799531999999999851653679999999890224",
+        "background_energy_over_u_star_V0": "0.68200000000000200468000000000148346320000000109776",
+        "total_energy_over_u_star_V0": "1.00000000000000000000000000000000000000000000000000",
+        "pressure_over_u_star": "-0.68200000000000200468000000000148346320000000109776"
+      },
+      {
+        "reference_density_C_over_u_star": "1E+40",
+        "V_over_V0": "4",
+        "relative_matter_energy_over_u_star_V0": "0.31799999999999799531999999999851653679999999890224",
+        "background_energy_over_u_star_V0": "2.72800000000000801872000000000593385280000000439104",
+        "total_energy_over_u_star_V0": "3.04600000000000601404000000000445038960000000329328",
+        "pressure_over_u_star": "-0.68200000000000200468000000000148346320000000109776"
+      },
+      {
+        "reference_density_C_over_u_star": "1E+120",
+        "V_over_V0": "0.25",
+        "relative_matter_energy_over_u_star_V0": "0.3179999999999979953199999999985165367999999989022400",
+        "background_energy_over_u_star_V0": "0.1705000000000005011700000000003708658000000002744400",
+        "total_energy_over_u_star_V0": "0.4884999999999984964899999999988874025999999991766800",
+        "pressure_over_u_star": "-0.68200000000000200468000000000148346320000000109776"
+      },
+      {
+        "reference_density_C_over_u_star": "1E+120",
+        "V_over_V0": "1",
+        "relative_matter_energy_over_u_star_V0": "0.31799999999999799531999999999851653679999999890224",
+        "background_energy_over_u_star_V0": "0.68200000000000200468000000000148346320000000109776",
+        "total_energy_over_u_star_V0": "1.00000000000000000000000000000000000000000000000000",
+        "pressure_over_u_star": "-0.68200000000000200468000000000148346320000000109776"
+      },
+      {
+        "reference_density_C_over_u_star": "1E+120",
+        "V_over_V0": "4",
+        "relative_matter_energy_over_u_star_V0": "0.31799999999999799531999999999851653679999999890224",
+        "background_energy_over_u_star_V0": "2.72800000000000801872000000000593385280000000439104",
+        "total_energy_over_u_star_V0": "3.04600000000000601404000000000445038960000000329328",
+        "pressure_over_u_star": "-0.68200000000000200468000000000148346320000000109776"
+      }
+    ],
+    "V1_shares": [
+      "0.04999999999999994699999999999996077999999999997098",
+      "0.26799999999999804831999999999855575679999999893126",
+      "0.68200000000000200468000000000148346320000000109776"
+    ],
+    "V025_shares": [
+      "0.10235414534288659342984864786795649266679278145109807795564305748247363063770840320374755108774292961297165349069587138433042431364338604737813258057751950110153012916433824809916671258329247774198014",
+      "0.54861821903786872706853327661243804056204888883714324931372654099263464301727170930250198155456260420205233877040024080832029211663136474498413525678536405920026764553265213016845585475631961730463024",
+      "0.34902763561924467950161807551960546677115832971175867273063040152489172634501988749375046735769446618497600773890388780734928356972524920763773216263711643969820222530300962173237743266038790495338962"
+    ],
+    "V4_shares": [
+      "0.016414970453053134694586702731521191186473318936416308329033323278542569917759767302493774369387947623172376137769981395313478418712042354543496680299992974766789218773098468939373037048227817265265753",
+      "0.087984241628364254490890176411819801133597075363607497142527944865453071616195644014967650984159285714115256951576013759625397298848331029752105969256883338189001756940917373106028667119690178178455170",
+      "0.89560078791858261081452312085665900767992960569997619452843873185600435846604458868253857464645276666271236691065400484506112428243962661570439735044312368704420902428598415795459829583208200455627908"
+    ],
+    "background_w": "-1",
+    "physical_delta_energy_survives": "0.2187500000000000000000000000000000000000000000000000000",
+    "physical_delta_pressure_survives": "-0.125"
+  },
+  "checks": {
+    "C0_V0.25_energy_common_offset_invariant": true,
+    "C0_V0.25_pressure_from_same_energy_function": true,
+    "C0_V1_energy_common_offset_invariant": true,
+    "C0_V1_pressure_from_same_energy_function": true,
+    "C0_V4_energy_common_offset_invariant": true,
+    "C0_V4_pressure_from_same_energy_function": true,
+    "C1_V0.25_energy_common_offset_invariant": true,
+    "C1_V0.25_pressure_from_same_energy_function": true,
+    "C1_V1_energy_common_offset_invariant": true,
+    "C1_V1_pressure_from_same_energy_function": true,
+    "C1_V4_energy_common_offset_invariant": true,
+    "C1_V4_pressure_from_same_energy_function": true,
+    "C1E+40_V0.25_energy_common_offset_invariant": true,
+    "C1E+40_V0.25_pressure_from_same_energy_function": true,
+    "C1E+40_V1_energy_common_offset_invariant": true,
+    "C1E+40_V1_pressure_from_same_energy_function": true,
+    "C1E+40_V4_energy_common_offset_invariant": true,
+    "C1E+40_V4_pressure_from_same_energy_function": true,
+    "C1E+120_V0.25_energy_common_offset_invariant": true,
+    "C1E+120_V0.25_pressure_from_same_energy_function": true,
+    "C1E+120_V1_energy_common_offset_invariant": true,
+    "C1E+120_V1_pressure_from_same_energy_function": true,
+    "C1E+120_V4_energy_common_offset_invariant": true,
+    "C1E+120_V4_pressure_from_same_energy_function": true,
+    "normalized_trace": true,
+    "three_input_shares_preserved_to_float_accuracy": true,
+    "background_w_equals_minus_one": true,
+    "matter_energy_constant_with_volume": true,
+    "physical_state_energy_change_survives_subtraction": true,
+    "physical_state_pressure_change_survives_subtraction": true,
+    "inconsistent_reference_change_detected": true,
+    "expanded_background_share_increases": true,
+    "contracted_background_share_decreases": true
+  },
+  "passed": 33,
+  "total": 33,
+  "all_passed": true,
+  "falsification_and_open_conditions": [
+    "common offset must leave energy and pressure unchanged",
+    "physical state-dependent energy changes must remain in the gravitational ledger",
+    "same energy function must yield the declared volume pressure",
+    "covariant stress tensor and conservation have not been calculated",
+    "Standard Model radiative corrections and phase transitions have not been calculated",
+    "background density remains calibrated by u_star and the upstream R fraction",
+    "no protection of this background scale against non-common radiative terms is demonstrated"
+  ]
+}

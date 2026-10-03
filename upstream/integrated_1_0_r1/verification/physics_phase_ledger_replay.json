@@ -1,0 +1,326 @@
+{
+  "title": "WRRA phase closure to common sector load check",
+  "inputs": {
+    "frame_file_sha256": "a9548532c72e5af59b1e5f41f4524f2d45355a762bd29db01b363d6047dd8586",
+    "frame_inputs": {
+      "N": 1000000,
+      "J": 4,
+      "K": 8,
+      "xi": 0.1,
+      "phase_offsets": "all zero",
+      "drive_coefficients": "equal 1/sqrt(J)",
+      "verified_mathematical_inputs": "low positive zeta zeros computed with mpmath and independently checked with Euler--Maclaurin",
+      "targets_used_for_calibration": {
+        "nonphenotypic_Actual": 0.268,
+        "phenotype": 0.05
+      }
+    },
+    "calibration": {
+      "alpha": 1.8996876950554356,
+      "sigmoid_threshold_h": 1.44767317035244,
+      "constant_beta_supplied_as_input": false,
+      "fitting_rule": "alpha to even-composite 26.8%, h to odd-composite admitted 5%; K,J,xi fixed before h fit"
+    },
+    "uniform_carrier_Jc_Jb": [
+      2.0,
+      2.0
+    ]
+  },
+  "transformation": "phase cumulative admission -> normalized sectors -> relative energy with R background -> uniform downstream pressure and geometry",
+  "outputs": [
+    {
+      "K": 4,
+      "normalized_phi_D_R": [
+        0.03704794619202192,
+        0.2679999999999977,
+        0.6949520538079804
+      ],
+      "effective_beta": 0.6412680965482129,
+      "present_q0": -0.5424280807119706,
+      "outputs": [
+        {
+          "a": 0.5,
+          "snapshot": {
+            "a": 0.5,
+            "Jc": 2.0,
+            "Jb": 2.0,
+            "density_phenotype_over_ucrit": 0.29638356953617534,
+            "density_clustering_over_ucrit": 2.1439999999999815,
+            "density_background_over_ucrit": 0.6949520538079804,
+            "density_total_over_ucrit": 3.135335623344137,
+            "pressure_over_ucrit": -0.6949520538079804,
+            "H_over_H0": 1.7706878955208727,
+            "deceleration_q": 0.16752264958476099,
+            "hidden_density_over_reference": 2.9481759165281103,
+            "hidden_comoving_energy_over_reference": 0.3685219895660138,
+            "zeta_Q_over_reference": 0.7370439791320276,
+            "twist_record_norm_over_reference": 0.8585126551961989,
+            "twist_rate_over_reference": 1.7170253103923978,
+            "aT_over_reference": 2.8284271247461903,
+            "actual_hidden_fraction": 0.9054699065294791
+          }
+        },
+        {
+          "a": 1.0,
+          "snapshot": {
+            "a": 1.0,
+            "Jc": 2.0,
+            "Jb": 2.0,
+            "density_phenotype_over_ucrit": 0.03704794619202192,
+            "density_clustering_over_ucrit": 0.2679999999999977,
+            "density_background_over_ucrit": 0.6949520538079804,
+            "density_total_over_ucrit": 1.0,
+            "pressure_over_ucrit": -0.6949520538079804,
+            "H_over_H0": 1.0,
+            "deceleration_q": -0.5424280807119706,
+            "hidden_density_over_reference": 1.0,
+            "hidden_comoving_energy_over_reference": 1.0,
+            "zeta_Q_over_reference": 1.0,
+            "twist_record_norm_over_reference": 1.0,
+            "twist_rate_over_reference": 1.0,
+            "aT_over_reference": 1.0,
+            "actual_hidden_fraction": 0.9629520538079781
+          }
+        },
+        {
+          "a": 2.0,
+          "snapshot": {
+            "a": 2.0,
+            "Jc": 2.0,
+            "Jb": 2.0,
+            "density_phenotype_over_ucrit": 0.00463099327400274,
+            "density_clustering_over_ucrit": 0.03349999999999971,
+            "density_background_over_ucrit": 0.6949520538079804,
+            "density_total_over_ucrit": 0.7330830470819829,
+            "pressure_over_ucrit": -0.6949520538079804,
+            "H_over_H0": 0.8562026904197294,
+            "deceleration_q": -0.9219781576743961,
+            "hidden_density_over_reference": 0.7564780104339863,
+            "hidden_comoving_energy_over_reference": 6.051824083471891,
+            "zeta_Q_over_reference": 3.0259120417359453,
+            "twist_record_norm_over_reference": 1.739514886896903,
+            "twist_rate_over_reference": 0.8697574434484515,
+            "aT_over_reference": 0.3535533905932738,
+            "actual_hidden_fraction": 0.9936828531331664
+          }
+        }
+      ]
+    },
+    {
+      "K": 8,
+      "normalized_phi_D_R": [
+        0.05000000000000085,
+        0.2679999999999977,
+        0.6820000000000015
+      ],
+      "effective_beta": 0.8654570124137104,
+      "present_q0": -0.5230000000000024,
+      "outputs": [
+        {
+          "a": 0.5,
+          "snapshot": {
+            "a": 0.5,
+            "Jc": 2.0,
+            "Jb": 2.0,
+            "density_phenotype_over_ucrit": 0.4000000000000068,
+            "density_clustering_over_ucrit": 2.1439999999999815,
+            "density_background_over_ucrit": 0.6820000000000015,
+            "density_total_over_ucrit": 3.2259999999999893,
+            "pressure_over_ucrit": -0.6820000000000016,
+            "H_over_H0": 1.7961069010501545,
+            "deceleration_q": 0.1828890266583987,
+            "hidden_density_over_reference": 2.9747368421052474,
+            "hidden_comoving_energy_over_reference": 0.3718421052631559,
+            "zeta_Q_over_reference": 0.7436842105263118,
+            "twist_record_norm_over_reference": 0.8623712718581897,
+            "twist_rate_over_reference": 1.7247425437163795,
+            "aT_over_reference": 2.8284271247461903,
+            "actual_hidden_fraction": 0.8760074395536244
+          }
+        },
+        {
+          "a": 1.0,
+          "snapshot": {
+            "a": 1.0,
+            "Jc": 2.0,
+            "Jb": 2.0,
+            "density_phenotype_over_ucrit": 0.05000000000000085,
+            "density_clustering_over_ucrit": 0.2679999999999977,
+            "density_background_over_ucrit": 0.6820000000000015,
+            "density_total_over_ucrit": 1.0,
+            "pressure_over_ucrit": -0.6820000000000016,
+            "H_over_H0": 1.0,
+            "deceleration_q": -0.5230000000000024,
+            "hidden_density_over_reference": 1.0,
+            "hidden_comoving_energy_over_reference": 1.0,
+            "zeta_Q_over_reference": 1.0,
+            "twist_record_norm_over_reference": 1.0,
+            "twist_rate_over_reference": 1.0,
+            "aT_over_reference": 1.0,
+            "actual_hidden_fraction": 0.9499999999999992
+          }
+        },
+        {
+          "a": 2.0,
+          "snapshot": {
+            "a": 2.0,
+            "Jc": 2.0,
+            "Jb": 2.0,
+            "density_phenotype_over_ucrit": 0.006250000000000106,
+            "density_clustering_over_ucrit": 0.03349999999999971,
+            "density_background_over_ucrit": 0.6820000000000015,
+            "density_total_over_ucrit": 0.7217500000000013,
+            "pressure_over_ucrit": -0.6820000000000016,
+            "H_over_H0": 0.8495587089777853,
+            "deceleration_q": -0.9173882923449954,
+            "hidden_density_over_reference": 0.753157894736844,
+            "hidden_comoving_energy_over_reference": 6.025263157894752,
+            "zeta_Q_over_reference": 3.012631578947376,
+            "twist_record_norm_over_reference": 1.735693400041429,
+            "twist_rate_over_reference": 0.8678467000207145,
+            "aT_over_reference": 0.3535533905932738,
+            "actual_hidden_fraction": 0.9913404918600622
+          }
+        }
+      ]
+    },
+    {
+      "K": 16,
+      "normalized_phi_D_R": [
+        0.05682473858490968,
+        0.26799999999999774,
+        0.6751752614150925
+      ],
+      "effective_beta": 0.9835873697377037,
+      "present_q0": -0.5127628921226388,
+      "outputs": [
+        {
+          "a": 0.5,
+          "snapshot": {
+            "a": 0.5,
+            "Jc": 2.0,
+            "Jb": 2.0,
+            "density_phenotype_over_ucrit": 0.45459790867927746,
+            "density_clustering_over_ucrit": 2.143999999999982,
+            "density_background_over_ucrit": 0.6751752614150925,
+            "density_total_over_ucrit": 3.2737731700943518,
+            "pressure_over_ucrit": -0.6751752614150925,
+            "H_over_H0": 1.8093571151362995,
+            "deceleration_q": 0.19064353591319508,
+            "hidden_density_over_reference": 2.989025875408705,
+            "hidden_comoving_energy_over_reference": 0.3736282344260881,
+            "zeta_Q_over_reference": 0.7472564688521762,
+            "twist_record_norm_over_reference": 0.8644399741174492,
+            "twist_rate_over_reference": 1.7288799482348984,
+            "aT_over_reference": 2.8284271247461903,
+            "actual_hidden_fraction": 0.8611394604757618
+          }
+        },
+        {
+          "a": 1.0,
+          "snapshot": {
+            "a": 1.0,
+            "Jc": 2.0,
+            "Jb": 2.0,
+            "density_phenotype_over_ucrit": 0.05682473858490968,
+            "density_clustering_over_ucrit": 0.26799999999999774,
+            "density_background_over_ucrit": 0.6751752614150925,
+            "density_total_over_ucrit": 1.0,
+            "pressure_over_ucrit": -0.6751752614150925,
+            "H_over_H0": 1.0,
+            "deceleration_q": -0.5127628921226388,
+            "hidden_density_over_reference": 1.0,
+            "hidden_comoving_energy_over_reference": 1.0,
+            "zeta_Q_over_reference": 1.0,
+            "twist_record_norm_over_reference": 1.0,
+            "twist_rate_over_reference": 1.0,
+            "aT_over_reference": 1.0,
+            "actual_hidden_fraction": 0.9431752614150903
+          }
+        },
+        {
+          "a": 2.0,
+          "snapshot": {
+            "a": 2.0,
+            "Jc": 2.0,
+            "Jb": 2.0,
+            "density_phenotype_over_ucrit": 0.00710309232311371,
+            "density_clustering_over_ucrit": 0.03349999999999972,
+            "density_background_over_ucrit": 0.6751752614150925,
+            "density_total_over_ucrit": 0.715778353738206,
+            "pressure_over_ucrit": -0.6751752614150925,
+            "H_over_H0": 0.8460368512885275,
+            "deceleration_q": -0.914911315539802,
+            "hidden_density_over_reference": 0.7513717655739118,
+            "hidden_comoving_energy_over_reference": 6.010974124591295,
+            "zeta_Q_over_reference": 3.0054870622956473,
+            "twist_record_norm_over_reference": 1.7336340623948432,
+            "twist_rate_over_reference": 0.8668170311974216,
+            "aT_over_reference": 0.3535533905932738,
+            "actual_hidden_fraction": 0.9900764080304787
+          }
+        }
+      ]
+    }
+  ],
+  "unexpressed_control": {
+    "phenotype_effect_expectation": 0.0,
+    "positive_relative_energy": "1"
+  },
+  "checks": {
+    "recomputed_phase_checks_pass": true,
+    "recomputed_phase_terminal_matches_record": true,
+    "phase_beta_summary_matches_static_beta": true,
+    "K4_normalized_positive_sectors": true,
+    "K4_a0.5_common_offset_invariant": true,
+    "K4_a0.5_same_density": true,
+    "K4_a0.5_same_pressure": true,
+    "K4_a1.0_common_offset_invariant": true,
+    "K4_a1.0_same_density": true,
+    "K4_a1.0_same_pressure": true,
+    "K4_a2.0_common_offset_invariant": true,
+    "K4_a2.0_same_density": true,
+    "K4_a2.0_same_pressure": true,
+    "K4_uniform_q_from_same_load": true,
+    "K8_normalized_positive_sectors": true,
+    "K8_a0.5_common_offset_invariant": true,
+    "K8_a0.5_same_density": true,
+    "K8_a0.5_same_pressure": true,
+    "K8_a1.0_common_offset_invariant": true,
+    "K8_a1.0_same_density": true,
+    "K8_a1.0_same_pressure": true,
+    "K8_a2.0_common_offset_invariant": true,
+    "K8_a2.0_same_density": true,
+    "K8_a2.0_same_pressure": true,
+    "K8_uniform_q_from_same_load": true,
+    "K16_normalized_positive_sectors": true,
+    "K16_a0.5_common_offset_invariant": true,
+    "K16_a0.5_same_density": true,
+    "K16_a0.5_same_pressure": true,
+    "K16_a1.0_common_offset_invariant": true,
+    "K16_a1.0_same_density": true,
+    "K16_a1.0_same_pressure": true,
+    "K16_a2.0_common_offset_invariant": true,
+    "K16_a2.0_same_density": true,
+    "K16_a2.0_same_pressure": true,
+    "K16_uniform_q_from_same_load": true,
+    "baseline_parameters_preserved": true,
+    "zero_phenotype_readout_keeps_positive_load": true
+  },
+  "passed": 38,
+  "total": 38,
+  "all_passed": true,
+  "scope": [
+    "aggregate sector mapping, not an address-by-address particle mass map",
+    "initial exponent and threshold remain calibrated inputs",
+    "phase frames and closure times are dimensionless",
+    "same inherited finite energy and uniform geometry rules are used",
+    "zero phenotype effect is not a measurement of inertial mass"
+  ],
+  "falsification": [
+    "per-frame normalization or reproduced inputs fail",
+    "relative energy or pressure depends on common offset",
+    "uniform downstream load disagrees with the same finite energy function",
+    "a specified physical mass map or clock conflicts with shared-state outputs"
+  ]
+}
