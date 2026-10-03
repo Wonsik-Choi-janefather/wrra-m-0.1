@@ -1,5 +1,20 @@
 # WRRA-M Research Notes
 
+## Downstream 1.0 completed · 하류 통합정리 1.0 완료 · 2026-10-03
+
+**하류 개발은 0.12에서 마감했고, 0.1–0.12 통합정리 논문 1.0을 최종 확정했습니다.** 공동저자는 **Wonsik Choi (최원식), Jeongin Choi (최정인)**입니다. Physics 투고용 물질 구성비 r9·확장 및 접속조건 r8의 용어, 보정값과 검증 범위를 유지했습니다.
+
+**Final downstream research consolidation: WRRA M 1.0.** [Zenodo final edition, DOI 10.5281/zenodo.23115883](https://zenodo.org/records/23115883) includes the complete reproducible package and both editable manuscripts.
+
+- [한국어 PDF](downstream/v1_0/synthesis/WRRA_M_1_0_Downstream_Synthesis_KO.pdf) · [Word](downstream/v1_0/synthesis/WRRA_M_1_0_Downstream_Synthesis_KO.docx)
+- [English PDF](downstream/v1_0/synthesis/WRRA_M_1_0_Downstream_Synthesis_EN.pdf) · [Word](downstream/v1_0/synthesis/WRRA_M_1_0_Downstream_Synthesis_EN.docx)
+- [Release and reproduction instructions](downstream/v1_0/README.md) · [Final review and completion scope](DOWNSTREAM_1_0_COMPLETION.md) · [Validation report](downstream/v1_0/synthesis/WRRA_M_1_0_Validation_Report.json)
+
+The final editorial review clarifies J units, powers of ten, function parentheses, τ and ℏ in the SI phase, τ/T_coord for the accelerated path, and the finite potential boundary. Both final PDFs were inspected in full: 12 English pages and 11 Korean pages. The editions share 22 native numbered equations and six tables. All 312 current archive manifest entries, 37 byte-identical replay files, 96 component check groups and nine cross-version checks remain verified.
+
+**1.0 completion refers to the reviewed integrated research edition.** Physical measurement operations, post-observation states, physical record formation and repeated-measurement uncertainty remain unimplemented downstream; the failed slow-clock identification and open connection conditions remain in the scope ledger. Core 1.0 and MCC 2.3.2 are frozen. Historical 0.12-r1 source archive: [DOI 10.5281/zenodo.23113101](https://zenodo.org/records/23113101).
+
+
 ## Upstream closes at 0.10 · 상류 개발 0.10 마감
 
 **상류 개발은 0.10에서 마무리합니다.** SOURCE → 필터 → 실제 조건부 기록 → 내부 상태 → 동일 상태 전류와 유한 stock 장부를 한 번 실행으로 통합했습니다. **156개 통합 검사 + 309개 독립 감사**, 새 복사본의 바이트 동일 재현을 완료했습니다. 미계산 물리 대응은 0.10 마감 장부에 남기며 추가 개발 단계는 만들지 않습니다. 1.0을 만든다면 0.10까지의 검토·정리·동결판으로만 둡니다.
@@ -25,7 +40,7 @@
 **하류 개발은 0.12에서 마감한다. WRRA_M 1.0은 0.1~0.12 통합 확정판이다.**
 **Downstream development ends at 0.12; WRRA_M 1.0 consolidates 0.1–0.12.**
 
-The automatic downstream extension to 0.13–0.17 is withdrawn. [Dated scope correction and closure ledger](DOWNSTREAM_CLOSURE_0_12.md) supersedes prospective stage numbers in the archived papers and packages. Published numerical results and their validation are retained. Physical outcomes, post-observation states, records/repeated uncertainty and the nonuniform covariant clock connection remain unimplemented/open in the reviewed release; 1.0 is not yet certified.
+The automatic downstream extension to 0.13–0.17 is withdrawn. [Dated scope correction and closure ledger](DOWNSTREAM_CLOSURE_0_12.md) supersedes prospective stage numbers in the archived papers and packages. Published numerical results and their validation are retained. Physical outcomes, post-observation states, records/repeated uncertainty and the nonuniform covariant clock connection remain unimplemented/open in the reviewed release; These scope entries are retained in the completed downstream 1.0 research consolidation.
 
 ## Current downstream reviewed 0.10 to 0.12 series r1 · 2026-10-03
 
@@ -126,11 +141,11 @@ N·전자기 상수 입력 전달, 제타 부록 생성 경로 및 후보 집계
 
 **원식 현실 렌더러 아키텍처 메타차원 연구 분기**
 
-Latest completed downstream version: **WRRA-M 0.12-r1** · 2026-10-03
+Latest completed downstream research edition: **WRRA M 1.0** · 2026-10-03. Downstream development endpoint: **0.12**.
 
 Reviewed predecessor: **WRRA-M 0.9-r1**.
 
-Latest Zenodo archive: **WRRA-M 0.12-r1**, reviewed 0.10–0.12 series, [DOI 10.5281/zenodo.23113101](https://doi.org/10.5281/zenodo.23113101).
+Latest Zenodo edition: **WRRA M 1.0**, final 0.1–0.12 downstream synthesis, [DOI 10.5281/zenodo.23115883](https://zenodo.org/records/23115883). Historical 0.12-r1 scientific source archive: [DOI 10.5281/zenodo.23113101](https://doi.org/10.5281/zenodo.23113101).
 
 WRRA-M continues WRRA Core 1.0 and Minimal Computation Cosmology 2.3.2.
 
