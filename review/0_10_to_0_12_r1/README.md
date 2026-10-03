@@ -2,6 +2,8 @@
 
 Wonsik Choi · 2026-10-03 · CC BY 4.0
 
+**Endpoint correction:** downstream development ends at 0.12; 1.0 is the consolidation edition. [Scope correction and unresolved closure ledger](../../DOWNSTREAM_CLOSURE_0_12.md) supersedes prospective 0.13–0.17 stage numbers in the archived papers/packages. Their scientific files and numerical results remain unchanged.
+
 [Reviewed series DOI](https://doi.org/10.5281/zenodo.23113101) · [Review and corrections](../../REVISION_0_10_TO_0_12_R1.md)
 
 | Component | English | Korean | Calculation |

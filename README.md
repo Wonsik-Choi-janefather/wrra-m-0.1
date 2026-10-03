@@ -1,5 +1,12 @@
 # WRRA-M Research Notes
 
+## Downstream endpoint correction · 하류 마감 범위 정정 · 2026-10-03
+
+**하류 개발은 0.12에서 마감한다. WRRA_M 1.0은 0.1~0.12 통합 확정판이다.**
+**Downstream development ends at 0.12; WRRA_M 1.0 consolidates 0.1–0.12.**
+
+The automatic downstream extension to 0.13–0.17 is withdrawn. [Dated scope correction and closure ledger](DOWNSTREAM_CLOSURE_0_12.md) supersedes prospective stage numbers in the archived papers and packages. Published numerical results and their validation are retained. Physical outcomes, post-observation states, records/repeated uncertainty and the nonuniform covariant clock connection remain unimplemented/open in the reviewed release; 1.0 is not yet certified.
+
 ## Current downstream reviewed 0.10 to 0.12 series r1 · 2026-10-03
 
 주소·공통운반자 부하의 SI 에너지·압력 연결, 첫 다섯 입력의 순차 보정, 고유시간 갱신과 유한 경계 스펙트럼을 재검토했습니다. 입력 해시와 기존 계산값을 유지하며 **96개 구성 검사**가 통과했습니다. 시계 환산의 범위를 앞선 원고에 반영하고, 시작점을 포함한 사건 수와 두 모드 overlap의 적용 상태를 교정했습니다. 양의 유한 간격 오차 한계를 검증했습니다.
@@ -197,7 +204,7 @@ The staged calibration retains all nine 0.10 cases and the reference **q0=−0.5
 | 산출값 / Outputs | Sequential outputs, 28 checks, nine inherited cases, mass unit, address alpha/beta re-expression, sensitivity rank and explicit residual-freedom controls. |
 | 반증조건 / Falsifiers | Future-input leakage, failed reproduction or pressure differentiation, nonconservation, duplicated electron budget or treating unidentified quantities as fixed. |
 
-Weighted twist fixes zeta*kappa_h², not the separate factors. The calculated length coefficient is not a measured cosmic size; W0 remains unassigned. Physical quantization and records remain 0.13 under the expanded roadmap.
+Weighted twist fixes zeta*kappa_h², not the separate factors. The calculated length coefficient is not a measured cosmic size; W0 remains unassigned. Physical quantization and records remain unimplemented in the 0.12 closure ledger; the dated endpoint correction supersedes the earlier expanded roadmap.
 
 - [0.11 한국어 PDF](paper/WRRA_M_0_11_KO.pdf) · [Word](paper/WRRA_M_0_11_KO.docx) · [Markdown](paper/WRRA_M_0_11_KO.md)
 - [0.11 English PDF](paper/WRRA_M_0_11_EN.pdf) · [Word](paper/WRRA_M_0_11_EN.docx) · [Markdown](paper/WRRA_M_0_11_EN.md)
@@ -217,7 +224,7 @@ python calculations/wrra_m_0_11/run_release.py
 
 The positive address energy map, carrier traces and one energy operator now calculate pressure, sector exchange, gravity and homogeneous expansion. The inherited reference reproduces **q=-0.52855**, **v=207.5109051266 km/s** and conditional finite-patch deflection **0.5355865106 arcsec**. All nine inherited state/volume cases agree. Arithmetic 5%/26.8%/68.2% and calibrated energy 4.93%/26.5%/68.57% remain distinct.
 
-Conversion work is a signed exchange with the environment owning that work; it is not a fourth cosmic density fraction. The microscopic environment, physical proper time and measurement records remain subsequent stages under the expanded roadmap.
+Conversion work is a signed exchange with the environment owning that work; it is not a fourth cosmic density fraction. The microscopic environment and measurement records remain open entries in the 0.12 closure ledger. Proper-time connections completed in 0.12 have the scope stated above.
 
 | Evaluation | WRRA-M 0.10 |
 | --- | --- |
@@ -244,7 +251,7 @@ Version 0.9 executes the common upstream arithmetic ledger and input contract, t
 
 같은 분모의 표현형·비표현형 잔존·복귀 장부를 실행하고 정규화한 조건부 채널 배분을 연결했다. 27개 검증 묶음을 통과했다. 산술 구성비는 기존 물리 에너지 구성비 4.93%·26.5%·68.57%와 별도로 보존한다. 복귀분을 배경 응답 출처로 대응시키되 SI 에너지·압력 함수는 다음 **0.10**에서 구현한다.
 
-The revised roadmap incorporates all ten additional review items through 0.17 and the final 1.0 audit. Physical quantization and records now belong to **0.13**. Admission and channel weights here are construction and expected transport weights. The address-to-channel kernel is a disclosed constitutive input; masses, physical time and microscopic origins are subsequent work.
+The corrected roadmap ends downstream development at **0.12** and retains **1.0** as the consolidated final edition. Physical quantization and records remain unimplemented in the closure ledger. Admission and channel weights here are construction and expected transport weights. The address-to-channel kernel is a disclosed constitutive input; masses, physical time and microscopic origins are subsequent work.
 
 - [0.9 한국어 PDF](paper/WRRA_M_0_9_KO.pdf) · [DOCX](paper/WRRA_M_0_9_KO.docx) · [Markdown](paper/WRRA_M_0_9_KO.md)
 - [0.9 English PDF](paper/WRRA_M_0_9_EN.pdf) · [DOCX](paper/WRRA_M_0_9_EN.docx) · [Markdown](paper/WRRA_M_0_9_EN.md)
@@ -265,7 +272,7 @@ Version 0.8 runs the common carrier response, four-filter comparison, selection 
 
 공통운반자 응답에서 네 필터의 점수를 실제 계산하고, 선택된 순열에서 입자 배치와 전하를 산출했다. 공개한 보정 아래 9개 상태 모두 F_DX를 선택했다. 23개 검증 묶음, 한영 수식·표 대조, 저장 결과를 지운 깨끗한 복사본의 재현을 완료했다. 같은 격자·상태를 0.7의 부하·에너지·중력·팽창 장부에 연결한다.
 
-The readout offset is an auxiliary calibration in a fixed weak-component basis; it is not an added mass or energy sector. Generation count is an adopted input; masses and mixing are not newly derived. Optimizer weights are construction weights. Under the revised roadmap, physical quantization outcomes, probabilities, post-observation states and records are scheduled for **0.13** after common accounting and the physical energy/pressure bridge.
+The readout offset is an auxiliary calibration in a fixed weak-component basis; it is not an added mass or energy sector. Generation count is an adopted input; masses and mixing are not newly derived. Optimizer weights are construction weights. Under the corrected endpoint, physical quantization outcomes, probabilities, post-observation states and records remain unimplemented in the **0.12 closure ledger**.
 
 - [0.8 한국어 PDF](paper/WRRA_M_0_8_KO.pdf) · [DOCX](paper/WRRA_M_0_8_KO.docx) · [Markdown](paper/WRRA_M_0_8_KO.md)
 - [0.8 English PDF](paper/WRRA_M_0_8_EN.pdf) · [DOCX](paper/WRRA_M_0_8_EN.docx) · [Markdown](paper/WRRA_M_0_8_EN.md)
