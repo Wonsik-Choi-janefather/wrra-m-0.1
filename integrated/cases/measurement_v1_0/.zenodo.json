@@ -1,0 +1,31 @@
+{
+  "title": "WRRA M Integrated Measurement Case 1.0: Address Conditioning, Finite Record, SI Energy and Homogeneous Pressure",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "publication_date": "2026-10-05",
+  "version": "1.0",
+  "doi": "10.5281/zenodo.23149260",
+  "creators": [
+    {
+      "name": "Choi, Wonsik",
+      "orcid": "0009-0001-4263-9772"
+    },
+    {
+      "name": "Choi, Jeongin"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23126800",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/tree/main/integrated/cases/measurement_v1_0",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    }
+  ]
+}

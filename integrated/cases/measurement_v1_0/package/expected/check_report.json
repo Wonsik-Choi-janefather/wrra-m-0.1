@@ -1,0 +1,106 @@
+[
+  {
+    "name": "address state input strength preserved",
+    "passed": true
+  },
+  {
+    "name": "inherited state source Hermitian and invariant",
+    "passed": true
+  },
+  {
+    "name": "original excitation transferred",
+    "passed": true
+  },
+  {
+    "name": "rest and excitation replace phenotype allocation once",
+    "passed": true
+  },
+  {
+    "name": "initial density benchmark preserved",
+    "passed": true
+  },
+  {
+    "name": "X instrument complete and W unitary",
+    "passed": true
+  },
+  {
+    "name": "joint write state positive and normalized",
+    "passed": true
+  },
+  {
+    "name": "energy computed from write state agrees with inherited measurement",
+    "passed": true
+  },
+  {
+    "name": "system and record increments cover supply exactly",
+    "passed": true
+  },
+  {
+    "name": "mean supplier balance closes",
+    "passed": true
+  },
+  {
+    "name": "finite mean supplier remains nonnegative",
+    "passed": true
+  },
+  {
+    "name": "individual conditional controller covers both outcomes",
+    "passed": true
+  },
+  {
+    "name": "outcome 0 Born probability",
+    "passed": true
+  },
+  {
+    "name": "outcome 1 Born probability",
+    "passed": true
+  },
+  {
+    "name": "both mean boundary branch allocations covered",
+    "passed": true
+  },
+  {
+    "name": "full source routing complete",
+    "passed": true
+  },
+  {
+    "name": "pressure equals negative volume derivative after readout",
+    "passed": true
+  },
+  {
+    "name": "included pressureless supplier q unchanged",
+    "passed": true
+  },
+  {
+    "name": "repeated k1 analytic and matrix prediction",
+    "passed": true
+  },
+  {
+    "name": "repeated k2 analytic and matrix prediction",
+    "passed": true
+  },
+  {
+    "name": "repeated k4 analytic and matrix prediction",
+    "passed": true
+  },
+  {
+    "name": "phase control leaves address-dephased state energy unchanged",
+    "passed": true
+  },
+  {
+    "name": "doubling the clock interval changes repeated probability",
+    "passed": true
+  },
+  {
+    "name": "original exchange rejects insufficient mean supply",
+    "passed": true
+  },
+  {
+    "name": "naive duplicate phenotype allocation identified",
+    "passed": true
+  },
+  {
+    "name": "case agrees with published integrated boundary diagnostic",
+    "passed": true
+  }
+]

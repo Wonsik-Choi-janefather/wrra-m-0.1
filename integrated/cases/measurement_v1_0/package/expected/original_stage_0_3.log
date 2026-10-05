@@ -1,0 +1,40 @@
+{
+  "passed": 134,
+  "failed": 0,
+  "reference": {
+    "calibration": "inherited",
+    "species": "proton",
+    "case": "baseline",
+    "V0_m3": 1,
+    "expected_population_input": 0.2425893463937076,
+    "rest_energy_per_particle_J": 1.5032776180191043e-10,
+    "reference_phi_allocation_J": 3.7807912495362e-11,
+    "rest_total_J": 3.6467913480354414e-11,
+    "excitation_total_J": 1.3399990150075855e-12,
+    "system_energy_J": 7.668947767821907e-10,
+    "system_change_J": 0.0,
+    "environment_initial_J": 7.561582499072401e-12,
+    "environment_final_J": 7.561582499072401e-12,
+    "naive_double_count_total_J": 8.047026892775528e-10,
+    "duplicate_J": 3.7807912495362053e-11,
+    "protocol": "fixed expected population; conditional preparation controls only"
+  },
+  "control": {
+    "calibration": "inherited",
+    "species": "proton",
+    "case": "p3_low",
+    "V0_m3": 1,
+    "expected_population_input": 0.2425893463937076,
+    "rest_energy_per_particle_J": 1.5032776180191043e-10,
+    "reference_phi_allocation_J": 3.7807912495362e-11,
+    "rest_total_J": 3.6467913480354414e-11,
+    "excitation_total_J": 1.3489375489645301e-12,
+    "system_energy_J": 7.669037153161476e-10,
+    "system_change_J": 8.938533956944637e-15,
+    "environment_initial_J": 7.561582499072401e-12,
+    "environment_final_J": 7.552643965115456e-12,
+    "naive_double_count_total_J": 8.047116278115097e-10,
+    "duplicate_J": 3.7807912495362053e-11,
+    "protocol": "fixed expected population; conditional preparation controls only"
+  }
+}

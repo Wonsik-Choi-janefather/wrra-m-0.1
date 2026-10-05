@@ -1,0 +1,32 @@
+{
+  "passed": 134,
+  "failed": 0,
+  "dt_s": 2.9626039328317383e-21,
+  "old_clock_ratio": 2.102556972196466e-43,
+  "internal_rows": [
+    {
+      "frame": 1,
+      "relative_phase_recovery_max_MeV": 1.8189894035458565e-12,
+      "nonzero_integer_branches": 94,
+      "excitation_phase_rad": 1940.2913853065702
+    },
+    {
+      "frame": 2,
+      "relative_phase_recovery_max_MeV": 1.8189894035458565e-12,
+      "nonzero_integer_branches": 94,
+      "excitation_phase_rad": 3880.5827706131404
+    },
+    {
+      "frame": 4,
+      "relative_phase_recovery_max_MeV": 1.8189894035458565e-12,
+      "nonzero_integer_branches": 94,
+      "excitation_phase_rad": 7761.165541226281
+    },
+    {
+      "frame": 8,
+      "relative_phase_recovery_max_MeV": 1.8189894035458565e-12,
+      "nonzero_integer_branches": 94,
+      "excitation_phase_rad": 15522.331082452562
+    }
+  ]
+}

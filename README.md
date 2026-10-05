@@ -1,5 +1,13 @@
 # WRRA-M Research Notes
 
+## 상류·하류 통합 측정 사례 1.0 / Integrated measurement case
+
+최원식·최정인 / Wonsik Choi and Jeongin Choi · 2026-10-05
+
+**[한영 원고·계산 코드·재현 자료](integrated/cases/measurement_v1_0/README.md)** · DOI [10.5281/zenodo.23149260](https://doi.org/10.5281/zenodo.23149260)
+
+Address conditioning → internal state → one ideal finite record → reference-matched SI energy and explicit supply → same-energy pressure/deceleration. Fresh execution passes 450 original-stage software checks and 26 case connection checks, with zero failures. This companion review sample preserves the integrated research inputs and authorship; prime-parts research supplies no inputs.
+
 ## 상류·하류 통합 논문 1.0 검토판 r1 / Integrated upstream–downstream manuscript
 
 최원식·최정인 / Wonsik Choi and Jeongin Choi · 2026-10-03

@@ -1,0 +1,27 @@
+{
+  "principal_reference_doi": "10.5281/zenodo.23126800",
+  "source_archive": "WRRA_M_Bridge_0_5_0_8_Reviewed_r1_2026_10_03.zip",
+  "source_archive_sha256": "6fd203eb174ebc1b44d33bdc9bb4b3b6c59388fb8578c2950f67239167ed5412",
+  "integrated_package_sha256": "be67c62d70b9272705945ead79acfc2ee850ef32d6f0eb3a96729d39fb02a1c9",
+  "calibration": "inherited",
+  "species": "proton",
+  "reference_volume_m3": 1,
+  "energy_fractions": {
+    "phi": 0.0493,
+    "D": 0.265,
+    "R": 0.6857
+  },
+  "supplier_initial_fraction_of_phi": 0.2,
+  "preparation_strength": 0.2,
+  "selector_prime": 3,
+  "excited_mode_index": 1,
+  "clock_choice": "electron energy / 23 then omega=mu/hbar and frame=0.1/omega",
+  "measurement_basis": "X in inherited ground first-excited invariant subspace",
+  "supplier_volume_law": "pressureless comoving finite budget",
+  "comparison_tolerances": {
+    "relative": 2e-10,
+    "J_absolute": 1e-23,
+    "probability_absolute": 1e-09
+  },
+  "scope": "One conditional write per occupant in the mean ledger, followed by conditional repeated-readout probabilities; repeated sequence costs are not accumulated."
+}

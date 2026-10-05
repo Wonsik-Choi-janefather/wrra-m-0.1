@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-05",
+  "original_checks": {
+    "stage_0_2": 95,
+    "stage_0_3": 134,
+    "stage_0_5": 134,
+    "stage_0_6": 87,
+    "total": 450,
+    "failed": 0
+  },
+  "additional_case_contracts": {
+    "passed": 26,
+    "failed": 0
+  },
+  "fresh_portable_source_replay": true,
+  "reported_numbers_match_fresh_results": true,
+  "visual_review": {
+    "KO_pages": 5,
+    "EN_pages": 5,
+    "every_page_inspected": true,
+    "native_OMML_equations": true,
+    "issues_remaining": []
+  },
+  "scope": "conditional case and mean boundary diagnostic; no experiment, new apparatus implementation or new publication claimed",
+  "principal_reference": "10.5281/zenodo.23126800"
+}

@@ -1,0 +1,12 @@
+{
+  "passed": 87,
+  "failed": 0,
+  "write_work_J": 2.901146067898069e-11,
+  "retention_256": {
+    "flip_probability_per_tick_input": 0.001,
+    "ticks": 256,
+    "proper_time_s": 7.58426606804925e-19,
+    "record_error_probability": 0.20050569129219964,
+    "record_energy_increase_J": 7.137223068231961e-16
+  }
+}
