@@ -1,0 +1,65 @@
+{
+  "title": "WRRA M High-Energy-to-Phenotype Extension 1.0: Thermal Probes, Record Stability, Component Activation, Harmonic States and Downstream Reconnection",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "publication_date": "2026-10-06",
+  "version": "1.0",
+  "creators": [
+    {
+      "name": "Choi, Wonsik",
+      "orcid": "0009-0001-4263-9772"
+    },
+    {
+      "name": "Choi, Jeongin"
+    }
+  ],
+  "description": "Reviewed consolidation of stages 0.1-0.12 extending the frozen WRRA M integrated baseline upstream toward high-energy thermal probes, the micro/macro record-stability boundary, origin-preserving component activation, primitive-alphabet minimality, neutrino harmonic bookkeeping, and nonduplicated reconnection to phenotype energy, pressure, gravity and homogeneous expansion. Structural closure passes; autonomous temperature-to-generation laws, primitive-to-particle Hamiltonian generation, upstream PMNS derivation, and one common fully covariant SI background-plus-nonuniform evolution remain explicit open interfaces. The release does not identify the WRRA frame with Planck time and does not claim exactly four primitive types.",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "WRRA",
+    "minimum computation",
+    "cosmology",
+    "common carrier",
+    "phenotype",
+    "thermal probe",
+    "quantum measurement",
+    "micro-macro boundary",
+    "record stability",
+    "component activation",
+    "primitive alphabet",
+    "neutrino",
+    "harmonic phase",
+    "information load",
+    "gravity",
+    "expansion"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23126800",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23149260",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23134716",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23137504",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/tree/main/integrated/high_energy_extension_v1_0",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Deposit all files under integrated/high_energy_extension_v1_0 as one Zenodo record. Do not split stages 0.1-0.12 into separate deposits. Preserve cited source-release authorship and provenance."
+}
