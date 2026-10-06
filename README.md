@@ -1,5 +1,13 @@
 # WRRA-M Research Notes
 
+## 고에너지-표현형 연결 확장 1.0 · 0.1-0.12 통합 검토본 / High-Energy-to-Phenotype Extension 1.0
+
+최원식·최정인 / Wonsik Choi and Jeongin Choi · 2026-10-06
+
+**[0.1-0.12 통합본과 Zenodo 메타데이터](integrated/high_energy_extension_v1_0/README.md)**
+
+열적 탐침 → 미시/거시 기록 경계 → origin-preserving component → stable codeword / harmonic state → 기존 phenotype SI energy → pressure/load → gravity/expansion을 하나의 typed ledger로 재검토했다. **Planck time=frame**과 **primitive=4종 확정**은 채택하지 않는다. 구조적 closure는 PASS이며, temperature→generation controls, primitive→particle Hamiltonian, upstream→PMNS mixing, fully covariant background+nonuniform SI evolution은 OPEN으로 고정한다. **0.13은 추가하지 않고 0.12에서 개발 단계를 닫는다.**
+
 ## 상류·하류 통합 측정 사례 1.0 / Integrated measurement case
 
 최원식·최정인 / Wonsik Choi and Jeongin Choi · 2026-10-05
@@ -578,5 +586,4 @@ Citation metadata is provided in [`CITATION.cff`](CITATION.cff). The papers and 
 The 0.5 titles and claim ledger now foreground information load and twist gravity. Its local calculation uses 26.5% of the whole universe within the hidden total of 95.07%. The zero-phenotype input executes with undefined ratios recorded as null; the radius response ratio is evaluated numerically. The original scientific outputs reproduce unchanged.
 
 [0.6 start, Korean](calculations/wrra_m_0_6_start/README_KO.md) · [0.6 start, English](calculations/wrra_m_0_6_start/README_EN.md) · [Start reproducibility archive](calculations/wrra_m_0_6_start/WRRA_M_0_6_Start_Reproducibility.zip). These files preserve the initial prototype. The completed finite homogeneous model and bilingual paper are provided above.
-
 
