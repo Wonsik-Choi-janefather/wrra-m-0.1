@@ -12,6 +12,7 @@ This release rechecks and consolidates the 0.1–0.12 high-energy extension into
 
 - [한국어 통합 원고](manuscript_KO.md)
 - [English integrated manuscript](manuscript_EN.md)
+- [Full English research manuscript — detailed 0.1-0.12 expansion](manuscript_full_EN.md)
 - [Machine-readable status ledger](STATUS_LEDGER.json)
 - [Zenodo deposit metadata](ZENODO_METADATA.json)
 
