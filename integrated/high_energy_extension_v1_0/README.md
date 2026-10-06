@@ -4,6 +4,8 @@
 
 **Reviewed consolidation of stages 0.1–0.12.**
 
+Zenodo DOI: [10.5281/zenodo.23176529](https://doi.org/10.5281/zenodo.23176529)
+
 This release rechecks and consolidates the 0.1–0.12 high-energy extension into one scope-controlled manuscript. It does not replace the previously published WRRA M integrated upstream–downstream model; it extends its upstream interpretation through thermal probes, micro/macro record stability, component activation and harmonic-state bookkeeping, then reconnects those structures to the frozen downstream energy/load/gravity ledger.
 
 ## Read
