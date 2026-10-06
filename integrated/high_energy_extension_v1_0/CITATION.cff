@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite this reviewed 0.1-0.12 structural extension and the principal WRRA M integrated baseline as appropriate."
+type: article
+title: "WRRA M High-Energy-to-Phenotype Extension 1.0: Thermal Probes, Record Stability, Component Activation, Harmonic States and Downstream Reconnection"
+version: "1.0"
+date-released: "2026-10-06"
+authors:
+  - family-names: Choi
+    given-names: Wonsik
+    orcid: "https://orcid.org/0009-0001-4263-9772"
+  - family-names: Choi
+    given-names: Jeongin
+repository-code: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1"
+license: CC-BY-4.0
