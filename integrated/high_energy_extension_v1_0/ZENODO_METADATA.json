@@ -61,5 +61,7 @@
       "scheme": "url"
     }
   ],
-  "notes": "Deposit all files under integrated/high_energy_extension_v1_0 as one Zenodo record. Do not split stages 0.1-0.12 into separate deposits. Preserve cited source-release authorship and provenance."
+  "notes": "Deposit all files under integrated/high_energy_extension_v1_0 as one Zenodo record. Do not split stages 0.1-0.12 into separate deposits. Preserve cited source-release authorship and provenance.",
+  "doi": "10.5281/zenodo.23176529",
+  "record_url": "https://zenodo.org/records/23176529"
 }
