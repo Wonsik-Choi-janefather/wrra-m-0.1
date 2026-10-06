@@ -4,7 +4,7 @@
 
 최원식·최정인 / Wonsik Choi and Jeongin Choi · 2026-10-06
 
-**[0.1-0.12 통합본과 Zenodo 메타데이터](integrated/high_energy_extension_v1_0/README.md)**
+**[0.1-0.12 통합본과 Zenodo 메타데이터](integrated/high_energy_extension_v1_0/README.md)** · DOI [10.5281/zenodo.23176529](https://doi.org/10.5281/zenodo.23176529)
 
 열적 탐침 → 미시/거시 기록 경계 → origin-preserving component → stable codeword / harmonic state → 기존 phenotype SI energy → pressure/load → gravity/expansion을 하나의 typed ledger로 재검토했다. **Planck time=frame**과 **primitive=4종 확정**은 채택하지 않는다. 구조적 closure는 PASS이며, temperature→generation controls, primitive→particle Hamiltonian, upstream→PMNS mixing, fully covariant background+nonuniform SI evolution은 OPEN으로 고정한다. **0.13은 추가하지 않고 0.12에서 개발 단계를 닫는다.**
 
