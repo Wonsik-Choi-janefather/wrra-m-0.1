@@ -1,0 +1,137 @@
+{
+  "title": "WRRA M High-Energy-to-Phenotype Extension 1.0",
+  "date": "2026-10-06",
+  "authors": [
+    "Wonsik Choi",
+    "Jeongin Choi"
+  ],
+  "scope": "Reviewed consolidation of stages 0.1-0.12; structural extension of the frozen WRRA M integrated baseline.",
+  "evaluation_order": [
+    "verified_inputs",
+    "wrra_transformation",
+    "outputs",
+    "falsifiers"
+  ],
+  "baseline": {
+    "address_fractions": {
+      "phenotype": 0.05,
+      "resident_nonphenotype": 0.268,
+      "return": 0.682
+    },
+    "inherited_energy_fractions": {
+      "phenotype": 0.0493,
+      "resident_nonphenotype": 0.265,
+      "return": 0.6857
+    },
+    "q0": -0.52855,
+    "rotation_km_s": 207.5109051266,
+    "conditional_lensing_arcsec": 0.5355865106
+  },
+  "stages": {
+    "0.1": {
+      "status": "PASS",
+      "result": "Frozen baseline; no refit allowed."
+    },
+    "0.2": {
+      "status": "PASS_CONDITIONAL",
+      "result": "Finite thermal probe requires T, H and an energy prescription."
+    },
+    "0.3": {
+      "status": "NEGATIVE_RESULT_PRESERVED",
+      "result": "Thermal carrier-population mixing alone does not erase the frozen filter gap."
+    },
+    "0.4": {
+      "status": "PASS_STRUCTURAL",
+      "open": [
+        "T_to_mF",
+        "Kelvin_TF"
+      ]
+    },
+    "0.5": {
+      "status": "PASS",
+      "result": "Channel selection and SOURCE address branching are distinct; T-to-branch law remains open."
+    },
+    "0.6": {
+      "status": "PASS_WITH_NULL",
+      "result": "Finite shutter/readout event exists; universal minimum time is not derived; Planck-time identification rejected."
+    },
+    "0.7": {
+      "status": "PASS",
+      "result": "Micro/macro boundary is distinguishability plus record-stability family, not one universal constant."
+    },
+    "0.8": {
+      "status": "PASS",
+      "result": "Component = origin + activation + identity retention + ledger closure.",
+      "open": [
+        "primitive_count_NP"
+      ]
+    },
+    "0.9": {
+      "status": "PASS_STRUCTURAL",
+      "result": "Stable-codeword/harmonic interface retained; neutrino 0:5:29 phase ledger preserved.",
+      "open": [
+        "absolute_TC",
+        "upstream_PMNS_origin"
+      ]
+    },
+    "0.10": {
+      "status": "PASS_STRUCTURAL",
+      "result": "Codeword/harmonic states reconnect to existing phenotype energy without energy multiplication.",
+      "open": [
+        "primitive_to_particle_Hamiltonian"
+      ]
+    },
+    "0.11": {
+      "status": "PASS",
+      "result": "Reverse/minimality constraints identified; N_P=4 and Planck-time=frame are not required assumptions."
+    },
+    "0.12": {
+      "status": "CLOSED",
+      "result": "Typed-ledger structural closure passes; autonomous Planck-to-present simulator remains open."
+    }
+  },
+  "minimal_interface": [
+    "primitive_alphabet_A_NP",
+    "origin_identity_O",
+    "filter_distinction_BL",
+    "filter_distinction_BR",
+    "assembly_termination_R",
+    "phase_register_Phi",
+    "conservation_normalization_ledger_L"
+  ],
+  "closed_interfaces": [
+    "finite_thermal_probe",
+    "SOURCE_address_branching",
+    "shutter_and_conditional_record",
+    "micro_macro_record_interface",
+    "origin_preserving_component_activation",
+    "stable_codeword_harmonic_interface",
+    "phenotype_to_SI_energy_without_duplication",
+    "pressure_from_same_E_of_V",
+    "upstream_population_sensitivity_to_downstream_q",
+    "conditional_local_rotation_and_lensing",
+    "homogeneous_expansion"
+  ],
+  "open_interfaces": [
+    "T_to_kappa_alpha_beta_Kstar",
+    "primitive_grammar_to_physical_particle_Hamiltonian",
+    "neutrino_0_5_29_to_PMNS_mixing_from_upstream",
+    "homogeneous_plus_nonuniform_to_common_fully_covariant_SI_geometry"
+  ],
+  "rejected_identifications": [
+    "WRRA_frame_equals_Planck_time",
+    "event_discreteness_equals_physical_time_discreteness",
+    "active_component_count_equals_primitive_type_count",
+    "component_channel_generation_or_harmonic_count_multiplies_cosmic_energy"
+  ],
+  "candidate_not_conclusion": {
+    "primitive_count_4": "Interesting when a two-symbol-position grammar is independently established; not derived here.",
+    "neutrino_harmony": "Retained multi-mode phase representation; not yet a microscopic derivation of PMNS mixing."
+  },
+  "related_dois": [
+    "10.5281/zenodo.23126800",
+    "10.5281/zenodo.23149260",
+    "10.5281/zenodo.23134716",
+    "10.5281/zenodo.23137504"
+  ]
+}
