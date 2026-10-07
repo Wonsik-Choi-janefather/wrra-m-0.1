@@ -1,0 +1,112 @@
+{
+  "project": "Minimal Computing Cosmology 3.0",
+  "stage": "4_single_load_energy_master_ledger",
+  "date": "2026-10-07",
+  "status": "PASS",
+  "inputs": {
+    "N_U": 1015000,
+    "arithmetic_shares": {
+      "phenotype": 0.050000000000000176,
+      "resident_nonphenotype": 0.2680000000000007,
+      "return": 0.6820000000000006
+    },
+    "frozen_eta_J_m3": {
+      "phenotype": 7.561582499072265e-10,
+      "resident_nonphenotype": 7.285761328795971e-10,
+      "return": 7.646102818811323e-10
+    },
+    "reference_volume_m3": 1,
+    "energy_coefficient_refit": false
+  },
+  "additive_master_ledger": [
+    {
+      "sector": "phenotype",
+      "address_moment_mu": 0.050000000000000065,
+      "eta_J_m3": 7.561582499072265e-10,
+      "energy_J": 3.7807912495361375e-11,
+      "pressure_Pa": 0,
+      "additive": true
+    },
+    {
+      "sector": "resident_nonphenotype",
+      "address_moment_mu": 0.2789256109767439,
+      "eta_J_m3": 7.285761328795971e-10,
+      "energy_J": 2.0321854300651497e-10,
+      "pressure_Pa": 0,
+      "additive": true
+    },
+    {
+      "sector": "return",
+      "address_moment_mu": 0.6877425398542387,
+      "eta_J_m3": 7.646102818811323e-10,
+      "energy_J": 5.258550172595953e-10,
+      "pressure_Pa": -5.258550172595953e-10,
+      "additive": true
+    }
+  ],
+  "totals": {
+    "total_energy_J": 7.668814727614716e-10,
+    "total_density_J_m3": 7.668814727614716e-10,
+    "total_pressure_Pa": -5.258550172595953e-10,
+    "deceleration_q_diagnostic": -0.5285585894376319
+  },
+  "phenotype_internal_views": {
+    "prime_part_small_first": {
+      "components": 15,
+      "sum_conditional_share": 1,
+      "sum_information_load_mu": 0.05000000000000008,
+      "sum_phenotype_energy_J": 3.780791249536138e-11,
+      "neutron_fraction_5_47": 0.12947198693705966
+    },
+    "prime_part_large_first": {
+      "components": 15,
+      "sum_conditional_share": 0.9999999999999998,
+      "sum_information_load_mu": 0.05000000000000007,
+      "sum_phenotype_energy_J": 3.7807912495361375e-11,
+      "neutron_fraction_5_47": 0.1271594116970887
+    },
+    "field_channel_view": {
+      "slots": 48,
+      "sum_conditional_share": 1,
+      "sum_information_load_mu": 0.05000000000000008,
+      "sum_phenotype_energy_J": 3.780791249536138e-11,
+      "per_slot_energy_J": 7.876648436533622e-13
+    },
+    "rule": "alternative internal views; never additive with each other or with the sector total"
+  },
+  "legacy_comparison": {
+    "legacy_total_energy_J": 7.668947767821907e-10,
+    "candidate_total_energy_J": 7.668814727614716e-10,
+    "delta_total_energy_J": -1.3304020719093403e-14,
+    "relative_absolute_change": 0.000017347908894249697
+  },
+  "typed_ledger_policy": {
+    "cosmic_additive_levels": [
+      "phenotype",
+      "resident_nonphenotype",
+      "return"
+    ],
+    "nested_nonadditive_views": [
+      "15-prime small-first",
+      "15-prime large-first",
+      "48 field/channel slots"
+    ],
+    "prime_label_energy_interpretation": "conditional phenotype budget suballocation; not measured component rest mass",
+    "double_count_forbidden": true
+  },
+  "checks": {
+    "address_sector_ledger_complete": true,
+    "all_additive_sector_energies_positive": true,
+    "master_energy_sum_closes": true,
+    "pressure_is_derived_from_same_sector_energy": true,
+    "small_component_view_closes_to_phenotype": true,
+    "large_component_view_closes_to_phenotype": true,
+    "field_channel_view_closes_to_phenotype": true,
+    "component_order_changes_distribution_not_budget": true,
+    "internal_views_marked_nonadditive": true,
+    "frozen_eta_values_unchanged": true,
+    "no_new_cosmic_sector": true,
+    "spin_binding_remain_open": true
+  },
+  "all_checks_passed": true
+}
