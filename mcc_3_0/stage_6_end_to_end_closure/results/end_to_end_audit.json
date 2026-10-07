@@ -1,0 +1,144 @@
+{
+  "project": "Minimal Computing Cosmology 3.0",
+  "stage": "6_end_to_end_closure",
+  "date": "2026-10-07",
+  "stage_status": "PASS",
+  "integrated_model_status": "PASS-C",
+  "stage_source_pins": {
+    "stage1": "6ab22d987e5a7f6f47b34f55f2960fe463817cbe",
+    "stage2": "aed8a0d1a2042635db34a980c4183d0dda27d2e1",
+    "stage3": "cb4fbb12542037d58a6c5fb362ee5fa654ba57cd",
+    "stage4": "e5a5282553c6b413e64079926b615edbce81fb8d",
+    "stage5": "e26dde37e6b787c24c2b4367ab200dce21faf10f"
+  },
+  "stage_check_counts": {
+    "stage1": 5,
+    "stage2": 7,
+    "stage3": 16,
+    "stage4": 12,
+    "stage5": 14
+  },
+  "published_stage_checks_total": 54,
+  "cross_stage_checks": [
+    {
+      "id": "S6-01",
+      "check": "Stage2 N_U equals Stage3 handoff N_U",
+      "passed": true,
+      "evidence": {
+        "N_U": 1015000
+      }
+    },
+    {
+      "id": "S6-02",
+      "check": "Stage2 alpha/h/beta equal Stage3 input",
+      "passed": true,
+      "evidence": {
+        "alpha": 1.8996877935161325,
+        "h": 1.4476744689338703,
+        "beta_eff": 0.8654567230719301
+      }
+    },
+    {
+      "id": "S6-03",
+      "check": "Stage3 phenotype and N_U match Stage4",
+      "passed": true,
+      "evidence": {
+        "N_U": 1015000,
+        "phenotype_stage3": 0.05,
+        "phenotype_stage4": 0.050000000000000176
+      }
+    },
+    {
+      "id": "S6-04",
+      "check": "Stage4 additive energies sum to Master Ledger total",
+      "passed": true,
+      "evidence": {
+        "sum_J": 7.668814727614716e-10,
+        "total_J": 7.668814727614716e-10
+      }
+    },
+    {
+      "id": "S6-05",
+      "check": "Stage4 total energy and pressure equal Stage5 present source",
+      "passed": true,
+      "evidence": {
+        "energy_J": 7.668814727614716e-10,
+        "pressure_Pa": -5.258550172595953e-10
+      }
+    },
+    {
+      "id": "S6-06",
+      "check": "Stage4 diagnostic q equals Stage5 present q",
+      "passed": true,
+      "evidence": {
+        "q": -0.5285585894376319
+      }
+    },
+    {
+      "id": "S6-07",
+      "check": "Stage5 q/rotation/lensing equal Stage6 handoff",
+      "passed": true,
+      "evidence": {
+        "q": -0.5285585894376319,
+        "rotation_km_s": 207.5102418659153,
+        "lensing_arcsec": 0.5355822400088303
+      }
+    },
+    {
+      "id": "S6-08",
+      "check": "Every Stage1-5 verification record reports all checks passed",
+      "passed": true
+    },
+    {
+      "id": "S6-09",
+      "check": "No Stage4/5 SI refit",
+      "passed": true,
+      "evidence": {
+        "stage4": false,
+        "stage5": false
+      }
+    },
+    {
+      "id": "S6-10",
+      "check": "No component/channel energy double count",
+      "passed": true
+    },
+    {
+      "id": "S6-11",
+      "check": "Conditional source, spin and species claims remain open",
+      "passed": true
+    }
+  ],
+  "cross_stage_checks_total": 11,
+  "grand_declared_checks_total": 65,
+  "all_checks_passed": true,
+  "final_outputs": {
+    "N_U": 1015000,
+    "alpha": 1.8996877935161325,
+    "threshold_h": 1.4476744689338703,
+    "derived_effective_beta": 0.8654567230719301,
+    "arithmetic_shares": {
+      "phenotype": 0.050000000000000176,
+      "resident_nonphenotype": 0.2680000000000007,
+      "return": 0.6820000000000006
+    },
+    "present_total_energy_J": 7.668814727614716e-10,
+    "present_pressure_Pa": -5.258550172595953e-10,
+    "present_q": -0.5285585894376319,
+    "present_aT_m_s2": 1.1917875313971119e-10,
+    "present_rotation_km_s": 207.5102418659153,
+    "present_lensing_arcsec": 0.5355822400088303,
+    "acceleration_transition_scale_factor": 0.6119598067968817
+  },
+  "open_claims": [
+    "T=2*pi*H necessity",
+    "L,H,C Cartesian independence",
+    "N_U=L*H*C uniqueness",
+    "Klein quotient physical necessity",
+    "zeta-focus microscopic status",
+    "unique component-to-particle species decoder",
+    "spin-flavor / confinement / binding closure",
+    "baryon-lepton origin",
+    "fully covariant field-theory completion"
+  ]
+}
