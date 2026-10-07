@@ -16,11 +16,21 @@ This executive paper is the quantum-foundations and information-physics entry po
 
 The full execution chain is:
 
-**finite SOURCE -> finite integer addresses -> filter -> residue -> component/phenotype -> information load -> SI energy -> gravity -> galaxy observables -> cosmic expansion**
+**finite SOURCE -> finite integer addresses -> Common Carrier -> filter -> residue -> component/phenotype -> information load -> SI energy -> gravity -> galaxy observables -> cosmic expansion**
 
 The six-stage computational integration is classified as **PASS**. The integrated scientific model remains **PASS-C** because several upstream source rules, microscopic particle claims, and the physical measurement/record layer remain conditional or open.
 
 ---
+
+## Common Carrier in the MCC 3.0 architecture
+
+The **Common Carrier** is the central information-physics object in WRRA/MCC. It is the shared finite state substrate that receives the SOURCE state and carries it through filtering, quantization, residue retention, and phenotype formation.
+
+The execution chain is:
+
+**finite SOURCE -> Common Carrier -> filter / quantization -> residue -> component / phenotype -> information load -> energy -> gravity -> observables**
+
+This prevents MCC 3.0 from being read as a direct jump from arithmetic labels to physical outputs. Information, residue, and resource ownership are defined on the carrier state before a phenotype is rendered.
 
 ## Abstract
 
