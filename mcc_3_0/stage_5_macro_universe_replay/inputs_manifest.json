@@ -1,0 +1,34 @@
+{
+  "project": "Minimal Computing Cosmology 3.0",
+  "stage": "5_macro_universe_replay",
+  "date": "2026-10-07",
+  "inputs": [
+    {
+      "source": "Stage 4 handoff",
+      "path": "mcc_3_0/stage_4_single_load_energy_master_ledger/STAGE5_HANDOFF.json",
+      "role": "finite-SOURCE energy/pressure Master Ledger"
+    },
+    {
+      "source": "WRRA_M 0.10 frozen results",
+      "path": "calculations/wrra_m_0_10/results/results.json",
+      "role": "legacy macro regression, ucrit and frozen SI/local reference"
+    },
+    {
+      "source": "WRRA_M 0.10 parameters",
+      "path": "calculations/wrra_m_0_10/parameters.json",
+      "role": "volume exponents and declared macro probe scales"
+    }
+  ],
+  "frozen_coefficients": {
+    "H0_km_s_Mpc": 67.4,
+    "fc": 0.265,
+    "c_m_s": 299792458,
+    "G_SI": 6.6743e-11,
+    "test_mass_Msun": 60000000000,
+    "test_scale_kpc": 3,
+    "test_radius_kpc": 8.2,
+    "lens_patch_radius_kpc": 200,
+    "lens_impact_kpc": 10
+  },
+  "calibration_policy": "No Stage-5 refit. All candidate differences are propagated from Stage-4 finite-SOURCE ledger."
+}
