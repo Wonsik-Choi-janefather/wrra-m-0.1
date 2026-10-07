@@ -30,6 +30,16 @@ The intended chain is:
 
 The Common Carrier is therefore the object that must ultimately carry the topology. A quotient written only at the level of labels, without a carrier on which transport and residue are defined, would be incomplete.
 
+## Full Book and Public Record
+
+- **English GitBook:** https://independent-research.gitbook.io/minimal-computing-cosmology-3.0/
+- **Korean GitBook:** https://independent-research.gitbook.io/minimal-computing-cosmology-3.0/korean-edition/
+- **Full bilingual book source (v0.4):** https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/tree/main/mcc_3_0/book_v0_4
+- **MCC 3.0 DOI:** https://doi.org/10.5281/zenodo.23202732
+- **Main repository:** https://github.com/Wonsik-Choi-janefather/wrra-m-0.1
+
+This executive paper is a specialist entry point. The full argument, cumulative research genealogy, equations, falsification hierarchy, and book-length integration are available in the links above.
+
 ## Abstract
 
 MCC 3.0 begins from a structural question: can a universe be finite without terminating at a physical edge, and can such a closure leave a transport residue that later appears in gravitational bookkeeping?
