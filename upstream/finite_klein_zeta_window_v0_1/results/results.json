@@ -1,0 +1,212 @@
+{
+  "title": "WRRA_M Finite Klein-Zeta Generation Window v0.1",
+  "date": "2026-10-07",
+  "authors": [
+    "Wonsik Choi",
+    "Jeongin Choi"
+  ],
+  "evaluation_protocol": [
+    "verification input",
+    "WRRA-specific transformation",
+    "output",
+    "falsification condition"
+  ],
+  "verification_inputs": {
+    "adopted_arithmetic_targets": {
+      "phenotype": 0.05,
+      "resident_nonphenotype": 0.268,
+      "return": 0.682
+    },
+    "legacy_address_cutoff_for_regression_only": 1000000,
+    "legacy_alpha": 1.8996876950554356,
+    "legacy_threshold_h": 1.44767317035244,
+    "legacy_scalar_beta": 0.8654570124136961,
+    "harmonic_ledger": [0, 5, 29],
+    "zeta_phase_rule": {
+      "K": 8,
+      "xi": 0.1,
+      "gamma_first4": [
+        14.134725141734695,
+        21.022039638771556,
+        25.01085758014569,
+        30.424876125859512
+      ],
+      "coefficients": [0.5, 0.5, 0.5, 0.5]
+    },
+    "frozen_SI_eta_J_m3": {
+      "phenotype": 7.561582499072265e-10,
+      "resident_nonphenotype": 7.285761328795971e-10,
+      "return": 7.646102818811323e-10
+    }
+  },
+  "WRRA_transformation": {
+    "ledger_resolution_L": 500,
+    "ledger_integer_counts": [25, 134, 341],
+    "harmonic_H": 29,
+    "zeta_boundary_T": 182.212373908208,
+    "zeta_focus_count_C": 70,
+    "finite_zeta_cutoff_M": 14500,
+    "candidate_generation_window_NU": 1015000,
+    "address_map": "n = 1 + ell + L*(h + H*(z-1)); 0<=ell<L, 0<=h<H, 1<=z<=C",
+    "vacuum_address_policy": "label 1 is the inherited inactive multiplicative/vacuum reference; active addresses are 2..N_U",
+    "klein_quotient_candidate": "one cycle closes with orientation reversal, e.g. (-T,theta)~(T,-theta), with the transverse coordinate periodic",
+    "product_rule_status": "explicit WRRA construction assumption; uniqueness not established"
+  },
+  "zeta_verification": {
+    "H": 29,
+    "T_2piH": 182.212373908208,
+    "C": 70,
+    "gamma_C": 182.20707848436646,
+    "gamma_C_plus_1": 184.8744678483875,
+    "gap_to_gamma_C": 0.005295423841545244,
+    "gap_to_gamma_C_plus_1": 2.6620939401794885,
+    "finite_cutoff": 14500,
+    "finite_EM_max_abs_residual_first_C": 5.285925577375278e-13,
+    "finite_EM_abs_residual_gamma_C": 6.978489495065562e-14,
+    "boundary_scan": [
+      {"m":1,"nearest_zero_index":1,"nearest_gamma":14.134725141734695,"absolute_distance":7.851539834555108,"distance_over_local_mean_spacing":1.1400001899046555},
+      {"m":2,"nearest_zero_index":1,"nearest_gamma":14.134725141734695,"absolute_distance":1.5683545273755222,"distance_over_local_mean_spacing":0.22771640935669157},
+      {"m":3,"nearest_zero_index":2,"nearest_gamma":21.022039638771556,"absolute_distance":2.1724837172327973,"distance_over_local_mean_spacing":0.3994956349667617},
+      {"m":4,"nearest_zero_index":3,"nearest_gamma":25.01085758014569,"absolute_distance":0.12188364857265555,"distance_over_local_mean_spacing":0.025924868254388358},
+      {"m":5,"nearest_zero_index":4,"nearest_gamma":30.424876125859512,"absolute_distance":0.9910504100384188,"distance_over_local_mean_spacing":0.25013248247741426},
+      {"m":6,"nearest_zero_index":6,"nearest_gamma":37.586178158825675,"absolute_distance":0.11293368425184269,"distance_over_local_mean_spacing":0.02829121497788028},
+      {"m":7,"nearest_zero_index":8,"nearest_gamma":43.327073280915,"absolute_distance":0.6552238693421018,"distance_over_local_mean_spacing":0.18492349364328128},
+      {"m":8,"nearest_zero_index":10,"nearest_gamma":49.7738324776723,"absolute_distance":0.4916499797643894,"distance_over_local_mean_spacing":0.19803951151498184},
+      {"m":9,"nearest_zero_index":12,"nearest_gamma":56.44624769706339,"absolute_distance":0.10242006755288457,"distance_over_local_mean_spacing":0.032123106236204076},
+      {"m":10,"nearest_zero_index":14,"nearest_gamma":60.83177852460981,"absolute_distance":2.0000745471860526,"distance_over_local_mean_spacing":0.693807833287355},
+      {"m":11,"nearest_zero_index":17,"nearest_gamma":69.54640171117398,"absolute_distance":0.4313633321985435,"distance_over_local_mean_spacing":0.17298307884265157},
+      {"m":12,"nearest_zero_index":19,"nearest_gamma":75.70469069908393,"absolute_distance":0.30646701292889134,"distance_over_local_mean_spacing":0.12071137543668034},
+      {"m":13,"nearest_zero_index":22,"nearest_gamma":82.91038085408603,"absolute_distance":1.2289718607514004,"distance_over_local_mean_spacing":0.45533345873399844},
+      {"m":14,"nearest_zero_index":24,"nearest_gamma":87.42527461312523,"absolute_distance":0.5393196873889821,"distance_over_local_mean_spacing":0.2647865643367459},
+      {"m":15,"nearest_zero_index":27,"nearest_gamma":94.65134404051989,"absolute_distance":0.40356443282610144,"distance_over_local_mean_spacing":0.23888493053174775},
+      {"m":16,"nearest_zero_index":30,"nearest_gamma":101.31785100573138,"absolute_distance":0.7868860908580046,"distance_over_local_mean_spacing":0.3215491675411926},
+      {"m":17,"nearest_zero_index":33,"nearest_gamma":107.1686111842764,"absolute_distance":0.3544609622234276,"distance_over_local_mean_spacing":0.12698066208444841},
+      {"m":18,"nearest_zero_index":35,"nearest_gamma":111.87465917699264,"absolute_distance":1.2226763522399153,"distance_over_local_mean_spacing":0.7431134939476987},
+      {"m":19,"nearest_zero_index":38,"nearest_gamma":118.79078286597621,"absolute_distance":0.5897379704359196,"distance_over_local_mean_spacing":0.22931634612494667},
+      {"m":20,"nearest_zero_index":41,"nearest_gamma":124.25681855434577,"absolute_distance":1.4068875892459545,"distance_over_local_mean_spacing":0.6157253202508943},
+      {"m":21,"nearest_zero_index":44,"nearest_gamma":131.08768853093267,"absolute_distance":0.8592029198386513,"distance_over_local_mean_spacing":0.4384770014296026},
+      {"m":22,"nearest_zero_index":47,"nearest_gamma":138.11604205453344,"absolute_distance":0.11403470341744537,"distance_over_local_mean_spacing":0.04579983604075012},
+      {"m":23,"nearest_zero_index":50,"nearest_gamma":143.11184580762063,"absolute_distance":1.401416257509851,"distance_over_local_mean_spacing":0.5746718131474731},
+      {"m":24,"nearest_zero_index":54,"nearest_gamma":150.92525761224147,"absolute_distance":0.12881023993139706,"distance_over_local_mean_spacing":0.0867066461667849},
+      {"m":25,"nearest_zero_index":57,"nearest_gamma":157.59759181759406,"absolute_distance":0.517959138104402,"distance_over_local_mean_spacing":0.37847585790991606},
+      {"m":26,"nearest_zero_index":60,"nearest_gamma":163.030709687182,"absolute_distance":0.33210829948725973,"distance_over_local_mean_spacing":0.1527600164416501},
+      {"m":27,"nearest_zero_index":64,"nearest_gamma":169.9119764794117,"absolute_distance":0.26597318556287064,"distance_over_local_mean_spacing":0.12322070203225503},
+      {"m":28,"nearest_zero_index":67,"nearest_gamma":176.44143429771043,"absolute_distance":0.5122456966820153,"distance_over_local_mean_spacing":0.2827574513640759},
+      {"m":29,"nearest_zero_index":70,"nearest_gamma":182.20707848436646,"absolute_distance":0.005295423841545244,"distance_over_local_mean_spacing":0.0021361198523884607}
+    ]
+  },
+  "outputs": {
+    "legacy_regression_shares": {
+      "phenotype": 0.05000000000000089,
+      "resident_nonphenotype": 0.26799999999999863,
+      "return": 0.6820000000000007
+    },
+    "legacy_regression_downstream": {
+      "address_moments": {"phenotype":0.0500000000000009,"resident_nonphenotype":0.2789373775449565,"return":0.687748727555431},
+      "sector_energy_J": {"phenotype":3.7807912495362e-11,"resident_nonphenotype":2.0322711584728059e-10,"return":5.258597484395482e-10},
+      "sector_energy_fractions": {"phenotype":0.0493,"resident_nonphenotype":0.26500000000000007,"return":0.6857},
+      "total_energy_J_uniform_a1": 7.668947767821907e-10,
+      "total_pressure_Pa_uniform_a1": -5.258597484395482e-10,
+      "deceleration_q_uniform_a1": -0.52855,
+      "aT_m_s2": 1.1918126691055912e-10,
+      "hidden_density_over_reference": 1.0000000000000002,
+      "rotation_km_s": 207.51090512661662,
+      "direct_rotation_km_s": 161.45051053125528,
+      "lensing_arcsec": 0.5355865105583804,
+      "lensing_detail": {"alpha_patch_rad":2.5965966773641974e-06,"alpha_baryon_patch_rad":1.052265081800396e-06,"alpha_twist_patch_rad":1.5443315955638014e-06,"alpha_patch_arcsec":0.5355865105583804,"quad_abs_error_rad":2.88249109488278e-20},
+      "SI_eta_refit": false
+    },
+    "candidate_frozen_parameter_shares": {
+      "phenotype": 0.05000002538983289,
+      "resident_nonphenotype": 0.26800001828881304,
+      "return": 0.6819999563213559
+    },
+    "candidate_recalibration": {
+      "alpha": 1.8996877935161325,
+      "threshold_h": 1.4476744689338703,
+      "derived_effective_beta": 0.8654567230719301,
+      "delta_alpha": 9.84606969289814e-08,
+      "delta_h": 1.2985814303867471e-06,
+      "delta_beta_eff_vs_legacy_beta": -2.893417659910469e-07,
+      "shares": {"phenotype":0.050000000000000176,"resident_nonphenotype":0.2680000000000007,"return":0.6820000000000006}
+    },
+    "candidate_address_counts": {
+      "labels_total_including_1": 1015000,
+      "active_addresses_2_to_N": 1014999,
+      "primes": 79608,
+      "even_composites": 507499,
+      "odd_composites": 427892
+    },
+    "frozen_SI_downstream": {
+      "address_moments": {"phenotype":0.050000000000000065,"resident_nonphenotype":0.2789256109767439,"return":0.6877425398542387},
+      "sector_energy_J": {"phenotype":3.7807912495361375e-11,"resident_nonphenotype":2.0321854300651497e-10,"return":5.258550172595953e-10},
+      "sector_energy_fractions": {"phenotype":0.049300855266744756,"resident_nonphenotype":0.2649934184415007,"return":0.6857057262917546},
+      "total_energy_J_uniform_a1": 7.668814727614716e-10,
+      "total_pressure_Pa_uniform_a1": -5.258550172595953e-10,
+      "deceleration_q_uniform_a1": -0.5285585894376319,
+      "aT_m_s2": 1.1917875313971119e-10,
+      "hidden_density_over_reference": 0.9999817524888047,
+      "rotation_km_s": 207.5102418659153,
+      "direct_rotation_km_s": 161.45051053125528,
+      "lensing_arcsec": 0.5355822400088303,
+      "lensing_detail": {"alpha_patch_rad":2.59657597315572e-06,"alpha_baryon_patch_rad":1.052265081800396e-06,"alpha_twist_patch_rad":1.544310891355324e-06,"alpha_patch_arcsec":0.5355822400088303,"quad_abs_error_rad":2.8839482409493406e-20},
+      "SI_eta_refit": false
+    },
+    "downstream_change_vs_legacy": {
+      "delta_q": -8.589437631933983e-06,
+      "delta_rotation_km_s": -0.0006632607013159486,
+      "delta_lensing_arcsec": -4.270549550100533e-06,
+      "relative_q_abs": 1.6250946233911614e-05,
+      "relative_rotation_abs": 3.196269135403982e-06,
+      "relative_lensing_abs": 7.973594304397686e-06
+    },
+    "proper_time_energy_check": {
+      "minimum_energy_operator_eigenvalue_over_ucrit": 0.0495770350848508,
+      "proper_frame_rows": [
+        {"proper_frame":0,"total_energy_J":3.2007629297232393e-10,"D_load":0.3287767513123588,"R_load":0.40972291036349956,"q":-0.5097038713804999,"state_trace":0.9999999999999996,"minimum_state_eigenvalue":-4.624628130264895e-16},
+        {"proper_frame":1,"total_energy_J":3.200762929723238e-10,"D_load":0.36750715988466975,"R_load":0.39475540612415777,"q":-0.47281858478044236,"state_trace":0.9999999999999993,"minimum_state_eigenvalue":-5.987581712841392e-16},
+        {"proper_frame":2,"total_energy_J":3.2007629297232377e-10,"D_load":0.36247058375094854,"R_load":0.3967018088968651,"q":-0.4776152177369077,"state_trace":0.9999999999999991,"minimum_state_eigenvalue":-4.141739143280648e-16},
+        {"proper_frame":4,"total_energy_J":3.200762929723238e-10,"D_load":0.35711149671990344,"R_load":0.39877284715370176,"q":-0.4827189971273493,"state_trace":0.9999999999999996,"minimum_state_eigenvalue":-4.367013472053722e-16},
+        {"proper_frame":8,"total_energy_J":3.200762929723236e-10,"D_load":0.35418444940223065,"R_load":0.39990401500735906,"q":-0.4855065995096664,"state_trace":0.9999999999999991,"minimum_state_eigenvalue":-3.569626521055517e-16}
+      ],
+      "maximum_relative_energy_drift": 9.992007221626409e-16
+    }
+  },
+  "checks": {
+    "ledger_exact_common_denominator_is_500": true,
+    "harmonic_max_is_29": true,
+    "zeta_count_below_2piH_is_70": true,
+    "70th_zero_inside_71st_outside": true,
+    "finite_EM_residual_below_1e-11": true,
+    "finite_address_bijection": true,
+    "legacy_N1e6_baseline_reproduced": true,
+    "candidate_frozen_parameters_close_to_targets": true,
+    "candidate_two_parameter_recalibration_closes_targets": true,
+    "beta_eff_is_derived_not_refit": true,
+    "SI_coefficients_frozen": true,
+    "downstream_sector_energies_positive": true,
+    "energy_operator_positive": true,
+    "proper_time_energy_conserved": true,
+    "state_trace_and_positivity_roundoff": true
+  },
+  "all_checks_passed": true,
+  "assessment": {
+    "status": "PASS-C",
+    "meaning": "adopt as a finite-generation-window candidate, not as an established fundamental constant",
+    "candidate_prediction": "N_U = 1,015,000 under the stated L*H*C construction",
+    "not_claimed": [
+      "that the Cartesian product L*H*C is uniquely forced by known physics",
+      "that the Klein quotient is measured spacetime topology",
+      "that the rounded 5%/26.8%/68.2% ledger is exact in nature",
+      "that N_U is experimentally measured"
+    ]
+  },
+  "falsification_conditions": [
+    "the 70-zero count or finite-zeta numerical validation fails under independent recomputation",
+    "the adopted L, H and C cannot be represented as independent state coordinates in a consistent WRRA ledger",
+    "a competing closure rule is required by the same WRRA state variables and invalidates the L*H*C bijection",
+    "the N_U candidate fails the common arithmetic ledger after the declared minimal calibration",
+    "with frozen downstream SI coefficients the candidate produces negative energy, breaks energy conservation, or violates an inherited observable constraint",
+    "future better-validated sector inputs or harmonic structure remove the 500, 29 or 70 construction without a consistent model update"
+  ]
+}
