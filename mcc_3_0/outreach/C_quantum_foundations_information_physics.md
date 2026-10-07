@@ -32,6 +32,16 @@ The execution chain is:
 
 This prevents MCC 3.0 from being read as a direct jump from arithmetic labels to physical outputs. Information, residue, and resource ownership are defined on the carrier state before a phenotype is rendered.
 
+## Full Book and Public Record
+
+- **English GitBook:** https://independent-research.gitbook.io/minimal-computing-cosmology-3.0/
+- **Korean GitBook:** https://independent-research.gitbook.io/minimal-computing-cosmology-3.0/korean-edition/
+- **Full bilingual book source (v0.4):** https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/tree/main/mcc_3_0/book_v0_4
+- **MCC 3.0 DOI:** https://doi.org/10.5281/zenodo.23202732
+- **Main repository:** https://github.com/Wonsik-Choi-janefather/wrra-m-0.1
+
+This executive paper is a specialist entry point. The full argument, cumulative research genealogy, equations, falsification hierarchy, and book-length integration are available in the links above.
+
 ## Abstract
 
 Minimal Computing Cosmology 3.0 asks whether physical reality can be modeled as an execution over finite states rather than as a completed infinite catalogue.
