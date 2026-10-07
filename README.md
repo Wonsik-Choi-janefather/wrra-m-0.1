@@ -1,3 +1,11 @@
+## Minimal Computing Cosmology 3.0 — Cumulative Book v0.4
+
+최소계산우주론 3.0 누적 통합 책 원고 v0.4의 한글·영문본을 공개했습니다.
+
+- [Book v0.4 — Korean / English](mcc_3_0/book_v0_4/README.md)
+- [GitBook Korean source](gitbook/korean-edition/README.md)
+- DOI [10.5281/zenodo.23202732](https://doi.org/10.5281/zenodo.23202732)
+
 # WRRA-M Research Notes
 
 ## 고에너지-표현형 연결 확장 1.0 · 0.1-0.12 통합 검토본 / High-Energy-to-Phenotype Extension 1.0
