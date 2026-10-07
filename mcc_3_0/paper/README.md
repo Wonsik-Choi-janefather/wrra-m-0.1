@@ -11,3 +11,8 @@ Final integrated manuscript built from the frozen MCC 2.3.2 corpus, WRRA_M 1.0 r
 The manuscript opens from the conceptual lineage of Finite but Boundaryless, which explicitly records KOO JEONG A: OUSSSMOS at Leeum Museum of Art as the conceptual trigger for the accumulated-twist intuition, while keeping the exhibition separate from scientific evidence.
 
 Status: six-stage computational integration PASS; integrated scientific model PASS-C.
+
+
+## Zenodo
+
+- DOI: https://doi.org/10.5281/zenodo.23202732
