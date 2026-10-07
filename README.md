@@ -3,6 +3,8 @@
 최소계산우주론 3.0 누적 통합 책 원고 v0.4의 한글·영문본을 공개했습니다.
 
 - [Book v0.4 — Korean / English](mcc_3_0/book_v0_4/README.md)
+- GitBook English: https://independent-research.gitbook.io/minimal-computing-cosmology-3.0/
+- GitBook Korean: https://independent-research.gitbook.io/minimal-computing-cosmology-3.0/korean-edition/
 - [GitBook Korean source](gitbook/korean-edition/README.md)
 - DOI [10.5281/zenodo.23202732](https://doi.org/10.5281/zenodo.23202732)
 
