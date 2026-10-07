@@ -1,0 +1,171 @@
+{
+  "project": "Minimal Computing Cosmology 3.0",
+  "stage": "3_particle_component_replay",
+  "date": "2026-10-07",
+  "status": "PASS-C",
+  "inputs": {
+    "stage2": {
+      "N_U": 1015000,
+      "alpha": 1.8996877935161325,
+      "threshold_h": 1.4476744689338703,
+      "derived_effective_beta": 0.8654567230719301
+    },
+    "prime_parts_source_commit": "577099f54386b1950ffe0512d72bcc9ea45dc75b",
+    "prime_parts_DOI": "10.5281/zenodo.23128482",
+    "neutron_prime_labels": [
+      5,
+      47
+    ],
+    "decoder_status": "historically fitted candidate, not derived particle identity"
+  },
+  "candidate_address_state": {
+    "active_addresses": 1014999,
+    "admitted_odd_composite_addresses": 427892,
+    "prime_addresses": 79608,
+    "even_composite_addresses": 507499,
+    "phenotype_weight": 0.05000000000000008,
+    "minimum_effect": 0,
+    "maximum_completeness_error": 0
+  },
+  "profiles": {
+    "legacy_phase": {
+      "K15_small": {
+        "neutron_fraction": 0.12946545316637073,
+        "mean_parts": 15.94935597174719,
+        "residue1_weight": 0.16818487164197776
+      },
+      "K15_large": {
+        "neutron_fraction": 0.12714477010815892,
+        "mean_parts": 11.402479090651441,
+        "residue1_weight": 0.1632277860521031
+      },
+      "K16_small": {
+        "neutron_fraction": 0.12498275605525948,
+        "mean_parts": 15.207336040731374,
+        "residue1_weight": 0.16658644181498233
+      },
+      "K16_large": {
+        "neutron_fraction": 0.11120828140073852,
+        "mean_parts": 10.553775088606756,
+        "residue1_weight": 0.15959063763061393
+      }
+    },
+    "candidate_phase": {
+      "K15_small": {
+        "neutron_fraction": 0.12947198693705966,
+        "mean_parts": 15.976371457185333,
+        "residue1_weight": 0.16818498812126373
+      },
+      "K15_large": {
+        "neutron_fraction": 0.1271594116970887,
+        "mean_parts": 11.429492470094504,
+        "residue1_weight": 0.1632278730554982
+      },
+      "K16_small": {
+        "neutron_fraction": 0.12498278121735387,
+        "mean_parts": 15.232144171134177,
+        "residue1_weight": 0.1665865574456318
+      },
+      "K16_large": {
+        "neutron_fraction": 0.11124063692335036,
+        "mean_parts": 10.578580828653003,
+        "residue1_weight": 0.15959073504319804
+      }
+    },
+    "candidate_scalar_compatibility": {
+      "K15_small": {
+        "neutron_fraction": 0.12934184194485882,
+        "mean_parts": 15.996379426313055,
+        "residue1_weight": 0.1691780216590526
+      },
+      "K15_large": {
+        "neutron_fraction": 0.12711200473667225,
+        "mean_parts": 11.453989677813249,
+        "residue1_weight": 0.16207353599185556
+      },
+      "K16_small": {
+        "neutron_fraction": 0.12483961975737333,
+        "mean_parts": 15.250103674178074,
+        "residue1_weight": 0.167569916110791
+      },
+      "K16_large": {
+        "neutron_fraction": 0.11128040094408462,
+        "mean_parts": 10.600957212041147,
+        "residue1_weight": 0.15825794994360998
+      }
+    }
+  },
+  "K15_small_large_total_variation": 0.20472100116369316,
+  "particle_candidate": {
+    "small_first": {
+      "neutron_fraction": 0.12947198693705966,
+      "proton": 0.8705280130629403,
+      "electron": 0.8705280130629403,
+      "valence_u": 1.8705280130629403,
+      "valence_d": 1.1294719869370597,
+      "u_per_d": 1.6564144606859237,
+      "net_charge": 0,
+      "p_per_n": 6.723678485649031,
+      "helium_mass_fraction_proxy": 0.2589439738741193
+    },
+    "large_first": {
+      "neutron_fraction": 0.1271594116970887,
+      "proton": 0.8728405883029113,
+      "electron": 0.8728405883029113,
+      "valence_u": 1.8728405883029113,
+      "valence_d": 1.1271594116970887,
+      "u_per_d": 1.661669813995896,
+      "net_charge": 0,
+      "p_per_n": 6.864144593418994,
+      "helium_mass_fraction_proxy": 0.2543188233941774
+    },
+    "species_decoder_unique": false,
+    "baryon_lepton_origin_derived": false
+  },
+  "charge": {
+    "channel_count": 16,
+    "all_motifs_neutral": true,
+    "neutral_bag_counts": {
+      "1": 2,
+      "2": 22,
+      "3": 96,
+      "4": 398
+    },
+    "phenotype_weight": 0.05
+  },
+  "color": {
+    "norm": 1.0000000000000002,
+    "maximum_generator_residual": 0
+  },
+  "beta_transition": {
+    "Q_MeV": 0.7823335593099138,
+    "role": "known-mass reproduction only"
+  },
+  "spin": {
+    "status": "OPEN",
+    "reason": "no WRRA spin-flavor/binding operator derived in inherited branch"
+  },
+  "energy": {
+    "status": "NOT MODIFIED",
+    "rule": "Stage 4 owns component-to-load connection; no SI refit in Stage 3"
+  },
+  "checks": {
+    "stage2_handoff_N_preserved": true,
+    "candidate_phenotype_weight_is_5_percent": true,
+    "candidate_address_count": true,
+    "all_prime_assembly_cases_conserve_integer_addresses": true,
+    "all_component_number_shares_normalized": true,
+    "K15_small_finite_source_shift_small": true,
+    "K15_large_finite_source_shift_small": true,
+    "K16_small_remains_near_one_eighth": true,
+    "order_sensitivity_remains_nonzero": true,
+    "charge_motifs_neutral": true,
+    "color_singlet_normalized": true,
+    "color_generators_annihilate_singlet": true,
+    "candidate_pne_charge_neutral": true,
+    "beta_Q_positive_from_supplied_masses": true,
+    "spin_claim_remains_open": true,
+    "no_SI_energy_refit_in_stage3": true
+  },
+  "all_checks_passed": true
+}
