@@ -587,3 +587,13 @@ The 0.5 titles and claim ledger now foreground information load and twist gravit
 
 [0.6 start, Korean](calculations/wrra_m_0_6_start/README_KO.md) · [0.6 start, English](calculations/wrra_m_0_6_start/README_EN.md) · [Start reproducibility archive](calculations/wrra_m_0_6_start/WRRA_M_0_6_Start_Reproducibility.zip). These files preserve the initial prototype. The completed finite homogeneous model and bilingual paper are provided above.
 
+
+
+## 2026-10-07 — finite SOURCE closure candidate (KZF v0.1)
+
+A new upstream finite-generation-window candidate is available at `upstream/finite_source_kzf_v0_1/`.
+
+- Candidate: `N_U = 500 × 29 × 70 = 1,015,000`
+- Status: **PASS-C** — admissible candidate, not yet a uniquely derived fundamental constant
+- Reproducibility: `verify_kzf.py` + `results.json`
+- Papers: Korean and English Markdown versions are included in the same folder.
