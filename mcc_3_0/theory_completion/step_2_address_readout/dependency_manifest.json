@@ -1,0 +1,15 @@
+{
+  "step1_commit": "408602d166b3ec6635aff24803ef578580386112",
+  "files": {
+    "capacity_transport.py": "74181079f6272f3d6a946d6cbcd1e782198f111efaf5ff35d2613f90f8be226a",
+    "original/compute.py": "7e23a5eb28032bf7fa87864f9fc02d683eb22300c62255e7f0239e0d01e6a7a7",
+    "original/m10_compute.py": "ff709af2510d215ee5d96d0fccfac87e9ed8c09da0bff6c713ffa30b500bcb96",
+    "original/m10_parameters.json": "0dc068c286f9c2413292156a94b56fa649631c52a53faa73caec5639eb8f658e",
+    "original/m10_results.json": "a506f1247465188f61f6eeb43506662d41f44dfb86319eaf219c4249efb4a95b",
+    "original/parameters.json": "e02e864aeaa9c54fccb260de0a866b2001bbd51f8b5a1831efb2f0806cd5164a",
+    "original/run_stage5.py": "5e073eafe4379230f7a026b6b012162ae11260d548419c179f0fe3338fbbd3e0",
+    "original/stage2_handoff.json": "39cb62b0524c3621298291534ea1ffe9c5e38b3b086478edd05547081a2a8637",
+    "source_contract.json": "965e9a78388f5a380ee15eef5b7138d2e5ea50bd79932a99d184e2b11c45ad9d",
+    "source_manifest.json": "6f9ac78fdbc74093fd138919c006ec0f12d03b3c5ebcc3e98b0a91468e75696a"
+  }
+}

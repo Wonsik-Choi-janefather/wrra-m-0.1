@@ -1,0 +1,388 @@
+{
+  "model_version": "WRRA-M 0.9",
+  "interface_version": "wrra.upstream-ledger/1",
+  "upstream": {
+    "address_cutoff_N": 1000000,
+    "state": {
+      "kind": "normalized_power_law",
+      "alpha": 1.8996876950554356
+    },
+    "spectrum": {
+      "kind": "adopted_zeta_zero_heights",
+      "J_zero": 4,
+      "gamma": [
+        14.134725141734695,
+        21.022039638771556,
+        25.01085758014569,
+        30.424876125859512
+      ],
+      "coefficients": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "phase_offsets": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "update": {
+      "admission_frames_K": 8,
+      "phase_step_xi": 0.1,
+      "sigmoid_threshold_h": 1.44767317035244,
+      "frame_unit": "dimensionless_order",
+      "post_recovery": "identity_on_resident_folds"
+    },
+    "scalar_comparison": {
+      "odd_composite_admission_beta": 0.8654570124136961
+    },
+    "targets": {
+      "phenotype": 0.05,
+      "resident_nonphenotype": 0.268,
+      "return": 0.682
+    },
+    "sample_addresses": [
+      9,
+      15,
+      21,
+      25,
+      27,
+      33,
+      35,
+      49,
+      77,
+      91,
+      119,
+      121,
+      133,
+      143,
+      161
+    ]
+  },
+  "channel_coupling": {
+    "rule": "normalized_conditional_origin_kernel_then_selected_permutation",
+    "default_origin_weights": [
+      0.0625,
+      0.0625,
+      0.0625,
+      0.0625,
+      0.0625,
+      0.0625,
+      0.0625,
+      0.0625,
+      0.0625,
+      0.0625,
+      0.0625,
+      0.0625,
+      0.0625,
+      0.0625,
+      0.0625,
+      0.0625
+    ],
+    "odd_smallest_prime_overrides": {},
+    "family_weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "ownership": "Conditional address-to-origin routing is a constitutive input. Shared reference kernel does not derive specific particle identities from primes."
+  },
+  "baseline_0_8": {
+    "model_version": "WRRA-M 0.8",
+    "ledger_0_7": {
+      "model_version": "WRRA-M 0.7",
+      "measure": "energy_weighted_information_load",
+      "reference_volume_m3": 1.0,
+      "carrier_and_background": {
+        "lattice_N": 128,
+        "a_min": 0.5,
+        "a_max": 2.0,
+        "output_grid_points": 401,
+        "information_clock_over_H0": 0.7,
+        "clustering_energy_exponent": 0.0,
+        "background_energy_exponent": 3.0,
+        "noncommuting_test_strength": 8.0,
+        "noncommuting_test_initial_modes": [
+          8,
+          16,
+          24
+        ],
+        "noncommuting_test_initial_weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "test_radius_kpc": 8.2,
+        "lens_impact_kpc": 10.0,
+        "rtol": 1e-11,
+        "atol": 1e-13,
+        "max_log_a_step": 0.01,
+        "scope": "Finite homogeneous constitutive completion, with inherited conditional local renderer",
+        "ownership": "Energy-volume exponents, operators and information clock are declared constitutive choices"
+      },
+      "calibration_and_local_source": {
+        "c_m_s": 299792458.0,
+        "G_SI": 6.6743e-11,
+        "H0_km_s_Mpc": 67.4,
+        "fraction_phenotype": 0.0493,
+        "fraction_twist_clustering": 0.265,
+        "M_sun_kg": 1.98847e+30,
+        "parsec_m": 3.085677581491367e+16,
+        "electron_mass_energy_eV": 510998.95069,
+        "sphere_mass_Msun": 60000000000.0,
+        "sphere_scale_kpc": 3.0,
+        "patch_radius_kpc": 200.0,
+        "report_radii_kpc": [
+          1,
+          3,
+          8.2,
+          20,
+          50,
+          100
+        ],
+        "lens_impact_kpc": [
+          5,
+          10,
+          20,
+          50
+        ],
+        "internal_lattice_N": 128,
+        "carrier_probe_frequency_squared": [
+          0.1,
+          0.5,
+          1.0,
+          2.0,
+          3.5
+        ],
+        "carrier_damping": 0.2,
+        "disk_components_mass_1e9Msun_scale_kpc": [
+          [
+            35.66,
+            2.53
+          ],
+          [
+            11.25,
+            3.38
+          ],
+          [
+            11.0,
+            7.0
+          ],
+          [
+            1.2,
+            1.5
+          ]
+        ],
+        "bulge_mass_1e9Msun_scale_kpc": [
+          9.13,
+          0.7
+        ],
+        "response_nu": "1 / (1 - exp(-sqrt(y)))",
+        "response_provenance": "Calibrated constitutive input adopted in WRRA Galactic Disk paper v1.0 2026-09-27",
+        "gravity_ontology": "B_C continuous geometric branch; no independent gravitational Hilbert space",
+        "lensing_condition": "Phi = Psi assumed in the finite weak-field patch",
+        "fraction_note": "Editable late-universe energy-weighted calibration; not counts of bits or particle channels"
+      },
+      "physical_records": [],
+      "measurement_events": [],
+      "definition_policy": {
+        "Actual": "complete current modeled state and its total weighted load",
+        "quantization": "future actual operation producing discrete phenotype and physical record; not yet executed",
+        "phenotype": "currently expressed sector budget, adopted from inherited calibrated branch",
+        "residue": "retained unexpressed state content; no extra independent sector",
+        "record": "future physical outcome record; distinct from software provenance"
+      },
+      "fraction_provenance": "Inherited rounded late-universe reference: 0.0493 phenotype and 0.265 clustering; remaining background is calculated. Information-to-energy identification is a WRRA constitutive choice."
+    },
+    "filter_calibration": {
+      "central_response_shift": 1.0,
+      "charge_contrast_to_response": 0.25,
+      "left_charge_anchors": {
+        "neutral_lepton": "0",
+        "charged_lepton": "-1"
+      },
+      "right_hypercharge_anchors": {
+        "neutral_singlet": "0",
+        "invariant_singlet": "1"
+      },
+      "response_tags": {
+        "3_A": 1,
+        "3_B": -1,
+        "1_A": 1,
+        "1_B": -1,
+        "anti3_A": -1,
+        "anti3_B": 1,
+        "1_N": -1,
+        "1_0": 1
+      },
+      "tag_provenance": "Calibrated origin-to-weak-component orientation preserving the 0.2 known-particle branch; signs are inputs, not a microscopic discovery.",
+      "left_lepton_B_minus_L": "-1",
+      "right_lepton_B_minus_L": "1",
+      "selection_rate": 1.0,
+      "initial_filter_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "gap_tolerance": 1e-12,
+      "selection_residual_target": 1e-08,
+      "channel_state_weights": [
+        0.0625,
+        0.0625,
+        0.0625,
+        0.0625,
+        0.0625,
+        0.0625,
+        0.0625,
+        0.0625,
+        0.0625,
+        0.0625,
+        0.0625,
+        0.0625,
+        0.0625,
+        0.0625,
+        0.0625,
+        0.0625
+      ],
+      "neutral_channel_status": "Transported gauge-neutral extension interpreted as nu_R^c; its particle existence, mass and occupation are not measured by this release.",
+      "response_shift_scope": "Dimensionless lower-order readout calibration. Not a rest-mass value or an extra SI energy sector."
+    },
+    "benchmark": {
+      "selected_filter": "F_DX",
+      "fields": {
+        "Q_L": {
+          "multiplicity": 6,
+          "Y": "1/6",
+          "Q": [
+            "2/3",
+            "-1/3"
+          ]
+        },
+        "L_L": {
+          "multiplicity": 2,
+          "Y": "-1/2",
+          "Q": [
+            "0",
+            "-1"
+          ]
+        },
+        "u_c": {
+          "multiplicity": 3,
+          "Y": "-2/3",
+          "Q": [
+            "-2/3"
+          ]
+        },
+        "d_c": {
+          "multiplicity": 3,
+          "Y": "1/3",
+          "Q": [
+            "1/3"
+          ]
+        },
+        "nu_c": {
+          "multiplicity": 1,
+          "Y": "0",
+          "Q": [
+            "0"
+          ]
+        },
+        "e_c": {
+          "multiplicity": 1,
+          "Y": "1",
+          "Q": [
+            "1"
+          ]
+        }
+      }
+    },
+    "physical_baseline": {
+      "MCC_version": "2.3.2",
+      "WRRA_Core_version": "1.0",
+      "MCC_source_commit": "21daec110c0cbecb228c445d587eac8302e7f767",
+      "PDG_reference": "https://pdg.lbl.gov/2025/reviews/rpp2025-rev-guts.pdf",
+      "PDG_charge_convention": "PDG Q=T3+Y_PDG/2; this release uses Y=Y_PDG/2 and Q=T3+Y."
+    },
+    "scope": "Calibrated selection within the fixed four-filter family; three-generation charge inventory with conditional neutral extensions; no mass/mixing derivation or physical quantization event.",
+    "family_replication": {
+      "family_count": 3,
+      "family_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "provenance": "Three observed Standard-Model generations adopted as calibration; replication count is not derived here.",
+      "labels": [
+        {
+          "Q_L": [
+            "u_L",
+            "d_L"
+          ],
+          "L_L": [
+            "nu_e_L",
+            "e_L"
+          ],
+          "u_c": "u_c",
+          "d_c": "d_c",
+          "nu_c": "N1_c",
+          "e_c": "e_c"
+        },
+        {
+          "Q_L": [
+            "c_L",
+            "s_L"
+          ],
+          "L_L": [
+            "nu_mu_L",
+            "mu_L"
+          ],
+          "u_c": "c_c",
+          "d_c": "s_c",
+          "nu_c": "N2_c",
+          "e_c": "mu_c"
+        },
+        {
+          "Q_L": [
+            "t_L",
+            "b_L"
+          ],
+          "L_L": [
+            "nu_tau_L",
+            "tau_L"
+          ],
+          "u_c": "t_c",
+          "d_c": "b_c",
+          "nu_c": "N3_c",
+          "e_c": "tau_c"
+        }
+      ]
+    }
+  },
+  "physical_bridge": {
+    "status": "pending_0.10",
+    "branch_correspondence": {
+      "phenotype": "expressed",
+      "resident_nonphenotype": "clustering_nonphenotype",
+      "return": "background_response"
+    },
+    "energy_map": null,
+    "pressure_map": null,
+    "ownership": "Structural correspondence only; arithmetic shares do not define SI energy or pressure."
+  },
+  "physical_records": [],
+  "measurement_events": [],
+  "provenance": {
+    "source_commit": "9ca21c547e5238be34ceace5a1015db50cb824ff",
+    "source_files_sha256": {
+      "references/upper_frames/compute.py": "56b75fa9e006334e55a0abb0a7d6fc3f2bc95bea0a3a411a89448164210e0a37",
+      "references/upper_frames/results.json": "ae6be361bc90e6fb8483707f83cfb3d941b2738598ba3c647c6a85eae935688a",
+      "references/upper_scalar/compute.py": "cbf65d390fe07522dab4a8867e5ee6f06e4ede69018b1c2e7f197702f8029b8b",
+      "references/upper_scalar/partition_26_8.py": "4a90b2b7a7a96fdf217972dd46b1ec2171f69e6a4da705f1473c547c0e1642dc",
+      "references/upper_scalar/results_26_8.json": "8c4a76941241cb20851587c4e062d914b9be28024ad74dd1102bc4f0352f5a5d"
+    }
+  }
+}

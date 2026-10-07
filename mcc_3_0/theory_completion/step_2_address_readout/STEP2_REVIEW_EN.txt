@@ -1,0 +1,25 @@
+WRRA 3.0 theory improvement — Step 2 scope closure
+
+Verified inputs: frozen SOURCE, calibration, phase readout, load/SI operators,
+channel placement and published microscopic computed inputs.
+WRRA transformation: factor composition -> costs/phases -> filter -> shared
+address/channel/internal preparation ledger -> inherited load carrier -> finite
+record, energy and pressure accounting.
+Outputs: reference reproduction, transported-coordinate invariance, conservation,
+separated calibration roles, retained covariance and channel-common load closure.
+Falsification: changed output under identical transported structure, ledger/filter
+mismatch, erased covariance, lost channel directions, duplicate energy,
+negative supply or inconsistent pressure. All52 specified computational checks pass.
+These are contract checks, not52 independent observational validations.
+
+The defined scope of Step2 is complete: structural arithmetic readout and its
+existing accounting connections have been formulated and executed. This does
+not declare the entire3.0 theory complete. Constitutive choices remain explicit;
+origin derivation and independent novelty are not additional closure conditions.
+Known-value calibration and reproduction retain their explanatory standing.
+The microscopic gap remains a pinned computed input rather than a full replay
+of the original Hamiltonian. Channel-common loads are verified; all species
+and channel-specific interactions are not claimed integrated. Separate
+assembly-order component research remains separate.
+Earlier v0.1-v0.3 incomplete statuses describe those historical milestones.
+Replay all four root scripts in order as listed in README.txt.

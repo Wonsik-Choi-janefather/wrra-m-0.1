@@ -71,3 +71,10 @@ Final claim status: see `FINAL_CLAIM_LEDGER.md` and `RELEASE_MANIFEST.json`. The
 - [SOURCE capacity: Korean and English reports, replay code and verification data](theory_completion/step_1_source_capacity/README.md)
 - Reviewed on 8 October 2026. Conditional finite-SOURCE construction and capacity transport pass in the declared uniform/conditional local branch; the three probes use frozen filter and SI coefficients.
 - This follow-up uses its own step numbering and does not rename the historical six integration stages.
+
+
+## Theory improvement — Step 2 / 이론 보완 2단계
+
+[Reviewed Step 2 package](theory_completion/step_2_address_readout/README.txt) · [한국어 검토](theory_completion/step_2_address_readout/STEP2_REVIEW_KO.txt) · [English review](theory_completion/step_2_address_readout/STEP2_REVIEW_EN.txt)
+
+Structural arithmetic readout and its existing ledger connections: 52 computational contract checks. Scoped Stage-2 completion does not assert full theory completion.
