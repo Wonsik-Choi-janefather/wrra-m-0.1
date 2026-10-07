@@ -1,0 +1,113 @@
+{
+  "project": "Minimal Computing Cosmology 3.0",
+  "stage": "5_macro_universe_replay",
+  "date": "2026-10-07",
+  "status": "PASS",
+  "inputs": {
+    "N_U": 1015000,
+    "refit": false,
+    "ucrit_J_m3": 7.668947767821907e-10,
+    "H0_km_s_Mpc": 67.4
+  },
+  "uniform_macro_replay": [
+    {
+      "scale_factor": 0.5,
+      "total_density_J_m3": 2.4540666612746063e-9,
+      "total_pressure_Pa": -5.258550172595953e-10,
+      "H_over_H0": 1.7888556122867603,
+      "H_km_s_Mpc": 120.56886826812766,
+      "deceleration_q": 0.178581458956901,
+      "aT_m_s2": 3.3708841807378924e-10,
+      "rotation_km_s": 247.74822017931666,
+      "direct_baryonic_rotation_km_s": 161.45051053125528,
+      "lensing_arcsec": 0.8146640474241865,
+      "legacy": {
+        "density": 2.454139975180689e-9,
+        "H_over_H0": 1.788882332631188,
+        "q": 0.17858816911971506,
+        "aT": 3.37095528091441e-10,
+        "rotation": 247.7491985746642,
+        "lensing": 0.8146713544148407
+      },
+      "relative_abs_delta": {
+        "density": 0.00002987356337617006,
+        "H_over_H0": 0.000014936893243527317,
+        "q": 0.00003757338936356301,
+        "rotation": 0.000003949136276418621,
+        "lensing": 0.000008969249519591212
+      }
+    },
+    {
+      "scale_factor": 1,
+      "total_density_J_m3": 7.668814727614716e-10,
+      "total_pressure_Pa": -5.258550172595953e-10,
+      "H_over_H0": 0.9999913260079338,
+      "H_km_s_Mpc": 67.39941537293474,
+      "deceleration_q": -0.5285585894376319,
+      "aT_m_s2": 1.1917875313971119e-10,
+      "rotation_km_s": 207.5102418659153,
+      "direct_baryonic_rotation_km_s": 161.45051053125528,
+      "lensing_arcsec": 0.5355822400088303,
+      "legacy": {
+        "density": 7.668947767821907e-10,
+        "H_over_H0": 1,
+        "q": -0.52855,
+        "aT": 1.1918126691055912e-10,
+        "rotation": 207.51090512661662,
+        "lensing": 0.5355865105583804
+      },
+      "relative_abs_delta": {
+        "density": 0.000017347908894249697,
+        "H_over_H0": 0.000008673992066166036,
+        "q": 0.000016250946233911614,
+        "rotation": 0.000003196269135403982,
+        "lensing": 0.000007973594304397686
+      }
+    },
+    {
+      "scale_factor": 2,
+      "total_density_J_m3": 5.559833241973299e-10,
+      "total_pressure_Pa": -5.258550172595953e-10,
+      "H_over_H0": 0.8514575347022681,
+      "H_km_s_Mpc": 57.38823783893288,
+      "deceleration_q": -0.9187161584893827,
+      "aT_m_s2": 4.2136052259223655e-11,
+      "rotation_km_s": 181.5744855460613,
+      "direct_baryonic_rotation_km_s": 161.45051053125528,
+      "lensing_arcsec": 0.3743154242368779,
+      "legacy": {
+        "density": 5.559891269823785e-10,
+        "H_over_H0": 0.8514619780119369,
+        "q": -0.9187141157606166,
+        "aT": 4.2136941011430125e-11,
+        "rotation": 181.57488201649517,
+        "lensing": 0.37431784552387837
+      },
+      "relative_abs_delta": {
+        "density": 0.000010436867857750211,
+        "H_over_H0": 0.000005218447544927757,
+        "q": 0.0000022234650922362497,
+        "rotation": 0.00000218350924672331,
+        "lensing": 0.000006468532102884134
+      }
+    }
+  ],
+  "acceleration_transition_scale_factor": 0.6119598067968817,
+  "checks": {
+    "stage4_energy_handoff_preserved": true,
+    "all_macro_densities_positive": true,
+    "return_pressure_from_same_energy": true,
+    "H_diagnostic_finite": true,
+    "early_branch_decelerating": true,
+    "present_and_late_branch_accelerating": true,
+    "transition_between_half_and_one": true,
+    "same_aT_drives_rotation_and_lensing": true,
+    "direct_baryonic_reference_frozen": true,
+    "no_SI_or_local_refit": true,
+    "present_rotation_close_to_legacy": true,
+    "present_lensing_close_to_legacy": true,
+    "all_three_density_changes_below_5e_5": true,
+    "stage4_internal_views_not_added": true
+  },
+  "all_checks_passed": true
+}
