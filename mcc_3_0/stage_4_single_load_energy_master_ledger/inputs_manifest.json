@@ -1,0 +1,42 @@
+{
+  "project": "Minimal Computing Cosmology 3.0",
+  "stage": "4_single_load_energy_master_ledger",
+  "date": "2026-10-07",
+  "inputs": [
+    {
+      "source": "Stage 3 handoff",
+      "path": "mcc_3_0/stage_3_particle_component_replay/STAGE4_HANDOFF.json",
+      "role": "finite component/phenotype state"
+    },
+    {
+      "source": "Stage 2 handoff",
+      "path": "mcc_3_0/stage_2_finite_source_insertion/STAGE3_HANDOFF.json",
+      "role": "canonical N_U alpha h beta_eff"
+    },
+    {
+      "source": "WRRA_M 0.10 parameters",
+      "path": "calculations/wrra_m_0_10/parameters.json",
+      "role": "address-response lambdas and volume exponents"
+    },
+    {
+      "source": "WRRA_M 0.10 frozen results",
+      "path": "calculations/wrra_m_0_10/results/results.json",
+      "role": "frozen eta coefficients and legacy SI reference"
+    },
+    {
+      "source": "WRRA_M 0.9 channel inventory",
+      "path": "calculations/wrra_m_0_9/results/results.json",
+      "role": "48 field/channel labels and routing weights"
+    }
+  ],
+  "calibration_policy": {
+    "alpha_h": "inherited from Stage 2",
+    "eta_phi_D_R": "frozen from WRRA_M 0.10; no Stage-4 refit",
+    "component_energy_rule": "existing phenotype eta applied only as a nested normalized suballocation"
+  },
+  "prohibited": [
+    "adding multiple phenotype views together",
+    "converting prime labels to measured rest masses",
+    "closing spin/binding/species ambiguity"
+  ]
+}
