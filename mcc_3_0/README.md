@@ -1,6 +1,6 @@
 # Minimal Computing Cosmology 3.0
 
-**Development status:** Stage 4 complete / 6 planned stages.
+**Development status:** Stage 5 complete / 6 planned stages.
 
 MCC 3.0 integrates the frozen Minimal Computing Cosmology 2.3.2 corpus, the WRRA_M 1.0 executable physical model, and the finite Klein–Zeta SOURCE candidate into one end-to-end finite calculation.
 
@@ -23,7 +23,7 @@ finite generator
 2. **Finite SOURCE insertion — COMPLETE**
 3. **Particle/component replay — COMPLETE (PASS-C)**
 4. **Single load/energy Master Ledger — COMPLETE**
-5. Macro-universe replay
+5. **Macro-universe replay — COMPLETE**
 6. End-to-end closure and MCC 3.0 release
 
 See `stage_1_baseline_freeze/` for the frozen provenance ledger and Stage-2 contract.
@@ -41,3 +41,5 @@ Every stage publishes machine-readable verification evidence under the repositor
 Stage 3: `stage_3_particle_component_replay/` — finite-SOURCE component, charge and color replay; spin/binding and unique species decoding remain OPEN.
 
 Stage 4: `stage_4_single_load_energy_master_ledger/` — finite component/field views are nested inside the existing phenotype energy budget; the cosmic additive ledger remains phenotype + resident nonphenotype + return only.
+
+Stage 5: `stage_5_macro_universe_replay/` — finite-SOURCE energy/pressure is propagated through the frozen homogeneous expansion and the same local gravity renderer for rotation and conditional lensing, with full verification deltas against the legacy branch.
