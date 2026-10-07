@@ -30,6 +30,16 @@ For this number-theory view, the role of the finite generator is therefore:
 
 This distinction matters. The integers are not themselves particles, fields, or observables. They are finite execution addresses carried by a common substrate before any physical phenotype is rendered.
 
+## Full Book and Public Record
+
+- **English GitBook:** https://independent-research.gitbook.io/minimal-computing-cosmology-3.0/
+- **Korean GitBook:** https://independent-research.gitbook.io/minimal-computing-cosmology-3.0/korean-edition/
+- **Full bilingual book source (v0.4):** https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/tree/main/mcc_3_0/book_v0_4
+- **MCC 3.0 DOI:** https://doi.org/10.5281/zenodo.23202732
+- **Main repository:** https://github.com/Wonsik-Choi-janefather/wrra-m-0.1
+
+This executive paper is a specialist entry point. The full argument, cumulative research genealogy, equations, falsification hierarchy, and book-length integration are available in the links above.
+
 ## Abstract
 
 The historical WRRA_M implementation used the finite address range:
