@@ -3,6 +3,7 @@
 Final integrated manuscript built from the frozen MCC 2.3.2 corpus, WRRA_M 1.0 r1, the finite Klein–Zeta source candidate, and the completed six-stage MCC 3.0 integration.
 
 - 한국어 통합원고: MCC_3_0_Integrated_Model_KO.md
+- English integrated manuscript: MCC_3_0_Integrated_Model_EN.md
 - Final claim ledger: ../FINAL_CLAIM_LEDGER.md
 - Release manifest: ../RELEASE_MANIFEST.json
 - Single replay entry point: ../reproduce_mcc_3_0.py
