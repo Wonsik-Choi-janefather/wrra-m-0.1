@@ -49,6 +49,12 @@ Stage 6: `stage_6_end_to_end_closure/` — cross-stage audit, final verification
 Final claim status: see `FINAL_CLAIM_LEDGER.md` and `RELEASE_MANIFEST.json`. The six-stage integration is complete; the finite-SOURCE product law and selected microscopic particle claims remain conditional/open.
 
 
+## Cumulative integrated book v0.4
+
+- [Bilingual book edition (Korean / English)](book_v0_4/README.md)
+- GitBook English: https://independent-research.gitbook.io/minimal-computing-cosmology-3.0/
+- GitBook Korean: https://independent-research.gitbook.io/minimal-computing-cosmology-3.0/korean-edition/
+
 ## Public dataset and release documents
 
 - Dataset index: `dataset/README.md`
