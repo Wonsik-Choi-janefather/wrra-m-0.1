@@ -1,0 +1,32 @@
+{
+  "project": "Minimal Computing Cosmology 3.0",
+  "from_stage": 4,
+  "to_stage": 5,
+  "status": "READY",
+  "source_state": {
+    "N_U": 1015000,
+    "sector_address_moments": {
+      "phenotype": 0.050000000000000065,
+      "resident_nonphenotype": 0.2789256109767439,
+      "return": 0.6877425398542387
+    },
+    "sector_energy_J": {
+      "phenotype": 3.7807912495361375e-11,
+      "resident_nonphenotype": 2.0321854300651497e-10,
+      "return": 5.258550172595953e-10
+    },
+    "total_energy_J": 7.668814727614716e-10,
+    "total_pressure_Pa": -5.258550172595953e-10,
+    "diagnostic_q": -0.5285585894376319,
+    "eta_refit": false,
+    "phenotype_internal_views_nonadditive": true,
+    "spin_binding_status": "OPEN"
+  },
+  "next_scope": [
+    "replay homogeneous expansion with the finite-SOURCE energy/pressure ledger",
+    "replay local gravity and twist response",
+    "replay reference rotation and conditional finite-patch lensing",
+    "compare every macro output with the frozen legacy reference using unchanged SI coefficients",
+    "publish full verification data and sensitivity deltas"
+  ]
+}
