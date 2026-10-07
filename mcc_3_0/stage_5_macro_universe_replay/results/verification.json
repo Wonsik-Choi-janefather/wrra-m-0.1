@@ -1,0 +1,110 @@
+{
+  "project": "Minimal Computing Cosmology 3.0",
+  "stage": "5_macro_universe_replay",
+  "date": "2026-10-07",
+  "verdict": "PASS",
+  "checks": [
+    {
+      "id": "S5-01",
+      "check": "stage4_energy_handoff_preserved",
+      "passed": true
+    },
+    {
+      "id": "S5-02",
+      "check": "all_macro_densities_positive",
+      "passed": true
+    },
+    {
+      "id": "S5-03",
+      "check": "return_pressure_from_same_energy",
+      "passed": true
+    },
+    {
+      "id": "S5-04",
+      "check": "H_diagnostic_finite",
+      "passed": true
+    },
+    {
+      "id": "S5-05",
+      "check": "early_branch_decelerating",
+      "passed": true
+    },
+    {
+      "id": "S5-06",
+      "check": "present_and_late_branch_accelerating",
+      "passed": true
+    },
+    {
+      "id": "S5-07",
+      "check": "transition_between_half_and_one",
+      "passed": true
+    },
+    {
+      "id": "S5-08",
+      "check": "same_aT_drives_rotation_and_lensing",
+      "passed": true
+    },
+    {
+      "id": "S5-09",
+      "check": "direct_baryonic_reference_frozen",
+      "passed": true
+    },
+    {
+      "id": "S5-10",
+      "check": "no_SI_or_local_refit",
+      "passed": true
+    },
+    {
+      "id": "S5-11",
+      "check": "present_rotation_close_to_legacy",
+      "passed": true
+    },
+    {
+      "id": "S5-12",
+      "check": "present_lensing_close_to_legacy",
+      "passed": true
+    },
+    {
+      "id": "S5-13",
+      "check": "all_three_density_changes_below_5e_5",
+      "passed": true
+    },
+    {
+      "id": "S5-14",
+      "check": "stage4_internal_views_not_added",
+      "passed": true
+    }
+  ],
+  "key_evidence": {
+    "a_transition": 0.6119598067968817,
+    "present": {
+      "scale_factor": 1,
+      "total_density_J_m3": 7.668814727614716e-10,
+      "total_pressure_Pa": -5.258550172595953e-10,
+      "H_over_H0": 0.9999913260079338,
+      "H_km_s_Mpc": 67.39941537293474,
+      "deceleration_q": -0.5285585894376319,
+      "aT_m_s2": 1.1917875313971119e-10,
+      "rotation_km_s": 207.5102418659153,
+      "direct_baryonic_rotation_km_s": 161.45051053125528,
+      "lensing_arcsec": 0.5355822400088303,
+      "legacy": {
+        "density": 7.668947767821907e-10,
+        "H_over_H0": 1,
+        "q": -0.52855,
+        "aT": 1.1918126691055912e-10,
+        "rotation": 207.51090512661662,
+        "lensing": 0.5355865105583804
+      },
+      "relative_abs_delta": {
+        "density": 0.000017347908894249697,
+        "H_over_H0": 0.000008673992066166036,
+        "q": 0.000016250946233911614,
+        "rotation": 0.000003196269135403982,
+        "lensing": 0.000007973594304397686
+      }
+    },
+    "refit": false
+  },
+  "all_checks_passed": true
+}
