@@ -46,6 +46,16 @@ The full paper should be read when evaluating the origin of the finite SOURCE, t
 
 ---
 
+## Common Carrier in the MCC 3.0 architecture
+
+The macro-physics chain does not connect the finite SOURCE directly to gravity. The generated address state is first placed on the **Common Carrier**, the shared finite substrate that carries the same state through filtering, residue formation, phenotype ownership, information load, energy, and finally gravitational and cosmological readouts.
+
+The relevant end-to-end chain is:
+
+**finite SOURCE -> Common Carrier -> filter / quantization -> residue -> component / phenotype -> information load -> SI energy and pressure -> gravity -> galaxy rotation / lensing -> cosmic expansion**
+
+The “same frozen state” claim in this paper therefore means the same carrier-owned state is propagated downstream without introducing a new independently fitted physical state at each scale.
+
 ## Abstract
 
 Minimal Computing Cosmology 3.0 (MCC 3.0) tests whether a finite upstream state generator can be propagated through one explicitly typed physical ledger to late-time cosmological and galactic observables without introducing a new fit at each scale. The model begins from a conditional finite-source construction with
