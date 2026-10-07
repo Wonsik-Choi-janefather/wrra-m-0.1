@@ -1,0 +1,100 @@
+{
+  "project": "Minimal Computing Cosmology 3.0",
+  "stage": "2_finite_source_insertion",
+  "date": "2026-10-07",
+  "status": "PASS",
+  "stage1_lock": "MCC3-S1-21daec11-43b998ca-f667bbdf",
+  "generator": {
+    "L": 500,
+    "H": 29,
+    "C": 70,
+    "N_U": 1015000,
+    "product_rule_status": "OPEN construction assumption inherited from Stage 1"
+  },
+  "legacy_regression": {
+    "N": 1000000,
+    "alpha": 1.8996876950554356,
+    "threshold_h": 1.44767317035244,
+    "beta_scalar": 0.8654570124136961,
+    "shares": {
+      "phenotype": 0.050000000000001,
+      "resident_nonphenotype": 0.267999999999999,
+      "return": 0.682000000000001
+    },
+    "counts": {
+      "active_addresses": 999999,
+      "prime": 78498,
+      "even_composite": 499999,
+      "odd_composite": 421502
+    },
+    "maximum_target_error": 9.992007221626409e-16
+  },
+  "candidate_frozen_no_refit": {
+    "N": 1015000,
+    "alpha": 1.8996876950554356,
+    "threshold_h": 1.44767317035244,
+    "beta_scalar": 0.8654570124136961,
+    "shares": {
+      "phenotype": 0.050000025389833,
+      "resident_nonphenotype": 0.268000018288813,
+      "return": 0.681999956321356
+    },
+    "counts": {
+      "active_addresses": 1014999,
+      "prime": 79608,
+      "even_composite": 507499,
+      "odd_composite": 427892
+    },
+    "maximum_target_error": 4.367864403498345e-8,
+    "maximum_completeness_error": 0
+  },
+  "candidate_calibrated": {
+    "N": 1015000,
+    "alpha": 1.8996877935161325,
+    "threshold_h": 1.4476744689338703,
+    "derived_effective_beta": 0.8654567230719301,
+    "shares": {
+      "phenotype": 0.050000000000000176,
+      "resident_nonphenotype": 0.2680000000000007,
+      "return": 0.6820000000000006
+    },
+    "maximum_target_error": 6.661338147750939e-16
+  },
+  "calibration_deltas": {
+    "alpha": 9.84606969289814e-8,
+    "threshold_h": 0.0000012985814303867471,
+    "beta_eff_vs_legacy": -2.893417659910469e-7
+  },
+  "checks": {
+    "stage1_lock_preserved": true,
+    "legacy_cutoff_preserved": true,
+    "finite_source_generated_not_manual": true,
+    "legacy_regression_hits_targets": true,
+    "candidate_no_refit_stays_close": true,
+    "candidate_no_refit_complete": true,
+    "same_two_parameter_calibration_closes_targets": true,
+    "beta_is_derived_readout": true,
+    "no_third_arithmetic_fit": true,
+    "candidate_active_domain_matches_NU": true,
+    "legacy_and_candidate_are_separate_configs": true,
+    "stage2_does_not_execute_measurement": true,
+    "physical_bridge_remains_outside_stage2": true
+  },
+  "all_checks_passed": true,
+  "stage3_handoff": {
+    "N_U": 1015000,
+    "alpha": 1.8996877935161325,
+    "threshold_h": 1.4476744689338703,
+    "derived_effective_beta": 0.8654567230719301,
+    "legacy_regression_N": 1000000,
+    "instruction": "Replay component/particle and Prime Parts layers on this candidate address state without changing the historical legacy branch."
+  },
+  "falsification_conditions": [
+    "KZF generation no longer yields N_U=1,015,000 under the frozen Stage-1 construction",
+    "candidate address effects become negative or incomplete",
+    "the adopted arithmetic targets cannot be closed with the same two disclosed calibration freedoms",
+    "a hidden third fit is required",
+    "the legacy one-million-address branch must be altered for the candidate branch to work",
+    "the OPEN L*H*C construction is silently promoted to a unique law without derivation"
+  ]
+}
