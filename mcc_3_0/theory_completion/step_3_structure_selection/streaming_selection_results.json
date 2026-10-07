@@ -1,0 +1,261 @@
+{
+  "status": "PASS",
+  "version": "0.2",
+  "date": "2026-10-08",
+  "fixed_explanation_scope": "same address effects, all eight frame contributions, sector loads, inherited channel and record interfaces",
+  "cases": [
+    {
+      "method": "direct",
+      "chunk": 1024,
+      "frame_shares": [
+        0.015017942369452303,
+        0.010121037127349306,
+        0.005308964985728518,
+        0.006599993045875668,
+        0.0034523096235177437,
+        0.005806231843090081,
+        0.0022285471973571827,
+        0.0014649738076292736
+      ],
+      "frame_phi_loads": [
+        0.015017942369452303,
+        0.010121037127349306,
+        0.005308964985728518,
+        0.006599993045875668,
+        0.0034523096235177437,
+        0.005806231843090081,
+        0.0022285471973571827,
+        0.0014649738076292736
+      ],
+      "address_moments": [
+        0.05000000000000007,
+        0.2789256109767439,
+        0.6877425398542375
+      ],
+      "max_address_admission_error": 4.440892098500626e-16
+    },
+    {
+      "method": "direct",
+      "chunk": 65536,
+      "frame_shares": [
+        0.01501794236945229,
+        0.010121037127349323,
+        0.0053089649857285225,
+        0.006599993045875669,
+        0.0034523096235177446,
+        0.005806231843090092,
+        0.0022285471973571822,
+        0.0014649738076292725
+      ],
+      "frame_phi_loads": [
+        0.01501794236945229,
+        0.010121037127349323,
+        0.0053089649857285225,
+        0.006599993045875669,
+        0.0034523096235177446,
+        0.005806231843090092,
+        0.0022285471973571822,
+        0.0014649738076292725
+      ],
+      "address_moments": [
+        0.0500000000000001,
+        0.2789256109767439,
+        0.6877425398542375
+      ],
+      "max_address_admission_error": 4.440892098500626e-16
+    },
+    {
+      "method": "direct",
+      "chunk": 427892,
+      "frame_shares": [
+        0.015017942369452307,
+        0.01012103712734927,
+        0.005308964985728512,
+        0.0065999930458756255,
+        0.003452309623517747,
+        0.005806231843090097,
+        0.0022285471973571805,
+        0.0014649738076292728
+      ],
+      "frame_phi_loads": [
+        0.015017942369452307,
+        0.01012103712734927,
+        0.005308964985728512,
+        0.0065999930458756255,
+        0.003452309623517747,
+        0.005806231843090097,
+        0.0022285471973571805,
+        0.0014649738076292728
+      ],
+      "address_moments": [
+        0.05000000000000001,
+        0.2789256109767439,
+        0.6877425398542375
+      ],
+      "max_address_admission_error": 4.440892098500626e-16
+    },
+    {
+      "method": "rotation",
+      "chunk": 1024,
+      "frame_shares": [
+        0.015017942369452303,
+        0.010121037127349313,
+        0.005308964985728511,
+        0.006599993045875671,
+        0.0034523096235177446,
+        0.005806231843090084,
+        0.0022285471973571796,
+        0.0014649738076292743
+      ],
+      "frame_phi_loads": [
+        0.015017942369452303,
+        0.010121037127349313,
+        0.005308964985728511,
+        0.006599993045875671,
+        0.0034523096235177446,
+        0.005806231843090084,
+        0.0022285471973571796,
+        0.0014649738076292743
+      ],
+      "address_moments": [
+        0.05000000000000008,
+        0.2789256109767439,
+        0.6877425398542375
+      ],
+      "max_address_admission_error": 5.551115123125783e-15
+    },
+    {
+      "method": "rotation",
+      "chunk": 65536,
+      "frame_shares": [
+        0.01501794236945229,
+        0.010121037127349332,
+        0.0053089649857285155,
+        0.006599993045875672,
+        0.003452309623517745,
+        0.005806231843090095,
+        0.002228547197357179,
+        0.0014649738076292734
+      ],
+      "frame_phi_loads": [
+        0.01501794236945229,
+        0.010121037127349332,
+        0.0053089649857285155,
+        0.006599993045875672,
+        0.003452309623517745,
+        0.005806231843090095,
+        0.002228547197357179,
+        0.0014649738076292734
+      ],
+      "address_moments": [
+        0.0500000000000001,
+        0.2789256109767439,
+        0.6877425398542375
+      ],
+      "max_address_admission_error": 5.551115123125783e-15
+    },
+    {
+      "method": "rotation",
+      "chunk": 427892,
+      "frame_shares": [
+        0.015017942369452307,
+        0.010121037127349276,
+        0.005308964985728505,
+        0.006599993045875628,
+        0.0034523096235177476,
+        0.005806231843090099,
+        0.002228547197357178,
+        0.0014649738076292736
+      ],
+      "frame_phi_loads": [
+        0.015017942369452307,
+        0.010121037127349276,
+        0.005308964985728505,
+        0.006599993045875628,
+        0.0034523096235177476,
+        0.005806231843090099,
+        0.002228547197357178,
+        0.0014649738076292736
+      ],
+      "address_moments": [
+        0.05000000000000002,
+        0.2789256109767439,
+        0.6877425398542375
+      ],
+      "max_address_admission_error": 5.551115123125783e-15
+    }
+  ],
+  "operation_and_storage_accounting": {
+    "eligible_addresses": 427892,
+    "spectral_terms": 4,
+    "frames": 8,
+    "direct_trig_calls": 13692544,
+    "rotation_trig_calls": 3423144,
+    "extra_rotation_multiplications": 47923904,
+    "extra_rotation_additions": 23961952,
+    "unchanged_inherited_spectrum_entries": 12,
+    "unchanged_calibration_parameters": 2,
+    "memory_accounting_bytes": {
+      "direct_stream": 10485760,
+      "rotation_stream": 25165824,
+      "stored_all_frame_drives": 27385088
+    },
+    "memory_scope": "conservative phase-work-array bounds; excludes shared inputs, allocator/RSS and common source construction"
+  },
+  "kernel_timings_seconds": {
+    "direct": [
+      0.20875630899990938,
+      0.21136145899981784,
+      0.21194940199984558
+    ],
+    "rotation": [
+      0.11656786000003194,
+      0.11904025400053797,
+      0.11758437200023764
+    ]
+  },
+  "median_kernel_seconds": {
+    "direct": 0.21136145899981784,
+    "rotation": 0.11758437200023764
+  },
+  "timing_scope": "three local alternating runs after warmup; phase/readout kernel only, not full pipeline or universal hardware claim",
+  "local_selected_implementation": "rotation_stream",
+  "selection_policy": "retain original phase structure; chunk65536; choose locally faster kernel, preserve direct reference; no universal scalar cost or unique physical minimum asserted",
+  "checks": {
+    "all_streamed_address_admissions_preserved": true,
+    "all_streamed_sector_loads_preserved": true,
+    "all_frame_contributions_preserved": true,
+    "chunk_size_does_not_change_model": true,
+    "streamed_rotation_reduces_trig_calls": true,
+    "both_work_array_bounds_below_full_drive_table": true,
+    "no_new_calibration_or_structural_parameters": true
+  },
+  "next_stage_handoff": {
+    "phase_structure": "unchanged",
+    "N": 1015000,
+    "alpha": 1.8996877935161325,
+    "h": 1.4476744689338703,
+    "K": 8,
+    "default_kernel": "rotation_stream",
+    "chunk": 65536,
+    "macroscopic_outputs": {
+      "a": 1.0,
+      "sector_density_J_m3": [
+        3.7807912495361336e-11,
+        2.0321854300651497e-10,
+        5.258550172595944e-10
+      ],
+      "density_J_m3": 7.668814727614707e-10,
+      "pressure_Pa": -5.258550172595944e-10,
+      "H_over_H0": 0.9999913260079332,
+      "q": -0.5285585894376315,
+      "aT_m_s2": 1.1917875313971119e-10,
+      "aT_rotation_m_s2": 1.1917875313971119e-10,
+      "aT_lensing_m_s2": 1.1917875313971119e-10,
+      "rotation_km_s": 207.5102418659153,
+      "direct_baryonic_km_s": 161.45051053125528,
+      "lensing_arcsec": 0.5355822400088303,
+      "lens_quadrature_error_arcsec": 5.9488438374337644e-15
+    }
+  }
+}

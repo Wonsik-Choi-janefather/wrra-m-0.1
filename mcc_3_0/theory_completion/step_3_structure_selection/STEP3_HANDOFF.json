@@ -1,0 +1,19 @@
+{
+  "version": "0.4",
+  "scope_complete": "Step3 comparison/selection/ledger integration",
+  "dependency_commit": "d12ce729822cf78e4531c7303eef86507aa2238e",
+  "selected_kernel": "phase_kernel.iter_frame_transfers",
+  "method": "rotation",
+  "chunk": 65536,
+  "phase_modes": 4,
+  "real_LTI_states": 8,
+  "admission_frames": 8,
+  "direct_reference_retained": true,
+  "constitutive_not_derived": [
+    "four mode spectrum",
+    "eight admission frame boundary"
+  ],
+  "checks_passed": 34,
+  "next_step": "common carrier to phenotype",
+  "github_published": false
+}

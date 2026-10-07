@@ -1,0 +1,359 @@
+{
+  "status": "PASS",
+  "date": "2026-10-08",
+  "scope": "structural arithmetic formulation and passive coordinate invariance of the frozen conditional model",
+  "N": 1015000,
+  "shares": [
+    0.050000000000000176,
+    0.26800000000000074,
+    0.6820000000000006
+  ],
+  "address_moments": [
+    0.050000000000000065,
+    0.2789256109767439,
+    0.6877425398542387
+  ],
+  "reference_macro": {
+    "E0_sector_J": [
+      3.7807912495361375e-11,
+      2.0321854300651497e-10,
+      5.258550172595953e-10
+    ],
+    "rows": [
+      {
+        "a": 0.5,
+        "sector_density_J_m3": [
+          3.02463299962891e-10,
+          1.6257483440521197e-09,
+          5.258550172595953e-10
+        ],
+        "density_J_m3": 2.4540666612746063e-09,
+        "pressure_Pa": -5.258550172595953e-10,
+        "H_over_H0": 1.7888556122867603,
+        "q": 0.178581458956901,
+        "aT_m_s2": 3.3708841807378924e-10,
+        "aT_rotation_m_s2": 3.3708841807378924e-10,
+        "aT_lensing_m_s2": 3.3708841807378924e-10,
+        "rotation_km_s": 247.74822017931666,
+        "direct_baryonic_km_s": 161.45051053125528,
+        "lensing_arcsec": 0.8146640474241865,
+        "lens_quadrature_error_arcsec": 9.048712273123402e-15
+      },
+      {
+        "a": 1.0,
+        "sector_density_J_m3": [
+          3.7807912495361375e-11,
+          2.0321854300651497e-10,
+          5.258550172595953e-10
+        ],
+        "density_J_m3": 7.668814727614716e-10,
+        "pressure_Pa": -5.258550172595953e-10,
+        "H_over_H0": 0.9999913260079338,
+        "q": -0.5285585894376319,
+        "aT_m_s2": 1.1917875313971119e-10,
+        "aT_rotation_m_s2": 1.1917875313971119e-10,
+        "aT_lensing_m_s2": 1.1917875313971119e-10,
+        "rotation_km_s": 207.5102418659153,
+        "direct_baryonic_km_s": 161.45051053125528,
+        "lensing_arcsec": 0.5355822400088303,
+        "lens_quadrature_error_arcsec": 5.9488438374337644e-15
+      },
+      {
+        "a": 2.0,
+        "sector_density_J_m3": [
+          4.725989061920172e-12,
+          2.540231787581437e-11,
+          5.258550172595953e-10
+        ],
+        "density_J_m3": 5.559833241973299e-10,
+        "pressure_Pa": -5.258550172595953e-10,
+        "H_over_H0": 0.8514575347022681,
+        "q": -0.9187161584893827,
+        "aT_m_s2": 4.2136052259223655e-11,
+        "aT_rotation_m_s2": 4.2136052259223655e-11,
+        "aT_lensing_m_s2": 4.2136052259223655e-11,
+        "rotation_km_s": 181.5744855460613,
+        "direct_baryonic_km_s": 161.45051053125528,
+        "lensing_arcsec": 0.3743154242368779,
+        "lens_quadrature_error_arcsec": 4.920041253781711e-15
+      }
+    ],
+    "transition_a": 0.6119598067968817,
+    "pressure_derivative_max_relative_error": 2.2632846203849084e-12,
+    "continuity_max_relative_residual": 0.0,
+    "numeric_continuity_max_relative_residual": 2.8700938193749647e-10
+  },
+  "factorization_samples": [
+    {
+      "intrinsic_address": 1,
+      "factors": {},
+      "Omega": 0,
+      "v2": 0,
+      "cost": 0.0,
+      "type": "inactive_unit"
+    },
+    {
+      "intrinsic_address": 2,
+      "factors": {
+        "2": 1
+      },
+      "Omega": 1,
+      "v2": 1,
+      "cost": 0.6931471805599453,
+      "type": "prime_atom"
+    },
+    {
+      "intrinsic_address": 4,
+      "factors": {
+        "2": 2
+      },
+      "Omega": 2,
+      "v2": 2,
+      "cost": 1.3862943611198906,
+      "type": "composite_with_minimum_prime"
+    },
+    {
+      "intrinsic_address": 9,
+      "factors": {
+        "3": 2
+      },
+      "Omega": 2,
+      "v2": 0,
+      "cost": 2.1972245773362196,
+      "type": "composite_without_minimum_prime"
+    },
+    {
+      "intrinsic_address": 11,
+      "factors": {
+        "11": 1
+      },
+      "Omega": 1,
+      "v2": 0,
+      "cost": 2.3978952727983707,
+      "type": "prime_atom"
+    },
+    {
+      "intrinsic_address": 15,
+      "factors": {
+        "3": 1,
+        "5": 1
+      },
+      "Omega": 2,
+      "v2": 0,
+      "cost": 2.70805020110221,
+      "type": "composite_without_minimum_prime"
+    },
+    {
+      "intrinsic_address": 25,
+      "factors": {
+        "5": 2
+      },
+      "Omega": 2,
+      "v2": 0,
+      "cost": 3.2188758248682006,
+      "type": "composite_without_minimum_prime"
+    },
+    {
+      "intrinsic_address": 105,
+      "factors": {
+        "3": 1,
+        "5": 1,
+        "7": 1
+      },
+      "Omega": 3,
+      "v2": 0,
+      "cost": 4.653960350157523,
+      "type": "composite_without_minimum_prime"
+    },
+    {
+      "intrinsic_address": 1001,
+      "factors": {
+        "7": 1,
+        "11": 1,
+        "13": 1
+      },
+      "Omega": 3,
+      "v2": 0,
+      "cost": 6.90875477931522,
+      "type": "composite_without_minimum_prime"
+    }
+  ],
+  "passive_permutation_tests": [
+    {
+      "seed": 7,
+      "shares_max_abs_error": 3.219646771412954e-15,
+      "load_max_abs_error": 8.215650382226158e-15,
+      "present_q": -0.5285585894376253,
+      "present_rotation_km_s": 207.51024186591542,
+      "present_lensing_arcsec": 0.5355822400088311
+    },
+    {
+      "seed": 105,
+      "shares_max_abs_error": 2.55351295663786e-15,
+      "load_max_abs_error": 1.9984014443252818e-14,
+      "present_q": -0.5285585894376392,
+      "present_rotation_km_s": 207.51024186591536,
+      "present_lensing_arcsec": 0.5355822400088308
+    },
+    {
+      "seed": 20261008,
+      "shares_max_abs_error": 3.3306690738754696e-15,
+      "load_max_abs_error": 1.6431300764452317e-14,
+      "present_q": -0.5285585894376252,
+      "present_rotation_km_s": 207.51024186591525,
+      "present_lensing_arcsec": 0.5355822400088301
+    }
+  ],
+  "SOURCE_coordinate_order_tests": [
+    {
+      "fastest_to_slowest": "l,h,z",
+      "shares_max_abs_error": 1.2989609388114332e-14,
+      "load_max_abs_error": 1.9317880628477724e-14
+    },
+    {
+      "fastest_to_slowest": "l,z,h",
+      "shares_max_abs_error": 8.992806499463768e-15,
+      "load_max_abs_error": 1.9317880628477724e-14
+    },
+    {
+      "fastest_to_slowest": "h,l,z",
+      "shares_max_abs_error": 1.27675647831893e-14,
+      "load_max_abs_error": 1.9539925233402755e-14
+    },
+    {
+      "fastest_to_slowest": "h,z,l",
+      "shares_max_abs_error": 5.10702591327572e-15,
+      "load_max_abs_error": 1.865174681370263e-14
+    },
+    {
+      "fastest_to_slowest": "z,l,h",
+      "shares_max_abs_error": 3.7192471324942744e-15,
+      "load_max_abs_error": 1.9095836023552692e-14
+    },
+    {
+      "fastest_to_slowest": "z,h,l",
+      "shares_max_abs_error": 1.1213252548714081e-14,
+      "load_max_abs_error": 1.865174681370263e-14
+    }
+  ],
+  "alternative_distinguished_prime_probes": [
+    {
+      "distinguished_prime": 2,
+      "generator_cost": 0.6931471805599453,
+      "shares": [
+        0.050000000000000176,
+        0.26800000000000074,
+        0.6820000000000006
+      ],
+      "present_q": -0.5285585894376319,
+      "status": "adopted minimum-cost rule"
+    },
+    {
+      "distinguished_prime": 3,
+      "generator_cost": 1.0986122886681098,
+      "shares": [
+        0.17475403702286582,
+        0.12405500585338732,
+        0.7011909571237482
+      ],
+      "present_q": -0.5566601433635785,
+      "status": "changed structural readout law"
+    },
+    {
+      "distinguished_prime": 5,
+      "generator_cost": 1.6094379124341003,
+      "shares": [
+        0.24135058489757258,
+        0.04700747806528172,
+        0.7116419370371456
+      ],
+      "present_q": -0.5725899363047824,
+      "status": "changed structural readout law"
+    }
+  ],
+  "active_classifier_reassignment_controls": [
+    {
+      "swapped_readout_labels": [
+        2,
+        4
+      ],
+      "shares": [
+        0.050000000000000384,
+        0.5295312513085114,
+        0.4204687486914992
+      ],
+      "delta_shares": [
+        2.0816681711721685e-16,
+        0.2615312513085107,
+        -0.2615312513085014
+      ],
+      "present_q": -0.14335034662133342
+    },
+    {
+      "swapped_readout_labels": [
+        9,
+        11
+      ],
+      "shares": [
+        0.04442797550933817,
+        0.26799999999999635,
+        0.6875720244906499
+      ],
+      "delta_shares": [
+        -0.005572024490662006,
+        -4.385380947269368e-15,
+        0.005572024490649308
+      ],
+      "present_q": -0.5368610303775646
+    }
+  ],
+  "max_cost_error": 3.552713678800501e-15,
+  "max_factor_phase_error": 1.7055009632808765e-13,
+  "max_raw_weight_relative_error": 1.0658141036401503e-14,
+  "checks": {
+    "factor_coordinates_match_all_existing_classifier_masks": true,
+    "factor_cost_matches_log_address": true,
+    "factor_phase_drive_matches_existing_filter": true,
+    "factor_cost_weights_match_existing_measure": true,
+    "factor_readout_reproduces_frozen_shares": true,
+    "factor_readout_reproduces_frozen_loads": true,
+    "sampled_products_add_factor_counts": true,
+    "prime_factors_compose_phase": true,
+    "unnormalized_weights_multiply": true,
+    "passive_permutations_preserve_outputs": true,
+    "transported_product_relations_preserved": true,
+    "classifier_reassignment_detectably_changes_model": true,
+    "out_of_domain_product_rejected": true,
+    "all_six_SOURCE_serializations_preserve_transport": true,
+    "minimum_cost_prime_is_original_parity_anchor": true,
+    "all_reference_parameters_unchanged": true
+  },
+  "dependency_provenance": {
+    "step1_commit": "408602d166b3ec6635aff24803ef578580386112",
+    "files": {
+      "capacity_transport.py": "74181079f6272f3d6a946d6cbcd1e782198f111efaf5ff35d2613f90f8be226a",
+      "original/compute.py": "7e23a5eb28032bf7fa87864f9fc02d683eb22300c62255e7f0239e0d01e6a7a7",
+      "original/m10_compute.py": "ff709af2510d215ee5d96d0fccfac87e9ed8c09da0bff6c713ffa30b500bcb96",
+      "original/m10_parameters.json": "0dc068c286f9c2413292156a94b56fa649631c52a53faa73caec5639eb8f658e",
+      "original/m10_results.json": "a506f1247465188f61f6eeb43506662d41f44dfb86319eaf219c4249efb4a95b",
+      "original/parameters.json": "e02e864aeaa9c54fccb260de0a866b2001bbd51f8b5a1831efb2f0806cd5164a",
+      "original/run_stage5.py": "5e073eafe4379230f7a026b6b012162ae11260d548419c179f0fe3338fbbd3e0",
+      "original/stage2_handoff.json": "39cb62b0524c3621298291534ea1ffe9c5e38b3b086478edd05547081a2a8637",
+      "source_contract.json": "965e9a78388f5a380ee15eef5b7138d2e5ea50bd79932a99d184e2b11c45ad9d",
+      "source_manifest.json": "6f9ac78fdbc74093fd138919c006ec0f12d03b3c5ebcc3e98b0a91468e75696a"
+    }
+  },
+  "frozen_input_hash": "1109e63c5cd1fef5d73a213a25eb981012c07516a618e39848a591ba903af82d",
+  "retained_assumptions": [
+    "arithmetic composition law is part of SOURCE model",
+    "minimum-prime-containing composites use the D-sector readout",
+    "composites without that prime are eligible for phenotype admission",
+    "phase admission law and gamma spectrum are inherited calibrated rules"
+  ],
+  "not_claimed": [
+    "a physical derivation of the selected arithmetic LAW",
+    "derived particle identity from primality",
+    "all address labels have measurable spatial positions",
+    "unnormalized product weights multiply after normalization without the Z factor"
+  ]
+}

@@ -78,3 +78,9 @@ Final claim status: see `FINAL_CLAIM_LEDGER.md` and `RELEASE_MANIFEST.json`. The
 [Reviewed Step 2 package](theory_completion/step_2_address_readout/README.txt) · [한국어 검토](theory_completion/step_2_address_readout/STEP2_REVIEW_KO.txt) · [English review](theory_completion/step_2_address_readout/STEP2_REVIEW_EN.txt)
 
 Structural arithmetic readout and its existing ledger connections: 52 computational contract checks. Scoped Stage-2 completion does not assert full theory completion.
+
+## Theory improvement — Step 3 / 이론 보완 3단계
+
+[Reviewed Step 3 package](theory_completion/step_3_structure_selection/README.txt) · [한국어 검토](theory_completion/step_3_structure_selection/STEP3_REVIEW_KO.txt) · [English review](theory_completion/step_3_structure_selection/STEP3_REVIEW_EN.txt)
+
+Structure comparison, scoped minimum-state proof, equivalent rotation kernel and existing ledger integration: 34 checks passed. The fixed four-mode sequence requires eight real autonomous LTI states; four modes and eight admission frames remain constitutive specifications. Scoped Step-3 completion does not assert universal physical minimality or full theory completion.

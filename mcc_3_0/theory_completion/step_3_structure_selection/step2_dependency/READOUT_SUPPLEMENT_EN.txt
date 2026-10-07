@@ -1,0 +1,52 @@
+WRRA 3.0 theory improvement, Step 2 v0.2: readout and calibration ledger
+
+Verified inputs: the frozen v0.1 SOURCE, costs, phase spectrum, alpha,
+h, eight frames, address measure and load operators.
+WRRA transformation: factor structure -> frame readout contributions ->
+sector ledger -> common-measure response and threshold response -> fixed loads.
+Outputs: reproduction of 5/26.8/68.2%, return-sector decomposition,
+addresswise ledger conservation, and locally independent calibration directions.
+Falsification conditions: nonconservation, disagreement with the inherited filter,
+a threshold-dependent fixed dark class, derivative mismatch, or failure of
+transported phase-reference invariance.
+
+The finite composition law, log prime costs, sector assignments and phase
+admission law are declared constitutive rules. The least-cost atom is2 under
+those costs; its composites' dark-sector assignment is an adopted readout.
+Construction against verified inputs is legitimate. Deriving the historical
+origin of that rule is not introduced as a new completion requirement.
+
+For eligible addresses, let t_k=sigmoid(d_k-h), r_0=1,
+Delta P_k=r_k*t_k, and r_(k+1)=r_k*(1-t_k).
+Then sum_k Delta P_k+r_K=1 and P=1-product_k(1-t_k), exactly the
+inherited admission law. This is an algebraic readout ledger, not an additional
+claim of independent physical events or framewise physical energy transfer.
+
+Normalized address-weight contributions:
+prime atoms to return: 67.42270361220081%.
+minimum-atom composites to dark: 26.8%.
+other composites to phenotype: 5%.
+other composites to return: 0.77729638779920%.
+The eligible pool is5.77729638779920%; the total return share is68.2%.
+These are address-weight shares. Physical densities still require the existing
+address response, load and SI conversion; they are not address-count fractions.
+
+For fixed effects, df_s/dalpha=-Cov_w(E_s,kappa).
+For eligible admission, dP/dh=-r_K*sum_k sigmoid(d_k-h).
+Thus h changes only the phenotype/return split, leaving the dark share fixed.
+At the frozen point:
+df/dalpha=(-.08547042692579551,-.18574732479341602,.2712177517192118).
+df/dh=(-.013071465230243265,0,.013071465230243265).
+The two-target Jacobian determinant is-.002427989697647838.
+Analytical derivatives agree with numerical differences. This establishes local
+invertibility of two calibration directions in the fixed readout family,
+not global uniqueness or elimination of other model families.
+
+Changing the phase reference by delta requires transporting spectrum offsets
+by -gamma*delta. A delta=.37 probe preserves the signal to9.55e-14.
+This does not license arbitrary changes to costs or load operators.
+
+Eleven additional checks pass, alongside the sixteen v0.1 checks.
+No calibration coefficients were refitted. Existing assembly-order component
+research remains separate. Full theory completion is not asserted.
+Replay: python address_structure.py; python readout_ledger.py.
