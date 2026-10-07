@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: mcc3-documents-main
@@ -58,19 +58,14 @@ jobs:
             MCC_3_0_Integrated_Model_EN.pdf \
             > SHA256SUMS
 
-      - name: Commit generated documents
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add mcc_3_0/paper/MCC_3_0_Integrated_Model_KO.docx \
-                  mcc_3_0/paper/MCC_3_0_Integrated_Model_KO.pdf \
-                  mcc_3_0/paper/MCC_3_0_Integrated_Model_EN.docx \
-                  mcc_3_0/paper/MCC_3_0_Integrated_Model_EN.pdf \
-                  mcc_3_0/paper/SHA256SUMS
-          if git diff --cached --quiet; then
-            echo "No generated document changes."
-          else
-            git commit -m "Build MCC 3.0 Korean and English PDF/Word editions"
-            git pull --rebase origin main
-            git push origin main
-          fi
+      - name: Upload generated documents
+        uses: actions/upload-artifact@v4
+        with:
+          name: MCC-3.0-KO-EN-PDF-DOCX
+          path: |
+            mcc_3_0/paper/MCC_3_0_Integrated_Model_KO.docx
+            mcc_3_0/paper/MCC_3_0_Integrated_Model_KO.pdf
+            mcc_3_0/paper/MCC_3_0_Integrated_Model_EN.docx
+            mcc_3_0/paper/MCC_3_0_Integrated_Model_EN.pdf
+            mcc_3_0/paper/SHA256SUMS
+          retention-days: 90
