@@ -1,0 +1,36 @@
+{
+  "project": "Minimal Computing Cosmology 3.0",
+  "stage": "3_particle_component_replay",
+  "date": "2026-10-07",
+  "inputs": [
+    {
+      "source": "MCC3 Stage 2 handoff",
+      "path": "mcc_3_0/stage_2_finite_source_insertion/STAGE3_HANDOFF.json",
+      "role": "derived finite SOURCE state"
+    },
+    {
+      "source": "WRRA Prime-Parts Rendering 1.0",
+      "path": "exploratory/prime_parts_v1_0",
+      "commit": "577099f54386b1950ffe0512d72bcc9ea45dc75b",
+      "doi": "10.5281/zenodo.23128482",
+      "role": "exploratory component/decoder rules"
+    },
+    {
+      "source": "WRRA_M 0.9",
+      "path": "calculations/wrra_m_0_9",
+      "role": "phase-aware address phenotype measure"
+    }
+  ],
+  "calibration_status": {
+    "neutron_labels_5_47": "inherited fitted candidate; not re-fit in Stage 3",
+    "alpha_h": "inherited from Stage 2",
+    "SI_energy_coefficients": "not used or refitted in Stage 3"
+  },
+  "open_items": [
+    "unique species decoder",
+    "spin-flavor wavefunction",
+    "binding/confinement Hamiltonian",
+    "baryon/lepton origin",
+    "physical abundance prediction"
+  ]
+}
