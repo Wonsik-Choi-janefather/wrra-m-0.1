@@ -7,7 +7,8 @@ Finite-Source Integrated Model: From a Generated Address Space to Components, En
 저자: 최원식 (Wonsik Choi), 최정인 (Jeongin Choi)  
 날짜: 2026년 10월 7일  
 상태: 6단계 계산 통합 PASS / 통합 과학모형 PASS-C  
-ORCID: Wonsik Choi — 0009-0001-4263-9772
+ORCID: Wonsik Choi — 0009-0001-4263-9772  
+Zenodo DOI: https://doi.org/10.5281/zenodo.23202732
 
 ---
 
