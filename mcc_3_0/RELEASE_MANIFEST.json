@@ -1,0 +1,35 @@
+{
+  "title": "Minimal Computing Cosmology 3.0",
+  "subtitle": "Finite-Source Integrated Model: From a Generated Address Space to Components, Energy, Gravity and Cosmic Expansion",
+  "version": "3.0",
+  "date": "2026-10-07",
+  "authors": [
+    "Wonsik Choi",
+    "Jeongin Choi"
+  ],
+  "status": "integrated computational closure PASS; scientific model PASS-C",
+  "repository": "Wonsik-Choi-janefather/wrra-m-0.1",
+  "entrypoint": "mcc_3_0/reproduce_mcc_3_0.py",
+  "completed_stages": [
+    "1 baseline freeze",
+    "2 finite SOURCE insertion",
+    "3 particle/component replay",
+    "4 single load/energy Master Ledger",
+    "5 macro-universe replay",
+    "6 end-to-end closure"
+  ],
+  "verification": {
+    "published_stage_checks": 54,
+    "cross_stage_checks": 11,
+    "total_declared_checks": 65,
+    "all_passed": true
+  },
+  "headline_outputs": {
+    "finite_source_N_U": 1015000,
+    "q0": -0.5285585894376319,
+    "rotation_km_s": 207.5102418659153,
+    "conditional_lensing_arcsec": 0.5355822400088303,
+    "acceleration_transition_scale_factor": 0.6119598067968817
+  },
+  "scope_note": "This release closes the declared executable integration. The finite-SOURCE product law and several microscopic particle claims remain conditional/open and are not promoted to experimentally established laws."
+}
