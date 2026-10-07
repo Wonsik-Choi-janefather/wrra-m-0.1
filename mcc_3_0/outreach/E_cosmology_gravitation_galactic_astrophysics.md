@@ -9,6 +9,43 @@ Full reproducibility repository: https://github.com/Wonsik-Choi-janefather/wrra-
 
 ---
 
+## Relation to the Full MCC 3.0 Paper
+
+This executive paper is **not a standalone replacement for the full theory paper**. It is the cosmology/gravitation entry point to the complete 17-chapter MCC 3.0 integrated manuscript.
+
+The full paper develops the chain from the upstream finite-source construction to the downstream physical model:
+
+[
+	ext{finite SOURCE}
+ightarrow
+	ext{finite integer addresses}
+ightarrow
+	ext{prime/composite filter}
+ightarrow
+	ext{residue and component structure}
+ightarrow
+	ext{particle/phenotype bookkeeping}
+ightarrow
+	ext{information load}
+ightarrow
+	ext{SI energy and pressure}
+ightarrow
+	ext{gravity}
+ightarrow
+	ext{galaxy rotation and lensing}
+ightarrow
+	ext{cosmic expansion}.
+]
+
+The complete MCC 3.0 release contains six audited development stages, a final claim-grade ledger, machine-readable verification files, public datasets, Korean and English full manuscripts, and a single reproduction entry point. The six-stage computational integration is classified as **PASS**, while the integrated scientific model is classified as **PASS-C** because the finite-source product law and several microscopic particle-physics claims remain conditional/open.
+
+The full paper should be read when evaluating the origin of the finite SOURCE, the Klein-Zeta construction, component/particle assumptions, energy ownership, or the complete falsification ledger. This shorter paper isolates only the part most directly relevant to cosmologists and gravitation researchers: **whether the same frozen upstream state can propagate to expansion, rotation, and lensing without independent downstream retuning**.
+
+**Full MCC 3.0 paper and data:** https://doi.org/10.5281/zenodo.23202732  
+**Full GitHub package:** https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/tree/main/mcc_3_0
+
+---
+
 ## Abstract
 
 Minimal Computing Cosmology 3.0 (MCC 3.0) tests whether a finite upstream state generator can be propagated through one explicitly typed physical ledger to late-time cosmological and galactic observables without introducing a new fit at each scale. The model begins from a conditional finite-source construction with
