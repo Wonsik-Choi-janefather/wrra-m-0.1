@@ -4,7 +4,8 @@
 Authors: Wonsik Choi, Jeongin Choi  
 Date: 7 October 2026  
 Status: Six-stage computational integration PASS / integrated scientific model PASS-C  
-ORCID: Wonsik Choi — 0009-0001-4263-9772
+ORCID: Wonsik Choi — 0009-0001-4263-9772  
+Zenodo DOI: https://doi.org/10.5281/zenodo.23202732
 
 ---
 
