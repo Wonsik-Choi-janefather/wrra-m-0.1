@@ -1,0 +1,89 @@
+{
+  "project": "Minimal Computing Cosmology 3.0",
+  "stage": "4_single_load_energy_master_ledger",
+  "date": "2026-10-07",
+  "verdict": "PASS",
+  "key_evidence": {
+    "address_moments": {
+      "phenotype": 0.050000000000000065,
+      "resident_nonphenotype": 0.2789256109767439,
+      "return": 0.6877425398542387
+    },
+    "sector_energy_J": {
+      "phenotype": 3.7807912495361375e-11,
+      "resident_nonphenotype": 2.0321854300651497e-10,
+      "return": 5.258550172595953e-10
+    },
+    "total_energy_J": 7.668814727614716e-10,
+    "total_pressure_Pa": -5.258550172595953e-10,
+    "q": -0.5285585894376319,
+    "small_view_energy_sum_J": 3.780791249536138e-11,
+    "large_view_energy_sum_J": 3.7807912495361375e-11,
+    "field_view_energy_sum_J": 3.780791249536138e-11,
+    "phenotype_energy_J": 3.7807912495361375e-11,
+    "energy_coefficient_refit": false
+  },
+  "checks": [
+    {
+      "id": "S4-01",
+      "check": "address_sector_ledger_complete",
+      "passed": true
+    },
+    {
+      "id": "S4-02",
+      "check": "all_additive_sector_energies_positive",
+      "passed": true
+    },
+    {
+      "id": "S4-03",
+      "check": "master_energy_sum_closes",
+      "passed": true
+    },
+    {
+      "id": "S4-04",
+      "check": "pressure_is_derived_from_same_sector_energy",
+      "passed": true
+    },
+    {
+      "id": "S4-05",
+      "check": "small_component_view_closes_to_phenotype",
+      "passed": true
+    },
+    {
+      "id": "S4-06",
+      "check": "large_component_view_closes_to_phenotype",
+      "passed": true
+    },
+    {
+      "id": "S4-07",
+      "check": "field_channel_view_closes_to_phenotype",
+      "passed": true
+    },
+    {
+      "id": "S4-08",
+      "check": "component_order_changes_distribution_not_budget",
+      "passed": true
+    },
+    {
+      "id": "S4-09",
+      "check": "internal_views_marked_nonadditive",
+      "passed": true
+    },
+    {
+      "id": "S4-10",
+      "check": "frozen_eta_values_unchanged",
+      "passed": true
+    },
+    {
+      "id": "S4-11",
+      "check": "no_new_cosmic_sector",
+      "passed": true
+    },
+    {
+      "id": "S4-12",
+      "check": "spin_binding_remain_open",
+      "passed": true
+    }
+  ],
+  "all_checks_passed": true
+}
