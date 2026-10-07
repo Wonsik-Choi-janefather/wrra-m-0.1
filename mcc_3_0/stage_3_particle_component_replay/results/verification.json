@@ -1,0 +1,101 @@
+{
+  "project": "Minimal Computing Cosmology 3.0",
+  "stage": "3_particle_component_replay",
+  "date": "2026-10-07",
+  "verdict": "PASS-C",
+  "key_evidence": {
+    "candidate_phenotype_weight": 0.05000000000000008,
+    "candidate_admitted_odd_composite_addresses": 427892,
+    "K15_small_neutron_fraction": 0.12947198693705966,
+    "K15_large_neutron_fraction": 0.1271594116970887,
+    "K16_small_neutron_fraction": 0.12498278121735387,
+    "K15_order_total_variation": 0.20472100116369316,
+    "color_singlet_norm": 1.0000000000000002,
+    "color_max_generator_residual": 0,
+    "beta_transition_Q_MeV": 0.7823335593099138,
+    "spin_status": "OPEN"
+  },
+  "checks": [
+    {
+      "id": "S3-01",
+      "check": "stage2_handoff_N_preserved",
+      "passed": true
+    },
+    {
+      "id": "S3-02",
+      "check": "candidate_phenotype_weight_is_5_percent",
+      "passed": true
+    },
+    {
+      "id": "S3-03",
+      "check": "candidate_address_count",
+      "passed": true
+    },
+    {
+      "id": "S3-04",
+      "check": "all_prime_assembly_cases_conserve_integer_addresses",
+      "passed": true
+    },
+    {
+      "id": "S3-05",
+      "check": "all_component_number_shares_normalized",
+      "passed": true
+    },
+    {
+      "id": "S3-06",
+      "check": "K15_small_finite_source_shift_small",
+      "passed": true
+    },
+    {
+      "id": "S3-07",
+      "check": "K15_large_finite_source_shift_small",
+      "passed": true
+    },
+    {
+      "id": "S3-08",
+      "check": "K16_small_remains_near_one_eighth",
+      "passed": true
+    },
+    {
+      "id": "S3-09",
+      "check": "order_sensitivity_remains_nonzero",
+      "passed": true
+    },
+    {
+      "id": "S3-10",
+      "check": "charge_motifs_neutral",
+      "passed": true
+    },
+    {
+      "id": "S3-11",
+      "check": "color_singlet_normalized",
+      "passed": true
+    },
+    {
+      "id": "S3-12",
+      "check": "color_generators_annihilate_singlet",
+      "passed": true
+    },
+    {
+      "id": "S3-13",
+      "check": "candidate_pne_charge_neutral",
+      "passed": true
+    },
+    {
+      "id": "S3-14",
+      "check": "beta_Q_positive_from_supplied_masses",
+      "passed": true
+    },
+    {
+      "id": "S3-15",
+      "check": "spin_claim_remains_open",
+      "passed": true
+    },
+    {
+      "id": "S3-16",
+      "check": "no_SI_energy_refit_in_stage3",
+      "passed": true
+    }
+  ],
+  "all_checks_passed": true
+}
