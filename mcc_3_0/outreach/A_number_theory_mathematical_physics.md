@@ -20,6 +20,16 @@ The six-stage computational integration is **PASS**. The integrated scientific m
 
 ---
 
+## Common Carrier in the MCC 3.0 architecture
+
+The finite SOURCE does not connect directly to particle or cosmological outputs. Its generated address state is first placed on a **Common Carrier**, which is the shared finite state substrate on which filtering, quantization, residue retention, and later physical ownership are executed.
+
+For this number-theory view, the role of the finite generator is therefore:
+
+**finite SOURCE -> finite integer addresses -> Common Carrier -> filter / quantization -> residue -> component / phenotype -> information load -> energy -> gravity -> observables**
+
+This distinction matters. The integers are not themselves particles, fields, or observables. They are finite execution addresses carried by a common substrate before any physical phenotype is rendered.
+
 ## Abstract
 
 The historical WRRA_M implementation used the finite address range:
