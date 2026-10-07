@@ -1,0 +1,17 @@
+{
+  "source": "MCC 3.0 Stage 2 finite SOURCE insertion",
+  "base": "calculations/wrra_m_0_9/parameters.json",
+  "legacy_config_mutated": false,
+  "candidate_patch": {
+    "upstream.address_cutoff_N": 1015000,
+    "upstream.state.alpha": 1.8996877935161325,
+    "upstream.update.sigmoid_threshold_h": 1.4476744689338703,
+    "upstream.scalar_comparison.odd_composite_admission_beta": 0.8654567230719301
+  },
+  "roles": {
+    "upstream.address_cutoff_N": "derived from KZF finite SOURCE generator",
+    "upstream.state.alpha": "declared arithmetic calibration",
+    "upstream.update.sigmoid_threshold_h": "declared arithmetic calibration",
+    "upstream.scalar_comparison.odd_composite_admission_beta": "derived effective readout; not independently fitted"
+  }
+}
