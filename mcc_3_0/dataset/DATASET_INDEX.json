@@ -46,5 +46,7 @@
     "mcc_3_0/stage_5_macro_universe_replay/results/verification.json",
     "mcc_3_0/stage_6_end_to_end_closure/results/end_to_end_audit.json",
     "mcc_3_0/stage_6_end_to_end_closure/results/verification.json"
-  ]
+  ],
+  "doi": "10.5281/zenodo.23202732",
+  "zenodo_url": "https://doi.org/10.5281/zenodo.23202732"
 }
