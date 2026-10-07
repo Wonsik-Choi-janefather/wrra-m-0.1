@@ -1,0 +1,79 @@
+{
+  "project": "Minimal Computing Cosmology 3.0",
+  "stage": "2_finite_source_insertion",
+  "date": "2026-10-07",
+  "verdict": "PASS",
+  "checks": [
+    {
+      "id": "S2-01",
+      "check": "Stage-1 lock preserved",
+      "passed": true,
+      "evidence": {
+        "lock": "MCC3-S1-21daec11-43b998ca-f667bbdf"
+      }
+    },
+    {
+      "id": "S2-02",
+      "check": "legacy cutoff preserved",
+      "passed": true,
+      "evidence": {
+        "legacy_N": 1000000
+      }
+    },
+    {
+      "id": "S2-03",
+      "check": "finite SOURCE generated",
+      "passed": true,
+      "evidence": {
+        "L": 500,
+        "H": 29,
+        "C": 70,
+        "N_U": 1015000
+      }
+    },
+    {
+      "id": "S2-04",
+      "check": "legacy regression hits arithmetic targets",
+      "passed": true,
+      "evidence": {
+        "phenotype": 0.050000000000001,
+        "resident_nonphenotype": 0.267999999999999,
+        "return": 0.682000000000001
+      }
+    },
+    {
+      "id": "S2-05",
+      "check": "candidate no-refit branch remains close and complete",
+      "passed": true,
+      "evidence": {
+        "phenotype": 0.050000025389833,
+        "resident_nonphenotype": 0.268000018288813,
+        "return": 0.681999956321356,
+        "max_target_error": 4.367864403498345e-8
+      }
+    },
+    {
+      "id": "S2-06",
+      "check": "same two calibration freedoms close target ledger",
+      "passed": true,
+      "evidence": {
+        "alpha": 1.8996877935161325,
+        "h": 1.4476744689338703,
+        "beta_eff": 0.8654567230719301
+      }
+    },
+    {
+      "id": "S2-07",
+      "check": "no hidden third fit",
+      "passed": true,
+      "evidence": {
+        "fit_parameters": [
+          "alpha",
+          "h"
+        ],
+        "beta_eff_role": "derived"
+      }
+    }
+  ],
+  "all_checks_passed": true
+}
