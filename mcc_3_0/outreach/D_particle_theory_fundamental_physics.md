@@ -16,13 +16,23 @@ This executive paper is the particle-theory and fundamental-physics entry point 
 
 The full execution chain is:
 
-**finite SOURCE -> finite integer addresses -> arithmetic filter -> residue/component structure -> particle/phenotype bookkeeping -> information load -> SI energy -> gravity -> galaxy observables -> cosmic expansion**
+**finite SOURCE -> finite integer addresses -> Common Carrier -> arithmetic filter -> residue/component structure -> particle/phenotype bookkeeping -> information load -> SI energy -> gravity -> galaxy observables -> cosmic expansion**
 
 The complete release contains six audited development stages, a final claim ledger, machine-readable verification files, public datasets, Korean and English full manuscripts, and a single reproduction entry point.
 
 The six-stage computational integration is classified as **PASS**. The integrated scientific model remains **PASS-C** because the particle-species decoder, spin-flavor structure, confinement, binding, baryon/lepton origin, and several upstream finite-source assumptions remain conditional or open.
 
 ---
+
+## Common Carrier in the MCC 3.0 architecture
+
+The particle layer does not map integers directly to particles. The finite address state is first transported by the **Common Carrier**, a shared finite substrate on which filter / quantization and residue rules act before component and particle phenotypes are tested.
+
+The relevant chain is:
+
+**finite SOURCE -> Common Carrier -> filter / quantization -> residue -> component / particle phenotype -> information load -> energy -> gravity -> observables**
+
+This is essential to the particle interpretation: prime/composite arithmetic provides addresses and selection structure, while the Common Carrier is the state space that actually carries the information into the component layer.
 
 ## Abstract
 
