@@ -1,0 +1,75 @@
+name: Build MCC 3.0 PDF and Word
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'mcc_3_0/paper/*.md'
+      - '.github/workflows/mcc3-build-documents.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mcc3-documents-main
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install document tools and Korean fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc libreoffice fonts-noto-cjk
+
+      - name: Build Word editions
+        run: |
+          pandoc mcc_3_0/paper/MCC_3_0_Integrated_Model_KO.md \
+            --from=gfm+tex_math_dollars \
+            --to=docx \
+            -o mcc_3_0/paper/MCC_3_0_Integrated_Model_KO.docx
+          pandoc mcc_3_0/paper/MCC_3_0_Integrated_Model_EN.md \
+            --from=gfm+tex_math_dollars \
+            --to=docx \
+            -o mcc_3_0/paper/MCC_3_0_Integrated_Model_EN.docx
+
+      - name: Build PDF editions from Word
+        run: |
+          mkdir -p /tmp/mcc3pdf
+          libreoffice --headless --convert-to pdf --outdir /tmp/mcc3pdf mcc_3_0/paper/MCC_3_0_Integrated_Model_KO.docx
+          libreoffice --headless --convert-to pdf --outdir /tmp/mcc3pdf mcc_3_0/paper/MCC_3_0_Integrated_Model_EN.docx
+          cp /tmp/mcc3pdf/MCC_3_0_Integrated_Model_KO.pdf mcc_3_0/paper/
+          cp /tmp/mcc3pdf/MCC_3_0_Integrated_Model_EN.pdf mcc_3_0/paper/
+
+      - name: Record checksums
+        run: |
+          cd mcc_3_0/paper
+          sha256sum \
+            MCC_3_0_Integrated_Model_KO.md \
+            MCC_3_0_Integrated_Model_KO.docx \
+            MCC_3_0_Integrated_Model_KO.pdf \
+            MCC_3_0_Integrated_Model_EN.md \
+            MCC_3_0_Integrated_Model_EN.docx \
+            MCC_3_0_Integrated_Model_EN.pdf \
+            > SHA256SUMS
+
+      - name: Commit generated documents
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add mcc_3_0/paper/MCC_3_0_Integrated_Model_KO.docx \
+                  mcc_3_0/paper/MCC_3_0_Integrated_Model_KO.pdf \
+                  mcc_3_0/paper/MCC_3_0_Integrated_Model_EN.docx \
+                  mcc_3_0/paper/MCC_3_0_Integrated_Model_EN.pdf \
+                  mcc_3_0/paper/SHA256SUMS
+          if git diff --cached --quiet; then
+            echo "No generated document changes."
+          else
+            git commit -m "Build MCC 3.0 Korean and English PDF/Word editions"
+            git push
+          fi
