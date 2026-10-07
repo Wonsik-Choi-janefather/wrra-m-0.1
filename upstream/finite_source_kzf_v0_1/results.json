@@ -1,0 +1,108 @@
+{
+  "model": "WRRA_M KZF finite-source closure candidate v0.1",
+  "generator": {
+    "sector_ledger_denominator_L": 500,
+    "harmonic_phase_H": 29,
+    "zeta_focus_count_C": 70,
+    "candidate_N_U": 1015000,
+    "construction_rule": "N_U = L * H * C",
+    "status": "construction hypothesis; independence/product rule not yet derived",
+    "zeta_window": {
+      "H": 29,
+      "T": 182.212373908208,
+      "zero_count": 70,
+      "gamma_last": 182.20707848436646,
+      "gamma_next": 184.8744678483875,
+      "boundary_gap_to_last": 0.005295423841545915,
+      "boundary_gap_to_next": 2.662093940179501,
+      "finite_EM_terms_M": 14500,
+      "finite_EM_max_residual_first_70": 5.285925577375278e-13,
+      "finite_EM_residual_70th": 6.978489495065562e-14,
+      "nearest_boundary_alignment_H_1_to_29": {
+        "H": 29,
+        "zero_index": 70,
+        "distance": 0.005295423841545915,
+        "zero": 182.20707848436646
+      },
+      "second_nearest_boundary_alignment_H_1_to_29": {
+        "H": 9,
+        "zero_index": 12,
+        "distance": 0.10242006755288349,
+        "zero": 56.44624769706339
+      }
+    }
+  },
+  "baseline": {
+    "N": 1000000,
+    "alpha": 1.8996876950554356,
+    "threshold_h": 1.44767317035244,
+    "beta_scalar": 0.8654570124136961,
+    "shares": [0.05000000000000089, 0.26799999999999863, 0.6820000000000007],
+    "counts": {"prime": 78498, "even_composite": 499999, "odd_composite": 421502},
+    "macro": {
+      "mu": [0.0500000000000009, 0.2789373775449565, 0.687748727555431],
+      "energy": [3.7807912495362e-11, 2.0322711584728059e-10, 5.258597484395482e-10],
+      "total": 7.668947767821907e-10,
+      "q": -0.52855,
+      "aT": 1.1918126691055912e-10,
+      "v": 207.51090512661662,
+      "lens": 0.5355865105583804
+    }
+  },
+  "candidate_frozen_no_refit": {
+    "N": 1015000,
+    "alpha": 1.8996876950554356,
+    "threshold_h": 1.44767317035244,
+    "beta_scalar": 0.8654570124136961,
+    "shares": [0.05000002538983289, 0.26800001828881304, 0.6819999563213559],
+    "counts": {"prime": 79608, "even_composite": 507499, "odd_composite": 427892},
+    "macro": {
+      "mu": [0.05000002538983285, 0.27892563058564096, 0.687742495848706],
+      "energy": [3.78079316940929e-11, 2.0321855729308936e-10, 5.258549836125125e-10],
+      "total": 7.668814725996947e-10,
+      "q": -0.5285585238418014,
+      "aT": 1.191787573289354e-10,
+      "v": 207.5102429712526,
+      "lens": 0.5355822471257792
+    }
+  },
+  "candidate_minimal_recalibration": {
+    "N": 1015000,
+    "alpha": 1.8996877935161325,
+    "threshold_h": 1.4476744689338703,
+    "derived_effective_beta": 0.8654567230719301,
+    "delta_alpha": 9.84606969289814e-08,
+    "delta_threshold_h": 1.2985814303867471e-06,
+    "delta_beta_eff": -2.893417659910469e-07,
+    "shares": [0.050000000000000176, 0.2680000000000007, 0.6820000000000006],
+    "macro_with_frozen_SI_coefficients": {
+      "mu": [0.050000000000000065, 0.2789256109767439, 0.6877425398542387],
+      "energy": [3.7807912495361375e-11, 2.0321854300651497e-10, 5.258550172595953e-10],
+      "total": 7.668814727614716e-10,
+      "q": -0.5285585894376319,
+      "aT": 1.1917875313971119e-10,
+      "v": 207.5102418659153,
+      "lens": 0.5355822400088303
+    },
+    "proper_time_dynamics": [
+      {"frame": 0, "total_energy_J": 3.2007629297232393e-10, "D_load": 0.3287767513123588, "R_load": 0.40972291036349956, "q": -0.5097038713804999, "trace": 0.9999999999999996, "minimum_eigenvalue": -4.624628130264895e-16},
+      {"frame": 1, "total_energy_J": 3.200762929723238e-10, "D_load": 0.36750715988466975, "R_load": 0.39475540612415777, "q": -0.47281858478044236, "trace": 0.9999999999999993, "minimum_eigenvalue": -5.987581712841392e-16},
+      {"frame": 2, "total_energy_J": 3.2007629297232377e-10, "D_load": 0.36247058375094854, "R_load": 0.3967018088968651, "q": -0.4776152177369077, "trace": 0.9999999999999991, "minimum_eigenvalue": -4.141739143280648e-16},
+      {"frame": 4, "total_energy_J": 3.200762929723238e-10, "D_load": 0.35711149671990344, "R_load": 0.39877284715370176, "q": -0.4827189971273493, "trace": 0.9999999999999996, "minimum_eigenvalue": -4.367013472053722e-16},
+      {"frame": 8, "total_energy_J": 3.200762929723236e-10, "D_load": 0.35418444940223065, "R_load": 0.39990401500735906, "q": -0.4855065995096664, "trace": 0.9999999999999991, "minimum_eigenvalue": -3.569626521055517e-16}
+    ],
+    "max_energy_relative_error": 9.992007221626409e-16,
+    "max_trace_absolute_error": 8.881784197001252e-16
+  },
+  "tests": {
+    "finite_source_only": true,
+    "candidate_equals_generator_product": true,
+    "no_refit_ledger_complete": true,
+    "minimal_recalibration_hits_5_26_8_68_2": true,
+    "all_sector_effects_positive_complete": true,
+    "proper_time_energy_conserved": true,
+    "proper_time_state_trace_conserved": true,
+    "product_rule_derived": false
+  },
+  "verdict": "PASS-C: adopt as a finite-generation-window candidate, not as a uniquely derived fundamental constant."
+}
