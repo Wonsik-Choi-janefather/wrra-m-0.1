@@ -65,3 +65,9 @@ Final claim status: see `FINAL_CLAIM_LEDGER.md` and `RELEASE_MANIFEST.json`. The
 ## Zenodo
 
 - MCC 3.0 DOI: https://doi.org/10.5281/zenodo.23202732
+
+## Theory-completion follow-up — reviewed Step 1
+
+- [SOURCE capacity: Korean and English reports, replay code and verification data](theory_completion/step_1_source_capacity/README.md)
+- Reviewed on 8 October 2026. Conditional finite-SOURCE construction and capacity transport pass in the declared uniform/conditional local branch; the three probes use frozen filter and SI coefficients.
+- This follow-up uses its own step numbering and does not rename the historical six integration stages.

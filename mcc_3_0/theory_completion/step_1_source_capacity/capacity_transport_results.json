@@ -1,0 +1,436 @@
+{
+  "status": "PASS",
+  "checks": {
+    "streaming_matches_original": true,
+    "canonical_macro_reproduced": true,
+    "all_address_normalizations": true,
+    "all_active_address_counts": true,
+    "all_pressure_derivatives": true,
+    "all_continuity_residuals": true,
+    "all_numerical_continuity_residuals": true,
+    "same_aT_used_for_rotation_and_lensing": true,
+    "direct_baryonic_source_frozen": true,
+    "all_macro_outputs_finite": true,
+    "all_macro_densities_positive": true,
+    "parameters_not_refitted": true,
+    "SOURCE_changes_reach_macro_outputs": true
+  },
+  "branches": [
+    {
+      "source_input_fractions": [
+        "0.05",
+        "0.268",
+        "0.682"
+      ],
+      "L": 500,
+      "N": 1015000,
+      "active_addresses": 1014999,
+      "shares": [
+        0.04999999999999997,
+        0.2679999999999998,
+        0.682
+      ],
+      "address_moments": [
+        0.05000000000000007,
+        0.2789256109767439,
+        0.6877425398542386
+      ],
+      "counts": [
+        79608,
+        507499,
+        427892
+      ],
+      "output_minus_source_input": [
+        -3.469446951953614e-17,
+        -2.220446049250313e-16,
+        0.0
+      ],
+      "macro": {
+        "E0_sector_J": [
+          3.780791249536138e-11,
+          2.0321854300651497e-10,
+          5.258550172595952e-10
+        ],
+        "rows": [
+          {
+            "a": 0.5,
+            "sector_density_J_m3": [
+              3.0246329996289105e-10,
+              1.6257483440521197e-09,
+              5.258550172595952e-10
+            ],
+            "density_J_m3": 2.454066661274606e-09,
+            "pressure_Pa": -5.258550172595952e-10,
+            "H_over_H0": 1.7888556122867603,
+            "q": 0.17858145895690097,
+            "aT_m_s2": 3.3708841807378924e-10,
+            "aT_rotation_m_s2": 3.3708841807378924e-10,
+            "aT_lensing_m_s2": 3.3708841807378924e-10,
+            "rotation_km_s": 247.74822017931666,
+            "direct_baryonic_km_s": 161.45051053125528,
+            "lensing_arcsec": 0.8146640474241865,
+            "lens_quadrature_error_arcsec": 9.048712273123402e-15
+          },
+          {
+            "a": 1.0,
+            "sector_density_J_m3": [
+              3.780791249536138e-11,
+              2.0321854300651497e-10,
+              5.258550172595952e-10
+            ],
+            "density_J_m3": 7.668814727614716e-10,
+            "pressure_Pa": -5.258550172595952e-10,
+            "H_over_H0": 0.9999913260079338,
+            "q": -0.5285585894376318,
+            "aT_m_s2": 1.1917875313971119e-10,
+            "aT_rotation_m_s2": 1.1917875313971119e-10,
+            "aT_lensing_m_s2": 1.1917875313971119e-10,
+            "rotation_km_s": 207.5102418659153,
+            "direct_baryonic_km_s": 161.45051053125528,
+            "lensing_arcsec": 0.5355822400088303,
+            "lens_quadrature_error_arcsec": 5.9488438374337644e-15
+          },
+          {
+            "a": 2.0,
+            "sector_density_J_m3": [
+              4.725989061920173e-12,
+              2.540231787581437e-11,
+              5.258550172595952e-10
+            ],
+            "density_J_m3": 5.559833241973298e-10,
+            "pressure_Pa": -5.258550172595952e-10,
+            "H_over_H0": 0.8514575347022679,
+            "q": -0.9187161584893829,
+            "aT_m_s2": 4.2136052259223655e-11,
+            "aT_rotation_m_s2": 4.2136052259223655e-11,
+            "aT_lensing_m_s2": 4.2136052259223655e-11,
+            "rotation_km_s": 181.5744855460613,
+            "direct_baryonic_km_s": 161.45051053125528,
+            "lensing_arcsec": 0.3743154242368779,
+            "lens_quadrature_error_arcsec": 4.920041253781711e-15
+          }
+        ],
+        "transition_a": 0.6119598067968818,
+        "pressure_derivative_max_relative_error": 2.2630986479428066e-12,
+        "continuity_max_relative_residual": 0.0,
+        "numeric_continuity_max_relative_residual": 2.870093819374965e-10
+      },
+      "frozen_input_hash_after_branch": "ec30d8eac9478fbab5177e7b48fe504bd70ca9faf9aaf80f01c2f1d93e1ca057"
+    },
+    {
+      "source_input_fractions": [
+        "0.0505",
+        "0.2680",
+        "0.6815"
+      ],
+      "L": 2000,
+      "N": 4060000,
+      "active_addresses": 4059999,
+      "shares": [
+        0.05000133722043349,
+        0.2680009665695821,
+        0.681997696209984
+      ],
+      "address_moments": [
+        0.05000133722043359,
+        0.2779316667945355,
+        0.6872170995220663
+      ],
+      "counts": [
+        287133,
+        2029999,
+        1742867
+      ],
+      "output_minus_source_input": [
+        -0.0004986627795665124,
+        9.66569582094845e-07,
+        0.0004976962099839666
+      ],
+      "macro": {
+        "E0_sector_J": [
+          3.7808923645624125e-11,
+          2.0249437899794341e-10,
+          5.254532601791013e-10
+        ],
+        "rows": [
+          {
+            "a": 0.5,
+            "sector_density_J_m3": [
+              3.02471389164993e-10,
+              1.6199550319835473e-09,
+              5.254532601791013e-10
+            ],
+            "density_J_m3": 2.4478796813276417e-09,
+            "pressure_Pa": -5.254532601791013e-10,
+            "H_over_H0": 1.7865992354613007,
+            "q": 0.17801526509621113,
+            "aT_m_s2": 3.3648727914152386e-10,
+            "aT_rotation_m_s2": 3.3648727914152386e-10,
+            "aT_lensing_m_s2": 3.3648727914152386e-10,
+            "rotation_km_s": 247.66544920507343,
+            "direct_baryonic_km_s": 161.45051053125528,
+            "lensing_arcsec": 0.8140459811441672,
+            "lens_quadrature_error_arcsec": 9.04298590311045e-15
+          },
+          {
+            "a": 1.0,
+            "sector_density_J_m3": [
+              3.7808923645624125e-11,
+              2.0249437899794341e-10,
+              5.254532601791013e-10
+            ],
+            "density_J_m3": 7.657565628226689e-10,
+            "pressure_Pa": -5.254532601791013e-10,
+            "H_over_H0": 0.9992576317913474,
+            "q": -0.5292825795228291,
+            "aT_m_s2": 1.1896621843199112e-10,
+            "aT_rotation_m_s2": 1.1896621843199112e-10,
+            "aT_lensing_m_s2": 1.1896621843199112e-10,
+            "rotation_km_s": 207.4541349970819,
+            "direct_baryonic_km_s": 161.45051053125528,
+            "lensing_arcsec": 0.5352210185078975,
+            "lens_quadrature_error_arcsec": 5.943581607280667e-15
+          },
+          {
+            "a": 2.0,
+            "sector_density_J_m3": [
+              4.7261154557030156e-12,
+              2.5311797374742927e-11,
+              5.254532601791013e-10
+            ],
+            "density_J_m3": 5.554911730095472e-10,
+            "pressure_Pa": -5.254532601791013e-10,
+            "H_over_H0": 0.8510806001848741,
+            "q": -0.9188882354303505,
+            "aT_m_s2": 4.206090989269048e-11,
+            "aT_rotation_m_s2": 4.206090989269048e-11,
+            "aT_lensing_m_s2": 4.206090989269048e-11,
+            "rotation_km_s": 181.5409523653538,
+            "direct_baryonic_km_s": 161.45051053125528,
+            "lensing_arcsec": 0.37411062981959836,
+            "lens_quadrature_error_arcsec": 4.918423703746448e-15
+          }
+        ],
+        "transition_a": 0.6115029422696393,
+        "pressure_derivative_max_relative_error": 7.594398127273097e-14,
+        "continuity_max_relative_residual": 0.0,
+        "numeric_continuity_max_relative_residual": 2.9106226446196227e-10
+      },
+      "frozen_input_hash_after_branch": "ec30d8eac9478fbab5177e7b48fe504bd70ca9faf9aaf80f01c2f1d93e1ca057"
+    },
+    {
+      "source_input_fractions": [
+        "0.0501",
+        "0.2680",
+        "0.6819"
+      ],
+      "L": 10000,
+      "N": 20300000,
+      "active_addresses": 20299999,
+      "shares": [
+        0.05000175731539848,
+        0.2680012646240101,
+        0.6819969780605918
+      ],
+      "address_moments": [
+        0.050001757315398576,
+        0.2769822220697298,
+        0.6867171485355604
+      ],
+      "counts": [
+        1288409,
+        10149999,
+        8861591
+      ],
+      "output_minus_source_input": [
+        -9.824268460151969e-05,
+        1.2646240100666617e-06,
+        9.697806059183467e-05
+      ],
+      "macro": {
+        "E0_sector_J": [
+          3.7809241303897644e-11,
+          2.0180263623196152e-10,
+          5.250709925143822e-10
+        ],
+        "rows": [
+          {
+            "a": 0.5,
+            "sector_density_J_m3": [
+              3.0247393043118115e-10,
+              1.6144210898556921e-09,
+              5.250709925143822e-10
+            ],
+            "density_J_m3": 2.4419660128012556e-09,
+            "pressure_Pa": -5.250709925143822e-10,
+            "H_over_H0": 1.7844398678049163,
+            "q": 0.177470331428534,
+            "aT_m_s2": 3.359120489346028e-10,
+            "aT_rotation_m_s2": 3.359120489346028e-10,
+            "aT_lensing_m_s2": 3.359120489346028e-10,
+            "rotation_km_s": 247.58615393414368,
+            "direct_baryonic_km_s": 161.45051053125528,
+            "lensing_arcsec": 0.8134540458523952,
+            "lens_quadrature_error_arcsec": 9.034052368865802e-15
+          },
+          {
+            "a": 1.0,
+            "sector_density_J_m3": [
+              3.7809241303897644e-11,
+              2.0180263623196152e-10,
+              5.250709925143822e-10
+            ],
+            "density_J_m3": 7.646828700502414e-10,
+            "pressure_Pa": -5.250709925143822e-10,
+            "H_over_H0": 0.9985568398564548,
+            "q": -0.529977941992902,
+            "aT_m_s2": 1.1876284384196252e-10,
+            "aT_rotation_m_s2": 1.1876284384196252e-10,
+            "aT_lensing_m_s2": 1.1876284384196252e-10,
+            "rotation_km_s": 207.40039181157826,
+            "direct_baryonic_km_s": 161.45051053125528,
+            "lensing_arcsec": 0.5348750792521283,
+            "lens_quadrature_error_arcsec": 5.940388359568738e-15
+          },
+          {
+            "a": 2.0,
+            "sector_density_J_m3": [
+              4.7261551629872055e-12,
+              2.522532952899519e-11,
+              5.250709925143822e-10
+            ],
+            "density_J_m3": 5.550224772063647e-10,
+            "pressure_Pa": -5.250709925143822e-10,
+            "H_over_H0": 0.8507214746911412,
+            "q": -0.919053319670747,
+            "aT_m_s2": 4.198900611682535e-11,
+            "aT_rotation_m_s2": 4.198900611682535e-11,
+            "aT_lensing_m_s2": 4.198900611682535e-11,
+            "rotation_km_s": 181.5088415967819,
+            "direct_baryonic_km_s": 161.45051053125528,
+            "lensing_arcsec": 0.37391451540708404,
+            "lens_quadrature_error_arcsec": 4.916613591324467e-15
+          }
+        ],
+        "transition_a": 0.6110641051956989,
+        "pressure_derivative_max_relative_error": 9.892232371301449e-14,
+        "continuity_max_relative_residual": 0.0,
+        "numeric_continuity_max_relative_residual": 2.8511164973321535e-10
+      },
+      "frozen_input_hash_after_branch": "ec30d8eac9478fbab5177e7b48fe504bd70ca9faf9aaf80f01c2f1d93e1ca057"
+    }
+  ],
+  "frozen_parameters": {
+    "alpha": 1.8996877935161325,
+    "h": 1.4476744689338703,
+    "calibration": {
+      "ucrit_J_m3": 7.668947767821907e-10,
+      "H0_s_minus1": 2.1842852410855023e-18,
+      "reference_address_moments": {
+        "phenotype": 0.0500000000000009,
+        "resident_nonphenotype": 0.2789373775449565,
+        "return": 0.687748727555431
+      },
+      "eta_J_m3": {
+        "phenotype": 7.561582499072265e-10,
+        "resident_nonphenotype": 7.285761328795971e-10,
+        "return": 7.646102818811323e-10
+      },
+      "target_energy_fractions": {
+        "phenotype": 0.0493,
+        "resident_nonphenotype": 0.265,
+        "return": 0.6857
+      },
+      "ownership": "three positive SI response coefficients fit to disclosed sector-energy targets; not equal energy per bit",
+      "reference_state": "frozen 0.9 address measure and uniform carrier"
+    },
+    "energy_map": {
+      "rule": "positive_address_response_times_carrier_operator",
+      "address_response_lambda": {
+        "phenotype": 0.0,
+        "resident_nonphenotype": 0.25,
+        "return": 0.1
+      },
+      "energy_volume_exponents": {
+        "phenotype": 0.0,
+        "resident_nonphenotype": 0.0,
+        "return": 3.0
+      },
+      "reference_energy_fractions": {
+        "phenotype": 0.0493,
+        "resident_nonphenotype": 0.265,
+        "return": 0.6857
+      },
+      "alternate_energy_fractions": {
+        "phenotype": 0.05,
+        "resident_nonphenotype": 0.268,
+        "return": 0.682
+      },
+      "operator_rule": "phenotype_I_D_Kc_over_2_R_Kb_over_2",
+      "calibration_policy": "fit SI coefficients once on frozen upstream reference and uniform carrier then hold for all probes",
+      "pending_SOURCE_response": "same epsilon as return background response"
+    }
+  },
+  "scope": "uniform carrier, homogeneous energy-pressure branch, conditional Plummer local lens patch",
+  "calibration_note": "Changed fractions select SOURCE sizes only; frozen filters are not recalibrated to those new targets.",
+  "not_claimed": [
+    "real time evolution of SOURCE capacity",
+    "observational validation",
+    "nonuniform covariant completion",
+    "fixed total energy during expansion"
+  ],
+  "source_provenance": {
+    "repository": "Wonsik-Choi-janefather/wrra-m-0.1",
+    "source_commit": "41b3a2ec356033d58877a3c6bfea00421ae5f1e9",
+    "sources": [
+      {
+        "local": "compute.py",
+        "path": "calculations/wrra_m_0_9/compute.py",
+        "git_blob_sha": "f4135f3b46dcda6c01cc3b0495747f2d9f543dba",
+        "sha256": "7e23a5eb28032bf7fa87864f9fc02d683eb22300c62255e7f0239e0d01e6a7a7"
+      },
+      {
+        "local": "parameters.json",
+        "path": "calculations/wrra_m_0_9/parameters.json",
+        "git_blob_sha": "93612d2fdd4e388cd786cd0c80d118fabf132b55",
+        "sha256": "e02e864aeaa9c54fccb260de0a866b2001bbd51f8b5a1831efb2f0806cd5164a"
+      },
+      {
+        "local": "m10_compute.py",
+        "path": "calculations/wrra_m_0_10/compute.py",
+        "git_blob_sha": "c3e932c1fa4c5ac15d3638682a3ac31eaf264cd3",
+        "sha256": "ff709af2510d215ee5d96d0fccfac87e9ed8c09da0bff6c713ffa30b500bcb96"
+      },
+      {
+        "local": "m10_parameters.json",
+        "path": "calculations/wrra_m_0_10/parameters.json",
+        "git_blob_sha": "f3e83b3f2b1081976fec867c5fd0232e93e5133f",
+        "sha256": "0dc068c286f9c2413292156a94b56fa649631c52a53faa73caec5639eb8f658e"
+      },
+      {
+        "local": "m10_results.json",
+        "path": "calculations/wrra_m_0_10/results/results.json",
+        "git_blob_sha": "a05bbdae9d7d32a18f0cd08fc08091cdbad6ea82",
+        "sha256": "a506f1247465188f61f6eeb43506662d41f44dfb86319eaf219c4249efb4a95b"
+      },
+      {
+        "local": "stage2_handoff.json",
+        "path": "mcc_3_0/stage_2_finite_source_insertion/STAGE3_HANDOFF.json",
+        "git_blob_sha": "b2de53f11c4ba45cf3ba5c7f7ff3e5b4cd8e6d35",
+        "sha256": "39cb62b0524c3621298291534ea1ffe9c5e38b3b086478edd05547081a2a8637"
+      },
+      {
+        "local": "run_stage5.py",
+        "path": "mcc_3_0/stage_5_macro_universe_replay/run_stage5.py",
+        "git_blob_sha": "3d496545a8d7c8d1d4bdaddb2d1ffc6f1ca8885a",
+        "sha256": "5e073eafe4379230f7a026b6b012162ae11260d548419c179f0fe3338fbbd3e0"
+      }
+    ]
+  },
+  "frozen_input_hash": "ec30d8eac9478fbab5177e7b48fe504bd70ca9faf9aaf80f01c2f1d93e1ca057",
+  "software_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "review_date": "2026-10-08"
+}

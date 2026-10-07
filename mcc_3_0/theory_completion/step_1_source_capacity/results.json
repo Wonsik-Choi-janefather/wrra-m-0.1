@@ -1,0 +1,204 @@
+{
+  "scope": "denominator factor only; H=29 and C=70 frozen, not rederived",
+  "decimal_cases": [
+    {
+      "inputs": [
+        "0.05",
+        "0.268",
+        "0.682"
+      ],
+      "L": 500,
+      "N": 1015000
+    },
+    {
+      "inputs": [
+        "0.0500",
+        "0.2680",
+        "0.6820"
+      ],
+      "L": 500,
+      "N": 1015000
+    },
+    {
+      "inputs": [
+        "0.0501",
+        "0.2680",
+        "0.6819"
+      ],
+      "L": 10000,
+      "N": 20300000
+    },
+    {
+      "inputs": [
+        "0.05001",
+        "0.26800",
+        "0.68199"
+      ],
+      "L": 100000,
+      "N": 203000000
+    }
+  ],
+  "illustrative_tolerance_scenarios": [
+    {
+      "epsilon": "0",
+      "L": 500,
+      "N": 1015000,
+      "counts": [
+        25,
+        134,
+        341
+      ],
+      "shares": [
+        "1/20",
+        "67/250",
+        "341/500"
+      ]
+    },
+    {
+      "epsilon": "1/20000",
+      "L": 500,
+      "N": 1015000,
+      "counts": [
+        25,
+        134,
+        341
+      ],
+      "shares": [
+        "1/20",
+        "67/250",
+        "341/500"
+      ]
+    },
+    {
+      "epsilon": "1/10000",
+      "L": 500,
+      "N": 1015000,
+      "counts": [
+        25,
+        134,
+        341
+      ],
+      "shares": [
+        "1/20",
+        "67/250",
+        "341/500"
+      ]
+    },
+    {
+      "epsilon": "1/2000",
+      "L": 179,
+      "N": 363370,
+      "counts": [
+        9,
+        48,
+        122
+      ],
+      "shares": [
+        "9/179",
+        "48/179",
+        "122/179"
+      ]
+    },
+    {
+      "epsilon": "1/1000",
+      "L": 138,
+      "N": 280140,
+      "counts": [
+        7,
+        37,
+        94
+      ],
+      "shares": [
+        "7/138",
+        "37/138",
+        "47/69"
+      ]
+    },
+    {
+      "epsilon": "1/200",
+      "L": 19,
+      "N": 38570,
+      "counts": [
+        1,
+        5,
+        13
+      ],
+      "shares": [
+        "1/19",
+        "5/19",
+        "13/19"
+      ]
+    }
+  ],
+  "fixed_resolution_controls": [
+    {
+      "inputs": [
+        "0.05",
+        "0.268",
+        "0.682"
+      ],
+      "fixed_L": 500,
+      "epsilon": "0.0001",
+      "counts": [
+        25,
+        134,
+        341
+      ]
+    },
+    {
+      "inputs": [
+        "0.0500",
+        "0.2680",
+        "0.6820"
+      ],
+      "fixed_L": 500,
+      "epsilon": "0.0001",
+      "counts": [
+        25,
+        134,
+        341
+      ]
+    },
+    {
+      "inputs": [
+        "0.0501",
+        "0.2680",
+        "0.6819"
+      ],
+      "fixed_L": 500,
+      "epsilon": "0.0001",
+      "counts": [
+        25,
+        134,
+        341
+      ]
+    },
+    {
+      "inputs": [
+        "0.05001",
+        "0.26800",
+        "0.68199"
+      ],
+      "fixed_L": 500,
+      "epsilon": "0.0001",
+      "counts": [
+        25,
+        134,
+        341
+      ]
+    }
+  ],
+  "warning": "Counts are rational representation units, not actual prime-filter populations.",
+  "nearest_smaller_resolution": {
+    "L": 459,
+    "counts": [
+      23,
+      123,
+      313
+    ],
+    "minimax_error": "1/9180",
+    "float_error": 0.00010893246187363834,
+    "robustness_condition": "delta <= epsilon < 1/9180 - delta (sufficient)",
+    "maximum_symmetric_guarantee_delta_strictly_below": "1/18360"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "release": "WRRA-MCC-3.0-theory-step1-r1",
+  "review_date": "2026-10-08",
+  "source_commit": "41b3a2ec356033d58877a3c6bfea00421ae5f1e9",
+  "verification_status": "PASS",
+  "verification_checks": 13,
+  "completed_scope": "uniform carrier, homogeneous energy-pressure branch, conditional Plummer local lens patch",
+  "frozen_input_hash": "ec30d8eac9478fbab5177e7b48fe504bd70ca9faf9aaf80f01c2f1d93e1ca057",
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "primary_replay": "python reproduce.py",
+  "theory_changed": "SOURCE-update contract clarified; reference filter and physical coefficients preserved",
+  "phase_candidate_adopted": false
+}
