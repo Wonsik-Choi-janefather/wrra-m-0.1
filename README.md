@@ -591,7 +591,7 @@ The 0.5 titles and claim ledger now foreground information load and twist gravit
 
 ## 2026-10-07 — finite SOURCE closure candidate (KZF v0.1)
 
-A new upstream finite-generation-window candidate is available at `upstream/finite_source_kzf_v0_1/`.
+A new upstream finite-generation-window candidate is available at `upstream/finite_klein_zeta_window_v0_1/`.
 
 - Candidate: `N_U = 500 × 29 × 70 = 1,015,000`
 - Status: **PASS-C** — admissible candidate, not yet a uniquely derived fundamental constant
