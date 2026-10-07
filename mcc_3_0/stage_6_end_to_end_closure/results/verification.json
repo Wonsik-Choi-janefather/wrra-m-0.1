@@ -1,0 +1,101 @@
+{
+  "project": "Minimal Computing Cosmology 3.0",
+  "stage": "6_end_to_end_closure",
+  "date": "2026-10-07",
+  "verdict": "PASS",
+  "integrated_model_status": "PASS-C",
+  "checks": [
+    {
+      "id": "S6-01",
+      "check": "Stage2 N_U equals Stage3 handoff N_U",
+      "passed": true,
+      "evidence": {
+        "N_U": 1015000
+      }
+    },
+    {
+      "id": "S6-02",
+      "check": "Stage2 alpha/h/beta equal Stage3 input",
+      "passed": true,
+      "evidence": {
+        "alpha": 1.8996877935161325,
+        "h": 1.4476744689338703,
+        "beta_eff": 0.8654567230719301
+      }
+    },
+    {
+      "id": "S6-03",
+      "check": "Stage3 phenotype and N_U match Stage4",
+      "passed": true,
+      "evidence": {
+        "N_U": 1015000,
+        "phenotype_stage3": 0.05,
+        "phenotype_stage4": 0.050000000000000176
+      }
+    },
+    {
+      "id": "S6-04",
+      "check": "Stage4 additive energies sum to Master Ledger total",
+      "passed": true,
+      "evidence": {
+        "sum_J": 7.668814727614716e-10,
+        "total_J": 7.668814727614716e-10
+      }
+    },
+    {
+      "id": "S6-05",
+      "check": "Stage4 total energy and pressure equal Stage5 present source",
+      "passed": true,
+      "evidence": {
+        "energy_J": 7.668814727614716e-10,
+        "pressure_Pa": -5.258550172595953e-10
+      }
+    },
+    {
+      "id": "S6-06",
+      "check": "Stage4 diagnostic q equals Stage5 present q",
+      "passed": true,
+      "evidence": {
+        "q": -0.5285585894376319
+      }
+    },
+    {
+      "id": "S6-07",
+      "check": "Stage5 q/rotation/lensing equal Stage6 handoff",
+      "passed": true,
+      "evidence": {
+        "q": -0.5285585894376319,
+        "rotation_km_s": 207.5102418659153,
+        "lensing_arcsec": 0.5355822400088303
+      }
+    },
+    {
+      "id": "S6-08",
+      "check": "Every Stage1-5 verification record reports all checks passed",
+      "passed": true
+    },
+    {
+      "id": "S6-09",
+      "check": "No Stage4/5 SI refit",
+      "passed": true,
+      "evidence": {
+        "stage4": false,
+        "stage5": false
+      }
+    },
+    {
+      "id": "S6-10",
+      "check": "No component/channel energy double count",
+      "passed": true
+    },
+    {
+      "id": "S6-11",
+      "check": "Conditional source, spin and species claims remain open",
+      "passed": true
+    }
+  ],
+  "published_stage_checks_total": 54,
+  "cross_stage_checks_total": 11,
+  "grand_declared_checks_total": 65,
+  "all_checks_passed": true
+}
