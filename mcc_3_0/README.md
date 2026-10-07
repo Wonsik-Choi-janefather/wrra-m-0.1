@@ -47,3 +47,10 @@ Stage 5: `stage_5_macro_universe_replay/` — finite-SOURCE energy/pressure is p
 Stage 6: `stage_6_end_to_end_closure/` — cross-stage audit, final verification ledger and end-to-end closure. Single replay entry point: `reproduce_mcc_3_0.py`.
 
 Final claim status: see `FINAL_CLAIM_LEDGER.md` and `RELEASE_MANIFEST.json`. The six-stage integration is complete; the finite-SOURCE product law and selected microscopic particle claims remain conditional/open.
+
+
+## Public dataset and release documents
+
+- Dataset index: `dataset/README.md`
+- Machine-readable dataset index: `dataset/DATASET_INDEX.json`
+- Integrated manuscripts and generated PDF/Word editions: `paper/`
