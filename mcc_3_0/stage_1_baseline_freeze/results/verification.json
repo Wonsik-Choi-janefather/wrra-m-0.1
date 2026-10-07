@@ -1,0 +1,63 @@
+{
+  "project": "Minimal Computing Cosmology 3.0",
+  "stage": "1_baseline_freeze",
+  "date": "2026-10-07",
+  "verdict": "PASS",
+  "baseline_lock_id": "MCC3-S1-21daec11-43b998ca-f667bbdf",
+  "checks": [
+    {
+      "id": "S1-01",
+      "check": "MCC 2.3.2 source pinned",
+      "passed": true,
+      "evidence": {
+        "commit": "21daec110c0cbecb228c445d587eac8302e7f767"
+      }
+    },
+    {
+      "id": "S1-02",
+      "check": "WRRA_M 1.0 r1 source pinned",
+      "passed": true,
+      "evidence": {
+        "commit": "43b998ca0ac63c6ae21eb0e0bc543e98172a42e4",
+        "doi": "10.5281/zenodo.23126800"
+      }
+    },
+    {
+      "id": "S1-03",
+      "check": "KZF v0.1 source pinned",
+      "passed": true,
+      "evidence": {
+        "commit": "f667bbdfc7d6b6202fda8003289d11ff69d491b1",
+        "status": "PASS-C"
+      }
+    },
+    {
+      "id": "S1-04",
+      "check": "input/calibration/rule/output/open roles separated",
+      "passed": true,
+      "evidence": {
+        "roles": [
+          "verification_input",
+          "calibration_input",
+          "WRRA_specific_rule",
+          "derived_output",
+          "open_assumption"
+        ]
+      }
+    },
+    {
+      "id": "S1-05",
+      "check": "KZF uniqueness claims remain open",
+      "passed": true,
+      "evidence": {
+        "open": [
+          "T=2*pi*H",
+          "L,H,C independence",
+          "N_U=L*H*C uniqueness",
+          "Klein quotient physical necessity"
+        ]
+      }
+    }
+  ],
+  "all_checks_passed": true
+}
