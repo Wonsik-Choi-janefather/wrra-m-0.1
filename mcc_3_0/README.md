@@ -54,3 +54,8 @@ Final claim status: see `FINAL_CLAIM_LEDGER.md` and `RELEASE_MANIFEST.json`. The
 - Dataset index: `dataset/README.md`
 - Machine-readable dataset index: `dataset/DATASET_INDEX.json`
 - Integrated manuscripts and generated PDF/Word editions: `paper/`
+
+
+## Zenodo
+
+- MCC 3.0 DOI: https://doi.org/10.5281/zenodo.23202732
