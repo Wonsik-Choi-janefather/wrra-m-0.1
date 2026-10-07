@@ -1,0 +1,27 @@
+{
+  "project": "Minimal Computing Cosmology 3.0",
+  "from_stage": 3,
+  "to_stage": 4,
+  "status": "READY-CONDITIONAL",
+  "source_state": {
+    "N_U": 1015000,
+    "phenotype_weight": 0.05,
+    "admitted_odd_composite_addresses": 427892,
+    "K15_phase_profiles": {
+      "small_first_neutron_fraction": 0.12947198693705966,
+      "large_first_neutron_fraction": 0.1271594116970887
+    },
+    "K16_small_first_neutron_fraction": 0.12498278121735387,
+    "charge_motifs_neutral": true,
+    "color_singlet": true,
+    "spin_status": "OPEN"
+  },
+  "constraints": [
+    "Do not convert component counts directly into new cosmic energy.",
+    "Use a typed ledger to map component/phenotype allocations into the already existing phenotype energy budget.",
+    "Preserve order/species ambiguity as an OPEN field.",
+    "Do not claim spin/binding closure in Stage 4.",
+    "Keep downstream SI coefficients frozen on first pass."
+  ],
+  "next_scope": "Connect finite component/phenotype inventory to one information-load and SI-energy Master Ledger without duplication."
+}
