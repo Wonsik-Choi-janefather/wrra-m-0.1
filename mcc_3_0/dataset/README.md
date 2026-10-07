@@ -1,5 +1,7 @@
 # Minimal Computing Cosmology 3.0 — Dataset Index
 
+Zenodo DOI: https://doi.org/10.5281/zenodo.23202732
+
 This folder is the public dataset index for MCC 3.0. It does not duplicate the stage outputs; it points to the machine-readable source-of-truth files committed with each stage.
 
 ## Core release data
