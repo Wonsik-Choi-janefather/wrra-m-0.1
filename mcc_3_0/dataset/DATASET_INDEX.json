@@ -1,0 +1,50 @@
+{
+  "title": "Minimal Computing Cosmology 3.0 Dataset",
+  "version": "3.0",
+  "date": "2026-10-07",
+  "authors": [
+    "Wonsik Choi",
+    "Jeongin Choi"
+  ],
+  "repository": "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1",
+  "integrated_status": {
+    "computational_closure": "PASS",
+    "scientific_model": "PASS-C"
+  },
+  "verification": {
+    "stage_1_to_5_checks": 54,
+    "stage_6_cross_stage_checks": 11,
+    "total_declared_checks": 65,
+    "all_passed": true
+  },
+  "headline_outputs": {
+    "finite_source_N_U": 1015000,
+    "q0": -0.5285585894376319,
+    "aT_m_s2": 1.1917875313971119e-10,
+    "rotation_km_s": 207.5102418659153,
+    "conditional_lensing_arcsec": 0.5355822400088303,
+    "acceleration_transition_scale_factor": 0.6119598067968817
+  },
+  "files": [
+    "mcc_3_0/RELEASE_MANIFEST.json",
+    "mcc_3_0/stage_1_baseline_freeze/baseline_manifest.json",
+    "mcc_3_0/stage_1_baseline_freeze/results/verification.json",
+    "mcc_3_0/stage_2_finite_source_insertion/results/results.json",
+    "mcc_3_0/stage_2_finite_source_insertion/results/verification.json",
+    "mcc_3_0/stage_2_finite_source_insertion/results/candidate_patch.json",
+    "mcc_3_0/stage_3_particle_component_replay/inputs_manifest.json",
+    "mcc_3_0/stage_3_particle_component_replay/results/results.json",
+    "mcc_3_0/stage_3_particle_component_replay/results/verification.json",
+    "mcc_3_0/stage_4_single_load_energy_master_ledger/inputs_manifest.json",
+    "mcc_3_0/stage_4_single_load_energy_master_ledger/results/results.json",
+    "mcc_3_0/stage_4_single_load_energy_master_ledger/results/verification.json",
+    "mcc_3_0/stage_4_single_load_energy_master_ledger/results/master_sector_ledger.csv",
+    "mcc_3_0/stage_4_single_load_energy_master_ledger/results/component_energy_ledger.csv",
+    "mcc_3_0/stage_4_single_load_energy_master_ledger/results/field_channel_energy_ledger.csv",
+    "mcc_3_0/stage_5_macro_universe_replay/inputs_manifest.json",
+    "mcc_3_0/stage_5_macro_universe_replay/results/results.json",
+    "mcc_3_0/stage_5_macro_universe_replay/results/verification.json",
+    "mcc_3_0/stage_6_end_to_end_closure/results/end_to_end_audit.json",
+    "mcc_3_0/stage_6_end_to_end_closure/results/verification.json"
+  ]
+}
