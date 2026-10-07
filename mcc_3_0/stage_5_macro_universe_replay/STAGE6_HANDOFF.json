@@ -1,0 +1,26 @@
+{
+  "project": "Minimal Computing Cosmology 3.0",
+  "from_stage": 5,
+  "to_stage": 6,
+  "status": "READY",
+  "source_state": {
+    "N_U": 1015000,
+    "present_total_density_J_m3": 7.668814727614716e-10,
+    "present_pressure_Pa": -5.258550172595953e-10,
+    "present_H_over_H0": 0.9999913260079338,
+    "present_q": -0.5285585894376319,
+    "present_aT_m_s2": 1.1917875313971119e-10,
+    "present_rotation_km_s": 207.5102418659153,
+    "present_lensing_arcsec": 0.5355822400088303,
+    "acceleration_transition_scale_factor": 0.6119598067968817,
+    "coefficients_refit": false,
+    "stage5_status": "PASS"
+  },
+  "final_scope": [
+    "execute a single MCC 3.0 end-to-end orchestration from finite generator through macro outputs",
+    "audit Stage 1-5 provenance and verification data",
+    "verify no hidden refits or double counting",
+    "produce final claim-grade ledger separating verified inputs, calibrations, derived outputs and open assumptions",
+    "prepare bilingual MCC 3.0 release materials only after the end-to-end audit passes"
+  ]
+}
