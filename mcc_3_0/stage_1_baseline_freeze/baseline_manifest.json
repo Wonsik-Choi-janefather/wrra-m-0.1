@@ -1,0 +1,86 @@
+{
+  "project": "Minimal Computing Cosmology 3.0",
+  "stage": "1_baseline_freeze",
+  "status": "PASS",
+  "date": "2026-10-07",
+  "authors": [
+    "Wonsik Choi",
+    "Jeongin Choi"
+  ],
+  "baseline_lock_id": "MCC3-S1-21daec11-43b998ca-f667bbdf",
+  "frozen_sources": [
+    {
+      "id": "MCC_2_3_2",
+      "repository": "Wonsik-Choi-janefather/minimal-computing-cosmology-2.3.2",
+      "commit": "21daec110c0cbecb228c445d587eac8302e7f767",
+      "role": "foundational_theory_corpus",
+      "mutation_policy": "read_only_provenance"
+    },
+    {
+      "id": "WRRA_M_1_0_r1",
+      "repository": "Wonsik-Choi-janefather/wrra-m-0.1",
+      "path": "integrated/v1_0_r1",
+      "commit": "43b998ca0ac63c6ae21eb0e0bc543e98172a42e4",
+      "doi": "10.5281/zenodo.23126800",
+      "role": "frozen_executable_physical_baseline",
+      "mutation_policy": "read_only_provenance"
+    },
+    {
+      "id": "KZF_v0_1",
+      "repository": "Wonsik-Choi-janefather/wrra-m-0.1",
+      "path": "upstream/finite_klein_zeta_window_v0_1",
+      "commit": "f667bbdfc7d6b6202fda8003289d11ff69d491b1",
+      "role": "conditional_finite_source_generator",
+      "status": "PASS-C",
+      "mutation_policy": "candidate_input_to_MCC3_only"
+    }
+  ],
+  "role_classes": [
+    "verification_input",
+    "calibration_input",
+    "WRRA_specific_rule",
+    "derived_output",
+    "open_assumption"
+  ],
+  "core_values": {
+    "arithmetic_targets": {
+      "phenotype": 0.05,
+      "resident_nonphenotype": 0.268,
+      "return": 0.682
+    },
+    "legacy_physical_energy_targets": {
+      "phenotype": 0.0493,
+      "clustering": 0.265,
+      "return_background": 0.6857
+    },
+    "legacy_address_cutoff_regression_only": 1000000,
+    "kzf_candidate_N_U": 1015000,
+    "kzf_L": 500,
+    "kzf_H": 29,
+    "kzf_C": 70,
+    "kzf_status": "PASS-C"
+  },
+  "calibration_registry": {
+    "legacy_alpha": 1.8996876950554356,
+    "legacy_h": 1.44767317035244,
+    "legacy_beta_scalar": 0.8654570124136961,
+    "candidate_alpha": 1.8996877935161325,
+    "candidate_h": 1.4476744689338703,
+    "candidate_beta_eff_derived": 0.8654567230719301
+  },
+  "open_assumptions": [
+    "T = 2*pi*H is the physically required zeta phase boundary",
+    "L, H, C are independent Cartesian WRRA state coordinates",
+    "N_U = L*H*C is the unique finite closure",
+    "Klein-type orientation reversal is the required upstream topology",
+    "zeta-focus structure is a physical upstream mechanism"
+  ],
+  "stage_2_contract": {
+    "goal": "insert finite SOURCE generator upstream of the frozen WRRA_M address filter inside MCC 3.0 only",
+    "preserve_legacy_regression": true,
+    "legacy_N": 1000000,
+    "candidate_N": 1015000,
+    "hidden_refit_forbidden": true,
+    "source_pin_changes_require_new_provenance": true
+  }
+}
