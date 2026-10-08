@@ -12,3 +12,6 @@ All eight registered replay checks passed. Astra internal AI review recommends a
 
 Companion WRRA paper: https://doi.org/10.5281/zenodo.23233991
 Parent MCC 3.0: https://doi.org/10.5281/zenodo.23202732
+
+Published preprint (8 October 2026): https://doi.org/10.5281/zenodo.23235447
+Zenodo record: https://zenodo.org/records/23235447
