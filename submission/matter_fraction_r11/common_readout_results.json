@@ -1,0 +1,51 @@
+{
+  "passed": 8,
+  "total": 8,
+  "fine_state_l1_distance": 0.009450710261045284,
+  "coarse_outputs": [
+    [
+      0.05000000000000001,
+      0.268,
+      0.682
+    ],
+    [
+      0.05,
+      0.268,
+      0.682
+    ]
+  ],
+  "checks": [
+    {
+      "name": "drive 0 flagged state positive and trace one",
+      "passed": true
+    },
+    {
+      "name": "drive 0 conditional distribution normalized",
+      "passed": true
+    },
+    {
+      "name": "drive 1 flagged state positive and trace one",
+      "passed": true
+    },
+    {
+      "name": "drive 1 conditional distribution normalized",
+      "passed": true
+    },
+    {
+      "name": "fine states are distinguishable",
+      "passed": true
+    },
+    {
+      "name": "same partial trace erases their difference",
+      "passed": true
+    },
+    {
+      "name": "calibrated coarse output",
+      "passed": true
+    },
+    {
+      "name": "same energy for several positive volumes",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "scope": "Declared address-sensitive load before aggregation; no measured carrier energy assigned",
+  "w9": 0.02051698484631258,
+  "rows": [
+    {
+      "drive": "zeta_dynamic",
+      "T9": 0.8568130062359565,
+      "energy_fractions": [
+        0.06622057297286818,
+        0.2626119937047008,
+        0.6711674333224312
+      ]
+    },
+    {
+      "drive": "zeta_static",
+      "T9": 0.8038671714112204,
+      "energy_fractions": [
+        0.06515612337829522,
+        0.2626119937047008,
+        0.6722318829170042
+      ]
+    },
+    {
+      "drive": "equal_frequency",
+      "T9": 0.8858008519974042,
+      "energy_fractions": [
+        0.06680335914991983,
+        0.2626119937047008,
+        0.6705846471453796
+      ]
+    },
+    {
+      "drive": "constant_admission",
+      "T9": 0.8654570124136897,
+      "energy_fractions": [
+        0.06639435640459293,
+        0.2626119937047008,
+        0.6709936498907064
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "zeta_dynamic admission reproduced",
+      "passed": true
+    },
+    {
+      "name": "zeta_dynamic energy fractions positive and normalized",
+      "passed": true
+    },
+    {
+      "name": "zeta_static admission reproduced",
+      "passed": true
+    },
+    {
+      "name": "zeta_static energy fractions positive and normalized",
+      "passed": true
+    },
+    {
+      "name": "equal_frequency admission reproduced",
+      "passed": true
+    },
+    {
+      "name": "equal_frequency energy fractions positive and normalized",
+      "passed": true
+    },
+    {
+      "name": "constant_admission admission reproduced",
+      "passed": true
+    },
+    {
+      "name": "constant_admission energy fractions positive and normalized",
+      "passed": true
+    },
+    {
+      "name": "address-sensitive readout distinguishes all four controls",
+      "passed": true
+    }
+  ],
+  "passed": 9,
+  "total": 9
+}
