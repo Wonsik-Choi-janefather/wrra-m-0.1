@@ -1,0 +1,103 @@
+{
+  "status": "PASS",
+  "version": "0.4",
+  "checks": {
+    "full_inherited_internal_replay_passes": true,
+    "electron_anchor_reproduced_by_mode23": true,
+    "signed_mass_modes_share_positive_rest_energy": true,
+    "two_internal_branches_same_mass_anchor": true,
+    "different_internal_model_gap_explicitly_distinguished": true,
+    "original_supplier_rejects_joint_branch_and_covers_principal": true,
+    "both_branches_replace_phi_once": true,
+    "record_work_covariant_with_actual_mixing_basis": true,
+    "physical_basis_joint_states_positive_normalized": true,
+    "derived_supplier_covers_each_internal_branch": true,
+    "joint_state_reproduces_two_moments_and_axial": true,
+    "current_SOURCE_transfer_without_refit_finite_positive": true
+  },
+  "inherited_replay_checks": 38,
+  "electron_scale_eV": 22217.345682173913,
+  "cases": [
+    {
+      "internal_model": "principal_magnetic",
+      "ground_mass_MeV": 938.27208943,
+      "gap_MeV": 366.9359404920706,
+      "mixed_weight_q": 0.07353193837872397,
+      "mean_occupancy": 0.24383551015338034,
+      "supplier_work_J": 6.015266344305666e-12,
+      "physical_basis_work_J": 6.015266344305668e-12,
+      "original_supplier_covers": true,
+      "required_supplier_J": 6.015700324113602e-12,
+      "required_supplier_fraction_of_phi": 0.1591122050140077,
+      "admitted_supplier_J": 7.561582499072275e-12,
+      "supplier_remaining_J": 1.546316154766609e-12,
+      "rest_plus_excitation_J": 3.7807912495361375e-11
+    },
+    {
+      "internal_model": "joint_calibrated",
+      "ground_mass_MeV": 938.27208943,
+      "gap_MeV": 757.8954317996527,
+      "mixed_weight_q": 0.293525,
+      "mean_occupancy": 0.2361640833682449,
+      "supplier_work_J": 1.2033019830228727e-11,
+      "physical_basis_work_J": 1.203301983022873e-11,
+      "original_supplier_covers": false,
+      "required_supplier_J": 1.2033440156388269e-11,
+      "required_supplier_fraction_of_phi": 0.3182783539785394,
+      "admitted_supplier_J": 1.2033440156388269e-11,
+      "supplier_remaining_J": 4.2032615954192205e-16,
+      "rest_plus_excitation_J": 3.7807912495361375e-11
+    }
+  ],
+  "joint_calibrated_observables": {
+    "q": 0.29352499999999987,
+    "axial": 1.2753,
+    "mu_proton_muN": 2.79284734463,
+    "mu_neutron_muN": -1.9130427600000002,
+    "mean_life_with_inherited_kappa_s": 878.2999999999997
+  },
+  "principal_axial_comparison": {
+    "calculated_magnitude": 1.5686240821617012,
+    "observed_magnitude": 1.2753,
+    "absolute_difference": 0.29332408216170114,
+    "relative_difference": 0.23000398507151343,
+    "status": "principal c1=0 magnetic state does not reproduce the observed axial magnitude; no refit performed",
+    "q_if_axial_is_anchored": 0.293525,
+    "theta_if_axial_is_anchored_degrees": 32.80485779931748,
+    "required_c1_each_baryon_opposite_muN": 0.4399877929300249,
+    "equivalent_magnetic_isovector_gain": 1.2300039850715134,
+    "target_uncertainty_cases": [
+      {
+        "axial_comparison_magnitude": 1.274,
+        "q_if_axial_anchored": 0.29450000000000004
+      },
+      {
+        "axial_comparison_magnitude": 1.2753,
+        "q_if_axial_anchored": 0.293525
+      },
+      {
+        "axial_comparison_magnitude": 1.2766000000000002,
+        "q_if_axial_anchored": 0.29255
+      }
+    ]
+  },
+  "current_SOURCE_transfer": {
+    "alpha": 1.8996877935161325,
+    "SOURCE_N": 1015000,
+    "C_held_fixed": 3.661191319274947,
+    "mixed_weight_q": 0.07353192154110458,
+    "gap_MeV": 366.9359260048723,
+    "axial_magnitude": 1.5686241046118607,
+    "scope": "fixed-coefficient SOURCE transfer; not a new fitted excitation measurement"
+  },
+  "baseline_record_gap_MeV": 431.08124431500175,
+  "supplier_policy": "retain original 20% baseline; alternative joint branch requires separately disclosed supplier at least computed max conditional work; not silently adopted",
+  "scope": "existing nucleon internal configuration mixing, not CKM/PMNS or complete species masses",
+  "assumptions": [
+    "observed nucleon mass offsets",
+    "declared internal Delta scale",
+    "collective magnetic response coefficients",
+    "electron mode23",
+    "proton internal model is composite; not identified with one Weyl channel"
+  ]
+}

@@ -1,0 +1,20 @@
+WRRA 3.0 Step4 v0.3 — channel phenotype to effective physical record
+Verified inputs: inherited address readout, selected F_DX, three families,
+fixed effective rest/gap, record energy gap and supplier allocation.
+WRRA transformation: conditional channel preparation; allocate one global mean
+occupancy; apply I_channel tensor W to the system/record states in each channel.
+Outputs: 48 allocated preparation energies sum to one phenotype budget; total
+supply 7.029276088428037e-12 J reproduces the inherited write; two outcomes have
+probability 1/2; system plus record increments equal supply; included supplier
+conserves energy and covers either outcome. Channel charge is preserved.
+Falsifiers: double counting, positivity/trace failure, probability mismatch,
+insufficient supplier, charge change or energy conservation failure.
+A normalized correlated routing diagnostic (contrast .5) changes channel
+populations from uniform .0804092269412155 to range
+.05636872291381736..10444973096861372, preserving aggregate preparation/work.
+The diagnostic is not a new fitted physical input. 11 new checks; 31 cumulative.
+Conclusion: actual connection to the existing effective two-state write. Shared
+rest/gap do not derive species-specific masses, 48 physical particles or 48
+multiplied write events. This is not a species/charge label measurement. Reset
+and repeated writes are outside this single-write test. Next fixed work: existing
+mass/mixing connection review and common-input final review. Step4 remains open.

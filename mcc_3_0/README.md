@@ -84,3 +84,9 @@ Structural arithmetic readout and its existing ledger connections: 52 computatio
 [Reviewed Step 3 package](theory_completion/step_3_structure_selection/README.txt) · [한국어 검토](theory_completion/step_3_structure_selection/STEP3_REVIEW_KO.txt) · [English review](theory_completion/step_3_structure_selection/STEP3_REVIEW_EN.txt)
 
 Structure comparison, scoped minimum-state proof, equivalent rotation kernel and existing ledger integration: 34 checks passed. The fixed four-mode sequence requires eight real autonomous LTI states; four modes and eight admission frames remain constitutive specifications. Scoped Step-3 completion does not assert universal physical minimality or full theory completion.
+
+## Theory improvement — Step 4 / 이론 보완 4단계
+
+[Reviewed Step 4](theory_completion/step_4_carrier_phenotype/README.txt) · [한국어 검토](theory_completion/step_4_carrier_phenotype/STEP4_REVIEW_KO.txt) · [English review](theory_completion/step_4_carrier_phenotype/STEP4_REVIEW_EN.txt)
+
+Carrier response, calibrated selection, phenotype routing, internal mixing and finite record budgets: 51 connection checks plus 38 inherited internal checks. The joint calibrated branch requires a disclosed supplier of at least 31.82783539785394% of its phenotype allocation; baseline 20% rejects it. Branches are alternatives, not additive cosmic sectors. This completes the scoped connection review, not all species mass/mixing or full theory.

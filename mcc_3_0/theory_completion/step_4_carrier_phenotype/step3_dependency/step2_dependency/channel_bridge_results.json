@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "version": "0.4",
+  "selected_inherited_filter": "F_DX",
+  "dimensions": {
+    "core_channels": 15,
+    "extended_channels": 16,
+    "load_lattice": 128,
+    "joint_product_space": 2048,
+    "family_slots": 48
+  },
+  "contract": "joint load operators I_16 tensor A_s; channel permutations P tensor I_128; independent channel and lattice indices",
+  "rank_distinction": {
+    "core_transport_rank": 15,
+    "extended_transport_rank": 16,
+    "default_readout_rank": 1,
+    "warning": "transport rank and stochastic origin routing rank describe different maps"
+  },
+  "channel_load_tests": [
+    {
+      "state": "uniform",
+      "epsilon": 0.0,
+      "before": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "after": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "state": "packet",
+      "epsilon": 0.0,
+      "before": [
+        0.9999999999999994,
+        0.3287767513123586,
+        0.3287767513123586
+      ],
+      "after": [
+        0.9999999999999994,
+        0.3287767513123586,
+        0.3287767513123586
+      ]
+    },
+    {
+      "state": "uniform",
+      "epsilon": 8.0,
+      "before": [
+        1.0,
+        1.0,
+        0.9999999999999996
+      ],
+      "after": [
+        1.0,
+        1.0,
+        0.9999999999999996
+      ]
+    },
+    {
+      "state": "packet",
+      "epsilon": 8.0,
+      "before": [
+        0.9999999999999994,
+        0.3287767513123586,
+        0.4097229103634993
+      ],
+      "after": [
+        0.9999999999999994,
+        0.3287767513123586,
+        0.4097229103634993
+      ]
+    }
+  ],
+  "phenotype_budget_J": 3.7807912495361375e-11,
+  "family_channel_energy_sum_J": 3.7807912495361375e-11,
+  "one_slot_energy_J": 7.876648436533619e-13,
+  "checks": {
+    "fifteen_transport_directions_preserved": true,
+    "neutral_extension_preserved": true,
+    "core_plus_extension_partition": true,
+    "channel_state_positive_normalized": true,
+    "channel_blind_product_bridge_preserves_all_tested_loads": true,
+    "original_channel_bridge_reproduced": true,
+    "forty_eight_slots_close_to_one_phi_budget": true,
+    "published_channel_share_assignment_reproduced": true,
+    "correlated_channel_blocks_match_carrier_marginal": true,
+    "correlated_block_relabel_preserves_load": true
+  },
+  "provenance": {
+    "repository": "Wonsik-Choi-janefather/wrra-m-0.1",
+    "commit": "408602d166b3ec6635aff24803ef578580386112",
+    "files": {
+      "measurement_reproduce.py": "5b5aae83838ffd912d9fac3f5e700e64c67da8a029e52bebc961f7e9ebc514b0",
+      "measurement_inputs.json": "c6fe2d521b44a6b203e7f11abe66f4ad93d8d8dd20401140a3c77b00aeadf265",
+      "measurement_expected.json": "d1083fb484a7cc85630c2d7275197714258e63c74e2ae64eac59d7f1a230fdf5",
+      "stage4.py": "73ffa1e84fd39c34729cf7f1a288e61bf806f0782e7ce4606744b77d5c301ab0",
+      "carrier_compute.py": "4a8c1998618158436523c02e199556845a12ccb7b1ec2b662d939be14d31c69e",
+      "channel_compute.py": "e1924554ac14129442c4317b633bcc7194d625aa845d2e98e86ff3a52fd2baa9"
+    }
+  },
+  "scope": "execution and structural formulation of inherited channel-blind bridge, not channel-specific interactions or a unique embedding into the load lattice"
+}

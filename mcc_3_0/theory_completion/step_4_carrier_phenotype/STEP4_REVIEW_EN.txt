@@ -1,0 +1,30 @@
+WRRA 3.0 theory improvement Step4 reviewed v0.5
+Verified inputs: frozen SOURCE/address readout, published carrier/filter/charge,
+internal mass/configuration mixing and record inputs; separate branch contracts.
+WRRA transformation: carrier response -> compatibility/construction selection ->
+F_DX -> conditional address/channel phenotype -> internal mass basis -> single
+record -> included supplier energy ledger.
+Outputs: ten carrier conditions select F_DX; known charges and48 component weights
+reproduced; correlated channel preparation and charge-preserving writes computed.
+51 connection checks plus38 inherited internal checks pass. Joint calibration
+reproduces mass anchors, magnetic moments and axial coupling; legitimate calibrated
+construction and explanatory reproduction.
+Falsifiers: fixed-input mismatch, positivity/trace/budget loss, inadequate supplier,
+or undisclosed gap/model substitution. Exact supplier boundary is reject below,
+admit at the computed maximum conditional requirement.
+
+Branch A retains baseline gap431.08124431500175 MeV and20% supplier.
+B magnetic-only internal gap366.9359404920706 MeV fits20% supplier but does not
+reproduce the axial observation. C joint calibrated gap757.8954317996527 MeV
+fails at20%; minimum disclosed supplier31.82783539785394% supports either outcome.
+The computed sufficient boundary is not a derivation of natural supplier origin.
+B/C are alternatives, not additive cosmic sectors. Supplier ratios refer to the
+single-write phenotype allocation, not a changed cosmic composition.
+
+Decision: complete the scoped inherited carrier-to-phenotype connection improvement
+and branch execution review. No complete species mass/CKM/PMNS decoding is claimed.
+Composite proton and Weyl channel are different objects. Effective internal record
+is not species-label measurement; reset/repeated costs are not derived.
+Next Step5: phenotype/resident state to physical load. Full theory remains ongoing.
+
+Re-review: actual phenotype execution requires selection evidence and verifies the handed-off slot permutation. All replay paths rerun in order.

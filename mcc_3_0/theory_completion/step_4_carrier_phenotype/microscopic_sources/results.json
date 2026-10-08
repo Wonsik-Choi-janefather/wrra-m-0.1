@@ -1,0 +1,1459 @@
+{
+  "title": "WRRA-M internal fold mixing and shared nucleon currents v0.3",
+  "date": "2026-10-02",
+  "author": "Wonsik Choi",
+  "hypothesis": "same retained prime-composite address admits internal permutation-sector mixing; a finite Euler-family coupling enters a two-state binding ansatz whose eigenstate is read by distinct electromagnetic and weak currents",
+  "inputs": {
+    "masses": {
+      "proton": 938.27208943,
+      "neutron": 939.56542194,
+      "electron": 0.51099895069
+    },
+    "magnetic_moments_muN": {
+      "proton": 2.79284734463,
+      "neutron": -1.91304276
+    },
+    "axial_comparison": {
+      "signed_lambda": -1.2753,
+      "uncertainty": 0.0013,
+      "role": "comparison only for principal magnetic state fit; parent rate normalization has inherited axial dependence"
+    },
+    "weak_constants": {
+      "GF_GeV_minus2": 1.1663787e-05,
+      "Vud": 0.97367,
+      "hbar_MeV_s": 6.582119569e-22,
+      "alpha_em": 0.0072973525643
+    },
+    "inherited": {
+      "alpha": 1.8996876950554356,
+      "N": 1000000,
+      "kappa": 12.200294834431162,
+      "neutron_mean_life_s": 878.3
+    },
+    "provenance": {
+      "parent_release_commit": "a9a364ff46414c92f83bc299dc597882a47a23a5",
+      "parent_kernel_sha256": "3cc75ba4290189daed78058e112647cc1f1d1df6b7eb74c15ba6069df2ec9f55",
+      "parent_results_sha256": "970c65aea8fef904b89ac8b7668256f2af7e72ceab66ce449175a0d1f1f391a3",
+      "nucleon_reference_sha256": "a67181db67dece51d42f555079e743097c009d73966ec13257cb3dc9e85a9721",
+      "parent_path": "upstream/fold_decay_v0_2/code/compute.py"
+    },
+    "sources": {
+      "magnetic_moments_and_masses": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "axial_comparison": "https://pdg.lbl.gov/2026/tables/rpp2026-sum-baryons.pdf",
+      "quark_model": "https://pdg.lbl.gov/2026/reviews/rpp2026-rev-quark-model.pdf"
+    }
+  },
+  "input_sha256": "53576db3d89ee34866ac793cd3c574bf2f8221248bd31cf8eb7cec1a628d819c",
+  "finite_state_construction": {
+    "dimensions": {
+      "spin_flavor": 64,
+      "spatial_label": 3,
+      "color": 27,
+      "noncolor": 192,
+      "full_formal_product": 5184
+    },
+    "spatial_scope": "abstract orthonormal L=0 even-parity S3 representation S plus E; compatible permutation labels, no radial shape or QCD binding solution",
+    "spin_flavor_basis": [
+      "3u_up",
+      "3u_down",
+      "5d_up",
+      "5d_down"
+    ],
+    "spatial_representations": [
+      {
+        "permutation": [
+          0,
+          1,
+          2
+        ],
+        "spatial_representation": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            5.9223557174891345e-18
+          ],
+          [
+            0.0,
+            5.9223557174891345e-18,
+            1.0
+          ]
+        ],
+        "E_rep_orthogonal_error": 1.675095155374195e-17,
+        "neutron_rep_agreement": 1.675095155374195e-17
+      },
+      {
+        "permutation": [
+          0,
+          2,
+          1
+        ],
+        "spatial_representation": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -0.5,
+            -0.8660254037844388
+          ],
+          [
+            0.0,
+            -0.8660254037844387,
+            0.5
+          ]
+        ],
+        "E_rep_orthogonal_error": 4.509747244882934e-16,
+        "neutron_rep_agreement": 2.220446049250313e-16
+      },
+      {
+        "permutation": [
+          1,
+          0,
+          2
+        ],
+        "spatial_representation": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            5.9223557174891345e-18
+          ],
+          [
+            0.0,
+            -5.9223557174891345e-18,
+            -1.0
+          ]
+        ],
+        "E_rep_orthogonal_error": 1.675095155374195e-17,
+        "neutron_rep_agreement": 1.675095155374195e-17
+      },
+      {
+        "permutation": [
+          1,
+          2,
+          0
+        ],
+        "spatial_representation": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -0.5,
+            0.8660254037844388
+          ],
+          [
+            0.0,
+            -0.8660254037844387,
+            -0.5
+          ]
+        ],
+        "E_rep_orthogonal_error": 4.509747244882934e-16,
+        "neutron_rep_agreement": 2.220446049250313e-16
+      },
+      {
+        "permutation": [
+          2,
+          0,
+          1
+        ],
+        "spatial_representation": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -0.5,
+            -0.8660254037844388
+          ],
+          [
+            0.0,
+            0.8660254037844387,
+            -0.5
+          ]
+        ],
+        "E_rep_orthogonal_error": 4.509747244882934e-16,
+        "neutron_rep_agreement": 2.220446049250313e-16
+      },
+      {
+        "permutation": [
+          2,
+          1,
+          0
+        ],
+        "spatial_representation": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -0.5,
+            0.8660254037844388
+          ],
+          [
+            0.0,
+            0.8660254037844387,
+            0.5
+          ]
+        ],
+        "E_rep_orthogonal_error": 4.509747244882934e-16,
+        "neutron_rep_agreement": 2.220446049250313e-16
+      }
+    ],
+    "state_basis": {
+      "proton_S": [
+        {
+          "spin_flavor": [
+            0,
+            0,
+            3
+          ],
+          "space": "S",
+          "amplitude": 0.4714045207910317
+        },
+        {
+          "spin_flavor": [
+            0,
+            1,
+            2
+          ],
+          "space": "S",
+          "amplitude": -0.23570226039551584
+        },
+        {
+          "spin_flavor": [
+            0,
+            2,
+            1
+          ],
+          "space": "S",
+          "amplitude": -0.23570226039551584
+        },
+        {
+          "spin_flavor": [
+            0,
+            3,
+            0
+          ],
+          "space": "S",
+          "amplitude": 0.4714045207910317
+        },
+        {
+          "spin_flavor": [
+            1,
+            0,
+            2
+          ],
+          "space": "S",
+          "amplitude": -0.23570226039551584
+        },
+        {
+          "spin_flavor": [
+            1,
+            2,
+            0
+          ],
+          "space": "S",
+          "amplitude": -0.2357022603955158
+        },
+        {
+          "spin_flavor": [
+            2,
+            0,
+            1
+          ],
+          "space": "S",
+          "amplitude": -0.23570226039551584
+        },
+        {
+          "spin_flavor": [
+            2,
+            1,
+            0
+          ],
+          "space": "S",
+          "amplitude": -0.2357022603955158
+        },
+        {
+          "spin_flavor": [
+            3,
+            0,
+            0
+          ],
+          "space": "S",
+          "amplitude": 0.4714045207910317
+        }
+      ],
+      "proton_M": [
+        {
+          "spin_flavor": [
+            0,
+            0,
+            3
+          ],
+          "space": "E1",
+          "amplitude": 0.33333333333333337
+        },
+        {
+          "spin_flavor": [
+            0,
+            1,
+            2
+          ],
+          "space": "E1",
+          "amplitude": -0.16666666666666669
+        },
+        {
+          "spin_flavor": [
+            0,
+            1,
+            2
+          ],
+          "space": "E2",
+          "amplitude": 0.2886751345948129
+        },
+        {
+          "spin_flavor": [
+            0,
+            2,
+            1
+          ],
+          "space": "E1",
+          "amplitude": -0.16666666666666669
+        },
+        {
+          "spin_flavor": [
+            0,
+            2,
+            1
+          ],
+          "space": "E2",
+          "amplitude": 0.2886751345948128
+        },
+        {
+          "spin_flavor": [
+            0,
+            3,
+            0
+          ],
+          "space": "E1",
+          "amplitude": -0.1666666666666666
+        },
+        {
+          "spin_flavor": [
+            0,
+            3,
+            0
+          ],
+          "space": "E2",
+          "amplitude": -0.2886751345948129
+        },
+        {
+          "spin_flavor": [
+            1,
+            0,
+            2
+          ],
+          "space": "E1",
+          "amplitude": -0.16666666666666669
+        },
+        {
+          "spin_flavor": [
+            1,
+            0,
+            2
+          ],
+          "space": "E2",
+          "amplitude": -0.2886751345948129
+        },
+        {
+          "spin_flavor": [
+            1,
+            2,
+            0
+          ],
+          "space": "E1",
+          "amplitude": 0.3333333333333333
+        },
+        {
+          "spin_flavor": [
+            2,
+            0,
+            1
+          ],
+          "space": "E1",
+          "amplitude": -0.16666666666666669
+        },
+        {
+          "spin_flavor": [
+            2,
+            0,
+            1
+          ],
+          "space": "E2",
+          "amplitude": -0.2886751345948128
+        },
+        {
+          "spin_flavor": [
+            2,
+            1,
+            0
+          ],
+          "space": "E1",
+          "amplitude": 0.3333333333333333
+        },
+        {
+          "spin_flavor": [
+            3,
+            0,
+            0
+          ],
+          "space": "E1",
+          "amplitude": -0.1666666666666666
+        },
+        {
+          "spin_flavor": [
+            3,
+            0,
+            0
+          ],
+          "space": "E2",
+          "amplitude": 0.2886751345948129
+        }
+      ],
+      "neutron_S": [
+        {
+          "spin_flavor": [
+            0,
+            2,
+            3
+          ],
+          "space": "S",
+          "amplitude": 0.23570226039551584
+        },
+        {
+          "spin_flavor": [
+            0,
+            3,
+            2
+          ],
+          "space": "S",
+          "amplitude": 0.23570226039551584
+        },
+        {
+          "spin_flavor": [
+            1,
+            2,
+            2
+          ],
+          "space": "S",
+          "amplitude": -0.4714045207910317
+        },
+        {
+          "spin_flavor": [
+            2,
+            0,
+            3
+          ],
+          "space": "S",
+          "amplitude": 0.23570226039551584
+        },
+        {
+          "spin_flavor": [
+            2,
+            1,
+            2
+          ],
+          "space": "S",
+          "amplitude": -0.4714045207910317
+        },
+        {
+          "spin_flavor": [
+            2,
+            2,
+            1
+          ],
+          "space": "S",
+          "amplitude": -0.4714045207910317
+        },
+        {
+          "spin_flavor": [
+            2,
+            3,
+            0
+          ],
+          "space": "S",
+          "amplitude": 0.23570226039551587
+        },
+        {
+          "spin_flavor": [
+            3,
+            0,
+            2
+          ],
+          "space": "S",
+          "amplitude": 0.23570226039551584
+        },
+        {
+          "spin_flavor": [
+            3,
+            2,
+            0
+          ],
+          "space": "S",
+          "amplitude": 0.23570226039551587
+        }
+      ],
+      "neutron_M": [
+        {
+          "spin_flavor": [
+            0,
+            2,
+            3
+          ],
+          "space": "E1",
+          "amplitude": 0.16666666666666669
+        },
+        {
+          "spin_flavor": [
+            0,
+            2,
+            3
+          ],
+          "space": "E2",
+          "amplitude": 0.2886751345948128
+        },
+        {
+          "spin_flavor": [
+            0,
+            3,
+            2
+          ],
+          "space": "E1",
+          "amplitude": -0.3333333333333333
+        },
+        {
+          "spin_flavor": [
+            1,
+            2,
+            2
+          ],
+          "space": "E1",
+          "amplitude": 0.1666666666666666
+        },
+        {
+          "spin_flavor": [
+            1,
+            2,
+            2
+          ],
+          "space": "E2",
+          "amplitude": -0.28867513459481287
+        },
+        {
+          "spin_flavor": [
+            2,
+            0,
+            3
+          ],
+          "space": "E1",
+          "amplitude": 0.16666666666666669
+        },
+        {
+          "spin_flavor": [
+            2,
+            0,
+            3
+          ],
+          "space": "E2",
+          "amplitude": -0.2886751345948128
+        },
+        {
+          "spin_flavor": [
+            2,
+            1,
+            2
+          ],
+          "space": "E1",
+          "amplitude": 0.1666666666666666
+        },
+        {
+          "spin_flavor": [
+            2,
+            1,
+            2
+          ],
+          "space": "E2",
+          "amplitude": 0.28867513459481287
+        },
+        {
+          "spin_flavor": [
+            2,
+            2,
+            1
+          ],
+          "space": "E1",
+          "amplitude": -0.33333333333333337
+        },
+        {
+          "spin_flavor": [
+            2,
+            3,
+            0
+          ],
+          "space": "E1",
+          "amplitude": 0.16666666666666669
+        },
+        {
+          "spin_flavor": [
+            2,
+            3,
+            0
+          ],
+          "space": "E2",
+          "amplitude": -0.2886751345948129
+        },
+        {
+          "spin_flavor": [
+            3,
+            0,
+            2
+          ],
+          "space": "E1",
+          "amplitude": -0.3333333333333333
+        },
+        {
+          "spin_flavor": [
+            3,
+            2,
+            0
+          ],
+          "space": "E1",
+          "amplitude": 0.16666666666666669
+        },
+        {
+          "spin_flavor": [
+            3,
+            2,
+            0
+          ],
+          "space": "E2",
+          "amplitude": 0.2886751345948129
+        }
+      ]
+    },
+    "current_blocks": {
+      "vector": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "axial": [
+        [
+          1.6666666666666665,
+          0.0
+        ],
+        [
+          0.0,
+          0.33333333333333337
+        ]
+      ],
+      "proton_up_spin": [
+        [
+          1.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.6666666666666667
+        ]
+      ],
+      "proton_down_spin": [
+        [
+          -0.33333333333333337,
+          0.0
+        ],
+        [
+          0.0,
+          0.33333333333333326
+        ]
+      ],
+      "neutron_up_spin": [
+        [
+          -0.33333333333333326,
+          0.0
+        ],
+        [
+          0.0,
+          0.3333333333333333
+        ]
+      ],
+      "neutron_down_spin": [
+        [
+          1.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.6666666666666666
+        ]
+      ],
+      "proton_isoscalar_spin": [
+        [
+          0.9999999999999998,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "neutron_isoscalar_spin": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.9999999999999999
+        ]
+      ],
+      "proton_collective_isovector_spin": [
+        [
+          0.9999999999999998,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "neutron_collective_isovector_spin": [
+        [
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.9999999999999999
+        ]
+      ]
+    },
+    "maximum_exchange_error": 2.7884092155520367e-16,
+    "checks": {
+      "J_I_half_projectors_idempotent": true,
+      "S3_projectors_complete_orthogonal": true,
+      "spin_isospin_half_in_all_configs": true,
+      "two_config_bases_orthonormal": true,
+      "spin_flavor_space_exchange_symmetric": true,
+      "spatial_representation_orthogonal": true,
+      "same_spatial_rep_for_proton_neutron": true,
+      "charges_one_zero_in_both_configs": true,
+      "vector_block_identity": true,
+      "axial_block_five_thirds_one_third": true,
+      "proton_spin_blocks": true,
+      "neutron_spin_blocks": true,
+      "collective_static_magnetic_blocks": true,
+      "color_antisymmetric_singlet": true
+    }
+  },
+  "effective_mass_current_choice": {
+    "up_response_energy_MeV": 312.32625230666673,
+    "down_response_energy_MeV": 313.61958481666665,
+    "A_MeV": 312.97291856166663,
+    "mu_up_Dirac_muN": 2.0027606442524934,
+    "mu_down_Dirac_muN": -0.9972507403393276,
+    "status": "declared additive mass-response and one-body Dirac-moment ansatz; not current-quark masses or complete nucleon binding energies"
+  },
+  "principal_magnetic_fit": {
+    "input_roles": "mp,mn fix two response energies; observed mu_p-mu_n fixes q with c1=0; observed mu_p+mu_n fixes c0; observed lambda excluded from this state fit",
+    "q_mixed_config": 0.07353193837872393,
+    "theta_degrees": 15.73376546698353,
+    "state_density_config": [
+      [
+        0.9264680616212762,
+        0.26100764819635364
+      ],
+      [
+        0.26100764819635364,
+        0.07353193837872395
+      ]
+    ],
+    "isoscalar_shift_each_baryon_c0_muN": -0.06285265964158293,
+    "isovector_correction_choice_c1_muN": 0.0,
+    "mu_proton_muN": 2.79284734463,
+    "mu_neutron_muN": -1.9130427600000002,
+    "vector": 1.0,
+    "axial_magnitude": 1.5686240821617012,
+    "state_axial_dressing_relative_to_five_thirds": 0.9411744492970207,
+    "angular_coefficients": {
+      "signed_lambda": -1.5686240821617012,
+      "a": -0.17425745980627175,
+      "A": -0.2128333607449491,
+      "B": 0.9614240990613226
+    }
+  },
+  "binding_ansatz": {
+    "formula": "H_B=(m_B-e_min)*I+Delta*[[0,-C*sqrt(r_up*r_down)],[-C*sqrt(r_up*r_down),1]]",
+    "Delta_reference_MeV": 312.97291856166663,
+    "dimensionless_C_from_magnetic_fit": 3.661191319274947,
+    "activity_product_3_5": 0.006986000352730204,
+    "proton": {
+      "raw_matrix_MeV": [
+        [
+          0.0,
+          -95.77308686655253
+        ],
+        [
+          -95.77308686655253,
+          312.97291856166663
+        ]
+      ],
+      "matrix_with_mass_anchor_MeV": [
+        [
+          965.253600395202,
+          -95.77308686655253
+        ],
+        [
+          -95.77308686655253,
+          1278.2265189568686
+        ]
+      ],
+      "raw_ground_energy_MeV": -26.981510965202055,
+      "ground_mass_MeV": 938.27208943,
+      "excited_mass_MeV": 1305.2080299220709,
+      "internal_gap_MeV": 366.93594049207076,
+      "ground_vector": [
+        0.962532109397539,
+        0.27116773107935227
+      ],
+      "mixed_weight_q": 0.0735319383787239,
+      "off_diagonal_magnitude_MeV": 95.77308686655253
+    },
+    "neutron": {
+      "raw_matrix_MeV": [
+        [
+          0.0,
+          -95.77308686655253
+        ],
+        [
+          -95.77308686655253,
+          312.97291856166663
+        ]
+      ],
+      "matrix_with_mass_anchor_MeV": [
+        [
+          966.546932905202,
+          -95.77308686655253
+        ],
+        [
+          -95.77308686655253,
+          1279.5198514668687
+        ]
+      ],
+      "raw_ground_energy_MeV": -26.981510965202055,
+      "ground_mass_MeV": 939.56542194,
+      "excited_mass_MeV": 1306.5013624320707,
+      "internal_gap_MeV": 366.93594049207076,
+      "ground_vector": [
+        0.962532109397539,
+        0.27116773107935227
+      ],
+      "mixed_weight_q": 0.0735319383787239,
+      "off_diagonal_magnitude_MeV": 95.77308686655253
+    },
+    "scale_cases": [
+      {
+        "delta_choice_MeV": 100.0,
+        "raw_matrix_MeV": [
+          [
+            0.0,
+            -30.601077980388226
+          ],
+          [
+            -30.601077980388226,
+            100.0
+          ]
+        ],
+        "matrix_with_mass_anchor_MeV": [
+          [
+            946.8931263839963,
+            -30.601077980388226
+          ],
+          [
+            -30.601077980388226,
+            1046.8931263839963
+          ]
+        ],
+        "raw_ground_energy_MeV": -8.621036953996311,
+        "ground_mass_MeV": 938.27208943,
+        "excited_mass_MeV": 1055.5141633379926,
+        "internal_gap_MeV": 117.24207390799262,
+        "ground_vector": [
+          0.962532109397539,
+          0.2711677310793523
+        ],
+        "mixed_weight_q": 0.07353193837872395,
+        "off_diagonal_magnitude_MeV": 30.601077980388226
+      },
+      {
+        "delta_choice_MeV": 312.97291856166663,
+        "raw_matrix_MeV": [
+          [
+            0.0,
+            -95.77308686655253
+          ],
+          [
+            -95.77308686655253,
+            312.97291856166663
+          ]
+        ],
+        "matrix_with_mass_anchor_MeV": [
+          [
+            965.253600395202,
+            -95.77308686655253
+          ],
+          [
+            -95.77308686655253,
+            1278.2265189568686
+          ]
+        ],
+        "raw_ground_energy_MeV": -26.981510965202055,
+        "ground_mass_MeV": 938.27208943,
+        "excited_mass_MeV": 1305.2080299220709,
+        "internal_gap_MeV": 366.93594049207076,
+        "ground_vector": [
+          0.962532109397539,
+          0.27116773107935227
+        ],
+        "mixed_weight_q": 0.0735319383787239,
+        "off_diagonal_magnitude_MeV": 95.77308686655253
+      },
+      {
+        "delta_choice_MeV": 1000.0,
+        "raw_matrix_MeV": [
+          [
+            0.0,
+            -306.01077980388226
+          ],
+          [
+            -306.01077980388226,
+            1000.0
+          ]
+        ],
+        "matrix_with_mass_anchor_MeV": [
+          [
+            1024.482458969963,
+            -306.01077980388226
+          ],
+          [
+            -306.01077980388226,
+            2024.482458969963
+          ]
+        ],
+        "raw_ground_energy_MeV": -86.21036953996312,
+        "ground_mass_MeV": 938.27208943,
+        "excited_mass_MeV": 2110.692828509926,
+        "internal_gap_MeV": 1172.420739079926,
+        "ground_vector": [
+          0.962532109397539,
+          0.2711677310793523
+        ],
+        "mixed_weight_q": 0.07353193837872395,
+        "off_diagonal_magnitude_MeV": 306.01077980388226
+      }
+    ],
+    "status": "finite positive-gap constitutive Hamiltonian; mass offsets are inherited anchors; Delta=A is a stated scale choice, not an observed excitation or microscopic QCD determination"
+  },
+  "axial_comparison": {
+    "calculated_magnitude": 1.5686240821617012,
+    "observed_magnitude": 1.2753,
+    "absolute_difference": 0.29332408216170114,
+    "relative_difference": 0.23000398507151343,
+    "status": "principal c1=0 magnetic state does not reproduce the observed axial magnitude; no refit performed",
+    "q_if_axial_is_anchored": 0.293525,
+    "theta_if_axial_is_anchored_degrees": 32.80485779931748,
+    "required_c1_each_baryon_opposite_muN": 0.4399877929300249,
+    "equivalent_magnetic_isovector_gain": 1.2300039850715134,
+    "target_uncertainty_cases": [
+      {
+        "axial_comparison_magnitude": 1.274,
+        "q_if_axial_anchored": 0.29450000000000004
+      },
+      {
+        "axial_comparison_magnitude": 1.2753,
+        "q_if_axial_anchored": 0.293525
+      },
+      {
+        "axial_comparison_magnitude": 1.2766000000000002,
+        "q_if_axial_anchored": 0.29255
+      }
+    ]
+  },
+  "magnetic_identifiability_family": {
+    "formula": "mu_p-mu_n=(mu_u-mu_d)*(5/3-4q/3)+2*c1; sum=mu_u+mu_d+2*c0",
+    "rows": [
+      {
+        "q": 0.0,
+        "axial": 1.6666666666666667,
+        "needed_isovector_c1_muN": -0.1470644348448511,
+        "common_c0_muN": -0.06285265964158293,
+        "mu_proton_muN": 2.7928473446299997,
+        "mu_neutron_muN": -1.9130427599999997
+      },
+      {
+        "q": 0.07353193837872393,
+        "axial": 1.5686240821617015,
+        "needed_isovector_c1_muN": -4.440892098500626e-16,
+        "common_c0_muN": -0.06285265964158293,
+        "mu_proton_muN": 2.7928473446299997,
+        "mu_neutron_muN": -1.9130427599999997
+      },
+      {
+        "q": 0.293525,
+        "axial": 1.2753,
+        "needed_isovector_c1_muN": 0.4399877929300249,
+        "common_c0_muN": -0.06285265964158293,
+        "mu_proton_muN": 2.7928473446299993,
+        "mu_neutron_muN": -1.9130427599999995
+      },
+      {
+        "q": 0.5,
+        "axial": 1.0,
+        "needed_isovector_c1_muN": 0.8529393600190893,
+        "common_c0_muN": -0.06285265964158293,
+        "mu_proton_muN": 2.7928473446299997,
+        "mu_neutron_muN": -1.9130427599999997
+      }
+    ],
+    "conclusion": "with an unconstrained isovector electromagnetic response c1, the two magnetic moments alone do not identify q or axial dressing; the principal inverse is conditional on c1=0"
+  },
+  "rate_transfer": {
+    "Q_MeV": 0.7823335593099138,
+    "phase_C": 1.6916652367741625,
+    "physical_kernel_mean_life_s": 640.6100628922726,
+    "parent_kappa": 12.200294834431162,
+    "fixed_parent_kappa_mean_life_s": 616.0621130310722,
+    "rate_relative_to_parent": 1.4256679341612122,
+    "scope": "same parent 0.2 Coulomb/allowed-beta approximation and kappa; parent kappa already used observed lambda and neutron lifetime, so this is a transfer test, not an independent lifetime anchor"
+  },
+  "joint_calibrated_internal_state": {
+    "q": 0.29352499999999987,
+    "theta_degrees": 32.80485779931747,
+    "dimensionless_C": 13.19347429753741,
+    "c0_muN": -0.06285265964158293,
+    "c1_muN": 0.4399877929300249,
+    "proton_H": {
+      "raw_matrix_MeV": [
+        [
+          0.0,
+          -345.1280334128823
+        ],
+        [
+          -345.1280334128823,
+          312.97291856166663
+        ]
+      ],
+      "matrix_with_mass_anchor_MeV": [
+        [
+          1160.733346048993,
+          -345.1280334128823
+        ],
+        [
+          -345.1280334128823,
+          1473.7062646106597
+        ]
+      ],
+      "raw_ground_energy_MeV": -222.461256618993,
+      "ground_mass_MeV": 938.27208943,
+      "excited_mass_MeV": 1696.1675212296527,
+      "internal_gap_MeV": 757.8954317996527,
+      "ground_vector": [
+        0.8405206719647055,
+        0.5417794754325784
+      ],
+      "mixed_weight_q": 0.29352499999999987,
+      "off_diagonal_magnitude_MeV": 345.1280334128823
+    },
+    "neutron_H": {
+      "raw_matrix_MeV": [
+        [
+          0.0,
+          -345.1280334128823
+        ],
+        [
+          -345.1280334128823,
+          312.97291856166663
+        ]
+      ],
+      "matrix_with_mass_anchor_MeV": [
+        [
+          1162.026678558993,
+          -345.1280334128823
+        ],
+        [
+          -345.1280334128823,
+          1474.9995971206595
+        ]
+      ],
+      "raw_ground_energy_MeV": -222.461256618993,
+      "ground_mass_MeV": 939.56542194,
+      "excited_mass_MeV": 1697.4608537396527,
+      "internal_gap_MeV": 757.8954317996527,
+      "ground_vector": [
+        0.8405206719647055,
+        0.5417794754325784
+      ],
+      "mixed_weight_q": 0.29352499999999987,
+      "off_diagonal_magnitude_MeV": 345.1280334128823
+    },
+    "axial": 1.2753,
+    "mu_proton_muN": 2.79284734463,
+    "mu_neutron_muN": -1.9130427600000002,
+    "mean_life_with_inherited_kappa_s": 878.2999999999997,
+    "magnetic_operator_formula": "M=mu_u U+mu_d D+c0*(2J_z)+c1*(2I_z)*(2J_z)",
+    "proton_magnetic_block": [
+      [
+        3.3798995724048755,
+        0.0
+      ],
+      [
+        0.0,
+        1.379891982676995
+      ]
+    ],
+    "neutron_magnetic_block": [
+      [
+        -2.500094987774876,
+        0.0
+      ],
+      [
+        0.0,
+        -0.500087398046995
+      ]
+    ],
+    "calibration_roles": "observed lambda fixes q and C; magnetic sum fixes c0, magnetic difference fixes c1; parent kappa retained without another lifetime fit",
+    "scope": "explicit calibrated internal-state realization; collective static magnetic response coefficients are not newly derived exchange/sea dynamics"
+  },
+  "joint_prime_family_cases": [
+    {
+      "up_prime": 3,
+      "down_prime": 5,
+      "proton_address": 45,
+      "neutron_address": 75,
+      "activity_product": 0.006986000352730204,
+      "q": 0.29352499999999987,
+      "axial": 1.2753,
+      "mean_life_s": 878.3,
+      "mu_proton_muN": 2.79284734463,
+      "mu_neutron_muN": -1.9130427600000002,
+      "scope": "controlled labels with joint C,c0,c1, response energies and parent kappa fixed; not identified particles"
+    },
+    {
+      "up_prime": 3,
+      "down_prime": 7,
+      "proton_address": 63,
+      "neutron_address": 147,
+      "activity_product": 0.003602712158165466,
+      "q": 0.23306133775909987,
+      "axial": 1.3559182163212,
+      "mean_life_s": 1536.7646732581134,
+      "mu_proton_muN": 2.9137751280145427,
+      "mu_neutron_muN": -2.033970543384543,
+      "scope": "controlled labels with joint C,c0,c1, response energies and parent kappa fixed; not identified particles"
+    },
+    {
+      "up_prime": 5,
+      "down_prime": 7,
+      "proton_address": 175,
+      "neutron_address": 245,
+      "activity_product": 0.001254796692865249,
+      "q": 0.13472289354565112,
+      "axial": 1.4870361419391318,
+      "mean_life_s": 3765.92533378741,
+      "mu_proton_muN": 3.1104527628034724,
+      "mu_neutron_muN": -2.230648178173473,
+      "scope": "controlled labels with joint C,c0,c1, response energies and parent kappa fixed; not identified particles"
+    },
+    {
+      "up_prime": 3,
+      "down_prime": 11,
+      "proton_address": 99,
+      "neutron_address": 363,
+      "activity_product": 0.0015045649277477223,
+      "q": 0.15057897492133115,
+      "axial": 1.4658947001048919,
+      "mean_life_s": 3219.7485601624016,
+      "mu_proton_muN": 3.0787404797087694,
+      "mu_neutron_muN": -2.19893589507877,
+      "scope": "controlled labels with joint C,c0,c1, response energies and parent kappa fixed; not identified particles"
+    },
+    {
+      "up_prime": 5,
+      "down_prime": 11,
+      "proton_address": 275,
+      "neutron_address": 605,
+      "activity_product": 0.0005240282910917402,
+      "q": 0.07201845775680243,
+      "axial": 1.5706420563242633,
+      "mean_life_s": 8194.354722365286,
+      "mu_proton_muN": 3.235862110290774,
+      "mu_neutron_muN": -2.3560575256607748,
+      "scope": "controlled labels with joint C,c0,c1, response energies and parent kappa fixed; not identified particles"
+    }
+  ],
+  "prime_family_cases": [
+    {
+      "up_prime": 3,
+      "down_prime": 5,
+      "proton_address": 45,
+      "neutron_address": 75,
+      "activity_product": 0.006986000352730204,
+      "q": 0.0735319383787239,
+      "axial": 1.5686240821617012,
+      "mean_life_s": 616.0621130310722,
+      "mu_proton_muN": 2.79284734463,
+      "mu_neutron_muN": -1.9130427600000002,
+      "scope": "controlled labels with common response energies, weak constants, magnetic fit and parent kappa fixed; not identified particles"
+    },
+    {
+      "up_prime": 3,
+      "down_prime": 7,
+      "proton_address": 63,
+      "neutron_address": 147,
+      "activity_product": 0.003602712158165466,
+      "q": 0.04225957479191368,
+      "axial": 1.6103205669441147,
+      "mean_life_s": 1140.494700837003,
+      "mu_proton_muN": 2.8553923091523505,
+      "mu_neutron_muN": -1.97558772452235,
+      "scope": "controlled labels with common response energies, weak constants, magnetic fit and parent kappa fixed; not identified particles"
+    },
+    {
+      "up_prime": 5,
+      "down_prime": 7,
+      "proton_address": 175,
+      "neutron_address": 245,
+      "activity_product": 0.001254796692865249,
+      "q": 0.016015933859341278,
+      "axial": 1.6453120881875452,
+      "mean_life_s": 3151.840952879524,
+      "mu_proton_muN": 2.9078797901995888,
+      "mu_neutron_muN": -2.0280752055695883,
+      "scope": "controlled labels with common response energies, weak constants, magnetic fit and parent kappa fixed; not identified particles"
+    },
+    {
+      "up_prime": 3,
+      "down_prime": 11,
+      "proton_address": 99,
+      "neutron_address": 363,
+      "activity_product": 0.0015045649277477223,
+      "q": 0.019024097807799067,
+      "axial": 1.6413012029229344,
+      "mean_life_s": 2640.0599838258872,
+      "mu_proton_muN": 2.9018634394715273,
+      "mu_neutron_muN": -2.0220588548415273,
+      "scope": "controlled labels with common response energies, weak constants, magnetic fit and parent kappa fixed; not identified particles"
+    },
+    {
+      "up_prime": 5,
+      "down_prime": 11,
+      "proton_address": 275,
+      "neutron_address": 605,
+      "activity_product": 0.0005240282910917402,
+      "q": 0.006879606536943717,
+      "axial": 1.6574938579507414,
+      "mean_life_s": 7448.580475282244,
+      "mu_proton_muN": 2.926152514186622,
+      "mu_neutron_muN": -2.046347929556622,
+      "scope": "controlled labels with common response energies, weak constants, magnetic fit and parent kappa fixed; not identified particles"
+    }
+  ],
+  "transport": {
+    "rows": [
+      {
+        "time_s": 0.0,
+        "neutron_survival": 1.0,
+        "daughter_bundle": 0.0,
+        "SOURCE": 0.0,
+        "trace": 1.0,
+        "minimum_eigenvalue": 0.0,
+        "energy_MeV": 939.56542194,
+        "charge_e": 0.0,
+        "baryon_number": 1.0
+      },
+      {
+        "time_s": 1.0,
+        "neutron_survival": 0.998378103747417,
+        "daughter_bundle": 0.001621896252583012,
+        "SOURCE": 0.0,
+        "trace": 1.0,
+        "minimum_eigenvalue": 0.0,
+        "energy_MeV": 939.56542194,
+        "charge_e": 0.0,
+        "baryon_number": 1.0
+      },
+      {
+        "time_s": 100.0,
+        "neutron_survival": 0.8501680059073882,
+        "daughter_bundle": 0.1498319940926118,
+        "SOURCE": 0.0,
+        "trace": 1.0,
+        "minimum_eigenvalue": 0.0,
+        "energy_MeV": 939.56542194,
+        "charge_e": 0.0,
+        "baryon_number": 1.0
+      },
+      {
+        "time_s": 878.3,
+        "neutron_survival": 0.24034787302750882,
+        "daughter_bundle": 0.7596521269724912,
+        "SOURCE": 0.0,
+        "trace": 1.0,
+        "minimum_eigenvalue": 0.0,
+        "energy_MeV": 939.56542194,
+        "charge_e": 0.0,
+        "baryon_number": 1.0
+      },
+      {
+        "time_s": 1000.0,
+        "neutron_survival": 0.19726388078458534,
+        "daughter_bundle": 0.802736119215415,
+        "SOURCE": 0.0,
+        "trace": 1.0000000000000004,
+        "minimum_eigenvalue": 0.0,
+        "energy_MeV": 939.5654219400003,
+        "charge_e": 0.0,
+        "baryon_number": 1.0000000000000004
+      },
+      {
+        "time_s": 4391.5,
+        "neutron_survival": 0.000802049949547336,
+        "daughter_bundle": 0.9991979500504469,
+        "SOURCE": 0.0,
+        "trace": 0.9999999999999942,
+        "minimum_eigenvalue": 0.0,
+        "energy_MeV": 939.5654219399945,
+        "charge_e": 0.0,
+        "baryon_number": 0.9999999999999942
+      }
+    ],
+    "K0": [
+      [
+        0.9991887227883515,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "K1": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.040272773092785805,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "description": "Markov coarse-grained beta channel after continuum integration; not fundamental time discretization or derivation of a QCD Hamiltonian",
+    "checks": {
+      "Kraus_trace_preserving": true,
+      "Kraus_equals_generator": true,
+      "trace_positive": true,
+      "survival_matches_rate_exponential": true,
+      "Actual_energy_preserved": true,
+      "SOURCE_return_zero": true,
+      "baryon_charge_preserved": true
+    }
+  },
+  "next_constraints": [
+    "derive isovector electromagnetic exchange/sea response c1 and weak dressing from a shared specified internal Hamiltonian",
+    "supply radial/spatial response and a physical excitation constraint before fixing absolute internal Delta",
+    "separate parent radiative/recoil normalization from arithmetic coupling before testing a second measured decay channel"
+  ],
+  "verification": {
+    "checks": {
+      "J_I_half_projectors_idempotent": true,
+      "S3_projectors_complete_orthogonal": true,
+      "spin_isospin_half_in_all_configs": true,
+      "two_config_bases_orthonormal": true,
+      "spin_flavor_space_exchange_symmetric": true,
+      "spatial_representation_orthogonal": true,
+      "same_spatial_rep_for_proton_neutron": true,
+      "charges_one_zero_in_both_configs": true,
+      "vector_block_identity": true,
+      "axial_block_five_thirds_one_third": true,
+      "proton_spin_blocks": true,
+      "neutron_spin_blocks": true,
+      "collective_static_magnetic_blocks": true,
+      "color_antisymmetric_singlet": true,
+      "magnetic_numeric_inverse_equals_closed_form": true,
+      "positive_density_normalized": true,
+      "magnetic_moments_returned_by_common_fit": true,
+      "direct_current_equals_state_axial_formula": true,
+      "Hamiltonian_eigenstate_returns_magnetic_q": true,
+      "same_internal_state_for_isospin_pair": true,
+      "mass_offsets_return_nucleon_anchors": true,
+      "vector_current_remains_one": true,
+      "scale_family_same_ground_state": true,
+      "EM_isovector_family_shares_same_moments": true,
+      "axial_observed_q_and_c1_reconcile_common_moments": true,
+      "parent_phase_two_integrations_agree": true,
+      "state_rate_transfer_no_new_lifetime_refit": true,
+      "joint_eigenstate_returns_calibrated_axial": true,
+      "joint_collective_currents_return_both_moments": true,
+      "joint_inherited_lifetime_anchor_returned": true,
+      "both_current_models_same_charge_and_vector": true,
+      "transport_Kraus_trace_preserving": true,
+      "transport_Kraus_equals_generator": true,
+      "transport_trace_positive": true,
+      "transport_survival_matches_rate_exponential": true,
+      "transport_Actual_energy_preserved": true,
+      "transport_SOURCE_return_zero": true,
+      "transport_baryon_charge_preserved": true
+    },
+    "passed": 38,
+    "total": 38,
+    "all_passed": true,
+    "meaning": "mathematical and numerical implementation checks; not empirical agreement with every response"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "version": "0.5",
+  "checks": {
+    "all_prior_43_connection_checks_pass": true,
+    "supplier_admission_boundary_exactly_tested": true,
+    "both_admitted_branches_conserve_included_energy": true,
+    "joint_branch_rejected_at_original20_percent": true,
+    "principal_branch_admitted_at_original20_percent": true,
+    "baseline_microgap_preserved_as_separate_model": true,
+    "three_cosmic_sectors_retained": true,
+    "selection_result_is_consumed_by_phenotype": true
+  },
+  "prior_connection_checks": 43,
+  "total_connection_checks": 51,
+  "inherited_internal_replay_checks_separate": 38,
+  "branches": [
+    {
+      "model": "principal_magnetic",
+      "ground_mass_MeV": 938.27208943,
+      "internal_gap_MeV": 366.9359404920706,
+      "baseline_supplier_fraction": 0.2,
+      "baseline_status": "admitted",
+      "minimum_supplier_fraction": 0.1591122050140077,
+      "admitted_supplier_J": 7.561582499072275e-12,
+      "admitted_supplier_status": "admitted",
+      "supplier_after_mean_write_J": 1.546316154766609e-12,
+      "energy_boundary": "phenotype system + record + disclosed supplier; no fourth cosmic sector",
+      "alternative_to_baseline_not_additive": true
+    },
+    {
+      "model": "joint_calibrated",
+      "ground_mass_MeV": 938.27208943,
+      "internal_gap_MeV": 757.8954317996527,
+      "baseline_supplier_fraction": 0.2,
+      "baseline_status": "insufficient_supplier",
+      "minimum_supplier_fraction": 0.3182783539785394,
+      "admitted_supplier_J": 1.2033440156388269e-11,
+      "admitted_supplier_status": "admitted",
+      "supplier_after_mean_write_J": 4.2032615954192205e-16,
+      "energy_boundary": "phenotype system + record + disclosed supplier; no fourth cosmic sector",
+      "alternative_to_baseline_not_additive": true
+    }
+  ],
+  "baseline_policy": "retain original record model and20% supplier; never silently substitute an alternate gap",
+  "completion_scope": "carrier response -> calibrated selection -> address/channel phenotype -> effective internal mass/configuration mixing and finite single record with explicit branch budgets",
+  "not_claimed": [
+    "CKM/PMNS integration",
+    "all species mass decoding",
+    "a composite proton is one Weyl channel",
+    "physical supplier mechanism derived",
+    "reset/repeated write costs",
+    "complete theory"
+  ],
+  "next_theory_step": "Step5 phenotype/resident state to physical load",
+  "result_hashes": {
+    "carrier_selection_results.json": "dd9e5106eee72b61ab11cc22a35ed8f490c43f89204e48b5b52816b6fc1c305a",
+    "phenotype_transform_results.json": "bab72dda4049e89fc107117eda16fd4677fb35365d5bef097e57ea370467a292",
+    "channel_record_results.json": "7adee88de68d4413098887f7ba1b6d74ff7615e376249f1a6240950eb8c13e76",
+    "mass_mixing_join_results.json": "3f6afe62a0abf227352e6c3ddc8f28d523e186692688b2329d8e144f8669feec"
+  }
+}

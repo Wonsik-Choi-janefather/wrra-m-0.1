@@ -1,0 +1,1033 @@
+{
+  "status": "PASS",
+  "version": "0.3",
+  "checks": {
+    "channel_joint_record_states_positive_normalized": true,
+    "48_preparations_replace_one_phi_budget": true,
+    "aggregate_write_work_matches_original_record": true,
+    "aggregate_record_energy_matches_original_record": true,
+    "outcome_probabilities_match_original_record": true,
+    "system_plus_record_work_closes": true,
+    "supplier_covers_each_outcome_branch": true,
+    "included_supplier_boundary_conserves_energy": true,
+    "correlated_routing_changes_channel_preparation": true,
+    "record_operation_preserves_channel_charge": true,
+    "write_operator_unitary": true
+  },
+  "cases": [
+    {
+      "routing_contrast": 0.0,
+      "channel_preparation_range": [
+        0.0804092269412155,
+        0.0804092269412155
+      ],
+      "outcome_probabilities": [
+        0.5000000000000002,
+        0.5000000000000002
+      ],
+      "supplier_work_J": 7.029276088428037e-12,
+      "record_increment_J": 4.3167912669635373e-16,
+      "conditional_branch_supply_J": [
+        7.0288444093013446e-12,
+        7.029707767554736e-12
+      ],
+      "supplier_remaining_J": 5.323064106442382e-13,
+      "slots": [
+        {
+          "slot": 0,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 1,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 2,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 3,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 4,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 5,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 6,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 7,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 8,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 9,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 10,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 11,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 12,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 13,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 14,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 15,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 16,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 17,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 18,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 19,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 20,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 21,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 22,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 23,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 24,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 25,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 26,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 27,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 28,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 29,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 30,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 31,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 32,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 33,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 34,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 35,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 36,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 37,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 38,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 39,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 40,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 41,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 42,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 43,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 44,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 45,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 46,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        },
+        {
+          "slot": 47,
+          "conditional_weight": 0.020833333333333332,
+          "prepared_population": 0.0804092269412155,
+          "effective_occupancy": 0.0050529760715527835,
+          "prepared_energy_J": 7.87664843653362e-13,
+          "system_increment_J": 1.464342585271112e-13,
+          "record_increment_J": 8.993315139507378e-18,
+          "supplier_work_J": 1.4644325184225061e-13
+        }
+      ]
+    },
+    {
+      "routing_contrast": 0.5,
+      "channel_preparation_range": [
+        0.05636872291381736,
+        0.10444973096861372
+      ],
+      "outcome_probabilities": [
+        0.49999999999999967,
+        0.49999999999999967
+      ],
+      "supplier_work_J": 7.029276088428037e-12,
+      "record_increment_J": 4.3167912669635427e-16,
+      "conditional_branch_supply_J": [
+        7.0288444093013446e-12,
+        7.029707767554734e-12
+      ],
+      "supplier_remaining_J": 5.323064106442382e-13,
+      "slots": [
+        {
+          "slot": 0,
+          "conditional_weight": 0.020833333333333287,
+          "prepared_population": 0.10444973096861372,
+          "effective_occupancy": 0.005052976071552772,
+          "prepared_energy_J": 7.960548121843815e-13,
+          "system_increment_J": 1.380442899960896e-13,
+          "record_increment_J": 8.993315139507358e-18,
+          "supplier_work_J": 1.3805328331122903e-13
+        },
+        {
+          "slot": 1,
+          "conditional_weight": 0.020833333333333287,
+          "prepared_population": 0.10444973096861372,
+          "effective_occupancy": 0.005052976071552772,
+          "prepared_energy_J": 7.960548121843815e-13,
+          "system_increment_J": 1.380442899960896e-13,
+          "record_increment_J": 8.993315139507358e-18,
+          "supplier_work_J": 1.3805328331122903e-13
+        },
+        {
+          "slot": 2,
+          "conditional_weight": 0.020833333333333287,
+          "prepared_population": 0.10444973096861372,
+          "effective_occupancy": 0.005052976071552772,
+          "prepared_energy_J": 7.960548121843815e-13,
+          "system_increment_J": 1.380442899960896e-13,
+          "record_increment_J": 8.993315139507358e-18,
+          "supplier_work_J": 1.3805328331122903e-13
+        },
+        {
+          "slot": 3,
+          "conditional_weight": 0.020833333333333377,
+          "prepared_population": 0.05636872291381736,
+          "effective_occupancy": 0.005052976071552794,
+          "prepared_energy_J": 7.792748751223424e-13,
+          "system_increment_J": 1.5482422705813276e-13,
+          "record_increment_J": 8.993315139507397e-18,
+          "supplier_work_J": 1.548332203732722e-13
+        },
+        {
+          "slot": 4,
+          "conditional_weight": 0.020833333333333377,
+          "prepared_population": 0.05636872291381736,
+          "effective_occupancy": 0.005052976071552794,
+          "prepared_energy_J": 7.792748751223424e-13,
+          "system_increment_J": 1.5482422705813276e-13,
+          "record_increment_J": 8.993315139507397e-18,
+          "supplier_work_J": 1.548332203732722e-13
+        },
+        {
+          "slot": 5,
+          "conditional_weight": 0.020833333333333377,
+          "prepared_population": 0.05636872291381736,
+          "effective_occupancy": 0.005052976071552794,
+          "prepared_energy_J": 7.792748751223424e-13,
+          "system_increment_J": 1.5482422705813276e-13,
+          "record_increment_J": 8.993315139507397e-18,
+          "supplier_work_J": 1.548332203732722e-13
+        },
+        {
+          "slot": 6,
+          "conditional_weight": 0.020833333333333287,
+          "prepared_population": 0.10444973096861372,
+          "effective_occupancy": 0.005052976071552772,
+          "prepared_energy_J": 7.960548121843815e-13,
+          "system_increment_J": 1.380442899960896e-13,
+          "record_increment_J": 8.993315139507358e-18,
+          "supplier_work_J": 1.3805328331122903e-13
+        },
+        {
+          "slot": 7,
+          "conditional_weight": 0.020833333333333377,
+          "prepared_population": 0.05636872291381736,
+          "effective_occupancy": 0.005052976071552794,
+          "prepared_energy_J": 7.792748751223424e-13,
+          "system_increment_J": 1.5482422705813276e-13,
+          "record_increment_J": 8.993315139507397e-18,
+          "supplier_work_J": 1.548332203732722e-13
+        },
+        {
+          "slot": 8,
+          "conditional_weight": 0.020833333333333287,
+          "prepared_population": 0.10444973096861372,
+          "effective_occupancy": 0.005052976071552772,
+          "prepared_energy_J": 7.960548121843815e-13,
+          "system_increment_J": 1.380442899960896e-13,
+          "record_increment_J": 8.993315139507358e-18,
+          "supplier_work_J": 1.3805328331122903e-13
+        },
+        {
+          "slot": 9,
+          "conditional_weight": 0.020833333333333287,
+          "prepared_population": 0.10444973096861372,
+          "effective_occupancy": 0.005052976071552772,
+          "prepared_energy_J": 7.960548121843815e-13,
+          "system_increment_J": 1.380442899960896e-13,
+          "record_increment_J": 8.993315139507358e-18,
+          "supplier_work_J": 1.3805328331122903e-13
+        },
+        {
+          "slot": 10,
+          "conditional_weight": 0.020833333333333287,
+          "prepared_population": 0.10444973096861372,
+          "effective_occupancy": 0.005052976071552772,
+          "prepared_energy_J": 7.960548121843815e-13,
+          "system_increment_J": 1.380442899960896e-13,
+          "record_increment_J": 8.993315139507358e-18,
+          "supplier_work_J": 1.3805328331122903e-13
+        },
+        {
+          "slot": 11,
+          "conditional_weight": 0.020833333333333377,
+          "prepared_population": 0.05636872291381736,
+          "effective_occupancy": 0.005052976071552794,
+          "prepared_energy_J": 7.792748751223424e-13,
+          "system_increment_J": 1.5482422705813276e-13,
+          "record_increment_J": 8.993315139507397e-18,
+          "supplier_work_J": 1.548332203732722e-13
+        },
+        {
+          "slot": 12,
+          "conditional_weight": 0.020833333333333377,
+          "prepared_population": 0.05636872291381736,
+          "effective_occupancy": 0.005052976071552794,
+          "prepared_energy_J": 7.792748751223424e-13,
+          "system_increment_J": 1.5482422705813276e-13,
+          "record_increment_J": 8.993315139507397e-18,
+          "supplier_work_J": 1.548332203732722e-13
+        },
+        {
+          "slot": 13,
+          "conditional_weight": 0.020833333333333377,
+          "prepared_population": 0.05636872291381736,
+          "effective_occupancy": 0.005052976071552794,
+          "prepared_energy_J": 7.792748751223424e-13,
+          "system_increment_J": 1.5482422705813276e-13,
+          "record_increment_J": 8.993315139507397e-18,
+          "supplier_work_J": 1.548332203732722e-13
+        },
+        {
+          "slot": 14,
+          "conditional_weight": 0.020833333333333377,
+          "prepared_population": 0.05636872291381736,
+          "effective_occupancy": 0.005052976071552794,
+          "prepared_energy_J": 7.792748751223424e-13,
+          "system_increment_J": 1.5482422705813276e-13,
+          "record_increment_J": 8.993315139507397e-18,
+          "supplier_work_J": 1.548332203732722e-13
+        },
+        {
+          "slot": 15,
+          "conditional_weight": 0.020833333333333287,
+          "prepared_population": 0.10444973096861372,
+          "effective_occupancy": 0.005052976071552772,
+          "prepared_energy_J": 7.960548121843815e-13,
+          "system_increment_J": 1.380442899960896e-13,
+          "record_increment_J": 8.993315139507358e-18,
+          "supplier_work_J": 1.3805328331122903e-13
+        },
+        {
+          "slot": 16,
+          "conditional_weight": 0.020833333333333287,
+          "prepared_population": 0.10444973096861372,
+          "effective_occupancy": 0.005052976071552772,
+          "prepared_energy_J": 7.960548121843815e-13,
+          "system_increment_J": 1.380442899960896e-13,
+          "record_increment_J": 8.993315139507358e-18,
+          "supplier_work_J": 1.3805328331122903e-13
+        },
+        {
+          "slot": 17,
+          "conditional_weight": 0.020833333333333287,
+          "prepared_population": 0.10444973096861372,
+          "effective_occupancy": 0.005052976071552772,
+          "prepared_energy_J": 7.960548121843815e-13,
+          "system_increment_J": 1.380442899960896e-13,
+          "record_increment_J": 8.993315139507358e-18,
+          "supplier_work_J": 1.3805328331122903e-13
+        },
+        {
+          "slot": 18,
+          "conditional_weight": 0.020833333333333287,
+          "prepared_population": 0.10444973096861372,
+          "effective_occupancy": 0.005052976071552772,
+          "prepared_energy_J": 7.960548121843815e-13,
+          "system_increment_J": 1.380442899960896e-13,
+          "record_increment_J": 8.993315139507358e-18,
+          "supplier_work_J": 1.3805328331122903e-13
+        },
+        {
+          "slot": 19,
+          "conditional_weight": 0.020833333333333377,
+          "prepared_population": 0.05636872291381736,
+          "effective_occupancy": 0.005052976071552794,
+          "prepared_energy_J": 7.792748751223424e-13,
+          "system_increment_J": 1.5482422705813276e-13,
+          "record_increment_J": 8.993315139507397e-18,
+          "supplier_work_J": 1.548332203732722e-13
+        },
+        {
+          "slot": 20,
+          "conditional_weight": 0.020833333333333377,
+          "prepared_population": 0.05636872291381736,
+          "effective_occupancy": 0.005052976071552794,
+          "prepared_energy_J": 7.792748751223424e-13,
+          "system_increment_J": 1.5482422705813276e-13,
+          "record_increment_J": 8.993315139507397e-18,
+          "supplier_work_J": 1.548332203732722e-13
+        },
+        {
+          "slot": 21,
+          "conditional_weight": 0.020833333333333377,
+          "prepared_population": 0.05636872291381736,
+          "effective_occupancy": 0.005052976071552794,
+          "prepared_energy_J": 7.792748751223424e-13,
+          "system_increment_J": 1.5482422705813276e-13,
+          "record_increment_J": 8.993315139507397e-18,
+          "supplier_work_J": 1.548332203732722e-13
+        },
+        {
+          "slot": 22,
+          "conditional_weight": 0.020833333333333287,
+          "prepared_population": 0.10444973096861372,
+          "effective_occupancy": 0.005052976071552772,
+          "prepared_energy_J": 7.960548121843815e-13,
+          "system_increment_J": 1.380442899960896e-13,
+          "record_increment_J": 8.993315139507358e-18,
+          "supplier_work_J": 1.3805328331122903e-13
+        },
+        {
+          "slot": 23,
+          "conditional_weight": 0.020833333333333377,
+          "prepared_population": 0.05636872291381736,
+          "effective_occupancy": 0.005052976071552794,
+          "prepared_energy_J": 7.792748751223424e-13,
+          "system_increment_J": 1.5482422705813276e-13,
+          "record_increment_J": 8.993315139507397e-18,
+          "supplier_work_J": 1.548332203732722e-13
+        },
+        {
+          "slot": 24,
+          "conditional_weight": 0.020833333333333287,
+          "prepared_population": 0.10444973096861372,
+          "effective_occupancy": 0.005052976071552772,
+          "prepared_energy_J": 7.960548121843815e-13,
+          "system_increment_J": 1.380442899960896e-13,
+          "record_increment_J": 8.993315139507358e-18,
+          "supplier_work_J": 1.3805328331122903e-13
+        },
+        {
+          "slot": 25,
+          "conditional_weight": 0.020833333333333287,
+          "prepared_population": 0.10444973096861372,
+          "effective_occupancy": 0.005052976071552772,
+          "prepared_energy_J": 7.960548121843815e-13,
+          "system_increment_J": 1.380442899960896e-13,
+          "record_increment_J": 8.993315139507358e-18,
+          "supplier_work_J": 1.3805328331122903e-13
+        },
+        {
+          "slot": 26,
+          "conditional_weight": 0.020833333333333287,
+          "prepared_population": 0.10444973096861372,
+          "effective_occupancy": 0.005052976071552772,
+          "prepared_energy_J": 7.960548121843815e-13,
+          "system_increment_J": 1.380442899960896e-13,
+          "record_increment_J": 8.993315139507358e-18,
+          "supplier_work_J": 1.3805328331122903e-13
+        },
+        {
+          "slot": 27,
+          "conditional_weight": 0.020833333333333377,
+          "prepared_population": 0.05636872291381736,
+          "effective_occupancy": 0.005052976071552794,
+          "prepared_energy_J": 7.792748751223424e-13,
+          "system_increment_J": 1.5482422705813276e-13,
+          "record_increment_J": 8.993315139507397e-18,
+          "supplier_work_J": 1.548332203732722e-13
+        },
+        {
+          "slot": 28,
+          "conditional_weight": 0.020833333333333377,
+          "prepared_population": 0.05636872291381736,
+          "effective_occupancy": 0.005052976071552794,
+          "prepared_energy_J": 7.792748751223424e-13,
+          "system_increment_J": 1.5482422705813276e-13,
+          "record_increment_J": 8.993315139507397e-18,
+          "supplier_work_J": 1.548332203732722e-13
+        },
+        {
+          "slot": 29,
+          "conditional_weight": 0.020833333333333377,
+          "prepared_population": 0.05636872291381736,
+          "effective_occupancy": 0.005052976071552794,
+          "prepared_energy_J": 7.792748751223424e-13,
+          "system_increment_J": 1.5482422705813276e-13,
+          "record_increment_J": 8.993315139507397e-18,
+          "supplier_work_J": 1.548332203732722e-13
+        },
+        {
+          "slot": 30,
+          "conditional_weight": 0.020833333333333377,
+          "prepared_population": 0.05636872291381736,
+          "effective_occupancy": 0.005052976071552794,
+          "prepared_energy_J": 7.792748751223424e-13,
+          "system_increment_J": 1.5482422705813276e-13,
+          "record_increment_J": 8.993315139507397e-18,
+          "supplier_work_J": 1.548332203732722e-13
+        },
+        {
+          "slot": 31,
+          "conditional_weight": 0.020833333333333287,
+          "prepared_population": 0.10444973096861372,
+          "effective_occupancy": 0.005052976071552772,
+          "prepared_energy_J": 7.960548121843815e-13,
+          "system_increment_J": 1.380442899960896e-13,
+          "record_increment_J": 8.993315139507358e-18,
+          "supplier_work_J": 1.3805328331122903e-13
+        },
+        {
+          "slot": 32,
+          "conditional_weight": 0.020833333333333287,
+          "prepared_population": 0.10444973096861372,
+          "effective_occupancy": 0.005052976071552772,
+          "prepared_energy_J": 7.960548121843815e-13,
+          "system_increment_J": 1.380442899960896e-13,
+          "record_increment_J": 8.993315139507358e-18,
+          "supplier_work_J": 1.3805328331122903e-13
+        },
+        {
+          "slot": 33,
+          "conditional_weight": 0.020833333333333287,
+          "prepared_population": 0.10444973096861372,
+          "effective_occupancy": 0.005052976071552772,
+          "prepared_energy_J": 7.960548121843815e-13,
+          "system_increment_J": 1.380442899960896e-13,
+          "record_increment_J": 8.993315139507358e-18,
+          "supplier_work_J": 1.3805328331122903e-13
+        },
+        {
+          "slot": 34,
+          "conditional_weight": 0.020833333333333287,
+          "prepared_population": 0.10444973096861372,
+          "effective_occupancy": 0.005052976071552772,
+          "prepared_energy_J": 7.960548121843815e-13,
+          "system_increment_J": 1.380442899960896e-13,
+          "record_increment_J": 8.993315139507358e-18,
+          "supplier_work_J": 1.3805328331122903e-13
+        },
+        {
+          "slot": 35,
+          "conditional_weight": 0.020833333333333377,
+          "prepared_population": 0.05636872291381736,
+          "effective_occupancy": 0.005052976071552794,
+          "prepared_energy_J": 7.792748751223424e-13,
+          "system_increment_J": 1.5482422705813276e-13,
+          "record_increment_J": 8.993315139507397e-18,
+          "supplier_work_J": 1.548332203732722e-13
+        },
+        {
+          "slot": 36,
+          "conditional_weight": 0.020833333333333377,
+          "prepared_population": 0.05636872291381736,
+          "effective_occupancy": 0.005052976071552794,
+          "prepared_energy_J": 7.792748751223424e-13,
+          "system_increment_J": 1.5482422705813276e-13,
+          "record_increment_J": 8.993315139507397e-18,
+          "supplier_work_J": 1.548332203732722e-13
+        },
+        {
+          "slot": 37,
+          "conditional_weight": 0.020833333333333377,
+          "prepared_population": 0.05636872291381736,
+          "effective_occupancy": 0.005052976071552794,
+          "prepared_energy_J": 7.792748751223424e-13,
+          "system_increment_J": 1.5482422705813276e-13,
+          "record_increment_J": 8.993315139507397e-18,
+          "supplier_work_J": 1.548332203732722e-13
+        },
+        {
+          "slot": 38,
+          "conditional_weight": 0.020833333333333287,
+          "prepared_population": 0.10444973096861372,
+          "effective_occupancy": 0.005052976071552772,
+          "prepared_energy_J": 7.960548121843815e-13,
+          "system_increment_J": 1.380442899960896e-13,
+          "record_increment_J": 8.993315139507358e-18,
+          "supplier_work_J": 1.3805328331122903e-13
+        },
+        {
+          "slot": 39,
+          "conditional_weight": 0.020833333333333377,
+          "prepared_population": 0.05636872291381736,
+          "effective_occupancy": 0.005052976071552794,
+          "prepared_energy_J": 7.792748751223424e-13,
+          "system_increment_J": 1.5482422705813276e-13,
+          "record_increment_J": 8.993315139507397e-18,
+          "supplier_work_J": 1.548332203732722e-13
+        },
+        {
+          "slot": 40,
+          "conditional_weight": 0.020833333333333287,
+          "prepared_population": 0.10444973096861372,
+          "effective_occupancy": 0.005052976071552772,
+          "prepared_energy_J": 7.960548121843815e-13,
+          "system_increment_J": 1.380442899960896e-13,
+          "record_increment_J": 8.993315139507358e-18,
+          "supplier_work_J": 1.3805328331122903e-13
+        },
+        {
+          "slot": 41,
+          "conditional_weight": 0.020833333333333287,
+          "prepared_population": 0.10444973096861372,
+          "effective_occupancy": 0.005052976071552772,
+          "prepared_energy_J": 7.960548121843815e-13,
+          "system_increment_J": 1.380442899960896e-13,
+          "record_increment_J": 8.993315139507358e-18,
+          "supplier_work_J": 1.3805328331122903e-13
+        },
+        {
+          "slot": 42,
+          "conditional_weight": 0.020833333333333287,
+          "prepared_population": 0.10444973096861372,
+          "effective_occupancy": 0.005052976071552772,
+          "prepared_energy_J": 7.960548121843815e-13,
+          "system_increment_J": 1.380442899960896e-13,
+          "record_increment_J": 8.993315139507358e-18,
+          "supplier_work_J": 1.3805328331122903e-13
+        },
+        {
+          "slot": 43,
+          "conditional_weight": 0.020833333333333377,
+          "prepared_population": 0.05636872291381736,
+          "effective_occupancy": 0.005052976071552794,
+          "prepared_energy_J": 7.792748751223424e-13,
+          "system_increment_J": 1.5482422705813276e-13,
+          "record_increment_J": 8.993315139507397e-18,
+          "supplier_work_J": 1.548332203732722e-13
+        },
+        {
+          "slot": 44,
+          "conditional_weight": 0.020833333333333377,
+          "prepared_population": 0.05636872291381736,
+          "effective_occupancy": 0.005052976071552794,
+          "prepared_energy_J": 7.792748751223424e-13,
+          "system_increment_J": 1.5482422705813276e-13,
+          "record_increment_J": 8.993315139507397e-18,
+          "supplier_work_J": 1.548332203732722e-13
+        },
+        {
+          "slot": 45,
+          "conditional_weight": 0.020833333333333377,
+          "prepared_population": 0.05636872291381736,
+          "effective_occupancy": 0.005052976071552794,
+          "prepared_energy_J": 7.792748751223424e-13,
+          "system_increment_J": 1.5482422705813276e-13,
+          "record_increment_J": 8.993315139507397e-18,
+          "supplier_work_J": 1.548332203732722e-13
+        },
+        {
+          "slot": 46,
+          "conditional_weight": 0.020833333333333377,
+          "prepared_population": 0.05636872291381736,
+          "effective_occupancy": 0.005052976071552794,
+          "prepared_energy_J": 7.792748751223424e-13,
+          "system_increment_J": 1.5482422705813276e-13,
+          "record_increment_J": 8.993315139507397e-18,
+          "supplier_work_J": 1.548332203732722e-13
+        },
+        {
+          "slot": 47,
+          "conditional_weight": 0.020833333333333287,
+          "prepared_population": 0.10444973096861372,
+          "effective_occupancy": 0.005052976071552772,
+          "prepared_energy_J": 7.960548121843815e-13,
+          "system_increment_J": 1.380442899960896e-13,
+          "record_increment_J": 8.993315139507358e-18,
+          "supplier_work_J": 1.3805328331122903e-13
+        }
+      ]
+    }
+  ],
+  "record_operation": "I_family_channel tensor (P_plus tensor I_record + P_minus tensor X_record)",
+  "scope": "channel-resolved inherited effective two-state single write at fixed volume",
+  "assumptions": [
+    "same effective gap/rest per channel; not species-specific masses",
+    "global mean occupancy allocated once",
+    "channel-blind write",
+    "diagnostic contrast .5 is a routing test, not a fitted physical input"
+  ],
+  "not_claimed": [
+    "48 simultaneous physical particles or 48 multiplied record events",
+    "species masses derived from slot energies",
+    "reset/repeated write budget",
+    "charge or species measurement by this internal two-state record"
+  ]
+}

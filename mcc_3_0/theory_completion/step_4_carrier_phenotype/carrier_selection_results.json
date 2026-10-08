@@ -1,0 +1,1288 @@
+{
+  "status": "PASS",
+  "version": "0.2",
+  "cases": [
+    {
+      "state": "uniform",
+      "epsilon": 0.0,
+      "response": {
+        "dimensionless_shifts": {
+          "3_A": 1.25,
+          "3_B": 0.75,
+          "1_A": 1.25,
+          "1_B": 0.75,
+          "anti3_A": 0.75,
+          "anti3_B": 1.25,
+          "1_N": 0.75,
+          "1_0": 1.25
+        },
+        "raw_intensity": {
+          "3_A": 1.5511432119649604,
+          "3_B": 2.335890516492746,
+          "1_A": 1.5511432119649604,
+          "1_B": 2.335890516492746,
+          "anti3_A": 2.335890516492746,
+          "anti3_B": 1.5511432119649604,
+          "1_N": 2.335890516492746,
+          "1_0": 1.5511432119649604
+        },
+        "common_reference_intensity": 3.4284205352862167,
+        "normalized_signatures": {
+          "3_A": 0.672634136912357,
+          "3_B": 0.8254280019523133,
+          "1_A": 0.672634136912357,
+          "1_B": 0.8254280019523133,
+          "anti3_A": 0.8254280019523133,
+          "anti3_B": 0.672634136912357,
+          "1_N": 0.8254280019523133,
+          "1_0": 0.672634136912357
+        },
+        "transport_gram_diagonal": [
+          0.45243668213983135,
+          0.45243668213983135,
+          0.45243668213983135,
+          0.45243668213983135,
+          0.681331386406988,
+          0.681331386406988,
+          0.681331386406988,
+          0.45243668213983135,
+          0.681331386406988,
+          0.681331386406988,
+          0.681331386406988,
+          0.45243668213983135,
+          0.45243668213983135,
+          0.45243668213983135,
+          0.681331386406988,
+          0.681331386406988
+        ],
+        "transport_gram_rank": 16,
+        "minimum_gram_eigenvalue": 0.45243668213983135,
+        "neutral_channel_norm_squared": 0.681331386406988,
+        "principal_channel_difference": 0.0,
+        "signature_scope": "color-invariant scalar response in the calibrated weak-component basis; background and basis transform jointly",
+        "operator_scope": "auxiliary lower-order readout offset; not an extra dynamical Hamiltonian or SI energy sector"
+      },
+      "selection": {
+        "compatibility_entries": {
+          "lAA": -0.0,
+          "lBB": -0.0,
+          "lAB": -0.023345965193848378,
+          "lBA": -0.023345965193848378,
+          "rAN": -0.0,
+          "rB0": -0.0,
+          "rA0": -0.023345965193848378,
+          "rBN": -0.023345965193848378
+        },
+        "scores": {
+          "F_DX": -0.0,
+          "F_XX": -0.046691930387696756,
+          "F_DD": -0.046691930387696756,
+          "F_XD": -0.09338386077539351
+        },
+        "Delta_L": 0.046691930387696756,
+        "Delta_R": 0.046691930387696756,
+        "gap_identity_max_error": 0.0,
+        "maximizers": [
+          "F_DX"
+        ],
+        "selected_filter": "F_DX",
+        "status": "selected",
+        "optimizer_scope": "dimensionless construction flow; no measurement probability",
+        "flow": [
+          {
+            "construction_time": 0.0,
+            "filter_weights": {
+              "F_DX": 0.25,
+              "F_XX": 0.25,
+              "F_DD": 0.25,
+              "F_XD": 0.25
+            },
+            "winning_residual": 0.75
+          },
+          {
+            "construction_time": 1.0,
+            "filter_weights": {
+              "F_DX": 0.2618070713623185,
+              "F_XX": 0.24986379097236489,
+              "F_DD": 0.24986379097236489,
+              "F_XD": 0.2384653466929517
+            },
+            "winning_residual": 0.7381929286376815
+          },
+          {
+            "construction_time": 418.04425027078724,
+            "filter_weights": {
+              "F_DX": 0.9999999933333332,
+              "F_XX": 3.333333311111101e-09,
+              "F_DD": 3.333333311111101e-09,
+              "F_XD": 1.1111111037036972e-17
+            },
+            "winning_residual": 6.66666677417993e-09
+          }
+        ],
+        "minimum_score_gap": 0.046691930387696756,
+        "sufficient_construction_time": 418.04425027078724,
+        "finite_flow_residual": 6.66666677417993e-09
+      },
+      "charge_benchmark": true
+    },
+    {
+      "state": "mode_0",
+      "epsilon": 0.0,
+      "response": {
+        "dimensionless_shifts": {
+          "3_A": 1.25,
+          "3_B": 0.75,
+          "1_A": 1.25,
+          "1_B": 0.75,
+          "anti3_A": 0.75,
+          "anti3_B": 1.25,
+          "1_N": 0.75,
+          "1_0": 1.25
+        },
+        "raw_intensity": {
+          "3_A": 2.8011053902760605,
+          "3_B": 4.485983584832952,
+          "1_A": 2.8011053902760605,
+          "1_B": 4.485983584832952,
+          "anti3_A": 4.485983584832952,
+          "anti3_B": 2.8011053902760605,
+          "1_N": 4.485983584832952,
+          "1_0": 2.8011053902760605
+        },
+        "common_reference_intensity": 4.947741208218974,
+        "normalized_signatures": {
+          "3_A": 0.7524215692714872,
+          "3_B": 0.9521938061845221,
+          "1_A": 0.7524215692714872,
+          "1_B": 0.9521938061845221,
+          "anti3_A": 0.9521938061845221,
+          "anti3_B": 0.7524215692714872,
+          "1_N": 0.9521938061845221,
+          "1_0": 0.7524215692714872
+        },
+        "transport_gram_diagonal": [
+          0.5661382179049674,
+          0.5661382179049674,
+          0.5661382179049674,
+          0.5661382179049674,
+          0.9066730445361673,
+          0.9066730445361673,
+          0.9066730445361673,
+          0.5661382179049674,
+          0.9066730445361673,
+          0.9066730445361673,
+          0.9066730445361673,
+          0.5661382179049674,
+          0.5661382179049674,
+          0.5661382179049674,
+          0.9066730445361673,
+          0.9066730445361673
+        ],
+        "transport_gram_rank": 16,
+        "minimum_gram_eigenvalue": 0.5661382179049674,
+        "neutral_channel_norm_squared": 0.9066730445361673,
+        "principal_channel_difference": 0.0,
+        "signature_scope": "color-invariant scalar response in the calibrated weak-component basis; background and basis transform jointly",
+        "operator_scope": "auxiliary lower-order readout offset; not an extra dynamical Hamiltonian or SI energy sector"
+      },
+      "selection": {
+        "compatibility_entries": {
+          "lAA": -0.0,
+          "lBB": -0.0,
+          "lAB": -0.03990894664123775,
+          "lBA": -0.03990894664123775,
+          "rAN": -0.0,
+          "rB0": -0.0,
+          "rA0": -0.03990894664123775,
+          "rBN": -0.03990894664123775
+        },
+        "scores": {
+          "F_DX": -0.0,
+          "F_XX": -0.0798178932824755,
+          "F_DD": -0.0798178932824755,
+          "F_XD": -0.159635786564951
+        },
+        "Delta_L": 0.0798178932824755,
+        "Delta_R": 0.0798178932824755,
+        "gap_identity_max_error": 0.0,
+        "maximizers": [
+          "F_DX"
+        ],
+        "selected_filter": "F_DX",
+        "status": "selected",
+        "optimizer_scope": "dimensionless construction flow; no measurement probability",
+        "flow": [
+          {
+            "construction_time": 0.0,
+            "filter_weights": {
+              "F_DX": 0.25,
+              "F_XX": 0.25,
+              "F_DD": 0.25,
+              "F_XD": 0.25
+            },
+            "winning_residual": 0.75
+          },
+          {
+            "construction_time": 1.0,
+            "filter_weights": {
+              "F_DX": 0.2703416446677326,
+              "F_XX": 0.2496022414081906,
+              "F_DD": 0.2496022414081906,
+              "F_XD": 0.23045387251588623
+            },
+            "winning_residual": 0.7296583553322674
+          },
+          {
+            "construction_time": 244.54783545265602,
+            "filter_weights": {
+              "F_DX": 0.9999999933333332,
+              "F_XX": 3.333333311111101e-09,
+              "F_DD": 3.333333311111101e-09,
+              "F_XD": 1.1111111037036972e-17
+            },
+            "winning_residual": 6.66666677417993e-09
+          }
+        ],
+        "minimum_score_gap": 0.0798178932824755,
+        "sufficient_construction_time": 244.54783545265602,
+        "finite_flow_residual": 6.66666677417993e-09
+      },
+      "charge_benchmark": true
+    },
+    {
+      "state": "mode_8",
+      "epsilon": 0.0,
+      "response": {
+        "dimensionless_shifts": {
+          "3_A": 1.25,
+          "3_B": 0.75,
+          "1_A": 1.25,
+          "1_B": 0.75,
+          "anti3_A": 0.75,
+          "anti3_B": 1.25,
+          "1_N": 0.75,
+          "1_0": 1.25
+        },
+        "raw_intensity": {
+          "3_A": 1.8889080342540947,
+          "3_B": 5.509529431047951,
+          "1_A": 1.8889080342540947,
+          "1_B": 5.509529431047951,
+          "anti3_A": 5.509529431047951,
+          "anti3_B": 1.8889080342540947,
+          "1_N": 5.509529431047951,
+          "1_0": 1.8889080342540947
+        },
+        "common_reference_intensity": 6.262668844762421,
+        "normalized_signatures": {
+          "3_A": 0.549193872428495,
+          "3_B": 0.9379453393936403,
+          "1_A": 0.549193872428495,
+          "1_B": 0.9379453393936403,
+          "anti3_A": 0.9379453393936403,
+          "anti3_B": 0.549193872428495,
+          "1_N": 0.9379453393936403,
+          "1_0": 0.549193872428495
+        },
+        "transport_gram_diagonal": [
+          0.30161390951300604,
+          0.30161390951300604,
+          0.30161390951300604,
+          0.30161390951300604,
+          0.8797414596902512,
+          0.8797414596902512,
+          0.8797414596902512,
+          0.30161390951300604,
+          0.8797414596902512,
+          0.8797414596902512,
+          0.8797414596902512,
+          0.30161390951300604,
+          0.30161390951300604,
+          0.30161390951300604,
+          0.8797414596902512,
+          0.8797414596902512
+        ],
+        "transport_gram_rank": 16,
+        "minimum_gram_eigenvalue": 0.30161390951300604,
+        "neutral_channel_norm_squared": 0.8797414596902512,
+        "principal_channel_difference": 0.0,
+        "signature_scope": "color-invariant scalar response in the calibrated weak-component basis; background and basis transform jointly",
+        "operator_scope": "auxiliary lower-order readout offset; not an extra dynamical Hamiltonian or SI energy sector"
+      },
+      "selection": {
+        "compatibility_entries": {
+          "lAA": -0.0,
+          "lBB": -0.0,
+          "lAB": -0.15112770306755244,
+          "lBA": -0.15112770306755244,
+          "rAN": -0.0,
+          "rB0": -0.0,
+          "rA0": -0.15112770306755244,
+          "rBN": -0.15112770306755244
+        },
+        "scores": {
+          "F_DX": -0.0,
+          "F_XX": -0.3022554061351049,
+          "F_DD": -0.3022554061351049,
+          "F_XD": -0.6045108122702098
+        },
+        "Delta_L": 0.3022554061351049,
+        "Delta_R": 0.3022554061351049,
+        "gap_identity_max_error": 0.0,
+        "maximizers": [
+          "F_DX"
+        ],
+        "selected_filter": "F_DX",
+        "status": "selected",
+        "optimizer_scope": "dimensionless construction flow; no measurement probability",
+        "flow": [
+          {
+            "construction_time": 0.0,
+            "filter_weights": {
+              "F_DX": 0.25,
+              "F_XX": 0.25,
+              "F_DD": 0.25,
+              "F_XD": 0.25
+            },
+            "winning_residual": 0.75
+          },
+          {
+            "construction_time": 1.0,
+            "filter_weights": {
+              "F_DX": 0.33061784335692573,
+              "F_XX": 0.2443759334415069,
+              "F_DD": 0.2443759334415069,
+              "F_XD": 0.18063028976006054
+            },
+            "winning_residual": 0.6693821566430742
+          },
+          {
+            "construction_time": 64.57880532960779,
+            "filter_weights": {
+              "F_DX": 0.9999999933333332,
+              "F_XX": 3.333333311111101e-09,
+              "F_DD": 3.333333311111101e-09,
+              "F_XD": 1.1111111037036972e-17
+            },
+            "winning_residual": 6.66666677417993e-09
+          }
+        ],
+        "minimum_score_gap": 0.3022554061351049,
+        "sufficient_construction_time": 64.57880532960779,
+        "finite_flow_residual": 6.66666677417993e-09
+      },
+      "charge_benchmark": true
+    },
+    {
+      "state": "mode_64",
+      "epsilon": 0.0,
+      "response": {
+        "dimensionless_shifts": {
+          "3_A": 1.25,
+          "3_B": 0.75,
+          "1_A": 1.25,
+          "1_B": 0.75,
+          "anti3_A": 0.75,
+          "anti3_B": 1.25,
+          "1_N": 0.75,
+          "1_0": 1.25
+        },
+        "raw_intensity": {
+          "3_A": 0.11075380564098299,
+          "3_B": 0.18557475313807603,
+          "1_A": 0.11075380564098299,
+          "1_B": 0.18557475313807603,
+          "anti3_A": 0.18557475313807603,
+          "anti3_B": 0.11075380564098299,
+          "1_N": 0.18557475313807603,
+          "1_0": 0.11075380564098299
+        },
+        "common_reference_intensity": 0.7906721638149533,
+        "normalized_signatures": {
+          "3_A": 0.37426662795494736,
+          "3_B": 0.48446367696188836,
+          "1_A": 0.37426662795494736,
+          "1_B": 0.48446367696188836,
+          "anti3_A": 0.48446367696188836,
+          "anti3_B": 0.37426662795494736,
+          "1_N": 0.48446367696188836,
+          "1_0": 0.37426662795494736
+        },
+        "transport_gram_diagonal": [
+          0.140075508800767,
+          0.140075508800767,
+          0.140075508800767,
+          0.140075508800767,
+          0.2347050542954329,
+          0.2347050542954329,
+          0.2347050542954329,
+          0.140075508800767,
+          0.2347050542954329,
+          0.2347050542954329,
+          0.2347050542954329,
+          0.140075508800767,
+          0.140075508800767,
+          0.140075508800767,
+          0.2347050542954329,
+          0.2347050542954329
+        ],
+        "transport_gram_rank": 16,
+        "minimum_gram_eigenvalue": 0.140075508800767,
+        "neutral_channel_norm_squared": 0.2347050542954329,
+        "principal_channel_difference": 0.0,
+        "signature_scope": "color-invariant scalar response in the calibrated weak-component basis; background and basis transform jointly",
+        "operator_scope": "auxiliary lower-order readout offset; not an extra dynamical Hamiltonian or SI energy sector"
+      },
+      "selection": {
+        "compatibility_entries": {
+          "lAA": -0.0,
+          "lBB": -0.0,
+          "lAB": -0.012143389609838155,
+          "lBA": -0.012143389609838155,
+          "rAN": -0.0,
+          "rB0": -0.0,
+          "rA0": -0.012143389609838155,
+          "rBN": -0.012143389609838155
+        },
+        "scores": {
+          "F_DX": -0.0,
+          "F_XX": -0.02428677921967631,
+          "F_DD": -0.02428677921967631,
+          "F_XD": -0.04857355843935262
+        },
+        "Delta_L": 0.02428677921967631,
+        "Delta_R": 0.02428677921967631,
+        "gap_identity_max_error": 0.0,
+        "maximizers": [
+          "F_DX"
+        ],
+        "selected_filter": "F_DX",
+        "status": "selected",
+        "optimizer_scope": "dimensionless construction flow; no measurement probability",
+        "flow": [
+          {
+            "construction_time": 0.0,
+            "filter_weights": {
+              "F_DX": 0.25,
+              "F_XX": 0.25,
+              "F_DD": 0.25,
+              "F_XD": 0.25
+            },
+            "winning_residual": 0.75
+          },
+          {
+            "construction_time": 1.0,
+            "filter_weights": {
+              "F_DX": 0.2561082582285528,
+              "F_XX": 0.24996313814606227,
+              "F_DD": 0.24996313814606227,
+              "F_XD": 0.24396546547932255
+            },
+            "winning_residual": 0.7438917417714472
+          },
+          {
+            "construction_time": 803.7003530219692,
+            "filter_weights": {
+              "F_DX": 0.9999999933333332,
+              "F_XX": 3.333333311111101e-09,
+              "F_DD": 3.333333311111101e-09,
+              "F_XD": 1.1111111037036972e-17
+            },
+            "winning_residual": 6.66666677417993e-09
+          }
+        ],
+        "minimum_score_gap": 0.02428677921967631,
+        "sufficient_construction_time": 803.7003530219692,
+        "finite_flow_residual": 6.66666677417993e-09
+      },
+      "charge_benchmark": true
+    },
+    {
+      "state": "packet",
+      "epsilon": 0.0,
+      "response": {
+        "dimensionless_shifts": {
+          "3_A": 1.25,
+          "3_B": 0.75,
+          "1_A": 1.25,
+          "1_B": 0.75,
+          "anti3_A": 0.75,
+          "anti3_B": 1.25,
+          "1_N": 0.75,
+          "1_0": 1.25
+        },
+        "raw_intensity": {
+          "3_A": 2.1604339694529484,
+          "3_B": 4.358141410900533,
+          "1_A": 2.1604339694529484,
+          "1_B": 4.358141410900533,
+          "anti3_A": 4.358141410900533,
+          "anti3_B": 2.1604339694529484,
+          "1_N": 4.358141410900533,
+          "1_0": 2.1604339694529484
+        },
+        "common_reference_intensity": 5.078400155597887,
+        "normalized_signatures": {
+          "3_A": 0.6522394144732068,
+          "3_B": 0.9263757966854161,
+          "1_A": 0.6522394144732068,
+          "1_B": 0.9263757966854161,
+          "anti3_A": 0.9263757966854161,
+          "anti3_B": 0.6522394144732068,
+          "1_N": 0.9263757966854161,
+          "1_0": 0.6522394144732068
+        },
+        "transport_gram_diagonal": [
+          0.4254162537923516,
+          0.4254162537923516,
+          0.4254162537923516,
+          0.4254162537923516,
+          0.8581721166845394,
+          0.8581721166845394,
+          0.8581721166845394,
+          0.4254162537923516,
+          0.8581721166845394,
+          0.8581721166845394,
+          0.8581721166845394,
+          0.4254162537923516,
+          0.4254162537923516,
+          0.4254162537923516,
+          0.8581721166845394,
+          0.8581721166845394
+        ],
+        "transport_gram_rank": 16,
+        "minimum_gram_eigenvalue": 0.4254162537923516,
+        "neutral_channel_norm_squared": 0.8581721166845394,
+        "principal_channel_difference": 0.0,
+        "signature_scope": "color-invariant scalar response in the calibrated weak-component basis; background and basis transform jointly",
+        "operator_scope": "auxiliary lower-order readout offset; not an extra dynamical Hamiltonian or SI energy sector"
+      },
+      "selection": {
+        "compatibility_entries": {
+          "lAA": -0.0,
+          "lBB": -0.0,
+          "lAB": -0.07515075605239854,
+          "lBA": -0.07515075605239854,
+          "rAN": -0.0,
+          "rB0": -0.0,
+          "rA0": -0.07515075605239854,
+          "rBN": -0.07515075605239854
+        },
+        "scores": {
+          "F_DX": -0.0,
+          "F_XX": -0.15030151210479709,
+          "F_DD": -0.15030151210479709,
+          "F_XD": -0.30060302420959417
+        },
+        "Delta_L": 0.15030151210479709,
+        "Delta_R": 0.15030151210479709,
+        "gap_identity_max_error": 0.0,
+        "maximizers": [
+          "F_DX"
+        ],
+        "selected_filter": "F_DX",
+        "status": "selected",
+        "optimizer_scope": "dimensionless construction flow; no measurement probability",
+        "flow": [
+          {
+            "construction_time": 0.0,
+            "filter_weights": {
+              "F_DX": 0.25,
+              "F_XX": 0.25,
+              "F_DD": 0.25,
+              "F_XD": 0.25
+            },
+            "winning_residual": 0.75
+          },
+          {
+            "construction_time": 1.0,
+            "filter_weights": {
+              "F_DX": 0.2889114101380979,
+              "F_XX": 0.24859338996893174,
+              "F_DD": 0.24859338996893174,
+              "F_XD": 0.21390180992403854
+            },
+            "winning_residual": 0.7110885898619022
+          },
+          {
+            "construction_time": 129.86757590975355,
+            "filter_weights": {
+              "F_DX": 0.9999999933333332,
+              "F_XX": 3.333333311111101e-09,
+              "F_DD": 3.333333311111101e-09,
+              "F_XD": 1.1111111037036972e-17
+            },
+            "winning_residual": 6.66666677417993e-09
+          }
+        ],
+        "minimum_score_gap": 0.15030151210479709,
+        "sufficient_construction_time": 129.86757590975355,
+        "finite_flow_residual": 6.66666677417993e-09
+      },
+      "charge_benchmark": true
+    },
+    {
+      "state": "uniform",
+      "epsilon": 8.0,
+      "response": {
+        "dimensionless_shifts": {
+          "3_A": 1.25,
+          "3_B": 0.75,
+          "1_A": 1.25,
+          "1_B": 0.75,
+          "anti3_A": 0.75,
+          "anti3_B": 1.25,
+          "1_N": 0.75,
+          "1_0": 1.25
+        },
+        "raw_intensity": {
+          "3_A": 1.5511432119649604,
+          "3_B": 2.335890516492746,
+          "1_A": 1.5511432119649604,
+          "1_B": 2.335890516492746,
+          "anti3_A": 2.335890516492746,
+          "anti3_B": 1.5511432119649604,
+          "1_N": 2.335890516492746,
+          "1_0": 1.5511432119649604
+        },
+        "common_reference_intensity": 3.4284205352862167,
+        "normalized_signatures": {
+          "3_A": 0.672634136912357,
+          "3_B": 0.8254280019523133,
+          "1_A": 0.672634136912357,
+          "1_B": 0.8254280019523133,
+          "anti3_A": 0.8254280019523133,
+          "anti3_B": 0.672634136912357,
+          "1_N": 0.8254280019523133,
+          "1_0": 0.672634136912357
+        },
+        "transport_gram_diagonal": [
+          0.45243668213983135,
+          0.45243668213983135,
+          0.45243668213983135,
+          0.45243668213983135,
+          0.681331386406988,
+          0.681331386406988,
+          0.681331386406988,
+          0.45243668213983135,
+          0.681331386406988,
+          0.681331386406988,
+          0.681331386406988,
+          0.45243668213983135,
+          0.45243668213983135,
+          0.45243668213983135,
+          0.681331386406988,
+          0.681331386406988
+        ],
+        "transport_gram_rank": 16,
+        "minimum_gram_eigenvalue": 0.45243668213983135,
+        "neutral_channel_norm_squared": 0.681331386406988,
+        "principal_channel_difference": 0.0,
+        "signature_scope": "color-invariant scalar response in the calibrated weak-component basis; background and basis transform jointly",
+        "operator_scope": "auxiliary lower-order readout offset; not an extra dynamical Hamiltonian or SI energy sector"
+      },
+      "selection": {
+        "compatibility_entries": {
+          "lAA": -0.0,
+          "lBB": -0.0,
+          "lAB": -0.023345965193848378,
+          "lBA": -0.023345965193848378,
+          "rAN": -0.0,
+          "rB0": -0.0,
+          "rA0": -0.023345965193848378,
+          "rBN": -0.023345965193848378
+        },
+        "scores": {
+          "F_DX": -0.0,
+          "F_XX": -0.046691930387696756,
+          "F_DD": -0.046691930387696756,
+          "F_XD": -0.09338386077539351
+        },
+        "Delta_L": 0.046691930387696756,
+        "Delta_R": 0.046691930387696756,
+        "gap_identity_max_error": 0.0,
+        "maximizers": [
+          "F_DX"
+        ],
+        "selected_filter": "F_DX",
+        "status": "selected",
+        "optimizer_scope": "dimensionless construction flow; no measurement probability",
+        "flow": [
+          {
+            "construction_time": 0.0,
+            "filter_weights": {
+              "F_DX": 0.25,
+              "F_XX": 0.25,
+              "F_DD": 0.25,
+              "F_XD": 0.25
+            },
+            "winning_residual": 0.75
+          },
+          {
+            "construction_time": 1.0,
+            "filter_weights": {
+              "F_DX": 0.2618070713623185,
+              "F_XX": 0.24986379097236489,
+              "F_DD": 0.24986379097236489,
+              "F_XD": 0.2384653466929517
+            },
+            "winning_residual": 0.7381929286376815
+          },
+          {
+            "construction_time": 418.04425027078724,
+            "filter_weights": {
+              "F_DX": 0.9999999933333332,
+              "F_XX": 3.333333311111101e-09,
+              "F_DD": 3.333333311111101e-09,
+              "F_XD": 1.1111111037036972e-17
+            },
+            "winning_residual": 6.66666677417993e-09
+          }
+        ],
+        "minimum_score_gap": 0.046691930387696756,
+        "sufficient_construction_time": 418.04425027078724,
+        "finite_flow_residual": 6.66666677417993e-09
+      },
+      "charge_benchmark": true
+    },
+    {
+      "state": "mode_0",
+      "epsilon": 8.0,
+      "response": {
+        "dimensionless_shifts": {
+          "3_A": 1.25,
+          "3_B": 0.75,
+          "1_A": 1.25,
+          "1_B": 0.75,
+          "anti3_A": 0.75,
+          "anti3_B": 1.25,
+          "1_N": 0.75,
+          "1_0": 1.25
+        },
+        "raw_intensity": {
+          "3_A": 2.8011053902760605,
+          "3_B": 4.485983584832952,
+          "1_A": 2.8011053902760605,
+          "1_B": 4.485983584832952,
+          "anti3_A": 4.485983584832952,
+          "anti3_B": 2.8011053902760605,
+          "1_N": 4.485983584832952,
+          "1_0": 2.8011053902760605
+        },
+        "common_reference_intensity": 4.947741208218974,
+        "normalized_signatures": {
+          "3_A": 0.7524215692714872,
+          "3_B": 0.9521938061845221,
+          "1_A": 0.7524215692714872,
+          "1_B": 0.9521938061845221,
+          "anti3_A": 0.9521938061845221,
+          "anti3_B": 0.7524215692714872,
+          "1_N": 0.9521938061845221,
+          "1_0": 0.7524215692714872
+        },
+        "transport_gram_diagonal": [
+          0.5661382179049674,
+          0.5661382179049674,
+          0.5661382179049674,
+          0.5661382179049674,
+          0.9066730445361673,
+          0.9066730445361673,
+          0.9066730445361673,
+          0.5661382179049674,
+          0.9066730445361673,
+          0.9066730445361673,
+          0.9066730445361673,
+          0.5661382179049674,
+          0.5661382179049674,
+          0.5661382179049674,
+          0.9066730445361673,
+          0.9066730445361673
+        ],
+        "transport_gram_rank": 16,
+        "minimum_gram_eigenvalue": 0.5661382179049674,
+        "neutral_channel_norm_squared": 0.9066730445361673,
+        "principal_channel_difference": 0.0,
+        "signature_scope": "color-invariant scalar response in the calibrated weak-component basis; background and basis transform jointly",
+        "operator_scope": "auxiliary lower-order readout offset; not an extra dynamical Hamiltonian or SI energy sector"
+      },
+      "selection": {
+        "compatibility_entries": {
+          "lAA": -0.0,
+          "lBB": -0.0,
+          "lAB": -0.03990894664123775,
+          "lBA": -0.03990894664123775,
+          "rAN": -0.0,
+          "rB0": -0.0,
+          "rA0": -0.03990894664123775,
+          "rBN": -0.03990894664123775
+        },
+        "scores": {
+          "F_DX": -0.0,
+          "F_XX": -0.0798178932824755,
+          "F_DD": -0.0798178932824755,
+          "F_XD": -0.159635786564951
+        },
+        "Delta_L": 0.0798178932824755,
+        "Delta_R": 0.0798178932824755,
+        "gap_identity_max_error": 0.0,
+        "maximizers": [
+          "F_DX"
+        ],
+        "selected_filter": "F_DX",
+        "status": "selected",
+        "optimizer_scope": "dimensionless construction flow; no measurement probability",
+        "flow": [
+          {
+            "construction_time": 0.0,
+            "filter_weights": {
+              "F_DX": 0.25,
+              "F_XX": 0.25,
+              "F_DD": 0.25,
+              "F_XD": 0.25
+            },
+            "winning_residual": 0.75
+          },
+          {
+            "construction_time": 1.0,
+            "filter_weights": {
+              "F_DX": 0.2703416446677326,
+              "F_XX": 0.2496022414081906,
+              "F_DD": 0.2496022414081906,
+              "F_XD": 0.23045387251588623
+            },
+            "winning_residual": 0.7296583553322674
+          },
+          {
+            "construction_time": 244.54783545265602,
+            "filter_weights": {
+              "F_DX": 0.9999999933333332,
+              "F_XX": 3.333333311111101e-09,
+              "F_DD": 3.333333311111101e-09,
+              "F_XD": 1.1111111037036972e-17
+            },
+            "winning_residual": 6.66666677417993e-09
+          }
+        ],
+        "minimum_score_gap": 0.0798178932824755,
+        "sufficient_construction_time": 244.54783545265602,
+        "finite_flow_residual": 6.66666677417993e-09
+      },
+      "charge_benchmark": true
+    },
+    {
+      "state": "mode_8",
+      "epsilon": 8.0,
+      "response": {
+        "dimensionless_shifts": {
+          "3_A": 1.25,
+          "3_B": 0.75,
+          "1_A": 1.25,
+          "1_B": 0.75,
+          "anti3_A": 0.75,
+          "anti3_B": 1.25,
+          "1_N": 0.75,
+          "1_0": 1.25
+        },
+        "raw_intensity": {
+          "3_A": 1.8889080342540947,
+          "3_B": 5.509529431047951,
+          "1_A": 1.8889080342540947,
+          "1_B": 5.509529431047951,
+          "anti3_A": 5.509529431047951,
+          "anti3_B": 1.8889080342540947,
+          "1_N": 5.509529431047951,
+          "1_0": 1.8889080342540947
+        },
+        "common_reference_intensity": 6.262668844762421,
+        "normalized_signatures": {
+          "3_A": 0.549193872428495,
+          "3_B": 0.9379453393936403,
+          "1_A": 0.549193872428495,
+          "1_B": 0.9379453393936403,
+          "anti3_A": 0.9379453393936403,
+          "anti3_B": 0.549193872428495,
+          "1_N": 0.9379453393936403,
+          "1_0": 0.549193872428495
+        },
+        "transport_gram_diagonal": [
+          0.30161390951300604,
+          0.30161390951300604,
+          0.30161390951300604,
+          0.30161390951300604,
+          0.8797414596902512,
+          0.8797414596902512,
+          0.8797414596902512,
+          0.30161390951300604,
+          0.8797414596902512,
+          0.8797414596902512,
+          0.8797414596902512,
+          0.30161390951300604,
+          0.30161390951300604,
+          0.30161390951300604,
+          0.8797414596902512,
+          0.8797414596902512
+        ],
+        "transport_gram_rank": 16,
+        "minimum_gram_eigenvalue": 0.30161390951300604,
+        "neutral_channel_norm_squared": 0.8797414596902512,
+        "principal_channel_difference": 0.0,
+        "signature_scope": "color-invariant scalar response in the calibrated weak-component basis; background and basis transform jointly",
+        "operator_scope": "auxiliary lower-order readout offset; not an extra dynamical Hamiltonian or SI energy sector"
+      },
+      "selection": {
+        "compatibility_entries": {
+          "lAA": -0.0,
+          "lBB": -0.0,
+          "lAB": -0.15112770306755244,
+          "lBA": -0.15112770306755244,
+          "rAN": -0.0,
+          "rB0": -0.0,
+          "rA0": -0.15112770306755244,
+          "rBN": -0.15112770306755244
+        },
+        "scores": {
+          "F_DX": -0.0,
+          "F_XX": -0.3022554061351049,
+          "F_DD": -0.3022554061351049,
+          "F_XD": -0.6045108122702098
+        },
+        "Delta_L": 0.3022554061351049,
+        "Delta_R": 0.3022554061351049,
+        "gap_identity_max_error": 0.0,
+        "maximizers": [
+          "F_DX"
+        ],
+        "selected_filter": "F_DX",
+        "status": "selected",
+        "optimizer_scope": "dimensionless construction flow; no measurement probability",
+        "flow": [
+          {
+            "construction_time": 0.0,
+            "filter_weights": {
+              "F_DX": 0.25,
+              "F_XX": 0.25,
+              "F_DD": 0.25,
+              "F_XD": 0.25
+            },
+            "winning_residual": 0.75
+          },
+          {
+            "construction_time": 1.0,
+            "filter_weights": {
+              "F_DX": 0.33061784335692573,
+              "F_XX": 0.2443759334415069,
+              "F_DD": 0.2443759334415069,
+              "F_XD": 0.18063028976006054
+            },
+            "winning_residual": 0.6693821566430742
+          },
+          {
+            "construction_time": 64.57880532960779,
+            "filter_weights": {
+              "F_DX": 0.9999999933333332,
+              "F_XX": 3.333333311111101e-09,
+              "F_DD": 3.333333311111101e-09,
+              "F_XD": 1.1111111037036972e-17
+            },
+            "winning_residual": 6.66666677417993e-09
+          }
+        ],
+        "minimum_score_gap": 0.3022554061351049,
+        "sufficient_construction_time": 64.57880532960779,
+        "finite_flow_residual": 6.66666677417993e-09
+      },
+      "charge_benchmark": true
+    },
+    {
+      "state": "mode_64",
+      "epsilon": 8.0,
+      "response": {
+        "dimensionless_shifts": {
+          "3_A": 1.25,
+          "3_B": 0.75,
+          "1_A": 1.25,
+          "1_B": 0.75,
+          "anti3_A": 0.75,
+          "anti3_B": 1.25,
+          "1_N": 0.75,
+          "1_0": 1.25
+        },
+        "raw_intensity": {
+          "3_A": 0.11075380564098299,
+          "3_B": 0.18557475313807603,
+          "1_A": 0.11075380564098299,
+          "1_B": 0.18557475313807603,
+          "anti3_A": 0.18557475313807603,
+          "anti3_B": 0.11075380564098299,
+          "1_N": 0.18557475313807603,
+          "1_0": 0.11075380564098299
+        },
+        "common_reference_intensity": 0.7906721638149533,
+        "normalized_signatures": {
+          "3_A": 0.37426662795494736,
+          "3_B": 0.48446367696188836,
+          "1_A": 0.37426662795494736,
+          "1_B": 0.48446367696188836,
+          "anti3_A": 0.48446367696188836,
+          "anti3_B": 0.37426662795494736,
+          "1_N": 0.48446367696188836,
+          "1_0": 0.37426662795494736
+        },
+        "transport_gram_diagonal": [
+          0.140075508800767,
+          0.140075508800767,
+          0.140075508800767,
+          0.140075508800767,
+          0.2347050542954329,
+          0.2347050542954329,
+          0.2347050542954329,
+          0.140075508800767,
+          0.2347050542954329,
+          0.2347050542954329,
+          0.2347050542954329,
+          0.140075508800767,
+          0.140075508800767,
+          0.140075508800767,
+          0.2347050542954329,
+          0.2347050542954329
+        ],
+        "transport_gram_rank": 16,
+        "minimum_gram_eigenvalue": 0.140075508800767,
+        "neutral_channel_norm_squared": 0.2347050542954329,
+        "principal_channel_difference": 0.0,
+        "signature_scope": "color-invariant scalar response in the calibrated weak-component basis; background and basis transform jointly",
+        "operator_scope": "auxiliary lower-order readout offset; not an extra dynamical Hamiltonian or SI energy sector"
+      },
+      "selection": {
+        "compatibility_entries": {
+          "lAA": -0.0,
+          "lBB": -0.0,
+          "lAB": -0.012143389609838155,
+          "lBA": -0.012143389609838155,
+          "rAN": -0.0,
+          "rB0": -0.0,
+          "rA0": -0.012143389609838155,
+          "rBN": -0.012143389609838155
+        },
+        "scores": {
+          "F_DX": -0.0,
+          "F_XX": -0.02428677921967631,
+          "F_DD": -0.02428677921967631,
+          "F_XD": -0.04857355843935262
+        },
+        "Delta_L": 0.02428677921967631,
+        "Delta_R": 0.02428677921967631,
+        "gap_identity_max_error": 0.0,
+        "maximizers": [
+          "F_DX"
+        ],
+        "selected_filter": "F_DX",
+        "status": "selected",
+        "optimizer_scope": "dimensionless construction flow; no measurement probability",
+        "flow": [
+          {
+            "construction_time": 0.0,
+            "filter_weights": {
+              "F_DX": 0.25,
+              "F_XX": 0.25,
+              "F_DD": 0.25,
+              "F_XD": 0.25
+            },
+            "winning_residual": 0.75
+          },
+          {
+            "construction_time": 1.0,
+            "filter_weights": {
+              "F_DX": 0.2561082582285528,
+              "F_XX": 0.24996313814606227,
+              "F_DD": 0.24996313814606227,
+              "F_XD": 0.24396546547932255
+            },
+            "winning_residual": 0.7438917417714472
+          },
+          {
+            "construction_time": 803.7003530219692,
+            "filter_weights": {
+              "F_DX": 0.9999999933333332,
+              "F_XX": 3.333333311111101e-09,
+              "F_DD": 3.333333311111101e-09,
+              "F_XD": 1.1111111037036972e-17
+            },
+            "winning_residual": 6.66666677417993e-09
+          }
+        ],
+        "minimum_score_gap": 0.02428677921967631,
+        "sufficient_construction_time": 803.7003530219692,
+        "finite_flow_residual": 6.66666677417993e-09
+      },
+      "charge_benchmark": true
+    },
+    {
+      "state": "packet",
+      "epsilon": 8.0,
+      "response": {
+        "dimensionless_shifts": {
+          "3_A": 1.25,
+          "3_B": 0.75,
+          "1_A": 1.25,
+          "1_B": 0.75,
+          "anti3_A": 0.75,
+          "anti3_B": 1.25,
+          "1_N": 0.75,
+          "1_0": 1.25
+        },
+        "raw_intensity": {
+          "3_A": 2.1604339694529484,
+          "3_B": 4.358141410900533,
+          "1_A": 2.1604339694529484,
+          "1_B": 4.358141410900533,
+          "anti3_A": 4.358141410900533,
+          "anti3_B": 2.1604339694529484,
+          "1_N": 4.358141410900533,
+          "1_0": 2.1604339694529484
+        },
+        "common_reference_intensity": 5.078400155597887,
+        "normalized_signatures": {
+          "3_A": 0.6522394144732068,
+          "3_B": 0.9263757966854161,
+          "1_A": 0.6522394144732068,
+          "1_B": 0.9263757966854161,
+          "anti3_A": 0.9263757966854161,
+          "anti3_B": 0.6522394144732068,
+          "1_N": 0.9263757966854161,
+          "1_0": 0.6522394144732068
+        },
+        "transport_gram_diagonal": [
+          0.4254162537923516,
+          0.4254162537923516,
+          0.4254162537923516,
+          0.4254162537923516,
+          0.8581721166845394,
+          0.8581721166845394,
+          0.8581721166845394,
+          0.4254162537923516,
+          0.8581721166845394,
+          0.8581721166845394,
+          0.8581721166845394,
+          0.4254162537923516,
+          0.4254162537923516,
+          0.4254162537923516,
+          0.8581721166845394,
+          0.8581721166845394
+        ],
+        "transport_gram_rank": 16,
+        "minimum_gram_eigenvalue": 0.4254162537923516,
+        "neutral_channel_norm_squared": 0.8581721166845394,
+        "principal_channel_difference": 0.0,
+        "signature_scope": "color-invariant scalar response in the calibrated weak-component basis; background and basis transform jointly",
+        "operator_scope": "auxiliary lower-order readout offset; not an extra dynamical Hamiltonian or SI energy sector"
+      },
+      "selection": {
+        "compatibility_entries": {
+          "lAA": -0.0,
+          "lBB": -0.0,
+          "lAB": -0.07515075605239854,
+          "lBA": -0.07515075605239854,
+          "rAN": -0.0,
+          "rB0": -0.0,
+          "rA0": -0.07515075605239854,
+          "rBN": -0.07515075605239854
+        },
+        "scores": {
+          "F_DX": -0.0,
+          "F_XX": -0.15030151210479709,
+          "F_DD": -0.15030151210479709,
+          "F_XD": -0.30060302420959417
+        },
+        "Delta_L": 0.15030151210479709,
+        "Delta_R": 0.15030151210479709,
+        "gap_identity_max_error": 0.0,
+        "maximizers": [
+          "F_DX"
+        ],
+        "selected_filter": "F_DX",
+        "status": "selected",
+        "optimizer_scope": "dimensionless construction flow; no measurement probability",
+        "flow": [
+          {
+            "construction_time": 0.0,
+            "filter_weights": {
+              "F_DX": 0.25,
+              "F_XX": 0.25,
+              "F_DD": 0.25,
+              "F_XD": 0.25
+            },
+            "winning_residual": 0.75
+          },
+          {
+            "construction_time": 1.0,
+            "filter_weights": {
+              "F_DX": 0.2889114101380979,
+              "F_XX": 0.24859338996893174,
+              "F_DD": 0.24859338996893174,
+              "F_XD": 0.21390180992403854
+            },
+            "winning_residual": 0.7110885898619022
+          },
+          {
+            "construction_time": 129.86757590975355,
+            "filter_weights": {
+              "F_DX": 0.9999999933333332,
+              "F_XX": 3.333333311111101e-09,
+              "F_DD": 3.333333311111101e-09,
+              "F_XD": 1.1111111037036972e-17
+            },
+            "winning_residual": 6.66666677417993e-09
+          }
+        ],
+        "minimum_score_gap": 0.15030151210479709,
+        "sufficient_construction_time": 129.86757590975355,
+        "finite_flow_residual": 6.66666677417993e-09
+      },
+      "charge_benchmark": true
+    }
+  ],
+  "checks": {
+    "all_ten_carrier_conditions_select_F_DX": true,
+    "selected_filters_reproduce_charge_table": true,
+    "response_Gram_positive_rank16": true,
+    "principal_carrier_operator_preserved": true,
+    "construction_flow_converges": true,
+    "gap_identities_reproduced": true,
+    "carrier_basis_covariance": true,
+    "zero_contrast_control_fails_closed_on_tie": true,
+    "unsupported_winner_not_fabricated": true
+  },
+  "controls": {
+    "zero_contrast": "tied",
+    "unsupported_winner": "winning_filter_has_zero_support"
+  },
+  "handoff": {
+    "selected_filter": "F_DX",
+    "slot_permutation": [
+      1,
+      2,
+      3,
+      8,
+      9,
+      10,
+      7,
+      14,
+      4,
+      5,
+      6,
+      11,
+      12,
+      13,
+      15,
+      0
+    ],
+    "consumer": "phenotype_transform.py"
+  },
+  "scope": "inherited calibrated resolvent response -> compatibility -> construction selection -> phenotype placement; optimizer weights are not Born probabilities or physical records",
+  "source_hashes": {
+    "score_metric_0.py": "2be26af2a693d0136e9d3c80fc7abc48e95017b6b2dce450e67a4c25eed468ef",
+    "score_metric_1.py": "e3354ac4d6cc27858eabf36f1f1360467d7df7522d416ad06f309ee5db4b84be"
+  }
+}
