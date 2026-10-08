@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "title": "From Number Structure to Particle Selection: A Possible Readout and Its Energy–Pressure Constraints in a Finite WRRA Toy Model",
+    "upload_type": "publication",
+    "publication_type": "preprint",
+    "publication_date": "2026-10-08",
+    "version": "0.2",
+    "creators": [
+      {
+        "name": "Choi, Wonsik",
+        "affiliation": "Independent Researcher, Seoul, Republic of Korea",
+        "orcid": "0009-0001-4263-9772"
+      },
+      {
+        "name": "Choi, Jeongin"
+      }
+    ],
+    "description": "A finite WRRA toy-model study of one possible connection from prime-factor structure to particle-selection probabilities. Known electron and muon properties are supplied inputs. A prime-occurrence collision statistic defines a conditional two-channel readout, with a consistent state extension and explicit energy/pressure accounting. A sectorwise criterion distinguishes reference-energy agreement from pressure compatibility. Four archived r11 preparations are reconstructed for the phenotype sector; D=0.268 and R=0.682 remain inherited inputs. Reversed and constant-routing controls are included. All 47 implementation checks pass. The readout is a modelling possibility, not an empirically established particle-generation mechanism; the fixed-occupation pressure diagnostic excludes decay, production and annihilation. Includes English manuscript, Korean guide, reproducible code, archived inputs, results, and clearly labelled internal AI review.",
+    "access_right": "open",
+    "license": "cc-by-4.0",
+    "keywords": [
+      "WRRA",
+      "finite toy model",
+      "prime factorization",
+      "particle selection",
+      "quantum channel",
+      "energy pressure compatibility",
+      "reproducibility"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/tree/main/submission/particle_selection_v0_2",
+        "relation": "isSupplementTo",
+        "scheme": "url"
+      },
+      {
+        "identifier": "10.5281/zenodo.23237629",
+        "relation": "references",
+        "scheme": "doi"
+      }
+    ]
+  }
+}

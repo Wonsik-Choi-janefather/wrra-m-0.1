@@ -1,3 +1,7 @@
+## Particle-selection toy model v0.2 · 2026-10-08
+
+[English manuscript, Korean guide, code and review](submission/particle_selection_v0_2/README.md) — finite prime-factor readout, conditional particle selection, and energy–pressure compatibility. **47/47 implementation checks.** Physical routing remains a declared toy-model possibility. Zenodo DOI pending.
+
 ## Minimal Computing Cosmology 3.0 — Cumulative Book v0.4
 
 최소계산우주론 3.0 누적 통합 책 원고 v0.4의 한글·영문본을 공개했습니다.

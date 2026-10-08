@@ -1,0 +1,307 @@
+{
+  "version": "0.2",
+  "scope": "Kinematic two-species interface and fixed-occupation pressure diagnostic; not a cosmic muon population or a mass derivation.",
+  "inputs": {
+    "N": 1000000,
+    "alpha": 1.8996876950554356,
+    "K": 8,
+    "electron_rest_energy_MeV": 0.51099895069,
+    "muon_rest_energy_MeV": 105.6583755,
+    "pair_energy_MeV": 211.316751,
+    "chi_rule": "sum valuation squared / total valuation squared",
+    "routing": "electron=chi, muon=1-chi"
+  },
+  "rows": [
+    {
+      "drive": "zeta_dynamic",
+      "phi": 0.0500000000000009,
+      "electron_pair_probability": 0.7390664036122881,
+      "reversed_electron_probability": 0.26093359638771174,
+      "constant_electron_probability": 0.49999999999999944,
+      "muon_pair_probability": 0.26093359638771185,
+      "mean_pair_rest_energy_MeV": 55.89496412886883,
+      "mean_pair_kinetic_energy_MeV": 155.4217868711312,
+      "total_pair_energy_MeV": 211.316751,
+      "pV_over_E_phi_at_v1": 0.2463497055906738,
+      "instantaneous_formal_q": -0.5045237720806994
+    },
+    {
+      "drive": "zeta_static",
+      "phi": 0.049999999999999926,
+      "electron_pair_probability": 0.7287127296095072,
+      "reversed_electron_probability": 0.2712872703904935,
+      "constant_electron_probability": 0.4999999999999999,
+      "muon_pair_probability": 0.27128727039049283,
+      "mean_pair_rest_energy_MeV": 58.07228744694726,
+      "mean_pair_kinetic_energy_MeV": 153.24446355305275,
+      "total_pair_energy_MeV": 211.316751,
+      "pV_over_E_phi_at_v1": 0.24289856164758505,
+      "instantaneous_formal_q": -0.5047826078764311
+    },
+    {
+      "drive": "equal_frequency",
+      "phi": 0.05000000000000277,
+      "electron_pair_probability": 0.7437997248866794,
+      "reversed_electron_probability": 0.2562002751133199,
+      "constant_electron_probability": 0.5000000000000007,
+      "muon_pair_probability": 0.25620027511332055,
+      "mean_pair_rest_energy_MeV": 54.899571500134265,
+      "mean_pair_kinetic_energy_MeV": 156.41717949986574,
+      "total_pair_energy_MeV": 211.316751,
+      "pV_over_E_phi_at_v1": 0.24792744244451145,
+      "instantaneous_formal_q": -0.5044054418166617
+    },
+    {
+      "drive": "constant_admission",
+      "phi": 0.04999999999999964,
+      "electron_pair_probability": 0.7399201381472719,
+      "reversed_electron_probability": 0.26007986185272775,
+      "constant_electron_probability": 0.4999999999999997,
+      "muon_pair_probability": 0.26007986185272813,
+      "mean_pair_rest_energy_MeV": 55.71542823562266,
+      "mean_pair_kinetic_energy_MeV": 155.60132276437736,
+      "total_pair_energy_MeV": 211.316751,
+      "pV_over_E_phi_at_v1": 0.2466342771126884,
+      "instantaneous_formal_q": -0.5045024292165484
+    }
+  ],
+  "checks": [
+    {
+      "name": "chi bounds",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "factor witness 9",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "factor witness 15",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "factor witness 45",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "factor witness 105",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "zeta_dynamic reversed routing",
+      "passed": true,
+      "value": 0.26093359638771174
+    },
+    {
+      "name": "zeta_dynamic constant routing",
+      "passed": true,
+      "value": 0.49999999999999944
+    },
+    {
+      "name": "zeta_dynamic phenotype reconstruction",
+      "passed": true,
+      "value": 0.0500000000000009
+    },
+    {
+      "name": "zeta_dynamic r11 address9",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "zeta_dynamic energy allocation",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "zeta_dynamic finite difference pressure",
+      "passed": true,
+      "value": 7.822187342299003e-12
+    },
+    {
+      "name": "zeta_dynamic q from same energy",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "zeta_static reversed routing",
+      "passed": true,
+      "value": 0.2712872703904935
+    },
+    {
+      "name": "zeta_static constant routing",
+      "passed": true,
+      "value": 0.4999999999999999
+    },
+    {
+      "name": "zeta_static phenotype reconstruction",
+      "passed": true,
+      "value": 0.049999999999999926
+    },
+    {
+      "name": "zeta_static r11 address9",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "zeta_static energy allocation",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "zeta_static finite difference pressure",
+      "passed": true,
+      "value": 4.3445247399631626e-12
+    },
+    {
+      "name": "zeta_static q from same energy",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "equal_frequency reversed routing",
+      "passed": true,
+      "value": 0.2562002751133199
+    },
+    {
+      "name": "equal_frequency constant routing",
+      "passed": true,
+      "value": 0.5000000000000007
+    },
+    {
+      "name": "equal_frequency phenotype reconstruction",
+      "passed": true,
+      "value": 0.05000000000000277
+    },
+    {
+      "name": "equal_frequency r11 address9",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "equal_frequency energy allocation",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "equal_frequency finite difference pressure",
+      "passed": true,
+      "value": 1.294808704699335e-11
+    },
+    {
+      "name": "equal_frequency q from same energy",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "constant_admission reversed routing",
+      "passed": true,
+      "value": 0.26007986185272775
+    },
+    {
+      "name": "constant_admission constant routing",
+      "passed": true,
+      "value": 0.4999999999999997
+    },
+    {
+      "name": "constant_admission phenotype reconstruction",
+      "passed": true,
+      "value": 0.04999999999999964
+    },
+    {
+      "name": "constant_admission r11 address9",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "constant_admission energy allocation",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "constant_admission finite difference pressure",
+      "passed": true,
+      "value": 3.686717597872757e-12
+    },
+    {
+      "name": "constant_admission q from same energy",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "four readouts differ",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "TV bound 1",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "TV bound 2",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "TV bound 3",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "isometry",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "coherent trace and positivity",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "negative control record erasure",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "Choi positivity",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "Choi trace preservation",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "spin singlet",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "pair total charge and lepton number",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "electron mass shell",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "cold equal-energy obstruction",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "dust counterexample positive pressure",
+      "passed": true,
+      "value": null
+    }
+  ],
+  "passed": 47,
+  "total": 47
+}

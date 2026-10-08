@@ -1,0 +1,21 @@
+{
+  "output/WRRA_Address_Particle_Interface_v0_2_EN.docx": "f25c29be1c7dfa11e5caa4a8c3defce49ffae6d946ef136dfa01d4b8798db8f4",
+  "output/WRRA_Address_Particle_Interface_v0_2_EN.pdf": "4c11a268f8be91e1f3a4767dd914f7d7e074270a1c1d9cc6d97430ecdfac5a0b",
+  "output/WRRA_Address_Particle_Interface_v0_2_KO_Guide.docx": "3784d15a169a615f6533458769f378e7fa5bbea55cf97a366494254c3922a827",
+  "output/WRRA_Address_Particle_Interface_v0_2_KO_Guide.pdf": "fb80d2f7b0c7cf1a61a5e0810b3f3e44c76a213c3a3f100158cb078a0b5cd07e",
+  "source/Astra_Medium_ReReview_KO.txt": "941b7cc6784172183cae6ce393e72c74c9d3d60ec20239a5ea1a7ed6e4eddb81",
+  "source/Conclusion_Clarification.txt": "fc5d5f6bb2512f72a552e85948c918dc9bbc715a8a3b845f394a7417734df554",
+  "source/README.txt": "4b0c1b5cdaf03deb81fb9f9ab5b14146bb1cbf2ce82cf18fa027fede8d4189be",
+  "source/Revision_Response_KO.txt": "88d2f53ae4f52a5966a09bd240fc62c66cf52d7b303160469b896a38b5624514",
+  "source/build.py": "c23eb081414ae5a8294f785a19a55b8280fc5b2255292e719bf40eab14cf7df6",
+  "source/final_clarity.py": "87886f23bc1f0a3170363f6b0eb795b15360874a0916a9cf928631f0303947dd",
+  "source/flow.py": "c5cb56f7c7fff78ce1ed3a23dda12bba13c0c63d43b52d88b91f281bb7fc505a",
+  "source/ko_layout.py": "6afd7c421d4bd7d7900de6601d4662382cc85fdd984b2eb6124a5e4213a46e82",
+  "source/math_format.py": "594309dd70bfb682814481dd9e6ae12f572b97678c537d26af35b0a5beea1457",
+  "source/polish.py": "8c132bc1f169541aadb64635621ad5d6e440ee0b27adf5612ac357f9fb01ba52",
+  "source/r11_controls.json": "044ea59e3d41cf0f2d065c305c7997c3074d1b1dbb9d3da41f5e8a9f713dfb8d",
+  "source/reproduce.py": "9b736205c92338139b0c92d1249ef5207b3329081e926fa574109f8e42145ec9",
+  "source/results.json": "aa63a940598afa3d7fb6a8e64fad919c0ab6289756e3b6b7f8c02533fbfdbbfe",
+  "source/retitle.py": "303276d2beca891bcb727fdf5208ffec7f519612f9ba494d42ced07db7d47661",
+  "source/table_layout.py": "5b0cf3b19ca4b308a3f28b43571f10660b97f6ddb86b98c1c0ea583682d82a37"
+}

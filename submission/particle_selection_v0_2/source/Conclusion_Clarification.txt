@@ -1,0 +1,1 @@
+2026-10-08: Following the Astra medium review, the conclusion was clarified to reiterate the existing fixed-occupation limitation: decay, production and annihilation are excluded, and long-term cosmology requires decay products and energy transfer. No equations, assumptions or numerical results were changed. This wording-only addition was not separately re-reviewed.
