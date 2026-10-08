@@ -1,0 +1,28 @@
+Astra scientific review of Paper A, revised version 1.0
+Review date: 8 October 2026
+Manuscript: Paper_A_EN_v1.0.md
+Decision: MINOR REVISION; no major scientific revision required within the declared mathematical/model-development scope.
+
+Assessment standard
+I assessed the stated sequence of verified/adopted inputs, WRRA transformations, outputs and failure criteria. Calibrated reproduction is a legitimate model-development result. A novel numerical prediction, a unique fundamental law, or proof that this construction is the physical universe is not a prerequisite imposed by this review. The elementary arithmetic ingredients need not be novel for the specified WRRA connection to constitute the proposed contribution.
+
+Materials inspected
+The original executive source_A.md, revised manuscript, audit_A.py and its fresh JSON results; structural address implementation/evidence and dependency metadata; frozen_source_replay.py and its results; inherited filter definitions and parameters; relevant source_step1 and source_step7 evidence. The runner and release packaging were still being assembled. This review checks scientific content and recorded calculations, and does not claim a separate execution of every inherited stage.
+
+Findings
+1. The exact-denominator proposition is correct, and its limited equal-unit meaning is stated clearly. The mixed-radix inverse and full-tuple cardinality bound are correct. The manuscript does not conflate either result with quantum carrier dimension or minimum sufficient macro state.
+2. The passive-transport statement is correct. Transporting relations, costs, weights and effects is distinct from recomputing the arithmetic classifier after an active reassignment. The fresh numerical controls exhibit the latter distinction rather than claiming arbitrary classifier invariance.
+3. The truncation-mixture identity and componentwise epsilon and l1 bounds are correct for the declared fixed effects. Inspection of the original phase/filter code confirms the required cutoff independence. The reported epsilon, original calibration and old/new shares agree with the evidence. The manuscript correctly excludes cutoff-dependent load responses from this bound and does not use small share changes to uniquely select N.
+4. The finite Euler–Maclaurin formula and its vector implementation agree, including all K correction terms. The contour orientation is counterclockwise and excludes the only pole. Mesh/truncation refinements and the 70-to-69 crossing are useful numerical diagnostics. The text correctly does not convert sampled modulus, small residuals, or mesh agreement into a certified whole-contour theorem or an exhaustive all-strip count. The separate standard-library count owns C.
+5. Original-filter and recalibrated structural experiments are explicitly distinguished, with matching numerical parameters. C is correctly described as dependent on H. The near-zero boundary sensitivity is disclosed. Physical necessity, full spectral-operator derivation and continuum topology are not silently inferred from the arithmetic construction.
+6. The revision is materially more suitable for a mathematical/model-development paper than the original executive summary. It supplies explicit definitions and proofs, an executable phase law, a general stability result, numerical controls and appropriately bounded conclusions.
+
+Required minor corrections
+A. Section 5 states w_N(ab)=Z_N w_N(a)w_N(b) after defining w_N on active addresses. Qualify this identity by 2<=a,b and ab<=N. It otherwise appears to include the source unit 1, whose inactive status makes the normalized active measure undefined there (or zero under a natural extension).
+B. Section 7 should distinguish dependency_manifest.json's step1_commit 408602d166b3ec6635aff24803ef578580386112 from dependencies/source_manifest.json's original source_commit 41b3a2ec356033d58877a3c6bfea00421ae5f1e9. Both are present and legitimate; the current singular attribution to "the dependency manifest" is imprecise. This is a provenance wording correction, not evidence of changed dependencies.
+
+Release check
+Complete and run the advertised one-command package before delivery; ensure recorded comparisons include the frozen share bound and preserve explicit numerical (not certified) contour scope. Missing final PDF at this review stage is not a scientific objection.
+
+Acceptance recommendation
+After A and B are corrected and the advertised package run completes successfully, I recommend acceptance of this revision as a scoped conditional mathematical/model-development manuscript. This is an internal scientific recommendation, not a guarantee of acceptance by a journal. No additional theoretical closure is required by this review.

@@ -1,0 +1,17 @@
+{
+  "audit_A.py": "9991e59767301653d20674e14d22b451db80350cdcbb43c3f5327f1516d85914",
+  "run_all.py": "b0c2fb3be338db67500b965dfa98f293180ebb3810b0c8b28d33dc48c1a5aa4a",
+  "evidence/structural/address_structure.py": "7999b8530bf8c05c2ee29b462f7fa9fb63ad8bda93aac98144c82d733278368c",
+  "evidence/structural/dependency_manifest.json": "33e827023dc9fb4d57ddcfac7e0abce88a63a745408890f03183b42ea8ee642c",
+  "evidence/structural/dependencies/source_contract.json": "965e9a78388f5a380ee15eef5b7138d2e5ea50bd79932a99d184e2b11c45ad9d",
+  "evidence/structural/dependencies/source_manifest.json": "6f9ac78fdbc74093fd138919c006ec0f12d03b3c5ebcc3e98b0a91468e75696a",
+  "evidence/structural/dependencies/frozen_source_replay.py": "ea96c8fb07715882328791d010bf6747457b220b36d028215dbe015decad697f",
+  "evidence/structural/dependencies/capacity_transport.py": "74181079f6272f3d6a946d6cbcd1e782198f111efaf5ff35d2613f90f8be226a",
+  "evidence/structural/dependencies/original/compute.py": "7e23a5eb28032bf7fa87864f9fc02d683eb22300c62255e7f0239e0d01e6a7a7",
+  "evidence/structural/dependencies/original/m10_results.json": "a506f1247465188f61f6eeb43506662d41f44dfb86319eaf219c4249efb4a95b",
+  "evidence/structural/dependencies/original/m10_compute.py": "ff709af2510d215ee5d96d0fccfac87e9ed8c09da0bff6c713ffa30b500bcb96",
+  "evidence/structural/dependencies/original/run_stage5.py": "5e073eafe4379230f7a026b6b012162ae11260d548419c179f0fe3338fbbd3e0",
+  "evidence/structural/dependencies/original/stage2_handoff.json": "39cb62b0524c3621298291534ea1ffe9c5e38b3b086478edd05547081a2a8637",
+  "evidence/structural/dependencies/original/m10_parameters.json": "0dc068c286f9c2413292156a94b56fa649631c52a53faa73caec5639eb8f658e",
+  "evidence/structural/dependencies/original/parameters.json": "e02e864aeaa9c54fccb260de0a866b2001bbd51f8b5a1831efb2f0806cd5164a"
+}

@@ -1,0 +1,21 @@
+Astra review closure — Paper A, revised version 1.0
+8 October 2026
+
+Final recommendation: ACCEPT within the declared conditional mathematical/model-development scope.
+
+I re-read the corrected English manuscript passages, run_all.py, and evidence/REPLAY_STATUS.json. Both required minor corrections in Astra_Review_EN.txt are closed:
+
+1. The normalized product-weight identity now explicitly requires active factors a,b>=2 with ab<=N.
+2. The reproduction section distinguishes Step 1 dependency commit 408602d166b3ec6635aff24803ef578580386112 from the nested original function-source commit 41b3a2ec356033d58877a3c6bfea00421ae5f1e9.
+
+The runner executes the three advertised audits, fails on subprocess errors, retains the inherited assertion requirements, checks source hashes when the release manifest is present, and compares the resulting numerical evidence. The recorded status is PASS with all eight registered checks true: source count, standard zero count, contour refinements, boundary-crossing control, reference tail mass, structural checks, frozen-share bound, and frozen values. I inspected this code and its recorded successful status; I did not independently rerun all three programs during closure.
+
+The acceptance recommendation covers the explicit finite-source specification, exact representation and transport results, truncation-mixture bound, disclosed calibrated filter replay, and finite floating-point zeta diagnostics. It accepts the manuscript's clear distinction between mathematical statements, model specifications, numerical checks and physical interpretations. It does not convert numerical winding into interval certification, identify code count with carrier dimension, or claim universal physical necessity of the chosen source.
+
+No scientific revision item from this review remains open. This is an internal scientific recommendation that the revised manuscript is suitable for submission within its stated scope, not a promise of journal acceptance. No new theoretical closure or unrelated criterion has been added.
+
+Accessibility-edit review — 8 October 2026
+
+Decision: ACCEPT; the previous recommendation remains unchanged.
+
+I inspected the new English title, "Constructing and testing the WRRA model: from a finite set of numbers to physical quantities," the added "A guide for readers from other fields," and the simplified section headings. The guide faithfully presents the declared inputs, all-combinations source rule, active-address exclusion of 1, weighted classification, passive-coordinate invariance, fixed-parameter cutoff comparison and boundary sensitivity. It correctly identifies the multiplication rule as a model specification and describes physical quantities as outputs of the existing WRRA functions. It does not turn these calculations into new measurements, a proof of physical necessity, or validation of every WRRA component. The plain-language definitions serve as introductory descriptions; the technical sections retain the precise conditions. No correction is required for fidelity to the previously reviewed scientific scope. This note reviews the English accessibility edits, not a fresh execution of the unchanged calculations.
