@@ -1,0 +1,367 @@
+{
+  "status": "PASS",
+  "version": "0.1",
+  "dependency_commit": "86894014bf1f056fd99642fb7e791679e17c8471",
+  "map": "K_s(n)=sqrt(e_s(n))*P on classical-address quantum-channel blocks",
+  "sector_shares": [
+    0.050000000000000176,
+    0.2680000000000007,
+    0.6820000000000006
+  ],
+  "channel_table": {
+    "alpha": "1",
+    "beta": "1/2",
+    "anchor_determinant": "-1",
+    "channel_table": [
+      {
+        "field": "Q_L",
+        "source": "3_A_r",
+        "T3L": "1/2",
+        "T3R": "0",
+        "target_index": 0,
+        "source_index": 1,
+        "color": "3",
+        "origin": "3_A",
+        "B_minus_L": "1/3",
+        "Y": "1/6",
+        "Q": "2/3"
+      },
+      {
+        "field": "Q_L",
+        "source": "3_A_g",
+        "T3L": "1/2",
+        "T3R": "0",
+        "target_index": 1,
+        "source_index": 2,
+        "color": "3",
+        "origin": "3_A",
+        "B_minus_L": "1/3",
+        "Y": "1/6",
+        "Q": "2/3"
+      },
+      {
+        "field": "Q_L",
+        "source": "3_A_b",
+        "T3L": "1/2",
+        "T3R": "0",
+        "target_index": 2,
+        "source_index": 3,
+        "color": "3",
+        "origin": "3_A",
+        "B_minus_L": "1/3",
+        "Y": "1/6",
+        "Q": "2/3"
+      },
+      {
+        "field": "Q_L",
+        "source": "3_B_r",
+        "T3L": "-1/2",
+        "T3R": "0",
+        "target_index": 3,
+        "source_index": 8,
+        "color": "3",
+        "origin": "3_B",
+        "B_minus_L": "1/3",
+        "Y": "1/6",
+        "Q": "-1/3"
+      },
+      {
+        "field": "Q_L",
+        "source": "3_B_g",
+        "T3L": "-1/2",
+        "T3R": "0",
+        "target_index": 4,
+        "source_index": 9,
+        "color": "3",
+        "origin": "3_B",
+        "B_minus_L": "1/3",
+        "Y": "1/6",
+        "Q": "-1/3"
+      },
+      {
+        "field": "Q_L",
+        "source": "3_B_b",
+        "T3L": "-1/2",
+        "T3R": "0",
+        "target_index": 5,
+        "source_index": 10,
+        "color": "3",
+        "origin": "3_B",
+        "B_minus_L": "1/3",
+        "Y": "1/6",
+        "Q": "-1/3"
+      },
+      {
+        "field": "L_L",
+        "source": "1_A",
+        "T3L": "1/2",
+        "T3R": "0",
+        "target_index": 6,
+        "source_index": 7,
+        "color": "1",
+        "origin": "1_A",
+        "B_minus_L": "-1",
+        "Y": "-1/2",
+        "Q": "0"
+      },
+      {
+        "field": "L_L",
+        "source": "1_B",
+        "T3L": "-1/2",
+        "T3R": "0",
+        "target_index": 7,
+        "source_index": 14,
+        "color": "1",
+        "origin": "1_B",
+        "B_minus_L": "-1",
+        "Y": "-1/2",
+        "Q": "-1"
+      },
+      {
+        "field": "u_c",
+        "source": "anti3_A_r",
+        "T3L": "0",
+        "T3R": "-1/2",
+        "target_index": 8,
+        "source_index": 4,
+        "color": "anti3",
+        "origin": "anti3_A",
+        "B_minus_L": "-1/3",
+        "Y": "-2/3",
+        "Q": "-2/3"
+      },
+      {
+        "field": "u_c",
+        "source": "anti3_A_g",
+        "T3L": "0",
+        "T3R": "-1/2",
+        "target_index": 9,
+        "source_index": 5,
+        "color": "anti3",
+        "origin": "anti3_A",
+        "B_minus_L": "-1/3",
+        "Y": "-2/3",
+        "Q": "-2/3"
+      },
+      {
+        "field": "u_c",
+        "source": "anti3_A_b",
+        "T3L": "0",
+        "T3R": "-1/2",
+        "target_index": 10,
+        "source_index": 6,
+        "color": "anti3",
+        "origin": "anti3_A",
+        "B_minus_L": "-1/3",
+        "Y": "-2/3",
+        "Q": "-2/3"
+      },
+      {
+        "field": "d_c",
+        "source": "anti3_B_r",
+        "T3L": "0",
+        "T3R": "1/2",
+        "target_index": 11,
+        "source_index": 11,
+        "color": "anti3",
+        "origin": "anti3_B",
+        "B_minus_L": "-1/3",
+        "Y": "1/3",
+        "Q": "1/3"
+      },
+      {
+        "field": "d_c",
+        "source": "anti3_B_g",
+        "T3L": "0",
+        "T3R": "1/2",
+        "target_index": 12,
+        "source_index": 12,
+        "color": "anti3",
+        "origin": "anti3_B",
+        "B_minus_L": "-1/3",
+        "Y": "1/3",
+        "Q": "1/3"
+      },
+      {
+        "field": "d_c",
+        "source": "anti3_B_b",
+        "T3L": "0",
+        "T3R": "1/2",
+        "target_index": 13,
+        "source_index": 13,
+        "color": "anti3",
+        "origin": "anti3_B",
+        "B_minus_L": "-1/3",
+        "Y": "1/3",
+        "Q": "1/3"
+      },
+      {
+        "field": "nu_c",
+        "source": "1_N",
+        "T3L": "0",
+        "T3R": "-1/2",
+        "target_index": 14,
+        "source_index": 15,
+        "color": "1",
+        "origin": "1_N",
+        "B_minus_L": "1",
+        "Y": "0",
+        "Q": "0"
+      },
+      {
+        "field": "e_c",
+        "source": "1_0",
+        "T3L": "0",
+        "T3R": "1/2",
+        "target_index": 15,
+        "source_index": 0,
+        "color": "1",
+        "origin": "1_0",
+        "B_minus_L": "1",
+        "Y": "1",
+        "Q": "1"
+      }
+    ],
+    "field_groups": {
+      "Q_L": {
+        "multiplicity": 6,
+        "Y": "1/6",
+        "Q": [
+          "2/3",
+          "-1/3"
+        ]
+      },
+      "L_L": {
+        "multiplicity": 2,
+        "Y": "-1/2",
+        "Q": [
+          "0",
+          "-1"
+        ]
+      },
+      "u_c": {
+        "multiplicity": 3,
+        "Y": "-2/3",
+        "Q": [
+          "-2/3"
+        ]
+      },
+      "d_c": {
+        "multiplicity": 3,
+        "Y": "1/3",
+        "Q": [
+          "1/3"
+        ]
+      },
+      "nu_c": {
+        "multiplicity": 1,
+        "Y": "0",
+        "Q": [
+          "0"
+        ]
+      },
+      "e_c": {
+        "multiplicity": 1,
+        "Y": "1",
+        "Q": [
+          "1"
+        ]
+      }
+    },
+    "benchmark_matches": true,
+    "anomalies": {
+      "gravity_U1": "0",
+      "U1_cubed": "0",
+      "SU3_squared_U1": "0",
+      "SU2_squared_U1": "0",
+      "SU3_cubed": "0"
+    },
+    "SU2_doublets": {
+      "left": 4,
+      "right": 4
+    },
+    "color_branching_dimension": 15,
+    "extended_transport_dimension": 16,
+    "chirality": "independent complex left-handed Weyl channels assumed"
+  },
+  "family_channel_weights": [
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703,
+    0.0010416666666666703
+  ],
+  "phenotype_energy_J": 3.7807912495361375e-11,
+  "channel_energy_sum_J": 3.7807912495361375e-11,
+  "correlated_charge_expectation_unnormalized": 0.002877670047363701,
+  "checks": {
+    "sector_effects_nonnegative_and_complete": true,
+    "kraus_completeness_all_addresses": true,
+    "charge_table_reproduces_known_fields": true,
+    "all_exact_charge_anomalies_cancel": true,
+    "aggregate_sector_channel_state_normalized": true,
+    "original_48_component_weights_reproduced": true,
+    "coherence_preserved_before_label_readout": true,
+    "separate_label_readout_preserves_trace_changes_coherence": true,
+    "correlated_address_channel_output_positive_and_correct_trace": true,
+    "charge_expectation_covariant_under_passive_basis_change": true,
+    "channel_energy_partition_stays_inside_one_phenotype_budget": true
+  },
+  "scope": "explicit conditional phenotype routing and label readout; separate from dynamical filter selection, mass/mixing derivation and physical record production",
+  "assumptions": [
+    "classical address blocks",
+    "inherited F_DX placement",
+    "independent Weyl channel convention",
+    "conditional neutral extension",
+    "three calibrated families",
+    "default uniform origin routing"
+  ],
+  "remaining": [
+    "replay carrier response to filter selection in this interface",
+    "connect physical record operation with channel-resolved phenotype",
+    "review available mass/mixing computation rather than equating budget slots with particle masses"
+  ]
+}

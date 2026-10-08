@@ -1,0 +1,89 @@
+WRRA 3.0 theory completion — Step 2 v0.1
+Structural arithmetic addresses and filter readout
+8 October 2026
+
+Verified inputs -> WRRA-specific transformation -> outputs -> falsification conditions
+Inputs: Step-1 N=1,015,000, published MCC 3.0 alpha/threshold/spectrum,
+        address weights/responses and frozen SI/local coefficients.
+Transformation: composition relations -> prime-exponent coordinates -> additive cost
+                -> phase and weight -> filter -> load -> inherited macro readout.
+Outputs: structural replay preserves the reference shares/load/macro values,
+         passive label changes and all six SOURCE serialization orders.
+Falsification: changed results under fully transported relations and attributes,
+              incompatible factor phase/cost, or active rule reassignment presented
+              as passive coordinate invariance.
+
+1. Structural definition
+An address is an object in a finite composition structure, not merely its displayed integer.
+The structure owns the unit, prime-composition relations, finite admissibility, cost and readout.
+Integer n is one chart. A passive bijection transports every owned attribute and relation.
+One must not recompute primality of the new display label while calling that the same structure.
+
+n=product_p p^v_p(n), Omega(n)=sum_p v_p(n),
+kappa(n)=sum_p v_p(n)*log(p)=log(n).
+Unit 1: Omega=0 and cost=0, inactive reference.
+Prime atom: Omega=1.
+Composite with the minimum-cost prime: Omega>=2, v_2>=1.
+Composite without that prime: Omega>=2, v_2=0.
+These predicates reproduce the original prime/even-composite/odd-composite masks.
+Prime 2 remains an atom and is not a D-sector composite.
+The association of these types with return, residence and phenotype eligibility
+is the inherited constitutive filter rule, not a new derivation of particle identity.
+
+2. Factor-composed phase and cost
+The original logarithmic phase becomes a sum of prime-generator phases:
+U_j(n)=exp(i*gamma_j*kappa(n)); U_j(ab)=U_j(a)*U_j(b) for admissible products.
+Frame phases and spectral offsets are added once after composition.
+The raw weight b(n)=exp(-alpha*kappa(n)) satisfies b(ab)=b(a)*b(b).
+The normalized measure has w(ab)=Z*w(a)*w(b), so its normalization must be retained.
+These known mathematical identities are actually replayed inside the WRRA filter,
+linking its component-composition grammar to its existing phase and load readouts.
+Known-value reproduction remains a consistency/explanatory achievement.
+
+Given inherited atomic costs log(p), the least-cost prime is 2. The even-composite
+rule can therefore be stated as a readout on composites containing the least-cost atom.
+Assigning that readout to D is still a model rule. This is not a microscopic proof.
+
+3. Finite structure
+Multiplication is partial: products above N are outside this SOURCE domain and rejected.
+Rejection is not silently converted into a new physical return energy.
+Prime-exponent address coordinates do not replace assembly-order or origin-history ledgers.
+Address 105 keeps factors 3,5,7 without implying equal active-component counts across orders.
+
+4. Executed checks
+All 1,014,999 active addresses reproduce the original classifier from factor coordinates.
+The additive cost differs from log(n) by at most 3.552713678800501e-15.
+The original phase filter, normalized weights, shares and moments are reproduced.
+One thousand sampled admissible products validate factor addition, phase composition
+and raw-weight multiplication. The maximum sampled phase error is 1.7055009632808765e-13.
+
+Shares: 0.050000000000000176 / 0.26800000000000074 / 0.6820000000000006.
+Reference q=-0.5285585894376319; rotation approximately207.5102418659153 km/s;
+conditional lensing approximately0.5355822400088303 arcsec. Parameters remain fixed.
+
+Three full random permutations preserve shares and load after transporting all attributes.
+All six l/h/z coordinate serialization orders preserve the same structural readout.
+Sample product relations are also transported and reconstructed under new labels.
+
+Active controls retain costs/weights but reassign readout effects:
+swap2/4 -> approximately5% / 52.95312513% / 42.04687487%;
+swap9/11 -> approximately4.44279755% / 26.8% / 68.75720245%.
+These are changed readout rules, not passive coordinate changes.
+
+5. Distinguished-atom controls
+With fixed phase and weight parameters, atom2 gives approximately5/26.8/68.2%.
+Using atom3 gives approximately17.47540370/12.40550059/70.11909571%.
+Using atom5 gives approximately24.13505849/4.70074781/71.16419370%.
+These sensitivity probes show that the atom-selection rule affects the partition.
+They do not prove uniqueness among all physical theories or compare refitted alternatives.
+
+6. Status
+This v0.1 supplies a structural formulation and an executable connection between
+prime composition, additive cost, phase, weights and the inherited filter.
+It removes display-label dependence under passive transport while exposing genuine rule changes.
+It does not derive the physical origin of the adopted arithmetic LAW or specific particles from primes.
+This is the initial Step-2 calculation/report, not a separately reviewed final completion release.
+
+Replay: python address_structure.py
+Dependencies: numpy, scipy.
+Pinned Step-1 inputs and macro functions are reused. Results: address_structure_results.json.

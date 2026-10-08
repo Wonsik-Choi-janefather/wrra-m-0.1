@@ -1,0 +1,15 @@
+WRRA Step5 v0.2: record/supplier to load boundaries
+Verified inputs: three Step4 record contracts, frozen sector budgets and volume
+law; conditional state-load calculation.
+WRRA transformation: nest record energy in phenotype; subtract supplier work;
+compute normalized energy loads and same-law pressure derivative.
+Outputs: three admitted contracts conserve included energy/load at three scales.
+Ten added checks;18 total Step5 checks. Joint branch remains rejected at20%.
+Falsifiers: duplicate energy, ignored supplier shortage, derivative/load mismatch,
+positive target calibrated from zero support, erased small positive loads.
+Zero-support positive calibration is rejected; zero/zero returns0. Zero mode has
+zero clustering but nonzero identity phenotype load. Convex high-mode weight t
+has load2t, including t=1e-12. No universal bit energy is assumed.
+Conclusion: actual record/supplier budget connection and zero-support boundary
+checks. Constitutive/SI inputs remain explicit; natural supplier origin is not
+derived. Remaining fixed task: common-input final review and Step5 decision.

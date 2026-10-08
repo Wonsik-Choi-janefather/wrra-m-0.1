@@ -1,0 +1,46 @@
+WRRA 3.0 theory improvement Step3 v0.1: minimum-computation structure selection
+
+Verified inputs: reviewed SOURCE N=1,015,000, common share targets, fixed
+load/SI coefficients, address measure and inherited phase spectrum.
+WRRA transformation: equally calibrated finite alternatives -> address,
+preparation and load differences -> exact eight-frame rotation recurrence.
+Outputs: all alternatives reproduce5/26.8/68.2%; their address readouts differ.
+The recurrence preserves the original phase explanation with fewer trig calls.
+Falsification: denying alternatives calibration, conflating explanation scopes,
+changed frame/load outputs or overclaiming full cost minimality. Eight checks pass.
+
+This is the theory-improvement Stage3, not the earlier implementation's particle
+replay Stage3. Alpha remains the shared dark-sector calibration; h or beta is
+calibrated for each alternative's phenotype share. SI coefficients are unchanged.
+One-, two-, four- and eight-frame filters, a constant-admission model and the
+unchanged eight-frame recurrence all match the same verified targets.
+The odd-v3 selector fraction is respectively .41958368742956875,
+.3993255414371769, .40678653954921307, .4020461347060742,
+.39988320140872774 and .40204613470607414. These differences enter the
+same conditional internal preparation rule. Dark loads, rotation and lensing
+remain identical in this comparison; return loads and q differ slightly.
+These are structure-sensitive outputs, not a completed observational ranking.
+
+Two calibrated parameters match two independent shares. Phase models also
+carry twelve inherited spectrum entries, one phase step and a discrete frame
+count. The scalar model drops that phase specification. Stored entries are not
+claimed statistically independent identified degrees of freedom. Carrier and
+SI interfaces remain common. Aggregate reproduction alone does not select
+eight frames; the scalar model covers that scope, while dropping the explicit
+phase/frame/address explanation. The comparison respects both scopes.
+
+For theta=gamma*kappa+offset and delta=gamma*xi, update cached cos(theta)
+and sin(theta) by a fixed two-dimensional rotation. This reproduces every
+cos(theta+k*delta). Over427,892 eligible addresses, four spectral terms and
+eight frames, direct evaluation uses13,692,544 trig calls. Recurrence uses
+3,423,136 initial calls plus8 shared rotation calls. About75% of addresswise
+trig calls are removed; arithmetic is added, so total cost is not reduced by75%.
+Maximum frame-drive difference is8.021361352916756e-14, and addresswise
+admission and frame-ledger loads agree with the original model. No original
+coefficients were refitted. Timings are one local run, not universal benchmarks.
+
+This initial comparison establishes a lower-trig execution retaining the given
+explanation, not a unique global minimum or final Stage3 closure. Next review
+will fix storage/arithmetic/specification cost criteria and select an implementation
+within the retained explanatory scope. Global uniqueness is not an added
+mandatory condition. Replay: python structure_comparison.py.

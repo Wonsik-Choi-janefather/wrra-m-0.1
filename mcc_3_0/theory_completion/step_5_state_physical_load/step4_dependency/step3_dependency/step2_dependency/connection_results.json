@@ -1,0 +1,137 @@
+{
+  "status": "PASS",
+  "version": "0.3",
+  "carrier_lattice_dimension": 128,
+  "carrier_scope": "inherited homogeneous load carrier; not asserted identical to CCS-15 channel space",
+  "carrier_rows": [
+    {
+      "epsilon": 0.0,
+      "state": "uniform",
+      "loads": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "energy_J": [
+        3.7807912495361375e-11,
+        2.0321854300651497e-10,
+        5.258550172595953e-10
+      ],
+      "basis_transport_max_error": 0.0
+    },
+    {
+      "epsilon": 0.0,
+      "state": "packet",
+      "loads": [
+        0.9999999999999994,
+        0.3287767513123586,
+        0.3287767513123586
+      ],
+      "energy_J": [
+        3.7807912495361355e-11,
+        6.681353237611283e-11,
+        1.7288890423591403e-10
+      ],
+      "basis_transport_max_error": 5.551115123125783e-17
+    },
+    {
+      "epsilon": 8.0,
+      "state": "uniform",
+      "loads": [
+        1.0,
+        1.0,
+        0.9999999999999996
+      ],
+      "energy_J": [
+        3.7807912495361375e-11,
+        2.0321854300651497e-10,
+        5.258550172595951e-10
+      ],
+      "basis_transport_max_error": 0.0
+    },
+    {
+      "epsilon": 8.0,
+      "state": "packet",
+      "loads": [
+        0.9999999999999994,
+        0.3287767513123586,
+        0.4097229103634993
+      ],
+      "energy_J": [
+        3.7807912495361355e-11,
+        6.681353237611283e-11,
+        2.1545484810084955e-10
+      ],
+      "basis_transport_max_error": 5.551115123125783e-17
+    }
+  ],
+  "measurement_join": {
+    "selector_prime": 3,
+    "selector_rule": "odd valuation of selector prime, inherited bridge rule",
+    "address_internal_joint_probe": 0.08549046481975917,
+    "address_internal_product_probe": 0.08516449658539786,
+    "address_internal_covariance": 0.0003259682343613513,
+    "selector_fraction": 0.4020461347060741,
+    "prepared_excited_population": 0.08040922694121483,
+    "mean_occupancy": 0.24254285143453364,
+    "gap_J": 6.906682969971412e-11,
+    "record_gap_J": 3.559611212147983e-15,
+    "outcome_probabilities": [
+      0.4999999999999997,
+      0.4999999999999997
+    ],
+    "sector_energy_before_J": [
+      3.7807912495361375e-11,
+      2.0321854300651497e-10,
+      5.258550172595953e-10
+    ],
+    "system_increment_J": 7.0288444093013494e-12,
+    "record_increment_J": 4.316791266963542e-16,
+    "supplier_work_J": 7.029276088428041e-12,
+    "supplier_before_J": 7.561582499072275e-12,
+    "supplier_after_J": 5.323064106442342e-13,
+    "conditional_branch_supply_J": [
+      7.0288444093013494e-12,
+      7.029707767554742e-12
+    ],
+    "q_external_before": -0.5285585894376319,
+    "q_external_after": -0.5192163980944755,
+    "q_included_before": -0.5185158489464727,
+    "q_included_after": -0.5185158489464727
+  },
+  "checks": {
+    "inherited_carrier_states_positive_normalized": true,
+    "uniform_carrier_matches_macro_factor_one": true,
+    "carrier_basis_transport_preserves_load": true,
+    "same_address_moments_used_in_each_carrier_state": true,
+    "address_internal_correlation_retained": true,
+    "write_unitary_and_joint_state_normalized": true,
+    "prepared_rest_plus_excitation_replaces_phi_once": true,
+    "source_routes_complete_with_two_measurement_outcomes": true,
+    "matrix_work_equals_system_plus_record": true,
+    "mean_and_conditional_supply_nonnegative": true,
+    "included_supplier_boundary_conserves_energy": true,
+    "record_is_nested_not_fourth_cosmic_sector": true,
+    "post_write_pressure_from_same_energy": true,
+    "included_boundary_q_unchanged": true,
+    "selector_preparation_preserved_by_address_transport": true
+  },
+  "source_provenance": {
+    "repository": "Wonsik-Choi-janefather/wrra-m-0.1",
+    "commit": "408602d166b3ec6635aff24803ef578580386112",
+    "files": {
+      "measurement_reproduce.py": "5b5aae83838ffd912d9fac3f5e700e64c67da8a029e52bebc961f7e9ebc514b0",
+      "measurement_inputs.json": "c6fe2d521b44a6b203e7f11abe66f4ad93d8d8dd20401140a3c77b00aeadf265",
+      "measurement_expected.json": "d1083fb484a7cc85630c2d7275197714258e63c74e2ae64eac59d7f1a230fdf5",
+      "stage4.py": "73ffa1e84fd39c34729cf7f1a288e61bf806f0782e7ce4606744b77d5c301ab0",
+      "carrier_compute.py": "4a8c1998618158436523c02e199556845a12ccb7b1ec2b662d939be14d31c69e"
+    }
+  },
+  "scope": "conditional single write at fixed volume; inherited microscopic gap supplied from pinned published computation, not recalculated here; no full source archive replay",
+  "not_claimed": [
+    "eight admission frames are actual record writes",
+    "complete CCS-15 to load-carrier intertwiner",
+    "physical identity of prime parts",
+    "accumulated repeated-write/reset costs"
+  ]
+}

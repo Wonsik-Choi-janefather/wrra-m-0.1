@@ -1,0 +1,17 @@
+WRRA 3.0 Step4 v0.2: carrier response to phenotype placement
+Verified inputs: inherited 128-site carrier, damping/probes, disclosed calibrated
+response shifts/tags, charge anchors and filter initial weights.
+WRRA transformation: common resolvent intensity -> normalized origin response ->
+compatibilities -> four scores -> construction selection -> P -> K_s(n).
+Outputs: ten cases (uniform, modes0/8/64, packet; epsilon0/8) select F_DX.
+Minimum score gap .02428677921967631. Positive rank16 Gram, unchanged principal
+operator, gap identities, converged flow and basis covariance verified.
+The phenotype script consumes the selection file and reproduces charges, 48
+weights and the original single phenotype energy budget. 20 total checks pass.
+Falsifiers: unexpected tie/filter, convergence/rank/positivity loss, changed
+principal operator or downstream mismatch under the frozen calibrated inputs.
+Controls: zero response contrast ties all four filters; zero winner support
+cannot create the winner. Construction weights are not measurement probabilities.
+Calibration is legitimate theory construction; known-charge reproduction counts
+as explanatory success. Remaining Step4 scope: physical records and existing
+mass/mixing connection review, followed by the common-input final review.

@@ -1,0 +1,48 @@
+{
+  "repository": "Wonsik-Choi-janefather/wrra-m-0.1",
+  "source_commit": "41b3a2ec356033d58877a3c6bfea00421ae5f1e9",
+  "sources": [
+    {
+      "local": "compute.py",
+      "path": "calculations/wrra_m_0_9/compute.py",
+      "git_blob_sha": "f4135f3b46dcda6c01cc3b0495747f2d9f543dba",
+      "sha256": "7e23a5eb28032bf7fa87864f9fc02d683eb22300c62255e7f0239e0d01e6a7a7"
+    },
+    {
+      "local": "parameters.json",
+      "path": "calculations/wrra_m_0_9/parameters.json",
+      "git_blob_sha": "93612d2fdd4e388cd786cd0c80d118fabf132b55",
+      "sha256": "e02e864aeaa9c54fccb260de0a866b2001bbd51f8b5a1831efb2f0806cd5164a"
+    },
+    {
+      "local": "m10_compute.py",
+      "path": "calculations/wrra_m_0_10/compute.py",
+      "git_blob_sha": "c3e932c1fa4c5ac15d3638682a3ac31eaf264cd3",
+      "sha256": "ff709af2510d215ee5d96d0fccfac87e9ed8c09da0bff6c713ffa30b500bcb96"
+    },
+    {
+      "local": "m10_parameters.json",
+      "path": "calculations/wrra_m_0_10/parameters.json",
+      "git_blob_sha": "f3e83b3f2b1081976fec867c5fd0232e93e5133f",
+      "sha256": "0dc068c286f9c2413292156a94b56fa649631c52a53faa73caec5639eb8f658e"
+    },
+    {
+      "local": "m10_results.json",
+      "path": "calculations/wrra_m_0_10/results/results.json",
+      "git_blob_sha": "a05bbdae9d7d32a18f0cd08fc08091cdbad6ea82",
+      "sha256": "a506f1247465188f61f6eeb43506662d41f44dfb86319eaf219c4249efb4a95b"
+    },
+    {
+      "local": "stage2_handoff.json",
+      "path": "mcc_3_0/stage_2_finite_source_insertion/STAGE3_HANDOFF.json",
+      "git_blob_sha": "b2de53f11c4ba45cf3ba5c7f7ff3e5b4cd8e6d35",
+      "sha256": "39cb62b0524c3621298291534ea1ffe9c5e38b3b086478edd05547081a2a8637"
+    },
+    {
+      "local": "run_stage5.py",
+      "path": "mcc_3_0/stage_5_macro_universe_replay/run_stage5.py",
+      "git_blob_sha": "3d496545a8d7c8d1d4bdaddb2d1ffc6f1ca8885a",
+      "sha256": "5e073eafe4379230f7a026b6b012162ae11260d548419c179f0fe3338fbbd3e0"
+    }
+  ]
+}

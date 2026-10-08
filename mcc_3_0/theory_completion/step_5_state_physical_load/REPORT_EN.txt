@@ -1,0 +1,15 @@
+WRRA Step5 v0.1: conditional state to physical load
+Verified inputs: frozen address effects/responses,128-site carrier, inherited
+I/Kc/2/Kb/2 operators, SI coefficients and volume exponents0/0/3.
+WRRA transformation: retain rho_n and compute L_s=sum w_n e_s g_s Tr(rho_n A_s);
+E_s=eta_s V0 a^n_s L_s; pressure is the derivative of the same energy.
+Outputs:12 conditions,8 checks pass. Positive joint states/loads, uniform reference
+reproduction, passive basis covariance, pressure derivative and fixed-volume
+energy-generator conservation verified. Correlated loads differ from a product
+of marginal means; correlation is explicitly retained.
+Falsifiers: positivity/reference/derivative/conservation failure, hidden SI refits
+or reporting factorized correlated outputs as the actual joint result.
+Conclusion: explicit conditional state-to-load extension. Operators/SI responses
+remain disclosed calibrated constitutive inputs; diagnostic correlation is not an
+observed cosmic state. Remaining fixed scope: record/supplier handoff, zero-support
+and state-transition boundaries, common-input final review. Step5 is in progress.

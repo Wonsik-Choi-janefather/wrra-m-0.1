@@ -1,0 +1,532 @@
+{
+  "status": "PASS",
+  "version": "0.3",
+  "date": "2026-10-08",
+  "family": "all15 nonempty subsets of the inherited four frequencies, fixed total coefficient sum, fixed8 frames, equal legitimate two-share calibration",
+  "rows": [
+    {
+      "mode_indices_one_based": [
+        1
+      ],
+      "modes": 1,
+      "coefficient_rescale_rule": "preserve sum of inherited coefficients",
+      "coefficient_scale": 4.0,
+      "alpha": 1.8996877935161325,
+      "calibrated_h": 1.9388135691101622,
+      "shares": [
+        0.050000000000000315,
+        0.26800000000000074,
+        0.682
+      ],
+      "address_moments": [
+        0.05000000000000018,
+        0.2789256109767439,
+        0.6877457851082063
+      ],
+      "weighted_address_readout_difference": 0.0015363895795715726,
+      "maximum_address_readout_difference": 0.09098935202731406,
+      "selector_fraction": 0.3964947782000841,
+      "prepared_excited_population": 0.07929895564001682,
+      "conditional_mean_write_work_J": 7.051343758606524e-12,
+      "present_q": -0.5285601148487232,
+      "minimum_real_linear_generator_states": 2,
+      "two_target_calibration_parameters": 2,
+      "stored_spectrum_entries": 3,
+      "trig_calls_direct_per_eligible_address": 8,
+      "baseline": false
+    },
+    {
+      "mode_indices_one_based": [
+        2
+      ],
+      "modes": 1,
+      "coefficient_rescale_rule": "preserve sum of inherited coefficients",
+      "coefficient_scale": 4.0,
+      "alpha": 1.8996877935161325,
+      "calibrated_h": 1.8838711838739293,
+      "shares": [
+        0.05000000000000019,
+        0.26800000000000074,
+        0.6819999999999989
+      ],
+      "address_moments": [
+        0.05000000000000023,
+        0.2789256109767439,
+        0.687738415768154
+      ],
+      "weighted_address_readout_difference": 0.0015869817297918317,
+      "maximum_address_readout_difference": 0.09291470553041736,
+      "selector_fraction": 0.4052277301565419,
+      "prepared_excited_population": 0.08104554603130838,
+      "conditional_mean_write_work_J": 7.016638441978054e-12,
+      "present_q": -0.5285566509228213,
+      "minimum_real_linear_generator_states": 2,
+      "two_target_calibration_parameters": 2,
+      "stored_spectrum_entries": 3,
+      "trig_calls_direct_per_eligible_address": 8,
+      "baseline": false
+    },
+    {
+      "mode_indices_one_based": [
+        3
+      ],
+      "modes": 1,
+      "coefficient_rescale_rule": "preserve sum of inherited coefficients",
+      "coefficient_scale": 4.0,
+      "alpha": 1.8996877935161325,
+      "calibrated_h": 1.8924301922217583,
+      "shares": [
+        0.050000000000000155,
+        0.26800000000000074,
+        0.6820000000000014
+      ],
+      "address_moments": [
+        0.050000000000000204,
+        0.2789256109767439,
+        0.6877381035317593
+      ],
+      "weighted_address_readout_difference": 0.0012488595774332889,
+      "maximum_address_readout_difference": 0.08916622943202845,
+      "selector_fraction": 0.4042424007306566,
+      "prepared_excited_population": 0.08084848014613133,
+      "conditional_mean_write_work_J": 7.020551517073592e-12,
+      "present_q": -0.5285565041563526,
+      "minimum_real_linear_generator_states": 2,
+      "two_target_calibration_parameters": 2,
+      "stored_spectrum_entries": 3,
+      "trig_calls_direct_per_eligible_address": 8,
+      "baseline": false
+    },
+    {
+      "mode_indices_one_based": [
+        4
+      ],
+      "modes": 1,
+      "coefficient_rescale_rule": "preserve sum of inherited coefficients",
+      "coefficient_scale": 4.0,
+      "alpha": 1.8996877935161325,
+      "calibrated_h": 2.0378632171182995,
+      "shares": [
+        0.05000000000000056,
+        0.26800000000000074,
+        0.6819999999999998
+      ],
+      "address_moments": [
+        0.0500000000000004,
+        0.2789256109767439,
+        0.687758358935711
+      ],
+      "weighted_address_readout_difference": 0.003431204500154234,
+      "maximum_address_readout_difference": 0.264821970674773,
+      "selector_fraction": 0.39512637385014004,
+      "prepared_excited_population": 0.07902527477002802,
+      "conditional_mean_write_work_J": 7.056786756917448e-12,
+      "present_q": -0.5285660250035586,
+      "minimum_real_linear_generator_states": 2,
+      "two_target_calibration_parameters": 2,
+      "stored_spectrum_entries": 3,
+      "trig_calls_direct_per_eligible_address": 8,
+      "baseline": false
+    },
+    {
+      "mode_indices_one_based": [
+        1,
+        2
+      ],
+      "modes": 2,
+      "coefficient_rescale_rule": "preserve sum of inherited coefficients",
+      "coefficient_scale": 2.0,
+      "alpha": 1.8996877935161325,
+      "calibrated_h": 1.5934345200906517,
+      "shares": [
+        0.0499999999999999,
+        0.26800000000000074,
+        0.6820000000000013
+      ],
+      "address_moments": [
+        0.049999999999999954,
+        0.2789256109767439,
+        0.6877412618690413
+      ],
+      "weighted_address_readout_difference": 0.0005084783856417499,
+      "maximum_address_readout_difference": 0.08667143011151524,
+      "selector_fraction": 0.40086514706154386,
+      "prepared_excited_population": 0.08017302941230878,
+      "conditional_mean_write_work_J": 7.033968914699372e-12,
+      "present_q": -0.5285579887260679,
+      "minimum_real_linear_generator_states": 4,
+      "two_target_calibration_parameters": 2,
+      "stored_spectrum_entries": 6,
+      "trig_calls_direct_per_eligible_address": 16,
+      "baseline": false
+    },
+    {
+      "mode_indices_one_based": [
+        1,
+        3
+      ],
+      "modes": 2,
+      "coefficient_rescale_rule": "preserve sum of inherited coefficients",
+      "coefficient_scale": 2.0,
+      "alpha": 1.8996877935161325,
+      "calibrated_h": 1.5968224608714794,
+      "shares": [
+        0.05000000000000045,
+        0.26800000000000074,
+        0.6819999999999984
+      ],
+      "address_moments": [
+        0.050000000000000495,
+        0.2789256109767439,
+        0.6877416772118093
+      ],
+      "weighted_address_readout_difference": 0.0011595117036659688,
+      "maximum_address_readout_difference": 0.06345795719375003,
+      "selector_fraction": 0.3999233604932318,
+      "prepared_excited_population": 0.07998467209864636,
+      "conditional_mean_write_work_J": 7.037711944780966e-12,
+      "present_q": -0.5285581839563555,
+      "minimum_real_linear_generator_states": 4,
+      "two_target_calibration_parameters": 2,
+      "stored_spectrum_entries": 6,
+      "trig_calls_direct_per_eligible_address": 16,
+      "baseline": false
+    },
+    {
+      "mode_indices_one_based": [
+        1,
+        4
+      ],
+      "modes": 2,
+      "coefficient_rescale_rule": "preserve sum of inherited coefficients",
+      "coefficient_scale": 2.0,
+      "alpha": 1.8996877935161325,
+      "calibrated_h": 1.6600973247454252,
+      "shares": [
+        0.05000000000000004,
+        0.26800000000000074,
+        0.6819999999999998
+      ],
+      "address_moments": [
+        0.049999999999999996,
+        0.2789256109767439,
+        0.6877476711470921
+      ],
+      "weighted_address_readout_difference": 0.001177239726796087,
+      "maximum_address_readout_difference": 0.09774991641307129,
+      "selector_fraction": 0.39953086719139036,
+      "prepared_excited_population": 0.07990617343827808,
+      "conditional_mean_write_work_J": 7.039272051950647e-12,
+      "present_q": -0.5285610013648315,
+      "minimum_real_linear_generator_states": 4,
+      "two_target_calibration_parameters": 2,
+      "stored_spectrum_entries": 6,
+      "trig_calls_direct_per_eligible_address": 16,
+      "baseline": false
+    },
+    {
+      "mode_indices_one_based": [
+        2,
+        3
+      ],
+      "modes": 2,
+      "coefficient_rescale_rule": "preserve sum of inherited coefficients",
+      "coefficient_scale": 2.0,
+      "alpha": 1.8996877935161325,
+      "calibrated_h": 1.4901940323429654,
+      "shares": [
+        0.05000000000000021,
+        0.26800000000000074,
+        0.682
+      ],
+      "address_moments": [
+        0.05000000000000019,
+        0.2789256109767439,
+        0.6877315333983289
+      ],
+      "weighted_address_readout_difference": 0.0022124283827363606,
+      "maximum_address_readout_difference": 0.08225799257416144,
+      "selector_fraction": 0.4162998156511089,
+      "prepared_excited_population": 0.08325996313022178,
+      "conditional_mean_write_work_J": 6.972714382531879e-12,
+      "present_q": -0.5285534158491659,
+      "minimum_real_linear_generator_states": 4,
+      "two_target_calibration_parameters": 2,
+      "stored_spectrum_entries": 6,
+      "trig_calls_direct_per_eligible_address": 16,
+      "baseline": false
+    },
+    {
+      "mode_indices_one_based": [
+        2,
+        4
+      ],
+      "modes": 2,
+      "coefficient_rescale_rule": "preserve sum of inherited coefficients",
+      "coefficient_scale": 2.0,
+      "alpha": 1.8996877935161325,
+      "calibrated_h": 1.6588642481825304,
+      "shares": [
+        0.050000000000000426,
+        0.26800000000000074,
+        0.6820000000000018
+      ],
+      "address_moments": [
+        0.05000000000000047,
+        0.2789256109767439,
+        0.6877447330894324
+      ],
+      "weighted_address_readout_difference": 0.001132998328438094,
+      "maximum_address_readout_difference": 0.10636160972195086,
+      "selector_fraction": 0.40239020806927134,
+      "prepared_excited_population": 0.08047804161385427,
+      "conditional_mean_write_work_J": 7.027909047612251e-12,
+      "present_q": -0.5285596203550369,
+      "minimum_real_linear_generator_states": 4,
+      "two_target_calibration_parameters": 2,
+      "stored_spectrum_entries": 6,
+      "trig_calls_direct_per_eligible_address": 16,
+      "baseline": false
+    },
+    {
+      "mode_indices_one_based": [
+        3,
+        4
+      ],
+      "modes": 2,
+      "coefficient_rescale_rule": "preserve sum of inherited coefficients",
+      "coefficient_scale": 2.0,
+      "alpha": 1.8996877935161325,
+      "calibrated_h": 1.6694423605964692,
+      "shares": [
+        0.05000000000000001,
+        0.26800000000000074,
+        0.6820000000000014
+      ],
+      "address_moments": [
+        0.05000000000000008,
+        0.2789256109767439,
+        0.6877473225906029
+      ],
+      "weighted_address_readout_difference": 0.0014226919706200358,
+      "maximum_address_readout_difference": 0.09004000320639871,
+      "selector_fraction": 0.3959271676058721,
+      "prepared_excited_population": 0.07918543352117442,
+      "conditional_mean_write_work_J": 7.053601339963476e-12,
+      "present_q": -0.5285608375291485,
+      "minimum_real_linear_generator_states": 4,
+      "two_target_calibration_parameters": 2,
+      "stored_spectrum_entries": 6,
+      "trig_calls_direct_per_eligible_address": 16,
+      "baseline": false
+    },
+    {
+      "mode_indices_one_based": [
+        1,
+        2,
+        3
+      ],
+      "modes": 3,
+      "coefficient_rescale_rule": "preserve sum of inherited coefficients",
+      "coefficient_scale": 1.3333333333333333,
+      "alpha": 1.8996877935161325,
+      "calibrated_h": 1.4575508895823697,
+      "shares": [
+        0.05000000000000022,
+        0.26800000000000074,
+        0.681999999999999
+      ],
+      "address_moments": [
+        0.050000000000000246,
+        0.2789256109767439,
+        0.6877387041025893
+      ],
+      "weighted_address_readout_difference": 0.000796239817788662,
+      "maximum_address_readout_difference": 0.04078097807757908,
+      "selector_fraction": 0.4061502400799781,
+      "prepared_excited_population": 0.08123004801599562,
+      "conditional_mean_write_work_J": 7.012975463441398e-12,
+      "present_q": -0.5285567864541122,
+      "minimum_real_linear_generator_states": 6,
+      "two_target_calibration_parameters": 2,
+      "stored_spectrum_entries": 9,
+      "trig_calls_direct_per_eligible_address": 24,
+      "baseline": false
+    },
+    {
+      "mode_indices_one_based": [
+        1,
+        2,
+        4
+      ],
+      "modes": 3,
+      "coefficient_rescale_rule": "preserve sum of inherited coefficients",
+      "coefficient_scale": 1.3333333333333333,
+      "alpha": 1.8996877935161325,
+      "calibrated_h": 1.5275146879769859,
+      "shares": [
+        0.050000000000000364,
+        0.26800000000000074,
+        0.6819999999999989
+      ],
+      "address_moments": [
+        0.050000000000000364,
+        0.2789256109767439,
+        0.6877446485940512
+      ],
+      "weighted_address_readout_difference": 0.0006053853966952686,
+      "maximum_address_readout_difference": 0.057889660911349616,
+      "selector_fraction": 0.3998820028280533,
+      "prepared_excited_population": 0.07997640056561067,
+      "conditional_mean_write_work_J": 7.03787633072492e-12,
+      "present_q": -0.5285595806385596,
+      "minimum_real_linear_generator_states": 6,
+      "two_target_calibration_parameters": 2,
+      "stored_spectrum_entries": 9,
+      "trig_calls_direct_per_eligible_address": 24,
+      "baseline": false
+    },
+    {
+      "mode_indices_one_based": [
+        1,
+        3,
+        4
+      ],
+      "modes": 3,
+      "coefficient_rescale_rule": "preserve sum of inherited coefficients",
+      "coefficient_scale": 1.3333333333333333,
+      "alpha": 1.8996877935161325,
+      "calibrated_h": 1.5262959930760682,
+      "shares": [
+        0.05000000000000025,
+        0.26800000000000074,
+        0.682
+      ],
+      "address_moments": [
+        0.050000000000000246,
+        0.2789256109767439,
+        0.6877451347764302
+      ],
+      "weighted_address_readout_difference": 0.0008993888079239382,
+      "maximum_address_readout_difference": 0.05472815514070217,
+      "selector_fraction": 0.3976204792050969,
+      "prepared_excited_population": 0.07952409584101938,
+      "conditional_mean_write_work_J": 7.046867133007947e-12,
+      "present_q": -0.5285598091651781,
+      "minimum_real_linear_generator_states": 6,
+      "two_target_calibration_parameters": 2,
+      "stored_spectrum_entries": 9,
+      "trig_calls_direct_per_eligible_address": 24,
+      "baseline": false
+    },
+    {
+      "mode_indices_one_based": [
+        2,
+        3,
+        4
+      ],
+      "modes": 3,
+      "coefficient_rescale_rule": "preserve sum of inherited coefficients",
+      "coefficient_scale": 1.3333333333333333,
+      "alpha": 1.8996877935161325,
+      "calibrated_h": 1.5000852962418854,
+      "shares": [
+        0.05000000000000002,
+        0.26800000000000074,
+        0.6820000000000012
+      ],
+      "address_moments": [
+        0.050000000000000024,
+        0.2789256109767439,
+        0.6877411424308516
+      ],
+      "weighted_address_readout_difference": 0.0007860040967852369,
+      "maximum_address_readout_difference": 0.056623997076640675,
+      "selector_fraction": 0.40565171340344075,
+      "prepared_excited_population": 0.08113034268068815,
+      "conditional_mean_write_work_J": 7.0149548718827764e-12,
+      "present_q": -0.5285579325845711,
+      "minimum_real_linear_generator_states": 6,
+      "two_target_calibration_parameters": 2,
+      "stored_spectrum_entries": 9,
+      "trig_calls_direct_per_eligible_address": 24,
+      "baseline": false
+    },
+    {
+      "mode_indices_one_based": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "modes": 4,
+      "coefficient_rescale_rule": "preserve sum of inherited coefficients",
+      "coefficient_scale": 1.0,
+      "alpha": 1.8996877935161325,
+      "calibrated_h": 1.4476744689338457,
+      "shares": [
+        0.050000000000000495,
+        0.26800000000000074,
+        0.6820000000000004
+      ],
+      "address_moments": [
+        0.050000000000000405,
+        0.2789256109767439,
+        0.6877425398542385
+      ],
+      "weighted_address_readout_difference": 3.2436715540820964e-16,
+      "maximum_address_readout_difference": 7.438494264988549e-15,
+      "selector_fraction": 0.4020461347060738,
+      "prepared_excited_population": 0.08040922694121477,
+      "conditional_mean_write_work_J": 7.029276088428047e-12,
+      "present_q": -0.5285585894376313,
+      "minimum_real_linear_generator_states": 8,
+      "two_target_calibration_parameters": 2,
+      "stored_spectrum_entries": 12,
+      "trig_calls_direct_per_eligible_address": 32,
+      "baseline": true
+    }
+  ],
+  "closest_reduced_address_readout": {
+    "mode_indices_one_based": [
+      1,
+      2
+    ],
+    "modes": 2,
+    "coefficient_rescale_rule": "preserve sum of inherited coefficients",
+    "coefficient_scale": 2.0,
+    "alpha": 1.8996877935161325,
+    "calibrated_h": 1.5934345200906517,
+    "shares": [
+      0.0499999999999999,
+      0.26800000000000074,
+      0.6820000000000013
+    ],
+    "address_moments": [
+      0.049999999999999954,
+      0.2789256109767439,
+      0.6877412618690413
+    ],
+    "weighted_address_readout_difference": 0.0005084783856417499,
+    "maximum_address_readout_difference": 0.08667143011151524,
+    "selector_fraction": 0.40086514706154386,
+    "prepared_excited_population": 0.08017302941230878,
+    "conditional_mean_write_work_J": 7.033968914699372e-12,
+    "present_q": -0.5285579887260679,
+    "minimum_real_linear_generator_states": 4,
+    "two_target_calibration_parameters": 2,
+    "stored_spectrum_entries": 6,
+    "trig_calls_direct_per_eligible_address": 16,
+    "baseline": false
+  },
+  "checks": {
+    "all_fifteen_nonempty_subsets_tested": true,
+    "same_verified_shares_for_every_subset": true,
+    "no_SI_or_dark_readout_refit": true,
+    "full_spectrum_reproduces_frozen_address_readout": true,
+    "every_proper_subset_changes_address_readout": true,
+    "full_spectrum_threshold_reproduced": true
+  },
+  "selection_scope": "Retain all4 modes for faithful reproduction of the frozen declared phase/address rule; smaller spectra validly explain same aggregate shares but define different conditional response models. No empirical ranking or universal necessity inferred.",
+  "conditional_write_scope": "same published two-mode microscopic gap and budget rule as Step2; costs are expected single-write outputs, not newly observed data"
+}

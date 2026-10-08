@@ -1,0 +1,17 @@
+WRRA 3.0 theory improvement Step4 v0.1
+Verified inputs: frozen Step3 commit 86894014bf1f056fd99642fb7e791679e17c8471,
+inherited address effects, F_DX placement, charge anchors and three families.
+WRRA transformation: K_s(n)=sqrt(e_s(n))*P acts on classical address blocks
+with quantum channel states. Channel label projection is a separate readout.
+Outputs: known sector shares, 48 component weights, rational charge/anomaly
+reproduction, coherent channel transport, correlated address-channel positivity,
+basis-covariant charge expectation and one phenotype energy budget. 11 checks pass.
+Falsifiers: incompleteness, positivity/trace loss, charge or weight mismatch,
+double-counted energy, basis-dependent expectation or conflated physical records.
+Conclusion: explicit executable conditional address-to-channel interface.
+Classical address blocks and calibrated placement/families are declared inputs.
+Known-value reproduction is explanatory success. No mass, collapse dynamics or
+physical record production is derived by relabeling/channel label projection.
+Remaining fixed Step4 work: carrier response to filter selection; channel phenotype
+to existing physical record operation; available mass/mixing computation review;
+common-input final review. Step4 is in progress, not complete.

@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "version": "0.2",
+  "checks": {
+    "all_three_internal_record_branches_admitted_with_disclosed_suppliers": true,
+    "record_and_supplier_energy_load_conserved": true,
+    "same_volume_law_pressure_preserved_after_write": true,
+    "no_added_channel_or_alternative_energy_budget": true,
+    "positive_target_zero_support_rejected": true,
+    "zero_target_zero_support_returns_zero": true,
+    "zero_mode_load_is_zero_with_nonzero_phenotype": true,
+    "small_positive_load_not_erased": true,
+    "convex_state_transition_linear_load": true,
+    "joint_alternative_original20_percent_still_rejected": true
+  },
+  "branches": [
+    {
+      "model": "baseline_record",
+      "supplier_work_J": 7.029276088428041e-12,
+      "supplier_J": 7.561582499072275e-12,
+      "required_supplier_J": 7.029707767554742e-12,
+      "supplier_after_J": 5.323064106442342e-13,
+      "included_energy_before_J": 7.744430552605439e-10,
+      "included_energy_after_J": 7.74443055260544e-10,
+      "included_dimensionless_energy_load": 20.483623774667794,
+      "record_nested_in_phi": true
+    },
+    {
+      "model": "principal_magnetic",
+      "supplier_work_J": 6.015266344305666e-12,
+      "supplier_J": 7.561582499072275e-12,
+      "required_supplier_J": 6.015700324113602e-12,
+      "supplier_after_J": 1.546316154766609e-12,
+      "included_energy_before_J": 7.744430552605439e-10,
+      "included_energy_after_J": 7.744430552605439e-10,
+      "included_dimensionless_energy_load": 20.483623774667794,
+      "record_nested_in_phi": true
+    },
+    {
+      "model": "joint_calibrated",
+      "supplier_work_J": 1.2033019830228727e-11,
+      "supplier_J": 1.2033440156388269e-11,
+      "required_supplier_J": 1.2033440156388269e-11,
+      "supplier_after_J": 4.2032615954192205e-16,
+      "included_energy_before_J": 7.789149129178599e-10,
+      "included_energy_after_J": 7.789149129178599e-10,
+      "included_dimensionless_energy_load": 20.601902128646334,
+      "record_nested_in_phi": true
+    }
+  ],
+  "zero_mode_transition": [
+    {
+      "high_mode_weight": 0.0,
+      "clustering_load": 0.0
+    },
+    {
+      "high_mode_weight": 1e-12,
+      "clustering_load": 1.999955756559757e-12
+    },
+    {
+      "high_mode_weight": 0.1,
+      "clustering_load": 0.2
+    },
+    {
+      "high_mode_weight": 1.0,
+      "clustering_load": 1.9999999999999998
+    }
+  ],
+  "scope": "single effective write nested in existing phenotype and disclosed pressureless supplier; correlated address/carrier load map retained separately",
+  "remaining": "common-input final review",
+  "not_claimed": [
+    "supplier naturally generated",
+    "unitary reset cost zero",
+    "all cosmic states have the chosen correlation",
+    "one bit universal fixed SI energy"
+  ]
+}

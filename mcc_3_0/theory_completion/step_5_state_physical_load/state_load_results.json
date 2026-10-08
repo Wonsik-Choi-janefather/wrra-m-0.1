@@ -1,0 +1,342 @@
+{
+  "status": "PASS",
+  "version": "0.1",
+  "checks": {
+    "positive_joint_conditional_states_and_loads": true,
+    "uniform_product_reproduces_existing_address_moments": true,
+    "joint_correlation_is_not_discarded": true,
+    "same_energy_supplies_pressure_derivative": true,
+    "passive_carrier_basis_change_preserves_load": true,
+    "same_energy_generator_conserves_fixed_volume_total": true,
+    "phenotype_operator_identity_preserves_budget": true,
+    "no_new_SI_coefficients_or_state_refits": true
+  },
+  "cases": [
+    {
+      "epsilon": 0.0,
+      "state": "product",
+      "a": 0.5,
+      "joint_loads": [
+        0.05000000000000005,
+        0.2789256109767439,
+        0.6877425398542385
+      ],
+      "factorized_marginal_loads": [
+        0.050000000000000065,
+        0.2789256109767439,
+        0.6877425398542387
+      ],
+      "sector_energy_J": [
+        3.780791249536136e-11,
+        2.0321854300651497e-10,
+        6.573187715744939e-11
+      ],
+      "sector_pressure_Pa": [
+        -0.0,
+        -0.0,
+        -5.258550172595951e-10
+      ],
+      "pressure_derivative_error_Pa": 9.081615945219691e-21
+    },
+    {
+      "epsilon": 0.0,
+      "state": "product",
+      "a": 1.0,
+      "joint_loads": [
+        0.05000000000000005,
+        0.2789256109767439,
+        0.6877425398542385
+      ],
+      "factorized_marginal_loads": [
+        0.050000000000000065,
+        0.2789256109767439,
+        0.6877425398542387
+      ],
+      "sector_energy_J": [
+        3.780791249536136e-11,
+        2.0321854300651497e-10,
+        5.258550172595951e-10
+      ],
+      "sector_pressure_Pa": [
+        -0.0,
+        -0.0,
+        -5.258550172595951e-10
+      ],
+      "pressure_derivative_error_Pa": 1.258141711693155e-21
+    },
+    {
+      "epsilon": 0.0,
+      "state": "product",
+      "a": 2.0,
+      "joint_loads": [
+        0.05000000000000005,
+        0.2789256109767439,
+        0.6877425398542385
+      ],
+      "factorized_marginal_loads": [
+        0.050000000000000065,
+        0.2789256109767439,
+        0.6877425398542387
+      ],
+      "sector_energy_J": [
+        3.780791249536136e-11,
+        2.0321854300651497e-10,
+        4.206840138076761e-09
+      ],
+      "sector_pressure_Pa": [
+        -0.0,
+        -0.0,
+        -5.258550172595951e-10
+      ],
+      "pressure_derivative_error_Pa": 1.258141711693155e-21
+    },
+    {
+      "epsilon": 0.0,
+      "state": "correlated",
+      "a": 0.5,
+      "joint_loads": [
+        0.050000000000000044,
+        0.2245425951986375,
+        0.5715297283312717
+      ],
+      "factorized_marginal_loads": [
+        0.05000000000000005,
+        0.22473634778032733,
+        0.5541289165909354
+      ],
+      "sector_energy_J": [
+        3.7807912495361355e-11,
+        1.635963756765721e-10,
+        5.462468833535258e-11
+      ],
+      "sector_pressure_Pa": [
+        -0.0,
+        -0.0,
+        -4.369975066828206e-10
+      ],
+      "pressure_derivative_error_Pa": 9.163817018592148e-21
+    },
+    {
+      "epsilon": 0.0,
+      "state": "correlated",
+      "a": 1.0,
+      "joint_loads": [
+        0.050000000000000044,
+        0.2245425951986375,
+        0.5715297283312717
+      ],
+      "factorized_marginal_loads": [
+        0.05000000000000005,
+        0.22473634778032733,
+        0.5541289165909354
+      ],
+      "sector_energy_J": [
+        3.7807912495361355e-11,
+        1.635963756765721e-10,
+        4.369975066828206e-10
+      ],
+      "sector_pressure_Pa": [
+        -0.0,
+        -0.0,
+        -4.369975066828206e-10
+      ],
+      "pressure_derivative_error_Pa": 3.993938190135725e-21
+    },
+    {
+      "epsilon": 0.0,
+      "state": "correlated",
+      "a": 2.0,
+      "joint_loads": [
+        0.050000000000000044,
+        0.2245425951986375,
+        0.5715297283312717
+      ],
+      "factorized_marginal_loads": [
+        0.05000000000000005,
+        0.22473634778032733,
+        0.5541289165909354
+      ],
+      "sector_energy_J": [
+        3.7807912495361355e-11,
+        1.635963756765721e-10,
+        3.495980053462565e-09
+      ],
+      "sector_pressure_Pa": [
+        -0.0,
+        -0.0,
+        -4.369975066828206e-10
+      ],
+      "pressure_derivative_error_Pa": 1.4089987759075135e-21
+    },
+    {
+      "epsilon": 8.0,
+      "state": "product",
+      "a": 0.5,
+      "joint_loads": [
+        0.05000000000000005,
+        0.2789256109767439,
+        0.6877425398542388
+      ],
+      "factorized_marginal_loads": [
+        0.050000000000000065,
+        0.2789256109767439,
+        0.6877425398542384
+      ],
+      "sector_energy_J": [
+        3.780791249536136e-11,
+        2.0321854300651497e-10,
+        6.573187715744943e-11
+      ],
+      "sector_pressure_Pa": [
+        -0.0,
+        -0.0,
+        -5.258550172595954e-10
+      ],
+      "pressure_derivative_error_Pa": 1.1598209561335708e-20
+    },
+    {
+      "epsilon": 8.0,
+      "state": "product",
+      "a": 1.0,
+      "joint_loads": [
+        0.05000000000000005,
+        0.2789256109767439,
+        0.6877425398542388
+      ],
+      "factorized_marginal_loads": [
+        0.050000000000000065,
+        0.2789256109767439,
+        0.6877425398542384
+      ],
+      "sector_energy_J": [
+        3.780791249536136e-11,
+        2.0321854300651497e-10,
+        5.258550172595954e-10
+      ],
+      "sector_pressure_Pa": [
+        -0.0,
+        -0.0,
+        -5.258550172595954e-10
+      ],
+      "pressure_derivative_error_Pa": 1.2584519044228625e-21
+    },
+    {
+      "epsilon": 8.0,
+      "state": "product",
+      "a": 2.0,
+      "joint_loads": [
+        0.05000000000000005,
+        0.2789256109767439,
+        0.6877425398542388
+      ],
+      "factorized_marginal_loads": [
+        0.050000000000000065,
+        0.2789256109767439,
+        0.6877425398542384
+      ],
+      "sector_energy_J": [
+        3.780791249536136e-11,
+        2.0321854300651497e-10,
+        4.2068401380767634e-09
+      ],
+      "sector_pressure_Pa": [
+        -0.0,
+        -0.0,
+        -5.258550172595954e-10
+      ],
+      "pressure_derivative_error_Pa": 1.2584519044228625e-21
+    },
+    {
+      "epsilon": 8.0,
+      "state": "correlated",
+      "a": 0.5,
+      "joint_loads": [
+        0.050000000000000044,
+        0.2245425951986375,
+        0.5855444108437005
+      ],
+      "factorized_marginal_loads": [
+        0.05000000000000005,
+        0.22473634778032733,
+        0.5702420497716123
+      ],
+      "sector_energy_J": [
+        3.7807912495361355e-11,
+        1.635963756765721e-10,
+        5.5964159628640415e-11
+      ],
+      "sector_pressure_Pa": [
+        -0.0,
+        -0.0,
+        -4.477132770291233e-10
+      ],
+      "pressure_derivative_error_Pa": 1.2585966610300593e-20
+    },
+    {
+      "epsilon": 8.0,
+      "state": "correlated",
+      "a": 1.0,
+      "joint_loads": [
+        0.050000000000000044,
+        0.2245425951986375,
+        0.5855444108437005
+      ],
+      "factorized_marginal_loads": [
+        0.05000000000000005,
+        0.22473634778032733,
+        0.5702420497716123
+      ],
+      "sector_energy_J": [
+        3.7807912495361355e-11,
+        1.635963756765721e-10,
+        4.477132770291233e-10
+      ],
+      "sector_pressure_Pa": [
+        -0.0,
+        -0.0,
+        -4.477132770291233e-10
+      ],
+      "pressure_derivative_error_Pa": 2.2462089533877467e-21
+    },
+    {
+      "epsilon": 8.0,
+      "state": "correlated",
+      "a": 2.0,
+      "joint_loads": [
+        0.050000000000000044,
+        0.2245425951986375,
+        0.5855444108437005
+      ],
+      "factorized_marginal_loads": [
+        0.05000000000000005,
+        0.22473634778032733,
+        0.5702420497716123
+      ],
+      "sector_energy_J": [
+        3.7807912495361355e-11,
+        1.635963756765721e-10,
+        3.5817062162329866e-09
+      ],
+      "sector_pressure_Pa": [
+        -0.0,
+        -0.0,
+        -4.477132770291233e-10
+      ],
+      "pressure_derivative_error_Pa": 2.9236698750686763e-21
+    }
+  ],
+  "operator_rule": "A_phi=I,A_D=Kc/2,A_R=Kb/2; load_s=sum_n w_n e_s(n) g_s(n) Tr[rho_n A_s]",
+  "energy_rule": "E_s=eta_s V0 a^n_s load_s; pressure_s=-n_s E_s/(3V)",
+  "scope": "positive classical-address conditional quantum-carrier map, fixed constitutive SI/load law",
+  "assumptions": [
+    "positive address response g_s",
+    "inherited operators and volume exponents",
+    "frozen SI coefficients",
+    "diagnostic address-carrier correlation; not measured cosmic state"
+  ],
+  "not_derived": [
+    "SI conversion from pure arithmetic without calibrated anchors",
+    "unique physical load operators",
+    "full four-dimensional gravitational dynamics"
+  ]
+}

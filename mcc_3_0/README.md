@@ -92,3 +92,9 @@ Structure comparison, scoped minimum-state proof, equivalent rotation kernel and
 Carrier response, calibrated selection, phenotype routing, internal mixing and finite record budgets: 51 connection checks plus 38 inherited internal checks. The joint calibrated branch requires a disclosed supplier of at least 31.82783539785394% of its phenotype allocation; baseline 20% rejects it. Branches are alternatives, not additive cosmic sectors. This completes the scoped connection review, not all species mass/mixing or full theory.
 
 Step 3 re-review: [한국어](theory_completion/step_3_structure_selection/REREVIEW_KO.txt) · [English](theory_completion/step_3_structure_selection/REREVIEW_EN.txt). The added scope audit distinguishes continuation-based Hankel bounds from finite admission observations.
+
+## Theory improvement — Step 5 / 이론 보완 5단계
+
+[Reviewed Step 5](theory_completion/step_5_state_physical_load/README.txt) · [한국어](theory_completion/step_5_state_physical_load/STEP5_REVIEW_KO.txt) · [English](theory_completion/step_5_state_physical_load/STEP5_REVIEW_EN.txt)
+
+Conditional address/carrier states to positive physical loads, same-energy pressure and nested record/supplier budgets: 23 checks and 36 combined cases. Frozen dependencies verified by SHA256. Constitutive operators, volume laws and calibrated SI inputs remain explicit; this is scoped connection completion, not full theory completion.

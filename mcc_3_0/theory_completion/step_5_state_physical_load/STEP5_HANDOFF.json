@@ -1,0 +1,392 @@
+{
+  "status": "PASS",
+  "version": "0.3",
+  "checks": {
+    "all_previous18_checks_pass": true,
+    "all36_load_record_combinations_conserve_energy": true,
+    "same_energy_derivative_preserves_all_combined_pressures": true,
+    "single_phi_budget_unchanged_by_carrier_correlations": true,
+    "original20_percent_joint_branch_rejection_retained": true
+  },
+  "total_checks": 23,
+  "combined_cases": [
+    {
+      "carrier_state": "product",
+      "epsilon": 0.0,
+      "a": 0.5,
+      "record_branch": "baseline_record",
+      "included_before_J": 3.14319915158398e-10,
+      "included_after_J": 3.14319915158398e-10,
+      "pressure_Pa": -5.258550172595951e-10,
+      "pressure_derivative_error_Pa": 9.081615945219691e-21
+    },
+    {
+      "carrier_state": "product",
+      "epsilon": 0.0,
+      "a": 0.5,
+      "record_branch": "principal_magnetic",
+      "included_before_J": 3.14319915158398e-10,
+      "included_after_J": 3.14319915158398e-10,
+      "pressure_Pa": -5.258550172595951e-10,
+      "pressure_derivative_error_Pa": 9.081615945219691e-21
+    },
+    {
+      "carrier_state": "product",
+      "epsilon": 0.0,
+      "a": 0.5,
+      "record_branch": "joint_calibrated",
+      "included_before_J": 3.18791772815714e-10,
+      "included_after_J": 3.1879177281571403e-10,
+      "pressure_Pa": -5.258550172595951e-10,
+      "pressure_derivative_error_Pa": 9.081615945219691e-21
+    },
+    {
+      "carrier_state": "product",
+      "epsilon": 0.0,
+      "a": 1.0,
+      "record_branch": "baseline_record",
+      "included_before_J": 7.744430552605437e-10,
+      "included_after_J": 7.744430552605437e-10,
+      "pressure_Pa": -5.258550172595951e-10,
+      "pressure_derivative_error_Pa": 1.258141711693155e-21
+    },
+    {
+      "carrier_state": "product",
+      "epsilon": 0.0,
+      "a": 1.0,
+      "record_branch": "principal_magnetic",
+      "included_before_J": 7.744430552605437e-10,
+      "included_after_J": 7.744430552605437e-10,
+      "pressure_Pa": -5.258550172595951e-10,
+      "pressure_derivative_error_Pa": 1.258141711693155e-21
+    },
+    {
+      "carrier_state": "product",
+      "epsilon": 0.0,
+      "a": 1.0,
+      "record_branch": "joint_calibrated",
+      "included_before_J": 7.789149129178597e-10,
+      "included_after_J": 7.789149129178597e-10,
+      "pressure_Pa": -5.258550172595951e-10,
+      "pressure_derivative_error_Pa": 1.258141711693155e-21
+    },
+    {
+      "carrier_state": "product",
+      "epsilon": 0.0,
+      "a": 2.0,
+      "record_branch": "baseline_record",
+      "included_before_J": 4.45542817607771e-09,
+      "included_after_J": 4.455428176077709e-09,
+      "pressure_Pa": -5.258550172595951e-10,
+      "pressure_derivative_error_Pa": 1.258141711693155e-21
+    },
+    {
+      "carrier_state": "product",
+      "epsilon": 0.0,
+      "a": 2.0,
+      "record_branch": "principal_magnetic",
+      "included_before_J": 4.45542817607771e-09,
+      "included_after_J": 4.45542817607771e-09,
+      "pressure_Pa": -5.258550172595951e-10,
+      "pressure_derivative_error_Pa": 1.258141711693155e-21
+    },
+    {
+      "carrier_state": "product",
+      "epsilon": 0.0,
+      "a": 2.0,
+      "record_branch": "joint_calibrated",
+      "included_before_J": 4.4599000337350255e-09,
+      "included_after_J": 4.4599000337350255e-09,
+      "pressure_Pa": -5.258550172595951e-10,
+      "pressure_derivative_error_Pa": 1.258141711693155e-21
+    },
+    {
+      "carrier_state": "correlated",
+      "epsilon": 0.0,
+      "a": 0.5,
+      "record_branch": "baseline_record",
+      "included_before_J": 2.635905590063583e-10,
+      "included_after_J": 2.635905590063583e-10,
+      "pressure_Pa": -4.369975066828206e-10,
+      "pressure_derivative_error_Pa": 9.163817018592148e-21
+    },
+    {
+      "carrier_state": "correlated",
+      "epsilon": 0.0,
+      "a": 0.5,
+      "record_branch": "principal_magnetic",
+      "included_before_J": 2.635905590063583e-10,
+      "included_after_J": 2.635905590063583e-10,
+      "pressure_Pa": -4.369975066828206e-10,
+      "pressure_derivative_error_Pa": 1.1515698295233544e-20
+    },
+    {
+      "carrier_state": "correlated",
+      "epsilon": 0.0,
+      "a": 0.5,
+      "record_branch": "joint_calibrated",
+      "included_before_J": 2.680624166636743e-10,
+      "included_after_J": 2.6806241666367436e-10,
+      "pressure_Pa": -4.369975066828206e-10,
+      "pressure_derivative_error_Pa": 9.163817018592148e-21
+    },
+    {
+      "carrier_state": "correlated",
+      "epsilon": 0.0,
+      "a": 1.0,
+      "record_branch": "baseline_record",
+      "included_before_J": 6.459633773538264e-10,
+      "included_after_J": 6.459633773538264e-10,
+      "pressure_Pa": -4.369975066828206e-10,
+      "pressure_derivative_error_Pa": 1.175940638320698e-21
+    },
+    {
+      "carrier_state": "correlated",
+      "epsilon": 0.0,
+      "a": 1.0,
+      "record_branch": "principal_magnetic",
+      "included_before_J": 6.459633773538264e-10,
+      "included_after_J": 6.459633773538264e-10,
+      "pressure_Pa": -4.369975066828206e-10,
+      "pressure_derivative_error_Pa": 1.175940638320698e-21
+    },
+    {
+      "carrier_state": "correlated",
+      "epsilon": 0.0,
+      "a": 1.0,
+      "record_branch": "joint_calibrated",
+      "included_before_J": 6.504352350111424e-10,
+      "included_after_J": 6.504352350111424e-10,
+      "pressure_Pa": -4.369975066828206e-10,
+      "pressure_derivative_error_Pa": 3.993938190135725e-21
+    },
+    {
+      "carrier_state": "correlated",
+      "epsilon": 0.0,
+      "a": 2.0,
+      "record_branch": "baseline_record",
+      "included_before_J": 3.7049459241335706e-09,
+      "included_after_J": 3.7049459241335706e-09,
+      "pressure_Pa": -4.369975066828206e-10,
+      "pressure_derivative_error_Pa": 1.4089987759075135e-21
+    },
+    {
+      "carrier_state": "correlated",
+      "epsilon": 0.0,
+      "a": 2.0,
+      "record_branch": "principal_magnetic",
+      "included_before_J": 3.7049459241335706e-09,
+      "included_after_J": 3.7049459241335706e-09,
+      "pressure_Pa": -4.369975066828206e-10,
+      "pressure_derivative_error_Pa": 1.4089987759075135e-21
+    },
+    {
+      "carrier_state": "correlated",
+      "epsilon": 0.0,
+      "a": 2.0,
+      "record_branch": "joint_calibrated",
+      "included_before_J": 3.709417781790887e-09,
+      "included_after_J": 3.709417781790887e-09,
+      "pressure_Pa": -4.369975066828206e-10,
+      "pressure_derivative_error_Pa": 1.4089987759075135e-21
+    },
+    {
+      "carrier_state": "product",
+      "epsilon": 8.0,
+      "a": 0.5,
+      "record_branch": "baseline_record",
+      "included_before_J": 3.1431991515839805e-10,
+      "included_after_J": 3.1431991515839805e-10,
+      "pressure_Pa": -5.258550172595954e-10,
+      "pressure_derivative_error_Pa": 1.1598209561335708e-20
+    },
+    {
+      "carrier_state": "product",
+      "epsilon": 8.0,
+      "a": 0.5,
+      "record_branch": "principal_magnetic",
+      "included_before_J": 3.1431991515839805e-10,
+      "included_after_J": 3.1431991515839805e-10,
+      "pressure_Pa": -5.258550172595954e-10,
+      "pressure_derivative_error_Pa": 1.1598209561335708e-20
+    },
+    {
+      "carrier_state": "product",
+      "epsilon": 8.0,
+      "a": 0.5,
+      "record_branch": "joint_calibrated",
+      "included_before_J": 3.1879177281571403e-10,
+      "included_after_J": 3.187917728157141e-10,
+      "pressure_Pa": -5.258550172595954e-10,
+      "pressure_derivative_error_Pa": 9.081305752489983e-21
+    },
+    {
+      "carrier_state": "product",
+      "epsilon": 8.0,
+      "a": 1.0,
+      "record_branch": "baseline_record",
+      "included_before_J": 7.744430552605441e-10,
+      "included_after_J": 7.744430552605441e-10,
+      "pressure_Pa": -5.258550172595954e-10,
+      "pressure_derivative_error_Pa": 1.2584519044228625e-21
+    },
+    {
+      "carrier_state": "product",
+      "epsilon": 8.0,
+      "a": 1.0,
+      "record_branch": "principal_magnetic",
+      "included_before_J": 7.744430552605441e-10,
+      "included_after_J": 7.744430552605441e-10,
+      "pressure_Pa": -5.258550172595954e-10,
+      "pressure_derivative_error_Pa": 1.2584519044228625e-21
+    },
+    {
+      "carrier_state": "product",
+      "epsilon": 8.0,
+      "a": 1.0,
+      "record_branch": "joint_calibrated",
+      "included_before_J": 7.789149129178601e-10,
+      "included_after_J": 7.789149129178601e-10,
+      "pressure_Pa": -5.258550172595954e-10,
+      "pressure_derivative_error_Pa": 1.2584519044228625e-21
+    },
+    {
+      "carrier_state": "product",
+      "epsilon": 8.0,
+      "a": 2.0,
+      "record_branch": "baseline_record",
+      "included_before_J": 4.4554281760777126e-09,
+      "included_after_J": 4.455428176077712e-09,
+      "pressure_Pa": -5.258550172595954e-10,
+      "pressure_derivative_error_Pa": 1.2584519044228625e-21
+    },
+    {
+      "carrier_state": "product",
+      "epsilon": 8.0,
+      "a": 2.0,
+      "record_branch": "principal_magnetic",
+      "included_before_J": 4.4554281760777126e-09,
+      "included_after_J": 4.4554281760777126e-09,
+      "pressure_Pa": -5.258550172595954e-10,
+      "pressure_derivative_error_Pa": 1.2584519044228625e-21
+    },
+    {
+      "carrier_state": "product",
+      "epsilon": 8.0,
+      "a": 2.0,
+      "record_branch": "joint_calibrated",
+      "included_before_J": 4.459900033735028e-09,
+      "included_after_J": 4.459900033735028e-09,
+      "pressure_Pa": -5.258550172595954e-10,
+      "pressure_derivative_error_Pa": 1.2584519044228625e-21
+    },
+    {
+      "carrier_state": "correlated",
+      "epsilon": 8.0,
+      "a": 0.5,
+      "record_branch": "baseline_record",
+      "included_before_J": 2.6493003029964614e-10,
+      "included_after_J": 2.6493003029964614e-10,
+      "pressure_Pa": -4.477132770291233e-10,
+      "pressure_derivative_error_Pa": 1.2585966610300593e-20
+    },
+    {
+      "carrier_state": "correlated",
+      "epsilon": 8.0,
+      "a": 0.5,
+      "record_branch": "principal_magnetic",
+      "included_before_J": 2.6493003029964614e-10,
+      "included_after_J": 2.6493003029964614e-10,
+      "pressure_Pa": -4.477132770291233e-10,
+      "pressure_derivative_error_Pa": 8.0935487035251e-21
+    },
+    {
+      "carrier_state": "correlated",
+      "epsilon": 8.0,
+      "a": 0.5,
+      "record_branch": "joint_calibrated",
+      "included_before_J": 2.6940188795696213e-10,
+      "included_after_J": 2.694018879569622e-10,
+      "pressure_Pa": -4.477132770291233e-10,
+      "pressure_derivative_error_Pa": 8.0935487035251e-21
+    },
+    {
+      "carrier_state": "correlated",
+      "epsilon": 8.0,
+      "a": 1.0,
+      "record_branch": "baseline_record",
+      "included_before_J": 6.56679147700129e-10,
+      "included_after_J": 6.56679147700129e-10,
+      "pressure_Pa": -4.477132770291233e-10,
+      "pressure_derivative_error_Pa": 2.9236698750686763e-21
+    },
+    {
+      "carrier_state": "correlated",
+      "epsilon": 8.0,
+      "a": 1.0,
+      "record_branch": "principal_magnetic",
+      "included_before_J": 6.56679147700129e-10,
+      "included_after_J": 6.56679147700129e-10,
+      "pressure_Pa": -4.477132770291233e-10,
+      "pressure_derivative_error_Pa": 2.2462089533877467e-21
+    },
+    {
+      "carrier_state": "correlated",
+      "epsilon": 8.0,
+      "a": 1.0,
+      "record_branch": "joint_calibrated",
+      "included_before_J": 6.61151005357445e-10,
+      "included_after_J": 6.61151005357445e-10,
+      "pressure_Pa": -4.477132770291233e-10,
+      "pressure_derivative_error_Pa": 2.9236698750686763e-21
+    },
+    {
+      "carrier_state": "correlated",
+      "epsilon": 8.0,
+      "a": 2.0,
+      "record_branch": "baseline_record",
+      "included_before_J": 3.7906720869039925e-09,
+      "included_after_J": 3.790672086903992e-09,
+      "pressure_Pa": -4.477132770291233e-10,
+      "pressure_derivative_error_Pa": 2.9236698750686763e-21
+    },
+    {
+      "carrier_state": "correlated",
+      "epsilon": 8.0,
+      "a": 2.0,
+      "record_branch": "principal_magnetic",
+      "included_before_J": 3.7906720869039925e-09,
+      "included_after_J": 3.7906720869039925e-09,
+      "pressure_Pa": -4.477132770291233e-10,
+      "pressure_derivative_error_Pa": 2.9236698750686763e-21
+    },
+    {
+      "carrier_state": "correlated",
+      "epsilon": 8.0,
+      "a": 2.0,
+      "record_branch": "joint_calibrated",
+      "included_before_J": 3.795143944561308e-09,
+      "included_after_J": 3.795143944561308e-09,
+      "pressure_Pa": -4.477132770291233e-10,
+      "pressure_derivative_error_Pa": 2.9236698750686763e-21
+    }
+  ],
+  "completion_scope": "declared positive state-to-load constitutive map, address/carrier correlations, one-budget internal record/supplier handoff, zero-support boundary and same-energy pressure",
+  "next_step": "Step6 same gravity state multi-verification",
+  "remaining_constitutive_inputs": [
+    "address responses",
+    "carrier load operators",
+    "SI calibrated coefficients",
+    "volume exponents",
+    "declared supplier boundary"
+  ],
+  "not_claimed": [
+    "unique physical load map",
+    "supplier creation mechanism",
+    "full theory completion"
+  ],
+  "result_hashes": {
+    "state_load_results.json": "d9b3afb2b9e1fb257a61c0b0d27e43b615471232e2a217f1e8e455e05bc1509d",
+    "record_load_join_results.json": "b02ddced3907fed1e27c9562c45cd352fc41bd7790ef4f9fef3ddac877902e4d"
+  }
+}

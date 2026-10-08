@@ -1,0 +1,12 @@
+{
+  "repository": "Wonsik-Choi-janefather/wrra-m-0.1",
+  "commit": "408602d166b3ec6635aff24803ef578580386112",
+  "files": {
+    "measurement_reproduce.py": "5b5aae83838ffd912d9fac3f5e700e64c67da8a029e52bebc961f7e9ebc514b0",
+    "measurement_inputs.json": "c6fe2d521b44a6b203e7f11abe66f4ad93d8d8dd20401140a3c77b00aeadf265",
+    "measurement_expected.json": "d1083fb484a7cc85630c2d7275197714258e63c74e2ae64eac59d7f1a230fdf5",
+    "stage4.py": "73ffa1e84fd39c34729cf7f1a288e61bf806f0782e7ce4606744b77d5c301ab0",
+    "carrier_compute.py": "4a8c1998618158436523c02e199556845a12ccb7b1ec2b662d939be14d31c69e",
+    "channel_compute.py": "e1924554ac14129442c4317b633bcc7194d625aa845d2e98e86ff3a52fd2baa9"
+  }
+}

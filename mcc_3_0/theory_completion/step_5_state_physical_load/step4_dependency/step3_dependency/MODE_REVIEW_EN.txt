@@ -1,0 +1,43 @@
+WRRA 3.0 theory improvement Step3 v0.3: exhaustive inherited-mode subset comparison
+
+Verified inputs: common SOURCE, share targets, alpha, eight frames, four
+candidate frequencies, load/SI inputs and the internal preparation/write rule.
+WRRA transformation: all15 nonempty mode subsets -> fixed total-coefficient
+normalization -> legitimate h calibration -> address/load/preparation/write outputs.
+Outputs: all subsets reproduce5/26.8/68.2%; every proper subset changes the
+frozen address readout. Falsification: denied calibration, hidden coefficient
+normalization, conflated aggregate/address agreement or misclassified model changes.
+Six additional checks pass; twenty-six Stage3 computational checks pass overall.
+
+The normalization rescales inherited coefficients by4/J, retaining total sum2.
+It is an explicit fixed rule, not freely fitted mode amplitudes. Frequency subsets,
+offsets, phase step and eight-frame boundary are declared. Each h fits the same
+phenotype target; shared dark readout and alpha retain the dark target; return
+follows conservation. SI coefficients are unchanged. All4 singles,6 pairs,
+4 triples and the full set are tested, not all possible spectra or models.
+
+Weighted L1 address-readout distance is a model comparison metric, not an
+observational loss. The closest reduced case uses modes1 and2 with
+h=1.5934345200906517. Its distance is .0005084783856417499 and maximum
+address-admission difference is .08667143011151524. The odd-v3 selector
+fraction changes from .4020461347060738 to .40086514706154386; mean
+single-write supply changes from7.029276088428047e-12J to
+7.033968914699372e-12J. These are actually computed conditional outputs,
+not an empirical preference between the models.
+
+Removing modes changes the model. Rotation/direct/chunk implementation changes
+preserve its address readout and frame/load ledger. Retain the four-mode
+rotation implementation for the existing explanation; keep calibrated reductions
+as legitimate alternatives with different conditional responses.
+A smaller four-real-state two-mode generator is not an exact four-state reduction
+of the existing eight-real-state sequence. The previously established Hankel
+bound applies only to the fixed sequence and linear realizations.
+
+Selection basis: retain four modes and eight real rotation states for the
+existing address/phase/preparation/record/load explanation. Scalar admission
+remains a valid aggregate-only explanation. Minimum computation is assessed
+within an explicitly shared explanatory task. This does not establish physical
+necessity of the four modes, eight-frame boundary, all microscopic rules or
+a unique universe. Independent predictions or global origin derivation are not
+introduced as additional completion requirements.
+Replay mode_comparison.py; all15 detailed outputs are in its result JSON.

@@ -1,0 +1,33 @@
+Step 2 v0.4: inherited channel-blind load connection
+
+Verified inputs: original0.8 inventory, placement, channel_energy_bridge,
+published F_DX assignment, fixed address readout and four carrier test states.
+WRRA transformation: original15 directions plus neutral extension -> channel
+permutation -> product space -> common load operators -> phenotype suballocation.
+Outputs: rank15 original subspace, rank16 extended transport, unchanged loads,
+and48 family slots closing to the same phenotype budget.
+Falsification: lost channel independence, placement-dependent added load,
+nonclosing suballocations or conflation of routing rank with transport rank.
+Ten additional checks pass.
+
+The original bridge is channel-blind. Its product-space formulation is
+C^16 tensor C^128, with I_16 tensor A_s and P tensor I_128.
+Its2048 dimension refers only to this channel/load product, not all internal
+and address factors. This is not an identification or unique embedding of
+channel space into lattice space. Traces are contracted without dense matrices.
+The original1+7+7 directions are the first15 inventory entries;1_N is the
+neutral extension. Permutation preserves the independent directions. This
+rechecks transport under the inherited representation, not the complete CCS-15
+origin argument or every channel-specific interaction.
+
+The default address-to-origin probability map has rank1 because all conditional
+columns are uniform. Its rank is distinct from channel transport rank15/16.
+For normalized channel states the original load is unchanged. Correlated
+channel/lattice diagnostic blocks also contract exactly to the carrier marginal
+for channel-blind operators. Channel-sensitive observables need further data.
+
+Phenotype energy3.7807912495361375e-11J equals the sum over three families
+of16slots. Each current uniform slot receives7.876648436533619e-13J.
+These are budget allocations, not measured particle masses or additional cosmic
+energy. The existing channel-common load connection is executed; integration
+of all channel-specific interactions is not claimed.
