@@ -1,0 +1,49 @@
+WRRA 3.0 theory improvement Step3 v0.2: cost and minimal-state selection
+
+Verified inputs: the same finite SOURCE, four inherited modes, coefficients,
+eight-frame admission boundary, address effects, frame ledger and load interfaces.
+WRRA transformation: separated cost comparison -> chunked readout -> rotation
+states -> Hankel rank -> lower bound and realization of linear state dimension.
+Outputs: unchanged readout/load, a locally selected rotation kernel and a minimal
+eight-real-state realization of the fixed phase sequence. Twenty checks pass
+in total: eight prior comparison checks, seven streaming checks and five rank checks.
+Falsification: storage-dependent output, changed frame/load contributions,
+omitted costs, exaggerated universal minimality or conflated state/frame counts.
+
+For aggregate-only explanation a calibrated scalar admission is simpler. For
+retaining the existing address/phase/frame explanation, preserve the phase
+structure and select a chunked rotation kernel. These are different explanatory
+scopes. Neither the four modes nor eight-frame boundary is uniquely selected
+by the reproduced aggregate shares. Calibration and reproduction retain their
+explanatory value in both scopes.
+
+Direct evaluation uses13,692,544 trig calls. Rotation uses3,423,144,
+including shared rotations, but adds47,923,904 multiplications and23,961,952
+additions/subtractions. Thus total operations or physical cost are not reduced75%.
+The two implementations use identical calibration and model specification.
+Six kernel/chunk conditions preserve every address's admission, all eight frame
+contributions and sector loads. For chunk65,536, conservative phase-work-array
+bounds are10MiB direct and24MiB rotation; the full eight-frame drive table alone
+is about26.1MiB. Shared inputs, SOURCE construction and process RSS are excluded.
+Direct streaming trades lower work storage for more trig calls.
+Three local alternating measurements after warmup give medians .211361459s
+and .117584372s respectively, about44.4% shorter for rotation here. These are
+kernel-only timings, not universal or whole-pipeline benchmarks. Keep direct
+streaming as the reference and memory-oriented alternative.
+
+A phase sequence with four cosine modes is a sum of eight complex exponential
+poles exp(+/-i gamma_j xi). Here all poles are distinct and coefficients nonzero.
+The8x8 Hankel matrix H_rs=u_(r+s) factors as V diag(a) V^T with an invertible
+Vandermonde matrix and nonzero amplitudes, giving rank8. Any d-dimensional
+real time-invariant linear realization has H=O R and rank(H)<=d. Therefore d>=8.
+Four real two-component rotation blocks realize exactly d=8 and attain this bound.
+Numerical probes at addresses9,15,105,1001 verify the factorization and rank.
+Sixteen synthetic continuation samples diagnose the declared formula; they are
+not sixteen observed frames. The adopted admission boundary remains eight.
+Eight real state components are neither eight frames nor CCS-15 channels.
+
+The minimum is within linear realizations of the fixed spectral rule. It does
+not derive the physical necessity of four modes, the eight-frame boundary,
+a unique universe structure or a minimum over nonlinear encodings. Constitutive
+inputs remain explicit and legitimate. Full theory completion is not asserted.
+Replay the three root scripts in the order listed in README.txt.

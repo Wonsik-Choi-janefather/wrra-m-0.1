@@ -1,0 +1,21 @@
+{
+  "version": "WRRA-MCC-3.0-theory-step1-r1",
+  "H": 29,
+  "C": 70,
+  "size_rule": "L = least exact common denominator of frozen calibrated address fractions; N = L*H*C",
+  "reference_address": 1,
+  "source_probes": [
+    {"label": "MCC 3.0 reference", "fractions": ["0.05", "0.268", "0.682"]},
+    {"label": "SOURCE-size probe A", "fractions": ["0.0505", "0.2680", "0.6815"]},
+    {"label": "SOURCE-size probe B", "fractions": ["0.0501", "0.2680", "0.6819"]}
+  ],
+  "changed_quantities": ["source selecting fractions", "L", "N", "N-dependent address normalization and response"],
+  "held_fixed": ["alpha and threshold from Stage-2 reference", "zeta phase drive", "SI eta", "response lambda", "energy exponents", "local mass profile and lens geometry"],
+  "fit_policy": "No refit for probes. Changed fractions select N; they are not new fitted output targets.",
+  "update_policy": "New observations test the frozen model. An explicit recalibration is a new model version and regenerates SOURCE.",
+  "completed_scope": "Conditional SOURCE construction and capacity-dependent transport in the uniform carrier/homogeneous macro branch",
+  "assumptions_retained": ["H=29", "T=2*pi*H and C=70", "all L*H*C tuples admitted", "declared address classifier", "uniform carrier loads", "conditional local Phi=Psi lens patch"],
+  "capacity_stability_required": false,
+  "distinct_address_count_equals_carrier_rank": false,
+  "phase_bridge_candidate_adopted": false
+}

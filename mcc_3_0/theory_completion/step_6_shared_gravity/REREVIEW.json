@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "checks": 20,
+  "shared_cases": 12,
+  "record_cases": 36,
+  "maximum_independent_lens_difference_arcsec": 1.9539925233402755e-14,
+  "zero_clustering_lens_difference_arcsec": 8.326672684688674e-17,
+  "full_replay": "all3 paths pass",
+  "scope": "same-state constitutive execution; no new empirical fit"
+}

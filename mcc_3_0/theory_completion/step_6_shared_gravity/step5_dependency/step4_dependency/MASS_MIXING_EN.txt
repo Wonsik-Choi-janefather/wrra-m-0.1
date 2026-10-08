@@ -1,0 +1,26 @@
+WRRA Step4 v0.4: mass/internal mixing to record
+Verified inputs: published internal mixing v0.3 and mass calibration0.11.
+WRRA transformation: replay finite currents/states; diagonalize mass Hamiltonian;
+transport states, write and energy operators together; allocate one phenotype
+budget; recalculate record work and supplier requirement.
+Outputs: 38 inherited replay checks plus12 new checks (43 Step4 connection checks).
+Electron mode23 anchor reproduced. Basis-transformed record work agrees.
+Falsifiers: replay failure, basis-dependent work, duplicated energy, concealed
+observable mismatch or ignored supplier insufficiency.
+
+Baseline record gap431.08124431500175 MeV differs from principal magnetic model
+gap366.9359404920706 and joint calibrated model gap757.8954317996527.
+Principal magnetic gA1.5686240821617012 does not reproduce observed1.2753;
+existing joint calibration reproduces masses, magnetic moments and axial input.
+Calibration is legitimate theory construction and reproduction is success.
+Principal write6.015266344305666e-12 J fits the20% supplier. Joint write
+1.2033019830228727e-11 J does not. Its maximum-outcome minimum supplier is
+1.2033440156388269e-11 J, or31.82783539785394% of phenotype budget.
+The alternative branch exposes that requirement without modifying baseline20%.
+
+Current SOURCE N1015000/alpha1.8996877935161325 with inherited C fixed produces
+q=.07353192154110458, gap366.9359260048723 MeV, gA1.5686241046118607.
+Unmeasured gap is a conditional WRRA prediction under disclosed Delta/C.
+This is nucleon configuration mixing, not CKM/PMNS or all-species mass decoding.
+Remaining fixed task: common-input final review and baseline/alternative branch
+contract. Step4 final completion has not been declared.

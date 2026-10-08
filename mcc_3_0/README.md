@@ -98,3 +98,9 @@ Step 3 re-review: [한국어](theory_completion/step_3_structure_selection/REREV
 [Reviewed Step 5](theory_completion/step_5_state_physical_load/README.txt) · [한국어](theory_completion/step_5_state_physical_load/STEP5_REVIEW_KO.txt) · [English](theory_completion/step_5_state_physical_load/STEP5_REVIEW_EN.txt)
 
 Conditional address/carrier states to positive physical loads, same-energy pressure and nested record/supplier budgets: 23 checks and 36 combined cases. Frozen dependencies verified by SHA256. Constitutive operators, volume laws and calibrated SI inputs remain explicit; this is scoped connection completion, not full theory completion.
+
+## Theory improvement — Step 6 / 이론 보완 6단계
+
+[Reviewed Step 6](theory_completion/step_6_shared_gravity/README.txt) · [한국어](theory_completion/step_6_shared_gravity/STEP6_REVIEW_KO.txt) · [English](theory_completion/step_6_shared_gravity/STEP6_REVIEW_EN.txt)
+
+Shared frozen density/pressure state feeds rotation, conditional lensing and homogeneous expansion: 20 checks, 12 states and 36 record/supplier boundaries. Independent lens quadrature and analytic zero-clustering projection agree. Known-value reproduction and scoped connection completion; no new observational fit or full covariant gravity derivation is asserted.

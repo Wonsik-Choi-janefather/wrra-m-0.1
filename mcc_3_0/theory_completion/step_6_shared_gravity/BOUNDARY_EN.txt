@@ -1,0 +1,16 @@
+WRRA Step6 v0.2
+Verified inputs:12 frozen density/pressure cases and3 record/supplier branches,
+fixed local baryonic source.
+WRRA transformation: included/external energy boundaries -> same expansion;
+zero-clustering local field -> rotation/lens -> independent analytic projection.
+Outputs:36 included cases conserve pre/postH/q; external supply changes readout.
+Zero-clustering rotation161.45051053125525 km/s,lens.2170452532181437 arcsec,
+analytic.2170452532181436 arcsec.7 added checks;15 total.
+Falsifiers: included mismatch,hidden supply,undeclared clustering assignment,
+removed baryonic source or analytic lens mismatch.
+Conclusion: actual boundary-dependent macro connection without per-output fit.
+Fixed pressureless supplier/record has no new clustering assignment in this branch;
+not a claim that all supplier energy is gravitationally irrelevant. Homogeneous
+reference-volume probe is not an observed global change from a laboratory write.
+Zero cosmic density givesH=0/q=None; separate local source is retained.
+Remaining fixed scope: shared-state final review and Step6 decision.

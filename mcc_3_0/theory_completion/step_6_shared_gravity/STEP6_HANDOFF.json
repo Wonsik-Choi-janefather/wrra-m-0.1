@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "version": "0.3",
+  "checks": {
+    "all_prior15_checks_pass": true,
+    "all36_record_boundaries_match_shared_local_state": true,
+    "external_before_matches_shared_expansion": true,
+    "positive_state_outputs_finite": true,
+    "zero_clustering_independent_analytic_boundary_retained": true
+  },
+  "total_checks": 20,
+  "cases_shared_state": 12,
+  "cases_record_boundary": 36,
+  "completion_scope": "same frozen sector density/pressure and local clustering response feed rotation, conditional lens and homogeneous expansion; explicit record supplier boundaries and zero clustering tested",
+  "constitutive_inputs": [
+    "local baryonic source",
+    "shared nu response law",
+    "finite lens patch and Phi=Psi",
+    "positive SI load calibration",
+    "homogeneous expansion/volume laws"
+  ],
+  "falsifiers": [
+    "shared-state mismatch",
+    "output-specific refit",
+    "pressure/energy boundary mismatch",
+    "independent lens integral failure"
+  ],
+  "scope_limits": [
+    "no new observational dataset fit",
+    "no complete4D covariant dynamics derivation",
+    "finite supplier homogeneous embedding is a ledger probe"
+  ],
+  "result_sha256": {
+    "shared_gravity_results.json": "56f62a1333e31c72340fb94df66b847522fc6bdf3be364ef91844e98a538a9bd",
+    "macro_boundary_results.json": "077831c79a8f7f556c9e684a793ac61f1476da1904bf64d77b1ac6be3fba0afa"
+  }
+}

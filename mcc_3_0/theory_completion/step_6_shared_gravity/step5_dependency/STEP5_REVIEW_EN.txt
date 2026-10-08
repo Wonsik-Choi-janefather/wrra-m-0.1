@@ -1,0 +1,21 @@
+WRRA theory improvement Step5 reviewed v0.3
+Verified inputs: frozen address effects, positive response,128-site carrier,
+I/Kc/2/Kb/2 loads, SI calibration, exponents0/0/3 and Step4 record contracts.
+WRRA transformation: conditional rho_n -> L_s=sum w e g Tr(rho_n A_s) ->
+E_s=eta_s V0 a^n_s L_s -> same-energy pressure; nested record and supplier.
+Outputs:23 checks pass;12 load cases x3 record alternatives=36 combined cases
+conserve included energy and preserve same-energy pressure. Uniform reference,
+correlation retention, basis covariance, fixed-volume generator conservation,
+zero-support calibration rejection and small positive loads verified.
+Falsifiers: positivity/reference/pressure/conservation failure, discarded
+correlations, double-counted energy, ignored supplier shortage or hidden refits.
+Conclusion: scoped constitutive state-to-load and record boundary review complete.
+Joint internal branch remains rejected at original20% supplier; disclosed adequate
+alternatives conserve the included boundary. Calibration remains legitimate and
+reference reproduction is explanatory success. Operators/responses/exponents are
+constitutive specifications and SI coefficients are calibrated verified inputs.
+No unique universal load map, natural supplier origin or4D dynamics is derived.
+Next fixed Step6: multiple observables from the same gravity state. Full theory
+completion is reserved for the final overall reassessment.
+
+Re-review: added startup SHA256 verification of frozen Step4 dependencies; all three paths rerun;23 checks pass.

@@ -1,0 +1,887 @@
+{
+  "status": "PASS",
+  "version": "0.2",
+  "checks": {
+    "all36_included_boundary_expansion_outputs_conserved": true,
+    "external_boundary_supply_changes_expansion": true,
+    "local_state_unchanged_without_new_clustering_assignment": true,
+    "zero_clustering_keeps_direct_baryonic_rotation": true,
+    "zero_clustering_lens_matches_analytic_baryonic_integral": true,
+    "zero_clustering_baryonic_lensing_nonzero": true,
+    "zero_total_cosmic_density_returns_undefined_q": true
+  },
+  "cases": [
+    {
+      "state": "product",
+      "epsilon": 0.0,
+      "a": 0.5,
+      "branch": "baseline_record",
+      "included_before": {
+        "H_over_H0": 1.810769008352484,
+        "q": 0.18631381283465026
+      },
+      "included_after": {
+        "H_over_H0": 1.810769008352484,
+        "q": 0.18631381283465026
+      },
+      "external_before": {
+        "H_over_H0": 1.7888556122867603,
+        "q": 0.17858145895690108
+      },
+      "external_after": {
+        "H_over_H0": 1.8092350737536178,
+        "q": 0.18578167847464472
+      },
+      "shared_local_aT_before_after_m_s2": 3.370884180737893e-10,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "product",
+      "epsilon": 0.0,
+      "a": 0.5,
+      "branch": "principal_magnetic",
+      "included_before": {
+        "H_over_H0": 1.810769008352484,
+        "q": 0.18631381283465026
+      },
+      "included_after": {
+        "H_over_H0": 1.810769008352484,
+        "q": 0.18631381283465026
+      },
+      "external_before": {
+        "H_over_H0": 1.7888556122867603,
+        "q": 0.17858145895690108
+      },
+      "external_after": {
+        "H_over_H0": 1.8063094220341631,
+        "q": 0.18476298495056376
+      },
+      "shared_local_aT_before_after_m_s2": 3.370884180737893e-10,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "product",
+      "epsilon": 0.0,
+      "a": 0.5,
+      "branch": "joint_calibrated",
+      "included_before": {
+        "H_over_H0": 1.8236045032898371,
+        "q": 0.1907140517921359
+      },
+      "included_after": {
+        "H_over_H0": 1.8236045032898374,
+        "q": 0.19071405179213596
+      },
+      "external_before": {
+        "H_over_H0": 1.7888556122867603,
+        "q": 0.17858145895690108
+      },
+      "external_after": {
+        "H_over_H0": 1.82360330108044,
+        "q": 0.19071364399884488
+      },
+      "shared_local_aT_before_after_m_s2": 3.370884180737893e-10,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "product",
+      "epsilon": 0.0,
+      "a": 1.0,
+      "branch": "baseline_record",
+      "included_before": {
+        "H_over_H0": 1.0049092755523283,
+        "q": -0.5185158489464725
+      },
+      "included_after": {
+        "H_over_H0": 1.0049092755523283,
+        "q": -0.5185158489464725
+      },
+      "external_before": {
+        "H_over_H0": 0.9999913260079337,
+        "q": -0.5285585894376317
+      },
+      "external_after": {
+        "H_over_H0": 1.0045638585487773,
+        "q": -0.5192163980944753
+      },
+      "shared_local_aT_before_after_m_s2": 1.1917875313971119e-10,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "product",
+      "epsilon": 0.0,
+      "a": 1.0,
+      "branch": "principal_magnetic",
+      "included_before": {
+        "H_over_H0": 1.0049092755523283,
+        "q": -0.5185158489464725
+      },
+      "included_after": {
+        "H_over_H0": 1.0049092755523283,
+        "q": -0.5185158489464725
+      },
+      "external_before": {
+        "H_over_H0": 0.9999913260079337,
+        "q": -0.5285585894376317
+      },
+      "external_after": {
+        "H_over_H0": 1.0039055323615114,
+        "q": -0.5205535694224757
+      },
+      "shared_local_aT_before_after_m_s2": 1.1917875313971119e-10,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "product",
+      "epsilon": 0.0,
+      "a": 1.0,
+      "branch": "joint_calibrated",
+      "included_before": {
+        "H_over_H0": 1.0078064173948522,
+        "q": -0.512668409357536
+      },
+      "included_after": {
+        "H_over_H0": 1.0078064173948522,
+        "q": -0.512668409357536
+      },
+      "external_before": {
+        "H_over_H0": 0.9999913260079337,
+        "q": -0.5285585894376317
+      },
+      "external_after": {
+        "H_over_H0": 1.0078061454733298,
+        "q": -0.5126689558244812
+      },
+      "shared_local_aT_before_after_m_s2": 1.1917875313971119e-10,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "product",
+      "epsilon": 0.0,
+      "a": 2.0,
+      "branch": "baseline_record",
+      "included_before": {
+        "H_over_H0": 0.8521809862941462,
+        "q": -0.9163083676214288
+      },
+      "included_after": {
+        "H_over_H0": 0.8521809862941462,
+        "q": -0.916308367621429
+      },
+      "external_before": {
+        "H_over_H0": 0.8514575347022679,
+        "q": -0.9187161584893828
+      },
+      "external_after": {
+        "H_over_H0": 0.8521300781733248,
+        "q": -0.9164775994161982
+      },
+      "shared_local_aT_before_after_m_s2": 4.213605225922366e-11,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "product",
+      "epsilon": 0.0,
+      "a": 2.0,
+      "branch": "principal_magnetic",
+      "included_before": {
+        "H_over_H0": 0.8521809862941462,
+        "q": -0.9163083676214288
+      },
+      "included_after": {
+        "H_over_H0": 0.8521809862941462,
+        "q": -0.9163083676214288
+      },
+      "external_before": {
+        "H_over_H0": 0.8514575347022679,
+        "q": -0.9187161584893828
+      },
+      "external_after": {
+        "H_over_H0": 0.852033093035788,
+        "q": -0.9168000871097006
+      },
+      "shared_local_aT_before_after_m_s2": 4.213605225922366e-11,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "product",
+      "epsilon": 0.0,
+      "a": 2.0,
+      "branch": "joint_calibrated",
+      "included_before": {
+        "H_over_H0": 0.8526085407487168,
+        "q": -0.914888261930503
+      },
+      "included_after": {
+        "H_over_H0": 0.8526085407487168,
+        "q": -0.914888261930503
+      },
+      "external_before": {
+        "H_over_H0": 0.8514575347022679,
+        "q": -0.9187161584893828
+      },
+      "external_after": {
+        "H_over_H0": 0.8526085005713946,
+        "q": -0.9148883952775737
+      },
+      "shared_local_aT_before_after_m_s2": 4.213605225922366e-11,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "correlated",
+      "epsilon": 0.0,
+      "a": 0.5,
+      "branch": "baseline_record",
+      "included_before": {
+        "H_over_H0": 1.6582195426103257,
+        "q": 0.18915035192496255
+      },
+      "included_after": {
+        "H_over_H0": 1.6582195426103257,
+        "q": 0.18915035192496255
+      },
+      "external_before": {
+        "H_over_H0": 1.634261928668351,
+        "q": 0.17996969084982806
+      },
+      "external_after": {
+        "H_over_H0": 1.6565443555743438,
+        "q": 0.18852133816552297
+      },
+      "shared_local_aT_before_after_m_s2": 3.0244680659546696e-10,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "correlated",
+      "epsilon": 0.0,
+      "a": 0.5,
+      "branch": "principal_magnetic",
+      "included_before": {
+        "H_over_H0": 1.6582195426103257,
+        "q": 0.18915035192496255
+      },
+      "included_after": {
+        "H_over_H0": 1.6582195426103257,
+        "q": 0.18915035192496255
+      },
+      "external_before": {
+        "H_over_H0": 1.634261928668351,
+        "q": 0.17996969084982806
+      },
+      "external_after": {
+        "H_over_H0": 1.6533485349478951,
+        "q": 0.18731603636324207
+      },
+      "shared_local_aT_before_after_m_s2": 3.0244680659546696e-10,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "correlated",
+      "epsilon": 0.0,
+      "a": 0.5,
+      "branch": "joint_calibrated",
+      "included_before": {
+        "H_over_H0": 1.6722263705323905,
+        "q": 0.19433599262879314
+      },
+      "included_after": {
+        "H_over_H0": 1.6722263705323908,
+        "q": 0.1943359926287932
+      },
+      "external_before": {
+        "H_over_H0": 1.634261928668351,
+        "q": 0.17996969084982806
+      },
+      "external_after": {
+        "H_over_H0": 1.6722250594930208,
+        "q": 0.19433551334198607
+      },
+      "shared_local_aT_before_after_m_s2": 3.0244680659546696e-10,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "correlated",
+      "epsilon": 0.0,
+      "a": 1.0,
+      "branch": "baseline_record",
+      "included_before": {
+        "H_over_H0": 0.91777465112155,
+        "q": -0.5147576209497444
+      },
+      "included_after": {
+        "H_over_H0": 0.91777465112155,
+        "q": -0.5147576209497444
+      },
+      "external_before": {
+        "H_over_H0": 0.9123871493183598,
+        "q": -0.526776969155242
+      },
+      "external_after": {
+        "H_over_H0": 0.9173964268802148,
+        "q": -0.5155945220708702
+      },
+      "shared_local_aT_before_after_m_s2": 1.0693109394593546e-10,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "correlated",
+      "epsilon": 0.0,
+      "a": 1.0,
+      "branch": "principal_magnetic",
+      "included_before": {
+        "H_over_H0": 0.91777465112155,
+        "q": -0.5147576209497444
+      },
+      "included_after": {
+        "H_over_H0": 0.91777465112155,
+        "q": -0.5147576209497444
+      },
+      "external_before": {
+        "H_over_H0": 0.9123871493183598,
+        "q": -0.526776969155242
+      },
+      "external_after": {
+        "H_over_H0": 0.9166755020486951,
+        "q": -0.5171925907805051
+      },
+      "shared_local_aT_before_after_m_s2": 1.0693109394593546e-10,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "correlated",
+      "epsilon": 0.0,
+      "a": 1.0,
+      "branch": "joint_calibrated",
+      "included_before": {
+        "H_over_H0": 0.9209459447179431,
+        "q": -0.5077809822418398
+      },
+      "included_after": {
+        "H_over_H0": 0.9209459447179431,
+        "q": -0.5077809822418398
+      },
+      "external_before": {
+        "H_over_H0": 0.9123871493183598,
+        "q": -0.526776969155242
+      },
+      "external_after": {
+        "H_over_H0": 0.9209456471497044,
+        "q": -0.5077816334934337
+      },
+      "shared_local_aT_before_after_m_s2": 1.0693109394593546e-10,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "correlated",
+      "epsilon": 0.0,
+      "a": 2.0,
+      "branch": "baseline_record",
+      "included_before": {
+        "H_over_H0": 0.7771020477289926,
+        "q": -0.9153971981170521
+      },
+      "included_after": {
+        "H_over_H0": 0.7771020477289926,
+        "q": -0.9153971981170521
+      },
+      "external_before": {
+        "H_over_H0": 0.7763086323007065,
+        "q": -0.918291850577712
+      },
+      "external_after": {
+        "H_over_H0": 0.7770462208331023,
+        "q": -0.9156005838833068
+      },
+      "shared_local_aT_before_after_m_s2": 3.780585082443337e-11,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "correlated",
+      "epsilon": 0.0,
+      "a": 2.0,
+      "branch": "principal_magnetic",
+      "included_before": {
+        "H_over_H0": 0.7771020477289926,
+        "q": -0.9153971981170521
+      },
+      "included_after": {
+        "H_over_H0": 0.7771020477289926,
+        "q": -0.9153971981170521
+      },
+      "external_before": {
+        "H_over_H0": 0.7763086323007065,
+        "q": -0.918291850577712
+      },
+      "external_after": {
+        "H_over_H0": 0.776939863059852,
+        "q": -0.9159881825596017
+      },
+      "shared_local_aT_before_after_m_s2": 3.780585082443337e-11,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "correlated",
+      "epsilon": 0.0,
+      "a": 2.0,
+      "branch": "joint_calibrated",
+      "included_before": {
+        "H_over_H0": 0.7775708861197069,
+        "q": -0.9136908778342263
+      },
+      "included_after": {
+        "H_over_H0": 0.7775708861197069,
+        "q": -0.9136908778342263
+      },
+      "external_before": {
+        "H_over_H0": 0.7763086323007065,
+        "q": -0.918291850577712
+      },
+      "external_after": {
+        "H_over_H0": 0.7775708420651662,
+        "q": -0.913691038024143
+      },
+      "shared_local_aT_before_after_m_s2": 3.780585082443337e-11,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "product",
+      "epsilon": 8.0,
+      "a": 0.5,
+      "branch": "baseline_record",
+      "included_before": {
+        "H_over_H0": 1.810769008352484,
+        "q": 0.18631381283465015
+      },
+      "included_after": {
+        "H_over_H0": 1.810769008352484,
+        "q": 0.18631381283465015
+      },
+      "external_before": {
+        "H_over_H0": 1.7888556122867603,
+        "q": 0.17858145895690097
+      },
+      "external_after": {
+        "H_over_H0": 1.809235073753618,
+        "q": 0.1857816784746446
+      },
+      "shared_local_aT_before_after_m_s2": 3.370884180737893e-10,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "product",
+      "epsilon": 8.0,
+      "a": 0.5,
+      "branch": "principal_magnetic",
+      "included_before": {
+        "H_over_H0": 1.810769008352484,
+        "q": 0.18631381283465015
+      },
+      "included_after": {
+        "H_over_H0": 1.810769008352484,
+        "q": 0.18631381283465015
+      },
+      "external_before": {
+        "H_over_H0": 1.7888556122867603,
+        "q": 0.17858145895690097
+      },
+      "external_after": {
+        "H_over_H0": 1.8063094220341633,
+        "q": 0.18476298495056365
+      },
+      "shared_local_aT_before_after_m_s2": 3.370884180737893e-10,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "product",
+      "epsilon": 8.0,
+      "a": 0.5,
+      "branch": "joint_calibrated",
+      "included_before": {
+        "H_over_H0": 1.8236045032898374,
+        "q": 0.1907140517921358
+      },
+      "included_after": {
+        "H_over_H0": 1.8236045032898374,
+        "q": 0.19071405179213585
+      },
+      "external_before": {
+        "H_over_H0": 1.7888556122867603,
+        "q": 0.17858145895690097
+      },
+      "external_after": {
+        "H_over_H0": 1.8236033010804402,
+        "q": 0.19071364399884472
+      },
+      "shared_local_aT_before_after_m_s2": 3.370884180737893e-10,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "product",
+      "epsilon": 8.0,
+      "a": 1.0,
+      "branch": "baseline_record",
+      "included_before": {
+        "H_over_H0": 1.0049092755523286,
+        "q": -0.5185158489464725
+      },
+      "included_after": {
+        "H_over_H0": 1.0049092755523286,
+        "q": -0.5185158489464725
+      },
+      "external_before": {
+        "H_over_H0": 0.999991326007934,
+        "q": -0.5285585894376317
+      },
+      "external_after": {
+        "H_over_H0": 1.0045638585487777,
+        "q": -0.5192163980944753
+      },
+      "shared_local_aT_before_after_m_s2": 1.1917875313971119e-10,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "product",
+      "epsilon": 8.0,
+      "a": 1.0,
+      "branch": "principal_magnetic",
+      "included_before": {
+        "H_over_H0": 1.0049092755523286,
+        "q": -0.5185158489464725
+      },
+      "included_after": {
+        "H_over_H0": 1.0049092755523286,
+        "q": -0.5185158489464725
+      },
+      "external_before": {
+        "H_over_H0": 0.999991326007934,
+        "q": -0.5285585894376317
+      },
+      "external_after": {
+        "H_over_H0": 1.0039055323615116,
+        "q": -0.5205535694224757
+      },
+      "shared_local_aT_before_after_m_s2": 1.1917875313971119e-10,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "product",
+      "epsilon": 8.0,
+      "a": 1.0,
+      "branch": "joint_calibrated",
+      "included_before": {
+        "H_over_H0": 1.0078064173948524,
+        "q": -0.512668409357536
+      },
+      "included_after": {
+        "H_over_H0": 1.0078064173948524,
+        "q": -0.512668409357536
+      },
+      "external_before": {
+        "H_over_H0": 0.999991326007934,
+        "q": -0.5285585894376317
+      },
+      "external_after": {
+        "H_over_H0": 1.00780614547333,
+        "q": -0.5126689558244812
+      },
+      "shared_local_aT_before_after_m_s2": 1.1917875313971119e-10,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "product",
+      "epsilon": 8.0,
+      "a": 2.0,
+      "branch": "baseline_record",
+      "included_before": {
+        "H_over_H0": 0.8521809862941464,
+        "q": -0.9163083676214288
+      },
+      "included_after": {
+        "H_over_H0": 0.8521809862941464,
+        "q": -0.916308367621429
+      },
+      "external_before": {
+        "H_over_H0": 0.8514575347022681,
+        "q": -0.9187161584893828
+      },
+      "external_after": {
+        "H_over_H0": 0.852130078173325,
+        "q": -0.9164775994161982
+      },
+      "shared_local_aT_before_after_m_s2": 4.213605225922366e-11,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "product",
+      "epsilon": 8.0,
+      "a": 2.0,
+      "branch": "principal_magnetic",
+      "included_before": {
+        "H_over_H0": 0.8521809862941464,
+        "q": -0.9163083676214288
+      },
+      "included_after": {
+        "H_over_H0": 0.8521809862941464,
+        "q": -0.9163083676214288
+      },
+      "external_before": {
+        "H_over_H0": 0.8514575347022681,
+        "q": -0.9187161584893828
+      },
+      "external_after": {
+        "H_over_H0": 0.8520330930357882,
+        "q": -0.9168000871097006
+      },
+      "shared_local_aT_before_after_m_s2": 4.213605225922366e-11,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "product",
+      "epsilon": 8.0,
+      "a": 2.0,
+      "branch": "joint_calibrated",
+      "included_before": {
+        "H_over_H0": 0.8526085407487172,
+        "q": -0.9148882619305028
+      },
+      "included_after": {
+        "H_over_H0": 0.8526085407487172,
+        "q": -0.9148882619305028
+      },
+      "external_before": {
+        "H_over_H0": 0.8514575347022681,
+        "q": -0.9187161584893828
+      },
+      "external_after": {
+        "H_over_H0": 0.8526085005713949,
+        "q": -0.9148883952775737
+      },
+      "shared_local_aT_before_after_m_s2": 4.213605225922366e-11,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "correlated",
+      "epsilon": 8.0,
+      "a": 0.5,
+      "branch": "baseline_record",
+      "included_before": {
+        "H_over_H0": 1.6624274377592434,
+        "q": 0.183138074804075
+      },
+      "included_after": {
+        "H_over_H0": 1.6624274377592434,
+        "q": 0.183138074804075
+      },
+      "external_before": {
+        "H_over_H0": 1.6385313502691259,
+        "q": 0.17382855140033432
+      },
+      "external_after": {
+        "H_over_H0": 1.6607564951868121,
+        "q": 0.18250014331362968
+      },
+      "shared_local_aT_before_after_m_s2": 3.0244680659546696e-10,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "correlated",
+      "epsilon": 8.0,
+      "a": 0.5,
+      "branch": "principal_magnetic",
+      "included_before": {
+        "H_over_H0": 1.6624274377592434,
+        "q": 0.183138074804075
+      },
+      "included_after": {
+        "H_over_H0": 1.6624274377592434,
+        "q": 0.183138074804075
+      },
+      "external_before": {
+        "H_over_H0": 1.6385313502691259,
+        "q": 0.17382855140033432
+      },
+      "external_after": {
+        "H_over_H0": 1.6575687956565535,
+        "q": 0.18127779002773003
+      },
+      "shared_local_aT_before_after_m_s2": 3.0244680659546696e-10,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "correlated",
+      "epsilon": 8.0,
+      "a": 0.5,
+      "branch": "joint_calibrated",
+      "included_before": {
+        "H_over_H0": 1.6763991077973939,
+        "q": 0.18839773143545557
+      },
+      "included_after": {
+        "H_over_H0": 1.676399107797394,
+        "q": 0.18839773143545563
+      },
+      "external_before": {
+        "H_over_H0": 1.6385313502691259,
+        "q": 0.17382855140033432
+      },
+      "external_after": {
+        "H_over_H0": 1.6763978000213442,
+        "q": 0.18839724526666818
+      },
+      "shared_local_aT_before_after_m_s2": 3.0244680659546696e-10,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "correlated",
+      "epsilon": 8.0,
+      "a": 1.0,
+      "branch": "baseline_record",
+      "included_before": {
+        "H_over_H0": 0.9253557394652334,
+        "q": -0.5226758652162284
+      },
+      "included_after": {
+        "H_over_H0": 0.9253557394652334,
+        "q": -0.5226758652162284
+      },
+      "external_before": {
+        "H_over_H0": 0.9200126328269895,
+        "q": -0.534589035247681
+      },
+      "external_after": {
+        "H_over_H0": 0.9249806151333937,
+        "q": -0.5235055223673564
+      },
+      "shared_local_aT_before_after_m_s2": 1.0693109394593546e-10,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "correlated",
+      "epsilon": 8.0,
+      "a": 1.0,
+      "branch": "principal_magnetic",
+      "included_before": {
+        "H_over_H0": 0.9253557394652334,
+        "q": -0.5226758652162284
+      },
+      "included_after": {
+        "H_over_H0": 0.9253557394652334,
+        "q": -0.5226758652162284
+      },
+      "external_before": {
+        "H_over_H0": 0.9200126328269895,
+        "q": -0.534589035247681
+      },
+      "external_after": {
+        "H_over_H0": 0.9242656059684322,
+        "q": -0.5250896966338108
+      },
+      "shared_local_aT_before_after_m_s2": 1.0693109394593546e-10,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "correlated",
+      "epsilon": 8.0,
+      "a": 1.0,
+      "branch": "joint_calibrated",
+      "included_before": {
+        "H_over_H0": 0.9285011402321436,
+        "q": -0.5157587451305576
+      },
+      "included_after": {
+        "H_over_H0": 0.9285011402321436,
+        "q": -0.5157587451305576
+      },
+      "external_before": {
+        "H_over_H0": 0.9200126328269895,
+        "q": -0.534589035247681
+      },
+      "external_after": {
+        "H_over_H0": 0.9285008450852125,
+        "q": -0.5157593908986806
+      },
+      "shared_local_aT_before_after_m_s2": 1.0693109394593546e-10,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "correlated",
+      "epsilon": 8.0,
+      "a": 2.0,
+      "branch": "baseline_record",
+      "included_before": {
+        "H_over_H0": 0.7860410465774416,
+        "q": -0.9173104930153648
+      },
+      "included_after": {
+        "H_over_H0": 0.7860410465774416,
+        "q": -0.9173104930153653
+      },
+      "external_before": {
+        "H_over_H0": 0.7852566630755575,
+        "q": -0.9201433762227833
+      },
+      "external_after": {
+        "H_over_H0": 0.7859858545997965,
+        "q": -0.9175095472732551
+      },
+      "shared_local_aT_before_after_m_s2": 3.780585082443337e-11,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "correlated",
+      "epsilon": 8.0,
+      "a": 2.0,
+      "branch": "principal_magnetic",
+      "included_before": {
+        "H_over_H0": 0.7860410465774416,
+        "q": -0.9173104930153648
+      },
+      "included_after": {
+        "H_over_H0": 0.7860410465774416,
+        "q": -0.9173104930153648
+      },
+      "external_before": {
+        "H_over_H0": 0.7852566630755575,
+        "q": -0.9201433762227833
+      },
+      "external_after": {
+        "H_over_H0": 0.7858807066797274,
+        "q": -0.9178888876753122
+      },
+      "shared_local_aT_before_after_m_s2": 3.780585082443337e-11,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    },
+    {
+      "state": "correlated",
+      "epsilon": 8.0,
+      "a": 2.0,
+      "branch": "joint_calibrated",
+      "included_before": {
+        "H_over_H0": 0.7865045564146164,
+        "q": -0.9156404612923081
+      },
+      "included_after": {
+        "H_over_H0": 0.7865045564146164,
+        "q": -0.9156404612923081
+      },
+      "external_before": {
+        "H_over_H0": 0.7852566630755575,
+        "q": -0.9201433762227833
+      },
+      "external_after": {
+        "H_over_H0": 0.786504512860478,
+        "q": -0.9156406180797168
+      },
+      "shared_local_aT_before_after_m_s2": 3.780585082443337e-11,
+      "local_policy": "supplier/record pressureless and no new clustering assignment in this frozen branch"
+    }
+  ],
+  "zero_clustering": {
+    "rotation_km_s": 161.45051053125525,
+    "lensing_arcsec": 0.2170452532181437,
+    "analytic_lensing_arcsec": 0.2170452532181436
+  },
+  "scope": "same finite homogeneous effective density/pressure boundary and frozen conditional local renderer",
+  "caution": "embedding a finite laboratory supplier in the homogeneous reference volume is a model ledger probe, not a measured global cosmic change",
+  "remaining": "shared-state final review; no new observational refit"
+}

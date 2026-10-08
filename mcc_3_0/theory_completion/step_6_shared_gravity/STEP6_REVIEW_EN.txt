@@ -1,0 +1,22 @@
+WRRA Step6 reviewed v0.3
+Verified inputs: frozen Step5 density/pressure, local baryonic source, SI/load
+calibration, shared nu, finite lens patch/Phi=Psi, record/supplier contracts.
+WRRA transformation: shared clustering density -> aT -> rotation/lens;
+same total density/pressure -> H/q; independent quadratures/analytic boundary;
+included versus external energy accounting.
+Outputs:20 checks pass;12 shared states and36 record boundaries. Reference
+rotation207.51024186591528 km/s,lens.5355822400088303 arcsec,q=-.5285585894376318.
+All boundaries match the shared aT and pre-write external H/q; included H/q
+conserved. Zero clustering retains disclosed baryonic rotation/lensing, with
+analytic projection agreement. Zero cosmic density yields H=0/q=None.
+Falsifiers: fixed-input mismatch, independent integral failure, output-specific
+refits, undeclared sources or energy boundary failure.
+Conclusion: scoped same-state rotation/conditional lens/homogeneous expansion
+connection review complete. Known-value reproduction is explanatory success.
+No new observational dataset fit, all-galaxy source prediction, natural supplier
+creation or complete4D dynamics is claimed. No new local source is assigned to
+supplier/record in the frozen branch; not universal gravitational irrelevance.
+Remaining closure is overall assessment of Steps1..6 against the existing goals,
+not a growing set of mandatory new research tasks. Full theory not yet declared.
+
+Pre-publication review: all3 paths rerun;20checks/12states/36boundaries match. Independent integral errors recorded in REREVIEW.json.

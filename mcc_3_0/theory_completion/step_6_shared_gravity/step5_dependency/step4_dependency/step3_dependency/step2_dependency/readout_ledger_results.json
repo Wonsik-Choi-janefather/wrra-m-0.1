@@ -1,0 +1,112 @@
+{
+  "status": "PASS",
+  "version": "0.2",
+  "date": "2026-10-08",
+  "fixed_alpha": 1.8996877935161325,
+  "fixed_h": 1.4476744689338703,
+  "shares": [
+    0.050000000000000176,
+    0.26800000000000074,
+    0.6820000000000006
+  ],
+  "ledger_contributions": {
+    "prime_to_return": 0.6742270361220081,
+    "minimum_atom_composite_to_dark": 0.26799999999999996,
+    "eligible_to_phenotype": 0.05000000000000003,
+    "eligible_to_return": 0.007772963877991983
+  },
+  "frame_transfer_ledger": [
+    {
+      "frame": 0,
+      "weighted_phenotype_transfer": 0.015017942369452288,
+      "eligible_remaining_weight": 0.04275502150853978
+    },
+    {
+      "frame": 1,
+      "weighted_phenotype_transfer": 0.010121037127349311,
+      "eligible_remaining_weight": 0.03263398438119045
+    },
+    {
+      "frame": 2,
+      "weighted_phenotype_transfer": 0.0053089649857285225,
+      "eligible_remaining_weight": 0.02732501939546193
+    },
+    {
+      "frame": 3,
+      "weighted_phenotype_transfer": 0.006599993045875665,
+      "eligible_remaining_weight": 0.020725026349586232
+    },
+    {
+      "frame": 4,
+      "weighted_phenotype_transfer": 0.003452309623517743,
+      "eligible_remaining_weight": 0.01727271672606849
+    },
+    {
+      "frame": 5,
+      "weighted_phenotype_transfer": 0.005806231843090088,
+      "eligible_remaining_weight": 0.01146648488297843
+    },
+    {
+      "frame": 6,
+      "weighted_phenotype_transfer": 0.002228547197357181,
+      "eligible_remaining_weight": 0.009237937685621256
+    },
+    {
+      "frame": 7,
+      "weighted_phenotype_transfer": 0.0014649738076292732,
+      "eligible_remaining_weight": 0.007772963877991983
+    }
+  ],
+  "derivatives": {
+    "dshares_dalpha": [
+      -0.08547042692579551,
+      -0.18574732479341602,
+      0.2712177517192118
+    ],
+    "dshares_dh": [
+      -0.013071465230243265,
+      0.0,
+      0.013071465230243265
+    ],
+    "finite_difference_alpha": [
+      -0.08547042692902405,
+      -0.18574732478515707,
+      0.2712177517183445
+    ],
+    "finite_difference_h": [
+      -0.013071465222377896,
+      0.0,
+      0.013071465232439293
+    ],
+    "two_target_jacobian": [
+      [
+        -0.08547042692579551,
+        -0.013071465230243265
+      ],
+      [
+        -0.18574732479341602,
+        0.0
+      ]
+    ],
+    "determinant": -0.002427989697647838
+  },
+  "phase_reference_max_drive_error": 9.54236689665322e-14,
+  "checks": {
+    "frame_transfers_reconstruct_admission": true,
+    "every_eligible_address_conserves_ledger": true,
+    "all_addresses_have_exactly_one_structural_class": true,
+    "sector_ledger_reproduces_frozen_shares": true,
+    "total_normalized_weight_conserved": true,
+    "alpha_derivative_matches_finite_difference": true,
+    "h_derivative_matches_finite_difference": true,
+    "h_preserves_dark_share": true,
+    "calibration_derivatives_conserve_total": true,
+    "two_target_local_calibration_has_full_rank": true,
+    "transported_phase_reference_preserves_drive": true
+  },
+  "interpretation_limits": [
+    "frame transfers are an exact algebraic ledger, not a demonstrated stochastic independence law",
+    "nonzero calibration Jacobian establishes only local invertibility for the fixed readout family",
+    "sector assignments and log prime costs remain declared constitutive choices"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "version": "0.2",
+  "real_state_dimension": 8,
+  "minimum_pairwise_pole_separation": 0.19788577771181176,
+  "probes": [
+    {
+      "address": 9,
+      "hankel_rank": 8,
+      "singular_values": [
+        3.744724732108396,
+        3.0180132327257896,
+        2.7221805222477657,
+        2.219567923735118,
+        1.9932145196759232,
+        0.4332707149044698,
+        0.02511597448580366,
+        1.941463531526418e-05
+      ],
+      "best_rank7_frobenius_residual_lower_bound": 1.941463531526418e-05,
+      "maximum_sequence_replay_error": 3.885780586188048e-15
+    },
+    {
+      "address": 15,
+      "hankel_rank": 8,
+      "singular_values": [
+        4.194877395113798,
+        3.2197682068709987,
+        3.0641356850931043,
+        2.1442375647086847,
+        1.9918633437159587,
+        0.6518554051185541,
+        0.016972022678876163,
+        1.47044864847995e-05
+      ],
+      "best_rank7_frobenius_residual_lower_bound": 1.47044864847995e-05,
+      "maximum_sequence_replay_error": 8.104628079763643e-15
+    },
+    {
+      "address": 105,
+      "hankel_rank": 8,
+      "singular_values": [
+        3.785543734273505,
+        2.3346407115131704,
+        2.2528005873557855,
+        2.0434029145057977,
+        1.0285104998067207,
+        0.5397392174909524,
+        0.06637726678052908,
+        1.9181470453734798e-05
+      ],
+      "best_rank7_frobenius_residual_lower_bound": 1.9181470453734798e-05,
+      "maximum_sequence_replay_error": 8.271161533457416e-15
+    },
+    {
+      "address": 1001,
+      "hankel_rank": 8,
+      "singular_values": [
+        3.319381480315266,
+        2.686254893259002,
+        2.4192879633727844,
+        1.7281260916342593,
+        1.6549061596423746,
+        0.3601723951006212,
+        0.03931242028699289,
+        3.291835254603407e-05
+      ],
+      "best_rank7_frobenius_residual_lower_bound": 3.291835254603407e-05,
+      "maximum_sequence_replay_error": 1.8041124150158794e-14
+    }
+  ],
+  "checks": {
+    "all_eight_complex_poles_distinct": true,
+    "all_spectral_amplitudes_nonzero": true,
+    "real_rotation_realizes_inherited_sequence": true,
+    "hankel_rank_lower_bound_matches_eight_real_states": true,
+    "rotation_preserves_state_norm": true
+  },
+  "theorem_scope": "Any real linear time-invariant realization of the same inherited phase sequence has dimension at least its Hankel rank8; the block rotation realizes dimension8. Distinct poles and nonzero amplitudes imply rank8 by Vandermonde factorization.",
+  "probe_scope": "16 synthetic continuation samples from the declared phase rule, not16 observed physical frames; the adopted admission boundary remains8",
+  "not_derived": [
+    "physical necessity of four selected spectral modes",
+    "unique frame boundary K8",
+    "minimum among nonlinear encodings or all physical structures",
+    "number of common-carrier channels"
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "status": "PASS",
+  "version": "0.1",
+  "checks": {
+    "frozen_step5_input_hashes_match": true,
+    "all12_states_use_shared_clustering_density": true,
+    "uniform_rotation_reproduces_existing_value": true,
+    "uniform_lensing_reproduces_existing_value": true,
+    "uniform_expansion_q_reproduces_existing_value": true,
+    "independent_lens_quadrature_reproduces_all_cases": true,
+    "expansion_q_uses_same_density_pressure": true,
+    "no_per_observable_calibration": true
+  },
+  "cases": [
+    {
+      "carrier_state": "product",
+      "epsilon": 0.0,
+      "a": 0.5,
+      "sector_density_J_m3": [
+        3.024632999628909e-10,
+        1.6257483440521197e-09,
+        5.258550172595951e-10
+      ],
+      "pressure_Pa": -5.258550172595951e-10,
+      "H_over_H0": 1.7888556122867603,
+      "q": 0.17858145895690106,
+      "aT_m_s2": 3.370884180737893e-10,
+      "rotation_km_s": 247.74822017931666,
+      "lensing_arcsec": 0.8146640474241865,
+      "independent_lensing_arcsec": 0.8146640474242061,
+      "lensing_quadrature_difference_arcsec": 1.9539925233402755e-14
+    },
+    {
+      "carrier_state": "product",
+      "epsilon": 0.0,
+      "a": 1.0,
+      "sector_density_J_m3": [
+        3.780791249536136e-11,
+        2.0321854300651497e-10,
+        5.258550172595951e-10
+      ],
+      "pressure_Pa": -5.258550172595951e-10,
+      "H_over_H0": 0.9999913260079337,
+      "q": -0.5285585894376318,
+      "aT_m_s2": 1.1917875313971119e-10,
+      "rotation_km_s": 207.51024186591528,
+      "lensing_arcsec": 0.5355822400088303,
+      "independent_lensing_arcsec": 0.5355822400088437,
+      "lensing_quadrature_difference_arcsec": 1.3433698597964394e-14
+    },
+    {
+      "carrier_state": "product",
+      "epsilon": 0.0,
+      "a": 2.0,
+      "sector_density_J_m3": [
+        4.72598906192017e-12,
+        2.540231787581437e-11,
+        5.258550172595951e-10
+      ],
+      "pressure_Pa": -5.258550172595951e-10,
+      "H_over_H0": 0.8514575347022679,
+      "q": -0.9187161584893827,
+      "aT_m_s2": 4.213605225922366e-11,
+      "rotation_km_s": 181.5744855460613,
+      "lensing_arcsec": 0.3743154242368779,
+      "independent_lensing_arcsec": 0.37431542423688813,
+      "lensing_quadrature_difference_arcsec": 1.021405182655144e-14
+    },
+    {
+      "carrier_state": "correlated",
+      "epsilon": 0.0,
+      "a": 0.5,
+      "sector_density_J_m3": [
+        3.0246329996289084e-10,
+        1.3087710054125769e-09,
+        4.369975066828206e-10
+      ],
+      "pressure_Pa": -4.369975066828206e-10,
+      "H_over_H0": 1.6342619286683508,
+      "q": 0.17996969084982806,
+      "aT_m_s2": 3.0244680659546696e-10,
+      "rotation_km_s": 242.80970576949258,
+      "lensing_arcsec": 0.7781169424530732,
+      "independent_lensing_arcsec": 0.7781169424530918,
+      "lensing_quadrature_difference_arcsec": 1.865174681370263e-14
+    },
+    {
+      "carrier_state": "correlated",
+      "epsilon": 0.0,
+      "a": 1.0,
+      "sector_density_J_m3": [
+        3.7807912495361355e-11,
+        1.635963756765721e-10,
+        4.369975066828206e-10
+      ],
+      "pressure_Pa": -4.369975066828206e-10,
+      "H_over_H0": 0.9123871493183598,
+      "q": -0.5267769691552419,
+      "aT_m_s2": 1.0693109394593546e-10,
+      "rotation_km_s": 204.17740666539754,
+      "lensing_arcsec": 0.5142425925665708,
+      "independent_lensing_arcsec": 0.5142425925665838,
+      "lensing_quadrature_difference_arcsec": 1.2989609388114332e-14
+    },
+    {
+      "carrier_state": "correlated",
+      "epsilon": 0.0,
+      "a": 2.0,
+      "sector_density_J_m3": [
+        4.7259890619201694e-12,
+        2.0449546959571513e-11,
+        4.369975066828206e-10
+      ],
+      "pressure_Pa": -4.369975066828206e-10,
+      "H_over_H0": 0.7763086323007065,
+      "q": -0.9182918505777119,
+      "aT_m_s2": 3.780585082443337e-11,
+      "rotation_km_s": 179.60117151669894,
+      "lensing_arcsec": 0.3622471702696808,
+      "independent_lensing_arcsec": 0.36224717026969067,
+      "lensing_quadrature_difference_arcsec": 9.880984919163893e-15
+    },
+    {
+      "carrier_state": "product",
+      "epsilon": 8.0,
+      "a": 0.5,
+      "sector_density_J_m3": [
+        3.024632999628909e-10,
+        1.6257483440521197e-09,
+        5.258550172595954e-10
+      ],
+      "pressure_Pa": -5.258550172595954e-10,
+      "H_over_H0": 1.7888556122867603,
+      "q": 0.17858145895690095,
+      "aT_m_s2": 3.370884180737893e-10,
+      "rotation_km_s": 247.74822017931666,
+      "lensing_arcsec": 0.8146640474241865,
+      "independent_lensing_arcsec": 0.8146640474242061,
+      "lensing_quadrature_difference_arcsec": 1.9539925233402755e-14
+    },
+    {
+      "carrier_state": "product",
+      "epsilon": 8.0,
+      "a": 1.0,
+      "sector_density_J_m3": [
+        3.780791249536136e-11,
+        2.0321854300651497e-10,
+        5.258550172595954e-10
+      ],
+      "pressure_Pa": -5.258550172595954e-10,
+      "H_over_H0": 0.999991326007934,
+      "q": -0.5285585894376318,
+      "aT_m_s2": 1.1917875313971119e-10,
+      "rotation_km_s": 207.51024186591528,
+      "lensing_arcsec": 0.5355822400088303,
+      "independent_lensing_arcsec": 0.5355822400088437,
+      "lensing_quadrature_difference_arcsec": 1.3433698597964394e-14
+    },
+    {
+      "carrier_state": "product",
+      "epsilon": 8.0,
+      "a": 2.0,
+      "sector_density_J_m3": [
+        4.72598906192017e-12,
+        2.540231787581437e-11,
+        5.258550172595954e-10
+      ],
+      "pressure_Pa": -5.258550172595954e-10,
+      "H_over_H0": 0.8514575347022681,
+      "q": -0.9187161584893827,
+      "aT_m_s2": 4.213605225922366e-11,
+      "rotation_km_s": 181.5744855460613,
+      "lensing_arcsec": 0.3743154242368779,
+      "independent_lensing_arcsec": 0.37431542423688813,
+      "lensing_quadrature_difference_arcsec": 1.021405182655144e-14
+    },
+    {
+      "carrier_state": "correlated",
+      "epsilon": 8.0,
+      "a": 0.5,
+      "sector_density_J_m3": [
+        3.0246329996289084e-10,
+        1.3087710054125769e-09,
+        4.477132770291233e-10
+      ],
+      "pressure_Pa": -4.477132770291233e-10,
+      "H_over_H0": 1.6385313502691259,
+      "q": 0.17382855140033435,
+      "aT_m_s2": 3.0244680659546696e-10,
+      "rotation_km_s": 242.80970576949258,
+      "lensing_arcsec": 0.7781169424530732,
+      "independent_lensing_arcsec": 0.7781169424530918,
+      "lensing_quadrature_difference_arcsec": 1.865174681370263e-14
+    },
+    {
+      "carrier_state": "correlated",
+      "epsilon": 8.0,
+      "a": 1.0,
+      "sector_density_J_m3": [
+        3.7807912495361355e-11,
+        1.635963756765721e-10,
+        4.477132770291233e-10
+      ],
+      "pressure_Pa": -4.477132770291233e-10,
+      "H_over_H0": 0.9200126328269895,
+      "q": -0.534589035247681,
+      "aT_m_s2": 1.0693109394593546e-10,
+      "rotation_km_s": 204.17740666539754,
+      "lensing_arcsec": 0.5142425925665708,
+      "independent_lensing_arcsec": 0.5142425925665838,
+      "lensing_quadrature_difference_arcsec": 1.2989609388114332e-14
+    },
+    {
+      "carrier_state": "correlated",
+      "epsilon": 8.0,
+      "a": 2.0,
+      "sector_density_J_m3": [
+        4.7259890619201694e-12,
+        2.0449546959571513e-11,
+        4.477132770291233e-10
+      ],
+      "pressure_Pa": -4.477132770291233e-10,
+      "H_over_H0": 0.7852566630755575,
+      "q": -0.9201433762227833,
+      "aT_m_s2": 3.780585082443337e-11,
+      "rotation_km_s": 179.60117151669894,
+      "lensing_arcsec": 0.3622471702696808,
+      "independent_lensing_arcsec": 0.36224717026969067,
+      "lensing_quadrature_difference_arcsec": 9.880984919163893e-15
+    }
+  ],
+  "scope": "shared frozen constitutive local renderer and homogeneous expansion; conditional weak-field lens uses Phi=Psi and fixed finite patch",
+  "inputs": "same sector density/pressure from Step5; frozen baryonic source and constants; no new fit",
+  "falsifiers": [
+    "uniform reference mismatch",
+    "independent quadrature mismatch",
+    "different aT fitted for rotation/lensing",
+    "density/pressure changed separately for expansion"
+  ],
+  "remaining": [
+    "joint record/supplier boundary in macro readout",
+    "zero clustering/local baryonic boundary and shared-state final review"
+  ],
+  "not_claimed": [
+    "new observational dataset fit",
+    "covariant4D gravity derived",
+    "all galaxy source profiles predicted"
+  ]
+}

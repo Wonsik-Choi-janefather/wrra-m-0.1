@@ -1,0 +1,11 @@
+WRRA Step6 v0.1
+Verified inputs: frozen Step5 twelve density/pressure cases, local source and
+constants; dependency SHA256 verified.
+WRRA transformation: one clustering density -> shared aT -> rotation/lens;
+same total density/pressure -> expansion H/q; independent Gauss lens quadrature.
+Outputs:8 checks; rotation207.51024186591528 km/s,lens.5355822400088303 arcsec,
+q=-.5285585894376318 reproduced. Reference quadrature difference1.34337e-14 arcsec.
+Falsifiers: reference/integral mismatch, per-observable refit or hidden density changes.
+Conclusion: actual shared-state execution, not a new observational dataset fit.
+Lens retains Phi=Psi/finite patch assumptions. Remaining fixed scope: record/supplier
+macro boundary,zero clustering local-source boundary, final review. In progress.

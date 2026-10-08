@@ -1,0 +1,197 @@
+{
+  "status": "PASS",
+  "date": "2026-10-08",
+  "stage": "theory improvement Step3, minimum-computation structure comparison",
+  "target_shares": [
+    0.050000000000000176,
+    0.26800000000000074,
+    0.6820000000000006
+  ],
+  "models": [
+    {
+      "model": "phase_K1",
+      "kind": "phase",
+      "frames": 1,
+      "calibrated_threshold_or_beta": -1.718537617204171,
+      "shares": [
+        0.05000000000000016,
+        0.26800000000000074,
+        0.6819999999999999
+      ],
+      "address_moments": [
+        0.050000000000000176,
+        0.2789256109767439,
+        0.6877450822737121
+      ],
+      "phenotype_weighted_abs_admission_difference": 0.0030347274718268103,
+      "selector_odd_v3_fraction": 0.41958368742956875,
+      "present_q": -0.5285597844866542,
+      "present_rotation_km_s": 207.5102418659153,
+      "present_lensing_arcsec": 0.5355822400088303,
+      "trig_evaluations_per_eligible_address": 4,
+      "aggregate_calibration_degrees": 2,
+      "retained_eight_frame_structure": false,
+      "calibration_policy": "shared alpha unchanged; threshold or beta calibrated to same P target; SI and load coefficients unchanged"
+    },
+    {
+      "model": "phase_K2",
+      "kind": "phase",
+      "frames": 2,
+      "calibrated_threshold_or_beta": -0.3142872454263258,
+      "shares": [
+        0.050000000000000114,
+        0.26800000000000074,
+        0.6820000000000013
+      ],
+      "address_moments": [
+        0.05000000000000006,
+        0.2789256109767439,
+        0.6877526778639204
+      ],
+      "phenotype_weighted_abs_admission_difference": 0.0019523144047158398,
+      "selector_odd_v3_fraction": 0.3993255414371769,
+      "present_q": -0.5285633547121813,
+      "present_rotation_km_s": 207.5102418659153,
+      "present_lensing_arcsec": 0.5355822400088303,
+      "trig_evaluations_per_eligible_address": 8,
+      "aggregate_calibration_degrees": 2,
+      "retained_eight_frame_structure": false,
+      "calibration_policy": "shared alpha unchanged; threshold or beta calibrated to same P target; SI and load coefficients unchanged"
+    },
+    {
+      "model": "phase_K4",
+      "kind": "phase",
+      "frames": 4,
+      "calibrated_threshold_or_beta": 0.6021482129341632,
+      "shares": [
+        0.050000000000000024,
+        0.26800000000000074,
+        0.6819999999999995
+      ],
+      "address_moments": [
+        0.05000000000000014,
+        0.2789256109767439,
+        0.6877429596275214
+      ],
+      "phenotype_weighted_abs_admission_difference": 0.0010705797563436807,
+      "selector_odd_v3_fraction": 0.40678653954921307,
+      "present_q": -0.5285587867499627,
+      "present_rotation_km_s": 207.5102418659153,
+      "present_lensing_arcsec": 0.5355822400088303,
+      "trig_evaluations_per_eligible_address": 16,
+      "aggregate_calibration_degrees": 2,
+      "retained_eight_frame_structure": false,
+      "calibration_policy": "shared alpha unchanged; threshold or beta calibrated to same P target; SI and load coefficients unchanged"
+    },
+    {
+      "model": "phase_K8",
+      "kind": "phase",
+      "frames": 8,
+      "calibrated_threshold_or_beta": 1.4476744689338596,
+      "shares": [
+        0.050000000000000315,
+        0.26800000000000074,
+        0.6820000000000005
+      ],
+      "address_moments": [
+        0.05000000000000022,
+        0.2789256109767439,
+        0.6877425398542386
+      ],
+      "phenotype_weighted_abs_admission_difference": 1.3984161353235564e-16,
+      "selector_odd_v3_fraction": 0.4020461347060742,
+      "present_q": -0.5285585894376318,
+      "present_rotation_km_s": 207.5102418659153,
+      "present_lensing_arcsec": 0.5355822400088303,
+      "trig_evaluations_per_eligible_address": 32,
+      "aggregate_calibration_degrees": 2,
+      "retained_eight_frame_structure": true,
+      "calibration_policy": "shared alpha unchanged; threshold or beta calibrated to same P target; SI and load coefficients unchanged"
+    },
+    {
+      "model": "constant_admission",
+      "kind": "scalar",
+      "frames": 0,
+      "calibrated_threshold_or_beta": 0.8654567230719332,
+      "shares": [
+        0.05000000000000012,
+        0.26800000000000074,
+        0.6820000000000005
+      ],
+      "address_moments": [
+        0.050000000000000176,
+        0.2789256109767439,
+        0.6877432716507961
+      ],
+      "phenotype_weighted_abs_admission_difference": 0.0007218006982331347,
+      "selector_odd_v3_fraction": 0.39988320140872774,
+      "present_q": -0.5285589334148347,
+      "present_rotation_km_s": 207.5102418659153,
+      "present_lensing_arcsec": 0.5355822400088303,
+      "trig_evaluations_per_eligible_address": 0,
+      "aggregate_calibration_degrees": 2,
+      "retained_eight_frame_structure": false,
+      "calibration_policy": "shared alpha unchanged; threshold or beta calibrated to same P target; SI and load coefficients unchanged"
+    },
+    {
+      "model": "phase_K8_recurrence",
+      "kind": "phase",
+      "frames": 8,
+      "calibrated_threshold_or_beta": 1.4476744689338703,
+      "shares": [
+        0.050000000000000176,
+        0.26800000000000074,
+        0.6820000000000006
+      ],
+      "address_moments": [
+        0.05000000000000008,
+        0.2789256109767439,
+        0.6877425398542387
+      ],
+      "phenotype_weighted_abs_admission_difference": 1.6800137194449236e-17,
+      "selector_odd_v3_fraction": 0.40204613470607414,
+      "present_q": -0.5285585894376319,
+      "present_rotation_km_s": 207.5102418659153,
+      "present_lensing_arcsec": 0.5355822400088303,
+      "trig_evaluations_per_eligible_address": 8,
+      "aggregate_calibration_degrees": 2,
+      "retained_eight_frame_structure": true,
+      "calibration_policy": "shared alpha unchanged; threshold or beta calibrated to same P target; SI and load coefficients unchanged",
+      "fixed_rotation_trig_evaluations": 8
+    }
+  ],
+  "recurrence": {
+    "maximum_drive_error": 8.021361352916756e-14,
+    "direct_seconds_single_run": 0.17860979700071766,
+    "recurrence_seconds_single_run": 0.10478498199972819,
+    "timing_scope": "one local run; not a universal speed or operation-cost ordering",
+    "relation": "cos(theta+k delta), sin(theta+k delta) updated by a fixed rotation",
+    "eligible_addresses": 427892,
+    "direct_trig_count": 13692544,
+    "recurrence_initial_trig_count": 3423136
+  },
+  "checks": {
+    "recurrence_preserves_all_frame_drives": true,
+    "recurrence_preserves_every_address_admission": true,
+    "recurrence_frame_ledger_preserves_sector_loads": true,
+    "each_alternative_calibrated_to_same_verified_shares": true,
+    "scalar_has_same_shares_but_different_address_response": true,
+    "baseline_threshold_reproduced": true,
+    "recurrence_has_same_no_new_calibration": true,
+    "recurrence_reduces_trig_evaluation_count": true
+  },
+  "input_structure_accounting": {
+    "phase_inherited_spectrum_entries": 12,
+    "phase_step_entries": 1,
+    "calibrated_continuous_parameters": 2,
+    "frame_count_discrete_choice": 1,
+    "note": "stored specification entries, not independent statistically identified degrees of freedom; scalar drops spectrum and frame dynamics"
+  },
+  "dependency_provenance": "d12ce729822cf78e4531c7303eef86507aa2238e",
+  "comparison_limits": [
+    "finite tested model family, no global unique-minimum proof",
+    "common share calibration does not guarantee identical address or frame explanations",
+    "inherited spectrum and load laws kept fixed",
+    "fewer trig evaluations add arithmetic; total cost depends on implementation and hardware"
+  ]
+}

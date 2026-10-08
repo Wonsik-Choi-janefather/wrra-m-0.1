@@ -1,0 +1,36 @@
+WRRA 3.0 theory improvement — Step3 final review v0.4
+
+Decision: complete the scoped comparison, selection and ledger integration of Step3.
+Frozen inputs come from Step2 commit d12ce729822cf78e4531c7303eef86507aa2238e.
+Calibration to known shares remains legitimate explanatory reproduction.
+
+Compare reduced frame/mode models separately from equivalent implementations.
+For the existing address-phase/frame/record explanation, retain four modes and
+eight admission frames; adopt the eight-real-state rotation kernel, chunk 65536,
+with the direct kernel retained as reference and lower-workspace alternative.
+The fixed four-mode sequence needs at least eight real autonomous LTI states:
+a rank-eight Hankel matrix supplies the lower bound, achieved by four rotations.
+This does not derive four modes or eight physical frames, nor a universal minimum.
+
+Reduced models also reproduce .05/.268/.682 after calibration. These shares alone
+cannot uniquely select the inherited phase structure. Constant admission remains
+a legitimate simpler model for an aggregate-only explanatory scope. Across 15
+mode subsets, modes 1 and 2 provide the closest reduced address readout under the
+internal weighted L1 metric; that metric is not empirical observational loss.
+
+The reusable kernel preserves every address effect, frame contribution, residue,
+conditional preparation and record supply, load, energy, pressure and macro output.
+Preparation population .0804092269412148; single-write supply approximately
+7.02927608842805e-12 J; q=-.5285585894376319; rotation 207.5102418659153 km/s;
+lensing .5355822400088303 arcsec. No model inputs were refitted for this adoption.
+
+Reject equivalence if address/frame or downstream output tolerances fail. Revisit
+the LTI bound if distinct poles/nonzero coefficients change. Revisit selection
+if explanatory scope or inputs change. Four modes and eight admission frames
+remain constitutive specifications; this boundary adds no new completion demand.
+
+34 checks passed: comparison 8, streaming 7, state minimum 5, subsets 6, integration 8.
+The adopted kernel is implemented in this review package, not installed into the
+existing GitHub production path. Step3 has not been published to GitHub.
+Next Step4: common carrier to phenotype, starting from the existing channel and
+record interfaces while separating SOURCE size, channel rank, lattice and states.

@@ -1,0 +1,48 @@
+WRRA 3.0 Step 2 v0.3: address, load-carrier and record contract
+
+Verified inputs: frozen structural readout, SI coefficients, original Carrier
+class, and the published single-write case's mode gap, record gap and controls.
+WRRA transformation: shared address readout -> address moments and conditional
+preparation -> carrier operator loads -> finite write and supplier/record ledger.
+Outputs: four carrier conditions, nonzero address/internal covariance,
+positive finite supplier balance and conserved included-boundary energy and q.
+Falsification conditions: failed transported preparation or load, lost
+correlation, duplicated energy, negative supply or pressure inconsistency.
+Fifteen additional checks pass.
+
+The inherited homogeneous load carrier is128-dimensional, with operators
+(I,Kc/2,Kb/2). Energy is V0*eta_s*mu_s*Tr(rho A_s). Uniform states recover
+unit load factors; inherited packets and noncommuting strength8 are also checked.
+This lattice is not asserted identical to the CCS-15 channel space. A complete
+intertwining operator between those spaces is not executed in this probe.
+
+The original bridge selector is odd v_3(n), not mere divisibility by3.
+Conditional phenotype weights give selector fraction .4020461347060741 and
+excited population .08040922694121483. The preceding published case used a
+different branch model; its .3998832725128894 is not copied and the difference
+is not attributed to capacity alone.
+For response1+.25 log(n)/log(N), the joint preparation probe is
+.08549046481975917 while the product of marginals is .08516449658539786.
+The nonzero difference .0003259682343613513 is covariance, not extra cosmic
+energy. Address-sensitive observables require the joint ledger.
+
+The microscopic gap431.08124431500187MeV and record gap
+3.559611212147983e-15J are pinned published computed inputs. This probe
+executes the two-state write matrix, not the entire original microscopic archive.
+Mean occupancy replaces the phenotype allocation exactly once. This is an
+expected-budget construction, not a realized fractional proton.
+System increment7.0288444093013494e-12J plus record increment
+4.316791266963542e-16J is supplied once. The supplier decreases from
+7.561582499072275e-12J to5.323064106442342e-13J. Both conditional
+branches are covered. Records remain nested within the phenotype budget.
+The eight admission frames are not reinterpreted as eight physical writes.
+
+The fixed-volume R energy-volume law preserves pressure. The external-system
+q diagnostic changes from-.5285585894376319 to-.5192163980944755;
+including the pressureless supplier leaves q unchanged at-.5185158489464727.
+These are boundary diagnostics, not observed global changes from one particle.
+
+No parameters were refitted. All42 accumulated checks pass. Complete CCS-15
+intertwining, full particle decoding and accumulated write/reset cycles are
+outside this verified path. Full Stage-2 or theory completion is not asserted.
+Replay: python connection_replay.py.
