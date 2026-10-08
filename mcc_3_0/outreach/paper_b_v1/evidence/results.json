@@ -1,0 +1,122 @@
+{
+  "parameters": {
+    "m": 5,
+    "n": 7,
+    "phi": 0.7,
+    "kappa": 1,
+    "seed": 20261008
+  },
+  "scope": "Exact finite-complex checks and floating-point state transport, not measured spacetime topology or gravitational prediction.",
+  "complex": {
+    "vertices": 35,
+    "edges": 70,
+    "faces": 35,
+    "Euler_characteristic": 0,
+    "Klein_Betti_Q": [
+      1,
+      1,
+      0
+    ],
+    "Klein_Betti_F2": [
+      1,
+      2,
+      1
+    ],
+    "torus_Betti_Q": [
+      1,
+      2,
+      1
+    ],
+    "rank_d1_Q": 34,
+    "rank_d2_Q": 35
+  },
+  "holonomy": {
+    "Klein_face_max_defect": 6.4095964655536255e-18,
+    "torus_J_I_face_max_defect": 0.0,
+    "incompatible_torus_face_defect": 0.19866933079506122,
+    "Klein_relation_defect": 0.0,
+    "torus_J_Rphi_relation_defect": 1.288435374475382
+  },
+  "loop_response": {
+    "rho": [
+      [
+        0.5,
+        0.25
+      ],
+      [
+        0.25,
+        0.5
+      ]
+    ],
+    "D_J": 0.5,
+    "D_J_pure": 2.0,
+    "D_J_mixed": 0.0,
+    "D_J_squared": 0.0,
+    "D_torus_J": 0.5
+  },
+  "cochain_max_error": 3.3306690738754696e-16,
+  "gauge": {
+    "energy_before": 24.558016094896914,
+    "energy_after": 24.558016094896917,
+    "energy_absolute_difference": 3.552713678800501e-15,
+    "loop_response_difference": 2.220446049250313e-16,
+    "update_max_difference": 2.220446049250313e-16
+  },
+  "weight_response": {
+    "edge": 0,
+    "analytic": 0.4302124905390312,
+    "central_difference": 0.4302124906985227,
+    "absolute_error": 1.594914755820298e-10
+  },
+  "diffusion": {
+    "steps": 1000,
+    "eta": 0.1750046189721454,
+    "max_degree": 5.142721405217587,
+    "initial_energy": 24.558016094896914,
+    "final_energy": 4.074893086132661e-10,
+    "largest_energy_increment": -5.85778243034417e-12,
+    "minimum_eigenvalue_over_updates": 0.14026618527146845,
+    "max_trace_error": 3.952393967665557e-14,
+    "max_final_distance_from_mixed": 1.7044498146434606e-05
+  },
+  "source_register": {
+    "L": 500,
+    "C": 70,
+    "H_spectator_sheets": 29,
+    "vertices": 1015000,
+    "edges": 2030000,
+    "faces": 1015000,
+    "active_arithmetic_addresses": 1014999,
+    "address_1_seam_step_destination": 14501,
+    "reference_vertex_retained": true,
+    "meaning": "Disjoint H-sheet cellulation indexed by the source tuples, not a connected universe or a derived carrier dimension."
+  },
+  "checks": {
+    "boundary_squared_zero": true,
+    "each_edge_two_faces": true,
+    "homology_Klein_Q": true,
+    "homology_Klein_F2": true,
+    "homology_torus_Q": true,
+    "flat_faces": true,
+    "torus_flat_counterexample": true,
+    "invalid_torus_detected": true,
+    "loop_exact_cases": true,
+    "covariant_boundary_squared_zero": true,
+    "gauge_energy": true,
+    "gauge_loop": true,
+    "gauge_update": true,
+    "weight_derivative": true,
+    "energy_monotone": true,
+    "PSD_trace_preserved": true,
+    "full_sheet_seam_bijection": true,
+    "full_sheet_single_return": true,
+    "full_sheet_double_return": true,
+    "excluded_reference_not_invariant_under_step": true
+  },
+  "status": "PASS",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "audit_source_sha256": "9739df65895bed5f71864f4ed92e454bd2da4e50c8ea9682e3bc8131022c2159"
+}

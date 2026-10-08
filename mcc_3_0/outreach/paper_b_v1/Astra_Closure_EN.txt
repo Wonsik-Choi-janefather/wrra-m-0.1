@@ -1,0 +1,18 @@
+ASTRA REVIEW CLOSURE — WRRA EXECUTIVE PAPER B
+Date: 8 October 2026
+
+FINAL DECISION: ACCEPTABLE AS A CONDITIONAL, EXECUTABLE MODEL-DEVELOPMENT PAPER.
+
+I inspected the revised English manuscript and the corresponding corrected Korean passages. All three required minor corrections in Astra_Review_EN.txt are resolved:
+R1. Identity transport is now attributed specifically to ordinary horizontal edges.
+R2. The globally normalized carrier state is explicitly sigma = |V|^{-1} direct-sum_v rho_v, with the local states identified as conditional blocks. Uniform block weights are explicitly a bookkeeping choice distinct from paper A's arithmetic measure.
+R3. The density domain is correctly a convex subset of the trace-one affine hyperplane.
+The compactness wording was also corrected. The added numerical-results paragraph agrees with the earlier independent audit rerun.
+
+The mathematical verdict is unchanged: the finite quotient, flat internal transport, covariant density differences, loop response, energy, weight derivative, and relaxation form a coherent reproducible construction. The torus control, mixed-state control, double-return control, and relaxation theorem prevent unsupported claims of compulsory persistent twist stress. The address-1 interface correction is justified. No fatal inconsistency was found within the stated assumptions.
+
+The remaining physical constitutive interface is openly specified as unfinished. This limits the result's scope but does not invalidate the completed model-development contribution. This review does not claim a derivation of gravity, empirical validation, physical necessity, minimality, or journal acceptance.
+
+The unchanged audit had already been independently executed with all 20 registered checks passing; no redundant rerun was required for these manuscript-only corrections. Audit SHA-256: 9739df65895bed5f71864f4ed92e454bd2da4e50c8ea9682e3bc8131022c2159.
+
+Final editorial verification: the Korean face-transport explanation now correctly uses "같은 기준 꼭짓점" for the common corner. The serialization subscript uses the renderer-compatible \mathrm command in both language versions; this is a typesetting-only change. All required review corrections and final editorial corrections are closed. There are no outstanding review conditions within the stated scope.

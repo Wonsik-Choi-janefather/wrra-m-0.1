@@ -1,0 +1,52 @@
+INDEPENDENT ASTRA REVIEW — WRRA EXECUTIVE PAPER B
+Date: 8 October 2026
+Reviewed manuscript: Paper_B_EN_v1.0.md
+Reviewed implementation: audit_B.py
+Reviewed provenance: sources/source_B.md and sources/inherited_phase_bridge.py
+
+DECISION: MINOR REVISION
+This is an internal mathematical/model-development review, not journal acceptance, external peer review, or validation of a gravitational theory.
+
+Overall assessment
+The revision establishes a coherent finite closure–transport–state-response module. Its contribution is the explicit WRRA assembly and the reproducible interface between finite geometry, internal transport, density states, and relaxation. The use of standard topology and connection-Laplacian results is appropriate. Neither an independently novel numerical prediction nor a unique derivation of the model choices is necessary to support this carefully conditional contribution.
+
+The construction supplies more than labels: it specifies a finite cell complex, actual edge maps, an ambient linear cochain space, constrained states, a gauge-invariant loop observable, an energy, a response, and a state-preserving dynamics. Its controls meaningfully restrict the earlier narrative. In particular, the torus counterexample and the mixed-state/relaxation examples prevent an unsupported inference from nonorientability to persistent stress or gravity.
+
+Mathematical findings
+1. The seam face boundary has the correct reversed vertical edge. The mapping-torus construction establishes the surface property rather than inferring it from Euler characteristic alone. The rational and modulo-two homology calculations match the Klein bottle; the ordinary torus control distinguishes orientability.
+2. With column-vector traversal order, the seam product Q^{-1} J Q^{-1} J is identity. The generator holonomies obey the Klein relation. The internal bundle is correctly distinguished from a tangent or Levi-Civita bundle.
+3. The induced action on symmetric matrices preserves positivity, trace, and Frobenius norm. The loop response is invariant under simultaneous local-frame changes, bounded by two, and zero exactly for a commuting density. The explicit values 0, 0.5, and 2 and the double-loop cancellation are correct.
+4. The positive weighted difference energy and fixed-state coupling derivative are correct. The latter is properly described as a scalar response rather than a spacetime stress tensor.
+5. The convex update preserves density validity. The connection Laplacian is self-adjoint and nonnegative, its maximum eigenvalue is at most twice the maximum weighted degree, and the stated step bound proves monotonicity. The strict step bound used for convergence avoids the possible endpoint oscillation. For all positive grid weights and phi outside pi times the integers, the unique normalized parallel density is I/2.
+6. The optional 29-sheet construction is clearly labeled as disconnected bookkeeping geometry. Retaining arithmetic address 1 as a geometric vertex repairs the active-domain closure issue. The source count does not derive this topology, the internal rank, a minimal carrier, or a physical spacetime dimension.
+
+Independent executable review
+I read the audit and reran `python paper_b/audit_B.py` independently. All 20 registered checks passed using Python 3.12.14 and NumPy 2.3.5. Representative reproduced outputs were:
+- Rational Klein Betti numbers: (1, 1, 0); modulo-two: (1, 2, 1).
+- Rational torus Betti numbers: (1, 2, 1).
+- Klein face maximum defect: 6.4095964655536255e-18.
+- Covariant telescoping error: 3.3306690738754696e-16.
+- Gauge energy difference: 3.552713678800501e-15.
+- Gauge update maximum difference: 2.220446049250313e-16.
+- Coupling derivative finite-difference error: 1.594914755820298e-10.
+- Initial energy: 24.558016094896914; energy after 1,000 steps: 4.074893086132661e-10.
+- Maximum trace error across updates: 3.952393967665557e-14.
+- All 35,000 vertices in the full source sheet satisfy the declared seam permutation and return checks.
+The audit hash at review was 9739df65895bed5f71864f4ed92e454bd2da4e50c8ea9682e3bc8131022c2159.
+These numerical checks support the implementation; the manuscript proofs, rather than tolerance checks alone, support the general mathematical statements.
+
+Required minor corrections
+R1. Section 3 states that the display has identity maps off the seam. In the stated gauge the vertical maps are Q, generally not identity. Replace that phrase with "identity maps on ordinary horizontal edges". This is a wording correction, not a failure of flatness.
+R2. Make the common-carrier state packaging explicit. One valid choice is sigma = (1/|V|) direct-sum_v rho_v on H = direct-sum_v R^2, which is positive with total trace one; rho_v are its normalized conditional vertex blocks. This removes any ambiguity between locally normalized densities and a globally normalized carrier state. The uniform block weights are a construction convention, not the inherited arithmetic weights.
+R3. Replace "an affine convex subset" by "a convex subset of the trace-one affine hyperplane". The positivity-constrained density set is convex but is not itself an affine subspace.
+
+Optional editorial improvements
+- The phrase "compactness means finite extent" can be made more exact as "compactness implies bounded diameter in any compatible metric". Compactness is stronger than boundedness.
+- The explicitly defined ambient cochains could be made even easier to implement by naming the reversed-edge rule alpha_reverse = -Ad(U_e^{-1}) alpha_e. The face-transport summation and audit already specify the intended operation.
+- Rename the audit output `address_1_seam_step_destination` to `address_1_z_step_destination`: the step out of z=0 is an ordinary z step, although the full permutation contains the seam.
+
+Scope and clarity
+The guide for other fields explains closure, holonomy, density, gauge, and residue without assuming specialist vocabulary. The strongest concrete contribution is the validated module plus its counterexamples and source-domain correction. The missing conversion from edge energy to physical density, pressure, a conserved spacetime source, and gravity is disclosed at the exact interface where it is missing. Earlier downstream successes are not misused to validate that absent coupling. This is an appropriate boundary for the present executive paper and does not require expanding it into a complete cosmological theory.
+
+Acceptance criterion for this review
+After R1–R3 are incorporated consistently in both language versions, this reviewer regards the paper as ACCEPTABLE AS A CONDITIONAL, EXECUTABLE MODEL-DEVELOPMENT PAPER. This judgment does not establish physical necessity, astronomical validation, or acceptance by any journal.
