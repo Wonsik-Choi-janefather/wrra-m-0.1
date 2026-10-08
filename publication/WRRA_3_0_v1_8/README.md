@@ -6,6 +6,9 @@ Wonsik Choi and Jeongin Choi · 8 October 2026
 
 ## Files
 
+- [English PDF](WRRA_3_0_Paper_EN_v1.8.pdf)
+- [Korean PDF](WRRA_3_0_Paper_KO_v1.8.pdf)
+
 - [English manuscript](Paper_EN_v1.8.md)
 - [Korean manuscript](Paper_KO_v1.8.md)
 - [Reproduction archive](WRRA_3_0_Reproduction_v1.8.tar.xz)
