@@ -12,20 +12,20 @@
       "model": "phase_K1",
       "kind": "phase",
       "frames": 1,
-      "calibrated_threshold_or_beta": -1.718537617204171,
+      "calibrated_threshold_or_beta": -1.7185376172042013,
       "shares": [
-        0.05000000000000016,
+        0.05000000000000035,
         0.26800000000000074,
-        0.6819999999999999
+        0.6819999999999997
       ],
       "address_moments": [
-        0.050000000000000176,
+        0.050000000000000384,
         0.2789256109767439,
-        0.6877450822737121
+        0.6877450822737119
       ],
-      "phenotype_weighted_abs_admission_difference": 0.0030347274718268103,
-      "selector_odd_v3_fraction": 0.41958368742956875,
-      "present_q": -0.5285597844866542,
+      "phenotype_weighted_abs_admission_difference": 0.003034727471826704,
+      "selector_odd_v3_fraction": 0.41958368742956825,
+      "present_q": -0.528559784486654,
       "present_rotation_km_s": 207.5102418659153,
       "present_lensing_arcsec": 0.5355822400088303,
       "trig_evaluations_per_eligible_address": 4,
@@ -37,18 +37,18 @@
       "model": "phase_K2",
       "kind": "phase",
       "frames": 2,
-      "calibrated_threshold_or_beta": -0.3142872454263258,
+      "calibrated_threshold_or_beta": -0.3142872454263219,
       "shares": [
-        0.050000000000000114,
+        0.05000000000000008,
         0.26800000000000074,
         0.6820000000000013
       ],
       "address_moments": [
-        0.05000000000000006,
+        0.050000000000000024,
         0.2789256109767439,
         0.6877526778639204
       ],
-      "phenotype_weighted_abs_admission_difference": 0.0019523144047158398,
+      "phenotype_weighted_abs_admission_difference": 0.0019523144047158337,
       "selector_odd_v3_fraction": 0.3993255414371769,
       "present_q": -0.5285633547121813,
       "present_rotation_km_s": 207.5102418659153,
@@ -62,7 +62,7 @@
       "model": "phase_K4",
       "kind": "phase",
       "frames": 4,
-      "calibrated_threshold_or_beta": 0.6021482129341632,
+      "calibrated_threshold_or_beta": 0.6021482129341635,
       "shares": [
         0.050000000000000024,
         0.26800000000000074,
@@ -73,8 +73,8 @@
         0.2789256109767439,
         0.6877429596275214
       ],
-      "phenotype_weighted_abs_admission_difference": 0.0010705797563436807,
-      "selector_odd_v3_fraction": 0.40678653954921307,
+      "phenotype_weighted_abs_admission_difference": 0.0010705797563436811,
+      "selector_odd_v3_fraction": 0.40678653954921246,
       "present_q": -0.5285587867499627,
       "present_rotation_km_s": 207.5102418659153,
       "present_lensing_arcsec": 0.5355822400088303,
@@ -87,20 +87,20 @@
       "model": "phase_K8",
       "kind": "phase",
       "frames": 8,
-      "calibrated_threshold_or_beta": 1.4476744689338596,
+      "calibrated_threshold_or_beta": 1.4476744689338457,
       "shares": [
-        0.050000000000000315,
+        0.050000000000000495,
         0.26800000000000074,
-        0.6820000000000005
+        0.6820000000000004
       ],
       "address_moments": [
-        0.05000000000000022,
+        0.050000000000000405,
         0.2789256109767439,
-        0.6877425398542386
+        0.6877425398542385
       ],
-      "phenotype_weighted_abs_admission_difference": 1.3984161353235564e-16,
-      "selector_odd_v3_fraction": 0.4020461347060742,
-      "present_q": -0.5285585894376318,
+      "phenotype_weighted_abs_admission_difference": 3.2436715540820964e-16,
+      "selector_odd_v3_fraction": 0.4020461347060746,
+      "present_q": -0.5285585894376313,
       "present_rotation_km_s": 207.5102418659153,
       "present_lensing_arcsec": 0.5355822400088303,
       "trig_evaluations_per_eligible_address": 32,
@@ -123,8 +123,8 @@
         0.2789256109767439,
         0.6877432716507961
       ],
-      "phenotype_weighted_abs_admission_difference": 0.0007218006982331347,
-      "selector_odd_v3_fraction": 0.39988320140872774,
+      "phenotype_weighted_abs_admission_difference": 0.0007218006982331342,
+      "selector_odd_v3_fraction": 0.39988320140872763,
       "present_q": -0.5285589334148347,
       "present_rotation_km_s": 207.5102418659153,
       "present_lensing_arcsec": 0.5355822400088303,
@@ -148,8 +148,8 @@
         0.2789256109767439,
         0.6877425398542387
       ],
-      "phenotype_weighted_abs_admission_difference": 1.6800137194449236e-17,
-      "selector_odd_v3_fraction": 0.40204613470607414,
+      "phenotype_weighted_abs_admission_difference": 1.680013719444932e-17,
+      "selector_odd_v3_fraction": 0.4020461347060745,
       "present_q": -0.5285585894376319,
       "present_rotation_km_s": 207.5102418659153,
       "present_lensing_arcsec": 0.5355822400088303,
@@ -162,8 +162,8 @@
   ],
   "recurrence": {
     "maximum_drive_error": 8.021361352916756e-14,
-    "direct_seconds_single_run": 0.17860979700071766,
-    "recurrence_seconds_single_run": 0.10478498199972819,
+    "direct_seconds_single_run": 0.2008864290000929,
+    "recurrence_seconds_single_run": 0.12001838600008341,
     "timing_scope": "one local run; not a universal speed or operation-cost ordering",
     "relation": "cos(theta+k delta), sin(theta+k delta) updated by a fixed rotation",
     "eligible_addresses": 427892,

@@ -204,19 +204,19 @@
   },
   "kernel_timings_seconds": {
     "direct": [
-      0.20875630899990938,
-      0.21136145899981784,
-      0.21194940199984558
+      0.22308245800013538,
+      0.21021382599974459,
+      0.22527063799861935
     ],
     "rotation": [
-      0.11656786000003194,
-      0.11904025400053797,
-      0.11758437200023764
+      0.12977518399929977,
+      0.12693644600039988,
+      0.12613785299981828
     ]
   },
   "median_kernel_seconds": {
-    "direct": 0.21136145899981784,
-    "rotation": 0.11758437200023764
+    "direct": 0.22308245800013538,
+    "rotation": 0.12693644600039988
   },
   "timing_scope": "three local alternating runs after warmup; phase/readout kernel only, not full pipeline or universal hardware claim",
   "local_selected_implementation": "rotation_stream",

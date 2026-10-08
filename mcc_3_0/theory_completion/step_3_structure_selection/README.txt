@@ -11,3 +11,5 @@ python integration_review.py
 phase_kernel.py is the reusable adopted kernel.
 Equivalent execution preserves the model; reduced models change its readout.
 No full-theory completion or universal physical minimum is asserted.
+
+Latest re-review: REREVIEW_KO.txt / REREVIEW_EN.txt. Run review_scope.py after the original five scripts.38 checks total. State minimum refers to full fixed continuation, not only8 observed admission samples.

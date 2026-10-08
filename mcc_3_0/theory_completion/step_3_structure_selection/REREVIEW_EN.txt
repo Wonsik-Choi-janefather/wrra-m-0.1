@@ -1,0 +1,21 @@
+WRRA Step3 re-review
+Verified inputs: frozen SOURCE/readout, four-mode rule, eight admission frames,
+calibration and existing record/load/macro ledger; dependency hashes checked.
+WRRA transformation: calibrated reductions, direct/rotation equivalence, Hankel
+bound for the fixed continuation, and downstream integration replay.
+Outputs:34 prior plus4 scope checks,38 total.
+Falsifiers: output mismatch, hidden refits, failed distinct/nonzero pole hypotheses,
+or extension of minimum-state claims beyond the proved realization class.
+
+Clarification: eight real states are minimal for the entire fixed spectral
+continuation in autonomous real LTI realizations. The bound is not established
+for arbitrary implementations matching only the eight admission samples.
+Eight samples provide a4x4 square Hankel; H8 needs samples0..14. Synthetic
+continuation samples are not additional physical admission frames.
+Retain rotation as an equivalent implementation of the existing phase/address
+explanation, with direct reference retained. Reduced spectra and constant routing
+legitimately reproduce aggregate shares. That reproduction does not uniquely
+select four modes/eight frames. Tested reductions are not all possible structures.
+Use current timing JSON for rerun timing; trig calls are not total physical cost.
+Conclusion: scoped equivalent selection/ledger completion retained; no universal
+physical minimum, frame uniqueness or full-theory completion is inferred.

@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "checks": {
+    "frozen_dependency_hashes_match": true,
+    "finite8_samples_do_not_supply_rank8_hankel": true,
+    "fixed_continuation_theorem_still_rank8": true,
+    "comparison_does_not_unique_select4modes_from_shares": true
+  },
+  "probes": [
+    {
+      "address": 9,
+      "finite8_available_hankel_size": 4,
+      "finite8_hankel_rank": 4
+    },
+    {
+      "address": 15,
+      "finite8_available_hankel_size": 4,
+      "finite8_hankel_rank": 4
+    },
+    {
+      "address": 105,
+      "finite8_available_hankel_size": 4,
+      "finite8_hankel_rank": 4
+    },
+    {
+      "address": 1001,
+      "finite8_available_hankel_size": 4,
+      "finite8_hankel_rank": 4
+    }
+  ],
+  "correction": "eight-state lower bound applies to reproducing the entire fixed spectral continuation under autonomous real LTI realization; not to arbitrary reproduction of only eight admission samples",
+  "selection": "equivalent rotation kernel retained; constitutive4modes/K8 retained for existing declared phase-address explanation, not uniquely identified from aggregate shares",
+  "prior_checks": 34,
+  "total_checks": 38
+}
