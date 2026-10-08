@@ -1,0 +1,710 @@
+{
+  "version": "0.2",
+  "inputs": {
+    "m_e_MeV": 0.51099895069,
+    "m_mu_MeV": 105.6583755,
+    "tau_mu_seconds": 2.1969811e-06,
+    "quadrature_order": 64,
+    "expansion_Htau": 0.1
+  },
+  "kernel": {
+    "mean_e_MeV": 36.98425877394095,
+    "mean_antinue_MeV": 31.696030920317746,
+    "mean_numu_MeV": 36.97808580574131,
+    "daughter_PV_over_M": 0.3333073631272256,
+    "phase_space_factor": 0.9998129491713222,
+    "flat_phase_space_PV_over_M": 0.33330260285565316
+  },
+  "cohort_witness": {
+    "age_scales": [
+      0.002,
+      0.01,
+      0.05,
+      0.2,
+      1.0
+    ],
+    "future_redshift": 0.5,
+    "weights_plus": [
+      0.04814860973454685,
+      0.3448240222653065,
+      0.35998611870004893,
+      0.020000000000000018,
+      0.22704124930009786
+    ],
+    "weights_minus": [
+      0.3518513902654532,
+      0.055175977734693515,
+      0.04001388129995112,
+      0.38,
+      0.17295875069990216
+    ],
+    "present_N_EoverM_PVoverM_plus": [
+      1.0000000000000002,
+      0.25392945047239185,
+      0.08393806082456695
+    ],
+    "present_N_EoverM_PVoverM_minus": [
+      1.0,
+      0.25392945047239174,
+      0.08393806082456694
+    ],
+    "future_EoverM_PVoverM_plus": [
+      0.12819443761108243,
+      0.04182295895594627
+    ],
+    "future_EoverM_PVoverM_minus": [
+      0.12808740313545883,
+      0.04190973551127354
+    ],
+    "future_difference": [
+      0.00010703447562360191,
+      -8.677655532727396e-05
+    ],
+    "singular_values": [
+      2.3280147460776157,
+      0.8596502221959003,
+      0.001004937408666312
+    ]
+  },
+  "fixed_volume": [
+    {
+      "drive": "zeta_dynamic",
+      "X": 0.7390664036122881,
+      "values": [
+        {
+          "time_tau": 0.0,
+          "muons": 0.5218671927754237,
+          "charged_electrons": 1.4781328072245763,
+          "neutrinos": 0.0,
+          "energy_over_E0": 1.0,
+          "pv_over_E0": 0.2463497055906738
+        },
+        {
+          "time_tau": 1.0,
+          "muons": 0.19198421124393225,
+          "charged_electrons": 1.8080157887560677,
+          "neutrinos": 0.659765963062983,
+          "energy_over_E0": 1.0,
+          "pv_over_E0": 0.30132591894807814
+        },
+        {
+          "time_tau": 3.0,
+          "muons": 0.025982237605655253,
+          "charged_electrons": 1.9740177623943447,
+          "neutrinos": 0.9917699103395369,
+          "energy_over_E0": 1.0,
+          "pv_over_E0": 0.3289907590017228
+        },
+        {
+          "time_tau": 5.0,
+          "muons": 0.0035163134854823233,
+          "charged_electrons": 1.9964836865145177,
+          "neutrinos": 1.0367017585798828,
+          "energy_over_E0": 1.0,
+          "pv_over_E0": 0.33273478796607836
+        },
+        {
+          "time_tau": 10.0,
+          "muons": 2.369273389734938e-05,
+          "charged_electrons": 1.9999763072661025,
+          "neutrinos": 1.0436870000830527,
+          "energy_over_E0": 1.0,
+          "pv_over_E0": 0.33331684607263545
+        }
+      ]
+    },
+    {
+      "drive": "zeta_static",
+      "X": 0.7287127296095072,
+      "values": [
+        {
+          "time_tau": 0.0,
+          "muons": 0.5425745407809857,
+          "charged_electrons": 1.4574254592190143,
+          "neutrinos": 0.0,
+          "energy_over_E0": 1.0,
+          "pv_over_E0": 0.24289856164758505
+        },
+        {
+          "time_tau": 1.0,
+          "muons": 0.19960201885636095,
+          "charged_electrons": 1.800397981143639,
+          "neutrinos": 0.6859450438492494,
+          "energy_over_E0": 1.0,
+          "pv_over_E0": 0.3000561951014807
+        },
+        {
+          "time_tau": 3.0,
+          "muons": 0.02701319575652532,
+          "charged_electrons": 1.9729868042434746,
+          "neutrinos": 1.0311226900489208,
+          "energy_over_E0": 1.0,
+          "pv_over_E0": 0.32881875786779935
+        },
+        {
+          "time_tau": 5.0,
+          "muons": 0.0036558384988354176,
+          "charged_electrons": 1.9963441615011646,
+          "neutrinos": 1.0778374045643004,
+          "energy_over_E0": 1.0,
+          "pv_over_E0": 0.33271134744638997
+        },
+        {
+          "time_tau": 10.0,
+          "muons": 2.4632846042369223e-05,
+          "charged_electrons": 1.9999753671539575,
+          "neutrinos": 1.0850998158698866,
+          "energy_over_E0": 1.0,
+          "pv_over_E0": 0.33331650123694256
+        }
+      ]
+    },
+    {
+      "drive": "equal_frequency",
+      "X": 0.7437997248866794,
+      "values": [
+        {
+          "time_tau": 0.0,
+          "muons": 0.5124005502266411,
+          "charged_electrons": 1.487599449773359,
+          "neutrinos": 0.0,
+          "energy_over_E0": 1.0,
+          "pv_over_E0": 0.24792744244451145
+        },
+        {
+          "time_tau": 1.0,
+          "muons": 0.1885016280733163,
+          "charged_electrons": 1.8114983719266837,
+          "neutrinos": 0.6477978443066497,
+          "energy_over_E0": 1.0,
+          "pv_over_E0": 0.30190639027584903
+        },
+        {
+          "time_tau": 3.0,
+          "muons": 0.025510921225864885,
+          "charged_electrons": 1.9744890787741352,
+          "neutrinos": 0.9737792580015524,
+          "energy_over_E0": 1.0,
+          "pv_over_E0": 0.3290693916326324
+        },
+        {
+          "time_tau": 5.0,
+          "muons": 0.0034525277497293384,
+          "charged_electrons": 1.9965474722502705,
+          "neutrinos": 1.0178960449538235,
+          "energy_over_E0": 1.0,
+          "pv_over_E0": 0.33274550411480913
+        },
+        {
+          "time_tau": 10.0,
+          "muons": 2.32629489905481e-05,
+          "charged_electrons": 1.9999767370510093,
+          "neutrinos": 1.024754574555301,
+          "energy_over_E0": 1.0,
+          "pv_over_E0": 0.33331700371890877
+        }
+      ]
+    },
+    {
+      "drive": "constant_admission",
+      "X": 0.7399201381472719,
+      "values": [
+        {
+          "time_tau": 0.0,
+          "muons": 0.5201597237054563,
+          "charged_electrons": 1.4798402762945437,
+          "neutrinos": 0.0,
+          "energy_over_E0": 1.0,
+          "pv_over_E0": 0.2466342771126884
+        },
+        {
+          "time_tau": 1.0,
+          "muons": 0.1913560684766551,
+          "charged_electrons": 1.808643931523345,
+          "neutrinos": 0.6576073104576023,
+          "energy_over_E0": 1.0,
+          "pv_over_E0": 0.301430616768141
+        },
+        {
+          "time_tau": 3.0,
+          "muons": 0.02589722772633277,
+          "charged_electrons": 1.9741027722736673,
+          "neutrinos": 0.988524991958247,
+          "energy_over_E0": 1.0,
+          "pv_over_E0": 0.3290049417264297
+        },
+        {
+          "time_tau": 5.0,
+          "muons": 0.0035048086493863046,
+          "charged_electrons": 1.9964951913506137,
+          "neutrinos": 1.03330983011214,
+          "energy_over_E0": 1.0,
+          "pv_over_E0": 0.3327367208047181
+        },
+        {
+          "time_tau": 10.0,
+          "muons": 2.3615214921501243e-05,
+          "charged_electrons": 1.9999763847850784,
+          "neutrinos": 1.0402722169810694,
+          "energy_over_E0": 1.0,
+          "pv_over_E0": 0.3333168745068067
+        }
+      ]
+    }
+  ],
+  "routing_controls": [
+    {
+      "drive": "zeta_dynamic",
+      "reversed_at_tau": {
+        "time_tau": 1.0,
+        "muons": 0.5437746710989524,
+        "charged_electrons": 1.4562253289010476,
+        "neutrinos": 1.8687162722512478,
+        "energy_over_E0": 1.0,
+        "pv_over_E0": 0.24269005432547597
+      },
+      "constant_at_tau": {
+        "time_tau": 1.0,
+        "muons": 0.36787944117144233,
+        "charged_electrons": 1.6321205588285577,
+        "neutrinos": 1.2642411176571153,
+        "energy_over_E0": 1.0,
+        "pv_over_E0": 0.27200798663677705
+      }
+    },
+    {
+      "drive": "zeta_static",
+      "reversed_at_tau": {
+        "time_tau": 1.0,
+        "muons": 0.5361568634865237,
+        "charged_electrons": 1.4638431365134763,
+        "neutrinos": 1.8425371914649813,
+        "energy_over_E0": 1.0,
+        "pv_over_E0": 0.2439597781720734
+      },
+      "constant_at_tau": {
+        "time_tau": 1.0,
+        "muons": 0.36787944117144233,
+        "charged_electrons": 1.6321205588285577,
+        "neutrinos": 1.2642411176571153,
+        "energy_over_E0": 1.0,
+        "pv_over_E0": 0.27200798663677705
+      }
+    },
+    {
+      "drive": "equal_frequency",
+      "reversed_at_tau": {
+        "time_tau": 1.0,
+        "muons": 0.5472572542695684,
+        "charged_electrons": 1.4527427457304316,
+        "neutrinos": 1.880684391007581,
+        "energy_over_E0": 1.0,
+        "pv_over_E0": 0.24210958299770502
+      },
+      "constant_at_tau": {
+        "time_tau": 1.0,
+        "muons": 0.36787944117144233,
+        "charged_electrons": 1.6321205588285577,
+        "neutrinos": 1.2642411176571153,
+        "energy_over_E0": 1.0,
+        "pv_over_E0": 0.27200798663677705
+      }
+    },
+    {
+      "drive": "constant_admission",
+      "reversed_at_tau": {
+        "time_tau": 1.0,
+        "muons": 0.5444028138662296,
+        "charged_electrons": 1.4555971861337704,
+        "neutrinos": 1.8708749248566283,
+        "energy_over_E0": 1.0,
+        "pv_over_E0": 0.24258535650541307
+      },
+      "constant_at_tau": {
+        "time_tau": 1.0,
+        "muons": 0.36787944117144233,
+        "charged_electrons": 1.6321205588285577,
+        "neutrinos": 1.2642411176571153,
+        "energy_over_E0": 1.0,
+        "pv_over_E0": 0.27200798663677705
+      }
+    }
+  ],
+  "expansion_convergence": [
+    {
+      "dt_tau": 0.04,
+      "E_over_E0": 0.6242879287276515,
+      "PV_over_E0": 0.20749033635070632,
+      "max_error": 0.0003503022011904378
+    },
+    {
+      "dt_tau": 0.02,
+      "E_over_E0": 0.6241121383562216,
+      "PV_over_E0": 0.2074317293875478,
+      "max_error": 0.00017451182976057066
+    },
+    {
+      "dt_tau": 0.01,
+      "E_over_E0": 0.6240247228381602,
+      "PV_over_E0": 0.2074025858177988,
+      "max_error": 8.709631169926283e-05
+    },
+    {
+      "dt_tau": 0.005,
+      "E_over_E0": 0.6239811348085099,
+      "PV_over_E0": 0.20738805394838217,
+      "max_error": 4.3508282048874915e-05
+    }
+  ],
+  "continuous_reference": {
+    "E_over_E0": 0.623937626526461,
+    "PV_over_E0": 0.20737354866527988
+  },
+  "omitted_neutrino_energy_deficit_at_tau": 0.10720599418847787,
+  "checks": [
+    {
+      "name": "inherited interface 47 checks",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "name": "positive normalized quadrature",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "event energy conservation relative",
+      "error": 1.344981374922048e-16,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "event momentum conservation relative",
+      "error": 6.72490687461024e-17,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "antineutrino mass shell relative",
+      "error": 1.2984119772128134e-16,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "muon neutrino mass shell relative",
+      "error": 1.2984119772128134e-16,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "electron mass shell relative",
+      "error": 5.1599345463914545e-17,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "charge stoichiometric conservation",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "name": "electron family stoichiometric conservation",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "name": "muon family stoichiometric conservation",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "name": "massless electron mean energy",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "massless electron antineutrino mean energy",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "massless muon neutrino mean energy",
+      "error": 5.551115123125783e-17,
+      "tolerance": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "integrated finite mass phase space factor",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 2e-10,
+      "passed": true
+    },
+    {
+      "name": "64 to 128 quadrature pressure convergence",
+      "error": 6.72490687461024e-17,
+      "tolerance": 2e-10,
+      "passed": true
+    },
+    {
+      "name": "frozen cohort pressure derivative scale 1",
+      "error": 1.9601960305320167e-11,
+      "tolerance": 2e-10,
+      "passed": true
+    },
+    {
+      "name": "frozen cohort pressure derivative scale 0.5",
+      "error": 1.1657861438877463e-11,
+      "tolerance": 2e-10,
+      "passed": true
+    },
+    {
+      "name": "frozen cohort pressure derivative scale 0.1",
+      "error": 2.8479055939279107e-12,
+      "tolerance": 2e-10,
+      "passed": true
+    },
+    {
+      "name": "zeta_dynamic frozen limit",
+      "error": 0.0,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "zeta_dynamic late charged population",
+      "error": 0.0,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "zeta_dynamic charged particle count",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "zeta_dynamic pressure monotonicity",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "name": "zeta_static frozen limit",
+      "error": 0.0,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "zeta_static late charged population",
+      "error": 0.0,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "zeta_static charged particle count",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "zeta_static pressure monotonicity",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "name": "equal_frequency frozen limit",
+      "error": 0.0,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "equal_frequency late charged population",
+      "error": 0.0,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "equal_frequency charged particle count",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "equal_frequency pressure monotonicity",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "name": "constant_admission frozen limit",
+      "error": 0.0,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "constant_admission late charged population",
+      "error": 0.0,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "constant_admission charged particle count",
+      "error": 0.0,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "constant_admission pressure monotonicity",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "name": "first order splitting convergence 1",
+      "error": 0.007326389684015222,
+      "tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "first order splitting convergence 2",
+      "error": 0.0036649813960800692,
+      "tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "first order splitting convergence 3",
+      "error": 0.0018329292207726056,
+      "tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "expanding discrete work closure",
+      "error": 2.017472062383072e-15,
+      "tolerance": 5e-13,
+      "passed": true
+    },
+    {
+      "name": "zero expansion fixed volume recovery",
+      "error": 6.72490687461024e-17,
+      "tolerance": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "omitting neutrinos detected",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "name": "forced dust detected",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Euler negative populations detected",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "name": "energy generator invariant",
+      "error": 0.0,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "pressure distinguishes equal energy states",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "name": "constant routing erases dynamic drive differences",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reversed routing changes dynamics",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "name": "propagated TV neutrino bound 1",
+      "error": 0.0,
+      "tolerance": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "propagated TV neutrino bound 2",
+      "error": 0.0,
+      "tolerance": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "propagated TV neutrino bound 3",
+      "error": 0.0,
+      "tolerance": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "cohort witness nonnegative weights",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "name": "cohort witness full row rank",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "name": "cohort witness equal present N energy stress",
+      "error": 2.220446049250313e-16,
+      "tolerance": 2e-14,
+      "passed": true
+    },
+    {
+      "name": "cohort witness unequal future energy",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "name": "cohort witness unequal future stress",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "name": "cohort witness both normalized",
+      "error": 2.220446049250313e-16,
+      "tolerance": 2e-14,
+      "passed": true
+    },
+    {
+      "name": "massless energy stress transport closure",
+      "error": 0.0,
+      "tolerance": 1e-14,
+      "passed": true
+    }
+  ],
+  "passed": 56,
+  "total": 56,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  }
+}

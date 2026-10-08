@@ -1,3 +1,13 @@
+## Carrier coupling preprint v0.2 · 2026-10-09
+
+**Effective Carrier Routing, Control Work, and Stress in a Finite WRRA Model** — Wonsik Choi and Jeongin Choi.
+
+[English manuscript, Korean guide, and reproducibility source](submission/carrier_coupling_v0_2/README.md) · [Zenodo record](https://zenodo.org/records/23250062) · DOI: **10.5281/zenodo.23250062**.
+
+Explicit effective carrier routing, control-work/stress compatibility, and executed decay composition. Includes 123 carrier-level internal checks; these are not experimental validation or external peer review.
+
+---
+
 ## Particle-selection toy model v0.2 · 2026-10-08
 
 [English manuscript, Korean guide, code and review](submission/particle_selection_v0_2/README.md) — finite prime-factor readout, conditional particle selection, and energy–pressure compatibility. **47/47 implementation checks.** Physical routing remains a declared toy-model possibility. Zenodo DOI pending.

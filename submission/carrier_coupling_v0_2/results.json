@@ -1,0 +1,981 @@
+{
+  "version": "0.2",
+  "inputs": {
+    "g_over_Estar": 0.1,
+    "pulse_area": 1.5707963267948966,
+    "preparation": "conditional independent prime-label registers",
+    "physical_energy_units": "MeV",
+    "E_star": 211.316751,
+    "m_e": 0.51099895069,
+    "m_mu": 105.6583755,
+    "tau_mu_seconds": 2.1969811e-06
+  },
+  "witnesses": [
+    {
+      "address": 9,
+      "chi": 1.0,
+      "dimension": 3,
+      "electron_probability": 1.0
+    },
+    {
+      "address": 15,
+      "chi": 0.5,
+      "dimension": 12,
+      "electron_probability": 0.5
+    },
+    {
+      "address": 25,
+      "chi": 1.0,
+      "dimension": 3,
+      "electron_probability": 1.0
+    },
+    {
+      "address": 45,
+      "chi": 0.5555555555555555,
+      "dimension": 12,
+      "electron_probability": 0.5555555555555556
+    },
+    {
+      "address": 105,
+      "chi": 0.3333333333333333,
+      "dimension": 27,
+      "electron_probability": 0.3333333333333333
+    },
+    {
+      "address": 225,
+      "chi": 0.5,
+      "dimension": 12,
+      "electron_probability": 0.5
+    },
+    {
+      "address": 315,
+      "chi": 0.375,
+      "dimension": 27,
+      "electron_probability": 0.375
+    },
+    {
+      "address": 945,
+      "chi": 0.43999999999999995,
+      "dimension": 27,
+      "electron_probability": 0.44000000000000006
+    }
+  ],
+  "carrier_rows": [
+    {
+      "drive": "zeta_dynamic",
+      "X": 0.7390664036122881,
+      "pulses": [
+        {
+          "theta": 0.7853981633974483,
+          "source": 0.5000000000000001,
+          "electron": 0.369533201806144,
+          "muon": 0.1304667981938559,
+          "pressure_at_5": 0.16636739398303915
+        },
+        {
+          "theta": 1.5707963267948966,
+          "source": 3.749399456654644e-33,
+          "electron": 0.7390664036122881,
+          "muon": 0.26093359638771185,
+          "pressure_at_5": 0.33273478796607836
+        }
+      ],
+      "expanded_at_5": [
+        0.6240247228381602,
+        0.2074025858177988
+      ]
+    },
+    {
+      "drive": "zeta_static",
+      "X": 0.7287127296095072,
+      "pulses": [
+        {
+          "theta": 0.7853981633974483,
+          "source": 0.5000000000000001,
+          "electron": 0.36435636480475353,
+          "muon": 0.1356436351952464,
+          "pressure_at_5": 0.16635567372319496
+        },
+        {
+          "theta": 1.5707963267948966,
+          "source": 3.749399456654644e-33,
+          "electron": 0.7287127296095072,
+          "muon": 0.27128727039049283,
+          "pressure_at_5": 0.33271134744638997
+        }
+      ],
+      "expanded_at_5": [
+        0.6247183921658275,
+        0.20761028698003117
+      ]
+    },
+    {
+      "drive": "equal_frequency",
+      "X": 0.7437997248866794,
+      "pulses": [
+        {
+          "theta": 0.7853981633974483,
+          "source": 0.5000000000000001,
+          "electron": 0.37189986244333967,
+          "muon": 0.12810013755666025,
+          "pressure_at_5": 0.16637275205740454
+        },
+        {
+          "theta": 1.5707963267948966,
+          "source": 3.749399456654644e-33,
+          "electron": 0.7437997248866794,
+          "muon": 0.25620027511332055,
+          "pressure_at_5": 0.33274550411480913
+        }
+      ],
+      "expanded_at_5": [
+        0.6237076025787088,
+        0.20730763243896477
+      ]
+    },
+    {
+      "drive": "constant_admission",
+      "X": 0.7399201381472719,
+      "pulses": [
+        {
+          "theta": 0.7853981633974483,
+          "source": 0.5000000000000001,
+          "electron": 0.3699600690736359,
+          "muon": 0.13003993092636404,
+          "pressure_at_5": 0.16636836040235903
+        },
+        {
+          "theta": 1.5707963267948966,
+          "source": 3.749399456654644e-33,
+          "electron": 0.7399201381472719,
+          "muon": 0.26007986185272813,
+          "pressure_at_5": 0.3327367208047181
+        }
+      ],
+      "expanded_at_5": [
+        0.6239675248366849,
+        0.2073854593702106
+      ]
+    }
+  ],
+  "detuning": [
+    {
+      "volume": 0.5,
+      "electron_transfer": 0.1068883768902063,
+      "source": 0.6600687953160885,
+      "electron": 0.07899760829619959,
+      "muon": 0.26093359638771185,
+      "bare_energy_over_Estar": 1.0205327105542468,
+      "switch_work_over_Estar": 0.02053271055424686,
+      "pressure_after_pulse": 0.033176284091397355,
+      "pressure_after_5": 0.11956136646680193
+    },
+    {
+      "volume": 0.8,
+      "electron_transfer": 0.8592133182904105,
+      "source": 0.10405070652761428,
+      "electron": 0.6350156970846739,
+      "muon": 0.26093359638771185,
+      "bare_energy_over_Estar": 1.0490331203625058,
+      "switch_work_over_Estar": 0.049033120362505796,
+      "pressure_after_pulse": 0.22801167634789662,
+      "pressure_after_5": 0.3143967587233012
+    },
+    {
+      "volume": 1,
+      "electron_transfer": 0.9999999999999973,
+      "source": 1.9984014443252818e-15,
+      "electron": 0.7390664036122861,
+      "muon": 0.26093359638771185,
+      "bare_energy_over_Estar": 1.0,
+      "switch_work_over_Estar": 0.0,
+      "pressure_after_pulse": 0.24634970559067312,
+      "pressure_after_5": 0.3327347879660777
+    },
+    {
+      "volume": 1.2,
+      "electron_transfer": 0.9159312495608968,
+      "source": 0.06213238904320695,
+      "electron": 0.6769340145690812,
+      "muon": 0.26093359638771185,
+      "bare_energy_over_Estar": 0.9600862451734963,
+      "switch_work_over_Estar": -0.03991375482650371,
+      "pressure_after_pulse": 0.21233447803425445,
+      "pressure_after_5": 0.298719560409659
+    },
+    {
+      "volume": 2,
+      "electron_transfer": 0.2901608365925254,
+      "source": 0.5246182776427176,
+      "electron": 0.21444812596957055,
+      "muon": 0.26093359638771185,
+      "bare_energy_over_Estar": 0.9557606336774557,
+      "switch_work_over_Estar": -0.044239366322544285,
+      "pressure_after_pulse": 0.05673414665725617,
+      "pressure_after_5": 0.14311922903266075
+    }
+  ],
+  "coherent_distinction_trace_distance": 0.4714045207910317,
+  "correlated_register_example": {
+    "independent": 0.5555555555555555,
+    "correlated": 1.0
+  },
+  "response": {
+    "probability_slope": 5.743699766120899e-11,
+    "negative_work_slope": 0.24634970552331453,
+    "postpulse_pressure": 0.2463497055906738,
+    "loss_curvature": 2.777645891072211,
+    "analytic_loss_curvature": 2.7776478342735893
+  },
+  "inherited_suites": {
+    "interface": 47,
+    "decay": 56
+  },
+  "checks": [
+    {
+      "name": "inherited dynamic suite passes",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "inherited interface suite passes",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "full matrix pulse probabilities n=9",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "unitarity n=9",
+      "error": 4.440892098500626e-16,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "Hermiticity n=9",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "mixed species coherence zero n=9",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "full matrix pulse probabilities n=15",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "unitarity n=15",
+      "error": 4.440892098500626e-16,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "Hermiticity n=15",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "mixed species coherence zero n=15",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "full matrix pulse probabilities n=25",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "unitarity n=25",
+      "error": 4.440892098500626e-16,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "Hermiticity n=25",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "mixed species coherence zero n=25",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "full matrix pulse probabilities n=45",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "unitarity n=45",
+      "error": 4.440892098500626e-16,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "Hermiticity n=45",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "mixed species coherence zero n=45",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "full matrix pulse probabilities n=105",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "unitarity n=105",
+      "error": 4.440892098500626e-16,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "Hermiticity n=105",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "mixed species coherence zero n=105",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "full matrix pulse probabilities n=225",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "unitarity n=225",
+      "error": 4.440892098500626e-16,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "Hermiticity n=225",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "mixed species coherence zero n=225",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "full matrix pulse probabilities n=315",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "unitarity n=315",
+      "error": 4.440892098500626e-16,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "Hermiticity n=315",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "mixed species coherence zero n=315",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "full matrix pulse probabilities n=945",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "unitarity n=945",
+      "error": 4.440892098500626e-16,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "Hermiticity n=945",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "mixed species coherence zero n=945",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "single-copy affine obstruction witness",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "correlated registers preserve marginals",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "correlated registers change routing",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "label permutation equality invariance",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "label dependent negative control",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "zeta_dynamic operator block readout equals archive",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zeta_dynamic pulse normalization theta=0.7853981633974483",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zeta_dynamic composed pressure theta=0.7853981633974483 u=0",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zeta_dynamic composed pressure theta=0.7853981633974483 u=1",
+      "error": 2.7755575615628914e-17,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zeta_dynamic composed pressure theta=0.7853981633974483 u=3",
+      "error": 2.7755575615628914e-17,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zeta_dynamic composed pressure theta=0.7853981633974483 u=5",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zeta_dynamic pulse normalization theta=1.5707963267948966",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zeta_dynamic composed pressure theta=1.5707963267948966 u=0",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zeta_dynamic composed pressure theta=1.5707963267948966 u=1",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zeta_dynamic composed pressure theta=1.5707963267948966 u=3",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zeta_dynamic composed pressure theta=1.5707963267948966 u=5",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zeta_dynamic expansion comparator handoff",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zeta_static operator block readout equals archive",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zeta_static pulse normalization theta=0.7853981633974483",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zeta_static composed pressure theta=0.7853981633974483 u=0",
+      "error": 1.3877787807814457e-17,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zeta_static composed pressure theta=0.7853981633974483 u=1",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zeta_static composed pressure theta=0.7853981633974483 u=3",
+      "error": 2.7755575615628914e-17,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zeta_static composed pressure theta=0.7853981633974483 u=5",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zeta_static pulse normalization theta=1.5707963267948966",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zeta_static composed pressure theta=1.5707963267948966 u=0",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zeta_static composed pressure theta=1.5707963267948966 u=1",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zeta_static composed pressure theta=1.5707963267948966 u=3",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zeta_static composed pressure theta=1.5707963267948966 u=5",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zeta_static expansion comparator handoff",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "equal_frequency operator block readout equals archive",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "equal_frequency pulse normalization theta=0.7853981633974483",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "equal_frequency composed pressure theta=0.7853981633974483 u=0",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "equal_frequency composed pressure theta=0.7853981633974483 u=1",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "equal_frequency composed pressure theta=0.7853981633974483 u=3",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "equal_frequency composed pressure theta=0.7853981633974483 u=5",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "equal_frequency pulse normalization theta=1.5707963267948966",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "equal_frequency composed pressure theta=1.5707963267948966 u=0",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "equal_frequency composed pressure theta=1.5707963267948966 u=1",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "equal_frequency composed pressure theta=1.5707963267948966 u=3",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "equal_frequency composed pressure theta=1.5707963267948966 u=5",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "equal_frequency expansion comparator handoff",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "constant_admission operator block readout equals archive",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "constant_admission pulse normalization theta=0.7853981633974483",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "constant_admission composed pressure theta=0.7853981633974483 u=0",
+      "error": 1.3877787807814457e-17,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "constant_admission composed pressure theta=0.7853981633974483 u=1",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "constant_admission composed pressure theta=0.7853981633974483 u=3",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "constant_admission composed pressure theta=0.7853981633974483 u=5",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "constant_admission pulse normalization theta=1.5707963267948966",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "constant_admission composed pressure theta=1.5707963267948966 u=0",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "constant_admission composed pressure theta=1.5707963267948966 u=1",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "constant_admission composed pressure theta=1.5707963267948966 u=3",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "constant_admission composed pressure theta=1.5707963267948966 u=5",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "constant_admission expansion comparator handoff",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "detuned Rabi v=0.5",
+      "error": 1.5265566588595902e-16,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "total Hamiltonian conservation v=0.5",
+      "error": 3.886177074183181e-15,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "switching work ledger v=0.5",
+      "error": 3.840677775812651e-15,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "fixed state pressure derivative v=0.5",
+      "error": 2.5654089963467186e-11,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "commutator norm formula v=0.5",
+      "error": 1.0408340855860843e-17,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "nonresonance bare energy failure v=0.5",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "detuned Rabi v=0.8",
+      "error": 1.2212453270876722e-15,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "total Hamiltonian conservation v=0.8",
+      "error": 1.7772239894833365e-15,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "switching work ledger v=0.8",
+      "error": 1.7763568394002505e-15,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "fixed state pressure derivative v=0.8",
+      "error": 1.4952261651046683e-11,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "commutator norm formula v=0.8",
+      "error": 5.204170427930421e-18,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "nonresonance bare energy failure v=0.8",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "detuned Rabi v=1",
+      "error": 2.6645352591003757e-15,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "total Hamiltonian conservation v=1",
+      "error": 2.6645352591003757e-15,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "switching work ledger v=1",
+      "error": 2.5976139099290768e-15,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "fixed state pressure derivative v=1",
+      "error": 6.9961814119778865e-12,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "commutator norm formula v=1",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "reference bare energy commutator",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "detuned Rabi v=1.2",
+      "error": 3.3306690738754696e-16,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "total Hamiltonian conservation v=1.2",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "switching work ledger v=1.2",
+      "error": 2.498001805406602e-16,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "fixed state pressure derivative v=1.2",
+      "error": 1.3597512005247836e-11,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "commutator norm formula v=1.2",
+      "error": 6.071532165918825e-18,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "nonresonance bare energy failure v=1.2",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "detuned Rabi v=2",
+      "error": 8.326672684688674e-16,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "total Hamiltonian conservation v=2",
+      "error": 1.3334236103572998e-15,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "switching work ledger v=2",
+      "error": 1.3808398868775384e-15,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "fixed state pressure derivative v=2",
+      "error": 1.3788525876634594e-11,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "commutator norm formula v=2",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "nonresonance bare energy failure v=2",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "stationary reference probability versus log volume",
+      "error": 5.743699766120899e-11,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "pressure equals negative preparation work slope",
+      "error": 6.735925706102819e-11,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "quadratic resonance loss coefficient",
+      "error": 1.9432013784737023e-06,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    {
+      "name": "coherent interface distinction",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "same probabilities not same quantum channel",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "pulse error quadratic loss",
+      "error": 1.1045309632196076e-17,
+      "tolerance": 1e-12,
+      "passed": true
+    }
+  ],
+  "passed": 123,
+  "total": 123,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  }
+}

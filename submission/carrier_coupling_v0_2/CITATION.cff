@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the preprint using its Zenodo DOI."
+type: article
+title: "Effective Carrier Routing, Control Work, and Stress in a Finite WRRA Model"
+authors:
+  - family-names: Choi
+    given-names: Wonsik
+    orcid: "https://orcid.org/0009-0001-4263-9772"
+  - family-names: Choi
+    given-names: Jeongin
+version: "0.2"
+doi: "10.5281/zenodo.23250062"
+date-released: 2026-10-09
+license: CC-BY-4.0

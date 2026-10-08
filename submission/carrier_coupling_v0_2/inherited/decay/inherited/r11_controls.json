@@ -1,0 +1,413 @@
+{
+  "inputs": {
+    "N": 1000000,
+    "alpha": 1.8996876950554356,
+    "J": 4,
+    "K": 8,
+    "xi_baseline": 0.1,
+    "verified_zeta_frequencies": [
+      14.134725141734695,
+      21.022039638771556,
+      25.01085758014569,
+      30.424876125859512
+    ],
+    "phi_target": 0.05,
+    "D_target": 0.268,
+    "shared_threshold": 1.44767317035244
+  },
+  "WRRA_transform": "Use the same weights, fold retention, depletion rule and unpaired-port renderer. Compare changed phase drives first with h held fixed, then with each h fitted to the same 5% target. Read address probabilities, disjoint factor families and normalized retained-state distances.",
+  "outputs": [
+    {
+      "case": "zeta_dynamic",
+      "label": "제타 위상 진입",
+      "frequencies": [
+        14.134725141734695,
+        21.022039638771556,
+        25.01085758014569,
+        30.424876125859512
+      ],
+      "xi": 0.1,
+      "shared_threshold": 1.44767317035244,
+      "shared_threshold_outputs": {
+        "phenotype": 0.050000000000000835,
+        "nonphenotypic_Actual": 0.2679999999999976,
+        "Actual": 0.3179999999999984,
+        "return": 0.6820000000000012,
+        "weighted_effective_beta": 0.8654570124137104
+      },
+      "refitted_threshold": 1.44767317035244,
+      "refitted_outputs": {
+        "phenotype": 0.050000000000000835,
+        "nonphenotypic_Actual": 0.2679999999999976,
+        "Actual": 0.3179999999999984,
+        "return": 0.6820000000000012,
+        "weighted_effective_beta": 0.8654570124137104
+      },
+      "weighted_admission_L1_difference": 0.0,
+      "retained_address_total_variation": 0.0,
+      "address_9_admission": 0.8568130062359565,
+      "family_phi_contributions": {
+        "3": 0.04018338372160303,
+        "5": 0.006665377039723053,
+        "7": 0.001997811684441824,
+        "other": 0.0011534275542329337
+      }
+    },
+    {
+      "case": "zeta_static",
+      "label": "정지 제타 위상",
+      "frequencies": [
+        14.134725141734695,
+        21.022039638771556,
+        25.01085758014569,
+        30.424876125859512
+      ],
+      "xi": 0.0,
+      "shared_threshold": 1.44767317035244,
+      "shared_threshold_outputs": {
+        "phenotype": 0.04859795776963852,
+        "nonphenotypic_Actual": 0.2679999999999976,
+        "Actual": 0.31659795776963606,
+        "return": 0.6834020422303635,
+        "weighted_effective_beta": 0.8411888668143663
+      },
+      "refitted_threshold": 1.3272231882678218,
+      "refitted_outputs": {
+        "phenotype": 0.04999999999999998,
+        "nonphenotypic_Actual": 0.2679999999999976,
+        "Actual": 0.31799999999999756,
+        "return": 0.682000000000002,
+        "weighted_effective_beta": 0.8654570124136957
+      },
+      "weighted_admission_L1_difference": 0.08938131730714047,
+      "retained_address_total_variation": 0.05163821889770147,
+      "address_9_admission": 0.8038671714112204,
+      "family_phi_contributions": {
+        "3": 0.04020562354115459,
+        "5": 0.006637928041496068,
+        "7": 0.002028634806878005,
+        "other": 0.001127813610471236
+      }
+    },
+    {
+      "case": "equal_frequency",
+      "label": "등간격 주파수",
+      "frequencies": [
+        14.0,
+        21.0,
+        28.0,
+        35.0
+      ],
+      "xi": 0.1,
+      "shared_threshold": 1.44767317035244,
+      "shared_threshold_outputs": {
+        "phenotype": 0.050955926754425146,
+        "nonphenotypic_Actual": 0.2679999999999976,
+        "Actual": 0.31895592675442275,
+        "return": 0.6810440732455769,
+        "weighted_effective_beta": 0.8820032826731181
+      },
+      "refitted_threshold": 1.5258414200781683,
+      "refitted_outputs": {
+        "phenotype": 0.05000000000000279,
+        "nonphenotypic_Actual": 0.2679999999999976,
+        "Actual": 0.3180000000000004,
+        "return": 0.6819999999999993,
+        "weighted_effective_beta": 0.8654570124137443
+      },
+      "weighted_admission_L1_difference": 0.027085904839711128,
+      "retained_address_total_variation": 0.01564832478747932,
+      "address_9_admission": 0.8858008519974042,
+      "family_phi_contributions": {
+        "3": 0.04037629156442888,
+        "5": 0.006502113476252473,
+        "7": 0.001987009253076523,
+        "other": 0.0011345857062448658
+      }
+    },
+    {
+      "case": "constant_admission",
+      "label": "일정 진입 장부",
+      "frequencies": null,
+      "xi": null,
+      "shared_threshold": 1.44767317035244,
+      "shared_threshold_outputs": {
+        "phenotype": 0.04710549810611806,
+        "nonphenotypic_Actual": 0.2679999999999976,
+        "Actual": 0.31510549810611566,
+        "return": 0.6848945018938839,
+        "weighted_effective_beta": 0.815355673183599
+      },
+      "refitted_threshold": 1.25537782309341,
+      "refitted_outputs": {
+        "phenotype": 0.04999999999999958,
+        "nonphenotypic_Actual": 0.2679999999999976,
+        "Actual": 0.3179999999999972,
+        "return": 0.6820000000000024,
+        "weighted_effective_beta": 0.8654570124136887
+      },
+      "weighted_admission_L1_difference": 0.012493733856534612,
+      "retained_address_total_variation": 0.007217997934806976,
+      "address_9_admission": 0.8654570124136896,
+      "family_phi_contributions": {
+        "3": 0.040230998712266194,
+        "5": 0.006624937942860149,
+        "7": 0.001986260966696852,
+        "other": 0.001157802378176391
+      }
+    }
+  ],
+  "sample_addresses": [
+    9,
+    15,
+    21,
+    25,
+    27,
+    35,
+    49,
+    77,
+    119,
+    161
+  ],
+  "sample_admissions": {
+    "zeta_dynamic": [
+      0.8568130062359565,
+      0.8736322948349837,
+      0.8836718815810284,
+      0.8805971988588227,
+      0.8826761409315191,
+      0.867757367279959,
+      0.8658191163182455,
+      0.8873378009942263,
+      0.8892820693055997,
+      0.8721603421987355
+    ],
+    "zeta_static": [
+      0.8038671714112204,
+      0.9965016387961081,
+      0.9775833680584254,
+      0.808177335472313,
+      0.9827251522822411,
+      0.9954649693819585,
+      0.912428352044473,
+      0.8322168544154448,
+      0.9958396344994148,
+      0.7692957300788735
+    ],
+    "equal_frequency": [
+      0.8858008519974042,
+      0.8839082262411101,
+      0.8313450895138347,
+      0.848115176404424,
+      0.8724084311045347,
+      0.856563932615808,
+      0.8804945365830641,
+      0.8301962199454019,
+      0.8804702338901805,
+      0.8752139766681489
+    ],
+    "constant_admission": [
+      0.8654570124136896,
+      0.8654570124136896,
+      0.8654570124136896,
+      0.8654570124136896,
+      0.8654570124136896,
+      0.8654570124136896,
+      0.8654570124136896,
+      0.8654570124136896,
+      0.8654570124136896,
+      0.8654570124136896
+    ]
+  },
+  "falsification_conditions": [
+    "The finite reproduction fails normalization, archived outputs or threshold equations.",
+    "Under a specified carrier-to-particle map, a frozen drive yields incompatible address-family readouts.",
+    "The declared phase mechanism fails its fixed-parameter closure or coupling conditions."
+  ],
+  "scope": "Aggregate reproduction is an explanatory result for each configured WRRA rule. The address distributions distinguish these configurations; these are model state readouts, not observed particle probabilities. The comparison does not establish uniqueness of a zeta drive or derive a microscopic mass map.",
+  "checks": [
+    {
+      "name": "zeta_dynamic_address_admission_probability_range",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "zeta_dynamic_shared_threshold_partition_complete",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "zeta_dynamic_same_target_refit",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "zeta_dynamic_retained_distribution_normalized",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "zeta_dynamic_family_partition_complete",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "zeta_dynamic_distance_bounds",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "zeta_static_address_admission_probability_range",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "zeta_static_shared_threshold_partition_complete",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "zeta_static_same_target_refit",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "zeta_static_retained_distribution_normalized",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "zeta_static_family_partition_complete",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "zeta_static_distance_bounds",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "equal_frequency_address_admission_probability_range",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "equal_frequency_shared_threshold_partition_complete",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "equal_frequency_same_target_refit",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "equal_frequency_retained_distribution_normalized",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "equal_frequency_family_partition_complete",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "equal_frequency_distance_bounds",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "constant_admission_address_admission_probability_range",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "constant_admission_shared_threshold_partition_complete",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "constant_admission_same_target_refit",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "constant_admission_retained_distribution_normalized",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "constant_admission_family_partition_complete",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "constant_admission_distance_bounds",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "zeta_static_archived_threshold_reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "zeta_static_archived_address9_reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "zeta_static_archived_weighted_difference_reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "equal_frequency_archived_threshold_reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "equal_frequency_archived_address9_reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "equal_frequency_archived_weighted_difference_reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "zeta_static_archived_shared_threshold_output_reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "constant_admission_archived_shared_threshold_output_reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "baseline_archived_address_samples_reproduced",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "constant_admission_matches_beta_summary",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "all_refitted_aggregate_partitions_match",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "refitted_controls_have_distinct_address_states",
+      "passed": true,
+      "value": null
+    }
+  ],
+  "passed": 36,
+  "total": 36,
+  "all_passed": true
+}

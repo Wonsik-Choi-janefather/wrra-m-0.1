@@ -1,0 +1,20 @@
+{
+  "source_record": "https://doi.org/10.5281/zenodo.23246308",
+  "inherited_files": [
+    {
+      "path": "inherited/decay/reproduce.py",
+      "sha256": "b735c7b8abb0b8403c10c7bcd9e2425dc8fb931f41b5abec909b0b4df7d036c8",
+      "matches_archived_source": true
+    },
+    {
+      "path": "inherited/decay/inherited/reproduce.py",
+      "sha256": "9b736205c92338139b0c92d1249ef5207b3329081e926fa574109f8e42145ec9",
+      "matches_archived_source": true
+    },
+    {
+      "path": "inherited/decay/inherited/r11_controls.json",
+      "sha256": "044ea59e3d41cf0f2d065c305c7997c3074d1b1dbb9d3da41f5e8a9f713dfb8d",
+      "matches_archived_source": true
+    }
+  ]
+}
