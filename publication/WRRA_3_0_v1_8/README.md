@@ -22,4 +22,8 @@ The frozen acceleration scale uses the disclosed constitutive coefficient kappa=
 
 The final AI-assisted Astra editorial assessment confirmed closure of its remaining revision items and retained its publication recommendation for this model-development contribution. This is not journal acceptance.
 
-The Zenodo submission is being prepared; no published DOI is asserted here until publication is confirmed.
+## Zenodo
+
+Archived publication and downloadable files: [10.5281/zenodo.23233991](https://doi.org/10.5281/zenodo.23233991).
+
+Citation: Choi, Wonsik & Choi, Jeongin (2026). *Developing a finite WRRA toy model to explore quantum gravity vacuum energy and dark sector connections* (v1.8). Zenodo. https://doi.org/10.5281/zenodo.23233991
