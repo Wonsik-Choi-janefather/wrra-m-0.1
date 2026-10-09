@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "title": "Information Weight and Effective Gravitational Coupling in a Finite WRRA Model: Response sufficiency and stability under finite address restrictions",
+    "upload_type": "publication",
+    "publication_type": "preprint",
+    "version": "0.3",
+    "publication_date": "2026-10-09",
+    "creators": [
+      {
+        "name": "Choi, Wonsik",
+        "affiliation": "Independent Researcher, Seoul, Republic of Korea",
+        "orcid": "0009-0001-4263-9772"
+      },
+      {
+        "name": "Choi, Jeongin",
+        "affiliation": "Independent Researcher"
+      }
+    ],
+    "description": "A finite WRRA response-information study. Explicit preparations preserve the inherited weighted carrier snapshot yet have different load susceptibilities. The manuscript distinguishes joint and clamped equilibration, derives the positive-Hessian stability criterion, identifies sufficient load-class information, and states the condition for a scalar effective gravitational coupling. Version 0.3 adds a preparation comparison table, standalone carrier/load explanation, matrix interpretation and a proposed finite-lattice application. Includes executable reproduction materials and an internal Astra Medium review; not external peer review or journal acceptance. Absolute Newtonian normalization remains a calibration input.",
+    "keywords": [
+      "WRRA",
+      "information load",
+      "gravitational response",
+      "finite state reduction",
+      "susceptibility",
+      "coarse graining"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/tree/main/submission/information_weight_v0_3",
+        "relation": "isSupplementTo",
+        "scheme": "url"
+      }
+    ]
+  }
+}

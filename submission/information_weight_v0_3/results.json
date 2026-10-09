@@ -1,0 +1,262 @@
+{
+  "witness": {
+    "addresses": [
+      4.0,
+      6.0,
+      8.0
+    ],
+    "weights": [
+      0.5777356649732905,
+      0.26743039328620827,
+      0.1548339417405012
+    ],
+    "f_D": [
+      1.025058827732193,
+      1.0323880649998751,
+      1.0375882415982896
+    ],
+    "delta": [
+      -0.038029997664907854,
+      0.1979508525095474,
+      -0.2
+    ],
+    "conditional_A": [
+      [
+        0.5619700023350921,
+        0.43802999766490786
+      ],
+      [
+        0.7979508525095473,
+        0.20204914749045264
+      ],
+      [
+        0.39999999999999997,
+        0.6000000000000001
+      ]
+    ],
+    "conditional_B": [
+      [
+        0.6380299976649079,
+        0.3619700023350922
+      ],
+      [
+        0.4020491474904526,
+        0.5979508525095474
+      ],
+      [
+        0.8,
+        0.2
+      ]
+    ],
+    "load": 0.8231670936590105,
+    "variance_A": 1.0164517062898177,
+    "variance_B": 1.016435565120238,
+    "gap": 1.6141169579764192e-05,
+    "clamped_variance_A": 0.9415718352900937,
+    "clamped_variance_B": 0.9415686070561777,
+    "response_A": 1.0167268922075579,
+    "response_B": 1.016710206812477
+  },
+  "clamped_contract": {
+    "flat": 1.0,
+    "split": 0.6400000000000001
+  },
+  "entropy_example": {
+    "entropy": 1.193549604098133,
+    "variances": [
+      1.6,
+      3.4000000000000004
+    ]
+  },
+  "graph": {
+    "generalized_covariance_eigenvalues": [
+      0.23240812075600165,
+      1.4342585459106645
+    ],
+    "eta_critical": 0.6972243622680055,
+    "eta": 0.3,
+    "gains": [
+      1.0749479928807557,
+      1.7552406863645267
+    ],
+    "response": [
+      [
+        0.8805031446540879,
+        0.6289308176100628
+      ],
+      [
+        0.6289308176100628,
+        1.1635220125786163
+      ]
+    ]
+  },
+  "schur": {
+    "correct": [
+      -0.20327868852459013,
+      -0.12459016393442619
+    ],
+    "wrong": [
+      -0.08852459016393442,
+      0.03606557377049181
+    ],
+    "constant": -0.09799999999999999
+  },
+  "checks": {
+    "conditional_normalization_A": {
+      "residual": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    "conditional_normalization_B": {
+      "residual": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    "same_carrier_marginal": {
+      "residual": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    "same_weighted_D_operator": {
+      "residual": 5.551115123125783e-17,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    "same_load": {
+      "residual": 1.1102230246251565e-16,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    "null_sum": {
+      "residual": -1.719002071137745e-18,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    "null_f": {
+      "residual": -3.9583755551418496e-19,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    "covariance_gap_identity": {
+      "residual": 5.551115123125783e-17,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    "clamped_covariance_gap": {
+      "residual": 1.1102060839662115e-17,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    "gradient_difference_A": {
+      "residual": 5.260858415567782e-11,
+      "tolerance": 1e-08,
+      "pass": true
+    },
+    "gradient_difference_B": {
+      "residual": 2.7005508940192158e-11,
+      "tolerance": 1e-08,
+      "pass": true
+    },
+    "clamped_gradient_difference_A": {
+      "residual": 2.331923543152925e-11,
+      "tolerance": 1e-08,
+      "pass": true
+    },
+    "clamped_gradient_difference_B": {
+      "residual": 2.3749779920478886e-11,
+      "tolerance": 1e-08,
+      "pass": true
+    },
+    "same_global_load_distribution": {
+      "residual": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    "clamped_contract_gap": {
+      "residual": -1.1102230246251565e-16,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    "same_entropy": {
+      "residual": -2.220446049250313e-16,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    "same_entropy_example_mean": {
+      "residual": -5.551115123125783e-17,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    "matrix_inverse": {
+      "residual": 3.18948246283549e-16,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    "schur_response": {
+      "residual": 5.003707553108401e-17,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    "schur_energy": {
+      "residual": -2.7755575615628914e-17,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    "load_class_partition_0": {
+      "residual": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    "load_class_partition_1": {
+      "residual": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    "load_class_partition_2": {
+      "residual": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    "load_class_partition_3": {
+      "residual": -1.1102230246251565e-16,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    "load_class_partition_4": {
+      "residual": -1.1102230246251565e-16,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    "load_class_partition_5": {
+      "residual": -2.220446049250313e-16,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    "load_class_partition_6": {
+      "residual": -2.220446049250313e-16,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    "load_class_partition_7": {
+      "residual": -1.6653345369377348e-16,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    "load_class_partition_8": {
+      "residual": -3.885780586188048e-16,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    "isothermal_pressure": {
+      "residual": 3.8631597920613103e-13,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    "dimensional_rescaling": {
+      "residual": 7.97218214573518e-17,
+      "tolerance": 1e-10,
+      "pass": true
+    }
+  },
+  "all_pass": true
+}

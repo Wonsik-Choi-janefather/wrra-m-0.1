@@ -1,0 +1,10 @@
+v0.3 readability and context revision — 9 October 2026
+
+1. Added Table 1 comparing joint and clamped relaxation, state constraints, covariance and sufficient descriptions. Previous Tables 1 and 2 become Tables 2 and 3; cross-references updated.
+2. Added a standalone Section 2 bridge explaining common carrier, conditional carrier states and the prescribed information load.
+3. Added a concrete proposed one-particle finite-lattice realization to Section 10, with operational constraints, fixed inputs, measured outputs and rejection conditions. Many-particle interactions and experimental validation are explicitly future work.
+4. Added Section 4 interpretation of C, K and M, modal gain, and the distinction between a singular quadratic response and a global phase transition.
+
+Propositions, equations (1)–(17), reproduction code and numerical outputs are unchanged. Numerical regression is rerun for this version. The earlier Astra reports apply to v0.1 and v0.2; a new Astra Medium review is requested for v0.3.
+
+Astra Medium v0.3 review: all four requested changes resolved. The Table 1 caption notation was corrected and C_n explicitly defined; reviewer verified both source and final PDF. No further manuscript correction requested.
