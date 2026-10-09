@@ -46,3 +46,5 @@ Verification scope: phenotype 0.05 and address-9 admissions are recalculated; D=
 Reversed and constant routing are explicitly checked for each of four controls.
 The arithmetic-to-species rule is one possible component of a toy model, not a physically verified mechanism.
 Artistic motivation is personal research history, not physical evidence.
+
+Release 0.2-r1, 9 October 2026: repair six native equation delimiter groups only. Run source/fix_delimiters.py output/WRRA_Address_Particle_Interface_v0_2_EN.docx after the existing reconstruction steps. The code and numerical results are unchanged. Historical AI reports and a post-correction verification accompany this release; these are not journal peer review.

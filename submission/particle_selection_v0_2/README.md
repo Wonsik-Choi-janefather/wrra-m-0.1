@@ -37,8 +37,19 @@ Expected: 47/47 checks pass. See [execution notes](source/README.txt).
 
 Public research preprint materials; not journal accepted. Astra medium PASS is an internal AI review, not journal peer review. The final wording-only conclusion clarification follows that review and is recorded separately.
 
-Zenodo registration: pending; no new DOI has yet been issued. The manuscript retains its preparation-stage availability statement; this README will record the release DOI once registration succeeds.
+Corrected release 0.2-r1: https://doi.org/10.5281/zenodo.23253033
+
+Previous 0.2: https://doi.org/10.5281/zenodo.23241511
+
+The manuscript retains its preparation-stage version and availability statement; these deposit links supersede that historical statement.
 
 Prior r11 record: https://doi.org/10.5281/zenodo.23237629
 
 License: CC BY 4.0, consistent with this repository. Correspondence: janefather@gmail.com. Wonsik Choi ORCID: https://orcid.org/0009-0001-4263-9772
+
+## Final review and delimiter repair — 9 October 2026
+
+The final Astra Medium AI review and post-correction verification are archived in source/. Six equation delimiter groups in equations (2), (3), (4), (6), (9), and (10) were repaired in native Word math and the PDF regenerated. Astra directly inspected all 10 corrected PDF pages and confirmed the mandatory typesetting issue resolved: scientific PASS and corrected-file readiness PASS within this AI review. This is not journal peer review or acceptance.
+
+Code, inputs and results remain byte-identical; the historical 47/47 checks remain applicable. After all existing reconstruction scripts, run `python source/fix_delimiters.py output/WRRA_Address_Particle_Interface_v0_2_EN.docx`, then render the PDF. See `source/Release_Notes_v0_2_r1.txt` and `source/SHA256.json`.
+

@@ -1,0 +1,5 @@
+Release 0.2-r1 — 9 October 2026
+DOI: https://doi.org/10.5281/zenodo.23253033
+Previous release: https://doi.org/10.5281/zenodo.23241511
+Six delimiter groups repaired in equations (2),(3),(4),(6),(9),(10); native editable math retained. No scientific text, assumptions, computation or numerical result changes. Astra Medium inspected all 10 corrected PDF pages and cleared the mandatory typesetting issue. Reports are internal AI review, not journal peer review.
+Packaging verification: reproduce.py, results.json and r11_controls.json were compared byte-for-byte with the reviewed original and match. The included SHA256.json describes the corrected release files. Preparation-stage statements about missing DOI in unchanged manuscript/guide are superseded by this release record.
