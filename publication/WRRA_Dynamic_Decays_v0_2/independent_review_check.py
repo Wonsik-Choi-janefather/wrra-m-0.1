@@ -1,5 +1,5 @@
 """Independent 1D continuum checks of WRRA v0.2; no manuscript-module import.
-Usage: python astra_independent_review_check.py [path/to/results.json]
+Usage: python independent_review_check.py [path/to/results.json]
 Uses archived cohort weights, but recomputes moments by analytic angular
 integration and scipy adaptive electron-energy integration (not p,z quadrature).
 """
@@ -9,7 +9,7 @@ from pathlib import Path
 import numpy as np
 from scipy.integrate import quad
 
-path = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).resolve().parent / 'deliverables/WRRA_Dynamic_Decays_v0_2/results.json'
+path = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).resolve().parent / 'results.json'
 r = json.loads(path.read_text())
 M, m = r['inputs']['m_mu_MeV'], r['inputs']['m_e_MeV']
 hi = (M*M+m*m)/(2*M)
