@@ -247,7 +247,7 @@ We implement a two-stage protocol. First perform the pulse at a fixed preparatio
 
 For the illustrative $g/E_*=0.1$ and $\theta=\pi/2$, the assigned physical scale would give $t_p=\pi\hbar/(2g)\simeq4.9\times10^{-23}$ s, far below the supplied muon lifetime. This checks the separation of time scales for that ideal parameter choice; it does not establish that a controller with this coupling is physically available.
 
-The inherited lifetime is $\tau_\mu=2.1969811\times10^{-6}$ s. The inherited positive $64\times64$ quadrature represents $\mu^-\to e^-+\bar\nu_e+\nu_\mu$ and the charge conjugate. It uses the tree-level unpolarized Fermi shape, massive electrons, massless neutrinos, and the inclusive measured lifetime as an effective scale [3,8]. These external physical inputs are evaluated by the included code. They are not deduced from $Q$. The original approximation excludes radiative photon packets, inverse reactions, annihilation, and medium effects.
+The inherited lifetime is $\tau_\mu=2.1969811\times10^{-6}$ s. The inherited positive $64\times64$ quadrature represents $\mu^-\to e^-+\overline{\nu}_e+\nu_\mu$ and the charge conjugate. It uses the tree-level unpolarized Fermi shape, massive electrons, massless neutrinos, and the inclusive measured lifetime as an effective scale [3,8]. These external physical inputs are evaluated by the included code. They are not deduced from $Q$. The original approximation excludes radiative photon packets, inverse reactions, annihilation, and medium effects.
 
 Let $u=t/\tau_\mu$ measure time after the pulse. Let $D_\mu$ be the normalized daughter pressure-volume moment per resting parent, $D_\mu=\langle\sum_i p_i^2/(3E_i)\rangle/m_\mu$, evaluated with that quadrature. For initial carrier probabilities $P_s,P_e,P_\mu$ at fixed volume, the composition gives
 
@@ -304,7 +304,7 @@ Table 2. Calculated detuning response for the zeta-dynamic preparation, $g/E_*=0
 | Correlated register draws | Same marginals, different equality weight | Independence must be declared |
 | Identify mixed and pure outputs | Nonzero trace distance at 105 | Probability agreement does not prove channel identity |
 | Detuned pulse but omit switching work | Bare-energy change is unaccounted | Interaction and control must enter the ledger |
-| Assign dust pressure to output | Hot electron branch has positive derivative | Hamiltonian realization does not solve the pressure obstruction |
+| Assign dust pressure to output | Hot electron branch has a positive pressure-volume moment | Hamiltonian realization does not solve the pressure obstruction |
 
 Table 3. Distinct reasons for failure; none is repaired by refitting a hidden address-dependent coupling.
 
