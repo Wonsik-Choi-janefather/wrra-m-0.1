@@ -31,7 +31,7 @@
     ],
     "margin_overflow_pages": [],
     "build_log_bytes": 0,
-    "md_sha256": "4acf61b09772ca5c2a2b5f0175b165c59f1e03a86c8d89c5829c24a024d04c76"
+    "md_sha256": "11aa62dfdd54f251ac32f1e85257c22e60ff6da6d02a1fef0528a11eb5643d35"
   },
   "EN": {
     "pages": 200,
@@ -65,10 +65,11 @@
     ],
     "margin_overflow_pages": [],
     "build_log_bytes": 0,
-    "md_sha256": "c99af7cc310dfb5ffab3be583c3c0e95d2b6826cfbd8e79ee527afc15300a50b"
+    "md_sha256": "db93d735783e03a1c3929a46ed6e3742751609183b01ab7fdc87bea89894a33a"
   },
   "science_rerun": {
     "P7_v0.2": "38/38 passed",
     "other_papers": "not rerun for this book edit"
-  }
+  },
+  "editorial_correction": "2026-10-11: WRRA name restored from frozen Core 1.0; equations and numerical results unchanged."
 }

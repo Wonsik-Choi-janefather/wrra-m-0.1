@@ -25,3 +25,5 @@ PDF 검증: KO186쪽, EN200쪽. 누락 이미지0, 조판 로그 경고0, 페이
 - source_sha256.json, verification_v012.json, media_restore_map.json, chapter_index_KO/EN.json
 - P7_v02_rerun_results.json
 - Astra_Publication_Rereview_v0.12_KO.md: AI 재심; 실제 출판사·학술지 승인 아님
+
+2026-10-11 명칭 정정: WRRA = Wonsik Reality–Renderer Architecture. Core 1.0(2026-09-07) 표지에 근거해 잘못된 약어 확장과 역사적 별칭 설명을 수정했다. 수식·코드·계산 결과는 변경하지 않았다. AI 재심사의 M6 판정도 오류 기록으로 정정했다.
