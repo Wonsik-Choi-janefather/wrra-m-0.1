@@ -1,0 +1,51 @@
+Review of WRRA_Twist_CMB_Calibrated_Toy_EN_v0_4
+
+Recommendation: Yes—publication after minor revisions, specifically as a short exploratory calibrated toy-model/computational model-development note. I no longer recommend major revision for that stated scope. The substantive concerns raised for v0.3 have been addressed. This recommendation does not extend to publication as evidence for a distinct cosmological mechanism or as observational confirmation of the twist interpretation.
+
+Evaluation chain
+
+Inputs: The observational inputs are 215 Planck PR3 binned TT/TE/EE measurements. Standard GR, recombination, neutrino/radiation evolution, the pressureless closure and adiabatic power-law initial conditions are adopted physical rules. The baryon fraction, optical depth and other fixed settings are modeling/calibration assumptions. Version 0.4 now distinguishes these evidential categories appropriately.
+
+Framework-specific transformation: The proposed gravitational stress phenotype is assigned to a separately budgeted pressureless component. The wrapper translates H0 and total nonbaryonic fraction into physical densities, subtracts standard massive neutrinos before populating CAMB's CDM slot, imposes the selected baryon-fraction restriction, and completes flat closure with radiation. CAMB supplies transfer evolution. The finite-source/common-carrier state, twist field, topology and redshift reinterpretation do not enter this calculation. The new mapping table makes this division sufficiently explicit.
+
+Outputs: The result is an executable calibration of lensed TT/TE/EE, with conditional peak positions, acoustic scale and sound horizon. The central numerical conclusion is the improvement of a specified diagonal residual objective within a restricted standard effective cosmological family. These outputs legitimately demonstrate implementation and calibrated reproduction; they do not discriminate the proposed ontology.
+
+Falsification: Bookkeeping or reproduction failures would reject the implementation. Suitable observational tests could reject a fixed effective profile or its restrictions. A future microscopic twist realization could fail to yield the assumed stress and conservation rules. Version 0.4 correctly distinguishes these levels and states that exactly equivalent CDM and twist interpretations are not distinguishable by this calculation.
+
+Independent checks and their limits
+
+I read the revised PDF, check_twist_robustness.py, twist_robustness_results.json and robustness_run.log. In my v0.3 review I independently recalculated the main residual statistics, density closure and accuracy-boost difference from the supplied spectra and raw data; all matched the reported values.
+
+For this revision I additionally executed the model/residual functions in a read-only evaluation at the supplied alternative-start endpoint, fixed-physical-baryon endpoint and training-fit endpoint. I did not run the optimization or invoke the script's file-writing section. These fresh CAMB evaluations reproduced:
+
+- Alternative-start endpoint: R_all = 1.0347911077008694 and sum of squared residuals = 230.2204168640103.
+- Fixed-physical-baryon endpoint: R_all = 1.0572124027790903, sum of squared residuals = 240.30508388683654, and Omega_b = 0.049452389560931606.
+- Training endpoint: training sum of squared residuals = 162.8815150237749 and withheld-bin R = 1.1241830741867351.
+
+I inspected the identical-input benchmark code and its zero-difference result. It is properly characterized as a wrapper-equivalence check; both sides use the same solver and physical inputs. I did not independently repeat that benchmark or the full optimization trajectories. Thus the additional verification confirms endpoint outputs and diagnostics, not independent proof of optimizer convergence or global uniqueness. No manuscript or supplied calculation file was modified.
+
+Assessment of the revisions
+
+The new mapping table and restricted-module paragraph resolve the principal attribution concern. They identify what this implementation adds beyond the prior inheritance statement: an explicit baryon/neutrino split, radiation-completed density budget, primordial inputs and executable calibration recipe. The contribution remains modest and primarily architectural. The dust equations and density identities are standard, but turning the framework's prescription into an inspectable, calibrated interface is a legitimate model-development result for a venue accepting such notes.
+
+The fixed-physical-baryon experiment addresses the parameterization concern directly. It shows that the selected baryon restriction changes inferred H0 and dark fraction while retaining a similar diagnostic residual magnitude. The manuscript does not overinterpret the difference as statistical preference or a confidence interval.
+
+The alternative starting point and difference step yield essentially the same residual objective and nearby parameters. That is useful limited robustness evidence. The optimizer diagnostics are now transparent, and the manuscript avoids a claim of a global optimum. TT/EE improvement, slight TE degradation and weak withheld-bin improvement are described proportionately. The distinction between implementation failure and physical falsification is also now adequate.
+
+Remaining essential revisions: minor clarification and reproducibility edits
+
+1. Say explicitly that the reported optimality values do not meet the configured gradient tolerance, gtol = 0.0001. The recheck optimality is about 1.20, and the other reported values also exceed that threshold. Termination by ftol or xtol is permitted, but these endpoints should be called stable calibration endpoints under the reported checks, not verified stationary optima. The existing caveats largely convey this; one direct sentence would remove the remaining ambiguity. This does not require a new optimization campaign for the present descriptive scope.
+
+2. Add the command for reproducing the new checks, OMP_NUM_THREADS=2 python check_twist_robustness.py, and state that it is run after calibrate_twist.py because it reads the calibration JSON. Record the tested Python, NumPy and SciPy versions, since only CAMB is pinned exactly and optimizer stopping behavior is part of the reported evidence. Existing minimum-version requirements can remain alongside that environment record.
+
+3. Define 'ordinary' as the baryonic matter component in the displayed stress-budget equation. Photons and neutrinos have their own terms here, whereas the prior framework excerpt uses a broader ordinary-sector description. A short definition prevents apparent double counting. Also remove the duplicated punctuation after optimizer termination quotations.
+
+These are minor edits, not outstanding substantive objections. I would not require another major-review cycle if they are incorporated accurately.
+
+Optional future work, not acceptance conditions for this scope
+
+A full Planck likelihood, nuisance parameters, band windows and covariance would be needed for formal parameter inference or strong observational-viability claims. They are optional extensions to the current explicitly diagnostic calibration. Broader multistart optimization, posterior/degeneracy analysis, more complete lensing-convergence tests, BAO/BBN comparisons, a derived twist stress tensor, finite-topology transfer effects and distinctive predictions would also enlarge the work. None is a necessary condition for publishing this narrowly framed implementation note.
+
+Final judgment
+
+I recommend publication after the minor revisions above in a venue that accepts exploratory computational/model-development notes. The result is a transparent effective-model interface and reproducible calibration demonstration, with clearly bounded explanatory content. It supplies no evidence favoring twist over an exactly equivalent pressureless-component interpretation, and the revised manuscript now says so adequately. My favorable recommendation rests on the clarified scope, correct accounting, inspectable implementation and reproduced numerical endpoints—not on a presumption that the broader WRRA framework has been validated.

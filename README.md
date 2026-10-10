@@ -1,3 +1,9 @@
+## Calibrated twist-stress CMB toy model v0.5 · 2026-10-10
+
+[Final manuscript, reproducibility supplement and full Astra Medium review](submission/cmb_twist_toy_v0_5/README.md). Planck TT/TE/EE calibration, robustness checks and density-ledger mapping; exploratory model-development scope.
+
+---
+
 ## Carrier coupling preprint v0.2 · 2026-10-09
 
 **Effective Carrier Routing, Control Work, and Stress in a Finite WRRA Model** — Wonsik Choi and Jeongin Choi.
