@@ -1,0 +1,186 @@
+{
+  "version": "0.2",
+  "inputs": {
+    "N": 1015000,
+    "alpha": 1.8996877935161325,
+    "history_bits": 4,
+    "baseline_stiffness": 2,
+    "beta": 1,
+    "query_tolerance": 0
+  },
+  "mean_load": [
+    0.8231670936590105,
+    0.8231670936590103
+  ],
+  "variance": [
+    1.0164517062898177,
+    1.0164355651202377
+  ],
+  "susceptibility": [
+    1.0167268922075579,
+    1.0167102068124767
+  ],
+  "analytic_variance_difference": 1.6141169579807733e-05,
+  "response_gap": 1.6685395081150745e-05,
+  "one_state_minimax_error": 8.342697540575372e-06,
+  "history_states": 16,
+  "exact_response_states": 2,
+  "blank_environment_min_states": 8,
+  "thermal_reset": {
+    "ground_probability": 0.6323326828120425,
+    "bath_heat": 2.9207078947374034,
+    "memory_entropy_decrease_nats": 1.0418098099382342,
+    "bath_relative_entropy_nats": 1.878898084799169,
+    "bath_entropy_nats": 1.0376317317416015
+  },
+  "checks": {
+    "positive_preparations": true,
+    "normalization": true,
+    "address_marginal": true,
+    "carrier_marginal": true,
+    "weighted_snapshot": true,
+    "equal_mean": true,
+    "stable_response": true,
+    "different_response": true,
+    "analytic_variance_difference": true,
+    "sixteen_histories": true,
+    "two_response_classes": true,
+    "eight_histories_per_class": true,
+    "reversible_factorization": true,
+    "decode_history": true,
+    "xor_online_closure": true,
+    "one_state_lower_bound": true,
+    "finite_swap_bijective": true,
+    "finite_swap_involution": true,
+    "blank_environment_exact_reset": true,
+    "blank_reset_retains_sixteen_distinctions": true,
+    "thermal_full_support": true,
+    "imperfect_reset": true,
+    "finite_heat_equality": true,
+    "positive_correction": true,
+    "majorization_preimage_bound": true,
+    "swap_attains_blank_probability_bound": true,
+    "residue_preserved_by_swap": true,
+    "thermal_support_obstruction": true,
+    "total_entropy_preserved": true,
+    "thermal_energy_ledger": true,
+    "overflow_stage_four": true,
+    "overflow_stage_three_with_initial_residue": true,
+    "stall_preserves_incoming": true,
+    "overwrite_eight_to_one": true,
+    "overflow_counting_obstruction": true,
+    "injective_accumulation_stage_1": true,
+    "injective_accumulation_stage_2": true,
+    "injective_accumulation_stage_3": true
+  },
+  "passed": 38,
+  "total": 38,
+  "accumulation": {
+    "tape_states": 512,
+    "all_controlled_register_states_upper_bound": 65536,
+    "initially_empty": [
+      {
+        "stage": 0,
+        "occupied_cells": 0,
+        "tape": [
+          0,
+          0,
+          0
+        ],
+        "overflow": false,
+        "incoming": 0
+      },
+      {
+        "stage": 1,
+        "occupied_cells": 1,
+        "tape": [
+          1,
+          0,
+          0
+        ],
+        "overflow": false,
+        "incoming": 0
+      },
+      {
+        "stage": 2,
+        "occupied_cells": 2,
+        "tape": [
+          1,
+          6,
+          0
+        ],
+        "overflow": false,
+        "incoming": 0
+      },
+      {
+        "stage": 3,
+        "occupied_cells": 3,
+        "tape": [
+          1,
+          6,
+          3
+        ],
+        "overflow": false,
+        "incoming": 0
+      },
+      {
+        "stage": 4,
+        "occupied_cells": 3,
+        "tape": [
+          1,
+          6,
+          3
+        ],
+        "overflow": true,
+        "incoming": 5
+      }
+    ],
+    "initial_residue": [
+      {
+        "stage": 0,
+        "occupied_cells": 1,
+        "tape": [
+          7,
+          0,
+          0
+        ],
+        "overflow": false,
+        "incoming": 0
+      },
+      {
+        "stage": 1,
+        "occupied_cells": 2,
+        "tape": [
+          7,
+          1,
+          0
+        ],
+        "overflow": false,
+        "incoming": 0
+      },
+      {
+        "stage": 2,
+        "occupied_cells": 3,
+        "tape": [
+          7,
+          1,
+          6
+        ],
+        "overflow": false,
+        "incoming": 0
+      },
+      {
+        "stage": 3,
+        "occupied_cells": 3,
+        "tape": [
+          7,
+          1,
+          6
+        ],
+        "overflow": true,
+        "incoming": 3
+      }
+    ],
+    "overwrite_preimage_multiplicity": 8
+  }
+}

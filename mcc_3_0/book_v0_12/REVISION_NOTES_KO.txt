@@ -1,0 +1,27 @@
+MCC 3.0 전체 책 v0.12 — Astra 출판 검토 반영
+2026-10-10
+
+B1: 기존 수식·그림 원본 복원. raw HTML을 Markdown 이미지로 변환. 양언어 각 46개 이미지 참조 및 PDF 이미지 배치 확인. 언어별 media 폴더와 복원 대응표 포함.
+B2: 영어 7.1–7.5, 17.1, 명제17–22 보충. 제6부를 공통 19–27장으로 대응. 이전 영문 제6부 확장 해설은 양쪽에 동일한 보존 부록G로 유지. 전권1–99장 목차 제공.
+M1: 외부 수리재료, 조건부 대응, 실제 내부 실행의 현재 등급을 해당 표·문장 옆에 명시.
+M2: 정규화 Gibbs 상태의 일정한 스칼라 영점 이동 불변성 및 반증조건 수정.
+M3: 연속 적분 G_E와 유한 근사 G_E,N 구별, spectral density TeX 복원.
+M4: J 에너지와 J/m³ 밀도 사이의 V0를 명시.
+M5: 응력·렌즈 중심과 바리온 기체 중심의 분리를 정확하게 서술.
+M6: WRRA 정식 명칭과 과거 설명용 별칭을 구분.
+M7: 장 참조·목차·원전 배포 설명과 현재 배포 구성 정리. evidence/에 원본B 및 P1–P7 제공.
+경미 수정: 양의 비용 조건, 뫼비우스 띠의 경계, 영문 장 내부 번호, 용어 및 carrier 구현 비교표.
+P7: Entropy 준비본 v0.2로 갱신. 정수 정의역, exact_response_states, query_tolerance=0, 반올림값, 현재 응답 기록에서의 접근 상실과 전역 파괴 구분.
+
+실행 검증: P7 v0.2 reproduce.py를 직접 재실행하여 38/38 검사 통과.
+다른 논문 과학 계산은 이번 편집에서 재실행하지 않음. 원전의 실행 기록과 이번 조판·편집 검증을 구분함.
+PDF 검증: KO186쪽, EN200쪽. 누락 이미지0, 조판 로그 경고0, 페이지 가로 여백을 벗어난 텍스트0. 복구 수식·그림 및 추가 번역·P7 구간 표본 시각 검사.
+
+파일 구성:
+- 한글/영문 전체책 PDF, Markdown
+- media/KO, media/EN 및 RAR 그림
+- render.sh, header.tex, fitmath.lua: PDF 재생성
+- evidence/: 원전B 및 P1–P7 자료; P7은 Entropy 준비본 중 원고·코드 자료만 포함
+- source_sha256.json, verification_v012.json, media_restore_map.json, chapter_index_KO/EN.json
+- P7_v02_rerun_results.json
+- Astra_Publication_Rereview_v0.12_KO.md: AI 재심; 실제 출판사·학술지 승인 아님
