@@ -23,4 +23,4 @@ Extract the supplement, install requirements.txt, then run `python calibrate_twi
 
 Astra Medium recommended publication of v0.4 after minor revisions within the exploratory calibrated toy-model/computational model-development scope. All three requested minor edits are implemented in v0.5. No separate fresh v0.5 review or journal acceptance is claimed. Full reviews and the reviewed/final PDF provenance are preserved in the supplement.
 
-Zenodo registration is in progress; no DOI is asserted before publication is verified.
+Published on Zenodo: [10.5281/zenodo.23279516](https://zenodo.org/records/23279516).
