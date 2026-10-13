@@ -22,3 +22,8 @@
 별도 토이모델 기술노트: **최원식 Wonsik Choi 단독저자**, v0.29. 에너지 보존 유한 교환과 조건부 스칼라 GR 모드의 보존 검사 및 한계를 정리했다. 기존 표준 완성의 CMB 재현 결과와 새 상호작용 모드를 구분하며 공식 Planck 우도는 아직 실행하지 않았다.
 
 [한·영 기술노트와 코드](finite_frame_spatial_bridge_v0_29/README.md) · [Zenodo DOI 10.5281/zenodo.23328994](https://doi.org/10.5281/zenodo.23328994)
+
+
+### 문서 개정 v0.29.1
+
+[최신 한·영 문서와 제한된 진행 보고](finite_frame_spatial_bridge_v0_29_1/README.md) · [Zenodo 10.5281/zenodo.23329214](https://doi.org/10.5281/zenodo.23329214). 단독저자 최원식. 정규화된 유한 수치 잔차와 전달 누락 대조군을 명확히 설명하고 기존 CMB와 새 단일 모드를 구분했다. 수치 코드·입력·결과는 이전 v0.29와 동일하다.

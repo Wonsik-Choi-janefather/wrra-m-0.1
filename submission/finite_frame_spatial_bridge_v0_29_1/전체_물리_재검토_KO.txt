@@ -1,0 +1,78 @@
+WRRA 물리 브리지 — 한 공간 모드 검사 및 전체 재검토 v0.29
+최원식 연구 장부 / 2026-10-13
+
+검증 입력 → WRRA 고유 변환 → 산출값 → 반증조건
+
+1. 검증 입력과 현재까지의 범위
+기존 1,015,000 주소(주소1 비활성), 128 정보 슬롯, 가중치 적용/미적용, 고정 eta와 부피 법칙, mod3/Fourier8 준비, 유한 source·공급자 프레임을 유지했다.
+v0.28의 신규 공급 비트 준비/에너지 간극/논리 기록 결합은 그대로 명시된 모형 구성 가정이다. 알려진 값을 반영한 구성은 정당한 연구 입력이며, 계산된 변환과 반증조건을 기준으로 평가한다.
+실제 물리 공간 위치/3D 파수 배치가 산술 주소에서 생성되는 코드는 기존 자료에서 확인되지 않았다. 기존 위치·체적 국소화 모듈도 이를 외부 명세로 요구하고 있다.
+따라서 이번에는 3D Fourier 모드 k=(.05,0,0)/Mpc를 검증용으로 제공했다. 공급 준비의 국소 확률 p(x)=.5+epsilon cos(k.x), epsilon=1e-8를 작은 시험 입력으로 지정했다. 이 k와 진폭을 WRRA의 원초 스펙트럼 예측이라고 부르지 않는다.
+128 슬롯 번호를 물리적 좌표로 동일시하지 않았다. 선택한 한 방향은 등방 배경의 scalar-mode 검사이며 공간 배치의 유일성을 증명한 것이 아니다.
+
+2. 고유 변환: 프레임 에너지의 공간 반응
+A_k=1-cos(2 pi k/128), Delta A=A_72-A_8=2 cos(pi/8). M_C,s는 실제 mod3 여집합의 집단별 f_s 가중치 합이다.
+프레임에서 계산한 정확한 국소 확률 반응은 delta L_D/R=Delta A M_C,D/R delta p_resource, delta L_P=0이다. 같은 eta를 적용해 delta u_D/R를 얻고, R의 에너지 부피 법칙에서 delta p_R=-delta u_R를 계산했다.
+프레임 source와 공급자의 단순한 재분배만으로는 local total load가 바뀌지 않는다. 공간 모드를 만들려면 실제 총량/준비 상태의 공간적 변화가 있어야 한다. 내부 교환을 비영 초기 섭동으로 잘못 보고하지 않는다.
+배경은 E_D∝a^0, E_R∝a^3이므로 u_D∝a^-3,p_D=0,u_R=constant,p_R=-u_R다. 이것은 채택한 구성 법칙이며 H의 대각 형태만으로 유일한 미시 동역학이 강제된다는 뜻이 아니다.
+
+3. 공변 보존을 위해 필요한 추가 항
+표준 GR을 보강하고 T_R^{mu nu}=-u_R g^{mu nu}로 두면 nabla_mu T_R^{mu nu}=-nabla^nu u_R. 그러므로 spatial delta u_R가 존재하면 독립적으로 보존되는 상수 Lambda 성분으로 취급할 수 없다.
+필요한 진공 전달은 Q_R^nu=-nabla^nu u_R다. 이번 후보에서는 Q_D=-Q_R, Q_b=0으로 배정했다. 합 Q=0은 전체 보존의 요구이지만 D만 수신한다는 선택은 새 상호작용 가정이며 프레임의 유니터리 교환에서 자동으로 유도됐다고 부르지 않는다.
+현재 공간 진공 밀도 섭동은 물리 시간에 고정한 시험 입력이다. 따라서 선형 시간 성분 전달은0이고, 공간 힘은 dark-dust Euler 식에 -k^2 delta u_R/u_D로 들어간다.
+Newtonian gauge, phi=psi, anisotropic stress=0을 보강한 후보로 다음 방정식을 적분했다. dot은 conformal time(Mpc,c=1) 미분이다.
+dot(delta_b)=-theta_b+3 dot(phi), dot(theta_b)=-Hc theta_b+k^2 phi.
+dot(delta_D)=-theta_D+3 dot(phi), dot(theta_D)=-Hc theta_D+k^2 phi-k^2 delta u_R/u_D.
+dot(phi)=-Hc phi+(C_b theta_b+C_D theta_D)/k^2, C_s=4 pi G a^2 u_s/c^4=1.5 Hc^2 Omega_s(Mpc 단위 환산).
+배경 p_dot/u_dot=0이어도 공간 delta p=-delta u_R는0이 아니다. 따라서 adiabatic dp/drho를 perturbation의 휴지계 음속으로 자동 동일시하는 주장을 수정했다.
+기하/각 성분의 source tensor를 표준 perfect-fluid completion으로 계산한 조건부 모드다. 새로운 미시 작용이나 이방성 응력의 산술 유도는 아니다.
+
+4. 산출값 및 반증 대조군
+검사 구간 a=.02→1. 진단용 subsystem은 baryon dust+dark dust+vacuum이며 radiation/neutrinos를 제외했다. 이를 기존 재결합/CMB 계산의 대체 결과라고 보고하지 않는다.
+initial theta_b=theta_D=0, delta_b=0; initial delta_D는 resource 반응계수로 정했고 phi는 Einstein00 제약식에서 계산했다.
+분기 | 필요한 전달 포함: Einstein00 잔차/동일 진공 원천 규모 | 전달 누락 대조군: 동일 척도 잔차 | 최종 delta_D
+weighted | 9.992401557892e-09 | 9.999920000023e-01 | 1.811731719974e-04
+  수치 수렴 상대차 1.384e-12; 진폭 절반 검사 2.081e-12; 공간 Einstein trace 잔차 3.490e-16.
+unweighted | 1.036908035336e-08 | 9.999920000021e-01 | 1.912677621235e-04
+  수치 수렴 상대차 1.519e-12; 진폭 절반 검사 2.031e-12; 공간 Einstein trace 잔차 5.771e-16.
+
+전달 항을 누락하면 Einstein00의 전파식은 F_N+F=3V이고 V=4 pi G a^2 delta u_R/c^4다. F(a)=V(a)[1-(a_i/a)^3]라는 비영 잔차가 생긴다. 수치 대조군은 이 독립 해석식을 재현했다.
+필요한 전달을 포함하면 F_N+F=0이고, 초기 F=0에서 유지된다. 동시에 공간 Einstein trace, 연속/Euler 방정식과 수치 수렴·선형성·양성 검사를 통과했다.
+한 모드 검사26개 통과는 명시한 completion의 정합성을 뜻한다. k 위치·진폭·미시적 공간 생성·우도 검증이 모두 해결됐다는 뜻이 아니다.
+
+5. 전체 재검토 결과
+물리 프레임 공개 파일 31개를 해당 해시와 대조했다. 독립 재검토 28개에서 full source+supply 연산자, 유한-field partition, P6 정보 관측량, 단위, spectrum 형식과 보고 범위를 확인했다.
+프레임 U는 에너지 보존이며 source-only 물리 판독과 전체 등록기의 conjugated P6 정보 관측량은 다르다. 원래 j와 P6 모멘트가 유지된다는 주장은 후자에 한정해야 한다.
+공급 비트 균등 준비가 산술 구조의 유일한 자연 상태라고 판정하지 않는다. 동일한 기존 Gibbs 홀짝 대조군이 다른 예산과 관측 출력을 주므로 준비 상태 선택은 검증 가능한 구성 가정이다.
+
+기존 관측 계산의 정확한 해석
+분기 | H0[km/s/Mpc] | 첫 TT 피크 ell | 공개 구간값 RMS
+weighted_uniform_g_parity | 67.44991813 | 220 | 1.08111100
+unweighted_uniform_g_parity | 66.90537863 | 221 | 2.01267759
+
+BBN helium 질량분율=0.245667206; 핵자분율=0.246998180; D/H=2.441774241e-05.
+이 BBN 값은 표준 PRIMAT 보간표와 동일 omega_b 입력을 사용한 결과다. 제시된 관측 기준(2.54±.04)e-5에 대해서는2.456개의 관측 표준편차 차이가 있다. 이 인용 기준의 산술 대조이며 별도 공식 우도/관측자료 검정을 수행한 것은 아니다.
+Omega_total=1은 기존 CAMB flatness 설정이다. 1.0012, H0=67.38, TT ell220.4, helium mass fraction.2471은 본 계산 출력으로 사용하지 않는다.
+BAO는 동일 배경의 거리 예측을 계산했으며 관측 공분산 검정은 미실행이다. 공식 Planck -2lnL와 기각 p값도 미실행이다. 공개 구간값의 대각 Q는 공식 우도가 아니다.
+지금 저장된 TT/EE/TE 스펙트럼은 표준 initial power와 perturbation completion을 쓴 v0.28 계산이다. 이번 Q_D interaction을 광자·중성미자·재결합이 포함된 CAMB에 넣은 새 CMB 스펙트럼은 아직 없다.
+
+6. 반증조건과 최종 판정
+반증조건: 에너지/압력 연산자의 가환성 또는 전체 예산 실패; P6 full-register 정보 손실; occupation→density 미분 불일치; 필요한 운동량 전달을 넣어도 Einstein 제약이 깨지는 경우; 수치 불수렴; 정한 준비 상태/스펙트럼이 적절한 우도에서 관측과 불일치하는 경우.
+판정: 기존 한 프레임의 회계와 표준 관측 계산 재현 성과를 유지했다. 추가로, 같은 자원 응답에서 공간적 R 밀도 변화가 발생할 때 필요한 momentum interaction을 명시하고 한 scalar mode를 실행해 보존 정합성을 확인했다.
+아직 원초 3D 배치·진폭·스펙트럼 또는 미시 interaction action이 유도되었다고 주장하지 않는다. 검증된 물리로 보강한 후보가 실제 코드에서 계산되고 반증 대조군을 통과한 진전으로 기록한다.
+박사님께는 이 결과를 제한된 진행 보고로 전달할 수 있다. 핵심은 보강 가정과 필요한 conservation term을 명시·검사했다는 점이며, 완전한 이론 확립이나 상세 심사 요청으로 표현하지 않는다.
+
+재실행
+python -m pip install -r requirements.txt
+python single_mode.py
+python review.py
+기존 전체 CMB baseline 재현: frame_baseline 폴더에서 python run.py. 공식 CAMB2.0.4 필요.
+
+Primary references
+Ma & Bertschinger (1995), https://arxiv.org/html/astro-ph/9506072v1 — standard Einstein/fluid perturbation definitions; interacting transfer term is derived/tested here under the declared vacuum completion.
+https://camb.readthedocs.io/en/stable/symbolic.html — scalar GR/CAMB gauge and source interface.
+https://camb.readthedocs.io/en/stable/results.html — CMB units/background/BAO interface.
+https://camb.readthedocs.io/en/stable/bbn.html — PRIMAT interpolation and helium definitions.
+https://irsa.ipac.caltech.edu/data/Planck/release_3/ancillary-data/cosmoparams/ — public binned spectral diagnostics.
+WRRA prior implementation: input physical_frame_ledger.json, p6_results.json, existing_local_operator.py, frame_baseline/run.py.
+이 재검토에서 메일을 발송하지 않았다.

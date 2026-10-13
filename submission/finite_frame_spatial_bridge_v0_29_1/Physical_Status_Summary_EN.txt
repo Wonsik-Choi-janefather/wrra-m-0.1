@@ -1,0 +1,12 @@
+WRRA finite-frame bridge: limited progress report v0.29.1
+Wonsik Choi | 13 October 2026
+
+In a prescribed single scalar-mode test, adding the vacuum momentum transfer required by the declared stress tensor reduces the Einstein 00 residual to approximately 1e-8 when normalized by the maximum vacuum perturbation source. The weighted/unweighted values are 9.9924e-9 / 1.03691e-8. Omitting the transfer produces 0.999992 with the identical denominator. This is a finite numerical consistency residual, not zero error or an observational likelihood.
+
+The finite source/register exchange has a separate energy and pressure accounting boundary. The scalar-mode test additionally adopts spatial occupation preparation, standard GR and Q_D=-Q_R, Q_b=0. The transfer recipient is a constitutive choice, not a unique arithmetic consequence. The calculations use frozen inputs without additional observational optimization; the completion assumptions remain explicit.
+
+The earlier standard-completion CMB reference gives H0=67.4499 / 66.9054 km/s/Mpc and first TT peaks 220 / 221. It is separate from the new interacting mode, which has not been inserted into a full radiation/recombination CAMB calculation. Official Planck likelihood, BAO covariance tests, micro-derived physical 3D preparation and primordial power remain open. BBN values use inherited PRIMAT interpolation.
+
+This report records a bounded toy-model step with reproducible positive and omission controls. v0.29.1 clarifies the communication and validation scope; numerical code, assumptions, arrays and outputs are unchanged from v0.29.
+
+https://doi.org/10.5281/zenodo.23329214

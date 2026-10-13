@@ -1,0 +1,4 @@
+camb==2.0.4
+numpy
+scipy
+matplotlib

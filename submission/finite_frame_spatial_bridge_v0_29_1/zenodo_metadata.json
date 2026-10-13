@@ -1,0 +1,25 @@
+{
+  "title": "Finite Energy-Conserving Frame Exchange and a Conditional Scalar Perturbation Bridge in WRRA",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "version": "0.29.1",
+  "publication_date": "2026-10-13",
+  "doi": "10.5281/zenodo.23329214",
+  "creators": [
+    {
+      "name": "Choi, Wonsik",
+      "affiliation": "Independent Researcher",
+      "orcid": "0009-0001-4263-9772"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "WRRA",
+    "finite-state toy model",
+    "energy conservation",
+    "interacting vacuum",
+    "scalar perturbations",
+    "effective phenomenology"
+  ],
+  "description": "In a controlled scalar Einstein-fluid test, including the required vacuum momentum transfer gives a maximum Einstein 00 residual of 9.9924e-9 (weighted) or 1.03691e-8 (unweighted), normalized by the maximum vacuum perturbation source. Omitting this transfer gives 0.999992 using the same normalization. These are finite numerical residuals, not zero error, observational sigma or likelihood values. The calculation uses a prescribed spatial occupation field, standard GR and an explicitly chosen transfer recipient. A finite source/register exchange separately preserves total energy, the volume derivative and conjugated information observables. Earlier CMB reference spectra use standard perturbation inputs; they are not CMB spectra of the new interacting mode. No additional optimization against observations is performed with the frozen inputs and declared completion assumptions. The contribution is a reproducible toy model and a conditional effective-fluid bridge, with its remaining physical assumptions and falsification tests stated explicitly. Code and bilingual manuscripts: https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/tree/main/submission/finite_frame_spatial_bridge_v0_29_1"
+}

@@ -1,0 +1,100 @@
+{
+  "reviewed_scope": "arithmetic inputs -> finite information/energy frame -> total fluid background -> recorded observables -> one conditional spatial mode",
+  "previous_checks_reproduced_as_release_evidence": 99,
+  "current_release_files_verified": 31,
+  "independent_review_checks": {
+    "prior_release_integrity": true,
+    "gate_is_true_bijection": true,
+    "gate_is_unitary_involution": true,
+    "entire_source_supply_spectrum_preserved": true,
+    "weighted_uniform_g_parity_global_spectrum_entropy_preserved": true,
+    "weighted_uniform_g_parity_energy_preserved_on_full_register": true,
+    "weighted_uniform_g_parity_physical_source_differs_from_logical_probe": true,
+    "weighted_uniform_g_parity_finite_field_partition_preserved": true,
+    "weighted_uniform_g_parity_same_baryon_density_in_BBN": true,
+    "weighted_uniform_g_parity_raw_Cl_matches_Dl": true,
+    "weighted_P7_Gibbs_g_parity_control_global_spectrum_entropy_preserved": true,
+    "weighted_P7_Gibbs_g_parity_control_energy_preserved_on_full_register": true,
+    "weighted_P7_Gibbs_g_parity_control_physical_source_differs_from_logical_probe": true,
+    "weighted_P7_Gibbs_g_parity_control_finite_field_partition_preserved": true,
+    "weighted_P7_Gibbs_g_parity_control_same_baryon_density_in_BBN": true,
+    "unweighted_uniform_g_parity_global_spectrum_entropy_preserved": true,
+    "unweighted_uniform_g_parity_energy_preserved_on_full_register": true,
+    "unweighted_uniform_g_parity_physical_source_differs_from_logical_probe": true,
+    "unweighted_uniform_g_parity_finite_field_partition_preserved": true,
+    "unweighted_uniform_g_parity_same_baryon_density_in_BBN": true,
+    "unweighted_uniform_g_parity_raw_Cl_matches_Dl": true,
+    "unweighted_P7_Gibbs_g_parity_control_global_spectrum_entropy_preserved": true,
+    "unweighted_P7_Gibbs_g_parity_control_energy_preserved_on_full_register": true,
+    "unweighted_P7_Gibbs_g_parity_control_physical_source_differs_from_logical_probe": true,
+    "unweighted_P7_Gibbs_g_parity_control_finite_field_partition_preserved": true,
+    "unweighted_P7_Gibbs_g_parity_control_same_baryon_density_in_BBN": true,
+    "one_mode_checks_completed": true,
+    "no_official_likelihood_claim": true
+  },
+  "checks_passed": 28,
+  "details": {
+    "reference_reproduction": [
+      {
+        "id": "weighted_uniform_g_parity",
+        "H0": 67.44991813234087,
+        "first_TT_peak": 220,
+        "public_bin_RMS": 1.0811109994144157
+      },
+      {
+        "id": "unweighted_uniform_g_parity",
+        "H0": 66.90537863314884,
+        "first_TT_peak": 221,
+        "public_bin_RMS": 2.012677590743157
+      }
+    ],
+    "BBN": {
+      "mass_fraction": 0.2456672061862873,
+      "nucleon_fraction": 0.24699818015506603,
+      "D_over_H": 2.4417742409635382e-05,
+      "scope": "inherited PRIMAT table interpolation"
+    },
+    "D_H_comparison_to_user_quoted_benchmark": {
+      "benchmark": 2.54e-05,
+      "quoted_sigma": 4e-07,
+      "observational_sigma_difference": 2.4556439759115465,
+      "note": "conditional arithmetic against the quoted benchmark, not a new verified observational dataset or formal rejection"
+    }
+  },
+  "claims": [
+    {
+      "claim": "finite frame source/supply energy and pressure closure",
+      "status": "supported under declared resource Hamiltonian and preparation"
+    },
+    {
+      "claim": "logical P6 moments unchanged",
+      "status": "supported for full conjugated joint observables; false if interpreted as unchanged source-only A"
+    },
+    {
+      "claim": "uniform preparation uniquely follows from arithmetic",
+      "status": "not established; fixed alternative g prior produces different backgrounds"
+    },
+    {
+      "claim": "one conditional interacting scalar mode conserved",
+      "status": "supported with explicit spatial preparation, GR and transfer recipient choice"
+    },
+    {
+      "claim": "physical 3D positions and primordial spectrum derived",
+      "status": "not established"
+    },
+    {
+      "claim": "new interacting mode already produced the displayed CMB spectra",
+      "status": "false; recorded CMB is the prior standard completion"
+    },
+    {
+      "claim": "official Planck fit, BAO likelihood and BBN matched",
+      "status": "not established by current diagnostics"
+    },
+    {
+      "claim": "single quantum outcome or all UV divergences resolved",
+      "status": "not established"
+    }
+  ],
+  "assessment": "conditional toy-model computational closure and known-value reproduction achieved; physical spatial preparation and interaction realization remain explicit open assumptions",
+  "outgoing_email_sent": false
+}

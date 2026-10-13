@@ -1,0 +1,328 @@
+{
+  "input": "actual n=2..1015000 address data plus existing mod3 diagnostic preparation",
+  "inherited_P6_reproduction_checks": 31,
+  "new_connection": "load alphabet b_nk=(f_P(n), f_D(n)*a_k, f_R(n)*a_k), a_k=1-cos(2pi k/128)",
+  "explicit_diagnostic_choices": [
+    "P6 commuting epsilon_carrier=0 branch, rather than v16 epsilon_carrier=8",
+    "three P/D/R load fields are not three physical spatial axes",
+    "K0=2 I3 extension of P6 k0=2 example",
+    "beta=epsilon_energy=1 dimensionless P6 example",
+    "zero-field stationary bias j=-mean(b); supplied preparation, not a new cosmic source"
+  ],
+  "transformation": "actual address conditional load moments -> joint/clamped covariance -> inherited K0-beta*eps^2*C -> inverse response",
+  "cases": [
+    {
+      "branch": "weighted",
+      "mean_P_D_R_load": [
+        0.050000000000000315,
+        0.09608536707654249,
+        0.21230795706471564
+      ],
+      "contracts": {
+        "joint": {
+          "covariance": [
+            [
+              0.040789202134813955,
+              -0.004804268353827165,
+              -0.004964162248798794
+            ],
+            [
+              -0.004804268353827165,
+              0.11894004732240296,
+              -0.020399687987834272
+            ],
+            [
+              -0.004964162248798794,
+              -0.020399687987834272,
+              0.2113167914355045
+            ]
+          ],
+          "effective_stiffness": [
+            [
+              1.959210797865186,
+              0.004804268353827165,
+              0.004964162248798794
+            ],
+            [
+              0.004804268353827165,
+              1.881059952677597,
+              0.020399687987834272
+            ],
+            [
+              0.004964162248798794,
+              0.020399687987834272,
+              1.7886832085644955
+            ]
+          ],
+          "normalized_covariance_eigenvalues": [
+            0.020131602878137592,
+            0.057538068779731694,
+            0.10785334878849143
+          ],
+          "relative_mode_gains": [
+            1.0205452109051272,
+            1.0610508147583566,
+            1.12089195049046
+          ],
+          "inverse_response": [
+            [
+              0.5104163115513624,
+              -0.0012884114423579345,
+              -0.0014018727192965236
+            ],
+            [
+              -0.0012884114423579347,
+              0.5316841788265826,
+              -0.00606020977934184
+            ],
+            [
+              -0.0014018727192965234,
+              -0.00606020977934184,
+              0.559143497699027
+            ]
+          ],
+          "locally_stable_under_declared_contract": true
+        },
+        "clamped": {
+          "covariance": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.04232675693214093,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.08446411343618906
+            ]
+          ],
+          "effective_stiffness": [
+            [
+              2.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.9576732430678592,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.915535886563811
+            ]
+          ],
+          "normalized_covariance_eigenvalues": [
+            0.0,
+            0.021163378466070464,
+            0.04223205671809453
+          ],
+          "relative_mode_gains": [
+            1.0,
+            1.0216209508313097,
+            1.0440942474785504
+          ],
+          "inverse_response": [
+            [
+              0.5,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.5108104754156548,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.5220471237392752
+            ]
+          ],
+          "locally_stable_under_declared_contract": true
+        }
+      },
+      "joint_hessian_max_error": 4.7422195614821305e-09,
+      "clamped_hessian_max_error": 9.594418592939746e-10
+    },
+    {
+      "branch": "unweighted",
+      "mean_P_D_R_load": [
+        0.050000000000000315,
+        0.09206537834973841,
+        0.21053173911055925
+      ],
+      "contracts": {
+        "joint": {
+          "covariance": [
+            [
+              0.040789202134813955,
+              -0.004603268917486811,
+              -0.0049955033681320996
+            ],
+            [
+              -0.004603268917486811,
+              0.10898198769376824,
+              -0.019382684215841054
+            ],
+            [
+              -0.0049955033681320996,
+              -0.019382684215841054,
+              0.2080047320253325
+            ]
+          ],
+          "effective_stiffness": [
+            [
+              1.959210797865186,
+              0.004603268917486811,
+              0.0049955033681320996
+            ],
+            [
+              0.004603268917486811,
+              1.8910180123062317,
+              0.019382684215841054
+            ],
+            [
+              0.0049955033681320996,
+              0.019382684215841054,
+              1.7919952679746676
+            ]
+          ],
+          "normalized_covariance_eigenvalues": [
+            0.02011846506635375,
+            0.05288957810794928,
+            0.10587991775265429
+          ],
+          "relative_mode_gains": [
+            1.0205315278930285,
+            1.0558430958898026,
+            1.118418006546199
+          ],
+          "inverse_response": [
+            [
+              0.5104160796514127,
+              -0.001228047951270251,
+              -0.0014095921035890485
+            ],
+            [
+              -0.0012280479512702513,
+              0.5288772810739825,
+              -0.005717050035456702
+            ],
+            [
+              -0.0014095921035890485,
+              -0.005717050035456703,
+              0.5581029544391201
+            ]
+          ],
+          "locally_stable_under_declared_contract": true
+        },
+        "clamped": {
+          "covariance": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0387848688821804,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0831262736977556
+            ]
+          ],
+          "effective_stiffness": [
+            [
+              2.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.9612151311178196,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.9168737263022444
+            ]
+          ],
+          "normalized_covariance_eigenvalues": [
+            0.0,
+            0.0193924344410902,
+            0.0415631368488778
+          ],
+          "relative_mode_gains": [
+            1.0,
+            1.0197759380227065,
+            1.0433655449272137
+          ],
+          "inverse_response": [
+            [
+              0.5,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.5098879690113532,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.5216827724636068
+            ]
+          ],
+          "locally_stable_under_declared_contract": true
+        }
+      },
+      "joint_hessian_max_error": 4.595961611286725e-09,
+      "clamped_hessian_max_error": 9.303468967436501e-10
+    }
+  ],
+  "checks": {
+    "weighted_total_covariance_identity": true,
+    "weighted_slot_mean_equals_actual_address_mean": true,
+    "weighted_reference_probability_normalized": true,
+    "weighted_covariance_positive": true,
+    "weighted_joint_full_partition_hessian": true,
+    "weighted_clamped_full_partition_hessian": true,
+    "weighted_joint_inverse_identity": true,
+    "weighted_clamped_inverse_identity": true,
+    "unweighted_total_covariance_identity": true,
+    "unweighted_slot_mean_equals_actual_address_mean": true,
+    "unweighted_reference_probability_normalized": true,
+    "unweighted_covariance_positive": true,
+    "unweighted_joint_full_partition_hessian": true,
+    "unweighted_clamped_full_partition_hessian": true,
+    "unweighted_joint_inverse_identity": true,
+    "unweighted_clamped_inverse_identity": true,
+    "original_P6_reproduction": true
+  },
+  "adapter_checks_passed": 17,
+  "refutation_conditions": [
+    "slot/address means disagree",
+    "conditional/global covariance identity fails",
+    "finite partition derivatives disagree",
+    "unstable Hessian inverted as stable"
+  ],
+  "snapshot_only_sufficient": false,
+  "full_address_information_retained": true,
+  "time_used": false,
+  "observational_fits": false,
+  "physical_q_T": null,
+  "Newton_constant_derived": false,
+  "CAMB_TT_EE": null
+}

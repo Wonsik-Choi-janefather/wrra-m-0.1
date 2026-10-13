@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this finite-frame bridge report."
+title: "Finite Energy-Conserving Frame Exchange and a Conditional Scalar Perturbation Bridge in WRRA"
+type: article
+version: "0.29.1"
+date-released: 2026-10-13
+doi: 10.5281/zenodo.23329214
+license: CC-BY-4.0
+authors:
+  - family-names: Choi
+    given-names: Wonsik
+    orcid: https://orcid.org/0009-0001-4263-9772
+repository-code: https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/tree/main/submission/finite_frame_spatial_bridge_v0_29_1

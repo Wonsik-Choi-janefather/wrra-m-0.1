@@ -1,0 +1,558 @@
+{
+  "scope": "executed conditional toy-model observables; microscopic-only route remains open",
+  "input": {
+    "address_count": 1015000,
+    "slot_count": 128,
+    "eta_J_m3": [
+      7.5615824991e-10,
+      7.2857613288e-10,
+      7.6461028188e-10
+    ],
+    "external_inputs": {
+      "As": 2.1e-09,
+      "ns": 0.9649,
+      "tau": 0.0544,
+      "TCMB": 2.7255,
+      "mnu": 0.06,
+      "nnu": 3.044,
+      "pivot_scalar": 0.05
+    },
+    "thermal_omega_at_h1": {
+      "photon": 2.4729753278460543e-05,
+      "neutrino": 1.1397360899656491e-05,
+      "nu": 0.0006448993754203256
+    },
+    "critical_energy_at_h1_J_m3": 1.688169256193225e-09
+  },
+  "WRRA_transform": "existing address/slot load -> Tr(Sigma_s A_s) -> eta_s L_s a^(nu_s-3) -> fixed standard completion",
+  "completion": {
+    "P": "baryons with standard photon coupling/recombination",
+    "D": "adopted cold perfect fluid: w=0, rest-frame cs2=0, anisotropic stress=0",
+    "R": "constant vacuum, w=-1, no independent vacuum perturbation",
+    "thermal": "photons, massless and massive neutrinos added separately; no double-counted allocation",
+    "geometry": "spatially flat standard GR; H0 from ledger and fixed thermal density",
+    "initial": "standard adiabatic power law, As/ns inherited, not derived from P6 covariance"
+  },
+  "microscopic_only": {
+    "status": "missing physical closure",
+    "missing": [
+      "physical_3D_embedding_and_k_Mpc",
+      "primordial_curvature_covariance_from_address_state",
+      "physical_density_velocity_and_rest_frame_pressure_closure",
+      "anisotropic_stress_dynamics_and_covariant_conservation"
+    ]
+  },
+  "selection": "not derived; no single-outcome assumption used for ensemble observables",
+  "shutter": "existing SI fold spectrum and readout times recorded in inputs; no unsupported identification with cosmic energy/primordial power",
+  "new_cosmological_fit": false,
+  "cases": [
+    {
+      "id": "weighted_uniform",
+      "state_preparation": "I/128",
+      "readout_operator": "A_P=I, A_D=A_R=Kc/2; inherited commuting epsilon_carrier=0 branch",
+      "load_P_D_R": [
+        0.050000000000000086,
+        0.2789256109767439,
+        0.6877425398542387
+      ],
+      "u_P_D_R_today_J_m3": [
+        3.780791249550006e-11,
+        2.0321854300662736e-10,
+        5.258550172588166e-10
+      ],
+      "ombh2": 0.022395806792949103,
+      "omch2": 0.12037806177378182,
+      "omega_vacuum": 0.31149425054961916,
+      "H0_derived_km_s_Mpc": 67.44991813234087,
+      "age_Gyr": 13.77788755134201,
+      "Omega_P_D_R_today": [
+        0.049227055395653155,
+        0.26459674215554313,
+        0.684679273624613
+      ],
+      "derived": {
+        "age": 13.77788755134201,
+        "zstar": 1089.9071993297405,
+        "rstar": 144.3260971453964,
+        "thetastar": 1.0417944997036108,
+        "DAstar": 13.853605215467828,
+        "zdrag": 1060.0190194606778,
+        "rdrag": 146.974419264267,
+        "kd": 0.1410234643565509,
+        "thetad": 0.16080356988640188,
+        "zeq": 3412.5363078395335,
+        "keq": 0.010414359691974089,
+        "thetaeq": 0.8120474629609759,
+        "thetarseq": 0.44874471361773977
+      },
+      "TT_first_three_peak_ell": [
+        220,
+        536,
+        812
+      ],
+      "planck_public_bin_diagnostic": {
+        "TT": {
+          "bin_count": 83,
+          "RMS_in_public_bin_sigma": 1.0662950170723822,
+          "diagonal_Q": 94.36976026497149
+        },
+        "TE": {
+          "bin_count": 66,
+          "RMS_in_public_bin_sigma": 1.1014836546845808,
+          "diagonal_Q": 80.07557194146185
+        },
+        "EE": {
+          "bin_count": 66,
+          "RMS_in_public_bin_sigma": 1.0790489731388766,
+          "diagonal_Q": 76.84688130451623
+        },
+        "all": {
+          "bin_count": 215,
+          "RMS_in_public_bin_sigma": 1.0811109994233636,
+          "diagonal_Q": 251.29221351094958
+        }
+      },
+      "BBN": {
+        "method": "inherited PRIMAT 2024 interpolation, not a new reaction-network run",
+        "ombh2": 0.022395806792949103,
+        "DeltaN": 0.0,
+        "Y_He_mass_fraction": 0.2456672061862873,
+        "Y_p_nucleon_fraction": 0.24699818015506603,
+        "D_over_H": 2.4417742409635382e-05,
+        "sigma_D_over_H_table": 2.7309629036466226e-07,
+        "sigma_Y_p_table": 0.00010907954461599492
+      },
+      "BAO_rows": [
+        [
+          0.38,
+          10.41952992889099,
+          24.581835001126695,
+          10.046883883204117,
+          82.97832249703902,
+          1531.4043603054024
+        ],
+        [
+          0.51,
+          13.493539296236706,
+          22.72769236158612,
+          12.827019595711013,
+          89.74775792636352,
+          1983.2051018839559
+        ],
+        [
+          0.61,
+          15.69827293043222,
+          21.379387577100257,
+          14.757392064310418,
+          95.40775781984071,
+          2307.2445474022384
+        ]
+      ],
+      "density_relative_error": 6.661338147750939e-16,
+      "friedmann_relative_error": 6.661338147750939e-16,
+      "official_minus2logL": null,
+      "statistical_rejection": null
+    },
+    {
+      "id": "weighted_correlated",
+      "state_preparation": "existing n mod 3 preparation",
+      "readout_operator": "A_P=I, A_D=A_R=Kc/2; inherited commuting epsilon_carrier=0 branch",
+      "load_P_D_R": [
+        0.050000000000000315,
+        0.09608536707654249,
+        0.21230795706471564
+      ],
+      "u_P_D_R_today_J_m3": [
+        3.780791249550024e-11,
+        7.00055051709826e-11,
+        1.6233284689661917e-10
+      ],
+      "ombh2": 0.022395806792949207,
+      "omch2": 0.041468297633166874,
+      "omega_vacuum": 0.09615910626324001,
+      "H0_derived_km_s_Mpc": 40.0879329947248,
+      "age_Gyr": 21.61929966039816,
+      "Omega_P_D_R_today": [
+        0.1393604001119773,
+        0.2580410968690841,
+        0.5983607398986042
+      ],
+      "derived": {
+        "age": 21.61929966039816,
+        "zstar": 1081.829837454635,
+        "rstar": 171.7047584115688,
+        "thetastar": 0.8165056924930504,
+        "DAstar": 21.029217553560443,
+        "zdrag": 1053.320763313991,
+        "rdrag": 175.05682178892883,
+        "kd": 0.11494030694321487,
+        "thetad": 0.12997337794671351,
+        "zeq": 1525.9071393432948,
+        "keq": 0.004658934773820936,
+        "thetaeq": 1.1959044518179154,
+        "thetarseq": 0.6304354078925114
+      },
+      "TT_first_three_peak_ell": [
+        272,
+        678
+      ],
+      "planck_public_bin_diagnostic": {
+        "TT": {
+          "bin_count": 83,
+          "RMS_in_public_bin_sigma": 87.2911104582644,
+          "diagonal_Q": 632438.251098064
+        },
+        "TE": {
+          "bin_count": 66,
+          "RMS_in_public_bin_sigma": 41.83920667481759,
+          "diagonal_Q": 115534.26820175463
+        },
+        "EE": {
+          "bin_count": 66,
+          "RMS_in_public_bin_sigma": 30.747569246050595,
+          "diagonal_Q": 62397.258959684645
+        },
+        "all": {
+          "bin_count": 215,
+          "RMS_in_public_bin_sigma": 61.393499324818805,
+          "diagonal_Q": 810369.7782595032
+        }
+      },
+      "BBN": {
+        "method": "inherited PRIMAT 2024 interpolation, not a new reaction-network run",
+        "ombh2": 0.022395806792949207,
+        "DeltaN": 0.0,
+        "Y_He_mass_fraction": 0.2456672061862873,
+        "Y_p_nucleon_fraction": 0.246998180155066,
+        "D_over_H": 2.4417742409635196e-05,
+        "sigma_D_over_H_table": 2.730962903646611e-07,
+        "sigma_Y_p_table": 0.00010907954461599491
+      },
+      "BAO_rows": [
+        [
+          0.38,
+          14.393216341129133,
+          33.21575655444995,
+          13.776782982868992,
+          51.5581724357379,
+          2519.630707998541
+        ],
+        [
+          0.51,
+          18.522001471914116,
+          30.347444183510515,
+          17.445739182384155,
+          56.43123334084075,
+          3242.402710843147
+        ],
+        [
+          0.61,
+          21.454158812497234,
+          28.322325628362346,
+          19.96000180878603,
+          60.46621052555298,
+          3755.696855870705
+        ]
+      ],
+      "density_relative_error": 4.440892098500626e-16,
+      "friedmann_relative_error": 6.661338147750939e-16,
+      "official_minus2logL": null,
+      "statistical_rejection": null
+    },
+    {
+      "id": "unweighted_uniform",
+      "state_preparation": "I/128",
+      "readout_operator": "A_P=I, A_D=A_R=Kc/2; inherited commuting epsilon_carrier=0 branch",
+      "load_P_D_R": [
+        0.05000000000000014,
+        0.268,
+        0.6819999999999999
+      ],
+      "u_P_D_R_today_J_m3": [
+        3.780791249550011e-11,
+        1.9525840361184e-10,
+        5.214642122421599e-10
+      ],
+      "ombh2": 0.02239580679294913,
+      "omch2": 0.11566281218279162,
+      "omega_vacuum": 0.30889332353916177,
+      "H0_derived_km_s_Mpc": 66.90537863314884,
+      "age_Gyr": 13.957325753222852,
+      "Omega_P_D_R_today": [
+        0.050031629356424676,
+        0.25838760813354794,
+        0.6900593676692652
+      ],
+      "derived": {
+        "age": 13.957325753222852,
+        "zstar": 1089.493912704138,
+        "rstar": 145.55674989479834,
+        "thetastar": 1.0351444976195854,
+        "DAstar": 14.061490954115115,
+        "zdrag": 1059.6780409773141,
+        "rdrag": 148.23380542506607,
+        "kd": 0.13969873393772198,
+        "thetad": 0.15992856140428938,
+        "zeq": 3299.8008623343394,
+        "keq": 0.01007043377695248,
+        "thetaeq": 0.8273661774512764,
+        "thetarseq": 0.4565718263985257
+      },
+      "TT_first_three_peak_ell": [
+        221,
+        539,
+        818
+      ],
+      "planck_public_bin_diagnostic": {
+        "TT": {
+          "bin_count": 83,
+          "RMS_in_public_bin_sigma": 2.401013019286319,
+          "diagonal_Q": 478.48367205893976
+        },
+        "TE": {
+          "bin_count": 66,
+          "RMS_in_public_bin_sigma": 2.0510684194782063,
+          "diagonal_Q": 277.6541896511345
+        },
+        "EE": {
+          "bin_count": 66,
+          "RMS_in_public_bin_sigma": 1.3188575256246553,
+          "diagonal_Q": 114.79942141118804
+        },
+        "all": {
+          "bin_count": 215,
+          "RMS_in_public_bin_sigma": 2.012677590744464,
+          "diagonal_Q": 870.9372831212623
+        }
+      },
+      "BBN": {
+        "method": "inherited PRIMAT 2024 interpolation, not a new reaction-network run",
+        "ombh2": 0.02239580679294913,
+        "DeltaN": 0.0,
+        "Y_He_mass_fraction": 0.2456672061862873,
+        "Y_p_nucleon_fraction": 0.24699818015506603,
+        "D_over_H": 2.441774240963533e-05,
+        "sigma_D_over_H_table": 2.73096290364662e-07,
+        "sigma_Y_p_table": 0.00010907954461599492
+      },
+      "BAO_rows": [
+        [
+          0.38,
+          10.430148115177305,
+          24.642763486069935,
+          10.062007861638213,
+          82.06992494261897,
+          1546.1005462598123
+        ],
+        [
+          0.51,
+          13.513056932274802,
+          22.80279053342708,
+          12.853511653973463,
+          88.69220399651303,
+          2003.091851996663
+        ],
+        [
+          0.61,
+          15.725699366813267,
+          21.462021285939162,
+          14.793586133078682,
+          94.23295796493619,
+          2331.0802601132823
+        ]
+      ],
+      "density_relative_error": 6.661338147750939e-16,
+      "friedmann_relative_error": 6.661338147750939e-16,
+      "official_minus2logL": null,
+      "statistical_rejection": null
+    },
+    {
+      "id": "unweighted_correlated",
+      "state_preparation": "existing n mod 3 preparation",
+      "readout_operator": "A_P=I, A_D=A_R=Kc/2; inherited commuting epsilon_carrier=0 branch",
+      "load_P_D_R": [
+        0.050000000000000315,
+        0.09206537834973841,
+        0.21053173911055925
+      ],
+      "u_P_D_R_today_J_m3": [
+        3.780791249550024e-11,
+        6.707663733018649e-11,
+        1.6097473238601133e-10
+      ],
+      "ombh2": 0.022395806792949207,
+      "omch2": 0.03973336031568449,
+      "omega_vacuum": 0.09535461672190672,
+      "H0_derived_km_s_Mpc": 39.76993969320784,
+      "age_Gyr": 21.86400711482867,
+      "Omega_P_D_R_today": [
+        0.14159791136611372,
+        0.25121492091231185,
+        0.6028813648807277
+      ],
+      "derived": {
+        "age": 21.86400711482867,
+        "zstar": 1081.6138196547722,
+        "rstar": 172.53977536829134,
+        "thetastar": 0.810403143430009,
+        "DAstar": 21.29061032981949,
+        "zdrag": 1053.140269977941,
+        "rdrag": 175.91567620662937,
+        "kd": 0.11424103563138513,
+        "thetad": 0.1291634479777856,
+        "zeq": 1484.4270590981914,
+        "keq": 0.00453240336668182,
+        "thetaeq": 1.2142038828558348,
+        "thetarseq": 0.6386656353366553
+      },
+      "TT_first_three_peak_ell": [
+        273,
+        683
+      ],
+      "planck_public_bin_diagnostic": {
+        "TT": {
+          "bin_count": 83,
+          "RMS_in_public_bin_sigma": 90.14107504117024,
+          "diagonal_Q": 674409.3129949645
+        },
+        "TE": {
+          "bin_count": 66,
+          "RMS_in_public_bin_sigma": 42.235278874149955,
+          "diagonal_Q": 117732.03958409639
+        },
+        "EE": {
+          "bin_count": 66,
+          "RMS_in_public_bin_sigma": 31.32507914840463,
+          "diagonal_Q": 64763.19852115176
+        },
+        "all": {
+          "bin_count": 215,
+          "RMS_in_public_bin_sigma": 63.13162886586091,
+          "diagonal_Q": 856904.5511002126
+        }
+      },
+      "BBN": {
+        "method": "inherited PRIMAT 2024 interpolation, not a new reaction-network run",
+        "ombh2": 0.022395806792949207,
+        "DeltaN": 0.0,
+        "Y_He_mass_fraction": 0.2456672061862873,
+        "Y_p_nucleon_fraction": 0.246998180155066,
+        "D_over_H": 2.4417742409635196e-05,
+        "sigma_D_over_H_table": 2.730962903646611e-07,
+        "sigma_Y_p_table": 0.00010907954461599491
+      },
+      "BAO_rows": [
+        [
+          0.38,
+          14.453855893059451,
+          33.39221581670364,
+          13.839872590258311,
+          51.03532940661443,
+          2542.659833220728
+        ],
+        [
+          0.51,
+          18.60576393280483,
+          30.52588271421243,
+          17.532525263898435,
+          55.827467784536395,
+          3273.0455435802774
+        ],
+        [
+          0.61,
+          21.55571156794362,
+          28.499338445983632,
+          20.064566469526614,
+          59.79727343679441,
+          3791.987576589865
+        ]
+      ],
+      "density_relative_error": 4.440892098500626e-16,
+      "friedmann_relative_error": 6.661338147750939e-16,
+      "official_minus2logL": null,
+      "statistical_rejection": null
+    }
+  ],
+  "checks": {
+    "weighted_uniform_density_ledger_matches_CAMB": true,
+    "weighted_uniform_friedmann_matches_CAMB": true,
+    "weighted_uniform_vacuum_density_matches_input": true,
+    "weighted_uniform_finite_positive_auto_spectra": true,
+    "weighted_uniform_TE_covariance_bound": true,
+    "weighted_uniform_Cl_Dl_conversion": true,
+    "weighted_uniform_flat_budget_closure": true,
+    "weighted_uniform_BBN_helium_matches_recombination": true,
+    "weighted_correlated_density_ledger_matches_CAMB": true,
+    "weighted_correlated_friedmann_matches_CAMB": true,
+    "weighted_correlated_vacuum_density_matches_input": true,
+    "weighted_correlated_finite_positive_auto_spectra": true,
+    "weighted_correlated_TE_covariance_bound": true,
+    "weighted_correlated_Cl_Dl_conversion": true,
+    "weighted_correlated_flat_budget_closure": true,
+    "weighted_correlated_BBN_helium_matches_recombination": true,
+    "unweighted_uniform_density_ledger_matches_CAMB": true,
+    "unweighted_uniform_friedmann_matches_CAMB": true,
+    "unweighted_uniform_vacuum_density_matches_input": true,
+    "unweighted_uniform_finite_positive_auto_spectra": true,
+    "unweighted_uniform_TE_covariance_bound": true,
+    "unweighted_uniform_Cl_Dl_conversion": true,
+    "unweighted_uniform_flat_budget_closure": true,
+    "unweighted_uniform_BBN_helium_matches_recombination": true,
+    "unweighted_correlated_density_ledger_matches_CAMB": true,
+    "unweighted_correlated_friedmann_matches_CAMB": true,
+    "unweighted_correlated_vacuum_density_matches_input": true,
+    "unweighted_correlated_finite_positive_auto_spectra": true,
+    "unweighted_correlated_TE_covariance_bound": true,
+    "unweighted_correlated_Cl_Dl_conversion": true,
+    "unweighted_correlated_flat_budget_closure": true,
+    "unweighted_correlated_BBN_helium_matches_recombination": true,
+    "changed_geometry_accuracy_convergence": true,
+    "incomplete_microscopic_route_refused": true,
+    "baryon_density_BBN_common_across_states": true,
+    "no_fit_or_rejection_claim": true
+  },
+  "checks_passed": 36,
+  "accuracy_test": {
+    "case": "weighted_correlated",
+    "boost_pair": [
+      1.5,
+      2.0
+    ],
+    "RMS_change_in_public_bin_sigma": 0.013257022869064997,
+    "diagnostic_tolerance": 0.03
+  },
+  "official_Planck": {
+    "status": "not evaluated",
+    "backend_available": {
+      "clik": false,
+      "clipy": false
+    },
+    "missing": "verified official likelihood data blocks, foreground/calibration settings and null calibration"
+  },
+  "refutation_conditions": [
+    "negative load or energy",
+    "same density budget gives inconsistent Friedmann/CAMB background",
+    "nonconvergent observable computation",
+    "specified fixed completion inconsistent with data under appropriate likelihood"
+  ],
+  "data_note": "public binned diagnostic uses diagonal errors and bin-centre sampling; Q is not official chi-square or -2lnL; BAO predictions not yet scored against a covariance dataset; BBN table results not a micro-derived nuclear history",
+  "provenance": {
+    "CAMB": "2.0.4",
+    "binary_sha256": "cd843a1e3d2949443cf4c3705e255c36a670e7c9bdde3ede122906d149389c27",
+    "BBN_table_sha256": "9b98faa4932a29abda9d200e0d742b24e646615d6b918a1486fe439f1bdc0859",
+    "input_sha256": {
+      "positive_profile_and_payload.npz": "1aa16e3b048b3d54457924584d79793fc6cd28cee5f1880cf337e3ff35e1f602",
+      "COM_PowerSpect_CMB-EE-binned_R3.02.txt": "bd30fc1121c0d1c2e1a6ac997b30ac14ea1fdd42bc91ecc40d594c00463ffdb2",
+      "COM_PowerSpect_CMB-TE-binned_R3.02.txt": "191a588f9000885e931739ddb4f88717c29f79a45abd337837dac8032aed0137",
+      "camb-2.0.4.tar.gz": "2f1f5f3b3964a3746693dc88a54218dca4ea049a04726f8177664c11d2d2616e",
+      "PRIMAT_Yp_DH_ErrorMC_2024.dat": "9b98faa4932a29abda9d200e0d742b24e646615d6b918a1486fe439f1bdc0859",
+      "earlier_data_provenance.json": "65080c4adb9a65362df870212b5f695dfa7a528e5aea1c9bf994e516b7b4b854",
+      "p6_results.json": "be6e5d59433465aeea83c48e7809cf08a5fcb5c54703406109923a74aad5f7e4",
+      "shutter_spectrum_audit.json": "c370b9863829d61797579ded54bba97d821d30fcc4d742e0f2b996587bae7aff",
+      "selection_audit.json": "a66d379f90179e26e93148141eeb130a3e83524c0b77f7914a4dc0fa72c533d4",
+      "COM_PowerSpect_CMB-TT-binned_R3.01.txt": "ed2b8b51b033e668e661f6cf4eb7705f15bcaf358189dfc4a4481cc7020130cd"
+    },
+    "Fortran_files_byte_matched_to_source_archive": 61,
+    "source_archive_sha256": "2f1f5f3b3964a3746693dc88a54218dca4ea049a04726f8177664c11d2d2616e"
+  }
+}
