@@ -1,0 +1,4 @@
+Copyright (c) 2026 Wonsik Choi
+Original documents, data and code: Creative Commons Attribution 4.0 International.
+https://creativecommons.org/licenses/by/4.0/legalcode
+Third-party material retains its original license; see frame_baseline/CAMB_LICENSE.txt and upstream Planck data terms.

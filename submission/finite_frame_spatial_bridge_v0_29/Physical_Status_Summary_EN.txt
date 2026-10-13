@@ -1,0 +1,19 @@
+WRRA finite-frame physical bridge: progress and validation summary
+Wonsik Choi | 13 October 2026
+
+Validated inputs
+The finite address/slot construction, existing arithmetic response weights, SI energy coefficients and volume exponents are unchanged. A finite supply bit is explicitly prepared and given an energy gap matching the source mode-8 to mode-72 difference. This resource preparation and coupling are model assumptions.
+
+WRRA transformation
+An energy-conserving finite exchange transfers supply excitation to the source while retaining the logical record and complete information observables. Source and supply are included in the same energy and pressure budget. With a uniform supply-bit preparation, the total readout reproduces the previous calibrated homogeneous reference.
+For an explicitly supplied spatial occupation perturbation, the arithmetic response fixes delta L_D/R=(A72-A8) M_controlled,D/R delta p. The vacuum-like component has delta pressure=-delta energy density. Under standard GR, spatially varying vacuum density requires Q_R^nu=-nabla^nu u_R. We tested the explicit completion Q_D=-Q_R and Q_b=0.
+
+Computed outputs
+The prior conditional standard-completion CMB calculation gives H0=67.4499 km/s/Mpc and the first TT peak at ell=220 in the weighted branch; the unweighted branch gives 66.9054 and ell=221. These are known-value reproduction results under stated inputs, not a new likelihood determination.
+A separate baryon-dust/dark-dust/vacuum Fourier-mode test used k=0.05/Mpc and a small diagnostic occupation amplitude, without fitting. Omitting the required momentum transfer violates the Einstein energy and spatial-trace constraints. Including it reduces the energy-constraint residual to about 1e-8 in common vacuum-source units. Numerical convergence and linear-amplitude scaling were also checked.
+
+Falsification and scope
+The energy/pressure/information boundary, occupation-to-density derivative, Einstein constraints and numerical convergence are explicit tests. The physical spatial preparation, interaction recipient and standard GR are declared completion assumptions. Physical address-to-3D placement, primordial amplitude/spectrum, an underlying interaction action and micro-derived anisotropic stress remain open.
+The new interacting mode has not been inserted into a full radiation/recombination CAMB calculation. The earlier CMB spectra retain standard perturbation inputs. Official Planck likelihood and BAO covariance tests have not been executed; BBN abundances use the standard PRIMAT interpolation table.
+
+This is a limited computational progress report and a concrete conservation-complete candidate, rather than a claim of full microscopic cosmological closure.

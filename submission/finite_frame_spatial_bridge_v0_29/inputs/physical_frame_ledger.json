@@ -1,0 +1,749 @@
+{
+  "version": "0.28",
+  "input": "existing arithmetic loads, eta, Kc/2, mod3 preparation, P7 g priors; original uniform-reference energy budget",
+  "new_construction_assumptions": [
+    "P7 g parity is coupled to an addressed two-level supply Hamiltonian with gap exactly equal to the 8-to72 source energy difference",
+    "only existing mod3-complement addresses use the exchange gate",
+    "one new initially blank energy-degenerate logical record bit, distinct from the old 22keV phenotype record",
+    "one accepted frame gate; after-event free evolution, no uncounted repeated fresh resources",
+    "supply D/R parts inherit the same volume law as the corresponding source; not the old all-pressureless measurement supplier"
+  ],
+  "transformation": "exact energy-gap matching -> finite controlled unitary -> source/supply/record energy and information -> inherited total fluid background -> conditional CAMB/BAO/BBN",
+  "closed_physical_scope": [
+    "one frame source+finite supply energy exchange",
+    "same-energy pressure at both endpoints",
+    "full logical P6 moments and bias under conjugated information observables",
+    "total-background conservation under the adopted standard fluid completion",
+    "conditional total-budget observables"
+  ],
+  "new_fit": false,
+  "new_eta": false,
+  "cases": [
+    {
+      "id": "weighted_uniform_g_parity",
+      "branch": "weighted",
+      "supply_prior": "uniform_g_parity",
+      "supply_excited_probability": 0.5,
+      "initial_source_loads": [
+        0.050000000000000086,
+        0.096085367076543,
+        0.21230795706471653
+      ],
+      "initial_supply_loads": [
+        0.0,
+        0.18284024390020093,
+        0.47543458278952233
+      ],
+      "initial_total_loads": [
+        0.050000000000000086,
+        0.27892561097674395,
+        0.6877425398542388
+      ],
+      "final_source_loads": [
+        0.050000000000000086,
+        0.2789256109767439,
+        0.6877425398542388
+      ],
+      "final_supply_loads": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial_supply_energy_J_V0": [
+        0.0,
+        1.3321303783564441e-10,
+        3.6352217036219685e-10
+      ],
+      "original_P6_bias_j": [
+        -0.050000000000000315,
+        -0.09608536707654249,
+        -0.21230795706471564
+      ],
+      "logical_P6_mean_error": 0.0,
+      "record_excited_probability_on_controlled_addresses": 0.5,
+      "single_outcome_derived": false,
+      "source_mode_populations_after": {
+        "8": 0.5,
+        "72": 0.5
+      },
+      "source_is_uniform_density_matrix": false,
+      "observables": {
+        "id": "weighted_uniform_g_parity",
+        "state_preparation": "declared finite supply from uniform_g_parity; after one energy-conserving frame exchange, not I/128",
+        "readout_operator": "source A plus addressed finite supply Hamiltonian; same total energy before/after frame",
+        "load_P_D_R": [
+          0.050000000000000086,
+          0.27892561097674395,
+          0.6877425398542388
+        ],
+        "u_P_D_R_today_J_m3": [
+          3.780791249550006e-11,
+          2.0321854300662739e-10,
+          5.258550172588166e-10
+        ],
+        "ombh2": 0.022395806792949103,
+        "omch2": 0.12037806177378184,
+        "omega_vacuum": 0.31149425054961916,
+        "H0_derived_km_s_Mpc": 67.44991813234087,
+        "age_Gyr": 13.77788755134201,
+        "Omega_P_D_R_today": [
+          0.049227055395653155,
+          0.2645967421555432,
+          0.684679273624613
+        ],
+        "derived": {
+          "age": 13.77788755134201,
+          "zstar": 1089.9071993297405,
+          "rstar": 144.32609714539637,
+          "thetastar": 1.0417944997036108,
+          "DAstar": 13.853605215467825,
+          "zdrag": 1060.0190194606778,
+          "rdrag": 146.97441926426694,
+          "kd": 0.14102346435655091,
+          "thetad": 0.1608035698864019,
+          "zeq": 3412.5363078395344,
+          "keq": 0.010414359691974092,
+          "thetaeq": 0.8120474629609757,
+          "thetarseq": 0.4487447136177397
+        },
+        "TT_first_three_peak_ell": [
+          220,
+          536,
+          812
+        ],
+        "planck_public_bin_diagnostic": {
+          "TT": {
+            "bin_count": 83,
+            "RMS_in_public_bin_sigma": 1.066295017066816,
+            "diagonal_Q": 94.3697602639863
+          },
+          "TE": {
+            "bin_count": 66,
+            "RMS_in_public_bin_sigma": 1.1014836546627775,
+            "diagonal_Q": 80.07557193829174
+          },
+          "EE": {
+            "bin_count": 66,
+            "RMS_in_public_bin_sigma": 1.0790489731388466,
+            "diagonal_Q": 76.84688130451195
+          },
+          "all": {
+            "bin_count": 215,
+            "RMS_in_public_bin_sigma": 1.0811109994144157,
+            "diagonal_Q": 251.29221350678995
+          }
+        },
+        "BBN": {
+          "method": "inherited PRIMAT 2024 interpolation, not a new reaction-network run",
+          "ombh2": 0.022395806792949103,
+          "DeltaN": 0.0,
+          "Y_He_mass_fraction": 0.2456672061862873,
+          "Y_p_nucleon_fraction": 0.24699818015506603,
+          "D_over_H": 2.4417742409635382e-05,
+          "sigma_D_over_H_table": 2.7309629036466226e-07,
+          "sigma_Y_p_table": 0.00010907954461599492
+        },
+        "BAO_rows": [
+          [
+            0.38,
+            10.419529928890993,
+            24.5818350011267,
+            10.046883883204119,
+            82.97832249703903,
+            1531.4043603054024
+          ],
+          [
+            0.51,
+            13.493539296236712,
+            22.727692361586126,
+            12.827019595711018,
+            89.74775792636353,
+            1983.2051018839559
+          ],
+          [
+            0.61,
+            15.698272930432225,
+            21.37938757710026,
+            14.757392064310423,
+            95.40775781984073,
+            2307.2445474022384
+          ]
+        ],
+        "density_relative_error": 6.661338147750939e-16,
+        "friedmann_relative_error": 6.661338147750939e-16,
+        "official_minus2logL": null,
+        "statistical_rejection": null
+      }
+    },
+    {
+      "id": "weighted_P7_Gibbs_g_parity_control",
+      "branch": "weighted",
+      "supply_prior": "P7_Gibbs_g_parity_control",
+      "supply_excited_probability": 0.2689414213699951,
+      "initial_source_loads": [
+        0.050000000000000086,
+        0.096085367076543,
+        0.21230795706471653
+      ],
+      "initial_supply_loads": [
+        0.0,
+        0.09834663015631322,
+        0.25572810492772946
+      ],
+      "initial_total_loads": [
+        0.050000000000000086,
+        0.1944319972328562,
+        0.46803606199244596
+      ],
+      "final_source_loads": [
+        0.050000000000000086,
+        0.1944319972328562,
+        0.4680360619924461
+      ],
+      "final_supply_loads": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial_supply_energy_J_V0": [
+        0.0,
+        7.165300748106628e-11,
+        1.9553233839342945e-10
+      ],
+      "original_P6_bias_j": [
+        -0.050000000000000315,
+        -0.09608536707654249,
+        -0.21230795706471564
+      ],
+      "logical_P6_mean_error": 0.0,
+      "record_excited_probability_on_controlled_addresses": 0.2689414213699951,
+      "single_outcome_derived": false,
+      "source_mode_populations_after": {
+        "8": 0.7310585786300049,
+        "72": 0.2689414213699951
+      },
+      "source_is_uniform_density_matrix": false,
+      "observables": {
+        "id": "weighted_P7_Gibbs_g_parity_control",
+        "state_preparation": "declared finite supply from P7_Gibbs_g_parity_control; after one energy-conserving frame exchange, not I/128",
+        "readout_operator": "source A plus addressed finite supply Hamiltonian; same total energy before/after frame",
+        "load_P_D_R": [
+          0.050000000000000086,
+          0.1944319972328562,
+          0.46803606199244596
+        ],
+        "u_P_D_R_today_J_m3": [
+          3.780791249550006e-11,
+          1.4165851265204923e-10,
+          3.5786518529004926e-10
+        ],
+        "ombh2": 0.022395806792949103,
+        "omch2": 0.08391250588906309,
+        "omega_vacuum": 0.21198418581382375,
+        "H0_derived_km_s_Mpc": 56.47774118937782,
+        "age_Gyr": 16.16775469906501,
+        "Omega_P_D_R_today": [
+          0.07021211805579095,
+          0.26307044101197696,
+          0.664582384458095
+        ],
+        "derived": {
+          "age": 16.16775469906501,
+          "zstar": 1086.52035635525,
+          "rstar": 154.92921139323985,
+          "thetastar": 0.961457781812625,
+          "DAstar": 16.113990060089133,
+          "zdrag": 1057.2193266261515,
+          "rdrag": 157.83353474945397,
+          "kd": 0.13012466485641105,
+          "thetad": 0.14982599043480693,
+          "zeq": 2540.6925996902373,
+          "keq": 0.007754617637164107,
+          "thetaeq": 0.9376036597739815,
+          "thetarseq": 0.5110438876527833
+        },
+        "TT_first_three_peak_ell": [
+          236,
+          578,
+          885
+        ],
+        "planck_public_bin_diagnostic": {
+          "TT": {
+            "bin_count": 83,
+            "RMS_in_public_bin_sigma": 33.02061591047714,
+            "diagonal_Q": 90499.96923390223
+          },
+          "TE": {
+            "bin_count": 66,
+            "RMS_in_public_bin_sigma": 21.852246818463723,
+            "diagonal_Q": 31516.36560699382
+          },
+          "EE": {
+            "bin_count": 66,
+            "RMS_in_public_bin_sigma": 12.788607291152966,
+            "diagonal_Q": 10794.199445523831
+          },
+          "all": {
+            "bin_count": 215,
+            "RMS_in_public_bin_sigma": 24.854042232314523,
+            "diagonal_Q": 132810.53428641986
+          }
+        },
+        "BBN": {
+          "method": "inherited PRIMAT 2024 interpolation, not a new reaction-network run",
+          "ombh2": 0.022395806792949103,
+          "DeltaN": 0.0,
+          "Y_He_mass_fraction": 0.2456672061862873,
+          "Y_p_nucleon_fraction": 0.24699818015506603,
+          "D_over_H": 2.4417742409635382e-05,
+          "sigma_D_over_H_table": 2.7309629036466226e-07,
+          "sigma_Y_p_table": 0.00010907954461599492
+        },
+        "BAO_rows": [
+          [
+            0.38,
+            11.52583763640855,
+            27.04653499468204,
+            11.093793439010888,
+            70.22791676544318,
+            1819.1636951026533
+          ],
+          [
+            0.51,
+            14.902964405159306,
+            24.931887996732527,
+            14.134818097594534,
+            76.18443531629482,
+            2352.187550311587
+          ],
+          [
+            0.61,
+            17.31905896695207,
+            23.405583691769092,
+            16.239249871055854,
+            81.15250759878018,
+            2733.528295288272
+          ]
+        ],
+        "density_relative_error": 6.661338147750939e-16,
+        "friedmann_relative_error": 6.661338147750939e-16,
+        "official_minus2logL": null,
+        "statistical_rejection": null
+      }
+    },
+    {
+      "id": "unweighted_uniform_g_parity",
+      "branch": "unweighted",
+      "supply_prior": "uniform_g_parity",
+      "supply_excited_probability": 0.5,
+      "initial_source_loads": [
+        0.05000000000000015,
+        0.09206537834973609,
+        0.21053173911055303
+      ],
+      "initial_supply_loads": [
+        0.0,
+        0.17593462165026394,
+        0.4714682608894469
+      ],
+      "initial_total_loads": [
+        0.05000000000000015,
+        0.268,
+        0.6819999999999999
+      ],
+      "final_source_loads": [
+        0.05000000000000015,
+        0.268,
+        0.6819999999999998
+      ],
+      "final_supply_loads": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial_supply_energy_J_V0": [
+        0.0,
+        1.2818176628165522e-10,
+        3.6048947985615337e-10
+      ],
+      "original_P6_bias_j": [
+        -0.050000000000000315,
+        -0.09206537834973841,
+        -0.21053173911055925
+      ],
+      "logical_P6_mean_error": 0.0,
+      "record_excited_probability_on_controlled_addresses": 0.5,
+      "single_outcome_derived": false,
+      "source_mode_populations_after": {
+        "8": 0.5,
+        "72": 0.5
+      },
+      "source_is_uniform_density_matrix": false,
+      "observables": {
+        "id": "unweighted_uniform_g_parity",
+        "state_preparation": "declared finite supply from uniform_g_parity; after one energy-conserving frame exchange, not I/128",
+        "readout_operator": "source A plus addressed finite supply Hamiltonian; same total energy before/after frame",
+        "load_P_D_R": [
+          0.05000000000000015,
+          0.268,
+          0.6819999999999999
+        ],
+        "u_P_D_R_today_J_m3": [
+          3.7807912495500115e-11,
+          1.9525840361184e-10,
+          5.214642122421599e-10
+        ],
+        "ombh2": 0.022395806792949134,
+        "omch2": 0.11566281218279162,
+        "omega_vacuum": 0.30889332353916177,
+        "H0_derived_km_s_Mpc": 66.90537863314884,
+        "age_Gyr": 13.957325753222852,
+        "Omega_P_D_R_today": [
+          0.05003162935642469,
+          0.25838760813354794,
+          0.6900593676692652
+        ],
+        "derived": {
+          "age": 13.957325753222852,
+          "zstar": 1089.4939127041382,
+          "rstar": 145.55674989479832,
+          "thetastar": 1.0351444976195852,
+          "DAstar": 14.061490954115115,
+          "zdrag": 1059.6780409773141,
+          "rdrag": 148.23380542506607,
+          "kd": 0.13969873393772322,
+          "thetad": 0.15992856140428796,
+          "zeq": 3299.8008623343394,
+          "keq": 0.01007043377695248,
+          "thetaeq": 0.8273661774512764,
+          "thetarseq": 0.4565718263985257
+        },
+        "TT_first_three_peak_ell": [
+          221,
+          539,
+          818
+        ],
+        "planck_public_bin_diagnostic": {
+          "TT": {
+            "bin_count": 83,
+            "RMS_in_public_bin_sigma": 2.4010130192838925,
+            "diagonal_Q": 478.48367205797246
+          },
+          "TE": {
+            "bin_count": 66,
+            "RMS_in_public_bin_sigma": 2.0510684194780175,
+            "diagonal_Q": 277.6541896510835
+          },
+          "EE": {
+            "bin_count": 66,
+            "RMS_in_public_bin_sigma": 1.318857525624007,
+            "diagonal_Q": 114.79942141107514
+          },
+          "all": {
+            "bin_count": 215,
+            "RMS_in_public_bin_sigma": 2.012677590743157,
+            "diagonal_Q": 870.937283120131
+          }
+        },
+        "BBN": {
+          "method": "inherited PRIMAT 2024 interpolation, not a new reaction-network run",
+          "ombh2": 0.022395806792949134,
+          "DeltaN": 0.0,
+          "Y_He_mass_fraction": 0.2456672061862873,
+          "Y_p_nucleon_fraction": 0.24699818015506603,
+          "D_over_H": 2.441774240963533e-05,
+          "sigma_D_over_H_table": 2.7309629036466194e-07,
+          "sigma_Y_p_table": 0.00010907954461599492
+        },
+        "BAO_rows": [
+          [
+            0.38,
+            10.430148115177305,
+            24.642763486069935,
+            10.062007861638213,
+            82.06992494261897,
+            1546.1005462598123
+          ],
+          [
+            0.51,
+            13.513056932274802,
+            22.80279053342708,
+            12.853511653973463,
+            88.69220399651303,
+            2003.091851996663
+          ],
+          [
+            0.61,
+            15.725699366813267,
+            21.462021285939162,
+            14.793586133078682,
+            94.23295796493619,
+            2331.0802601132823
+          ]
+        ],
+        "density_relative_error": 6.661338147750939e-16,
+        "friedmann_relative_error": 6.661338147750939e-16,
+        "official_minus2logL": null,
+        "statistical_rejection": null
+      }
+    },
+    {
+      "id": "unweighted_P7_Gibbs_g_parity_control",
+      "branch": "unweighted",
+      "supply_prior": "P7_Gibbs_g_parity_control",
+      "supply_excited_probability": 0.2689414213699951,
+      "initial_source_loads": [
+        0.05000000000000015,
+        0.09206537834973609,
+        0.21053173911055303
+      ],
+      "initial_supply_loads": [
+        0.0,
+        0.09463221442962859,
+        0.25359468842889504
+      ],
+      "initial_total_loads": [
+        0.05000000000000015,
+        0.18669759277936468,
+        0.4641264275394481
+      ],
+      "final_source_loads": [
+        0.05000000000000015,
+        0.1866975927793647,
+        0.4641264275394481
+      ],
+      "final_supply_loads": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial_supply_energy_J_V0": [
+        0.0,
+        6.894677283500974e-11,
+        1.939011062028882e-10
+      ],
+      "original_P6_bias_j": [
+        -0.050000000000000315,
+        -0.09206537834973841,
+        -0.21053173911055925
+      ],
+      "logical_P6_mean_error": 0.0,
+      "record_excited_probability_on_controlled_addresses": 0.2689414213699951,
+      "single_outcome_derived": false,
+      "source_mode_populations_after": {
+        "8": 0.7310585786300049,
+        "72": 0.2689414213699951
+      },
+      "source_is_uniform_density_matrix": false,
+      "observables": {
+        "id": "unweighted_P7_Gibbs_g_parity_control",
+        "state_preparation": "declared finite supply from P7_Gibbs_g_parity_control; after one energy-conserving frame exchange, not I/128",
+        "readout_operator": "source A plus addressed finite supply Hamiltonian; same total energy before/after frame",
+        "load_P_D_R": [
+          0.05000000000000015,
+          0.18669759277936468,
+          0.4641264275394481
+        ],
+        "u_P_D_R_today_J_m3": [
+          3.7807912495500115e-11,
+          1.3602341016519454e-10,
+          3.548758385888948e-10
+        ],
+        "ombh2": 0.022395806792949134,
+        "omch2": 0.08057450973365286,
+        "omega_vacuum": 0.2102134233797919,
+        "H0_derived_km_s_Mpc": 56.02363486922215,
+        "age_Gyr": 16.370790838106167,
+        "Omega_P_D_R_today": [
+          0.07135495662706248,
+          0.25671728196466237,
+          0.6697579527438032
+        ],
+        "derived": {
+          "age": 16.370790838106167,
+          "zstar": 1086.1853541803473,
+          "rstar": 156.0439197161327,
+          "thetastar": 0.9547402003227625,
+          "DAstar": 16.34412373789016,
+          "zdrag": 1056.9413804753126,
+          "rdrag": 158.97633843317462,
+          "kd": 0.12904249574239482,
+          "thetad": 0.14895513422453782,
+          "zeq": 2460.8854810185467,
+          "keq": 0.007511152600949505,
+          "thetaeq": 0.9543670313025294,
+          "thetarseq": 0.5192934767202931
+        },
+        "TT_first_three_peak_ell": [
+          237,
+          582,
+          892
+        ],
+        "planck_public_bin_diagnostic": {
+          "TT": {
+            "bin_count": 83,
+            "RMS_in_public_bin_sigma": 36.045924116028736,
+            "diagonal_Q": 107842.61756641568
+          },
+          "TE": {
+            "bin_count": 66,
+            "RMS_in_public_bin_sigma": 23.563118297454857,
+            "diagonal_Q": 36644.55589739023
+          },
+          "EE": {
+            "bin_count": 66,
+            "RMS_in_public_bin_sigma": 13.954550906608068,
+            "diagonal_Q": 12852.146406337659
+          },
+          "all": {
+            "bin_count": 215,
+            "RMS_in_public_bin_sigma": 27.052001591262908,
+            "diagonal_Q": 157339.31987014355
+          }
+        },
+        "BBN": {
+          "method": "inherited PRIMAT 2024 interpolation, not a new reaction-network run",
+          "ombh2": 0.022395806792949134,
+          "DeltaN": 0.0,
+          "Y_He_mass_fraction": 0.2456672061862873,
+          "Y_p_nucleon_fraction": 0.24699818015506603,
+          "D_over_H": 2.441774240963533e-05,
+          "sigma_D_over_H_table": 2.7309629036466194e-07,
+          "sigma_Y_p_table": 0.00010907954461599492
+        },
+        "BAO_rows": [
+          [
+            0.38,
+            11.551521136986949,
+            27.143810219576338,
+            11.123571576292852,
+            69.47321589326555,
+            1836.4185336916073
+          ],
+          [
+            0.51,
+            14.942085224567856,
+            25.040427200031004,
+            14.180061336543783,
+            75.30893033438821,
+            2375.4379975582374
+          ],
+          [
+            0.61,
+            17.369318954424063,
+            23.519388626068746,
+            16.296980576020122,
+            80.17928601512546,
+            2761.310728452275
+          ]
+        ],
+        "density_relative_error": 8.881784197001252e-16,
+        "friedmann_relative_error": 6.661338147750939e-16,
+        "official_minus2logL": null,
+        "statistical_rejection": null
+      }
+    }
+  ],
+  "checks": {
+    "finite_unitary_permutation": true,
+    "mode_complement_identity": true,
+    "two_distinguishable_source_modes": true,
+    "uniform_g_parity_half": true,
+    "thermal_control_not_recalibrated": true,
+    "s1_V0.125_energy_conserving_unitary": true,
+    "s1_V0.125_pressure_conserving_unitary": true,
+    "s1_V1.0_energy_conserving_unitary": true,
+    "s1_V1.0_pressure_conserving_unitary": true,
+    "s1_V8.0_energy_conserving_unitary": true,
+    "s1_V8.0_pressure_conserving_unitary": true,
+    "s2_V0.125_energy_conserving_unitary": true,
+    "s2_V0.125_pressure_conserving_unitary": true,
+    "s2_V1.0_energy_conserving_unitary": true,
+    "s2_V1.0_pressure_conserving_unitary": true,
+    "s2_V8.0_energy_conserving_unitary": true,
+    "s2_V8.0_pressure_conserving_unitary": true,
+    "logical_observable_conjugation": true,
+    "exchange_moves_excited_supply_to_record": true,
+    "weighted_initial_means_reproduced": true,
+    "weighted_uniform_supply_equals_reference_headroom": true,
+    "weighted_uniform_g_parity_logical_P6_moments_preserved": true,
+    "weighted_uniform_g_parity_source_supply_energy_balance": true,
+    "weighted_uniform_g_parity_supply_ends_ground": true,
+    "weighted_uniform_g_parity_record_probability_from_existing_prior": true,
+    "weighted_uniform_g_parity_finite_probability_support": true,
+    "weighted_uniform_g_parity_total_load_is_invariant": true,
+    "weighted_full_budget_equals_existing_uniform_reference": true,
+    "weighted_uniform_g_parity_V0.125_whole_energy_pressure": true,
+    "weighted_uniform_g_parity_V1.0_whole_energy_pressure": true,
+    "weighted_uniform_g_parity_V8.0_whole_energy_pressure": true,
+    "weighted_uniform_g_parity_background_conservation": true,
+    "weighted_uniform_g_parity_density_ledger_matches_CAMB": true,
+    "weighted_uniform_g_parity_friedmann_matches_CAMB": true,
+    "weighted_uniform_g_parity_vacuum_density_matches_input": true,
+    "weighted_uniform_g_parity_finite_positive_auto_spectra": true,
+    "weighted_uniform_g_parity_TE_covariance_bound": true,
+    "weighted_uniform_g_parity_Cl_Dl_conversion": true,
+    "weighted_uniform_g_parity_flat_budget_closure": true,
+    "weighted_uniform_g_parity_BBN_helium_matches_recombination": true,
+    "weighted_whole_CMB_background_matches_reference": true,
+    "weighted_P7_Gibbs_g_parity_control_logical_P6_moments_preserved": true,
+    "weighted_P7_Gibbs_g_parity_control_source_supply_energy_balance": true,
+    "weighted_P7_Gibbs_g_parity_control_supply_ends_ground": true,
+    "weighted_P7_Gibbs_g_parity_control_record_probability_from_existing_prior": true,
+    "weighted_P7_Gibbs_g_parity_control_finite_probability_support": true,
+    "weighted_P7_Gibbs_g_parity_control_total_load_is_invariant": true,
+    "weighted_P7_Gibbs_g_parity_control_V0.125_whole_energy_pressure": true,
+    "weighted_P7_Gibbs_g_parity_control_V1.0_whole_energy_pressure": true,
+    "weighted_P7_Gibbs_g_parity_control_V8.0_whole_energy_pressure": true,
+    "weighted_P7_Gibbs_g_parity_control_background_conservation": true,
+    "weighted_P7_Gibbs_g_parity_control_density_ledger_matches_CAMB": true,
+    "weighted_P7_Gibbs_g_parity_control_friedmann_matches_CAMB": true,
+    "weighted_P7_Gibbs_g_parity_control_vacuum_density_matches_input": true,
+    "weighted_P7_Gibbs_g_parity_control_finite_positive_auto_spectra": true,
+    "weighted_P7_Gibbs_g_parity_control_TE_covariance_bound": true,
+    "weighted_P7_Gibbs_g_parity_control_Cl_Dl_conversion": true,
+    "weighted_P7_Gibbs_g_parity_control_flat_budget_closure": true,
+    "weighted_P7_Gibbs_g_parity_control_BBN_helium_matches_recombination": true,
+    "unweighted_initial_means_reproduced": true,
+    "unweighted_uniform_supply_equals_reference_headroom": true,
+    "unweighted_uniform_g_parity_logical_P6_moments_preserved": true,
+    "unweighted_uniform_g_parity_source_supply_energy_balance": true,
+    "unweighted_uniform_g_parity_supply_ends_ground": true,
+    "unweighted_uniform_g_parity_record_probability_from_existing_prior": true,
+    "unweighted_uniform_g_parity_finite_probability_support": true,
+    "unweighted_uniform_g_parity_total_load_is_invariant": true,
+    "unweighted_full_budget_equals_existing_uniform_reference": true,
+    "unweighted_uniform_g_parity_V0.125_whole_energy_pressure": true,
+    "unweighted_uniform_g_parity_V1.0_whole_energy_pressure": true,
+    "unweighted_uniform_g_parity_V8.0_whole_energy_pressure": true,
+    "unweighted_uniform_g_parity_background_conservation": true,
+    "unweighted_uniform_g_parity_density_ledger_matches_CAMB": true,
+    "unweighted_uniform_g_parity_friedmann_matches_CAMB": true,
+    "unweighted_uniform_g_parity_vacuum_density_matches_input": true,
+    "unweighted_uniform_g_parity_finite_positive_auto_spectra": true,
+    "unweighted_uniform_g_parity_TE_covariance_bound": true,
+    "unweighted_uniform_g_parity_Cl_Dl_conversion": true,
+    "unweighted_uniform_g_parity_flat_budget_closure": true,
+    "unweighted_uniform_g_parity_BBN_helium_matches_recombination": true,
+    "unweighted_whole_CMB_background_matches_reference": true,
+    "unweighted_P7_Gibbs_g_parity_control_logical_P6_moments_preserved": true,
+    "unweighted_P7_Gibbs_g_parity_control_source_supply_energy_balance": true,
+    "unweighted_P7_Gibbs_g_parity_control_supply_ends_ground": true,
+    "unweighted_P7_Gibbs_g_parity_control_record_probability_from_existing_prior": true,
+    "unweighted_P7_Gibbs_g_parity_control_finite_probability_support": true,
+    "unweighted_P7_Gibbs_g_parity_control_total_load_is_invariant": true,
+    "unweighted_P7_Gibbs_g_parity_control_V0.125_whole_energy_pressure": true,
+    "unweighted_P7_Gibbs_g_parity_control_V1.0_whole_energy_pressure": true,
+    "unweighted_P7_Gibbs_g_parity_control_V8.0_whole_energy_pressure": true,
+    "unweighted_P7_Gibbs_g_parity_control_background_conservation": true,
+    "unweighted_P7_Gibbs_g_parity_control_density_ledger_matches_CAMB": true,
+    "unweighted_P7_Gibbs_g_parity_control_friedmann_matches_CAMB": true,
+    "unweighted_P7_Gibbs_g_parity_control_vacuum_density_matches_input": true,
+    "unweighted_P7_Gibbs_g_parity_control_finite_positive_auto_spectra": true,
+    "unweighted_P7_Gibbs_g_parity_control_TE_covariance_bound": true,
+    "unweighted_P7_Gibbs_g_parity_control_Cl_Dl_conversion": true,
+    "unweighted_P7_Gibbs_g_parity_control_flat_budget_closure": true,
+    "unweighted_P7_Gibbs_g_parity_control_BBN_helium_matches_recombination": true
+  },
+  "checks_passed": 99
+}

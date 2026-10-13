@@ -1,5 +1,8 @@
 ## Calibrated twist-stress CMB toy model v0.5 · 2026-10-10
 
+> **2026-10-13 · 유한 프레임 물리 브리지 v0.29:** [한·영 기술노트와 재현 코드](submission/finite_frame_spatial_bridge_v0_29/README.md) · [Zenodo](https://doi.org/10.5281/zenodo.23328994). 토이모델의 에너지 교환 및 조건부 스칼라 모드 보존 검사. 기존 CMB 기준값 재현과 새 모드 계산은 구분하며, 공식 Planck 우도 검증은 미실행.
+
+
 [Final manuscript, reproducibility supplement and full Astra Medium review](submission/cmb_twist_toy_v0_5/README.md). Planck TT/TE/EE calibration, robustness checks and density-ledger mapping; exploratory model-development scope.
 
 ---

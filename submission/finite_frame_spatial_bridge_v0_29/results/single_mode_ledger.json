@@ -1,0 +1,194 @@
+{
+  "input": "v0.28 arithmetic resource/energy coefficients; physical Fourier k and occupation-field preparation supplied as diagnostics",
+  "WRRA_transform": "dp_resource -> delta L_D/R=(A72-A8) M_controlled dp -> delta u,p -> conservation-required vacuum gradient force -> conditional GR density/velocity/metric mode",
+  "new_completion_assumptions": [
+    "physical spatial occupation field p(x)=1/2+epsilon cos(k.x)",
+    "standard scalar GR, isotropic baryon and dark dust, vacuum T_R=-u_R g",
+    "all vacuum momentum transfer assigned to D, not baryons",
+    "fixed physical vacuum-density modulation, hence zero time component of background-linear transfer",
+    "radiation/neutrinos omitted in this separate controlled late-epoch subsystem"
+  ],
+  "not_derived": [
+    "address-to-physical-3D placement",
+    "primordial amplitude or k spectrum",
+    "microscopic action producing this interaction",
+    "anisotropic stress from arithmetic states"
+  ],
+  "CMB_status": "earlier fixed conditional CMB unchanged; this new interacting mode is NOT integrated into CAMB recombination/photons/neutrinos",
+  "cases": [
+    {
+      "branch": "weighted",
+      "completed_conditional_mode": {
+        "H0_auxiliary_dust_vacuum": 67.39941536217879,
+        "k_vector_Mpc_inv": [
+          0.05,
+          0.0,
+          0.0
+        ],
+        "resource_modulation_amplitude": 1e-08,
+        "a_start": 0.02,
+        "a_end": 1.0,
+        "delta_u_D_at_a1_from_mapping_J_m3": 2.6642607567128874e-18,
+        "delta_u_R_from_mapping_J_m3": 7.270443407243936e-18,
+        "required_vacuum_transfer": "Q_R^nu=-nabla^nu u_R; Q_D^nu=-Q_R^nu; Q_b^nu=0 (explicit recipient choice)",
+        "force_term_in_dark_Euler": "-k^2 delta_u_R/(u_D H_conformal) in dtheta_D/dln(a)",
+        "include_required_momentum_transfer": true,
+        "einstein_constraint_normalized_max": 9.756243415811152e-13,
+        "einstein_constraint_in_common_vacuum_source_units": 9.992401557891641e-09,
+        "spatial_Einstein_trace_residual_in_vacuum_source_units": 3.4900181508155557e-16,
+        "constraint_propagation_identity_error": 9.992401557891641e-09,
+        "independent_ODE_difference_error": 6.621679472766438e-11,
+        "maximum_dust_density_contrast": 0.00018117317199738855,
+        "final_state_delta_b_delta_D_theta_b_theta_D_phi": [
+          1.0768507152450287e-05,
+          0.00018117317199738855,
+          -5.5902886990177695e-09,
+          -1.1222441599128195e-07,
+          -1.472107657213036e-09
+        ],
+        "solver_evaluations": 581,
+        "constraint_scale_Mpc_inv_squared": 7.361766114095503e-12,
+        "vacuum_source_constraint_scale_Mpc_inv_squared": 7.187779810816601e-16,
+        "convergence_relative_error": 1.3836546109013225e-12,
+        "linearity_relative_error": 2.0811296388541733e-12
+      },
+      "missing_transfer_negative_control": {
+        "H0_auxiliary_dust_vacuum": 67.39941536217879,
+        "k_vector_Mpc_inv": [
+          0.05,
+          0.0,
+          0.0
+        ],
+        "resource_modulation_amplitude": 1e-08,
+        "a_start": 0.02,
+        "a_end": 1.0,
+        "delta_u_D_at_a1_from_mapping_J_m3": 2.6642607567128874e-18,
+        "delta_u_R_from_mapping_J_m3": 7.270443407243936e-18,
+        "required_vacuum_transfer": "Q_R^nu=-nabla^nu u_R; Q_D^nu=-Q_R^nu; Q_b^nu=0 (explicit recipient choice)",
+        "force_term_in_dark_Euler": "-k^2 delta_u_R/(u_D H_conformal) in dtheta_D/dln(a)",
+        "include_required_momentum_transfer": false,
+        "einstein_constraint_normalized_max": 0.027287969125722195,
+        "einstein_constraint_in_common_vacuum_source_units": 0.9999920000023325,
+        "spatial_Einstein_trace_residual_in_vacuum_source_units": 1.0,
+        "constraint_propagation_identity_error": 2.66704964004392e-10,
+        "independent_ODE_difference_error": 3.854944005819651e-09,
+        "maximum_dust_density_contrast": 2.6320771999619357e-07,
+        "final_state_delta_b_delta_D_theta_b_theta_D_phi": [
+          2.5009739690611024e-07,
+          2.6320771999619357e-07,
+          -3.090226533043666e-11,
+          -3.090226533043666e-11,
+          -2.4890702070087778e-12
+        ],
+        "solver_evaluations": 374,
+        "constraint_scale_Mpc_inv_squared": 2.634026107065471e-14,
+        "vacuum_source_constraint_scale_Mpc_inv_squared": 7.187779810816601e-16
+      }
+    },
+    {
+      "branch": "unweighted",
+      "completed_conditional_mode": {
+        "H0_auxiliary_dust_vacuum": 66.85446451172147,
+        "k_vector_Mpc_inv": [
+          0.05,
+          0.0,
+          0.0
+        ],
+        "resource_modulation_amplitude": 1e-08,
+        "a_start": 0.02,
+        "a_end": 1.0,
+        "delta_u_D_at_a1_from_mapping_J_m3": 2.563635325633105e-18,
+        "delta_u_R_from_mapping_J_m3": 7.209789597123068e-18,
+        "required_vacuum_transfer": "Q_R^nu=-nabla^nu u_R; Q_D^nu=-Q_R^nu; Q_b^nu=0 (explicit recipient choice)",
+        "force_term_in_dark_Euler": "-k^2 delta_u_R/(u_D H_conformal) in dtheta_D/dln(a)",
+        "include_required_momentum_transfer": true,
+        "einstein_constraint_normalized_max": 9.894201522758908e-13,
+        "einstein_constraint_in_common_vacuum_source_units": 1.0369080353362072e-08,
+        "spatial_Einstein_trace_residual_in_vacuum_source_units": 5.771162632162873e-16,
+        "constraint_propagation_identity_error": 1.0369080353362072e-08,
+        "independent_ODE_difference_error": 6.205009766692977e-11,
+        "maximum_dust_density_contrast": 0.0001912677621234882,
+        "final_state_delta_b_delta_D_theta_b_theta_D_phi": [
+          1.1248801705632634e-05,
+          0.0001912677621234882,
+          -5.751993862429867e-09,
+          -1.1694653268675861e-07,
+          -1.4937400332275373e-09
+        ],
+        "solver_evaluations": 569,
+        "constraint_scale_Mpc_inv_squared": 7.469919909341853e-12,
+        "vacuum_source_constraint_scale_Mpc_inv_squared": 7.127815623295177e-16,
+        "convergence_relative_error": 1.5188049275276299e-12,
+        "linearity_relative_error": 2.0308834538276974e-12
+      },
+      "missing_transfer_negative_control": {
+        "H0_auxiliary_dust_vacuum": 66.85446451172147,
+        "k_vector_Mpc_inv": [
+          0.05,
+          0.0,
+          0.0
+        ],
+        "resource_modulation_amplitude": 1e-08,
+        "a_start": 0.02,
+        "a_end": 1.0,
+        "delta_u_D_at_a1_from_mapping_J_m3": 2.563635325633105e-18,
+        "delta_u_R_from_mapping_J_m3": 7.209789597123068e-18,
+        "required_vacuum_transfer": "Q_R^nu=-nabla^nu u_R; Q_D^nu=-Q_R^nu; Q_b^nu=0 (explicit recipient choice)",
+        "force_term_in_dark_Euler": "-k^2 delta_u_R/(u_D H_conformal) in dtheta_D/dln(a)",
+        "include_required_momentum_transfer": false,
+        "einstein_constraint_normalized_max": 0.02812244643845215,
+        "einstein_constraint_in_common_vacuum_source_units": 0.9999920000021101,
+        "spatial_Einstein_trace_residual_in_vacuum_source_units": 1.0,
+        "constraint_propagation_identity_error": 2.560614607141413e-10,
+        "independent_ODE_difference_error": 4.22887561732806e-09,
+        "maximum_dust_density_contrast": 2.609632420481797e-07,
+        "final_state_delta_b_delta_D_theta_b_theta_D_phi": [
+          2.478337926712943e-07,
+          2.609632420481797e-07,
+          -3.0084666840427373e-11,
+          -3.0084666840427373e-11,
+          -2.385506335362153e-12
+        ],
+        "solver_evaluations": 374,
+        "constraint_scale_Mpc_inv_squared": 2.534544288806739e-14,
+        "vacuum_source_constraint_scale_Mpc_inv_squared": 7.127815623295177e-16
+      }
+    }
+  ],
+  "checks": {
+    "weighted_occupation_response_matches_frame_energy": true,
+    "weighted_local_exchange_alone_generates_no_total_mode": true,
+    "weighted_required_Q_keeps_Einstein_constraint": true,
+    "weighted_common_source_constraint_error": true,
+    "weighted_spatial_Einstein_trace_closed": true,
+    "weighted_omitted_Q_violates_spatial_trace": true,
+    "weighted_omitted_Q_detected": true,
+    "weighted_omitted_Q_drift_matches_analytic_identity": true,
+    "weighted_ODEs_pass_independent_difference": true,
+    "weighted_numerical_convergence": true,
+    "weighted_linear_homogeneity": true,
+    "weighted_positive_linear_probe_density": true,
+    "weighted_valid_supply_probability": true,
+    "unweighted_occupation_response_matches_frame_energy": true,
+    "unweighted_local_exchange_alone_generates_no_total_mode": true,
+    "unweighted_required_Q_keeps_Einstein_constraint": true,
+    "unweighted_common_source_constraint_error": true,
+    "unweighted_spatial_Einstein_trace_closed": true,
+    "unweighted_omitted_Q_violates_spatial_trace": true,
+    "unweighted_omitted_Q_detected": true,
+    "unweighted_omitted_Q_drift_matches_analytic_identity": true,
+    "unweighted_ODEs_pass_independent_difference": true,
+    "unweighted_numerical_convergence": true,
+    "unweighted_linear_homogeneity": true,
+    "unweighted_positive_linear_probe_density": true,
+    "unweighted_valid_supply_probability": true
+  },
+  "checks_passed": 26,
+  "refutation_conditions": [
+    "resource derivative wrong",
+    "failure of total Einstein constraint with required transfer",
+    "initial amplitudes outside linear domain",
+    "numerical nonconvergence"
+  ],
+  "official_Planck_minus2logL": null
+}

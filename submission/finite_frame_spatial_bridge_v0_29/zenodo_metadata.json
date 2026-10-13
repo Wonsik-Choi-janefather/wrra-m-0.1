@@ -1,0 +1,25 @@
+{
+  "title": "Finite Energy-Conserving Frame Exchange and a Conditional Scalar Perturbation Bridge in WRRA",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "version": "0.29",
+  "publication_date": "2026-10-13",
+  "doi": "10.5281/zenodo.23328994",
+  "creators": [
+    {
+      "name": "Choi, Wonsik",
+      "affiliation": "Independent Researcher",
+      "orcid": "0009-0001-4263-9772"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "WRRA",
+    "finite-state toy model",
+    "energy conservation",
+    "interacting vacuum",
+    "scalar perturbations",
+    "effective phenomenology"
+  ],
+  "description": "We present a reproducible finite-state toy model and a conditional effective-fluid completion. A finite excitation register supplies the exact source energy difference between carrier modes 8 and 72; an explicit unitary exchange preserves the joint energy, volume derivative and conjugated information observables. A separately prescribed spatial occupation perturbation is mapped using the arithmetic response derivative. For a vacuum-like component, its spatial gradient requires a momentum-transfer term. Including the declared transfer to dark dust closes a controlled scalar Einstein-fluid mode to approximately 1e-8 in common vacuum-source units, whereas omitting it produces an order-one violation. Earlier standard-completion CMB spectra reproduce familiar reference values under fixed inputs, but are not spectra of this new interacting mode. This report identifies what is calculated, what is assumed and what remains untested. Code and bilingual manuscripts: https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/tree/main/submission/finite_frame_spatial_bridge_v0_29"
+}
