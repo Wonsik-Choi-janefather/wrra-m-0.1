@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "status": "Fixed model construction, observational validation pending",
+  "date": "2026-10-14",
+  "authors": [
+    "Wonsik Choi",
+    "Jeongin Choi"
+  ],
+  "fixed_by": "User instruction to finalize the preceding candidate",
+  "memory_law": "One static SOURCE phase label throughout each photon propagation; nonselective statistics over I/128 preparation",
+  "coupling_g": 1.0,
+  "coupling_law": "delta_phi_per_physical_shutter=(2*pi/lambda)*ell*f_D(J)",
+  "Hamiltonian": "H_int=-H_photon tensor P_A tensor F_D, with reference arm B uncoupled",
+  "phase_register_dimension": 128,
+  "initial_phase_state": "I/128",
+  "profile": "Copied centered relative DARK MEAN stress profile; not intrinsic supplier-bit variance",
+  "constant_mean_removal": "Subtract the deterministic mean; this does not affect visibility",
+  "reference_arm": "No additional phase coupling, or declared differential coupling exposure",
+  "L_definition": "Nominal differential coupling exposure L=N*c*dt, not automatic arm length",
+  "record_policy": "No phase-register reset or resampling during N propagation shutters; count one initial preparation per independently prepared realization; condition on records when available",
+  "g_status": "Fixed dimensionless unit-coefficient constitutive choice; not independently derived from Maxwell or gravity",
+  "selection_reason": "Minimal added control resources among tested policies; retain one prepared phase register with no per-shutter advance or fresh supply",
+  "other_memory_branches": "Appendix controls only, not selectable fits in this fixed version",
+  "frozen_parameters": [
+    "dt",
+    "ell",
+    "f_D(J)",
+    "J distribution",
+    "memory law",
+    "g",
+    "relative phase gate"
+  ],
+  "wavelengths_m": [
+    5.32e-07,
+    1.064e-06,
+    1.55e-06
+  ],
+  "visibility_threshold": 0.6065306597126334,
+  "path_exposures_m": [
+    0.01,
+    0.1,
+    1,
+    10,
+    20,
+    100
+  ],
+  "model_revision_rule": "A change to a frozen rule requires a new identified version; known-data calibration remains legitimate",
+  "source_DOI": "10.5281/zenodo.23361676",
+  "publication_status": "Updated calculation package; not newly published to GitHub or Zenodo",
+  "input_sha256": {
+    "clock.json": "4def8bd3de7da2592cf8f38faa3d9b976cc7fa0add60c4b7e7438a6878e20332",
+    "finite_preparation.npz": "8c53fb73b332db2805b7d614f166511094b54b3f1b2a291fbfdfe46312408d6b",
+    "preparation_results.json": "d41413aa06b3b5eff5f5dae211a162a514dafea992864909eabb29fb7ef1241a"
+  }
+}

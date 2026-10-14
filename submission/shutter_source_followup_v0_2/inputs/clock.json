@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-14",
+  "c_m_s": 299792458,
+  "h_J_s": 6.62607015e-34,
+  "e_J_per_eV": 1.602176634e-19,
+  "mode_energy_eV": 22217.345682174,
+  "epsilon": 0.05,
+  "mode_source": "MCC_3_0_Full_Book_KO_v0.12.pdf, current version 2, pages 106–107. Electron-mode SI clock bridge; phase-resolution condition, not a universal shutter derivation.",
+  "source_geometry_status": "Pages 13–14 define an abstract 15-channel common carrier and an internal compact-circle witness. Pages 149–150 distinguish internal slots from particles and records. None of these is used as an externally measured distance.",
+  "new_spatial_renderer": "A separate finite 512-cell ring computational domain, one right shift per shutter on each of 15 internal channels, with dx=c*dt. This is a new conditional implementation and is not an identification of SOURCE arithmetic addresses with physical sites.",
+  "photon_energy_cases_eV": [1, 10.2, 22217.345682174, 510998.95069, 1000000, 10000000, 100000000],
+  "time_cases": [
+    {"label": "Hydrogen 1S–2S", "kind": "total transition-frequency phase cycle, not one excitation-photon cycle", "frequency_Hz": "2466061413187035"},
+    {"label": "Hydrogen 1S–3S", "kind": "total transition-frequency phase cycle, not one excitation-photon cycle", "frequency_Hz": "2922743278671500"},
+    {"label": "Hydrogen 2S–8D5/2", "kind": "total transition-frequency phase cycle", "frequency_Hz": "770649561570900"},
+    {"label": "Joint-model hydrogen 2S–8D5/2", "kind": "previous fitted-model phase cycle", "time_s": "1.2976066559995714e-15"},
+    {"label": "Joint-model neutrino, 1 MeV", "kind": "first electron-flavour survival minimum, frozen book q0", "time_s": "1.6801762733456352e-6"},
+    {"label": "Muon anchor", "kind": "mean lifetime", "time_s": "2.1969811e-6"},
+    {"label": "Tau observed total", "kind": "mean lifetime input, not predicted", "time_s": "2.903e-13"},
+    {"label": "Tau electron prediction", "kind": "inverse partial decay rate, not total survival lifetime", "time_s": "1.6322492658539567e-12"},
+    {"label": "Tau muon prediction", "kind": "inverse partial decay rate, not total survival lifetime", "time_s": "1.678291976909125e-12"}
+  ],
+  "inherited_result_status": {
+    "neutrino": "Previous frozen-q0 predictions have marginal residuals -0.294 and -0.588 sigma. This conversion does not change them.",
+    "hydrogen": "Previous joint corrected 2S–8D5/2 holdout remains -414263.75 Hz, outside quoted measurement precision. Clock conversion does not repair this failure.",
+    "tau": "Muon-calibrated electron/muon partial rates remain -0.362612%/-0.418263% relative to PDG/HFLAV; this conversion adds no independent rate fit."
+  },
+  "physical_input_sources": [
+    "https://www.bipm.org/en/si-base-units/metre",
+    "https://physics.nist.gov/cuu/pdf/all.pdf",
+    "Hydrogen and decay source URLs retained in prior synchronization archives."
+  ]
+}

@@ -1,0 +1,170 @@
+Three Additional Shutter–SOURCE Calculations v0.2
+Supply averaging, photon pulses, and CMB non-Gaussian correlations
+Wonsik Choi and Jeongin Choi | Independent Researchers | 15 October 2026
+Wonsik: janefather@gmail.com / ORCID 0009-0001-4263-9772
+Jeongin: cjeongin024@gmail.com
+Release DOI: https://doi.org/10.5281/zenodo.23380920
+Inherited record: https://doi.org/10.5281/zenodo.23361676
+
+VALIDATION INPUTS
+c=299792458 m/s, dt=1.4813019664158633e-21 s, ell=0.4440831575520451 pm.
+Use all 1,015,000 addresses with the inherited address-1 exclusion, residue and
+supplier ledgers, 128 finite preparation states, and the lambda_D=0.25 candidate.
+676,666 addresses have controlled supplier bits. Mean dark-profile RMS is
+1.2107407781339933e-8; return-profile RMS is 9.489398775439113e-9.
+Use actual cached patched-CAMB D/R transfer arrays for T,E,phi: seven k=0.05*n
+Mpc^-1, n=1..7, every ell=2..6000, accuracy=2.5. Freeze input hashes.
+No new observational fit or Boltzmann run is performed. Higher moments are
+actually calculated through the stored physical transfer operators.
+
+WRRA TRANSFORMATION
+
+A. Intrinsic supplier noise, temporal covariance, and resources
+Recompute address-weighted conditional Bernoulli variance using actual p_r(J).
+One-frame relative RMS: D=0.3451400342, R=0.4941525318. Actual ownership gives
+zero intrinsic D-R supplier covariance; shared phase mean-stress covariance is
+retained separately. Compare explicitly declared temporal laws:
+ r=0: unchanged bits; r=1: independent preparations each physical shutter;
+ 0<r<1: stationary renewal P=(1-r)I+r*1*pi with correlation (1-r)^lag.
+Var(average)/Var(one)=[N+2 sum_h(N-h)(1-r)^h]/N^2.
+Static bits do not average down. The initial phase register remains static and
+its mean-profile variance remains as a floor, distinct from intrinsic noise.
+Count fresh bit preparations, initial/state entropy, path-record entropy and
+conditional absolute energy turnover. Opposite reservoir accounting is required;
+absolute turnover is not equated with irreversible depletion or heat dissipation.
+An independent 60,000-bit, 128-step Monte Carlo verifies the correlation variance
+and unit-gap turnover. No claim of directly sampling 10^15 physical shutters.
+
+B. Photon propagation and pulses
+Use the inherited exact shift plus fixed optical model 1.0: static phase label,
+g=1, phi(E,J)=E/hbar*(L/c)*f_D(J). Its group delay is (L/c)*f_D(J) and its energy
+phase curvature is zero. No additional energy-dependent dispersion is inserted.
+For a declared 1% intensity-energy bandwidth, initial Gaussian sigma_t=hbar/(2
+sigma_E). Nonselective pulses are exact mixtures of 128 shifted Gaussians with
+variance sigma_t^2+Var(delay). Verify the 1 keV, 1 m positive-frequency FFT pulse,
+normalization, energy conservation and timing variance. Other bands use exact
+finite-mixture moments and CDF bins. Audit high-energy phase aliasing with matched
+time/space refinement; do not infer a physical gamma-ray cutoff.
+
+C. Higher SOURCE moments through actual CMB transfers
+Adopt one shared spatial phase for seven collinear harmonics and a uniformly
+rotated common axis. This joint preparation is explicit; 2-point spectra alone
+do not select it. Represent orientation by a finite weighted quadrature with
+12,001 mu nodes and 24,001 azimuth nodes: 288,036,001 axis states. Joint with the
+128 phases: 36,868,608,128 states, entropy 24.18593808 nats. This exactly represents
+orientation moments through fourth order for ell<=6000. Count the additional
+ensemble representation and initial preparation; do not assume free repeated
+or infinite orientation memory. Natural preparation dynamics remain separate.
+Apply actual T,E,phi transfers to cos/sin coefficients, generating axial a_l0(J).
+First reproduce C_l=<a_l0^2>/(2l+1), TT/EE/TE and phi normalization.
+Rotational B_l1l2l3=Wigner(000)*<a_l10 a_l20 a_l30>, with reduced b=B/Gaunt factor.
+Calculate selected allowed TTT, EEE, TTE, TEE, TTphi, TEphi, phiphiphi triangles
+and every equilateral ell=2..6000. This is not all triangles through ell=256.
+Calculate connected angular power covariance as exact finite-phase covariance
+minus its Gaussian Wick term, and sky-point cumulants for bands ending at
+ell=32,64,128,256. These are actual 4-point statistics, not an exhaustive trispectrum.
+Check 64/128/256 phase quadrature, finite-angle normalization, and independent
+sky cubic moments versus bispectrum contraction. Distinguish an isotropic Gaussian
+ANGULAR field from Gaussian-moment INITIAL harmonics sharing one random axis.
+The latter has a mixture of orientation-dependent conditional covariances and
+need not have zero connected fourth moment. Two-point power alone does not
+select the joint preparation or determine its connected higher moments.
+
+OUTPUTS
+
+A. Intrinsic-noise reduction to the inherited mean-profile RMS
+Policy                    Dark D                    Return R
+Static r=0                No crossing               No crossing
+Independent r=1           1.203737902 microseconds   4.016874415 microseconds
+Renewal r=1/128            306.953164899 microseconds 1.024302976 milliseconds
+Independent thresholds require approximately 5.4987e20 / 1.8349e21 fresh bit
+preparations. At r=1/128 this increases to 1.0955e21 / 3.6555e21.
+Absolute energy-turnover density rates: 3.332895850e11 W/m^3 for r=1 and
+2.603824883e9 W/m^3 for r=1/128. These are conditional ledger turnover, not measured
+heat dissipation or power consumption. No reservoir budget is supplied, so the
+averaging mechanism is not certified as resource-feasible. dt remains in T=N*dt.
+One-frame algebraic local linear-Friedmann sensitivity is 0.17512207 relative RMS;
+do not treat this large-fluctuation diagnostic as accurate stochastic GR dynamics.
+A conserved reservoir stress tensor, spatial noise construction and dynamical
+gravitational noise spectrum are not executed.
+
+B. Photon outputs
+Extra energy-dependent mean delay=0 and intrinsic dispersion=0 for the exact
+free shift and fixed linear SOURCE phase rule. At 1 m differential exposure,
+SOURCE arrival-time RMS=4.038596522e-17 s=40.38596522 attoseconds.
+Each fixed label merely shifts its pulse; nonselective mixing broadens it.
+Equal common-mode coupling cancels relative effects. At fixed fractional bandwidth,
+higher-energy prepared pulses are shorter, so relative broadening changes; this
+is not vacuum dispersion. Base phase-alias energy is 1.3959569995 MeV with
+wavelength 0.8881663151 pm: representational audit only, not a physical cutoff.
+
+C. CMB outputs
+Initial dark profile: skewness 0.77344541, excess kurtosis -0.93821798.
+Actual transferred SOURCE temperature statistics for ell=2..256:
+RMS 0.0005034727028 microK; skewness -1.1903507147; excess kurtosis 32.2551732492;
+third moment -1.5191572272e-10 microK^3; connected fourth 2.0725408293e-12 microK^4.
+Initial-profile and projected-sky skewness are distinct, including a sign change.
+With an independent unlensed Gaussian reference of RMS 93.23950613 microK:
+combined skewness -1.8741434548e-16; excess kurtosis 2.7422259540e-20.
+This reference is not a full lensed/foreground NG likelihood.
+Largest equilateral |reduced TTT b| is 3.1800803116e-13 microK^3 at ell=2.
+SOURCE deflection RMS 0.009556588544 arcsec is reproduced.
+No observational detection of the extra component is claimed.
+
+REFUTATION CONDITIONS
+Revise incorrect temporal independence, averaging of unchanged bits, unaccounted
+fresh preparation/recording/reservoir flux, failed total-ledger conservation,
+incompatible fixed phase/pulse law, or phase-alias artifacts claimed as physical
+signals. Revise failed CAMB/Gaunt normalization or finite quadrature. Compare the
+fixed custom CMB shape to observations before an observational claim. Known-data
+calibration is legitimate; identify changed rules as a new version.
+
+ASSESSMENT
+All three targets are calculated, with 176 numerical controls passed. Supply
+averaging is conditional on correlation and resources. Existing photon rules
+give zero intrinsic energy dispersion and a nonselective arrival distribution.
+Higher SOURCE statistics survive actual transfer but are strongly diluted by the
+reference CMB. Observational confirmation, full stochastic GR for supplier noise,
+a custom NG likelihood and exact non-Gaussian lens remapping remain distinct tasks.
+
+REPRODUCTION
+python -m pip install -r requirements.txt
+OPENBLAS_NUM_THREADS=1 python reproduce.py
+python figures.py
+python verify.py
+All input hashes and assumptions reside in inputs/frozen_tests.json. Results
+contain JSON, CSV, NPZ and a summary figure. Release DOI: 10.5281/zenodo.23380920. The prior clock-to-CMB record is retained.
+python verify.py --archive checks all distributed bytes before rerunning.
+Default verify checks frozen inputs/source and stable numerical observables after
+a rerun; output wall-clock timing is excluded from numerical regression.
+
+V0.2 REVIEW AND CORRECTIONS
+The main v0.1 scientific observables are unchanged. The preserved v0.1 reports
+under review/ are historical evidence, superseded by this report.
+1. A finite Gaussian-moment harmonic comparator uses 14 independent ternary
+variables with nodes 0,+sqrt(3),-sqrt(3), weights 2/3,1/6,1/6. It matches Gaussian
+moments through fourth order and reproduces two-point power. Its 3^14=4,782,969
+states do not constitute a full Gaussian distribution or a unique physical law.
+At ell=2..256, common-axis comparator excess kurtosis is 40.7442439509 (T),
+48.5937322940 (E), 8.2394888353 (phi); the original SOURCE values are
+32.2551732492, 22.8054297802, 9.7416539350. An isotropic Gaussian angular field
+instead has zero connected higher cumulants. Common-axis mixing itself therefore
+contributes to non-Gaussianity; the signal is not unique evidence of quantization.
+2. Group-delay dispersion is hbar_eV^2*d^2(phi)/d(E_eV)^2 in s^2. It remains zero.
+The transfer is a fixed-duration phase screen at nominal L/c; no independent
+bulk-medium traversal-time law is derived.
+3. Recorded-history entropy is conditional on actually keeping that history.
+It is not a universal thermodynamic erasure cost or a mandatory memory bound.
+The large local linear-gravity RMS is outside a controlled small-noise regime.
+4. Temporal-domain checks and the already-below-target threshold edge case are
+fixed. Independent 75-digit Decimal checks cover 42 correlation/count cases.
+5. Byte-integrity verification and stable numerical regression are separated.
+All 176 controls pass: supply 39, photon 16, CMB 65, internal review 56.
+Passing controls establishes these stated numerical properties, not empirical
+confirmation, unique physical derivation, or an independent external assessment.
+
+PRIMARY COMPARISON SOURCES
+CAMB transfer conventions: https://camb.readthedocs.io/en/stable/results.html
+Planck NG conventions: https://arxiv.org/abs/1905.05697
+Stress-correlation/gravity-noise methodology: https://arxiv.org/abs/0802.0658
+Detailed original input provenance and optical rules are retained in inputs/.

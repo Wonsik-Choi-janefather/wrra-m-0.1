@@ -1,0 +1,75 @@
+{
+  "version": "finite_initial_preparation_0.1",
+  "date": "2026-10-14",
+  "candidate_lambda": [
+    0,
+    0.25,
+    0
+  ],
+  "counted_new_register": {
+    "name": "phase control",
+    "dimension": 128,
+    "state": "I/128",
+    "entropy_nats": 4.852030263919617,
+    "distinct_from_source_mode_register": true,
+    "energy": "Declared degenerate control memory; no uncounted reset cycle"
+  },
+  "source_state": "|8><8|",
+  "supplier_state": "(1-p_r,j)|0><0|+p_r,j|1><1|",
+  "record_state": "|0><0|",
+  "joint_state": "Block diagonal over 128 phase-control values; shared phase, conditional supplier marginals",
+  "supply_probability_range": [
+    0.49999999,
+    0.5000000385278236
+  ],
+  "phase_trace": 1,
+  "all_conditional_states_positive": true,
+  "covariance_finite_phase": [
+    [
+      1.465893231836508e-16,
+      1.0165313466613942e-17
+    ],
+    [
+      1.0165313466613942e-17,
+      9.004868911930534e-17
+    ]
+  ],
+  "covariance_Fourier_analytic": [
+    [
+      1.465893232717316e-16,
+      1.01653135965571e-17
+    ],
+    [
+      1.01653135965571e-17,
+      9.004868883460164e-17
+    ]
+  ],
+  "relative_covariance_agreement": 1.942185765873387e-09,
+  "relative_profile_reconstruction_error": 1.8130275520951133e-08,
+  "max_cross_harmonic_covariance": 3.590373808355612e-33,
+  "minimum_covariance_eigenvalue": 8.827662903224734e-17,
+  "mean_stress_relative_RMS_D_R": [
+    1.2107407781339935e-08,
+    9.489398775439113e-09
+  ],
+  "independent_supplier_intrinsic_relative_RMS_P_D_R": [
+    0.0,
+    0.3451400341559625,
+    0.49415253180414537
+  ],
+  "mean_stress_equals_single_outcome": false,
+  "independent_frame_count_needed_for_noise_below_mean_D_R": [
+    812621551079408,
+    2711718816527406
+  ],
+  "gravity_readout": "Existing semiclassical ensemble-mean stress. Intrinsic operator variance is reported separately; it is not silently added as a cosmological random field.",
+  "initial_dressing": "Adopted regular radiation/CDM-isocurvature completion applied to address-generated entropy; retarded v_D sourced by delta_R with no decaying homogeneous velocity mode",
+  "status": "Finite mean-stress preparation and covariance constructed. Dynamical preparation history and stochastic/single-outcome gravity not closed.",
+  "checks": {
+    "positive_preparation": true,
+    "covariance_PSD": true,
+    "covariance_Fourier_match": true,
+    "finite_profile_match": true,
+    "entropy_arithmetic_identity": true
+  }
+}

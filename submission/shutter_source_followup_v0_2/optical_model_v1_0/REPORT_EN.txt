@@ -1,0 +1,80 @@
+WRRA Finite-SOURCE Interference Loss and Revival — Fixed Model v1.0
+Wonsik Choi and Jeongin Choi | Independent Researchers | 14 October 2026
+Wonsik: janefather@gmail.com / ORCID 0009-0001-4263-9772
+Jeongin: cjeongin024@gmail.com
+Inherited input provenance: https://doi.org/10.5281/zenodo.23361676
+
+VALIDATION INPUTS
+c=299792458 m/s, dt=1.4813019664158633e-21 s, ell=0.4440831575520451 pm.
+Use the actual 128-state relative dark MEAN-STRESS profile, with its deterministic
+mean removed. RMS=1.2107407781339933e-8. Freeze SHA256 input hashes.
+No new optical observational fit is performed.
+
+WRRA TRANSFORMATION: FIXED CONSTITUTIVE RULES
+Set g=1, a unit-coefficient model choice rather than a uniquely derived optical
+constant. Retain one SOURCE phase label throughout each photon propagation.
+Initial control state is I/128; average independently prepared realizations.
+No per-shutter resampling, reset or label advancement is allowed in this branch.
+Path A has the additional phase coupling, path B is the uncoupled reference.
+delta_phi_per_shutter=(2*pi/lambda)*ell*f_D(J).
+The independent and cyclic policies remain comparison controls in audit_v0_1/;
+they cannot be substituted as alternative fits within this fixed version.
+The selection minimizes additional control resources among the tested policies.
+Count initial preparation, recording and preparation across repeated realizations;
+no free reset is inferred. Resource preference is not a proof of nature's choice.
+
+EXECUTED HAMILTONIAN AND SWITCHING LEDGER
+H_int=-H_photon tensor P_A tensor F_D, with F_D=diag(f_D(J)).
+Compute exp(-i H_int t/hbar), t=L/c, and verify the finite phase-gate result.
+The interaction commutes with free photon energy and the retained phase label.
+SOURCE-energy readout diagonal in J is consequently unchanged.
+For the initially balanced paths, W_on(J)=-E_photon*f_D(J)/2;
+W_off(J)=+E_photon*f_D(J)/2. Zero ensemble mean does not remove conditional work.
+At 1064 nm, conditional switching-work RMS per edge=1.130202539e-27 J.
+All 128 labels are recorded in interaction_and_switching_ledger.csv.
+This executes the adopted constitutive connection. It is not a derivation of
+universal Maxwell/SOURCE coupling, locality or Lorentz completion.
+
+OUTPUTS
+Nonselective visibility:
+V/V0=|sum_J exp[i (2*pi/lambda)*L*f_D(J)]/128|.
+Compute the exact finite sum rather than impose Gaussian noise.
+L is nominal differential coupling exposure N*ell, not automatically apparatus
+size or the length of any arbitrary vacuum path.
+
+Wavelength    First V/V0=exp(-1/2)   First minimum       First revival maximum
+532 nm        6.789392103 m          10.890479190 m      18.639382160 m
+1064 nm       13.578784206 m         21.780958380 m      37.278764320 m
+1550 nm       19.781123609 m         31.729779596 m      54.306470579 m
+
+Across these wavelengths: first minimum visibility=0.3586975046;
+first revival visibility=0.6081539566; revival/minimum exposure ratio=1.7115300286.
+All exposure distances scale linearly with wavelength in the frozen model.
+These levels and the exposure ratio are wavelength-independent shape predictions.
+
+REFUTATION CONDITIONS
+Revise when nonselective measurements under the specified preparation and
+differential interaction disagree with the fixed curve, wavelength scaling,
+minimum/revival visibility or exposure ratio. Revise failed probability,
+photon-energy, preparation-label or preparation/switching accounting.
+Reject solver-subdivision artifacts as physical noise. Known-data calibration
+is legitimate; changes to frozen g, profile, preparation distribution or memory
+law require an identified new version before subsequent predictions are assessed.
+
+ASSESSMENT AND SCOPE
+Constitutive rules are fixed and the Hamiltonian, ledger and predictions are
+executed. The previous 17 controls and 11 additional controls pass. Observational
+confirmation remains distinct from model construction.
+N*ell=L cancels ell from the leading static visibility law. This branch therefore
+does not independently measure a fundamental spatial shutter interval.
+Visibility conditioned on one retained phase label is 1, as is common-mode
+visibility for equally coupled arms. Loss/revival is reversible nonselective
+phase averaging, not fundamental collapse or a universal macroscopic-size border.
+
+REPRODUCTION
+python -m pip install -r requirements.txt
+python reproduce.py
+python verify.py
+inputs/frozen_model.json preserves rules and input hashes. results/ contains the
+fixed prediction tables and switching ledger. audit_v0_1/ retains old controls.
+This updates the calculation package; no new Zenodo/GitHub publication is made.

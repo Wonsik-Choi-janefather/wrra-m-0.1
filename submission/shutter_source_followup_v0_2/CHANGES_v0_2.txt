@@ -1,0 +1,25 @@
+V0.2 REVIEW AND CORRECTIONS
+The main v0.1 scientific observables are unchanged. The preserved v0.1 reports
+under review/ are historical evidence, superseded by this report.
+1. A finite Gaussian-moment harmonic comparator uses 14 independent ternary
+variables with nodes 0,+sqrt(3),-sqrt(3), weights 2/3,1/6,1/6. It matches Gaussian
+moments through fourth order and reproduces two-point power. Its 3^14=4,782,969
+states do not constitute a full Gaussian distribution or a unique physical law.
+At ell=2..256, common-axis comparator excess kurtosis is 40.7442439509 (T),
+48.5937322940 (E), 8.2394888353 (phi); the original SOURCE values are
+32.2551732492, 22.8054297802, 9.7416539350. An isotropic Gaussian angular field
+instead has zero connected higher cumulants. Common-axis mixing itself therefore
+contributes to non-Gaussianity; the signal is not unique evidence of quantization.
+2. Group-delay dispersion is hbar_eV^2*d^2(phi)/d(E_eV)^2 in s^2. It remains zero.
+The transfer is a fixed-duration phase screen at nominal L/c; no independent
+bulk-medium traversal-time law is derived.
+3. Recorded-history entropy is conditional on actually keeping that history.
+It is not a universal thermodynamic erasure cost or a mandatory memory bound.
+The large local linear-gravity RMS is outside a controlled small-noise regime.
+4. Temporal-domain checks and the already-below-target threshold edge case are
+fixed. Independent 75-digit Decimal checks cover 42 correlation/count cases.
+5. Byte-integrity verification and stable numerical regression are separated.
+All 176 controls pass: supply 39, photon 16, CMB 65, internal review 56.
+Passing controls establishes these stated numerical properties, not empirical
+confirmation, unique physical derivation, or an independent external assessment.
+

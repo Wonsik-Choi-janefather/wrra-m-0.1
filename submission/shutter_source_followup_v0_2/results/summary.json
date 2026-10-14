@@ -1,0 +1,28 @@
+{
+  "version": "0.2",
+  "authors": [
+    "Wonsik Choi",
+    "Jeongin Choi"
+  ],
+  "date": "2026-10-15",
+  "source_record_DOI": "10.5281/zenodo.23361676",
+  "input_files_verified": 11,
+  "observational_fit_performed": false,
+  "new_Boltzmann_run_performed": false,
+  "higher_moments_propagated_through_actual_CAMB_transfers": true,
+  "checks_by_track": {
+    "supply": 39,
+    "photons": 16,
+    "CMB_higher": 65,
+    "review": 56
+  },
+  "controls_passed": 176,
+  "controls_total": 176,
+  "all_passed": true,
+  "conclusions": {
+    "supply": "Independent-shutter microsecond thresholds reproduced, but not selected by the inherited snapshot. Static bits do not average down. Finite correlations lengthen the threshold and require explicit refresh resources.",
+    "photons": "The current shift and fixed SOURCE interaction predict no energy-dependent vacuum dispersion. The SOURCE ensemble gives an achromatic arrival-time distribution and nonselective pulse broadening, verified by FFT.",
+    "CMB_higher": "Actual seven-mode CMB projection of conditional non-Gaussian SOURCE moments executed, including rotational bispectra and connected angular power covariance. A custom NG map likelihood and nonlinear non-Gaussian lens remapping are not executed."
+  },
+  "seconds": 8.022672922999845
+}

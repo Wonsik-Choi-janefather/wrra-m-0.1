@@ -1,0 +1,32 @@
+{
+  "version": "0.2",
+  "date": "2026-10-15",
+  "authors": [
+    {
+      "name": "Wonsik Choi",
+      "email": "janefather@gmail.com",
+      "ORCID": "0009-0001-4263-9772"
+    },
+    {
+      "name": "Jeongin Choi",
+      "email": "cjeongin024@gmail.com"
+    }
+  ],
+  "source_record_DOI": "10.5281/zenodo.23361676",
+  "frozen_optical_model": "Fixed model 1.0, static phase, g=1",
+  "new_tracks": [
+    "Supplier temporal correlation and preparation/energy ledger",
+    "Photon phase dispersion and nonselective pulse shape",
+    "Actual seven-mode CMB bispectra and connected fourth-order observables"
+  ],
+  "external_module_credits": [
+    "CAMB: Antony Lewis and Anthony Challinor; actual stored patched D/R transfers from the cited research record",
+    "Planck NG comparison conventions: arXiv:1905.05697"
+  ],
+  "new_observational_fit": false,
+  "new_Boltzmann_run": false,
+  "release_DOI": "10.5281/zenodo.23380920",
+  "review": "Internal numerical and interpretation review; not external peer review",
+  "controls_passed": 176,
+  "original_v0_1_archive_SHA256": "af4826d2e53bba4945aba4ed2438ef02a59fb06565fc3e3c8e308f454e3969f0"
+}

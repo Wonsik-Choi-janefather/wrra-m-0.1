@@ -1,0 +1,119 @@
+{
+  "version": "1.0",
+  "status": "Fixed model construction, observational validation pending",
+  "date": "2026-10-14",
+  "authors": [
+    "Wonsik Choi",
+    "Jeongin Choi"
+  ],
+  "validation_inputs": {
+    "shutter_dt_s": 1.4813019664158633e-21,
+    "light_step_pm": 0.4440831575520451,
+    "phase_states": 128,
+    "SOURCE_relative_dark_mean_stress_RMS": 1.2107407781339933e-08,
+    "no_new_observational_fit": true
+  },
+  "WRRA_transformation": {
+    "frozen_memory_law": "One static SOURCE phase label throughout each photon propagation; nonselective statistics over I/128 preparation",
+    "frozen_g": 1.0,
+    "interaction_Hamiltonian": "H_int=-H_photon tensor P_A tensor F_D, with reference arm B uncoupled",
+    "exact_visibility": "abs(mean_J exp(i 2*pi*g*L*f_D(J)/lambda))",
+    "count": "One register per independently prepared realization; zero per-shutter resets",
+    "g_and_memory_status": "Explicitly adopted and now fixed constitutive rules, not a unique derivation",
+    "statistical_scope": "Nonselective ensemble visibility. Conditioning on a single retained label restores full visibility."
+  },
+  "outputs": {
+    "fixed_predictions": [
+      {
+        "wavelength_nm": 532.0,
+        "first_visibility_threshold_m": 6.789392103160843,
+        "first_minimum_exposure_m": 10.890479190249936,
+        "first_minimum_visibility": 0.3586975045641526,
+        "first_revival_exposure_m": 18.6393821601818,
+        "first_revival_visibility": 0.6081539566256551,
+        "revival_to_minimum_exposure_ratio": 1.7115300286207173
+      },
+      {
+        "wavelength_nm": 1064.0,
+        "first_visibility_threshold_m": 13.578784206321686,
+        "first_minimum_exposure_m": 21.78095838049987,
+        "first_minimum_visibility": 0.3586975045641526,
+        "first_revival_exposure_m": 37.2787643203636,
+        "first_revival_visibility": 0.6081539566256551,
+        "revival_to_minimum_exposure_ratio": 1.7115300286207173
+      },
+      {
+        "wavelength_nm": 1550.0,
+        "first_visibility_threshold_m": 19.78112360883328,
+        "first_minimum_exposure_m": 31.729779595653003,
+        "first_minimum_visibility": 0.35869750456415256,
+        "first_revival_exposure_m": 54.30647057947704,
+        "first_revival_visibility": 0.6081539566256551,
+        "revival_to_minimum_exposure_ratio": 1.7115300286207176
+      }
+    ],
+    "curve_shape": {
+      "first_minimum_beta": 1.5572788861350804,
+      "first_minimum_visibility": 0.3586975045641526,
+      "first_revival_beta": 2.6653295765572134,
+      "first_revival_visibility": 0.6081539566256552,
+      "revival_to_first_minimum_exposure_ratio": 1.7115300286207176,
+      "minimum_exposure_1064nm_g1_m": 21.78095838049987,
+      "revival_exposure_1064nm_g1_m": 37.27876432036361,
+      "scope": "Static 128-state, centered mean-stress, linear phase coupling only. Not fundamental wavefunction collapse."
+    },
+    "unperturbed_common_carrier_visibility": 1.0,
+    "photon_free_energy_J": 1.8669603920572636e-19,
+    "Hamiltonian_visibility_1064nm_10m": 0.7669717860378623,
+    "switching_work_RMS_per_edge_J": 1.1302025389123783e-27,
+    "switching_work_mean_per_edge_J": -1.401298464324817e-45,
+    "switching_work_counted_per_conditional_label": true,
+    "initial_register_entropy_nats": 4.852030263919617,
+    "leading_static_visibility_independent_of_shutter_spacing": true
+  },
+  "refutation_conditions": [
+    "Measured nonselective visibility under the specified preparation/differential coupling contradicts the fixed curve.",
+    "Wavelength scaling, minimum/revival visibility or exposure ratio contradicts fixed predictions.",
+    "Free-energy, SOURCE-label conservation or preparation/switching accounting fails.",
+    "A numerical-subdivision artifact is mistaken for physical-shutter noise."
+  ],
+  "conclusion": "Fixed finite-SOURCE coherence prediction model 1.0. Optical interaction and static memory are constitutive model choices; observational validation and Maxwell/locality completion remain separate.",
+  "scope_notes": [
+    "The leading static phase is N*ell*f_D = L*f_D: shutter spacing cancels. This does not independently measure a fundamental spatial tick.",
+    "Differential SOURCE phase coupling must be present. Bare vacuum propagation and identical common-mode arms preserve visibility.",
+    "A static unknown label does not cause within-label irreversible collapse; the curve is a nonselective ensemble statistic.",
+    "This witness executes a finite Hamiltonian and switching ledger; it does not derive a universal optical interaction from cosmological mean stress."
+  ],
+  "checks": {
+    "frozen_input_hashes": true,
+    "fixed_register_dimension": true,
+    "positive_interacting_photon_energy": true,
+    "interaction_commutes_with_free_energy": true,
+    "Hamiltonian_matches_phase_gate": true,
+    "switch_on_off_work_balance": true,
+    "single_label_visibility_is_one": true,
+    "subdivision_preserves_fixed_physical_shutter": true,
+    "threshold_monotonic_wavelength_scaling": true,
+    "curve_shape_is_wavelength_invariant": true,
+    "prior_17_controls": true
+  },
+  "prior_checks": {
+    "density_trace": true,
+    "density_positive": true,
+    "density_visibility_exact_average": true,
+    "photon_energy_unchanged": true,
+    "finite_cycle_zero_mode_removed": true,
+    "autocorrelation_PSD": true,
+    "SOURCE_RMS_reproduced": true,
+    "source_D_R_covariance_reproduced": true,
+    "exact_iid_matches_variance_boundary": true,
+    "same_physical_state_subdivision": true,
+    "base_common_carrier_coherence": true,
+    "base_common_carrier_norm": true,
+    "identical_arm_coupling_cancels": true,
+    "tick_rounding_bound": true,
+    "visibility_in_unit_interval": true,
+    "finite_state_revival_resolved": true,
+    "wavelength_scaling": true
+  }
+}

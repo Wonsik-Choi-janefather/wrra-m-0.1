@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite this reviewed computational report and its inherited input record."
+title: "Finite SOURCE Follow-up: Supply Averaging, Photon Pulses, and CMB Higher-Order Correlations"
+version: "0.2"
+date-released: 2026-10-15
+doi: 10.5281/zenodo.23380920
+type: report
+authors:
+  - family-names: Choi
+    given-names: Wonsik
+    orcid: "https://orcid.org/0009-0001-4263-9772"
+  - family-names: Choi
+    given-names: Jeongin
+license: CC-BY-4.0

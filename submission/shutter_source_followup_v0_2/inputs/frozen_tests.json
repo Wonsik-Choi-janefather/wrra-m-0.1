@@ -1,0 +1,106 @@
+{
+  "version": "0.2",
+  "date": "2026-10-15",
+  "authors": [
+    "Wonsik Choi",
+    "Jeongin Choi"
+  ],
+  "source_record_DOI": "10.5281/zenodo.23361676",
+  "no_new_observational_fit": true,
+  "supply": {
+    "phase_register": "Static I/128 inherited preparation",
+    "one_supplier_bit_per_controlled_address": true,
+    "refresh_probabilities_per_physical_shutter": [
+      0,
+      1,
+      0.0078125,
+      0.001,
+      1e-06
+    ],
+    "memory_update": "P=(1-r)I+r 1 pi, stationary Bernoulli pi conditioned on phase J",
+    "primary_status": "Correlation-law comparison; no unique supplier temporal r inferred",
+    "refresh_resources": "Count entropy rate, fresh preparation and conditional energy throughput; no free reset",
+    "gravity": "Only conditional local Friedmann linear sensitivity; stochastic GR with reservoir stress is not claimed"
+  },
+  "photon": {
+    "memory": "Fixed static 128-state optical model 1.0",
+    "g": 1,
+    "relative_intensity_energy_bandwidth": 0.01,
+    "energies_eV": [
+      1,
+      1000,
+      22217.345682174,
+      100000,
+      1000000,
+      10000000,
+      1000000000,
+      100000000000
+    ],
+    "differential_exposures_m": [
+      0.1,
+      1,
+      10
+    ],
+    "phase_correction": "phi(E,J)=E/hbar * (L/c) f_D(J)",
+    "alias_scope": "Representation-band audit, not physical gamma-ray cutoff",
+    "FFT_control_energy_eV": 1000,
+    "FFT_control_exposure_m": 1
+  },
+  "cmb": {
+    "joint_preparation": "One common 128-state spatial phase and one uniformly rotated common axis for seven collinear harmonics",
+    "new_joint_assumption": "Shared harmonic orientation fixes higher moments; previously fixed 2-point spectra alone do not select it",
+    "multipoles_selected": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      10,
+      20,
+      30,
+      50,
+      80,
+      100,
+      150,
+      200,
+      256,
+      500,
+      1000,
+      2000,
+      2500,
+      4000,
+      6000
+    ],
+    "point_moment_lmax": [
+      32,
+      64,
+      128,
+      256
+    ],
+    "phase_dimensions_for_controls": [
+      64,
+      128,
+      256
+    ],
+    "bispectrum_ell_max": 256,
+    "outputs": "Reduced rotational bispectra, connected angular power covariance, bandlimited sky-point cumulants for T,E,phi",
+    "lensing_scope": "Use actual phi transfer; no nonlinear non-Gaussian remapping rerun",
+    "baseline_scope": "Independent unlensed Gaussian baseline reference, not complete foreground/lensed NG likelihood",
+    "comparison_reference": "Isotropic Gaussian ANGULAR reference using Wick moments, not the same common-axis initial-harmonic preparation.",
+    "new_finite_reference": "14 independent ternary Gaussian-moment variables; common axis retained; moments computed exactly to fourth order."
+  },
+  "input_sha256": {
+    "addresses.npz": "13c444f1d5fb57ef7f9f0c8eed5a44730dc40024739c062a6d6cb263c32ebf62",
+    "source_config.json": "86b516149361a3eb7fd49db7a8a8ddda0ce0955e57602c43932e9ec9c3af366d",
+    "finite_preparation.npz": "8c53fb73b332db2805b7d614f166511094b54b3f1b2a291fbfdfe46312408d6b",
+    "preparation_results.json": "d41413aa06b3b5eff5f5dae211a162a514dafea992864909eabb29fb7ef1241a",
+    "address_results.json": "0d18277fa14bd8cc158e70254ca3cc448cbeb3c6832d9019cc94350884a6dfeb",
+    "D_lens_a2.5.npz": "e2ef65c99bc011bbd556db4acc8d9c261bb6d7d8b3486803c8e26a8cb3521193",
+    "R_lens_a2.5.npz": "6ec01634897a5fc55afd38b7c4aea07b5bfc4c809b471b33977c650ddff91075",
+    "standard_lens_a2.5.npz": "6a8b5347809815b3b98f087378af46248168b7eab3e9985a56c0f399ade03685",
+    "SOURCE_lens_a2.5.npz": "355ea2187374323b36736077f2467aed587bf4cd43b24f7a5f540a44318d8c95",
+    "clock.json": "4def8bd3de7da2592cf8f38faa3d9b976cc7fa0add60c4b7e7438a6878e20332",
+    "fixed_optical_model.json": "5da20e04769f18c1f85d781ca7fb98fc6712cd981f3657a8c1572346373eedce"
+  },
+  "review": "Numerical and interpretation review; no new observational fitting"
+}

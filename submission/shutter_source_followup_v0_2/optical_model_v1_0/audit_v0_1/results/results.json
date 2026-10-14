@@ -1,0 +1,119 @@
+{
+  "version": "0.1",
+  "date": "2026-10-14",
+  "authors": [
+    "Wonsik Choi",
+    "Jeongin Choi"
+  ],
+  "validation_inputs": {
+    "c_m_s": 299792458,
+    "shutter_s": 1.4813019664158633e-21,
+    "light_step_m": 4.440831575520451e-13,
+    "frozen_SOURCE_phase_states": 128,
+    "relative_dark_mean_stress_RMS": 1.2107407781339933e-08,
+    "removed_deterministic_mean": -1.5899997259449215e-17,
+    "no_new_observational_fitting": true
+  },
+  "WRRA_transformation": {
+    "base": "U_shift tensor I_15: coherent unitary transport",
+    "candidate": "U_j = diag(exp(i g (2*pi/lambda) ell f_D(j)),1) on two paths, controlled by finite SOURCE phase label",
+    "f_D": "Existing relative mean-dark-stress profile, centered; not intrinsic supply-bit variance",
+    "new_declared_coupling_g": 1.0,
+    "g_derivation_status": "Not derived; g=1 is an explicit trial extension",
+    "memory_laws": [
+      "one static phase register per run",
+      "fresh independent register each physical shutter",
+      "one register advanced cyclically per shutter"
+    ],
+    "cyclic_status": "New correlation-policy control; cyclic SOURCE-energy preparation/drive costs not derived",
+    "optical_path_meaning": "L is differential coupling exposure; equal common-mode arms cancel",
+    "visibility": "Exact finite characteristic function, not an automatic Gaussian approximation"
+  },
+  "outputs": {
+    "base_additional_phase_diffusion": 0.0,
+    "base_visibility": 1.0,
+    "conditional_boundaries": [
+      {
+        "wavelength_m": 5.32e-07,
+        "static_sigma_one_path_m": 6.993274799530854,
+        "static_exact_first_visibility_exp_minus_half_path_m": 6.7893921031608375,
+        "static_visibility_at_sigma_one": 0.5878097896185203,
+        "iid_sigma_one_path_m": 110127780326867.5,
+        "iid_exact_visibility_exp_minus_half_path_m": 110127780326867.5,
+        "cyclic_all_length_phase_RMS_bound_rad": 2.296688426345944e-12,
+        "cyclic_all_length_visibility_loss_upper_bound": 6.366309623791321e-24,
+        "status": "Conditional on declared g=1 and specified memory law; not an inherited optical prediction"
+      },
+      {
+        "wavelength_m": 1.064e-06,
+        "static_sigma_one_path_m": 13.986549599061709,
+        "static_exact_first_visibility_exp_minus_half_path_m": 13.578784206321675,
+        "static_visibility_at_sigma_one": 0.5878097896185203,
+        "iid_sigma_one_path_m": 440511121307470.0,
+        "iid_exact_visibility_exp_minus_half_path_m": 440511121307470.0,
+        "cyclic_all_length_phase_RMS_bound_rad": 1.148344213172972e-12,
+        "cyclic_all_length_visibility_loss_upper_bound": 1.5915774059478302e-24,
+        "status": "Conditional on declared g=1 and specified memory law; not an inherited optical prediction"
+      },
+      {
+        "wavelength_m": 1.55e-06,
+        "static_sigma_one_path_m": 20.37514274299403,
+        "static_exact_first_visibility_exp_minus_half_path_m": 19.78112360883327,
+        "static_visibility_at_sigma_one": 0.5878097896185203,
+        "iid_sigma_one_path_m": 934839420809892.8,
+        "iid_exact_visibility_exp_minus_half_path_m": 934839420809892.8,
+        "cyclic_all_length_phase_RMS_bound_rad": 7.882827373006724e-13,
+        "cyclic_all_length_visibility_loss_upper_bound": 7.499764474355528e-25,
+        "status": "Conditional on declared g=1 and specified memory law; not an inherited optical prediction"
+      }
+    ],
+    "static_curve_shape": {
+      "first_minimum_beta": 1.5572788861350804,
+      "first_minimum_visibility": 0.3586975045641526,
+      "first_revival_beta": 2.6653295765572134,
+      "first_revival_visibility": 0.6081539566256552,
+      "revival_to_first_minimum_exposure_ratio": 1.7115300286207176,
+      "minimum_exposure_1064nm_g1_m": 21.78095838049987,
+      "revival_exposure_1064nm_g1_m": 37.27876432036361,
+      "scope": "Static 128-state, centered mean-stress, linear phase coupling only. Not fundamental wavefunction collapse."
+    },
+    "density_eigenvalues_at_1064nm_10m": [
+      0.11651410698106884,
+      0.883485893018931
+    ],
+    "photon_path_entropy_at_1064nm_10m": 0.35992156918443946,
+    "initial_and_global_phase_register_entropy_nats": 4.852030263919617,
+    "cyclic_max_prefix_relative_stress_RMS": 4.3789455352199063e-07,
+    "cyclic_max_prefix_absolute_relative_stress": 6.803405202514268e-07,
+    "finite_cycle_numerical_residual": 5.111976185577711e-22,
+    "base_15_channel_max_visibility_error": 2.220446049250313e-16,
+    "numerical_subdivision_error": 8.455206652451151e-16
+  },
+  "refutation_conditions": [
+    "Revise if the optical coupling cannot be derived or justified within the declared full ledger.",
+    "Reject a frozen candidate if measured visibility/cross-path correlation contradicts its calculated law.",
+    "Reject physical claims for effects caused by solver refinement rather than a fixed physical shutter.",
+    "Reject free independent resets or cyclic preparation not counted in resources and energy.",
+    "Revise if positivity, photon-energy accounting, normalization or common-mode cancellation fails."
+  ],
+  "conclusion": "Base shutter transport adds no dephasing. A finite-state conditional phase extension is executed. The coupling and time correlation are not selected by the inherited SOURCE snapshot; no unique empirical dephasing threshold is established.",
+  "checks": {
+    "density_trace": true,
+    "density_positive": true,
+    "density_visibility_exact_average": true,
+    "photon_energy_unchanged": true,
+    "finite_cycle_zero_mode_removed": true,
+    "autocorrelation_PSD": true,
+    "SOURCE_RMS_reproduced": true,
+    "source_D_R_covariance_reproduced": true,
+    "exact_iid_matches_variance_boundary": true,
+    "same_physical_state_subdivision": true,
+    "base_common_carrier_coherence": true,
+    "base_common_carrier_norm": true,
+    "identical_arm_coupling_cancels": true,
+    "tick_rounding_bound": true,
+    "visibility_in_unit_interval": true,
+    "finite_state_revival_resolved": true,
+    "wavelength_scaling": true
+  }
+}
