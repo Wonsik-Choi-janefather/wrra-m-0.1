@@ -1,0 +1,664 @@
+{
+  "date": "2026-10-14",
+  "units": {
+    "constants": {
+      "c_m_s": 299792458.0,
+      "G_SI": 6.6743e-11,
+      "Mpc_m": 3.085677581e+22,
+      "U100_J_m3": 1.688169256193225e-09,
+      "SI_to_Mpc_squared_stress_coefficient": 197.72603700222814
+    },
+    "records": [
+      {
+        "branch": "weighted",
+        "background_SI_conversion_max_relative_error": 4.440892098500626e-16,
+        "vacuum_stress_coefficient_error": 3.3306690738754696e-16,
+        "dark_momentum_coefficient_error": 0.0,
+        "force_ratio_error": 4.440892098500626e-16,
+        "amplitudes": [
+          {
+            "mode": 1,
+            "component": "cosine",
+            "S_D": -1.4741924693185802e-08,
+            "delta_R": -3.9000918143567945e-09
+          },
+          {
+            "mode": 1,
+            "component": "sine",
+            "S_D": -3.6040415406299792e-09,
+            "delta_R": 3.6616950314149833e-09
+          },
+          {
+            "mode": 2,
+            "component": "cosine",
+            "S_D": 3.4400340505786126e-09,
+            "delta_R": 1.7781256932058288e-09
+          },
+          {
+            "mode": 2,
+            "component": "sine",
+            "S_D": 5.538751519361751e-09,
+            "delta_R": -2.895986430764696e-09
+          },
+          {
+            "mode": 3,
+            "component": "cosine",
+            "S_D": -4.964283478715924e-10,
+            "delta_R": -5.2573813398107895e-09
+          },
+          {
+            "mode": 3,
+            "component": "sine",
+            "S_D": -1.9310017146634197e-09,
+            "delta_R": -4.521596008296488e-09
+          },
+          {
+            "mode": 4,
+            "component": "cosine",
+            "S_D": -2.0136455247670798e-09,
+            "delta_R": 5.467333955031299e-09
+          },
+          {
+            "mode": 4,
+            "component": "sine",
+            "S_D": -2.3483617964714387e-09,
+            "delta_R": 5.347887585937306e-09
+          },
+          {
+            "mode": 5,
+            "component": "cosine",
+            "S_D": 6.750542702157488e-10,
+            "delta_R": -5.051600326269578e-09
+          },
+          {
+            "mode": 5,
+            "component": "sine",
+            "S_D": 2.1944888521780695e-09,
+            "delta_R": -3.965161806229232e-10
+          },
+          {
+            "mode": 6,
+            "component": "cosine",
+            "S_D": 2.1074212801588544e-10,
+            "delta_R": 2.166432151090864e-09
+          },
+          {
+            "mode": 6,
+            "component": "sine",
+            "S_D": -1.1070158681977577e-09,
+            "delta_R": -6.740319050579152e-10
+          },
+          {
+            "mode": 7,
+            "component": "cosine",
+            "S_D": -1.8415497306914754e-10,
+            "delta_R": -8.078372573087707e-10
+          },
+          {
+            "mode": 7,
+            "component": "sine",
+            "S_D": 4.83234540011241e-10,
+            "delta_R": 5.170119126556165e-10
+          }
+        ],
+        "passed": true
+      },
+      {
+        "branch": "unweighted",
+        "background_SI_conversion_max_relative_error": 5.551115123125783e-16,
+        "vacuum_stress_coefficient_error": 4.440892098500626e-16,
+        "dark_momentum_coefficient_error": 0.0,
+        "force_ratio_error": 4.440892098500626e-16,
+        "amplitudes": [
+          {
+            "mode": 1,
+            "component": "cosine",
+            "S_D": -1.4768478908283114e-08,
+            "delta_R": -3.969415628985697e-09
+          },
+          {
+            "mode": 1,
+            "component": "sine",
+            "S_D": -3.6657517202576944e-09,
+            "delta_R": 3.6751552951549526e-09
+          },
+          {
+            "mode": 2,
+            "component": "cosine",
+            "S_D": 3.4398868892391744e-09,
+            "delta_R": 1.7698427967907529e-09
+          },
+          {
+            "mode": 2,
+            "component": "sine",
+            "S_D": 5.632657827328517e-09,
+            "delta_R": -2.901491760687887e-09
+          },
+          {
+            "mode": 3,
+            "component": "cosine",
+            "S_D": -4.67673844350906e-10,
+            "delta_R": -5.278281555414427e-09
+          },
+          {
+            "mode": 3,
+            "component": "sine",
+            "S_D": -1.968715500579765e-09,
+            "delta_R": -4.535948277491051e-09
+          },
+          {
+            "mode": 4,
+            "component": "cosine",
+            "S_D": -2.0436487884692525e-09,
+            "delta_R": 5.488502558825911e-09
+          },
+          {
+            "mode": 4,
+            "component": "sine",
+            "S_D": -2.3780339551941594e-09,
+            "delta_R": 5.363671134099015e-09
+          },
+          {
+            "mode": 5,
+            "component": "cosine",
+            "S_D": 6.810476029912651e-10,
+            "delta_R": -5.068119771638999e-09
+          },
+          {
+            "mode": 5,
+            "component": "sine",
+            "S_D": 2.2235763163606614e-09,
+            "delta_R": -3.9979466720804524e-10
+          },
+          {
+            "mode": 6,
+            "component": "cosine",
+            "S_D": 2.1830137945630019e-10,
+            "delta_R": 2.173570582599558e-09
+          },
+          {
+            "mode": 6,
+            "component": "sine",
+            "S_D": -1.1204135055860472e-09,
+            "delta_R": -6.786082436606151e-10
+          },
+          {
+            "mode": 7,
+            "component": "cosine",
+            "S_D": -1.8888370746883814e-10,
+            "delta_R": -8.107041190696163e-10
+          },
+          {
+            "mode": 7,
+            "component": "sine",
+            "S_D": 4.890454056899375e-10,
+            "delta_R": 5.175019902119685e-10
+          }
+        ],
+        "passed": true
+      }
+    ],
+    "convention": "u is energy density J/m^3; k is Mpc^-1; conformal time is Mpc. Density output is 8piG*a^4*u*Mpc^2/c^4; stress uses a^2. S_D and delta_R are dimensionless. Temperature power conversion is (T_CMB*1e6)^2, not an extra power of c."
+  },
+  "per_mode_evolution": [
+    {
+      "branch": "weighted",
+      "modes": [
+        {
+          "mode": 1,
+          "component": "cosine",
+          "k_Mpc_inv": 0.05,
+          "max_abs_delta_D": 6.87319336582245e-05,
+          "max_abs_delta_baryon": 2.072607451551398e-05,
+          "max_abs_velocity_D": 6.008831814956211e-07,
+          "momentum_relative_residual": 3.1635971353630244e-16,
+          "unguarded_growth_points": 0,
+          "state_finite": true,
+          "late_vacuum_contrast_drift": 0.0,
+          "growth_definition": "d ln|delta_D|/d ln a; guarded around density zero crossing"
+        },
+        {
+          "mode": 1,
+          "component": "sine",
+          "k_Mpc_inv": 0.05,
+          "max_abs_delta_D": 4.339051808375461e-05,
+          "max_abs_delta_baryon": 2.4532102798028502e-06,
+          "max_abs_velocity_D": 5.641536314719324e-07,
+          "momentum_relative_residual": 4.2516915326108326e-16,
+          "unguarded_growth_points": 0,
+          "state_finite": true,
+          "late_vacuum_contrast_drift": 0.0,
+          "growth_definition": "d ln|delta_D|/d ln a; guarded around density zero crossing"
+        },
+        {
+          "mode": 2,
+          "component": "cosine",
+          "k_Mpc_inv": 0.1,
+          "max_abs_delta_D": 9.854386289733359e-05,
+          "max_abs_delta_baryon": 1.1122832928556208e-05,
+          "max_abs_velocity_D": 5.479080362670042e-07,
+          "momentum_relative_residual": 3.469473316396115e-16,
+          "unguarded_growth_points": 0,
+          "state_finite": true,
+          "late_vacuum_contrast_drift": 0.0,
+          "growth_definition": "d ln|delta_D|/d ln a; guarded around density zero crossing"
+        },
+        {
+          "mode": 2,
+          "component": "sine",
+          "k_Mpc_inv": 0.1,
+          "max_abs_delta_D": 0.0001417867914452039,
+          "max_abs_delta_baryon": 4.604426521774684e-06,
+          "max_abs_velocity_D": 8.923633713854112e-07,
+          "momentum_relative_residual": 4.0318898583269646e-16,
+          "unguarded_growth_points": 0,
+          "state_finite": true,
+          "late_vacuum_contrast_drift": 0.0,
+          "growth_definition": "d ln|delta_D|/d ln a; guarded around density zero crossing"
+        },
+        {
+          "mode": 3,
+          "component": "cosine",
+          "k_Mpc_inv": 0.15000000000000002,
+          "max_abs_delta_D": 0.0006180807149092543,
+          "max_abs_delta_baryon": 3.6669264047411286e-05,
+          "max_abs_velocity_D": 2.4299981970979913e-06,
+          "momentum_relative_residual": 2.8896497751579305e-16,
+          "unguarded_growth_points": 3318,
+          "state_finite": true,
+          "late_vacuum_contrast_drift": 0.0,
+          "growth_definition": "d ln|delta_D|/d ln a; guarded around density zero crossing"
+        },
+        {
+          "mode": 3,
+          "component": "sine",
+          "k_Mpc_inv": 0.15000000000000002,
+          "max_abs_delta_D": 0.0005344213326909013,
+          "max_abs_delta_baryon": 3.4366589715400125e-05,
+          "max_abs_velocity_D": 2.089913102738972e-06,
+          "momentum_relative_residual": 2.79989462028979e-16,
+          "unguarded_growth_points": 0,
+          "state_finite": true,
+          "late_vacuum_contrast_drift": 0.0,
+          "growth_definition": "d ln|delta_D|/d ln a; guarded around density zero crossing"
+        },
+        {
+          "mode": 4,
+          "component": "cosine",
+          "k_Mpc_inv": 0.2,
+          "max_abs_delta_D": 0.0011368989486874321,
+          "max_abs_delta_baryon": 6.20293026905736e-05,
+          "max_abs_velocity_D": 3.3693863401931645e-06,
+          "momentum_relative_residual": 3.5594125692979363e-16,
+          "unguarded_growth_points": 0,
+          "state_finite": true,
+          "late_vacuum_contrast_drift": 0.0,
+          "growth_definition": "d ln|delta_D|/d ln a; guarded around density zero crossing"
+        },
+        {
+          "mode": 4,
+          "component": "sine",
+          "k_Mpc_inv": 0.2,
+          "max_abs_delta_D": 0.0011112976146957806,
+          "max_abs_delta_baryon": 5.991469861727077e-05,
+          "max_abs_velocity_D": 3.2957744175044824e-06,
+          "momentum_relative_residual": 3.638912914187037e-16,
+          "unguarded_growth_points": 1,
+          "state_finite": true,
+          "late_vacuum_contrast_drift": 0.0,
+          "growth_definition": "d ln|delta_D|/d ln a; guarded around density zero crossing"
+        },
+        {
+          "mode": 5,
+          "component": "cosine",
+          "k_Mpc_inv": 0.25,
+          "max_abs_delta_D": 0.0016457668441975685,
+          "max_abs_delta_baryon": 9.396844472928979e-05,
+          "max_abs_velocity_D": 3.8914746372372016e-06,
+          "momentum_relative_residual": 3.2866212879633297e-16,
+          "unguarded_growth_points": 3778,
+          "state_finite": true,
+          "late_vacuum_contrast_drift": 0.0,
+          "growth_definition": "d ln|delta_D|/d ln a; guarded around density zero crossing"
+        },
+        {
+          "mode": 5,
+          "component": "sine",
+          "k_Mpc_inv": 0.25,
+          "max_abs_delta_D": 0.00012467876156529406,
+          "max_abs_delta_baryon": 2.8954266826426704e-06,
+          "max_abs_velocity_D": 3.054542245007225e-07,
+          "momentum_relative_residual": 3.4005372745442124e-16,
+          "unguarded_growth_points": 0,
+          "state_finite": true,
+          "late_vacuum_contrast_drift": 0.0,
+          "growth_definition": "d ln|delta_D|/d ln a; guarded around density zero crossing"
+        },
+        {
+          "mode": 6,
+          "component": "cosine",
+          "k_Mpc_inv": 0.30000000000000004,
+          "max_abs_delta_D": 0.0010176916882552885,
+          "max_abs_delta_baryon": 5.935772685391118e-05,
+          "max_abs_velocity_D": 2.0026799963783465e-06,
+          "momentum_relative_residual": 2.921852948955368e-16,
+          "unguarded_growth_points": 4129,
+          "state_finite": true,
+          "late_vacuum_contrast_drift": 0.0,
+          "growth_definition": "d ln|delta_D|/d ln a; guarded around density zero crossing"
+        },
+        {
+          "mode": 6,
+          "component": "sine",
+          "k_Mpc_inv": 0.30000000000000004,
+          "max_abs_delta_D": 0.00031888645188952536,
+          "max_abs_delta_baryon": 2.0713357364446882e-05,
+          "max_abs_velocity_D": 6.230844628577798e-07,
+          "momentum_relative_residual": 2.982033337910343e-16,
+          "unguarded_growth_points": 0,
+          "state_finite": true,
+          "late_vacuum_contrast_drift": 0.0,
+          "growth_definition": "d ln|delta_D|/d ln a; guarded around density zero crossing"
+        },
+        {
+          "mode": 7,
+          "component": "cosine",
+          "k_Mpc_inv": 0.35000000000000003,
+          "max_abs_delta_D": 0.0005166980138007417,
+          "max_abs_delta_baryon": 3.0301969795468906e-05,
+          "max_abs_velocity_D": 8.71238655615373e-07,
+          "momentum_relative_residual": 2.9863296946753076e-16,
+          "unguarded_growth_points": 3830,
+          "state_finite": true,
+          "late_vacuum_contrast_drift": 0.0,
+          "growth_definition": "d ln|delta_D|/d ln a; guarded around density zero crossing"
+        },
+        {
+          "mode": 7,
+          "component": "sine",
+          "k_Mpc_inv": 0.35000000000000003,
+          "max_abs_delta_D": 0.00033149383601470514,
+          "max_abs_delta_baryon": 2.0198749353094928e-05,
+          "max_abs_velocity_D": 5.57588498975413e-07,
+          "momentum_relative_residual": 2.851939351032785e-16,
+          "unguarded_growth_points": 0,
+          "state_finite": true,
+          "late_vacuum_contrast_drift": 0.0,
+          "growth_definition": "d ln|delta_D|/d ln a; guarded around density zero crossing"
+        }
+      ]
+    },
+    {
+      "branch": "unweighted",
+      "modes": [
+        {
+          "mode": 1,
+          "component": "cosine",
+          "k_Mpc_inv": 0.05,
+          "max_abs_delta_D": 7.209706718443115e-05,
+          "max_abs_delta_baryon": 2.0493962852912125e-05,
+          "max_abs_velocity_D": 6.376965453484379e-07,
+          "momentum_relative_residual": 3.5295933043815715e-16,
+          "unguarded_growth_points": 0,
+          "state_finite": true,
+          "late_vacuum_contrast_drift": 0.0,
+          "growth_definition": "d ln|delta_D|/d ln a; guarded around density zero crossing"
+        },
+        {
+          "mode": 1,
+          "component": "sine",
+          "k_Mpc_inv": 0.05,
+          "max_abs_delta_D": 4.627493781253157e-05,
+          "max_abs_delta_baryon": 2.389233108278836e-06,
+          "max_abs_velocity_D": 5.904228869926124e-07,
+          "momentum_relative_residual": 3.8121988599626706e-16,
+          "unguarded_growth_points": 0,
+          "state_finite": true,
+          "late_vacuum_contrast_drift": 0.0,
+          "growth_definition": "d ln|delta_D|/d ln a; guarded around density zero crossing"
+        },
+        {
+          "mode": 2,
+          "component": "cosine",
+          "k_Mpc_inv": 0.1,
+          "max_abs_delta_D": 0.00010305518026002645,
+          "max_abs_delta_baryon": 1.1141460040607316e-05,
+          "max_abs_velocity_D": 5.686593407260196e-07,
+          "momentum_relative_residual": 3.958098101080082e-16,
+          "unguarded_growth_points": 0,
+          "state_finite": true,
+          "late_vacuum_contrast_drift": 0.0,
+          "growth_definition": "d ln|delta_D|/d ln a; guarded around density zero crossing"
+        },
+        {
+          "mode": 2,
+          "component": "sine",
+          "k_Mpc_inv": 0.1,
+          "max_abs_delta_D": 0.000150678234677173,
+          "max_abs_delta_baryon": 4.428215356116254e-06,
+          "max_abs_velocity_D": 9.32263811648479e-07,
+          "momentum_relative_residual": 3.417601714972126e-16,
+          "unguarded_growth_points": 0,
+          "state_finite": true,
+          "late_vacuum_contrast_drift": 0.0,
+          "growth_definition": "d ln|delta_D|/d ln a; guarded around density zero crossing"
+        },
+        {
+          "mode": 3,
+          "component": "cosine",
+          "k_Mpc_inv": 0.15000000000000002,
+          "max_abs_delta_D": 0.000654964060825413,
+          "max_abs_delta_baryon": 3.835858489085922e-05,
+          "max_abs_velocity_D": 2.54390738678398e-06,
+          "momentum_relative_residual": 3.3135192460018725e-16,
+          "unguarded_growth_points": 3442,
+          "state_finite": true,
+          "late_vacuum_contrast_drift": 0.0,
+          "growth_definition": "d ln|delta_D|/d ln a; guarded around density zero crossing"
+        },
+        {
+          "mode": 3,
+          "component": "sine",
+          "k_Mpc_inv": 0.15000000000000002,
+          "max_abs_delta_D": 0.0005656947126015362,
+          "max_abs_delta_baryon": 3.579439506105884e-05,
+          "max_abs_velocity_D": 2.1861342954209954e-06,
+          "momentum_relative_residual": 3.8557951832194167e-16,
+          "unguarded_growth_points": 0,
+          "state_finite": true,
+          "late_vacuum_contrast_drift": 0.0,
+          "growth_definition": "d ln|delta_D|/d ln a; guarded around density zero crossing"
+        },
+        {
+          "mode": 4,
+          "component": "cosine",
+          "k_Mpc_inv": 0.2,
+          "max_abs_delta_D": 0.0012052390671644423,
+          "max_abs_delta_baryon": 6.542041807121222e-05,
+          "max_abs_velocity_D": 3.5269666349287803e-06,
+          "momentum_relative_residual": 3.091277579343095e-16,
+          "unguarded_growth_points": 0,
+          "state_finite": true,
+          "late_vacuum_contrast_drift": 0.0,
+          "growth_definition": "d ln|delta_D|/d ln a; guarded around density zero crossing"
+        },
+        {
+          "mode": 4,
+          "component": "sine",
+          "k_Mpc_inv": 0.2,
+          "max_abs_delta_D": 0.0011770913061838763,
+          "max_abs_delta_baryon": 6.32005647461199e-05,
+          "max_abs_velocity_D": 3.446748712957624e-06,
+          "momentum_relative_residual": 3.29246371110371e-16,
+          "unguarded_growth_points": 1,
+          "state_finite": true,
+          "late_vacuum_contrast_drift": 0.0,
+          "growth_definition": "d ln|delta_D|/d ln a; guarded around density zero crossing"
+        },
+        {
+          "mode": 5,
+          "component": "cosine",
+          "k_Mpc_inv": 0.25,
+          "max_abs_delta_D": 0.0017432707345531244,
+          "max_abs_delta_baryon": 9.869266759279163e-05,
+          "max_abs_velocity_D": 4.071030564531936e-06,
+          "momentum_relative_residual": 2.865573035705117e-16,
+          "unguarded_growth_points": 3820,
+          "state_finite": true,
+          "late_vacuum_contrast_drift": 0.0,
+          "growth_definition": "d ln|delta_D|/d ln a; guarded around density zero crossing"
+        },
+        {
+          "mode": 5,
+          "component": "sine",
+          "k_Mpc_inv": 0.25,
+          "max_abs_delta_D": 0.00013314880262397117,
+          "max_abs_delta_baryon": 3.43944457300385e-06,
+          "max_abs_velocity_D": 3.2114006437824923e-07,
+          "momentum_relative_residual": 2.783462940429847e-16,
+          "unguarded_growth_points": 0,
+          "state_finite": true,
+          "late_vacuum_contrast_drift": 0.0,
+          "growth_definition": "d ln|delta_D|/d ln a; guarded around density zero crossing"
+        },
+        {
+          "mode": 6,
+          "component": "cosine",
+          "k_Mpc_inv": 0.30000000000000004,
+          "max_abs_delta_D": 0.0010778987081361132,
+          "max_abs_delta_baryon": 6.224270960797559e-05,
+          "max_abs_velocity_D": 2.09513729145403e-06,
+          "momentum_relative_residual": 3.7147626616129984e-16,
+          "unguarded_growth_points": 4152,
+          "state_finite": true,
+          "late_vacuum_contrast_drift": 0.0,
+          "growth_definition": "d ln|delta_D|/d ln a; guarded around density zero crossing"
+        },
+        {
+          "mode": 6,
+          "component": "sine",
+          "k_Mpc_inv": 0.30000000000000004,
+          "max_abs_delta_D": 0.0003387108063962747,
+          "max_abs_delta_baryon": 2.1602991273685115e-05,
+          "max_abs_velocity_D": 6.541206662270213e-07,
+          "momentum_relative_residual": 3.410562455022698e-16,
+          "unguarded_growth_points": 0,
+          "state_finite": true,
+          "late_vacuum_contrast_drift": 0.0,
+          "growth_definition": "d ln|delta_D|/d ln a; guarded around density zero crossing"
+        },
+        {
+          "mode": 7,
+          "component": "cosine",
+          "k_Mpc_inv": 0.35000000000000003,
+          "max_abs_delta_D": 0.0005473880733005734,
+          "max_abs_delta_baryon": 3.176829899970461e-05,
+          "max_abs_velocity_D": 9.116915058698041e-07,
+          "momentum_relative_residual": 3.3075312806383723e-16,
+          "unguarded_growth_points": 3862,
+          "state_finite": true,
+          "late_vacuum_contrast_drift": 0.0,
+          "growth_definition": "d ln|delta_D|/d ln a; guarded around density zero crossing"
+        },
+        {
+          "mode": 7,
+          "component": "sine",
+          "k_Mpc_inv": 0.35000000000000003,
+          "max_abs_delta_D": 0.00035019822749395263,
+          "max_abs_delta_baryon": 2.1055438942421145e-05,
+          "max_abs_velocity_D": 5.819659203019985e-07,
+          "momentum_relative_residual": 2.5907429187536253e-16,
+          "unguarded_growth_points": 0,
+          "state_finite": true,
+          "late_vacuum_contrast_drift": 0.0,
+          "growth_definition": "d ln|delta_D|/d ln a; guarded around density zero crossing"
+        }
+      ]
+    }
+  ],
+  "scaling": [
+    {
+      "delta_R_basis_input": 0.01,
+      "normalized_transfer_relative_difference": {
+        "T": 1.1168474466826498e-07,
+        "E": 0.0007872835019863818
+      },
+      "passed": true
+    },
+    {
+      "delta_R_basis_input": 2,
+      "normalized_transfer_relative_difference": {
+        "T": 9.034471690966258e-10,
+        "E": 6.341933186247925e-06
+      },
+      "passed": true
+    },
+    {
+      "case": "direct mixed D/R first cosine harmonic",
+      "relative_difference": {
+        "T": 1.0844615598448636e-08,
+        "E": 4.2124130463791404e-08
+      },
+      "passed": true
+    }
+  ],
+  "original_baselines": [
+    {
+      "branch": "weighted",
+      "chi2": 591.5703352485414,
+      "conditional_blocks": {
+        "TT": 210.73925729608897,
+        "TE_given_TT": 180.89649836370054,
+        "EE_given_TT_TE": 199.93457958875183
+      }
+    },
+    {
+      "branch": "unweighted",
+      "chi2": 1217.7512246819865,
+      "conditional_blocks": {
+        "TT": 575.722266075556,
+        "TE_given_TT": 404.6531174876171,
+        "EE_given_TT_TE": 237.37584111881318
+      }
+    }
+  ],
+  "initial_universe_condition_already_included": true,
+  "SOURCE_lensing_included": false,
+  "gauge_scope": "Bounded trajectories and conserved momentum in the declared geodesic synchronous gauge. Not a completed second-gauge implementation or a proof of full gauge equivalence.",
+  "counterfactuals": [
+    {
+      "label": "weighted_D_only",
+      "D_ledger": "weighted",
+      "R_ledger": "unweighted",
+      "derived_H0": 67.25683746620051,
+      "ombh2": 0.022395806792949134,
+      "omch2": 0.12037806177378184,
+      "chi2_highell": 585.9139184472003,
+      "conditional_blocks": {
+        "TT": 208.599001922385,
+        "TE_given_TT": 180.40672046181146,
+        "EE_given_TT_TE": 196.9081960630039
+      },
+      "diagnosis_only": true,
+      "new_fit": false,
+      "standalone_WRRA_branch_derived": false
+    },
+    {
+      "label": "weighted_R_only",
+      "D_ledger": "unweighted",
+      "R_ledger": "weighted",
+      "derived_H0": 67.0994706398611,
+      "ombh2": 0.022395806792949134,
+      "omch2": 0.11566281218279162,
+      "chi2_highell": 1121.9031209830046,
+      "conditional_blocks": {
+        "TT": 523.4620201749024,
+        "TE_given_TT": 368.13537096284995,
+        "EE_given_TT_TE": 230.30572984525224
+      },
+      "diagnosis_only": true,
+      "new_fit": false,
+      "standalone_WRRA_branch_derived": false
+    }
+  ]
+}

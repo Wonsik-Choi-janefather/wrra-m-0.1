@@ -1,0 +1,302 @@
+{
+  "version": "0.1",
+  "clock_interval_s": 1.481301966415863e-21,
+  "light_step_m": 4.44083157552045e-13,
+  "light_step_pm": 0.444083157552045,
+  "shutter_phase_at_mode_energy_rad": 0.049999999999999996,
+  "phase_resolution": 0.05,
+  "Nyquist_energy_eV": 1395956.9995476552,
+  "clock_rounding_bound_s": 7.406509832079315e-22,
+  "core_rule": "One massless carrier shift per shutter; dx=c*dt in a local inertial frame.",
+  "rule_status": "New explicitly adopted conditional spatial renderer, executed here. Not a pre-existing SOURCE-derived metric.",
+  "source_book": {
+    "library_file_id": "libfile_262e51b78ae08191934144a2944fca88",
+    "version": 2,
+    "relevant_pages": [
+      12,
+      13,
+      14,
+      106,
+      107,
+      149,
+      150
+    ]
+  },
+  "spatial_SOURCE_mapping_closed": false,
+  "unique_universal_shutter_established": false,
+  "universal_global_simultaneity_assumed": false,
+  "photon_proper_time_used": false,
+  "scope": "Finite 1D, freely propagating massless branch with a common operator on 15 internal channels. No Maxwell polarization/gauge dynamics, interactions, 3D isotropy, gravity or Lorentz-covariant microscopic completion.",
+  "carrier_audit": {
+    "cells": 512,
+    "internal_channels": 15,
+    "steps": 64,
+    "norm_error": 4.440892098500626e-16,
+    "channel_weight_error": 8.326672684688674e-17,
+    "spectral_energy_relative_error": 1.6678926623765334e-16,
+    "maximum_relative_packet_speed_error": 6.23945339839338e-14
+  },
+  "spectral_modes": [
+    {
+      "mode": 1,
+      "energy_eV": 5452.957029483028,
+      "omega_s_inv": 8.284500109574492e+18,
+      "k_m_inv": 27634117832.192074,
+      "phase_speed_m_s": 299792457.99999994,
+      "relative_c_error": -1.1102230246251565e-16,
+      "eigenvector_residual": 3.3455878702324425e-16
+    },
+    {
+      "mode": 4,
+      "energy_eV": 21811.828117932113,
+      "omega_s_inv": 3.3138000438297965e+19,
+      "k_m_inv": 110536471328.7683,
+      "phase_speed_m_s": 299792457.99999994,
+      "relative_c_error": -2.220446049250313e-16,
+      "eigenvector_residual": 1.12290778803415e-15
+    },
+    {
+      "mode": 16,
+      "energy_eV": 87247.31247172845,
+      "omega_s_inv": 1.3255200175319192e+20,
+      "k_m_inv": 442145885315.0732,
+      "phase_speed_m_s": 299792458.00000006,
+      "relative_c_error": 2.220446049250313e-16,
+      "eigenvector_residual": 4.476703417162636e-15
+    },
+    {
+      "mode": 64,
+      "energy_eV": 348989.2498869138,
+      "omega_s_inv": 5.3020800701276756e+20,
+      "k_m_inv": 1768583541260.2927,
+      "phase_speed_m_s": 299792458.0,
+      "relative_c_error": 0.0,
+      "eigenvector_residual": 1.789040724572467e-14
+    },
+    {
+      "mode": 127,
+      "energy_eV": 692525.5427443446,
+      "omega_s_inv": 1.0521315139159607e+21,
+      "k_m_inv": 3509532964688.3936,
+      "phase_speed_m_s": 299792458.0,
+      "relative_c_error": 0.0,
+      "eigenvector_residual": 3.6161829809611903e-14
+    }
+  ],
+  "photon_band_cases": [
+    {
+      "energy_eV": 1,
+      "phase_per_shutter_rad": 2.2504938580542184e-06,
+      "wavelength_m": 1.2398419843320028e-06,
+      "admitted_on_base_tick": true,
+      "aliased_energy_eV_if_gate_ignored": 0.9999999999474543,
+      "required_binary_refinement": 1,
+      "refined_tick_s": 1.481301966415863e-21,
+      "refined_step_m": 4.44083157552045e-13,
+      "recovered_energy_eV_after_refinement": 0.9999999999474543,
+      "refinement_to_keep_anchor_phase_budget": 1
+    },
+    {
+      "energy_eV": 10.2,
+      "phase_per_shutter_rad": 2.2955037352153027e-05,
+      "wavelength_m": 1.215531357188238e-07,
+      "admitted_on_base_tick": true,
+      "aliased_energy_eV_if_gate_ignored": 10.200000000056022,
+      "required_binary_refinement": 1,
+      "refined_tick_s": 1.481301966415863e-21,
+      "refined_step_m": 4.44083157552045e-13,
+      "recovered_energy_eV_after_refinement": 10.200000000056022,
+      "refinement_to_keep_anchor_phase_budget": 1
+    },
+    {
+      "energy_eV": 22217.345682174,
+      "phase_per_shutter_rad": 0.049999999999999996,
+      "wavelength_m": 5.5805135413938545e-11,
+      "admitted_on_base_tick": true,
+      "aliased_energy_eV_if_gate_ignored": 22217.34568217392,
+      "required_binary_refinement": 1,
+      "refined_tick_s": 1.481301966415863e-21,
+      "refined_step_m": 4.44083157552045e-13,
+      "recovered_energy_eV_after_refinement": 22217.34568217392,
+      "refinement_to_keep_anchor_phase_budget": 1
+    },
+    {
+      "energy_eV": 510998.95069,
+      "phase_per_shutter_rad": 1.1499999999999955,
+      "wavelength_m": 2.426310235388642e-12,
+      "admitted_on_base_tick": true,
+      "aliased_energy_eV_if_gate_ignored": 510998.95068999985,
+      "required_binary_refinement": 1,
+      "refined_tick_s": 1.481301966415863e-21,
+      "refined_step_m": 4.44083157552045e-13,
+      "recovered_energy_eV_after_refinement": 510998.95068999985,
+      "refinement_to_keep_anchor_phase_budget": 32
+    },
+    {
+      "energy_eV": 1000000,
+      "phase_per_shutter_rad": 2.2504938580542184,
+      "wavelength_m": 1.2398419843320029e-12,
+      "admitted_on_base_tick": true,
+      "aliased_energy_eV_if_gate_ignored": 1000000.0,
+      "required_binary_refinement": 1,
+      "refined_tick_s": 1.481301966415863e-21,
+      "refined_step_m": 4.44083157552045e-13,
+      "recovered_energy_eV_after_refinement": 1000000.0,
+      "refinement_to_keep_anchor_phase_budget": 64
+    },
+    {
+      "energy_eV": 10000000,
+      "phase_per_shutter_rad": 22.504938580542184,
+      "wavelength_m": 1.2398419843320028e-13,
+      "admitted_on_base_tick": false,
+      "aliased_energy_eV_if_gate_ignored": -1167655.9963812407,
+      "required_binary_refinement": 8,
+      "refined_tick_s": 1.8516274580198287e-22,
+      "refined_step_m": 5.5510394694005626e-14,
+      "recovered_energy_eV_after_refinement": 10000000.000000002,
+      "refinement_to_keep_anchor_phase_budget": 512
+    },
+    {
+      "energy_eV": 100000000,
+      "phase_per_shutter_rad": 225.04938580542185,
+      "wavelength_m": 1.2398419843320028e-14,
+      "admitted_on_base_tick": false,
+      "aliased_energy_eV_if_gate_ignored": -508903.9674311672,
+      "required_binary_refinement": 128,
+      "refined_tick_s": 1.1572671612623929e-23,
+      "refined_step_m": 3.4693996683753516e-15,
+      "recovered_energy_eV_after_refinement": 100000000.0,
+      "refinement_to_keep_anchor_phase_budget": 8192
+    }
+  ],
+  "time_cases": [
+    {
+      "case": "Hydrogen 1S–2S",
+      "kind": "total transition-frequency phase cycle, not one excitation-photon cycle",
+      "reference_time_s": "4.055049053736426109123182465805098572177425083676452342865710593741857E-16",
+      "tick_count": "273749",
+      "reconstructed_time_s": "4.05504932004376080387E-16",
+      "time_rounding_error_s": "2.66307334694746817534194901427822574916323547657134289406258143E-23",
+      "light_path_equivalent_m": "1.215673123130217267389415096206211449885360677946219324587570142814511E-7",
+      "error_scope": "Representational rounding only; inherited physical-model residuals remain."
+    },
+    {
+      "case": "Hydrogen 1S–3S",
+      "kind": "total transition-frequency phase cycle, not one excitation-photon cycle",
+      "reference_time_s": "3.421443160257779204748512730652279239068698831839506067771639461620667E-16",
+      "tick_count": "230975",
+      "reconstructed_time_s": "3.42143721692903956425E-16",
+      "time_rounding_error_s": "-5.943328739640498512730652279239068698831839506067771639461620667E-22",
+      "light_path_equivalent_m": "1.025722854920967541412841903366538736382774853658894185563174376889056E-7",
+      "error_scope": "Representational rounding only; inherited physical-model residuals remain."
+    },
+    {
+      "case": "Hydrogen 2S–8D5/2",
+      "kind": "total transition-frequency phase cycle",
+      "reference_time_s": "1.297606655302041183525782464340015099428941840059021461650199587337338E-15",
+      "tick_count": "875991",
+      "reconstructed_time_s": "1.297607190862598245233E-15",
+      "time_rounding_error_s": "5.35560557061707217535659984900571058159940978538349800412662662E-22",
+      "light_path_equivalent_m": "3.890126887101576588264234313577904744149168705703369090628660704784462E-7",
+      "error_scope": "Representational rounding only; inherited physical-model residuals remain."
+    },
+    {
+      "case": "Joint-model hydrogen 2S–8D5/2",
+      "kind": "previous fitted-model phase cycle",
+      "reference_time_s": "1.2976066559995714E-15",
+      "tick_count": "875991",
+      "reconstructed_time_s": "1.297607190862598245233E-15",
+      "time_rounding_error_s": "5.34863026845233E-22",
+      "light_path_equivalent_m": "3.890126889192719569525012E-7",
+      "error_scope": "Representational rounding only; inherited physical-model residuals remain."
+    },
+    {
+      "case": "Joint-model neutrino, 1 MeV",
+      "kind": "first electron-flavour survival minimum, frozen book q0",
+      "reference_time_s": "0.0000016801762733456352",
+      "tick_count": "1134256425387030",
+      "reconstructed_time_s": "0.000001680176273345635129731706456890",
+      "time_rounding_error_s": "-7.0268293543110E-23",
+      "light_path_equivalent_m": "503.7041748595678601793216",
+      "error_scope": "Representational rounding only; inherited physical-model residuals remain."
+    },
+    {
+      "case": "Muon anchor",
+      "kind": "mean lifetime",
+      "reference_time_s": "0.0000021969811",
+      "tick_count": "1483141958770084",
+      "reconstructed_time_s": "0.000002196981100000000235585147442492",
+      "time_rounding_error_s": "2.35585147442492E-22",
+      "light_path_equivalent_m": "658.6383641485438",
+      "error_scope": "Representational rounding only; inherited physical-model residuals remain."
+    },
+    {
+      "case": "Tau observed total",
+      "kind": "mean lifetime input, not predicted",
+      "reference_time_s": "2.903E-13",
+      "tick_count": "195976247",
+      "reconstructed_time_s": "2.90300000051900872006161E-13",
+      "time_rounding_error_s": "5.1900872006161E-23",
+      "light_path_equivalent_m": "0.0000870297505574",
+      "error_scope": "Representational rounding only; inherited physical-model residuals remain."
+    },
+    {
+      "case": "Tau electron prediction",
+      "kind": "inverse partial decay rate, not total survival lifetime",
+      "reference_time_s": "1.6322492658539567E-12",
+      "tick_count": "1101901775",
+      "reconstructed_time_s": "1.632249266104629827856825E-12",
+      "time_rounding_error_s": "2.50673127856825E-22",
+      "light_path_equivalent_m": "0.0004893360194790531481185686",
+      "error_scope": "Representational rounding only; inherited physical-model residuals remain."
+    },
+    {
+      "case": "Tau muon prediction",
+      "kind": "inverse partial decay rate, not total survival lifetime",
+      "reference_time_s": "1.678291976909125E-12",
+      "tick_count": "1132984371",
+      "reconstructed_time_s": "1.678291976680739665477173E-12",
+      "time_rounding_error_s": "-2.28385334522827E-22",
+      "light_path_equivalent_m": "0.000503139276999265826379250",
+      "error_scope": "Representational rounding only; inherited physical-model residuals remain."
+    }
+  ],
+  "resolution_cases": [
+    {
+      "refinement": 1,
+      "dt_s": 1.481301966415863e-21,
+      "dx_m": 4.44083157552045e-13,
+      "matched_speed_m_s": 299792458.0,
+      "speed_if_only_time_refined_m_s": 299792458.0
+    },
+    {
+      "refinement": 2,
+      "dt_s": 7.406509832079315e-22,
+      "dx_m": 2.220415787760225e-13,
+      "matched_speed_m_s": 299792458.0,
+      "speed_if_only_time_refined_m_s": 599584916.0
+    },
+    {
+      "refinement": 4,
+      "dt_s": 3.7032549160396573e-22,
+      "dx_m": 1.1102078938801125e-13,
+      "matched_speed_m_s": 299792458.0,
+      "speed_if_only_time_refined_m_s": 1199169832.0
+    },
+    {
+      "refinement": 8,
+      "dt_s": 1.8516274580198287e-22,
+      "dx_m": 5.5510394694005626e-14,
+      "matched_speed_m_s": 299792458.0,
+      "speed_if_only_time_refined_m_s": 2398339664.0
+    }
+  ],
+  "inherited_result_status": {
+    "neutrino": "Previous frozen-q0 predictions have marginal residuals -0.294 and -0.588 sigma. This conversion does not change them.",
+    "hydrogen": "Previous joint corrected 2S–8D5/2 holdout remains -414263.75 Hz, outside quoted measurement precision. Clock conversion does not repair this failure.",
+    "tau": "Muon-calibrated electron/muon partial rates remain -0.362612%/-0.418263% relative to PDG/HFLAV; this conversion adds no independent rate fit."
+  },
+  "identifiability": "c fixes dx/dt. With hopping length and cadence both free, it cannot identify a unique dt. dt here is fixed by the calibrated mode-energy/phase-resolution bridge.",
+  "empirical_status": "Unitary transport and representational compatibility checked; c and hbar are inputs. No new light-flight observation or independent spacetime calibration is added.",
+  "falsification": "Nonconservation, channel-dependent propagation, velocity different from c under the common rule, unrejected phase aliasing, incompatible SOURCE metric once supplied, or failure of matched refinement."
+}

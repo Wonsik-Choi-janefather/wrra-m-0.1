@@ -1,0 +1,100 @@
+{
+  "modes": [
+    0.0,
+    5.0,
+    29.0
+  ],
+  "book_q_eV": 0.00172592928,
+  "sources": {
+    "model": "MCC_3_0_Full_Book_KO_v0.12.pdf, pp. 106-107, 113, 130; Library version 2",
+    "solar": "https://arxiv.org/abs/2312.12907",
+    "dayabay": "https://arxiv.org/abs/2211.14988",
+    "pdg": "https://pdg.lbl.gov/2026/reviews/rpp2026-rev-neutrino-mixing.pdf",
+    "si": "https://www.bipm.org/en/publications/si-brochure"
+  },
+  "datasets": [
+    {
+      "name": "Solar+KamLAND 2024 / Daya Bay final 2023",
+      "solar": 7.5e-05,
+      "solar_lo": 1.8e-06,
+      "solar_hi": 1.9e-06,
+      "atm": 0.002466,
+      "atm_lo": 6e-05,
+      "atm_hi": 6e-05,
+      "s12": 0.307,
+      "s13": 0.0217479743900712,
+      "kind": "primary_published_summary_cross_check"
+    },
+    {
+      "name": "PDG2026 table14.7 ref193 without SK-ATM/IC24",
+      "solar": 7.49e-05,
+      "solar_lo": 2e-06,
+      "solar_hi": 1.9e-06,
+      "atm": 0.002459,
+      "atm_lo": 2.3e-05,
+      "atm_hi": 2.5e-05,
+      "s12": 0.307,
+      "s13": 0.02195,
+      "kind": "overlapping_global_fit_sensitivity"
+    },
+    {
+      "name": "PDG2026 table14.7 ref193 with SK-ATM/IC24",
+      "solar": 7.49e-05,
+      "solar_lo": 2e-06,
+      "solar_hi": 1.9e-06,
+      "atm": 0.002438,
+      "atm_lo": 1.9e-05,
+      "atm_hi": 2.1e-05,
+      "s12": 0.308,
+      "s13": 0.02215,
+      "kind": "overlapping_global_fit_sensitivity"
+    },
+    {
+      "name": "PDG2026 table14.7 ref194 with SK-ATM/IC24",
+      "solar": 7.37e-05,
+      "solar_lo": 1.6e-06,
+      "solar_hi": 1.5e-06,
+      "atm": 0.002458,
+      "atm_lo": 2e-05,
+      "atm_hi": 2e-05,
+      "s12": 0.303,
+      "s13": 0.0223,
+      "kind": "overlapping_global_fit_sensitivity"
+    },
+    {
+      "name": "PDG2026 table14.7 ref195 with SK-ATM",
+      "solar": 7.55e-05,
+      "solar_lo": 2e-06,
+      "solar_hi": 2.2e-06,
+      "atm": 0.00242,
+      "atm_lo": 2e-05,
+      "atm_hi": 2e-05,
+      "s12": 0.304,
+      "s13": 0.022,
+      "kind": "overlapping_global_fit_sensitivity"
+    }
+  ],
+  "SI_constants": {
+    "h_J_s": 6.62607015e-34,
+    "electronvolt_J": 1.602176634e-19,
+    "c_m_s": 299792458.0,
+    "hbar_eV_s": 6.582119569509066e-16
+  },
+  "assumptions": [
+    "normal ordering",
+    "mass-energy spectrum m_i*c^2=q*n_i",
+    "m1=0",
+    "coherent vacuum propagation",
+    "equal common momentum; pc=stated energy scale",
+    "known electron-flavour mixing inputs adopted; not derived",
+    "no matter, source spectrum, detector response or raw-event likelihood fit"
+  ],
+  "version": "0.2",
+  "calibration_policy": "one common q jointly calibrated to both summaries; preserve separate-anchor holdout checks",
+  "statistical_assumptions": [
+    "asymmetric Gaussian marginal approximation",
+    "zero cross-covariance",
+    "profile interval delta chi2=1",
+    "fixed mixing inputs"
+  ]
+}

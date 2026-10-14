@@ -1,0 +1,323 @@
+{
+  "version": "address_generated_dark_candidate_0.1",
+  "date": "2026-10-14",
+  "validation_input": "Frozen address weights/sector effects, eta, source/supply rule, conditional primordial extension, public CMB data",
+  "WRRA_transform": "address -> sector log weights -> rerouted residue payload -> finite source+supplier -> mean energy/pressure and Fourier stress -> full linear CMB execution",
+  "candidate_rule": "Existing sector-specific weight family; lambda=(0,.25,0) selected following the observed ledger-exchange diagnosis",
+  "candidate_background": {
+    "H0": 67.2568374662005,
+    "ombh2": 0.022395806792949086,
+    "omch2": 0.12037806177378184
+  },
+  "candidate_mean_load": [
+    0.050000000000000044,
+    0.27892561097674395,
+    0.6819999999999998
+  ],
+  "candidate_mean_energy_J_m3": [
+    3.780791249550004e-11,
+    2.0321854300662739e-10,
+    5.214642122421598e-10
+  ],
+  "legacy_CMB_reproduction": [
+    {
+      "branch": "weighted",
+      "chi2": 591.5703352409629,
+      "frozen_prior_chi2": 591.5703352485414,
+      "absolute_difference": 7.578478289360646e-09
+    },
+    {
+      "branch": "unweighted",
+      "chi2": 1217.7512246828783,
+      "frozen_prior_chi2": 1217.7512246819865,
+      "absolute_difference": 8.917595550883561e-10
+    }
+  ],
+  "candidate_CMB": {
+    "branch": "dark_weight_only",
+    "accuracy": 2.5,
+    "baseline_high_ell_chi2": 585.913918450675,
+    "combined_high_ell_chi2": 585.9139188511556,
+    "SOURCE_max_TT_Dl_uK2": 1.5340936272595676e-05,
+    "SOURCE_max_EE_Dl_uK2": 2.1847508790264412e-08,
+    "components": [
+      {
+        "mode": 1,
+        "component": "cosine",
+        "max_TT": 1.4461722319328234e-05,
+        "max_EE": 2.060699776261055e-08
+      },
+      {
+        "mode": 1,
+        "component": "sine",
+        "max_TT": 8.643528787757946e-07,
+        "max_EE": 1.2316461028066358e-09
+      },
+      {
+        "mode": 2,
+        "component": "cosine",
+        "max_TT": 7.444336909953888e-08,
+        "max_EE": 2.0615544077351482e-09
+      },
+      {
+        "mode": 2,
+        "component": "sine",
+        "max_TT": 1.9298556726689087e-07,
+        "max_EE": 5.344327624227398e-09
+      },
+      {
+        "mode": 3,
+        "component": "cosine",
+        "max_TT": 8.464185191766947e-09,
+        "max_EE": 2.5786628310439036e-11
+      },
+      {
+        "mode": 3,
+        "component": "sine",
+        "max_TT": 6.6059554001463824e-09,
+        "max_EE": 3.901635222708054e-10
+      },
+      {
+        "mode": 4,
+        "component": "cosine",
+        "max_TT": 6.944124082623277e-09,
+        "max_EE": 1.296547655649737e-11
+      },
+      {
+        "mode": 4,
+        "component": "sine",
+        "max_TT": 6.666707656909629e-09,
+        "max_EE": 1.7634065752107027e-11
+      },
+      {
+        "mode": 5,
+        "component": "cosine",
+        "max_TT": 4.626962361364727e-09,
+        "max_EE": 3.1048284374612226e-14
+      },
+      {
+        "mode": 5,
+        "component": "sine",
+        "max_TT": 3.3741441512275554e-11,
+        "max_EE": 3.281156965722804e-13
+      },
+      {
+        "mode": 6,
+        "component": "cosine",
+        "max_TT": 7.068671863212549e-10,
+        "max_EE": 9.731835742626183e-17
+      },
+      {
+        "mode": 6,
+        "component": "sine",
+        "max_TT": 6.95081152415631e-11,
+        "max_EE": 2.68273722161651e-15
+      },
+      {
+        "mode": 7,
+        "component": "cosine",
+        "max_TT": 8.425598015895675e-11,
+        "max_EE": 2.469262498060144e-18
+      },
+      {
+        "mode": 7,
+        "component": "sine",
+        "max_TT": 3.434994157867659e-11,
+        "max_EE": 1.695636490954627e-17
+      }
+    ],
+    "finite": true,
+    "TE_covariance_excess": 0.0
+  },
+  "candidate_SOURCE_convergence": {
+    "TT": 0.00017224153405914614,
+    "EE": 0.0007593715638342057,
+    "BB": 0.0,
+    "TE": 0.00030793367204980495
+  },
+  "zero_SOURCE_relative_restore": 1.7334023105775032e-10,
+  "direct_SI_background_relative_error": 6.661338147750939e-16,
+  "independent_momentum_integral_relative_error": 2.5869258199228324e-08,
+  "delta_D_triangle_bound_max": 0.007697248468295843,
+  "delta_baryon_triangle_bound_max": 0.0004542978724213949,
+  "real_mode_trajectories": [
+    {
+      "mode": 1,
+      "component": "cosine",
+      "delta_D_max": 6.94050506591126e-05,
+      "delta_baryon_max": 2.0790564641027428e-05,
+      "velocity_D_max": 6.077575992068608e-07,
+      "state_finite": true
+    },
+    {
+      "mode": 1,
+      "component": "sine",
+      "delta_D_max": 4.332467088616662e-05,
+      "delta_baryon_max": 2.457230938941982e-06,
+      "velocity_D_max": 5.627033718982227e-07,
+      "state_finite": true
+    },
+    {
+      "mode": 2,
+      "component": "cosine",
+      "delta_D_max": 9.766536852852189e-05,
+      "delta_baryon_max": 1.1085186311228394e-05,
+      "velocity_D_max": 5.419615931859282e-07,
+      "state_finite": true
+    },
+    {
+      "mode": 2,
+      "component": "sine",
+      "delta_D_max": 0.00014131756456992574,
+      "delta_baryon_max": 4.614528729129581e-06,
+      "velocity_D_max": 8.884953511631942e-07,
+      "state_finite": true
+    },
+    {
+      "mode": 3,
+      "component": "cosine",
+      "delta_D_max": 0.000617489110566933,
+      "delta_baryon_max": 3.667687877904076e-05,
+      "velocity_D_max": 2.424474551844483e-06,
+      "state_finite": true
+    },
+    {
+      "mode": 3,
+      "component": "sine",
+      "delta_D_max": 0.0005334930748876598,
+      "delta_baryon_max": 3.4352342570508194e-05,
+      "velocity_D_max": 2.0834983984472973e-06,
+      "state_finite": true
+    },
+    {
+      "mode": 4,
+      "component": "cosine",
+      "delta_D_max": 0.0011356800061152216,
+      "delta_baryon_max": 6.202894561097644e-05,
+      "velocity_D_max": 3.3613805659803054e-06,
+      "state_finite": true
+    },
+    {
+      "mode": 4,
+      "component": "sine",
+      "delta_D_max": 0.0011090820760472735,
+      "delta_baryon_max": 5.985408682870017e-05,
+      "velocity_D_max": 3.284928761393667e-06,
+      "state_finite": true
+    },
+    {
+      "mode": 5,
+      "component": "cosine",
+      "delta_D_max": 0.0016430266803966285,
+      "delta_baryon_max": 9.391659265198586e-05,
+      "velocity_D_max": 3.8799014676263845e-06,
+      "state_finite": true
+    },
+    {
+      "mode": 5,
+      "component": "sine",
+      "delta_D_max": 0.0001251007996181168,
+      "delta_baryon_max": 2.922717166818619e-06,
+      "velocity_D_max": 3.06062994945374e-07,
+      "state_finite": true
+    },
+    {
+      "mode": 6,
+      "component": "cosine",
+      "delta_D_max": 0.0010160264078044872,
+      "delta_baryon_max": 5.93289102012919e-05,
+      "velocity_D_max": 1.9967735744390974e-06,
+      "state_finite": true
+    },
+    {
+      "mode": 6,
+      "component": "sine",
+      "delta_D_max": 0.00031947182960406024,
+      "delta_baryon_max": 2.0771156206407382e-05,
+      "velocity_D_max": 6.234106309616373e-07,
+      "state_finite": true
+    },
+    {
+      "mode": 7,
+      "component": "cosine",
+      "delta_D_max": 0.0005159834319174635,
+      "delta_baryon_max": 3.0295134127417042e-05,
+      "velocity_D_max": 8.688888858915873e-07,
+      "state_finite": true
+    },
+    {
+      "mode": 7,
+      "component": "sine",
+      "delta_D_max": 0.00033018239669427307,
+      "delta_baryon_max": 2.0145862993641857e-05,
+      "velocity_D_max": 5.546434477698077e-07,
+      "state_finite": true
+    }
+  ],
+  "previous_exchange_baseline_chi2": 585.9139184472003,
+  "address_generated_vs_exchange_chi2_difference": 3.4747245081234723e-09,
+  "prior_SOURCE_coefficient_errors_J_m3": {
+    "weighted": 3.851859888774472e-34,
+    "unweighted": 0.0
+  },
+  "checks": {
+    "unweighted_address_route": true,
+    "unweighted_mean_direct_load": true,
+    "unweighted_frame_energy_pressure": true,
+    "unweighted_no_zero_mode_added": true,
+    "unweighted_probability_positive": true,
+    "unweighted_slot_split": true,
+    "unweighted_all_positive_density": true,
+    "unweighted_previous_energy_ledger": true,
+    "weighted_address_route": true,
+    "weighted_mean_direct_load": true,
+    "weighted_frame_energy_pressure": true,
+    "weighted_no_zero_mode_added": true,
+    "weighted_probability_positive": true,
+    "weighted_slot_split": true,
+    "weighted_all_positive_density": true,
+    "weighted_previous_energy_ledger": true,
+    "dark_weight_only_address_route": true,
+    "dark_weight_only_mean_direct_load": true,
+    "dark_weight_only_frame_energy_pressure": true,
+    "dark_weight_only_no_zero_mode_added": true,
+    "dark_weight_only_probability_positive": true,
+    "dark_weight_only_slot_split": true,
+    "dark_weight_only_all_positive_density": true,
+    "frame_permutation_unitary": true,
+    "source_supply_Hamiltonian_commutes": true,
+    "uniform_resource_mean_identity": true,
+    "candidate_dark_marginal_reproduces_weighted": true,
+    "candidate_vacuum_marginal_reproduces_unweighted": true,
+    "candidate_zero_SOURCE_restore": true,
+    "candidate_SOURCE_convergence": true,
+    "candidate_SOURCE_TE_covariance": true,
+    "candidate_SOURCE_auto_spectra_nonnegative": true,
+    "candidate_SI_background_from_address_ledger": true,
+    "candidate_independent_momentum_integral": true,
+    "candidate_linear_regime": true,
+    "candidate_all_14_real_trajectories_finite": true,
+    "weighted_CMB_from_addresses_reproduces_prior": true,
+    "unweighted_CMB_from_addresses_reproduces_prior": true,
+    "candidate_reproduces_exchange_diagnostic": true,
+    "weighted_prior_SOURCE_coefficients": true,
+    "unweighted_prior_SOURCE_coefficients": true
+  },
+  "all_checks_pass": true,
+  "conclusion": "The previous dark-ledger exchange is realized by an explicit member of the existing address-weight family, with fresh slot allocation and counted supply. It is no longer only a downstream density swap.",
+  "completed": "Address-weight -> conserved mean/source ledger -> internally executed conditional CMB candidate",
+  "still_open": [
+    "Physical interpretation and applicability of the calibrated weight choice",
+    "Derivation of primordial preparation from upstream execution",
+    "SOURCE-specific lensing and full Planck likelihood"
+  ],
+  "parameter_optimizer": false,
+  "post_readout_density_swap": false,
+  "refutation_conditions": [
+    "Address sum differs from routed mean or Fourier stress",
+    "Finite source/supply balance fails",
+    "Zero-source or resolution tests fail",
+    "Declared linear regime fails",
+    "Agreed completed observational evaluation disagrees"
+  ]
+}

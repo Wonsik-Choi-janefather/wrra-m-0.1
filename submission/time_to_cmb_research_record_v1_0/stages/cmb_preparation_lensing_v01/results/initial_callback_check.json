@@ -1,0 +1,73 @@
+{
+  "rows": [
+    {
+      "mode": 1,
+      "tau_Mpc": 0.02,
+      "D_density_relative_error": 2.3917458791267165e-08,
+      "photon_density_relative_error": 1.5922900775677817e-09,
+      "entropy_identity_error_native_float_output": 2.391607267782092e-08,
+      "vacuum_contrast_error": 0.0,
+      "regular_velocity_relative_error": 2.220446049250313e-16
+    },
+    {
+      "mode": 2,
+      "tau_Mpc": 0.01,
+      "D_density_relative_error": 1.1101073171815301e-08,
+      "photon_density_relative_error": 1.816191463888117e-08,
+      "entropy_identity_error_native_float_output": 1.1101292329840362e-08,
+      "vacuum_contrast_error": 0.0,
+      "regular_velocity_relative_error": 0.0
+    },
+    {
+      "mode": 3,
+      "tau_Mpc": 0.006666666666666666,
+      "D_density_relative_error": 1.2658493142581051e-08,
+      "photon_density_relative_error": 5.612786679876081e-09,
+      "entropy_identity_error_native_float_output": 1.2658347259275615e-08,
+      "vacuum_contrast_error": 0.0,
+      "regular_velocity_relative_error": 0.0
+    },
+    {
+      "mode": 4,
+      "tau_Mpc": 0.005,
+      "D_density_relative_error": 2.4466652481791584e-08,
+      "photon_density_relative_error": 2.6446383638578652e-08,
+      "entropy_identity_error_native_float_output": 2.4465862225042656e-08,
+      "vacuum_contrast_error": 0.0,
+      "regular_velocity_relative_error": 2.220446049250313e-16
+    },
+    {
+      "mode": 5,
+      "tau_Mpc": 0.004,
+      "D_density_relative_error": 1.9607552026457142e-08,
+      "photon_density_relative_error": 2.659114706204946e-09,
+      "entropy_identity_error_native_float_output": 1.9607341528171673e-08,
+      "vacuum_contrast_error": 0.0,
+      "regular_velocity_relative_error": 0.0
+    },
+    {
+      "mode": 6,
+      "tau_Mpc": 0.003333333333333333,
+      "D_density_relative_error": 2.3378197822054858e-08,
+      "photon_density_relative_error": 2.938705057076163e-08,
+      "entropy_identity_error_native_float_output": 2.3377651814371347e-08,
+      "vacuum_contrast_error": 0.0,
+      "regular_velocity_relative_error": 0.0
+    },
+    {
+      "mode": 7,
+      "tau_Mpc": 0.002857142857142857,
+      "D_density_relative_error": 1.1511737452174486e-08,
+      "photon_density_relative_error": 3.313580743125044e-08,
+      "entropy_identity_error_native_float_output": 1.1511929187690839e-08,
+      "vacuum_contrast_error": 0.0,
+      "regular_velocity_relative_error": 0.0
+    }
+  ],
+  "precision_note": "Named density transfer outputs use native float32; extra SOURCE fields are double precision.",
+  "max_dark_density_relative_error": 2.4466652481791584e-08,
+  "max_photon_density_relative_error": 3.313580743125044e-08,
+  "max_density_relative_error": 3.313580743125044e-08,
+  "max_velocity_relative_error": 2.220446049250313e-16,
+  "passed": true
+}

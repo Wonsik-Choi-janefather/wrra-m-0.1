@@ -1,0 +1,92 @@
+{
+  "me_MeV": {
+    "value": 0.51099895069,
+    "sigma": 1.6e-10,
+    "source": "NIST CODATA 2022 all constants"
+  },
+  "mmu_MeV": {
+    "value": 105.6583755,
+    "sigma": 2.3e-06,
+    "source": "PDG 2026 muon listing"
+  },
+  "mtau_MeV": {
+    "value": 1776.93,
+    "sigma": 0.09,
+    "source": "PDG 2026 tau listing"
+  },
+  "tmu_s": {
+    "value": 2.1969811e-06,
+    "sigma": 2.2e-12,
+    "source": "PDG 2026 muon listing"
+  },
+  "ttau_s": {
+    "value": 2.903e-13,
+    "sigma": 5e-16,
+    "source": "PDG 2026 tau listing"
+  },
+  "mW_MeV": {
+    "value": 80362.5,
+    "sigma": 7.7,
+    "source": "PDG 2026 W listing, evaluation excluding incompatible CDF measurement"
+  },
+  "h_J_s": 6.62607015e-34,
+  "e_J_per_eV": 1.602176634e-19,
+  "branching_datasets": {
+    "PDG2026_HFLAV": {
+      "values": [
+        0.1785,
+        0.1737
+      ],
+      "sigmas": [
+        0.0004,
+        0.0004
+      ],
+      "rho_e_mu": null,
+      "note": "Current fitted summaries. Covariance not imported; report individual channels only, no joint significance."
+    },
+    "PDG2026_direct_averages": {
+      "values": [
+        0.1782,
+        0.1733
+      ],
+      "sigmas": [
+        0.0005,
+        0.0005
+      ],
+      "rho_e_mu": null
+    },
+    "ALEPH_SCHAEL2005": {
+      "values": [
+        0.17837,
+        0.17319
+      ],
+      "sigmas": [
+        0.0008049844718999242,
+        0.0007696752561957544
+      ],
+      "rho_e_mu": -0.2,
+      "note": "Stat/systematic uncertainties added in quadrature; published branch correlation."
+    },
+    "L3_ACCIARRI2001": {
+      "values": [
+        0.17806,
+        0.17342
+      ],
+      "sigmas": [
+        0.0012880993750483693,
+        0.001287982919141399
+      ],
+      "rho_e_mu": 0.08,
+      "note": "Stat/systematic uncertainties added in quadrature; published branch correlation."
+    }
+  },
+  "sources": {
+    "muon": "https://pdg.lbl.gov/2026/listings/rpp2026-list-muon.pdf",
+    "tau": "https://pdg.lbl.gov/2026/listings/rpp2026-list-tau.pdf",
+    "W": "https://pdg.lbl.gov/2026/listings/rpp2026-list-w-boson.pdf",
+    "tau_fit": "https://pdg.lbl.gov/2026/reviews/rpp2026-rev-tau-branching-fractions.pdf",
+    "rate_formula": "https://arxiv.org/abs/1310.7922, Pich, Precision Tau Physics, equations (2)-(4)",
+    "constants": "https://physics.nist.gov/cuu/pdf/all.pdf"
+  },
+  "retrieval_date": "2026-10-14"
+}

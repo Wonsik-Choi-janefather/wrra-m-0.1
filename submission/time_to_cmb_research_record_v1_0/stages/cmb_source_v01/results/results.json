@@ -1,0 +1,526 @@
+{
+  "version": "CMB SOURCE response 0.1",
+  "date": "2026-10-14",
+  "cases": [
+    {
+      "branch": "weighted",
+      "accuracy": 2.5,
+      "force": 1,
+      "maximum_SOURCE_TT_Dl_uK2": 1.5393463050684445e-05,
+      "maximum_SOURCE_EE_Dl_uK2": 2.176118114157541e-08,
+      "maximum_abs_SOURCE_TE_Dl_uK2": 5.729581147226423e-07,
+      "maximum_fractional_TT": 8.473290655510667e-09,
+      "maximum_fractional_EE": 5.770841361342261e-10,
+      "SOURCE_TE_covariance_excess": -5.36857079049242e-15,
+      "baseline": {
+        "TT": {
+          "RMS_public_bin_sigma": 1.067625694414807,
+          "diagonal_Q": 94.60544374010003,
+          "n": 83
+        },
+        "TE": {
+          "RMS_public_bin_sigma": 1.100904220152653,
+          "diagonal_Q": 79.99134672869482,
+          "n": 66
+        },
+        "EE": {
+          "RMS_public_bin_sigma": 1.0788161256311875,
+          "diagonal_Q": 76.81371937284449,
+          "n": 66
+        },
+        "all": {
+          "RMS_public_bin_sigma": 1.0813654371052204,
+          "diagonal_Q": 251.4105098416393,
+          "n": 215
+        }
+      },
+      "baseline_plus_SOURCE": {
+        "TT": {
+          "RMS_public_bin_sigma": 1.067625692108682,
+          "diagonal_Q": 94.60544333139502,
+          "n": 83
+        },
+        "TE": {
+          "RMS_public_bin_sigma": 1.1009042190072167,
+          "diagonal_Q": 79.99134656224072,
+          "n": 66
+        },
+        "EE": {
+          "RMS_public_bin_sigma": 1.0788161255462152,
+          "diagonal_Q": 76.81371936074412,
+          "n": 66
+        },
+        "all": {
+          "RMS_public_bin_sigma": 1.0813654358422617,
+          "diagonal_Q": 251.4105092543798,
+          "n": 215
+        }
+      },
+      "components": [
+        {
+          "mode": 1,
+          "component": "cosine",
+          "S_D": -1.4741924693185802e-08,
+          "delta_R": -3.9000918143567945e-09,
+          "max_TT_Dl_uK2": 1.4506280614869787e-05,
+          "max_EE_Dl_uK2": 2.0530714941952795e-08
+        },
+        {
+          "mode": 1,
+          "component": "sine",
+          "S_D": -3.6040415406299792e-09,
+          "delta_R": 3.6616950314149833e-09,
+          "max_TT_Dl_uK2": 8.670160691440876e-07,
+          "max_EE_Dl_uK2": 1.2270868062743293e-09
+        },
+        {
+          "mode": 2,
+          "component": "cosine",
+          "S_D": 3.4400340505786126e-09,
+          "delta_R": 1.7781256932058288e-09,
+          "max_TT_Dl_uK2": 7.432980020754036e-08,
+          "max_EE_Dl_uK2": 2.0653934100193404e-09
+        },
+        {
+          "mode": 2,
+          "component": "sine",
+          "S_D": 5.538751519361751e-09,
+          "delta_R": -2.895986430764696e-09,
+          "max_TT_Dl_uK2": 1.9269114370496258e-07,
+          "max_EE_Dl_uK2": 5.354279768314081e-09
+        },
+        {
+          "mode": 3,
+          "component": "cosine",
+          "S_D": -4.964283478715924e-10,
+          "delta_R": -5.2573813398107895e-09,
+          "max_TT_Dl_uK2": 8.483151075974606e-09,
+          "max_EE_Dl_uK2": 2.5786947053101678e-11
+        },
+        {
+          "mode": 3,
+          "component": "sine",
+          "S_D": -1.9310017146634197e-09,
+          "delta_R": -4.521596008296488e-09,
+          "max_TT_Dl_uK2": 6.638297858207472e-09,
+          "max_EE_Dl_uK2": 3.901683466801436e-10
+        },
+        {
+          "mode": 4,
+          "component": "cosine",
+          "S_D": -2.0136455247670798e-09,
+          "delta_R": 5.467333955031299e-09,
+          "max_TT_Dl_uK2": 6.961625705897346e-09,
+          "max_EE_Dl_uK2": 1.2912417285612399e-11
+        },
+        {
+          "mode": 4,
+          "component": "sine",
+          "S_D": -2.3483617964714387e-09,
+          "delta_R": 5.347887585937306e-09,
+          "max_TT_Dl_uK2": 6.695432318000684e-09,
+          "max_EE_Dl_uK2": 1.756190096760884e-11
+        },
+        {
+          "mode": 5,
+          "component": "cosine",
+          "S_D": 6.750542702157488e-10,
+          "delta_R": -5.051600326269578e-09,
+          "max_TT_Dl_uK2": 4.644840982184299e-09,
+          "max_EE_Dl_uK2": 3.391910365120089e-14
+        },
+        {
+          "mode": 5,
+          "component": "sine",
+          "S_D": 2.1944888521780695e-09,
+          "delta_R": -3.965161806229232e-10,
+          "max_TT_Dl_uK2": 3.356174848778167e-11,
+          "max_EE_Dl_uK2": 3.5845424025105184e-13
+        },
+        {
+          "mode": 6,
+          "component": "cosine",
+          "S_D": 2.1074212801588544e-10,
+          "delta_R": 2.166432151090864e-09,
+          "max_TT_Dl_uK2": 7.095062200969426e-10,
+          "max_EE_Dl_uK2": 9.910208567711917e-17
+        },
+        {
+          "mode": 6,
+          "component": "sine",
+          "S_D": -1.1070158681977577e-09,
+          "delta_R": -6.740319050579152e-10,
+          "max_TT_Dl_uK2": 6.928364137730423e-11,
+          "max_EE_Dl_uK2": 2.737171981946447e-15
+        },
+        {
+          "mode": 7,
+          "component": "cosine",
+          "S_D": -1.8415497306914754e-10,
+          "delta_R": -8.078372573087707e-10,
+          "max_TT_Dl_uK2": 8.452466700608232e-11,
+          "max_EE_Dl_uK2": 2.5928760325250788e-18
+        },
+        {
+          "mode": 7,
+          "component": "sine",
+          "S_D": 4.83234540011241e-10,
+          "delta_R": 5.170119126556165e-10,
+          "max_TT_Dl_uK2": 3.463728548752914e-11,
+          "max_EE_Dl_uK2": 1.781618475692247e-17
+        }
+      ],
+      "fixed_background_parameters": {
+        "H0_derived_km_s_Mpc": 67.44991813234087,
+        "ombh2": 0.022395806792949103,
+        "omch2": 0.12037806177378184,
+        "u_P_D_R_today_J_m3": [
+          3.780791249550006e-11,
+          2.0321854300662739e-10,
+          5.258550172588166e-10
+        ]
+      },
+      "native_plik_lite_baseline": {
+        "chi2_highell": 591.5703352485414,
+        "logL_up_to_constant": -295.7851676242707,
+        "A_planck_fixed": 1,
+        "bin_count": 613,
+        "TT_bin_count": 215,
+        "TE_bin_count": 199,
+        "EE_bin_count": 199,
+        "method": "Native Gaussian Plik-lite TTTEEE, full released covariance and bin weights; fixed calibration",
+        "official_clik_executable_used": false,
+        "lowell_or_lensing_likelihood_included": false
+      },
+      "native_plik_lite_plus_SOURCE": {
+        "chi2_highell": 591.5703358012249,
+        "logL_up_to_constant": -295.78516790061246,
+        "A_planck_fixed": 1,
+        "bin_count": 613,
+        "TT_bin_count": 215,
+        "TE_bin_count": 199,
+        "EE_bin_count": 199,
+        "method": "Native Gaussian Plik-lite TTTEEE, full released covariance and bin weights; fixed calibration",
+        "official_clik_executable_used": false,
+        "lowell_or_lensing_likelihood_included": false
+      },
+      "SOURCE_delta_chi2": 5.526835593627766e-07
+    },
+    {
+      "branch": "unweighted",
+      "accuracy": 2.5,
+      "force": 1,
+      "maximum_SOURCE_TT_Dl_uK2": 1.4694894001972151e-05,
+      "maximum_SOURCE_EE_Dl_uK2": 1.0586961623219364e-08,
+      "maximum_abs_SOURCE_TE_Dl_uK2": 3.863116938539243e-07,
+      "maximum_fractional_TT": 7.984428626638322e-09,
+      "maximum_fractional_EE": 5.185054394749135e-10,
+      "SOURCE_TE_covariance_excess": -5.839571604409308e-15,
+      "baseline": {
+        "TT": {
+          "RMS_public_bin_sigma": 2.400440388770126,
+          "diagonal_Q": 478.25546698322654,
+          "n": 83
+        },
+        "TE": {
+          "RMS_public_bin_sigma": 2.0505121322187323,
+          "diagonal_Q": 277.50360028883,
+          "n": 66
+        },
+        "EE": {
+          "RMS_public_bin_sigma": 1.3188237650487014,
+          "diagonal_Q": 114.79354413497731,
+          "n": 66
+        },
+        "all": {
+          "RMS_public_bin_sigma": 2.0122330664018735,
+          "diagonal_Q": 870.5526114070337,
+          "n": 215
+        }
+      },
+      "baseline_plus_SOURCE": {
+        "TT": {
+          "RMS_public_bin_sigma": 2.4004403965230106,
+          "diagonal_Q": 478.2554700725425,
+          "n": 83
+        },
+        "TE": {
+          "RMS_public_bin_sigma": 2.050512131757583,
+          "diagonal_Q": 277.50360016401174,
+          "n": 66
+        },
+        "EE": {
+          "RMS_public_bin_sigma": 1.3188237650533194,
+          "diagonal_Q": 114.79354413578123,
+          "n": 66
+        },
+        "all": {
+          "RMS_public_bin_sigma": 2.012233069828937,
+          "diagonal_Q": 870.5526143723355,
+          "n": 215
+        }
+      },
+      "components": [
+        {
+          "mode": 1,
+          "component": "cosine",
+          "S_D": -1.4768478908283114e-08,
+          "delta_R": -3.969415628985697e-09,
+          "max_TT_Dl_uK2": 1.3816509485317361e-05,
+          "max_EE_Dl_uK2": 9.972292851800284e-09
+        },
+        {
+          "mode": 1,
+          "component": "sine",
+          "S_D": -3.6657517202576944e-09,
+          "delta_R": 3.6751552951549526e-09,
+          "max_TT_Dl_uK2": 8.512414500081766e-07,
+          "max_EE_Dl_uK2": 6.143977314333961e-10
+        },
+        {
+          "mode": 2,
+          "component": "cosine",
+          "S_D": 3.4398868892391744e-09,
+          "delta_R": 1.7698427967907529e-09,
+          "max_TT_Dl_uK2": 6.287084354651905e-08,
+          "max_EE_Dl_uK2": 2.789298561807944e-09
+        },
+        {
+          "mode": 2,
+          "component": "sine",
+          "S_D": 5.632657827328517e-09,
+          "delta_R": -2.901491760687887e-09,
+          "max_TT_Dl_uK2": 1.6857308467692165e-07,
+          "max_EE_Dl_uK2": 7.47882566797073e-09
+        },
+        {
+          "mode": 3,
+          "component": "cosine",
+          "S_D": -4.67673844350906e-10,
+          "delta_R": -5.278281555414427e-09,
+          "max_TT_Dl_uK2": 8.657358954802879e-09,
+          "max_EE_Dl_uK2": 2.386075772047123e-11
+        },
+        {
+          "mode": 3,
+          "component": "sine",
+          "S_D": -1.968715500579765e-09,
+          "delta_R": -4.535948277491051e-09,
+          "max_TT_Dl_uK2": 6.742179938580198e-09,
+          "max_EE_Dl_uK2": 4.2282817328883955e-10
+        },
+        {
+          "mode": 4,
+          "component": "cosine",
+          "S_D": -2.0436487884692525e-09,
+          "delta_R": 5.488502558825911e-09,
+          "max_TT_Dl_uK2": 7.101416588251844e-09,
+          "max_EE_Dl_uK2": 1.0377195580861038e-11
+        },
+        {
+          "mode": 4,
+          "component": "sine",
+          "S_D": -2.3780339551941594e-09,
+          "delta_R": 5.363671134099015e-09,
+          "max_TT_Dl_uK2": 6.8150240860295535e-09,
+          "max_EE_Dl_uK2": 1.4050881830313479e-11
+        },
+        {
+          "mode": 5,
+          "component": "cosine",
+          "S_D": 6.810476029912651e-10,
+          "delta_R": -5.068119771638999e-09,
+          "max_TT_Dl_uK2": 4.738379984955939e-09,
+          "max_EE_Dl_uK2": 2.4296727872213183e-14
+        },
+        {
+          "mode": 5,
+          "component": "sine",
+          "S_D": 2.2235763163606614e-09,
+          "delta_R": -3.9979466720804524e-10,
+          "max_TT_Dl_uK2": 3.4151463017058614e-11,
+          "max_EE_Dl_uK2": 2.58998323408576e-13
+        },
+        {
+          "mode": 6,
+          "component": "cosine",
+          "S_D": 2.1830137945630019e-10,
+          "delta_R": 2.173570582599558e-09,
+          "max_TT_Dl_uK2": 7.240852808229901e-10,
+          "max_EE_Dl_uK2": 7.879853992006093e-17
+        },
+        {
+          "mode": 6,
+          "component": "sine",
+          "S_D": -1.1204135055860472e-09,
+          "delta_R": -6.786082436606151e-10,
+          "max_TT_Dl_uK2": 7.115088925313834e-11,
+          "max_EE_Dl_uK2": 2.0731289408015245e-15
+        },
+        {
+          "mode": 7,
+          "component": "cosine",
+          "S_D": -1.8888370746883814e-10,
+          "delta_R": -8.107041190696163e-10,
+          "max_TT_Dl_uK2": 8.630894822300379e-11,
+          "max_EE_Dl_uK2": 1.867749341422088e-18
+        },
+        {
+          "mode": 7,
+          "component": "sine",
+          "S_D": 4.890454056899375e-10,
+          "delta_R": 5.175019902119685e-10,
+          "max_TT_Dl_uK2": 3.5181805169475307e-11,
+          "max_EE_Dl_uK2": 1.2514499759703025e-17
+        }
+      ],
+      "fixed_background_parameters": {
+        "H0_derived_km_s_Mpc": 66.90537863314884,
+        "ombh2": 0.022395806792949134,
+        "omch2": 0.11566281218279162,
+        "u_P_D_R_today_J_m3": [
+          3.7807912495500115e-11,
+          1.9525840361184e-10,
+          5.214642122421599e-10
+        ]
+      },
+      "native_plik_lite_baseline": {
+        "chi2_highell": 1217.7512246819865,
+        "logL_up_to_constant": -608.8756123409933,
+        "A_planck_fixed": 1,
+        "bin_count": 613,
+        "TT_bin_count": 215,
+        "TE_bin_count": 199,
+        "EE_bin_count": 199,
+        "method": "Native Gaussian Plik-lite TTTEEE, full released covariance and bin weights; fixed calibration",
+        "official_clik_executable_used": false,
+        "lowell_or_lensing_likelihood_included": false
+      },
+      "native_plik_lite_plus_SOURCE": {
+        "chi2_highell": 1217.7512273364457,
+        "logL_up_to_constant": -608.8756136682229,
+        "A_planck_fixed": 1,
+        "bin_count": 613,
+        "TT_bin_count": 215,
+        "TE_bin_count": 199,
+        "EE_bin_count": 199,
+        "method": "Native Gaussian Plik-lite TTTEEE, full released covariance and bin weights; fixed calibration",
+        "official_clik_executable_used": false,
+        "lowell_or_lensing_likelihood_included": false
+      },
+      "SOURCE_delta_chi2": 2.654459194673109e-06
+    }
+  ],
+  "regression": {
+    "weighted": {
+      "zero_max_relative_TT_EE": 1.2522494152733543e-10,
+      "archive_max_relative_TT_EE": 2.1394441773736617e-11
+    },
+    "unweighted": {
+      "zero_max_relative_TT_EE": 9.071055018239349e-11,
+      "archive_max_relative_TT_EE": 1.6823897830420265e-10
+    }
+  },
+  "SOURCE_spectrum_relative_convergence": {
+    "weighted": {
+      "TT": 0.00017483858035104578,
+      "EE": 0.0007606273552908892,
+      "BB": 0.0,
+      "TE": 0.00030885134739928074
+    },
+    "unweighted": {
+      "TT": 0.00016574377923517006,
+      "EE": 0.0010865933537156005,
+      "BB": 0.0,
+      "TE": 0.000495048991666385
+    }
+  },
+  "baseline_precision": {
+    "weighted": {
+      "low_chi2": 591.7154158367262,
+      "high_chi2": 591.5703352485414,
+      "high_minus_low_chi2": -0.14508058818478275
+    },
+    "unweighted": {
+      "low_chi2": 1217.9979832579895,
+      "high_chi2": 1217.7512246819865,
+      "high_minus_low_chi2": -0.24675857600300333
+    }
+  },
+  "earlier_start_transfer_convergence": {
+    "T": 2.294327562875285e-05,
+    "E": 4.616130199025641e-05
+  },
+  "evolution_audit": [
+    {
+      "branch": "weighted",
+      "force_multiplier": 1,
+      "vacuum_contrast_drift": 0.0,
+      "dark_total_momentum_relative_residual": 3.428120160505025e-16,
+      "independent_integrating_factor_relative_error": 2.6120700478562865e-08,
+      "density_spline_derivative_relative_error": 3.6669939241830017e-06,
+      "max_all_components_triangle_bound_delta_D": 0.0077083673127910065,
+      "max_all_components_triangle_bound_delta_baryon": 0.0004543591207995724,
+      "linear_gate_0_1_pass": true
+    },
+    {
+      "branch": "unweighted",
+      "force_multiplier": 1,
+      "vacuum_contrast_drift": 0.0,
+      "dark_total_momentum_relative_residual": 3.457895621533437e-16,
+      "independent_integrating_factor_relative_error": 2.7003406982385474e-08,
+      "density_spline_derivative_relative_error": 2.8119936351010093e-06,
+      "max_all_components_triangle_bound_delta_D": 0.008165709919213438,
+      "max_all_components_triangle_bound_delta_baryon": 0.0004746937841785647,
+      "linear_gate_0_1_pass": true
+    },
+    {
+      "branch": "weighted",
+      "force_multiplier": 0,
+      "vacuum_contrast_drift": 0.0,
+      "dark_total_momentum_relative_residual": 1.0,
+      "independent_integrating_factor_relative_error": 1.0,
+      "density_spline_derivative_relative_error": 4.799282779380264e-06
+    }
+  ],
+  "checks": {
+    "weighted_SOURCE_zero_restores_baseline": true,
+    "weighted_archived_baseline_reproduced": true,
+    "weighted_SOURCE_spectrum_convergence": true,
+    "weighted_auto_spectra_nonnegative": true,
+    "weighted_TE_covariance": true,
+    "unweighted_SOURCE_zero_restores_baseline": true,
+    "unweighted_archived_baseline_reproduced": true,
+    "unweighted_SOURCE_spectrum_convergence": true,
+    "unweighted_auto_spectra_nonnegative": true,
+    "unweighted_TE_covariance": true,
+    "tenfold_earlier_start_convergence": true,
+    "weighted_independent_momentum_integral": true,
+    "weighted_linear_regime": true,
+    "weighted_vacuum_time_independent": true,
+    "unweighted_independent_momentum_integral": true,
+    "unweighted_linear_regime": true,
+    "unweighted_vacuum_time_independent": true,
+    "omitted_vacuum_force_negative_control_fails": true
+  },
+  "all_numerical_checks_pass": true,
+  "input": "Frozen finite SOURCE/supply harmonic vectors and weighted/unweighted background ledger",
+  "transformation": "Residue kernel -> addressed supply probability -> conserved dark/vacuum stress -> patched CAMB photon/neutrino evolution -> exact seven-k transfer -> phase/orientation averaged TT/TE/EE",
+  "additional_conditions": [
+    "Radiation-era extension: frozen delta_u_D0/u_D0 interpreted as the regular CDM-isocurvature entropy amplitude, not an inverse solution of the old a=.02 initial data.",
+    "delta_R=delta_u_R/u_R0 is time independent; regular forced dark velocity; higher-order vacuum initial metric corrections negligible at tested start times.",
+    "Uniform global spatial phase and uniform orientation define the angular ensemble; D/R covariance at each harmonic retained.",
+    "SOURCE ensemble independent of inherited standard adiabatic perturbations; no cross term.",
+    "Existing macro anchor k1=.05 Mpc^-1 and epsilon=1e-8 retained; no new fit.",
+    "SOURCE angular spectra are linear and unlensed; adding them to a standard lensed baseline is a stated first-order diagnostic, not a completed new SOURCE lensing model.",
+    "Native high-ell Plik-lite Gaussian covariance likelihood with A_planck=1; no low-ell or lensing likelihood and no official clik executable."
+  ],
+  "scope": "Conditional CMB consistency test of a conserved, early-extended SOURCE candidate. Good baseline agreement does not identify the very small extra SOURCE contribution.",
+  "refutation_conditions": [
+    "Same fixed SOURCE map fails energy/momentum conservation or leaves the declared linear regime.",
+    "Zero-source limit fails baseline restoration; start-time or resolution tests fail.",
+    "A frozen branch disagrees with the data under agreed likelihood and completed modeling assumptions.",
+    "A required primordial preparation, phase covariance or lensing completion cannot be realized internally."
+  ],
+  "no_new_parameter_optimizer": true
+}

@@ -1,0 +1,5 @@
+Copyright (C) 2026 Wonsik Choi and Jeongin Choi.
+Original consolidated report and original new materials: Creative Commons Attribution 4.0 International.
+https://creativecommons.org/licenses/by/4.0/legalcode
+Third-party and prior materials retain their original authorship and applicable licenses.
+See individual stage licenses and CAMB_LICENSE.txt / COBAYA_LICENSE.txt.

@@ -1,0 +1,33 @@
+{
+  "version": "0.2",
+  "date": "2026-10-14",
+  "c_m_s": 299792458,
+  "dt_s": 1.481301966415863e-21,
+  "eta_J_m3": [
+    7.5615824991e-10,
+    7.2857613288e-10,
+    7.6461028188e-10
+  ],
+  "macro_anchor_k_Mpc_inv": 0.05,
+  "Mpc_m": 3.085677581e+22,
+  "h_J_s": 6.62607015e-34,
+  "e_J_per_eV": 1.602176634e-19,
+  "address_index_shape": [
+    500,
+    29,
+    70
+  ],
+  "input_sha256": {
+    "inputs/archived_profile.npz": "1aa16e3b048b3d54457924584d79793fc6cd28cee5f1880cf337e3ff35e1f602",
+    "inputs/addresses.npz": "13c444f1d5fb57ef7f9f0c8eed5a44730dc40024739c062a6d6cb263c32ebf62",
+    "inputs/original_positive_readout.py": "7cae13f1677dcf09c64335f3f4102a0b0f9af42d3ad4ac3ba67c10d249e21dd8",
+    "inputs/original_single_mode.py": "b886c6b185fc35dc2e17392ffb7722285609d7f4c67f3d5e9a41de132e6d3a87"
+  },
+  "upstream_positive_readout_library_id": "libfile_568f8d440df88191b1f65c5d713631ac",
+  "finite_frame_archive_library_id": "libfile_f410b378670881919829ebff25242f99",
+  "upstream_DOI": "10.5281/zenodo.23329214",
+  "local_spatial_rule_origin": "Original v0.15 residue transmission kernels (primes 2,3,5), not a newly fitted replacement.",
+  "physical_extension": "Two tests: direct eta*S density substitution as a negative control; addressed p_r=.5+existing epsilon*(K_r-1), then the inherited exact finite source/supply Hamiltonian energy response as the typed map.",
+  "3D_rule_status": "Adopted massless spectral Hamiltonian on calibrated finite geometry; no strict microscopic causal support proof.",
+  "inherited_supply_epsilon": 1e-08
+}

@@ -1,0 +1,183 @@
+{
+  "degeneracy_audit": {
+    "analytic_null_direction": "d log G=+a; d log(q^2)=d log A=d log L=-a",
+    "parameters": 4,
+    "identifiable_combinations": 3,
+    "clock_identifiable_with_all_energy_scales_free": false,
+    "profiles": [
+      {
+        "G": 0.5,
+        "q_eV": 0.002454136824839209,
+        "A_Hz": 6576101893264187.0,
+        "L_Hz": 15752475660.834295,
+        "nu_max_relative_change": 0.0,
+        "H_max_relative_change": 0.0
+      },
+      {
+        "G": 0.75,
+        "q_eV": 0.00200379432661004,
+        "A_Hz": 4384067928842791.5,
+        "L_Hz": 10501650440.556196,
+        "nu_max_relative_change": 0.0,
+        "H_max_relative_change": 2.220446049250313e-16
+      },
+      {
+        "G": 1.0,
+        "q_eV": 0.0017353367908034272,
+        "A_Hz": 3288050946632093.5,
+        "L_Hz": 7876237830.417148,
+        "nu_max_relative_change": 0.0,
+        "H_max_relative_change": 0.0
+      },
+      {
+        "G": 1.25,
+        "q_eV": 0.0015521324112371178,
+        "A_Hz": 2630440757305675.0,
+        "L_Hz": 6300990264.333718,
+        "nu_max_relative_change": 2.220446049250313e-16,
+        "H_max_relative_change": 2.220446049250313e-16
+      },
+      {
+        "G": 1.5,
+        "q_eV": 0.001416896556449091,
+        "A_Hz": 2192033964421395.8,
+        "L_Hz": 5250825220.278098,
+        "nu_max_relative_change": 2.220446049250313e-16,
+        "H_max_relative_change": 2.220446049250313e-16
+      },
+      {
+        "G": 2.0,
+        "q_eV": 0.0012270684124196045,
+        "A_Hz": 1644025473316046.8,
+        "L_Hz": 3938118915.208574,
+        "nu_max_relative_change": 0.0,
+        "H_max_relative_change": 0.0
+      }
+    ]
+  },
+  "models": [
+    {
+      "model": "Dirac + common S residual",
+      "include_leading_self_energy": false,
+      "G_common_phase_rate": 0.9999999133520625,
+      "L_residual_Hz": 7876237825.225419,
+      "G_conditional_sigma_from_summaries": 1.2453951657401411e-11,
+      "transfer_neutrino_predictions_eV2": [
+        7.4470790536292e-05,
+        0.0024307266031045704
+      ],
+      "joint_neutrino_predictions_eV2": [
+        7.4470790536292e-05,
+        0.0024307266031045704
+      ],
+      "neutrino_reference_eV2": [
+        7.5e-05,
+        0.002466
+      ],
+      "neutrino_relative_error_percent": [
+        -0.7056126182773292,
+        -1.4303891685088943
+      ],
+      "neutrino_marginal_residual_sigmas": [
+        -0.2940052576155538,
+        -0.5878899482571573
+      ],
+      "neutrino_both_within_marginal_1sigma": true,
+      "hydrogen_predictions_Hz": [
+        2466061413187035.0,
+        2922743278671500.0,
+        770649553690564.2
+      ],
+      "hydrogen_residuals_Hz": [
+        0.0,
+        0.0,
+        -7880335.75
+      ],
+      "hydrogen_heldout_residual_Hz": -7880335.75,
+      "hydrogen_heldout_relative_residual_ppm": -0.010225576115214602,
+      "hydrogen_heldout_prediction_sigma_Hz": 5210.168369231613,
+      "hydrogen_heldout_combined_summary_sigma_Hz": 5580.847107361175,
+      "hydrogen_heldout_within_3sigma": false,
+      "approx_training_chi2": 0.4320536827673913,
+      "training_measurements": 4,
+      "fitted_parameters": 2,
+      "held_out": "Hydrogen 2S-8D5/2",
+      "fit_scope": "frozen Q0 and electron-based A0; zero cross covariance; incomplete atomic theory",
+      "atomic_phase_cycle_s": 1.297606668570817e-15,
+      "neutrino_first_Pee_minimum_1MeV_s": 1.6801764101767931e-06
+    },
+    {
+      "model": "Dirac + leading self energy + common S residual",
+      "include_leading_self_energy": true,
+      "G_common_phase_rate": 0.9999999947906286,
+      "L_residual_Hz": -199005455.97733518,
+      "G_conditional_sigma_from_summaries": 1.2453952651917686e-11,
+      "transfer_neutrino_predictions_eV2": [
+        7.447079660108712e-05,
+        0.002430726801059483
+      ],
+      "joint_neutrino_predictions_eV2": [
+        7.447079660108692e-05,
+        0.002430726801059477
+      ],
+      "neutrino_reference_eV2": [
+        7.5e-05,
+        0.002466
+      ],
+      "neutrino_relative_error_percent": [
+        -0.7056045318841075,
+        -1.4303811411404355
+      ],
+      "neutrino_marginal_residual_sigmas": [
+        -0.29400188828504265,
+        -0.5878866490087178
+      ],
+      "neutrino_both_within_marginal_1sigma": true,
+      "hydrogen_predictions_Hz": [
+        2466061413187035.0,
+        2922743278671500.0,
+        770649561156636.2
+      ],
+      "hydrogen_residuals_Hz": [
+        0.0,
+        0.0,
+        -414263.75
+      ],
+      "hydrogen_heldout_residual_Hz": -414263.75,
+      "hydrogen_heldout_relative_residual_ppm": -0.0005375513990503809,
+      "hydrogen_heldout_prediction_sigma_Hz": 5210.168453965531,
+      "hydrogen_heldout_combined_summary_sigma_Hz": 5580.847186467084,
+      "hydrogen_heldout_within_3sigma": false,
+      "approx_training_chi2": 0.43204782239787004,
+      "training_measurements": 4,
+      "fitted_parameters": 2,
+      "held_out": "Hydrogen 2S-8D5/2",
+      "fit_scope": "frozen Q0 and electron-based A0; zero cross covariance; incomplete atomic theory",
+      "atomic_phase_cycle_s": 1.2976066559995714e-15,
+      "neutrino_first_Pee_minimum_1MeV_s": 1.6801762733456352e-06
+    }
+  ],
+  "hydrogen_holdout_improvement_factor": 19.02250860713736,
+  "leading_self_energy_states": [
+    {
+      "state": "[1, 0, 0.5]",
+      "leading_self_energy_Hz": 8331442534.096254
+    },
+    {
+      "state": "[2, 0, 0.5]",
+      "leading_self_energy_Hz": 1064771541.1193149
+    },
+    {
+      "state": "[3, 0, 0.5]",
+      "leading_self_energy_Hz": 317257635.4633865
+    },
+    {
+      "state": "[8, 2, 2.5]",
+      "leading_self_energy_Hz": 71517.11795645676
+    }
+  ],
+  "frozen_energy_anchor_relative_sigma_zero_covariance_diagnostic": 4.346595793226563e-10,
+  "common_G_error_scope": "reported G sigma conditions on frozen constants; external anchor uncertainty and theory truncation are not included",
+  "validation": "rescaling degeneracy, adopted units, positive frequencies and frozen-anchor reconstruction checked",
+  "conclusion": "joint tuning is conditional and useful; neutrino summaries compatible, H holdout improves but precision reproduction remains incomplete; no unique universal arithmetic clock established"
+}

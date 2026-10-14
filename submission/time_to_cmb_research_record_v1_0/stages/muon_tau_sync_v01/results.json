@@ -1,0 +1,290 @@
+{
+  "version": "0.1",
+  "anchor": "Muon mean lifetime; tau partial rates not used for calibration",
+  "baseline": "Adopted SM m^5 phase space plus leading finite-W correction. Universal fixed-alpha, massless O(alpha) QED factor cancels.",
+  "theory_limits": "No channel-dependent finite-mass QED, running-alpha/higher-order QED, full weak radiative corrections, or hadronic rate prediction. No full precision SM calculation.",
+  "rates": [
+    {
+      "dataset": "PDG2026_HFLAV",
+      "channel": "electron",
+      "predicted_rate_s_inv": 612651523832.5576,
+      "observed_rate_s_inv": 614881157423.3551,
+      "prediction_input_sigma": 155170876.84536985,
+      "observation_sigma": 1737855543.4376326,
+      "relative_error_percent": -0.36261211843614527,
+      "marginal_residual_sigma": -1.2778959360883035,
+      "predicted_inverse_partial_rate_ps": 1.6322492658539567,
+      "observed_inverse_partial_rate_ps": 1.6263305322128854,
+      "implied_branching_percent": 17.785273736859146
+    },
+    {
+      "dataset": "PDG2026_HFLAV",
+      "channel": "muon",
+      "predicted_rate_s_inv": 595843878037.0499,
+      "observed_rate_s_inv": 598346538064.0717,
+      "prediction_input_sigma": 152573359.1610991,
+      "observation_sigma": 1720648981.3408353,
+      "relative_error_percent": -0.41826264009464653,
+      "marginal_residual_sigma": -1.4488014918501082,
+      "predicted_inverse_partial_rate_ps": 1.678291976909125,
+      "observed_inverse_partial_rate_ps": 1.6712723085780081,
+      "implied_branching_percent": 17.29734777941556
+    },
+    {
+      "dataset": "PDG2026_direct_averages",
+      "channel": "electron",
+      "predicted_rate_s_inv": 612651523832.5576,
+      "observed_rate_s_inv": 613847743713.3999,
+      "prediction_input_sigma": 155170876.84536985,
+      "observation_sigma": 2020969805.308635,
+      "relative_error_percent": -0.19487240819782148,
+      "marginal_residual_sigma": -0.5901668572998917,
+      "predicted_inverse_partial_rate_ps": 1.6322492658539567,
+      "observed_inverse_partial_rate_ps": 1.6290684624017957,
+      "implied_branching_percent": 17.785273736859146
+    },
+    {
+      "dataset": "PDG2026_direct_averages",
+      "channel": "muon",
+      "predicted_rate_s_inv": 595843878037.0499,
+      "observed_rate_s_inv": 596968653117.4647,
+      "prediction_input_sigma": 152573359.1610991,
+      "observation_sigma": 2005913993.5180874,
+      "relative_error_percent": -0.188414429223549,
+      "marginal_residual_sigma": -0.5591144493370277,
+      "predicted_inverse_partial_rate_ps": 1.678291976909125,
+      "observed_inverse_partial_rate_ps": 1.675129832660127,
+      "implied_branching_percent": 17.29734777941556
+    },
+    {
+      "dataset": "ALEPH_SCHAEL2005",
+      "channel": "electron",
+      "predicted_rate_s_inv": 612651523832.5576,
+      "observed_rate_s_inv": 614433344815.7079,
+      "prediction_input_sigma": 155170876.84536985,
+      "observation_sigma": 2968019195.1363964,
+      "relative_error_percent": -0.2899941870317502,
+      "marginal_residual_sigma": -0.59952133820631,
+      "predicted_inverse_partial_rate_ps": 1.6322492658539567,
+      "observed_inverse_partial_rate_ps": 1.6275158378651118,
+      "implied_branching_percent": 17.785273736859146
+    },
+    {
+      "dataset": "ALEPH_SCHAEL2005",
+      "channel": "muon",
+      "predicted_rate_s_inv": 595843878037.0499,
+      "observed_rate_s_inv": 596589734757.1478,
+      "prediction_input_sigma": 152573359.1610991,
+      "observation_sigma": 2843463123.2898774,
+      "relative_error_percent": -0.12502003917340687,
+      "marginal_residual_sigma": -0.261928953962898,
+      "predicted_inverse_partial_rate_ps": 1.678291976909125,
+      "observed_inverse_partial_rate_ps": 1.676193775622149,
+      "implied_branching_percent": 17.29734777941556
+    },
+    {
+      "dataset": "L3_ACCIARRI2001",
+      "channel": "electron",
+      "predicted_rate_s_inv": 612651523832.5576,
+      "observed_rate_s_inv": 613365483982.0875,
+      "prediction_input_sigma": 155170876.84536985,
+      "observation_sigma": 4561161197.435688,
+      "relative_error_percent": -0.11640044446171727,
+      "marginal_residual_sigma": -0.15643984533824923,
+      "predicted_inverse_partial_rate_ps": 1.6322492658539567,
+      "observed_inverse_partial_rate_ps": 1.6303493204537796,
+      "implied_branching_percent": 17.785273736859146
+    },
+    {
+      "dataset": "L3_ACCIARRI2001",
+      "channel": "muon",
+      "predicted_rate_s_inv": 595843878037.0499,
+      "observed_rate_s_inv": 597382018601.4468,
+      "prediction_input_sigma": 152573359.1610991,
+      "observation_sigma": 4554472956.799665,
+      "relative_error_percent": -0.2574802247978347,
+      "marginal_residual_sigma": -0.33753152832346583,
+      "predicted_inverse_partial_rate_ps": 1.678291976909125,
+      "observed_inverse_partial_rate_ps": 1.6739707069542151,
+      "implied_branching_percent": 17.29734777941556
+    }
+  ],
+  "ratio_comparisons": {
+    "PDG2026_HFLAV": {
+      "predicted": 0.9725657324895493,
+      "observed": 0.973109243697479,
+      "known_branch_correlation": null,
+      "secondary_tau_e_normalization_multiplier": 1.0036393177917025,
+      "secondary_tau_mu_holdout_relative_error_percent": -0.05585305159209186,
+      "secondary_tau_mu_implied_branching": 0.17360298324938453,
+      "secondary_scope": "Separate additional calibration to tau electron channel; not part of the primary muon-only transfer.",
+      "sigma_range_for_all_possible_branch_correlations": [
+        6.0259397876797685e-05,
+        0.004421533319210037
+      ]
+    },
+    "PDG2026_direct_averages": {
+      "predicted": 0.9725657324895493,
+      "observed": 0.9725028058361392,
+      "known_branch_correlation": null,
+      "secondary_tau_e_normalization_multiplier": 1.0019525290223048,
+      "secondary_tau_mu_holdout_relative_error_percent": 0.006470588365647956,
+      "secondary_tau_mu_implied_branching": 0.1733112135296377,
+      "secondary_scope": "Separate additional calibration to tau electron channel; not part of the primary muon-only transfer.",
+      "sigma_range_for_all_possible_branch_correlations": [
+        7.71526211107201e-05,
+        0.005534519657228225
+      ]
+    },
+    "ALEPH_SCHAEL2005": {
+      "predicted": 0.9725657324895493,
+      "observed": 0.9709592420250043,
+      "known_branch_correlation": -0.2,
+      "secondary_tau_e_normalization_multiplier": 1.0029083759916302,
+      "secondary_tau_mu_holdout_relative_error_percent": 0.16545395470921598,
+      "secondary_tau_mu_implied_branching": 0.1734765497041609,
+      "secondary_scope": "Separate additional calibration to tau electron channel; not part of the primary muon-only transfer.",
+      "observed_sigma": 0.006736793474212143,
+      "prediction_input_sigma": 2.708708663173695e-06,
+      "residual_sigma": 0.23846513045668094,
+      "two_channel_chi2_with_known_branch_covariance": 0.4421627205886194,
+      "chi2_scope": "measurement/input-summary diagnostic, theory truncation excluded; lifetime independent of branching assumed"
+    },
+    "L3_ACCIARRI2001": {
+      "predicted": 0.9725657324895493,
+      "observed": 0.9739413680781759,
+      "known_branch_correlation": 0.08,
+      "secondary_tau_e_normalization_multiplier": 1.0011653609299191,
+      "secondary_tau_mu_holdout_relative_error_percent": -0.14124418920012927,
+      "secondary_tau_mu_implied_branching": 0.17317505432708913,
+      "secondary_scope": "Separate additional calibration to tau electron channel; not part of the primary muon-only transfer.",
+      "observed_sigma": 0.00968546307788926,
+      "prediction_input_sigma": 2.708708663173695e-06,
+      "residual_sigma": -0.14203095130992238,
+      "two_channel_chi2_with_known_branch_covariance": 0.1268796545662436,
+      "chi2_scope": "measurement/input-summary diagnostic, theory truncation excluded; lifetime independent of branching assumed"
+    }
+  },
+  "prediction_input_covariance": [
+    [
+      2.407800102096094e+16,
+      2.3674941902380884e+16
+    ],
+    [
+      2.3674941902380884e+16,
+      2.3278629925701748e+16
+    ]
+  ],
+  "tree_phase_space_rates_s_inv": [
+    612472490901.4652,
+    595667903893.7765
+  ],
+  "finite_W_relative_change_percent": [
+    0.02923117915532014,
+    0.029542324191567104
+  ],
+  "tau_leptonic_total_fraction_using_measured_total_lifetime": 0.35082621516274703,
+  "other_rate_closed_with_measured_tau_total_s_inv": 2236216964647.7886,
+  "total_tau_lifetime_predicted": false,
+  "finite_event_ledger": [
+    {
+      "ticks_per_muon_lifetime": 16777216,
+      "dt_s": 1.3095027804374694e-13,
+      "tau_ticks": 2,
+      "elapsed_s": 2.619005560874939e-13,
+      "survival": 0.4056875145382486,
+      "analytic_survival": 0.4056875145382486,
+      "max_probability_error": 0.0,
+      "first_order_Euler_survival": 0.3013065330938033,
+      "Euler_survival_error": -0.1043809814444453,
+      "integer_survivors": 405876,
+      "integer_e_cohorts": 105725,
+      "integer_mu_cohorts": 102641,
+      "integer_other_cohorts": 385758,
+      "leptonic_charged_daughters": 208366,
+      "leptonic_neutrino_daughters": 416732,
+      "integer_count_error": 0,
+      "aggregate_energy_error_MeV": 0.0
+    },
+    {
+      "ticks_per_muon_lifetime": 268435456,
+      "dt_s": 8.184392377734184e-15,
+      "tau_ticks": 35,
+      "elapsed_s": 2.8645373322069646e-13,
+      "survival": 0.3727860124001743,
+      "analytic_survival": 0.3727860124001738,
+      "max_probability_error": 4.996003610813204e-16,
+      "first_order_Euler_survival": 0.3675383986016375,
+      "Euler_survival_error": -0.005247613798536277,
+      "integer_survivors": 372999,
+      "integer_e_cohorts": 111997,
+      "integer_mu_cohorts": 108809,
+      "integer_other_cohorts": 406195,
+      "leptonic_charged_daughters": 220806,
+      "leptonic_neutrino_daughters": 441612,
+      "integer_count_error": 0,
+      "aggregate_energy_error_MeV": 0.0
+    },
+    {
+      "ticks_per_muon_lifetime": 4294967296,
+      "dt_s": 5.115245236083865e-16,
+      "tau_ticks": 568,
+      "elapsed_s": 2.905459294095635e-13,
+      "survival": 0.3675679218381064,
+      "analytic_survival": 0.3675679218381096,
+      "max_probability_error": 3.219646771412954e-15,
+      "first_order_Euler_survival": 0.36724357202900754,
+      "Euler_survival_error": -0.0003243498091020647,
+      "integer_survivors": 368212,
+      "integer_e_cohorts": 112197,
+      "integer_mu_cohorts": 109446,
+      "integer_other_cohorts": 410145,
+      "leptonic_charged_daughters": 221643,
+      "leptonic_neutrino_daughters": 443286,
+      "integer_count_error": 0,
+      "aggregate_energy_error_MeV": 0.0
+    }
+  ],
+  "common_G_rescaling": [
+    {
+      "G": 0.5,
+      "rate_e": 612651523832.5576,
+      "rate_mu": 595843878037.0499
+    },
+    {
+      "G": 1.0,
+      "rate_e": 612651523832.5576,
+      "rate_mu": 595843878037.0499
+    },
+    {
+      "G": 2.0,
+      "rate_e": 612651523832.5576,
+      "rate_mu": 595843878037.0499
+    },
+    {
+      "G": 0.9999999947906286,
+      "rate_e": 612651523832.5576,
+      "rate_mu": 595843878037.0499
+    }
+  ],
+  "common_G_independently_identified": false,
+  "adopted_hbar_eVs": 6.582119569509066e-16,
+  "muon_width_eV": 2.995983702139753e-10,
+  "tau_predicted_partial_widths_eV": [
+    0.00040325455843078276,
+    0.00039219156499998393
+  ],
+  "prior_time_anchor": {
+    "G": 0.9999999947906286,
+    "hydrogen_phase_cycle_s": 1.2976066559995714e-15,
+    "neutrino_first_Pee_minimum_1MeV_s": 1.6801762733456352e-06,
+    "book_q0_eV": 0.00172592928,
+    "source": "MCC_Joint_Neutrino_Hydrogen_Synchronization_v0_1_2026-10-14.zip, results.json, Dirac + leading self energy + common S residual",
+    "scope": "Frozen conditional compatibility result, not a universal clock established independently. G cancels in this muon-calibrated decay transfer. Atomic phase cycle, flavour-oscillation minimum and decay lifetime are different time observables."
+  },
+  "tau_rates_used_for_primary_calibration": false,
+  "weak_normalization_independently_predicted": false,
+  "independence_explanation": "Muon calibrates the weak normalization; tau summaries are comparison inputs. ALEPH/L3 also contribute to PDG/HFLAV and cannot be counted as additional independent validations.",
+  "falsification": "Wrong frozen tau partial rates beyond measurement uncertainty and documented theory truncation; negative probabilities or residual rates; omitted cohorts/energy; failed resolution convergence. Common-G universality requires a separate nondegenerate test.",
+  "verdict": "Operational muon-to-tau time/rate transfer is compatible at current summary precision. It uses an adopted weak-interaction module, not a SOURCE derivation or proof of arithmetic/physical event identity."
+}

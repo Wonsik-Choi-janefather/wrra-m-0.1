@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-14",
+  "N_U": 1015000,
+  "finite_index_shape": [
+    500,
+    29,
+    70
+  ],
+  "finite_index_source": "v0.29.1 inputs/existing_local_operator.py, synthetic geometry demo preserves existing500x29x70 finite index; this is not an inherited physical embedding.",
+  "c_m_s": 299792458,
+  "dt_s": 1.481301966415863e-21,
+  "profile_sha256": "1aa16e3b048b3d54457924584d79793fc6cd28cee5f1880cf337e3ff35e1f602",
+  "eta_J_m3": [
+    7.5615824991e-10,
+    7.2857613288e-10,
+    7.6461028188e-10
+  ],
+  "old_mode_k_Mpc_inv": 0.05,
+  "old_epsilon": 1e-08,
+  "Mpc_m": 3.085677581e+22,
+  "Mpc_scope": "Frozen conversion used by the archived single_mode.py; not newly recalibrated.",
+  "upstream_archive_sha256": "2023a2d0babff300f5bafc5a4f1def058bfeb048d04bffe1e3146b8bc0ec9780",
+  "upstream_archive_library_id": "libfile_f410b378670881919829ebff25242f99",
+  "upstream_DOI": "10.5281/zenodo.23329214",
+  "latest_book_library_id": "libfile_c87d6e336cb88191aff11b4e987a21c3",
+  "latest_book_version": 11,
+  "book_sections": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106
+  ],
+  "outgoing_email_reference": "2026-10-13 10:44:08 KST, finite-frame v0.29.1. No private correspondence included."
+}

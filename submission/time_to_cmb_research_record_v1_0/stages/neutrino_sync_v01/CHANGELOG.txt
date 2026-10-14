@@ -1,0 +1,9 @@
+v0.2
+- One common calibration q for the main dynamics, with asymmetric marginal errors.
+- Conditional profile intervals for q and physical event times.
+- Pointwise sampled q envelopes, explicitly not simultaneous confidence bands.
+- Retained single-anchor cross checks; distinguished calibration from validation.
+- Preserved integer modes and documented the scale-independent ratio mismatch.
+- Corrected field ownership after switching the main evolution to joint q.
+- Added analytical cross-check of the numerical common-scale minimization.
+- No changes to the MCC book or integer grammar; no new physical law claimed.

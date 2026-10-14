@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite this consolidated research record and the original physical data and software used."
+title: "From Clock Synchronization to SOURCE Lensing and CMB: An Executable MCC/WRRA Research Record"
+type: report
+version: 1.0
+date-released: 2026-10-14
+authors:
+  - family-names: Choi
+    given-names: Wonsik
+    orcid: https://orcid.org/0009-0001-4263-9772
+    affiliation: Independent Researcher
+  - family-names: Choi
+    given-names: Jeongin
+    affiliation: Independent Researcher
+repository-code: https://github.com/Wonsik-Choi-janefather/wrra-m-0.1
+doi: 10.5281/zenodo.23361676

@@ -1,0 +1,26 @@
+[
+  {
+    "branch": "weighted",
+    "zstar": 1089.9071406950573,
+    "recombination_physical_age_s": 11721691609278.348,
+    "recombination_age_years": 371437.9930437786,
+    "recombination_shutter_units": 7.913100687795606e+33,
+    "today_age_Gyr": 13.778097534613043,
+    "today_shutter_units": 2.9352805884025753e+38,
+    "comoving_distance_to_last_scattering_Mpc": 13853.605204229616,
+    "dt_s": 1.481301966415863e-21,
+    "status": "Representation in inherited calibrated shutter units; background physical time computed by the declared FRW/CAMB completion, not a SOURCE-only derivation of the SI second."
+  },
+  {
+    "branch": "unweighted",
+    "zstar": 1089.494117581932,
+    "recombination_physical_age_s": 11853963899134.596,
+    "recombination_age_years": 375629.4489801061,
+    "recombination_shutter_units": 8.002395303515512e+33,
+    "today_age_Gyr": 13.957537282332181,
+    "today_shutter_units": 2.9735083630967708e+38,
+    "comoving_distance_to_last_scattering_Mpc": 14061.490993908092,
+    "dt_s": 1.481301966415863e-21,
+    "status": "Representation in inherited calibrated shutter units; background physical time computed by the declared FRW/CAMB completion, not a SOURCE-only derivation of the SI second."
+  }
+]

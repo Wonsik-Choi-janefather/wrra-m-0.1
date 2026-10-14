@@ -1,0 +1,17 @@
+{
+  "label": "weighted_R_only",
+  "D_ledger": "unweighted",
+  "R_ledger": "weighted",
+  "derived_H0": 67.0994706398611,
+  "ombh2": 0.022395806792949134,
+  "omch2": 0.11566281218279162,
+  "chi2_highell": 1121.9031209830046,
+  "conditional_blocks": {
+    "TT": 523.4620201749024,
+    "TE_given_TT": 368.13537096284995,
+    "EE_given_TT_TE": 230.30572984525224
+  },
+  "diagnosis_only": true,
+  "new_fit": false,
+  "standalone_WRRA_branch_derived": false
+}

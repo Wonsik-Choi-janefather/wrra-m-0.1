@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-14",
+  "cases": [
+    {
+      "case": "baseline",
+      "high_ell_quadratic_form": 585.7475083651195,
+      "low_T_minus2logL": 23.425650356986296,
+      "low_E_minus2logL": 396.11734569989943,
+      "lensing_CMBmarged_minus2logL": 9.066339479427644,
+      "combined_minus2logL_up_to_constants": 1014.356843901433,
+      "finite": true
+    },
+    {
+      "case": "baseline_plus_SOURCE",
+      "high_ell_quadratic_form": 585.7475077953264,
+      "low_T_minus2logL": 23.425650359079782,
+      "low_E_minus2logL": 396.11734569989943,
+      "lensing_CMBmarged_minus2logL": 9.06633923959608,
+      "combined_minus2logL_up_to_constants": 1014.3568430939017,
+      "finite": true
+    }
+  ],
+  "lensing_bin_count": 9,
+  "A_planck_fixed": 1,
+  "low_T_range": [
+    2,
+    29
+  ],
+  "low_E_range": [
+    2,
+    29
+  ],
+  "high_ell_bin_count": 613,
+  "source_deflection_covariance_included": true,
+  "official_clik_executable_used": false,
+  "implementation": "Cobaya 3.6.2 native TT/EE and CMBlikes; public Planck CMB-marginalized lensing dataset; native Gaussian Plik-lite",
+  "likelihood_offsets_not_identical_between_blocks": true,
+  "scope": "Expanded conditional native likelihood evaluation. Report individual blocks and differences; the summed offset-dependent -2logL is not a universal chi-square with a simple degree count.",
+  "SOURCE_change_combined_minus2logL": -8.075312507571653e-07
+}

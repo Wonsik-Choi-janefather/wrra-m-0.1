@@ -1,0 +1,91 @@
+{
+  "version": "0.1",
+  "date": "2026-10-14",
+  "candidate": "rational hydrogen level codes u_n=1/n^2 and their transition gaps",
+  "relation_to_MCC": "new adopted spectral bridge audit; atomic n has not been derived from or identified with SOURCE arithmetic addresses",
+  "data": [
+    {
+      "label": "1S-2S",
+      "lo": [
+        1,
+        0,
+        0.5
+      ],
+      "hi": [
+        2,
+        0,
+        0.5
+      ],
+      "frequency_Hz": 2466061413187035.0,
+      "sigma_Hz": 10.0,
+      "source": "https://arxiv.org/abs/1107.3101",
+      "convention": "hyperfine centroid; total two-photon transition frequency"
+    },
+    {
+      "label": "1S-3S",
+      "lo": [
+        1,
+        0,
+        0.5
+      ],
+      "hi": [
+        3,
+        0,
+        0.5
+      ],
+      "frequency_Hz": 2922743278671500.0,
+      "sigma_Hz": 2600.0,
+      "source": "https://arxiv.org/pdf/1801.08816",
+      "convention": "hyperfine centroid; total two-photon transition frequency"
+    },
+    {
+      "label": "2S-8D5/2",
+      "lo": [
+        2,
+        0,
+        0.5
+      ],
+      "hi": [
+        8,
+        2,
+        2.5
+      ],
+      "frequency_Hz": 770649561570900.0,
+      "sigma_Hz": 2000.0,
+      "source": "https://arxiv.org/abs/2111.08554",
+      "convention": "hyperfine centroid; total two-photon transition frequency"
+    }
+  ],
+  "constants": {
+    "alpha": 0.0072973525643,
+    "alpha_sigma": 1.1e-12,
+    "h_J_s": 6.62607015e-34,
+    "electronvolt_J": 1.602176634e-19,
+    "c_m_s": 299792458.0
+  },
+  "conventions": [
+    "hyperfine centroids",
+    "total transition frequencies, not half-frequency excitation laser values",
+    "optical relative-phase period, not excitation waiting time or state lifetime"
+  ],
+  "models": {
+    "inverse_square": "E_n/h=-A/n^2",
+    "dirac": "E_nj/h=-A*F_Dirac(n,j;alpha), effective point-Coulomb template",
+    "dirac_plus_S_shift": "E_nlj/h=-A*F_Dirac(n,j;alpha)+L*delta_l0/n^3; two empirical calibrated coefficients; not full QED"
+  },
+  "limitations": [
+    "no full recoil/radiative/finite-size calculation",
+    "summary experimental errors, zero inter-experiment covariance",
+    "no theory truncation error assigned",
+    "same SI h as neutrino test is input, not a result"
+  ],
+  "alternate_1S3S_dataset": {
+    "source": "https://doi.org/10.1126/science.abc7776",
+    "f13_Hz": 2922743278665790.0,
+    "sigma_Hz": 720.0,
+    "holdout_2S8D_prediction_Hz": 770649553679122.8,
+    "holdout_residual_Hz": -7891777.25,
+    "holdout_relative_residual_ppm": -0.010240422732010757,
+    "purpose": "different published 1S-3S dataset sensitivity; not independent full-QED validation"
+  }
+}

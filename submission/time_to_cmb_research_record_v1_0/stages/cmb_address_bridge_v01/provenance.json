@@ -1,0 +1,50 @@
+{
+  "version": "0.1",
+  "date": "2026-10-14",
+  "calibration": {
+    "lambda_P_D_R": [
+      0,
+      0.25,
+      0
+    ],
+    "rule": "e_s(n)w_n[1+lambda_s ln(n)/ln(N_U)]",
+    "selection": "Observational diagnosis informed selection within inherited sector-specific family",
+    "optimizer": false,
+    "post_readout_density_swap": false
+  },
+  "inputs": {
+    "inputs/CAMB_LICENSE.txt": "1d1550a9a86bb8d72ae11bdb2e54644242c51cd16e6015320896e2ecb45a78ed",
+    "inputs/COM_PowerSpect_CMB-EE-binned_R3.02.txt": "bd30fc1121c0d1c2e1a6ac997b30ac14ea1fdd42bc91ecc40d594c00463ffdb2",
+    "inputs/COM_PowerSpect_CMB-TE-binned_R3.02.txt": "191a588f9000885e931739ddb4f88717c29f79a45abd337837dac8032aed0137",
+    "inputs/COM_PowerSpect_CMB-TT-binned_R3.01.txt": "ed2b8b51b033e668e661f6cf4eb7705f15bcaf358189dfc4a4481cc7020130cd",
+    "inputs/addresses.npz": "13c444f1d5fb57ef7f9f0c8eed5a44730dc40024739c062a6d6cb263c32ebf62",
+    "inputs/camb-2.0.4.tar.gz": "2f1f5f3b3964a3746693dc88a54218dca4ea049a04726f8177664c11d2d2616e",
+    "inputs/closed_ledger.json": "b6d57af09f9ff36edfdf23e0d2f3f5c3cc9aa0297c4adef08456af409617767b",
+    "inputs/original_positive_readout.py": "7cae13f1677dcf09c64335f3f4102a0b0f9af42d3ad4ac3ba67c10d249e21dd8",
+    "inputs/plik_lite_native/blmax.dat": "c28ade0fa5270c7e87ba07bdcb68aef8783b132b352bfaa36c04d17694ab4014",
+    "inputs/plik_lite_native/blmin.dat": "325b351cbf8f694556bb13e98f285344e8d66811bb8eef18bcdcf1626518719d",
+    "inputs/plik_lite_native/bweight.dat": "8afcbd8bad769e2de96bacd80177e6543f96b2b406e6c2da1fd0d26718c9e415",
+    "inputs/plik_lite_native/c_matrix_plik_v22.dat": "ad90378c50bd67841764179c90ae6711fa4317c649966ab2b0712143b31e0a32",
+    "inputs/plik_lite_native/cl_cmb_plik_v22.dat": "dac0d9d493213e77c940a10a968cf0da3c5730bae60e1356c4cd8bcff96377ff",
+    "inputs/plik_lite_native/plik_lite_v22.dataset": "0dc7318de1b1b8fe0ad79e6bdb13135eae0190c9678e52a0a4f5120ceafa64ca",
+    "inputs/prior_SOURCE_harmonics.csv": "b5d45ed57bfd18fdcac0a72beec1c90d4106b4cfa30c0acd35ef1faaf3b5fbc1",
+    "inputs/source_frozen_inputs.json": "86b516149361a3eb7fd49db7a8a8ddda0ce0955e57602c43932e9ec9c3af366d"
+  },
+  "binary_sha256": "9d7de4b5f7c8053ec26fd8c792721fce5cf440525c42dc4ae944d5c366ffb425",
+  "inherited_macro_anchor_k_Mpc_inv": 0.05,
+  "inherited_supply_epsilon": 1e-08,
+  "c_fixed_m_s": 299792458,
+  "source_background_exponents": [
+    0,
+    0,
+    3
+  ],
+  "accuracy_final": 2.5,
+  "accuracy_control": 1.5,
+  "official_clik_used": false,
+  "likelihood": "Native Gaussian high-l Plik-lite TTTEEE, 613 bins, A_planck=1",
+  "SOURCE_lensing_complete": false,
+  "primordial_extension": "Inherited conditional regular early extension; upstream preparation derivation remains open",
+  "upstream_reference_DOI": "10.5281/zenodo.23329214",
+  "no_new_independent_prediction_claim": true
+}

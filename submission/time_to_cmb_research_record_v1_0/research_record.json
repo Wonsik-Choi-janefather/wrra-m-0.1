@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-14",
+  "version": "1.0",
+  "authors": [
+    "Wonsik Choi",
+    "Jeongin Choi"
+  ],
+  "stages": [
+    {
+      "order": 1,
+      "directory": "neutrino_sync_v01",
+      "title": "Neutrino common-scale calibration"
+    },
+    {
+      "order": 2,
+      "directory": "hydrogen_sync_v01",
+      "title": "Hydrogen transition and phase audit"
+    },
+    {
+      "order": 3,
+      "directory": "joint_neutrino_hydrogen_v01",
+      "title": "Joint neutrino/hydrogen compatibility"
+    },
+    {
+      "order": 4,
+      "directory": "muon_tau_sync_v01",
+      "title": "Muon/tau decay transfer"
+    },
+    {
+      "order": 5,
+      "directory": "light_shutter_sync_v01",
+      "title": "Light/shutter shared-carrier bridge"
+    },
+    {
+      "order": 6,
+      "directory": "source_shutter_bridge_v01",
+      "title": "SOURCE metric witness and negative controls"
+    },
+    {
+      "order": 7,
+      "directory": "source_shutter_bridge_v02",
+      "title": "Residue ownership and finite supply correction"
+    },
+    {
+      "order": 8,
+      "directory": "cmb_source_v01",
+      "title": "Actual SOURCE Boltzmann/CMB propagation"
+    },
+    {
+      "order": 9,
+      "directory": "cmb_followup_audit",
+      "title": "Units, modes and ledger-swap diagnosis"
+    },
+    {
+      "order": 10,
+      "directory": "cmb_address_bridge_v01",
+      "title": "Address-level dark-ledger calibration"
+    },
+    {
+      "order": 11,
+      "directory": "cmb_preparation_lensing_v01",
+      "title": "Finite mean preparation, lensing and expanded likelihood"
+    }
+  ],
+  "calibrated_vs_frozen_tests_separated": true,
+  "c_is_input": true,
+  "unique_universal_clock": false,
+  "neutrino_common_q_eV": 0.0017353367908034272,
+  "neutrino_mass_sum_eV": 0.05900145088731652,
+  "hydrogen_joint_holdout_residual_Hz": -414263.75,
+  "shutter_dt_s": 1.481301966415863e-21,
+  "light_step_pm": 0.444083157552045,
+  "newest_high_ell_quadratic_form": 585.7475077953264,
+  "SOURCE_deflection_RMS_arcsec": 0.009556588544185153,
+  "latest_numerical_check_count": 15,
+  "latest_passed_count": 15,
+  "BAO_covariance_likelihood_evaluated": false,
+  "standard_background_BAO_distances_available": true,
+  "PRIMAT_interpolation_available": true,
+  "BBN_abundance_likelihood_evaluated": false,
+  "exact_nonGaussian_SOURCE_lensing": false,
+  "single_outcome_gravity_closed": false,
+  "independent_prediction_required": false
+}

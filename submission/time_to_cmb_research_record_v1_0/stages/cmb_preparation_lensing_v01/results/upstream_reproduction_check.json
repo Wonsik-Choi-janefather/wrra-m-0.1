@@ -1,0 +1,39 @@
+{
+  "checks": {
+    "unweighted_address_route": true,
+    "unweighted_mean_direct_load": true,
+    "unweighted_frame_energy_pressure": true,
+    "unweighted_no_zero_mode_added": true,
+    "unweighted_probability_positive": true,
+    "unweighted_slot_split": true,
+    "unweighted_all_positive_density": true,
+    "unweighted_previous_energy_ledger": true,
+    "weighted_address_route": true,
+    "weighted_mean_direct_load": true,
+    "weighted_frame_energy_pressure": true,
+    "weighted_no_zero_mode_added": true,
+    "weighted_probability_positive": true,
+    "weighted_slot_split": true,
+    "weighted_all_positive_density": true,
+    "weighted_previous_energy_ledger": true,
+    "dark_weight_only_address_route": true,
+    "dark_weight_only_mean_direct_load": true,
+    "dark_weight_only_frame_energy_pressure": true,
+    "dark_weight_only_no_zero_mode_added": true,
+    "dark_weight_only_probability_positive": true,
+    "dark_weight_only_slot_split": true,
+    "dark_weight_only_all_positive_density": true,
+    "frame_permutation_unitary": true,
+    "source_supply_Hamiltonian_commutes": true,
+    "uniform_resource_mean_identity": true,
+    "candidate_dark_marginal_reproduces_weighted": true,
+    "candidate_vacuum_marginal_reproduces_unweighted": true
+  },
+  "all_checks_pass": true,
+  "frozen_load_max_abs_difference": {
+    "unweighted": 0.0,
+    "weighted": 0.0,
+    "dark_weight_only": 0.0
+  },
+  "mode_vectors_match": true
+}

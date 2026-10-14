@@ -1,0 +1,8 @@
+{
+  "G": 0.9999999947906286,
+  "hydrogen_phase_cycle_s": 1.2976066559995714e-15,
+  "neutrino_first_Pee_minimum_1MeV_s": 1.6801762733456352e-6,
+  "book_q0_eV": 0.001725929280,
+  "source": "MCC_Joint_Neutrino_Hydrogen_Synchronization_v0_1_2026-10-14.zip, results.json, Dirac + leading self energy + common S residual",
+  "scope": "Frozen conditional compatibility result, not a universal clock established independently. G cancels in this muon-calibrated decay transfer. Atomic phase cycle, flavour-oscillation minimum and decay lifetime are different time observables."
+}

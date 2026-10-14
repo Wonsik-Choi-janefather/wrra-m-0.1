@@ -1,0 +1,3 @@
+branch,supply_probability_min,supply_probability_max,total_density_relative_RMS,total_density_max_contrast,mean_density_shift_J_m3,whole_frame_density_balance_error_J_m3,whole_frame_pressure_balance_error_J_m3,pressure_variation_max_J_m3,linear_gate_0_1_pass,inherited_epsilon,new_amplitude_fit
+unweighted,0.49999999,0.5000000385426052,7.512092299853885e-09,2.1438452198399096e-08,1.4925957069001078e-33,3.101927297073854e-25,3.101927297073854e-25,1.3069312276767168e-17,True,1e-08,False
+weighted,0.49999999,0.5000000385426052,7.469472456428914e-09,2.1319119593436533e-08,2.8888949165808538e-34,2.0679515313825692e-25,2.0679515313825692e-25,1.3110325666535692e-17,True,1e-08,False

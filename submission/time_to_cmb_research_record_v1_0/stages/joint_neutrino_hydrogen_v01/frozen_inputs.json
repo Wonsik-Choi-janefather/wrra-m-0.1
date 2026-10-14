@@ -1,0 +1,90 @@
+{
+  "version": "0.1",
+  "frozen_Q0_eV": 0.00172592928,
+  "frozen_electron_energy_eV": 510998.95069,
+  "electron_energy_sigma_eV": 0.00016,
+  "electron_proton_mass_ratio": 0.0005446170214889,
+  "A0_Hz_from_electron_alpha_reduced_mass": 3288051231534945.5,
+  "Bethe_logarithms": {
+    "(1, 0)": 2.984128556,
+    "(2, 0)": 2.811769893,
+    "(3, 0)": 2.767663612,
+    "(8, 2)": -0.008785043
+  },
+  "neutrino_data": {
+    "name": "Solar+KamLAND 2024 / Daya Bay final 2023",
+    "solar": 7.5e-05,
+    "solar_lo": 1.8e-06,
+    "solar_hi": 1.9e-06,
+    "atm": 0.002466,
+    "atm_lo": 6e-05,
+    "atm_hi": 6e-05,
+    "s12": 0.307,
+    "s13": 0.0217479743900712,
+    "kind": "primary_published_summary_cross_check"
+  },
+  "hydrogen_data": [
+    {
+      "label": "1S-2S",
+      "lo": [
+        1,
+        0,
+        0.5
+      ],
+      "hi": [
+        2,
+        0,
+        0.5
+      ],
+      "frequency_Hz": 2466061413187035.0,
+      "sigma_Hz": 10.0,
+      "source": "https://arxiv.org/abs/1107.3101",
+      "convention": "hyperfine centroid; total two-photon transition frequency"
+    },
+    {
+      "label": "1S-3S",
+      "lo": [
+        1,
+        0,
+        0.5
+      ],
+      "hi": [
+        3,
+        0,
+        0.5
+      ],
+      "frequency_Hz": 2922743278671500.0,
+      "sigma_Hz": 2600.0,
+      "source": "https://arxiv.org/pdf/1801.08816",
+      "convention": "hyperfine centroid; total two-photon transition frequency"
+    },
+    {
+      "label": "2S-8D5/2",
+      "lo": [
+        2,
+        0,
+        0.5
+      ],
+      "hi": [
+        8,
+        2,
+        2.5
+      ],
+      "frequency_Hz": 770649561570900.0,
+      "sigma_Hz": 2000.0,
+      "source": "https://arxiv.org/abs/2111.08554",
+      "convention": "hyperfine centroid; total two-photon transition frequency"
+    }
+  ],
+  "self_energy_source": "https://pml.nist.gov/cuu/pdf/RevModPhys_80_000633acc.pdf, Sec. IV.A.1.d, Table VII; leading A41/A40, reduced-mass factors",
+  "constants_source": "https://physics.nist.gov/cuu/pdf/all.pdf",
+  "common_clock_hypothesis": "one multiplicative lab phase-rate G across both domains with frozen physical energy anchors",
+  "limitations": [
+    "Q0 originally calibrated, not independent of historical neutrino data",
+    "CODATA constants have correlated adjustments, some using hydrogen spectroscopy",
+    "summary data instead of raw likelihoods",
+    "incomplete atomic QED/recoil/nuclear-size corrections",
+    "atomic rational code not derived from SOURCE grammar",
+    "G is a compatibility parameter, not a derivation of time or Planck constant"
+  ]
+}

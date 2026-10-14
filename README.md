@@ -1,3 +1,11 @@
+## Clock synchronization to SOURCE lensing and CMB · 2026-10-14
+
+[New bilingual reports and eleven-stage source/result ledgers](submission/time_to_cmb_research_record_v1_0/README.md) · [Zenodo DOI 10.5281/zenodo.23361676](https://doi.org/10.5281/zenodo.23361676).
+
+Wonsik Choi and Jeongin Choi. Calibration changes and negative controls retained. Latest conditional high-l quadratic form 585.7475077953264; SOURCE deflection RMS 0.009556588544185153 arcsec. Complete binary data and transfer arrays are in the Zenodo archive.
+
+---
+
 ## Calibrated twist-stress CMB toy model v0.5 · 2026-10-10
 
 > **2026-10-13 · 유한 프레임 물리 브리지 v0.29.1:** [한·영 기술노트와 재현 코드](submission/finite_frame_spatial_bridge_v0_29_1/README.md) · [Zenodo](https://doi.org/10.5281/zenodo.23329214). 문서 개정: 잔차 정규화·누락 대조군, 고정 입력과 추가 관측 최적화의 구분, 기존 CMB와 새 단일 모드의 분리. 수치 코드와 결과는 v0.29와 동일.

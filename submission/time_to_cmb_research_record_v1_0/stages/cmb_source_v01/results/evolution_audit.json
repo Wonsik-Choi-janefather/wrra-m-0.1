@@ -1,0 +1,32 @@
+[
+  {
+    "branch": "weighted",
+    "force_multiplier": 1,
+    "vacuum_contrast_drift": 0.0,
+    "dark_total_momentum_relative_residual": 3.428120160505025e-16,
+    "independent_integrating_factor_relative_error": 2.6120700478562865e-08,
+    "density_spline_derivative_relative_error": 3.6669939241830017e-06,
+    "max_all_components_triangle_bound_delta_D": 0.0077083673127910065,
+    "max_all_components_triangle_bound_delta_baryon": 0.0004543591207995724,
+    "linear_gate_0_1_pass": true
+  },
+  {
+    "branch": "unweighted",
+    "force_multiplier": 1,
+    "vacuum_contrast_drift": 0.0,
+    "dark_total_momentum_relative_residual": 3.457895621533437e-16,
+    "independent_integrating_factor_relative_error": 2.7003406982385474e-08,
+    "density_spline_derivative_relative_error": 2.8119936351010093e-06,
+    "max_all_components_triangle_bound_delta_D": 0.008165709919213438,
+    "max_all_components_triangle_bound_delta_baryon": 0.0004746937841785647,
+    "linear_gate_0_1_pass": true
+  },
+  {
+    "branch": "weighted",
+    "force_multiplier": 0,
+    "vacuum_contrast_drift": 0.0,
+    "dark_total_momentum_relative_residual": 1.0,
+    "independent_integrating_factor_relative_error": 1.0,
+    "density_spline_derivative_relative_error": 4.799282779380264e-06
+  }
+]

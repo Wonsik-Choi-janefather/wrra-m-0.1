@@ -1,0 +1,48 @@
+{
+  "check_count": 15,
+  "passed_count": 15,
+  "checks": {
+    "positive_preparation": true,
+    "covariance_PSD": true,
+    "covariance_Fourier_match": true,
+    "finite_profile_match": true,
+    "entropy_arithmetic_identity": true,
+    "initial_callback_agreement": true,
+    "phi_transfer_normalization": true,
+    "SOURCE_transfer_accuracy_stable": true,
+    "SOURCE_phi_positive": true,
+    "SOURCE_CMB_auto_positive": true,
+    "SOURCE_primary_lens_covariance_positive": true,
+    "finite_lensed_outputs": true,
+    "native_likelihood_blocks_finite": true,
+    "high_ell_remapping_controls": true,
+    "no_SOURCE_amplitude_retuning": true
+  },
+  "SOURCE_phi_accuracy_max_relative_change": 0.002595253022440416,
+  "SOURCE_CMB_accuracy_max_relative_change": 0.00014908121866727666,
+  "SOURCE_primary_lens_covariance_excess": 0.0,
+  "baseline_remapping_controls": [
+    {
+      "control": "input_L5000",
+      "high_ell_Q": 585.7593343111887,
+      "bin_difference_quadratic_form": 5.709930248692388e-05,
+      "bin_difference_whitened_RMS": 0.00030520044622626464,
+      "max_abs_TT_Dl_difference_uK2": 0.022489334495276125
+    },
+    {
+      "control": "sampling_1.8",
+      "high_ell_Q": 585.7475083664017,
+      "bin_difference_quadratic_form": 4.127391581906887e-18,
+      "bin_difference_whitened_RMS": 8.205548178642363e-11,
+      "max_abs_TT_Dl_difference_uK2": 1.1194799753866391e-08
+    },
+    {
+      "control": "CAMB_native_lensed",
+      "high_ell_Q": 585.7372799355883,
+      "bin_difference_quadratic_form": 5.1012680557682256e-05,
+      "bin_difference_whitened_RMS": 0.0002884754338770323,
+      "max_abs_TT_Dl_difference_uK2": 0.03364662143167152
+    }
+  ],
+  "meaning": "Numerical and covariance checks for the declared mean-stress and leading-covariance model. No proof of dynamical preparation or single-outcome gravity."
+}

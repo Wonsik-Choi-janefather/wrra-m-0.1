@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-14",
+  "input_lmax": 6000,
+  "output_lmax": 2508,
+  "SOURCE_deflection_RMS_rad": 4.633164870955626e-08,
+  "SOURCE_deflection_RMS_arcsec": 0.009556588544185153,
+  "standard_deflection_RMS_arcsec": 146.8047240519381,
+  "source_to_standard_deflection_variance_ratio": 4.237656144756295e-09,
+  "SOURCE_phi_Dl_max": 7.703879453480074e-16,
+  "SOURCE_phi_Dl_peak_L": 176,
+  "SOURCE_phi_tail_L5800_fraction": 0.0,
+  "SOURCE_lensing_on_baseline_max_abs_Dl_uK2": {
+    "TT": 4.636603989638388e-07,
+    "EE": 1.6845909556195693e-08,
+    "BB": 1.2775270008535955e-09,
+    "TE": 6.540199848359407e-08
+  },
+  "baseline_remap_high_ell_chi2": 585.7475083651195,
+  "baseline_plus_lensed_SOURCE_high_ell_chi2": 585.7475077953264,
+  "SOURCE_primary_lensed_max_TT_Dl_uK2": 1.403492038257518e-05,
+  "covariance_lensing_executed": true,
+  "nonGaussian_SOURCE_exact_remapping": false,
+  "approximation": "Adopted standard isotropic covariance lensing kernel. SOURCE deflection contribution included at leading covariance order; finite SOURCE higher connected moments and primary/lens correlations not fully remapped.",
+  "SOURCE_amplitude_changed": false,
+  "likelihood": "Native high-ell Plik-lite with fixed A_planck=1"
+}

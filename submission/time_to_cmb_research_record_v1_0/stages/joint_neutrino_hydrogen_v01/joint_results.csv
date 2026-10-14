@@ -1,0 +1,3 @@
+model,G_common_phase_rate,L_residual_Hz,hydrogen_heldout_residual_Hz,hydrogen_heldout_relative_residual_ppm,hydrogen_heldout_within_3sigma,neutrino_both_within_marginal_1sigma,atomic_phase_cycle_s,neutrino_first_Pee_minimum_1MeV_s
+Dirac + common S residual,0.9999999133520625,7876237825.225419,-7880335.75,-0.010225576115214602,False,True,1.297606668570817e-15,1.6801764101767931e-06
+Dirac + leading self energy + common S residual,0.9999999947906286,-199005455.97733518,-414263.75,-0.0005375513990503809,False,True,1.2976066559995714e-15,1.6801762733456352e-06
