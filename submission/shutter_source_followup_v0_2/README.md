@@ -3,7 +3,9 @@
 Supply averaging, photon pulses, and CMB higher-order correlations.
 Wonsik Choi and Jeongin Choi, Independent Researchers. 15 October 2026.
 
-Release: https://doi.org/10.5281/zenodo.23380920
+Reserved DOI (public publication pending): https://doi.org/10.5281/zenodo.23380920
+
+Zenodo DOI 10.5281/zenodo.23380920 is reserved. A metadata draft was saved, but file-upload completion and public publication remain unverified after a browser connection failure. Do not treat the reserved DOI as a published record until verified. The preceding input record DOI 10.5281/zenodo.23361676 remains published.
 Inherited clock-to-CMB record: https://doi.org/10.5281/zenodo.23361676
 
 ## Review outcome

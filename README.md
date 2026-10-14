@@ -1,8 +1,8 @@
 ## Reviewed shutter-SOURCE follow-up v0.2 · 2026-10-15
 
-[Supply averaging, photon pulses, and CMB higher-order correlations](submission/shutter_source_followup_v0_2/README.md) · [Zenodo DOI 10.5281/zenodo.23380920](https://doi.org/10.5281/zenodo.23380920).
+[Supply averaging, photon pulses, and CMB higher-order correlations](submission/shutter_source_followup_v0_2/README.md) · [Reserved Zenodo DOI; publication pending 10.5281/zenodo.23380920](https://doi.org/10.5281/zenodo.23380920).
 
-Wonsik Choi and Jeongin Choi. 176 internal numerical controls pass; core v0.1 results preserved. Corrected CMB Gaussian comparator, GDD units, entropy interpretation and reproducibility checks. Complete frozen binary inputs and optical appendix are in the Zenodo ZIP.
+Wonsik Choi and Jeongin Choi. 176 internal numerical controls pass; core v0.1 results preserved. Corrected CMB Gaussian comparator, GDD units, entropy interpretation and reproducibility checks. Complete frozen binary inputs and the optical appendix are packaged in the prepared ZIP; Zenodo publication remains pending after a browser connection failure.
 
 ---
 
