@@ -1,0 +1,24 @@
+{
+  "book_version": "0.20",
+  "authors": [
+    "Wonsik Choi",
+    "Jeongin Choi"
+  ],
+  "date": "2026-10-15",
+  "chapters": 129,
+  "pages": {
+    "KO": 216,
+    "EN": 237
+  },
+  "status": "reviewed files; external publication receipts tracked separately",
+  "existing_suite_checks": 176,
+  "new_astronomical_outputs": false,
+  "candidate_cases": [
+    "M1",
+    "M2",
+    "M3"
+  ],
+  "book_version_DOI": "10.5281/zenodo.23382565",
+  "prior_book_DOI": "10.5281/zenodo.23301590",
+  "separate_followup_DOI": "10.5281/zenodo.23380920"
+}

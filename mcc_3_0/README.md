@@ -1,5 +1,11 @@
 # Minimal Computing Cosmology 3.0
 
+## Current full book — v0.20 (15 October 2026)
+
+[Reviewed Korean/English book, PDFs and verification](book_v0_20/README.md). Chapters 1–129; Korean 216 pages, English 237 pages. Inherited supplier/photon/CMB calculations rerun: 176/176 controls. M1–M3 astronomical numerical outputs remain pending. The earlier stages below retain their scoped historical contracts.
+
+Book version: https://zenodo.org/records/23382565
+
 **Development status:** Stage 6 complete / MCC 3.0 integration closed.
 
 MCC 3.0 integrates the frozen Minimal Computing Cosmology 2.3.2 corpus, the WRRA_M 1.0 executable physical model, and the finite Klein–Zeta SOURCE candidate into one end-to-end finite calculation.

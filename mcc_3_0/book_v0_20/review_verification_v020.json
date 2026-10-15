@@ -1,0 +1,36 @@
+{
+  "KO": {
+    "bytes": 555240,
+    "image_references": 46,
+    "missing_assets": [],
+    "math_delimiters_balanced": true,
+    "new_toc_entries": 8,
+    "candidate_states_preserved": true,
+    "scientific_outputs_retained": true,
+    "media_references": 45
+  },
+  "EN": {
+    "bytes": 533281,
+    "image_references": 46,
+    "missing_assets": [],
+    "math_delimiters_balanced": true,
+    "new_toc_entries": 8,
+    "candidate_states_preserved": true,
+    "scientific_outputs_retained": true,
+    "media_references": 45
+  },
+  "direct_optical_audit": {
+    "phase_states": 128,
+    "minimum_visibility": 0.3586975045641526,
+    "revival_visibility": 0.6081539566256551,
+    "arrival_RMS_s": 4.038596521777721e-17,
+    "passed": true
+  },
+  "rerun_v02": {
+    "controls": 176,
+    "passed": 176,
+    "frozen_source_hashes": 58,
+    "cached_CAMB": true,
+    "new_Boltzmann_run": false
+  }
+}
