@@ -1,0 +1,8 @@
+2026-10-15 internal computational and editorial review
+Rerun: OPENBLAS_NUM_THREADS=1 python3 reproduce.py
+39 supply + 16 photon + 65 CMB + 56 review = 176/176 pass.
+python3 verify.py: 58 frozen/source hashes and stable numerical observables pass after rerun.
+Original v0.2 then restored from its archived ZIP; its output bytes remain frozen.
+The new RERUN_SUMMARY JSON is saved separately.
+No M1/M2/M3 astronomical calculation has been executed by this supplement.
+

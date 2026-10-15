@@ -1,0 +1,106 @@
+WRRA Macroscopic Prediction Cases - Documentation Supplement v0.3
+Wonsik Choi and Jeongin Choi | Independent Researchers | 15 October 2026
+
+Status: This supplement adds a case registry and computation specifications to
+the frozen Shutter-SOURCE Three Targets v0.2. All original files are preserved
+byte-for-byte. No new vertical-kinematics, galaxy-lensing or growth-rate numbers
+are claimed. Existing outputs and proposed calculations are distinguished.
+
+EXISTING MACROSCOPIC OUTPUTS
+Validation inputs: inherited 128-state SOURCE, static preparation, declared
+relative-path coupling g=1 and 1064 nm wavelength.
+WRRA transformation: exact finite-state average of relative optical phases.
+Outputs: visibility 0.3586975046 at the first minimum, 21.780958380 m;
+0.6081539566 at partial recovery, 37.278764320 m; distance ratio 1.7115300286.
+Refutation: disagreement with the fixed preparation, exposure and visibility
+curve refutes that branch. Exposure distance is not automatically device size.
+Conclusion: an existing conditional macroscopic optical calculation.
+
+Validation inputs for existing galactic rotation: simplified McMillan baryons,
+SPARC-calibrated response and fixed a_t=1.1918e-10 m/s^2.
+WRRA transformation: baryonic field to twist response to circular speed.
+Outputs from the 27 September 2026 v1.0 manuscript, not rerun here: 226.3 km/s
+at 8.2 kpc, 201.6 km/s at 25 kpc, RMS 2.42 km/s against the linearized Eilers
+benchmark over 8-25 kpc. This is not an individual-data likelihood result.
+Refutation: failure of the universal response or of the fixed cross-observable
+closure requires revision. Conclusion: inherited astronomical-scale outputs.
+
+M1 - VERTICAL DISK KINEMATICS
+Validation inputs: fixed rotation-calibrated state, baryonic distribution,
+tracer density, selection function and explicitly declared boundary conditions.
+WRRA transformation: direction [n], rho_t and anisotropy q_t to Phi(R,z), then
+K_z=-dPhi/dz and vertical Jeans evolution including the velocity-tilt term.
+Outputs sought: K_z(R,z), sigma_z(R,z), thickness and flaring. Pending.
+The v1.0 manuscript explicitly leaves the q_t closure unspecified. A rotation
+curve alone does not uniquely determine the off-plane gravitational field.
+Refutation: failure of the declared fixed 3D state to explain rotation and
+vertical data, or the need for independent height-by-height tuning.
+Conclusion: registered candidate; establish the spatial-stress closure before
+computing. Calibration is allowed and its use of validation data is recorded.
+
+M2 - LENSING FROM THE SAME GALACTIC STATE
+Validation inputs: the fixed 3D stress state, source/lens distances and geometry.
+WRRA transformation: derive or declare the metric potentials Phi and Psi from
+the same state; alpha_hat=(1/c^2) integral grad_perp(Phi+Psi) dl in the weak-field
+thin-lens approximation, followed by lens geometry. If Phi=Psi is adopted,
+state that GR closure explicitly; anisotropic stress need not imply equality.
+Outputs sought: deflection, convergence, shear and a conditional Einstein angle.
+Pending. A spherical equivalent mass inferred from rotation is not by itself
+a spatial stress distribution or an optical metric. No lensing number from a
+different prior model is relabeled as this galaxy's prediction.
+Refutation: failure of the fixed stress/metric state across kinematics and
+lensing, or the need for independent lensing amplitudes.
+Conclusion: registered candidate. Integration is credited after actual
+state-to-deflection computation, rather than citation of an external formula.
+
+M3 - COSMIC STRUCTURE GROWTH
+Validation inputs: fixed background, composition, address weights, shutter,
+SOURCE preparation, initial perturbations and declared tracer treatment.
+WRRA transformation: SOURCE perturbations to conserved sector stress/exchange,
+metric perturbations and matter transfer; D(k,a) gives f=d ln D/d ln a;
+P_m(k,z) gives sigma_8(z) with an 8 h^-1 Mpc window and f sigma_8(z).
+Outputs sought: P_m(k,z), scale-dependent growth and f sigma_8(z). Pending.
+Seven cached CMB wavenumber transfers and their computed higher-order moments
+are not a substitute for the matter spectrum on a sufficient wavenumber grid.
+Refutation: conservation/constraint failure or disagreement of the fixed
+growth branch with specified observations; redshift-by-redshift retuning is
+recorded as failure of that fixed version.
+Conclusion: registered candidate; run the required matter-transfer calculation.
+
+COMMON ASSESSMENT
+Order: validation inputs -> WRRA transformation -> outputs -> refutation ->
+conclusion. Verified constants may calibrate the model. Reproduction of known
+values counts as empirical consistency and explanatory performance. Outputs
+computed after freezing a calibrated model are attributed to that WRRA model;
+matching another theory's number does not remove attribution. The inherited
+176 controls do not validate the three newly registered physical predictions.
+
+SOURCES
+Shutter-SOURCE Three Targets v0.2, package-listed DOI 10.5281/zenodo.23380920.
+Galactic disk v1.0 manuscript, Wonsik Choi, 27 September 2026, sections 7.1,
+7.4, 9 and 10. No claim is made that later public 3D closures were audited here.
+External cross-observable testing method: https://arxiv.org/abs/1812.08169.
+Live publication status must be verified at the record page rather than inferred
+from a reserved DOI embedded in archived files.
+
+REVIEW REVISION v0.3-r1
+Validation inputs: 11 frozen input files and the inherited actual CAMB transfers.
+WRRA transformation: rerun supply, photons, cmb_higher and review.
+Outputs: 39+16+65+56=176/176 controls passed. Stable numerical observables were
+compared with the frozen numerical reference. M1-M3 outputs remain pending.
+Refutation: numerical/reference, hash or ledger failure blocks this release.
+Conclusion: inherited calculation reproduced; documentation corrected.
+
+M1: Validate the stationary/axisymmetric approximation, particularly for a warped
+or disequilibrium disk. If it fails, include time evolution. Declare covariance
+and acceptance criteria before the observational validation.
+M2: alpha_hat is the physical lens-plane deflection. Distinguish it from observed
+angles and specify angular-diameter-distance conventions and D_ls/D_s. A no-slip
+Phi=Psi closure is an explicit assumption, not an automatic derived result.
+M3: Scale-dependent growth need not admit a universal scalar f sigma_8. Use the
+survey wavenumber window and tracer model to define the effective estimator,
+or compare the calculated P_m(k,z) directly.
+Publication audit: the 23380920 record was a reserved draft when inspected before
+this release. Its public status is established by the live record and a separate
+publication receipt, not by the DOI printed in inherited files.
+

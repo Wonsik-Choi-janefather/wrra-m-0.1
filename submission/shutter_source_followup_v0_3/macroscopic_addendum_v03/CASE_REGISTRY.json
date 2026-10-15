@@ -1,0 +1,39 @@
+{
+  "documentation_version": "0.3-r1",
+  "inherited_computational_version": "0.2",
+  "date": "2026-10-15",
+  "new_physical_outputs_computed": false,
+  "cases": [
+    {
+      "id": "M1",
+      "observable": "vertical disk kinematics",
+      "status": "specification_only",
+      "missing_closure": "3D spatial stress and anisotropy"
+    },
+    {
+      "id": "M2",
+      "observable": "galactic gravitational lensing",
+      "status": "specification_only",
+      "missing_closure": "stress-to-metric relation including Phi and Psi"
+    },
+    {
+      "id": "M3",
+      "observable": "cosmic structure growth",
+      "status": "specification_only",
+      "missing_computation": "conserved perturbation and matter transfer over adequate k grid"
+    }
+  ],
+  "existing_outputs": [
+    "conditional optical coherence curve",
+    "inherited v1.0 Milky Way rotation outputs"
+  ],
+  "original_v02_files": "preserved byte-for-byte",
+  "external_publication_this_operation": false,
+  "review": {
+    "rerun_controls": 176,
+    "passed": 176,
+    "new_predictions_computed": false,
+    "observational_validation": false
+  },
+  "archival_DOI": "10.5281/zenodo.23380920"
+}

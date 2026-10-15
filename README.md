@@ -1,3 +1,9 @@
+## Reviewed SOURCE follow-up and macroscopic specifications v0.3-r1 · 2026-10-15
+
+[Read the Korean/English supplement and rerun record](submission/shutter_source_followup_v0_3/README.md). Existing 176 numerical controls pass again. The three astronomical follow-ups are specifications with pending numerical outputs. [Zenodo reserved record 23380920](https://doi.org/10.5281/zenodo.23380920) is being updated; public release verification is pending.
+
+---
+
 ## Reviewed shutter-SOURCE follow-up v0.2 · 2026-10-15
 
 [Supply averaging, photon pulses, and CMB higher-order correlations](submission/shutter_source_followup_v0_2/README.md) · [Reserved Zenodo DOI; publication pending 10.5281/zenodo.23380920](https://doi.org/10.5281/zenodo.23380920).
