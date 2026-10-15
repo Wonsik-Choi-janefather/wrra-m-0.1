@@ -1,0 +1,1 @@
+Published on Zenodo, 15 October 2026, version 0.3-r1, Open. DOI 10.5281/zenodo.23380920. Public record: https://zenodo.org/records/23380920 . Seven file checksums verified, including the original v0.2 reproduction archive, combined v0.3-r1 archive and macroscopic supplement. Existing numerical rerun: 176/176 pass. M1-M3 numerical outputs remain pending.

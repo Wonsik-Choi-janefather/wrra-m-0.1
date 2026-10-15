@@ -2,21 +2,24 @@
   "version": "0.3-r1",
   "github_status": "committed",
   "review_commit": "b5b11fef731d586fb1ac555f6ab7a8a3c885eba6",
-  "zenodo_draft": "https://zenodo.org/uploads/23380920",
   "doi": "10.5281/zenodo.23380920",
-  "zenodo_publication_verified": false,
-  "zenodo_status": "draft files complete; final public release awaits explicit author confirmation",
+  "zenodo_publication_verified": true,
+  "zenodo_status": "Published; version 0.3-r1; Open; seven public files and checksums verified",
   "files": {
     "Finite_SOURCE_Followup_v0_2_KO.pdf": "be6a74a3b4bbdd6121706e95f3cee61d",
     "Finite_SOURCE_Followup_v0_2_EN.pdf": "355d70f708edbb4a191d6c953e950238",
     "WRRA_Shutter_SOURCE_Three_Targets_v0_2_2026-10-15.zip": "a4902a4fd23afc085ff945dfbc833f0b",
     "WRRA_Macroscopic_Prediction_Cases_v0_3_KO.pdf": "c0a02abaf0f4adc585843a97d6a45f85",
     "WRRA_Macroscopic_Prediction_Cases_v0_3_EN.pdf": "6ba8d3f0423e959ffb9bd436e5a86eba",
-    "WRRA_Macroscopic_Supplement_v0_3_r1_2026-10-15.zip": "d8392fa7ceb75c5a9d2bc5ccb2c4be14"
+    "WRRA_Macroscopic_Supplement_v0_3_r1_2026-10-15.zip": "d8392fa7ceb75c5a9d2bc5ccb2c4be14",
+    "WRRA_Shutter_SOURCE_and_Macroscopic_Cases_v0_3_r1_2026-10-15.zip": "4afcca521645fd37801d3f79fa213b1c"
   },
   "numerical_controls": {
     "passed": 176,
     "total": 176
   },
-  "macroscopic_followup_outputs": "pending"
+  "macroscopic_followup_outputs": "pending",
+  "zenodo_record": "https://zenodo.org/records/23380920",
+  "explicit_author_publication_approval_received": true,
+  "verified_date": "2026-10-15"
 }

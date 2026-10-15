@@ -1,14 +1,14 @@
 ## Reviewed SOURCE follow-up and macroscopic specifications v0.3-r1 · 2026-10-15
 
-[Read the Korean/English supplement and rerun record](submission/shutter_source_followup_v0_3/README.md). Existing 176 numerical controls pass again. The three astronomical follow-ups are specifications with pending numerical outputs. [Zenodo reserved record 23380920](https://doi.org/10.5281/zenodo.23380920) is being updated; public release verification is pending.
+[Read the Korean/English supplement and rerun record](submission/shutter_source_followup_v0_3/README.md). Existing 176 numerical controls pass again. The three astronomical follow-ups are specifications with pending numerical outputs. [Zenodo published record 23380920](https://doi.org/10.5281/zenodo.23380920) is publicly available as version 0.3-r1; publication and all seven file checksums were verified on 15 October 2026.
 
 ---
 
 ## Reviewed shutter-SOURCE follow-up v0.2 · 2026-10-15
 
-[Supply averaging, photon pulses, and CMB higher-order correlations](submission/shutter_source_followup_v0_2/README.md) · [Reserved Zenodo DOI; publication pending 10.5281/zenodo.23380920](https://doi.org/10.5281/zenodo.23380920).
+[Supply averaging, photon pulses, and CMB higher-order correlations](submission/shutter_source_followup_v0_2/README.md) · [Zenodo DOI 10.5281/zenodo.23380920](https://doi.org/10.5281/zenodo.23380920).
 
-Wonsik Choi and Jeongin Choi. 176 internal numerical controls pass; core v0.1 results preserved. Corrected CMB Gaussian comparator, GDD units, entropy interpretation and reproducibility checks. Complete frozen binary inputs and the optical appendix are packaged in the prepared ZIP; Zenodo publication remains pending after a browser connection failure.
+Wonsik Choi and Jeongin Choi. 176 internal numerical controls pass; core v0.1 results preserved. Corrected CMB Gaussian comparator, GDD units, entropy interpretation and reproducibility checks. Complete frozen binary inputs and the optical appendix are published in the Zenodo archive, alongside the reviewed v0.3-r1 macroscopic supplement.
 
 ---
 
