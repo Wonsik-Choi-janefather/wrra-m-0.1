@@ -14,5 +14,15 @@
   "new_external_review": false,
   "zenodo_version_doi": null,
   "prior_book_doi": "10.5281/zenodo.23382565",
-  "all_version_book_doi": "10.5281/zenodo.23202731"
+  "all_version_book_doi": "10.5281/zenodo.23202731",
+  "korean_measurement_supplement": {
+    "date": "2026-10-16",
+    "section": "131.3",
+    "korean_pdf_pages": 224,
+    "english_updated": false,
+    "measured_data_fitted": false,
+    "source": "measurement_calibration_v0_2",
+    "prior_published_version_doi": "10.5281/zenodo.23409261",
+    "zenodo_update_status": "pending"
+  }
 }

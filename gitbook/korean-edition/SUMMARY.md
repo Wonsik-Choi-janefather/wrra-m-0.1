@@ -10,3 +10,4 @@
 * [제10부 — 고에너지에서 표현형까지](part-x.md)
 * [제11부 — 정보부하에서 우주 팽창까지](part-xi.md)
 * [제12부 및 부록 — 최소계산우주론 3.0 최종 통합](part-xii-and-appendices.md)
+* [3차원 기준 모형의 측정·보정 절차](measurement-calibration.md)

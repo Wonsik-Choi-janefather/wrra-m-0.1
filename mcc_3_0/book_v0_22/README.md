@@ -32,3 +32,9 @@ GitBook Korean: https://independent-research.gitbook.io/minimal-computing-cosmol
 GitHub: https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/tree/main/mcc_3_0/book_v0_22
 
 Known-value reproduction counts as explanatory achievement. Unmeasured outputs from fixed calibrated rules remain conditional model predictions. Numerical checks are not new observations or external peer review.
+
+## 2026-10-16 Korean measurement-calibration supplement
+
+The Korean manuscript/PDF now include section131.3: a conditional reference model, measurement-to-parameter map, synthetic sensitivity cases and falsification procedure. Section47.2 is corrected to mu_E=E_e/23=22217.345682174 eV and 23mu_E=510998.95069 eV. The Korean PDF has224 pages; its original222 pages are preserved apart from that formula correction. The English edition retains the preceding text; this supplement is currently Korean.
+
+See [measurement plan](measurement_calibration_v0_2/MEASUREMENT_BRIDGE_KO.md), [results](measurement_calibration_v0_2/results.json), and [runnable archive](measurement_calibration_v0_2/WRRA_Zeta_Mode_Superposition_v0_2_2026-10-16.zip). No measured dataset has been fitted. The preceding Zenodo DOI archives the earlier v0.22; publication of this supplement is tracked separately.

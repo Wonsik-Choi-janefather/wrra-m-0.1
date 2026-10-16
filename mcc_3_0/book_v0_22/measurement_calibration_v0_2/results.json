@@ -1,0 +1,65 @@
+{
+  "baseline": {
+    "shape": [
+      213,
+      65,
+      77
+    ],
+    "N": 1015000,
+    "selected": 935155,
+    "alpha": 1.8996877935161325,
+    "output_probability": 0.004494840216202679
+  },
+  "cases": [
+    {
+      "case": "alpha_plus_0.05",
+      "TV": 0.02401121495153799,
+      "output_probability": 0.0042029055712005554,
+      "relative_output_change": -0.06494883710210175,
+      "conservation_error": 6.661338147750939e-16,
+      "axis_marginal_TV": [
+        0.017856303101755608,
+        0.009029126014514915,
+        0.010646181752022747
+      ]
+    },
+    {
+      "case": "phase_profile_0.05_rad",
+      "TV": 0.02015921630295522,
+      "output_probability": 0.004509685562542909,
+      "relative_output_change": 0.003302752851306545,
+      "conservation_error": 3.9968028886505635e-15,
+      "axis_marginal_TV": [
+        0.009529101614556381,
+        0.00683078112729647,
+        0.007322621272213633
+      ]
+    },
+    {
+      "case": "axis0_coupling_plus_5pct",
+      "TV": 0.03654694379592968,
+      "output_probability": 0.004494840216202678,
+      "relative_output_change": -2.220446049250313e-16,
+      "conservation_error": 4.218847493575595e-15,
+      "axis_marginal_TV": [
+        0.012844150120355346,
+        3.209238430557093e-16,
+        2.050443148604586e-15
+      ]
+    },
+    {
+      "case": "all_phase_plus_0.05_rad",
+      "TV": 2.474052363159366e-16,
+      "output_probability": 0.004494840216202678,
+      "relative_output_change": -2.220446049250313e-16,
+      "conservation_error": 4.218847493575595e-15,
+      "axis_marginal_TV": [
+        1.1953328951652686e-16,
+        1.1058862159352145e-16,
+        1.1752751549742868e-16
+      ]
+    }
+  ],
+  "metric_scale_identifiability": "No sensitivity of dimensionless intensities or output probability to d under fixed U=exp(-iL); need a length/time measurement.",
+  "scope": "Synthetic conditional sensitivities. TV is not an experimental significance or instrument sensitivity. No fitting or full Jacobian rank claim."
+}

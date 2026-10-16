@@ -354,7 +354,7 @@ $$\text{preparation} \rightarrow \text{transformation} \rightarrow \text{shutter
 
 기존 electron mode에서
 
-$$23\mu_{E} = 22217.345682174\ eV$$
+$$\mu_E=E_e/23=22217.345682174\,\mathrm{eV},\qquad23\mu_E=510998.95069\,\mathrm{eV}$$
 
 에 대응하는 characteristic time은
 
