@@ -1,3 +1,9 @@
+## Minimal Computing Cosmology 3.0 — current book v0.22 · 2026-10-16
+
+[Full bilingual book, PDFs, zero-phase superposition code and results](mcc_3_0/book_v0_22/README.md). Chapters 130–131 connect zeta permission, prime-symmetric folding and prime CRT space to an executed conditional spatial interference model. Earlier composition and GR/CMB branches are retained. [All-version Zenodo book record](https://doi.org/10.5281/zenodo.23202731); the v0.22 Zenodo update is pending publication.
+
+---
+
 ## Reviewed SOURCE follow-up and macroscopic specifications v0.3-r1 · 2026-10-15
 
 [Read the Korean/English supplement and rerun record](submission/shutter_source_followup_v0_3/README.md). Existing 176 numerical controls pass again. The three astronomical follow-ups are specifications with pending numerical outputs. [Zenodo published record 23380920](https://doi.org/10.5281/zenodo.23380920) is publicly available as version 0.3-r1; publication and all seven file checksums were verified on 15 October 2026.

@@ -1,0 +1,84 @@
+{
+  "N": 1015000,
+  "M": 1066065,
+  "shape": [
+    213,
+    65,
+    77
+  ],
+  "zero_count": 70,
+  "selected_count": 935155,
+  "max_zeta_residual_high_precision": 3.899780926371731e-34,
+  "max_filter_modulus": 0.2824593561174994,
+  "rows": {
+    "uniform": {
+      "alpha": 0.0,
+      "coherent_success_probability": 0.014262842603785485,
+      "hold_probability": 0.9857371573962146,
+      "norm_conservation_error": 0.0,
+      "incoherent_total_probability": 0.9999999999999999,
+      "coherent_vs_incoherent_conditional_TV": 0.3741526991485098,
+      "gram_first_two_modes_abs": 0.14465985823949387,
+      "synthesis_max_error": 1.3884562417838567e-18,
+      "inverse_max_error": 3.4631944499599864e-19,
+      "controls": {
+        "shifted_heights_gate_forced_open": {
+          "success_probability": 0.014262842603785485,
+          "conditional_intensity_TV_from_zero_coherent": 0.2033147864673217
+        },
+        "equally_spaced_gate_forced_open": {
+          "success_probability": 0.015699470194059935,
+          "conditional_intensity_TV_from_zero_coherent": 0.6511396103393596
+        },
+        "random_relative_phase": {
+          "success_probability": 0.014321926924380883,
+          "conditional_intensity_TV_from_zero_coherent": 0.5484761133514306
+        }
+      }
+    },
+    "inherited_alpha": {
+      "alpha": 1.8996877935161325,
+      "coherent_success_probability": 0.004494840216202679,
+      "hold_probability": 0.9955051597838015,
+      "norm_conservation_error": 4.218847493575595e-15,
+      "incoherent_total_probability": 1.0000000000000042,
+      "coherent_vs_incoherent_conditional_TV": 0.5780259658015634,
+      "gram_first_two_modes_abs": 0.24397025521983515,
+      "synthesis_max_error": 3.1031676915590914e-17,
+      "inverse_max_error": 3.469446951953614e-18,
+      "controls": {
+        "shifted_heights_gate_forced_open": {
+          "success_probability": 0.0044948402162026556,
+          "conditional_intensity_TV_from_zero_coherent": 0.029568019386418128
+        },
+        "equally_spaced_gate_forced_open": {
+          "success_probability": 0.006183590159899898,
+          "conditional_intensity_TV_from_zero_coherent": 0.881265340950844
+        },
+        "random_relative_phase": {
+          "success_probability": 0.016955713647207295,
+          "conditional_intensity_TV_from_zero_coherent": 0.7167374940728677
+        }
+      }
+    }
+  },
+  "checks": {
+    "uniform_conservation": true,
+    "uniform_incoherent_norm": true,
+    "uniform_linear_synthesis": true,
+    "uniform_inverse": true,
+    "uniform_interference_visible": true,
+    "inherited_alpha_conservation": true,
+    "inherited_alpha_incoherent_norm": true,
+    "inherited_alpha_linear_synthesis": true,
+    "inherited_alpha_inverse": true,
+    "inherited_alpha_interference_visible": true,
+    "zero_residual": true,
+    "correct_selected_count": true,
+    "contraction": true,
+    "shift_common_phase_identity": true,
+    "permutation_invariance": true
+  },
+  "all_checks_pass": true,
+  "scope": "conditional finite Mellin-phase superposition; geometry and coherent combining are specified; no derivation of physical 3D or unique zero-to-Laplacian-eigenmode map"
+}

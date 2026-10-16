@@ -1,0 +1,18 @@
+{
+  "book_version": "0.22",
+  "date": "2026-10-16",
+  "chapters": 131,
+  "authors": [
+    "Wonsik Choi",
+    "Jeongin Choi"
+  ],
+  "new_numerical_checks": 15,
+  "new_checks_include_interference_diagnostics": 2,
+  "inherited_v04_relational_checks": 21,
+  "inherited_v04_spatial_checks": 12,
+  "new_gr_cmb_run": false,
+  "new_external_review": false,
+  "zenodo_version_doi": null,
+  "prior_book_doi": "10.5281/zenodo.23382565",
+  "all_version_book_doi": "10.5281/zenodo.23202731"
+}
