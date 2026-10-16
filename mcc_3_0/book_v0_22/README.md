@@ -25,7 +25,7 @@ Build PDFs with `sh render.sh` using Pandoc, XeLaTeX, Noto Sans CJK KR and DejaV
 
 All-version book DOI: https://doi.org/10.5281/zenodo.23202731
 Previous published full book v0.20: https://doi.org/10.5281/zenodo.23382565
-A v0.22 Zenodo version DOI must be recorded only after successful publication. No new DOI is claimed by this package.
+Published v0.22: https://zenodo.org/records/23409261 — DOI 10.5281/zenodo.23409261. Published/Open status and all five public file checksums verified on 16 October 2026. The archived ZIP is the immutable pre-publication snapshot; this README records the subsequent successful publication.
 
 GitBook English: https://independent-research.gitbook.io/minimal-computing-cosmology-3.0/
 GitBook Korean: https://independent-research.gitbook.io/minimal-computing-cosmology-3.0/korean-edition/
