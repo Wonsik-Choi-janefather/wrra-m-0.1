@@ -1,0 +1,644 @@
+{
+  "KO": [
+    {
+      "title": "자연수의 차원별 실행층위",
+      "subtitle": "최상류 1차원수 · 중간 2차원수 · 최종 표현형 3차원수",
+      "blocks": [
+        [
+          "p",
+          "최원식 Wonsik Choi | 독립연구자, 서울, 대한민국<br/>연구 노트 v0.1 | 2026년 10월 16일"
+        ],
+        [
+          "p",
+          "핵심 판독: 소수인가 → 1차원; 그렇지 않고 짝수인가 → 2차원; 나머지 → 3차원."
+        ],
+        [
+          "h",
+          "초록"
+        ],
+        [
+          "p",
+          "이 노트는 자연수 주소를 소수, 짝수 합성수, 홀수 합성수로 배타적으로 분류하고 각각 최상류, 중간층, 최종 표현형층에 배정하는 유한 WRRA 모형을 정의한다. 소수에는 선분, 짝수 합성수에는 방향보존 접합 띠, 홀수 합성수에는 방향반전 접합 띠를 부여한다. 각 구조의 최소 주변 매장차원은 각각 1, 2, 3이다. 이 배정은 모형의 구성규칙이며 정수의 전통적인 차원 정의가 아니다."
+        ],
+        [
+          "table",
+          [
+            [
+              "실행층위",
+              "주소 종류",
+              "최소 주변차원"
+            ],
+            [
+              "최상류",
+              "소수",
+              "1"
+            ],
+            [
+              "중간층",
+              "짝수 합성수",
+              "2"
+            ],
+            [
+              "최종 표현형층",
+              "홀수 합성수의 편입 후보",
+              "3"
+            ]
+          ]
+        ],
+        [
+          "p",
+          "유한 SOURCE N=1,015,000에서 전체 주소를 계산하고 기존 가중과 8프레임 판독을 재실행했다. 기존 보정값을 변경하지 않고 표현형 5%, 비표현형 거주 26.8%, 복귀 68.2%를 재현한다. 차원별 구조 해석과 실제 표현형 편입 확률을 구분한다."
+        ],
+        [
+          "h",
+          "1. 검증 입력"
+        ],
+        [
+          "p",
+          "활성 주소는 n=2,...,N, N=500×29×70=1,015,000이다. 주소 1은 비활성 진공 기준이다. 이 상한은 기존 MCC 3.0의 유한 SOURCE 구성을 상속한다. L=500에는 기존 구성비 목표의 정수 해상도가 반영되어 있다 [1]."
+        ],
+        [
+          "p",
+          "평가 순서는 검증 입력 → WRRA 고유 변환 → 산출값 → 반증조건 → 결론으로 고정한다. 알려진 관측값으로 보정한 모형의 재현은 현실 정합성과 설명 성과로 기록한다."
+        ]
+      ]
+    },
+    {
+      "title": "2. 우주의 차원 판독 규칙",
+      "blocks": [
+        [
+          "h",
+          "2.1 순서가 있는 세 단계 판독"
+        ],
+        [
+          "p",
+          "이 모형에서 우주의 차원 판독은 활성 정수 주소 n≥2에 대해 다음 순서로 실행한다."
+        ],
+        [
+          "math",
+          "소수인가? → 1차원"
+        ],
+        [
+          "math",
+          "그렇지 않고 짝수인가? → 2차원"
+        ],
+        [
+          "math",
+          "나머지 → 3차원"
+        ],
+        [
+          "p",
+          "소수 판정이 우선이므로 2는 1차원이다. 두 번째 분기는 짝수 합성수, 마지막 분기는 홀수 합성수와 정확히 일치한다. 1은 기존 SOURCE에서 비활성 진공 기준이며 이 활성 판독에서 제외한다. 이 규칙은 WRRA의 차원 해석 구성규칙으로 선언한다."
+        ],
+        [
+          "h",
+          "2.2 최소 표현차원의 한 위상적 구현"
+        ],
+        [
+          "p",
+          "위 판독에 기하학적 구현을 부여하는 한 방법을 제시한다. 소수 p에는 선분 X(p)=[0,p]를 배정한다. 합성수 n에는 a=최소 소인수, b=n/a를 택하고 양의 폭의 직사각형 B(n)=[0,b]×[-a/2,a/2]를 만든다."
+        ],
+        [
+          "math",
+          "sigma(n)=(-1)^n,     X(n)=B(n)/[(0,y) ~ (b,sigma(n)y)]"
+        ],
+        [
+          "p",
+          "짝수 합성수는 방향보존 접합의 고리 면, 홀수 합성수는 방향반전 접합의 뫼비우스 띠이다. 선분은 R¹에, 고리 면은 R²에 매장된다. 뫼비우스 띠는 비가향이라 평면 매장이 불가능하고 R³ 매장이 존재한다 [2,3]. 따라서 이 구현에서 최소 주변 매장차원은 판독값 1/2/3과 일치한다."
+        ],
+        [
+          "h",
+          "2.3 구성규칙과 수학적 의미"
+        ],
+        [
+          "p",
+          "최소 주변차원은 연결성·방향전달·주소 라벨을 보존하는 연속 매장으로 정의한다. 길이·면적 보존은 요구하지 않는다. 띠와 홀짝 접합의 배정은 이 판독을 구현하기 위해 채택한 규칙이며 수론만으로 유도한 정리는 아니다. 뫼비우스 띠 자체의 내재차원은 2이고, 여기서 3은 주변 매장차원이다."
+        ],
+        [
+          "p",
+          "이 보조 띠의 경계와 모양으로 우주 전체의 경계나 물질 부피를 확정하지 않는다. 또한 짝수는 2 이외의 소인수를 가질 수 있다. 차원 판독, 배가 연산자, 실제 공간 및 에너지의 물리적 대응은 각각의 역할을 유지한다."
+        ]
+      ]
+    },
+    {
+      "title": "3. 유한 주소 전체의 산출값",
+      "blocks": [
+        [
+          "h",
+          "3.1 층위와 분기"
+        ],
+        [
+          "p",
+          "세 층위는 주소의 구성·표현 역할을 나타낸다. 모든 소수가 반드시 같은 경로로 짝수 합성수를 거쳐 홀수 합성수가 된다는 동역학적 전이식을 이 분류만으로 정하지 않는다. 개별 조립·전이 규칙은 별도 계산 대상이다."
+        ],
+        [
+          "p",
+          "중간층의 짝수 합성수는 기존 비표현형 거주 D에 배치한다. 최종층의 홀수 합성수는 표현형 편입 후보이며, 실제 P 편입은 기존 판독 효과 eP(n)로 계산한다. 소수는 R, 미편입 홀수 합성수도 R에 기여한다."
+        ],
+        [
+          "table",
+          [
+            [
+              "분류",
+              "주소 개수",
+              "개수 비율"
+            ],
+            [
+              "소수 / 최상류",
+              "79,608",
+              "7.843160%"
+            ],
+            [
+              "짝수 합성수 / 중간층",
+              "507,499",
+              "49.999951%"
+            ],
+            [
+              "홀수 합성수 / 최종층",
+              "427,892",
+              "42.156889%"
+            ],
+            [
+              "활성 주소 전체",
+              "1,014,999",
+              "100%"
+            ]
+          ]
+        ],
+        [
+          "h",
+          "3.2 같은 정규화에서 가중 합산"
+        ],
+        [
+          "math",
+          "w(n)=n^(-alpha) / sum[m=2,...,N] m^(-alpha)"
+        ],
+        [
+          "p",
+          "단순한 주소 개수 대신 기존 주소별 부하 가중을 사용한다. alpha=2일 때 홀수 합성수 가중은 4.8768942177%, 짝수 합성수는 24.9999618092%이다. 다른 지수에서 얻은 두 수를 직접 합산하지 않는다."
+        ],
+        [
+          "table",
+          [
+            [
+              "alpha=1.8996877935161325",
+              "정규화 가중"
+            ],
+            [
+              "소수 Pprime",
+              "67.4227036122%"
+            ],
+            [
+              "짝수 합성수 D",
+              "26.8000000000%"
+            ],
+            [
+              "홀수 합성수 O",
+              "5.7772963878%"
+            ]
+          ]
+        ],
+        [
+          "p",
+          "차원 해석을 붙여도 분류의 원소와 가중은 바뀌지 않는다. 따라서 기존 주소장부와의 계산적 연결이 보존된다."
+        ]
+      ]
+    },
+    {
+      "title": "4. 구성비 비교: 기존 판독의 재실행",
+      "blocks": [
+        [
+          "h",
+          "4.1 동결 입력"
+        ],
+        [
+          "p",
+          "alpha=1.8996877935161325, h=1.4476744689338703. 네 모드의 계수는 각각 0.5, 위상 오프셋은 0, 프레임 이동 xi=0.1, 프레임 수는 8이다. gamma=(14.134725141734695, 21.022039638771556, 25.01085758014569, 30.424876125859512)를 사용한다 [1]."
+        ],
+        [
+          "math",
+          "d_k(n)=sum[j=1,...,4] 0.5 cos[gamma_j(log n+0.1k)]"
+        ],
+        [
+          "math",
+          "t_k(n)=sigmoid(d_k(n)-h),     eP(n)=1-prod[k=0,...,7](1-t_k(n))"
+        ],
+        [
+          "p",
+          "홀수 합성수에서 eR=1-eP이다. 소수에는 eR=1, 짝수 합성수에는 eD=1을 적용한다. 각 주소에서 효과는 비음수이고 합이 1이다."
+        ],
+        [
+          "table",
+          [
+            [
+              "최종 주소장부",
+              "재계산 결과"
+            ],
+            [
+              "보통물질 표현형 P",
+              "5.0000000000%"
+            ],
+            [
+              "비표현형 거주 D / 암흑물질 대응",
+              "26.8000000000%"
+            ],
+            [
+              "복귀 R / 암흑에너지 대응",
+              "68.2000000000%"
+            ],
+            [
+              "합계",
+              "100%"
+            ]
+          ]
+        ],
+        [
+          "math",
+          "betaeff=P/O=0.8654567230719307"
+        ],
+        [
+          "p",
+          "홀수 합성수 중 미편입 복귀분은 0.7772963878%이다. 따라서 복귀는 소수 67.4227036122%와 미편입분의 합으로 닫힌다. betaeff는 실제 판독의 요약 결과이며 추가 세 번째 보정값이 아니다."
+        ],
+        [
+          "h",
+          "4.2 보정 계보와 해석"
+        ],
+        [
+          "p",
+          "기존 alpha,h를 변경하지 않고 위 수치를 재현했다. 같은 목표로 두 값을 별도 역산한 검산도 부동소수점 수준에서 기존 값을 되찾았다. alpha,h는 원래 구성비에 보정된 값이며 이 노트는 그 설명 재현을 확인한다. ESA의 2013 자료는 보통물질 4.9%, 암흑물질 26.8%를 제시하며, 여기서는 기존 WRRA의 반올림 목표 5/26.8/68.2를 상속한다 [4]."
+        ],
+        [
+          "p",
+          "주소 가중을 실제 SI 질량-에너지 밀도로 읽으려면 기존 에너지 장부의 변환·보존·압력과 연결해야 한다. 이 노트의 수치는 주소장부의 구성비이다. 새 관측 우도 분석이나 입자 질량 계산을 수행하지 않았다."
+        ]
+      ]
+    },
+    {
+      "title": "5. 반증조건과 결론",
+      "blocks": [
+        [
+          "h",
+          "5.1 재실행과 수정 조건"
+        ],
+        [
+          "p",
+          "재실행 코드가 전체 활성 주소를 배타적·완전하게 분류하지 못하거나, 효과의 양성과 합계 1을 보존하지 못하거나, 공개 입력으로 구성비를 재현하지 못하면 해당 계산을 수정한다. 선언된 방향전달과 연결성을 보존하는 홀수 띠의 평면 매장이 존재한다면 최소차원 명제를 수정한다."
+        ],
+        [
+          "p",
+          "기하학에서 질량·응력·압력을 실제로 산출하는 후속 변환이 관측과 양립하지 않으면 물리적 대응을 수정한다. 독립예측을 이 모형 구성의 필수조건으로 요구하지 않는다. 보정된 현실값의 재현과 모형 확정 뒤 산출하는 미측정량의 예측은 각각의 지위로 기록한다."
+        ],
+        [
+          "h",
+          "5.2 검증 범위"
+        ],
+        [
+          "p",
+          "전체 1,014,999개 주소의 분류와 합산을 실행했다. 두 입력의 재보정 검산 및 N=15,000, 507,500, 2,030,000에서 입력 동결 민감도를 계산했다. 고리 면 1개와 홀수 띠 3개의 삼각분할에서 방향 일관성, 경계 성분, Euler 수를 검사했다. 일반 최소 매장차원의 근거는 위상적 논증이며 대표 수치 검사만으로 모든 물리 주장을 증명한 것은 아니다."
+        ],
+        [
+          "h",
+          "5.3 결론"
+        ],
+        [
+          "p",
+          "최상류 1차원수(소수), 중간 2차원수(짝수 합성수), 최종 표현형층 3차원수(홀수 합성수)라는 유한 구성규칙을 명시했다. 이 구조에서 차원은 필요한 최소 주변 매장차원으로 계산된다. 기존 가중과 실제 판독을 보존해 5% / 26.8% / 68.2% 주소장부를 재현했다. 수론적 분류, 위상적 구현, 물리적 판독을 구분하면서 하나의 실행 계보로 연결하는 것이 이번 노트의 성과다."
+        ],
+        [
+          "h",
+          "참고자료 및 재현"
+        ],
+        [
+          "p",
+          "[1] Choi, W. & Choi, J. Minimal Computing Cosmology 3.0, Book v0.20 (2026), Chapters 39, 46, 75. DOI: 10.5281/zenodo.23382565.<br/>[2] Open University. Surfaces, 3.2 Orientability, OpenLearn.<br/>[3] Open University. Surfaces, 2.3.2 Mobius band, OpenLearn.<br/>[4] ESA. Planck reveals an almost perfect Universe (21 March 2013)."
+        ],
+        [
+          "p",
+          "코드 실행: python3 reproduce.py --output results.json<br/>의존성: Python 3, NumPy, SciPy. 실행 환경과 세부 수치는 results.json에 있다. 문서·자료·코드: CC BY 4.0. 본 노트는 기존 책과 별도의 공개 기록이다."
+        ]
+      ]
+    }
+  ],
+  "EN": [
+    {
+      "title": "Dimensional Execution Layers of Natural Numbers",
+      "subtitle": "Upstream 1D numbers, intermediate 2D numbers, and final 3D phenotype",
+      "blocks": [
+        [
+          "p",
+          "Wonsik Choi | Independent Researcher, Seoul, Republic of Korea<br/>Research note v0.1 | 16 October 2026"
+        ],
+        [
+          "p",
+          "Core readout: prime → 1D; otherwise even → 2D; otherwise → 3D."
+        ],
+        [
+          "h",
+          "Abstract"
+        ],
+        [
+          "p",
+          "This note defines a finite WRRA construction assigning prime, even-composite and odd-composite addresses to upstream, intermediate and final phenotype layers. A prime is assigned an interval, an even composite an orientation-preserving quotient band, and an odd composite an orientation-reversing quotient band. Their minimum Euclidean ambient embedding dimensions are 1, 2 and 3. These assignments are explicit modeling rules, rather than a conventional dimension assigned to integers."
+        ],
+        [
+          "table",
+          [
+            [
+              "Execution layer",
+              "Address class",
+              "Minimum ambient dimension"
+            ],
+            [
+              "Upstream",
+              "Prime",
+              "1"
+            ],
+            [
+              "Intermediate",
+              "Even composite",
+              "2"
+            ],
+            [
+              "Final phenotype layer",
+              "Odd-composite candidate",
+              "3"
+            ]
+          ]
+        ],
+        [
+          "p",
+          "All active addresses through N=1,015,000 are classified and the inherited weights and eight-frame admission calculation are replayed. With the published calibration parameters unchanged, the address ledger reproduces 5% phenotype, 26.8% resident nonphenotype and 68.2% return. Structural eligibility and actual phenotype admission remain distinct."
+        ],
+        [
+          "h",
+          "1. Verified inputs"
+        ],
+        [
+          "p",
+          "The active domain is n=2,...,N, with N=500×29×70=1,015,000. Address 1 is an inactive vacuum reference. The finite SOURCE construction is inherited from MCC 3.0; L=500 includes the integer resolution of the previous composition targets [1]."
+        ],
+        [
+          "p",
+          "The assessment order is verified inputs → WRRA transformations → outputs → falsification conditions → conclusion. Calibration using established observations is legitimate model construction; reproduction is recorded as explanatory and empirical consistency."
+        ]
+      ]
+    },
+    {
+      "title": "2. The universe dimension-readout rule",
+      "blocks": [
+        [
+          "h",
+          "2.1 An ordered three-stage readout"
+        ],
+        [
+          "p",
+          "In this model, the universe reads the dimension of an active integer address n≥2 in this exact order:"
+        ],
+        [
+          "math",
+          "Is it prime? → dimension 1"
+        ],
+        [
+          "math",
+          "Otherwise, is it even? → dimension 2"
+        ],
+        [
+          "math",
+          "Otherwise → dimension 3"
+        ],
+        [
+          "p",
+          "Primality takes precedence: 2 belongs to dimension 1. The second branch is exactly the even composites; the final branch is exactly the odd composites. Address 1 is the inherited inactive vacuum reference outside this active readout. This is declared as a WRRA dimension-interpretation rule."
+        ],
+        [
+          "h",
+          "2.2 One topological realization of minimum dimension"
+        ],
+        [
+          "p",
+          "One geometric realization of the readout assigns an interval X(p)=[0,p] to a prime p. For composite n, choose its smallest prime factor a and b=n/a, and form a positive-width rectangle B(n)=[0,b]×[-a/2,a/2]."
+        ],
+        [
+          "math",
+          "sigma(n)=(-1)^n,     X(n)=B(n)/[(0,y) ~ (b,sigma(n)y)]"
+        ],
+        [
+          "p",
+          "Even composites give an orientation-preserving annulus; odd composites give an orientation-reversing Mobius band. An interval embeds in R¹ and an annulus in R². The Mobius band is nonorientable, cannot embed in the plane, and admits an embedding in R³ [2,3]. Thus this realization has minimum ambient dimensions matching readout values 1/2/3."
+        ],
+        [
+          "h",
+          "2.3 Construction rules and mathematical meaning"
+        ],
+        [
+          "p",
+          "Minimum ambient dimension preserves connectivity, orientation transport and address labels under continuous embedding. Isometry is not required. Assigning bands and parity-dependent seams is a chosen realization rule, not a theorem derived from arithmetic alone. A Mobius band is intrinsically two-dimensional; 3 here is its ambient embedding dimension."
+        ],
+        [
+          "p",
+          "The auxiliary bands do not establish the boundary or volume of the universe or of matter. Even integers can have odd prime factors. Dimension readout, the doubling operator, and the physical correspondence to space and energy retain their distinct roles."
+        ]
+      ]
+    },
+    {
+      "title": "3. Outputs across the finite address domain",
+      "blocks": [
+        [
+          "h",
+          "3.1 Layers and branches"
+        ],
+        [
+          "p",
+          "The three layers describe structural and representational roles. A dynamical rule converting every prime through an even composite into an odd composite is not specified by this classification. Assembly histories require a separate transition calculation."
+        ],
+        [
+          "p",
+          "Even composites occupy the inherited resident-nonphenotype branch D. Odd composites are eligible for the final phenotype layer; actual P admission is calculated by eP(n). Primes return through R, and unadmitted odd-composite weight also returns."
+        ],
+        [
+          "table",
+          [
+            [
+              "Class",
+              "Address count",
+              "Count fraction"
+            ],
+            [
+              "Prime / upstream",
+              "79,608",
+              "7.843160%"
+            ],
+            [
+              "Even composite / intermediate",
+              "507,499",
+              "49.999951%"
+            ],
+            [
+              "Odd composite / final",
+              "427,892",
+              "42.156889%"
+            ],
+            [
+              "All active addresses",
+              "1,014,999",
+              "100%"
+            ]
+          ]
+        ],
+        [
+          "h",
+          "3.2 Weighted sums in a common normalization"
+        ],
+        [
+          "math",
+          "w(n)=n^(-alpha) / sum[m=2,...,N] m^(-alpha)"
+        ],
+        [
+          "p",
+          "The inherited address-load weight replaces a uniform address count. At alpha=2, odd-composite weight is 4.8768942177% and even-composite weight is 24.9999618092%. Fractions computed at different exponents are not combined into one ledger."
+        ],
+        [
+          "table",
+          [
+            [
+              "alpha=1.8996877935161325",
+              "Normalized weight"
+            ],
+            [
+              "Prime weight Pprime",
+              "67.4227036122%"
+            ],
+            [
+              "Even-composite weight D",
+              "26.8000000000%"
+            ],
+            [
+              "Odd-composite weight O",
+              "5.7772963878%"
+            ]
+          ]
+        ],
+        [
+          "p",
+          "The geometric interpretation preserves class membership and weights, thereby preserving the computational interface to the inherited address ledger."
+        ]
+      ]
+    },
+    {
+      "title": "4. Composition comparison: replay of admission",
+      "blocks": [
+        [
+          "h",
+          "4.1 Frozen inputs"
+        ],
+        [
+          "p",
+          "Use alpha=1.8996877935161325 and h=1.4476744689338703. Each of four modes has coefficient 0.5, with zero phase offsets, frame shift xi=0.1 and eight frames. The modes are gamma=(14.134725141734695, 21.022039638771556, 25.01085758014569, 30.424876125859512) [1]."
+        ],
+        [
+          "math",
+          "d_k(n)=sum[j=1,...,4] 0.5 cos[gamma_j(log n+0.1k)]"
+        ],
+        [
+          "math",
+          "t_k(n)=sigmoid(d_k(n)-h),     eP(n)=1-prod[k=0,...,7](1-t_k(n))"
+        ],
+        [
+          "p",
+          "For odd composites eR=1-eP. Primes have eR=1; even composites have eD=1. The effects at each address are nonnegative and sum to one."
+        ],
+        [
+          "table",
+          [
+            [
+              "Final address ledger",
+              "Recomputed fraction"
+            ],
+            [
+              "Ordinary-matter phenotype P",
+              "5.0000000000%"
+            ],
+            [
+              "Resident nonphenotype D / dark-matter counterpart",
+              "26.8000000000%"
+            ],
+            [
+              "Return R / dark-energy counterpart",
+              "68.2000000000%"
+            ],
+            [
+              "Total",
+              "100%"
+            ]
+          ]
+        ],
+        [
+          "math",
+          "betaeff=P/O=0.8654567230719307"
+        ],
+        [
+          "p",
+          "Unadmitted odd-composite return is 0.7772963878%. Return therefore closes as 67.4227036122% prime weight plus this residual. betaeff summarizes the executed admission, rather than providing a third independent fitting parameter."
+        ],
+        [
+          "h",
+          "4.2 Calibration provenance and interpretation"
+        ],
+        [
+          "p",
+          "The inherited alpha and h are unchanged in this replay. A separate two-input inverse check recovers their values to floating-point precision. They were originally calibrated to composition; this note verifies that explanatory reproduction. ESA's 2013 summary reports 4.9% ordinary matter and 26.8% dark matter; the inherited WRRA targets are the rounded 5/26.8/68.2 [4]."
+        ],
+        [
+          "p",
+          "Interpreting address weights as SI mass-energy density fractions requires the corresponding energy conversion, conservation and pressure ledger. This note reports address fractions. It performs neither a new observational likelihood analysis nor a particle-mass calculation."
+        ]
+      ]
+    },
+    {
+      "title": "5. Falsification conditions and conclusion",
+      "blocks": [
+        [
+          "h",
+          "5.1 Reproduction and revision conditions"
+        ],
+        [
+          "p",
+          "Revise the numerical claim if the published program fails to classify the active domain exhaustively and exclusively, violates positivity or completeness, or fails to reproduce the fractions from the specified inputs. Revise the minimum-dimension claim if an embedding of the odd quotient band in the plane preserves its declared topology."
+        ],
+        [
+          "p",
+          "Revise physical correspondences if a subsequent executed geometry-to-energy, stress or pressure map is incompatible with observations. An independent prediction is not imposed as a prerequisite for constructing this model. Calibrated reproduction and unmeasured outputs calculated after fixing a model retain their respective evidential status."
+        ],
+        [
+          "h",
+          "5.2 Validation scope"
+        ],
+        [
+          "p",
+          "The replay covers all 1,014,999 active addresses. It includes a two-parameter inverse check and frozen-input sensitivity at N=15,000, 507,500 and 2,030,000. Incidence-based orientation, boundary-component and Euler checks are run for one annulus and three odd quotient bands. The general minimum-embedding argument is topological; representative mesh checks do not establish all physical claims."
+        ],
+        [
+          "h",
+          "5.3 Conclusion"
+        ],
+        [
+          "p",
+          "The finite construction explicitly organizes primes as upstream 1D numbers, even composites as intermediate 2D numbers, and odd composites as final-layer 3D numbers. Dimension is computed as the minimum ambient embedding dimension of the assigned structure. The inherited weighting and executed admission preserve the 5%/26.8%/68.2% address ledger. The contribution is an explicit connection among arithmetic classes, topological implementation and physical readout within a common execution genealogy."
+        ],
+        [
+          "h",
+          "References and reproduction"
+        ],
+        [
+          "p",
+          "[1] Choi, W. & Choi, J. Minimal Computing Cosmology 3.0, Book v0.20 (2026), Chapters 39, 46, 75. DOI: 10.5281/zenodo.23382565.<br/>[2] Open University. Surfaces, 3.2 Orientability, OpenLearn.<br/>[3] Open University. Surfaces, 2.3.2 Mobius band, OpenLearn.<br/>[4] ESA. Planck reveals an almost perfect Universe (21 March 2013)."
+        ],
+        [
+          "p",
+          "Run: python3 reproduce.py --output results.json<br/>Dependencies: Python 3, NumPy, SciPy. Numerical details and execution versions are in results.json. Notes, data and code: CC BY 4.0. This note is a separate publication from the book."
+        ]
+      ]
+    }
+  ]
+}

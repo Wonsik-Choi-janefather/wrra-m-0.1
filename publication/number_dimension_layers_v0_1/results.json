@@ -1,0 +1,260 @@
+{
+  "version": "0.1",
+  "date": "2026-10-16",
+  "status": "new declared geometric interpretation; inherited calibrated address ledger replay",
+  "target": {
+    "ordinary": 0.05,
+    "dark": 0.268,
+    "returned": 0.6819999999999999
+  },
+  "inputs": {
+    "alpha": 1.8996877935161325,
+    "h": 1.4476744689338703,
+    "gamma": [
+      14.134725141734695,
+      21.022039638771556,
+      25.01085758014569,
+      30.424876125859512
+    ],
+    "xi": 0.1,
+    "frames": 8,
+    "coefficient": 0.5
+  },
+  "reference": {
+    "N": 1015000,
+    "active_count": 1014999,
+    "dimension_counts": {
+      "1": 79608,
+      "2": 507499,
+      "3": 427892
+    },
+    "counts": {
+      "prime": 79608,
+      "even_composite": 507499,
+      "odd_composite": 427892
+    },
+    "uniform": {
+      "prime": 0.07843160436611268,
+      "even_composite": 0.49999950738867743,
+      "odd_composite": 0.4215688882452102
+    },
+    "inverse_square": {
+      "prime": 0.7012314397304586,
+      "even_composite": 0.24999961809207544,
+      "odd_composite": 0.048768942177466135
+    },
+    "fixed_alpha_raw": {
+      "prime": 0.6742270361220081,
+      "even_composite": 0.26799999999999996,
+      "odd_composite": 0.057772963877992065
+    },
+    "inherited_frozen": {
+      "ordinary": 0.05000000000000003,
+      "dark": 0.26799999999999996,
+      "returned": 0.682,
+      "total": 1.0,
+      "prime_return": 0.6742270361220081,
+      "odd_return": 0.007772963877991983,
+      "odd_weight": 0.057772963877992065,
+      "beta_effective": 0.8654567230719307,
+      "admission_min": 0.789878739992302,
+      "admission_max": 0.9039450239068342
+    },
+    "refit": {
+      "alpha": 1.899687793516133,
+      "h": 1.4476744689338696,
+      "ledger": {
+        "ordinary": 0.04999999999999999,
+        "dark": 0.2679999999999999,
+        "returned": 0.682,
+        "total": 1.0,
+        "prime_return": 0.6742270361220081,
+        "odd_return": 0.007772963877991969,
+        "odd_weight": 0.05777296387799202,
+        "beta_effective": 0.8654567230719306,
+        "admission_min": 0.7898787399923021,
+        "admission_max": 0.9039450239068343
+      }
+    }
+  },
+  "cutoff_sensitivity": [
+    {
+      "N": 15000,
+      "active_count": 14999,
+      "dimension_counts": {
+        "1": 1754,
+        "2": 7499,
+        "3": 5746
+      },
+      "counts": {
+        "prime": 1754,
+        "even_composite": 7499,
+        "odd_composite": 5746
+      },
+      "uniform": {
+        "prime": 0.11694112940862722,
+        "even_composite": 0.49996666444429627,
+        "odd_composite": 0.3830922061470764
+      },
+      "inverse_square": {
+        "prime": 0.7012931741566605,
+        "even_composite": 0.24997415747791826,
+        "odd_composite": 0.04873266836542142
+      },
+      "fixed_alpha_raw": {
+        "prime": 0.6743739441872486,
+        "even_composite": 0.2679412166023011,
+        "odd_composite": 0.057684839210450006
+      },
+      "inherited_frozen": {
+        "ordinary": 0.049924243758875234,
+        "dark": 0.2679412166023011,
+        "returned": 0.6821345396388234,
+        "total": 0.9999999999999998,
+        "prime_return": 0.6743739441872486,
+        "odd_return": 0.007760595451574775,
+        "odd_weight": 0.057684839210450006,
+        "beta_effective": 0.8654655961983008,
+        "admission_min": 0.7928165782782444,
+        "admission_max": 0.9039450239068342
+      }
+    },
+    {
+      "N": 507500,
+      "active_count": 507499,
+      "dimension_counts": {
+        "1": 42104,
+        "2": 253749,
+        "3": 211646
+      },
+      "counts": {
+        "prime": 42104,
+        "even_composite": 253749,
+        "odd_composite": 211646
+      },
+      "uniform": {
+        "prime": 0.08296371027332072,
+        "even_composite": 0.499999014776384,
+        "odd_composite": 0.4170372749502955
+      },
+      "inverse_square": {
+        "prime": 0.701232397397569,
+        "even_composite": 0.24999923618411285,
+        "odd_composite": 0.04876836641831823
+      },
+      "fixed_alpha_raw": {
+        "prime": 0.6742300719593369,
+        "even_composite": 0.26799882597583596,
+        "odd_composite": 0.05777110206482697
+      },
+      "inherited_frozen": {
+        "ordinary": 0.04999838054754892,
+        "dark": 0.26799882597583596,
+        "returned": 0.682002793476615,
+        "total": 0.9999999999999998,
+        "prime_return": 0.6742300719593369,
+        "odd_return": 0.0077727215172780344,
+        "odd_weight": 0.05777110206482697,
+        "beta_effective": 0.8654565822795623,
+        "admission_min": 0.789878739992302,
+        "admission_max": 0.9039450239068342
+      }
+    },
+    {
+      "N": 2030000,
+      "active_count": 2029999,
+      "dimension_counts": {
+        "1": 151021,
+        "2": 1014999,
+        "3": 863979
+      },
+      "counts": {
+        "prime": 151021,
+        "even_composite": 1014999,
+        "odd_composite": 863979
+      },
+      "uniform": {
+        "prime": 0.0743946179283832,
+        "even_composite": 0.4999997536944599,
+        "odd_composite": 0.42560562837715693
+      },
+      "inverse_square": {
+        "prime": 0.7012309581485971,
+        "even_composite": 0.24999980904604252,
+        "odd_composite": 0.04876923280536058
+      },
+      "fixed_alpha_raw": {
+        "prime": 0.6742253991614222,
+        "even_composite": 0.2680006292766333,
+        "odd_composite": 0.05777397156194442
+      },
+      "inherited_frozen": {
+        "ordinary": 0.050000867626743585,
+        "dark": 0.2680006292766333,
+        "returned": 0.681998503096623,
+        "total": 1.0,
+        "prime_return": 0.6742253991614222,
+        "odd_return": 0.007773103935200815,
+        "odd_weight": 0.05777397156194442,
+        "beta_effective": 0.8654566455264958,
+        "admission_min": 0.789878739992302,
+        "admission_max": 0.9039450239068342
+      }
+    }
+  ],
+  "topology_incidence_checks": [
+    {
+      "rectangle": [
+        2,
+        4
+      ],
+      "flip": false,
+      "orientable": true,
+      "boundary_components": 2,
+      "euler": 0
+    },
+    {
+      "rectangle": [
+        3,
+        3
+      ],
+      "flip": true,
+      "orientable": false,
+      "boundary_components": 1,
+      "euler": 0
+    },
+    {
+      "rectangle": [
+        3,
+        5
+      ],
+      "flip": true,
+      "orientable": false,
+      "boundary_components": 1,
+      "euler": 0
+    },
+    {
+      "rectangle": [
+        5,
+        5
+      ],
+      "flip": true,
+      "orientable": false,
+      "boundary_components": 1,
+      "euler": 0
+    }
+  ],
+  "environment": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "interpretation_limits": [
+    "Dimension means minimum topological ambient embedding dimension of the declared object.",
+    "Parity-dependent seam is a new modeling postulate, not a theorem of arithmetic.",
+    "Mobius band has intrinsic dimension two and a boundary; no boundaryless universe inference.",
+    "Numbers are address weights, not automatically SI mass-energy density fractions.",
+    "The fraction targets and N construction inherit observational calibration.",
+    "No new alpha/h needed to replay the old ledger; numerical refit is a verification only.",
+    "Geometric folding energy, particle mass, pressure, and dynamics are not computed here."
+  ]
+}

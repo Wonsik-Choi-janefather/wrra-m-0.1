@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this finite WRRA research note when using the dimension-readout construction."
+title: "Dimensional Execution Layers of Natural Numbers: A Finite WRRA Construction"
+version: "0.1"
+date-released: 2026-10-16
+type: report
+authors:
+  - family-names: Choi
+    given-names: Wonsik
+    affiliation: "Independent Researcher, Seoul, Republic of Korea"
+license: CC-BY-4.0
+repository-code: "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/tree/main/publication/number_dimension_layers_v0_1"

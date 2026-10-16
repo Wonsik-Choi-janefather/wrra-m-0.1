@@ -1,0 +1,137 @@
+Dimensional Execution Layers of Natural Numbers
+Upstream 1D numbers, intermediate 2D numbers, and final 3D phenotype
+
+Wonsik Choi | Independent Researcher, Seoul, Republic of Korea
+Research note v0.1 | 16 October 2026
+
+Core readout: prime → 1D; otherwise even → 2D; otherwise → 3D.
+
+Abstract
+
+This note defines a finite WRRA construction assigning prime, even-composite and odd-composite addresses to upstream, intermediate and final phenotype layers. A prime is assigned an interval, an even composite an orientation-preserving quotient band, and an odd composite an orientation-reversing quotient band. Their minimum Euclidean ambient embedding dimensions are 1, 2 and 3. These assignments are explicit modeling rules, rather than a conventional dimension assigned to integers.
+
+Execution layer | Address class | Minimum ambient dimension
+Upstream | Prime | 1
+Intermediate | Even composite | 2
+Final phenotype layer | Odd-composite candidate | 3
+
+All active addresses through N=1,015,000 are classified and the inherited weights and eight-frame admission calculation are replayed. With the published calibration parameters unchanged, the address ledger reproduces 5% phenotype, 26.8% resident nonphenotype and 68.2% return. Structural eligibility and actual phenotype admission remain distinct.
+
+1. Verified inputs
+
+The active domain is n=2,...,N, with N=500×29×70=1,015,000. Address 1 is an inactive vacuum reference. The finite SOURCE construction is inherited from MCC 3.0; L=500 includes the integer resolution of the previous composition targets [1].
+
+The assessment order is verified inputs → WRRA transformations → outputs → falsification conditions → conclusion. Calibration using established observations is legitimate model construction; reproduction is recorded as explanatory and empirical consistency.
+
+2. The universe dimension-readout rule
+
+
+2.1 An ordered three-stage readout
+
+In this model, the universe reads the dimension of an active integer address n≥2 in this exact order:
+
+Is it prime? → dimension 1
+
+Otherwise, is it even? → dimension 2
+
+Otherwise → dimension 3
+
+Primality takes precedence: 2 belongs to dimension 1. The second branch is exactly the even composites; the final branch is exactly the odd composites. Address 1 is the inherited inactive vacuum reference outside this active readout. This is declared as a WRRA dimension-interpretation rule.
+
+2.2 One topological realization of minimum dimension
+
+One geometric realization of the readout assigns an interval X(p)=[0,p] to a prime p. For composite n, choose its smallest prime factor a and b=n/a, and form a positive-width rectangle B(n)=[0,b]×[-a/2,a/2].
+
+sigma(n)=(-1)^n,     X(n)=B(n)/[(0,y) ~ (b,sigma(n)y)]
+
+Even composites give an orientation-preserving annulus; odd composites give an orientation-reversing Mobius band. An interval embeds in R¹ and an annulus in R². The Mobius band is nonorientable, cannot embed in the plane, and admits an embedding in R³ [2,3]. Thus this realization has minimum ambient dimensions matching readout values 1/2/3.
+
+2.3 Construction rules and mathematical meaning
+
+Minimum ambient dimension preserves connectivity, orientation transport and address labels under continuous embedding. Isometry is not required. Assigning bands and parity-dependent seams is a chosen realization rule, not a theorem derived from arithmetic alone. A Mobius band is intrinsically two-dimensional; 3 here is its ambient embedding dimension.
+
+The auxiliary bands do not establish the boundary or volume of the universe or of matter. Even integers can have odd prime factors. Dimension readout, the doubling operator, and the physical correspondence to space and energy retain their distinct roles.
+
+3. Outputs across the finite address domain
+
+
+3.1 Layers and branches
+
+The three layers describe structural and representational roles. A dynamical rule converting every prime through an even composite into an odd composite is not specified by this classification. Assembly histories require a separate transition calculation.
+
+Even composites occupy the inherited resident-nonphenotype branch D. Odd composites are eligible for the final phenotype layer; actual P admission is calculated by eP(n). Primes return through R, and unadmitted odd-composite weight also returns.
+
+Class | Address count | Count fraction
+Prime / upstream | 79,608 | 7.843160%
+Even composite / intermediate | 507,499 | 49.999951%
+Odd composite / final | 427,892 | 42.156889%
+All active addresses | 1,014,999 | 100%
+
+3.2 Weighted sums in a common normalization
+
+w(n)=n^(-alpha) / sum[m=2,...,N] m^(-alpha)
+
+The inherited address-load weight replaces a uniform address count. At alpha=2, odd-composite weight is 4.8768942177% and even-composite weight is 24.9999618092%. Fractions computed at different exponents are not combined into one ledger.
+
+alpha=1.8996877935161325 | Normalized weight
+Prime weight Pprime | 67.4227036122%
+Even-composite weight D | 26.8000000000%
+Odd-composite weight O | 5.7772963878%
+
+The geometric interpretation preserves class membership and weights, thereby preserving the computational interface to the inherited address ledger.
+
+4. Composition comparison: replay of admission
+
+
+4.1 Frozen inputs
+
+Use alpha=1.8996877935161325 and h=1.4476744689338703. Each of four modes has coefficient 0.5, with zero phase offsets, frame shift xi=0.1 and eight frames. The modes are gamma=(14.134725141734695, 21.022039638771556, 25.01085758014569, 30.424876125859512) [1].
+
+d_k(n)=sum[j=1,...,4] 0.5 cos[gamma_j(log n+0.1k)]
+
+t_k(n)=sigmoid(d_k(n)-h),     eP(n)=1-prod[k=0,...,7](1-t_k(n))
+
+For odd composites eR=1-eP. Primes have eR=1; even composites have eD=1. The effects at each address are nonnegative and sum to one.
+
+Final address ledger | Recomputed fraction
+Ordinary-matter phenotype P | 5.0000000000%
+Resident nonphenotype D / dark-matter counterpart | 26.8000000000%
+Return R / dark-energy counterpart | 68.2000000000%
+Total | 100%
+
+betaeff=P/O=0.8654567230719307
+
+Unadmitted odd-composite return is 0.7772963878%. Return therefore closes as 67.4227036122% prime weight plus this residual. betaeff summarizes the executed admission, rather than providing a third independent fitting parameter.
+
+4.2 Calibration provenance and interpretation
+
+The inherited alpha and h are unchanged in this replay. A separate two-input inverse check recovers their values to floating-point precision. They were originally calibrated to composition; this note verifies that explanatory reproduction. ESA's 2013 summary reports 4.9% ordinary matter and 26.8% dark matter; the inherited WRRA targets are the rounded 5/26.8/68.2 [4].
+
+Interpreting address weights as SI mass-energy density fractions requires the corresponding energy conversion, conservation and pressure ledger. This note reports address fractions. It performs neither a new observational likelihood analysis nor a particle-mass calculation.
+
+5. Falsification conditions and conclusion
+
+
+5.1 Reproduction and revision conditions
+
+Revise the numerical claim if the published program fails to classify the active domain exhaustively and exclusively, violates positivity or completeness, or fails to reproduce the fractions from the specified inputs. Revise the minimum-dimension claim if an embedding of the odd quotient band in the plane preserves its declared topology.
+
+Revise physical correspondences if a subsequent executed geometry-to-energy, stress or pressure map is incompatible with observations. An independent prediction is not imposed as a prerequisite for constructing this model. Calibrated reproduction and unmeasured outputs calculated after fixing a model retain their respective evidential status.
+
+5.2 Validation scope
+
+The replay covers all 1,014,999 active addresses. It includes a two-parameter inverse check and frozen-input sensitivity at N=15,000, 507,500 and 2,030,000. Incidence-based orientation, boundary-component and Euler checks are run for one annulus and three odd quotient bands. The general minimum-embedding argument is topological; representative mesh checks do not establish all physical claims.
+
+5.3 Conclusion
+
+The finite construction explicitly organizes primes as upstream 1D numbers, even composites as intermediate 2D numbers, and odd composites as final-layer 3D numbers. Dimension is computed as the minimum ambient embedding dimension of the assigned structure. The inherited weighting and executed admission preserve the 5%/26.8%/68.2% address ledger. The contribution is an explicit connection among arithmetic classes, topological implementation and physical readout within a common execution genealogy.
+
+References and reproduction
+
+[1] Choi, W. & Choi, J. Minimal Computing Cosmology 3.0, Book v0.20 (2026), Chapters 39, 46, 75. DOI: 10.5281/zenodo.23382565.
+[2] Open University. Surfaces, 3.2 Orientability, OpenLearn.
+[3] Open University. Surfaces, 2.3.2 Mobius band, OpenLearn.
+[4] ESA. Planck reveals an almost perfect Universe (21 March 2013).
+
+Run: python3 reproduce.py --output results.json
+Dependencies: Python 3, NumPy, SciPy. Numerical details and execution versions are in results.json. Notes, data and code: CC BY 4.0. This note is a separate publication from the book.
