@@ -1,0 +1,73 @@
+{
+  "status": "exact specification audit passed; not empirical validation",
+  "late_slots": 6,
+  "permission_probability": "1/4",
+  "normalization": "1",
+  "mean_difference": "0",
+  "variance_difference": "9/8",
+  "probability_exactly_equal_counts": "385/1024",
+  "decomposition_address_bound": 99,
+  "unordered_decompositions": {
+    "18": [
+      [
+        9,
+        9
+      ]
+    ],
+    "20": [],
+    "24": [
+      [
+        9,
+        15
+      ]
+    ],
+    "54": [
+      [
+        9,
+        45
+      ],
+      [
+        15,
+        39
+      ],
+      [
+        21,
+        33
+      ],
+      [
+        27,
+        27
+      ]
+    ]
+  },
+  "placement_configurations_audited": 2500,
+  "placement_up_down_9_15": [
+    12,
+    12
+  ],
+  "placement_up_up_9_15": [
+    13,
+    11
+  ],
+  "placement_down_down_9_15": [
+    11,
+    13
+  ],
+  "conversion_ledger_before": [
+    10,
+    4,
+    5
+  ],
+  "conversion_ledger_after": [
+    11,
+    5,
+    4
+  ],
+  "one_photon_s": 0,
+  "massive_pair_minimum_s": 4,
+  "two_headon_photons_s": 4,
+  "initial_equal_two_mode_burst_net": 0,
+  "initial_single_mode_burst_net": 1000,
+  "empirical_fit_performed": false,
+  "physical_rates_derived": false
+}

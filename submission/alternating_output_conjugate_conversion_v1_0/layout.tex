@@ -1,0 +1,5 @@
+\usepackage{needspace}
+\let\originalsubsection\subsection
+\renewcommand{\subsection}{\Needspace{9\baselineskip}\originalsubsection}
+\let\originalsubsubsection\subsubsection
+\renewcommand{\subsubsection}{\Needspace{9\baselineskip}\originalsubsubsection}

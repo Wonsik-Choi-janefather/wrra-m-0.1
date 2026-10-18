@@ -1,3 +1,9 @@
+## Minimal Computing Cosmology 3.0 — current manuscript v0.25 · 2026-10-19
+
+[Full Korean/English book revision](book_v0_25/README.md) · [Standalone additions-only paper, bilingual illustrated PDFs and exact audit](../submission/alternating_output_conjugate_conversion_v1_0/README.md).
+
+Built from formal v0.24. Added alternating permission-gated source output, upper/lower remainder placement and conjugate splitting/annihilation. The intermediate prohibition on pair production is withdrawn. Two exact diagrams illustrate the proposed representation. The finite audit checks conditional arithmetic/ledgers, not empirical validation; microscopic cross sections and cosmic composition are not newly derived. Book revision v0.25 is not a declaration of a final formal 3.0 theory. Zenodo publication is pending authentication; no new DOI is claimed.
+
 # Minimal Computing Cosmology 3.0
 
 ## Current full book — v0.20 (15 October 2026)

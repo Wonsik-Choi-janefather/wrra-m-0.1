@@ -1,0 +1,20 @@
+{
+  "LICENSE-CODE.txt": "78b1f611edb048c001a28472ff8bb30bc42ee2f74ef49fe594c77d54014c6df5",
+  "LICENSE.txt": "0249176977b94a8e6d2a3c3161d4cdbf9c046576faf4bad55043b4df3b19fee3",
+  "PUBLICATION_STATUS.json": "ac634bb04d2be5837f1cd90b6c9110ac5f2ce07458045789d265995b002ed4ed",
+  "README.md": "b5fa2483bdeb3fb4cd55d1f6fa2a7de2c374d97d2dfc7c8f59cd25f2c47cb66b",
+  "REVIEW.json": "9a58e64cb86c379cc0f00a4dcbd06a811240860c3460afcaf5069e6795ecc2b8",
+  "WRRA_Alternating_Output_Conjugate_Conversion_EN_v1.0.md": "86e45836ef9e4f69ebb90bfb78d52ff6613da4252a89bec7a5851cc834fddd44",
+  "WRRA_Alternating_Output_Conjugate_Conversion_EN_v1.0.pdf": "3b59017bfef8065ecbb93980a759630b15fc41e5b26f763ad1d346e392587a15",
+  "WRRA_Alternating_Output_Conjugate_Conversion_KO_v1.0.md": "eb7e027fcb020202b7ec77d00aaa1f8ebd42c825620be90e0d7ceb6f24998dda",
+  "WRRA_Alternating_Output_Conjugate_Conversion_KO_v1.0.pdf": "3769ed3e2525d83fdbec64da01d4ae1ba0adf664ae1c723b8904be40d70179db",
+  "draw_geometry.py": "d61a5ca7007c60385adafa65e47f3cc6919477da18fed8b65401b67496241845",
+  "figures/conjugate_closure.png": "35564d5fad9ec2ebd31534743f7f6987bf83a93aeb5b366c4ef08a3df7f2e401",
+  "figures/conjugate_closure.svg": "5f5b70bf363b7407cf6ef4c8e10114de86810591efc72255790ef4e8bee78293",
+  "figures/remainder_placement.png": "3d2819595c88822d53a8e7ed2eee41bec66b535336ac5aaaf8ebf56a0f0d2b6c",
+  "figures/remainder_placement.svg": "b0875af899719cdb22112549c50689366f65ba843bd8e8a06d4a3e2cafdd2142",
+  "layout.tex": "b6442c4e496638e3ab647aec4e53de79d046aaec6db9850881939ff581af6aa0",
+  "render.sh": "3554fc150e7d15b0b140a2238b87bd42995f6eed364c23a83dac3e54da4d2d9d",
+  "verification_results.json": "5302db0abe5b4d46deff026036d10d7dc4c889db13bf924dd9516561eaadd25e",
+  "verify_delta.py": "8f59115c143cd5b893ba39ec79c4859f3fb9dc117e33a7b0524e34863eef9b39"
+}

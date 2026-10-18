@@ -1,4 +1,10 @@
-## Minimal Computing Cosmology 3.0 — current book v0.22 · 2026-10-16
+## Minimal Computing Cosmology 3.0 — current manuscript v0.25 · 2026-10-19
+
+[Full Korean/English book revision](mcc_3_0/book_v0_25/README.md) · [Standalone additions-only paper, bilingual illustrated PDFs and exact audit](submission/alternating_output_conjugate_conversion_v1_0/README.md).
+
+Built from formal v0.24. Added alternating permission-gated source output, upper/lower remainder placement and conjugate splitting/annihilation. The intermediate prohibition on pair production is withdrawn. Two exact diagrams illustrate the proposed representation. The finite audit checks conditional arithmetic/ledgers, not empirical validation; microscopic cross sections and cosmic composition are not newly derived. Book revision v0.25 is not a declaration of a final formal 3.0 theory. Zenodo publication is pending authentication; no new DOI is claimed.
+
+## Minimal Computing Cosmology 3.0 — historical book v0.22 · 2026-10-16
 
 [Full bilingual book, PDFs, zero-phase superposition code and results](mcc_3_0/book_v0_22/README.md). Chapters 130–131 connect zeta permission, prime-symmetric folding and prime CRT space to an executed conditional spatial interference model. Earlier composition and GR/CMB branches are retained. [Zenodo v0.22, DOI 10.5281/zenodo.23409261](https://zenodo.org/records/23409261) is Published/Open. All five file checksums were verified on 16 October 2026. [All-version book DOI](https://doi.org/10.5281/zenodo.23202731).
 
