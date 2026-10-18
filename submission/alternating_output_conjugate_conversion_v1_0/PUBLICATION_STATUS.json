@@ -1,8 +1,10 @@
 {
-  "github": "pending",
+  "github": "published and verified",
   "zenodo": "pending authentication",
   "date": "2026-10-19",
   "pair_production_prohibition": "withdrawn",
   "book_version": "0.25",
-  "paper_version": "1.0"
+  "paper_version": "1.0",
+  "github_content_commit": "abab705e68dab922cfbb418a86fd4ce1d27a6ebc",
+  "github_url": "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/tree/main/submission/alternating_output_conjugate_conversion_v1_0"
 }
