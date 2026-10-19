@@ -1,0 +1,24 @@
+{
+  "status": "published and visually verified",
+  "book": {
+    "url": "https://zenodo.org/records/23461837",
+    "doi": "10.5281/zenodo.23461837",
+    "version": "Book v0.25",
+    "files": [
+      "MCC_3_0_Full_Book_KO_v0.25.md",
+      "MCC_3_0_Full_Book_EN_v0.25.md",
+      "MCC_3_0_Full_Book_KO_v0.25.pdf",
+      "MCC_3_0_Full_Book_EN_v0.25.pdf"
+    ]
+  },
+  "paper": {
+    "url": "https://zenodo.org/records/23461898",
+    "doi": "10.5281/zenodo.23461898",
+    "version": "1.2",
+    "files": [
+      "WRRA_Alternating_Output_Conjugate_Conversion_KO_v1.2.pdf",
+      "WRRA_Alternating_Output_Conjugate_Conversion_EN_v1.2.pdf"
+    ]
+  },
+  "data_delivery": "GitHub links only on Zenodo; no data archive uploaded"
+}
