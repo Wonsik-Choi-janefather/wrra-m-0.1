@@ -7542,7 +7542,7 @@ This hypothesis distinguishes which sector a declared source newly outputs in a 
 
 #### 135.1 One newly output sector per declared execution and region
 
-Let $k$ be an execution index in a declared region, with a source setting $\kappa_k\in\{+1,-1\}$. The signs select matter and antimatter respectively. Let $J_k\ge0$ be the attempted new source output and $Q_k\in\{0,1\}$ the resource, interaction and conservation permission gate. No mapping of $k$ to physical seconds or physical unit for $J$ is derived here.
+Let $k$ be an execution index in a declared region, with a source setting $\kappa_k\in\{+1,-1\}$. The signs select matter and antimatter respectively. Let $J_k\ge0$ be the attempted new source output and $Q_k\in\{0,1\}$ the resource, interaction and conservation permission gate. This revision maps $k$ to the existing conditional shutter clock of Chapter 112 as a construction assumption; the physical output unit for $J$ still needs a microscopic bridge.
 
 $$J_{M,k}^{\rm new}=Q_k\frac{1+\kappa_k}{2}J_k,\qquad J_{\bar M,k}^{\rm new}=Q_k\frac{1-\kappa_k}{2}J_k.$$
 
@@ -7590,28 +7590,26 @@ A large initial matter output and mean-symmetric late output coexist under these
 
 #### 135.4 Withdrawal of the pair-production prohibition and even-state splitting
 
-The intermediate suggestion that pair production does not exist is withdrawn. Single-sector new source output is distinguished from later conversion of already output states. A candidate representation of later pair production splits a parent with even aggregate code $r$ into two conjugate states at odd-composite addresses:
+The pair-production prohibition is withdrawn. For a corresponding particle-antiparticle species, equal rest masses are the verified input. WRRA assigns the same mass-implementation code $n$ to both conjugate outputs. This is a declared mapping assumption, not a theorem equating mass with every information measure.
 
-$$\mathcal C_{\rm out}(r,\xi)\rightleftarrows(n,a,\chi)+(m,a,\bar\chi),\qquad r=n+m.$$
+$$\mathcal C_{\rm out}(2n,\xi)\rightleftarrows(n,a,\chi)+(n,a,\bar\chi).$$
 
-Here $\xi$ includes momenta, spins, phases, correlations and channel-selection data. This conversion has its own ledger term, separate from $J^{\rm new}$. The source exclusivity relation is not interpreted as a prohibition on later pair production. Splitting occurs only with an allowed parent energy and interaction environment. A microscopic theory must establish permitted channels and their time reverses; equal forward and reverse rates are not assumed.
+Only equal-size splitting is permitted; asymmetric splitting is forbidden in this channel:
 
-Not every even composite splits into two odd composites. Examples are $18=9+9$, $24=9+15$ and $54=9+45=27+27$, whereas $20$ has no such decomposition. Even an arithmetic decomposition needs separate address admission, species, conjugacy and energy conditions. Define
+$$\mathcal D_{\rm eq}(r)=\{(n,n):n\text{ is an admitted odd composite},\ r=2n\}.$$
 
-$$\mathcal D(r)=\{(n,m):n,m\text{ are admitted odd composites},\ n+m=r\}.$$
+Examples admitted arithmetically are $18\to9+9$, $30\to15+15$ and $54\to27+27$. The channels $24\to9+15$ and $54\to9+45$ are forbidden. Since $24/2=12$ is not an odd composite, code 24 has no channel here. Admission, species, conjugate charges and energy conditions remain required. Equal mass-implementation codes do not imply equal kinetic energies in every observation frame.
 
-An empty set closes that code's proposed channel. Multiple elements do not determine a channel or probability arithmetically. An even aggregate output code is not automatically an even-composite SOURCE resident. Using the latter as a parent needs an explicit transfer of sector energy and occupation. The identification of a photon itself with an even composite is not proved here.
-
-Experimentally described particle-antiparticle production is an input to reproduce [S3]. The expression proposes a WRRA structural interpretation and does not deny those experiments. One photon alone cannot turn into two free massive particles in vacuum: its squared four-momentum is zero, whereas the final electron-positron system has invariant mass at least $2m_e$. A second photon, nuclear recoil or an external field must supply an appropriate energy-momentum environment. The arithmetic identity $r=n+m$ does not resolve this constraint.
+The parent and environment must supply energy and momentum. A single photon cannot create two free massive particles alone in vacuum; a second photon, nuclear recoil or an external field must be included as appropriate. An even output code is not automatically a SOURCE resident or a photon. The actual conjugate outputs are now stipulated to occur on successive existing clock ticks, as specified below.
 
 #### 135.5 Separate source, conversion and occupation ledgers
 
-For permitted splitting events producing one conjugate package in each sector, let their count be $P_k$; let $H_k$ count annihilations consuming one of each. Then
+Let $P_{M,k}$ and $P_{\bar M,k}$ count actual pair-derived outputs on each tick. Replace the former simultaneous $+P_k$ terms by
 
-$$N_{M,k+1}=N_{M,k}+J_{M,k}^{\rm new}+P_k-H_k,$$
-$$N_{\bar M,k+1}=N_{\bar M,k}+J_{\bar M,k}^{\rm new}+P_k-H_k.$$
+$$N_{M,k+1}=N_{M,k}+J_{M,k}^{\rm new}+P_{M,k}-H_k,$$
+$$N_{\bar M,k+1}=N_{\bar M,k}+J_{\bar M,k}^{\rm new}+P_{\bar M,k}-H_k.$$
 
-Consequently $\Delta N_{k+1}=\Delta N_k+\kappa_kQ_kJ_k$. Symmetric splitting and annihilation do not themselves create or remove this count difference. These equations concern corresponding unit packages; multispecies reaction networks need stoichiometric coefficients and conserved-charge weights. Annihilation cannot exceed available occupations; splitting must be paid from parent occupation and energy. Composition calculations additionally require total energy density, expansion, reheating, branching and thermal history.
+A permitted pair reserves its second output for the next tick. Pending occupations $L_{M,k},L_{\bar M,k}$ record the unrendered partner. The parent/source/environment must own its energy and conserved charges until output; neither gaps in conservation nor double counting are allowed. Over each completed pair, $\sum_k P_{M,k}=\sum_k P_{\bar M,k}$. Completed symmetric pairs do not create a net matter excess, although the rendered occupations alone can differ during the intermediate tick. Annihilation cannot exceed actual available occupations.
 
 Electric charge is distinct from sector identity. A lone emitted electron requires the opposite charge in the source/environment, with an open ledger until transfer is specified. A neutral matter package is possible, but its baryon and lepton ownership remains required. Average cancellation between modes cannot replace local charge conservation.
 
@@ -7629,22 +7627,22 @@ The combined placement residual is
 
 $$\delta_{\rm pair}=(U_1+U_2)-(D_1+D_2)=b_1+b_2.$$
 
-Opposite placements give zero; like placements leave $+2$ or $-2$. When $b_2=-b_1$, each position holds $(n+m)/2$. For example, the upper placement of 9, $(5,4)$, and lower placement of 15, $(7,8)$, combine as $(12,12)$. Two upper placements instead give $(13,11)$, leaving residual two.
+Opposite placements give zero; like placements leave $+2$ or $-2$. When $b_2=-b_1$, each position holds $n$. For example, the upper placement of 9, $(5,4)$, and lower placement of 9, $(4,5)$, combine as $(9,9)$. Two upper placements instead give $(10,8)$, leaving residual two.
 
-| First | Second | Ordered totals for 9 and 15 | Residual | This balanced-closure channel |
+| First | Second | Ordered totals for 9 and 9 | Residual | This balanced-closure channel |
 |---|---|---|---|---|
-| Upper | Lower | $(12,12)$ | $0$ | Candidate allowed |
-| Lower | Upper | $(12,12)$ | $0$ | Candidate allowed |
-| Upper | Upper | $(13,11)$ | $+2$ | Closed under this rule |
-| Lower | Lower | $(11,13)$ | $-2$ | Closed under this rule |
+| Upper | Lower | $(9,9)$ | $0$ | Candidate allowed |
+| Lower | Upper | $(9,9)$ | $0$ | Candidate allowed |
+| Upper | Upper | $(10,8)$ | $+2$ | Closed under this rule |
+| Lower | Lower | $(8,10)$ | $-2$ | Closed under this rule |
 
-![Figure 2. The same two odd addresses yield balanced or residual occupations depending on remainder placement. All four address sums equal the even number 24, so evenness alone cannot select annihilation.](figures/conjugate_closure.png)
+![Figure 2. The same two odd addresses yield balanced or residual occupations depending on remainder placement. All four address sums equal the even number 18, so evenness alone cannot select annihilation.](figures/conjugate_closure.png)
 
-The candidate closure gate is $K_{\rm close}=\mathbf1[b_1+b_2=0]$. The proposed difficulty of interlocking like placements is formalized as non-admission to this particular balanced-closure channel. It does not prohibit all interactions or binding between like placements. Actual interlocking feasibility and transition rates are not calculated from the occupation difference alone.
+The candidate closure gate is $K_{\rm close}=\mathbf1[n_1=n_2]\mathbf1[b_1+b_2=0]$. The proposed difficulty of interlocking like placements is formalized as non-admission to this particular balanced-closure channel. It does not prohibit all interactions or binding between like placements. Actual interlocking feasibility and transition rates are not calculated from the occupation difference alone.
 
 Exchanging the positions gives $\tau T(n,b)=T(n,-b)$ with $\tau^2=1$. This is a candidate geometric representation of conjugacy, not a substitute for the full species and charge/baryon/lepton conjugacy conditions. Upper/lower initially label internal or local positions, not electron spin up/down or an absolute cosmic direction. A physical spatial shape additionally needs coordinate-transformation rules, length/energy functions and an interaction.
 
-For inverse splitting, the candidate parent has $U=D=r/2$ and distributes its occupations to admitted odd composites $n,m$ with opposite placements $b,-b$. The code $r$ alone does not specify addresses, directions or quantum correlations; $\xi$ and permission conditions remain necessary. Equal physical masses, electric-charge magnitudes, photon channels and annihilation cross sections have not been derived from this occupation model.
+For inverse splitting, the candidate parent has $U=D=r/2$ and distributes its occupations to admitted identical odd composites $n=n_1=n_2=r/2$ with opposite placements $b,-b$. The code $r$ alone does not specify addresses, directions or quantum correlations; $\xi$ and permission conditions remain necessary. Equal physical masses are imposed through the input-to-code mapping; electric-charge magnitudes, photon channels and annihilation cross sections have not been derived from this occupation model.
 
 #### 135.7 Conjugate structures open each other's release pathway
 
@@ -7654,9 +7652,9 @@ The proposed annihilation interpretation is:
 
 The knot/key language denotes structural compatibility and release. Whether there is an actual geometric or topological twist is unresolved. Such a claim requires defined degrees of freedom, invariants, an energy functional and an interaction operator. Equal mass alone does not establish equal bit count or every information measure. Implementation load and distinguishable states/correlations require separate ledgers.
 
-Use already admitted odd-composite addresses $n,m$, a corresponding species $a$ and conjugate internal structures $\chi,\bar\chi$. A candidate code is
+Use already admitted odd-composite mass-implementation codes $n,n$, a corresponding species $a$ and conjugate internal structures $\chi,\bar\chi$. A candidate code is
 
-$$(n,a,\chi)+(m,a,\bar\chi)\xrightarrow{\text{allowed interaction}}\bigl(r=n+m,\text{carrier output state}\bigr).$$
+$$(n,a,\chi)+(n,a,\bar\chi)\xrightarrow{\text{allowed interaction}}\bigl(r=2n,\text{carrier output state}\bigr).$$
 
 Every sum of two odd integers is even. Conjugacy therefore gates the interpretation as annihilation, rather than the arithmetic fact of evenness. Two same-sector particles also have an even address sum and must not annihilate solely for that reason.
 
@@ -7668,11 +7666,35 @@ Lost incoming particle occupations must transfer their energy, momentum and cons
 
 $$E_{\rm out}=E_{\rm in},\qquad\mathbf p_{\rm out}=\mathbf p_{\rm in}.$$
 
-Track states, phases and correlations rather than declaring information deleted. The sum code alone cannot preserve all inputs: $9+45=27+27=54$. An implementation requiring overall reversibility must retain the distinction in other output degrees of freedom or included environmental correlations. This does not require storing the universe's entire past as an additional archive.
+Track states, phases and correlations rather than declaring information deleted. The equal-split sum code recovers $n$ but does not preserve momenta, spins, phases or correlations. Asymmetric alternative decompositions are forbidden here. An implementation requiring overall reversibility must retain the distinction in other output degrees of freedom or included environmental correlations. This does not require storing the universe's entire past as an additional archive.
+
+#### 135.9 Existing renderer clock and alternating conjugate placements
+
+The conditional shutter already calculated in Chapter 112 is adopted as one renderer tick, without fitting a new time constant:
+
+$$\Delta t_{\rm clk}=1.4813019664158633\times10^{-21}\ {\rm s},\qquad f_{\rm clk}\simeq6.750818015\times10^{20}\ {\rm Hz}.$$
+
+Matter and antimatter denote conjugate implementations of the particle itself: opposite twist directions or upper/lower placements of remainder one are candidate representations of that distinction. Molecular chirality, amino-acid L/D forms and sugar handedness are excluded. These are two conjugate alternatives, not four independent states or a four-tick cycle.
+
+$$\kappa_{k+1}=-\kappa_k,\quad b_{a,k}=\kappa_k b_a^{(0)},\quad t_{k+1}-t_k=\Delta t_{\rm clk}.$$
+
+Choosing which placement labels matter is a reference-sign convention. The same sector returns after $2\Delta t_{\rm clk}$, corresponding to $3.375409007\times10^{20}$ Hz. Clock activity does not require particle output on every tick: permission is still required. Once a pair is permitted, the second output is reserved for the next tick and its intermediate conservation ledger must close. Adopting this existing conditional clock is a construction assumption, not a measurement of a unique universal minimum time.
+
+#### 135.10 One-tick sequential output and initial separation
+
+The two equal-code conjugate phenotypes of a pair are stipulated to appear one tick apart. The earlier phenotype can move before its partner appears. Their separation immediately after the second output is
+
+$$d(t_{k+1})=\left|\mathbf x_1(t_k)+\int_{t_k}^{t_{k+1}}\mathbf v_1(t)dt-\mathbf x_2(t_{k+1})\right|.$$
+
+For a fixed common source location and constant first-particle velocity, $d=|v_1|\Delta t_{\rm clk}$. The light-speed reference scale in that source frame is
+
+$$c\Delta t_{\rm clk}=4.440831575520451\times10^{-13}\ {\rm m}=0.4440831575520451\ {\rm pm}.$$
+
+This is a reference length, not a universal actual displacement of a massive particle. Sequential output permits initial spatial separation; subsequent trajectories and interactions require their own dynamics. If timing correlations disagree with observations, or if the parent/environment cannot close intermediate conserved quantities, this sequential rule fails. Production rates, microscopic correlations and cross sections have not yet been calculated.
 
 ### Outputs and scope
 
-The new outputs are an alternating-mode/rare-output statistical ledger, conjugate splitting of even aggregate states with a common annihilation ledger, a single-sector gate for initial/basic source production, the matter-prepared initial condition of our universe, the conjugate-release interpretation and the type distinction between arithmetic codes and physical ledgers. No new microscopic production rate, annihilation cross section/lifetime, cosmic thermal history or five-percent composition calculation was executed. Chapter 135 connects Chapters 8 and 18 to a subsequent output-architecture hypothesis without recalibrating existing address, energy, GR or CMB results.
+The new outputs are an alternating-mode/rare-output statistical ledger, conjugate splitting of even aggregate states with a common annihilation ledger, a single-sector gate for initial/basic source production, the matter-prepared initial condition of our universe, the conjugate-release interpretation and the type distinction between arithmetic codes and physical ledgers, now supplemented by equal-only splitting and the existing-clock sequential output contract. No new microscopic production rate, annihilation cross section/lifetime, cosmic thermal history or five-percent composition calculation was executed. Chapter 135 connects Chapters 8 and 18 to a subsequent output-architecture hypothesis without recalibrating existing address, energy, GR or CMB results.
 
 ### Falsification conditions
 
