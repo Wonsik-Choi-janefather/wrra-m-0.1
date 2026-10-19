@@ -1,10 +1,14 @@
 {
-  "github": "published and verified",
-  "zenodo": "pending authentication",
-  "date": "2026-10-19",
-  "pair_production_prohibition": "withdrawn",
   "book_version": "0.25",
-  "paper_version": "1.0",
-  "github_content_commit": "abab705e68dab922cfbb418a86fd4ce1d27a6ebc",
-  "github_url": "https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/tree/main/mcc_3_0/book_v0_25"
+  "paper_version": "1.2",
+  "date": "2026-10-19",
+  "github": "published; content verified",
+  "zenodo": "pending sign-in",
+  "clock_seconds": "1.4813019664158633E-21",
+  "clock_hz": "675081801463874013567.1220205035033788990",
+  "split_rule": "2n -> n+n only; asymmetric split forbidden",
+  "conjugate_output_delay_clocks": 1,
+  "molecular_chirality": "excluded",
+  "supersedes": "v1.0 and v1.1 specifications",
+  "github_content_commit": "e19d9aa909fc86b2919fb614f9c3dc58208ecd63"
 }
