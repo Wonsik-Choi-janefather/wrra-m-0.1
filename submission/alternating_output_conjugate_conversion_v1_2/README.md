@@ -11,3 +11,10 @@ This revision replaces the v1.0/v1.1 contracts with equal-only conjugate splitti
 The downloadable package also includes both rendered PDFs and diagrams. The clock is an adopted existing model value, not a new measurement. The parent/environment must carry the unrendered partner's conserved quantities during the intervening tick. Validation covers 25 equal split examples, 100 placements and the pending partner ledger; it is not experimental validation.
 
 License: CC BY 4.0 for text and figures; MIT for code.
+
+## Published Zenodo records
+
+- [MCC 3.0 book v0.25](https://zenodo.org/records/23461837), DOI 10.5281/zenodo.23461837.
+- [Additions-only paper v1.2](https://zenodo.org/records/23461898), DOI 10.5281/zenodo.23461898.
+
+Zenodo contains the manuscripts/PDFs; data and code are linked to GitHub. The complete book PDFs preserve the v0.24 baseline and append the revised Chapter 135 with a v0.25 revision notice.
