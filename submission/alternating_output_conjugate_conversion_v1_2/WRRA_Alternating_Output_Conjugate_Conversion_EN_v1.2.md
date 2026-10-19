@@ -98,7 +98,7 @@ $$T(n,b)=\left(\frac{n+b}{2},\frac{n-b}{2}\right),\qquad U+D=n,\quad U-D=b.$$
 
 The upper position has one extra unit for $b=+1$; the lower has one extra for $b=-1$. Arithmetic parity is unchanged, but the ordered placement differs. The renderer selects the permitted phenotype's remainder placement $b$. An interface to the source mode can declare a species reference $b_a^{(0)}$ and assign $b_{a,k}=\kappa_k b_a^{(0)}$. This correspondence is a structural assumption.
 
-![Figure 1. Two placements of the odd address 9. The extra unit gives (5,4) above or (4,5) below. Cells are arithmetic occupation units, not measured particle shapes.](figures/remainder_placement.png)
+![Figure 1. Two placements of the odd address 9. The extra unit gives (5,4) above or (4,5) below. Cells are arithmetic occupation units, not measured particle shapes.](figures/remainder_placement.svg)
 
 The combined placement residual is
 
@@ -113,7 +113,7 @@ Opposite placements give zero; like placements leave $+2$ or $-2$. When $b_2=-b_
 | Upper | Upper | $(10,8)$ | $+2$ | Closed under this rule |
 | Lower | Lower | $(8,10)$ | $-2$ | Closed under this rule |
 
-![Figure 2. The same two odd addresses yield balanced or residual occupations depending on remainder placement. All four address sums equal the even number 18, so evenness alone cannot select annihilation.](figures/conjugate_closure.png)
+![Figure 2. The same two odd addresses yield balanced or residual occupations depending on remainder placement. All four address sums equal the even number 18, so evenness alone cannot select annihilation.](figures/conjugate_closure.svg)
 
 The candidate closure gate is $K_{\rm close}=\mathbf1[n_1=n_2]\mathbf1[b_1+b_2=0]$. The proposed difficulty of interlocking like placements is formalized as non-admission to this particular balanced-closure channel. It does not prohibit all interactions or binding between like placements. Actual interlocking feasibility and transition rates are not calculated from the occupation difference alone.
 
