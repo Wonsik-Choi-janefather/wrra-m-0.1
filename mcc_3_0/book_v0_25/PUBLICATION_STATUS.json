@@ -3,12 +3,20 @@
   "paper_version": "1.2",
   "date": "2026-10-19",
   "github": "published; content verified",
-  "zenodo": "pending sign-in",
+  "zenodo": "published and verified",
   "clock_seconds": "1.4813019664158633E-21",
   "clock_hz": "675081801463874013567.1220205035033788990",
   "split_rule": "2n -> n+n only; asymmetric split forbidden",
   "conjugate_output_delay_clocks": 1,
   "molecular_chirality": "excluded",
   "supersedes": "v1.0 and v1.1 specifications",
-  "github_content_commit": "e19d9aa909fc86b2919fb614f9c3dc58208ecd63"
+  "github_content_commit": "e19d9aa909fc86b2919fb614f9c3dc58208ecd63",
+  "zenodo_book_doi": "10.5281/zenodo.23461837",
+  "zenodo_book_url": "https://zenodo.org/records/23461837",
+  "zenodo_paper_doi": "10.5281/zenodo.23461898",
+  "zenodo_paper_url": "https://zenodo.org/records/23461898",
+  "data_delivery": "GitHub links only on Zenodo; no data archive uploaded",
+  "book_pdf_ko_pages": 240,
+  "book_pdf_en_pages": 263,
+  "pdf_assembly": "v0.25 notice + preserved full v0.24 baseline + current Chapter 135"
 }
