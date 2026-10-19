@@ -1,14 +1,15 @@
-# MCC 3.0 v0.25 - clock-conjugate revision, 19 October 2026
+# MCC 3.0 v0.25-r1 - Chapter 135 Lorentz linkage
 
-The v0.24 body is preserved. Chapter 135 is revised to equal-only splitting 2n -> n+n, opposite conjugate placements of the particles themselves, and one-existing-clock sequential pair output. Molecular chirality is excluded.
+Korean revision, 19 October 2026. The v0.24 baseline and Chapters 112/117 light-transport framework are retained. Section 135.11 connects equal conjugate splitting and one-clock sequential output to the effective source worldline, proper time, recoil and an intermediate conservation ledger.
 
-The Korean and English full manuscripts and Chapter 135 extracts are current. Older v1.0/v1.1 papers, numerical results and change patches in historical material do not describe this revised contract. Updated paper: v1.2.
-
-Verified inputs -> WRRA transformation -> outputs -> failure conditions are stated in Chapter 135. This is a construction and consistency revision, not new experimental confirmation.
+Verified inputs -> WRRA transformation -> outputs -> failure conditions are stated in section 135.11. The audit executes 630 kinematic cases; it does not claim empirical confirmation or a complete interacting QFT. Code and results: [lorentz_r1](lorentz_r1/).
 
 ## Published Zenodo records
 
-- [MCC 3.0 book v0.25](https://zenodo.org/records/23461837), DOI 10.5281/zenodo.23461837.
-- [Additions-only paper v1.2](https://zenodo.org/records/23461898), DOI 10.5281/zenodo.23461898.
+- [Book v0.25-r1](https://zenodo.org/records/23462302), DOI 10.5281/zenodo.23462302. Korean full manuscript/PDF and standalone Lorentz supplement.
+- [Additions-only paper v1.3](https://zenodo.org/records/23462314), DOI 10.5281/zenodo.23462314. Korean PDF with section 11.
+- [Paper source](../../submission/alternating_output_conjugate_conversion_v1_3/).
 
-Zenodo contains the manuscripts/PDFs; data and code are linked to GitHub. The complete book PDFs preserve the v0.24 baseline and append the revised Chapter 135 with a v0.25 revision notice.
+Data and code are supplied through GitHub links, with no duplicated data archive on Zenodo. English book v0.25 and English paper v1.2 remain the preceding editions; they do not include this Lorentz supplement.
+
+The full Korean PDF contains the v0.25 notice, preserved v0.24 baseline and current Chapter 135 (242 pages).
