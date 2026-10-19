@@ -1,0 +1,15 @@
+{
+  "scope": "arithmetic and code-domain separation only; not physics validation",
+  "singly_even_parents": 500,
+  "placement_cases": 2000,
+  "odd_composite_phenotype_candidates": 332,
+  "nonphenotype_arithmetic_cases": 168,
+  "N2_boundary": "2 remains prime; half 1 is not a massive phenotype",
+  "N10_control": "5+5 allowed arithmetically; odd-composite phenotype gate closed",
+  "N18_control": "9+9 allowed arithmetically and passes odd-composite gate; other physical permissions still required",
+  "unequal_split_controls": [
+    "24 -> 9+15 rejected",
+    "54 -> 9+45 rejected"
+  ],
+  "new_black_hole_or_cosmology_calculation": false
+}

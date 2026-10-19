@@ -1,0 +1,49 @@
+{
+  "scope": "local kinematics only; not interacting QFT or observational confirmation",
+  "cases": 630,
+  "boosts": 126,
+  "momentum_settings": 5,
+  "seed": 135112117,
+  "clock_s": 1.4813019664158633e-21,
+  "light_reference_m": 4.440831575520451e-13,
+  "max_errors": {
+    "interval": 4.263256414560601e-14,
+    "mass_shell": 6.838973831690952e-13,
+    "conservation": 2.1316282072803005e-15,
+    "inverse_boost": 2.1200287883955726e-14,
+    "null_transport": 3.419486915845482e-14,
+    "rest_separation": 2.708944180085382e-14
+  },
+  "minimum_future_time_component": 1.0000618025973351,
+  "charge_ledger": "exact integer conservation at both emissions",
+  "equal_split": "n+n retained; rest masses both 1",
+  "control_beta": 0.8,
+  "incorrect_fixed_coordinate_clock_interval": -0.7777777777777788,
+  "correct_interval": 1.0,
+  "table": [
+    {
+      "beta": 0,
+      "gamma": 1.0,
+      "coordinate_interval_s": 1.4813019664158633e-21,
+      "coordinate_tick_rate_Hz": 6.75081801463874e+20
+    },
+    {
+      "beta": 0.6,
+      "gamma": 1.25,
+      "coordinate_interval_s": 1.851627458019829e-21,
+      "coordinate_tick_rate_Hz": 5.400654411710992e+20
+    },
+    {
+      "beta": 0.8,
+      "gamma": 1.666666666666667,
+      "coordinate_interval_s": 2.468836610693106e-21,
+      "coordinate_tick_rate_Hz": 4.050490808783243e+20
+    },
+    {
+      "beta": 0.99,
+      "gamma": 7.088812050083354,
+      "coordinate_interval_s": 1.050067122934094e-20,
+      "coordinate_tick_rate_Hz": 9.523200737928099e+19
+    }
+  ]
+}

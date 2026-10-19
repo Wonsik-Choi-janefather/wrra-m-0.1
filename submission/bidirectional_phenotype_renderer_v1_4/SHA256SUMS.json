@@ -1,0 +1,15 @@
+{
+  "WRRA_Bidirectional_Phenotype_Renderer_KO_v1.4.pdf": "a41e0998db6c18116166e9f2cbf8c043fea3e646480f0b2f75ca383dc67b34c8",
+  "WRRA_Bidirectional_Phenotype_Renderer_KO_v1.4.md": "c0571237b2f3ea6105ff79cb20eabea7c1de388e09496c83f5eaa32ae80b11ec",
+  "WRRA_Bidirectional_Phenotype_Renderer_EN_v1.4.pdf": "59d352663254886c97d1ba98701e71b5139ff8bca37a6e8e37193fc1e779f591",
+  "WRRA_Bidirectional_Phenotype_Renderer_EN_v1.4.md": "e4505022461d7593a53eb5025fdcb3250be49b15d10d0238726a6bfa7491800b",
+  "verify_singly_even.py": "0498749965268ae9065d3a36dd654fb1870ac1daada30da4882ad7b0505cba9d",
+  "verification_singly_even.json": "67d910b9e1904f059231331000d8ac2fbe5ba5a2be6ceb408591e4085c372eb1",
+  "verify_lorentz_sequential.py": "12933329898c24fb84e62e3681c11e3140303557121a61b2c7857eff7ef4d95f",
+  "verification_lorentz_sequential.json": "2984792e65344c0a77725a81e25700f9888f82e7df94c5c7b8816d3785566916",
+  "REVISION_NOTES_KO.txt": "34b2ce78cd468194c10c04c6d914a15c766fc0a778c057d283f859a07933302e",
+  "figures/conjugate_closure.png": "70f8c43f10d04d5ce9caf19c677afde3991d6111864f39a843884fd18ed21af7",
+  "figures/conjugate_closure.svg": "b2fda1c0ae2597a116b32b361bc4e764e1210666bd93e5ea2d015329973285a8",
+  "figures/remainder_placement.png": "b44b67fb235a094a5cbed3fbe2b6429fa654ff666d4aefe6eab3deefb9e66424",
+  "figures/remainder_placement.svg": "100b7b6076380866cea3f9f12104e8e01320a155241fc678f08014e8c9c69862"
+}
