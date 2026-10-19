@@ -1,0 +1,9 @@
+{
+  "equal_split_cases": 25,
+  "placement_cases": 100,
+  "unequal_24_rejected": true,
+  "sequential_pending_ledger": "PASS",
+  "clock_seconds": "1.4813019664158633E-21",
+  "clock_hz": "675081801463874013567.1220205",
+  "checks": "formal consistency only"
+}
