@@ -1,15 +1,14 @@
-# MCC 3.0 v0.25-r1 - Chapter 135 Lorentz linkage
+# MCC 3.0 v0.25-r2 - bilingual Chapter 135 Lorentz linkage
 
-Korean revision, 19 October 2026. The v0.24 baseline and Chapters 112/117 light-transport framework are retained. Section 135.11 connects equal conjugate splitting and one-clock sequential output to the effective source worldline, proper time, recoil and an intermediate conservation ledger.
+Wonsik Choi and Jeongin Choi, 19 October 2026. Both Korean and English full manuscripts and Chapter 135 extracts include the matching section 135.11 Lorentz supplement. The v0.24 baseline and Chapters 112/117 light-transport framework are retained.
 
-Verified inputs -> WRRA transformation -> outputs -> failure conditions are stated in section 135.11. The audit executes 630 kinematic cases; it does not claim empirical confirmation or a complete interacting QFT. Code and results: [lorentz_r1](lorentz_r1/).
+Verified inputs -> WRRA-specific transformation -> outputs -> falsification conditions are stated in section 135.11. Equal-only splitting 2n -> n+n, one-clock sequential output, source recoil and the intermediate ledger are tested in 630 kinematic cases. This is local relativistic kinematic consistency, not empirical confirmation or a complete interacting QFT. Molecular chirality is excluded.
 
-## Published Zenodo records
+## Published bilingual Zenodo releases
 
-- [Book v0.25-r1](https://zenodo.org/records/23462302), DOI 10.5281/zenodo.23462302. Korean full manuscript/PDF and standalone Lorentz supplement.
-- [Additions-only paper v1.3](https://zenodo.org/records/23462314), DOI 10.5281/zenodo.23462314. Korean PDF with section 11.
-- [Paper source](../../submission/alternating_output_conjugate_conversion_v1_3/).
+- [Full book v0.25-r2](https://zenodo.org/records/23462544), DOI 10.5281/zenodo.23462544: Korean/English full manuscripts and PDFs, plus both standalone Lorentz supplements. Korean PDF: 242 pages; English PDF: 266 pages.
+- [Additions-only paper release 1.3.1](https://zenodo.org/records/23462547), DOI 10.5281/zenodo.23462547: both manuscript v1.3 PDFs. Release 1.3.1 adds the English counterpart without changing the Korean v1.3 scientific inputs or results.
+- [Paper sources](../../submission/alternating_output_conjugate_conversion_v1_3/).
+- [Reproduction code, results and supplements](lorentz_r1/).
 
-Data and code are supplied through GitHub links, with no duplicated data archive on Zenodo. English book v0.25 and English paper v1.2 remain the preceding editions; they do not include this Lorentz supplement.
-
-The full Korean PDF contains the v0.25 notice, preserved v0.24 baseline and current Chapter 135 (242 pages).
+Data and code are supplied through GitHub links; no data archive is duplicated on Zenodo. The full PDFs preserve their respective v0.24 baselines and append the current Chapter 135. Earlier language-specific releases remain in version history.
