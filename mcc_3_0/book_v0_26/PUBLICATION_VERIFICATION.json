@@ -1,0 +1,46 @@
+{
+  "book_version": "0.26",
+  "zenodo": {
+    "published": true,
+    "open": true,
+    "url": "https://zenodo.org/records/23492729",
+    "files": {
+      "MCC_3_0_Full_Book_KO_v0.26.pdf": {
+        "bytes": 3638906,
+        "sha256": "bec1fc15281a1eea087c98f1de056e7c7ab976d66f8634bc8c4a9e0ddb6ef1f2",
+        "md5": "d127fd21d95698599057e2ae0eb725c7"
+      },
+      "MCC_3_0_Full_Book_EN_v0.26.pdf": {
+        "bytes": 3611326,
+        "sha256": "d58eb9743c8c3a545bab6a478c74588b9a8662e1529468e4228b3ba79a2d7d5c",
+        "md5": "0041b1985d90b338d6f6d71757c5413d"
+      }
+    },
+    "MD5_visible_record_matches": true
+  },
+  "github": {
+    "science_commit": "10c0369419f063e4988ef949b53672cd6f67e415",
+    "remote_files_verified": 158,
+    "changed_files": 24,
+    "preserved_files": 134,
+    "all_match": true
+  },
+  "gitbook": {
+    "EN": "PjbTn8Bw502ZOd6kZzP0",
+    "KO": "vyA4m3t38OX53WKk8YvZ",
+    "main_chapter136_verified_both_languages": true
+  },
+  "editorial": {
+    "checks": 32,
+    "earlier_chapters_preserved": true,
+    "artistic_opening_preserved": true,
+    "images_per_language": 48,
+    "missing_images": 0,
+    "new_chapter_number": 136
+  },
+  "scope": {
+    "new_scientific_run_claimed": false,
+    "full_state_injection_complete": false
+  },
+  "proof_screenshot": "zenodo_MCC_3_0_v026_published.jpg"
+}

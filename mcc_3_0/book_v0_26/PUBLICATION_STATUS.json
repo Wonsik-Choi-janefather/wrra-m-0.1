@@ -1,7 +1,7 @@
 {
   "book_version": "0.26",
   "date": "2026-10-20",
-  "zenodo_status": "DOI reserved; final publication pending",
+  "zenodo_status": "Published; public record and two PDF checksums verified",
   "zenodo_book_doi": "10.5281/zenodo.23492729",
   "zenodo_book_url": "https://zenodo.org/records/23492729",
   "previous_book_url": "https://zenodo.org/records/23488205",
@@ -9,5 +9,25 @@
     "KO": 251,
     "EN": 279
   },
-  "full_state_CAMB_injection": false
+  "github_scientific_content_commit": "10c0369419f063e4988ef949b53672cd6f67e415",
+  "remote_book_files_verified": 158,
+  "all_remote_sha256_match": true,
+  "editorial_checks": 32,
+  "gitbook_status": "Bilingual change requests merged; main Chapter 136 read back",
+  "gitbook_revisions": {
+    "EN": "PjbTn8Bw502ZOd6kZzP0",
+    "KO": "vyA4m3t38OX53WKk8YvZ"
+  },
+  "gitbook_urls": {
+    "EN": "https://independent-research.gitbook.io/minimal-computing-cosmology-3.0/",
+    "KO": "https://independent-research.gitbook.io/minimal-computing-cosmology-3.0/korean-edition/"
+  },
+  "data_delivery": "Only the complete KO/EN PDFs on Zenodo; source manuscripts, code and data on GitHub",
+  "full_state_CAMB_injection": false,
+  "source_scopes": [
+    "0.4",
+    "0.5",
+    "0.6",
+    "0.7-dev-r1"
+  ]
 }
