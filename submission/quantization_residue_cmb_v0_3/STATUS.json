@@ -3,6 +3,10 @@
   "new_checks": 123,
   "full_modes": 64,
   "full_integer_ell_count": 5999,
-  "publication_status": "not newly published; v0.2 DOI retained only as related predecessor",
-  "item6": "leading-gradient conversion dynamics and full finite-mode CMB projection implemented; full finite-gradient/microphysical completion OPEN"
+  "publication_status": "Published/Open on Zenodo; public GitHub code and repaired projection verified",
+  "item6": "leading-gradient conversion dynamics and full finite-mode CMB projection implemented; full finite-gradient/microphysical completion OPEN",
+  "zenodo_doi": "10.5281/zenodo.23489547",
+  "zenodo_record": "https://zenodo.org/records/23489547",
+  "verified_at_utc": "2026-10-20T04:36:48.107409+00:00",
+  "checks_reexecuted": 123
 }

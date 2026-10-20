@@ -33,8 +33,12 @@ gfortran, make, C/C++ 빌드 도구가 있는 환경에서 `python source/build.
 
 선행 공개 v0.2: https://zenodo.org/records/23488763. 패치 CAMB 계보 원전: MCC_Initial_Preparation_SOURCE_Lensing_CMB_v0_1.zip, 보존 파일 libfile_98855230bffc8191b58b0817368d3571. 사용 입력과 코드 해시는 SHA256SUMS.json 및 PROVENANCE.json에 기록했다.
 
-새 연구 원고: 저자 최원식·최정인, CC BY 4.0. CAMB 및 그 파생 소스·런타임은 동봉 원 라이선스를 유지한다. v0.3 DOI: https://doi.org/10.5281/zenodo.23489547 (게시 후 등록).
+새 연구 원고: 저자 최원식·최정인, CC BY 4.0. CAMB 및 그 파생 소스·런타임은 동봉 원 라이선스를 유지한다. v0.3 DOI: https://doi.org/10.5281/zenodo.23489547 (공개 게시 확인).
 
 ## GitHub 배포 구성
 
 GitHub에는 코드·원본 CAMB 압축과 패치·고정 입력·결과 JSON·최종 투영 배열 complete_projection.npz를 제공한다. 빌드 실행본과 중복·대용량 전달 캐시는 저장하지 않는다. 새 체크아웃에서는 의존성 설치 후 `python source/build.py`, `python run_all.py`를 먼저 실행하고 위 검증 순서를 따른다. 정밀도 대조 두 실행을 마친 뒤 review_extension.py를 실행한다. 로컬 재현 압축에는 실행본과 합병 전달 배열도 포함한다.
+
+## Reverification and publication / 재검증·게시
+
+2026-10-20: all sixteen CAMB solver shards freshly rerun; 123 checks passed. Four result JSONs and all merged D/A and projection arrays exactly reproduced the frozen reference. The truncated GitHub complete_projection.npz was replaced with the valid 1,199,538-byte archive; its eight arrays were fetched back from GitHub and verified exactly. See REVERIFICATION.json. Numerical outputs and scientific scope are unchanged. Zenodo v0.3 is Published/Open: https://zenodo.org/records/23489547.

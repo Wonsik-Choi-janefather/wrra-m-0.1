@@ -14,10 +14,14 @@ New checks: 96 projection/coverage, 15 dynamics, four actual initial-basis check
 
 The dynamical closure uses local patches of one universe at leading gradient order. It evolves radiation/matter exchange, pressure work, expansion and tangent curvature, and inserts the generated entropy/radiation curvature into actual CAMB initial bases with the verified sign. The convertible reservoir fraction is calibrated to the adopted observed CDM/radiation ratio. Starting scale, pulse and rate-modulation law are disclosed conditional inputs. A quantized spatial seed is used; a finite-quantum emission-time solver is not supplied.
 
-Full finite-gradient metric/momentum/free-streaming-neutrino matching, ordinary matter reactions, detailed thermal history, nonlinear evolution and a new likelihood remain OPEN. Finite-grid variance coverage is not all cosmic scales or ell>6000 coverage. Prior publication: https://zenodo.org/records/23488763. v0.3 DOI: https://doi.org/10.5281/zenodo.23489547 (registered upon publication).
+Full finite-gradient metric/momentum/free-streaming-neutrino matching, ordinary matter reactions, detailed thermal history, nonlinear evolution and a new likelihood remain OPEN. Finite-grid variance coverage is not all cosmic scales or ell>6000 coverage. Prior publication: https://zenodo.org/records/23488763. v0.3 DOI: https://doi.org/10.5281/zenodo.23489547 (Published/Open verified).
 
 Provenance and hashes are included. New manuscripts: Wonsik Choi and Jeongin Choi, CC BY 4.0. Preserve the bundled CAMB license for original/derived code and runtime.
 
 ## GitHub distribution
 
 GitHub supplies code, pristine CAMB archive and patches, frozen inputs, result JSON and computed complete_projection.npz. Compiled runtime and large/redundant transfer caches are omitted. In a fresh checkout install dependencies, run `python source/build.py`, then `python run_all.py` before the remaining verification commands. Generate both precision controls before review_extension.py. The local reproduction ZIP additionally includes runtime and assembled transfer arrays.
+
+## Reverification and publication / 재검증·게시
+
+2026-10-20: all sixteen CAMB solver shards freshly rerun; 123 checks passed. Four result JSONs and all merged D/A and projection arrays exactly reproduced the frozen reference. The truncated GitHub complete_projection.npz was replaced with the valid 1,199,538-byte archive; its eight arrays were fetched back from GitHub and verified exactly. See REVERIFICATION.json. Numerical outputs and scientific scope are unchanged. Zenodo v0.3 is Published/Open: https://zenodo.org/records/23489547.
