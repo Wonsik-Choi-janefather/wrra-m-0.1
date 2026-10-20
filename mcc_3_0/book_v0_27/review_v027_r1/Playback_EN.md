@@ -1,0 +1,2 @@
+**Execution and physical laws.** Playback means execution of relationships embodied in structure. It does not posit a previous completed calculation of the universe, an external computer or a prerecorded future. A Typed Ledger specifies types, owners and allowed updates; local causality and energy conservation additionally require the model's explicit event order, dynamics and supplier/recipient balance laws. Their implemented scope and remaining junctions are summarized in Appendix H.3.
+

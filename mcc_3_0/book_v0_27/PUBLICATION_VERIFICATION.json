@@ -1,64 +1,27 @@
 {
-  "checks": {
-    "KO_old_chapters_1_136_preserved": true,
-    "KO_old_synthesis_appendix_preserved": true,
-    "KO_new_chapters_once": true,
-    "KO_images_resolve": true,
-    "KO_name_preserved": true,
-    "KO_actual_limit_disclosed": true,
-    "KO_pdf_new_sections": true,
-    "KO_pdf_font_text": true,
-    "EN_old_chapters_1_136_preserved": true,
-    "EN_old_synthesis_appendix_preserved": true,
-    "EN_new_chapters_once": true,
-    "EN_images_resolve": true,
-    "EN_name_preserved": true,
-    "EN_actual_limit_disclosed": true,
-    "EN_pdf_new_sections": true,
-    "EN_pdf_font_text": true,
-    "galaxy_midplane_percent": true,
-    "galaxy_count_validation_open": true,
-    "galaxy_count_deviance": true,
-    "color_rerun_36": true,
-    "dependency_rerun_4": true
-  },
-  "passed": 21,
-  "total": 21,
-  "pdfs": {
-    "KO": {
-      "pages": 255,
-      "bytes": 3660109,
-      "md5": "a4494412935344c21b934b55a764ebdc",
-      "sha256": "7b9db81d7768cd70742323cfd5149db8cc758bf04401409318d76c4068ede38d",
-      "image_references": 48,
-      "review_pages": [
-        1,
-        236,
-        237,
-        238,
-        239
-      ]
-    },
-    "EN": {
-      "pages": 284,
-      "bytes": 3636776,
-      "md5": "d36996cd78039be64abf8437608f28da",
-      "sha256": "847d28e6d3ee52e7f53949df3425e6c672ee24e0449b26d68c03790f0588dfc8",
-      "image_references": 48,
-      "review_pages": [
-        1,
-        263,
-        264,
-        266,
-        267
-      ]
-    }
-  },
-  "scope": "Editorial preservation, source-record verification and 36+4 actual color rerun; no full AGAMA integration rerun.",
-  "publication": {
-    "zenodo": "Published/Open; Book v0.27; both displayed MD5 checksums match local PDFs",
-    "github": "26 changed source files verified byte-for-byte at source_commit",
-    "gitbook": "Both change requests merged; new chapters and v0.27 root read back from main",
-    "pdf_visual_review": "Front matter and new-chapter pages inspected; chapter starts placed on new pages"
+  "version": "Book v0.27-r1",
+  "baseline_inverse_verified": [
+    "KO",
+    "EN"
+  ],
+  "all_prior_content_preserved": true,
+  "figures_per_language": 48,
+  "lcm": 500,
+  "product": 1015000,
+  "active_addresses": 1014999,
+  "new_scientific_run": false,
+  "changes": [
+    "Chapter 38 construction summary",
+    "Playback clarification",
+    "Appendix H claim tests and OPEN register",
+    "Bilingual glossary and scoped symbol rules"
+  ],
+  "pdf_visual_review": "Front matter, playback, SOURCE summary and every page of Appendix H tables inspected",
+  "arithmetic_boundary_check": {
+    "T_H": 182.212373908208,
+    "gamma70_source": 182.20707848436646,
+    "gamma71_source": 184.8744678483875,
+    "declared_boundary_inequality": true,
+    "scope": "Arithmetic verification of the boundary using heights already reported in Chapters 37\u201338; no new zero-spectrum run."
   }
 }

@@ -1,0 +1,27 @@
+{
+  "version": "Book v0.27-r1",
+  "baseline_inverse_verified": [
+    "KO",
+    "EN"
+  ],
+  "all_prior_content_preserved": true,
+  "figures_per_language": 48,
+  "lcm": 500,
+  "product": 1015000,
+  "active_addresses": 1014999,
+  "new_scientific_run": false,
+  "changes": [
+    "Chapter 38 construction summary",
+    "Playback clarification",
+    "Appendix H claim tests and OPEN register",
+    "Bilingual glossary and scoped symbol rules"
+  ],
+  "pdf_visual_review": "Front matter, playback, SOURCE summary and every page of Appendix H tables inspected",
+  "arithmetic_boundary_check": {
+    "T_H": 182.212373908208,
+    "gamma70_source": 182.20707848436646,
+    "gamma71_source": 184.8744678483875,
+    "declared_boundary_inequality": true,
+    "scope": "Arithmetic verification of the boundary using heights already reported in Chapters 37\u201338; no new zero-spectrum run."
+  }
+}

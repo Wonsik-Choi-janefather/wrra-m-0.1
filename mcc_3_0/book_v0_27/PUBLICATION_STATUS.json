@@ -1,34 +1,55 @@
 {
-  "version": "Book v0.27",
+  "version": "Book v0.27-r1",
   "date": "2026-10-21",
-  "state": "Published and verified on GitHub, GitBook EN/KO and Zenodo",
-  "baseline_book": "10.5281/zenodo.23492729",
-  "baseline_repository_commit": "1070a2aab2d17bcd0b4978ba696f486868fdc055",
-  "color_source": "publication/WRRA_Color_Interface_Audit_v0_8_2",
-  "galaxy_source_commit": "3b49da87c27379e9637a53aa38e325f43808685d",
-  "new_chapters": [
-    137,
-    138
+  "scope": "Editorial clarification; 138 chapters and previous numerical outputs preserved",
+  "baseline": "Book v0.27, DOI 10.5281/zenodo.23511592",
+  "baseline_commit": "4738c9662040d3330c022927b3a35330e398effa",
+  "zenodo_reserved_doi": "10.5281/zenodo.23516661",
+  "state": "publication pending",
+  "new_scientific_run": false,
+  "changes": [
+    "Chapter 38 construction summary",
+    "Playback clarification",
+    "Appendix H claim tests and OPEN register",
+    "Bilingual glossary and scoped symbol rules"
   ],
-  "color_checks_rerun": {
-    "replay": 36,
-    "dependency": 4
-  },
-  "full_AGAMA_rerun": false,
-  "name": "Wonsik Reality–Renderer Architecture",
-  "zenodo_reserved_doi": "10.5281/zenodo.23511592",
   "gitbook_change_requests": {
-    "EN": "XgqFhcDlcHHR1lRsyHFs",
-    "KO": "aaYiUGxzjrU5fyh3PqdT"
+    "EN": "KC1nSBqis3zs0FHAFKPS",
+    "KO": "fMAxnJJLL2VqJUvujqcI"
   },
-  "verification": "21/21 editorial/source-record checks; 36/36 color and 4/4 dependency rerun",
-  "zenodo_doi": "10.5281/zenodo.23511592",
-  "zenodo_url": "https://zenodo.org/records/23511592",
-  "zenodo_file_count": 2,
-  "zenodo_file_policy": "Complete KO/EN PDFs only; code/data on GitHub",
-  "source_commit": "a60fa45af2db7ded3551f4cb7ac8927ce70f64fd",
-  "gitbook_revisions": {
-    "EN": "v9IBSjWYqlnuROb621DN",
-    "KO": "5o71mtc48MtkwccZidGi"
+  "pdfs": {
+    "KO": {
+      "pages": 259,
+      "bytes": 3674213,
+      "md5": "ab517009dc5aa67fc45d54795f8e15d1",
+      "sha256": "483be446b6cb6747c427896083c77083cb52050deee64979be1950272c8734ff",
+      "review_pages": [
+        1,
+        3,
+        4,
+        98,
+        99,
+        256,
+        257,
+        258
+      ]
+    },
+    "EN": {
+      "pages": 289,
+      "bytes": 3661720,
+      "md5": "a004eb00ef19f43c8146380aa4d04d9c",
+      "sha256": "8753986ddd56c55802eaca41c758ffa101f98d66b7ff74f62d3963ca8850014a",
+      "review_pages": [
+        1,
+        3,
+        4,
+        100,
+        101,
+        285,
+        286,
+        287,
+        288
+      ]
+    }
   }
 }

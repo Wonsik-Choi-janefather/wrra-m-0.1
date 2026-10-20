@@ -1,0 +1,7 @@
+{
+  "T_H": 182.212373908208,
+  "gamma70_source": 182.20707848436646,
+  "gamma71_source": 184.8744678483875,
+  "declared_boundary_inequality": true,
+  "scope": "Arithmetic verification of the boundary using heights already reported in Chapters 37\u201338; no new zero-spectrum run."
+}

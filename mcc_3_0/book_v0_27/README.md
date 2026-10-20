@@ -1,14 +1,13 @@
-# Minimal Computing Cosmology 3.0 — Book v0.27
+# Minimal Computing Cosmology 3.0 — Book v0.27-r1
 
-Current sources: MCC_3_0_Full_Book_KO_v0.27.md and MCC_3_0_Full_Book_EN_v0.27.md. Earlier sources remain as genealogy.
+Current full sources: MCC_3_0_Full_Book_KO_v0.27-r1.md and MCC_3_0_Full_Book_EN_v0.27-r1.md. Earlier full sources are preserved.
 
-Adds Chapters 137–138: the particle/color dependency and exact-singlet audit, and live AGAMA v0.3 numerical closure with the actual Gaia comparison.
+Editorial additions: Chapter 38 SOURCE construction summary, playback clarification and Appendix H (core claim tests/OPEN register, module boundaries and bilingual glossary with scoped symbols). All existing 138 chapters and numerical outputs are retained. No new scientific run. Exact inverse removal of the additions restores full v0.27 in both languages.
 
-Published full PDFs: https://zenodo.org/records/23511592 (Korean 255 pages; English 284 pages). Only the two complete PDFs are included in this book deposit. Code/data remain on GitHub.
+Full PDFs are supplied on Zenodo only; code/data and editorial provenance remain on GitHub. See PUBLICATION_STATUS.json for verified publication state.
 
-GitBook EN: https://independent-research.gitbook.io/minimal-computing-cosmology-3.0/
+Previous v0.27: https://zenodo.org/records/23511592
 GitBook KO: https://independent-research.gitbook.io/minimal-computing-cosmology-3.0/korean-edition/
+GitBook EN: https://independent-research.gitbook.io/minimal-computing-cosmology-3.0/
 
-36+4 color checks rerun; 21 editorial/source-record checks passed. Galactic records cross-checked; full AGAMA integration not rerun. Full observational validation and external review verdict are not claimed. See PUBLICATION_STATUS.json and PUBLICATION_VERIFICATION.json.
-
-Render: bash review_v027/render.sh. For the editorial rebuild, run review_v027/build027.py with the sibling book_v0_26 retained; rendering uses inherited review_v026 filters. The audit script uses saved source records and sibling v0.26; it does not rerun external scientific packages.
+Rebuild: python3 review_v027_r1/revise027r1.py; bash review_v027_r1/render.sh. PDF verification: python3 review_v027_r1/verify_pdf.py (PyMuPDF and Pillow). Use Pandoc/XeLaTeX and Noto Sans CJK KR regular/bold for the complete bilingual rendering. Original scientific reproduction belongs to each cited source module.

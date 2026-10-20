@@ -1,0 +1,2 @@
+**v0.27-r1 editorial update · 21 October 2026.** Add a SOURCE construction table to Chapter 38 and Appendix H with the core falsification/OPEN register, module-boundary reading rules and Korean–English terminology. Clarify playback as execution of embodied relationships. Preserve all 138 chapters and earlier numerical results. This revision adds no scientific run, SPARC mass-bin diagnosis or Planck-scale error bound. Prior full book v0.27: https://zenodo.org/records/23511592.
+
