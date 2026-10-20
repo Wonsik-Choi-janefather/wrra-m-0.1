@@ -1,0 +1,27 @@
+{
+  "title": "Finite Information Exchange Between Two Upstream Layers in WRRA",
+  "version": "0.1",
+  "authors": [
+    "Wonsik Choi",
+    "Jeongin Choi"
+  ],
+  "date": "2026-10-20",
+  "zenodo_status": "published and record UI verified",
+  "zenodo_doi": "10.5281/zenodo.23487587",
+  "zenodo_url": "https://zenodo.org/records/23487587",
+  "github_content_commit": "d6cc527dbd65e237437bee5a44e1f837bd5ac8a2",
+  "github_directory": "submission/upstream_information_exchange_v0_1",
+  "zenodo_data_delivery": "GitHub links only; no archive on Zenodo",
+  "files": {
+    "WRRA_Upstream_Exchange_KO_v0.1.pdf": {
+      "md5": "1a1324cc2dafba8fa6f0b4066a1a6591",
+      "bytes": 56165,
+      "pages": 3
+    },
+    "WRRA_Upstream_Exchange_EN_v0.1.pdf": {
+      "md5": "69419c9dbee04e31a6a975d32d5d300b",
+      "bytes": 40117,
+      "pages": 4
+    }
+  }
+}
