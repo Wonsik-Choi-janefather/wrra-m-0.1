@@ -3,10 +3,10 @@
   "MCC_3_0_Full_Book_EN_v0.25.md": "b1bb875562420c8ba8a85ee72064edbaea5bd9b796a137a951381eb297bd8d6b",
   "MCC_3_0_Chapter135_Output_Selection_KO_v0.25.md": "381b3148309dec2571688e1f7529daf136ebbfa6fc6be55dde3f02726a6b799d",
   "MCC_3_0_Chapter135_Output_Selection_EN_v0.25.md": "354fd4bb359464355feb63022a51ab72f838d91f3e32ac282a56148054c794ba",
-  "README.md": "8f60850affa8fee0e1df148c404ab82fd5db53986bef408b178db4f1df65a90a",
+  "README.md": "ec1393a934495480620494ca1a9d74af4bedfb55437d3712ffc2b544b554df4c",
   "ZENODO_DATA_ACCESS.md": "72c034b3a965c57a88504d36219e21597c774d8ee90b4e9f7035479cfe9a58d0",
   "change_ledger.json": "799669a64a04a1b0c10324841083b655810d5c15c101d2083564081991f644be",
-  "PUBLICATION_STATUS.json": "c8747f79a7e6052a887f907841da7c526482cad0bba6d88337359c311ec024df",
+  "PUBLICATION_STATUS.json": "b9c01de944fdb1abc9ee6cc88d54289c97b5bb9e6ae1aef40c54c446af68a7ee",
   "review_r5/black_hole_bridge.py": "b66a016fd8e870c329fd2bce664e4993a9c4d2442e199ec01318e4af671b992e",
   "review_r5/black_hole_results.json": "b26b175915d04f760b10081c7a3b6b101830c1fb514d3f5e9e8fb452f26c8a67",
   "review_r5/requirements.txt": "11c495c6fd22a834f03652c1be83034c9a747b39e16b60ffae0249f92e6e4a09",
@@ -27,5 +27,6 @@
   "review_r5/upstream_exchange/requirements.txt": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7",
   "review_r5/upstream_exchange/inputs.json": "856620ad2c1cc39ae129dec8b44e410c7661c7d7ed17bc37ed571d79e2d33a04",
   "MCC_3_0_Full_Book_KO_v0.25.pdf": "ba467e1cb9e4dd39e2494777f36c54c7b2f471b99eb7c2c27c1d2f4dfcd5a1a3",
-  "MCC_3_0_Full_Book_EN_v0.25.pdf": "bfa01c3a32d54e7b831279ca63be4cb4dcba12ad487589f560ec195f4eb71373"
+  "MCC_3_0_Full_Book_EN_v0.25.pdf": "bfa01c3a32d54e7b831279ca63be4cb4dcba12ad487589f560ec195f4eb71373",
+  "review_r5/GITBOOK_PUBLISHED_QA.json": "976fac00ce7e575c46922bebdb662cba30ea46451f71db6ab6b5c1f32263114c"
 }

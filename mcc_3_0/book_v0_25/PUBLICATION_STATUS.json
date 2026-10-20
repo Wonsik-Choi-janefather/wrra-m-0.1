@@ -1,7 +1,7 @@
 {
   "book_version": "0.25-r5",
   "date": "2026-10-20",
-  "zenodo_status": "draft; DOI reserved, not yet publication",
+  "zenodo_status": "published; verified record page",
   "zenodo_book_doi": "10.5281/zenodo.23488205",
   "previous_book_url": "https://zenodo.org/records/23486923",
   "paper_sources": [
@@ -14,5 +14,11 @@
     "EN": 275
   },
   "item6": "OPEN",
-  "gitbook_status": "bilingual drafts updated; not yet merged"
+  "gitbook_status": "bilingual change requests merged and main content read back",
+  "zenodo_book_url": "https://zenodo.org/records/23488205",
+  "github_scientific_content_commit": "2d3b66dadbd4b0af910158fe1bfb28dde5034d49",
+  "gitbook_revisions": {
+    "KO": "dL5h0TsTugZy5xlB29HV",
+    "EN": "KwjvHZVSKBRiAUCUz19E"
+  }
 }

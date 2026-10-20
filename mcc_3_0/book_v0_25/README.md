@@ -19,7 +19,7 @@ The matter-prepared initial condition is the current branch; the historical No E
 
 ## Releases and reproduction
 
-- [Book v0.25-r5 release target](https://doi.org/10.5281/zenodo.23488205): Korean 248 pages, English 275 pages.
+- [Published Book v0.25-r5](https://zenodo.org/records/23488205): Korean 248 pages, English 275 pages.
 - [Prior full book v0.25-r4](https://zenodo.org/records/23486923).
 - [Two-resolution standalone paper v1.5](https://zenodo.org/records/23487366).
 - [Upstream-exchange standalone paper v0.1](https://zenodo.org/records/23487587).
