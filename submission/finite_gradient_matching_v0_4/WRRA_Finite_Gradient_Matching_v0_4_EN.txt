@@ -1,0 +1,139 @@
+# Finite-Gradient Conversion and Conserving Neutrino-Metric Matching in WRRA
+
+**MCC 3.0 Item 6 follow-up, working v0.4**  
+Wonsik Choi · Jeongin Choi | Independent researchers | 20 October 2026
+
+## Verified inputs → WRRA transformation → outputs → falsification
+
+**Verified inputs.** Retain v0.3's fixed reservoir fraction $\beta=7.62452468358126e-07$, proper pulse, starting scale, background normalization and 128-cell SOURCE seed. Split the spectator radiation using the inherited $N_{\rm eff}=3.044$ prescription, giving $f_\nu=0.408743970116$. The free-streaming/perfect-fluid content and reservoir velocity transfer are new disclosed effective-model choices.
+
+**WRRA transformation.** Evolve the complete finite-k effective transition state rather than only its local zero-gradient entropy. Pair source and recipient energy and momentum, evolve metric and neutrino hierarchy, match by conserving the total stress-energy, then continue the matched state.
+
+**Outputs.** 643 new finite checks pass; all 64 original modes are evolved and matched. The zero-gradient coefficients reproduce v0.3. New complete species states and their action on the actual seed are exported.
+
+**Falsification.** Failed conservation, Einstein constraints, matching continuity, convergence or zero-gradient recovery require revision. The current result is not a newly fitted CMB angular spectrum.
+
+
+## Equations and variables
+
+Use $8\pi G_{\rm N}/3=1$, the relative scale factor $a(0)=1$ and $H(0)=1$. Dots below denote dimensionless local proper time; primes denote conformal time. The physical starting scale remains $a_i=10^{-10}$. Radiation budgets are $C=\rho_xa^4$, $G=\rho_\gamma a^4$, $V=\rho_\nu a^4$ and $M=\rho_ma^3$. Initially $C=\beta$, $G=(1-\beta)(1-f_\nu)$, $V=(1-\beta)f_\nu$, $M=0$.
+
+The disclosed transfer prescription is
+
+$$Q_m^\mu=-Q_x^\mu=\Gamma(T)(1+\xi)\rho_xu_x^\mu.$$
+
+Here $T$ is the declared geodesic-reference proper-time clock, with conversion active for $0<T<1$. The synchronous slice sets its perturbation to zero. Under another gauge the clock perturbation must also transform; it is not a universal absolute-time assertion. The scalar modulation $\xi$ is the frozen WRRA seed, conserved to first order. Its unit-amplitude response is evolved and subsequently multiplied by the actual small seed. This constitutive choice is an explicit model input, not a particle reaction derived from a microscopic Hamiltonian.
+
+The inherited background is
+
+$$\dot N=H,\quad\dot C=-\Gamma C,\quad\dot M=\Gamma C/a,$$
+$$\dot H=-\tfrac12[4(C+G+V)/a^4+3M/a^3],\qquad\dot W=H(C+G+V)/a.$$
+
+Let $d_i=a^{3(1+w_i)}\delta\rho_i$, $P_i=a^4(\rho_i+p_i)\theta_i/K^2$, $L=\dot h$, and $P=\sum_iP_i$. There is no division by the initially zero matter density during integration. In the unit rate-modulation response,
+
+$$\dot d_x=-K^2P_x/a-2CL/3-\Gamma(d_x+C),$$
+$$\dot d_\gamma=-K^2P_\gamma/a-2GL/3,\quad
+\dot d_\nu=-K^2P_\nu/a-2VL/3,$$
+$$\dot d_m=-K^2P_m/a^2-ML/2+\Gamma(d_x+C)/a.$$
+
+The momentum equations retain the receiver source:
+
+$$\dot P_x=d_x/(3a)-3\Gamma P_x/4,\quad\dot P_m=3\Gamma P_x/4,$$
+$$\dot P_\gamma=d_\gamma/(3a),\qquad
+\dot P_\nu=d_\nu/(3a)-4VK^2s_\nu/(3a).$$
+
+For a numerically stable $K\to0$ limit, use $s_\nu=\sigma_\nu/K^2$, $f_\ell=F_{\nu\ell}/K^\ell$ and $g=(h'+6\eta')/K^2$:
+
+$$\dot\eta=3P/(2a^3),\quad L=K^2g/a-6\dot\eta,$$
+$$\dot g=-2Hg+2\eta/a-12Vs_\nu/a^3,$$
+$$\dot s_\nu=[4v_\nu/15+2g/15-3K^2f_3/10]/a,$$
+$$\dot f_\ell=[\ell f_{\ell-1}-(\ell+1)K^2f_{\ell+1}]/[(2\ell+1)a],\quad\ell\ge3,$$
+
+where $v_\nu=P_\nu/(4V/3)$ and $f_2=2s_\nu$. The upper hierarchy is set to zero beyond the stated truncation. Convergence is tested at $\ell_{\max}=16,24$ together with halved time steps; no claim is made for arbitrary wavenumber or arbitrarily long propagation.
+
+The Hamiltonian constraint is inspected without resetting a metric variable:
+
+$$K^2\eta-\tfrac12a^2HL+\tfrac32a^2\delta\rho=0.$$
+
+An independent implementation evolves $L$ through the Einstein trace equation,
+
+$$\dot L=-3HL+2K^2\eta/a^2-9\delta p,$$
+
+and unscaled neutrino multipoles. Its trajectory is compared against the shear-based implementation. The energy/momentum residuals also directly inspect cancellation of the transfer terms; they are consistency checks, not independent observational tests.
+
+## Executed matching operation
+
+At $T=10$, retain $(h,\eta,g,M,d_m,P_m)$ and every neutrino moment. Absorb the remaining *perfect* reservoir radiation into the perfect photon-like bath:
+
+$$G^+=G^-+C^-,\quad d_\gamma^+=d_\gamma^-+d_x^-,\quad
+P_\gamma^+=P_\gamma^-+P_x^-;\qquad C^+=d_x^+=P_x^+=0.$$
+
+This preserves background/perturbed total energy, pressure, momentum and anisotropic stress on the same proper-time slice, hence the induced metric and its first derivative. The operation is an exact linear stress-energy regrouping of two perfect radiative components. It is not a calculated microscopic thermalization or baryon-production reaction. Both the unmerged and merged systems are actually continued to $T=30$. Their agreement tests this regrouping only, not equality of every possible physical post-transition model.
+
+The export retains separate photon and neutrino densities, velocities and the full computed neutrino hierarchy, rather than projecting it down to the two v0.3 primordial coefficients. Photon-reservoir absorption is a disclosed branch choice. Other destinations require a separately conserving matching rule.
+
+\newpage
+
+## Numerical outputs
+
+| Quantity | Result |
+|---|---:|
+| New finite calculation checks | 643 passed |
+| Original finite wavenumbers actually evolved and matched | 64 |
+| Zero-gradient entropy response | 0.723567385056114 |
+| Zero-gradient radiation curvature response | -6.60614975285515e-08 |
+| Largest physical $k/(aH)$ at matching | 0.000679763743809 |
+| Mode-64 entropy-response relative change from v0.3 | 9.10792996578e-10 |
+| Mode-64 radiation-curvature relative change | -6.31401660955e-08 |
+| Actual 128-cell entropy field relative L2 change | 8.81487192574e-11 |
+| Largest matched/unmerged continuation difference, declared norm | 9.75856e-16 |
+| Largest independent-metric state difference, declared norm | 3.89482e-11 |
+
+At the largest original mode, per unit rate modulation, $S_{mr}=0.723567385715136$ and $\zeta_r=-6.60614933574178e-08$. The actual seed gives entropy RMS=1.78372913373e-08. No amplitude was refitted. Printed digits specify reproducible outputs rather than empirical precision.
+
+The merge also produces a branch-specific photon/neutrino entropy $S_{\nu\gamma}=3.35192239644e-07$ per unit modulation at mode 64. It is multiplied by the small actual seed; it is not a measured cosmological isocurvature amplitude. This separate species memory is retained in the export.
+
+| Residual across the original 64 modes | Maximum declared normalized value |
+|---|---:|
+| Einstein Hamiltonian | 2.09149e-14 |
+| Einstein trace | 9.27668e-15 |
+| Perturbed energy conservation | 3.35395e-14 |
+| Perturbed momentum conservation | 5.68e-15 |
+
+Each normalizer is explicit in `sample_audit` and in the negative-control JSON. These are numerical residuals in the declared units, not measurement uncertainties. The momentum constraint is used to evolve $\eta$; its identical re-evaluation is not counted as an independent test. The Hamiltonian and independent trace trajectories provide additional checks.
+
+Stress cases extend to $k/(aH)=4.58257$ at matching. They are diagnostic wavenumbers outside the original finite SOURCE grid, not new universe-wide source modes. The comparison removes neutrino shear to define a separate perfect-fluid model; its metric differs. The combined hierarchy/time-step convergence changes the selected metric/curvature responses by at most 2.54749e-12 in the declared norm.
+
+## Rejecting controls
+
+1. Delete the recipient momentum source while leaving energy exchange intact: energy residual remains small, but normalized Hamiltonian residual becomes 0.0155773, trace residual 1.63109, and momentum residual 4.3044. Energy-only auditing would miss the error.
+2. Drop the reservoir density perturbation at matching: the relative total-density jump is 0.0733204.
+3. Drop its momentum: the relative total-momentum jump is 0.62217.
+
+The 643 checks comprise 576 original-mode state/constraint/matching checks; three zero-gradient checks; five finite-gradient/hierarchy response checks; 21 actual-seed field checks; 35 stress-case matching/independent-solver/convergence checks; and three rejecting controls. Previous v0.3 checks are not added to this count.
+
+## Falsification conditions and scope
+
+Failure to recover the fixed v0.3 zero-gradient outputs, a nonconvergent hierarchy/time integration, failed Einstein constraints, unpaired transfer momentum, or a density/momentum/geometry jump on the declared matching surface rejects or revises this branch. The frozen SOURCE is used without a new observational amplitude fit. A later observational comparison must use the completed state and its declared physical history.
+
+**Implemented:** the effective conversion interval now has finite spatial gradients at linear amplitude, separately moving components, a dynamical synchronous metric, a collisionless massless-neutrino hierarchy, and an explicitly executed conserving matching/continuation. The small-gradient limit is computed rather than imposed as the final state.
+
+**Still open:** injecting this entire state into the production CAMB initial callback and computing new T/E/lensing spectra; a self-consistent nonzero baryon background/production and tight-coupled photon-baryon system in the conversion interval; massive-neutrino momentum dependence, collisional neutrino decoupling, a MeV thermal history, microscopic transfer rates, finite-quantum event timing, nonlinear dynamics and new observational likelihoods. A massless collisionless neutrino bath and a perfect photon-like bath are explicit effective inputs during this experiment, not a derived early-Universe thermal history. This extends Item 6 but does not close all of its physical branches.
+
+The inherited v0.3 full CMB spectra are not relabeled as v0.4 predictions. No new CMB angular spectrum or new observational detection is claimed here. Standard GR/Boltzmann equations are disclosed construction material; their present integration is limited to the equations actually evolved.
+
+## Reproduction and primary sources
+
+Python 3.12, NumPy 2.3.5 and SciPy 1.17.0. Run `python run_checks.py`; it needs only the two frozen files in `inputs/`. `finite_gradient.py` and `independent_metric.py` contain both metric formulations. `results/audit.json` contains every named test, absolute residuals for counterexamples and normalization information. `matching_states.json` provides before/after species states and velocity units; `all_64_transition_responses.npz` stores normalized responses; `actual_128_cell_matched_fields.npz` applies them to the actual seed. `make_reports.py` additionally uses Matplotlib and Pandoc/XeLaTeX to rebuild the reports. A clean numerical rerun requires no CAMB binary or network.
+
+1. Choi, W. and Choi, J. v0.3 predecessor, DOI [10.5281/zenodo.23489547](https://doi.org/10.5281/zenodo.23489547).
+2. Ma, C.-P. and Bertschinger, E. *Cosmological Perturbation Theory in the Synchronous and Conformal Newtonian Gauges*, equations (21), (49), [astro-ph/9506072](https://arxiv.org/abs/astro-ph/9506072).
+3. Malik, K. A. and Wands, D. *Cosmological perturbations*, interacting-fluid conservation and transfer, [arXiv:0809.4944](https://arxiv.org/abs/0809.4944).
+
+External sources specify the adopted field equations; the reservoir prescription, finite-source response, matching operation and numerical outputs are the declared WRRA construction executed here. Authors: Wonsik Choi and Jeongin Choi, independent researchers. AI assistance: implementation, computational checks and language preparation. Original new material: CC BY 4.0. No new Zenodo/GitHub publication is asserted by this working report.
+
+\newpage
+
+## Diagnostic plots
+
+![Finite-gradient corrections, neutrino-stress comparison, conservation counterexample and matching tests.](finite_gradient_diagnostics.png){width=100%}

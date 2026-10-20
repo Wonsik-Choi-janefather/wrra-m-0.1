@@ -1,0 +1,11 @@
+{
+  "version": "0.4",
+  "checks_passed": 643,
+  "original_modes_evolved_and_matched": 64,
+  "clean_rerun": "exact numerical JSON and array reproduction",
+  "zenodo_doi": "10.5281/zenodo.23490141",
+  "zenodo_status": "reserved draft; publication not yet verified",
+  "zenodo_predecessor": "10.5281/zenodo.23489547",
+  "scope": "Finite-gradient transition and matched continuation within the declared effective linear model; full-state CAMB injection and new CMB spectra remain unexecuted.",
+  "frozen_document_note": "The original manuscripts and README retain their working-package preparation disclaimer. This status file records subsequent release actions."
+}

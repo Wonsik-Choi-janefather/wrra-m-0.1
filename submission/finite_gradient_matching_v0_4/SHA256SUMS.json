@@ -1,0 +1,21 @@
+{
+  "PDF_QA.json": "f661776af0fc1d7fffceb0d67bfe43fc6bad672795224fe799e772e2a45a84e8",
+  "README.txt": "cd56c0a6c4002eccc2fca05c840461e96861d975cdf16a90a2c43655eb85fd33",
+  "REPRODUCTION.json": "46b8e424491a4535c3c19b4dc2de827b0e11efe840585d4ed46dcdd1d4d086b7",
+  "WRRA_Finite_Gradient_Matching_v0_4_EN.pdf": "dc4817b487f649460a3ef96ebf2a294380961a88c423f377925b9dd64e576713",
+  "WRRA_Finite_Gradient_Matching_v0_4_EN.txt": "6487b8e34f427445484a16ca34123de6b778ec927ceea5f57784ceb2df11f7f4",
+  "WRRA_Finite_Gradient_Matching_v0_4_KO.pdf": "12cd410b2e843775d034b1489409e79b06bd65abcfec17e8a33bcbd127d8c183",
+  "WRRA_Finite_Gradient_Matching_v0_4_KO.txt": "121f1dff8b365b8050fe52b0969b0b17556fd8d4574ba6fcc327bb9aff79e121",
+  "finite_gradient.py": "948ace062bca4f72d8d09f7d91d459ba41f3a65eed95fa7b1576c3bd3d91a497",
+  "finite_gradient_diagnostics.png": "74e23f3ce27627719209b6ce462e133d17496237b8cd6c1ac45b451dc4879166",
+  "independent_metric.py": "09d3c5fac7d58cb3eea32e7501338f01e754f11848f4067ca8fca7ecf515d0dd",
+  "inputs/dynamics_results.json": "e282a086af15d0d3b8b24710ff8079d0d11f8c86c231e5137812a19bb6403e99",
+  "inputs/quantized_seed.npz": "8a4e37b0233d509412ad6464066242eb1c491d6e310312cfa62c82ea52d8d145",
+  "make_reports.py": "1051a91f5d422f6685b70e7a3e5bd7531d4ce250d0faa8753a8907f199069c38",
+  "requirements.txt": "1668a3152e33680d94637b13421c15e68bd97cd8701f7f555c691f5bc5c0b9f3",
+  "results/actual_128_cell_matched_fields.npz": "86dbd37a11ef6b534a9322839d813836fbe24c2c7911ab203f63b90a304d8db6",
+  "results/all_64_transition_responses.npz": "95bc454ddbe780ae98e3ff485f96c6cacc24e8da2ff18406c5cbf0fe04e9bf53",
+  "results/audit.json": "20b5002ce5a4b5c4b6df2468aec89f6f10237745f682ae25298593ed277342a4",
+  "results/matching_states.json": "48f2df956d59b9f94ccc1fabbfa9aa14a2b4e1ce3ca61e52d2ac9ff36321fe16",
+  "run_checks.py": "75d04b665928b31573d296b86a7f03f5e05fd8e71a842bb3230c3b3948b6ba63"
+}
