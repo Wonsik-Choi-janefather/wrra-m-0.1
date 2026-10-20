@@ -1,0 +1,22 @@
+{
+  "baseline_book_doi": "10.5281/zenodo.23486923",
+  "baseline_sections": [
+    "38",
+    "135.12"
+  ],
+  "baseline_source_sha256": "d9372a71df5ba6bfe1a6394101fb047015c0b05e6da83f774bc5964a1ed6a0f6",
+  "inputs": {
+    "L": 500,
+    "H": 29,
+    "C": 70,
+    "N": 1015000,
+    "coordinate_domain": "ell=0..499,h=0..28,z=1..70",
+    "SOURCE_serialization": "a=1+ell+500*(h+29*(z-1))",
+    "carrier": "q=2^(ell+1)*3^(h+1)*5^z",
+    "terminology": "WRRA quasi-prime = composite atomic transport envelope; no Fermat claim",
+    "feedback": "16-bit payload XOR (a mod 65536); illustrative reversible operation",
+    "seconds_metres_or_flow_assigned_upstream": false
+  },
+  "engineering_status": "A replaceable finite implementation candidate; no unique physical encoding claim",
+  "no_upstream_physical_time": true
+}

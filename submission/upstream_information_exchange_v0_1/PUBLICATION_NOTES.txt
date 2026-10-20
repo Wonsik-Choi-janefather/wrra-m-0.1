@@ -1,0 +1,12 @@
+Finite Information Exchange Between Two Upstream Layers in WRRA
+Version 0.1 | 2026-10-20
+Wonsik Choi and Jeongin Choi, Independent Researchers
+Reserved DOI: 10.5281/zenodo.23487587
+
+This release presents one explicit engineering interface candidate: reversible composite envelopes, exclusive ownership, forward/reply feedback, typed middle mapping and finite tests.
+No changes to the audited exchange.py code were made for publication.
+The baseline integrated book remains v0.25-r4. Related renderer paper v1.5: https://zenodo.org/records/23487366
+
+Zenodo files: Korean and English manuscript PDFs only.
+Code and data: GitHub links only at submission/upstream_information_exchange_v0_1.
+No new independent empirical prediction or completed physical identification is asserted.
