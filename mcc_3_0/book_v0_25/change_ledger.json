@@ -4,23 +4,25 @@
     "baseline": "MCC_3_0_Full_Book_KO_v0.24.md",
     "baseline_sha256": "b847b5f369992d2cab0131f7d16a4761b1272627ceb63c159342f6c9e4a47508",
     "revised": "MCC_3_0_Full_Book_KO_v0.25.md",
-    "revised_sha256": "1cead1715ccdadbcfa3314412709b800ac6a1b1d76c60077a4b278247e414755",
+    "revised_sha256": "d9372a71df5ba6bfe1a6394101fb047015c0b05e6da83f774bc5964a1ed6a0f6",
     "historical_appendix_unchanged": true,
     "v025_bridge_not_incorporated": true,
-    "revision": "0.25-r3",
+    "revision": "0.25-r4",
     "integration_review": "renderer_r3/INTEGRATION_REVIEW.json",
-    "changes_from_r2": "renderer_r3/changes_from_r2_KO.patch"
+    "changes_from_r2": "renderer_r3/changes_from_r2_KO.patch",
+    "changes_from_r3": "renderer_r4/changes_from_r3_KO.patch"
   },
   {
     "language": "EN",
     "baseline": "MCC_3_0_Full_Book_EN_v0.24.md",
     "baseline_sha256": "1df4b42a314e510921b1c8fd7c1a053b4bd9b2352c2b8ac83f3d3fceab3641fb",
     "revised": "MCC_3_0_Full_Book_EN_v0.25.md",
-    "revised_sha256": "ffce3fcc3682eca65f2dc91e319863f542009cfcbd399efcfd8e8e80b840f551",
+    "revised_sha256": "64f7e96388856051fb227b5316d8acfde0fcd7f63d67bf3b5d6f734adaf0ca00",
     "historical_appendix_unchanged": true,
     "v025_bridge_not_incorporated": true,
-    "revision": "0.25-r3",
+    "revision": "0.25-r4",
     "integration_review": "renderer_r3/INTEGRATION_REVIEW.json",
-    "changes_from_r2": "renderer_r3/changes_from_r2_EN.patch"
+    "changes_from_r2": "renderer_r3/changes_from_r2_EN.patch",
+    "changes_from_r3": "renderer_r4/changes_from_r3_EN.patch"
   }
 ]

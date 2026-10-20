@@ -1,0 +1,56 @@
+{
+  "scope": "finite reverse-engineered readout and kinematic/ownership audit",
+  "profiles": [
+    "electron",
+    "muon"
+  ],
+  "profile_sha256": "43801536afdb8fa2c183cfd8d9781dc89c4cfc7fcce4b660ef611e93a83ffd24",
+  "cases": 288,
+  "rejected_controls": 6,
+  "max_normalized_errors": {
+    "mass_shell": 5.633601085576233e-14,
+    "two_stage_conservation": 8.607880799501106e-16,
+    "photon_null": 6.81910242160137e-16,
+    "carrier_conservation": 1.7162577695602828e-15
+  },
+  "examples": [
+    {
+      "interpreter": "electron",
+      "input_code": 9,
+      "parent": 18,
+      "outputs": [
+        "e-",
+        "e+"
+      ],
+      "mass_energy_each_MeV": 0.51099895069,
+      "total_pair_rest_energy_MeV": 1.02199790138,
+      "shutter_index_difference": 1,
+      "adopted_delay_s": 1.4813019664158633e-21
+    },
+    {
+      "interpreter": "muon",
+      "input_code": 9,
+      "parent": 18,
+      "outputs": [
+        "mu-",
+        "mu+"
+      ],
+      "mass_energy_each_MeV": 105.6583755,
+      "total_pair_rest_energy_MeV": 211.316751,
+      "shutter_index_difference": 1,
+      "adopted_delay_s": 1.4813019664158633e-21
+    }
+  ],
+  "excluded": [
+    "mass derivation",
+    "unique arithmetic-to-species assignment",
+    "reaction cross sections",
+    "spin/polarization amplitudes",
+    "muon decay dynamics",
+    "complete quantum-state inverse",
+    "observational timing validation",
+    "upstream pseudo-prime generator"
+  ],
+  "revision": "Book v0.25-r4",
+  "assessment_change": "Reverse-engineered interpreter implementation, not uniquely necessary arithmetic derivation"
+}
