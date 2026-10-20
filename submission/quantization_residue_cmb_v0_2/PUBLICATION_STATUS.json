@@ -2,11 +2,21 @@
   "version": "0.2",
   "date": "2026-10-20",
   "zenodo_doi": "10.5281/zenodo.23488763",
-  "zenodo_status": "reserved draft; not yet published",
+  "zenodo_status": "Published/Open; verified record page",
   "github_path": "submission/quantization_residue_cmb_v0_2",
-  "languages": ["KO", "EN"],
+  "languages": [
+    "KO",
+    "EN"
+  ],
   "main_checks": 46,
   "separate_oracle_checks": 530,
   "item6_status": "partially implemented; remaining tasks OPEN",
-  "data_delivery": "GitHub code/data links only; no data ZIP on Zenodo"
+  "data_delivery": "GitHub code/data links only; no data ZIP on Zenodo",
+  "zenodo_url": "https://zenodo.org/records/23488763",
+  "github_scientific_commit": "8844af193dc2c2f72222da323b3af912eaadc729",
+  "pdf_pages": {
+    "KO": 4,
+    "EN": 5
+  },
+  "generated_csv": "results/CMB_spectra.csv is reproduced by the entry point and included in the downloadable archive; GitHub stores the equivalent arrays in projection.npz"
 }
