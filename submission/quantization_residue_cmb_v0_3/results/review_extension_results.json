@@ -1,0 +1,30 @@
+{
+  "version": "0.3",
+  "checks_passed": 8,
+  "checks": {
+    "accuracy_controls_same_k_and_ell": true,
+    "accuracy_power_L2_T": true,
+    "accuracy_power_L2_E": true,
+    "accuracy_power_L2_phi": true,
+    "nonlinear_uniform_density_deltaN_matches_tangent": true,
+    "nonzero_Nyquist_single_real_variance": true,
+    "incorrect_Nyquist_double_count_rejected": true,
+    "Nyquist_even_odd_phase_readout": true
+  },
+  "accuracy_2p5_to_3p0_on_actual_471_multipoles": {
+    "T": {
+      "peak_normalized_power_change": 0.009722753157085094,
+      "relative_power_L2_change": 0.0023198909950161513
+    },
+    "E": {
+      "peak_normalized_power_change": 0.00014755511161503103,
+      "relative_power_L2_change": 0.00015639536051770126
+    },
+    "phi": {
+      "peak_normalized_power_change": 0.001047896843904152,
+      "relative_power_L2_change": 0.0009729849054544603
+    }
+  },
+  "uniform_density_deltaN_finite_difference_relative_error": 1.5812375302459714e-06,
+  "scope": "Numerical precision, nonlinear slicing and nonzero Nyquist controls; no new empirical likelihood or full finite-gradient completion."
+}

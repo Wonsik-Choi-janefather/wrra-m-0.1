@@ -1,0 +1,15 @@
+{
+  "accuracy": 2.5,
+  "kind": "A",
+  "max_eta_k": 50000,
+  "paired_ell_stride": 16,
+  "ell_grid_offset_index": 7,
+  "conformal_time_today_Mpc": 14141.564336124788,
+  "kmax_times_tau0": 45253.00587559932,
+  "elapsed_seconds": 17.693852424621582,
+  "new_Boltzmann_evolution": true,
+  "extrapolated_modes": 0,
+  "k_count": 64,
+  "ell_count": 837,
+  "sha256": "2efeda9ed6e7763187ce0369fba13ec7d8a0d38b38f0895f76d473bf0d80b6ad"
+}

@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-20",
+  "version": "0.3",
+  "reexecuted": [
+    "dynamics.py",
+    "check_basis.py",
+    "analyze.py",
+    "review_extension.py"
+  ],
+  "passed": 123,
+  "mode_count": 64,
+  "integer_ell_count": 5999,
+  "full_solver_shards": "16 previously executed actual evolutions; grid and overlap assembly rechecked",
+  "major_outputs_reproduced": true,
+  "new_empirical_validation": false
+}

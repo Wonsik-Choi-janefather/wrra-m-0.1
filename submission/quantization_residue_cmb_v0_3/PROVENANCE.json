@@ -1,0 +1,18 @@
+{
+  "version": "0.3",
+  "date": "2026-10-20",
+  "prior_study_DOI": "10.5281/zenodo.23488763",
+  "source_archive": "MCC_Initial_Preparation_SOURCE_Lensing_CMB_v0_1.zip",
+  "source_library_id": "libfile_98855230bffc8191b58b0817368d3571",
+  "CAMB_original_archive_sha256": "2f1f5f3b3964a3746693dc88a54218dca4ea049a04726f8177664c11d2d2616e",
+  "compiler": "GNU Fortran 13.3.0, Ubuntu package; source built in task workspace",
+  "changes": [
+    "exact 64-k grid",
+    "paired shifted integer-multipole grids",
+    "new expanding-reservoir dynamics and coherent S/zeta initial-basis map"
+  ],
+  "new_Boltzmann_evolutions": true,
+  "full_integer_multipole_coverage": 5999,
+  "publication": "new v0.3 local report; no new Zenodo publication claimed",
+  "scope": "leading-gradient two-fluid dynamics and actual regular-basis projection; full finite-gradient and microphysical matching OPEN"
+}
