@@ -1,0 +1,45 @@
+{
+  "external_names": [
+    "complex",
+    "float",
+    "itertools",
+    "math",
+    "max",
+    "np",
+    "range",
+    "sum"
+  ],
+  "allowed_names": [
+    "complex",
+    "float",
+    "itertools",
+    "math",
+    "max",
+    "np",
+    "range",
+    "sum"
+  ],
+  "scope": "Static recursive bytecode reads plus execution in a namespace containing only standard libraries and restricted builtins; ordinary unmodified library behavior is assumed. This is not a sandbox against malicious library replacement.",
+  "checks": {
+    "frozen_source_identity": true,
+    "all_external_names_allowlisted": true,
+    "no_captured_state": true,
+    "isolated_namespace_reproduces_color_check": true
+  },
+  "passed": 4,
+  "total": 4,
+  "color_output": {
+    "norm": 1.0000000000000002,
+    "generator_residuals": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "maximum_residual": 0.0
+  }
+}
