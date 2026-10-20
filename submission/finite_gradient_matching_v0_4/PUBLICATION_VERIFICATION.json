@@ -1,0 +1,27 @@
+{
+  "verified_date": "2026-10-20",
+  "zenodo_url": "https://zenodo.org/records/23490141",
+  "doi": "10.5281/zenodo.23490141",
+  "version": "0.4",
+  "visible_state": "Published October 20, 2026; Version 0.4; Open",
+  "scientific_commit": "cad443cacd9d3fa860856f8f2c58dc5f006f6741",
+  "github_remote_verification": {
+    "files_checked": 20,
+    "all_SHA256_match": true
+  },
+  "zenodo_files": [
+    {
+      "name": "WRRA_Finite_Gradient_Matching_v0_4_EN.pdf",
+      "bytes": 220395,
+      "md5": "c571fdeb750d3747c5a34e37c902651e",
+      "sha256": "dc4817b487f649460a3ef96ebf2a294380961a88c423f377925b9dd64e576713"
+    },
+    {
+      "name": "WRRA_Finite_Gradient_Matching_v0_4_KO.pdf",
+      "bytes": 249036,
+      "md5": "ec4176cb14affb819e6229e933a70fef",
+      "sha256": "12cd410b2e843775d034b1489409e79b06bd65abcfec17e8a33bcbd127d8c183"
+    }
+  ],
+  "data_distribution": "Code and data are on GitHub only; no data ZIP deposited on Zenodo."
+}
