@@ -1,0 +1,12 @@
+{
+  "version": "0.2",
+  "date": "2026-10-20",
+  "zenodo_doi": "10.5281/zenodo.23488763",
+  "zenodo_status": "reserved draft; not yet published",
+  "github_path": "submission/quantization_residue_cmb_v0_2",
+  "languages": ["KO", "EN"],
+  "main_checks": 46,
+  "separate_oracle_checks": 530,
+  "item6_status": "partially implemented; remaining tasks OPEN",
+  "data_delivery": "GitHub code/data links only; no data ZIP on Zenodo"
+}

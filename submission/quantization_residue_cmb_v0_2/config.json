@@ -1,0 +1,20 @@
+{
+  "sites": 128,
+  "mean_conversion_fraction": 0.5,
+  "twist_coupling": 1.0,
+  "quantum_fraction": "0.00000001",
+  "conversion_stages": 128,
+  "subdivision_controls": [1, 7, 32, 257],
+  "template": "dark_weight_only S_D harmonics from inherited address_results.json",
+  "quantum_status": "new adopted fractional energy quantum equal numerically to inherited supply epsilon; not derived from hbar or Planck time",
+  "mean_status": "new preparation reference, not present-day composition or cosmic conversion efficiency",
+  "twist_status": "new conservative central-difference geometry response with fixed coupling; not an Einstein-equation derivation of twist",
+  "conversion_scope": "one local normalized-energy snapshot per cell; index stages do not establish a cosmic elapsed time",
+  "matter_type": "effective pressureless clustering component mapped to existing D-isocurvature basis; not a computed ordinary-baryon production reaction",
+  "boundary_matching": "entropy label projected onto inherited regular radiation-era completion; transient metric/velocity matching during conversion is an adopted interface, not solved",
+  "R_warning": "old R basis is return/vacuum, not radiation; new projection uses D only and sets old delta_R=0",
+  "space_scope": "periodic finite patch and inherited common-axis isotropic statistical readout, not a global compact 3D topology solution",
+  "CMB_scope": "k=0.05 n/Mpc n=1..7, ell=2..6000; actual cached patched CAMB accuracy 2.5; no fresh Boltzmann evolution or likelihood; higher quantization harmonics retained but not CMB projected",
+  "source_library_id": "libfile_17590653d0908191b9a6d532be4a9842",
+  "source_library_version": 3
+}
