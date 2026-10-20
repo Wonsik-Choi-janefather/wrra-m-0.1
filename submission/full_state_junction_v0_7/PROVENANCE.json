@@ -1,0 +1,30 @@
+{
+  "version": "0.7-dev-r1",
+  "date": "2026-10-20",
+  "inputs_sha256": {
+    "address_results.json": "0d18277fa14bd8cc158e70254ca3cc448cbeb3c6832d9019cc94350884a6dfeb",
+    "all_64_transition_responses.npz": "95bc454ddbe780ae98e3ff485f96c6cacc24e8da2ff18406c5cbf0fe04e9bf53",
+    "dynamics_results.json": "e282a086af15d0d3b8b24710ff8079d0d11f8c86c231e5137812a19bb6403e99",
+    "matching_states.json": "48f2df956d59b9f94ccc1fabbfa9aa14a2b4e1ce3ca61e52d2ac9ff36321fe16",
+    "quantized_seed.npz": "8a4e37b0233d509412ad6464066242eb1c491d6e310312cfa62c82ea52d8d145",
+    "v04_audit.json": "20b5002ce5a4b5c4b6df2468aec89f6f10237745f682ae25298593ed277342a4",
+    "v06_thermal.json": "3eb55f3afd8932842ae71d19c0d9e72633f7a1d70a01cfdf6d368a2c0be8ed8a"
+  },
+  "CAMB_convention_source": {
+    "version": "2.0.4",
+    "file": "fortran/equations.f90",
+    "sha256": "b70887cd1bef9d8bff4784abb70913ec06dc29ca02786196576ec89792071dc8",
+    "usage": "read to verify conventions; not changed, not executed"
+  },
+  "publications": {
+    "v04": "10.5281/zenodo.23490141",
+    "v05": "10.5281/zenodo.23491041",
+    "v06": "10.5281/zenodo.23491673"
+  },
+  "new_publication": true,
+  "scipy": "1.17.0",
+  "numpy": "2.3.5",
+  "release_doi": "10.5281/zenodo.23492328",
+  "publication_state": "DOI reserved; publication pending",
+  "numerical_correction": "stable metric derivative combination; see REVALIDATION.json"
+}

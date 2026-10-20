@@ -1,0 +1,13 @@
+{
+  "revision": "0.7-dev-r1",
+  "clean_run": true,
+  "files": {
+    "event_tangent.json": true,
+    "local_seed_tangent.npz": true,
+    "cdm_comoving_64_states.json": true,
+    "full_state_gate.json": true,
+    "event_tangent_refined.json": true,
+    "audit.json": true
+  },
+  "scientific_outputs_exact": true
+}

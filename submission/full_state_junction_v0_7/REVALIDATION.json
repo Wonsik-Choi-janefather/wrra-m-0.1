@@ -1,0 +1,33 @@
+{
+  "additional_checks_passed": 10,
+  "checks": {
+    "fixed_clock_independent_entropy_tangent": true,
+    "flow_jacobian_five_point_crosscheck": true,
+    "Bardeen_Phi_stable_combination_invariant_all64": true,
+    "naive_derivative_reconstruction_error_detected": true,
+    "comoving_curvature_invariant_all64": true,
+    "relative_species_velocity_invariant_all64": true,
+    "neutrino_dipole_normalization_all64": true,
+    "physical_density_independent_SI_conversion": true,
+    "all_frozen_files_SHA256_exact": true,
+    "publication_keeps_full_state_incomplete": true
+  },
+  "independent_rescaled_clock": {
+    "S_response": 0.19481803242339363,
+    "tangent": [
+      8.054081230834953e-07,
+      -8.048593687082217e-07,
+      5.5408655385884404e-08
+    ],
+    "max_independent_jacobian_error": 1.7721066262764685e-10,
+    "clock_formulation": "u=(1+xi)t; fixed events; wprime=Jw-f; final z=w+t*f"
+  },
+  "relative_S_difference": 8.382207594692659e-09,
+  "Bardeen_Phi_max_relative_difference": 4.344524376629848e-12,
+  "independent_SI_omch2": 0.1036635110463426,
+  "frozen_files_verified": 32,
+  "scientific_correction_required": true,
+  "correction": "Keep the small hprime+6etaprime combination directly; do not reconstruct it from separately rounded derivatives.",
+  "naive_derivative_Bardeen_Phi_max_relative_error": 0.1665713264361944,
+  "release_scope": "v0.7-dev partial full-state junction development; no new CMB/lensing result"
+}

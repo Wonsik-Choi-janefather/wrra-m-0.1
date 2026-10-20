@@ -1,0 +1,19 @@
+{
+  "status": "DEVELOPMENT PARTIAL; step 4 is not complete",
+  "full_state_injected": false,
+  "new_CMB_spectrum": false,
+  "new_lensing_likelihood": false,
+  "executed": [
+    "64-mode conserving CDM-comoving coordinate transform",
+    "finite-packet massive-electron thermal local-cell tangent with event-time saltation",
+    "physical dark-matter density normalization and recalibration",
+    "actual 128-cell k=0 tangent application without amplitude refit"
+  ],
+  "blocking_reason": "finite-k packet energy and momentum source on specified event hypersurfaces; baryon/electron and massive-neutrino distribution states; all finite-k modes rerun on recalibrated thermal background; declared three-dimensional/angular covariance of the finite seed",
+  "event_count_interval": {
+    "lower_xi": -0.002812260348894924,
+    "upper_xi": 0.008458794658050106
+  },
+  "calibration_is_not_observational_fit": true,
+  "original_v04_v05_v06_results_unchanged": true
+}

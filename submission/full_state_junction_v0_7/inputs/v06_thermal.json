@@ -1,0 +1,97 @@
+{
+  "Tinitial_MeV": 1.7584850895052981,
+  "Hinitial_s_inverse": 2.0959052135202176,
+  "elapsed_time_unit_s": 0.47712081326446576,
+  "a_initial_derived": 9.551634548152011e-11,
+  "old_a_initial": 1e-10,
+  "a_initial_relative_change": -0.04483654518479896,
+  "final_Tgamma_MeV": 0.023508529754704126,
+  "late_Tnu_over_Tgamma": 0.7137658542835905,
+  "effective_late_Neff": 3.043999979187944,
+  "max_energy_work_residual": 1.0281597795369635e-10,
+  "max_event_balance_relative": 4.845380767482788e-07,
+  "events": 128,
+  "record_entropy_gain": 7.328634055170369e-08,
+  "M_over_rhoi": 2.8441235254086484e-07,
+  "milestones": [
+    {
+      "Tgamma_MeV": 1.0,
+      "time_from_start_s": 0.5045894421090272,
+      "a_relative": 1.7655522667183396,
+      "Tnu_MeV": 0.9940690829776417
+    },
+    {
+      "Tgamma_MeV": 0.5,
+      "time_from_start_s": 2.825715124185161,
+      "a_relative": 3.5920238189918656,
+      "Tnu_MeV": 0.48860503470112737
+    },
+    {
+      "Tgamma_MeV": 0.1,
+      "time_from_start_s": 118.62132755329661,
+      "a_relative": 22.994867822357026,
+      "Tnu_MeV": 0.0763248972024705
+    },
+    {
+      "Tgamma_MeV": 0.05,
+      "time_from_start_s": 528.9858660111976,
+      "a_relative": 49.09165581793678,
+      "Tnu_MeV": 0.03575110461204971
+    }
+  ],
+  "scope": "Homogeneous packet thermal completion with equilibrium e+- and instantaneous relativistic neutrino decoupling. No collision integral, flavor transport, weak freezeout or BBN yields. Time is elapsed since pulse start, not cosmic age.",
+  "refinement": {
+    "Tinitial_MeV": 1.297673080102868e-11,
+    "a_initial_derived": 1.476185840232347e-10,
+    "final_Tgamma_MeV": 6.355582726769171e-11,
+    "M_over_rhoi": 1.0933476346508542e-12
+  },
+  "zero_cost_comparison": {
+    "Tinitial_MeV": 1.7584850895052981,
+    "Hinitial_s_inverse": 2.0959052135202176,
+    "elapsed_time_unit_s": 0.47712081326446576,
+    "a_initial_derived": 9.551634566041861e-11,
+    "old_a_initial": 1e-10,
+    "a_initial_relative_change": -0.04483654339581389,
+    "final_Tgamma_MeV": 0.02350852875529678,
+    "late_Tnu_over_Tgamma": 0.7137658556204469,
+    "effective_late_Neff": 3.044000001993132,
+    "max_energy_work_residual": 1.0285650109409517e-10,
+    "max_event_balance_relative": 0.0,
+    "events": 128,
+    "record_entropy_gain": 0.0,
+    "M_over_rhoi": 2.8728520458158213e-07,
+    "milestones": [
+      {
+        "Tgamma_MeV": 1.0,
+        "time_from_start_s": 0.5045894392034785,
+        "a_relative": 1.765552263411517,
+        "Tnu_MeV": 0.9940690848395012
+      },
+      {
+        "Tgamma_MeV": 0.5,
+        "time_from_start_s": 2.8257151078969533,
+        "a_relative": 3.59202381226412,
+        "Tnu_MeV": 0.48860503561626895
+      },
+      {
+        "Tgamma_MeV": 0.1,
+        "time_from_start_s": 118.62132508117632,
+        "a_relative": 22.99486777928846,
+        "Tnu_MeV": 0.0763248973454243
+      },
+      {
+        "Tgamma_MeV": 0.05,
+        "time_from_start_s": 528.9858443933023,
+        "a_relative": 49.091655725989895,
+        "Tnu_MeV": 0.03575110467901023
+      }
+    ],
+    "scope": "Homogeneous packet thermal completion with equilibrium e+- and instantaneous relativistic neutrino decoupling. No collision integral, flavor transport, weak freezeout or BBN yields. Time is elapsed since pulse start, not cosmic age."
+  },
+  "EOS_checks": {
+    "relativistic_em_g": 5.499999900786308,
+    "low_temperature_em_g": 2.0000000000000058,
+    "max_pressure_below_rho_over_three": 0.3333333333333341
+  }
+}
