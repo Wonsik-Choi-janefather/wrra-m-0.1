@@ -1,0 +1,25 @@
+{
+  "paper_version": "1.5",
+  "date": "2026-10-20",
+  "zenodo_status": "published and verified in record UI",
+  "zenodo_doi": "10.5281/zenodo.23487366",
+  "zenodo_url": "https://zenodo.org/records/23487366",
+  "github_content_commit": "cc5d05bf429f6e48801a03b4d26030aa2229de0d",
+  "github_directory": "submission/bidirectional_phenotype_renderer_v1_5",
+  "zenodo_files": {
+    "WRRA_Bidirectional_Phenotype_Renderer_KO_v1.5.pdf": {
+      "md5": "0abdd24ace4e305976bbfa62ca266511",
+      "bytes": 366508,
+      "pages": 14
+    },
+    "WRRA_Bidirectional_Phenotype_Renderer_EN_v1.5.pdf": {
+      "md5": "c85e579d648d40e14fb42d5ec90a1257",
+      "bytes": 309160,
+      "pages": 15
+    }
+  },
+  "zenodo_data_delivery": "GitHub links only; no archive uploaded",
+  "book_edition": "v0.25-r4 unchanged; linked as related work",
+  "gitbook": "not part of this publication request",
+  "audit_scope": "Finite adopted-quantum-rule and special-relativistic compatibility; conditional Planck floor"
+}

@@ -1,6 +1,6 @@
 WRRA bidirectional phenotype renderer v1.5 | 2026-10-20
 Authors: Wonsik Choi and Jeongin Choi
-DOI reserved: 10.5281/zenodo.23487366
+Published DOI: 10.5281/zenodo.23487366
 
 Adds an engineering reverse-design declaration and bilingual two-resolution compatibility audit to the complete v1.4 manuscript.
 Retains the conditional shutter period and source/conjugate rules. Adds a conditional Planck proper-time floor, local measurement records, phase/joint-state preservation, and no-signalling/order constraints.
