@@ -1,0 +1,14 @@
+{
+  "clean_folder_rerun": true,
+  "exact_text_outputs": {
+    "results/audit.json": true,
+    "results/cells.json": true,
+    "results/events.csv": true
+  },
+  "exact_arrays": {
+    "xi": true,
+    "event_times": true,
+    "S_log": true
+  },
+  "previous_checks_not_recounted": true
+}

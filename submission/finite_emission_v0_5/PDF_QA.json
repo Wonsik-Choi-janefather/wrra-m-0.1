@@ -1,0 +1,25 @@
+{
+  "WRRA_Finite_Emission_v0_5_EN.pdf": {
+    "pages": 5,
+    "text_characters": [
+      2185,
+      1896,
+      1734,
+      2038,
+      372
+    ],
+    "replacement_characters": 0
+  },
+  "WRRA_Finite_Emission_v0_5_KO.pdf": {
+    "pages": 5,
+    "text_characters": [
+      753,
+      1040,
+      927,
+      1047,
+      167
+    ],
+    "replacement_characters": 0
+  },
+  "visual_review": "All 10 rendered pages inspected; no clipping, overlap or missing glyphs observed."
+}

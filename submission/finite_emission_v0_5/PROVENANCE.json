@@ -1,0 +1,15 @@
+{
+  "predecessor_doi": "10.5281/zenodo.23490141",
+  "predecessor_science_commit": "cad443cacd9d3fa860856f8f2c58dc5f006f6741",
+  "inputs": {
+    "dynamics_results.json": "e282a086af15d0d3b8b24710ff8079d0d11f8c86c231e5137812a19bb6403e99",
+    "quantized_seed.npz": "8a4e37b0233d509412ad6464066242eb1c491d6e310312cfa62c82ea52d8d145"
+  },
+  "external_reference": "https://arxiv.org/abs/0809.4944",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "note": "Inherited CMB arrays in frozen input are provenance only, not recalculated v0.5 outputs."
+}

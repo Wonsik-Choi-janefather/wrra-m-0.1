@@ -1,0 +1,21 @@
+{
+  "PDF_QA.json": "1f8a299299fa02208fdba4149543d0474d23f46745a051998e62cca08f3c2a9b",
+  "PROVENANCE.json": "b677be3214a37625d8a43e35bf9a737c8fbf2e20d238b206a05a4ae444d2d7f9",
+  "README.txt": "4a532c5ee0777c1105e8065d74088349af3f6af31db1a773920e33b46f77189b",
+  "REPRODUCTION.json": "3c790ce41bcc78a4dbc1be9262404b21839340e677055e9105799cd51a1af21c",
+  "WRRA_Finite_Emission_v0_5_EN.pdf": "a24f5bc16cf75a6369dbdbd5b2201c803b4be776d3d8d2c729fa6c94dbb66b4b",
+  "WRRA_Finite_Emission_v0_5_EN.txt": "d1a0377716f39d11fdfb052059a7d9ccfa4d0417bf327252fdee5ba62d92d266",
+  "WRRA_Finite_Emission_v0_5_KO.pdf": "6652d268e710b0fec5a1dbac59cee6c2ca970cb8025b5b70ffe6a0881697e9a1",
+  "WRRA_Finite_Emission_v0_5_KO.txt": "747b345a661c801134f1410629fe587d038ebbedf38f18b8317778a6b0b6935e",
+  "emission.py": "8d6f8db23230c5839844d5a6c9a9f3317a20150d3d3f1c01e2e8ac0fb4127297",
+  "emission_diagnostics.png": "8311941e305d20030f71ac164ca353630047adc5b9a694915e0b424be4fe52f4",
+  "inputs/dynamics_results.json": "e282a086af15d0d3b8b24710ff8079d0d11f8c86c231e5137812a19bb6403e99",
+  "inputs/quantized_seed.npz": "8a4e37b0233d509412ad6464066242eb1c491d6e310312cfa62c82ea52d8d145",
+  "make_reports.py": "69c4af8a6529f592514a5b1df3621fc6cb4b416ed339a410434ceb06eba0ecb7",
+  "requirements.txt": "1668a3152e33680d94637b13421c15e68bd97cd8701f7f555c691f5bc5c0b9f3",
+  "results/actual_seed_event_times.npz": "dbf65db4c5e07b7401010ea9b049d7891ae52c81fed7c0276c8c370ddd026558",
+  "results/audit.json": "1eacd429c742b79a0ac54687d4fadbb6cbd667baa69bd82dd055f2d8554a92b5",
+  "results/cells.json": "226c4951a830d2e5877da9ee195a2faaa42116f3ec7c5271e519f966d4c875d8",
+  "results/events.csv": "bb4a09a337930b468f73968c05edf3785082f8f3af245d623e948e750ecb96a6",
+  "run_checks.py": "ba27e9cea7f94c6bae098423f44b8b3f394104bb7ad9d430ddf99309536271c5"
+}

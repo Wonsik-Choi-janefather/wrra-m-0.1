@@ -1,0 +1,11 @@
+{
+  "version": "0.5",
+  "original_checks_passed": 444,
+  "supplementary_release_checks_passed": 12,
+  "clean_rerun_exact": true,
+  "zenodo_doi": "10.5281/zenodo.23491041",
+  "zenodo_status": "reserved draft; publication not yet verified",
+  "zenodo_predecessor": "10.5281/zenodo.23490141",
+  "scope": "Finite deterministic packet timing and recording heat in independent local FLRW cells; full finite-gradient event/metric/momentum/neutrino integration remains open.",
+  "frozen_document_note": "Original manuscripts and README retain the working-package preparation statements; this file records subsequent release status."
+}

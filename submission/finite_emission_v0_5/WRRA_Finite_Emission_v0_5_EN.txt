@@ -1,0 +1,190 @@
+# Finite-Quantum Emission Timing and Recording Costs in WRRA
+
+Working calculation v0.5 | Wonsik Choi and Jeongin Choi | Independent researchers | 20 October 2026
+
+## Verified inputs → WRRA transformation → outputs → falsification
+
+**Verified inputs.** Preserve the fixed v0.3/v0.4 reservoir beta, rate Gamma=ln2,
+proper-time pulse, calibrated time unit and actual 128-cell SOURCE seed. Packet
+resolution 256, recording cost 1% and one record token per event are new declared
+closure parameters. They are not measured fundamental constants. No output
+amplitude or matter ratio is refitted. Reproduction of known values is a valid
+consistency achievement; the structural contribution is the executed connection
+between residue, permission, finite emission and recording.
+
+**WRRA transformation.** Accumulate transfer credit without double-counting
+reservoir energy. Emit at the first eligible threshold, split each finite debit
+between matter and record heat, consume a record token, and evolve expansion
+and pressure work between events. Event times are computed from the closure,
+not supplied as a list of fitted times.
+
+**Outputs.** The baseline emits 128 packets. All actual SOURCE cells are evolved
+with their own event clocks and expanding energy ledgers. Detailed values and
+the finite-packet/small-seed distinction follow below.
+
+**Falsification.** Reject or revise a closure/implementation failing event energy
+balance, positivity, permission, independent event roots, time refinement or
+the fixed-amplitude small-packet continuum limit. These are computational
+tests, not microscopic particle identification or observational likelihood tests.
+
+## Assessment and scope
+
+An executable local cosmological toy model now computes finite emission times
+and recording-energy transfer. It shares the inherited background with v0.4;
+it does not insert finite jumps into the v0.4 finite-k metric, momentum and
+neutrino hierarchy. Independent local FLRW cells are the executed spatial
+approximation. Full finite-gradient event matching remains a subsequent task.
+The closure is deterministic; quantum mechanical amplitudes, a universal
+particle energy quantum and a microscopic recording Hamiltonian are not derived.
+
+\newpage
+
+## Executed equations and event clock
+
+
+For a fixed reference cell use $8\pi G/3=1$, $a(0)=H(0)=1$,
+$C=\rho_x a^4$, $J=\rho_{\rm record}a^4$, $M=\rho_m a^3$ and
+$R=1-\beta+C+J$. The spectator photon and neutrino backgrounds are
+unchanged. No perturbed free-streaming hierarchy is integrated in this study.
+
+$$q=\beta/N_q,\quad C_0=\beta,\quad r_0=J_0=M_0=0,$$
+$$\dot r=\Gamma(1+\xi)C\quad (0<T<1,\ Q=1),\qquad 0\le r<q.$$
+
+The credit $r$ measures integrated transfer eligibility; it is not energy in
+addition to $C$. The gate $Q=1$ requires an unused record token. When the gate
+closes, credit accumulation pauses. A threshold exactly at $T=1$ is included;
+subthreshold credit at the end is retained as inactive credit, never flushed.
+The pulse remains inherited input, not an emergent prediction.
+
+At the first threshold $r=q$, apply the complete atomic event:
+
+$$C^+=C^--q,\quad r^+=r^--q,\quad
+M^+=M^-+(1-\epsilon)q/a_j,\quad J^+=J^-+\epsilon q.$$
+
+One record token is consumed. Thus the physical energy per reference cell is
+$q/a_j$, split into matter $(1-\epsilon)q/a_j$ and record heat $\epsilon q/a_j$.
+Neither the integer token nor the credit is counted as another energy store.
+The chosen heat destination is perfect photon-like radiation; no temperature,
+bit count, Landauer saturation or microscopic recording Hamiltonian is derived.
+
+$$\Delta[(C+J)/a+M]=0,\quad
+\dot{\ln a}=H,\quad
+\dot H=-\tfrac12(4R/a^4+3M/a^3),\quad \dot W=HR/a.$$
+
+$H$ and $a$ are continuous at each event; pressure and $\dot H$ can jump.
+The independently evolved $H$ is checked against $H^2=R/a^4+M/a^3$;
+$R/a+M+W=1$ is checked through the whole history. Local cell velocities are
+zero, so momentum conservation here is trivial; it does not test nonzero-momentum
+finite-gradient junctions.
+
+Between events $C$ is constant, giving an exact event clock:
+
+$$T_j=\frac{1}{\Gamma(1+\xi)}\sum_{m=0}^{j-1}\frac{1}{N_q-m}.$$
+
+There are at most $N_q$ events, with positive spacing. Complete exhaustion
+occurs at finite $T_{N_q}=H_{N_q}/[\Gamma(1+\xi)]$, if the pulse and gate allow.
+This is a deterministic threshold closure, not a stochastic Born-rule derivation.
+
+
+\newpage
+
+## Numerical outputs and continuum recovery
+
+
+| Quantity | Result |
+|---|---:|
+| Named automatic checks | 444 passed |
+| Initial reservoir beta | 7.62452468358126e-07 |
+| Baseline N / cost fraction | 256 / 0.01 |
+| Events during inherited pulse | 128 |
+| First event, normalized proper time | 0.00563552750347251 |
+| Last event, normalized proper time | 0.997187739651105 |
+| First / last event, inherited calibrated seconds | 0.00268882746563 / 0.47577902532 |
+| Maximum normalized event energy residual | 1.56225e-16 |
+| Maximum relative Friedmann residual | 2.30826e-12 |
+| Maximum absolute energy + work error | 6.66134e-16 |
+| Independent root-clock time error | 6.66134e-16 |
+| Matter M, including record cost | 2.84439369238221e-07 |
+| Record heat J | 3.81226234179064e-09 |
+| Actual seed: cells / count in every cell | 128 / 128 |
+| Largest actual-seed time shift, normalized time | 5.45337018876e-08 |
+| Actual-seed nonlinear log entropy RMS | 4.79945736299e-09 |
+
+The seconds inherit the previous calibrated unit 0.477120813264466 s;
+they are conditional outputs, not a new absolute-time measurement or a MeV chronology.
+The check count includes per-cell repetitions and numerical consistency checks,
+not 444 independent physical confirmations.
+
+
+| N | Matter relative error, zero cost | Matter relative error, 1% cost |
+|---|---:|---:|
+| 32 | 0.013474344 | 0.013474344 |
+| 128 | 0.00343298 | 0.00343298 |
+| 512 | 0.000862326319 | 0.000862326319 |
+| 2048 | 0.000215837537 | 0.000215837537 |
+| 8192 | 5.39753953e-05 | 5.39753953e-05 |
+
+
+The 1% branch yields approximately 1% less matter than the zero-cost packet
+branch, with the energy retained in record heat. Its event clock is unchanged
+because this chosen credit rule depends on C, not the cost destination. That is
+a branch-specific result. Odd N and a different pulse length are also checked
+to avoid relying on the exact half-inventory special case.
+
+\newpage
+
+## Finite packets resolve timing before tiny count differences
+
+| Seed amplitude | Counts + / - | Fixed-N entropy slope |
+|---|---:|---:|
+| 0.01 | 129 / 127 | 0.792639438537 |
+| 0.0001 | 128 / 128 | 0.194689351809 |
+| 1e-06 | 128 / 128 | 0.194689350848 |
+| 5e-08 | 128 / 128 | 0.194689347624 |
+
+
+The smooth entropy tangent 0.723567388383 reproduces
+v0.3's 0.7235673850561154. At fixed N=256 tiny seeds leave the event count
+unchanged, giving a different response near 0.194689 through redshift-sensitive
+timing. The maximum actual-seed time shift is approximately
+26.02 calibrated ns.
+The reported entropy is the nonlinear species contrast
+$\ln(M_j/M_0)-3\ln(R_j/R_0)/4$, with the local scale-factor terms canceling.
+It is a zero-gradient contrast, not a new finite-k spectrum.
+
+The small-seed and small-packet limits cannot be interchanged without a
+resolution condition. Roughly $q/\beta\ll|\xi|$ is needed to resolve count
+differences; this is not by itself a convergence guarantee. At fixed seed 0.01,
+N=8192 gives an entropy-slope error of
+0.00213068 against the smooth
+finite-amplitude comparison. No claim is made that the actual 1e-8 seed has
+been resolved to that limit.
+
+## Rejecting controls and next integration
+
+Omitting record heat gives a normalized per-event energy defect 0.01. Omitting
+the recipient redshift factor produces a maximum defect
+0.723122. Capacity 7 allows
+exactly 7 events; zero permission permits no energy transfer. Invalid cost,
+rate and packet parameters are rejected.
+
+Next: connect packet/cost values to verified microscopic inputs; implement
+conserving jumps and event-time perturbations in the complete v0.4 finite-k
+state; accelerate event bundles while retaining the seed/packet resolution
+condition. Complete CAMB injection, new CMB spectra, particle-specific
+production and MeV thermal history remain separate work.
+
+Reference: Malik & Wands, Cosmological perturbations (2009), arXiv:0809.4944,
+used for conservation and multi-fluid context. The event rule is the present
+explicit closure, not imported quantum dynamics. Predecessor:
+https://zenodo.org/records/23490141.
+
+\newpage
+
+## Numerical diagnostics
+
+![Staircase reservoir, smooth-limit refinement, finite-seed resolution and event-time shifts across all 128 actual SOURCE cells.](emission_diagnostics.png)
+
+The lower-left plateau exposes the distinction between the fixed-packet small-seed
+response and the smooth tangent. The lower-right ns scale inherits the calibrated
+time unit and is a conditional timing output.
