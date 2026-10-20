@@ -1,0 +1,10 @@
+{
+  "source/calculations/wrra_m_0_9/compute.py": "7e23a5eb28032bf7fa87864f9fc02d683eb22300c62255e7f0239e0d01e6a7a7",
+  "source/calculations/wrra_m_0_9/parameters.json": "e02e864aeaa9c54fccb260de0a866b2001bbd51f8b5a1831efb2f0806cd5164a",
+  "source/exploratory/prime_parts_v1_0/studies/WRRA_Click_Rendering_Probe_2026_10_04/input_channels.csv": "2bbd1bd3efcb535d327a6d982cc9be74c0bcd2d478d1b7278277b013251fc191",
+  "source/exploratory/prime_parts_v1_0/studies/WRRA_Quark_Open_Branches_2026_10_04/input_fit.json": "14c2c26064f9cdb0774048a8558d1856ed49d4d9141cac0f7215addb2dbb7de9",
+  "source/mcc_3_0/outreach/D_particle_theory_fundamental_physics.md": "2075228c2e83a577a7144701e91730aef79c9f230a99a25c96f8a3f85c40e737",
+  "source/mcc_3_0/stage_2_finite_source_insertion/STAGE3_HANDOFF.json": "39cb62b0524c3621298291534ea1ffe9c5e38b3b086478edd05547081a2a8637",
+  "source/mcc_3_0/stage_3_particle_component_replay/results/results.json": "0a81eaa457c1c5bf10edf48a0ea77c755bd6eb96a893d8638c8cc9d11082235f",
+  "source/mcc_3_0/stage_3_particle_component_replay/run_stage3.py": "8c2e2b20c1babf601a7030ae3c3fc62ab9f48c8ba50358514d56cc9be23bc94e"
+}

@@ -1,0 +1,69 @@
+{
+  "scope": "Claim eligibility under explicit release contracts, not publication merit or observational validity.",
+  "cases": {
+    "supported_release": {
+      "accepted": true,
+      "claims": {
+        "component_replay": {
+          "allowed": true,
+          "reason": "Frozen component outputs and conservation were replayed."
+        },
+        "declared_color_consistency": {
+          "allowed": true,
+          "reason": "Supplied representation passes the declared singlet tests."
+        },
+        "exact_three_factor_color_constraint": {
+          "allowed": true,
+          "reason": "Exact rank-one color support entails address-color factorization."
+        }
+      }
+    },
+    "arithmetic_origin_claim": {
+      "accepted": false,
+      "claims": {
+        "component_replay": {
+          "allowed": true,
+          "reason": "Frozen component outputs and conservation were replayed."
+        },
+        "declared_color_consistency": {
+          "allowed": true,
+          "reason": "Supplied representation passes the declared singlet tests."
+        },
+        "arithmetic_derivation_of_color": {
+          "allowed": false,
+          "reason": "The audited color function reads no arithmetic state; no executable arithmetic-to-color selection rule is supplied."
+        }
+      }
+    },
+    "order_independence_claim": {
+      "accepted": false,
+      "claims": {
+        "component_replay": {
+          "allowed": true,
+          "reason": "Frozen component outputs and conservation were replayed."
+        },
+        "order_independent_component_decoder": {
+          "allowed": false,
+          "reason": "Measured order TV is 0.20472100116369085; order independence is not supported."
+        }
+      }
+    },
+    "unknown_claim": {
+      "accepted": false,
+      "claims": {
+        "confinement_derived": {
+          "allowed": false,
+          "reason": "Unknown claim: no declared evidence contract."
+        }
+      }
+    }
+  },
+  "checks": {
+    "supported_release_accepted": true,
+    "arithmetic_origin_claim_rejected_despite_original_audit_passing": true,
+    "order_independence_rejected_using_actual_replay": true,
+    "unknown_claim_fails_closed": true
+  },
+  "passed": 4,
+  "total": 4
+}

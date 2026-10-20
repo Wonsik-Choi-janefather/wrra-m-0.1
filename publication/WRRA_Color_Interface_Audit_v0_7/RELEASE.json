@@ -1,0 +1,16 @@
+{
+  "release_id": "WRRA-COLOR-AUDIT-20261020-v0.7",
+  "doi": "10.5281/zenodo.23497198",
+  "sha256": {
+    "WRRA_Color_Interface_Audit_v0_7_EN.pdf": "3bfb20ad8f698a3bdad4f5a1922c351c96862121f69756f5886f2984718a5ed4",
+    "audit.py": "b1dba0ba680f151c58cbb83b01eb09d84773ff60ff47d8966ae23464273d10eb",
+    "audit_results.json": "47e8b1f5d276a26f61b8963e51fc2dc8bf99b42f3d7b0321f0d7b768ca7fc9a5",
+    "dependency_audit.py": "5a3f5f880f109f54c5ca9fbbeb5baf8ea21b18f7201f835d578bb3de0434091b",
+    "dependency_results.json": "7de524ffe2e9bd40320fd90cbfc9e8eb049e5e8026fce600f057ede165e10396",
+    "claim_gate.py": "b1f244ed0bbaa64530216026ad92c58e79ed6d1ea43a81f9b795dbc468406c22",
+    "claim_gate_results.json": "3902481065155a2885f24950675aef51385be7c3d8abe9f011b7f531d3bbe8ce",
+    "claim_gate_cli_results.json": "6f043252fd567f39864dab5b99c288611f62cb01535bd9ebec666122e6f08846",
+    "SOURCE_SHA256.json": "ea985f42c11875f86e1aac38d5a4d5513d779810e2555d71d271bc005185f6a5",
+    "build_pdf.py": "8d05fe72e2b6ba64dadd1980e167438a39d6a6136323622f76ba2c4d260b14d3"
+  }
+}

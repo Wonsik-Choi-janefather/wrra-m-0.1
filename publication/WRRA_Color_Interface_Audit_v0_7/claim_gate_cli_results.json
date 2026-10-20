@@ -1,0 +1,60 @@
+[
+  {
+    "claims": [
+      "component_replay",
+      "declared_color_consistency"
+    ],
+    "expected_exit_code": 0,
+    "actual_exit_code": 0,
+    "decision": {
+      "accepted": true,
+      "claims": {
+        "component_replay": {
+          "allowed": true,
+          "reason": "Frozen component outputs and conservation were replayed."
+        },
+        "declared_color_consistency": {
+          "allowed": true,
+          "reason": "Supplied representation passes the declared singlet tests."
+        }
+      }
+    }
+  },
+  {
+    "claims": [
+      "component_replay",
+      "arithmetic_derivation_of_color"
+    ],
+    "expected_exit_code": 2,
+    "actual_exit_code": 2,
+    "decision": {
+      "accepted": false,
+      "claims": {
+        "component_replay": {
+          "allowed": true,
+          "reason": "Frozen component outputs and conservation were replayed."
+        },
+        "arithmetic_derivation_of_color": {
+          "allowed": false,
+          "reason": "The audited color function reads no arithmetic state; no executable arithmetic-to-color selection rule is supplied."
+        }
+      }
+    }
+  },
+  {
+    "claims": [
+      "order_independent_component_decoder"
+    ],
+    "expected_exit_code": 2,
+    "actual_exit_code": 2,
+    "decision": {
+      "accepted": false,
+      "claims": {
+        "order_independent_component_decoder": {
+          "allowed": false,
+          "reason": "Measured order TV is 0.20472100116369085; order independence is not supported."
+        }
+      }
+    }
+  }
+]
