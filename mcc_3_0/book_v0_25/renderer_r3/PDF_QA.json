@@ -1,0 +1,16 @@
+{
+  "KO": {
+    "pages": 244,
+    "out_of_page_text": [],
+    "md5": "c13d395e02484400bc282b2852798545",
+    "sha256": "0b9ec4a30da68899ee5c55cc692bd32e46d71d9fd8e777a6fff458786136cf02",
+    "historical_appendix_text_unchanged": true
+  },
+  "EN": {
+    "pages": 268,
+    "out_of_page_text": [],
+    "md5": "c60d14112af8e69cfafac84d0bb43fe7",
+    "sha256": "f7ac9718ff51099b8a070216c791daa04c033f1441517109d80f21a194a27e7f",
+    "historical_appendix_text_unchanged": true
+  }
+}

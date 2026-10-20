@@ -1,17 +1,20 @@
 {
   "LICENSE.txt": "0249176977b94a8e6d2a3c3161d4cdbf9c046576faf4bad55043b4df3b19fee3",
-  "MCC_3_0_Chapter135_Output_Selection_EN_v0.25.md": "a54a81139cee4acbaebf418d69a6dcab08dd14e138ae5d80bb2d81d831acbf2f",
-  "MCC_3_0_Chapter135_Output_Selection_KO_v0.25.md": "fe7bf0c7f846191e6b4fe8e3e05b1d996e2f7530472571a2b96f06173c610171",
-  "MCC_3_0_Full_Book_EN_v0.25.md": "e1da77f95429f4559e94af107ca0488d7175c335a61cfa354f28e56e4a636a4f",
-  "MCC_3_0_Full_Book_KO_v0.25.md": "90661b8fb9d13b47165c3c321cbda029d98bce9385fe667b5232d45babd70e64",
+  "MCC_3_0_Chapter135_Output_Selection_EN_v0.25.md": "a9271ec5f26174726d814a698faf10b774b1d6b9793e18a8173ab19c4c75edcd",
+  "MCC_3_0_Chapter135_Output_Selection_KO_v0.25.md": "24d391ced39c43fef04568755130212ef66e26fa40a913e1a2658e011c0501bb",
+  "MCC_3_0_Full_Book_EN_v0.25.md": "ffce3fcc3682eca65f2dc91e319863f542009cfcbd399efcfd8e8e80b840f551",
+  "MCC_3_0_Full_Book_KO_v0.25.md": "1cead1715ccdadbcfa3314412709b800ac6a1b1d76c60077a4b278247e414755",
   "PUBLICATION_STATUS.json": "a91b95b3095556eafde8a53776bc9ad43d7532f052ee67230f03227370fc16ad",
-  "README.md": "7a163875e7846cd4f4e32d0c33479766e45cfa47bd12b5c261f47d34bb19061f",
+  "README.md": "cc497af266a9d0e63bab5d469f25c59a54ef1110209061c6e69f7dad7831eb94",
   "WRRA_Annihilation_Concept_Note_KO_v0.2_2026-10-19.txt": "480a6c872beaa120b913004a71963fb18f53d98e3845d1d70290b8e42ac810f9",
-  "change_ledger.json": "9c5930019cec595b469a755ba6df307c0d98080b77be3cc41eb496ef60753470",
+  "change_ledger.json": "903f65c7e592372b12c7d615b00745e96bdcb0c6c5f0d86af9f16a4596f6f32d",
   "changes_from_v024_EN.patch": "f034178f85e6251c28b7fb527de02f6cf38e3395dddea74ffce43f1e7a979a57",
   "changes_from_v024_KO.patch": "cd0fcfaef4069a26e04519424b835e85a1e1ac390f3ae3e9be2385617dbf2f0f",
   "figures/conjugate_closure.png": "35564d5fad9ec2ebd31534743f7f6987bf83a93aeb5b366c4ef08a3df7f2e401",
   "figures/conjugate_closure.svg": "5f5b70bf363b7407cf6ef4c8e10114de86810591efc72255790ef4e8bee78293",
   "figures/remainder_placement.png": "3d2819595c88822d53a8e7ed2eee41bec66b535336ac5aaaf8ebf56a0f0d2b6c",
-  "figures/remainder_placement.svg": "b0875af899719cdb22112549c50689366f65ba843bd8e8a06d4a3e2cafdd2142"
+  "figures/remainder_placement.svg": "b0875af899719cdb22112549c50689366f65ba843bd8e8a06d4a3e2cafdd2142",
+  "MCC_3_0_Full_Book_KO_v0.25.pdf": "0b9ec4a30da68899ee5c55cc692bd32e46d71d9fd8e777a6fff458786136cf02",
+  "MCC_3_0_Full_Book_EN_v0.25.pdf": "f7ac9718ff51099b8a070216c791daa04c033f1441517109d80f21a194a27e7f",
+  "renderer_r3/PDF_QA.json": "4bd6835512293c11d12aa59529b3ce6795ce4e0222ff1630a6b62cd84cee2f40"
 }

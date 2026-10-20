@@ -1,8 +1,11 @@
 # Minimal Computing Cosmology 3.0
 
-## Revision v0.25: v0.24 baseline with initial output-selection and conjugate-release hypotheses
+## Revision v0.25-r3: Bidirectional Renderer and Big Bang Submodel Integration
 
-Wonsik Choi · Jeongin Choi | 19 October 2026
+Wonsik Choi · Jeongin Choi | 20 October 2026
+
+**v0.25-r3 integration note.** Chapter 135 integrates standalone paper v1.4 in both languages. Cross-references are added to Chapters 3.1, 8.2, 13, 75, 112, 117 and 133. Existing calculation inputs, GR and CMB outputs are retained. Standalone-paper DOI: https://doi.org/10.5281/zenodo.23486379. Data and code are supplied through GitHub links.
+
 
 ## Opening — A Universe That Does Not Solve Its Equations Again
 
@@ -64,9 +67,9 @@ Read verified inputs → WRRA transformation → outputs → falsification condi
 
 A first reading can begin with Chapters 34–35 on motivation, Chapters 59–64 on energy, response and records, Part XIV on the current parent model, and Chapters 92–99 on the seven-paper connection, and Chapters 100–135 on the frame, time, SOURCE, CMB and macroscopic predictions. Parts I–VIII preserve the foundational skeleton; Parts IX–XIII trace the subsequent construction. Earlier edition dates retained in the body identify the research genealogy.
 
-### v0.25 Alternating single-sector output, remainder placement and conjugate conversion
+### v0.25 Bidirectional phenotype rendering, singly even transitions and shutter phase
 
-Chapter 135 specifies a source setting selecting one newly generated sector per declared execution/region and a matter-prepared initial condition for our universe. It adds conditional release of conjugate phenotypes into carrier output and separates odd-composite sum codes from physical readout. It neither replaces confirmed production/annihilation experiments nor reports a completed microscopic derivation. The discarded calibrated asymmetry bridge is not included.
+Chapter 135 specifies a bidirectional phenotype renderer and two information interfaces. It separates singly even arithmetic decomposition from actual phenotype admission and connects shutter phase, pending-partner conservation, the Big Bang submodel and the black-hole boundary hypothesis. Initial-condition branches relative to Section 8.1 and the two classifications are explicit. Structural specifications are distinguished from executed arithmetic and Lorentz audits.
 
 ### v0.24 Zeta Projector, Focus, Clarity and Subsequent RH Checks
 
@@ -346,7 +349,7 @@ Current Chapters 1–135. Original module numbers in Parts V and VII and histori
 - 132. Global positivity of prime relations and its two-way connection to MCC 3.0
 - 133. A natural-number SOURCE and the common image replayed by all zeros
 - 134. Projector focus, clarity and minimum mode cost
-- 135. Alternating single-sector output, remainder placement and conjugate conversion
+- 135. Bidirectional phenotype rendering, singly even transitions and shutter phase
 
 # Parts I-VIII — Preservation of the 2.3.2 Cumulative Structure
 
@@ -450,6 +453,8 @@ pχ⁺ = η, pa⁺ = −√6 M̄\_P\|η\|/a\*, H\* = \|η\|/(√6 M̄\_P a\*³) 
 The central point of this result is not that ‘the Big Bang has been proven,’ but something more specific. The opening of the universe cannot be an arbitrary impulse acting only on the matter sector; it must be a canonical boundary map that changes the geometry and the energy ledger together. The Big Bang is not an explosion inside space, but a transition in which space, clock, and transport begin to operate together.
 
 ### 3.1 From Opening to the Hot Big Bang
+
+**v0.25-r3 submodel connection.** Initial bulk implementation in Section 135.14 is a submodel of matter rendering and output phase within this opening, energy-transfer, radiation-domination and hot-Big-Bang sequence. It does not replace expansion, cooling, nucleosynthesis or recombination, or insert a completed inventory of the universe into SOURCE. A common prepared phase is not absolute global simultaneity. Radiation ownership and No Extra Radiation Register remain in force.
 
 As the simplest effective branch after the constraint-preserving opening, consider an interval in which the kinetic energy of chi dominates. The kination scaling rho_chi proportional to a^-6 is a BASELINE result of standard cosmology. What WRRA newly connects is this branch directly to the opening with p_chi+ = eta, while refusing to insert a radiation component as a new initial value in SOURCE.
 
@@ -722,11 +727,9 @@ Therefore, to generate a real baryon asymmetry, the required baryon-number viola
 
 ### 8.2 v0.25: Initial output selection and annihilation
 
-Chapter 135 adds a candidate initial/basic source rule selecting only matter or only antimatter for a declared execution/region. Our universe’s initial source is hypothesized to be matter-prepared. Settings alternate each click, with generation only when permitted. The large initial burst is confined to matter mode; mean-symmetric late output requires additional statistical conditions. Pair production and annihilation have separate conversion ledgers. Splitting an even aggregate state into two odd-composite conjugates is a candidate code. The pair-production prohibition is withdrawn. Energy, quantum-number and interaction ownership of actual one-sector creation still requires explicit microscopic calculation.
+Chapter 135 specifies a bidirectional renderer with phase alternating at conditional shutter opportunities and actual output permission-gated. It distinguishes singly even decomposition/recombination at the intermediate/phenotype boundary from pseudo-prime exchange at the topmost/intermediate boundary. Arithmetic splitting has no compositeness restriction; actual massive output separately requires admission. Conjugate pair outputs are one shutter period apart, with the intermediate source owning the pending partner’s conserved quantities. Completed equal pairs do not by themselves create a net matter excess.
 
-**Part III From Quantum Possibility to One Reality**
-
-Actual, Reality, Event, and an Open Single History
+The baseline preserving Section 8.1 No Extra Asymmetry Register requires the initial mode to follow existing SOURCE preparation and LAW. Selecting an independent initial matter sign is an alternative branch relaxing that prohibition; the two premise sets are not applied simultaneously. Initial bulk matter rendering is a submodel preserving existing Big Bang thermal history, distinct from ordinary pair reservation. Its microscopic dynamics and the magnitude of baryon asymmetry remain uncalculated.
 
 ## Chapter 9 Actual Reality Event
 
@@ -1529,6 +1532,8 @@ Dark energy is treated similarly. The cosmological constant and quintessence/mod
 Part IV. Information, Selection, and Boundary
 
 Chapter 13. Black Holes: Meaning of the WRRA Boundary + String Microstates
+
+**v0.25-r3 bidirectional-boundary connection.** Section 135.15 adds a structural hypothesis that embodied forms are released at a special state where output interfaces meet. Boundary records and microstate ownership remain required. This does not erase energy, information or black-hole gravitational mass, or infer observable communication through an event horizon. No new contact geometry, metric or entropy calculation is claimed.
 
 The division of labor is cleanest here. WRRA explains why a horizon/boundary can serve as a minimally sufficient record for internal Reality and where information remains owned and recorded. String theory has the representative achievement of counting actual microscopic state degeneracies for specific extremal/BPS black holes and reproducing the Bekenstein–Hawking entropy \[S3\].
 
@@ -5258,6 +5263,8 @@ The principles of cosmic nonexceptionality, minimal computation, and existence o
 
 # Chapter 75 Finite SOURCE and arithmetic state
 
+**v0.25-r3 readout boundary.** The singly even state of Sections 135.4 and 135.12 is an intermediate/phenotype exchange code. Arithmetic decomposition has no compositeness requirement; actual massive output separately requires the sector and admission filters. This code is not automatically a resident dark-sector address or a photon. Topmost/intermediate pseudo-prime exchange is a separate working interface specification.
+
 The reference input fractions are (P,D,R)=(0.05,0.268,0.682), where P denotes phenotype, D resident nonphenotype, and R return. The least common multiple L=500 of reduced rational denominators, together with the disclosed construction factors 29 and 70, defines N. Address 1 is inactive, and normalization runs from 2 through N. This supplies one finite candidate; it neither requires nor derives mandatory temporal stability of cosmic capacity [2].
 
 $$
@@ -6319,6 +6326,8 @@ At $k=24,28,32$, probability, cohort and total-energy checks were executed; the 
 
 ## 112 Executing light and shutter as one spatial transition
 
+**v0.25-r3 timing connection.** Sections 135.9–11 and 135.16 reuse this conditional interval between local source-worldline output opportunities. Shutter timing denotes a readout event; shutter period denotes the interval between opportunities. Actual production is permission-gated. This does not assign photon proper time, absolute global time or physical seconds to prephenotypic address allocation.
+
 **v0.15 SOURCE spatial-connection update**
 
 This chapter records the initial one-dimensional light–shutter test. Chapter 114 adds a metric Renderer to actual SOURCE address indices, and Chapter 117 executes three-dimensional spectral transport in seven directions. The earlier status of no executed three-dimensional transport is updated, without claiming a uniquely SOURCE-derived metric or complete Maxwell/Lorentz dynamics.
@@ -6514,6 +6523,8 @@ Weighted/unweighted × 7 modes × cosine/sine gives **28 actual SOURCE component
 **Failure conditions and assessment.** Missing or duplicate suppliers, failed positivity or energy/pressure conservation, failed linearity, or broken GR constraints despite the required transfer demand revision. The calculation advances from one prescribed cosine to actual SOURCE harmonic components. It remains distinct from full Einstein–Boltzmann/CAMB evolution with photons, neutrinos and recombination, and from the official Planck likelihood. Chapter 107's earlier CMB baselines have not become spectra of these new modes.
 
 ## 117 Three-dimensional indices and an isotropic transport test
+
+**v0.25-r3 sequential-output connection.** This three-dimensional light-transport test and Chapter 112 connect to Section 135.11 through two output events, an intermediate recoiling source and conserved ledgers. The existing 630 Lorentz kinematic cases are retained; they do not verify the new pseudo-prime map, Big Bang boundary or black-hole geometry.
 
 **v0.17 current connection.** Chapters 118–121 report actual SOURCE photon/neutrino/recombination transfer, an address-regenerated dark-weight candidate, finite initial mean preparation, SOURCE covariance lensing and public high/low-ℓ/lensing evaluation. Pending/baseline statements below apply to their historical stages. Mean versus individual execution, preparation dynamics, exact non-Gaussian lensing and broader joint analyses remain open.
 
@@ -7321,6 +7332,8 @@ The preserved [R1 source ZIP](evidence/riemann_connection_2026_10_17/WRRA_Prime_
 
 ## 133 A Natural-Number SOURCE and the Common Image Replayed by All Zeros
 
+**v0.25-r3 classification boundary.** Preserve all-natural generation, prime/even-composite/odd-composite sector readout and Chapter 130 prime-power folding as distinct classifications. Section 135.13 uses “2.5-dimensional transition number” as a singly even interface-role label, not a replacement for either classification or physical spatial axes. For example, 9 belongs to the odd-composite sector but the prime-power folding class; 6 belongs to the even-composite sector but has distinct-prime-factor folding.
+
 ### Verified inputs
 
 This chapter integrates *All-Natural / All-Zero Common-Image Projector*, Core 2.1 application v0.11, and two preceding objective studies. The design input is to **interpret zeta as a projector replaying natural-number relations, with all zero components interfering at the same image coordinate**. This purpose is accepted as a model-design input. Zeta, completed $\xi$, the Euler product and explicit formulas are mathematical inputs for examining that interpretation. A physical intention of the zeta function is not assumed as an observed fact.
@@ -7528,9 +7541,9 @@ The achievement is to specify the projector purpose through **maximum-visibility
 Sources are the preserved [clarity/cost study](evidence/projector_focus_2026_10_17/WRRA_All_Natural_Projector_Clarity_Core21_v0_1_2026-10-17.zip) and the common-zero image study cited in Chapter 133. The reflection identity is recorded in [NIST DLMF 25.4](https://dlmf.nist.gov/25.4). The reproduction programs are `clarity_analysis.py` and `projector_contract.py`; execution outputs are preserved separately in this package.
 
 
-## 135. Alternating Single-Sector Output, Remainder Placement and Conjugate Conversion
+## 135. Bidirectional Phenotype Rendering, Singly Even Transitions and Shutter Phase
 
-*Added 19 October 2026 · Structural model and initial-condition hypothesis · No newly calculated microscopic production or annihilation rates*
+*Added 20 October 2026 · Structural model and initial-condition hypothesis · No newly calculated microscopic production or annihilation rates*
 
 ### Verified inputs
 
@@ -7564,17 +7577,17 @@ Thus $\kappa_0=+1$ is applied to that initial source. This explicitly chosen pre
 
 Matter output does not mean producing only negative electric charge. Ordinary matter contains negative electrons and positive protons. The setting refers to conjugate matter/antimatter configurations, not spatial reflection or the earlier exterior-algebra parity selection alone.
 
-Initial-condition ownership is explicit. One may implement $\kappa_0$ as a function of the existing SOURCE preparation $\eta$; if independently selected, it counts as an additional input. That interface is not completed here. Chapter 8's prohibition on arbitrary asymmetry from both CP-symmetric LAW and CP-symmetric preparation is retained. The new $\kappa_0=+1$ preparation declares an asymmetric state and is a different hypothesis.
+Initial-condition ownership is explicit. One may implement $\kappa_0$ as a function of the existing SOURCE preparation $\eta$; if independently selected, it counts as an additional input. That interface is not completed here. In the baseline branch retaining Chapter 8.1's No Extra Asymmetry Register, require $\kappa_0=F(\eta,\mathrm{LAW})$. Allowing an independent sign as a new input is an alternative that relaxes that prohibition; do not impose the premises of both branches simultaneously. Chapter 8's prohibition on arbitrary asymmetry from both CP-symmetric LAW and CP-symmetric preparation is retained. The new $\kappa_0=+1$ preparation declares an asymmetric state and is a different hypothesis.
 
 Actual one-sector particle production requires source energy, charge and every declared conserved or violated quantum number to be tracked. A closed initial state with zero baryon number and exact baryon conservation cannot acquire net baryon number without an owner. Transfer, permitted violation or the opening interface must be supplied by a microscopic model. Output permission and actual production are distinct responsibilities.
 
-#### 135.3 Alternating click modes and rare late output
+#### 135.3 Alternating shutter phases and rare late output
 
 The revised proposal specifies the switching law:
 
 $$\kappa_{k+1}=-\kappa_k,\qquad \kappa_0=+1,\qquad \kappa_k=(-1)^k.$$
 
-The setting alternates every click; actual generation occurs only when $Q_k$ permits it. This is not mandatory production of one particle per click. Define $J_k$ as a count of comparable output packages. Assume the large initial output $Q_0J_0=A>0$ completes within the matter-mode click. If the initial burst spans several clicks, its weighted sum $\sum_k\kappa_kQ_kJ_k$ must be recomputed. Equal output in two consecutive modes cancels their initial imbalance. An initial sign alone therefore does not ensure matter dominance.
+The setting alternates at each shutter timing; actual generation occurs only when $Q_k$ permits it. This is not mandatory production of one particle per shutter cycle. Define $J_k$ as a count of comparable output packages. Assume the large initial output $Q_0J_0=A>0$ completes within the matter-phase shutter opportunity. If the initial burst spans several shutter cycles, its weighted sum $\sum_k\kappa_kQ_kJ_k$ must be recomputed. Equal output in two consecutive modes cancels their initial imbalance. An initial sign alone therefore does not ensure matter dominance.
 
 Late output is small and infrequently permitted. Add the condition that the two modes have equal mean permitted output. For example, let $J_k=1$ for $k=1,\ldots,2n$, with independent $Q_k\sim\mathrm{Bernoulli}(p)$ and $0<p<1$. The late count difference $D=N_M^{\rm late}-N_{\bar M}^{\rm late}$ then satisfies
 
@@ -7588,19 +7601,26 @@ $$\Delta N=A+\sum_{k=1}^{2n}(-1)^kQ_kJ_k.$$
 
 A large initial matter output and mean-symmetric late output coexist under these conditions. Baryon asymmetry requires separate weighting by each package's baryon number. The expression does not derive the observed five-percent matter fraction or baryon-to-photon ratio.
 
-#### 135.4 Withdrawal of the pair-production prohibition and even-state splitting
+#### 135.4 Equal decomposition and recombination of a singly even number
 
-The pair-production prohibition is withdrawn. For a corresponding particle-antiparticle species, equal rest masses are the verified input. WRRA assigns the same mass-implementation code $n$ to both conjugate outputs. This is a declared mapping assumption, not a theorem equating mass with every information measure.
+A singly even number is divisible by two but not by four [S5]. For positive integers,
 
-$$\mathcal C_{\rm out}(2n,\xi)\rightleftarrows(n,a,\chi)+(n,a,\bar\chi).$$
+$$r=4j+2=2n,\qquad n=2j+1,\qquad j\ge0.$$
 
-Only equal-size splitting is permitted; asymmetric splitting is forbidden in this channel:
+This channel admits only exact halving of such a parent:
 
-$$\mathcal D_{\rm eq}(r)=\{(n,n):n\text{ is an admitted odd composite},\ r=2n\}.$$
+$$\mathcal D_{\rm eq}(r)=\{(n,n):n\in\mathbb N\text{ is odd},\ r=2n\}.$$
 
-Examples admitted arithmetically are $18\to9+9$, $30\to15+15$ and $54\to27+27$. The channels $24\to9+15$ and $54\to9+45$ are forbidden. Since $24/2=12$ is not an odd composite, code 24 has no channel here. Admission, species, conjugate charges and energy conditions remain required. Equal mass-implementation codes do not imply equal kinetic energies in every observation frame.
+Compositeness is not part of this arithmetic definition. Both $10\to5+5$ and $18\to9+9$ are equal odd decompositions; $24\to9+15$ and $54\to9+45$ are forbidden unequal decompositions. Code 24 has an even half and is not a candidate in this channel. Actual massive-phenotype implementation is decided separately by the dimensional filter and permission readout. The primality of 5 does not forbid arithmetic decomposition, but neither does decomposition make 5 a three-dimensional matter phenotype.
 
-The parent and environment must supply energy and momentum. A single photon cannot create two free massive particles alone in vacuum; a second photon, nuclear recoil or an external field must be included as appropriate. An even output code is not automatically a SOURCE resident or a photon. The actual conjugate outputs are now stipulated to occur on successive existing clock ticks, as specified below.
+Equal particle-antiparticle rest masses motivate assigning the same implementation code $n$ to corresponding conjugates of one species. This is a WRRA mapping assumption, not a proof that equal masses imply identical information addresses.
+
+$$\mathcal C_{\rm up}(2n,\xi)\rightleftarrows(n,a,\chi)+(n,a,\bar\chi).$$
+
+Left-to-right is pair-production decomposition and rendering; right-to-left is annihilation recombination and phenotype release. Actual outputs require species, conjugate quantum numbers, energy-momentum and phenotype permission. Equal codes and rest masses do not require equal kinetic energies in every frame. The state $\xi$ owns momenta, spin, phase and correlations not recoverable from the aggregate code alone.
+
+Observed pair production remains a reproduction target [S3]. A single photon alone cannot produce a free massive pair in vacuum; the required second photon, recoiling source or external field must be included. Arithmetic admission does not replace physical conservation.
+
 
 #### 135.5 Separate source, conversion and occupation ledgers
 
@@ -7615,13 +7635,13 @@ Electric charge is distinct from sector identity. A lone emitted electron requir
 
 #### 135.6 Upper/lower placement of the odd remainder
 
-For an odd composite $n=2q+1$, introduce $b\in\{+1,-1\}$ to specify whether the remainder one is attached to the upper or lower position. The ordered occupations are
+For an odd $n=2q+1$, introduce $b\in\{+1,-1\}$ to specify whether the remainder one is attached to the upper or lower position. The ordered occupations are
 
 $$T(n,b)=\left(\frac{n+b}{2},\frac{n-b}{2}\right),\qquad U+D=n,\quad U-D=b.$$
 
 The upper position has one extra unit for $b=+1$; the lower has one extra for $b=-1$. Arithmetic parity is unchanged, but the ordered placement differs. The renderer selects the permitted phenotype's remainder placement $b$. An interface to the source mode can declare a species reference $b_a^{(0)}$ and assign $b_{a,k}=\kappa_k b_a^{(0)}$. This correspondence is a structural assumption.
 
-![Figure 1. Two placements of the odd address 9. The extra unit gives (5,4) above or (4,5) below. Cells are arithmetic occupation units, not measured particle shapes.](figures/remainder_placement.svg)
+![Figure 1. Two placements of the odd address 9. The extra unit gives (5,4) above or (4,5) below. Cells are arithmetic occupation units, not measured particle shapes.](figures/remainder_placement.png)
 
 The combined placement residual is
 
@@ -7636,13 +7656,13 @@ Opposite placements give zero; like placements leave $+2$ or $-2$. When $b_2=-b_
 | Upper | Upper | $(10,8)$ | $+2$ | Closed under this rule |
 | Lower | Lower | $(8,10)$ | $-2$ | Closed under this rule |
 
-![Figure 2. The same two odd addresses yield balanced or residual occupations depending on remainder placement. All four address sums equal the even number 18, so evenness alone cannot select annihilation.](figures/conjugate_closure.svg)
+![Figure 2. The same two odd addresses yield balanced or residual occupations depending on remainder placement. All four address sums equal the even number 18, so evenness alone cannot select annihilation.](figures/conjugate_closure.png)
 
 The candidate closure gate is $K_{\rm close}=\mathbf1[n_1=n_2]\mathbf1[b_1+b_2=0]$. The proposed difficulty of interlocking like placements is formalized as non-admission to this particular balanced-closure channel. It does not prohibit all interactions or binding between like placements. Actual interlocking feasibility and transition rates are not calculated from the occupation difference alone.
 
 Exchanging the positions gives $\tau T(n,b)=T(n,-b)$ with $\tau^2=1$. This is a candidate geometric representation of conjugacy, not a substitute for the full species and charge/baryon/lepton conjugacy conditions. Upper/lower initially label internal or local positions, not electron spin up/down or an absolute cosmic direction. A physical spatial shape additionally needs coordinate-transformation rules, length/energy functions and an interaction.
 
-For inverse splitting, the candidate parent has $U=D=r/2$ and distributes its occupations to admitted identical odd composites $n=n_1=n_2=r/2$ with opposite placements $b,-b$. The code $r$ alone does not specify addresses, directions or quantum correlations; $\xi$ and permission conditions remain necessary. Equal physical masses are imposed through the input-to-code mapping; electric-charge magnitudes, photon channels and annihilation cross sections have not been derived from this occupation model.
+For inverse splitting, the candidate parent has $U=D=r/2$ and distributes its occupations to identical odd codes $n=n_1=n_2=r/2$ with opposite placements $b,-b$. The code $r$ alone does not specify addresses, directions or quantum correlations; $\xi$ and permission conditions remain necessary. Equal physical masses are imposed through the input-to-code mapping; electric-charge magnitudes, photon channels and annihilation cross sections have not been derived from this occupation model.
 
 #### 135.7 Conjugate structures open each other's release pathway
 
@@ -7755,7 +7775,91 @@ The second event remained future-directed in every case. Errors are double-preci
 [S4] Richard Fitzpatrick, University of Texas at Austin, [*Proper time* and the linked four-velocity lecture](https://farside.ph.utexas.edu/teaching/em/lectures/node114.html). This source supports the proper-time transformation; it is not observational evidence for the WRRA sequential-output hypothesis.
 
 
+#### 135.12 Two information interfaces: topmost upstream, intermediate layer and phenotype
+
+**Verified inputs and construction premise.** Retain the dimensional filter, conjugate relation, equal splitting and conservation ledgers. Define pseudo-primes as the information-exchange medium between the topmost upstream and intermediate layers, and singly even states as the medium between the intermediate layer and phenotype. Do not conflate the two interfaces. Here, pseudo-prime is a working term for WRRA upstream constituents, not an identification with the standard number-theoretic set passing a particular Fermat test. Its exact mapping and generator remain to be specified. The upstream region is therefore not redefined as containing only composites.
+
+**WRRA-specific transformation.** Separate the renderer's operating domain from the admission domain of massive phenotypes. The renderer acts on upstream structure and is not restricted to odd-composite inputs. Existing prime/even-composite/odd-composite classification reads natural-number codes. Define $\mathcal A$ as the internal intermediate-layer mapping from pseudo-prime exchange states to singly even transition codes. Its actual generator and ownership of conserved quantities require specification.
+
+| Information interface | Medium | Scope |
+|---|---|---|
+| Topmost upstream ↔ intermediate layer | Pseudo-primes | Each individual exchange event between the two layers |
+| Intermediate layer ↔ phenotype | Singly even states | Conjugate decomposition/rendering and recombination/release |
+
+An individual topmost/intermediate exchange is not automatically assigned the phenotypic shutter period or a global physical time.
+
+$$S_{\rm top}\underset{\text{pseudo-primes}}{\rightleftarrows}S_{\rm mid},\qquad S_{\rm mid}\xrightarrow{\mathcal A}\mathcal C_{\rm mid}(r,\xi),$$
+
+$$
+\mathcal C_{\rm mid}(2n,\xi)\underset{\text{recombine/release}}{\overset{\text{decompose/render}}{\rightleftarrows}}\Phi_{n,+}+\Phi_{n,-}.$$
+
+The symbols $\Phi$ denote phenotypes that actually pass admission. Arithmetic decomposition with a closed phenotype filter leaves an upstream or pending state rather than producing a particle. Production renders the conjugate selected by the current shutter phase first, then its partner after one shutter cycle. The reverse direction is an admitted interaction of existing conjugates; no new assumption forces annihilation to finish in one cycle. Bidirectionality does not establish equal forward/reverse rates or detailed balance.
+
+**Explanatory output.** Pair production and annihilation exchange information across the intermediate/phenotype interface. Pair production is the appearance of embodied forms through singly even decomposition. Annihilation is their conjugate recombination into a singly even state, releasing the two massive particle phenotypes. What disappears is their particle occupation, not energy or information. Include source/environment and carrier outputs in energy, momentum, charge and correlation accounts. The aggregate code is not automatically a photon; individually massless photons can have nonzero total-system invariant mass.
+
+**Falsification conditions.** Failure of the upstream-to-code map, admission filter, pending ownership or conservation invalidates the implementation. Arithmetic addition alone establishes neither physical annihilation nor full information recovery.
+
+#### 135.13 Singly even numbers and the internal term “2.5-dimensional transition number”
+
+**Verified inputs.** The parity-based sector readout labels primes as one-dimensional, even composites as two-dimensional and odd composites as three-dimensional. This connects to Chapter 75 and differs from Chapter 130's prime/prime-power/mixed-prime folding classes; Chapter 133 retains both rules separately. For example, 9 has parity label 3 but prime-power folding class 2, whereas 6 has parity label 2 but folding class 3. Do not use these labels as the same dimension variable. A singly even number $r=4j+2$ divides exactly into equal odd halves [S5].
+
+**WRRA-specific transformation.** Distinguish arithmetic classification $d_{\rm class}$ from the transition-role name $d_{\rm trans}$. Name the conjugate decomposition/recombination role of singly even states a “2.5-dimensional transition” within WRRA, without overwriting the original classification.
+
+$$d_{\rm trans}(r)=\text{‘2.5-dimensional transition’},\qquad r\equiv2\pmod4.$$
+
+**Definition produced.** The label 2.5 names the interface role between a two-dimensional aggregate and three-dimensional phenotype; it is not a computed spatial, fractal or spectral dimension. Not every singly even parent has odd-composite halves. Arithmetic allows $10=5+5$, but 5 fails the existing three-dimensional matter filter. Code $18=9+9$ is a phenotype candidate, subject to all remaining permissions. Arithmetic also includes $2=1+1$: 2 remains prime and 1 retains its separate reference-address treatment. Therefore not all singly even numbers are two-dimensional under the original classification.
+
+**Falsification conditions.** The label must not alter primality/compositeness or render an unfiltered prime as a massive three-dimensional phenotype. Naming the transition does not establish an extra physical dimension.
+
+#### 135.14 A submodel of Big Bang theory: initial implementation and output phase
+
+**Verified inputs and construction assumption.** Retain expansion, cooling, radiation domination, nucleosynthesis and recombination in existing Big Bang theory, together with MCC 3.0's opening and energy-transfer path, as the higher-level description. Treat the phenotype renderer as a submodel seeking to explain initial matter implementation and matter/antimatter output phase within that history. Bulk rendering denotes the common initial implementation boundary; it does not delete the staged thermal history or provide a replacement cosmology with all present content completed at once. The actual dynamical interface with the higher-level description still requires verification.
+
+**WRRA-specific transformation.** Let the initial boundary phase be $\kappa_{\rm B}\in\{+1,-1\}$ and its permitted bulk output $A_{\rm B}>0$:
+
+$$N_M^{\rm B}=\frac{1+\kappa_{\rm B}}2 A_{\rm B},\qquad N_{\bar M}^{\rm B}=\frac{1-\kappa_{\rm B}}2 A_{\rm B}.$$
+
+The matter phase initially renders only the matter sector; the antimatter phase would render only its conjugate sector. Adopt $\kappa_{\rm B}=+1$ for our universe, without requiring another universe. Preparation ownership and independent-input admission follow the branch distinction in section 135.2. Bulk rendering concerns initial sector content, not the instantaneous completion of today's composites, stars or life.
+
+**Explanatory output.** Distinguish the initial bulk event from ordinary pair production. The opposite of the entire initial sector is not reserved for the next shutter: partner reservation applies to admitted ordinary pair-production channels. Alternating phase does not repeat the output magnitude, and there is no requirement to supply $A_{\rm B}$ again at the next opportunity. A common boundary phase is a declared initial preparation, not absolute coordinate-time simultaneity in every inertial frame. If boundary implementation spans several local shutter cycles, preparation consistency and the sector-weighted total must be calculated.
+
+**Falsification conditions.** Revise the initial-condition interface if ownership of initial sector preparation, resources, charge, baryon/lepton numbers or consistency with subsequent thermal history and composition cannot be supplied. Choosing a sign alone does not calculate the observed baryon-asymmetry magnitude.
+
+#### 135.15 A common structure for black holes and ordinary conversion
+
+**Verified inputs and construction assumption.** Use bidirectional conversion and phenotype release. The proposal that renderer output interfaces meet in a black hole is an additional structural assumption. Meeting denotes an output-channel junction or boundary state, not an observed contact surface of a physical machine.
+
+**WRRA-specific transformation.** In ordinary conditions, pair production and annihilation are individual information-conversion pathways between the intermediate layer and phenotype. The topmost/intermediate connection has a separate pseudo-prime exchange interface. Interpret the black hole as a special output-boundary state in which embodied forms are released where output interfaces meet. The architecture thus places initial bulk rendering, ordinary local decomposition/recombination and black-hole boundary release as three operating regimes of the same renderer.
+
+**Explanatory output and scope.** Distinguish release of form from information deletion. Energy, momentum, charge, angular momentum and correlations require owners after release. This assumption does not remove black-hole gravitational mass or identify upstream conversion with observable communication through an event horizon. No horizon, metric, entropy, radiation or conversion rate has been calculated from this new interface.
+
+**Falsification conditions.** Revise the identification if ordinary reactions and the black-hole boundary cannot use consistent conservation rules, or if an implemented metric, thermodynamics or observable behavior contradicts black-hole observations. The earlier 630 Lorentz kinematic cases are not verification of this black-hole hypothesis or the complete Big Bang boundary.
+
+#### 135.16 Shutter terminology and reuse of the conditional time interval
+
+**Verified inputs.** Retain the existing interval obtained under Chapter 112's energy and phase-resolution conditions; no time constant is refitted.
+
+| Term | Definition |
+|---|---|
+| Shutter timing | Event $\tau_k$ at which phase and output permission are read |
+| Shutter period/cycle | Proper-time interval $\Delta\tau_{\rm sh}$ between consecutive output opportunities |
+| Shutter frequency | Opportunity rate $f_{\rm sh}=1/\Delta\tau_{\rm sh}$ |
+| Output phase | Matter/antimatter mode $\kappa_k$ at that opportunity |
+
+$$\Delta\tau_{\rm sh}=1.4813019664158633\times10^{-21}\ {\rm s},\qquad f_{\rm sh}\simeq6.750818015\times10^{20}\ {\rm Hz}.$$
+
+**WRRA-specific transformation.** Replace the informal click with shutter timing or shutter cycle as appropriate. The calculation fixes a conditional interval, not a measured absolute phase or first event time. Alternate the phase at successive opportunities:
+
+$$\tau_k=\tau_0+k\Delta\tau_{\rm sh},\qquad\kappa_{k+1}=-\kappa_k.$$
+
+**Outputs.** Reuse the existing period in the bidirectional renderer specification. Some shutter opportunities have no particle output. An admitted pair renders its conjugates one cycle apart. The same-phase repetition rate is $f_{\rm sh}/2$. These values do not determine shutter-open duration or duty cycle. Section 135.11 gives the proper-time/coordinate-time transformation.
+
+**Falsification conditions.** Revise the conditional period or physical interface if identical energy/phase inputs fail to reproduce the interval or if observation conflicts with the interface. Neither absolute global simultaneity nor an experimentally established universal minimum time is introduced.
+
+
 ### Outputs and scope
+
+Version 1.4 adds sections 135.12–16 on the bidirectional renderer, upstream operating domain, 2.5-dimensional transition label, Big Bang/black-hole connection and shutter terminology. These additions specify structure; they do not add black-hole or thermal-history numerical outputs. The earlier 630 Lorentz-case inputs and results are retained.
 
 The new outputs are an alternating-mode/rare-output statistical ledger, conjugate splitting of even aggregate states with a common annihilation ledger, a single-sector gate for initial/basic source production, the matter-prepared initial condition of our universe, the conjugate-release interpretation and the type distinction between arithmetic codes and physical ledgers, now supplemented by equal-only splitting and the existing-clock sequential output contract. No new microscopic production rate, annihilation cross section/lifetime, cosmic thermal history or five-percent composition calculation was executed. Chapter 135 connects Chapters 8 and 18 to a subsequent output-architecture hypothesis without recalibrating existing address, energy, GR or CMB results.
 
@@ -7765,7 +7869,9 @@ An implementation fails if it annihilates same-sector particles merely because t
 
 ### Conclusion and genealogy
 
-The hypothesis distinguishes a large initial matter-mode output, rare later output under alternating modes, and conjugate splitting of even aggregate states with reverse annihilation. The pair-production prohibition is withdrawn. Our universe's $\kappa_0=+1$ is a declared initial condition; arithmetic evenness is a candidate transition code. Actual knot structure and microscopic interactions remain to be derived.
+The central v1.4 proposal distinguishes pseudo-prime exchange at the topmost/intermediate interface from singly even exchange at the intermediate/phenotype interface. Singly even decomposition implements conjugate embodied forms; reverse recombination releases their massive particle occupations. Output phase alternates on the existing conditional shutter period. Initial bulk rendering, ordinary local conversion and black-hole boundary release are proposed as distinct operating regimes of one architecture. The 2.5-dimensional term names the transition role internally. Physical verification of these new structural interfaces is distinct from the arithmetic and Lorentz audits.
+
+The hypothesis distinguishes a large initial matter-mode output, rare later output under alternating modes, and conjugate splitting of even aggregate states with reverse annihilation. The pair-production prohibition is withdrawn. Our universe's $\kappa_0=+1$ is a declared initial condition; arithmetic evenness is a candidate transition code. The upper/lower sketch illustrates conjugate fit rather than specifying the actual geometry, which may be more complex. Actual knot structure and microscopic interactions remain to be derived.
 
 This chapter is added to the formal v0.24 baseline. The earlier v0.25 calibrated generation/survival draft is discarded; this material replaces it in the new v0.25 without incorporating that calculation. The separated matter/antimatter-domain and SOURCE-size exploration also remains separate. Inclusion here records a structural hypothesis, not completed physical validation.
 
@@ -7776,9 +7882,18 @@ This chapter is added to the formal v0.24 baseline. The earlier v0.25 calibrated
 [S3] SLAC E144 Collaboration, [Experiment E144: pair production](https://www.slac.stanford.edu/exp/e144/e144.html); K. T. McDonald, [Positron Production by Laser Light](https://www.slac.stanford.edu/pubs/slacreports/reports08/ssi97-029.pdf), 1997.
 
 
-## Current synthesis — v0.25
 
-Verified inputs are conjugate particle/antiparticle relations and confirmed annihilation reactions. The WRRA transformation specifies initial/basic single-sector source output, a matter-prepared initial condition for our universe and subsequent conditional release of conjugate structures. The output is Chapter 135’s production/transition specification, not new microscopic rates, cross sections or composition calculations. Failure conditions concern conservation, initial-data ownership and channel reproduction. The discarded calibrated asymmetry bridge is not included in this replacement edition.
+[S5] Eric W. Weisstein, [Singly Even Number, Wolfram MathWorld](https://mathworld.wolfram.com/SinglyEvenNumber.html). This defines the existing arithmetic term; the 2.5-dimensional transition label is a separate definition introduced in this manuscript.
+
+
+### v1.4 arithmetic audit and computational scope
+
+The audit checks 500 singly even parents from 2 through 1998 and 2,000 upper/lower placement combinations. Of these, 332 pass the odd-composite candidate filter and 168 admit arithmetic splitting but fail that filter. Controls distinguish 10→5+5 from 18→9+9 and retain the 2→1+1 boundary. These results check arithmetic admission versus phenotype admission. The previous Lorentz script was rerun and reproduces the 630-case results. No new physical implementation of the Big Bang, black holes or the upstream pseudo-prime map is calculated.
+
+
+## Current synthesis — v0.25-r3
+
+Verified inputs are the existing MCC 3.0 address, admission and energy ledgers, Chapters 112/117 conditional shutter and light transport, and conjugate particle relations. The WRRA transformation distinguishes topmost/intermediate pseudo-prime exchange from intermediate/phenotype singly even exchange and connects equal decomposition/recombination to local shutter phase. Outputs are 500 singly even parents and 2,000 arithmetic placements, the retained 630 Lorentz kinematic cases and the bidirectional specification of Sections 135.1–16. The Big Bang submodel and black-hole interface contact are distinguished from newly executed dynamics. Failure conditions concern conservation, admission, initial-condition ownership, relativistic event order or observational correspondence. Baseline/alternative initial-sign branches and the two classifications remain separate; existing GR and CMB numerical outputs are not recalibrated.
 
 Verified inputs are prime generation of natural numbers, the actual zeta explicit formula, declared complementary channels and common compensation/readout rules. The WRRA transformation is source → selection → common-coordinate zero synthesis → visibility, mode cost and transport stability. Outputs are general optimality of complementary-mode focus $1/2$, visibility 1 and mode cost 14.9709417211 at $N=1000$, and exact controls separating an optimal center from componentwise norm preservation. Falsification conditions are failed generation, phases, weights, convergence order, quality definitions or common compensation. Actual theta global positivity and a positive conserved inner product for the full zeta system remain open; physical spatial quality requires preparation, detection and measurement. This strengthens the structural connection between Chapter 131's spatial output and Chapter 132's mathematical proof target.
 

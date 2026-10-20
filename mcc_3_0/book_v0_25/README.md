@@ -1,14 +1,17 @@
-# MCC 3.0 v0.25-r2 - bilingual Chapter 135 Lorentz linkage
+# MCC 3.0 v0.25-r3 - bidirectional renderer integration
 
-Wonsik Choi and Jeongin Choi, 19 October 2026. Both Korean and English full manuscripts and Chapter 135 extracts include the matching section 135.11 Lorentz supplement. The v0.24 baseline and Chapters 112/117 light-transport framework are retained.
+Wonsik Choi and Jeongin Choi, 20 October 2026. Both full books integrate standalone paper v1.4 into Chapter 135.1-16 and add connections in Chapters 3.1, 8.2, 13, 75, 112, 117 and 133, plus the current synthesis.
 
-Verified inputs -> WRRA-specific transformation -> outputs -> falsification conditions are stated in section 135.11. Equal-only splitting 2n -> n+n, one-clock sequential output, source recoil and the intermediate ledger are tested in 630 kinematic cases. This is local relativistic kinematic consistency, not empirical confirmation or a complete interacting QFT. Molecular chirality is excluded.
+The Big Bang renderer is a submodel within existing expansion, cooling and thermal history. Topmost/intermediate pseudo-prime exchange and intermediate/phenotype singly even exchange are separate interfaces. Arithmetic splitting has no compositeness restriction; actual massive output remains admission-gated. The 2.5 label names a transition role, not physical fractional dimension. Baseline No Extra Asymmetry Register and an independent initial-sign alternative are explicitly separate branches.
 
-## Published bilingual Zenodo releases
+Verified inputs -> WRRA transformation -> outputs -> falsification conditions remain the reading order. Executed scope: 500 singly even parents / 2,000 placements and the existing 630 local Lorentz kinematic cases. Existing clock, GR and CMB numerical outputs are retained. New pseudo-prime mapping, Big Bang boundary and black-hole interface contact remain structural specifications rather than executed microscopic dynamics. Molecular chirality is excluded.
 
-- [Full book v0.25-r2](https://zenodo.org/records/23462544), DOI 10.5281/zenodo.23462544: Korean/English full manuscripts and PDFs, plus both standalone Lorentz supplements. Korean PDF: 242 pages; English PDF: 266 pages.
-- [Additions-only paper release 1.3.1](https://zenodo.org/records/23462547), DOI 10.5281/zenodo.23462547: both manuscript v1.3 PDFs. Release 1.3.1 adds the English counterpart without changing the Korean v1.3 scientific inputs or results.
-- [Paper sources](../../submission/alternating_output_conjugate_conversion_v1_3/).
-- [Reproduction code, results and supplements](lorentz_r1/).
+## Releases and reproducibility
 
-Data and code are supplied through GitHub links; no data archive is duplicated on Zenodo. The full PDFs preserve their respective v0.24 baselines and append the current Chapter 135. Earlier language-specific releases remain in version history.
+- Full-book v0.25-r3 Zenodo DOI: 10.5281/zenodo.23486483 (see PUBLICATION_STATUS.json for verified publication status).
+- [Standalone bilingual paper v1.4](https://zenodo.org/records/23486379).
+- [Paper sources, figures, arithmetic and Lorentz code](../../submission/bidirectional_phenotype_renderer_v1_4/).
+- [Integration record and r2-to-r3 patches](renderer_r3/).
+- Prior full-book r2: https://zenodo.org/records/23462544.
+
+Zenodo carries full-book manuscripts and PDFs. Data and reproduction code are supplied through GitHub links; no data archive is uploaded to Zenodo. The historical appendix and preceding numerical inputs/results remain unchanged. Build both full PDFs with `sh renderer_r3/render.sh` from this directory.
