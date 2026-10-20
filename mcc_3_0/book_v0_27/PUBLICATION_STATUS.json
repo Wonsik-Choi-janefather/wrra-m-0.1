@@ -1,7 +1,7 @@
 {
   "version": "Book v0.27",
   "date": "2026-10-21",
-  "state": "built; publication pending",
+  "state": "Published and verified on GitHub, GitBook EN/KO and Zenodo",
   "baseline_book": "10.5281/zenodo.23492729",
   "baseline_repository_commit": "1070a2aab2d17bcd0b4978ba696f486868fdc055",
   "color_source": "publication/WRRA_Color_Interface_Audit_v0_8_2",
@@ -21,5 +21,14 @@
     "EN": "XgqFhcDlcHHR1lRsyHFs",
     "KO": "aaYiUGxzjrU5fyh3PqdT"
   },
-  "verification": "21/21 editorial/source-record checks; 36/36 color and 4/4 dependency rerun"
+  "verification": "21/21 editorial/source-record checks; 36/36 color and 4/4 dependency rerun",
+  "zenodo_doi": "10.5281/zenodo.23511592",
+  "zenodo_url": "https://zenodo.org/records/23511592",
+  "zenodo_file_count": 2,
+  "zenodo_file_policy": "Complete KO/EN PDFs only; code/data on GitHub",
+  "source_commit": "a60fa45af2db7ded3551f4cb7ac8927ce70f64fd",
+  "gitbook_revisions": {
+    "EN": "v9IBSjWYqlnuROb621DN",
+    "KO": "5o71mtc48MtkwccZidGi"
+  }
 }

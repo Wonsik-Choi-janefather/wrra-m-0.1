@@ -54,5 +54,11 @@
       ]
     }
   },
-  "scope": "Editorial preservation, source-record verification and 36+4 actual color rerun; no full AGAMA integration rerun."
+  "scope": "Editorial preservation, source-record verification and 36+4 actual color rerun; no full AGAMA integration rerun.",
+  "publication": {
+    "zenodo": "Published/Open; Book v0.27; both displayed MD5 checksums match local PDFs",
+    "github": "26 changed source files verified byte-for-byte at source_commit",
+    "gitbook": "Both change requests merged; new chapters and v0.27 root read back from main",
+    "pdf_visual_review": "Front matter and new-chapter pages inspected; chapter starts placed on new pages"
+  }
 }
