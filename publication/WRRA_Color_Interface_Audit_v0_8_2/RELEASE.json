@@ -1,0 +1,22 @@
+{
+  "release_id": "WRRA-COLOR-AUDIT-20261020-v0.8.2",
+  "doi": "10.5281/zenodo.23497517",
+  "sha256": {
+    "dependency_audit.py": "5a3f5f880f109f54c5ca9fbbeb5baf8ea21b18f7201f835d578bb3de0434091b",
+    "audit_results.json": "47e8b1f5d276a26f61b8963e51fc2dc8bf99b42f3d7b0321f0d7b768ca7fc9a5",
+    "WRRA_Color_Interface_Audit_v0_8_r2_EN.pdf": "6ae1d2676f45c25a3e99b16868b38c23a5071660412b908e23a8486a5e7a46ca",
+    "build_pdf.py": "dabc727fb474df2e7a041920b5d093f5a3019e2bcbc74800f775ee9d41578627",
+    "SOURCE_SHA256.json": "ea985f42c11875f86e1aac38d5a4d5513d779810e2555d71d271bc005185f6a5",
+    "dependency_results.json": "7de524ffe2e9bd40320fd90cbfc9e8eb049e5e8026fce600f057ede165e10396",
+    "audit.py": "b1dba0ba680f151c58cbb83b01eb09d84773ff60ff47d8966ae23464273d10eb",
+    "README.txt": "e2baf13438e35c197e83ea08fb7a1bee561e5fb440d09cc15fc5d59144c63366",
+    "source/calculations/wrra_m_0_9/parameters.json": "e02e864aeaa9c54fccb260de0a866b2001bbd51f8b5a1831efb2f0806cd5164a",
+    "source/calculations/wrra_m_0_9/compute.py": "7e23a5eb28032bf7fa87864f9fc02d683eb22300c62255e7f0239e0d01e6a7a7",
+    "source/mcc_3_0/outreach/D_particle_theory_fundamental_physics.md": "2075228c2e83a577a7144701e91730aef79c9f230a99a25c96f8a3f85c40e737",
+    "source/mcc_3_0/stage_3_particle_component_replay/run_stage3.py": "8c2e2b20c1babf601a7030ae3c3fc62ab9f48c8ba50358514d56cc9be23bc94e",
+    "source/mcc_3_0/stage_2_finite_source_insertion/STAGE3_HANDOFF.json": "39cb62b0524c3621298291534ea1ffe9c5e38b3b086478edd05547081a2a8637",
+    "source/mcc_3_0/stage_3_particle_component_replay/results/results.json": "0a81eaa457c1c5bf10edf48a0ea77c755bd6eb96a893d8638c8cc9d11082235f",
+    "source/exploratory/prime_parts_v1_0/studies/WRRA_Quark_Open_Branches_2026_10_04/input_fit.json": "14c2c26064f9cdb0774048a8558d1856ed49d4d9141cac0f7215addb2dbb7de9",
+    "source/exploratory/prime_parts_v1_0/studies/WRRA_Click_Rendering_Probe_2026_10_04/input_channels.csv": "2bbd1bd3efcb535d327a6d982cc9be74c0bcd2d478d1b7278277b013251fc191"
+  }
+}
