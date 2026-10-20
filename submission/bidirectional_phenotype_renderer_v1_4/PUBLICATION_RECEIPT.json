@@ -1,0 +1,22 @@
+{
+  "status": "published and verified",
+  "publication_verified_at": "2026-10-20",
+  "version": "1.4",
+  "zenodo_url": "https://zenodo.org/records/23486379",
+  "doi": "10.5281/zenodo.23486379",
+  "scientific_content_commit": "f5d54eb143c1894b9d0b635c9f7c9850ecce5954",
+  "zenodo_files": [
+    {
+      "name": "WRRA_Bidirectional_Phenotype_Renderer_KO_v1.4.pdf",
+      "md5": "56e00b95309fceb6faee005cda800c1c",
+      "pages": 13
+    },
+    {
+      "name": "WRRA_Bidirectional_Phenotype_Renderer_EN_v1.4.pdf",
+      "md5": "33119b9c9460cabaafd537b06289ec32",
+      "pages": 13
+    }
+  ],
+  "data_delivery": "GitHub links only; no data archive on Zenodo",
+  "scope": "Standalone paper v1.4; existing full-book v0.25-r2 retained as reference"
+}
