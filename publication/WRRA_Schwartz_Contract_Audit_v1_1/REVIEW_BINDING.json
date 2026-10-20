@@ -1,0 +1,12 @@
+{
+  "model": "gpt-6-astra",
+  "effort": "medium",
+  "prompt": "Please review this paper for me and tell me if you would recommend it for publication.",
+  "reviewed_pdf": "WRRA_Exact_Readouts_and_Class_Lift_v1_1_EN.pdf",
+  "reviewed_pdf_sha256": "6bc7bc9bd4f5b41338c597b01874e915ea9391cd9a0aa01dda9934c2b3adca8b",
+  "final_review_file": "ASTRA_MEDIUM_FINAL_RECOMMENDATION.txt",
+  "final_review_sha256": "ecac7d25b85587315c8dd1a94cdf0e8ca06de5bcb33e5bbf7f5f068d91e056e5",
+  "recommendation_scope": "short computational verification or software note",
+  "review_type": "same-reviewer correction check following an isolated initial review",
+  "mail_sent": false
+}

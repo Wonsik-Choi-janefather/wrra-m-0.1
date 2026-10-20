@@ -1,0 +1,83 @@
+{
+  "release": "WRRA-CONTRACT-AUDIT-20261020-v1.1",
+  "source_commit": "9d9daf21154e46e55b9fd0fd461c7c070156ab94",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "first_active_addresses": 256,
+  "initial_max_query_difference": 1.1102230246251565e-16,
+  "post_controlled_update_Z_differences": [
+    4.5366739244008536e-05,
+    0.0,
+    0.6668017457457079
+  ],
+  "repair_max_error": 1.1102230246251565e-16,
+  "random_query_max_error": 4.440892098500626e-16,
+  "covariance_identity_error": 2.211772431870429e-17,
+  "base_rank": 3,
+  "lifted_rank": 6,
+  "exact_witness_addresses": [
+    [
+      3,
+      6,
+      9
+    ],
+    [
+      2,
+      4,
+      25
+    ]
+  ],
+  "witness_determinants": [
+    -0.8915897015302467,
+    -0.9071875917196816
+  ],
+  "linear_variable_coordinates_d128": {
+    "snapshot": 49149,
+    "complete_class_resolved": 98298
+  },
+  "retained_bytes_d128_G32": {
+    "pure_grouped_vectors_and_weights": 66304,
+    "three_weighted_complex128_operators": 786432,
+    "three_float64_loads": 24
+  },
+  "thresholds": {
+    "absolute_matrix_and_readout_error": 1e-12,
+    "historical_return_difference": 2e-12
+  },
+  "fixed_ix_compilation": {
+    "snapshot_coefficient_rank": 3,
+    "class_coefficient_rank": 6,
+    "fixed_update_variable_dimension": 15,
+    "predicted_fixed_update_dimension": 15,
+    "full_class_variable_dimension_qubit": 18,
+    "closure_error": 3.552713678800501e-15,
+    "readout_reconstruction_error": 6.106226635438361e-16,
+    "eight_step_readout_error": 1.817990202823694e-15
+  },
+  "scope": "Numerical rerun of the original actual-interface construction and separately implemented readout and repair checks; no physical-time or observational claim",
+  "checks": {
+    "conditional_qubits_positive": true,
+    "same_initial_weighted_operators": true,
+    "controlled_update_distinguishes_states": true,
+    "class_lift_replays_update": true,
+    "base_coefficient_rank_three": true,
+    "class_lift_rank_six": true,
+    "both_triangular_witnesses_nonsingular": true,
+    "twenty_arbitrary_hermitian_queries_preserved": true,
+    "covariance_error_identity": true,
+    "initial_difference_reproduced": true,
+    "return_difference_reproduced": true,
+    "fixed_ix_dimension_15": true,
+    "fixed_ix_dimension_formula": true,
+    "fixed_ix_less_than_full_class_18": true,
+    "fixed_ix_closed": true,
+    "fixed_ix_eight_step_trajectory": true,
+    "compiler_zero_rank_input": true,
+    "compiler_below_cutoff_input": true
+  },
+  "passed": 18,
+  "total": 18
+}

@@ -1,0 +1,16 @@
+{
+  "release_id": "WRRA-CONTRACT-AUDIT-20261020-v1.1",
+  "color_supplement_release": "WRRA-COLOR-AUDIT-20261020-v0.3",
+  "date": "2026-10-20",
+  "source_commit": "9d9daf21154e46e55b9fd0fd461c7c070156ab94",
+  "sha256": {
+    "WRRA_Exact_Readouts_and_Class_Lift_v1_1_EN.pdf": "6bc7bc9bd4f5b41338c597b01874e915ea9391cd9a0aa01dda9934c2b3adca8b",
+    "contract_audit.py": "3849cf755a3c666a3eab9c6d52fc98dffc91d0e441e49196a83737236b83e744",
+    "reusable_closure.py": "03fab8321c1611c2ee76f7228b7434b87287d3cab17b43108555eaf28e969553",
+    "contract_results.json": "5c127819a5086eda8d5b425f57b94153bb3d524099c9d5d52d9b8651e9c037e8",
+    "SOURCE_SHA256.json": "ea985f42c11875f86e1aac38d5a4d5513d779810e2555d71d271bc005185f6a5",
+    "audit.py": "b1dba0ba680f151c58cbb83b01eb09d84773ff60ff47d8966ae23464273d10eb",
+    "audit_results.json": "47e8b1f5d276a26f61b8963e51fc2dc8bf99b42f3d7b0321f0d7b768ca7fc9a5",
+    "WRRA_Color_Interface_Audit_v0_3_EN.pdf": "aedbc565dbdd763c14a8317089ad41e56a89a96a5635d66b3266e3a3c73485de"
+  }
+}

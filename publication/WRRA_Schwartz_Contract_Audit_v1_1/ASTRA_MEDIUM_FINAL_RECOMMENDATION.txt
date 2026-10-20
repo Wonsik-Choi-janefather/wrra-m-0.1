@@ -1,0 +1,17 @@
+Model: gpt-6-astra
+Reasoning effort: medium
+Date: 2026-10-20
+Reviewed manuscript: WRRA_Exact_Readouts_and_Class_Lift_v1_1_EN.pdf
+Review type: final correction check by the same reviewer after its initial isolated review.
+Exact prompt:
+Please review this paper for me and tell me if you would recommend it for publication.
+
+FULL REVIEW
+
+I recommend publication as a short computational verification or software note, subject to ordinary editorial review. I would not recommend it as a substantial new theoretical-physics result.
+
+The mathematics is correct within its stated scope. The distinction between snapshot sufficiency and dynamical closure is clear; the rank witnesses justify the coordinate counts; and the 15-versus-18 comparison follows correctly for fixed qubit I/X evolution versus arbitrary class channels. The manuscript appropriately limits its claims to linear encodings and distinguishes implementation verification from physical validation.
+
+I reran the updated audit: all 18 checks pass, reproducing the reported 0.6668017457457079 readout difference and 1.818 x 10^-15 trajectory error. I also verified that all hashes listed in the updated release manifest match their files. The previously identified zero-rank compiler failure is repaired, including inputs below the numerical cutoff.
+
+The remaining limitation is significance, rather than correctness. The parent manuscript already contained the original failure witness and class lift, and the reduction mathematics is established. The publishable addition is therefore a modest, reproducible implementation and a carefully specified contract comparison. Its suitability depends on whether the venue welcomes this kind of computational case study. No new physical prediction is needed for that category, but the paper should retain its explicit restraint about WRRA's empirical status.
