@@ -8,7 +8,7 @@ Verified inputs -> WRRA transformation -> outputs -> falsification conditions re
 
 ## Releases and reproducibility
 
-- Full-book v0.25-r3 Zenodo DOI: 10.5281/zenodo.23486483 (see PUBLICATION_STATUS.json for verified publication status).
+- [Full-book v0.25-r3, published and verified](https://zenodo.org/records/23486483), DOI 10.5281/zenodo.23486483. Korean PDF: 244 pages; English PDF: 268 pages.
 - [Standalone bilingual paper v1.4](https://zenodo.org/records/23486379).
 - [Paper sources, figures, arithmetic and Lorentz code](../../submission/bidirectional_phenotype_renderer_v1_4/).
 - [Integration record and r2-to-r3 patches](renderer_r3/).
