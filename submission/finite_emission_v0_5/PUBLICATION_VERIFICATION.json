@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-20",
+  "zenodo_url": "https://zenodo.org/records/23491041",
+  "doi": "10.5281/zenodo.23491041",
+  "visible_state": "Published October 20, 2026; Version 0.5; Open",
+  "scientific_commit": "5613692a15a7562cafce10e213a0069bfe592f2c",
+  "files_checked": 23,
+  "all_SHA256_match": true,
+  "original_checks_passed": 444,
+  "supplementary_checks_passed": 12,
+  "zenodo_files": [
+    {
+      "name": "WRRA_Finite_Emission_v0_5_KO.pdf",
+      "bytes": 200532,
+      "md5": "4c7f84a3cac5812e0eae9182950cc648",
+      "sha256": "6652d268e710b0fec5a1dbac59cee6c2ca970cb8025b5b70ffe6a0881697e9a1"
+    },
+    {
+      "name": "WRRA_Finite_Emission_v0_5_EN.pdf",
+      "bytes": 170770,
+      "md5": "142df0be044337026b99793651688cdf",
+      "sha256": "a24f5bc16cf75a6369dbdbd5b2201c803b4be776d3d8d2c729fa6c94dbb66b4b"
+    }
+  ],
+  "data_distribution": "Code and data on GitHub only; no ZIP deposited on Zenodo."
+}
