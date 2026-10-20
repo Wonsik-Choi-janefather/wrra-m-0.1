@@ -1,0 +1,10 @@
+{
+  "version": "Book v0.27",
+  "preserved": "v0.26 Chapters 1–136, artistic opening and historical appendix",
+  "added": [
+    137,
+    138
+  ],
+  "name_discrepancy": "Source color manuscript v0.8.2 conflicts with Core/book name; retain Wonsik Reality–Renderer Architecture.",
+  "review_verdict": "No external PASS verdict claimed."
+}

@@ -1,0 +1,160 @@
+{
+  "KO": [
+    {
+      "key": "home",
+      "id": "QYoG2j9yVZDnP7tD7YNi",
+      "chars": 2654,
+      "title": "최소계산우주론 3.0",
+      "headings13522": false
+    },
+    {
+      "key": "parent",
+      "id": "q4bJmDFCXX1Hus8upUun",
+      "chars": 13877,
+      "title": "전체 책 v0.25-r5 — 최신판",
+      "headings13522": false
+    },
+    {
+      "key": "declaration",
+      "id": "LSypexv6kpC0LxT9EbV6",
+      "chars": 1565,
+      "title": "연구 목적과 설계 원칙 — 해석기의 역설계",
+      "headings13522": false
+    },
+    {
+      "key": "chapter",
+      "id": "MlnPjHP2vee7OWjv821C",
+      "chars": 33483,
+      "title": "135장 양방향 표현형 출력기·단일 짝수 전환과 셔터 위상",
+      "headings13522": true
+    },
+    {
+      "key": "synthesis",
+      "id": "9cmCJ2LCpdWhzq4qOvS2",
+      "chars": 3506,
+      "title": "현행 종합 결론 — v0.25-r5",
+      "headings13522": false
+    },
+    {
+      "key": "sources",
+      "id": "UeAC0UBcRwEOue6O2PVt",
+      "chars": 2476,
+      "title": "원본 자료와 재현 경로",
+      "headings13522": false
+    },
+    {
+      "key": "edition",
+      "id": "c0rUzC6sNEiBtKpnmTLC",
+      "chars": 3581,
+      "title": "3.0 판본 선언",
+      "headings13522": false
+    },
+    {
+      "key": "toc",
+      "id": "ZDPrQ8Es44vK0tKjRdlS",
+      "chars": 4312,
+      "title": "목차",
+      "headings13522": false
+    },
+    {
+      "key": "parts1_4",
+      "id": "xqSZfNdtCJN0lbNBPyaY",
+      "chars": 33424,
+      "title": "제1부부터 제4부 최소계산우주론 2.0의 전체 뼈대",
+      "headings13522": false
+    },
+    {
+      "key": "part5",
+      "id": "4sCg0geY0k9Utqm8Ndoj",
+      "chars": 26050,
+      "title": "제5부 끈이론 미시재료의 선택적 보강",
+      "headings13522": false
+    },
+    {
+      "key": "ch75",
+      "id": "UYAyiKBXEWRLEluEUOqN",
+      "chars": 1922,
+      "title": "75장 유한 SOURCE와 산술 상태",
+      "headings13522": false
+    }
+  ],
+  "EN": [
+    {
+      "key": "home",
+      "id": "pbCJll6zlglPu5bxcGh2",
+      "chars": 4434,
+      "title": "Minimal Computing Cosmology 3.0",
+      "headings13522": false
+    },
+    {
+      "key": "parent",
+      "id": "sjEqgl7DmEGO3KEjQdiC",
+      "chars": 29082,
+      "title": "Full book v0.25-r5 — current edition",
+      "headings13522": false
+    },
+    {
+      "key": "declaration",
+      "id": "xatbx6fK7VV4bD23P7Nk",
+      "chars": 3123,
+      "title": "Research Purpose and Design Principle — Reverse-Engineering the Interpreter",
+      "headings13522": false
+    },
+    {
+      "key": "chapter",
+      "id": "6TlsAXZ1O0msmpB5KENv",
+      "chars": 59104,
+      "title": "135. Bidirectional Phenotype Rendering, Singly Even Transitions and Shutter Phase",
+      "headings13522": true
+    },
+    {
+      "key": "synthesis",
+      "id": "Tfin7A01OXjBJB4aTYlh",
+      "chars": 7294,
+      "title": "Current Synthesis — v0.25-r5",
+      "headings13522": false
+    },
+    {
+      "key": "sources",
+      "id": "sqrZcXTT0eACa3bzykrZ",
+      "chars": 3395,
+      "title": "Source archives and reproduction paths",
+      "headings13522": false
+    },
+    {
+      "key": "edition",
+      "id": "hd39Uvzta4HJrCBQHe7Z",
+      "chars": 5611,
+      "title": "3.0 Edition Declaration",
+      "headings13522": false
+    },
+    {
+      "key": "toc",
+      "id": "rkUPFLC8V8yBhvfndG9s",
+      "chars": 8244,
+      "title": "Contents",
+      "headings13522": false
+    },
+    {
+      "key": "parts1_4",
+      "id": "y71mNUMiHqwWElPkd3hQ",
+      "chars": 62528,
+      "title": "Parts I through IV Complete Skeleton of Minimal Computing Cosmology 2.0",
+      "headings13522": false
+    },
+    {
+      "key": "part5",
+      "id": "4iRuFnBNVieL1jva2Emj",
+      "chars": 39882,
+      "title": "Part V Selective Reinforcement from String Microphysics",
+      "headings13522": false
+    },
+    {
+      "key": "ch75",
+      "id": "FryipoUNU0q8sNyfvGto",
+      "chars": 3090,
+      "title": "Chapter 75 Finite SOURCE and arithmetic state",
+      "headings13522": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "KO": {
+    "pages": 251,
+    "new_chapter_markers": [
+      231,
+      233
+    ],
+    "image_references": 48,
+    "missing_images": []
+  },
+  "EN": {
+    "pages": 279,
+    "new_chapter_markers": [
+      257,
+      261
+    ],
+    "image_references": 48,
+    "missing_images": []
+  }
+}

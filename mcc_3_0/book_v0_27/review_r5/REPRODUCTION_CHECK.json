@@ -1,0 +1,7 @@
+{
+  "two_resolution/audit.py": "8da27eabd60e1c69290e5ceca0e4a9a770a91e209a8eb5754b1e3cca0d958414",
+  "two_resolution/results.json": "840c89f476454a3c34d2ec3054f6cddd66881acc14addff116b841c46b7a84eb",
+  "upstream_exchange/exchange.py": "c85f59069a7a2c8c1c0837e6a6fec5e33d2f21d8f8d71fbb717d8575e167fb76",
+  "upstream_exchange/results.json": "e8cf564449d409c8dafdb9d7abc0549a6bbcba0ce0dd840800ee92d14aa2f45a",
+  "black_hole_bridge.py": "b66a016fd8e870c329fd2bce664e4993a9c4d2442e199ec01318e4af671b992e"
+}

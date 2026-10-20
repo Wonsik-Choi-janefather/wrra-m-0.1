@@ -1,0 +1,6 @@
+## Current synthesis — v0.27
+
+Verified inputs are the frozen finite address/admission/assembly rules, adopted charges and color representation, fixed Galactic response and trial stellar DFs, and declared public Gaia selections. WRRA-specific transformations are admission-weighted component assembly, dependency/information-retention audit, and a live residual-response/stellar-DF/Poisson iteration. Outputs are the reproduced conditional component statistics and exact singlet restriction (Chapter 137), two-resolution Galactic numerical closure and an actual Gaia comparison whose current count template disagrees with the data (Chapter 138). Falsification conditions are replay, conservation, dependency, kernel, convergence, invariant and properly population/selection-matched observational failures.
+
+These extend the executable explanation and locate the remaining coupling and observational tasks. The 36+4 color checks were rerun for this book; the Galactic source records were checked without a new full AGAMA integration. No external review verdict, observational confirmation of the whole framework, new particle spectrum or completed cosmological state injection is inferred. Earlier achievements retain their declared contracts. The preceding v0.26 synthesis and earlier genealogy follow unchanged.
+

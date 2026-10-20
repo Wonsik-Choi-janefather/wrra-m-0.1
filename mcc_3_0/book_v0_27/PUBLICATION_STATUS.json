@@ -1,0 +1,25 @@
+{
+  "version": "Book v0.27",
+  "date": "2026-10-21",
+  "state": "built; publication pending",
+  "baseline_book": "10.5281/zenodo.23492729",
+  "baseline_repository_commit": "1070a2aab2d17bcd0b4978ba696f486868fdc055",
+  "color_source": "publication/WRRA_Color_Interface_Audit_v0_8_2",
+  "galaxy_source_commit": "3b49da87c27379e9637a53aa38e325f43808685d",
+  "new_chapters": [
+    137,
+    138
+  ],
+  "color_checks_rerun": {
+    "replay": 36,
+    "dependency": 4
+  },
+  "full_AGAMA_rerun": false,
+  "name": "Wonsik Reality–Renderer Architecture",
+  "zenodo_reserved_doi": "10.5281/zenodo.23511592",
+  "gitbook_change_requests": {
+    "EN": "XgqFhcDlcHHR1lRsyHFs",
+    "KO": "aaYiUGxzjrU5fyh3PqdT"
+  },
+  "verification": "21/21 editorial/source-record checks; 36/36 color and 4/4 dependency rerun"
+}

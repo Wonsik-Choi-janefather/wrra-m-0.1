@@ -1,0 +1,23 @@
+{
+  "revision": "Book v0.25-r3",
+  "baseline_commit": "8202b027f8c1faac9a87e882f0430b77363056ac",
+  "standalone_paper_doi": "10.5281/zenodo.23486379",
+  "changed_sections": [
+    "3.1",
+    "8.2",
+    "13",
+    "75",
+    "112",
+    "117",
+    "133",
+    "135.1–16",
+    "current synthesis"
+  ],
+  "unchanged_numerics": [
+    "existing GR/CMB calculations",
+    "conditional shutter period",
+    "630-case Lorentz audit"
+  ],
+  "new_arithmetic_scope": "500 singly even parents; 2000 placements",
+  "data_delivery": "GitHub links only; no data archive on Zenodo"
+}

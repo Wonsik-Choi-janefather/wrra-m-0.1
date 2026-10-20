@@ -1,0 +1,167 @@
+--- v0.26
++++ v0.27
+@@ -1,10 +1,10 @@
+ # Minimal Computing Cosmology 3.0
+ 
+-## Revision v0.26: Finite Gradients, Quantum Emission, Thermal History and Observational Junctions
+-
+-Wonsik Choi · Jeongin Choi | 20 October 2026
+-
+-**v0.26 integration note.** Preserve Chapters 1–135 and the artistic opening of v0.25-r5, including two-resolution measurement, upstream exchange, initial preparation and black-hole reinforcement. Add Chapter 136 for the executed outputs and scope of finite gradients v0.4, finite emission v0.5, conditional nonlinear lensing/MeV thermal history v0.6 and full-state junction development v0.7-dev-r1. Complete CAMB initial-state injection and mean-to-individual preparation remain incomplete. Book DOI: https://doi.org/10.5281/zenodo.23492729. Code and data are supplied through GitHub.
++## Revision v0.27: Particle/Color Interface and Live Galactic Dynamics
++
++Wonsik Choi · Jeongin Choi | 21 October 2026
++
++**v0.27 integration note.** Preserve the artistic opening and cumulative Chapters 1–136. Add Chapter 137 for the frozen component replay, exact singlet restriction and source-dependency audit through color manuscript v0.8.2; add Chapter 138 for the actual live WRRA–AGAMA v0.3 iteration and Gaia comparison. This book update reran the 36 replay/algebra checks and four dependency checks, and cross-checked released galactic records; it did not rerun the full AGAMA integration. Numerical closure and sample-level disagreement are both retained. Complete CAMB initial-state injection, mean-to-individual preparation and full selection-corrected Galactic validation remain open. WRRA retains its established name, Wonsik Reality–Renderer Architecture. The conflicting expansion in one source manuscript is disclosed in Section 137.1. Book series: https://doi.org/10.5281/zenodo.23202731. Previous book v0.26: https://doi.org/10.5281/zenodo.23492729. Code/data: GitHub; complete Korean/English PDFs: Zenodo.
+ 
+ ## Research Purpose and Design Principle: Reverse-Engineering a Physical Phenotype Interpreter
+ 
+@@ -226,7 +226,7 @@
+ 
+ # Contents
+ 
+-Current Chapters 1–136. Original module numbers in Parts V and VII and historical Appendix G are separately scoped.
++Current Chapters 1–138. Original module numbers in Parts V and VII and historical Appendix G are separately scoped.
+ 
+ - 1. One Universe One Execution Architecture
+ - 2. Three Forms of Minimality
+@@ -364,6 +364,8 @@
+ - 134. Projector focus, clarity and minimum mode cost
+ - 135. Bidirectional phenotype rendering, singly even transitions and shutter phase
+ - 136. From residue seeds to finite emission, thermal history and observational calculation
++- 137. Particle/component replay and the address–color interface
++- 138. A live Galactic distribution function and the Gaia comparison
+ 
+ # Parts I-VIII — Preservation of the 2.3.2 Cumulative Structure
+ 
+@@ -8131,7 +8133,129 @@
+ The repository is [wrra-m-0.1](https://github.com/Wonsik-Choi-janefather/wrra-m-0.1). Preserve each source's inputs, outputs, checks, normalization and release verification. The book v0.26 editorial audit does not replace those source checks. Zenodo carries the complete Korean/English PDFs; code and data are supplied through GitHub.
+ 
+ 
+-## Current synthesis — v0.26
++\clearpage
++
++## 137. Particle/Component Replay and the Address–Color Interface
++
++### 137.1 Inputs, transformation and provenance
++
++This chapter integrates the color-interface audit through manuscript v0.8.2, separately from Book v0.27 and the cosmological junction v0.7-dev-r1 of Chapter 136. Its scientific scripts and frozen reference outputs are unchanged from color-audit v0.6. A later editorial number is not a new physical calculation. The book update reran `audit.py` and `dependency_audit.py`: 36/36 and 4/4 checks passed. These overlapping software checks establish the declared replay and algebraic contracts; they are not independent observations or an external peer-review verdict.
++
++Verified inputs are the frozen Stage-3 source at commit `9d9daf21154e46e55b9fd0fd461c7c070156ab94`, $N=1{,}015{,}000$, $\alpha=1.8996877935161325$, $h=1.4476744689338703$, four adopted zeta-zero heights, eight admission frames, inherited assembly and charge rules, and a supplied three-color fundamental representation. The WRRA transformation applies admission to the finite address measure, assembles prime-labeled components and checks the dependency and information retained by the separate color branch. Outputs and falsification conditions are stated below. Known particle properties and mathematical representations remain legitimate interpreter inputs.
++
++**Name control.** This book retains Wonsik Reality–Renderer Architecture, consistent with its established text and the 7 September Core 1.0 document headed “원식 현실-렌더러 구조의 범용 실행 아키텍처.” The expansion “Worldline-Residue-Resource-Action” printed in the v0.8.2 source is a conflicting label and is not adopted here. Worldlines, residues, resources and actions may be model concepts without redefining the architecture's name. This bibliographic discrepancy does not change the replay scripts or their mathematics.
++
++### 137.2 Conditional component measure and actual order dependence
++
++Address 1 is inactive. Define
++
++$$w(n)=\frac{n^{-\alpha}}{\sum_{m=2}^{N}m^{-\alpha}},\qquad
++p(n)=\frac{w(n)e_\phi(n)}{\sum_m w(m)e_\phi(m)}.$$
++
++The admission effect is zero outside odd-composite addresses. The targeted replay returns 427,892 such addresses and phenotype weight $\sum_n w(n)e_\phi(n)=0.050000000000000065$. The measure $p$ is conditional on admission; it is not the full address measure or an observed particle abundance.
++
++For a pool of the first $K$ primes, initialize $\lfloor n/\sum_j p_j\rfloor$ copies of each prime. Repeatedly traverse the declared ascending or descending order, taking at most one copy per prime per traversal when the residue permits, until the residue is below two. Every address retains exact integer reconstruction $n=\sum_j c_jp_j+r$. Define $a_j=\sum_n p(n)c_j(n)$ and $P_j=a_j/\sum_l a_l$. The reported candidate share counts the historically selected labels 5 and 47 in this component-number measure.
++
++| Declared assembly | Conditional candidate share | Mean component count |
++|---|---:|---:|
++| K15 ascending | 0.129471986937 | 15.9763714572 |
++| K15 descending | 0.127159411697 | 11.4294924701 |
++| K16 ascending | 0.124982781217 | 15.2321441711 |
++| K16 descending | 0.111240636923 | 10.5785808287 |
++
++For K15, $\frac12\sum_j|P_j^{\rm asc}-P_j^{\rm desc}|=0.20472100116369085$. The upstream code already computed this order dependence; the audit reproduces it. Each fixed order is a valid declared algorithm. The nonzero distance rejects equality of these two aggregate distributions, not the legitimacy of a specified interpreter. Zero distance would not prove per-address equality or invariance under every possible order. Particle names, selected labels and the 16-channel charge table are supplied; exact rational neutrality of the declared motifs is a consistency achievement, not a new derivation of their charges.
++
++### 137.3 What the color routine actually reads
++
++The original `color_check()` has no arithmetic-state parameter. It constructs the signed six permutations of three colors and eight matrices internally. Recursive bytecode inspection and restricted-namespace execution find only NumPy, itertools, math and five builtins as external reads, with no captured state. This is a source-specific dependency result under ordinary unmodified libraries. Targeted AST extraction bypasses unrelated import-time modules, so it is not a full Stage-3 pipeline rerun.
++
++Let $T_a$ be the fundamental generators with $\operatorname{Tr}(T_aT_b)=\delta_{ab}/2$ and
++
++$$Q_a=T_a\otimes I\otimes I+I\otimes T_a\otimes I+I\otimes I\otimes T_a.$$
++
++The original matrices equal $2T_a$; this changes normalization but not annihilation or the common kernel. The adopted state is
++
++$$|S\rangle=(|rgb\rangle+|gbr\rangle+|brg\rangle-|rbg\rangle-|grb\rangle-|bgr\rangle)/\sqrt6.$$
++
++All eight total generators annihilate it. The common kernel has dimension one, both numerically and symbolically. The recorded 32 collective-rotation trials have maximum error $5.847\times10^{-16}$; the joint-state factorization test has error $1.507\times10^{-16}$. Product-rgb and one-site-phase controls give nonzero charge norms 0.707106781 and 0.816496581 and are rejected. Supplied SU(3) consistency is thus tested; arithmetic selection of SU(3) is not established by this routine.
++
++### 137.4 Exact information-retention restriction
++
++For any finite address space $H_A$ and color space $(\mathbb C^3)^{\otimes3}$ carrying the same fundamental action, let $P$ project onto the common kernel. If the joint density operator has **exact singlet support**,
++
++$$\Omega=(I_A\otimes P)\Omega(I_A\otimes P),$$
++
++then
++
++$$P=|S\rangle\langle S|,\qquad \Omega=\sigma_A\otimes|S\rangle\langle S|.$$
++
++The diagonal traceless generators leave only equal occupation of the three colors. Raising operators force opposite signs for exchanged permutations; these relations connect all six permutations and leave one normalized state. Expanding $\Omega=\sum_{nm}|n\rangle\langle m|\otimes C_{nm}$, rank-one support gives $C_{nm}=PC_{nm}P=c_{nm}P$. Positivity and unit trace give the unique address density matrix $\sigma_A=[c_{nm}]$. This is a conditional application of standard finite linear algebra, not new general QCD representation theory.
++
++Deleting the address register leaves the same color state for every address preparation. A color-only measurement cannot recover distinct component labels; address-controlled collective SU(3) rotations also leave the singlet unchanged. Retain the address/component register when its distinctions are needed. A larger representation, additional spatial/flavor/gluon factors or tracked nonsinglet intermediates may change the constraint, but none is implemented by this audit. Exact support is stronger than zero mean charge.
++
++### 137.5 Falsification and next executable step
++
++Failure of the fixed-input replay, normalization or integer reconstruction; a nonzero generator action; a second common-kernel vector; a counterexample to factorization under its stated support assumption; or an unexpected arithmetic-state read falsifies the associated claim. Physical adequacy requires an explicit mapping and comparison to observations. A new independent numerical prediction is not a condition for recognizing the present reproducibility and interface contribution.
++
++The next step is to declare a concrete address-dependent decoder/coupling, retain its input register, calculate its output and repeat the conservation, dependency and symmetry-breaking controls. Spin, flavor, binding, confinement, reaction rates and a full particle spectrum remain open. This clarifies the connection without withdrawing the earlier conditional assembly achievement.
++
++Source: [color audit v0.8.2, DOI 10.5281/zenodo.23497517](https://doi.org/10.5281/zenodo.23497517), based on [v0.6, DOI 10.5281/zenodo.23496836](https://doi.org/10.5281/zenodo.23496836). Matching scripts and manifest: [publication/WRRA_Color_Interface_Audit_v0_8_2](https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/tree/1070a2aab2d17bcd0b4978ba696f486868fdc055/publication/WRRA_Color_Interface_Audit_v0_8_2). Standard SU(3) background: David Tong, *The Standard Model*, Chapter 3. Source manuscripts and this book have separately identified editorial scope.
++
++
++\clearpage
++
++## 138. A Live Galactic Distribution Function and the Gaia Comparison
++
++### 138.1 Verified inputs and the executed WRRA connection
++
++The WRRA–AGAMA bridge v0.3 advances the galactic branch from a prescribed spatial profile to an actual live stellar distribution-function and Poisson iteration. Inputs are the original baryonic masses/radial scales and constitutive response, $a_T=1.191812669\times10^{-10}\ {\rm m\,s^{-2}}$, explicit finite-height profiles, two trial QuasiIsothermal stellar DFs and public Gaia samples. Gas and bulge remain static; the two stellar DFs are live. Adopted stellar heights are 0.3/0.9 kpc, gas sech-squared scales 0.085/0.045 kpc and trial radial-dispersion amplitudes 35/55 km/s at 8.2 kpc. These are disclosed physical choices, not new microscopic derivations.
++
++The executed chain is baryonic state → prescribed WRRA residual acceleration → spherical effective density/potential → live stellar $f(\mathbf J)$ → updated baryonic state. Iterate the stellar potential, density and residual response. The response law and DF parameters are fixed; the field itself changes. Spherical residual closure and global boundary regularization are additional assumptions. This galactic branch is not the full CAMB state junction of Chapter 136 and does not recalibrate the book's cosmological sector shares.
++
++The interface patch exposes AGAMA's existing native integration controls without changing physical formulae. Density integration uses relative tolerance $10^{-4}$ and up to $10^6$ evaluations; the stellar grid starts at $z=0.08$ kpc. Both resolutions start from archived v0.2 densities and perform five further iterations, meeting the 0.2% local criterion twice consecutively. These are warm-start convergence tests, not five iterations from an arbitrary initial state or a global convergence theorem.
++
++### 138.2 Numerical closure and distinct density observables
++
++| At $R=8.2$ kpc | Base grid | Refined grid |
++|---|---:|---:|
++| Additional iterations; recorded checks | 5; 16/16 | 5; 16/16 |
++| Circular speed (km/s) | 215.56532 | 215.62089 |
++| $K_z(1.1\ {\rm kpc})/(2\pi G)$ ($M_\odot/{\rm pc}^2$) | 71.82974 | 71.83659 |
++| True column within $|z|\le1.1$ kpc ($M_\odot/{\rm pc}^2$) | 79.31428 | 79.31056 |
++| Total midplane Poisson density ($M_\odot/{\rm pc}^3$) | 0.0790443 | 0.0790715 |
++
++The force-equivalent surface density $K_z/(2\pi G)$ is not the integrated mass column. Cylindrical Poisson's equation retains a radial term; silently equating the two would misread the model. Displayed digits support reproduction rather than observational precision.
++
++Across 20 probes, the maximum force change is 0.0515%; circular speeds differ by at most 0.0268% over 5–25 kpc. Total midplane density changes by 0.0344%, resolving the earlier tested grid sensitivity. Four test orbits over ten nominal periods pass energy and axial-angular-momentum checks. The maximum sampled direct-moment Jeans residual is 2.19%; approximate actions are not exact invariants. The initial finite-height circular speed 222.16 km/s changes to about 215.62 km/s because the live DF changes the initial spatial density. The old linearized rotation reference has about 5.18 km/s RMS difference over 8.25–25 kpc; that comparison is not an individual-data likelihood.
++
++These archived numerical outputs were cross-checked against their released JSON/CSV records during book integration. This update did not rebuild AGAMA or rerun its full DF integration; the executed v0.3 source run and the book's record-level checks are separate provenance levels.
++
++### 138.3 Actual Gaia sample and what the comparison finds
++
++The explicit DR3 selection uses a 0.25 kpc cylinder, $G=7$–17, BP–RP=1.0–1.4, uncorrected absolute $G=5$–6, parallax S/N above 10 and RUWE below 1.4. The retrieved sample contains 90,113 stars, 72,603 with radial velocities and 48,794 after an RV-uncertainty cut below 3 km/s. The count comparison uses 79,716 stars in 17 paired-height bins over $|z|=0.15$–1.0 kpc. Two global tracer weights are fitted, with no per-bin adjustment or gravity-parameter refit.
++
++The geometry-only fixed-DF count template does **not** reproduce the selected count profile: Poisson deviance is 1747.2021. Mass density is not automatically a star count. Extinction, luminosity/color populations, RUWE selection and Gaia/RVS completeness are not fully forward-modeled; population mapping and selection remain unverified. The discrepancy cannot yet be uniquely assigned to gravity. Reporting that discrepancy is part of the model test, not a reason to erase the actual numerical implementation.
++
++The reflected equilibrium model predicts zero North–South asymmetry and zero vertical streaming. Separate Bennett–Bovy Gaia DR2 tables show count asymmetries reaching 9.92%. Diagonal residual sums are 1692.2282 for 31 asymmetry bins and 436.9542 for 50 velocity bins after one global velocity offset. No full covariance is supplied and no formal joint significance follows. These DR2 and direct DR3 selections are different and are not combined into one likelihood. The same symmetry limitation applies to a conventional reflected equilibrium control; this identifies a missing perturbation sector rather than a unique discrimination between gravity theories.
++
++### 138.4 Falsification conditions and research sequence
++
++Non-positive source density, failed force/density convergence, unacceptable grid sensitivity, invariant violation or disagreement in a population- and selection-matched observational test would challenge the relevant model claim. Current numerical closure passes the declared tests; full joint star-count/velocity validation remains open. The present selected-count template already fails its narrower sample comparison and must be improved or rejected at that scope.
++
++First specify the tracer populations and selection function and calibrate a tracer DF against density and velocity-dispersion data. Then test a fixed calibrated model on held-out observables with the appropriate errors/covariance. If vertical waves are a target, add an explicit non-equilibrium perturbation with declared source, evolution and observational projection, and compare it under the same selection. Calibration to verified observations is legitimate construction; an unrelated independent prediction is not required to recognize a reproducible connection.
++
++The achievements are a live WRRA-response/DF/Poisson implementation, controlled two-resolution numerical closure and an actual observational comparison exposing its present boundary. They do not establish a fully validated Galaxy model. This extends the book's galactic implementation while preserving earlier radial/RAR results at their original scope.
++
++Sources: [wrra-galactic-disk/releases/agama-v0.3](https://github.com/Wonsik-Choi-janefather/wrra-galactic-disk/tree/3b49da87c27379e9637a53aa38e325f43808685d/releases/agama-v0.3), including `validation/summary.json`, `observations/summary.json`, the ADQL query and reproduction instructions. AGAMA source commit `f302756b8af2b763db58e278e30478517dc8eea3` plus its disclosed precision patch; original radial model commit `2528be62a70c1579308389621e75988f1f777c82`, [DOI 10.5281/zenodo.23003875](https://doi.org/10.5281/zenodo.23003875). Data credit: ESA Gaia DR3; Bennett & Bovy, arXiv:1809.03507 and `morganb-phys/VWaves-GaiaDR2` commit `203c2e111c24b99351871e562d4efe193fed586b`. Finite-height choices follow the disclosed McMillan (2017) model family; the complete McMillan model is not copied.
++
++
++## Current synthesis — v0.27
++
++Verified inputs are the frozen finite address/admission/assembly rules, adopted charges and color representation, fixed Galactic response and trial stellar DFs, and declared public Gaia selections. WRRA-specific transformations are admission-weighted component assembly, dependency/information-retention audit, and a live residual-response/stellar-DF/Poisson iteration. Outputs are the reproduced conditional component statistics and exact singlet restriction (Chapter 137), two-resolution Galactic numerical closure and an actual Gaia comparison whose current count template disagrees with the data (Chapter 138). Falsification conditions are replay, conservation, dependency, kernel, convergence, invariant and properly population/selection-matched observational failures.
++
++These extend the executable explanation and locate the remaining coupling and observational tasks. The 36+4 color checks were rerun for this book; the Galactic source records were checked without a new full AGAMA integration. No external review verdict, observational confirmation of the whole framework, new particle spectrum or completed cosmological state injection is inferred. Earlier achievements retain their declared contracts. The preceding v0.26 synthesis and earlier genealogy follow unchanged.
++
++### Preserved synthesis through v0.26
+ 
+ **Current v0.26 reinforcement.** Verified inputs are the original 128-cell seed, 64-mode states, calibrated clock/background, electron EOS and released lensing covariance. WRRA-specific transformations are conserving effective conversion, record-permitted packet events, actual heat capacity, background-to-likelihood connection and a full available scalar frame transform. Outputs are Chapter 136's finite-gradient evolution, 128 events, conditional lensing $\chi^2=10.6060135496$, MeV elapsed chronology, stable metric combination and background recalibration. Failure conditions are conservation, gauge, unit, time/hierarchy-convergence, observational covariance and same-state downstream-junction failures. These are explanatory and reproduction achievements; no new CMB result with complete initial-state injection is computed through v0.7-dev-r1.
+ 

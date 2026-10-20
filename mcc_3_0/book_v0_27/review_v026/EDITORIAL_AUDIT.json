@@ -1,0 +1,59 @@
+{
+  "book_version": "0.26",
+  "editorial_checks_passed": 32,
+  "checks": {
+    "KO_prior_chapters_preserved": true,
+    "KO_artistic_opening_preserved": true,
+    "KO_historical_appendix_preserved": true,
+    "KO_book_revision": true,
+    "KO_chapter136": true,
+    "KO_full_TOC": true,
+    "KO_four_sources": true,
+    "KO_partial_scope": true,
+    "KO_48_images_retained": true,
+    "KO_full_PDF": true,
+    "KO_PDF_version": true,
+    "KO_stable_metric_fix": true,
+    "KO_calibration_values": true,
+    "KO_likelihood_values": true,
+    "KO_legitimate_calibration": true,
+    "KO_no_independent_prediction_requirement": true,
+    "EN_prior_chapters_preserved": true,
+    "EN_artistic_opening_preserved": true,
+    "EN_historical_appendix_preserved": true,
+    "EN_book_revision": true,
+    "EN_chapter136": true,
+    "EN_full_TOC": true,
+    "EN_four_sources": true,
+    "EN_partial_scope": true,
+    "EN_48_images_retained": true,
+    "EN_full_PDF": true,
+    "EN_PDF_version": true,
+    "EN_stable_metric_fix": true,
+    "EN_calibration_values": true,
+    "EN_likelihood_values": true,
+    "EN_legitimate_calibration": true,
+    "EN_no_independent_prediction_requirement": true
+  },
+  "source_check_counts": {
+    "v0.4": 643,
+    "v0.5": {
+      "base": 444,
+      "release": 12
+    },
+    "v0.6": {
+      "base": 54,
+      "release": 8
+    },
+    "v0.7-dev-r1": {
+      "base": 472,
+      "release": 10
+    }
+  },
+  "no_new_scientific_runs_claimed": true,
+  "full_state_CAMB_injection": false,
+  "pdf_pages": {
+    "KO": 251,
+    "EN": 279
+  }
+}

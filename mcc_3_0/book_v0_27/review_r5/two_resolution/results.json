@@ -1,0 +1,102 @@
+{
+  "scope": "finite adopted-quantum-instrument compatibility; no empirical Planck test",
+  "inputs": {
+    "c_m_s": 299792458.0,
+    "h_J_s": 6.62607015e-34,
+    "G_m3_kg_s2": 6.6743e-11,
+    "shutter_proper_s": 1.4813019664158633e-21,
+    "quantum_rule": "complex density matrices, Born probabilities and projective instruments adopted",
+    "source_constants": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+    "seed": 20261020
+  },
+  "scales": {
+    "planck_time_s": 5.391246448313605e-44,
+    "planck_length_m": 1.6162550244237055e-35,
+    "shutter_length_m": 4.440831575520451e-13,
+    "shutter_over_planck": 2.7476057357370824e+22,
+    "integer_ratio_required": false,
+    "hard_grid_nyquist_photon_energy_MeV": 1.3959569995476546
+  },
+  "interference": {
+    "phases": 361,
+    "max_born_curve_error": 5.551115123125783e-16,
+    "visibility": 1.0,
+    "premature_dephasing_visibility": 1.110223024625157e-16
+  },
+  "bell": {
+    "CHSH_S": 2.82842712474619,
+    "target": 2.8284271247461903,
+    "deterministic_local_assignments": 16,
+    "local_bound": 2,
+    "joint_state_rule_is_input": true
+  },
+  "instruments": {
+    "random_mixed_joint_states": 200,
+    "nonselective_channels": 1000,
+    "spacelike_tensor_factor_branch_order_cases": 4000,
+    "no_signalling_reduced_density_max_error": 2.2219387677651497e-16,
+    "commuting_branch_order_max_error": 1.1108999555669692e-16,
+    "probability_error": 3.3306690738754696e-16,
+    "same_observable_repeat_error": 2.220446049250313e-16,
+    "pauli_uncertainty_violation_max": 0.0,
+    "caveat": "tensor-factor commutativity is supplied locality structure, not derived field microcausality"
+  },
+  "relativity": {
+    "boosts": 101,
+    "proper_interval_checks": 202,
+    "max_relative_interval_error": 9.880984919163893e-15,
+    "positive_boost_spacelike_order_reversals": 50,
+    "global_synchronization": false,
+    "scope": "special-relativistic event kinematics only"
+  },
+  "conservation_example": {
+    "unitarity_error": 0.0,
+    "total_energy_commutator_error": 0.0,
+    "scope": "Z-QND measurement with degenerate pointer; no general apparatus dynamics"
+  },
+  "negative_controls": {
+    "sub_planck_interval_rejected_by_assumption": true,
+    "premature_dephasing_fails_fringe": true,
+    "factorized_local_assignments_fail_CHSH": true,
+    "absolute_spacelike_order_not_invariant": true
+  },
+  "scheduler": {
+    "measurement_events": [
+      {
+        "tau_s": 1.9256925563406223e-22,
+        "shutter_sector": 1
+      },
+      {
+        "tau_s": 3.2588643261148993e-22,
+        "shutter_sector": 1
+      },
+      {
+        "tau_s": 1.3479847894384357e-21,
+        "shutter_sector": 1
+      },
+      {
+        "tau_s": 1.940505576004781e-21,
+        "shutter_sector": -1
+      }
+    ],
+    "shutter_sector_at_ticks": [
+      1,
+      -1,
+      1,
+      -1
+    ],
+    "shutter_interval_unchanged": true,
+    "measurement_trigger_does_not_advance_shutter": true,
+    "scope": "a local trigger ledger, not microscopic transition dynamics"
+  },
+  "unverified": [
+    "Planck floor is not tested by finite qubit algebra",
+    "G enters as an observed input, not a new WRRA gravity derivation",
+    "No continuous field, interacting relativistic QFT, dynamical metric, Einstein equation or quantum gravity derived",
+    "Born rule and complex joint states are adopted, not generated from integer codes",
+    "No theorem that all known physics is compatible with the two scales",
+    "Both scales are proper local specifications, not a coordinate-invariant Cartesian lattice",
+    "No 10^22 internal steps were simulated; threshold represented analytically"
+  ],
+  "status": "PASS_WITH_EXPLICIT_SCOPE_AND_ADOPTED_INPUTS"
+}
