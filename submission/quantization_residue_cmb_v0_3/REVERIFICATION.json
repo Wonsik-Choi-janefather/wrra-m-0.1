@@ -2,6 +2,7 @@
   "date": "2026-10-20",
   "version": "0.3",
   "reexecuted": [
+    "run_all.py: all sixteen fresh solver shards",
     "dynamics.py",
     "check_basis.py",
     "analyze.py",
@@ -10,7 +11,43 @@
   "passed": 123,
   "mode_count": 64,
   "integer_ell_count": 5999,
-  "full_solver_shards": "16 previously executed actual evolutions; grid and overlap assembly rechecked",
+  "full_solver_shards": "16 freshly executed actual evolutions; no initial shard cache; complete grids and overlap assembly rechecked",
   "major_outputs_reproduced": true,
-  "new_empirical_validation": false
+  "new_empirical_validation": false,
+  "verified_at_utc": "2026-10-20T04:33:58.291906+00:00",
+  "frozen_inputs_hash_verified": 5,
+  "source_archive_manifest_verified": 79,
+  "exact_reference_result_JSON_matches": 4,
+  "all_merged_D_A_and_projection_arrays_match_archived_reference": true,
+  "projection_artifact_repair": {
+    "old_GitHub_bytes": 786444,
+    "old_GitHub_valid_zip": false,
+    "new_bytes": 1199538,
+    "new_valid_zip": true,
+    "sha256": "dc649b4684e46265184f20ff218c94af6fc039e0fe046a5d353b861f4010908e",
+    "scientific_values_changed": false
+  },
+  "precision_control_source": "frozen hashed 471-multipole 2.5/3.0 transfer arrays; comparison recomputed, precision solvers not newly rerun",
+  "PDF_files_and_markdown_matched_Zenodo_draft_MD5": {
+    "REPORT_KO.md": {
+      "bytes": 10456,
+      "md5": "b4d18aa22aa24a15446de64ccecf8bbb",
+      "sha256": "758b64a261b11b25b879889235d0c843786970251ef0a957281ea7f04b8cb1f1"
+    },
+    "REPORT_EN.md": {
+      "bytes": 8642,
+      "md5": "1e7897630b9fd1bf08b417d7d55424e7",
+      "sha256": "007482b5c50bf9a158886a78dab6064436c8d8e0849daa84080d9404dd6eef1a"
+    },
+    "WRRA_64Mode_Conversion_v0_3_KO.pdf": {
+      "bytes": 248468,
+      "md5": "46d145bad78206906873c325615ea51f",
+      "sha256": "5c451bb38cfe9beb9796d09522548f3a55d16fc966ffe304aacd3c9907b5d92b"
+    },
+    "WRRA_64Mode_Conversion_v0_3_EN.pdf": {
+      "bytes": 233481,
+      "md5": "fac62b74a7535d5aeb4550f7428fcd43",
+      "sha256": "299317db4cf024a6d91a6170499a895a1a9997c4fa9d47a4935de35a1fc090ba"
+    }
+  }
 }
