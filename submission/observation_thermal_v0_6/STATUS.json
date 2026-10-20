@@ -4,8 +4,13 @@
   "supplementary_release_checks_passed": 8,
   "clean_rerun_exact_scientific_outputs": true,
   "zenodo_doi": "10.5281/zenodo.23491673",
-  "zenodo_status": "reserved draft; publication not yet verified",
+  "zenodo_status": "Published/Open verified",
   "zenodo_predecessor": "10.5281/zenodo.23491041",
   "scope": "Conditional nonlinear-lensing likelihood for inherited WRRA background plus declared calibrated adiabatic primordial completion; separate finite-packet MeV thermal completion. Full v0.4/v0.5 state injection remains unexecuted.",
-  "frozen_document_note": "Original preparation-state language is preserved. This status file records subsequent release actions."
+  "frozen_document_note": "Original preparation-state language is preserved. This status file records subsequent release actions.",
+  "zenodo_url": "https://zenodo.org/records/23491673",
+  "verified_date": "2026-10-20",
+  "scientific_commit": "713c21836ff31f4c3e59e41b08fa042d9b384022",
+  "remote_files_verified": 44,
+  "all_SHA256_match": true
 }

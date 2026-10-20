@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-20",
+  "doi": "10.5281/zenodo.23491673",
+  "zenodo_url": "https://zenodo.org/records/23491673",
+  "visible_state": "Published October 20, 2026; Version 0.6; Open",
+  "scientific_commit": "713c21836ff31f4c3e59e41b08fa042d9b384022",
+  "files_checked": 44,
+  "all_SHA256_match": true,
+  "original_checks_passed": 54,
+  "supplementary_checks_passed": 8,
+  "zenodo_files": [
+    {
+      "name": "WRRA_Observation_Thermal_v0_6_KO.pdf",
+      "bytes": 228246,
+      "md5": "8853a390e019ced4f327511a7e347ee6",
+      "sha256": "2ae509f7f8d43ea8d070a9643935177433d8f8e551c31652255c61c6f0341e3a"
+    },
+    {
+      "name": "WRRA_Observation_Thermal_v0_6_EN.pdf",
+      "bytes": 197568,
+      "md5": "1a735cb92705e45529a05514a731ebec",
+      "sha256": "2e83bdc6175186c3fd58f313e3bd44c4e6db5b18233fa7da6c82428a64c629a8"
+    }
+  ],
+  "data_distribution": "Code, inputs and numerical outputs on GitHub only; no ZIP deposited on Zenodo.",
+  "full_state_injection_executed": false
+}
