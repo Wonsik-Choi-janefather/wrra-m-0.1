@@ -1,0 +1,29 @@
+{
+  "project": "Minimal Computing Cosmology 3.0",
+  "from_stage": 2,
+  "to_stage": 3,
+  "status": "READY",
+  "source_state": {
+    "N_U": 1015000,
+    "active_addresses": 1014999,
+    "alpha": 1.8996877935161325,
+    "threshold_h": 1.4476744689338703,
+    "derived_effective_beta": 0.8654567230719301,
+    "arithmetic_shares": {
+      "phenotype": 0.050000000000000176,
+      "resident_nonphenotype": 0.2680000000000007,
+      "return": 0.6820000000000006
+    }
+  },
+  "preserve": {
+    "legacy_regression_N": 1000000,
+    "historical_WRRA_M_results": true,
+    "stage1_source_pins": true
+  },
+  "next_scope": [
+    "rerun Prime Parts and component counting on N_U",
+    "rerun charge, baryon, color, spin and neutral-channel ledgers where executable",
+    "compare candidate branch against legacy particle/component outputs",
+    "do not change SI downstream coefficients in Stage 3"
+  ]
+}
