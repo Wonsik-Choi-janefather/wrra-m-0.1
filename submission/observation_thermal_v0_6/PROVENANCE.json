@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-20",
+  "files": {
+    "sptplanck_lenslike.zip": "dbec4076e29ddbc9101f059a37eb4bc88cc0adefb6bed54ba0c8ef5c25534457",
+    "address_results.json": "0d18277fa14bd8cc158e70254ca3cc448cbeb3c6832d9019cc94350884a6dfeb",
+    "dynamics_results.json": "e282a086af15d0d3b8b24710ff8079d0d11f8c86c231e5137812a19bb6403e99",
+    "matching_states.json": "48f2df956d59b9f94ccc1fabbfa9aa14a2b4e1ce3ca61e52d2ac9ff36321fe16",
+    "events.csv": "bb4a09a337930b468f73968c05edf3785082f8f3af245d623e948e750ecb96a6",
+    "CMBlikes_reference.py": "2de868596d46a6592394f2b7a947b301bcdb0c2034dd03388404d5bd517dae25"
+  },
+  "data_source": {
+    "url": "https://lambda.gsfc.nasa.gov/data/suborbital/SPT/simard_2017/sptplanck_lenslike.zip",
+    "landing_page": "https://lambda.gsfc.nasa.gov/product/spt/spt_plancklens_2017_get.html"
+  },
+  "sources": {
+    "eos": "https://pdg.lbl.gov/2025/reviews/rpp2025-rev-bbang-cosmology.pdf",
+    "likelihood_reference": "https://raw.githubusercontent.com/cmbant/CosmoMC/master/python/CMBlikes.py",
+    "CAMB": "https://camb.readthedocs.io/en/stable/model.html",
+    "HMCode": "https://arxiv.org/abs/2009.01858",
+    "likelihood_reference_pinned": "https://raw.githubusercontent.com/cmbant/CosmoMC/0988ce858fcc6f775cf300bfe9b08d9d281f2af3/python/CMBlikes.py"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "camb": "2.0.4",
+    "getdist": "1.7.7",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "six": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "reference_compatibility_changes": [
+    "np.object -> object",
+    "np.int -> int"
+  ],
+  "known_calibrated_inputs": {
+    "As": 2.1e-09,
+    "ns": 0.9649,
+    "tau": 0.0544,
+    "N_eff": 3.044,
+    "T_CMB_K": 2.7255
+  },
+  "new_module_scope": "Conditional background-plus-calibrated-adiabatic likelihood; separate massive-electron finite-packet thermal completion. Full-state integration gate is blocked.",
+  "constants": {
+    "electron_mass_MeV": 0.51099895069,
+    "hbar_MeV_s": 6.582119569509067e-22,
+    "G_SI": 6.6743e-11,
+    "c_m_s": 299792458.0,
+    "Boltzmann_MeV_K": 8.61733326214518e-11
+  }
+}

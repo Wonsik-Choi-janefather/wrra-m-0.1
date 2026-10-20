@@ -1,0 +1,80 @@
+{
+  "models": [
+    {
+      "chi2": 11.685583690832365,
+      "minus_loglike": 5.8427918454161825,
+      "normalized_loglike": 313.2102730311135,
+      "fixed_model_reference_tail_probability": 0.8630379947596577,
+      "bins": 18,
+      "name": "linear",
+      "amplitude_profile": {
+        "A_phi_profile": 0.98213676427061,
+        "sigma_A": 0.0545172615884546,
+        "chi2_profile": 11.578221295419217,
+        "role": "Diagnostic fitted lensing-amplitude multiplier, not a WRRA-derived parameter or a fit of As."
+      },
+      "official_CosmoMC_chi2": 11.685583690832374,
+      "official_reference_difference": 8.881784197001252e-15
+    },
+    {
+      "chi2": 10.606013549574456,
+      "minus_loglike": 5.303006774787228,
+      "normalized_loglike": 313.75005810174247,
+      "fixed_model_reference_tail_probability": 0.9103218958095074,
+      "bins": 18,
+      "name": "nonlinear",
+      "amplitude_profile": {
+        "A_phi_profile": 0.943444900036412,
+        "sigma_A": 0.05192832778850251,
+        "chi2_profile": 9.419876494223063,
+        "role": "Diagnostic fitted lensing-amplitude multiplier, not a WRRA-derived parameter or a fit of As."
+      },
+      "official_CosmoMC_chi2": 10.606013549574453,
+      "official_reference_difference": 3.552713678800501e-15
+    },
+    {
+      "chi2": 10.5459902679589,
+      "minus_loglike": 5.27299513397945,
+      "normalized_loglike": 313.7800697425502,
+      "fixed_model_reference_tail_probability": 0.9126209616283611,
+      "bins": 18,
+      "name": "unweighted_nonlinear",
+      "amplitude_profile": {
+        "A_phi_profile": 0.9583059784824486,
+        "sigma_A": 0.054838355272761416,
+        "chi2_profile": 9.967922531716123,
+        "role": "Diagnostic fitted lensing-amplitude multiplier, not a WRRA-derived parameter or a fit of As."
+      },
+      "official_CosmoMC_chi2": 10.545990267958901,
+      "official_reference_difference": 1.7763568394002505e-15
+    },
+    {
+      "chi2": 10.603227972969833,
+      "minus_loglike": 5.3016139864849166,
+      "normalized_loglike": 313.75145089004474,
+      "fixed_model_reference_tail_probability": 0.910429374314697,
+      "bins": 18,
+      "name": "nonlinear_refined",
+      "amplitude_profile": {
+        "A_phi_profile": 0.9434266219776287,
+        "sigma_A": 0.051918189304904265,
+        "chi2_profile": 9.415860499934599,
+        "role": "Diagnostic fitted lensing-amplitude multiplier, not a WRRA-derived parameter or a fit of As."
+      },
+      "official_CosmoMC_chi2": 10.603227972969817,
+      "official_reference_difference": 1.5987211554602254e-14
+    }
+  ],
+  "null_lensing": {
+    "chi2": 339.5038261414996,
+    "minus_loglike": 169.7519130707498,
+    "normalized_loglike": 149.30115180577985,
+    "fixed_model_reference_tail_probability": 3.400258416442876e-61,
+    "bins": 18
+  },
+  "diagonal_error_consistency": 0.00039373890791649657,
+  "max_covariance_correlation": 0.001987193797064141,
+  "numerical_refinement_distance_sigma": 0.003830781509646128,
+  "full_state_WRRA_evaluation": false,
+  "scope": "Conditional lensing test of inherited WRRA background plus declared calibrated adiabatic primordial completion. Neither full v0.4 perturbations nor v0.5 events enter these spectra. Gaussian released-data likelihood includes TT and PP response corrections. Tail probabilities use fixed 18-bin models; no look-elsewhere or full-cosmology posterior claimed."
+}

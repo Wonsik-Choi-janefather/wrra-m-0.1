@@ -1,0 +1,15 @@
+{
+  "modes": 64,
+  "full_state_injected": false,
+  "nonzero_matter_velocity_modes": 64,
+  "neutrino_multipoles_per_mode": 13,
+  "selected_CAMB_initial_condition": "initial_adiabatic",
+  "required_for_complete_injection": [
+    "gauge transformation into CAMB variables including CDM frame",
+    "baryon/photon tight-coupling and massive-neutrino state completion",
+    "consistent thermal background/scale mapping",
+    "event-time and finite-gradient conserved jump conditions",
+    "angular/statistical completion of the finite spatial seed"
+  ],
+  "gate": "BLOCKED: no claim of full-state integration is permitted by these runs"
+}

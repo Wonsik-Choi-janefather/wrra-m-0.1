@@ -1,0 +1,172 @@
+# Nonlinear Lensing Likelihood and MeV Thermal Completion in WRRA
+
+Working calculation v0.6 | Wonsik Choi and Jeongin Choi | Independent researchers | 20 October 2026
+
+## Verified inputs → WRRA transformation → outputs → falsification
+
+**Verified inputs.** Retain the WRRA address-to-background dark_weight_only branch:
+H0=67.2568374662, omega_b=0.02239580679, omega_c=0.12037806177.
+Declare calibrated adiabatic As=2.1e-9, ns=0.9649, tau=0.0544, N_eff=3.044 and
+T_CMB=2.7255 K. Use the released 18-bin SPT-Planck covariance, windows and
+response corrections. The separate thermal module retains the v0.5 packet
+budget, N=256, 128 events and 1% record cost, and adds finite-mass equilibrium
+electron/positron thermodynamics. Known verified inputs are legitimate model
+construction inputs; their adoption does not constitute a new derivation.
+
+**WRRA transformation.** Execute new CAMB transfer/lensing calculations with the
+WRRA-derived background and explicit primordial completion. Separately connect
+the residue-to-matter and record-heat event ledger directly to temperature,
+expansion and pressure work. Adopted external methods are distinguished from
+the connections actually executed in this calculation.
+
+**Outputs.** The nonlinear fixed model gives chi-square=10.606013550
+over 18 bins. Initial photon temperature is 1.75848508951 MeV;
+the entropy-connected physical initial scale is 9.55163454815e-11
+when the old time unit is retained. All 54 checks pass; a clean
+folder repeat reproduces scientific JSON, CSV and arrays exactly.
+
+**Falsification.** Reject covariance/normalization/response errors, failed
+official-code crosschecks, failed time/EOS refinement or conservation, and
+claims of complete state integration when the initial-state gate is blocked.
+
+## Assessment
+
+The statistical and MeV thermal modules are implemented. Their existence is
+not completion of the entire Step 3 integration. The lensing result is conditional
+on the declared adiabatic completion. Full v0.4 metric/velocity/neutrino states
+and v0.5 event-time perturbations are not injected into these CAMB runs.
+
+\newpage
+
+## Released-data likelihood and new nonlinear spectra
+
+Four new CAMB 2.0.4 runs compare linear lensing, HMCode 2020 nonlinear lensing,
+an inherited unweighted-background nonlinear control, and a 1.5-accuracy
+refinement. HMCode is an adopted empirical prescription, not a nonlinear law
+derived or validated specifically for the finite WRRA SOURCE.
+
+
+$$D_L^{\phi\phi}=\frac{[L(L+1)]^2}{2\pi}C_L^{\phi\phi},\qquad
+D_\ell^{TT}=\frac{\ell(\ell+1)}{2\pi}C_\ell^{TT}\quad[\mu{\rm K}^2],$$
+$$b_i=\sum_L(W_{iL}+R^{PP}_{iL})D_L^{\phi\phi}
++\sum_\ell R^{TT}_{i\ell}D_\ell^{TT}-f_i,$$
+$$\chi^2=(b-d)^T\Sigma^{-1}(b-d),\qquad
+\log\mathcal L=-\frac12[\chi^2+\log|\Sigma|+18\log(2\pi)].$$
+
+
+Read W, R, f and Sigma from the released package. Use computed lensed TT in
+the TT response correction. Do not replace the covariance with plotting errors.
+All cosmological parameters in this comparison are fixed; no joint MCMC is run.
+
+| Case | chi-square, 18 bins | Profile A_phi | Profile sigma |
+|---|---:|---:|---:|
+| linear | 11.685583691 | 0.982136764 | 0.054517262 |
+| nonlinear | 10.606013550 | 0.943444900 | 0.051928328 |
+| unweighted_nonlinear | 10.545990268 | 0.958305978 | 0.054838355 |
+| nonlinear_refined | 10.603227973 | 0.943426622 | 0.051918189 |
+
+
+The profiled A_phi is a diagnostic lensing-amplitude fit at fixed shape, not
+a WRRA-derived constant or a new As calibration. Listed fixed-model chi-square
+values are before that fit. The background branches are too similar in this
+comparison to claim selection of one branch by these data alone.
+
+The largest difference from the separate official CosmoMC implementation is
+1.59872e-14. Only NumPy
+2 type aliases are changed in memory for compatibility. The covariance-norm
+distance under accuracy refinement is 0.00383078
+sigma. A zero-lensing control gives chi-square=339.503826141.
+That control verifies sensitivity to the observed lensing signal; it is not
+independent confirmation of the complete WRRA structure. A tail probability
+must not be interpreted as the probability that the theory is true.
+
+\newpage
+
+## Finite-packet thermal completion
+
+At zero electron chemical potential, directly integrate the massive ideal
+Fermi gas. Refine quadrature and interpolation and independently differentiate
+the energy density to check heat capacity. Energy densities use natural MeV
+units; restore hbar to obtain H in inverse seconds.
+
+
+$$\rho_{e^\pm}=\frac4{2\pi^2}\int_0^{\infty}
+\frac{p^2\sqrt{p^2+m_e^2}}{\exp(\sqrt{p^2+m_e^2}/T_\gamma)+1}\,dp,$$
+$$p_{e^\pm}=\frac4{6\pi^2}\int_0^{\infty}
+\frac{p^4}{\sqrt{p^2+m_e^2}[\exp(\sqrt{p^2+m_e^2}/T_\gamma)+1]}\,dp.$$
+
+$$\rho_\gamma=\pi^2T_\gamma^4/15,\quad
+\rho_\nu=(7/8)(2N_{\rm eff})\pi^2T_\nu^4/30,\quad
+s_{\rm em}=(\rho_{\rm em}+p_{\rm em})/T_\gamma,$$
+$$H=\frac{\sqrt{8\pi\rho_{\rm tot}/3}}{M_{\rm Pl}\hbar},\quad
+\dot T_\gamma=-\frac{3H(\rho_{\rm em}+p_{\rm em})}{d\rho_{\rm em}/dT_\gamma},\quad
+T_\nu\propto a^{-1}.$$
+
+
+Use the relativistic instantaneous-decoupling entropy branch for the neutrino
+temperature ratio. N_eff=3.044 is an effective energy input, not a collision-
+integral result. At each event, add record heat to the electromagnetic energy
+density and solve for the new photon/electron temperature. Keep the paired
+reservoir debit and matter credit in the same event. This differs from simply
+adding an always-radiative J/a^4 term when electrons become nonrelativistic.
+
+| Photon T (MeV) | Elapsed seconds | Relative scale factor | Neutrino T (MeV) |
+|---|---:|---:|---:|
+| 1 | 0.504589442 | 1.76555227 | 0.994069083 |
+| 0.5 | 2.82571512 | 3.59202382 | 0.488605035 |
+| 0.1 | 118.621328 | 22.9948678 | 0.0763248972 |
+| 0.05 | 528.985866 | 49.0916558 | 0.0357511046 |
+
+
+Times are elapsed from the pulse start, not cosmic age. Keeping initial
+H=2.09590521352 /s gives T_initial=1.75848508951 MeV.
+Assuming no later non-standard photon entropy production, today's photon
+temperature implies a_initial=9.55163454815e-11, about
+4.48365% below the old 1e-10. Thus the old
+clock, physical scale and particle content cannot all remain fixed while merely
+attaching a MeV label. This identifies a physical normalization revision.
+
+\newpage
+
+## Conservation, reproduction and integration boundary
+
+Maximum total energy-plus-pressure-work error is
+1.02816e-10. Reconstructing a small event heat increment
+from actual rounded temperatures gives a per-packet relative residual of
+4.84538e-07. These use different normalizations; the
+latter includes subtractive roundoff of a tiny injection into a large thermal
+bath and is not the v0.5 algebraic ledger residual. The largest refinement
+change in the reported key thermal quantities is
+1.47619e-10. Record heat increases electromagnetic
+comoving entropy. No complete microscopic total-universe entropy proof is claimed.
+
+All 64 retained matched modes have nonzero matter velocity and 13 saved
+neutrino multipoles per mode. The current CAMB runs use adiabatic initial
+conditions, not these states. The complete-injection label is therefore blocked.
+Necessary subsequent work is concrete:
+
+1. Transform the complete state to CAMB variables and the CDM reference frame.
+2. Complete baryon/photon tight coupling and massive-neutrino states on the same background.
+3. Propagate the thermal scale revision into finite k and conserved event-time junctions.
+4. Fix the angular/statistical completion of the finite spatial seed, then inject all states.
+5. Apply this likelihood to that result and extend to joint CMB/BAO/BBN posteriors.
+
+Weak decoupling rates, flavor transport, the nuclear reaction network and BBN
+abundances are not computed here. Calibration with verified inputs is valid;
+calibration choices and outputs after fixing those choices must remain distinct.
+
+Acknowledgments/references: NASA LAMBDA, SPT and Planck; Simard et al.,
+arXiv:1712.07541; Omori et al., arXiv:1705.00743; CAMB; Mead et al.,
+arXiv:2009.01858; Anthony Lewis's CosmoMC likelihood format; PDG 2025
+Big-Bang Cosmology, https://pdg.lbl.gov/2025/reviews/rpp2025-rev-bbang-cosmology.pdf.
+Exact data URLs, code versions and SHA256 values are fixed in PROVENANCE.json.
+
+\newpage
+
+## Numerical diagnostics
+
+![Released bandpowers and conditional predictions, nonlinear corrections, MeV temperature history and thermal degrees of freedom.](observation_diagnostics.png)
+
+The lensing panel uses the WRRA background plus the calibrated adiabatic
+completion. Thermal history is a separate local event module. These figures
+do not assert a common full-state injection between the two modules.

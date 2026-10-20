@@ -1,0 +1,5 @@
+numpy==2.3.5
+scipy==1.17.0
+camb==2.0.4
+getdist==1.7.7
+six==1.17.0

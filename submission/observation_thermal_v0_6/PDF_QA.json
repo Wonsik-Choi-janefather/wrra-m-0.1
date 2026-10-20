@@ -1,0 +1,25 @@
+{
+  "WRRA_Observation_Thermal_v0_6_EN.pdf": {
+    "pages": 5,
+    "text_characters": [
+      2065,
+      1815,
+      1698,
+      1936,
+      380
+    ],
+    "replacement_characters": 0
+  },
+  "WRRA_Observation_Thermal_v0_6_KO.pdf": {
+    "pages": 5,
+    "text_characters": [
+      955,
+      1007,
+      982,
+      965,
+      132
+    ],
+    "replacement_characters": 0
+  },
+  "visual_review": "All ten rendered pages inspected: no clipping, overlap or missing glyphs observed."
+}

@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-20",
+  "original_checks_passed": 54,
+  "supplementary_checks_passed": 8,
+  "checks": {
+    "independent_whitened_chi_square": true,
+    "bin_permutation_invariance": true,
+    "covariance_scaling_identity": true,
+    "normalized_likelihood_determinant": true,
+    "record_heat_first_law_entropy": true,
+    "independent_exact_EOS_scale_anchor": true,
+    "rerun_frozen_scientific_files_exact": true,
+    "full_state_gate_still_blocked": true
+  },
+  "record_entropy_first_law_relative_difference": 1.6930990373920096e-05,
+  "exact_EOS_anchor_relative_difference": 5.366818101038007e-12,
+  "reexecuted_CAMB_and_thermal_pipeline": true,
+  "wall_clock_metadata_note": "results/camb_runs.json retains original timing metadata; results/revalidation_camb_runs.json records the new run. Scientific outputs reproduce exactly.",
+  "scope": "Conditional WRRA-background lensing comparison and separate MeV packet thermal completion. No full-state injection or joint posterior claimed."
+}

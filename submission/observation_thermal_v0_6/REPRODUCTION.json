@@ -1,0 +1,139 @@
+{
+  "clean_folder_reproduction": true,
+  "exact_scientific_text_outputs": {
+    "audit.json": true,
+    "lensing_likelihood.json": true,
+    "thermal.json": true,
+    "thermal_history.csv": true,
+    "thermal_events.json": true,
+    "full_state_gate.json": true
+  },
+  "array_comparisons": {
+    "nonlinear_refined.npz": {
+      "ell": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "lensed": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "unlensed": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "clpp": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "clpT": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "clpE": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      }
+    },
+    "linear.npz": {
+      "ell": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "lensed": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "unlensed": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "clpp": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "clpT": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "clpE": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      }
+    },
+    "nonlinear.npz": {
+      "ell": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "lensed": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "unlensed": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "clpp": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "clpT": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "clpE": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      }
+    },
+    "unweighted_nonlinear.npz": {
+      "ell": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "lensed": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "unlensed": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "clpp": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "clpT": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "clpE": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      }
+    },
+    "lensing_band_predictions.npz": {
+      "L": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "data": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "covariance": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "names": {
+        "exact": true
+      },
+      "predictions": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      }
+    }
+  },
+  "timing_metadata_excluded": true
+}

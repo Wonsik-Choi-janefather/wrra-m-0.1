@@ -1,0 +1,58 @@
+[
+  {
+    "name": "linear",
+    "branch": "dark_weight_only",
+    "nonlinear": false,
+    "accuracy": 1.0,
+    "seconds": 1.8355679512023926,
+    "camb_version": "2.0.4",
+    "scalar_initial_condition": "initial_adiabatic",
+    "As": 2.1e-09,
+    "ns": 0.9649,
+    "completion": "calibrated adiabatic power law",
+    "full_v04_state_injected": false,
+    "finite_v05_events_injected": false
+  },
+  {
+    "name": "nonlinear",
+    "branch": "dark_weight_only",
+    "nonlinear": true,
+    "accuracy": 1.0,
+    "seconds": 1.9702706336975098,
+    "camb_version": "2.0.4",
+    "scalar_initial_condition": "initial_adiabatic",
+    "As": 2.1e-09,
+    "ns": 0.9649,
+    "completion": "calibrated adiabatic power law",
+    "full_v04_state_injected": false,
+    "finite_v05_events_injected": false
+  },
+  {
+    "name": "unweighted_nonlinear",
+    "branch": "unweighted",
+    "nonlinear": true,
+    "accuracy": 1.0,
+    "seconds": 2.0062596797943115,
+    "camb_version": "2.0.4",
+    "scalar_initial_condition": "initial_adiabatic",
+    "As": 2.1e-09,
+    "ns": 0.9649,
+    "completion": "calibrated adiabatic power law",
+    "full_v04_state_injected": false,
+    "finite_v05_events_injected": false
+  },
+  {
+    "name": "nonlinear_refined",
+    "branch": "dark_weight_only",
+    "nonlinear": true,
+    "accuracy": 1.5,
+    "seconds": 5.837064981460571,
+    "camb_version": "2.0.4",
+    "scalar_initial_condition": "initial_adiabatic",
+    "As": 2.1e-09,
+    "ns": 0.9649,
+    "completion": "calibrated adiabatic power law",
+    "full_v04_state_injected": false,
+    "finite_v05_events_injected": false
+  }
+]
