@@ -1,0 +1,160 @@
+{
+  "version": "r5",
+  "status": "PASS_WITH_DECLARED_REVERSE_DESIGN_INPUTS",
+  "constants": {
+    "c": 299792458.0,
+    "G": 6.6743e-11,
+    "h": 6.62607015e-34,
+    "k_B": 1.380649e-23,
+    "source": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt"
+  },
+  "geometry": {
+    "metric_input": "Schwarzschild / ingoing Painleve-Gullstrand",
+    "Ricci_tensor_all_16_entries_zero": true,
+    "Kretschmann_dimensionless": "12/x**6",
+    "Kretschmann_SI": "12*rs^2/r^6",
+    "PG_radial_determinant": -1,
+    "PG_radial_null_equation_verified": true,
+    "symbolic_nonzero_Riemann_components": 24
+  },
+  "mass_inputs_kg": [
+    1e+20,
+    1e+25,
+    1e+30,
+    1e+35,
+    1e+40
+  ],
+  "radial_positions_per_mass": 121,
+  "radial_null_checks": 1210,
+  "max_normalized_null_residual": 1.9918055267161347e-16,
+  "first_law_checks": 5,
+  "first_law_max_relative_error": 2.220446049250313e-16,
+  "positive_energy_absorption_checks": 25,
+  "absorption_max_relative_energy_error": 2.0515658347641349e-16,
+  "quantum_ownership_cases": 200,
+  "external_reference_state_max_error": 1.122535987044647e-16,
+  "quantum_energy_max_error_in_declared_units": 0.0,
+  "merger_budget_cases": 9,
+  "merger_examples": [
+    {
+      "ratio": 0.01,
+      "declared_radiated_fraction": 0.0,
+      "final_mass_kg": 1.01e+30
+    },
+    {
+      "ratio": 0.01,
+      "declared_radiated_fraction": 0.0024628715965191728,
+      "final_mass_kg": 1.0075124996875157e+30
+    },
+    {
+      "ratio": 0.01,
+      "declared_radiated_fraction": 0.0049257431930383455,
+      "final_mass_kg": 1.0050249993750313e+30
+    },
+    {
+      "ratio": 0.1,
+      "declared_radiated_fraction": 0.0,
+      "final_mass_kg": 1.1e+30
+    },
+    {
+      "ratio": 0.1,
+      "declared_radiated_fraction": 0.0215937358836161,
+      "final_mass_kg": 1.0762468905280223e+30
+    },
+    {
+      "ratio": 0.1,
+      "declared_radiated_fraction": 0.0431874717672322,
+      "final_mass_kg": 1.0524937810560445e+30
+    },
+    {
+      "ratio": 1.0,
+      "declared_radiated_fraction": 0.0,
+      "final_mass_kg": 2e+30
+    },
+    {
+      "ratio": 1.0,
+      "declared_radiated_fraction": 0.0732233047033631,
+      "final_mass_kg": 1.853553390593274e+30
+    },
+    {
+      "ratio": 1.0,
+      "declared_radiated_fraction": 0.1464466094067262,
+      "final_mass_kg": 1.7071067811865475e+30
+    }
+  ],
+  "rejected_controls": {
+    "zero_mass": true,
+    "negative_mass": true,
+    "negative_absorbed_energy": true,
+    "central_singularity_signal": true,
+    "escape_from_inside_rejected": true,
+    "outward_horizon_signal_rejected": true,
+    "area_decreasing_equal_mass_merger": true
+  },
+  "mass_examples": [
+    {
+      "M_kg": 1e+20,
+      "energy_J": 8.987551787368176e+36,
+      "rs_m": 1.485232053823733e-07,
+      "area_m2": 2.7720336055560387e-13,
+      "entropy_J_K": 3.6627055485334256e+33,
+      "temperature_K": 1226.9006705940171,
+      "entropy_bits": 3.8273066732425573e+56
+    },
+    {
+      "M_kg": 1e+25,
+      "energy_J": 8.987551787368178e+41,
+      "rs_m": 0.014852320538237332,
+      "area_m2": 0.0027720336055560395,
+      "entropy_J_K": 3.6627055485334267e+43,
+      "temperature_K": 0.01226900670594017,
+      "entropy_bits": 3.827306673242558e+66
+    },
+    {
+      "M_kg": 1e+30,
+      "energy_J": 8.987551787368176e+46,
+      "rs_m": 1485.232053823733,
+      "area_m2": 27720336.055560384,
+      "entropy_J_K": 3.662705548533425e+53,
+      "temperature_K": 1.226900670594017e-07,
+      "entropy_bits": 3.827306673242557e+76
+    },
+    {
+      "M_kg": 1e+35,
+      "energy_J": 8.987551787368176e+51,
+      "rs_m": 148523205.38237327,
+      "area_m2": 2.7720336055560378e+17,
+      "entropy_J_K": 3.662705548533424e+63,
+      "temperature_K": 1.2269006705940172e-12,
+      "entropy_bits": 3.8273066732425556e+86
+    },
+    {
+      "M_kg": 1e+40,
+      "energy_J": 8.987551787368177e+56,
+      "rs_m": 14852320538237.33,
+      "area_m2": 2.7720336055560394e+27,
+      "entropy_J_K": 3.662705548533427e+73,
+      "temperature_K": 1.226900670594017e-17,
+      "entropy_bits": 3.827306673242559e+96
+    }
+  ],
+  "observer_scope": "external causal access closes; local infalling matter is not universally annihilated at horizon",
+  "finite_universe_scope": "finite local patch; global cosmological matching and global event horizon not solved",
+  "adopted_relations": [
+    "Schwarzschild/PG GR metric",
+    "Bekenstein-Hawking area entropy",
+    "Hawking temperature"
+  ],
+  "not_claimed": [
+    "contact geometry uniquely derives metric",
+    "microscopic entropy state counting",
+    "Hawking spectrum or greybody dynamics derived",
+    "complete quantum information recovery from radiation",
+    "stationary patch solves rotating collapse or compact cosmological embedding"
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "sympy": "1.14.0"
+  }
+}

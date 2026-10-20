@@ -1,20 +1,30 @@
-# MCC 3.0 v0.25-r4 - reverse-engineered physical interpreter
+# MCC 3.0 v0.25-r5 - integrated reverse-design review
 
 Wonsik Choi and Jeongin Choi, 20 October 2026.
 
-This r4 revision declares reverse-engineering a physical interpreter as the research purpose before the artistic opening. Section 135.17 implements code 9 under two frozen electron/positron and muon/antimuon profiles with NIST observed masses as inputs. It executes 288 readout/conservation cases and six rejecting controls. A uniquely necessary arithmetic derivation is not the completion criterion. Input constants are not counted as newly derived masses. See renderer_r4/reverse_interpreter.py and its inputs/results.
- Both full books integrate standalone paper v1.4 into Chapter 135.1-16 and add connections in Chapters 3.1, 8.2, 13, 75, 112, 117 and 133, plus the current synthesis.
+This full-book revision integrates Sections 135.18-22: two-resolution measurement, finite upstream exchange, initial bulk matter preparation with finite boundaryless topology and twist, a criterion for simpler designs, and a local black-hole geometry/thermodynamics/ownership module. Item 6, the dynamics connecting an initial mean preparation to one individual universe, stays OPEN. Earlier composition, shutter and GR/CMB baseline numbers are retained.
 
-The Big Bang renderer is a submodel within existing expansion, cooling and thermal history. Topmost/intermediate pseudo-prime exchange and intermediate/phenotype singly even exchange are separate interfaces. Arithmetic splitting has no compositeness restriction; actual massive output remains admission-gated. The 2.5 label names a transition role, not physical fractional dimension. Baseline No Extra Asymmetry Register and an independent initial-sign alternative are explicitly separate branches.
+Known constants and structures are disclosed construction inputs. Reproduction is a compatibility and explanatory achievement; independent predictions are additional achievements. Assessment order: verified inputs -> WRRA transformation -> outputs -> falsification conditions.
 
-Verified inputs -> WRRA transformation -> outputs -> falsification conditions remain the reading order. Executed scope: 500 singly even parents / 2,000 placements and the existing 630 local Lorentz kinematic cases. Existing clock, GR and CMB numerical outputs are retained. New pseudo-prime mapping, Big Bang boundary and black-hole interface contact remain structural specifications rather than executed microscopic dynamics. Molecular chirality is excluded.
+## Executed scope
 
-## Releases and reproducibility
+- Retained code-9 electron/muon interpreter: 288 cases; earlier Lorentz audit: 630 cases.
+- Two-resolution measurement: 361 phase values, 1,000 nonselective channels, 4,000 spacelike branch-order comparisons, and 202 proper-interval checks.
+- Upstream exchange: 1,015,000 address inverses, 2,029,998 ownership moves and 18 rejecting controls. Classification and weights remain functions of the original address.
+- Black-hole bridge: symbolic vacuum Ricci/curvature calculation, 1,210 radial null checks, 25 absorption budgets, 200 energy-preserving information-transfer cases, nine merger-area budgets and seven rejecting controls.
 
-- [Full-book v0.25-r4, published and verified](https://zenodo.org/records/23486923), DOI 10.5281/zenodo.23486923. Korean PDF: 245 pages; English PDF: 271 pages.
-- [Standalone bilingual paper v1.4](https://zenodo.org/records/23486379).
-- [Paper sources, figures, arithmetic and Lorentz code](../../submission/bidirectional_phenotype_renderer_v1_4/).
-- [Integration record and r2-to-r3 patches](renderer_r3/).
-- Prior full-book r2: https://zenodo.org/records/23462544.
+The black-hole module adopts local stationary Schwarzschild/PG geometry and Bekenstein-Hawking/Hawking relations. Phenotype release closes external causal access; it does not universally annihilate local infalling matter or delete gravitating mass. Global compact-cosmology matching, microscopic counting and evaporation dynamics are not supplied by this finite module.
 
-Zenodo carries full-book manuscripts and PDFs. Data and reproduction code are supplied through GitHub links; no data archive is uploaded to Zenodo. The historical appendix and preceding numerical inputs/results remain unchanged. Build both full PDFs with `sh renderer_r3/render.sh` from this directory.
+The matter-prepared initial condition is the current branch; the historical No Extra Asymmetry Register origin-generation requirement is a separate stricter branch. Initial topology does not uniquely fix the twist distribution. The Planck registration/refinement floor remains conditional. No better simpler composition design is demonstrated by this revision, so the earlier composition inputs remain unchanged.
+
+## Releases and reproduction
+
+- [Book v0.25-r5 release target](https://doi.org/10.5281/zenodo.23488205): Korean 248 pages, English 275 pages.
+- [Prior full book v0.25-r4](https://zenodo.org/records/23486923).
+- [Two-resolution standalone paper v1.5](https://zenodo.org/records/23487366).
+- [Upstream-exchange standalone paper v0.1](https://zenodo.org/records/23487587).
+- [Current integration code, source sections and checks](review_r5/).
+
+Run `python3 black_hole_bridge.py` from review_r5 with NumPy and SymPy, `python3 audit.py` in two_resolution, and `python3 exchange.py` in upstream_exchange. The integration preserves the two published scripts/results byte-for-byte. Reproduction input provenance and per-module scope are recorded in JSON. Build the full PDFs from this directory with `sh review_r5/render.sh`.
+
+Zenodo receives both complete source manuscripts and PDFs. Code and data are supplied through GitHub links only, without a data archive on Zenodo. PUBLICATION_STATUS.json records verified publication state after release; a reserved DOI alone is not publication.
