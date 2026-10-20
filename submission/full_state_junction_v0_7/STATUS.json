@@ -1,0 +1,23 @@
+{
+  "version": "0.7-dev-r1",
+  "publication_status": "Published",
+  "zenodo_url": "https://zenodo.org/records/23492328",
+  "doi": "10.5281/zenodo.23492328",
+  "access": "Open",
+  "date": "2026-10-20",
+  "zenodo_files": [
+    "WRRA_Full_State_Development_v0_7_r1_EN.pdf",
+    "WRRA_Full_State_Development_v0_7_r1_KO.pdf"
+  ],
+  "science_commit": "9916b874b9acebff15a469b2ef65d03acd14ff3b",
+  "github_path": "submission/full_state_junction_v0_7",
+  "original_checks": 472,
+  "additional_checks": 10,
+  "remote_science_files_verified": 33,
+  "all_remote_sha256_match": true,
+  "full_state_injected": false,
+  "new_CMB_spectrum": false,
+  "new_lensing_likelihood": false,
+  "scope": "Partial development: conserving 64-mode frame adapter, stable metric combination, local finite-event thermal tangent and background recalibration.",
+  "build_metadata_note": "PROVENANCE.publication_state records the prepublication build stage; this STATUS and PUBLICATION_VERIFICATION record the subsequently verified publication."
+}

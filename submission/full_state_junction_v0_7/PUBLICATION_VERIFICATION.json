@@ -1,0 +1,203 @@
+{
+  "version": "0.7-dev-r1",
+  "zenodo": {
+    "url": "https://zenodo.org/records/23492328",
+    "doi": "10.5281/zenodo.23492328",
+    "published": true,
+    "open": true,
+    "only_KO_EN_PDFs": true,
+    "files": {
+      "WRRA_Full_State_Development_v0_7_r1_EN.pdf": {
+        "bytes": 46007,
+        "md5": "6893e7c89e52d85486fab76cdf9a9e4d",
+        "sha256": "de97e85211acb8a571a3d22f4beb2e39f126bcb35e25beccb8b87e04c30e80cc"
+      },
+      "WRRA_Full_State_Development_v0_7_r1_KO.pdf": {
+        "bytes": 71630,
+        "md5": "f2e13ffebaf7a1df43c1b58176cf42d1",
+        "sha256": "a47b5fc01e4467e332506581f8e276e3ff88cac9be8cca715287051654cb9aaf"
+      }
+    },
+    "md5_matches_visible_public_record": true
+  },
+  "github": {
+    "science_commit": "9916b874b9acebff15a469b2ef65d03acd14ff3b",
+    "tree": "3cd67ab7f92c26d8a17f6530a0c0a7db5cd010ed",
+    "remote_sha256_verified": [
+      {
+        "path": "ORIGINAL_FROZEN_SHA256SUMS.json",
+        "sha256": "74def0c29f72e329469dc5e6e4da73e5ce90007b38eecd50c19362a076c4870c",
+        "match": true
+      },
+      {
+        "path": "PDF_QA.json",
+        "sha256": "3ed89668a9ef6ad9644f95599908e937b69c5ab6b77d461dd422d979cbb63fa0",
+        "match": true
+      },
+      {
+        "path": "PROVENANCE.json",
+        "sha256": "67aac9889b6320693637b251988ade50b761a38b826d2f0b830e56a9a2a7aaa5",
+        "match": true
+      },
+      {
+        "path": "README.txt",
+        "sha256": "297fb01f666c873ca400527039c9dbdf42fd9130b1c82bd1387265e6298a1c13",
+        "match": true
+      },
+      {
+        "path": "REPRODUCTION.json",
+        "sha256": "a767e74e3270eff48467a86ad7b225a089f53bb855767336e2e58b1fce8764d0",
+        "match": true
+      },
+      {
+        "path": "REVALIDATION.json",
+        "sha256": "a5ac39af5826af3491e42ab14fd3e9c866bc4cfaf0f14c8495dd577f720812c5",
+        "match": true
+      },
+      {
+        "path": "SHA256SUMS.json",
+        "sha256": "2f4d60e07e6c860cc6b5185db0ccf0c5af47be9ba9116450c0d7274a1aa8e0b4",
+        "match": true
+      },
+      {
+        "path": "WRRA_Full_State_Development_v0_7_r1_EN.md",
+        "sha256": "f2aed368c154459a05ea380acdc53ef40dbb361af337d8dfa66171b15d6eb4a8",
+        "match": true
+      },
+      {
+        "path": "WRRA_Full_State_Development_v0_7_r1_EN.pdf",
+        "sha256": "de97e85211acb8a571a3d22f4beb2e39f126bcb35e25beccb8b87e04c30e80cc",
+        "match": true
+      },
+      {
+        "path": "WRRA_Full_State_Development_v0_7_r1_KO.md",
+        "sha256": "93ecca3c9ecbe94b9184cf0bd8915732f7cb1fe9f8d7ca52366636ac02966fbd",
+        "match": true
+      },
+      {
+        "path": "WRRA_Full_State_Development_v0_7_r1_KO.pdf",
+        "sha256": "a47b5fc01e4467e332506581f8e276e3ff88cac9be8cca715287051654cb9aaf",
+        "match": true
+      },
+      {
+        "path": "event_tangent.py",
+        "sha256": "2cd7365a518f6dbe59a36e8003c63ae4161b8d7fbc7e086fb142d8d5f6df8761",
+        "match": true
+      },
+      {
+        "path": "inputs/address_results.json",
+        "sha256": "0d18277fa14bd8cc158e70254ca3cc448cbeb3c6832d9019cc94350884a6dfeb",
+        "match": true
+      },
+      {
+        "path": "inputs/all_64_transition_responses.npz",
+        "sha256": "95bc454ddbe780ae98e3ff485f96c6cacc24e8da2ff18406c5cbf0fe04e9bf53",
+        "match": true
+      },
+      {
+        "path": "inputs/dynamics_results.json",
+        "sha256": "e282a086af15d0d3b8b24710ff8079d0d11f8c86c231e5137812a19bb6403e99",
+        "match": true
+      },
+      {
+        "path": "inputs/matching_states.json",
+        "sha256": "48f2df956d59b9f94ccc1fabbfa9aa14a2b4e1ce3ca61e52d2ac9ff36321fe16",
+        "match": true
+      },
+      {
+        "path": "inputs/quantized_seed.npz",
+        "sha256": "8a4e37b0233d509412ad6464066242eb1c491d6e310312cfa62c82ea52d8d145",
+        "match": true
+      },
+      {
+        "path": "inputs/v04_audit.json",
+        "sha256": "20b5002ce5a4b5c4b6df2468aec89f6f10237745f682ae25298593ed277342a4",
+        "match": true
+      },
+      {
+        "path": "inputs/v06_thermal.json",
+        "sha256": "3eb55f3afd8932842ae71d19c0d9e72633f7a1d70a01cfdf6d368a2c0be8ed8a",
+        "match": true
+      },
+      {
+        "path": "make_reports.py",
+        "sha256": "71c4c69e53dbca791ab6fbeecae0c4f5b121506ded2bb8a3dca839974d667348",
+        "match": true
+      },
+      {
+        "path": "packet_emission.py",
+        "sha256": "8d6f8db23230c5839844d5a6c9a9f3317a20150d3d3f1c01e2e8ac0fb4127297",
+        "match": true
+      },
+      {
+        "path": "requirements.txt",
+        "sha256": "1668a3152e33680d94637b13421c15e68bd97cd8701f7f555c691f5bc5c0b9f3",
+        "match": true
+      },
+      {
+        "path": "results/audit.json",
+        "sha256": "7a0f8eedc3d556b64e6e5e2ecca6f23fefd771669696ea440020c38a6bbc05ef",
+        "match": true
+      },
+      {
+        "path": "results/cdm_comoving_64_states.json",
+        "sha256": "ebda067e9345a64a4995181cc824950396e9bf6299efaa1188630a061e8e255a",
+        "match": true
+      },
+      {
+        "path": "results/event_tangent.json",
+        "sha256": "029954594613069cd1625062d23e55f09b48d1cb7957e6fc1ceffd87d9b1b287",
+        "match": true
+      },
+      {
+        "path": "results/event_tangent_refined.json",
+        "sha256": "a045ccaf50e909bdc60cc609be300a86a7330f33b8c495ddb26f20bec137bbfc",
+        "match": true
+      },
+      {
+        "path": "results/full_state_gate.json",
+        "sha256": "5afb92e9f9a54bf92fa67a3ced144cdc52ba75aa4a2b62daf580f20fdcc7d67c",
+        "match": true
+      },
+      {
+        "path": "results/local_seed_tangent.npz",
+        "sha256": "711decff308da25dd7e0c51639caf9676b252adcc8d309aea0d71c572bac80e8",
+        "match": true
+      },
+      {
+        "path": "revalidate_release.py",
+        "sha256": "c15db9ff8ca1d939b03d789b174277be3d8a131e185090c283bbaa6eb8b618ac",
+        "match": true
+      },
+      {
+        "path": "run_all.py",
+        "sha256": "5568370171ffd9101758496744a269536a6adecbb31ff897320da93c24533ec3",
+        "match": true
+      },
+      {
+        "path": "run_checks.py",
+        "sha256": "65bbff2bacb084f7810f5623d1a42a2e88343d7e37ee1bae04df9fed7dc91f31",
+        "match": true
+      },
+      {
+        "path": "state_adapter.py",
+        "sha256": "8b328045cd3e646cd1798b0b9c92b54ad2a4f0160eb077dfae8ce634cf7591ca",
+        "match": true
+      },
+      {
+        "path": "thermal_history.py",
+        "sha256": "6ba1ef13d677d001dfbc6ff40b66b616ac0ab69571e5c06bc3aa1d3d2d3bda1c",
+        "match": true
+      }
+    ]
+  },
+  "verification": {
+    "base_checks": 472,
+    "supplementary": 10,
+    "clean_scientific_reproduction": true,
+    "numerical_correction": "Retain hprime+6etaprime directly; rounded derivative reconstruction is an explicit negative control.",
+    "Bardeen_Phi_max_relative_difference": 4.344524376629848e-12,
+    "full_state_complete": false
+  },
+  "proof_screenshot": "zenodo_v07_r1_published_20261020.jpg"
+}
