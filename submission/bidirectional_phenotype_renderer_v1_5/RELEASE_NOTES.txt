@@ -1,0 +1,12 @@
+WRRA bidirectional phenotype renderer v1.5 | 2026-10-20
+Authors: Wonsik Choi and Jeongin Choi
+DOI reserved: 10.5281/zenodo.23487366
+
+Adds an engineering reverse-design declaration and bilingual two-resolution compatibility audit to the complete v1.4 manuscript.
+Retains the conditional shutter period and source/conjugate rules. Adds a conditional Planck proper-time floor, local measurement records, phase/joint-state preservation, and no-signalling/order constraints.
+
+Reproduce: python3 audit.py (NumPy required; environment recorded). Results: results.json.
+The Born/instrument rules are disclosed adopted inputs. Finite interference, Bell and special-relativistic compatibility do not empirically establish the Planck floor or integrate general relativity.
+
+Zenodo receives only the Korean and English manuscript PDFs. Code and data are delivered through this GitHub directory.
+Related book remains v0.25-r4; no new book edition or GitBook update is claimed.
