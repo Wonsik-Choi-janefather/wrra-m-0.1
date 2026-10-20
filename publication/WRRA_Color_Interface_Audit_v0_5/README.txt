@@ -12,3 +12,6 @@ Existing public executable code is pinned in the manuscript; final v0.5 PDF is i
 
 Four additional source-dependency checks: python3 dependency_audit.py.
 The physical calculation and original 36-check suite are unchanged.
+
+Immutable archive of the exact v0.5 PDF and RELEASE.json:
+https://github.com/Wonsik-Choi-janefather/wrra-m-0.1/tree/7c9f851622499613ceb3ff4b2e1495bf2d7fa15e/publication/WRRA_Color_Interface_Audit_v0_5
