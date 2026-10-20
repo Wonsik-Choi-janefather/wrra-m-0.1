@@ -1,0 +1,13 @@
+{
+  "book_version": "0.26",
+  "date": "2026-10-20",
+  "zenodo_status": "DOI reserved; final publication pending",
+  "zenodo_book_doi": "10.5281/zenodo.23492729",
+  "zenodo_book_url": "https://zenodo.org/records/23492729",
+  "previous_book_url": "https://zenodo.org/records/23488205",
+  "pdf_pages": {
+    "KO": 251,
+    "EN": 279
+  },
+  "full_state_CAMB_injection": false
+}

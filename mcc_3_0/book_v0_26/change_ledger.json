@@ -1,0 +1,16 @@
+{
+  "version": "0.26",
+  "previous": "0.25-r5",
+  "additions": [
+    "Chapter 136 KO/EN",
+    "Current synthesis and reading/contents map",
+    "Source links and stable-metric numerical correction"
+  ],
+  "preserved": [
+    "Chapters 1\u2013135 except contents/edition metadata",
+    "Artistic opening",
+    "Appendix G",
+    "Prior evidence and images"
+  ],
+  "no_new_physical_calculation_claim": true
+}

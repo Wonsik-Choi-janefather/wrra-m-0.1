@@ -1,0 +1,42 @@
+{
+  "book_version": "0.26",
+  "previous": "0.25-r5",
+  "sources": {
+    "KO": {
+      "source_library_file": "libfile_c87d6e336cb88191aff11b4e987a21c3",
+      "source_sha256": "628f00a2efae663270043ac91f9dc0b3541b87cb737f7e348099a037b85ddc58",
+      "new_sha256": "f8549dbbf665d0b828a98a9087c7f930c9d75d6c944b7f9f67c1f81e7e61ab19",
+      "source_bytes": 698030,
+      "new_bytes": 712503,
+      "chapter_added": 136,
+      "prior_chapters_preserved": true,
+      "artistic_opening_preserved": true,
+      "historical_appendix_preserved": true
+    },
+    "EN": {
+      "source_library_file": "libfile_4ea8a327688c8191a6c9e7941687d3bc",
+      "source_sha256": "b1bb875562420c8ba8a85ee72064edbaea5bd9b796a137a951381eb297bd8d6b",
+      "new_sha256": "0fee4fd3bcae4130086b0b07159490935c28eeb9b33ce458fe2c40ca2efad76b",
+      "source_bytes": 664102,
+      "new_bytes": 678561,
+      "chapter_added": 136,
+      "prior_chapters_preserved": true,
+      "artistic_opening_preserved": true,
+      "historical_appendix_preserved": true
+    }
+  },
+  "new_scientific_run_claimed": false,
+  "new_CMB_full_state_injected": false,
+  "chapter_source_versions": [
+    "0.4",
+    "0.5",
+    "0.6",
+    "0.7-dev-r1"
+  ],
+  "evaluation_order": [
+    "verified inputs",
+    "WRRA transformation",
+    "outputs",
+    "falsification conditions"
+  ]
+}
