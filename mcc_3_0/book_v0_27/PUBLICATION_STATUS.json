@@ -5,7 +5,7 @@
   "baseline": "Book v0.27, DOI 10.5281/zenodo.23511592",
   "baseline_commit": "4738c9662040d3330c022927b3a35330e398effa",
   "zenodo_reserved_doi": "10.5281/zenodo.23516661",
-  "state": "publication pending",
+  "state": "Published and verified on GitBook EN/KO, GitHub and Zenodo",
   "new_scientific_run": false,
   "changes": [
     "Chapter 38 construction summary",
@@ -51,5 +51,14 @@
         288
       ]
     }
+  },
+  "zenodo_doi": "10.5281/zenodo.23516661",
+  "zenodo_url": "https://zenodo.org/records/23516661",
+  "zenodo_files": "Only complete KO/EN PDFs; displayed MD5 matches local files",
+  "source_commit": "7fcf59440908d3c4cda66dddad33c4ff64576611",
+  "remote_files_byte_verified": 22,
+  "gitbook_revisions": {
+    "EN": "ZKq5mSvrASyZO1o9IwdH",
+    "KO": "yASDivBsljDA0ahkuCyx"
   }
 }

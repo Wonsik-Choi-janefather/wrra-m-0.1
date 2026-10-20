@@ -4,7 +4,7 @@ Current full sources: MCC_3_0_Full_Book_KO_v0.27-r1.md and MCC_3_0_Full_Book_EN_
 
 Editorial additions: Chapter 38 SOURCE construction summary, playback clarification and Appendix H (core claim tests/OPEN register, module boundaries and bilingual glossary with scoped symbols). All existing 138 chapters and numerical outputs are retained. No new scientific run. Exact inverse removal of the additions restores full v0.27 in both languages.
 
-Full PDFs are supplied on Zenodo only; code/data and editorial provenance remain on GitHub. See PUBLICATION_STATUS.json for verified publication state.
+Published full PDFs: https://zenodo.org/records/23516661 (KO 259 pages, EN 289 pages). Full PDFs are supplied on Zenodo only; code/data and editorial provenance remain on GitHub. See PUBLICATION_STATUS.json for verified publication state.
 
 Previous v0.27: https://zenodo.org/records/23511592
 GitBook KO: https://independent-research.gitbook.io/minimal-computing-cosmology-3.0/korean-edition/
