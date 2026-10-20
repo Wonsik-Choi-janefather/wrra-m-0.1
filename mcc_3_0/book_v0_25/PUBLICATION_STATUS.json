@@ -1,8 +1,8 @@
 {
-  "book_version": "0.25-r3",
+  "book_version": "0.25-r4",
   "paper_version": "1.4",
   "date": "2026-10-20",
-  "github": "published; exact blob hashes verified",
+  "github": "published; content checks verified",
   "zenodo": "published and verified",
   "clock_seconds": "1.4813019664158633E-21",
   "clock_hz": "675081801463874013567.1220205035033788990",
@@ -10,15 +10,15 @@
   "conjugate_output_delay_clocks": 1,
   "molecular_chirality": "excluded",
   "supersedes": "v1.0 and v1.1 specifications",
-  "github_content_commit": "50fcf423a83fc67ba91cc423548286a7c2e86a60",
-  "zenodo_book_doi": "10.5281/zenodo.23486483",
-  "zenodo_book_url": "https://zenodo.org/records/23486483",
+  "github_content_commit": "45a579d331873ad9f17ac64d6a42c133dfe57109",
+  "zenodo_book_doi": "10.5281/zenodo.23486923",
+  "zenodo_book_url": "https://zenodo.org/records/23486923",
   "zenodo_paper_doi": "10.5281/zenodo.23486379",
   "zenodo_paper_url": "https://zenodo.org/records/23486379",
   "data_delivery": "GitHub links only on Zenodo; no data archive uploaded",
-  "book_pdf_ko_pages": 244,
-  "book_pdf_en_pages": 268,
-  "pdf_assembly": "Full bilingual source re-render, Chapter 135.1-16 integrated and cross-references in Chapters 3.1,8.2,13,75,112,117,133 plus current synthesis",
+  "book_pdf_ko_pages": 245,
+  "book_pdf_en_pages": 271,
+  "pdf_assembly": "Full source rendered with reverse-engineering declaration before artistic opening and added Section 135.17",
   "revision_language": "Korean and English",
   "lorentz_cases": 630,
   "github_lorentz_commit": "4bf3c699bfbafe4e8f3a5e08d4b6054043eb290d",
@@ -26,5 +26,24 @@
   "singly_even_parents": 500,
   "arithmetic_placements": 2000,
   "zenodo_file_count": 4,
-  "big_bang_scope": "Submodel within existing Big Bang expansion, cooling and thermal history"
+  "big_bang_scope": "Submodel within existing Big Bang expansion, cooling and thermal history",
+  "reverse_interpreter_cases": 288,
+  "reverse_interpreter_rejected_controls": 6,
+  "reverse_interpreter_max_errors": {
+    "mass_shell": 5.633601085576233e-14,
+    "two_stage_conservation": 8.607880799501106e-16,
+    "photon_null": 6.81910242160137e-16,
+    "carrier_conservation": 1.7162577695602828e-15
+  },
+  "research_purpose": "Reverse-engineer an observed-structure interpreter; uniquely necessary arithmetic derivation is not a completion criterion",
+  "gitbook": {
+    "EN": {
+      "space": "Ufq99NCn5Hrmk3TzroMR",
+      "revision": "eM69cDe23Wtx3wLKzx9g"
+    },
+    "KO": {
+      "space": "stpIdG8pZJWuVKm2a6jt",
+      "revision": "jG5JkJxTRa0mSPxeEy3u"
+    }
+  }
 }
