@@ -1,0 +1,32 @@
+uniform zeta
+uniform equally_spaced_forced_open
+uniform shifted_0.5_forced_open
+inherited_alpha zeta
+inherited_alpha equally_spaced_forced_open
+inherited_alpha shifted_0.5_forced_open
+{
+  "checks": 49,
+  "combiner": {
+    "uniform": {
+      "input_energy_dimensionless": 0.3303578039775654,
+      "input_energy_J": 2.3518906846772158e-14,
+      "optimal_pass_probability": 0.04570581637815734,
+      "gram_min_eigenvalue": 0.10390647910680621,
+      "uniform_pass_probability": 0.014262842603785485,
+      "optimal_to_uniform_ratio": 3.2045376681101847,
+      "optimal_band_probability": 0.00909468154185257,
+      "optimal_conditional_energy_keV": 1331.4372381576497
+    },
+    "inherited_alpha": {
+      "input_energy_dimensionless": 2.9994533482968184,
+      "input_energy_J": 2.1353775524740546e-13,
+      "optimal_pass_probability": 0.27475668971365347,
+      "gram_min_eigenvalue": 0.056789956037024435,
+      "uniform_pass_probability": 0.00449484021620266,
+      "optimal_to_uniform_ratio": 61.12713166604482,
+      "optimal_band_probability": 0.07366217942211599,
+      "optimal_conditional_energy_keV": 1340.8216272103928
+    }
+  }
+}
+

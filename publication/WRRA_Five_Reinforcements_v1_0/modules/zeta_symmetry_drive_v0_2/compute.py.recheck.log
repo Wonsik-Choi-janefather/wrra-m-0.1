@@ -1,0 +1,26 @@
+uniform
+inherited_alpha
+{
+  "check_count": 79,
+  "summaries": {
+    "uniform": {
+      "equal_pass": 0.014262842603785485,
+      "fully_dephased_pass": 0.014285714285714285,
+      "band_pass": 0.0032956118242298085,
+      "fully_dephased_band_pass": 0.003808688704108439,
+      "mean_control_potential_MeV": 624.4906529115063,
+      "optimized_contrast_normalized": 0.9761053651781485,
+      "signed_switch_sum_keV": 0.0
+    },
+    "inherited_alpha": {
+      "equal_pass": 0.00449484021620266,
+      "fully_dephased_pass": 0.014285714285714285,
+      "band_pass": 0.001234165633653566,
+      "fully_dephased_band_pass": 0.00384010334535132,
+      "mean_control_potential_MeV": 147.86332572998668,
+      "optimized_contrast_normalized": 0.9996686179269046,
+      "signed_switch_sum_keV": 0.0
+    }
+  }
+}
+

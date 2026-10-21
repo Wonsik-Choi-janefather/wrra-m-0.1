@@ -1,0 +1,26 @@
+{
+  "previous_results.json": {
+    "origin": "wrra/submission/zeta_physical_readout_v0_1/results.json",
+    "sha256": "9b0e6366aab4e86fa7b3f79ab4891d79d263cb767c5e22ee03b97f44f88f68ba"
+  },
+  "previous_compute.py": {
+    "origin": "wrra/submission/zeta_physical_readout_v0_1/compute.py",
+    "sha256": "9f1cec66e7e7397af056a0aecb2ac79a1d26099c2ad437192b36b836d85223dc"
+  },
+  "previous_report_EN.md": {
+    "origin": "wrra/submission/zeta_physical_readout_v0_1/REPORT_EN.md",
+    "sha256": "8d50c73179fc7270d27c24782bd29004e536d6613fdd6e731475867fefe5925e"
+  },
+  "zero_heights.csv": {
+    "origin": "wrra/submission/zeta_physical_readout_v0_1/inputs/zero_heights.csv",
+    "sha256": "5a29be7ea3a8c1e63179233ddd8542af5ebf64295308dd15165f2e0dcd89ce03"
+  },
+  "uniform_combiner.npz": {
+    "origin": "wrra/submission/zeta_physical_readout_v0_1/uniform_combiner.npz",
+    "sha256": "ec4ae318919f7962ad1136f558478c2f0c69d3584ee6566f92a76d00f5a9e1b1"
+  },
+  "inherited_alpha_combiner.npz": {
+    "origin": "wrra/submission/zeta_physical_readout_v0_1/inherited_alpha_combiner.npz",
+    "sha256": "71cac0cb1c635a4d446d9c0c053135f9287c99d0c90ae89a0ff33356fd1cb4fa"
+  }
+}

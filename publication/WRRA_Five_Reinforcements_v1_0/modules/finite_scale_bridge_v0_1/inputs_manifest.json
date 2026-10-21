@@ -1,0 +1,10 @@
+{
+  "original_source_path": "wrra/submission/finite_frame_spatial_bridge_v0_29_1/inputs/positive_profile_and_payload.npz",
+  "original_sha256": "1aa16e3b048b3d54457924584d79793fc6cd28cee5f1880cf337e3ff35e1f602",
+  "source_book": "10.5281/zenodo.23516661",
+  "source_calculation": "10.5281/zenodo.23329214",
+  "files": {
+    "payloads.json": "7db4b80493ac30f218b64c84a7e583b2cba73f7fb5663ab84d40d85bdc2c52b6",
+    "reference_profiles.npz": "efccc06728bcef3680d21274d538e039ee1bf1c53aaf2c258714027c05d15eff"
+  }
+}

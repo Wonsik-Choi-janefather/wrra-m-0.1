@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "method": "Independent staggered finite-volume Poisson receiver, spectral two-potential action variation and fixed-covector metric derivative",
+  "checks": {
+    "independent_volume_flux": true,
+    "independent_second_order_convergence": true,
+    "mixed_action_Phi_variation": true,
+    "mixed_action_PhiN_variation": true,
+    "quadratic_metric_variation": true
+  },
+  "finite_volume": [
+    {
+      "n": 32,
+      "finite_volume_flux_residual": 2.672163400524375e-14,
+      "probe_L2_difference_from_spectral": 0.0015335688069383195,
+      "probe": [
+        1.094768835165468,
+        0.6239551164409689,
+        0.27697010087593776
+      ]
+    },
+    {
+      "n": 64,
+      "finite_volume_flux_residual": 1.0304056663109873e-13,
+      "probe_L2_difference_from_spectral": 0.00038357574755217764,
+      "probe": [
+        1.095553538135941,
+        0.6247456360911248,
+        0.27725611480621537
+      ]
+    },
+    {
+      "n": 128,
+      "finite_volume_flux_residual": 4.2893892015495746e-13,
+      "probe_L2_difference_from_spectral": 9.5905408275906e-05,
+      "probe": [
+        1.095749832525684,
+        0.6249433788150585,
+        0.27732767283713344
+      ]
+    }
+  ],
+  "convergence_orders": [
+    1.9993094870623327,
+    1.999827426789329
+  ],
+  "mixed_action_directional_errors": {
+    "Phi": 1.0237206833117778e-18,
+    "Phi_N": 3.3348268374186474e-11
+  },
+  "metric_variation_error": 2.0302301506625042e-11,
+  "scope": "Internal independent numerical audit; not new observed galaxy data or a complete relativistic action"
+}

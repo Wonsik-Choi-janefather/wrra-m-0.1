@@ -1,0 +1,31 @@
+{
+  "checks": {
+    "rounded_zero_residual": true,
+    "explicit_port_norm": true,
+    "selected_port_formula": true,
+    "full_ports_energy_equals_branch_mixture": true,
+    "inverse_ports_recovers_state": true,
+    "conditional_postselection_not_energy_gain": true,
+    "permutation": true,
+    "height_shift_identity": true,
+    "global_phase_invariance": true,
+    "independent_selected_count": true,
+    "uniform_scipy_pass": true,
+    "uniform_scipy_band": true,
+    "uniform_scipy_energy": true,
+    "uniform_eigen_residual": true,
+    "uniform_variational_bound": true,
+    "inherited_alpha_scipy_pass": true,
+    "inherited_alpha_scipy_band": true,
+    "inherited_alpha_scipy_energy": true,
+    "inherited_alpha_eigen_residual": true,
+    "inherited_alpha_variational_bound": true
+  },
+  "metrics": {
+    "rounded_zero_max_zeta_residual": 6.391492718038196e-14,
+    "uniform_eigen_residual": 1.5140286452930937e-15,
+    "inherited_alpha_eigen_residual": 1.0269186723433515e-14,
+    "explicit_port_energy_error": 0.0
+  },
+  "all_checks_pass": true
+}

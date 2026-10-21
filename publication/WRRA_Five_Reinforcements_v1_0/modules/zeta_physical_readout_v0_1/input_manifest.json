@@ -1,0 +1,23 @@
+{
+  "zero_heights.csv": {
+    "origin": "wrra/mcc_3_0/book_v0_27/evidence/zeta_output_2026_10_16/zeta_superposition_v01/zero_heights.csv",
+    "sha256": "5a29be7ea3a8c1e63179233ddd8542af5ebf64295308dd15165f2e0dcd89ce03"
+  },
+  "original_phase_reproduce.py": {
+    "origin": "wrra/mcc_3_0/book_v0_27/evidence/zeta_output_2026_10_16/zeta_superposition_v01/reproduce.py",
+    "sha256": "71e5810c441654de677f9a8922f0d8468b7ee84a260554c830fa18687aa4284e"
+  },
+  "original_phase_results.json": {
+    "origin": "wrra/mcc_3_0/book_v0_27/evidence/zeta_output_2026_10_16/zeta_superposition_v01/results.json",
+    "sha256": "def226f55528c4fa63ffe19a5532b76fdaa0100a854fbd05ce141c0fc08ebfab"
+  },
+  "original_source_carrier_compute.py": {
+    "origin": "wrra/submission/source_carrier_action_v0_1/compute.py",
+    "sha256": "cb0a2da2b0bd50e8597a2bfa787c5c06cb7059e0c86ea339f164cfde26dda49e"
+  },
+  "book_ch130_134_EN.txt": {
+    "origin": "wrra/mcc_3_0/book_v0_27/MCC_3_0_Full_Book_EN_v0.27-r1.md",
+    "source_line_range": "6941-7570",
+    "sha256": "d0d372ff339ea841a6c4c44cd3f8f23c079d48cb66a394e782c05a6e52f19da1"
+  }
+}

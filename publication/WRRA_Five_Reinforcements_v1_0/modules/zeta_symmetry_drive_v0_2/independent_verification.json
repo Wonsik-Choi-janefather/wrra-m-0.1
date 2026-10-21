@@ -1,0 +1,40 @@
+{
+  "checks": {
+    "ODE_completed": true,
+    "ODE_exact_product_solution": true,
+    "ODE_work_integral": true,
+    "positive_total_H_0": true,
+    "positive_total_H_1": true,
+    "positive_total_H_2": true,
+    "positive_total_H_3": true,
+    "positive_total_H_4": true,
+    "positive_total_H_5": true,
+    "positive_total_H_6": true,
+    "positive_total_H_7": true,
+    "positive_total_H_8": true,
+    "constant_control_expectation": true,
+    "wrapped_endpoint_equivalence": true,
+    "unwrapped_rank_one": true,
+    "wrapped_rank_lower_bound": true,
+    "exact_noise_density": true,
+    "noise_density_positive": true,
+    "uniform_noisy_Gram_0": true,
+    "uniform_noisy_Gram_1": true,
+    "uniform_noisy_Gram_2": true,
+    "uniform_noisy_Gram_3": true,
+    "inherited_alpha_noisy_Gram_0": true,
+    "inherited_alpha_noisy_Gram_1": true,
+    "inherited_alpha_noisy_Gram_2": true,
+    "inherited_alpha_noisy_Gram_3": true
+  },
+  "metrics": {
+    "ODE_state_max_error": 2.7125352893017898e-12,
+    "ODE_work_error": 4.0023540037736893e-14,
+    "control_expectation_max_error": 2.916777930295211e-11,
+    "unwrapped_control_rank": 1,
+    "wrapped_control_rank_on_12_addresses": 12,
+    "wrapped_max_dimensionless": 6.278106244718977,
+    "ODE_evaluations": 3929
+  },
+  "all_checks_pass": true
+}

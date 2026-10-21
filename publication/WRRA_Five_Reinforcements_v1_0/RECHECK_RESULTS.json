@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-21",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "scipy": "1.17.0",
+    "mpmath": "1.4.1"
+  },
+  "modules": [
+    {
+      "module": "finite_scale_bridge_v0_1",
+      "stages": [
+        {
+          "script": "compute.py",
+          "exit_code": 0
+        },
+        {
+          "script": "verify.py",
+          "exit_code": 0
+        }
+      ],
+      "all_processes_pass": true,
+      "main_checks": 179,
+      "main_false_checks": [],
+      "separate_check_count": null,
+      "separate_false_checks": [],
+      "seconds": 0.7293961048126221
+    },
+    {
+      "module": "source_carrier_action_v0_1",
+      "stages": [
+        {
+          "script": "compute.py",
+          "exit_code": 0
+        },
+        {
+          "script": "verify.py",
+          "exit_code": 0
+        }
+      ],
+      "all_processes_pass": true,
+      "main_checks": 218,
+      "main_false_checks": [],
+      "separate_check_count": null,
+      "separate_false_checks": [],
+      "seconds": 1.065845251083374
+    },
+    {
+      "module": "information_gravity_mechanism_v0_2",
+      "stages": [
+        {
+          "script": "compute.py",
+          "exit_code": 0
+        },
+        {
+          "script": "verify.py",
+          "exit_code": 0
+        }
+      ],
+      "all_processes_pass": true,
+      "main_checks": 843,
+      "main_false_checks": [],
+      "separate_check_count": 3,
+      "separate_false_checks": [],
+      "seconds": 0.5929508209228516
+    },
+    {
+      "module": "local_twist_load_bridge_v0_3",
+      "stages": [
+        {
+          "script": "compute.py",
+          "exit_code": 0
+        },
+        {
+          "script": "verify.py",
+          "exit_code": 0
+        }
+      ],
+      "all_processes_pass": true,
+      "main_checks": 61,
+      "main_false_checks": [],
+      "separate_check_count": 5,
+      "separate_false_checks": [],
+      "seconds": 2.699205160140991
+    },
+    {
+      "module": "zeta_physical_readout_v0_1",
+      "stages": [
+        {
+          "script": "compute.py",
+          "exit_code": 0
+        },
+        {
+          "script": "verify.py",
+          "exit_code": 0
+        }
+      ],
+      "all_processes_pass": true,
+      "main_checks": 49,
+      "main_false_checks": [],
+      "separate_check_count": 20,
+      "separate_false_checks": [],
+      "seconds": 69.34852266311646
+    },
+    {
+      "module": "zeta_symmetry_drive_v0_2",
+      "stages": [
+        {
+          "script": "compute.py",
+          "exit_code": 0
+        },
+        {
+          "script": "verify.py",
+          "exit_code": 0
+        }
+      ],
+      "all_processes_pass": true,
+      "main_checks": 79,
+      "main_false_checks": [],
+      "separate_check_count": 26,
+      "separate_false_checks": [],
+      "seconds": 34.901838541030884
+    },
+    {
+      "module": "freedom_falsifiability_v0_1",
+      "stages": [
+        {
+          "script": "registry.py",
+          "exit_code": 0
+        },
+        {
+          "script": "compute.py",
+          "exit_code": 0
+        },
+        {
+          "script": "verify.py",
+          "exit_code": 0
+        }
+      ],
+      "all_processes_pass": true,
+      "main_checks": 30,
+      "main_false_checks": [],
+      "separate_check_count": 88,
+      "separate_false_checks": [],
+      "seconds": 0.814943790435791
+    }
+  ],
+  "all_pass": true,
+  "scope": "Seven internal computational modules across five research tasks; no external review or new observational fit"
+}

@@ -1,0 +1,13 @@
+{
+  "count": 26,
+  "metrics": {
+    "ODE_state_max_error": 2.7125352893017898e-12,
+    "ODE_work_error": 4.0023540037736893e-14,
+    "control_expectation_max_error": 2.916777930295211e-11,
+    "unwrapped_control_rank": 1,
+    "wrapped_control_rank_on_12_addresses": 12,
+    "wrapped_max_dimensionless": 6.278106244718977,
+    "ODE_evaluations": 3929
+  }
+}
+

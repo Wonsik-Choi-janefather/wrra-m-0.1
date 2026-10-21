@@ -1,0 +1,18 @@
+{
+  "finite_registers.npz": {
+    "origin": "wrra/submission/finite_frame_spatial_bridge_v0_29_1/frame_baseline/results/finite_registers.npz",
+    "sha256": "649cde7f7a793759660ee63905f55e6808edb76db82934d6ccbb274248883f56"
+  },
+  "original_frame_run.py": {
+    "origin": "wrra/submission/finite_frame_spatial_bridge_v0_29_1/frame_baseline/run.py",
+    "sha256": "f0c9455098e4c5ce248bf3dd8d9b79fa7aa8b97d26a6bdca0091e3b86924626b"
+  },
+  "payloads.json": {
+    "origin": "wrra/submission/finite_scale_bridge_v0_1/payloads.json",
+    "sha256": "7db4b80493ac30f218b64c84a7e583b2cba73f7fb5663ab84d40d85bdc2c52b6"
+  },
+  "original_spectral_bridge.py": {
+    "origin": "wrra/submission/time_to_cmb_research_record_v1_0/stages/source_shutter_bridge_v02/reproduce.py",
+    "sha256": "5a373e124fcf1295b69d3183fbbc5f48a63d72b17c197bd1ef2d518ec388e532"
+  }
+}

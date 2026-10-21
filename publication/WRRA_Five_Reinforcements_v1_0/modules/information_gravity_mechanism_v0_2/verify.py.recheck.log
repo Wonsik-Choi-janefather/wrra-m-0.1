@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "method": "ODE-derived finite admission, adaptive quadrature, scalar constrained minimum and independent frozen-lens integration",
+  "checks": {
+    "independent_ODE_RAR": true,
+    "independent_convex_minimum": true,
+    "independent_finite_patch_lensing": true
+  },
+  "max_relative_ODE_RAR_error": 4.0190073491430667e-14,
+  "max_relative_minimizer_error": 1.4273400572584194e-08,
+  "lensing_arcsec": 0.5355822400088303,
+  "scope": "Internal independent calculation, not an independent empirical discovery or external review"
+}
+

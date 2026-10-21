@@ -1,0 +1,10 @@
+{
+  "checks": 20,
+  "metrics": {
+    "rounded_zero_max_zeta_residual": 6.391492718038196e-14,
+    "uniform_eigen_residual": 1.5140286452930937e-15,
+    "inherited_alpha_eigen_residual": 1.0269186723433515e-14,
+    "explicit_port_energy_error": 0.0
+  }
+}
+

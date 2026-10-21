@@ -1,0 +1,165 @@
+{
+  "architecture": "Wonsik Reality-Renderer Architecture",
+  "counts": {
+    "normalized_address_targets": 2,
+    "normalized_energy_targets": 2,
+    "H0_reference_anchor": 1,
+    "reference_chain_anchor_dimension": 5,
+    "alpha_h_calibration_coordinates": 2,
+    "eta_s_derived_components": 3,
+    "new_observational_fits_in_this_package": 0,
+    "general_70_branch_pure_combiner_if_released": 138,
+    "general_128_carrier_pure_state_if_released": 254,
+    "general_128_carrier_density_if_released": 16383,
+    "RAR_response_rank_for_four_released_parameters": 1,
+    "zeta_efficiency_and_noise_effective_dimension": 2
+  },
+  "gravity": {
+    "reference_a_eff_m_s2": 1.1917875313971119e-10,
+    "reference_rotation_km_s": 207.5102418659153,
+    "reference_lens_arcsec": 0.5355822400088437,
+    "parameter_order": [
+      "log_H0",
+      "log_kappa",
+      "log_fD",
+      "log_hazard"
+    ],
+    "effective_log_coefficients": [
+      1.0,
+      0.5,
+      0.5,
+      -2.0
+    ],
+    "singular_values": [
+      12.735618410386193,
+      1.5048170843554794e-09,
+      1.0265652613207226e-09,
+      1.0473220240743042e-25
+    ],
+    "rank_threshold_relative": 1e-07,
+    "synthetic_rotation_inferred_log_a_ratio": -8.176844150082854e-15,
+    "synthetic_lens_inferred_log_a_ratio": 0.052182248265971336,
+    "injected_lens_change_fraction": 0.02,
+    "scope": "fixed Plummer source, no gravitational slip, same finite lens patch"
+  },
+  "zeta_constraints": {
+    "uniform": {
+      "coherent_vector_P_B_Edimensionless": [
+        0.014262842603785485,
+        0.003295611824229808,
+        0.04376786075424967
+      ],
+      "incoherent_vector": [
+        0.014285714285714285,
+        0.003808688704108439,
+        0.043066134339961454
+      ],
+      "plane_normal": [
+        -0.8828230008427901,
+        0.3924106902673112,
+        0.2581422076043811
+      ],
+      "conditional_energy_intercept_keV": 1519.6262522043849,
+      "conditional_energy_slope_keV": -675.4667538187983,
+      "sensitivity_singular_values": [
+        0.04553741601804253,
+        0.0006161190178894619
+      ],
+      "sensitivity_condition_number": 73.91009641941034,
+      "constraint_max_error_keV": 5.684341886080801e-13,
+      "synthetic_eta": 0.6,
+      "synthetic_efficiency": 0.8,
+      "recovered_eta": 0.5999999999999992,
+      "recovered_efficiency": 0.8,
+      "third_output_prediction_error": 0.0,
+      "ideal_count_only_trials_for_eta_std_0p1_at_eta_0p6_eff_0p8": 1282463.9121684767,
+      "count_Fisher_per_trial": [
+        [
+          0.018046031337152508,
+          -2.3135837505645663e-05
+        ],
+        [
+          -2.313583750564557e-05,
+          7.800456486275887e-05
+        ]
+      ],
+      "one_percent_energy_perturbation_plane_error": 8.980699291948456e-05
+    },
+    "inherited_alpha": {
+      "coherent_vector_P_B_Edimensionless": [
+        0.00449484021620266,
+        0.0012341656336535658,
+        0.013521112719301802
+      ],
+      "incoherent_vector": [
+        0.014285714285714285,
+        0.00384010334535132,
+        0.043088673536800785
+      ],
+      "plane_normal": [
+        -0.8919559405149762,
+        0.3677986540905661,
+        0.2629424846410569
+      ],
+      "conditional_energy_intercept_keV": 1507.3177298525745,
+      "conditional_energy_slope_keV": -621.5435170559482,
+      "sensitivity_singular_values": [
+        0.05524811257324118,
+        2.5489415266601213e-05
+      ],
+      "sensitivity_condition_number": 2167.4923490941273,
+      "constraint_max_error_keV": 1.6370904631912708e-11,
+      "synthetic_eta": 0.6,
+      "synthetic_efficiency": 0.8,
+      "recovered_eta": 0.5999999999999976,
+      "recovered_efficiency": 0.7999999999999979,
+      "third_output_prediction_error": 0.0,
+      "ideal_count_only_trials_for_eta_std_0p1_at_eta_0p6_eff_0p8": 107091853.86373602,
+      "count_Fisher_per_trial": [
+        [
+          0.01058521470535016,
+          -0.009857202712186073
+        ],
+        [
+          -0.009857202712186075,
+          0.009180194474367933
+        ]
+      ],
+      "one_percent_energy_perturbation_plane_error": 5.332081708787624e-05
+    }
+  },
+  "checks": {
+    "hash_shared_gravity_results.json": true,
+    "hash_zeta_readout_results.json": true,
+    "hash_zeta_drive_results.json": true,
+    "hash_zeta_noise.csv": true,
+    "hash_RAR_gate_README.md": true,
+    "hash_book_parameter_excerpt_EN.md": true,
+    "hash_CMB_reference_run.py": true,
+    "fraction_and_SI_parameterization": true,
+    "H0_cancels_at_fixed_SI_density": true,
+    "RAR_log_sensitivity_rank_one": true,
+    "exact_null_direction_0": true,
+    "exact_null_direction_1": true,
+    "exact_null_direction_2": true,
+    "old_rotation": true,
+    "old_lens": true,
+    "injected_lens_mismatch_detected": true,
+    "uniform_two_effective_dimensions": true,
+    "uniform_joint_output_line": true,
+    "uniform_synthetic_recovery": true,
+    "uniform_injected_energy_mismatch": true,
+    "uniform_count_Fisher_positive": true,
+    "inherited_alpha_two_effective_dimensions": true,
+    "inherited_alpha_joint_output_line": true,
+    "inherited_alpha_synthetic_recovery": true,
+    "inherited_alpha_injected_energy_mismatch": true,
+    "inherited_alpha_count_Fisher_positive": true,
+    "simplex_dimension": true,
+    "pure_combiner_dimension": true,
+    "pure_state_dimension": true,
+    "mixed_state_dimension": true
+  },
+  "all_checks_pass": true,
+  "scope": "Scoped audit of book reference chain, shared gravity and finite zeta instrument; not a full-universe parameter census or matched likelihood ranking against LCDM. All new generated calibration/perturbation examples are synthetic."
+}

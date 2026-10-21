@@ -1,0 +1,276 @@
+{
+  "scope": "Selected book calibration chain and recent gravity/zeta modules; not exhaustive for 138 chapters",
+  "new_observational_fits": 0,
+  "entries": [
+    {
+      "name": "address_shares",
+      "scope": "book reference calibration",
+      "role": "normalized calibration targets",
+      "nominal": "0.05,0.268,0.682",
+      "real_dimension_if_independently_released": 2,
+      "depends_on": "",
+      "note": "Three numbers, two independent components."
+    },
+    {
+      "name": "alpha_and_h",
+      "scope": "book reference calibration",
+      "role": "historically fitted coordinates",
+      "nominal": "1.8996877935161325,1.4476744689338703",
+      "real_dimension_if_independently_released": 2,
+      "depends_on": "address_shares",
+      "note": "Do not add these again to the target-coordinate count."
+    },
+    {
+      "name": "energy_shares",
+      "scope": "book reference calibration",
+      "role": "normalized calibration targets",
+      "nominal": "0.0493,0.265,0.6857",
+      "real_dimension_if_independently_released": 2,
+      "depends_on": "",
+      "note": "Distinct from address shares."
+    },
+    {
+      "name": "H0",
+      "scope": "book reference calibration",
+      "role": "inherited model-dependent cosmology anchor",
+      "nominal": "67.4 km/s/Mpc",
+      "real_dimension_if_independently_released": 1,
+      "depends_on": "",
+      "note": "Adopted Planck base-LCDM reference, not a newly derived exact constant."
+    },
+    {
+      "name": "ucrit",
+      "scope": "book reference calibration",
+      "role": "derived",
+      "nominal": "3 H0^2 c^2/(8 pi G)",
+      "real_dimension_if_independently_released": 0,
+      "depends_on": "H0",
+      "note": ""
+    },
+    {
+      "name": "eta_sector",
+      "scope": "book reference calibration",
+      "role": "derived calibrated coefficients",
+      "nominal": "ucrit F_s / mu_ref_s",
+      "real_dimension_if_independently_released": 3,
+      "depends_on": "ucrit,energy_shares,alpha_and_h",
+      "note": "Three coefficients; no extra independent inputs when calibration equations are enforced. If released separately they add freedom."
+    },
+    {
+      "name": "L_H_C",
+      "scope": "SOURCE",
+      "role": "discrete construction choices",
+      "nominal": "500,29,70",
+      "real_dimension_if_independently_released": 0,
+      "depends_on": "address_shares",
+      "note": "Discrete model choices remain in the ledger despite no continuous dimension."
+    },
+    {
+      "name": "N_SOURCE",
+      "scope": "SOURCE",
+      "role": "derived candidate",
+      "nominal": "L*H*C=1015000",
+      "real_dimension_if_independently_released": 0,
+      "depends_on": "L_H_C",
+      "note": "Not an additional independent capacity parameter."
+    },
+    {
+      "name": "admission_xi",
+      "scope": "admission",
+      "role": "fixed constitutive coefficient",
+      "nominal": "0.1",
+      "real_dimension_if_independently_released": 1,
+      "depends_on": "",
+      "note": "Frozen does not mean derived; fitting it later is a model revision."
+    },
+    {
+      "name": "frame_count",
+      "scope": "admission",
+      "role": "discrete architecture",
+      "nominal": "8",
+      "real_dimension_if_independently_released": 0,
+      "depends_on": "",
+      "note": ""
+    },
+    {
+      "name": "load_weight_slopes",
+      "scope": "load readout",
+      "role": "fixed constitutive coefficients",
+      "nominal": "0,0.25,0.1",
+      "real_dimension_if_independently_released": 2,
+      "depends_on": "",
+      "note": "Two nonzero sector choices in this inherited family; not a new fit here."
+    },
+    {
+      "name": "RAR_kappa",
+      "scope": "shared gravity",
+      "role": "fixed constitutive coefficient",
+      "nominal": "1/8",
+      "real_dimension_if_independently_released": 1,
+      "depends_on": "",
+      "note": "Not a redefinition of geometric twist kappa."
+    },
+    {
+      "name": "gate_hazard",
+      "scope": "shared gravity",
+      "role": "fixed gate normalization",
+      "nominal": "1",
+      "real_dimension_if_independently_released": 1,
+      "depends_on": "",
+      "note": "If released it changes a_eff through hazard^-2; cannot estimate separately from aT using local RAR alone."
+    },
+    {
+      "name": "aT",
+      "scope": "shared gravity",
+      "role": "derived",
+      "nominal": "c H0 sqrt(kappa fD)",
+      "real_dimension_if_independently_released": 0,
+      "depends_on": "H0,RAR_kappa,eta_sector",
+      "note": ""
+    },
+    {
+      "name": "Plummer_M_and_b0",
+      "scope": "local gravity diagnostic",
+      "role": "specified source",
+      "nominal": "6e10 Msun,3 kpc",
+      "real_dimension_if_independently_released": 2,
+      "depends_on": "",
+      "note": "Scenario inputs. If estimated from galaxy observations they are nuisance/source freedoms, not automatically zero."
+    },
+    {
+      "name": "radius_impact_patch",
+      "scope": "local gravity diagnostic",
+      "role": "observation/boundary settings",
+      "nominal": "8.2,10,200 kpc",
+      "real_dimension_if_independently_released": 3,
+      "depends_on": "",
+      "note": "Changing the patch changes the conditional lens observable."
+    },
+    {
+      "name": "gravitational_slip",
+      "scope": "local gravity diagnostic",
+      "role": "fixed receiver condition",
+      "nominal": "Phi=Psi",
+      "real_dimension_if_independently_released": 1,
+      "depends_on": "",
+      "note": "Free slip introduces an additional lens response freedom."
+    },
+    {
+      "name": "tau",
+      "scope": "zeta physical readout",
+      "role": "inherited dimensional calibration",
+      "nominal": "1.481301966415863e-21 s",
+      "real_dimension_if_independently_released": 1,
+      "depends_on": "",
+      "note": "Not part of the five reference-chain anchor components."
+    },
+    {
+      "name": "edge_d",
+      "scope": "zeta physical readout",
+      "role": "derived",
+      "nominal": "c*tau",
+      "real_dimension_if_independently_released": 0,
+      "depends_on": "tau",
+      "note": "Do not fit d and tau as independent scales while enforcing this relation."
+    },
+    {
+      "name": "zero_heights",
+      "scope": "zeta readout",
+      "role": "fixed mathematical data",
+      "nominal": "first 70 positive heights",
+      "real_dimension_if_independently_released": 70,
+      "depends_on": "",
+      "note": "70 potential coordinates only IF independently retuned; currently no fitted height parameters."
+    },
+    {
+      "name": "CRT_shape",
+      "scope": "zeta readout",
+      "role": "discrete geometry choice",
+      "nominal": "213,65,77",
+      "real_dimension_if_independently_released": 0,
+      "depends_on": "",
+      "note": "A different neighbor graph is a different candidate."
+    },
+    {
+      "name": "combining_ray",
+      "scope": "zeta readout",
+      "role": "fixed branch-blind pure port",
+      "nominal": "uniform",
+      "real_dimension_if_independently_released": 138,
+      "depends_on": "",
+      "note": "General CP^69 has 138 real dimensions IF the branch-blind contract is removed."
+    },
+    {
+      "name": "carrier_density",
+      "scope": "quantum state",
+      "role": "fixed/specified state",
+      "nominal": "128 dimensional register",
+      "real_dimension_if_independently_released": 16383,
+      "depends_on": "",
+      "note": "Arbitrary density matrix dimension 128^2-1 is not 16383 active fitted parameters. Pure-state family would have 254."
+    },
+    {
+      "name": "eta_coherence",
+      "scope": "zeta instrument extension",
+      "role": "test or future instrument nuisance",
+      "nominal": "exp(-s^2)",
+      "real_dimension_if_independently_released": 1,
+      "depends_on": "",
+      "note": "One effective coordinate; do not count eta and s independently."
+    },
+    {
+      "name": "efficiency",
+      "scope": "zeta instrument extension",
+      "role": "future instrument nuisance",
+      "nominal": "common energy-independent efficiency",
+      "real_dimension_if_independently_released": 1,
+      "depends_on": "",
+      "note": "Unknown efficiency and eta are two coordinates in the diagnostic extension; generated examples are synthetic."
+    },
+    {
+      "name": "driven_control_law",
+      "scope": "zeta drive",
+      "role": "fixed functional architecture",
+      "nominal": "H0+U0 B U0dagger",
+      "real_dimension_if_independently_released": 0,
+      "depends_on": "",
+      "note": "Zero fitted coordinates here does not make the physical clock/controller derived or cost-free."
+    },
+    {
+      "name": "c_hbar_G",
+      "scope": "shared physical anchors",
+      "role": "verified inherited constants",
+      "nominal": "fixed SI convention/values",
+      "real_dimension_if_independently_released": 0,
+      "depends_on": "",
+      "note": "Shared physical anchors must be treated symmetrically for comparison theories."
+    },
+    {
+      "name": "CMB_As_ns_tau_reio",
+      "scope": "inherited CMB completion",
+      "role": "fixed calibrated spectral inputs",
+      "nominal": "2.1e-9,0.9649,0.0544",
+      "real_dimension_if_independently_released": 3,
+      "depends_on": "",
+      "note": "Read from actual run_camb.py; not derived by the local reference-chain audit. Reionization optical depth differs from shutter time."
+    },
+    {
+      "name": "CMB_mnu_Neff",
+      "scope": "inherited CMB completion",
+      "role": "fixed physical/reference inputs",
+      "nominal": "0.06 eV,3.044",
+      "real_dimension_if_independently_released": 2,
+      "depends_on": "",
+      "note": "Not hidden or counted as new observational fits here."
+    },
+    {
+      "name": "CMB_temperature",
+      "scope": "inherited CMB completion",
+      "role": "measured physical anchor",
+      "nominal": "2.7255 K",
+      "real_dimension_if_independently_released": 1,
+      "depends_on": "",
+      "note": "Supplied to the inherited CAMB run; included for symmetric comparison accounting."
+    }
+  ]
+}

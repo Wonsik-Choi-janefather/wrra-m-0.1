@@ -1,0 +1,31 @@
+{
+  "shared_gravity_results.json": {
+    "origin": "wrra/submission/local_twist_load_bridge_v0_3/inputs/shared_gravity_results.json",
+    "sha256": "56f62a1333e31c72340fb94df66b847522fc6bdf3be364ef91844e98a538a9bd"
+  },
+  "zeta_readout_results.json": {
+    "origin": "wrra/submission/zeta_physical_readout_v0_1/results.json",
+    "sha256": "9b0e6366aab4e86fa7b3f79ab4891d79d263cb767c5e22ee03b97f44f88f68ba"
+  },
+  "zeta_drive_results.json": {
+    "origin": "wrra/submission/zeta_symmetry_drive_v0_2/results.json",
+    "sha256": "8436cd77b359a2ca6bc7a4faf0459fe4431e2201c1f790675ac9c9b6b1aa9262"
+  },
+  "zeta_noise.csv": {
+    "origin": "wrra/submission/zeta_symmetry_drive_v0_2/phase_noise.csv",
+    "sha256": "a8e6ba7738bc0b79f1b7e8b50e8fd459160264dc64899105102aca0b087dae39"
+  },
+  "RAR_gate_README.md": {
+    "origin": "wrra/submission/information_gravity_mechanism_v0_2/README.md",
+    "sha256": "9e0acef2dc8597867885225b805cf7552d1e1bd74332fa0b7057dbddc5f52c83"
+  },
+  "book_parameter_excerpt_EN.md": {
+    "origin": "wrra/mcc_3_0/book_v0_27/MCC_3_0_Full_Book_EN_v0.27-r1.md",
+    "source_lines": "5531-5600",
+    "sha256": "98d43b52d2371a1c7bb3dcd886280f6d78eac423d78f7f4d4d6673ff37b76e16"
+  },
+  "CMB_reference_run.py": {
+    "origin": "wrra/submission/observation_thermal_v0_6/run_camb.py",
+    "sha256": "632a242ee82bd75c706b5f66bd7f01b409cd8e9163aea156fe9430e1cc07e781"
+  }
+}

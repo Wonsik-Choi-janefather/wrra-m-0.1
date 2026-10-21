@@ -1,0 +1,9 @@
+{
+  "checks": 88,
+  "metrics": {
+    "analytic_J_max_error": 1.975517249785952e-10,
+    "adaptive_lens_arcsec": 0.5355822400088303,
+    "lens_difference_arcsec": 1.3433698597964394e-14
+  }
+}
+

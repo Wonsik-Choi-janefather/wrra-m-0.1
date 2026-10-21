@@ -1,0 +1,73 @@
+{
+  "normalization": {
+    "uD_J_m3": 2.0321854300651497e-10,
+    "aT_m_s2": 1.1917875313971119e-10,
+    "weighted_reference_twist_m_inv": 9.187091679886081e-27,
+    "normalization_length_m": 1.0884837496390369e+26,
+    "reference_column_kg_m2": 1.7051574853135558,
+    "definition": "omega=sqrt(zeta)*kappa_total; sigma=L0*omega; L0 is normalization, not universe size or causal communication length"
+  },
+  "reference_local": {
+    "baryon_over_aT": 0.8644016958349898,
+    "sigma": 0.9297320559360045,
+    "weighted_twist_m_inv": 8.541533635613047e-27,
+    "stored_twist_J_m3": 1.7566245319994734e-10,
+    "bare_energy_mass_density_kg_m3": 1.9545083839943755e-27,
+    "effective_residual_density_kg_m3": 5.1209809236788e-22,
+    "effective_to_bare_density_ratio": 262008.6445069727,
+    "rotation_km_s": 207.5102418659153,
+    "weighted_shutter_edge_angle_rad": 3.7931512272400405e-39
+  },
+  "three_dimensional": [
+    {
+      "n": 32,
+      "Nyquist_plane_relative_loss": 1.3743352023450217e-12,
+      "min_Newton_field_over_aT": 0.25781098505764943,
+      "raw_curl_RMS": 0.026472078557142644,
+      "curl_free_output_RMS": 1.1677736990258646e-15,
+      "divergence_relative_error": 6.3241005189635285e-15,
+      "transverse_correction_fraction": 0.04318148188349879,
+      "orthogonality_residual": 8.433027400710591e-19,
+      "Newtonian_density_relative_error": 4.7255342292973215e-15,
+      "probe_x": 1.0958152745360636,
+      "probe_y": 0.6250093030822123,
+      "probe_z": 0.2773515303644489
+    },
+    {
+      "n": 64,
+      "Nyquist_plane_relative_loss": 2.479867915424439e-16,
+      "min_Newton_field_over_aT": 0.2569580756073238,
+      "raw_curl_RMS": 0.02647207855714265,
+      "curl_free_output_RMS": 2.60664774282246e-15,
+      "divergence_relative_error": 1.4467549085321583e-14,
+      "transverse_correction_fraction": 0.04318148188349879,
+      "orthogonality_residual": 0.0,
+      "Newtonian_density_relative_error": 1.0097242932873281e-14,
+      "probe_x": 1.095815274536103,
+      "probe_y": 0.6250093030822087,
+      "probe_z": 0.27735153036444976
+    },
+    {
+      "n": 128,
+      "Nyquist_plane_relative_loss": 2.592325439360312e-16,
+      "min_Newton_field_over_aT": 0.25689772489354057,
+      "raw_curl_RMS": 0.02647207855714265,
+      "curl_free_output_RMS": 5.588330565146161e-15,
+      "divergence_relative_error": 3.002488940019244e-14,
+      "transverse_correction_fraction": 0.04318148188349879,
+      "orthogonality_residual": 8.433027400710588e-19,
+      "Newtonian_density_relative_error": 2.2169932371670753e-14,
+      "probe_x": 1.0958152745361027,
+      "probe_y": 0.6250093030822086,
+      "probe_z": 0.2773515303644497
+    }
+  ],
+  "loop": {
+    "dimensionless_line_integral": -0.0018160848875416608,
+    "dimensionless_surface_integral": -0.0018160848875417197,
+    "weighted_holonomy_for_16kpc_box": -1.3110065282864729e-09
+  },
+  "passed": 61,
+  "total": 61
+}
+

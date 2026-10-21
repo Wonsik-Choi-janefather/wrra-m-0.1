@@ -1,0 +1,630 @@
+# Part XXII — Connecting Zeta Readout, Folding Classes and Prime Space
+
+*Connection study v0.4, 16 October 2026. These calculations are separate from cosmic-composition calibration.*
+
+## 130 Output Permission to Spatial Readout
+
+**v0.23 mathematical connection.** Chapter 132 distinguishes theta coefficients, physical address weights and sector effects, and connects the positivity study of exact integer relations. CRT relation preservation is retained without asserting identity between zeta zeros and the Laplacian spectrum.
+
+
+### Verification input
+
+The inputs are a finite SOURCE state, prime-symmetric classification with address 1 kept as a reference, numerical permission from the analytic residual R3(s), the existing prime-block generators, and the distance, information-ownership and massless-transport rules of Chapters 114–117. At N=1,015,000 there are 79,608 primes, 236 composite prime powers and 935,155 mixed-prime composites. These are address counts, not numbers of spatial axes or cosmic fractions.
+
+The universal classification makes no prime exceptional: primes have label 1, powers p^k with k>=2 have label 2, and composites requiring at least two distinct primes have label 3. Folding labels and the independent-axis count of a spatial generator are tested separately. Special treatment of prime 2 can remain a candidate readout specific to our universe. The existing 2,3,5 taps in Chapter 115 are preserved; their selection is not derived here.
+
+### WRRA-specific transformation
+
+#### 130.1 Roles and physical readout
+
+| Layer | Question | Execution object |
+|---|---|---|
+| Zeta readout | Under what condition is output allowed? | Permission G_zeta(s) |
+| Folding class | Which information is selected? | Projector Pi_fold,3 |
+| Prime operators | In which relational/spatial structure is it unfolded? | Address map J, block generators and Laplacian |
+| Existing spatial Renderer | How is it read as distance, transport and observation? | d=c Delta t, physical H and observation map |
+
+Here “when” first means permission, not physical time. The parameter s is not identified with a clock. Event timing requires a further connection to physical evolution and shutters; physical time is not imposed retroactively on prephenotypic allocation.
+
+The declared permission is G_zeta=1(|R3(s)|<=10^(-9)). Rounded finite raw address sums do not replace the analytic residual. Neither unique necessity of this gate from arithmetic classification nor its autonomous physical realization is proved.
+
+#### 130.2 Output and hold together
+
+Let Pi3=Pi_fold,3, 0<=G<=1, extend address states with zero auxiliary slots as needed, let J be an injective isometry on selected addresses, and let U_prime implement the declared prime SOURCE unitarily. Then
+
+$$
+|\phi_{\rm out}\rangle=U_{\rm prime}J\sqrt G\Pi_3|\psi\rangle,
+\qquad |\phi_{\rm hold}\rangle=[(I-\Pi_3)+\sqrt{1-G}\Pi_3]|\psi\rangle,
+$$
+$$
+\|\phi_{\rm out}\|^2+\|\phi_{\rm hold}\|^2=\|\psi\|^2.
+$$
+
+Hold is neither deletion nor a new energy sector. With output/hold labels this is an isometry; viewing the output alone gives a quantum instrument whose probability remains in the ledger. A positive trace-preserving observation map on the specified output space reads
+
+$$
+\widetilde\rho_{\rm out}=\mathcal R_{\rm space}
+\left(U_{\rm prime}J\sqrt G\Pi_3\rho\Pi_3\sqrt GJ^\dagger U_{\rm prime}^\dagger\right).
+$$
+
+Its trace is Tr(G Pi3 rho). Conditional normalization never discards that probability. Propagation can change the arithmetic label at an occupied coordinate: [U,Pi3]=0 is not assumed. Output originating in class 3 and support confined to class 3 at every later step are different conditions. Hold, reference and auxiliary slots and observable ownership must travel together.
+
+#### 130.3 Prime generators and relation preservation
+
+The reused prime blocks are (3,71),(5,13),(7,11), with axis periods (213,65,77) and capacity M=1,066,065. N is an address cutoff and M an implementation capacity; neither replaces the existing KZF N_U.
+
+$$
+J|n\bmod M\rangle=|n\bmod213,n\bmod65,n\bmod77\rangle.
+$$
+
+The mutually coprime periods give a bijection on the complete residue space. N<M prevents collisions for the current addresses. Writing m_a for an axis period,
+
+$$
+\delta_a=(M/m_a)[(M/m_a)^{-1}\bmod m_a]\pmod M,
+\quad JS_{\delta_a}=U_aJ,
+$$
+$$
+JL_{\rm address}=L_{\rm SOURCE}J,
+\qquad L_{\rm SOURCE}=\sum_a(2I-U_a-U_a^\dagger).
+$$
+
+Prime-coordinate translation is addition, not integer prime multiplication. The separately tested map n->pn mod M is compatible with coordinatewise multiplication, but multiplication by a resource prime merges residues and is not independently unitary. Retaining preimage records allows a reversible extension. Preservation of arbitrary integer size, products beyond the boundary or physical proximity is not automatic.
+
+Earlier sorted packing preserved norm but not the natural coordinatewise prime multiplication. The earlier capacity 1,006,005 produced 7,165 selected-address collisions when converted to CRT. Replacing resource prime 67 by 71 resolves this declared implementation problem, without a claim of unique global resource minimality.
+
+#### 130.4 Existing spatial and three-dimensional conditions
+
+Reuse Chapter 114's distance d=c Delta t for one neighboring site. The specified flat periodic geometry is
+
+$$
+D(\boldsymbol x,\boldsymbol y)=d\sqrt{\sum_a\min(|x_a-y_a|,m_a-|x_a-y_a|)^2}.
+$$
+
+This is a declared geometric readout, not a unique arithmetic derivation of meters. c and the shutter are inherited fixed inputs. Section 7.3 supplies conditional dimensional minimality: for local propagating spin-2 admitted in d>=3,
+
+$$
+N_{\rm grav}(d)=(d+1)(d-2)/2,\quad C(d)=c_Ed+c_TN_{\rm grav}(d),
+$$
+$$
+c_E,c_T\ge0,\quad c_E+c_T>0
+\quad\Rightarrow\quad C(d+1)-C(d)=c_E+c_Td>0.
+$$
+
+The least-cost dimension in that allowed family is 3. This includes physical admissibility conditions; the arithmetic label “3” alone does not enforce three spatial axes.
+
+Chapter 117's massless transport reuses H=hbar c|k|. This physical Hamiltonian and dimensionless prime-graph L remain distinct. Fifteen internal channels couple through the same spatial factor with I15. Tests use a declared frequency band free of temporal aliasing. Spatial nonlocality of this spectral operator and untested strict microscopic causality retain the earlier scope.
+
+### Outputs and execution scope
+
+| Test | Result | Scope |
+|---|---|---|
+| Prime-coordinate, axis-shift and Laplacian correspondence | maximum error 0 | New CRT SOURCE |
+| Residue multiplication by seven declared primes | zero violations | All M residue states |
+| Heat-kernel dimension | 3.0242082 / 3.0119065 / 3.0059001 | Diffusion scales 16 / 32 / 64 |
+| Neighbor distance | 0.444083157552045 pm | Inherited c Delta t |
+| Address-owned kernel profile | difference 0 | Existing taps, uniform test payload on new selection |
+| Light speed in seven directions | maximum relative difference 1.11e-16 | Declared low-frequency modes |
+| Photon norm / energy error | 8.88e-16 / relative 1.11e-16 | Declared band below 0.8 pi |
+
+Connection v0.3 executed 21 relational checks and v0.4 executed 12 spatial checks. The 50 earlier v0.2 records are retained historical evidence, not added to this new execution count. These are numerical checks, not independent physical experiments.
+
+Chapter 115's K_r taps and address ownership were reconstructed, but the test payload is uniform on the new selected addresses. The original sector-specific B_s,r,j, supply probability and complete GR/CMB pipeline were not recomputed on this lattice. Earlier fractions, amplitudes and observational scores are not retrospectively attributed to the new output construction.
+
+The old 500x29x70 graph and new 213x65x77 CRT graph are different geometries. An address correspondence does not equate their neighbors, distances or physical predictions. This is a separate candidate using inherited distance, ownership and transport rules, not a silent replacement of existing space.
+
+### Falsification conditions
+
+Failure means an unauthorized class is output or its probability ownership is lost; CRT collisions or shift/Laplacian correspondence fail; output, hold or auxiliary records are omitted and break conservation; declared distance/shutter/speed/energy relations fail on the specified band; or predictions are transferred between the old and new geometries without checking them.
+
+The remaining tasks are autonomous physical permission, output-event timing, micro-to-macro scale generation, variable curvature, complete Maxwell/Lorentz implementation and full GR/CMB connection on the new lattice.
+
+### Assessment and genealogy
+
+Zeta readout supplies permission; folding selects information classes; existing prime operators supply relations and space; the existing Renderer reads distance, transport and observations. This conditionally implements minimal computation, common carrier and phenotype in one finite output architecture. Reproducing known distance/transport rules is explanatory achievement, not a new constant prediction.
+
+The source is the prime-symmetric zeta hologram archive v0.4. Its relation-preserving bridge and MCC spatial bridge include executable Python files, JSON results and excerpts of the original prime-partition and spatial texts. Exact filenames are listed in the package manifest. Editorial integration does not imply new external review or observational confirmation.
+
+
+## 131 Zeta-Zero Phase Superposition and the Shape of Spatial Output
+
+**v0.24 projector connection.** Chapter 133 treats common-log-coordinate synthesis of all zeros; Chapter 134 treats complementary-amplitude visibility/cost focus and common gain compensation. These connect to, but remain distinct from, this finite CRT image, conditional spatial probabilities and measurement procedure. The logarithmic coordinate is not substituted for a new physical dimension or time.
+
+**v0.23 reverse audit.** Chapter 132 states that output-plus-hold conservation here also holds for arbitrary real phase lists. The spatial-pattern calculation from zeta inputs is retained; conservation itself is not used as an RH proof.
+
+
+### Verification input
+
+Chapter 130 uses zeta readout for output permission. This chapter tests whether the permitted zero set also participates in output shape. Inputs are the first 70 positive zeros $\rho_j=1/2+i\gamma_j$, cutoff $N=1{,}015{,}000$, 935,155 class-3 addresses and the same CRT space $(213,65,77)$. Two normalized preparations within the selected sector are compared: uniform amplitude and $n^{-\alpha/2}$ with inherited $\alpha=1.8996877935161325$. These are test preparations, not a reconstruction of the original sector-specific SOURCE payload. Known zeros are fixed inputs; this does not prove the Riemann hypothesis.
+
+### WRRA-specific transformation
+
+Chapter 75 already uses a real cosine sum with four zero heights and log n+xi k for SOURCE admission. The logarithmic-address/zero-phase connection therefore exists in the earlier book. This addition connects it to conservative superposition of 70 complex phases and prime-space output. It neither replaces the four-mode/eight-frame admission formula nor reinterprets its composition fractions as the new port probabilities.
+
+#### 131.1 A connection without arbitrary zero-to-eigenmode numbering
+
+The termwise identity
+
+$$
+n^{-\rho_j}=n^{-1/2}\exp(-i\gamma_j\log n)
+$$
+
+directly provides an address-phase operator:
+
+$$
+D_j|n\rangle=e^{-i\gamma_j\log n}|n\rangle,
+\qquad |\phi_j\rangle=UJ D_j|\psi\rangle.
+$$
+
+J is Chapter 130's CRT embedding and $U=\exp(-iL)$ is dimensionless test propagation under the existing prime Laplacian. Its parameter 1 is not seconds or shutter time, nor is L identified with the physical photon Hamiltonian $H=\hbar c|k|$. The zero-associated spatial wave packets $\phi_j$ are generally nonorthogonal and are not individual eigenmodes of L. No arbitrary matching of zero indices to spatial eigenmode indices is required.
+
+This test separates the common magnitude $n^{-1/2}$ from zero phases and uses only the phase in the transformation. Choosing that magnitude for preparation would instead specify a separate alpha=1 input. The termwise identity does not assert convergence of the infinite Dirichlet series on the critical line, or equality of its finite truncation to analytically continued zeta.
+
+#### 131.2 Conserving output and hold during superposition
+
+Equal-amplitude, common-relative-phase combination of 70 zero branches is an explicitly added construction assumption. With C=70,
+
+$$
+K(n)=\frac1C\sum_{j=1}^{C}e^{-i\gamma_j\log n},
+$$
+$$
+|\Psi_{\rm out}\rangle=UJK|\psi\rangle=\frac1C\sum_j|\phi_j\rangle,
+\quad |\Psi_{\rm hold}\rangle=\sqrt{1-|K|^2}|\psi\rangle.
+$$
+
+Since |K|<=1, output and hold squared norms sum to the input squared norm. Prepare a uniform auxiliary register, apply controlled D_j and select the uniform combining port to implement K. Complementary ports carry the total held probability. The displayed hold is a minimal probability-preserving instrument, not a reconstruction of all complementary microscopic port states.
+
+Spatial intensity is $I(x)=|\Psi_{\rm out}(x)|^2$. Record $P_{\rm out}=\sum_xI(x)$ before normalizing the conditional distribution I/P_out. The incoherent comparator is $C^{-1}\sum_j|\phi_j(x)|^2$ and omits cross terms. Individual zeta permission remains an upstream requirement: this experiment receives permitted zeros as inputs. It does not rerun the earlier R3 readout, but checks the zeta residuals of the zeros separately.
+
+### Outputs
+
+| Output | Uniform preparation | Inherited-alpha preparation |
+|---|---:|---:|
+| Selected coherent-port probability | 0.014262842604 | 0.004494840216 |
+| Hold probability | 0.985737157396 | 0.995505159784 |
+| Output-plus-hold norm error | 0 | $4.22\times10^{-15}$ |
+| Conditional TV distance from incoherent mixture | 0.3741526991 | 0.5780259658 |
+| TV from same-zero random-relative-phase control | 0.5484761134 | 0.7167374941 |
+| TV from equally spaced height control | 0.6511396103 | 0.8812653410 |
+
+$\mathrm{TV}(p,q)=\tfrac12\sum_x|p(x)-q(x)|$ is zero for identical distributions and one for disjoint support. Port probability is not a cosmic-composition or matter fraction. This shape calculation remains separate from composition research.
+
+At 35-digit precision the largest zeta residual of the 70 inputs was $3.90\times10^{-34}$. Subsequent phase and spatial computations use double precision. Maximum spatial synthesis error was $3.11\times10^{-17}$ and inverse error $3.47\times10^{-18}$. Fifteen checks passed, including two diagnostics for visible interference under these preparations; they are not fifteen independent physical validations.
+
+A common height shift delta=0.5 obeys $K_\delta(n)=e^{-i\delta\log n}K(n)$. It preserves intensity before propagation and total output probability but can change the propagated spatial distribution. Measured conditional TV differences were 0.2033147865 and 0.0295680194. Permuting zero order changed no result. Equally spaced and shifted-height controls force permission open to compare shapes only; they are not claimed to pass zeta permission.
+
+### Falsification conditions
+
+Address collisions, phase-rule violations, output/hold probability loss, failed linear synthesis or inverse transformation require correction. Failure to reproduce the declared phase-change and incoherent-control results for fixed inputs also revises this connection. Other height sets can generate patterns; interference alone does not establish physical uniqueness of zeta zeros.
+
+### Assessment and remaining connections
+
+**A computed example now connects folding selection, zero-derived phase superposition shaping a spatial distribution, and the existing prime operators supplying the unfolding geometry.** Output depends jointly on the zero list, input state, relative phases and propagation. Physical preparation of equal zero weights and relative phases, single-result selection through existing shutters and stable records, and unique selection of three dimensions are not derived here.
+
+The source `WRRA_Zeta_Mode_Superposition_v0_1_2026-10-16.zip` contains code, zero heights, marginal-probability CSVs and results JSON. The existing GR/CMB pipeline has not been rerun with this superposed field.
+
+
+### 131.3 Conditional Reference Model and Measurement Calibration
+
+**Measurement connection added on 16 October 2026; translated in v0.23.** This study gives a possible architecture and executed examples connecting integer addresses, a common carrier, folding selection and phase superposition to spatial output without additional physical dimensions. The present implementation is a reference model for comparison. Numerical shutter time, distance scale, preparation weights, relative phases and propagation rules are to be calibrated and assessed against measurements and observations. Structural construction and details to be established by measurement are distinguished.
+
+**Verified inputs.** Fix the Chapter 131 address bound 1,015,000, its 935,155 selected addresses, CRT space (213,65,77), the first 70 zero heights and inherited $\alpha=1.8996877935161325$. Equal branch combination and dimensionless $U=\exp(-iL)$ define the reference. No new observational fit is performed here. Record the code, inputs and varied parameters; changing the lattice requires a new statement of neighbors and observable correspondence.
+
+**WRRA-specific transformation.** Candidate measurement connections are separated as follows.
+
+| Candidate measurement | Model element to calibrate or discriminate | Joint requirement |
+|---|---|---|
+| Known lengths/times and directional transport delays | Distance scale $d$, shutter interval and directional transport | Keep fixed $c$ and $d=c\Delta t$; do not estimate both scales independently without another reference |
+| Total output and normalized spatial intensity | Preparation $\alpha$, branch amplitudes and relative phases | Include hold/non-output bookkeeping and detector efficiency; port probability is not a cosmic fraction |
+| Interference under controlled phase changes | Relative-phase preparation and combination | Common-phase invariance and incoherent controls |
+| Directional spatial distributions over propagation steps | Axis couplings $q_a$ and neighbor candidates | The same rule across wavelengths and directions |
+| Two-point correlations versus distance and direction | Spatial placement, neighbors and boundaries | State the instrument-coordinate/address map and measurement operators beforehand |
+
+These are measurement-design candidates. The present dimensionless probability array is not identified with a particular detector signal. A physical connection requires preparation apparatus, detector response, efficiency/noise and a state/measurement-operator correspondence. Macroscopic twist calibration requires its own macroscopic observations; the microscopic spatial checks do not replace it.
+
+**Outputs: sensitivities in the same reference model.** Split the Laplacian into three axis terms $L_a$ and use $U(q)=\exp(-i\sum q_aL_a)$. The reference is $q=(1,1,1)$; propagation parameter 1 is dimensionless, not seconds. The relative-phase change is $\theta_j=0.05(2j/69-1)$ radians for $j=0,\ldots,69$. Other inputs are held fixed in each case.
+
+| Change | TV difference of conditional spatial distributions | Relative output-probability change |
+|---|---:|---:|
+| Increase $\alpha$ by 0.05 | 0.0240112 | -6.49488% |
+| Change the branch-relative phase profile | 0.0201592 | +0.330275% |
+| Increase first-axis coupling $q_0$ by 5% | 0.0365469 | 0 within numerical error |
+| Add common phase 0.05 to every branch | At most $2.48\times10^{-16}$ | 0 within numerical error |
+
+TV measures probability-distribution differences, not instrument resolution or experimental significance. Maximum output-plus-hold conservation error was $4.22\times10^{-15}$. Varying first-axis coupling changed its marginal distribution by TV 0.0128442; the other two marginals were unchanged within numerical error. Alternative spatial placements themselves were not compared in this sensitivity calculation.
+
+The example shows why total output alone does not calibrate preparation, phase and propagation together; directional distributions and controlled interference offer additional information. It does not establish joint unique identifiability. A common phase is invisible to intensity. The distance scale $d$ does not occur in the dimensionless intensity of the present $U=\exp(-iL)$, so that intensity alone cannot calibrate $d$ or shutter time. Maintaining $d=c\Delta t$ requires a connection to known length/time observations.
+
+**Procedure after measurement.** Specify preparation, detection and coordinate correspondence first; distinguish calibration observations from observations reserved for checking. Use several observables to infer allowed parameter ranges and combinations that can substitute for each other. Then calculate output, hold and directional distributions under reserved conditions with the same parameters and rules. Known-value reproduction is recorded as consistency and explanatory achievement; any further unmeasured output is recorded with its own calculation path.
+
+**Falsification conditions.** Failure of address, norm, information ownership or inverse-transform conservation; intensity/output changes under only a common phase; failure to reproduce multiple directional/phase measurements with the same calibration within the declared domain; claiming identification of a parameter to which the measurements are insensitive; or equating different neighbor/lattice candidates with the same physical space without an instrument-coordinate map. Mismatches motivate revision of preparation, coupling, geometry or applicability. Measurement tolerances are not fixed without data.
+
+**Assessment.** The achievement is a structural explanation and conditional execution implementation. The supplement specifies measurement-calibration procedures and sensitivity examples. Exact shutter/distance/phase preparation and actual three-dimensional material output require experimental or observational connections. The source is `WRRA_Zeta_Mode_Superposition_v0_2_2026-10-16.zip`, with `calibration/sensitivity.py` and `results.json`. These inherited sensitivities were not rerun for the translation. The dimensionless propagation calculation does not replace the existing photon Hamiltonian, GR/CMB or macroscopic composition results.
+
+
+## 132 Global Positivity of Prime Relations and Its Two-Way Connection to MCC 3.0
+
+**v0.24 subsequent checks.** Section 132.5 integrates the scoped finite-theta/minimum-four-state transport results, exact residual and strengthened growth counterexample. Chapters 133–134 connect that positivity obligation to quality/conservation specifications for a natural-number/zero projector.
+
+### Verified inputs
+
+This chapter connects the 17 October 2026 study *WRRA Prime Relations and Positivity* v0.4, together with its preserved v0.1–v0.3 deductive work, to Chapters 14, 130 and 131. Inputs are the original Gaussian/theta packets, exact integer addresses, reference address 1, the coefficients $a_n=1$ at every address, and the book's existing positive, self-adjoint and relation-preserving constructions. Coefficient transformations that do not assume the Riemann hypothesis (RH) are distinguished from constructions conditional on RH or global positivity. The source is a deductive draft without independent external review; its status is unchanged by this integration.
+
+The series over all natural-number addresses defines a mathematical zeta object. It is not the same execution system as the finite physical SOURCE with $N=1{,}015{,}000$ in Chapters 130–131. An all-degree theorem treats arbitrary finite degree through one argument; it does not assert that the physical universe executes infinitely many tests or an infinite address ledger. Chapter 131 takes zero heights as inputs, whereas the coefficient construction below does not take zero coordinates as inputs.
+
+### WRRA-specific transformation
+
+#### 132.1 Assigning different positivity claims to their proper objects
+
+Chapter 14 constructs Jacobi matrices and self-adjoint operators from a positive spectral density. This is a useful coefficient-to-operator design method. Its spectrum belongs to the specified density, however, and identity with the actual zeta zeros requires a separate proof. The CRT correspondence in Chapter 130 likewise preserves integer-address operations; it does not identify the Laplacian eigenvalues with zeta zeros.
+
+| Object | Established property | Additional connection required |
+|---|---|---|
+| Positive spectral/Jacobi construction, Chapter 14 | Positivity and self-adjointness for the specified measure | Exact correspondence with actual zeta coefficients or functions |
+| CRT and prime Laplacian, Chapter 130 | Address, translation and operator relations | A connection to the zero-location criterion required for RH |
+| Phase-superposition instrument, Chapter 131 | Conserved output-plus-hold norm for declared preparations | A restriction specific to zeta zeros |
+| The two Hankel quadratic forms below | Global targets defined from actual zeta coefficients | Unconditional positivity of both forms at every degree |
+
+The conservation construction of Chapter 131 works for any real list $t_j$. For $C$ branches,
+
+$$
+D_j|n\rangle=e^{-it_j\log n}|n\rangle,
+\qquad K(n)=\frac1C\sum_{j=1}^{C}e^{-it_j\log n},
+\qquad |K(n)|\le1.
+$$
+
+Unitarity of each $D_j$ and the bound follow from real phases and the triangle inequality. Conservation alone therefore neither identifies the input heights as zeta zeros nor places all nontrivial zeros on the critical line. The computed interference patterns and conservation results of Chapter 131 remain intact. A connection to RH requires a further zeta-specific condition.
+
+#### 132.2 From the original coefficients to two global quadratic forms
+
+Fix the source packets and their sum as follows. The variables $u,z$ are mathematical variables, not physical time, distance or energy.
+
+$$
+A_n(u)=\pi n^2e^{2u},\qquad
+K_n(u)=(8A_n(u)^2-12A_n(u))e^{u/2-A_n(u)},
+\qquad K(u)=\sum_{n\ge1}K_n(u).
+$$
+
+The existing theta representation defines
+
+$$
+\gamma_k=\frac{k!}{(2k)!}\int_0^\infty K(u)u^{2k}\,du,
+\qquad
+G(z)=\frac{\xi(1/2+\sqrt z)}{\xi(1/2)}=\sum_{k\ge0}b_kz^k,
+\qquad b_k=\frac{\gamma_k}{k!\gamma_0}.
+$$
+
+The square-root notation is defined through the even Taylor series, so it entails no branch choice. Here $G(0)=1$ and $G$ is a real entire function of order at most $1/2$. Define the logarithmic-derivative coefficients near the origin by
+
+$$
+\frac{G'(z)}{G(z)}=\sum_{k\ge0}(-1)^kc_kz^k.
+$$
+
+Comparing coefficients in $G(G'/G)=G'$ yields an exact recurrence without zero coordinates:
+
+$$
+c_n=(-1)^n(n+1)b_{n+1}
+-\sum_{j=1}^{n}(-1)^jb_jc_{n-j}.
+$$
+
+For every $r\ge0$, form
+
+$$
+H^{(0)}_r=(c_{i+j})_{i,j=0}^{r},\qquad
+H^{(1)}_r=(c_{i+j+1})_{i,j=0}^{r}.
+$$
+
+For this fixed actual $G$, source v0.4 derives an **equivalence between RH and positive semidefiniteness of both families at every degree**. Both conditions are required. Positive individual entries, a single principal determinant and finitely many successful degrees are different claims. The following is an outline; the preserved source gives the full assumptions and proof.
+
+Assuming RH, the zeros of $G$, counted with multiplicity, have the form $-\lambda_\ell$ with $\lambda_\ell>0$. The product representation for an entire function of order $<1$ yields
+
+$$
+c_k=\sum_\ell\lambda_\ell^{-k-1}.
+$$
+
+For every real polynomial $p(t)=\sum q_it^i$, the two quadratic forms become
+
+$$
+q^TH^{(0)}_rq=\sum_\ell\lambda_\ell^{-1}p(\lambda_\ell^{-1})^2,
+\qquad
+q^TH^{(1)}_rq=\sum_\ell\lambda_\ell^{-2}p(\lambda_\ell^{-1})^2.
+$$
+
+Using this zero-based sum of squares as an unconditional proof of RH would be circular.
+
+Conversely, assume both positivity conditions. Set $\mathcal L(t^k)=c_k$ and $\langle p,q\rangle=\mathcal L(pq)$, quotient by zero-length polynomials, and define multiplication $T[p]=[tp]$. This operator is symmetric and positive. Exponential coefficient bounds from local analyticity of $G'/G$ allow its extension to a bounded self-adjoint operator. With $e=[1]$,
+
+$$
+c_k=\langle e,T^ke\rangle,\qquad
+\widetilde m(z)=\langle e,(I+zT)^{-1}e\rangle.
+$$
+
+Positive spectrum and analytic continuation exclude zeros of $G$ outside the negative real axis. The identity $\xi(1/2+w)=\xi(1/2)G(w^2)$ then returns RH. This $T$ is **conditional on the two global positivity assumptions**. It is not identified with the operator of Chapter 14 or a physical Hamiltonian. The integration connects the source's coefficient transformation and two-way argument to MCC 3.0; it does not prove the actual two positivity conditions. It uses the classical Grommer–Chebotarev/Hankel zero-criterion lineage and does not claim the first discovery of a new criterion.
+
+#### 132.3 Positive raw moments do not imply positivity of the relation coefficients
+
+An exact counterexample in v0.4 shows that a positive even measure does not automatically supply both conditions. Let a positive random variable $Y$ have values and probabilities
+
+$$
+y_\pm=\frac{21\pm3\sqrt{19}}5,
+\quad
+w_- =\frac{11+3\sqrt{19}}{6\sqrt{19}},
+\quad w_+ =\frac{3\sqrt{19}-11}{6\sqrt{19}},
+$$
+
+and choose $U=\pm\sqrt Y$ symmetrically. The first coefficients of $G_*(z)=\mathbb E\cosh(\sqrt z\,U)$ are
+
+$$
+(b_1,b_2,b_3,b_4)=\left(1,\frac14,\frac1{25},\frac{123}{28000}\right).
+$$
+
+The same recurrence gives
+
+$$
+(c_0,c_1,c_2,c_3)=\left(1,\frac12,\frac{37}{100},\frac{234}{875}\right),
+\quad \det H^{(0)}_1=\frac3{25}>0,
+\quad \det H^{(1)}_1=-\frac{223}{70000}<0.
+$$
+
+Thus positive raw moments and the displayed positive $c_k$ do not imply both global quadratic-form conditions. This is neither the actual theta kernel nor a counterexample to RH. It gives a precise boundary on importing the positive measure of Chapter 14 into the RH problem and focuses the search on additional zeta relations needed for an unconditional sum of squares.
+
+#### 132.4 Conditions returned from the RH study to SOURCE interpretation
+
+The v0.2 uniqueness argument works with a fixed integer lattice, Gaussian/theta packets, polynomial growth and $a_1=1$. Under those assumptions, cancellation of every odd boundary derivative forces all $a_n=1$. This offers an explanation of the original coefficient choice within that construction. It does not automatically apply to arbitrary SOURCE lattices, different packets or physical address allocation. Coefficient uniqueness and reality of all zeros remain distinct propositions.
+
+In a comparison family allowing positive completely multiplicative prime-weight deformations, v0.3 constructs nontrivial deformations preserving any finite address prefix and selected finite boundary derivatives and moment coefficients exactly. This gives a deductive boundary on replacing an all-degree conclusion by more finite tests. It does not preserve every physical observable or the 70 input zeros of Chapter 131, and it is not a counterexample for actual $a_n=1$. Measurement calibration, fixed rules and finite reproduction in MCC 3.0 retain their explanatory value within their declared scopes. Justification of a global generating rule is tracked through a separate general argument.
+
+| Symbol | Owning layer | Identification not licensed here |
+|---|---|---|
+| $a_n=1$ | Coefficients of the original theta address sum | Equal physical address probabilities |
+| $w_n\propto n^{-\alpha}$ | Existing calibrated SOURCE sampling/resource weights | A change to the theta coefficients |
+| $e_P(n),e_D(n),e_R(n)$ | Sector admission and return effects | Logarithmic-derivative coefficients or Hankel entries |
+| $c_k$ | Mathematical relation coefficients of actual $G'/G$ | Undefined physical mass, dimension or time identifications |
+
+#### 132.5 Paths Narrowed by Subsequent Checks and the Remaining Residual
+
+**v0.24 update — follow-up work of 17 October 2026.** After the two conditions of v0.4, the studies examined finite actual-theta block certificates, common-carrier/Jacobi reduction, a duplication audit and strengthened counterexamples. The current ledger distinguishes source-reported achievements from checks rerun for this edition.
+
+| Stage | Established scope | Remaining connection |
+|---|---|---|
+| v0.1–v0.3 prime relations and compensation | Necessity/uniqueness of original coefficients; exact finite compensation | Actual all-degree positivity |
+| v0.4 two global forms | RH equivalence of the two logarithmic-derivative Hankel conditions | Unconditional proof of both conditions |
+| Subsequent actual-theta/Core applications | Source rational certificate $H^{(0)}_3>0$ and finite transport of $c_0,\ldots,c_6$ | A theorem extending finite certificates to the actual whole function |
+| Carrier reduction and duplication audit | Minimum four states in the specified linear-resolvent class; three-step stripping and exact residual | Global analyticity and sign of the actual residual |
+| Growth strengthening v0.8 | A separate kernel showing insufficiency of zeta-like growth, symmetry and scalar inequalities | Positivity from exact theta modular/integer relations |
+| Hologram/focus objective | Generation, interference, visibility and common-compensation specifications in 133–134 | Positive conservation for actual zeta and a physical readout |
+
+From rank four of $H^{(0)}_3$, the carrier study derives a lower bound of four states for a scalar linear-resolvent representation $c_k=v^TA^ku$ reproducing the first seven coefficients. It constructs a positive real-symmetric four-state surrogate attaining that bound. The last diagonal is a finite-reproduction choice, not the actual next zeta coefficient. This is a concrete finite connection with Chapter 14, not a minimality theorem for all nonlinear computations or physical dimensions.
+
+The source also defines an exact residual $R_3(w)$ after three continued-fraction stripping steps on the actual logarithmic derivative. Proving that this actual residual is analytic throughout the upper half-plane with nonpositive imaginary part would connect to zero exclusion; both properties remain unproved. This $R_3(w)$ is not the permission residual of Chapter 130 or a physical residue. Replacing it by an arbitrarily simple positive function creates a different surrogate. The duplication audit records the reduction as an additional finite representation and scoped minimality application, not a new proved global inequality.
+
+The growth study uses the separate kernel, with fixed $\epsilon=10^{-12}$,
+
+$$
+K_\epsilon(u)=e^{-2u^2-\epsilon(\cosh(2u)-1-2u^2)}
+(1+u^2)(15+u^2+u^4).
+$$
+
+The source derives positivity, evenness, analyticity, cancellation of every odd boundary derivative, $\exp(2u)$-type double-exponential decay, exact order $1/2$ of the normalized transform, and all specified scalar Turán inequalities. Nevertheless, for the same logarithmic-derivative construction, $H^{(0)}_2$ and $q=(0,-1/20,1)^T$ satisfy
+
+$$
+q^TH^{(0)}_2q<-\frac1{200000000}<0.
+$$
+
+The rational-interval program propagating a whole-half-line moment error bound was rerun and confirms this sign. The kernel is not asserted to satisfy actual theta modularity or the Gaussian integer-address sum. This excludes automatically deriving positivity from **generic zeta-like growth and symmetry conditions**, while leaving exact theta arithmetic structure available. It is not a counterexample to actual zeta or a disproof of RH.
+
+The subsequent projector objective does not replace this gap with new terminology. It specifies inputs, outputs, quality and common compensation as an explanatory connection, while separately tracking whether a new actual global inequality has been proved. Full proofs, the duplication audit and finite certificates are preserved in the [growth-strengthening source](evidence/projector_focus_2026_10_17/WRRA_RH_Growth_Order_Half_Barrier_v0_8_2026-10-17.zip) and its nested history. The original theta integration and all previous certificates were not rerun for this edition.
+
+
+### Outputs and checks in this edition
+
+The new connection is **integer theta coefficients → logarithmic-derivative relation coefficients → two global positivity targets → conditional self-adjoint realization → the structure/readout distinction in MCC 3.0**. The rational-arithmetic check from v0.4 was executed, confirming the $b,c$ recurrence and the determinants $3/25$ and $-223/70000$. Source hashes were checked and the original ZIP, including v0.1–v0.3, is preserved. This finite algebraic check does not replace external review of the full deductive argument or establish RH. No new zero scan, GR/CMB run or composition calculation was performed.
+
+### Falsification conditions
+
+1. The theta integral, $b_k$ normalization and $c_k$ recurrence disagree under the same conventions.
+2. Under the source assumptions, an analyticity, growth or domain step in uniqueness, exact compensation or the conditional operator argument fails.
+3. A finite real vector gives a negative value in either quadratic form for the actual zeta coefficients. This refutes the corresponding positivity claim and, if the stated equivalence holds, connects to the RH verdict.
+4. Conservation valid for arbitrary real phases is reported as a zeta-specific zero restriction, or an RH-conditional sum of squares is fed back as a proof of RH.
+5. Theta coefficients, physical weights and sector effects are conflated, or the finite physical SOURCE is identified with the full mathematical address object.
+
+### Assessment and next connection
+
+The present achievement is an exact common question and a conditional operator connection between the two studies. The next mathematical target is to derive $\mathcal L(p^2)\ge0$ and $\mathcal L(tp^2)\ge0$ directly from the original theta/integer relations for arbitrary polynomials $p$. A common positive representation without zero inputs or extrapolated finite Cholesky success is still missing. Actual all-degree positivity and RH remain open. They are not made prerequisites for the legitimacy of the physical model; the structural explanations, known-value reproductions and conditional predictions of MCC 3.0 retain their stated achievements.
+
+The preserved [R1 source ZIP](evidence/riemann_connection_2026_10_17/WRRA_Prime_Relation_Bezout_Positivity_v0_4_2026-10-17.zip) includes `DEDUCTIVE_PROOF_KO.txt`, `exact_check.py` and `prior_v0_3.zip`. For the classical lineage, see Baricz–Štampach, *The Hurwitz-type theorem for the regular Coulomb wave function via Hankel determinants*, Linear Algebra and its Applications 548 (2018), 259–272, [arXiv:1708.07729](https://arxiv.org/abs/1708.07729). That paper supplies background on the criterion; it is not treated as validation of WRRA physics.
+
+
+## 133 A Natural-Number SOURCE and the Common Image Replayed by All Zeros
+
+**v0.25-r3 classification boundary.** Preserve all-natural generation, prime/even-composite/odd-composite sector readout and Chapter 130 prime-power folding as distinct classifications. Section 135.13 uses “2.5-dimensional transition number” as a singly even interface-role label, not a replacement for either classification or physical spatial axes. For example, 9 belongs to the odd-composite sector but the prime-power folding class; 6 belongs to the even-composite sector but has distinct-prime-factor folding.
+
+### Verified inputs
+
+This chapter integrates *All-Natural / All-Zero Common-Image Projector*, Core 2.1 application v0.11, and two preceding objective studies. The design input is to **interpret zeta as a projector replaying natural-number relations, with all zero components interfering at the same image coordinate**. This purpose is accepted as a model-design input. Zeta, completed $\xi$, the Euler product and explicit formulas are mathematical inputs for examining that interpretation. A physical intention of the zeta function is not assumed as an observed fact.
+
+“One coordinate” does not put all zeros at the same complex location. Contributions from different zeros $\rho=\beta+i\gamma$ combine at the same readout coordinate $x$, or $u=\log x$. A common real part is compatible with different imaginary parts; phases need not coincide everywhere. The finite CRT spatial output of Chapter 131 and the arithmetic image below are different readout objects.
+
+### WRRA-specific transformation
+
+#### 133.1 Preserving generation, selection and readout as separate layers
+
+All natural numbers belong to the source. Primes and unique factorization provide a common generating structure. For $\Re s>1$,
+
+$$
+\zeta(s)=\sum_{n\ge1}n^{-s}=\prod_p(1-p^{-s})^{-1}.
+$$
+
+An odd-composite output mask can be placed after that structure. If $\mathcal C$ is the odd-composite set and $P_{\rm odd}$ is the odd-prime sum, then in the same convergence domain
+
+$$
+D_{\mathcal C}(s)=\sum_{n\in\mathcal C}n^{-s}
+=(1-2^{-s})\zeta(s)-1-P_{\rm odd}(s).
+$$
+
+This coefficient projection is a different function from zeta. A separate Core 2.1 objective study also constructed an odd-composite-supported readout preserving the original nontrivial zeros, using a dominated zero-free factor and positive Dirichlet convolution. An even-composite control can preserve the same zeros. Thus the zero set alone does not determine a unique output objective. The earlier odd-composite-only mask is not imposed on the present all-natural-source objective.
+
+This does not discard phenotype selection in MCC 3.0: the full generating source and a selected final phenotype occupy different layers. The prime-symmetric folding classes of Chapter 130, inherited cosmic-sector branches and the odd-composite objective renderer retain their respective rules. The new objective is not retroactively inserted into existing classification or composition calculations.
+
+Core 2.1 is applied here to distinguishing inherited structure $G$, current preparation/output $X$, accessible records $R$, finite resources $B$ and the change/verification ledger. The execution-permission Boolean is not identified with a zeta zero or image intensity. The Core text and a complete resource monitor are not newly implemented here.
+
+#### 133.2 An actual arithmetic readout combining zeros at the same coordinate
+
+The standard zero-component connection uses a logarithmic derivative:
+
+$$
+-\frac{\zeta'(s)}{\zeta(s)}=\sum_{n\ge1}\frac{\Lambda(n)}{n^s},
+\qquad \Re s>1.
+$$
+
+Here $\Lambda(n)=\log p$ is nonzero only when $n=p^k$. The direct arithmetic image is therefore a prime/prime-power weighted distribution, rather than an equally bright image of every natural number. Generating natural numbers by multiplicative closure from that prime structure is distinguished from the direct linear zero sum.
+
+Define $\psi_0(x)$ by averaging the left and right limits at a jump. For $x>1$, the explicit formula is
+
+$$
+\psi_0(x)=x-\lim_{T\to\infty}\sum_{\substack{\rho\text{ nontrivial}\\|\Im\rho|\le T}}
+\frac{x^\rho}{\rho}
+-\log(2\pi)-\frac12\log(1-x^{-2}).
+$$
+
+Zeros are counted with multiplicity and summed in the standard symmetric height-truncation order, not as an arbitrarily reordered absolutely convergent sum. Background $x$, the constant and trivial-zero correction also belong to the reconstruction. This applies a known explicit formula to WRRA's generation/common-carrier/phenotype relationship; it is not a first-discovery claim.
+
+Subtract those corrections and divide by the common scale $e^{u/2}$:
+
+$$
+Y(u)=e^{-u/2}\left[\psi_0(e^u)-e^u+\log(2\pi)
++\frac12\log(1-e^{-2u})\right],\qquad u>0,
+$$
+$$
+Y(u)=-\lim_{T\to\infty}\sum_{|\Im\rho|\le T}
+\frac{e^{(\beta-1/2)u}e^{i\gamma u}}{\rho}.
+$$
+
+This gives a precise arithmetic connection for “many zeros interfere at one image coordinate.” The real part $\beta$ controls compensated amplitude gain, while $\gamma$ controls oscillation in the logarithmic coordinate. The variable $u$ is not declared to be physical time or meters. Arbitrary three-dimensional material images have not been reconstructed at this step.
+
+#### 133.3 Finite reconstruction versus intensity readout
+
+The phase identity $\log n=\sum_pv_p(n)\log p$ transports multiplicative prime relations into phase addition. For finitely many distinct addresses, complex-amplitude readout gives a Vandermonde matrix invertible at every real $\sigma$. Noiseless finite reconstruction alone therefore does not uniquely select $1/2$. Intensity-only readout removes common phase and combines equal-ratio cross terms: $27/9=45/15=3$ yields the same beat frequency. Reconstruction requires an explicit complex reference, phase information or additional observables.
+
+The preceding result that the infinite odd-composite squared-amplitude sum for $n^{-\sigma}$ converges precisely for $\sigma>1/2$ is retained. The upper comparison uses the all-integer $p$-series; the lower comparison uses odd multiples of 9. It diverges at the boundary $1/2$, while finite SOURCE sums do not. This is a scalability statement for specified amplitudes and norm, not an automatic derivation of zeta-zero locations or physical energy units.
+
+### Outputs and checks
+
+The connection is **prime generation of all natural numbers → fixed zeta → logarithmic derivative and explicit formula → zero-component synthesis at a common logarithmic coordinate → arithmetic image**. The earlier finite odd-composite code was rerun, confirming the $N=1000$ projection and Euler construction: 332 odd composites among 500 odd addresses were regenerated exactly, and the equal-ratio collision was checked. No new actual zero list or numerical reconstruction of the infinite explicit-formula sum was performed. Chapter 131's 70-zero CRT image remains a separate executed example.
+
+### Falsification conditions
+
+Incorrect signs, residue weights, background terms, trivial-zero corrections, multiplicities or truncation order invalidate the stated correspondence. Moving or deleting zeros/weights while reporting the same function changes the construction. Substituting the original $\Re s>1$ Dirichlet series as a convergent critical-strip sum is also invalid. Claiming recovery of intensity-invisible phases, or identifying an arithmetic image with an actual three-dimensional image without a spatial/measurement map, exceeds this readout.
+
+### Assessment and sources
+
+The projector interpretation now connects the natural-number source to a common-coordinate zero synthesis. Chapter 134 specifies separate quality functions for what it means to focus that projector and make its image clear. The original [common-zero image source](evidence/projector_focus_2026_10_17/WRRA_All_Natural_Zero_Interference_Core21_v0_11_2026-10-17.zip), [odd-composite image source](evidence/projector_focus_2026_10_17/WRRA_Odd_Composite_Hologram_Core21_v0_10_2026-10-17.zip) and the clarity source cited next are preserved. Mathematical background includes Adam J. Harper's [Zeta Lecture Notes 1, Section 2 and Theorem 6.5](https://warwick.ac.uk/fac/sci/maths/people/staff/harper/zetacoursenotes1.pdf), NIST DLMF 27.4 and Valerio De Angelis's [explicit-formula exposition](https://vdeangel.xula.edu/Notes/PNT.html).
+
+
+## 134 Projector Focus, Clarity and Minimum Mode Cost
+
+### Verified inputs
+
+The design objective is to maximize clarity in a projector using all natural-number source modes. This chapter uses the purpose and quality definitions of *All-Natural Projector and Maximum Clarity*, Core 2.1 application v0.1, and common-zero image v0.11. “Focus” first means **the balance point of complementary amplitudes and the center of common gain compensation**. Lens focal length, point-spread functions and sensor resolution are separate physical observables that have not been measured here.
+
+The objective specifies what is optimized. Its achievement and whether actual zeta implements the required transport are separate questions. The following algebra applies to the whole declared class of finite modes, rather than extrapolating numerical samples.
+
+### WRRA-specific transformation
+
+#### 134.1 Reading two complementary channels at the same address through visibility
+
+Declare positive amplitudes for two channels sharing address $n$ and the same scene-coefficient owner:
+
+$$
+a_n=n^{-\sigma},\qquad b_n=n^{-(1-\sigma)},\qquad 0\le\sigma\le1.
+$$
+
+Varying relative reference phase $\phi$ gives
+
+$$
+I_n(\phi)=a_n^2+b_n^2+2a_nb_n\cos\phi,
+$$
+$$
+V_n=\frac{I_{n,\max}-I_{n,\min}}{I_{n,\max}+I_{n,\min}}
+=\frac{2a_nb_n}{a_n^2+b_n^2}
+=\frac1{\cosh((2\sigma-1)\log n)}.
+$$
+
+Interference visibility $V_n$ is the operational clarity definition here. It requires address-resolved readout, or orthogonal modes with calibrated reference phases. Coherent instantaneous pixel intensity is not replaced by the sum of squared mode amplitudes. Address 1 is a fixed-phase reference and, since $\log1=0$, cannot discriminate focus.
+
+#### 134.2 Maximum visibility and minimum cost choose the same center
+
+The product $a_nb_n=1/n$ is fixed, whereas
+
+$$
+a_n^2+b_n^2=\frac2n\cosh((2\sigma-1)\log n)\ge\frac2n.
+$$
+
+For $n>1$, equality occurs only at $\sigma=1/2$. Thus $1/2$ simultaneously maximizes visibility and minimizes the squared-amplitude sum for the same cross signal. For positive mode weights $w_n$ and finite $N$,
+
+$$
+E_N(\sigma)=\sum_{n\le N}w_n(a_n^2+b_n^2),\qquad
+S_N=2\sum_{n\le N}\frac{w_n}{n},\qquad V_N=\frac{S_N}{E_N},
+$$
+$$
+E_N(\sigma)\ge E_N(1/2)=S_N,\qquad V_N(\sigma)\le V_N(1/2)=1.
+$$
+
+The optimum is unique if at least one $n>1$ mode is active. Scene intensity $|c_n|^2$ may be included in $w_n$. In this sense, focus $1/2$ is a **maximum-visibility/minimum-mode-cost balance for the same cross signal**. This is not energy in joules or a minimum of the whole universe's or CPU's cost.
+
+Changing the complementary exponent sum from 1 to $2\alpha$ changes the optimum to $\alpha$. The single-channel finite diagonal reconstruction condition number $N^\sigma$ instead has its minimum at $\sigma=0$. Hence $1/2$ comes from the specified channels, complementarity and quality definition, rather than the word “clarity” alone.
+
+#### 134.3 A direct control with actual completed zeta
+
+The completed function satisfies $\xi(s)=\xi(1-s)$. Applying the same visibility definition to the two whole-output magnitudes gives
+
+$$
+V_\xi(s)=\frac{2|\xi(s)||\xi(1-s)|}{|\xi(s)|^2+|\xi(1-s)|^2}=1
+\quad(\xi(s)\ne0).
+$$
+
+At a zero it is undefined as $0/0$. This quality does not distinguish the critical line from its exterior. Additional structure is needed to transfer the complementary-mode optimum into exclusion of actual off-line zeros. Likewise, a designed output $Y_s=T+\xi(s)B$, with target image $T$ and unwanted component $B$, has zero error at every $\xi$ zero. A hypothetical off-line zero has the same quality, so fidelity alone does not imply RH. Conversely, if total output itself is proportional to $\xi$, a zero can be dark output. The target, reference, signal and noise owners determine what “clear at a zero” means.
+
+#### 134.4 An optimal common focus differs from distortion-free transport of every component
+
+With common compensation center $c$, the gain of a Chapter 133 zero component is
+
+$$
+g_{\rho,c}(u)=e^{(\beta-c)u}.
+$$
+
+Here $c$ is a dimensionless center, not the speed of light. For a finite mode set and bidirectional logarithmic shift window $|u|\le L$, the worst gain is
+
+$$
+\mathcal G_L(c)=\exp\!\left(L\max_\rho|\beta-c|\right).
+$$
+
+The arithmetic image is defined for $u>0$; the bidirectional window is a separate stability contract for reversible expansion/contraction transport. Real-part symmetry about $1/2$ makes $1/2$ the optimal common center. It does not place every real part at that center.
+
+An exact control uses synthetic values $\beta=1/4,3/4$, not actual zeta zeros, with $L=4\log2$:
+
+| Common center $c$ | Worst gain |
+|---|---:|
+| $1/4$ | 4 |
+| $1/2$ | 2 |
+| $3/4$ | 4 |
+
+Focus $1/2$ is optimal but residual amplification remains. At that center, endpoint gains 2 and $1/2$ have product 1 but mean $5/4$. Symmetric amplification/attenuation is different from distortion-free transport of each component.
+
+A stronger specification gives a conditional connection. On a finite zero-mode space, define
+
+$$
+(T_c(a)v)_\rho=e^{(\beta-c+i\gamma)a}v_\rho.
+$$
+
+The **existence of a fixed positive inner product preserving norm for every coefficient vector and every logarithmic shift** is equivalent to **$\beta=c$ in every mode**. A single basis vector proves necessity for a positive diagonal weighted norm. For a general positive definite metric $W$, the generator condition $A^*W+WA=0$ has diagonal entries $2(\beta_j-c)W_{jj}$, giving the same necessity. Conversely, if $\beta=c$, a diagonal metric gives pure-phase transport. A previously chosen arbitrary nondiagonal $W$ is not automatically preserved.
+
+For all actual zeros, this is a route conditional on constructing and proving a positive conserved inner product with common compensation $c=1/2$. The purpose “maximum clarity” does not establish that conservation by itself. Individual exponential gain compensation can make arbitrary $\beta$ purely oscillatory, but its additional structure/cost must be recorded and the common-compensation premise changes.
+
+### Outputs and execution
+
+The complementary-mode calculation was rerun at $N=16,128,1000$, including every address. Square roots are enclosed with integer `isqrt` in 160-bit outward rational intervals; decimals are summaries. For $N=1000$ and $w_n=1$:
+
+| $\sigma$ | Mode cost $E_N$ | Visibility $V_N$ |
+|---|---:|---:|
+| 0 | 1001.643934567 | 0.0149463708654 |
+| $1/4$ | 64.3501543682 | 0.232648108899 |

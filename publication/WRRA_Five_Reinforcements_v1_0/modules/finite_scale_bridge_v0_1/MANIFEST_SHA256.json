@@ -1,0 +1,16 @@
+{
+  "README.md": "6a4ef1eb71e7f3fd76d8180011c1a9a188ab53380d60ea52a911869b567719bc",
+  "REPORT_EN.md": "9af01111c8b1592dc824d1307c9158ee70c54a0ed4c0a2f8ee307f5665c5cdd1",
+  "REPORT_KO.md": "d5b3f071007c0cdc8941a2fd16d1878c51d6a6863a66059ca512bdc4cdd3f497",
+  "actual_source_receiver.csv": "6e49b563ce5a7be6a54c39d56b3533420135e3f34b7e9480442eedeb8da1ab98",
+  "compute.py": "f7c10b9b911c8a622173aca4482ce0e97af9e7a10a007110d292b336c9d21f3e",
+  "independent_verification.json": "245a70023691e90aba02c06fd61ca1e5e5404d2072738e7f21c4cc3bb6283509",
+  "inputs_manifest.json": "87d58f1d1d7c84ab85d2c0249b31db4c2d7c98275d146eedd783d5e6cd6cc261",
+  "payloads.json": "7db4b80493ac30f218b64c84a7e583b2cba73f7fb5663ab84d40d85bdc2c52b6",
+  "reference_profiles.npz": "efccc06728bcef3680d21274d538e039ee1bf1c53aaf2c258714027c05d15eff",
+  "refinement.csv": "424391dfc574d38a10ffcf06dfed51e0944b623a1d6a1bf1484bfcd57ec88915",
+  "results.json": "6bb1d022b8b117266a45b5c8c3cb1ad6b98683643138701e1b6f1b360e2674e6",
+  "source_coarse_graining.csv": "0f7f6d9fa9fcc4da9182f33d15417f388b39253b5e28095699e2b58614bbca28",
+  "spectral_coarse_transport.csv": "42592e32ec5d468b283c6abc9054464626767c8781734f1788f906308b9ce595",
+  "verify.py": "bcd29dc53d6d74a3acd7c0c8b8ff6469d336c7c2e5dbe6c0ce4dbb37ce5e81fa"
+}

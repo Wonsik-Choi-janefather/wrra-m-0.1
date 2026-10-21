@@ -1,0 +1,15 @@
+{
+  "shared_gravity_results.json": {
+    "origin": "wrra/submission/information_gravity_mechanism_v0_2/inputs/shared_gravity_results.json",
+    "sha256": "56f62a1333e31c72340fb94df66b847522fc6bdf3be364ef91844e98a538a9bd"
+  },
+  "matched_RAR_results.json": {
+    "origin": "wrra/submission/information_gravity_mechanism_v0_2/results.json",
+    "sha256": "b2c1fc742b698ae8800c7fb0047f00521b29057397de34ba4ab6abcfdf669d74"
+  },
+  "original_twist_excerpt.md": {
+    "origin": "wrra/mcc_3_0/book_v0_27/MCC_3_0_Full_Book_EN_v0.27-r1.md",
+    "original_book_sha256": "c8258ec70ec8141d9f9dbe8a6a12b02b35b5e092e4c2faf130901a90a0302b9b",
+    "sha256": "8e0d11bc87f0d41439cf5549762643b5ed4d59dec7ecde062a69fe22ba1d829c"
+  }
+}

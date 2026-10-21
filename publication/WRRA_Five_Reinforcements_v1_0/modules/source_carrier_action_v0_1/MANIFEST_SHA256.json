@@ -1,0 +1,21 @@
+{
+  "README.md": "e8f08b1c7cd428411841732f90ca48960ca5e1be06a6b25d246d8bf944d96a0a",
+  "REPORT_EN.md": "638416cf7203066f36f48df6b1ecd835dccd9a09f94f8ee48ac0fd286864ba7a",
+  "REPORT_KO.md": "c67bfe05f4029b8c6a77ab5e6308911fcdcd2757f548fe7d1a28b706b0d16f11",
+  "compute.py": "cb0a2da2b0bd50e8597a2bfa787c5c06cb7059e0c86ea339f164cfde26dda49e",
+  "continuous_exchange.csv": "6d078d714d2eaf533c4c0b6be279dc34d4f3724cabd9ab6aa27e93c79c1fb932",
+  "coupled_time_history.csv": "7d1b3f3d90bb0de473e4e4654bb67306def1610163873c5afc169d6e413eba4d",
+  "dense_verification_input.npz": "f96e5fc6b16166bbb3234053fbb926fbcfdc2259963a727fe57f9d4531da2ece",
+  "endpoint_record_profiles.npz": "beebcc4a23e237b7fd3f29868249880692690a567baf1cd54209547b859e1fd4",
+  "existing_materials_audit.json": "f2e34b65d9d654a211a6d1c4878a399294dc1bce67196a9591df97c741f74bcf",
+  "independent_verification.json": "52bccf5ab8eefb855ea6ea335dd1a890671a5345120d1b40f14419f71a94b24d",
+  "input_manifest.json": "b1002d6955162e93d93757edc1614deb07cabc1d36e0c004486160f75b034cd9",
+  "inputs/finite_registers.npz": "649cde7f7a793759660ee63905f55e6808edb76db82934d6ccbb274248883f56",
+  "inputs/original_frame_run.py": "f0c9455098e4c5ce248bf3dd8d9b79fa7aa8b97d26a6bdca0091e3b86924626b",
+  "inputs/original_spectral_bridge.py": "5a373e124fcf1295b69d3183fbbc5f48a63d72b17c197bd1ef2d518ec388e532",
+  "inputs/parent_payload_provenance.json": "87d58f1d1d7c84ab85d2c0249b31db4c2d7c98275d146eedd783d5e6cd6cc261",
+  "inputs/payloads.json": "7db4b80493ac30f218b64c84a7e583b2cba73f7fb5663ab84d40d85bdc2c52b6",
+  "resolution.csv": "29cc1c3099a6cbf360aabdcf38a4cf677fa2170600c581377e0e8093fe5ff2f1",
+  "results.json": "097ebd4bb4cd24e0d7fe6abbe8ed5bcbc449ad1ea97ed156979fb5fa7bf0daed",
+  "verify.py": "9f0314d1be8cc7c2ce2f1b2b8861b09c75153e106fbf73273162014898d18b21"
+}

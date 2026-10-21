@@ -1,0 +1,31 @@
+name,scope,role,nominal,real_dimension_if_independently_released,depends_on,note
+address_shares,book reference calibration,normalized calibration targets,"0.05,0.268,0.682",2,,"Three numbers, two independent components."
+alpha_and_h,book reference calibration,historically fitted coordinates,"1.8996877935161325,1.4476744689338703",2,address_shares,Do not add these again to the target-coordinate count.
+energy_shares,book reference calibration,normalized calibration targets,"0.0493,0.265,0.6857",2,,Distinct from address shares.
+H0,book reference calibration,inherited model-dependent cosmology anchor,67.4 km/s/Mpc,1,,"Adopted Planck base-LCDM reference, not a newly derived exact constant."
+ucrit,book reference calibration,derived,3 H0^2 c^2/(8 pi G),0,H0,
+eta_sector,book reference calibration,derived calibrated coefficients,ucrit F_s / mu_ref_s,3,"ucrit,energy_shares,alpha_and_h",Three coefficients; no extra independent inputs when calibration equations are enforced. If released separately they add freedom.
+L_H_C,SOURCE,discrete construction choices,"500,29,70",0,address_shares,Discrete model choices remain in the ledger despite no continuous dimension.
+N_SOURCE,SOURCE,derived candidate,L*H*C=1015000,0,L_H_C,Not an additional independent capacity parameter.
+admission_xi,admission,fixed constitutive coefficient,0.1,1,,Frozen does not mean derived; fitting it later is a model revision.
+frame_count,admission,discrete architecture,8,0,,
+load_weight_slopes,load readout,fixed constitutive coefficients,"0,0.25,0.1",2,,Two nonzero sector choices in this inherited family; not a new fit here.
+RAR_kappa,shared gravity,fixed constitutive coefficient,1/8,1,,Not a redefinition of geometric twist kappa.
+gate_hazard,shared gravity,fixed gate normalization,1,1,,If released it changes a_eff through hazard^-2; cannot estimate separately from aT using local RAR alone.
+aT,shared gravity,derived,c H0 sqrt(kappa fD),0,"H0,RAR_kappa,eta_sector",
+Plummer_M_and_b0,local gravity diagnostic,specified source,"6e10 Msun,3 kpc",2,,"Scenario inputs. If estimated from galaxy observations they are nuisance/source freedoms, not automatically zero."
+radius_impact_patch,local gravity diagnostic,observation/boundary settings,"8.2,10,200 kpc",3,,Changing the patch changes the conditional lens observable.
+gravitational_slip,local gravity diagnostic,fixed receiver condition,Phi=Psi,1,,Free slip introduces an additional lens response freedom.
+tau,zeta physical readout,inherited dimensional calibration,1.481301966415863e-21 s,1,,Not part of the five reference-chain anchor components.
+edge_d,zeta physical readout,derived,c*tau,0,tau,Do not fit d and tau as independent scales while enforcing this relation.
+zero_heights,zeta readout,fixed mathematical data,first 70 positive heights,70,,70 potential coordinates only IF independently retuned; currently no fitted height parameters.
+CRT_shape,zeta readout,discrete geometry choice,"213,65,77",0,,A different neighbor graph is a different candidate.
+combining_ray,zeta readout,fixed branch-blind pure port,uniform,138,,General CP^69 has 138 real dimensions IF the branch-blind contract is removed.
+carrier_density,quantum state,fixed/specified state,128 dimensional register,16383,,Arbitrary density matrix dimension 128^2-1 is not 16383 active fitted parameters. Pure-state family would have 254.
+eta_coherence,zeta instrument extension,test or future instrument nuisance,exp(-s^2),1,,One effective coordinate; do not count eta and s independently.
+efficiency,zeta instrument extension,future instrument nuisance,common energy-independent efficiency,1,,Unknown efficiency and eta are two coordinates in the diagnostic extension; generated examples are synthetic.
+driven_control_law,zeta drive,fixed functional architecture,H0+U0 B U0dagger,0,,Zero fitted coordinates here does not make the physical clock/controller derived or cost-free.
+c_hbar_G,shared physical anchors,verified inherited constants,fixed SI convention/values,0,,Shared physical anchors must be treated symmetrically for comparison theories.
+CMB_As_ns_tau_reio,inherited CMB completion,fixed calibrated spectral inputs,"2.1e-9,0.9649,0.0544",3,,Read from actual run_camb.py; not derived by the local reference-chain audit. Reionization optical depth differs from shutter time.
+CMB_mnu_Neff,inherited CMB completion,fixed physical/reference inputs,"0.06 eV,3.044",2,,Not hidden or counted as new observational fits here.
+CMB_temperature,inherited CMB completion,measured physical anchor,2.7255 K,1,,Supplied to the inherited CAMB run; included for symmetric comparison accounting.

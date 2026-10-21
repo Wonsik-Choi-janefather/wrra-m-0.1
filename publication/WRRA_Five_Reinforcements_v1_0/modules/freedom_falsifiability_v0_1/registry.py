@@ -1,0 +1,41 @@
+"""Scoped provenance registry. It is deliberately not summed into one global k."""
+from pathlib import Path
+import json,csv
+P=Path(__file__).resolve().parent
+rows=[]
+def add(name,scope,role,nominal,dim,deps='',note=''):
+ rows.append(dict(name=name,scope=scope,role=role,nominal=nominal,real_dimension_if_independently_released=dim,depends_on=deps,note=note))
+add('address_shares','book reference calibration','normalized calibration targets','0.05,0.268,0.682',2,note='Three numbers, two independent components.')
+add('alpha_and_h','book reference calibration','historically fitted coordinates','1.8996877935161325,1.4476744689338703',2,'address_shares','Do not add these again to the target-coordinate count.')
+add('energy_shares','book reference calibration','normalized calibration targets','0.0493,0.265,0.6857',2,note='Distinct from address shares.')
+add('H0','book reference calibration','inherited model-dependent cosmology anchor','67.4 km/s/Mpc',1,note='Adopted Planck base-LCDM reference, not a newly derived exact constant.')
+add('ucrit','book reference calibration','derived','3 H0^2 c^2/(8 pi G)',0,'H0')
+add('eta_sector','book reference calibration','derived calibrated coefficients','ucrit F_s / mu_ref_s',3,'ucrit,energy_shares,alpha_and_h','Three coefficients; no extra independent inputs when calibration equations are enforced. If released separately they add freedom.')
+add('L_H_C','SOURCE','discrete construction choices','500,29,70',0,'address_shares','Discrete model choices remain in the ledger despite no continuous dimension.')
+add('N_SOURCE','SOURCE','derived candidate','L*H*C=1015000',0,'L_H_C','Not an additional independent capacity parameter.')
+add('admission_xi','admission','fixed constitutive coefficient','0.1',1,note='Frozen does not mean derived; fitting it later is a model revision.')
+add('frame_count','admission','discrete architecture','8',0)
+add('load_weight_slopes','load readout','fixed constitutive coefficients','0,0.25,0.1',2,note='Two nonzero sector choices in this inherited family; not a new fit here.')
+add('RAR_kappa','shared gravity','fixed constitutive coefficient','1/8',1,note='Not a redefinition of geometric twist kappa.')
+add('gate_hazard','shared gravity','fixed gate normalization','1',1,note='If released it changes a_eff through hazard^-2; cannot estimate separately from aT using local RAR alone.')
+add('aT','shared gravity','derived','c H0 sqrt(kappa fD)',0,'H0,RAR_kappa,eta_sector')
+add('Plummer_M_and_b0','local gravity diagnostic','specified source','6e10 Msun,3 kpc',2,note='Scenario inputs. If estimated from galaxy observations they are nuisance/source freedoms, not automatically zero.')
+add('radius_impact_patch','local gravity diagnostic','observation/boundary settings','8.2,10,200 kpc',3,note='Changing the patch changes the conditional lens observable.')
+add('gravitational_slip','local gravity diagnostic','fixed receiver condition','Phi=Psi',1,note='Free slip introduces an additional lens response freedom.')
+add('tau','zeta physical readout','inherited dimensional calibration','1.481301966415863e-21 s',1,note='Not part of the five reference-chain anchor components.')
+add('edge_d','zeta physical readout','derived','c*tau',0,'tau','Do not fit d and tau as independent scales while enforcing this relation.')
+add('zero_heights','zeta readout','fixed mathematical data','first 70 positive heights',70,note='70 potential coordinates only IF independently retuned; currently no fitted height parameters.')
+add('CRT_shape','zeta readout','discrete geometry choice','213,65,77',0,note='A different neighbor graph is a different candidate.')
+add('combining_ray','zeta readout','fixed branch-blind pure port','uniform',138,note='General CP^69 has 138 real dimensions IF the branch-blind contract is removed.')
+add('carrier_density','quantum state','fixed/specified state','128 dimensional register',16383,note='Arbitrary density matrix dimension 128^2-1 is not 16383 active fitted parameters. Pure-state family would have 254.')
+add('eta_coherence','zeta instrument extension','test or future instrument nuisance','exp(-s^2)',1,note='One effective coordinate; do not count eta and s independently.')
+add('efficiency','zeta instrument extension','future instrument nuisance','common energy-independent efficiency',1,note='Unknown efficiency and eta are two coordinates in the diagnostic extension; generated examples are synthetic.')
+add('driven_control_law','zeta drive','fixed functional architecture','H0+U0 B U0dagger',0,note='Zero fitted coordinates here does not make the physical clock/controller derived or cost-free.')
+add('c_hbar_G','shared physical anchors','verified inherited constants','fixed SI convention/values',0,note='Shared physical anchors must be treated symmetrically for comparison theories.')
+add('CMB_As_ns_tau_reio','inherited CMB completion','fixed calibrated spectral inputs','2.1e-9,0.9649,0.0544',3,note='Read from actual run_camb.py; not derived by the local reference-chain audit. Reionization optical depth differs from shutter time.')
+add('CMB_mnu_Neff','inherited CMB completion','fixed physical/reference inputs','0.06 eV,3.044',2,note='Not hidden or counted as new observational fits here.')
+add('CMB_temperature','inherited CMB completion','measured physical anchor','2.7255 K',1,note='Supplied to the inherited CAMB run; included for symmetric comparison accounting.')
+(P/'parameter_registry.json').write_text(json.dumps({'scope':'Selected book calibration chain and recent gravity/zeta modules; not exhaustive for 138 chapters','new_observational_fits':0,'entries':rows},indent=2))
+with (P/'parameter_registry.csv').open('w',newline='') as f:
+ w=csv.DictWriter(f,list(rows[0]));w.writeheader();w.writerows(rows)
+print('registry entries',len(rows))

@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "method": "Direct RK4 time integration of coupled FFT equations and full 2N-block diagonalization, checked against projector reduction",
+  "RK4": [
+    {
+      "steps": 1024,
+      "state_L2_error": 1.1230522128109635e-11,
+      "norm_error": 3.241851231905457e-14,
+      "record_probability": 0.3498817301589216
+    },
+    {
+      "steps": 2048,
+      "state_L2_error": 7.020574317931219e-13,
+      "norm_error": 5.551115123125783e-16,
+      "record_probability": 0.3498817301578734
+    },
+    {
+      "steps": 4096,
+      "state_L2_error": 4.417821945996031e-14,
+      "norm_error": 1.3322676295501878e-15,
+      "record_probability": 0.34988173015780805
+    }
+  ],
+  "full_block_state_L2_error": 3.8885958253780924e-15,
+  "scope": "Internal independent numerical check; not external peer review or observation"
+}
+

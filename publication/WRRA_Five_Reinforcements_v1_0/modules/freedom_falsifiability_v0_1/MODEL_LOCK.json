@@ -1,0 +1,17 @@
+{
+  "architecture": "Wonsik Reality-Renderer Architecture",
+  "scope": "Reference gravity and finite zeta diagnostics",
+  "input_manifest_sha256": "7c70d530d159fec6669479fce2d9b5b761f3a67435fc07501f438027268cd82a",
+  "new_observational_fit_count": 0,
+  "gravity_free_receiver_coordinates_in_reference": [],
+  "gravity_if_a_eff_recalibrated": [
+    "a_eff"
+  ],
+  "zeta_optional_instrument_coordinates": [
+    "common_efficiency",
+    "coherence_eta"
+  ],
+  "required_shared_rule": "Do not independently refit rotation/lensing or each zeta observable while reporting one fixed model.",
+  "revision_policy": "Known constants and observations may legitimately revise the model; record changed inputs, objective, fit dimension and resulting shared outputs as a new calibration branch.",
+  "synthetic_data_notice": "Injections and recovery examples in this package are generated diagnostics, not measured data."
+}

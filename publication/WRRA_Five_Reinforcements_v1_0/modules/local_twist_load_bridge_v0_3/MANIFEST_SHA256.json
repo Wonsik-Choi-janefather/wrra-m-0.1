@@ -1,0 +1,18 @@
+{
+  "3D_plane.npz": "e5b212d25925c2cd9bb6be73713bde8acc31c87b95a9a0d26cc55140ce44f563",
+  "README.md": "d05585c5de11720f287b918bd0b901bbeca9440e3bb7a58a1fb4203108c279e9",
+  "REPORT_EN.md": "8b8436304230e971198e44afaa446fc60257bfd33ae4b77c61b79f3d94f92bea",
+  "REPORT_KO.md": "2814aedd0f1421cc779a2781f27e3444f61dd6121903463860532cc8fd3a17a7",
+  "compute.py": "a426fb03f89121e2b3e91bd70fb22346af3fdab479a2203385d70bcdb2afe0e6",
+  "dimensional_twist.csv": "ab38ce43c641c3ff3cd46543aaaa4ee9ccaf41a515502383da0a29b44555f2f0",
+  "independent_verification.json": "75a40c0f57a7225e2a1e1c6eb2d88d985a54bf309c68f7d1c48cef04575bf8d1",
+  "input_manifest.json": "b956ecd5e9c95a99d068c974ff85c48c46570cc49f7447dedf9585eb0d092dbc",
+  "inputs/matched_RAR_results.json": "b2c1fc742b698ae8800c7fb0047f00521b29057397de34ba4ab6abcfdf669d74",
+  "inputs/original_twist_excerpt.md": "8e0d11bc87f0d41439cf5549762643b5ed4d59dec7ecde062a69fe22ba1d829c",
+  "inputs/shared_gravity_results.json": "56f62a1333e31c72340fb94df66b847522fc6bdf3be364ef91844e98a538a9bd",
+  "plot.py": "23102112e076b98efcf611b1962b8520d929c49eb6a3fa750139db45389da79d",
+  "results.json": "7e8f326699a92d09ec1e6998af02555b2f0ba913fb16f6ba74bc88fa7fbfef32",
+  "three_dimensional_receiver.csv": "f47c6308622b627e50fa8225777e3772026075ba27ffe8327060642f99e6c6ad",
+  "three_dimensional_receiver.png": "09861a713ecbf66901dfb021efb1c08da0badc1aa624566f11575364c2f99db4",
+  "verify.py": "34cbbc2090d7633e2465d770889989f8671b398a8ed17bf0e80663df7063caaa"
+}
