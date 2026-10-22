@@ -1,0 +1,16 @@
+{
+  "KO": {
+    "baseline_sha256": "d726096e8aa4e898f6d3a9556d4802dd64a03256d9592ba915dd610c3be71b4d",
+    "new_sha256": "a1ff0f4ba6a9f491b7555f3577255acf3f710bc945a778649b9a2a1dfcee1d14",
+    "exact_inverse_restores_v028": true,
+    "original_image_refs": 50,
+    "new_image_refs": 50
+  },
+  "EN": {
+    "baseline_sha256": "9a78a9e7f22fae4d9deef9eef762d6597ba9a2d0a5888fd4f90550cdb2b283af",
+    "new_sha256": "f289a95a47422f46adfa494656a64b020d5d06dd3d3853d0dfe2303994229672",
+    "exact_inverse_restores_v028": true,
+    "original_image_refs": 50,
+    "new_image_refs": 50
+  }
+}

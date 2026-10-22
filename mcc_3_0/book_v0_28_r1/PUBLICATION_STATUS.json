@@ -1,0 +1,18 @@
+{
+  "version": "Book v0.28-r1",
+  "date": "2026-10-22",
+  "doi": "10.5281/zenodo.23549809",
+  "status": "published",
+  "previous_doi": "10.5281/zenodo.23524780",
+  "recovery_commit": "e5a833afd65c282b06fa1318467362de90156338",
+  "finite_programs_passed": 5,
+  "historical_json_matches": 4,
+  "original_internal_hashes": 25,
+  "isolated_corruption_exit_code": 1,
+  "whole_MCC_execution_complete": false,
+  "zenodo_url": "https://zenodo.org/records/23549809",
+  "gitbook_revisions": {
+    "KO": "ALQRmTnJd12yJ0gIOybE",
+    "EN": "D4EtZ9bjXGdcdYiFLKK8"
+  }
+}
