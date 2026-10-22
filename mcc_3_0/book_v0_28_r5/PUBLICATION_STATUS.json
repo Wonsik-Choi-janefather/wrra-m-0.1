@@ -1,6 +1,26 @@
 {
   "version": "Book v0.28-r5",
+  "date": "2026-10-22",
   "doi": "10.5281/zenodo.23550759",
-  "status": "prepared_for_publication",
-  "whole_MCC_execution_complete": false
+  "status": "published",
+  "zenodo_url": "https://zenodo.org/records/23550759",
+  "content_commit": "51f96eb72d25a2043bdee701a2d6952c2c340a9e",
+  "gitbook_revisions": {
+    "KO": "XHbfmxs0QET94jlTSK8B",
+    "EN": "R3c9Qv3nNSYVRD0m7wpy"
+  },
+  "pdf_pages": {
+    "KO": 277,
+    "EN": 308
+  },
+  "saved_prediction_rows_replayed": 24188,
+  "source_observation_rows_matched": 24188,
+  "saved_fits_replayed": 1056,
+  "summaries_replayed": 16,
+  "normal_exit": 0,
+  "isolated_prediction_corruption_exit": 1,
+  "full_optimization_rerun_in_this_review": false,
+  "whole_MCC_execution_complete": false,
+  "published_book_evidence_blobs_verified": 260,
+  "archive_status_note": "The immutable Zenodo ZIP preserves pre-publication packaging status; this record documents completed publication."
 }
