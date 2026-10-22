@@ -1,0 +1,11 @@
+{
+  "python": "3.12.14",
+  "basis_sha256": {
+    "benchmark_v03/analysis/clean_comparison.csv": "4814751f0faa2db4f330b0fad4e773a14dba0a33f67709fade4f41d16debc129",
+    "benchmark_v03/analysis/paired_bootstrap.csv": "8b1ee48a9890e264dfb55201ce3ee6217dfec32afbb3e9ed72b667584769aaec",
+    "publication_r5/book_v0_28_r5/MCC_3_0_Full_Book_KO_v0.28-r5.md": "019c033614fdb7d88a8df26886ccf11ebbd7a0241c0dcb38ec2ac0dbe6bf1e35"
+  },
+  "new_code": "uncommitted separate package",
+  "observed_optical_data": false,
+  "new_sparc_fits_this_stage": false
+}

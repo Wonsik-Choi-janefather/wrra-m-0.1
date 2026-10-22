@@ -1,0 +1,94 @@
+{
+  "passed": 22,
+  "total": 22,
+  "checks": {
+    "128_centered_source_states": true,
+    "wavelength_scaling_532": true,
+    "wavelength_scaling_1064": true,
+    "wavelength_scaling_1550": true,
+    "zero_exposure_unit_visibility": true,
+    "exposure_budget_532_threshold": true,
+    "exposure_budget_532_minimum": true,
+    "exposure_budget_532_revival": true,
+    "exposure_budget_1064_threshold": true,
+    "exposure_budget_1064_minimum": true,
+    "exposure_budget_1064_revival": true,
+    "exposure_budget_1550_threshold": true,
+    "exposure_budget_1550_minimum": true,
+    "exposure_budget_1550_revival": true,
+    "phase_budget": true,
+    "shot_noise_bound": true,
+    "synthetic_nominal_expected_exit": true,
+    "synthetic_no_loss_expected_exit": true,
+    "synthetic_missing_revival_expected_exit": true,
+    "hash_change_invalid_input_exit": true,
+    "order_change_invalid_input_exit": true,
+    "covariance_invalid_invalid_input_exit": true
+  },
+  "runs": [
+    {
+      "case": "synthetic_nominal",
+      "exit_code": 0,
+      "result": {
+        "data": "synthetic_nominal.json",
+        "synthetic": true,
+        "Q": 6.59879688770414,
+        "dof": 9,
+        "p_value": 0.678810308702056,
+        "alpha": 0.001,
+        "decision": "NOT_REJECTED",
+        "no_parameters_fitted": true
+      }
+    },
+    {
+      "case": "synthetic_no_loss",
+      "exit_code": 1,
+      "result": {
+        "data": "synthetic_no_loss.json",
+        "synthetic": true,
+        "Q": 7177.529448321479,
+        "dof": 9,
+        "p_value": 0.0,
+        "alpha": 0.001,
+        "decision": "REJECT_FIXED_BRANCH",
+        "no_parameters_fitted": true
+      }
+    },
+    {
+      "case": "synthetic_missing_revival",
+      "exit_code": 1,
+      "result": {
+        "data": "synthetic_missing_revival.json",
+        "synthetic": true,
+        "Q": 2105.0240834042634,
+        "dof": 9,
+        "p_value": 0.0,
+        "alpha": 0.001,
+        "decision": "REJECT_FIXED_BRANCH",
+        "no_parameters_fitted": true
+      }
+    },
+    {
+      "case": "hash_change",
+      "exit_code": 2,
+      "result": {
+        "error": "SOURCE_PROFILE_HASH_MISMATCH"
+      }
+    },
+    {
+      "case": "order_change",
+      "exit_code": 2,
+      "result": {
+        "error": "POINT_ORDER_MISMATCH"
+      }
+    },
+    {
+      "case": "covariance_invalid",
+      "exit_code": 2,
+      "result": {
+        "error": "Matrix is not positive definite"
+      }
+    }
+  ],
+  "observed_experimental_data_used": false
+}

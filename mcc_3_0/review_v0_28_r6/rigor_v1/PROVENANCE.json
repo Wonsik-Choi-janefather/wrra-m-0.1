@@ -1,0 +1,16 @@
+{
+  "basis_book": "v0.28-r5",
+  "basis_book_doi": "10.5281/zenodo.23550759",
+  "source_commit": "51f96eb72d25a2043bdee701a2d6952c2c340a9e",
+  "source_path": "upstream/finite_klein_zeta_window_v0_1/code/compute.py",
+  "source_sha256": "004410b1673ef4c6d1996b18ec32b8c54c6098739bc433214d40bb8efdff07fa",
+  "original_byte_preserved": true,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "mpmath": "1.4.1",
+  "original_checks_passed": 15,
+  "new_contract_checks": 44,
+  "negative_cases_detected": 9,
+  "published_update": false
+}

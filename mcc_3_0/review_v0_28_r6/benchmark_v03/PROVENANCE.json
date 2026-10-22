@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-22",
+  "baseline": "local preserved sparc_fit_v02; rerun in fit/",
+  "source_commit_of_inherited_response": "8358c887d09de385ca7d6487e1ffcffa0557a91c",
+  "new_code_status": "uncommitted separate benchmark package",
+  "data_source": "https://astroweb.cwru.edu/SPARC/",
+  "paper": "https://doi.org/10.3847/0004-6256/152/6/157",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "matplotlib": "3.10.8"
+}

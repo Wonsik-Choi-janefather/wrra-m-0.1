@@ -1,0 +1,21 @@
+{
+  "claim_id": "WRRA_curvature_ML_full",
+  "version": "v0.3",
+  "kind": "paired_advantage",
+  "scope": "population",
+  "candidate_losses": [
+    3.5027280323430037
+  ],
+  "reference_losses": [
+    4.283389524666327
+  ],
+  "same_inputs": true,
+  "same_errors": true,
+  "same_split": true,
+  "metric": "BIC",
+  "interval": [
+    -2.651136888015639,
+    0.17717568100762537
+  ],
+  "selection_adjusted": false
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "cwd": "rigor_v1",
+    "command": "python verify.py",
+    "exit_code": 0,
+    "tail": "{\"status\": \"PASS\", \"rows_verified\": 1015000, \"counts\": {\"0\": 1, \"1\": 79608, \"2\": 507499, \"3\": 427892}, \"spectrum_precision\": 80, \"independent_filter\": \"Boolean Eratosthenes\", \"all_address_coordinates_checked\": true}\n"
+  },
+  {
+    "cwd": "benchmark_v03",
+    "command": "python fit/verify.py",
+    "exit_code": 0,
+    "tail": "{\"status\": \"PASS\", \"prediction_rows\": 24188, \"fit_rows\": 1056, \"summary_rows\": 16, \"independent_gate\": \"matrix exponential\", \"independent_NFW\": true, \"split_and_AIC_BIC\": true}\n"
+  },
+  {
+    "cwd": "benchmark_v03",
+    "command": "python verify_outer.py",
+    "exit_code": 0,
+    "tail": "{\"status\": \"PASS\", \"fits\": 230, \"points\": 5794, \"raw_catalog_replay\": true}\n"
+  },
+  {
+    "cwd": "benchmark_v03",
+    "command": "python verify_tuning.py",
+    "exit_code": 0,
+    "tail": "{\"status\": \"PASS\", \"fits\": 54, \"points\": 1542, \"clean_galaxies\": 9}\n"
+  },
+  {
+    "cwd": "falsifiability_v04",
+    "command": "python test_judge.py",
+    "exit_code": 0,
+    "tail": "{\"passed\": 11, \"total\": 11}\n"
+  }
+]

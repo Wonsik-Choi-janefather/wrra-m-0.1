@@ -1,0 +1,4 @@
+control,budget_power,hazard_rate,max_relative_deviation
+linear_budget,1.0,1.0,998.500666375175
+cubic_budget,3.0,1.0,0.8995494003387694
+double_hazard,2.0,2.0,0.49975000002083325

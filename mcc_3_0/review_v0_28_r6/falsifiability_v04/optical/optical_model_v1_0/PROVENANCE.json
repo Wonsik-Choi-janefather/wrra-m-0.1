@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "authors": [
+    "Wonsik Choi",
+    "Jeongin Choi"
+  ],
+  "status": "Fixed constitutive model; observational validation pending",
+  "source_DOI": "10.5281/zenodo.23361676",
+  "supersedes_package": "WRRA_Shutter_SOURCE_Coherence_Candidate_v0_1_2026-10-14.zip",
+  "fixed_branch": "Static 128-state, g=1, linear relative phase",
+  "input_sources_preserved": true,
+  "publication": "No new external publication"
+}

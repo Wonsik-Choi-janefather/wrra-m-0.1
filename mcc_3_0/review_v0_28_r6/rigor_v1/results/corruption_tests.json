@@ -1,0 +1,59 @@
+{
+  "detected": 9,
+  "cases": [
+    {
+      "case": "delete_row",
+      "exit": 1,
+      "error": "FAIL: ROW_COUNT_n",
+      "summary_unchanged": true
+    },
+    {
+      "case": "duplicate_replace",
+      "exit": 1,
+      "error": "FAIL: ADDRESS_COVERAGE_OR_DUPLICATE",
+      "summary_unchanged": true
+    },
+    {
+      "case": "unknown_address",
+      "exit": 1,
+      "error": "FAIL: ADDRESS_COVERAGE_OR_DUPLICATE",
+      "summary_unchanged": true
+    },
+    {
+      "case": "swap_coordinates",
+      "exit": 1,
+      "error": "FAIL: SERIALIZATION_MISMATCH",
+      "summary_unchanged": true
+    },
+    {
+      "case": "swap_filter_preserve_counts",
+      "exit": 1,
+      "error": "FAIL: FILTER_CLASS_MISMATCH",
+      "summary_unchanged": true
+    },
+    {
+      "case": "vacuum_marked_prime",
+      "exit": 1,
+      "error": "FAIL: FILTER_CLASS_MISMATCH",
+      "summary_unchanged": true
+    },
+    {
+      "case": "change_weight_preserve_sum",
+      "exit": 1,
+      "error": "FAIL: WEIGHT_LAW_MISMATCH",
+      "summary_unchanged": true
+    },
+    {
+      "case": "alter_zero_height",
+      "exit": 1,
+      "error": "FAIL: ZERO_HEIGHT_MISMATCH",
+      "summary_unchanged": true
+    },
+    {
+      "case": "alter_reported_count",
+      "exit": 1,
+      "error": "FAIL: COUNT_SUMMARY_MISMATCH",
+      "summary_unchanged": false
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "KO": {
+    "original_sha256": "019c033614fdb7d88a8df26886ccf11ebbd7a0241c0dcb38ec2ac0dbe6bf1e35",
+    "old_body_preserved_except_logged_toc_edits": true,
+    "logged_toc_edits": 10,
+    "inherited_math_nodes": 1695,
+    "new_math_nodes": 36,
+    "unique_heading_ids": 584,
+    "images": 51,
+    "missing_images": []
+  },
+  "EN": {
+    "original_sha256": "b8c74fd06cbe061cdce83cf94043645b8832eb336ac12f3f8d186d95c5997a4a",
+    "old_body_preserved_except_logged_toc_edits": true,
+    "logged_toc_edits": 1,
+    "inherited_math_nodes": 1889,
+    "new_math_nodes": 36,
+    "unique_heading_ids": 549,
+    "images": 51,
+    "missing_images": []
+  }
+}

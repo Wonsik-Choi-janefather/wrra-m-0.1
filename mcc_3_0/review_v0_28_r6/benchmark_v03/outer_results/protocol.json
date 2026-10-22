@@ -1,0 +1,11 @@
+{
+  "split": "largest ceil(0.2*n) radii held out, n>=10",
+  "pivot": "median training radius",
+  "aT": 1.1917875313971119e-10,
+  "models": [
+    "WRRA_radial_ML",
+    "NFW_ML"
+  ],
+  "k_each": 3,
+  "scope": "same previously studied catalogue; new radial extrapolation diagnostic, not untouched external validation"
+}

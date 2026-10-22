@@ -1,0 +1,35 @@
+{
+  "normal": {
+    "status": "PASS",
+    "fits": 230,
+    "points": 5794,
+    "raw_catalog_replay": true
+  },
+  "corruptions": [
+    {
+      "case": "prediction",
+      "exit": 1,
+      "error": "FAIL: PREDICTION_MISMATCH"
+    },
+    {
+      "case": "observed_value",
+      "exit": 1,
+      "error": "FAIL: CATALOG_MISMATCH"
+    },
+    {
+      "case": "delete_row",
+      "exit": 1,
+      "error": "FAIL: ROW_COVERAGE"
+    },
+    {
+      "case": "split",
+      "exit": 1,
+      "error": "FAIL: SPLIT"
+    },
+    {
+      "case": "summary",
+      "exit": 1,
+      "error": "FAIL: SCORE_MISMATCH"
+    }
+  ]
+}

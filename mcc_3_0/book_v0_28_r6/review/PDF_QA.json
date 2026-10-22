@@ -1,0 +1,51 @@
+{
+  "KO": {
+    "pages": 280,
+    "bookmarks": 398,
+    "sample_pages": [
+      1,
+      278,
+      279,
+      280
+    ],
+    "outside_page_spans": [],
+    "metadata": {
+      "format": "PDF 1.5",
+      "title": "Minimal Computing Cosmology 3.0 v0.28-r6 (KO)",
+      "author": "Wonsik Choi; Jeongin Choi",
+      "subject": "Complete book; notation and execution supplements; DOI 10.5281/zenodo.23551789",
+      "keywords": "MCC 3.0; WRRA; v0.28-r6; release",
+      "creator": "LaTeX via pandoc",
+      "producer": "xdvipdfmx (20220710)",
+      "creationDate": "D:20261022120247+09'00'",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    }
+  },
+  "EN": {
+    "pages": 313,
+    "bookmarks": 314,
+    "sample_pages": [
+      1,
+      310,
+      311,
+      312,
+      313
+    ],
+    "outside_page_spans": [],
+    "metadata": {
+      "format": "PDF 1.5",
+      "title": "Minimal Computing Cosmology 3.0 v0.28-r6 (EN)",
+      "author": "Wonsik Choi; Jeongin Choi",
+      "subject": "Complete book; notation and execution supplements; DOI 10.5281/zenodo.23551789",
+      "keywords": "MCC 3.0; WRRA; v0.28-r6; release",
+      "creator": "LaTeX via pandoc",
+      "producer": "xdvipdfmx (20220710)",
+      "creationDate": "D:20261022120511+09'00'",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    }
+  }
+}

@@ -1,0 +1,7 @@
+model,phase,metric,delta,lower95,upper95,galaxy_wins,galaxies
+WRRA_curvature_ML,full,delta_BIC_per_fit_point,-0.7806614923233228,-2.651136888015639,0.17717568100762537,3,9
+WRRA_curvature_ML,interleaved,delta_test_chi2_per_test_point,-0.37412120664738474,-2.241155449894002,0.7610615853351831,5,9
+WRRA_curvature_ML,outer,delta_test_chi2_per_test_point,32.90560552855674,-0.41524793388724274,70.22083817430094,3,9
+WRRA_turnover_ML,full,delta_BIC_per_fit_point,-0.12827408523779768,-2.4857813183779247,1.3274028219502725,2,9
+WRRA_turnover_ML,interleaved,delta_test_chi2_per_test_point,0.3059187629577816,-2.2306537672475386,2.1680475109514195,4,9
+WRRA_turnover_ML,outer,delta_test_chi2_per_test_point,-11.040664952714591,-27.68963415490734,0.8945008763940503,6,9

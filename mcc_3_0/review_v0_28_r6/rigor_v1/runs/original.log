@@ -1,0 +1,33 @@
+{
+  "N_U": 1015000,
+  "L": 500,
+  "H": 29,
+  "C": 70,
+  "gamma_70": 182.20707848436646,
+  "gamma_71": 184.8744678483875,
+  "frozen_shares": {
+    "phenotype": 0.05000002538983289,
+    "resident_nonphenotype": 0.26800001828881304,
+    "return": 0.6819999563213559
+  },
+  "recalibration": {
+    "alpha": 1.8996877935161325,
+    "threshold_h": 1.447674468933875,
+    "derived_effective_beta": 0.8654567230719301,
+    "delta_alpha": 9.84606969289814e-08,
+    "delta_h": 1.2985814350496838e-06,
+    "delta_beta_eff_vs_legacy_beta": -2.893417659910469e-07,
+    "shares": {
+      "phenotype": 0.050000000000000114,
+      "resident_nonphenotype": 0.2680000000000007,
+      "return": 0.6820000000000008
+    }
+  },
+  "downstream": {
+    "q0": -0.5285585894376319,
+    "rotation_km_s": 207.5102418659153,
+    "lensing_arcsec": 0.5355822400088303
+  },
+  "max_energy_drift": 8.881784197001252e-16,
+  "all_checks_passed": true
+}

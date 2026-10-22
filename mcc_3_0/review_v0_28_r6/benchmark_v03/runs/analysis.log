@@ -1,0 +1,235 @@
+{
+  "clean_summary": [
+    {
+      "chi2": 1013.7799944983633,
+      "AIC": 1067.7799944983633,
+      "BIC": 1100.831107839246,
+      "test_chi2": 0.0,
+      "n_test": 0.0,
+      "n_fit": 257.0,
+      "k": 27.0,
+      "model": "NFW_refined",
+      "phase": "full",
+      "galaxies": 9,
+      "boundary": 4,
+      "chi2_dof": 4.407739106514623,
+      "test_per_point": null
+    },
+    {
+      "chi2": 919.5317735661602,
+      "AIC": 973.5317735661602,
+      "BIC": 1001.1113236850474,
+      "test_chi2": 98.42212366894985,
+      "n_test": 48.0,
+      "n_fit": 209.0,
+      "k": 27.0,
+      "model": "NFW_refined",
+      "phase": "interleaved",
+      "galaxies": 9,
+      "boundary": 4,
+      "chi2_dof": 5.052372382231649,
+      "test_per_point": 2.0504609097697886
+    },
+    {
+      "chi2": 764.7339968031789,
+      "AIC": 818.7339968031789,
+      "BIC": 844.9747416692666,
+      "test_chi2": 856.2792115291762,
+      "n_test": 56.0,
+      "n_fit": 201.0,
+      "k": 27.0,
+      "model": "NFW_refined",
+      "phase": "outer",
+      "galaxies": 9,
+      "boundary": 4,
+      "chi2_dof": 4.395022970133212,
+      "test_per_point": 15.290700205878148
+    },
+    {
+      "chi2": 784.132953190975,
+      "AIC": 856.132953190975,
+      "BIC": 900.201104312152,
+      "test_chi2": 0.0,
+      "n_test": 0.0,
+      "n_fit": 257.0,
+      "k": 36.0,
+      "model": "WRRA_curvature_ML",
+      "phase": "full",
+      "galaxies": 9,
+      "boundary": 0,
+      "chi2_dof": 3.5481129103664024,
+      "test_per_point": null
+    },
+    {
+      "chi2": 710.0942380446471,
+      "AIC": 782.0942380446471,
+      "BIC": 818.8669715364967,
+      "test_chi2": 80.46430574987538,
+      "n_test": 48.0,
+      "n_fit": 209.0,
+      "k": 36.0,
+      "model": "WRRA_curvature_ML",
+      "phase": "interleaved",
+      "galaxies": 9,
+      "boundary": 0,
+      "chi2_dof": 4.104590971356342,
+      "test_per_point": 1.6763397031224037
+    },
+    {
+      "chi2": 370.4961326145558,
+      "AIC": 442.4961326145558,
+      "BIC": 477.48379243600596,
+      "test_chi2": 2698.993121128354,
+      "n_test": 56.0,
+      "n_fit": 201.0,
+      "k": 36.0,
+      "model": "WRRA_curvature_ML",
+      "phase": "outer",
+      "galaxies": 9,
+      "boundary": 3,
+      "chi2_dof": 2.2454311067548836,
+      "test_per_point": 48.19630573443489
+    },
+    {
+      "chi2": 951.796516811955,
+      "AIC": 1023.796516811955,
+      "BIC": 1067.864667933132,
+      "test_chi2": 0.0,
+      "n_test": 0.0,
+      "n_fit": 257.0,
+      "k": 36.0,
+      "model": "WRRA_turnover_ML",
+      "phase": "full",
+      "galaxies": 9,
+      "boundary": 3,
+      "chi2_dof": 4.306771569284864,
+      "test_per_point": null
+    },
+    {
+      "chi2": 846.4895229444868,
+      "AIC": 918.4895229444868,
+      "BIC": 955.2622564363363,
+      "test_chi2": 113.10622429092336,
+      "n_test": 48.0,
+      "n_fit": 209.0,
+      "k": 36.0,
+      "model": "WRRA_turnover_ML",
+      "phase": "interleaved",
+      "galaxies": 9,
+      "boundary": 2,
+      "chi2_dof": 4.893003022800501,
+      "test_per_point": 2.35637967272757
+    },
+    {
+      "chi2": 850.4716185786202,
+      "AIC": 922.4716185786202,
+      "BIC": 957.4592784000704,
+      "test_chi2": 238.0019741771592,
+      "n_test": 56.0,
+      "n_fit": 201.0,
+      "k": 36.0,
+      "model": "WRRA_turnover_ML",
+      "phase": "outer",
+      "galaxies": 9,
+      "boundary": 3,
+      "chi2_dof": 5.154373445931031,
+      "test_per_point": 4.250035253163557
+    }
+  ],
+  "bootstrap": [
+    {
+      "model": "WRRA_curvature_ML",
+      "phase": "full",
+      "metric": "delta_BIC_per_fit_point",
+      "delta": -0.7806614923233228,
+      "lower95": -2.651136888015639,
+      "upper95": 0.17717568100762537,
+      "galaxy_wins": 3,
+      "galaxies": 9
+    },
+    {
+      "model": "WRRA_curvature_ML",
+      "phase": "interleaved",
+      "metric": "delta_test_chi2_per_test_point",
+      "delta": -0.37412120664738474,
+      "lower95": -2.241155449894002,
+      "upper95": 0.7610615853351831,
+      "galaxy_wins": 5,
+      "galaxies": 9
+    },
+    {
+      "model": "WRRA_curvature_ML",
+      "phase": "outer",
+      "metric": "delta_test_chi2_per_test_point",
+      "delta": 32.90560552855674,
+      "lower95": -0.41524793388724274,
+      "upper95": 70.22083817430094,
+      "galaxy_wins": 3,
+      "galaxies": 9
+    },
+    {
+      "model": "WRRA_turnover_ML",
+      "phase": "full",
+      "metric": "delta_BIC_per_fit_point",
+      "delta": -0.12827408523779768,
+      "lower95": -2.4857813183779247,
+      "upper95": 1.3274028219502725,
+      "galaxy_wins": 2,
+      "galaxies": 9
+    },
+    {
+      "model": "WRRA_turnover_ML",
+      "phase": "interleaved",
+      "metric": "delta_test_chi2_per_test_point",
+      "delta": 0.3059187629577816,
+      "lower95": -2.2306537672475386,
+      "upper95": 2.1680475109514195,
+      "galaxy_wins": 4,
+      "galaxies": 9
+    },
+    {
+      "model": "WRRA_turnover_ML",
+      "phase": "outer",
+      "metric": "delta_test_chi2_per_test_point",
+      "delta": -11.040664952714591,
+      "lower95": -27.68963415490734,
+      "upper95": 0.8945008763940503,
+      "galaxy_wins": 6,
+      "galaxies": 9
+    }
+  ],
+  "outer_baseline": [
+    {
+      "sample": "all",
+      "model": "WRRA_radial_ML",
+      "galaxies": 115,
+      "n_test": 627,
+      "test_chi2": 5671.168868618237,
+      "test_per_point": 9.044926425228448
+    },
+    {
+      "sample": "all",
+      "model": "NFW_ML",
+      "galaxies": 115,
+      "n_test": 627,
+      "test_chi2": 9949.819843748588,
+      "test_per_point": 15.868931170252932
+    },
+    {
+      "sample": "clean",
+      "model": "WRRA_radial_ML",
+      "galaxies": 9,
+      "n_test": 56,
+      "test_chi2": 144.55661658022333,
+      "test_per_point": 2.581368153218274
+    },
+    {
+      "sample": "clean",
+      "model": "NFW_ML",
+      "galaxies": 9,
+      "n_test": 56,
+      "test_chi2": 856.2795428905165,
+      "test_per_point": 15.290706123044938
+    }
+  ]
+}

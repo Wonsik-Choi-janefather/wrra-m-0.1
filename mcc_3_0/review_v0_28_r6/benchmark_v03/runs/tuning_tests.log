@@ -1,0 +1,29 @@
+{
+  "synthetic": [
+    {
+      "model": "WRRA_curvature_ML",
+      "max_parameter_error": 5.245803791353865e-15
+    },
+    {
+      "model": "WRRA_turnover_ML",
+      "max_parameter_error": 9.71445146547012e-17
+    }
+  ],
+  "corruptions": [
+    {
+      "case": "prediction",
+      "exit": 1,
+      "error": "FAIL: PREDICTION_MISMATCH"
+    },
+    {
+      "case": "duplicate",
+      "exit": 1,
+      "error": "FAIL: DUPLICATE"
+    },
+    {
+      "case": "penalty",
+      "exit": 1,
+      "error": "FAIL: COUNT"
+    }
+  ]
+}

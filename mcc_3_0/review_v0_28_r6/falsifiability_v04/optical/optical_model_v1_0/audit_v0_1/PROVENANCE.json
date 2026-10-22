@@ -1,0 +1,15 @@
+{
+  "source_DOI": "10.5281/zenodo.23361676",
+  "copied_inputs": {
+    "clock.json": "stages/light_shutter_sync_v01/frozen_inputs.json",
+    "finite_preparation.npz": "stages/cmb_preparation_lensing_v01/results/finite_preparation.npz",
+    "preparation_results.json": "stages/cmb_preparation_lensing_v01/results/preparation_results.json"
+  },
+  "added_extension": "inputs/extension.json",
+  "authors": [
+    "Wonsik Choi",
+    "Jeongin Choi"
+  ],
+  "new_optical_coupling_is_trial": true,
+  "publication_status": "Local research calculation; not a new Zenodo or GitHub release"
+}

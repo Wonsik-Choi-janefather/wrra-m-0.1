@@ -1,0 +1,21 @@
+{
+  "claim_id": "WRRA_turnover_ML_full",
+  "version": "v0.3",
+  "kind": "paired_advantage",
+  "scope": "population",
+  "candidate_losses": [
+    4.1551154394285295
+  ],
+  "reference_losses": [
+    4.283389524666327
+  ],
+  "same_inputs": true,
+  "same_errors": true,
+  "same_split": true,
+  "metric": "BIC",
+  "interval": [
+    -2.4857813183779247,
+    1.3274028219502725
+  ],
+  "selection_adjusted": false
+}

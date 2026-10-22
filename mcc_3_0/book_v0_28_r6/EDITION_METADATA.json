@@ -1,0 +1,19 @@
+{
+  "title_ko": "최소계산우주론 3.0",
+  "title_en": "Minimal Computing Cosmology 3.0",
+  "version": "v0.28-r6",
+  "status": "release",
+  "creators": [
+    "Wonsik Choi",
+    "Jeongin Choi"
+  ],
+  "doi": "10.5281/zenodo.23551789",
+  "previous_published_doi": "10.5281/zenodo.23550759",
+  "languages": [
+    "ko",
+    "en"
+  ],
+  "date": "2026-10-22",
+  "kdp_validation": "not performed",
+  "publication_receipt": "See repository PUBLICATION_RESULT.json"
+}

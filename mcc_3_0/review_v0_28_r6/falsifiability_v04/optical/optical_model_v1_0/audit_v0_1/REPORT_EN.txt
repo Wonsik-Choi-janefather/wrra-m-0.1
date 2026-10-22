@@ -1,0 +1,80 @@
+Shutter–SOURCE Phase Correlation and Interference Boundary: v0.1
+Wonsik Choi and Jeongin Choi | Independent Researchers | 14 October 2026
+Wonsik: janefather@gmail.com / ORCID 0009-0001-4263-9772
+Jeongin: cjeongin024@gmail.com
+Input provenance: https://doi.org/10.5281/zenodo.23361676
+
+VALIDATION INPUTS
+Frozen shutter inputs and the actual finite 128-state preparation were copied.
+c=299792458 m/s; dt=1.4813019664158633e-21 s; ell=0.4440831575520451 pm.
+Relative dark MEAN-STRESS RMS=1.2107407781339933e-8.
+Evaluation wavelengths: 532, 1064, 1550 nm. No observational optimizer is added.
+The intrinsic supplier-bit RMS of 0.34514 is not converted to optical noise or
+confused with the relative mean-stress profile.
+
+WRRA TRANSFORMATION
+Identical coherent carrier shifts on the two optical paths preserve visibility.
+The declared candidate is a finite, SOURCE-label-controlled relative phase gate:
+U_j=diag(exp[i g (2 pi/lambda) ell f_D(j)],1), where f_D is the centered
+relative mean-dark-stress profile. Trial g=1 is not a derived optical coupling.
+The path gate preserves photon-energy accounting, positivity and normalization;
+it is not a derivation of a full Maxwell/SOURCE interaction Hamiltonian.
+The control is initially I/128 with entropy ln128. Equal gates on both arms cancel.
+L is differential coupling exposure, not automatically physical interferometer size.
+Three new temporal policies are tested rather than silently selected:
+  static: one phase label throughout a run, 128-state ensemble across runs;
+  independent: one fresh independent phase register per physical shutter;
+  cyclic: one-step label advancement on a 128-state cycle.
+Independent preparation counts N fresh registers and N ln128 initial entropy.
+Cyclic advancement is a candidate correlation policy; its SOURCE preparation
+drive/energy costs are not derived. A phase-label lag is not measured time.
+
+OUTPUTS
+Static exact finite visibility:
+V/V0=|sum_j exp[i g (2 pi/lambda) L f_D(j)]/128|.
+Independent visibility is the Nth power of the single-shutter characteristic
+function, evaluated with stable log1p expressions. Cyclic sums retain N mod128
+steps after removing the deterministic zero mode.
+
+Wavelength    Static first V/V0=exp(-1/2)    Independent same threshold
+532 nm        6.789392103 m                 1.101277803e14 m
+1064 nm       13.578784206 m                4.405111213e14 m
+1550 nm       19.781123609 m                9.348394208e14 m
+
+Static 1064 nm trial g=1:
+1 m: 0.9974463156; 10 m: 0.7669717860; 20 m: 0.3735250728.
+First minimum: L=21.7809583805 m, V/V0=0.3586975046.
+First subsequent revival maximum: L=37.2787643204 m, V/V0=0.6081539566.
+Revival/minimum exposure ratio: 1.7115300286.
+Within the static linear coupling, this shape ratio and these visibility values
+are invariant under a nonzero g rescaling and wavelength changes. Absolute
+lengths scale as lambda/|g|. This is a candidate dimensionless shape prediction.
+For cyclic 1064 nm control, all-length phase RMS<=1.148344213e-12 rad;
+visibility-loss upper bound<=1.591577406e-24. Tiny losses are retained separately.
+Finite-state dephasing/revival is reversible ensemble averaging, not fundamental
+wavefunction collapse. Photon-number/mass-dependent macroscopicity is not modeled.
+
+REFUTATION CONDITIONS
+Revise if the optical coupling or temporal law cannot be justified in the full
+ledger. Revise a fixed candidate when observed visibility, wavelength scaling,
+revival shape or common-mode cancellation contradicts it. Calibration with known
+data is legitimate; freeze the resulting rule before subsequent cross-checks.
+Reject effects of numerical subdivision alone, uncounted independent resets,
+unaccounted preparation driving, nonpositive states or failed energy/probability
+accounting. Numerical subdivision keeps one physical shutter's state fixed.
+
+ASSESSMENT
+The inherited coherent shift adds no dephasing. A new conditional finite-state
+phase extension is executed and produces distinct, reproducible optical curves.
+The snapshot does not select g or the temporal memory law. No unique empirical
+optical coherence threshold is established. All 17 numerical controls pass;
+they do not constitute observational validation of the new coupling.
+The proposed target is wavelength-dependent visibility loss/revival and
+cross-path phase correlation. It is not a derivation of the Heisenberg bound,
+Lorentz completion, full Maxwell dynamics or a universal macroscopic collapse.
+
+REPRODUCTION
+python -m pip install -r requirements.txt
+python reproduce.py
+python verify.py
+Input and output hashes preserve the exact trial and inherited numerical files.

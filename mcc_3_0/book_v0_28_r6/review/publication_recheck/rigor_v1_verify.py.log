@@ -1,0 +1,1 @@
+{"status": "PASS", "rows_verified": 1015000, "counts": {"0": 1, "1": 79608, "2": 507499, "3": 427892}, "spectrum_precision": 80, "independent_filter": "Boolean Eratosthenes", "all_address_coordinates_checked": true}

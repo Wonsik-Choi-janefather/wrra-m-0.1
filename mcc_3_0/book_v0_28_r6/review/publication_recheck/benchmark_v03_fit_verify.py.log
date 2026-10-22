@@ -1,0 +1,1 @@
+{"status": "PASS", "prediction_rows": 24188, "fit_rows": 1056, "summary_rows": 16, "independent_gate": "matrix exponential", "independent_NFW": true, "split_and_AIC_BIC": true}

@@ -1,3 +1,15 @@
+# Minimal Computing Cosmology 3.0 — v0.28-r6
+
+Complete Korean/English edition: 139 chapters and Appendices A–J.
+
+- [PDFs, source, and editorial review](mcc_3_0/book_v0_28_r6/)
+- [Executable evidence packages](mcc_3_0/review_v0_28_r6/)
+- DOI: https://doi.org/10.5281/zenodo.23551789
+
+Appendix J integrates KZF rigor, exploratory SPARC comparisons, falsification decisions and notation. Observed advantages, failed held-out claims and open physical connections are all retained. Separate executable evidence does not imply whole-cosmology execution.
+
+## Preserved earlier release notes
+
 ## Minimal Computing Cosmology 3.0 — current book v0.28-r5 · 2026-10-22
 
 [Complete Korean/English book source](mcc_3_0/book_v0_28_r5/README.md) · [PDFs and reproducible package on Zenodo](https://doi.org/10.5281/zenodo.23550759) · [Code, source observations and actual re-review logs](mcc_3_0/review_v0_28_r5/README.md).

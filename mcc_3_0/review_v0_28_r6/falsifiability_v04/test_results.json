@@ -1,0 +1,121 @@
+{
+  "passed": 11,
+  "total": 11,
+  "cases": [
+    {
+      "case": "nominal",
+      "expected_exit": 0,
+      "actual": {
+        "claim_id": "synthetic_fixed_branch",
+        "version": "test1",
+        "exit": 0,
+        "status": "NOT_REJECTED",
+        "Q": 0.0,
+        "p": 1.0,
+        "alpha_per_test": 0.001,
+        "synthetic": true
+      }
+    },
+    {
+      "case": "discrepancy",
+      "expected_exit": 1,
+      "actual": {
+        "claim_id": "synthetic_fixed_branch",
+        "version": "test1",
+        "exit": 1,
+        "status": "REJECT_FIXED_BRANCH",
+        "Q": 200.0,
+        "p": 3.7200759760208177e-44,
+        "alpha_per_test": 0.001,
+        "synthetic": true
+      }
+    },
+    {
+      "case": "unconfirmed_mapping",
+      "expected_exit": 3,
+      "actual": {
+        "claim_id": "synthetic_fixed_branch",
+        "version": "test1",
+        "exit": 3,
+        "status": "OPEN_MAPPING",
+        "reason": "Preparation / coupling / receiver not independently established"
+      }
+    },
+    {
+      "case": "test_refit",
+      "expected_exit": 2,
+      "actual": {
+        "status": "INVALID",
+        "error": "TEST_REFIT_NOT_ALLOWED"
+      }
+    },
+    {
+      "case": "bad_covariance",
+      "expected_exit": 2,
+      "actual": {
+        "status": "INVALID",
+        "error": "COVARIANCE_NOT_POSITIVE_DEFINITE"
+      }
+    },
+    {
+      "case": "nan",
+      "expected_exit": 2,
+      "actual": {
+        "status": "INVALID",
+        "error": "NONFINITE"
+      }
+    },
+    {
+      "case": "bad_distribution",
+      "expected_exit": 2,
+      "actual": {
+        "status": "INVALID",
+        "error": "UNCALIBRATED_TEST_DISTRIBUTION"
+      }
+    },
+    {
+      "case": "missing_version",
+      "expected_exit": 2,
+      "actual": {
+        "status": "INVALID",
+        "error": "MISSING_CLAIM_VERSION"
+      }
+    },
+    {
+      "case": "single_test",
+      "expected_exit": 1,
+      "actual": {
+        "claim_id": "synthetic_fixed_branch",
+        "version": "test1",
+        "exit": 1,
+        "status": "REJECT_FIXED_BRANCH",
+        "Q": 16.0,
+        "p": 0.0003354626279025119,
+        "alpha_per_test": 0.01,
+        "synthetic": true
+      }
+    },
+    {
+      "case": "family_100",
+      "expected_exit": 0,
+      "actual": {
+        "claim_id": "synthetic_fixed_branch",
+        "version": "test1",
+        "exit": 0,
+        "status": "NOT_REJECTED",
+        "Q": 16.0,
+        "p": 0.0003354626279025119,
+        "alpha_per_test": 0.0001,
+        "synthetic": true
+      }
+    },
+    {
+      "case": "unmatched",
+      "expected_exit": 2,
+      "actual": {
+        "status": "INVALID",
+        "error": "UNMATCHED_COMPARISON"
+      }
+    }
+  ]
+}

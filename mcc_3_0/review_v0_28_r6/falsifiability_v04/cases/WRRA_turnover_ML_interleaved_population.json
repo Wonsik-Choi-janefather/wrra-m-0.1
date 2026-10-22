@@ -1,0 +1,21 @@
+{
+  "claim_id": "WRRA_turnover_ML_interleaved",
+  "version": "v0.3",
+  "kind": "paired_advantage",
+  "scope": "population",
+  "candidate_losses": [
+    2.35637967272757
+  ],
+  "reference_losses": [
+    2.0504609097697886
+  ],
+  "same_inputs": true,
+  "same_errors": true,
+  "same_split": true,
+  "metric": "test_chi2",
+  "interval": [
+    -2.2306537672475386,
+    2.1680475109514195
+  ],
+  "selection_adjusted": false
+}

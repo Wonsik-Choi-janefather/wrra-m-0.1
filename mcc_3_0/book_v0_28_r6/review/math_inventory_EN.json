@@ -1,0 +1,11552 @@
+[
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\Phi=\\mathcal R_\\theta(n,\\chi,\\xi)."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\chi"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\xi"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\theta"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\oplus"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{\\text{MCC 3.0} = \\text{MCC 2.3.2 cumulative skeleton} \\oplus \\text{WRRA\\_M 0.1-0.12 structural integration} \\oplus \\text{finite Klein-Zeta SOURCE candidate}}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{\\text{verified inputs} \\rightarrow \\text{WRRA-specific transformation} \\rightarrow \\text{outputs} \\rightarrow \\text{falsification conditions}}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N=1,000,000"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_U=1,015,000"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{\\text{LAW} \\rightarrow \\text{finite SOURCE} \\rightarrow \\text{FILTER/RESIDUE} \\rightarrow \\text{RECORD} \\rightarrow \\text{COMPONENT} \\rightarrow \\text{CODEWORD/HARMONIC} \\rightarrow \\text{PHENOTYPE} \\rightarrow \\text{SI ENERGY/LOAD} \\rightarrow \\text{GRAVITY/LENSING/EXPANSION}}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "O_G(X)=T_{\\mu\\nu}[X]"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "O_a(X)=J_a[X]"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\exists X,Y:\\quad J_a[X]=J_a[Y]\\ (a=1,2,3),\\quad T_{\\mu\\nu}[X]\\ne T_{\\mu\\nu}[Y].\\qquad\\text{(5.3)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\nexists f:\\quad O_G[Z]=f(O_1[Z],O_2[Z],O_3[Z])\\quad\\text{for every }Z\\in\\{X,Y\\}.\\qquad\\text{(5.4)}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "S^1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "R"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "y"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n\\in\\mathbb Z"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\hbar=c=1"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\Phi(x,y)=\\sum_n\\phi_n(x)e^{iny/R},\\qquad p_y=n/R.\\qquad\\text{(7.3)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "m_n^2=m_0^2+n^2/R^2,\\qquad E_n^2=|\\mathbf p_3|^2+m_n^2.\\qquad\\text{(7.4)}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n=0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a=2\\pi R/N"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "m_{\\rm lat}=2\\sin(\\pi/N)/a"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N=8\\ldots512"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1/R"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "O(N^{-2})"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "S^1"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "n\\mapsto(m_n,q_n)=\\left(\\sqrt{m_0^2+n^2/R^2},gn\\right).\\qquad\\text{(7.5)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "m_0=0:\\quad(m_n,q_n)=(|n|/R,gn),\\quad m_{+n}=m_{-n},\\quad q_{+n}=-q_{-n}.\\qquad\\text{(7.6)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "ds_5^2=g_{\\mu\\nu}dx^\\mu dx^\\nu+R^2(d\\theta+\\kappa A_\\mu dx^\\mu)^2.\\qquad\\text{(7.7)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "S_4=\\frac1{16\\pi G_4}\\int d^4x\\sqrt{-g}\\left[R_4-\\frac{\\kappa^2R^2}{4}F_{\\mu\\nu}F^{\\mu\\nu}\\right].\\qquad\\text{(7.8)}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "R_{\\rm total}=-\\kappa^2B^2/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "6.07\\times10^{-11}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "p_z=v_z+\\kappa Bxv_y=\\mathrm{constant},\\qquad q=\\kappa p_z.\\qquad\\text{(7.9)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "a_x=qBv_y,\\qquad a_y=-qBv_x.\\qquad\\text{(7.10)}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_{\\rm grav}(D)=D(D-3)/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_{\\rm grav}(d)=(d+1)(d-2)/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "d"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "C(d)=c_Ed+c_TN_{\\rm grav}(d)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c_E,c_T\\ge0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c_E+c_T>0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "C(d+1)-C(d)=c_E+c_Td>0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "d\\ge3"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "d=3"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "n\\in\\mathbb Z\\to p_\\theta=n/R\\to m_n\\to\\text{mass phenotype}.\\qquad\\text{(7.11)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "T_{\\mu\\nu}^{\\rm total}\\to g_{\\mu\\nu}\\to\\text{gravitational observables}.\\qquad\\text{(7.12)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\mathcal R_m=\\mathcal R_{\\rm pole}\\circ\\mathcal R_{\\rm SM}\\circ\\mathcal R_{\\rm compact}.\\qquad\\text{(7.13)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\mathcal R_{\\rm compact}(n,R,m_0)=\\sqrt{m_0^2+n^2/R^2},\\qquad\\mathcal R_q(n)=gn.\\qquad\\text{(7.14)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "m_{\\rm pole}=\\operatorname{Pole}[m_n,y_f(\\mu)v(\\mu)/\\sqrt2,\\Sigma_f(p;\\mu),\\Lambda_{\\rm QCD},\\text{boundary data}].\\qquad\\text{(7.15)}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "m_0^{(e\\text{-grid})}=m_e/23=22.217345682"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(n_e,n_u,n_d)=(23,99,211)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(m_e,m_u,m_d)=(0.51099895069,2.19951722,4.68785994)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "D_\\nu=2\\cdot23^6=296071778"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q_\\nu=m_e/D_\\nu=1.725929280"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(n_1,n_2,n_3)=(0,5,29)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(m_1,m_2,m_3)=(0,8.62965,50.05195)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\sum m_\\nu=58.6816"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Delta m_{21}^2=7.44708\\times10^{-5}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Delta m_{31}^2=2.50520\\times10^{-3}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\rho(s)=\\frac{(s-s_0)^\\alpha e^{-(s-s_0)/\\Lambda^2}}{\\Gamma(\\alpha+1)\\Lambda^{2\\alpha+2}}\\Theta(s-s_0).\\qquad\\text{(14.2)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "G_E(Q^2)=\\int\\frac{\\rho(s)}{Q^2+s}\\,ds,\\qquad G_{E,N}(Q^2)=\\sum_{j=1}^N\\frac{w_j}{Q^2+s_j}\\approx G_E(Q^2).\\qquad\\text{(14.4)}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "s_j"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "t"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "S_{acc}=\\ln\\Omega(E)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "S_{hist}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "k_B"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "S^1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "p_\\theta=n/R"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "m_n^2=m_0^2+n^2/R^2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "d=3"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_U=1,015,000"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "E_8\\times E_8"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_U"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_U"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\Delta t_{\\rm clock}:=\\Delta C/R_C.\\qquad\\text{(20.1)}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "C"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "R_C"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\tau"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "A=d\\phi+\\delta B+h,\\qquad dh=0,\\quad\\delta h=0.\\qquad\\text{(21.1)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\oint_\\gamma h=\\Theta_\\gamma\\ne0.\\qquad\\text{(21.2)}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "d\\phi"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\delta B"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "h"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\kappa^2=\\kappa_+^2+\\kappa_-^2,\\qquad\n\\chi_T=\\frac{\\kappa_+^2-\\kappa_-^2}{\\kappa_+^2+\\kappa_-^2}.\\qquad\\text{(21.3)}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\chi_T"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "L_\\gamma=|\\Theta_\\gamma|\\frac{c}{H_0}\\sqrt{\\frac{\\zeta}{6f_T}}.\\qquad\\text{(21.4)}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Theta_\\gamma"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\zeta"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "f_T"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\zeta\\kappa^2"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "u_T=\\frac{\\zeta c^4\\kappa^2}{16\\pi G},\\qquad\\zeta>0.\\qquad\\text{(22.1)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\alpha=\\frac{c\\kappa}{H_0},\\qquad f_T=\\frac{u_T}{\\rho_c c^2}=\\frac{\\zeta\\alpha^2}{6}.\\qquad\\text{(22.2)}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\rho_c"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\zeta\\alpha^2"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\rho_T^{\\rm eff}=-\\frac{1}{4\\pi G}\\nabla\\cdot[(1-\\mu)\\mathbf g].\\qquad\\text{(22.3)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "E[\\phi]=\\int d^3x\\left[\\frac{a_T^2F(Y)}{8\\pi G}+\\rho_b c^2\\phi\\right].\\qquad\\text{(23.1)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "Y=\\frac{c^4|A|^2}{a_T^2},\\qquad\\mathbf g=-c^2 A.\\qquad\\text{(23.2)}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a_T"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\nabla\\cdot[\\mu(|\\mathbf g|/a_T)\\mathbf g]=-4\\pi G\\rho_b,\\qquad\\mu=F_Y.\\qquad\\text{(23.3)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "F(Y)=\\tfrac23Y^{3/2}\\quad\\Rightarrow\\quad\\mu(x)=x.\\qquad\\text{(23.4)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "g=\\sqrt{a_Tg_b},\\qquad v_f^4=GM_ba_T.\\qquad\\text{(23.5)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\lambda_\\perp=\\mu>0,\\qquad\\lambda_\\parallel=\\mu+x\\mu'>0.\\qquad\\text{(23.6)}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\mu=x"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "x>0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "x"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2x"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "C=1"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "a_T=cH_0\\sqrt{f_T/8},\\qquad f_T=8(a_T/cH_0)^2.\\qquad\\text{(24.1–2)}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1/8"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H_0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "f_T"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "cH_0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "6.55\\times10^{-10}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a_T"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.192\\times10^{-10}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "f_T"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "ds^2=-(1+2\\Phi/c^2)c^2dt^2+(1-2\\Psi/c^2)d\\mathbf x^2.\\qquad\\text{(25.1)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\hat\\alpha=c^{-2}\\int\\nabla_\\perp(\\Phi+\\Psi)\\,d\\ell.\\qquad\\text{(25.2)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\Phi=\\Psi+O(c^{-2}),\\qquad\\eta_{\\rm slip}=\\Psi/\\Phi=1+O(c^{-2}).\\qquad\\text{(25.3)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\hat\\alpha=2c^{-2}\\int\\nabla_\\perp\\Phi\\,d\\ell\n\\quad\\Rightarrow\\quad M_{\\rm lens}=M_{\\rm dyn}\\text{ at leading order}.\\qquad\\text{(25.4)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "S=\\frac{c^3}{16\\pi G}\\int d^4x\\sqrt{-g}[R-2J(Y)+2K(Q)]+S_m.\\qquad\\text{(26.1)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "n_\\mu=-\\frac{c}{Q}\\nabla_\\mu\\tau,\\qquad\nQ=c\\sqrt{-g^{\\mu\\nu}\\nabla_\\mu\\tau\\nabla_\\nu\\tau}.\\qquad\\text{(26.2)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "A_\\mu=c^2n^\\nu\\nabla_\\nu n_\\mu,\\qquad Y=A_\\mu A^\\mu/c^4.\\qquad\\text{(26.3)}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "J"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "K"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\tau"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "K(Q)"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "K(Q)=\\frac{2\\mu^2}{\\lambda_D}[1-\\sqrt{1-\\lambda_D(Q-1)^2}].\\qquad\\text{(26.4)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "q(a)=Q-1=[\\lambda_D+(a^3/r)^2]^{-1/2},\\qquad r=I_0/(2\\mu^2).\\qquad\\text{(26.5)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "w=\\frac{\\lambda_Dq^2+(1+q)\\sqrt{1-\\lambda_Dq^2}-1}{2+(1+\\lambda_D)q}.\\qquad\\text{(26.6)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "c_{\\rm ad}^2=\\frac{q(1-\\lambda_Dq^2)}{1+q}.\\qquad\\text{(26.7)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "c_s^2(a,k)=c_{\\rm ad}^2\\left[1+\\frac{c_{\\rm ad}^2k^2}{4\\pi Ga^2\\rho_T(1+w)}\\right]^{-1},\\qquad\\Sigma_T=0.\\qquad\\text{(26.8)}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q=Q-1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\mu"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H_0=67.4"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Omega_{T0}=0.265"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\mu^{-1}=22.3"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\lambda_D=1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "r=9.9913\\times10^{-6}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "w"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c_{\\rm ad}^2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a\\ll10^{-3}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a=1/1100"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "3.76\\times10^{-5}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2.83\\times10^{-9}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a=1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "9.99\\times10^{-6}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "5.00\\times10^{-6}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "9.99\\times10^{-6}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a=10"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "9.99\\times10^{-9}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "5.00\\times10^{-9}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "9.99\\times10^{-9}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\frac{\\delta g(x)}{\\delta B_{\\rm boundary}(y)}\\ne0.\\qquad\\text{(27.1)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "C_{2.2}=\\{N_{\\rm field},N_{\\rm response},N_{\\rm scale},N_{\\rm initial},C_{\\rm update},C_{\\rm failure}\\}.\\qquad\\text{(27.2)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "T_{\\mu\\nu}^{\\Theta} = - \\frac{2}{\\sqrt{- g}}\\frac{\\delta S_{\\Theta}}{\\delta g^{\\mu\\nu}}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "T_{\\mu\\nu}^{\\Theta} \\equiv T_{\\mu\\nu}^{CDM},\\quad\\quad\\nabla^{\\mu}T_{\\mu\\nu}^{\\Theta} = 0,\\quad\\quad p_{\\Theta} \\simeq 0,\\quad c_{s,\\Theta}^{2} \\simeq 0,\\quad\\Pi_{\\Theta} \\simeq 0"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "G_{\\mu\\nu} + \\Lambda g_{\\mu\\nu} = \\frac{8\\pi G}{c^{4}}\\left( T_{\\mu\\nu}^{m} + T_{\\mu\\nu}^{\\Theta} \\right),\\quad\\quad T^{\\Theta} \\neq T^{\\Theta} + T^{CDM}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\Theta(x,\\lambda) = \\bar{\\Theta}(\\lambda) + \\delta\\Theta(x,\\lambda)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\bar{\\Theta}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a_{R}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H_{R}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\delta\\Theta"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T_{\\mu\\nu}^{\\Theta}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "a_{R} = \\mathcal{R}_{a}\\left\\lbrack \\bar{\\Theta} \\right\\rbrack,\\quad\\quad T_{\\mu\\nu}^{\\Theta} = \\mathcal{R}_{T}\\lbrack\\delta\\Theta\\rbrack"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\mathcal{R}_{gauge}\\left\\lbrack C_{A} \\right\\rbrack \\rightarrow \\{ SU(3)_{C},SU(2)_{L},U(1)_{Y}\\}_{R},\\quad\\quad\\mathcal{R}_{G}\\left\\lbrack C_{A},\\Phi_{R} \\right\\rbrack \\rightarrow g_{\\mu\\nu}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "J_{a}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T_{\\mu\\nu}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\mathcal{H}_{lawful} = \\mathcal{H}_{matter} \\oplus \\mathcal{H}_{antimatter},\\quad\\quad Occupied\\ Reality(\\lambda) \\subset \\mathcal{H}_{matter}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T_{\\mu\\nu}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "J_{a}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N=1,000,000"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{\\text{global closure} \\rightarrow \\text{distributed connection} \\rightarrow \\text{holonomy} \\rightarrow \\text{transport residue} \\rightarrow \\text{twist stress} \\rightarrow \\text{gravity}}."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{\\text{mathematical infinity} \\neq \\text{physically instantiated infinite SOURCE}}."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{(-T,\\theta)\\sim(T,-\\theta)},\\qquad \\theta\\in S^1."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\theta"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Re(s)>1"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\zeta(s)=\\sum_{n=1}^{\\infty}\\frac{1}{n^s}."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\zeta(s)=\\prod_p(1-p^{-s})^{-1}."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0<\\Re(s)<1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "C"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "(0.05,0.268,0.682)=\\left(\\frac{25}{500},\\frac{134}{500},\\frac{341}{500}\\right),"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{L=500}."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(0,5,29)"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{H=29}."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{T_H=2\\pi H=182.212373908208}."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\gamma_{70}=182.20707848436646 < T_H < \\gamma_{71}=184.87446784838750,"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{C=70}."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "M=LH=14,500."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "5.29\\times10^{-13}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\gamma_{70}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "6.98\\times10^{-14}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "(-T,\\theta)\\sim(T,-\\theta),"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L=500"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H=29"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(0,5,29)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "C"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2\\pi"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2\\pi"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "T=2\\pi H=2\\pi\\times29=182.212373908208."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\gamma_{70}=182.20707848436646<T<\\gamma_{71}=184.87446784838750."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "C=70"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "C"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T=2\\pi H"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L,H,C"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{N_U=L\\times H\\times C=500\\times29\\times70=1,015,000}."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N=1,000,000"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "0\\le \\ell<L,\\qquad 0\\le h<H,\\qquad 1\\le z\\le C."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{n=1+\\ell+L\\big[h+H(z-1)\\big]}."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "1\\le n\\le1,015,000."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{n=2,\\ldots,1,015,000}."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(0,5,29)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0.05=1/20"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0.268=67/250"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0.682=341/500"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L=\\operatorname{lcm}(20,250,500)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L=500"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(0,5,29)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H=29"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T_H=2\\pi H"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "182.212373908208"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "C=\\#\\{j:0<\\gamma_j<T_H\\}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "C=70"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\gamma_{70}<T_H<\\gamma_{71}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_U=LHC"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "500\\times29\\times70=1{,}015{,}000"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n=2,\\ldots,N_U"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_U-1=1{,}014{,}999"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n=1+\\ell+L[h+H(z-1)]"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0\\le\\ell<L"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0\\le h<H"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1\\le z\\le C"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_U"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "M=LH=14{,}500"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "C"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T_H"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L=500"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H=29"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "C=70"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_U=LHC=1,015,000"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L,H,C"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n=1+\\ell+L[h+H(z-1)]"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_U=1,015,000"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_{act}=N_U-1=1,014,999"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "d=128"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_{grid}=m^3"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\ell_{ref}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "h_{phys}=\\ell_{ref}/m"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Omega=\\sum_n w_n|n\\rangle\\langle n|\\otimes\\rho_n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(N_U-1)d=129,919,872"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\boldsymbol\\xi\\in[0,1)^3"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\mathbf x=\\ell_{ref}\\boldsymbol\\xi,\\qquad h_{phys}=\\ell_{ref}/m,\\qquad V_j=h_{phys}^3."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\ell_{ref}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_U"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "E_n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "K_{jn}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\sum_jK_{jn}=1"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "E_j=\\sum_nK_{jn}E_n,\\qquad u_j=E_j/V_j,\\qquad \\sum_{j\\in spatial}u_jV_j+E_{reserve}=\\sum_nE_n."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L,H,C"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1,015,000"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\ell_{ref}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "m"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_U=LHC"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "w_n\\propto n^{-\\alpha},"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\alpha_0=1.8996876950554356."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_U=1,015,000"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\phi=0.05000002538983289,"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "D=0.26800001828881304,"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "R=0.6819999563213559."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{\\alpha_1=1.8996877935161325},"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{h_1=1.4476744689338703}."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{\\beta_{eff}=0.8654567230719301}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{\\phi/D/R=0.05/0.268/0.682}."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1,015,000"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0.05/0.268/0.682"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0.0493/0.265/0.6857"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "B_D"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "B_R(\\delta)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "O"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Phi"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0:5:29"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q_0"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\text{high-energy Actual}\n\\rightarrow \\rho_T\n\\rightarrow \\text{filter/readout}\n\\rightarrow \\text{SOURCE branching}\n\\rightarrow \\text{shutter/record}\n\\rightarrow B_{\\mu M}\n\\rightarrow \\text{component activation}\n\\rightarrow \\text{codeword/harmonic}\n\\rightarrow \\text{phenotype}\n\\rightarrow E(V)\n\\rightarrow P\n\\rightarrow \\text{load}\n\\rightarrow \\text{twist/gravity/expansion}.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q_0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "E_0"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\rho_T=\n\\frac{\n\\exp[-(H-E_0I)/(k_BT)]\n}{\n\\operatorname{Tr}\\exp[-(H-E_0I)/(k_BT)]\n}\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n(T,H,E\\text{-prescription}).\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\Delta E=431.081244315\\ \\mathrm{MeV}.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\np_{\\mathrm{exc}}=0.0799766545,\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nE_{\\mathrm{exc}}=34.4764357391\\ \\mathrm{MeV}.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nT_{\\mathrm{Gibbs}}\\simeq 2.048\\times10^{12}\\ \\mathrm{K},\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\frac{\\Delta E}{k_B}\\simeq5.00249\\times10^{12}\\ \\mathrm{K}.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nT\\uparrow\n\\Rightarrow \\text{thermal mixing}\\uparrow\n\\Rightarrow \\text{filter gap}\\downarrow\n\\Rightarrow 0.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "u_i"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "u_j"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nc(i,j)=-\\|u_i-u_j\\|_C^2.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "F_{DX}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n0.672634137,\n\\qquad\n0.825428002,\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\Delta_L=\\Delta_R=0.04669193039>0.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "F_{DX}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\rho"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\min\\Delta > 4\\rho.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\boxed{\n\\text{thermal population mixing alone}\n\\not\\Rightarrow\n\\text{filter destruction}\n}\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\kappa_0=0.25.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n1-\\kappa_0=0.75,\n\\qquad\n1+\\kappa_0=1.25.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nm_F=\\frac{\\kappa}{\\kappa_0}.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "m_F=0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "m_F=1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\kappa"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\Delta\\approx1.56498\\kappa^2.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\kappa=0.25m_F"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\Delta\\approx0.0978113m_F^2.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\rho_{\\mathrm{env}}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nm_{F,\\mathrm{crit}}\\approx6.395\\sqrt{\\rho_{\\mathrm{env}}}.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nT\\rightarrow m_F(T)\\rightarrow\\kappa(T)\\rightarrow\\Delta(T)\\rightarrow F.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "m_F"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T\\rightarrow m_F(T)"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nm_F=1-T/T_P\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T_F=T_P"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T\\rightarrow m_F"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n=2,\\ldots,N"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nw_n\\propto n^{-\\alpha}.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nN=10^6,\n\\qquad\n\\alpha_0=1.8996876950554356,\n\\qquad\n\\beta_0=0.8654570124136961.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nO=0.05777294456,\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nE=0.268,\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nP=0.6742270554.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\beta"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\phi=\\beta O=0.05,\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nO-\\phi=0.00777294456.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nR=P+(O-\\phi)=0.682.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\phi+D=0.05+0.268=0.318.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "31.8\\%"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "87.79\\%"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "31.8\\%"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\boxed{\\text{a finite generation window}}\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\alpha"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\beta"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\text{preparation}\n\\rightarrow\n\\text{transformation}\n\\rightarrow\n\\text{shutter}\n\\rightarrow\n\\text{record}.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "k"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\tau"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "t_P"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n23\\mu_E=22217.345682174\\ \\mathrm{eV}\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nt_\\mu=2.962603932832\\times10^{-20}\\ \\mathrm{s}.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\epsilon=0.05"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\Delta\\tau_*\n=1.481301966416\\times10^{-21}\\ \\mathrm{s}.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\frac{\\Delta\\tau_*}{t_P}\\approx2.75\\times10^{22}.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\xi=0.1"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\Delta\\tau_{\\mathrm{source}}\n=2.962603932832\\times10^{-21}\\ \\mathrm{s}.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\boxed{\n\\text{event discreteness}\n\\neq\n\\text{physical-time discreteness}\n}\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "K=8"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nB_D:\n\\quad\n\\text{Can different states be distinguished by different record projectors?}\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nB_R(\\delta):\n\\quad\n\\text{Is instability under repeated readout below the tolerance }\\delta\\text{?}\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\boxed{\nB_{\\mu M}=B_D\\cap B_R(\\delta)\n}\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "K"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\na_K=\n\\frac{1-\\cos^K(2gs/K)}{2}.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "g=1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "s=1.2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "K"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a_K"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "K"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\na_K\\sim\\frac{1.44}{K}.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\delta"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "K"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\delta"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "K"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\mathcal P=0.539448,\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n(0.05,0.268,0.682).\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\boxed{\n\\text{decoherence}\n\\neq\n\\text{single selected record}\n}\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\boxed{\n\\text{Component}\n=\n\\text{origin}\n+\n\\text{activation}\n+\n\\text{identity retention}\n+\n\\text{ledger closure}\n}\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nB_C=B_D\\cap B_{\\mathrm{origin}}\\cap B_{\\mathrm{ledger}}.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nB_C^{\\mathrm{persistent}}\n=B_C\\cap B_R(\\delta).\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nj:n\\rightarrow j:D\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "j"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\boxed{\n\\text{inactive reserve}\n=\n\\text{origin preserved, phenotype inactive}\n}\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\boxed{\nN_{\\mathrm{active}}\n\\neq\nN_{\\mathrm{primitive}}\n}\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nA_{N_P}=\\{b_1,\\ldots,b_{N_P}\\},\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nC_j=G(\\text{sequence, order, phase, repetition}),\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nP=\\mathcal R(C_1,C_2,\\ldots)\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n4^2=16\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2^4"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "3^3>16"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_P=4"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "j"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Delta E_j"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nP_{\\mathrm{reverse},j}\n\\sim\n\\exp\\left[-\\frac{\\Delta E_j}{k_BT}\\right].\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\delta"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nT_j(\\delta)\n=\n\\frac{\\Delta E_j}{k_B\\ln(1/\\delta)}.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2.22588559\\,\\mathrm{MeV}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\alpha\\rightarrow d+d"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "23.92275894\\,\\mathrm{MeV}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T_C"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0:5:29"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n(n_1,n_2,n_3)=(0,5,29).\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nq_\\nu=1.725929280\\ \\mathrm{meV}.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nm_1=0,\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nm_2=5q_\\nu=8.6296464\\ \\mathrm{meV},\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nm_3=29q_\\nu=50.0519491\\ \\mathrm{meV}.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\sum m_\\nu=58.6815955\\ \\mathrm{meV}\n\\approx58.6816\\ \\mathrm{meV}.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nT_\\Phi\\approx2.39619\\times10^{-12}\\ \\mathrm{s},\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n0,\n\\quad5,\n\\quad29\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0:5:29"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\Lambda=\\frac{\\Gamma_R}{\\Delta f_{ij}}\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\boxed{\n\\sum_{g,j}E_{\\phi,g,j}=E_\\phi\n}\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "g"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "j"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "E_\\phi"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\text{more components/channels/generations/phases}\n\\not\\Rightarrow\n\\text{more cosmic energy}.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "E_\\phi"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q_0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "K=4"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "K=8"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "K=16"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\boxed{\n\\text{upstream population change}\n\\rightarrow\n\\text{same }E(V)\n\\rightarrow\nP\n\\rightarrow\n\\text{load}\n\\rightarrow\nq\n}\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "K=8"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nq_0=-0.52855,\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nv_{\\mathrm{rot}}=207.5109051266\\ \\mathrm{km\\,s^{-1}},\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\theta_{\\mathrm{lens}}=0.5355865106^{\\prime\\prime}.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\boxed{\nG_{\\min}=\\{A_{N_P},O,B_L,B_R,R,\\Phi,L\\}\n}\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "A_{N_P}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "O"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "B_L,B_R"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "R"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Phi"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "O"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0:5:29"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Phi"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_P=4"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\boxed{\n\\begin{aligned}\n\\text{high-energy Actual}\n&\\rightarrow \\text{finite thermal probe}\\\\\n&\\rightarrow \\text{filter/readout}\\\\\n&\\rightarrow \\text{SOURCE admission/return}\\\\\n&\\rightarrow \\text{shutter + conditional record}\\\\\n&\\rightarrow B_D\\cap B_R(\\delta)\\\\\n&\\rightarrow \\text{origin-preserving component}\\\\\n&\\rightarrow \\text{stable codeword or harmonic state}\\\\\n&\\rightarrow \\text{phenotype}\\\\\n&\\rightarrow \\text{normalized SI energy}\\\\\n&\\rightarrow \\text{pressure/information load}\\\\\n&\\rightarrow \\text{twist/gravity/expansion}.\n\\end{aligned}\n}\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T,H,E_0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "B_D\\cap B_R(\\delta)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "E(V)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\boxed{\n\\textbf{WRRA M 0.1-0.12 Structural Integration 1.0 - CLOSED}\n}\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\text{carrier/filter}\n\\rightarrow\n\\text{phenotype}\n\\rightarrow\n\\text{downstream physics}.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\boxed{\n\\text{carrier/filter}\n\\rightarrow\n\\text{record}\n\\rightarrow\n\\text{component}\n\\rightarrow\n\\text{codeword/harmonic}\n\\rightarrow\n\\text{phenotype}\n\\rightarrow\n\\text{downstream physics}\n}\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\text{high }T\n\\Rightarrow\n\\text{population mixing}\n\\Rightarrow\n\\text{filter collapse}\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\text{WRRA frame}=t_P\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nB_D\\cap B_R(\\delta).\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0:5:29"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\sum E_{\\phi,g,j}=E_\\phi\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "Q/B/L/E"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "K"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nT\\rightarrow\\{\\kappa,\\alpha,\\beta,K_*\\}.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\text{primitive grammar}\n\\rightarrow\nH_{\\mathrm{particle}}.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0:5:29"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n0:5:29\n\\rightarrow\n\\text{mixing dynamics}.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\text{common carrier}\n\\rightarrow\n\\text{filter}\n\\rightarrow\n\\text{phenotype}\n\\rightarrow\n\\text{forces/cosmology},\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\boxed{\n\\text{SOURCE/Actual}\n\\rightarrow\n\\text{filter}\n\\rightarrow\n\\text{record}\n\\rightarrow\n\\text{component}\n\\rightarrow\n\\text{codeword/harmonic}\n\\rightarrow\n\\text{phenotype}\n\\rightarrow\n\\text{energy/load}\n\\rightarrow\n\\text{gravity/expansion}\n}\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "5\\%/26.8\\%/68.2\\%"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "B_D\\cap B_R(\\delta)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0:5:29"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\boxed{\n\\textbf{WRRA M 0.1-0.12 Structural Integration 1.0 - CLOSED}\n}\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0:5:29"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "m_F\\rightarrow\\kappa\\rightarrow\\Delta"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\phi/D/R=0.05/0.268/0.682"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "B_D\\cap B_R(\\delta)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G_{\\min}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Delta E"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Delta_L=\\Delta_R"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\alpha_0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\beta_0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "O"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "E"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "P"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Delta\\tau_*"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.481301966416\\times10^{-21}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q_\\nu"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2.39619\\times10^{-12}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q_0"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{\\phi \\oplus D \\oplus R}."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "g_{s}(n) = 1 + \\lambda_{s}\\frac{\\log n}{\\log N_{U}},\\quad\\quad\\left( \\lambda_{\\phi},\\lambda_{D},\\lambda_{R} \\right) = (0,0.25,0.1)."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{\\left( \\mu_{\\phi},\\mu_{D},\\mu_{R} \\right) = (0.0500000000000001,0.278925610976744,0.687742539854239)}."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\eta_{\\phi} = 7.561582499072265 \\times 10^{- 10},\\quad\\eta_{D} = 7.285761328795971 \\times 10^{- 10},\\quad\\eta_{R} = 7.646102818811323 \\times 10^{- 10}\\ J\\, m^{- 3}."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "V_{0} = 1\\, m^{3}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "E_{\\phi} = 3.78079124953614 \\times 10^{- 11}J,"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "E_{D} = 2.03218543006515 \\times 10^{- 10}J,"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "E_{R} = 5.25855017259595 \\times 10^{- 10}J,"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{E_{total} = 7.668814727614716 \\times 10^{- 10}J}."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "E_{\\phi}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "E_{s,0}=V_0\\eta_s\\mu_s"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "V_0=1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "E_s"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "V_0a^3"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "E_R(a)=E_{R,0}a^3"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "E_{\\phi,j}=V_0\\eta_\\phi\\mu_{\\phi,j}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "f_{c} = 0.265"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "a_{T,0} = cH_{0}\\sqrt{\\frac{f_{c}}{8}},"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "a_{T} = a_{T,0}\\sqrt{\\frac{\\rho_{D}}{u_{crit}f_{c}}}."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a = 1"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{a_{T} = 1.1917875313971119 \\times 10^{- 10}\\ m\\, s^{- 2}}."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a_{T}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "6 \\times 10^{10}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "161.4505105\\ km\\, s^{- 1}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{207.5102419\\ km\\, s^{- 1}}."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{0.5355822400''}."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "3.20 \\times 10^{- 6}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "7.97 \\times 10^{- 6}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\left( n_{\\phi},n_{D},n_{R} \\right) = (0,0,3)"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\rho_{\\phi}(a) = E_{\\phi,0}/(V_0a^{3}),\\quad\\quad\\rho_{D}(a) = E_{D,0}/(V_0a^{3}),\\quad\\quad\\rho_{R}(a) = E_{R,0}/V_0."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "P_{\\phi} = P_{D} = 0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "P_{R} = - \\rho_{R}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\frac{H(a)}{H_{0}} = \\sqrt{\\frac{\\rho(a)}{u_{crit}}},\\quad\\quad q(a) = \\frac{1}{2}\\frac{\\rho(a) + 3P(a)}{\\rho(a)}."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{a_{trans} = 0.6119598067968817}."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\Delta\\tau = 1.4813019664158691 \\times 10^{- 21}s."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{9.99 \\times 10^{- 16}}."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\text{finite rule} \\rightarrow \\text{finite addresses} \\rightarrow \\text{filter} \\rightarrow \\text{residue} \\rightarrow \\text{component/phenotype}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\rightarrow \\text{information load} \\rightarrow \\text{energy} \\rightarrow \\text{pressure/gravity} \\rightarrow \\text{rotation/lensing} \\rightarrow \\text{expansion}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\phi,D,R"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "E_{\\phi}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(0.05,0.268,0.682)"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "q_{0} = - 0.52855,\\quad\\quad v = 207.5109051266\\ km\\, s^{- 1},\\quad\\quad\\theta = 0.5355865106''."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "q_{0} = - 0.5285585894,\\quad\\quad v = 207.5102418659\\ km\\, s^{- 1},\\quad\\quad\\theta = 0.5355822400''."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\boxed{65}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{N_{U} = 1,015,000}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{a_{trans} = 0.6119598068}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "m_{1} = 0,\\quad\\quad m_{2} = 8.62965\\ meV,\\quad\\quad m_{3} = 50.05195\\ meV,"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\sum m_{\\nu} = 58.6816\\ meV."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H = 29"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T = 2\\pi H"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L,H,C"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_{U} = LHC"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{\\text{LAW} \\rightarrow \\text{finite SOURCE} \\rightarrow \\text{address/filter} \\rightarrow \\text{residue/return} \\rightarrow \\text{thermal/readout}}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{\\rightarrow \\text{record boundary} \\rightarrow \\text{origin-preserving component} \\rightarrow \\text{stable codeword/harmonic}}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{\\rightarrow \\text{phenotype} \\rightarrow \\text{SI energy} \\rightarrow \\text{pressure/information load}}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{\\rightarrow \\text{twist/gravity} \\rightarrow \\text{galaxy/lensing} \\rightarrow \\text{cosmic expansion} \\rightarrow \\text{Record}}."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L=500"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H=29"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "C=70"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\boxed{N_U=LHC=1,015,000}."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "5.000002539\\% / 26.800001829\\% / 68.199995632\\%."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "5\\%/26.8\\%/68.2\\%"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "q_0=-0.5285585894,"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "a_T=1.1917875314\\times10^{-10}\\ m\\,s^{-2},"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "v_{ref}=207.5102419\\ km\\,s^{-1},"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\theta_{lens}=0.5355822400'',"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "a_{trans}=0.6119598068."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "m_1=0,\\qquad m_2=8.62965\\ \\text{meV},\\qquad m_3=50.05195\\ \\text{meV},"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\sum m_\\nu=58.6816\\ \\text{meV}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0:5:29"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H=29"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T=2\\pi H"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L,H,C"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_U=LHC"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1,015,000"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T_{\\mu\\nu}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "J_a"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "C"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_U"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Delta E"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Delta_L=\\Delta_R"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\alpha_0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\beta_0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Delta\\tau_*"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.481301966416\\times10^{-21}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q_\\nu"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2.39619\\times10^{-12}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q_0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a_T"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.1917875314\\times10^{-10}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a_{trans}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0:5:29"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nN=L\\cdot29\\cdot70=1\\,015\\,000,\\qquad w_n=\\frac{n^{-\\alpha}}{\\sum_{m=2}^{N}m^{-\\alpha}},\\qquad \\alpha=1.8996877935161325.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nd_k(n)=\\sum_{j=1}^{4}c_j\\cos\\!\\left[\\gamma_j(\\log n+\\xi k)+\\varphi_j\\right],\\quad t_k(n)=\\frac{1}{1+\\exp[-(d_k(n)-h)]}.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\ne_P(n)=1-\\prod_{k=0}^{7}[1-t_k(n)],\\quad e_R(n)=1-e_P(n),\\quad e_D(n)=0\\quad\\text{for odd composites}.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\lambda_{j,\\pm}=e^{\\pm i\\gamma_j\\xi},\\qquad H_8=V\\,\\mathrm{diag}(a_1,\\ldots,a_8)\\,V^{T},\\qquad \\mathrm{rank}(H_8)=8.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\begin{pmatrix}C_{k+1}\\\\S_{k+1}\\end{pmatrix}=\\begin{pmatrix}\\cos\\omega&-\\sin\\omega\\\\\\sin\\omega&\\cos\\omega\\end{pmatrix}\\begin{pmatrix}C_k\\\\S_k\\end{pmatrix},\\qquad \\omega=\\gamma_j\\xi.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nK_s(n)=\\sqrt{e_s(n)}\\,P_{\\mathrm{sel}},\\qquad \\sum_s K_s(n)^\\dagger K_s(n)=I_{16},\\qquad A_s^{\\mathrm{joint}}=I_{16}\\otimes A_s.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nH=(m-e_{\\min})I+\\Delta\\begin{pmatrix}0&-C\\sqrt{r_3r_5}\\\\-C\\sqrt{r_3r_5}&1\\end{pmatrix}.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nL_s=\\sum_{n=2}^{N}w_n e_s(n)g_s(n)\\,\\mathrm{Tr}(\\rho_n A_s),\\qquad A_P=I,\\quad A_D=K_c/2,\\quad A_R=K_b/2.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nE_s(a)=\\eta_sV_0a^{n_s}L_s,\\qquad V=V_0a^3,\\qquad P_s=-\\left.\\frac{\\partial E_s}{\\partial V}\\right|_{L_s}=-\\frac{n_sE_s}{3V},\\quad (n_P,n_D,n_R)=(0,0,3).\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nE_{\\mathrm{before}}+E_{\\mathrm{supplied}}=E_{\\mathrm{after}}+W_{\\mathrm{record}}+E_{\\mathrm{supplier\\ remaining}}.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\frac{H}{H_0}=\\sqrt{\\frac{\\rho}{u_{\\mathrm{crit}}}},\\qquad q=\\frac12\\left(1+\\frac{3P}{\\rho}\\right),\\qquad a_T=cH_0\\sqrt{\\frac{\\rho_D}{8u_{\\mathrm{crit}}}}.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\ng_b(r)=\\frac{GM r}{(r^2+b_0^2)^{3/2}},\\qquad g(r)=g_b(r)\\nu(g_b/a_T),\\qquad \\nu(y)=\\frac{1}{1-e^{-\\sqrt y}},\\qquad v^2=rg.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\alpha_{\\mathrm{lens}}=\\frac{4}{c^2}\\int_0^{z_{\\max}}g\\!\\left(\\sqrt{b^2+z^2}\\right)\\frac{b\\,dz}{\\sqrt{b^2+z^2}},\\qquad z_{\\max}=\\sqrt{R_{\\mathrm{patch}}^2-b^2}.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\Omega=\\sum_{n=2}^{N}w_n|n\\rangle\\langle n|\\otimes\\rho_n,\\qquad \\rho_n\\succeq0,\\quad \\operatorname{Tr}\\rho_n=1.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nw_n=\\frac{n^{-\\alpha}}{\\sum_{m=2}^{N}m^{-\\alpha}},\\quad\ng_s(n)=1+\\lambda_s\\frac{\\log n}{\\log N},\\quad\n(\\lambda_P,\\lambda_D,\\lambda_R)=(0,0.25,0.1).\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nd_k(n)=\\sum_{j=1}^{4}\\frac12\\cos[\\gamma_j(\\log n+\\xi k)],\\quad\nt_k(n)=\\frac{1}{1+e^{-(d_k(n)-h)}},\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\ne_P(n)=1-\\prod_{k=0}^{7}(1-t_k(n)),\\quad e_D(n)=0,\\quad e_R(n)=1-e_P(n).\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nK_c=2I-S-S^\\dagger,\\qquad K_b=\\frac{K_c+\\epsilon D_0}{1+\\epsilon/(2d)},\\qquad\n(A_P,A_D,A_R)=(I,K_c/2,K_b/2).\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\Sigma_s=\\sum_n w_nf_s(n)\\rho_n,\\qquad L_s=\\operatorname{Tr}(\\Sigma_s A_s).\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nB_{sk}=\\sum_{n:k(n)=k}w_nf_s(n),\\qquad \\Sigma_s=\\sum_{k=1}^{G}B_{sk}\\tau_k.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nL_s-L_s^{\\mathrm{prod}}=\\operatorname{Cov}_w(f_s,b_s),\\qquad\n|L_s-L_s^{\\mathrm{prod}}|\\le\\frac{a_{s,\\max}-a_{s,\\min}}{2}\\sqrt{\\operatorname{Var}_w(f_s)}.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\Sigma_{sk}=\\sum_{n\\in C_k}w_nf_s(n)\\rho_n,\\qquad \\Sigma'_s=\\sum_k\\Phi_k(\\Sigma_{sk}).\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nE_s(a)=\\eta_sV_0a^{n_s}L_s,\\quad V=V_0a^3,\\quad\n\\rho_s=E_s/V,\\quad P_s=-n_s\\rho_s/3.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nE_{\\mathrm{sys,before}}+E_{\\mathrm{supplier,before}}=E_{\\mathrm{sys,after}}+E_{\\mathrm{record,after}}+E_{\\mathrm{supplier,after}}.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nH/H_0=\\sqrt{\\rho/u_{\\mathrm{crit}}},\\quad q=\\tfrac12(1+3P/\\rho),\\quad\na_T=cH_0\\sqrt{\\rho_D/(8u_{\\mathrm{crit}})}.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\rho=u_{\\mathrm{crit}}(H/H_0)^2,\\quad\n\\rho_R=\\frac{1-2q}{3}\\rho,\\quad\n\\rho_D=8u_{\\mathrm{crit}}\\left(\\frac{a_T}{cH_0}\\right)^2,\\quad\n\\rho_P=\\rho-\\rho_R-\\rho_D.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nL_P=\\mu_P.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\mu_D\\lambda_{\\min}(A_D)\\le L_D\\le\\mu_D\\lambda_{\\max}(A_D).\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\mu_R\\lambda_{\\min}(A_R)\\le L_R\\le\\mu_R\\lambda_{\\max}(A_R).\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n(1+q)h^2=\\frac32(p+8t^2).\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\alpha(b)=\\frac{4}{c^2}\\int_0^{\\sqrt{R^2-b^2}}g\\!\\left(\\sqrt{b^2+z^2}\\right)\\frac{b}{\\sqrt{b^2+z^2}}\\,dz.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nr_i=\\log_{10}g_{{\\mathrm{obs}},i}-\\log_{10}\\!\\left[\\frac{g_{{\\mathrm{bar}},i}}{1-e^{-\\sqrt{g_{{\\mathrm{bar}},i}/a_T}}}\\right],\\quad\n{\\mathrm{RMS}}=\\sqrt{\\frac1m\\sum_i r_i^2}.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "q=\\tfrac12(0.05+0.268)-0.682=-0.523."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n=\\prod_p p^{\\nu_p}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Omega(n)=\\sum_p\\nu_p>0"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\chi(n)=\\sum_p\\left(\\frac{\\nu_p}{\\Omega(n)}\\right)^2."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "12=2^2\\times3"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\chi=5/9"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "30=2\\times3\\times5"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\chi=1/3"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\chi"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1-\\chi"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\pi_n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "X=\\sum_n\\pi_n\\chi(n)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "PV/E_*"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "C"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\bar T"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "CT=\\bar TC"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "r_p=\\nu_p/\\Omega"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\sum_p r_p^2=\\chi"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "E_a(V)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "C"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "B_a(V)=C-E_a(V),\\qquad P_a(V)+P_{B,a}(V)=0."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "K_{\\rm eff}=K_0-\\beta\\epsilon^2\\operatorname{Cov}(b)."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "K_{\\rm eff}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "m"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "b"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q_0"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "n_*=m-q_0+1."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "b\\ge2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "m\\ge0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0\\le q_0\\le m"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_U=1{,}015{,}000"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "128w_{\\max}/W_{\\mathrm{res}}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\alpha=2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "f_s(n)"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nA_k=1-\\cos(2\\pi k/128),\\qquad\n\\boldsymbol b_{nk}=(f_P(n),f_D(n)A_k,f_R(n)A_k).\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\operatorname{Cov}(\\boldsymbol b)\n=\\mathbb E_n[\\operatorname{Cov}(\\boldsymbol b\\mid n)]\n+\\operatorname{Cov}_n(\\mathbb E[\\boldsymbol b\\mid n]).\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "K_{\\mathrm{eff}}=K_0-\\beta\\epsilon_E^2\\operatorname{Cov}(\\boldsymbol b)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "K_0=2I_3"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\beta=\\epsilon_E=1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "X=Lx"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "I_L(X)=I(x)/L"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\frac{I_L-\\langle I_L\\rangle}{\\langle I_L\\rangle}\n=\\frac{I-\\langle I\\rangle}{\\langle I\\rangle}.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "10^{-5}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Delta E"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Delta t"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\operatorname{sinc}(\\Delta E\\Delta t/(2\\hbar))"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\operatorname{sinc}(x)=\\sin(x)/x"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.481301966416\\times10^{-21}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "t_P=5.391247\\times10^{-44}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "3.56705\\times10^{-41}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\eta_s"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "V_0=1\\,\\mathrm{m}^3"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(\\nu_P,\\nu_D,\\nu_R)=(0,0,3)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "I/128"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\Delta A=A_{72}-A_8=2\\cos(\\pi/8),\n\\qquad q_n(a)=V_0[\\eta_D f_D(n)+\\eta_R a^3 f_R(n)],\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nH_n=\\eta_PV_0f_P(n)I+q_nA,\\qquad\nH_{B,n}=q_n\\Delta A\\,|1\\rangle\\langle1|.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "|8,B1,R0\\rangle\\leftrightarrow|72,B0,R1\\rangle"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "U"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "[U,H_{\\mathrm{source}}+H_B]=0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "O_{\\mathrm{after}}=UO_{\\mathrm{before}}U^\\dagger"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "A"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "p=1/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "A_8+A_{72}=2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "4.967352081978407\\times10^{-10}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.3321303783564441\\times10^{-10}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "3.6352217036219685\\times10^{-10}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1/(1+e)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a_i=0.02"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "p(\\boldsymbol x)=1/2+\\varepsilon\\cos(\\boldsymbol k\\cdot\\boldsymbol x)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\boldsymbol k=(0.05,0,0)\\,\\mathrm{Mpc}^{-1}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\varepsilon=10^{-8}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "M_{C,s}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\frac{\\partial L_s}{\\partial p}=\\Delta A M_{C,s},\\qquad\n\\frac{\\partial u_s}{\\partial p}=\\eta_s a^{\\nu_s-3}\\Delta A M_{C,s}.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T_R^{\\mu\\nu}=-u_Rg^{\\mu\\nu}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nQ_R^\\nu=\\nabla_\\mu T_R^{\\mu\\nu}=-\\nabla^\\nu u_R.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "Q_D=-Q_R"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "Q_b=0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\psi=\\phi"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N=\\ln a"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\mathcal H=aH/c"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "C_s=(3/2)\\mathcal H^2\\Omega_s"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\phi_N=-\\phi+\\frac{C_b\\theta_b+C_D\\theta_D}{k^2\\mathcal H},\n\\qquad \\delta_{s,N}=-\\theta_s/\\mathcal H+3\\phi_N\\quad(s=b,D),\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\theta_{b,N}=-\\theta_b+k^2\\phi/\\mathcal H,\n\\qquad\n\\theta_{D,N}=-\\theta_D+\\frac{k^2}{\\mathcal H}\n\\left(\\phi-\\frac{\\delta u_R}{u_D}\\right).\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a=0.02"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\delta p_R=-\\delta u_R"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "S_R=C_R\\delta u_R/u_R"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nF=k^2\\phi+\\frac{3\\mathcal H(C_b\\theta_b+C_D\\theta_D)}{k^2}\n+C_b\\delta_b+C_D\\delta_D+S_R,\n\\qquad \\mathcal R_{00}=\\frac{\\max|F|}{\\max|S_R|}.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "9.992401558\\times10^{-9}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.036908035\\times10^{-8}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "F_N+F=0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "F_N+F=3S_R"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "F(a)=S_R(a)[1-(a_i/a)^3]"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "3.490\\times10^{-16}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "5.771\\times10^{-16}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2\\times10^{-11}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "10^{-12}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.81173\\times10^{-4}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.91268\\times10^{-4}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "10^{-8}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "A_s=2.1\\times10^{-9}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n_s=0.9649"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\tau=0.0544"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T_{\\mathrm{CMB}}=2.7255"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "m_\\nu=0.06"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_{\\mathrm{eff}}=3.044"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H_0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H_0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\ell"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\omega_b=0.0223958068"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2.441774241\\times10^{-5}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Omega_{\\mathrm{total}}=1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H(z)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(0,5,29)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "m_ic^2=qn_i"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "m_1=0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Delta m_{21}^2=(7.50^{+0.19}_{-0.18})\\times10^{-5}\\,\\mathrm{eV}^2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Delta m_{32}^2=(2.466\\pm0.060)\\times10^{-3}\\,\\mathrm{eV}^2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q^2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(25,841,816)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "pc=E"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H_i=\\sqrt{E^2+(qn_i)^2}-E"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nP_{ee}(t)=\\left|\\sum_i w_i\\exp(-iH_it/\\hbar)\\right|^2.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q=1.735336791"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "7.528484444\\times10^{-5}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0.002457297322\\,\\mathrm{eV}^2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "P_{ee}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "816/25=32.64"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Delta\\chi^2=1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q_0=1.725929280"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\alpha"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "h"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1/n^2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1/n^3"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\ny_{21}=25Gq_0^2,\\quad y_{32}=816Gq_0^2,\n\\qquad \\nu_{ab}=G\\nu_{ab,\\mathrm{base}}+\\ell b_{ab}.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "b_{ab}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\ell=GL"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q,A,L,G"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G\\to sG"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q\\to q/\\sqrt{s}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "A\\to A/s"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L\\to L/s"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q_0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "A_0=3.2880512315349455\\times10^{15}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G=0.999999994790629"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\ny_{21}=7.44707966011\\times10^{-5}\\,\\mathrm{eV}^2,\\qquad y_{32}=0.00243072680106\\,\\mathrm{eV}^2.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\hbar"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2.1969811\\pm0.0000022"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G_F"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "m^5"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\Gamma_{\\tau\\to l}=\\frac{1}{\\tau_\\mu}\n\\left(\\frac{m_\\tau}{m_\\mu}\\right)^5\n\\frac{f(m_l^2/m_\\tau^2)}{f(m_e^2/m_\\mu^2)}\n\\frac{w(m_\\tau,m_l)}{w(m_\\mu,m_e)},\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nf(x)=1-8x+8x^3-x^4-12x^2\\ln x,\\qquad\nw(M,m)=1+\\frac{3M^2+9m^2}{5M_W^2}.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_\\mu=2^k"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Delta t=\\tau_\\mu/N_\\mu"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\np_i=\\frac{\\Gamma_i}{\\Gamma_{\\mathrm{tot}}}\n\\left[1-e^{-\\Gamma_{\\mathrm{tot}}\\Delta t}\\right],\n\\qquad p_{\\mathrm{stay}}=e^{-\\Gamma_{\\mathrm{tot}}\\Delta t}.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "6.1265152383\\times10^{11}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "5.9584387804\\times10^{11}\\,\\mathrm{s}^{-1}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "k=24,28,32"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "3.2\\times10^{-15}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c=299792458\\,\\mathrm{m/s}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "E_*=22217.345682174"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\epsilon=0.05"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\Delta t=\\epsilon\\hbar/E_*=1.481301966415863\\times10^{-21}\\,\\mathrm{s},\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\Delta x=c\\Delta t=4.44083157552045\\times10^{-13}\\,\\mathrm m\n=0.444083157552045\\,\\mathrm{pm}.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\psi_a(k+1,j)=\\psi_a(k,j-1\\bmod512),\\qquad\nU=U_{\\mathrm{shift}}\\otimes I_{15}.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "S^1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "4.44\\times10^{-16}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "8.33\\times10^{-17}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.67\\times10^{-16}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "6.24\\times10^{-14}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\omega/k=c"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Delta x=c\\Delta t"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "|E\\Delta t/\\hbar|<\\pi"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\epsilon=0.05"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "r"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Delta t'=\\Delta t/r"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Delta x'=\\Delta x/r"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "rc"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N=\\operatorname{round}(T/\\Delta t)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "|N\\Delta t-T|>\\Delta t/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q_0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "7.406509832079315\\times10^{-22}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "cT"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Delta x/\\Delta t"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Delta t"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_U=1{,}015{,}000"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\eta_s"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "500\\times29\\times70"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Delta t=1.481301966415863\\times10^{-21}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nn-1=i+500(j+29k),\\qquad\n0\\leq i<500,\\;0\\leq j<29,\\;0\\leq k<70.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "d=c\\Delta t"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "d=0.444083157552045"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "d"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L_{\\mathrm{micro}}=1024d=0.454741153333"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "X=Lx"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "I_L(X)=I(x)/L"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "B_{s,r,j}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "s"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "r=n\\bmod30"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "j"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nK_r(x)\\propto\\prod_{p\\in\\{2,3,5\\}}\n\\left|1-D_p((r\\bmod p)/p-x)\\right|^2,\n\\qquad\\langle K_r\\rangle_x=1,\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nS_s(x)=\\sum_{r,j}B_{s,r,j}K_r(x).\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "w_n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "f_s(n)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(\\lambda_P,\\lambda_D,\\lambda_R)=(0,0,0)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(0,0.25,0.1)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "[z]_+=\\max(z,0)"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nD_p(\\theta)=\\frac1p\\sum_{a=0}^{p-1}e^{2\\pi i a\\theta},\\quad\nx_\\ell=\\ell/1024\\quad(\\ell=0,\\ldots,1023).\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nc_s(n)=w_n f_s(n)\\left(1+\\lambda_s\\frac{\\ln n}{\\ln N_U}\\right),\\quad\nB_{s,r,j}=\\sum_{\\substack{2\\le n\\le N_U\\\\n\\bmod30=r}}c_s(n)\\alpha_{nj}.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nm_n=\\sum_s c_s(n),\\quad T_n=\\sum_{h=2}^{n}m_h,\\quad C=T_{N_U}/128,\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\alpha_{nj}=\\frac{\\left[\\min(T_n,(j+1)C)-\\max(T_n-m_n,jC)\\right]_+}{m_n},\n\\quad j=0,\\ldots,127.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1024^{-1}\\sum_{\\ell=0}^{1023}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "|1-D_p|^2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "p-1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1+2+4=7"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "K_{s,j}(x)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "6.99\\times10^{-15}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "3.77\\times10^{-15}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\delta u_s(X)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a=1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "d_D,d_R"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nu_s(a)=u_{s0}a^{\\nu_s-3},\\quad(\\nu_P,\\nu_D,\\nu_R)=(0,0,3),\\quad a_i=0.02.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\delta_b(a_i)=0,\\quad\\delta_D(a_i)=d_D/u_{D0},\\quad\n\\theta_b(a_i)=\\theta_D(a_i)=0,\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\phi(a_i)=-\\frac{C_D(a_i)d_D/u_{D0}+C_R(a_i)d_R/u_{R0}}{k^2},\n\\qquad C_s=\\tfrac32\\mathcal H^2\\Omega_s.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\delta u_R=d_R"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\delta p_R=-d_R"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a^{-3}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\delta u_D(a)=u_D(a)\\delta_D(a)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "d_Da^{-3}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\epsilon"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "Q_D=-Q_R"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "Q_b=0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "p=1/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\epsilon=10^{-8}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\eta_s"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "k_1=0.05\\,\\mathrm{Mpc}^{-1}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "u_s=\\eta_sS_s"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n\\bmod3\\ne0"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\np_r(X)=\\frac12+\\epsilon[K_r(X/L)-1],\\qquad\n\\Delta A=2\\cos(\\pi/8),\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\delta u_s(X)=\\eta_s\\Delta A\\epsilon\n\\sum_{\\substack{r,j\\\\\\mathrm{controlled}}}\nB_{s,r,j}[K_r(X/L)-1]\\quad(s=D,R),\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\delta u_P=0,\\qquad\\delta p=-\\delta u_R.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "7.5120923\\times10^{-9}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2.1438452\\times10^{-8}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "7.4694725\\times10^{-9}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2.1319120\\times10^{-8}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.5\\times10^{-33}\\,\\mathrm{J/m}^3"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\epsilon"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "A_s"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "k_m=mk_1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "m=1,\\ldots,7"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L_{\\mathrm{macro}}=2\\pi/k_1\\simeq125.664"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "8.52699778655\\times10^{33}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a=1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "5.52\\times10^{-7}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "6.90\\times10^{-8}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2.25\\times10^{-12}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "500\\times29\\times70"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c/\\sqrt3"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c\\Delta t/d\\leq1/\\sqrt3"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H=\\hbar c|\\boldsymbol k|"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nU=\\exp(-iH\\Delta t/\\hbar)\\otimes I_{15}\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "|v_{\\mathrm{phase}}/c-1|"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2.80\\times10^{-13}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "6.66\\times10^{-16}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\epsilon=10^{-8}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "k_n=0.05n\\,\\mathrm{Mpc}^{-1}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n=1,\\ldots,7"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\delta u_D,\\delta u_R"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a=0.02"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\tau"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\delta_R'=0,\\qquad \\delta_D'=-k(z+v_D),\\qquad\nv_D'=-\\mathcal H v_D-k\\frac{u_R}{u_D}\\delta_R,\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\delta u_{\\rm tot}=u_D\\delta_D+u_R\\delta_R,\\qquad\n\\delta p_{\\rm tot}=-u_R\\delta_R,\\qquad q_{\\rm tot}=u_Dv_D.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\tau"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "z"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q_{\\rm tot}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\mathrm{J/m^3}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\mathrm{Mpc}^{-1}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a^4"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "8\\pi Ga^4u\\,\\mathrm{Mpc}^2/c^4"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a^2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\delta u/u"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "5.56\\times10^{-16}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1/2"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nC_\\ell^{TT}=2\\pi\\sum_n(T_{n,c}^2+T_{n,s}^2),\\quad\nC_\\ell^{TE}=2\\pi\\sum_n(T_{n,c}E_{n,c}+T_{n,s}E_{n,s}),\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nC_\\ell^{EE}=2\\pi\\sum_n(E_{n,c}^2+E_{n,s}^2).\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "E"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\sqrt{(\\ell-1)\\ell(\\ell+1)(\\ell+2)}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\ell"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "A_{\\rm Planck}=1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\ell"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.53935\\times10^{-5}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.46949\\times10^{-5}\\,\\mu\\mathrm K^2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.08\\times10^{-8}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "4.22\\times10^{-8}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "10^{-6}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\delta_D'/(\\mathcal H\\delta_D)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_U=1{,}015{,}000"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "w_n,f_s(n),\\eta_s"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(\\lambda_P,\\lambda_D,\\lambda_R)=(0,0.25,0)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c_s(n)=f_s(n)w_n[1+\\lambda_s\\ln n/\\ln N_U]"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\mu_D(0)=0.268,\\quad L_D=\\sum_n f_D(n)w_n\\frac{\\ln n}{\\ln N_U}\n=0.04370244390697558,\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\mu_D(0.25)=\\mu_D(0)+0.25L_D=0.278925610976744.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\mu_D"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Delta\\mu_D=0.010925610976744"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Delta u_D=\\eta_D\\Delta\\mu_D=7.9601393948\\times10^{-12}\\,\\mathrm{J/m^3}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n\\bmod3\\ne0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(u_P,u_D,u_R)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(3.78079124955\\times10^{-11},2.03218543007\\times10^{-10},5.21464212242\\times10^{-10})\\,\\mathrm{J/m^3}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\omega_bh^2=0.02239580679"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\omega_ch^2=0.12037806177"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H_0=67.2568374662\\,\\mathrm{km/s/Mpc}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H_0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\ell"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(0,0,0)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(0,0.25,0.1)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(0,0.25,0)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "3.47\\times10^{-9}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2.07\\times10^{-25}\\,\\mathrm{J/m^3}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "|8\\rangle"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "|0\\rangle"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\rho_{\\rm phase}=I/128"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\ln128=4.852030264"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "p_{r,j}=1/2+\\epsilon[K_r(j/128)-1]"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "j"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nC_n=\\tfrac12(v_{n,c}v_{n,c}^{\\mathsf T}+v_{n,s}v_{n,s}^{\\mathsf T}).\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "R_0=u_{R0}/u_{D0}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nv_D(\\tau)=-kR_0\\delta_R a^{-1}(\\tau)\\int_0^\\tau a^4(\\tau')\\,d\\tau',\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "-kR_0\\delta_R a^3\\tau/5"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "R_0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "u_R(a)/u_D(a)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.94219\\times10^{-9}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "3.31358\\times10^{-8}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2.22045\\times10^{-16}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.21074\\times10^{-8}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "9.48940\\times10^{-9}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "8.13\\times10^{14}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2.71\\times10^{15}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\ell"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\ell"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\ell=2\\ldots29"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\ell=2\\ldots6000"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T,E,\\phi"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\phi"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\mathcal L"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\mathcal L(C_{\\rm std},C^\\phi_{\\rm std}+C^\\phi_{\\rm SOURCE})+\n\\mathcal L(C_{\\rm SOURCE},C^\\phi_{\\rm std}+C^\\phi_{\\rm SOURCE}).\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\phi"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "4.23765614\\times10^{-9}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\ell"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\ell"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "-2\\ln\\mathcal L"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\ell"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "-2\\ln\\mathcal L"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "-2\\ln\\mathcal L"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\chi^2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "-8.07531\\times10^{-7}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\phi"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\ell_{\\max}=5000/6000"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\ell"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c=299792458\\,\\mathrm{m/s}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Delta t=1.4813019664158633\\times10^{-21}\\,\\mathrm s"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\ell_{\\rm sh}=c\\Delta t=0.4440831575520451\\,\\mathrm{pm}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "f_D(J)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.2107407781339933\\times10^{-8}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "g=1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "I/128"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "J"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nH_{\\rm int}=-H_{\\rm photon}\\otimes P_A\\otimes F_D,\\qquad F_D=\\operatorname{diag}[f_D(J)],\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\delta\\phi_J=\\frac{2\\pi}{\\lambda}\\ell_{\\rm sh}f_D(J),\\qquad\n\\frac{V(L,\\lambda)}{V_0}=\\left|\\frac1{128}\\sum_{J=0}^{127}\\exp\\left[i\\frac{2\\pi}{\\lambda}L f_D(J)\\right]\\right|.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L=N\\ell_{\\rm sh}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "W_{\\rm on/off}(J)=\\mp E_{\\rm photon}f_D(J)/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.130202539\\times10^{-27}\\,\\mathrm J"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "V/V_0=e^{-1/2}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "g"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N\\ell_{\\rm sh}=L"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "f_D(J)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "g=1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "I/128"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\nu_n=n f_{rep}+f_{CEO}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H_{int}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "v=V/V_0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "D"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "40\\,\\mathrm m"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L/\\lambda"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "V_0\\ge0.9"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "D=40"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_b"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\sigma_v\\le\\sqrt{2/(V_0^2N_b)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "|v(L+\\delta L,\\lambda)-v(L,\\lambda)|\\le\\frac{2\\pi}{\\lambda}\\langle|f_D|\\rangle|\\delta L|."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "g"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\sigma_\\phi^2=(2\\pi D\\sigma_\\nu/c)^2+(2\\pi\\sigma_D/\\lambda)^2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "r=y-v_{WRRA}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "C"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "Q=r^{\\mathsf T}C^{-1}r."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "Q>27.8771648713"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "6.7508180\\times10^{20}\\,\\mathrm{Hz}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N\\ell_{sh}=L"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\lambda_D=0.25"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "p_r(J)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "r=0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "r=1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "r=1/128"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(1-r)^h"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\frac{\\operatorname{Var}(\\bar X_N)}{\\operatorname{Var}(X_1)}=\n\\frac{N+2\\sum_{h=1}^{N-1}(N-h)(1-r)^h}{N^2},\\qquad T=N\\Delta t.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "r=0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "r=1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "r=1/128"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "5.4987\\times10^{20}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.8349\\times10^{21}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.0955\\times10^{21}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "3.6555\\times10^{21}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "3.332895850\\times10^{11}\\,\\mathrm{W/m^3}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "r=1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2.603824883\\times10^9\\,\\mathrm{W/m^3}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "r=1/128"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "g=1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\phi(E,J)=E(L/c)f_D(J)/\\hbar"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\delta t_J=(L/c)f_D(J)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\sigma_t=\\hbar/(2\\sigma_E)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\sigma_t^2+\\operatorname{Var}(\\delta t_J)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L/c"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "4.038596522\\times10^{-17}\\,\\mathrm s=40.38596522"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T,E,\\phi"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "k=0.05n\\,\\mathrm{Mpc^{-1}}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n=1\\ldots7"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\ell_{\\rm CMB}=2\\ldots6000"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\ell_{\\rm CMB}=2\\ldots256"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\ell_{\\rm CMB}=2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "-1.8741434548\\times10^{-16}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2.7422259540\\times10^{-20}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a_t=1.1918\\times10^{-10}\\,\\mathrm{m/s^2}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "V/V_0=0.3586975046"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "K_z(R,z)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\sigma_z(R,z)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "P_m(k,z)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\nu_*"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "[n]"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\rho_t"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q_t"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Phi(R,z)"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nK_z=-\\frac{\\partial\\Phi}{\\partial z},\\qquad\n\\frac{\\partial(\\nu_*\\sigma_z^2)}{\\partial z}\n+\\frac1R\\frac{\\partial\\left(R\\nu_*\\langle v_Rv_z\\rangle\\right)}{\\partial R}\n=-\\nu_*\\frac{\\partial\\Phi}{\\partial z}.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\rho_t"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\mathrm{m^2/s^2}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "K_z"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\sigma_z"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q_t"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Phi"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Psi"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\widehat{\\boldsymbol\\alpha}=\\frac1{c^2}\\int\\nabla_\\perp(\\Phi+\\Psi)\\,dl,\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "D_{ls}/D_s"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Phi=\\Psi"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\kappa"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\gamma"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "D(k,a)"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nf(k,a)=\\frac{\\partial\\ln D(k,a)}{\\partial\\ln a},\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\sigma_8(z)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "P_m(k,z)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "8h^{-1}\\,\\mathrm{Mpc}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "f\\sigma_8"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "P_m(k,z)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "D(a)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "P_m(k,z)"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n|\\phi_{\\rm out}\\rangle=U_{\\rm prime}J\\sqrt G\\Pi_3|\\psi\\rangle,\n\\qquad |\\phi_{\\rm hold}\\rangle=[(I-\\Pi_3)+\\sqrt{1-G}\\Pi_3]|\\psi\\rangle,\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\|\\phi_{\\rm out}\\|^2+\\|\\phi_{\\rm hold}\\|^2=\\|\\psi\\|^2.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\widetilde\\rho_{\\rm out}=\\mathcal R_{\\rm space}\n\\left(U_{\\rm prime}J\\sqrt G\\Pi_3\\rho\\Pi_3\\sqrt GJ^\\dagger U_{\\rm prime}^\\dagger\\right).\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nJ|n\\bmod M\\rangle=|n\\bmod213,n\\bmod65,n\\bmod77\\rangle.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\delta_a=(M/m_a)[(M/m_a)^{-1}\\bmod m_a]\\pmod M,\n\\quad JS_{\\delta_a}=U_aJ,\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nJL_{\\rm address}=L_{\\rm SOURCE}J,\n\\qquad L_{\\rm SOURCE}=\\sum_a(2I-U_a-U_a^\\dagger).\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nD(\\boldsymbol x,\\boldsymbol y)=d\\sqrt{\\sum_a\\min(|x_a-y_a|,m_a-|x_a-y_a|)^2}.\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nN_{\\rm grav}(d)=(d+1)(d-2)/2,\\quad C(d)=c_Ed+c_TN_{\\rm grav}(d),\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nc_E,c_T\\ge0,\\quad c_E+c_T>0\n\\quad\\Rightarrow\\quad C(d+1)-C(d)=c_E+c_Td>0.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\rho_j=1/2+i\\gamma_j"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N=1{,}015{,}000"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(213,65,77)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n^{-\\alpha/2}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\alpha=1.8996877935161325"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nn^{-\\rho_j}=n^{-1/2}\\exp(-i\\gamma_j\\log n)\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nD_j|n\\rangle=e^{-i\\gamma_j\\log n}|n\\rangle,\n\\qquad |\\phi_j\\rangle=UJ D_j|\\psi\\rangle.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "U=\\exp(-iL)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H=\\hbar c|k|"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\phi_j"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n^{-1/2}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nK(n)=\\frac1C\\sum_{j=1}^{C}e^{-i\\gamma_j\\log n},\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n|\\Psi_{\\rm out}\\rangle=UJK|\\psi\\rangle=\\frac1C\\sum_j|\\phi_j\\rangle,\n\\quad |\\Psi_{\\rm hold}\\rangle=\\sqrt{1-|K|^2}|\\psi\\rangle.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "I(x)=|\\Psi_{\\rm out}(x)|^2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "P_{\\rm out}=\\sum_xI(x)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "C^{-1}\\sum_j|\\phi_j(x)|^2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "4.22\\times10^{-15}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\mathrm{TV}(p,q)=\\tfrac12\\sum_x|p(x)-q(x)|"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "3.90\\times10^{-34}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "3.11\\times10^{-17}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "3.47\\times10^{-18}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "K_\\delta(n)=e^{-i\\delta\\log n}K(n)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\alpha=1.8996877935161325"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "U=\\exp(-iL)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "d"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "d=c\\Delta t"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\alpha"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q_a"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L_a"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "U(q)=\\exp(-i\\sum q_aL_a)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q=(1,1,1)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\theta_j=0.05(2j/69-1)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "j=0,\\ldots,69"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\alpha"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q_0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2.48\\times10^{-16}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "4.22\\times10^{-15}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "d"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "U=\\exp(-iL)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "d"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "d=c\\Delta t"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a_n=1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N=1{,}015{,}000"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "t_j"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "C"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nD_j|n\\rangle=e^{-it_j\\log n}|n\\rangle,\n\\qquad K(n)=\\frac1C\\sum_{j=1}^{C}e^{-it_j\\log n},\n\\qquad |K(n)|\\le1.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "D_j"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "u,z"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nA_n(u)=\\pi n^2e^{2u},\\qquad\nK_n(u)=(8A_n(u)^2-12A_n(u))e^{u/2-A_n(u)},\n\\qquad K(u)=\\sum_{n\\ge1}K_n(u).\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\gamma_k=\\frac{k!}{(2k)!}\\int_0^\\infty K(u)u^{2k}\\,du,\n\\qquad\nG(z)=\\frac{\\xi(1/2+\\sqrt z)}{\\xi(1/2)}=\\sum_{k\\ge0}b_kz^k,\n\\qquad b_k=\\frac{\\gamma_k}{k!\\gamma_0}.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G(0)=1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1/2"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\frac{G'(z)}{G(z)}=\\sum_{k\\ge0}(-1)^kc_kz^k.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G(G'/G)=G'"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nc_n=(-1)^n(n+1)b_{n+1}\n-\\sum_{j=1}^{n}(-1)^jb_jc_{n-j}.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "r\\ge0"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nH^{(0)}_r=(c_{i+j})_{i,j=0}^{r},\\qquad\nH^{(1)}_r=(c_{i+j+1})_{i,j=0}^{r}.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "-\\lambda_\\ell"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\lambda_\\ell>0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "<1"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nc_k=\\sum_\\ell\\lambda_\\ell^{-k-1}.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "p(t)=\\sum q_it^i"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nq^TH^{(0)}_rq=\\sum_\\ell\\lambda_\\ell^{-1}p(\\lambda_\\ell^{-1})^2,\n\\qquad\nq^TH^{(1)}_rq=\\sum_\\ell\\lambda_\\ell^{-2}p(\\lambda_\\ell^{-1})^2.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\mathcal L(t^k)=c_k"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\langle p,q\\rangle=\\mathcal L(pq)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T[p]=[tp]"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G'/G"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "e=[1]"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nc_k=\\langle e,T^ke\\rangle,\\qquad\n\\widetilde m(z)=\\langle e,(I+zT)^{-1}e\\rangle.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\xi(1/2+w)=\\xi(1/2)G(w^2)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "Y"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\ny_\\pm=\\frac{21\\pm3\\sqrt{19}}5,\n\\quad\nw_- =\\frac{11+3\\sqrt{19}}{6\\sqrt{19}},\n\\quad w_+ =\\frac{3\\sqrt{19}-11}{6\\sqrt{19}},\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "U=\\pm\\sqrt Y"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G_*(z)=\\mathbb E\\cosh(\\sqrt z\\,U)"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n(b_1,b_2,b_3,b_4)=\\left(1,\\frac14,\\frac1{25},\\frac{123}{28000}\\right).\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n(c_0,c_1,c_2,c_3)=\\left(1,\\frac12,\\frac{37}{100},\\frac{234}{875}\\right),\n\\quad \\det H^{(0)}_1=\\frac3{25}>0,\n\\quad \\det H^{(1)}_1=-\\frac{223}{70000}<0.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c_k"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a_1=1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a_n=1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a_n=1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a_n=1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "w_n\\propto n^{-\\alpha}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "e_P(n),e_D(n),e_R(n)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c_k"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G'/G"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H^{(0)}_3>0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c_0,\\ldots,c_6"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H^{(0)}_3"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c_k=v^TA^ku"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "R_3(w)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "R_3(w)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\epsilon=10^{-12}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nK_\\epsilon(u)=e^{-2u^2-\\epsilon(\\cosh(2u)-1-2u^2)}\n(1+u^2)(15+u^2+u^4).\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\exp(2u)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H^{(0)}_2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q=(0,-1/20,1)^T"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nq^TH^{(0)}_2q<-\\frac1{200000000}<0.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "b,c"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "3/25"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "-223/70000"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "b_k"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c_k"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\mathcal L(p^2)\\ge0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\mathcal L(tp^2)\\ge0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "p"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\xi"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\rho=\\beta+i\\gamma"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "x"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "u=\\log x"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Re s>1"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\zeta(s)=\\sum_{n\\ge1}n^{-s}=\\prod_p(1-p^{-s})^{-1}.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\mathcal C"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "P_{\\rm odd}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nD_{\\mathcal C}(s)=\\sum_{n\\in\\mathcal C}n^{-s}\n=(1-2^{-s})\\zeta(s)-1-P_{\\rm odd}(s).\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "X"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "R"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "B"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n-\\frac{\\zeta'(s)}{\\zeta(s)}=\\sum_{n\\ge1}\\frac{\\Lambda(n)}{n^s},\n\\qquad \\Re s>1.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Lambda(n)=\\log p"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n=p^k"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\psi_0(x)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "x>1"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\psi_0(x)=x-\\lim_{T\\to\\infty}\\sum_{\\substack{\\rho\\text{ nontrivial}\\\\|\\Im\\rho|\\le T}}\n\\frac{x^\\rho}{\\rho}\n-\\log(2\\pi)-\\frac12\\log(1-x^{-2}).\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "x"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "e^{u/2}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nY(u)=e^{-u/2}\\left[\\psi_0(e^u)-e^u+\\log(2\\pi)\n+\\frac12\\log(1-e^{-2u})\\right],\\qquad u>0,\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nY(u)=-\\lim_{T\\to\\infty}\\sum_{|\\Im\\rho|\\le T}\n\\frac{e^{(\\beta-1/2)u}e^{i\\gamma u}}{\\rho}.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\beta"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\gamma"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "u"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\log n=\\sum_pv_p(n)\\log p"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\sigma"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "27/9=45/15=3"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n^{-\\sigma}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\sigma>1/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "p"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N=1000"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Re s>1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\na_n=n^{-\\sigma},\\qquad b_n=n^{-(1-\\sigma)},\\qquad 0\\le\\sigma\\le1.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\phi"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nI_n(\\phi)=a_n^2+b_n^2+2a_nb_n\\cos\\phi,\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nV_n=\\frac{I_{n,\\max}-I_{n,\\min}}{I_{n,\\max}+I_{n,\\min}}\n=\\frac{2a_nb_n}{a_n^2+b_n^2}\n=\\frac1{\\cosh((2\\sigma-1)\\log n)}.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "V_n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\log1=0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a_nb_n=1/n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\na_n^2+b_n^2=\\frac2n\\cosh((2\\sigma-1)\\log n)\\ge\\frac2n.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n>1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\sigma=1/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "w_n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nE_N(\\sigma)=\\sum_{n\\le N}w_n(a_n^2+b_n^2),\\qquad\nS_N=2\\sum_{n\\le N}\\frac{w_n}{n},\\qquad V_N=\\frac{S_N}{E_N},\n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nE_N(\\sigma)\\ge E_N(1/2)=S_N,\\qquad V_N(\\sigma)\\le V_N(1/2)=1.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n>1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "|c_n|^2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "w_n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2\\alpha"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\alpha"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N^\\sigma"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\sigma=0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\xi(s)=\\xi(1-s)"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\nV_\\xi(s)=\\frac{2|\\xi(s)||\\xi(1-s)|}{|\\xi(s)|^2+|\\xi(1-s)|^2}=1\n\\quad(\\xi(s)\\ne0).\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0/0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "Y_s=T+\\xi(s)B"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "B"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\xi"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\xi"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\ng_{\\rho,c}(u)=e^{(\\beta-c)u}.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "|u|\\le L"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\mathcal G_L(c)=\\exp\\!\\left(L\\max_\\rho|\\beta-c|\\right).\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "u>0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\beta=1/4,3/4"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L=4\\log2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1/4"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "3/4"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "5/4"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n(T_c(a)v)_\\rho=e^{(\\beta-c+i\\gamma)a}v_\\rho.\n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\beta=c"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "W"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "A^*W+WA=0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2(\\beta_j-c)W_{jj}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\beta=c"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "W"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c=1/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\beta"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N=16,128,1000"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N=1000"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "w_n=1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\sigma"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "E_N"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "V_N"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1/4"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "3/4"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "E_N(1/2)=2\\sum_{n\\le N}1/n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\xi"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "e^-+e^+\\to\\gamma+\\gamma"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "k"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\kappa_k\\in\\{+1,-1\\}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "J_k\\ge0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "Q_k\\in\\{0,1\\}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "k"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "J"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "J_{M,k}^{\\rm new}=Q_k\\frac{1+\\kappa_k}{2}J_k,\\qquad J_{\\bar M,k}^{\\rm new}=Q_k\\frac{1-\\kappa_k}{2}J_k."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "J_{M,k}^{\\rm new}J_{\\bar M,k}^{\\rm new}=0,\\qquad J_{M,k}^{\\rm new}+J_{\\bar M,k}^{\\rm new}=Q_kJ_k."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_MN_{\\bar M}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\kappa_B=+1"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\kappa_{k+1}=-\\kappa_k."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "r=4j+2=2n,\\qquad n=2j+1,\\qquad j\\ge0."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\mathcal D_{\\rm eq}(r)=\\{(n,n):n\\in\\mathbb N\\text{ is odd},\\ r=2n\\}."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "10\\to5+5"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "18\\to9+9"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "24\\to9+15"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "54\\to9+45"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\mathcal C_{\\rm up}(2n,\\xi)\\rightleftarrows(n,a,\\chi)+(n,a,\\bar\\chi)."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\xi"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "P_{M,k}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "P_{\\bar M,k}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "+P_k"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "N_{M,k+1}=N_{M,k}+J_{M,k}^{\\rm new}+P_{M,k}-H_k,"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "N_{\\bar M,k+1}=N_{\\bar M,k}+J_{\\bar M,k}^{\\rm new}+P_{\\bar M,k}-H_k."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L_{M,k},L_{\\bar M,k}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\sum_k P_{M,k}=\\sum_k P_{\\bar M,k}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n=2q+1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "b\\in\\{+1,-1\\}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "T(n,b)=\\left(\\frac{n+b}{2},\\frac{n-b}{2}\\right),\\qquad U+D=n,\\quad U-D=b."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "b=+1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "b=-1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "b"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "b_a^{(0)}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "b_{a,k}=\\kappa_k b_a^{(0)}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\delta_{\\rm pair}=(U_1+U_2)-(D_1+D_2)=b_1+b_2."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "+2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "-2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "b_2=-b_1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(5,4)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(4,5)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(9,9)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(10,8)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(9,9)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(9,9)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(10,8)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "+2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(8,10)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "-2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "K_{\\rm close}=\\mathbf1[n_1=n_2]\\mathbf1[b_1+b_2=0]"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\tau T(n,b)=T(n,-b)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\tau^2=1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "U=D=r/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n=n_1=n_2=r/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "b,-b"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "r"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\xi"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n,n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\chi,\\bar\\chi"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "(n,a,\\chi)+(n,a,\\bar\\chi)\\xrightarrow{\\text{allowed interaction}}\\bigl(r=2n,\\text{carrier output state}\\bigr)."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "r"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "E_{\\rm out}=E_{\\rm in},\\qquad\\mathbf p_{\\rm out}=\\mathbf p_{\\rm in}."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\Delta t_{\\rm clk}=1.4813019664158633\\times10^{-21}\\ {\\rm s},\\qquad f_{\\rm clk}\\simeq6.750818015\\times10^{20}\\ {\\rm Hz}."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\kappa_{k+1}=-\\kappa_k,\\quad b_{a,k}=\\kappa_k b_a^{(0)},\\quad \\tau_{k+1}-\\tau_k=\\Delta\\tau_{\\rm clk}."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2\\Delta t_{\\rm clk}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "3.375409007\\times10^{20}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "d(t_{k+1})=\\left|\\mathbf x_1(t_k)+\\int_{t_k}^{t_{k+1}}\\mathbf v_1(t)dt-\\mathbf x_2(t_{k+1})\\right|."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "d=|v_1|\\Delta t_{\\rm clk}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "c\\Delta t_{\\rm clk}=4.440831575520451\\times10^{-13}\\ {\\rm m}=0.4440831575520451\\ {\\rm pm}."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "6.24\\times10^{-14}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2.80\\times10^{-13}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\Delta\\tau_{\\rm clk}=1.4813019664158633\\times10^{-21}\\ {\\rm s},\\qquad\\tau_{k+1}-\\tau_k=\\Delta\\tau_{\\rm clk},\\qquad\\kappa_{k+1}=-\\kappa_k."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "k"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\kappa"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2n\\to n+n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(+,-,-,-)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "u^\\mu"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "u_\\mu u^\\mu=c^2"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\Delta z^\\mu=u^\\mu\\Delta\\tau_{\\rm clk},\\qquad\\Delta z_\\mu\\Delta z^\\mu=c^2\\Delta\\tau_{\\rm clk}^2>0."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Delta\\mathbf x=0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Delta t=\\Delta\\tau_{\\rm clk}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "V"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\Delta t'=\\gamma_V\\Delta\\tau_{\\rm clk},\\qquad\\Delta x'=-\\gamma_V V\\Delta\\tau_{\\rm clk},\\qquad\\gamma_V=(1-V^2/c^2)^{-1/2}."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Delta t'>0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Delta z^\\mu=\\int u^\\mu d\\tau"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "V/c"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\gamma_V"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.4813019664\\times10^{-21}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.8516274580\\times10^{-21}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2.4688366107\\times10^{-21}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.0500671229\\times10^{-20}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "f'=f_0/\\gamma_V"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c=m=1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "p_1=(E,p,0,0)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "p_2=(E,-p,0,0)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "E=\\sqrt{1+p^2}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "P=(10,0,0,0)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q=(10-2E,0,0,0)"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "P=p_1+R,\\qquad R=p_2+q,\\qquad R=P-p_1."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "R"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "m_R=\\sqrt{R_\\mu R^\\mu}>0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "u_R=R/m_R"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "u_R"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0=(+1)+(-1)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(-1)=(-1)+0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "d=|v_1|\\Delta\\tau"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "x_1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "u_R\\cdot(x_1-z_B)=0"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "d_{\\rm source}=\\sqrt{-(x_1-z_B)_\\mu(x_1-z_B)^\\mu}."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c\\Delta\\tau=0.4440831575520451"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0.99c"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "4.27\\times10^{-14}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "6.84\\times10^{-13}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2.14\\times10^{-15}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2.13\\times10^{-14}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "3.42\\times10^{-14}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2.71\\times10^{-14}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\max(1,|\\text{reference value}|)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "-0.777777778"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "V=0.8c"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "10^{-10}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\mathcal A"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "S_{\\rm top}\\underset{\\text{pseudo-primes}}{\\rightleftarrows}S_{\\rm mid},\\qquad S_{\\rm mid}\\xrightarrow{\\mathcal A}\\mathcal C_{\\rm mid}(r,\\xi),"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\n\\mathcal C_{\\rm mid}(2n,\\xi)\\underset{\\text{recombine/release}}{\\overset{\\text{decompose/render}}{\\rightleftarrows}}\\Phi_{n,+}+\\Phi_{n,-}."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Phi"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "r=4j+2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "d_{\\rm class}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "d_{\\rm trans}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "d_{\\rm trans}(r)=\\text{‘2.5-dimensional transition’},\\qquad r\\equiv2\\pmod4."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "10=5+5"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "18=9+9"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2=1+1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\tau_k"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Delta\\tau_{\\rm sh}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "f_{\\rm sh}=1/\\Delta\\tau_{\\rm sh}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\kappa_k"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\Delta\\tau_{\\rm sh}=1.4813019664158633\\times10^{-21}\\ {\\rm s},\\qquad f_{\\rm sh}\\simeq6.750818015\\times10^{20}\\ {\\rm Hz}."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\tau_k=\\tau_0+k\\Delta\\tau_{\\rm sh},\\qquad\\kappa_{k+1}=-\\kappa_k."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "f_{\\rm sh}/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n=9"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "r=18"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\chi=\\pm1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "m_ec^2=0.51099895069"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "m_\\mu c^2=105.6583755"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0.00000000016"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0.0000023"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\theta_e"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\theta_\\mu"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\theta_e"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(9,+1),(9,-1)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "e^-"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "e^+"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0.51099895069"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\theta_\\mu"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(9,+1),(9,-1)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\mu^-"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\mu^+"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "105.6583755"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q(\\chi)=-\\chi e"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L(\\chi)=\\chi"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "s=1/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\chi=+1"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "E=\\sqrt{m_\\theta^2c^4+c^2|\\mathbf p|^2}."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "r=18"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "9+9"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.02199790138"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "211.316751"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "5.634\\times10^{-14}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "8.608\\times10^{-16}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "6.820\\times10^{-16}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.717\\times10^{-15}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\Delta\\tau_{\\rm sh}=1.4813019664158633\\times10^{-21}\\ {\\rm s},\\qquad L_{\\rm sh}=c\\Delta\\tau_{\\rm sh}=4.440831575520451\\times10^{-13}\\ {\\rm m}."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\Delta\\tau_{\\rm obs}\\ge t_P=\\sqrt{\\hbar G/c^5},\\qquad\\ell_P=ct_P."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "Q_{\\rm obs}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\rho"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "M_a"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "p(a)=\\operatorname{Tr}(M_a\\rho M_a^\\dagger),\\qquad\\rho_a=\\frac{M_a\\rho M_a^\\dagger}{p(a)},\\qquad\\sum_aM_a^\\dagger M_a=I."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L_{\\rm sh}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "5.55\\times10^{-16}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2.82842712474619"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2.22\\times10^{-16}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.11\\times10^{-16}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "9.88\\times10^{-15}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L=500,H=29,C=70"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0\\le\\ell<L"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0\\le h<H"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1\\le z\\le C"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a=1+\\ell+500[h+29(z-1)]"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "Q(\\ell,h,z)=2^{\\ell+1}3^{h+1}5^z,\\qquad (\\ell,h,z)=(v_2(Q)-1,v_3(Q)-1,v_5(Q))."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "F_a(x)=x\\operatorname{XOR}(a\\bmod65536)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "F_a(F_a(x))=x"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\mathcal A"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a>1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "r=2a"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "r\\to a+a"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a=r/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "9\\to18\\to9+9"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "105\\to210\\to105+105"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "r"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "Q"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "w(a)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "w(Q)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "w(r)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.13\\times10^{-16}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Sigma_B"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G,c,\\hbar,k_B"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "M=E_{\\rm grav}/c^2"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "r_s=\\frac{2GM}{c^2},\\qquad ds^2=-c^2dt_{\\rm PG}^2+\\left(dr+c\\sqrt{r_s/r}\\,dt_{\\rm PG}\\right)^2+r^2d\\Omega^2."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\frac{dr}{dt_{\\rm PG}}=c\\left(\\pm1-\\sqrt{r_s/r}\\right)."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "r=r_s"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "r_s/r\\ge1"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "R_{\\mu\\nu}=0\\ (r>0),\\qquad\\mathcal K=\\frac{12r_s^2}{r^6},\\qquad A=4\\pi r_s^2,"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "S_{\\rm BH}=\\frac{k_BA}{4\\ell_P^2},\\qquad T_H=\\frac{\\hbar c^3}{8\\pi Gk_BM},\\qquad T_H\\frac{dS_{\\rm BH}}{dM}=c^2."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "M"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "M'=M+E_{\\rm in}/c^2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "10^{20},10^{25},10^{30},10^{35},10^{40}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.99\\times10^{-16}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2.22\\times10^{-16}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2.06\\times10^{-16}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.13\\times10^{-16}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "M=10^{30}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "r_s=1485.2320538"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T_H=1.2269006706\\times10^{-7}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "S_{\\rm BH}/(k_B\\ln2)=3.8273066732\\times10^{76}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\kappa_0=+1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "k=0.05,0.10,\\ldots,3.20\\ {\\rm Mpc}^{-1}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "F_{\\nu0}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "F_{\\nu12}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\nabla_\\mu T_A^{\\mu\\nu}=Q_A^\\nu,\\qquad \\sum_A Q_A^\\nu=0."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\dot r=\\Gamma(1+\\xi)C,\\qquad r=q\\ \\hbox{and recording permission}\\ \\Longrightarrow\\ \\hbox{emission}."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "C^+=C^--q,\\qquad M^+=M^-+\\frac{(1-\\epsilon)q}{a_j},\\qquad J^+=J^-+\\epsilon q."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\epsilon=0.01"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "C,M,J"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a_j"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H_0=67.2568374662005"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\omega_b=0.022395806792949086"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\omega_c=0.12037806177378184"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "A_s=2.1\\times10^{-9}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n_s=0.9649"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\tau=0.0544"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_{\\rm eff}=3.044"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T_{\\rm CMB}=2.7255"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "b=(W+R_{PP})D^{\\phi\\phi}+R_{TT}D^{TT}-f,\\qquad\n\\chi^2=(b-d)^T\\Sigma^{-1}(b-d)."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\chi^2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.60\\times10^{-14}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a_i=9.55163454815\\times10^{-11}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "10^{-10}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_{\\rm eff}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\alpha=\\frac{\\theta_m}{k^2},\\quad\n\\theta_i^c=\\theta_i-k^2\\alpha,\\quad\n\\delta_i^c=\\delta_i+3(1+w_i){\\cal H}\\alpha,\\quad\n\\eta^c=\\eta+{\\cal H}\\alpha."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "3.29\\times10^{-16}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "4.31\\times10^{-16}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "g"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "h^{c\\prime}+6\\eta^{c\\prime}=2k^2(g/2+\\alpha)."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "4.35\\times10^{-12}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "z=\\partial y/\\partial\\xi"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "R"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "z^+=DR\\,z^-+(DR\\,f^--f^+)t_j',\\qquad t_j'=-\\frac{t_j}{1+\\xi}."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "k=0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "4.80262944810\\times10^{-9}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "u=(1+\\xi)t"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "8.39\\times10^{-9}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\omega_c=0.103663511129"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\beta"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "7.62452468358\\times10^{-7}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "8.85389093544\\times10^{-7}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\beta"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N=1{,}015{,}000"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\alpha=1.8996877935161325"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "h=1.4476744689338703"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "w(n)=\\frac{n^{-\\alpha}}{\\sum_{m=2}^{N}m^{-\\alpha}},\\qquad\np(n)=\\frac{w(n)e_\\phi(n)}{\\sum_m w(m)e_\\phi(m)}."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\sum_n w(n)e_\\phi(n)=0.050000000000000065"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "p"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "K"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\lfloor n/\\sum_j p_j\\rfloor"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n=\\sum_j c_jp_j+r"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a_j=\\sum_n p(n)c_j(n)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "P_j=a_j/\\sum_l a_l"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\frac12\\sum_j|P_j^{\\rm asc}-P_j^{\\rm desc}|=0.20472100116369085"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T_a"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\operatorname{Tr}(T_aT_b)=\\delta_{ab}/2"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "Q_a=T_a\\otimes I\\otimes I+I\\otimes T_a\\otimes I+I\\otimes I\\otimes T_a."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2T_a"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "|S\\rangle=(|rgb\\rangle+|gbr\\rangle+|brg\\rangle-|rbg\\rangle-|grb\\rangle-|bgr\\rangle)/\\sqrt6."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "5.847\\times10^{-16}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.507\\times10^{-16}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H_A"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(\\mathbb C^3)^{\\otimes3}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "P"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\Omega=(I_A\\otimes P)\\Omega(I_A\\otimes P),"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "P=|S\\rangle\\langle S|,\\qquad \\Omega=\\sigma_A\\otimes|S\\rangle\\langle S|."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Omega=\\sum_{nm}|n\\rangle\\langle m|\\otimes C_{nm}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "C_{nm}=PC_{nm}P=c_{nm}P"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\sigma_A=[c_{nm}]"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a_T=1.191812669\\times10^{-10}\\ {\\rm m\\,s^{-2}}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "f(\\mathbf J)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "10^{-4}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "10^6"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "z=0.08"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "R=8.2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "K_z(1.1\\ {\\rm kpc})/(2\\pi G)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "M_\\odot/{\\rm pc}^2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "|z|\\le1.1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "M_\\odot/{\\rm pc}^2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "M_\\odot/{\\rm pc}^3"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "K_z/(2\\pi G)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G=7"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G=5"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "|z|=0.15"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\chi^2=10.6060135496"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1/2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N=1000"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_U=500\\times29\\times70=1{,}015{,}000"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\tau=1.481301966415863\\times10^{-21}\\,\\mathrm{s},\\qquad\n d=c\\tau=4.44083157552045\\times10^{-13}\\,\\mathrm m."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L=1024d"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "(213,65,77)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "500\\times29\\times70"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n^{-\\alpha/2}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\alpha=1.8996877935161325"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "b"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\bar u_j=b^{-1}\\sum_{r=0}^{b-1}u_{bj+r}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "h"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\lambda_h(\\boldsymbol k)=\\frac4{h^2}\\sum_a\\sin^2(k_ah/2)."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "0\\le1-\\frac{\\lambda_h}{|\\boldsymbol k|^2}\n\\le\\frac{h^2\\sum_ak_a^4}{12|\\boldsymbol k|^2}\n\\le\\frac{h^2|\\boldsymbol k|^2}{12}."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\varepsilon<1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\varepsilon/(1-\\varepsilon)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "3.93\\times10^{-16}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "128^3"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H=\\hbar c|k|"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1024"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "16^3,32^3,64^3,128^3"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_U"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\delta\\rho=\\rho_{ref}\\widehat{\\delta\\rho}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\Phi=4\\pi G\\rho_{ref}\\ell_{ref}^2\\widehat\\Phi,\\qquad \\Delta_{\\xi}\\widehat\\Phi=\\widehat{\\delta\\rho},"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\mathbf g=-4\\pi G\\rho_{ref}\\ell_{ref}\\nabla_{\\xi}\\widehat\\Phi."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\rho_{ref}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\ell_{ref}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\rho=u/c^2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\bar u_J=(\\sum_{j\\in J}V_ju_j)/(\\sum_{j\\in J}V_j)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a^3"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a^{-3}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "h_{phys}|k|\\le\\sqrt{12\\delta/(1+\\delta)}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\delta"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\delta=0.01"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "18.228458"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "|8,1,0\\rangle\\leftrightarrow|72,0,1\\rangle"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "128\\times2\\times2=512"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "H_G=\\frac{\\pi\\hbar}{2\\tau}(I-G),\\qquad e^{-iH_G\\tau/\\hbar}=G."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\mathcal A=\\int\\!dt\\left[\\frac{i\\hbar}2\n(\\psi^\\dagger\\dot\\psi-\\dot\\psi^\\dagger\\psi)-\\psi^\\dagger H\\psi\\right],"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "w(x)=I_{\\rm SOURCE}(x)/\\langle I_{\\rm SOURCE}\\rangle"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\pi\\hbar w(x)(I-\\sigma_x)/(2\\tau)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "4.42\\times10^{-14}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "y=g_b/a_T"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\sigma^2\\ge y"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\sigma=\\sqrt y"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\frac{d\\mu}{d\\sigma}=1-\\mu,\\quad\\mu(0)=0,\\qquad\n g_b=\\mu g,\\qquad g=\\frac{g_b}{1-e^{-\\sqrt{g_b/a_T}}}."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\sigma"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "j\\log[j/(1-\\mu)]-j+(1-\\mu)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "j=1-\\mu"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "y"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2.22\\times10^{-16}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a_T=1.191787531397112\\times10^{-10}\\,\\mathrm{m\\,s^{-2}}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "v=207.510241866"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a_T=1.191812669\\times10^{-10}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.191787531397112\\times10^{-10}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "-2.10919\\times10^{-5}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\omega=\\sqrt{\\zeta}\\kappa_{\\rm geom}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "u_T=\\frac{c^4\\omega^2}{16\\pi G},\\quad\n u_D=\\frac{3a_T^2}{\\pi G},\\quad\n L_0=\\frac{c^2}{4\\sqrt3a_T},\\quad\n \\sigma=L_0\\omega\\ \\Rightarrow\\ \\sigma^2=u_T/u_D."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "S_{nn}\\ge\\Sigma_*g_N"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Sigma_*=u_D/a_T"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\sigma^2=g_N/a_T"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "g_N"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L_0=1.08848\\times10^{26}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\nu(y)=(1-e^{-\\sqrt y})^{-1}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Psi(y)=\\int_0^y t\\nu(t)dt"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\mathcal Q(Y)=2\\Psi(\\sqrt Y)"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\Delta\\Phi_N=4\\pi G\\rho_b,\\qquad\n \\Delta\\Phi=\\nabla\\!\\cdot[\\nu(|\\nabla\\Phi_N|/a_T)\\nabla\\Phi_N]."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "32^3,64^3,128^3"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "5.59\\times10^{-15}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "3.00\\times10^{-14}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "u_T/c^2=1.95451\\times10^{-27}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "5.12098\\times10^{-22}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2.62\\times10^5"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "p=-u_T/3"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "a_T(R)=a_{T,0}A(R/R_{pivot})^p,\\quad\n\\mu=1-\\exp[-\\sqrt{g_b/a_T(R)}],\\quad g_{obs}=g_b/\\mu,"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "g_b=(V_{gas}^2+sV_{stars}^2)/R,\\qquad V_{model}=\\sqrt{Rg_{obs}}."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "k"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\chi^2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\chi^2/(N-k)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\chi^2/N"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\chi^2/(N-k)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\chi^2/N"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "V_{gas}^2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "V_{gas}|V_{gas}|"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "R_{pivot}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "V_{200},c,s"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "u_D/u_{D,0}=A^2(R/R_{pivot})^{2p}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\chi^2+2k"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\sum_i(\\chi_i^2+k_i\\log n_i)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\gamma_j"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "n^{-1/2-i\\gamma_j}=n^{-1/2}e^{-i\\gamma_j\\log n},\\qquad\n D_j|n\\rangle=e^{-i\\gamma_j\\log n}|n\\rangle."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "A_m=\\frac1C\\sum_{j=0}^{C-1}e^{-2\\pi imj/C}D_{j+1},\\qquad\n \\sum_mA_m^\\dagger A_m=I."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "m=0"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "E_{\\boldsymbol\\ell}=\\frac{\\hbar}{\\tau}\n\\sqrt{\\sum_a(2\\pi\\ell_a/m_a)^2},\\quad \\hbar/\\tau=444.346913\\,\\mathrm{keV}."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "|k|d\\le0.8\\pi"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "W_{\\rm phase}=C^{-1}\\sum_j\\langle JD_j\\psi|H_0|JD_j\\psi\\rangle\n-\\langle J\\psi|H_0|J\\psi\\rangle."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "E_{\\rm in}+W_{\\rm phase}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\lambda_{\\max}(G)/C"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\mathcal C(b)=C^{-1}\\sum_{j<k}|b_j-b_k|^2\n=1-C^{-1}|\\sum_jb_j|^2,\\qquad\\|b\\|=1."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Lambda=\\sum_{n\\le N_U}\\log n|Jn\\rangle\\langle Jn|"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Gamma=\\operatorname{diag}\\gamma_j"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "B_c=\\frac{\\hbar}{\\tau}\\Gamma\\otimes\\Lambda,\\qquad\n U_0(t)=I_C\\otimes e^{-iH_0t/\\hbar},"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "H_{\\rm tot}(t)=I_C\\otimes H_0+U_0(t)B_cU_0(t)^\\dagger,\\qquad\n U_{\\rm tot}(t)=U_0(t)e^{-iB_ct/\\hbar}."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "t=\\tau"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2.71\\times10^{-12}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Delta\\langle H_0\\rangle"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "2\\pi\\hbar/\\tau"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\alpha,h"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H_0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "A_s,n_s"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\lambda_h"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\kappa"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "a_{\\rm eff}=\\frac{cH_0\\sqrt{\\kappa f_D}}{\\lambda_h^2},\\quad\n d\\log a_{\\rm eff}=d\\log H_0+\\tfrac12d\\log\\kappa\n+\\tfrac12d\\log f_D-2d\\log\\lambda_h."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a_{\\rm eff}^2=8\\pi G\\kappa u_D/(3\\lambda_h^4)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H_0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "s"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\eta=e^{-s^2}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\rho_{\\rm out}=\\eta\\rho_0+(1-\\eta)\\rho_{\\rm mix}/C"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1/70"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\epsilon"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "P,B_d,E"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\boldsymbol y=\\epsilon[\\boldsymbol b+\\eta(\\boldsymbol c-\\boldsymbol b)]"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\boldsymbol y=(P,B_d,E/(\\hbar/\\tau))"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q=B_d/P"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\bar E=E/P"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\begin{aligned}\n\\bar E_{\\rm uniform}/{\\rm keV}&=1519.626252-675.466754q,\\\\\n\\bar E_{\\alpha}/{\\rm keV}&=1507.317730-621.543517q.\n\\end{aligned}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.64\\times10^{-11}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\eta=0.6"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\epsilon=0.8"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.28\\times10^6"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "1.07\\times10^8"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_U=1{,}015{,}000"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\nabla_\\mu T_A^{\\mu\\nu}=Q_A^\\nu"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\sum_AQ_A^\\nu=0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_U"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "g"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "g"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "g"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "g"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "g=1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "g"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "g"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "h"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "h"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "h=1.447\\ldots"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0\\le h<H"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a_T"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "C"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "C"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "C"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_U"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L,H,C"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n,\\ell,h,z"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "n=1+\\ell+L[h+H(z-1)]"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "w_n,\\rho_n,\\Omega"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "d"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c\\tau"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\tau,\\Delta t"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\tau"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\ell_{ref},h_{phys},N_{grid}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "D"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "g"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "F_D,f_D(J)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "V/V_0,\\lambda"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "u_s,\\rho_{mass},p_s"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "^3"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "^3"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "a,a_T"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "^2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H_0,H"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "^{-1}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Phi,\\Psi"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "^2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "^2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T_{\\mu\\nu}^{\\Theta},T_{\\mu\\nu}^{m}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "Q_A^\\nu"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Pi_3,J,U_{prime}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\gamma_j,D_j,A_m"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Gamma,\\Lambda,B_c"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "Q,C"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\rho_n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\rho_{mass}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\rho=\\beta+i\\gamma"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Lambda"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Lambda(n)"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "B"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "B_c"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\lambda_h"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\alpha,\\beta"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\Omega=\\sum_{n=2}^{N_U}w_n|n\\rangle\\langle n|\\otimes\\rho_n,\n\\quad w_n\\ge0,\\quad\\sum_nw_n=1,\\quad\\rho_n\\succeq0,\\quad\\operatorname{Tr}\\rho_n=1."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Omega\\succeq0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\operatorname{Tr}\\Omega=1"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Pi_3^\\dagger=\\Pi_3=\\Pi_3^2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "J^\\dagger J=I"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "0\\le G\\le1"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "K_{out}=U_{prime}J\\sqrt G\\Pi_3,\\qquad\nK_{hold}=(I-\\Pi_3)+\\sqrt{1-G}\\Pi_3,"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "K_{out}^\\dagger K_{out}+K_{hold}^\\dagger K_{hold}=I."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\mathcal R_{space}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "D_j|n\\rangle=e^{-i\\gamma_j\\log n}|n\\rangle,\\qquad\nA_m=C^{-1}\\sum_{j=0}^{C-1}e^{-2\\pi imj/C}D_{j+1},"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\sum_{m=0}^{C-1}A_m^\\dagger A_m=I."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "D_j"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "A_m"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "A_0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "A_0^2=A_0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Pi_3"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "A_m"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G_{swap}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G_{swap}^\\dagger=G_{swap}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G_{swap}^2=I"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "H_G=\\frac{\\pi\\hbar}{2\\tau}(I-G_{swap}),\\qquad\nU_G(\\tau)=e^{-iH_G\\tau/\\hbar}=G_{swap}."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H_0=\\hbar c|k|"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Gamma=\\operatorname{diag}\\gamma_j"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\Lambda=\\sum_n\\log n|Jn\\rangle\\langle Jn|"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "B_c=(\\hbar/\\tau)\\Gamma\\otimes\\Lambda"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\mu,\\nu=0,1,2,3"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "i,j=1,2,3"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "A"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "g_{\\mu\\nu}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "c=1"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "T_{\\mu\\nu}^{\\Theta}=-\\frac{2}{\\sqrt{-g}}\\frac{\\delta S_\\Theta}{\\delta g^{\\mu\\nu}}."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "g=\\det(g_{\\mu\\nu})"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "G_{\\mu\\nu}+\\Lambda_{cos}g_{\\mu\\nu}\n=\\frac{8\\pi G_N}{c^4}(T_{\\mu\\nu}^{m}+T_{\\mu\\nu}^{\\Theta})."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "G_N,\\Lambda_{cos}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "^3"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "u=\\rho_{mass}c^2"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "\\nabla_\\mu T_A^{\\mu\\nu}=Q_A^\\nu,\\qquad\n\\sum_AQ_A^\\nu=0\\quad\\Rightarrow\\quad\n\\nabla_\\mu\\sum_AT_A^{\\mu\\nu}=0."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "Q_A^\\nu=0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "T^\\Theta\\equiv T^{CDM}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "R_{pivot}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "g_b,g_{obs}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "^2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "g_{opt}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "g"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "g_{\\mu\\nu},\\det g"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L_{addr}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L_{eff},D_{path}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H_{reg}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "h=0,\\ldots,28"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "H_{Hub},\\widehat H"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "^{-1}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "C_{zero},\\Sigma_{obs}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "Q_{gate},Q_{stat},Q_A^\\nu"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "B_{bar},E_{ledger},origin\\_id"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "N_{active\\ parts},N_{reserve}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "A,p,s,q_{curv},t_{turn}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "R,R_{pivot},R_t"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "R_t=t_{turn}R_{pivot}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "k_{fit},k_{wave}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q_{curv}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "q_0"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "t_{turn}"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "A_m"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "A"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "u=\\rho_{mass}c^2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "^3"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\gamma<T"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "L=500,H=29,C=70"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\chi^2+k\\log n"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\chi^2"
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "x=R/R_{pivot}"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "a_T=a_{T0}A\\exp[p\\ln x+q_{curv}(\\ln x)^2],"
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "a_T=a_{T0}Ax^p\\frac{1+1/t_{turn}}{1+x/t_{turn}}."
+  ],
+  [
+    {
+      "t": "DisplayMath"
+    },
+    "g=\\frac{g_b}{1-\\exp(-\\sqrt{g_b/a_T})}."
+  ],
+  [
+    {
+      "t": "InlineMath"
+    },
+    "\\chi^2"
+  ]
+]

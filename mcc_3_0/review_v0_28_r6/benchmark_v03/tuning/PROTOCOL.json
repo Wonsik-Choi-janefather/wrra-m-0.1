@@ -1,0 +1,23 @@
+{
+  "status": "exploratory adaptation motivated by known clean-sample results; no pristine test-set claim",
+  "sample": [
+    "D631-7",
+    "NGC0024",
+    "NGC0801",
+    "NGC2403",
+    "NGC3109",
+    "NGC3741",
+    "NGC5005",
+    "NGC6503",
+    "UGC07524"
+  ],
+  "models": {
+    "WRRA_curvature_ML": 4,
+    "WRRA_turnover_ML": 4
+  },
+  "curvature": "aT=aT0*A*exp(p*ln(x)+q*ln(x)^2)",
+  "turnover": "aT=aT0*A*x^p*(1+1/rt)/(1+x/rt)",
+  "bounds": "A .01..100, p -2..2, q -1..1 or rt .01..100, stellar scale shared .1..5 positivity",
+  "selection": "choose lowest full-sample clean BIC among two stated candidates; report all candidates and diagnostic holdouts",
+  "scope": "new phenomenological stress-response closure; original admission response preserved; not yet global integration"
+}

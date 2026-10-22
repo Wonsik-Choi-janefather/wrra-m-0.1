@@ -1,0 +1,92 @@
+[
+  {
+    "claim_id": "WRRA_curvature_ML_full",
+    "version": "v0.3",
+    "exit": 0,
+    "status": "OBSERVED_ADVANTAGE",
+    "delta": -200.630003527094
+  },
+  {
+    "claim_id": "WRRA_curvature_ML_full",
+    "version": "v0.3",
+    "exit": 3,
+    "status": "POPULATION_ADVANTAGE_UNESTABLISHED",
+    "reason": "Exploratory model selection not adjusted",
+    "delta": -0.7806614923233233
+  },
+  {
+    "claim_id": "WRRA_curvature_ML_interleaved",
+    "version": "v0.3",
+    "exit": 0,
+    "status": "OBSERVED_ADVANTAGE",
+    "delta": -17.957817919074472
+  },
+  {
+    "claim_id": "WRRA_curvature_ML_interleaved",
+    "version": "v0.3",
+    "exit": 3,
+    "status": "POPULATION_ADVANTAGE_UNESTABLISHED",
+    "reason": "Exploratory model selection not adjusted",
+    "delta": -0.3741212066473849
+  },
+  {
+    "claim_id": "WRRA_curvature_ML_outer",
+    "version": "v0.3",
+    "exit": 1,
+    "status": "ADVANTAGE_CLAIM_FAILS",
+    "delta": 1842.7139095991774
+  },
+  {
+    "claim_id": "WRRA_curvature_ML_outer",
+    "version": "v0.3",
+    "exit": 3,
+    "status": "POPULATION_ADVANTAGE_UNESTABLISHED",
+    "reason": "Exploratory model selection not adjusted",
+    "delta": 32.90560552855674
+  },
+  {
+    "claim_id": "WRRA_turnover_ML_full",
+    "version": "v0.3",
+    "exit": 0,
+    "status": "OBSERVED_ADVANTAGE",
+    "delta": -32.96643990611392
+  },
+  {
+    "claim_id": "WRRA_turnover_ML_full",
+    "version": "v0.3",
+    "exit": 3,
+    "status": "POPULATION_ADVANTAGE_UNESTABLISHED",
+    "reason": "Exploratory model selection not adjusted",
+    "delta": -0.12827408523779749
+  },
+  {
+    "claim_id": "WRRA_turnover_ML_interleaved",
+    "version": "v0.3",
+    "exit": 1,
+    "status": "ADVANTAGE_CLAIM_FAILS",
+    "delta": 14.684100621973514
+  },
+  {
+    "claim_id": "WRRA_turnover_ML_interleaved",
+    "version": "v0.3",
+    "exit": 3,
+    "status": "POPULATION_ADVANTAGE_UNESTABLISHED",
+    "reason": "Exploratory model selection not adjusted",
+    "delta": 0.30591876295778153
+  },
+  {
+    "claim_id": "WRRA_turnover_ML_outer",
+    "version": "v0.3",
+    "exit": 0,
+    "status": "OBSERVED_ADVANTAGE",
+    "delta": -618.277237352017
+  },
+  {
+    "claim_id": "WRRA_turnover_ML_outer",
+    "version": "v0.3",
+    "exit": 3,
+    "status": "POPULATION_ADVANTAGE_UNESTABLISHED",
+    "reason": "Exploratory model selection not adjusted",
+    "delta": -11.04066495271459
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "version": "v0.2",
+  "candidate": "aT(R)=aT_native*A*(R/Rpivot)^p; Rpivot=median catalog R per galaxy; unchanged finite admission gate",
+  "new_assumptions": "Phenomenological radial load response; not derived new field equation. uD(R)/uD_native=A^2*(R/Rpivot)^(2p). No total-stress conservation or lensing completion is claimed.",
+  "bounds": {
+    "log10_A": [
+      -2,
+      2
+    ],
+    "p": [
+      -2,
+      2
+    ],
+    "stellar_scale": [
+      0.1,
+      5
+    ],
+    "stellar_positivity": "same source positivity lower bound for both models"
+  },
+  "full_sample": "same 149-galaxy v0.1 selection, Q<=2, inclination>=30deg, >=5 valid points",
+  "clean_sample": "Q=1; 40<=inclination<=80; relative distance uncertainty<=0.10; inclination uncertainty<=5deg; >=10 valid points. Quality flag proxy; no independent symmetry measurement.",
+  "heldout": "For >=10 points per galaxy, sorted by radius, every fifth point (index 4,9,...) is held out; all other points train. Split fixed before fits. Radial interpolation diagnostic, not independent galaxies or pristine external validation.",
+  "models": {
+    "WRRA_native_ML": "1 parameter s",
+    "WRRA_amplitude_ML": "2 parameters log10 A,log10 s; p=0",
+    "WRRA_radial_ML": "3 parameters log10 A,p,log10 s",
+    "NFW_ML": "3 parameters log10 V200,log10 c,log10 s"
+  },
+  "metrics": "raw chi2; N-k; galaxy-block AIC and BIC=sum[chi2_i+k_i log n_i]; conditional; boundary solutions reported; heldout chi2/Nheldout.",
+  "stopping": "fixed stated models; do not tune further on heldout or clean-sample results"
+}
