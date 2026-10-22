@@ -1,0 +1,36 @@
+{
+  "programs": [
+    {
+      "script": "clarity_analysis.py",
+      "exit_code": 0,
+      "stdout_matches_recovery_run": true,
+      "certificates_match_original": true
+    },
+    {
+      "script": "projector_contract.py",
+      "exit_code": 0,
+      "stdout_matches_recovery_run": true,
+      "certificates_match_original": true
+    },
+    {
+      "script": "analyze_odd_hologram.py",
+      "exit_code": 0,
+      "stdout_matches_recovery_run": true,
+      "certificates_match_original": true
+    },
+    {
+      "script": "certify_double_exponential_counterkernel.py",
+      "exit_code": 0,
+      "stdout_matches_recovery_run": true,
+      "certificates_match_original": true
+    },
+    {
+      "script": "exact_check.py",
+      "exit_code": 0,
+      "stdout_matches_recovery_run": true,
+      "certificates_match_original": true
+    }
+  ],
+  "original_internal_hashes_verified": 25,
+  "scope": "Finite source replay only; actual all-order xi positivity and RH OPEN"
+}

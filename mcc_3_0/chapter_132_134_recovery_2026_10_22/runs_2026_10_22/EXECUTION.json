@@ -1,0 +1,86 @@
+[
+  {
+    "script": "extracted/WRRA_All_Natural_Projector_Clarity_Core21_v0_1_2026-10-17/wrra_core21_all_natural_projector_v01/clarity_analysis.py",
+    "sha256": "05aeca325a3818fb0881a2cbc0344226ea06f4450ddb6f38bd7c296b04c73099",
+    "command": [
+      "python",
+      "clarity_analysis.py"
+    ],
+    "exit_code": 0,
+    "certificate_hashes_before": {
+      "EXECUTION_RECORD.json": "450ed0a543c7f9c11dd1bb687147f8a5d90cbf277c5bb18c1df1832f8bd398f4",
+      "CLARITY_CERTIFICATE.json": "e4cb47c30cbb44481a2e6ba8884e90e69432361af0ec3752ee2e8dbc1938cd26",
+      "PROGRESS.json": "07184c1fd490d5bb0b9e7af0d08775122b3037a83fa78357d1c2115d586f2e10"
+    },
+    "certificate_hashes_after": {
+      "EXECUTION_RECORD.json": "450ed0a543c7f9c11dd1bb687147f8a5d90cbf277c5bb18c1df1832f8bd398f4",
+      "CLARITY_CERTIFICATE.json": "e4cb47c30cbb44481a2e6ba8884e90e69432361af0ec3752ee2e8dbc1938cd26",
+      "PROGRESS.json": "07184c1fd490d5bb0b9e7af0d08775122b3037a83fa78357d1c2115d586f2e10"
+    },
+    "previous_stdout_json_equal": true
+  },
+  {
+    "script": "extracted/WRRA_All_Natural_Zero_Interference_Core21_v0_11_2026-10-17/all_natural_zero_projector_v011/projector_contract.py",
+    "sha256": "7da52b1754e672c75627cadb8951eec53b574906efec56fda050d426d8da55a0",
+    "command": [
+      "python",
+      "projector_contract.py"
+    ],
+    "exit_code": 0,
+    "certificate_hashes_before": {
+      "PROJECTOR_CONTRACT_CERTIFICATE.json": "4ef75b0d30e6e048374cee00605137ca74e9b3707376b6b7a724ae6c8755ddbe"
+    },
+    "certificate_hashes_after": {
+      "PROJECTOR_CONTRACT_CERTIFICATE.json": "4ef75b0d30e6e048374cee00605137ca74e9b3707376b6b7a724ae6c8755ddbe"
+    },
+    "previous_stdout_json_equal": true
+  },
+  {
+    "script": "extracted/WRRA_Odd_Composite_Hologram_Core21_v0_10_2026-10-17/odd_composite_hologram_v010/analyze_odd_hologram.py",
+    "sha256": "420d223fafb14adbcbca1b36031589d58ea762c6d12d019abfb0c0528313772d",
+    "command": [
+      "python",
+      "analyze_odd_hologram.py"
+    ],
+    "exit_code": 0,
+    "certificate_hashes_before": {
+      "COMPUTATION_RESULTS.json": "042ce9ee9fb50652a65fa57386e0556310556154d4e41c65d54b03cb1e71cb7f"
+    },
+    "certificate_hashes_after": {
+      "COMPUTATION_RESULTS.json": "042ce9ee9fb50652a65fa57386e0556310556154d4e41c65d54b03cb1e71cb7f"
+    },
+    "previous_stdout_json_equal": true
+  },
+  {
+    "script": "extracted/WRRA_Prime_Relation_Bezout_Positivity_v0_4_2026-10-17/exact_check.py",
+    "sha256": "a0db83c297b46d687f580809a1bc78540a44c85ddedb997379525a8566b9eafe",
+    "command": [
+      "python",
+      "exact_check.py"
+    ],
+    "exit_code": 0,
+    "certificate_hashes_before": {},
+    "certificate_hashes_after": {},
+    "previous_stdout_json_equal": null
+  },
+  {
+    "script": "extracted/WRRA_RH_Growth_Order_Half_Barrier_v0_8_2026-10-17/rh_growth_barrier_v08/certify_double_exponential_counterkernel.py",
+    "sha256": "eabe8ead64a36df92b5069af8508281fe7a5a3d5ac7c4ce54c4e26cb62dd80b7",
+    "command": [
+      "python",
+      "certify_double_exponential_counterkernel.py"
+    ],
+    "exit_code": 0,
+    "certificate_hashes_before": {
+      "DOUBLE_EXPONENTIAL_CERTIFICATE.json": "9ccfa4489e976250f884627796e9bf51e378c8d8850b92e854fe7d46e854694a",
+      "EXECUTION_RECORD.json": "4ed5077e71af84fbaca9d77f889aff101f8ed6ec43bfce830250273024de2242",
+      "PROGRESS.json": "c42b8e637f8fe99942e43896f5e9e1ee5fd5c19f8ab5ad71da6c5085243e8ae4"
+    },
+    "certificate_hashes_after": {
+      "DOUBLE_EXPONENTIAL_CERTIFICATE.json": "9ccfa4489e976250f884627796e9bf51e378c8d8850b92e854fe7d46e854694a",
+      "EXECUTION_RECORD.json": "4ed5077e71af84fbaca9d77f889aff101f8ed6ec43bfce830250273024de2242",
+      "PROGRESS.json": "c42b8e637f8fe99942e43896f5e9e1ee5fd5c19f8ab5ad71da6c5085243e8ae4"
+    },
+    "previous_stdout_json_equal": true
+  }
+]

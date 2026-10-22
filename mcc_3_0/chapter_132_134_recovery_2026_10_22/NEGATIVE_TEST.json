@@ -1,0 +1,6 @@
+{
+  "fault": "Append bytes to one original ZIP in isolated copy",
+  "exit_code": 1,
+  "stderr": "ValueError: ARCHIVE_OR_RECORD_HASH_MISMATCH: evidence/projector_focus_2026_10_17/WRRA_RH_Growth_Order_Half_Barrier_v0_8_2026-10-17.zip\n",
+  "originals_unchanged": true
+}

@@ -1,0 +1,72 @@
+{
+  "scope": "Conditional mathematical carrier model, not a physical hologram or RH proof",
+  "source_rule": "prime -> label1; even composite -> label2; odd composite -> label3; 1 separate",
+  "finite_projection": {
+    "N": 1000,
+    "s": 2,
+    "exact_equality": true,
+    "numerator": "644805165333857557243760749283609470035139418204419273072849831858064602858326767687616738472326647314916646749046613709350064076026771908780436055561247798967755384902654600964862236847564209628688505541327776145410517017492195436329372393821090556992379942258082625918661378065531345743854324",
+    "denominator": "20746546803012989649637401691662479258647859308892115971818208135389329106573909887139409046412967092026141854454514483527290705963517735758967924891220562655971355481845334580109322744885315209619585289705997048687424612297520765722035712815011996400531991083030975069532908878717106040644140625"
+  },
+  "finite_euler_factorization": {
+    "N": 1000,
+    "odd_addresses": 500,
+    "odd_composites": 332,
+    "exact_match": true
+  },
+  "intensity_ratio_collision": {
+    "pairs": [
+      [
+        27,
+        9
+      ],
+      [
+        45,
+        15
+      ]
+    ],
+    "exact_ratio": "3"
+  },
+  "energy_values_display_only": [
+    {
+      "N": 100,
+      "odd_composites": 25,
+      "E_sigma_0.4": 1.269593625880372,
+      "E_sigma_0.5": 0.6349576474260368,
+      "E_sigma_0.6": 0.3251526805826191
+    },
+    {
+      "N": 1000,
+      "odd_composites": 332,
+      "E_sigma_0.4": 3.7034341711774017,
+      "E_sigma_0.5": 1.390979018379995,
+      "E_sigma_0.6": 0.5640430563316945
+    },
+    {
+      "N": 10000,
+      "odd_composites": 3771,
+      "E_sigma_0.4": 8.099043689607695,
+      "E_sigma_0.5": 2.257291662318603,
+      "E_sigma_0.6": 0.7378065888011504
+    },
+    {
+      "N": 100000,
+      "odd_composites": 40408,
+      "E_sigma_0.4": 15.55880397916831,
+      "E_sigma_0.5": 3.1863719761769222,
+      "E_sigma_0.6": 0.8555777020164781
+    },
+    {
+      "N": 1000000,
+      "odd_composites": 421502,
+      "E_sigma_0.4": 27.88481336494586,
+      "E_sigma_0.5": 4.1556086021452865,
+      "E_sigma_0.6": 0.9331481576701467
+    }
+  ],
+  "proved_general": "sum odd-composite n^(-2*sigma) converges iff sigma>1/2",
+  "boundary_proof": "Upper bound by all-integer p-series; lower bound by odd multiples of 9, a positive-density arithmetic progression",
+  "finite_complex_amplitude_recovery": "Vandermonde in distinct log(n), invertible for every real sigma",
+  "new_actual_xi_inequality": false,
+  "RH_status": "OPEN"
+}

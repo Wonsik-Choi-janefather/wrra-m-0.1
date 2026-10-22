@@ -1,0 +1,50 @@
+{
+  "scope": "exact conditional carrier diagnostics; synthetic beta values are not actual zeta zeros",
+  "window": "L=4*log(2)",
+  "minimax_rows": {
+    "centered": [
+      {
+        "c": "1/4",
+        "radius": "1/4",
+        "worst_gain": 2
+      },
+      {
+        "c": "1/2",
+        "radius": "0",
+        "worst_gain": 1
+      },
+      {
+        "c": "3/4",
+        "radius": "1/4",
+        "worst_gain": 2
+      }
+    ],
+    "symmetric_offline_diagnostic": [
+      {
+        "c": "1/4",
+        "radius": "1/2",
+        "worst_gain": 4
+      },
+      {
+        "c": "1/2",
+        "radius": "1/4",
+        "worst_gain": 2
+      },
+      {
+        "c": "3/4",
+        "radius": "1/2",
+        "worst_gain": 4
+      }
+    ]
+  },
+  "offline_mode_gains_at_L": [
+    "2",
+    "1/2"
+  ],
+  "gain_product": "1",
+  "arithmetic_mean_gain": "5/4",
+  "proved_contract": "norm preservation for all coefficient vectors and shifts iff each beta=c",
+  "remaining_obligation": "derive norm-preserving contract from actual xi/theta, without assuming RH",
+  "actual_xi_new_inequality": false,
+  "RH_status": "OPEN"
+}

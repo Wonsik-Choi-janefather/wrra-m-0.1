@@ -1,0 +1,10 @@
+{
+  "recovered_from": "MCC_3_0_Book_v0.24_Projector_Focus_Complete_Package.zip",
+  "archive_sha256": "09e8f19d163931792b501e36ba6f070d2745916065a592925bfd829cf3072b93",
+  "archive_bytes": 76970934,
+  "library_version": "7",
+  "public_base_commit": "0c3f22619c96114ff88779f237dbbefe217dbd7a",
+  "omitting_publication_commit": "abab705e68",
+  "book_v028_KO_sha256": "d726096e8aa4e898f6d3a9556d4802dd64a03256d9592ba915dd610c3be71b4d",
+  "scope": "Recovered original byte-preserved R1-R5 archives; finite code replay, not RH proof or whole-MCC execution verification"
+}
