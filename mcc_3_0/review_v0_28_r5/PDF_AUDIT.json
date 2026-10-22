@@ -1,0 +1,24 @@
+{
+  "KO": {
+    "pages": 277,
+    "review_pages": [
+      250,
+      277
+    ],
+    "chapter_headings_preserved": true,
+    "image_references_preserved": true,
+    "md5": "0ddb8b98265dad07517abd70c788c245",
+    "sha256": "ae88b393a4e667508e8787a677fe84493d460042493b46436b8dac5ea117e94e"
+  },
+  "EN": {
+    "pages": 308,
+    "review_pages": [
+      278,
+      308
+    ],
+    "chapter_headings_preserved": true,
+    "image_references_preserved": true,
+    "md5": "35fd76fcb0bc790b60c00fe4f868671e",
+    "sha256": "b3a38d18cf400a29e4a8fb1982f215ebddd771b448b9b33bd4b0716583b00736"
+  }
+}

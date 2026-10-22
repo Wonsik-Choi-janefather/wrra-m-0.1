@@ -1,0 +1,19 @@
+{
+  "README.md": "9e0acef2dc8597867885225b805cf7552d1e1bd74332fa0b7057dbddc5f52c83",
+  "REPORT_EN.md": "a31b1d42d668630715a4c4d01ff380857663649c74ea5e714091c23bf1d12961",
+  "REPORT_KO.md": "e80733ff1ed00dae9fe33bd75abf6f317a58cc5600b1a1d44548398d63e402cf",
+  "compute.py": "c119c860af3f1e1e5916cbad0ece4c09791003c00e9e4cd45ab15c33df7e832d",
+  "convex_costs.csv": "e879b3e0fa1c6ef82c3fa6fef25d5f456de05634901b52ac1658224b79967497",
+  "finite_admission_gate.csv": "cd662e5da2e4c306da2bac64a3c0939a16416bad38bdd4105b19f9d3cc858d1b",
+  "full_RAR_comparison.csv": "d7316daaf3453630a235fcb31dfe427cae465a2599bb7dadacb3bdc92eae5d36",
+  "independent_verification.json": "e9e712483629bf68e3ed25b581e860ab85d2cebee251c83605977d9be5124467",
+  "input_manifest.json": "936fc12950f3a85d8885e5f6db3226f965645811f935cd26c42232b96f87640a",
+  "inputs/original_macro_replay.py": "5e073eafe4379230f7a026b6b012162ae11260d548419c179f0fe3338fbbd3e0",
+  "inputs/previous_candidate_results.json": "05c3601805874f2d637741f8ee76fae17d8b35ee644199f8c20eb9393a6fccd1",
+  "inputs/shared_gravity_results.json": "56f62a1333e31c72340fb94df66b847522fc6bdf3be364ef91844e98a538a9bd",
+  "native_state_replay.csv": "8ac807ba75687ae9d90931df409c282b12dcf0e1a80a3cf05f6862d0ca8dbef6",
+  "negative_controls.csv": "21b6fda79f49bb90e1c65fde04ab9f8b335849119c0ef5a6751067f0c280fc67",
+  "reference_radial_profile.csv": "83e1ad3cbe493ab9cd4f45c83afbdf4fdc7e1af9d59eda463c015d87acdd8fd5",
+  "results.json": "b2c1fc742b698ae8800c7fb0047f00521b29057397de34ba4ab6abcfdf669d74",
+  "verify.py": "6c1803dc4629615580d88861614e7ec2276f8c4e041a655166416e1b704e595f"
+}

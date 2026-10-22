@@ -1,0 +1,17 @@
+{
+  "normal_exit": 0,
+  "normal": {
+    "status": "PASS",
+    "prediction_rows": 24188,
+    "fit_rows": 1056,
+    "summary_rows": 16,
+    "independent_gate": "matrix exponential",
+    "independent_NFW": true,
+    "split_and_AIC_BIC": true
+  },
+  "native_nested_recovery": true,
+  "synthetic_radial_parameter_max_error": 1.942890293094024e-16,
+  "heldout_corruption_exit": 1,
+  "heldout_corruption_error": "PREDICTION_REPLAY_MISMATCH",
+  "reported_totals_unchanged": true
+}

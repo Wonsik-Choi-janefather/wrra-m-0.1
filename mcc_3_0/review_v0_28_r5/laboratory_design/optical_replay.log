@@ -1,0 +1,95 @@
+{
+  "clock": 1.4813019664158633e-21,
+  "step_pm": 0.4440831575520451,
+  "source_RMS": 1.2107407781339933e-08,
+  "boundaries": [
+    {
+      "wavelength_m": 5.32e-07,
+      "static_sigma_one_path_m": 6.993274799530854,
+      "static_exact_first_visibility_exp_minus_half_path_m": 6.7893921031608375,
+      "static_visibility_at_sigma_one": 0.5878097896185203,
+      "iid_sigma_one_path_m": 110127780326867.5,
+      "iid_exact_visibility_exp_minus_half_path_m": 110127780326867.5,
+      "cyclic_all_length_phase_RMS_bound_rad": 2.296688426345944e-12,
+      "cyclic_all_length_visibility_loss_upper_bound": 6.366309623791321e-24,
+      "status": "Conditional on declared g=1 and specified memory law; not an inherited optical prediction"
+    },
+    {
+      "wavelength_m": 1.064e-06,
+      "static_sigma_one_path_m": 13.986549599061709,
+      "static_exact_first_visibility_exp_minus_half_path_m": 13.578784206321675,
+      "static_visibility_at_sigma_one": 0.5878097896185203,
+      "iid_sigma_one_path_m": 440511121307470.0,
+      "iid_exact_visibility_exp_minus_half_path_m": 440511121307470.0,
+      "cyclic_all_length_phase_RMS_bound_rad": 1.148344213172972e-12,
+      "cyclic_all_length_visibility_loss_upper_bound": 1.5915774059478302e-24,
+      "status": "Conditional on declared g=1 and specified memory law; not an inherited optical prediction"
+    },
+    {
+      "wavelength_m": 1.55e-06,
+      "static_sigma_one_path_m": 20.37514274299403,
+      "static_exact_first_visibility_exp_minus_half_path_m": 19.78112360883327,
+      "static_visibility_at_sigma_one": 0.5878097896185203,
+      "iid_sigma_one_path_m": 934839420809892.8,
+      "iid_exact_visibility_exp_minus_half_path_m": 934839420809892.8,
+      "cyclic_all_length_phase_RMS_bound_rad": 7.882827373006724e-13,
+      "cyclic_all_length_visibility_loss_upper_bound": 7.499764474355528e-25,
+      "status": "Conditional on declared g=1 and specified memory law; not an inherited optical prediction"
+    }
+  ],
+  "checks": {
+    "density_trace": true,
+    "density_positive": true,
+    "density_visibility_exact_average": true,
+    "photon_energy_unchanged": true,
+    "finite_cycle_zero_mode_removed": true,
+    "autocorrelation_PSD": true,
+    "SOURCE_RMS_reproduced": true,
+    "source_D_R_covariance_reproduced": true,
+    "exact_iid_matches_variance_boundary": true,
+    "same_physical_state_subdivision": true,
+    "base_common_carrier_coherence": true,
+    "base_common_carrier_norm": true,
+    "identical_arm_coupling_cancels": true,
+    "tick_rounding_bound": true,
+    "visibility_in_unit_interval": true,
+    "finite_state_revival_resolved": true,
+    "wavelength_scaling": true
+  }
+}
+{
+  "version": "1.0",
+  "predictions": [
+    {
+      "wavelength_nm": 532.0,
+      "first_visibility_threshold_m": 6.789392103160843,
+      "first_minimum_exposure_m": 10.890479190249936,
+      "first_minimum_visibility": 0.3586975045641526,
+      "first_revival_exposure_m": 18.6393821601818,
+      "first_revival_visibility": 0.6081539566256551,
+      "revival_to_minimum_exposure_ratio": 1.7115300286207173
+    },
+    {
+      "wavelength_nm": 1064.0,
+      "first_visibility_threshold_m": 13.578784206321686,
+      "first_minimum_exposure_m": 21.78095838049987,
+      "first_minimum_visibility": 0.3586975045641526,
+      "first_revival_exposure_m": 37.2787643203636,
+      "first_revival_visibility": 0.6081539566256551,
+      "revival_to_minimum_exposure_ratio": 1.7115300286207173
+    },
+    {
+      "wavelength_nm": 1550.0,
+      "first_visibility_threshold_m": 19.78112360883328,
+      "first_minimum_exposure_m": 31.729779595653003,
+      "first_minimum_visibility": 0.35869750456415256,
+      "first_revival_exposure_m": 54.30647057947704,
+      "first_revival_visibility": 0.6081539566256551,
+      "revival_to_minimum_exposure_ratio": 1.7115300286207176
+    }
+  ],
+  "new_controls": 11,
+  "prior_controls": 17,
+  "all_passed": true,
+  "work_RMS_J": 1.1302025389123783e-27
+}

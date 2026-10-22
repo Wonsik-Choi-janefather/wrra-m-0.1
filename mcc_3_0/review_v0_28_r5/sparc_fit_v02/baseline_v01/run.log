@@ -1,0 +1,89 @@
+{
+  "aT_native": 1.1917875313971119e-10,
+  "aT_calibrated": 1.2058179128917093e-10,
+  "global_fit_success": true,
+  "summary": [
+    {
+      "model": "WRRA_fixed",
+      "galaxies": 149,
+      "N": 3150,
+      "k": 0,
+      "chi2": 163047.07791125594,
+      "dof": 3150,
+      "chi2_per_dof": 51.76097711468442,
+      "AIC_conditional": 163047.07791125594,
+      "BIC_conditional": 163047.07791125594,
+      "median_galaxy_chi2_per_local_dof": 11.090499258157312,
+      "fit_failures": 0,
+      "boundary_fits": 0
+    },
+    {
+      "model": "WRRA_global_aT",
+      "galaxies": 149,
+      "N": 3150,
+      "k": 1,
+      "chi2": 162991.31898251732,
+      "dof": 3149,
+      "chi2_per_dof": 51.75970752064697,
+      "AIC_conditional": 162993.31898251732,
+      "BIC_conditional": 162999.37414024913,
+      "median_galaxy_chi2_per_local_dof": 11.363850027366844,
+      "fit_failures": 0,
+      "boundary_fits": 0
+    },
+    {
+      "model": "NFW_fixed_stars",
+      "galaxies": 149,
+      "N": 3150,
+      "k": 298,
+      "chi2": 19205.821849142445,
+      "dof": 2852,
+      "chi2_per_dof": 6.734159133640408,
+      "AIC_conditional": 19801.821849142445,
+      "BIC_conditional": 21606.25885322471,
+      "median_galaxy_chi2_per_local_dof": 1.5146242226459072,
+      "fit_failures": 0,
+      "boundary_fits": 33
+    },
+    {
+      "model": "WRRA_free_stars",
+      "galaxies": 149,
+      "N": 3150,
+      "k": 149,
+      "chi2": 36591.252649837086,
+      "dof": 3001,
+      "chi2_per_dof": 12.193019876653478,
+      "AIC_conditional": 36889.252649837086,
+      "BIC_conditional": 37791.47115187822,
+      "median_galaxy_chi2_per_local_dof": 3.1030129509333464,
+      "fit_failures": 0,
+      "boundary_fits": 20
+    },
+    {
+      "model": "NFW_free_stars",
+      "galaxies": 149,
+      "N": 3150,
+      "k": 447,
+      "chi2": 10599.373604713304,
+      "dof": 2703,
+      "chi2_per_dof": 3.921336886686387,
+      "AIC_conditional": 11493.373604713304,
+      "BIC_conditional": 14200.0291108367,
+      "median_galaxy_chi2_per_local_dof": 1.0198831615861348,
+      "fit_failures": 0,
+      "boundary_fits": 68
+    }
+  ],
+  "selection": {
+    "total_galaxies": 175,
+    "included": 149,
+    "excluded": 26
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "source_commit": "8358c887d09de385ca7d6487e1ffcffa0557a91c",
+  "scope": "Conditional diagonal-error disk-plane algebraic WRRA response versus uncontracted free NFW; not a full 3D WRRA PDE or full cosmological LCDM likelihood; fixed catalog distance/inclination; no intrinsic-scatter or systematic-error inflation."
+}

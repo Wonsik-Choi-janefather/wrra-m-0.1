@@ -1,0 +1,184 @@
+{
+  "version": "lab_design_v0.1",
+  "source_profile_sha256": "8c53fb73b332db2805b7d614f166511094b54b3f1b2a291fbfdfe46312408d6b",
+  "points": [
+    {
+      "wavelength_m": 5.32e-07,
+      "role": "threshold",
+      "L_m": 6.789392103160843,
+      "visibility": 0.6065306597126334
+    },
+    {
+      "wavelength_m": 5.32e-07,
+      "role": "minimum",
+      "L_m": 10.890479190249936,
+      "visibility": 0.3586975045641526
+    },
+    {
+      "wavelength_m": 5.32e-07,
+      "role": "revival",
+      "L_m": 18.6393821601818,
+      "visibility": 0.6081539566256551
+    },
+    {
+      "wavelength_m": 1.064e-06,
+      "role": "threshold",
+      "L_m": 13.578784206321686,
+      "visibility": 0.6065306597126334
+    },
+    {
+      "wavelength_m": 1.064e-06,
+      "role": "minimum",
+      "L_m": 21.78095838049987,
+      "visibility": 0.3586975045641526
+    },
+    {
+      "wavelength_m": 1.064e-06,
+      "role": "revival",
+      "L_m": 37.2787643203636,
+      "visibility": 0.6081539566256551
+    },
+    {
+      "wavelength_m": 1.5500000000000002e-06,
+      "role": "threshold",
+      "L_m": 19.78112360883328,
+      "visibility": 0.6065306597126335
+    },
+    {
+      "wavelength_m": 1.5500000000000002e-06,
+      "role": "minimum",
+      "L_m": 31.729779595653003,
+      "visibility": 0.35869750456415256
+    },
+    {
+      "wavelength_m": 1.5500000000000002e-06,
+      "role": "revival",
+      "L_m": 54.30647057947704,
+      "visibility": 0.6081539566256551
+    }
+  ],
+  "covariance": [
+    [
+      9.999999999999999e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05
+    ],
+    [
+      3.6e-05,
+      9.999999999999999e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05
+    ],
+    [
+      3.6e-05,
+      3.6e-05,
+      9.999999999999999e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05
+    ],
+    [
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      9.999999999999999e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05
+    ],
+    [
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      9.999999999999999e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05
+    ],
+    [
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      9.999999999999999e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05
+    ],
+    [
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      9.999999999999999e-05,
+      3.6e-05,
+      3.6e-05
+    ],
+    [
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      9.999999999999999e-05,
+      3.6e-05
+    ],
+    [
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      3.6e-05,
+      9.999999999999999e-05
+    ]
+  ],
+  "test_alpha": 0.001,
+  "test_dof": 9,
+  "Q_critical": 27.877164871256575,
+  "sigma_visibility_absolute": 0.01,
+  "lipschitz_per_m": {
+    "532": 0.1255493879441576,
+    "1064": 0.0627746939720788,
+    "1550": 0.043091789926639895
+  },
+  "exposure_error_m_for_visibility_0_002": {
+    "532": 0.015929986061657016,
+    "1064": 0.03185997212331403,
+    "1550": 0.04641255337512853
+  },
+  "phase_noise_sigma_rad_max_for_0_002_fractional_loss": 0.0632772102841628,
+  "physical_OPD_m_assumed": 40.0,
+  "frequency_rms_Hz_all_phase_budget": 75479.35274483956,
+  "frequency_rms_Hz_half_phase_variance": 53371.962165447505,
+  "OPD_rms_m_half_phase_variance": 7.57694414634489e-09,
+  "detected_trials_each_signal_or_reference_block": 98766,
+  "shot_bound_assumptions": "Independent detected trials; calibrated extrema phases; balanced two-phase sampling; reference visibility >=0.9; separate equal-size signal/reference blocks. No detection-rate or duration inferred.",
+  "shutter_inverse_Hz": 6.75081801463874e+20,
+  "scope": "Conditional optical branch and synthetic design; differential natural coupling not established; static visibility cannot measure shutter interval."
+}

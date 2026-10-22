@@ -1,4 +1,12 @@
-## Minimal Computing Cosmology 3.0 — current manuscript v0.25 · 2026-10-19
+## Minimal Computing Cosmology 3.0 — current book v0.28-r5 · 2026-10-22
+
+[Complete Korean/English book source](mcc_3_0/book_v0_28_r5/README.md) · [PDFs and reproducible package on Zenodo](https://doi.org/10.5281/zenodo.23550759) · [Code, source observations and actual re-review logs](mcc_3_0/review_v0_28_r5/README.md).
+
+Preserves the cumulative 139 chapters. Integrates SPARC fitting and balanced NFW comparisons, finite-address/physical-resolution distinctions, laboratory falsification design, and mathematical Appendix I. Independent saved-fit replay covers 24,188 prediction rows, 1,056 fits and 16 summaries; isolated corruption is rejected. Full-sample improvement is sensitive to two galaxies and does not establish universal superiority. This is not whole-MCC end-to-end verification. Earlier notices below are historical.
+
+---
+
+## Minimal Computing Cosmology 3.0 — historical manuscript v0.25 · 2026-10-19
 
 [Full Korean/English book revision](mcc_3_0/book_v0_25/README.md) · [Standalone additions-only paper, bilingual illustrated PDFs and exact audit](submission/alternating_output_conjugate_conversion_v1_0/README.md).
 

@@ -1,0 +1,14 @@
+{
+  "KO": {
+    "pages": 270,
+    "sha256": "35281cce28ee416b90b53ec026b432613a12ae02c6878f553263713d04e57908",
+    "image_count": 50,
+    "added_sections_found": true
+  },
+  "EN": {
+    "pages": 301,
+    "sha256": "c1e6999fcd7f5cc9e8e61b1e04efebd8d59ad547afc751aa59c40fdb5011cdbd",
+    "image_count": 50,
+    "added_sections_found": true
+  }
+}

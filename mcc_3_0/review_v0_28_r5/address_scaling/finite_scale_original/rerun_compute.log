@@ -1,0 +1,79 @@
+{
+  "framework_name": "Wonsik Reality\u2013Renderer Architecture",
+  "source_profiles": [
+    {
+      "branch": "weighted",
+      "density_relative_rms": 7.469472456428912e-09,
+      "information_relative_rms": 0.41329190851152103,
+      "max_density_contrast": 2.131911959343653e-08
+    },
+    {
+      "branch": "unweighted",
+      "density_relative_rms": 7.512092299853885e-09,
+      "information_relative_rms": 0.4153897863805001,
+      "max_density_contrast": 2.1438452198399096e-08
+    }
+  ],
+  "refinement": [
+    {
+      "n": 16,
+      "h": 0.0625,
+      "poisson_relative_L2": 0.01363156063639016,
+      "center_force_relative_L2": 0.01714465657851272,
+      "max_laplacian_relative_error": 0.04284407100524146,
+      "max_phase_speed_error": 0.021656538328814423,
+      "max_bound": 0.06425523698625883,
+      "spectral_reference_phase_error": 0.0,
+      "order_poisson_relative_L2": "",
+      "order_center_force_relative_L2": ""
+    },
+    {
+      "n": 32,
+      "h": 0.03125,
+      "poisson_relative_L2": 0.0033837915262383365,
+      "center_force_relative_L2": 0.004274917495043916,
+      "max_laplacian_relative_error": 0.0108698625776813,
+      "max_phase_speed_error": 0.005449781347206861,
+      "max_bound": 0.016063809246564708,
+      "spectral_reference_phase_error": 0.0,
+      "order_poisson_relative_L2": 2.0102381488523684,
+      "order_center_force_relative_L2": 2.0037905245151744
+    },
+    {
+      "n": 64,
+      "h": 0.015625,
+      "poisson_relative_L2": 0.00084445626483394,
+      "center_force_relative_L2": 0.001068024741389215,
+      "max_laplacian_relative_error": 0.0027274952561849863,
+      "max_phase_speed_error": 0.0013646788022091405,
+      "max_bound": 0.004015952311641177,
+      "spectral_reference_phase_error": 0.0,
+      "order_poisson_relative_L2": 2.002546075879087,
+      "order_center_force_relative_L2": 2.000951508325675
+    },
+    {
+      "n": 128,
+      "h": 0.0078125,
+      "poisson_relative_L2": 0.0002110210647719131,
+      "center_force_relative_L2": 0.0002669621211423298,
+      "max_laplacian_relative_error": 0.0006825022662955149,
+      "max_phase_speed_error": 0.00034130937919396587,
+      "max_bound": 0.0010039880779102942,
+      "spectral_reference_phase_error": 0.0,
+      "order_poisson_relative_L2": 2.000635686080886,
+      "order_center_force_relative_L2": 2.0002381085520184
+    }
+  ],
+  "scale_bounds": {
+    "wave_1percent_min_wavelength_cells": 12.857682789617058,
+    "poisson_1percent_min_wavelength_cells": 18.22845801222204
+  },
+  "controls": {
+    "raw_decimation_alias_L2": 6.5452675621212056e-15,
+    "block_average_low_high_distance": 0.6374014793178672,
+    "nonlinear_closure_covariance_max": 0.03536401213798612,
+    "unit_CFL_3D_highmode_growth_per_step": 9.898979485566356
+  },
+  "passed": 179,
+  "total": 179
+}

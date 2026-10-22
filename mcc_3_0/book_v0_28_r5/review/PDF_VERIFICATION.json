@@ -1,0 +1,32 @@
+{
+  "KO": {
+    "pages": 269,
+    "sha256": "6fd4ed19e0d65f5837642fe47cabe7ebb4487ebe8edda875e0be2bb3659b2455",
+    "md5": "99c3af1721d69fcb5448c04e8e53634e",
+    "review_pages": [
+      1,
+      214,
+      216,
+      219,
+      269
+    ],
+    "image_count": 50,
+    "DOI_present": true,
+    "chapter139_sections_preserved": true
+  },
+  "EN": {
+    "pages": 299,
+    "sha256": "2100cecd5420b1a78eb226134845ac065a1ee35109b40417729fb84ea9b7596e",
+    "md5": "d7c192918cfd4e4df69ef7742da7e812",
+    "review_pages": [
+      1,
+      237,
+      240,
+      243,
+      299
+    ],
+    "image_count": 50,
+    "DOI_present": true,
+    "chapter139_sections_preserved": true
+  }
+}

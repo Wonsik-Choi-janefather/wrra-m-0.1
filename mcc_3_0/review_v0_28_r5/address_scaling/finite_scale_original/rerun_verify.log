@@ -1,0 +1,6 @@
+{
+  "method": "Independent modal/Parseval calculation; CSV conservation and threshold audit",
+  "max_absolute_difference_from_grid_L2_errors": 2.177077962350893e-16,
+  "status": "PASS",
+  "scope": "Algebraic cross-check, not an external review or observational validation"
+}

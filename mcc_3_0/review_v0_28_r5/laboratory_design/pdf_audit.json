@@ -1,0 +1,16 @@
+{
+  "KO": {
+    "pages": 272,
+    "images": 51,
+    "sha256": "da7e8656b3e6cf32913776537bfb662cd36a6c9516f7f25baa9fba0a0bb47f2d",
+    "122.1_present": true,
+    "H.7_present": true
+  },
+  "EN": {
+    "pages": 303,
+    "images": 51,
+    "sha256": "8eb8f7b51360d8922c04c2fe4c6fac3b4bbbde0dc0a92e5b142005b5b78af19f",
+    "122.1_present": true,
+    "H.7_present": true
+  }
+}

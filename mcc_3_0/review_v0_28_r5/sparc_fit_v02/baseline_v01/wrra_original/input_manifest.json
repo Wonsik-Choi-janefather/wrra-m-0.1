@@ -1,0 +1,14 @@
+{
+  "shared_gravity_results.json": {
+    "origin": "wrra/submission/information_gravity_mechanism_v0_1/inputs/shared_gravity_results.json",
+    "sha256": "56f62a1333e31c72340fb94df66b847522fc6bdf3be364ef91844e98a538a9bd"
+  },
+  "original_macro_replay.py": {
+    "origin": "wrra/submission/information_gravity_mechanism_v0_1/inputs/original_macro_replay.py",
+    "sha256": "5e073eafe4379230f7a026b6b012162ae11260d548419c179f0fe3338fbbd3e0"
+  },
+  "previous_candidate_results.json": {
+    "origin": "wrra/submission/information_gravity_mechanism_v0_1/results.json",
+    "sha256": "05c3601805874f2d637741f8ee76fae17d8b35ee644199f8c20eb9393a6fccd1"
+  }
+}

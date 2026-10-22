@@ -1,0 +1,51 @@
+{
+  "L": 500,
+  "H": 29,
+  "C": 70,
+  "N_U": 1015000,
+  "poisson_1percent_min_wavelength_cells": 18.22845801222204,
+  "checks": [
+    {
+      "name": "declared SOURCE count",
+      "pass": true
+    },
+    {
+      "name": "all address serialization round trips",
+      "pass": true
+    },
+    {
+      "name": "active carrier basis",
+      "pass": true
+    },
+    {
+      "name": "column stochastic transfer",
+      "pass": true
+    },
+    {
+      "name": "spatial plus reserve conservation",
+      "pass": true
+    },
+    {
+      "name": "omit reserve negative control detected",
+      "pass": true
+    },
+    {
+      "name": "volume weighted coarsening",
+      "pass": true
+    },
+    {
+      "name": "fixed energy doubled physical length",
+      "pass": true
+    },
+    {
+      "name": "Poisson unit restoration",
+      "pass": true
+    },
+    {
+      "name": "inverse Poisson one percent bound",
+      "pass": true
+    }
+  ],
+  "passed": 10,
+  "scope": "Declared address construction and synthetic unit/conservation interface; not cosmic-scale calibration"
+}

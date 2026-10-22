@@ -1,0 +1,20 @@
+{
+  "normal_exit": 0,
+  "normal": {
+    "status": "PASS",
+    "saved_prediction_rows": 15750,
+    "galaxy_model_rows": 745,
+    "models": 5,
+    "independent_gate": "matrix exponential",
+    "native_scale": "SI load identity",
+    "matched_rows": true
+  },
+  "nfw_r200_normalization_cases": 3,
+  "synthetic_nfw_recovered": [
+    129.99999999999991,
+    7.999999999999999
+  ],
+  "isolated_prediction_corruption_exit": 1,
+  "isolated_error": "RESIDUAL_MISMATCH",
+  "reported_total_unchanged": true
+}

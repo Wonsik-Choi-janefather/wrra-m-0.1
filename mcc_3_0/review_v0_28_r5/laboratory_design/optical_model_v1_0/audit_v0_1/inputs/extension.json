@@ -1,0 +1,20 @@
+{
+  "status": "Trial extension; no optical fit; not a derivation of optical coupling",
+  "relative_phase_coupling_g": 1.0,
+  "wavelengths_m": [
+    5.32e-07,
+    1.064e-06,
+    1.55e-06
+  ],
+  "path_exposures_m": [
+    0.01,
+    0.1,
+    1,
+    10,
+    20,
+    100
+  ],
+  "first_threshold": "sigma_phi = 1; exact V=exp(-1/2) also computed",
+  "source_reference": "10.5281/zenodo.23361676",
+  "input_selection": "dark mean-stress profile; phase register rho=I/128; intrinsic supply-bit variance not mapped to optical phase"
+}

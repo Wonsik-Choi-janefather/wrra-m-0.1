@@ -1,0 +1,40 @@
+{
+  "metrics": {
+    "max_relative_RAR_error": 2.220446049250313e-16,
+    "max_relative_inverse_error": 4.440892098500626e-16,
+    "max_gate_semigroup_error": 1.1102230246251565e-16,
+    "max_unitarity_error": 2.220446049250313e-16,
+    "max_relative_Legendre_identity_error": 8.846123663549968e-15,
+    "max_relative_cost_derivative_error": 1.0010164697149548e-08,
+    "max_native_rotation_difference_km_s": 5.684341886080802e-14,
+    "max_native_lensing_difference_arcsec": 1.9206858326015208e-14,
+    "max_sampled_radial_stiffness": 1.0331523947741934
+  },
+  "origin_reference": {
+    "rotation_km_s": 207.51024186591528,
+    "lensing_arcsec": 0.5355822400088303,
+    "aT_m_s2": 1.1917875313971119e-10
+  },
+  "negative_controls": [
+    {
+      "control": "linear_budget",
+      "budget_power": 1.0,
+      "hazard_rate": 1.0,
+      "max_relative_deviation": 998.500666375175
+    },
+    {
+      "control": "cubic_budget",
+      "budget_power": 3.0,
+      "hazard_rate": 1.0,
+      "max_relative_deviation": 0.8995494003387694
+    },
+    {
+      "control": "double_hazard",
+      "budget_power": 2.0,
+      "hazard_rate": 2.0,
+      "max_relative_deviation": 0.49975000002083325
+    }
+  ],
+  "passed": 843,
+  "total": 843
+}

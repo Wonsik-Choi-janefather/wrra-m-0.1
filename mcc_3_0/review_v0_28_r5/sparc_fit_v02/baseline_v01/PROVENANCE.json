@@ -1,0 +1,10 @@
+{
+  "source_commit": "8358c887d09de385ca7d6487e1ffcffa0557a91c",
+  "input_sources": {
+    "SPARC_Lelli2016c.mrt": "https://astroweb.cwru.edu/SPARC/SPARC_Lelli2016c.mrt",
+    "MassModels_Lelli2016c.mrt": "https://astroweb.cwru.edu/SPARC/MassModels_Lelli2016c.mrt"
+  },
+  "original_code_sha256": "c119c860af3f1e1e5916cbad0ece4c09791003c00e9e4cd45ab15c33df7e832d",
+  "adapter_scope": "disk-plane algebraic response, not solved 3D PDE",
+  "original_code_unchanged": true
+}

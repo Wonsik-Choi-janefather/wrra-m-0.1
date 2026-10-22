@@ -1,0 +1,14 @@
+{
+  "source_observation_rows_checked": 24188,
+  "normal_source_match": true,
+  "selection_identity_max_error": 0.0,
+  "swap_unitary_max_error": 2.482534153247273e-16,
+  "ports_completeness_max_error": 2.220446049250313e-16,
+  "wrra_better": 81,
+  "nfw_better": 68,
+  "total_delta_chi2": -1313.4477084559487,
+  "IC2574_delta": -996.4534135974524,
+  "UGC06787_delta": -651.9107131533856,
+  "omit_two_contributions_delta": 334.9164182948892,
+  "scope": "saved-fit replay and finite operator examples; no full refit, physical experiment or whole-model execution"
+}

@@ -1,0 +1,27 @@
+{
+  "version": "lab_design_v0.1",
+  "source_profile_sha256": "8c53fb73b332db2805b7d614f166511094b54b3f1b2a291fbfdfe46312408d6b",
+  "test_alpha": 0.001,
+  "test_dof": 9,
+  "Q_critical": 27.877164871256575,
+  "sigma_visibility_absolute": 0.01,
+  "lipschitz_per_m": {
+    "532": 0.1255493879441576,
+    "1064": 0.0627746939720788,
+    "1550": 0.043091789926639895
+  },
+  "exposure_error_m_for_visibility_0_002": {
+    "532": 0.015929986061657016,
+    "1064": 0.03185997212331403,
+    "1550": 0.04641255337512853
+  },
+  "phase_noise_sigma_rad_max_for_0_002_fractional_loss": 0.0632772102841628,
+  "physical_OPD_m_assumed": 40.0,
+  "frequency_rms_Hz_all_phase_budget": 75479.35274483956,
+  "frequency_rms_Hz_half_phase_variance": 53371.962165447505,
+  "OPD_rms_m_half_phase_variance": 7.57694414634489e-09,
+  "detected_trials_each_signal_or_reference_block": 98766,
+  "shot_bound_assumptions": "Independent detected trials; calibrated extrema phases; balanced two-phase sampling; reference visibility >=0.9; separate equal-size signal/reference blocks. No detection-rate or duration inferred.",
+  "shutter_inverse_Hz": 6.75081801463874e+20,
+  "scope": "Conditional optical branch and synthetic design; differential natural coupling not established; static visibility cannot measure shutter interval."
+}
