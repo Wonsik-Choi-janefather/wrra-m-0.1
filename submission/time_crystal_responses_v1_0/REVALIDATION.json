@@ -1,0 +1,256 @@
+{
+  "passed": 12,
+  "total": 12,
+  "checks": [
+    {
+      "name": "source_involution_and_intertwining",
+      "passed": true,
+      "detail": {
+        "source_dimension": 512,
+        "active_indices": [
+          34,
+          289
+        ],
+        "G_squared_error": 0.0,
+        "U_equals_G_error": 0.0,
+        "generator_commutes_with_G_error": 0.0,
+        "logical_exchange_intertwiner_error": 0.0,
+        "logical_readout_intertwiner_error": 0.0,
+        "active_subspace_leakage_error": 0.0,
+        "rate_error_controls": {
+          "0": {
+            "tail_M2": 0.9999999999999147,
+            "analytic_error": 1.1368683772161603e-13
+          },
+          "0.001": {
+            "tail_M2": 0.34545503824438595,
+            "analytic_error": 2.926825448668069e-13
+          },
+          "0.01": {
+            "tail_M2": -0.16934611289934248,
+            "analytic_error": 1.9288737274081313e-13
+          },
+          "0.05": {
+            "tail_M2": -0.03600547769434429,
+            "analytic_error": 1.6076029396572267e-13
+          }
+        },
+        "note": "Defective isolated G is a coherent oscillator, without robust locking."
+      }
+    },
+    {
+      "name": "source_pulse_basis_equivalence",
+      "passed": true,
+      "detail": 2.236666774954262e-16
+    },
+    {
+      "name": "finite_time_rigidity",
+      "passed": true,
+      "detail": [
+        {
+          "n": 10,
+          "epsilon_rad": 0.05,
+          "j0": 0.8,
+          "seeds": 16,
+          "steps": 512,
+          "tail_signed_memory": 0.8153979319952678,
+          "seed_sd": 0.11346397808414294,
+          "peak_cycles_per_T": 0.5,
+          "norm_error": 4.285460875053104e-13
+        },
+        {
+          "n": 10,
+          "epsilon_rad": 0.1,
+          "j0": 0.8,
+          "seeds": 16,
+          "steps": 512,
+          "tail_signed_memory": 0.6101822966162964,
+          "seed_sd": 0.14681044571419105,
+          "peak_cycles_per_T": 0.5,
+          "norm_error": 4.3876013933186186e-13
+        },
+        {
+          "n": 10,
+          "epsilon_rad": 0.2,
+          "j0": 0.8,
+          "seeds": 16,
+          "steps": 512,
+          "tail_signed_memory": 0.4009580633233772,
+          "seed_sd": 0.08271809694342809,
+          "peak_cycles_per_T": 0.5,
+          "norm_error": 4.2310599468464716e-13
+        },
+        {
+          "n": 10,
+          "epsilon_rad": 0.3,
+          "j0": 0.8,
+          "seeds": 16,
+          "steps": 512,
+          "tail_signed_memory": 0.27978966077814094,
+          "seed_sd": 0.04668835930685604,
+          "peak_cycles_per_T": 0.5,
+          "norm_error": 5.074829445561591e-13
+        },
+        {
+          "n": 10,
+          "epsilon_rad": 0.1,
+          "j0": 0.8,
+          "seeds": 16,
+          "steps": 2048,
+          "tail_signed_memory": 0.6344004117133859,
+          "seed_sd": 0.09744757392401672,
+          "peak_cycles_per_T": 0.5,
+          "norm_error": 1.7541523789077473e-12
+        }
+      ]
+    },
+    {
+      "name": "uncoupled_negative_control",
+      "passed": true,
+      "detail": [
+        {
+          "n": 10,
+          "epsilon_rad": 0.05,
+          "j0": 0,
+          "seeds": 16,
+          "steps": 512,
+          "tail_signed_memory": -0.0025440523223536965,
+          "seed_sd": 0.08888332595370557,
+          "peak_cycles_per_T": 0.4921875,
+          "norm_error": 4.056754931980322e-13
+        },
+        {
+          "n": 10,
+          "epsilon_rad": 0.1,
+          "j0": 0,
+          "seeds": 16,
+          "steps": 512,
+          "tail_signed_memory": -0.022810980342045126,
+          "seed_sd": 0.053006447904821404,
+          "peak_cycles_per_T": 0.484375,
+          "norm_error": 4.303224443447107e-13
+        },
+        {
+          "n": 10,
+          "epsilon_rad": 0.2,
+          "j0": 0,
+          "seeds": 16,
+          "steps": 512,
+          "tail_signed_memory": 0.01877717620595719,
+          "seed_sd": 0.038872782739692115,
+          "peak_cycles_per_T": 0.46875,
+          "norm_error": 4.2288395007972213e-13
+        },
+        {
+          "n": 10,
+          "epsilon_rad": 0.3,
+          "j0": 0,
+          "seeds": 16,
+          "steps": 512,
+          "tail_signed_memory": -0.004475582452303833,
+          "seed_sd": 0.043956788401118094,
+          "peak_cycles_per_T": 0.453125,
+          "norm_error": 5.115907697472721e-13
+        },
+        {
+          "n": 10,
+          "epsilon_rad": 0.1,
+          "j0": 0,
+          "seeds": 16,
+          "steps": 2048,
+          "tail_signed_memory": -0.006856890116112169,
+          "seed_sd": 0.031452913098885954,
+          "peak_cycles_per_T": 0.484375,
+          "norm_error": 1.7135182162064666e-12
+        }
+      ]
+    },
+    {
+      "name": "trap_equilibrium_and_modal_resolvent",
+      "passed": true,
+      "detail": {
+        "equilibrium_gradient_max": 1.7763568394002505e-15,
+        "mode_inverse_max_error": 1.5543122344752192e-15,
+        "positions_dimensionless": [
+          -2.870825081494988,
+          -2.10003115569744,
+          -1.4503814149284102,
+          -0.8537788259805821,
+          -0.28210365571416957,
+          0.28210365571416934,
+          0.8537788259805819,
+          1.45038141492841,
+          2.1000311556974394,
+          2.8708250814949876
+        ],
+        "transverse_modes_MHz": [
+          4.353288260252131,
+          4.43020032110781,
+          4.500327560158006,
+          4.56380182851689,
+          4.620682280047283,
+          4.670945547710584,
+          4.714461128147426,
+          4.7509345304466635,
+          4.779790790400768,
+          4.800000000000001
+        ],
+        "nearest_neighbor_ratios": [
+          0.85726570235878,
+          0.9635714555439319,
+          0.9915520983756573,
+          0.9987175991079487,
+          1.0,
+          0.9987175991079401,
+          0.9915520983756491,
+          0.9635714555439311,
+          0.857265702358782
+        ],
+        "pair_matrix_rms_difference": 0.04848388426685642
+      }
+    },
+    {
+      "name": "independent_dense_dynamics",
+      "passed": true,
+      "detail": 2.4646951146678475e-14
+    },
+    {
+      "name": "observed_values_preserved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "v05_full_replay",
+      "passed": true,
+      "detail": 1.1102230246251565e-16
+    },
+    {
+      "name": "independent_calibration_normal_equation",
+      "passed": true,
+      "detail": {
+        "independent_scale": 0.0782426857207683
+      }
+    },
+    {
+      "name": "probability_norms",
+      "passed": true,
+      "detail": {
+        "norm_error": 1.141309269314661e-13
+      }
+    },
+    {
+      "name": "source_pdf_identity",
+      "passed": true,
+      "detail": "645b138317304e38fbc15a949a741aad6897bd49fca14d4a5a20a39bea08805f"
+    },
+    {
+      "name": "all_eight_models_and_bounds",
+      "passed": true,
+      "detail": {
+        "models": 8,
+        "grid_points": 81
+      }
+    }
+  ],
+  "scope": "Internal algebra, numerical dynamics, extraction replay and calibration checks; not external peer review or full-phase proof."
+}
