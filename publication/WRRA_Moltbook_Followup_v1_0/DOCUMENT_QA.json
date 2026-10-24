@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "EN_cosmos_values": true,
+    "EN_neuro_values": true,
+    "EN_life_states": true,
+    "EN_scope": true,
+    "KO_cosmos_values": true,
+    "KO_neuro_values": true,
+    "KO_life_states": true,
+    "KO_scope": true,
+    "life_new_links": true,
+    "life/undefined_new_links": true,
+    "history/books/wrra-neuropsychology_new_links": true,
+    "history/books/wrra-neuropsychology/en_new_links": true,
+    "verifier_result": true
+  },
+  "passed": 13,
+  "total": 13
+}

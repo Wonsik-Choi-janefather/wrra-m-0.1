@@ -1,0 +1,165 @@
+{
+  "passed": 52,
+  "total": 52,
+  "checks": {
+    "60digit_directional_crosscheck": true,
+    "nonzero_finite_direction_effect": true,
+    "boost_claim_explicitly_open": true,
+    "inherited_rerun_179": true,
+    "finite_internal_stock_substrate_global_balance": true,
+    "finite_internal_stock_energy_tokens_global_balance": true,
+    "recorded_external_supply_substrate_global_balance": true,
+    "recorded_external_supply_energy_tokens_global_balance": true,
+    "finite_stock_capacity_independent": true,
+    "external_supply_not_erased": true,
+    "valid_trace_accepted": true,
+    "mutation_duplicate_id": true,
+    "mutation_broken_parent": true,
+    "mutation_missing_machinery": true,
+    "mutation_missing_boundary": true,
+    "mutation_missing_information": true,
+    "mutation_fabricated_stock": true,
+    "mutation_hidden_inflow": true,
+    "mutation_negative_stock": true,
+    "mutation_nonfinite_stock": true,
+    "mutation_wrong_resource_type": true,
+    "mutation_missing_resource_species": true,
+    "mutation_omitted_cost": true,
+    "mutation_state_discontinuity": true,
+    "mutation_missing_record_field": true,
+    "mutation_unmeasured_resource": true,
+    "mutation_unmeasured_machinery": true,
+    "original_residue_exact_replay": true,
+    "published_probability_replay": true,
+    "lower_mean_can_have_higher_variance": true,
+    "exhaustive_256_paths_budget_1": true,
+    "exhaustive_256_paths_budget_3": true,
+    "exhaustive_256_paths_budget_6": true,
+    "full_3_budget_bounds": true,
+    "full_3_second_moment": true,
+    "full_6_budget_bounds": true,
+    "full_6_second_moment": true,
+    "full_12_budget_bounds": true,
+    "full_12_second_moment": true,
+    "residue_ablated_3_budget_bounds": true,
+    "residue_ablated_3_second_moment": true,
+    "residue_ablated_6_budget_bounds": true,
+    "residue_ablated_6_second_moment": true,
+    "residue_ablated_12_budget_bounds": true,
+    "residue_ablated_12_second_moment": true,
+    "conditional_entropy_by_enumeration_0": true,
+    "conditional_entropy_by_enumeration_1": true,
+    "conditional_entropy_by_enumeration_2": true,
+    "one_input_not_sufficient": true,
+    "reversible_embedding_eight_states": true,
+    "no_device_heat_claim": true,
+    "difficulty_can_create_shared_errors": true
+  },
+  "max_60digit_phase_error_difference": 1.2836953722228372e-16,
+  "mutations": [
+    {
+      "name": "duplicate_id",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "reason": "lineage_identity"
+    },
+    {
+      "name": "broken_parent",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "reason": "lineage_identity"
+    },
+    {
+      "name": "missing_machinery",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "reason": "missing_execution_layer"
+    },
+    {
+      "name": "missing_boundary",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "reason": "missing_execution_layer"
+    },
+    {
+      "name": "missing_information",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "reason": "missing_execution_layer"
+    },
+    {
+      "name": "fabricated_stock",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "reason": "resource_balance"
+    },
+    {
+      "name": "hidden_inflow",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "reason": "resource_balance"
+    },
+    {
+      "name": "negative_stock",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "reason": "invalid_resource"
+    },
+    {
+      "name": "nonfinite_stock",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "reason": "invalid_resource"
+    },
+    {
+      "name": "wrong_resource_type",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "reason": "invalid_resource"
+    },
+    {
+      "name": "missing_resource_species",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "reason": "resource_schema"
+    },
+    {
+      "name": "omitted_cost",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "reason": "resource_balance"
+    },
+    {
+      "name": "state_discontinuity",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "reason": "state_discontinuity"
+    },
+    {
+      "name": "missing_record_field",
+      "expected": "OPEN",
+      "actual": "OPEN",
+      "reason": "missing_evidence"
+    },
+    {
+      "name": "unmeasured_resource",
+      "expected": "OPEN",
+      "actual": "OPEN",
+      "reason": "unmeasured_resource"
+    },
+    {
+      "name": "unmeasured_machinery",
+      "expected": "OPEN",
+      "actual": "OPEN",
+      "reason": "missing_evidence"
+    }
+  ],
+  "synthetic_difficulty_control": {
+    "marginal_error": 0.4,
+    "joint_error": 0.25,
+    "naive_independence_joint": 0.16,
+    "conditional_error_covariance": 0,
+    "pooled_error_covariance": 0.09
+  },
+  "scope": "Separate numerical/logic verification by the same workflow, not a third-party review. 16 isolated data corruptions and missing-evidence controls; not exhaustive defect coverage. Shared-error example is constructed, not new AI test data."
+}

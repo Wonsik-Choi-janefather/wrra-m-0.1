@@ -1,0 +1,47 @@
+{
+  "source_states": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "rows": [
+    {
+      "retained": "AND output",
+      "discarded_bits": 1.188721875540867,
+      "ideal_reset_lower_bound_J": 3.412795404909008e-21
+    },
+    {
+      "retained": "input a and AND output",
+      "discarded_bits": 0.5,
+      "ideal_reset_lower_bound_J": 1.435489442539362e-21
+    },
+    {
+      "retained": "both inputs and AND output",
+      "discarded_bits": 0.0,
+      "ideal_reset_lower_bound_J": 0.0
+    }
+  ],
+  "reversible_states_checked": 8,
+  "temperature_K": 300.0,
+  "ideal_one_unbiased_bit_J": 2.870978885078724e-21,
+  "missing_for_device_claim": [
+    "measured complete-cycle work and heat",
+    "physical memory Hamiltonian and reset protocol",
+    "measurement/copy/control costs",
+    "side-information reset accounting"
+  ],
+  "scope": "Finite exhaustive WRRA information-retention mapping using standard information theory as external input. The lower bound is conditional, not measured heat, nor an executed integration into a cosmological energy ledger."
+}

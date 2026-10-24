@@ -1,0 +1,444 @@
+{
+  "cases": [
+    {
+      "name": "finite_internal_stock",
+      "events": [
+        {
+          "id": "g1",
+          "parent": null,
+          "before": {
+            "substrate": 8,
+            "energy_tokens": 12
+          },
+          "inflow": {
+            "substrate": 0,
+            "energy_tokens": 0
+          },
+          "consumed": {
+            "substrate": 2,
+            "energy_tokens": 3
+          },
+          "after": {
+            "substrate": 6,
+            "energy_tokens": 9
+          },
+          "machinery": true,
+          "boundary": true,
+          "information": true,
+          "success": true
+        },
+        {
+          "id": "g2",
+          "parent": "g1",
+          "before": {
+            "substrate": 6,
+            "energy_tokens": 9
+          },
+          "inflow": {
+            "substrate": 0,
+            "energy_tokens": 0
+          },
+          "consumed": {
+            "substrate": 2,
+            "energy_tokens": 3
+          },
+          "after": {
+            "substrate": 4,
+            "energy_tokens": 6
+          },
+          "machinery": true,
+          "boundary": true,
+          "information": true,
+          "success": true
+        },
+        {
+          "id": "g3",
+          "parent": "g2",
+          "before": {
+            "substrate": 4,
+            "energy_tokens": 6
+          },
+          "inflow": {
+            "substrate": 0,
+            "energy_tokens": 0
+          },
+          "consumed": {
+            "substrate": 2,
+            "energy_tokens": 3
+          },
+          "after": {
+            "substrate": 2,
+            "energy_tokens": 3
+          },
+          "machinery": true,
+          "boundary": true,
+          "information": true,
+          "success": true
+        },
+        {
+          "id": "g4",
+          "parent": "g3",
+          "before": {
+            "substrate": 2,
+            "energy_tokens": 3
+          },
+          "inflow": {
+            "substrate": 0,
+            "energy_tokens": 0
+          },
+          "consumed": {
+            "substrate": 2,
+            "energy_tokens": 3
+          },
+          "after": {
+            "substrate": 0,
+            "energy_tokens": 0
+          },
+          "machinery": true,
+          "boundary": true,
+          "information": true,
+          "success": true
+        },
+        {
+          "id": "g5",
+          "parent": "g4",
+          "before": {
+            "substrate": 0,
+            "energy_tokens": 0
+          },
+          "inflow": {
+            "substrate": 0,
+            "energy_tokens": 0
+          },
+          "consumed": {
+            "substrate": 0,
+            "energy_tokens": 0
+          },
+          "after": {
+            "substrate": 0,
+            "energy_tokens": 0
+          },
+          "machinery": true,
+          "boundary": true,
+          "information": true,
+          "success": false
+        }
+      ],
+      "decision": [
+        "NOT_READY",
+        "current_observed_state"
+      ]
+    },
+    {
+      "name": "recorded_external_supply",
+      "events": [
+        {
+          "id": "g1",
+          "parent": null,
+          "before": {
+            "substrate": 8,
+            "energy_tokens": 12
+          },
+          "inflow": {
+            "substrate": 1,
+            "energy_tokens": 2
+          },
+          "consumed": {
+            "substrate": 2,
+            "energy_tokens": 3
+          },
+          "after": {
+            "substrate": 7,
+            "energy_tokens": 11
+          },
+          "machinery": true,
+          "boundary": true,
+          "information": true,
+          "success": true
+        },
+        {
+          "id": "g2",
+          "parent": "g1",
+          "before": {
+            "substrate": 7,
+            "energy_tokens": 11
+          },
+          "inflow": {
+            "substrate": 1,
+            "energy_tokens": 2
+          },
+          "consumed": {
+            "substrate": 2,
+            "energy_tokens": 3
+          },
+          "after": {
+            "substrate": 6,
+            "energy_tokens": 10
+          },
+          "machinery": true,
+          "boundary": true,
+          "information": true,
+          "success": true
+        },
+        {
+          "id": "g3",
+          "parent": "g2",
+          "before": {
+            "substrate": 6,
+            "energy_tokens": 10
+          },
+          "inflow": {
+            "substrate": 1,
+            "energy_tokens": 2
+          },
+          "consumed": {
+            "substrate": 2,
+            "energy_tokens": 3
+          },
+          "after": {
+            "substrate": 5,
+            "energy_tokens": 9
+          },
+          "machinery": true,
+          "boundary": true,
+          "information": true,
+          "success": true
+        },
+        {
+          "id": "g4",
+          "parent": "g3",
+          "before": {
+            "substrate": 5,
+            "energy_tokens": 9
+          },
+          "inflow": {
+            "substrate": 1,
+            "energy_tokens": 2
+          },
+          "consumed": {
+            "substrate": 2,
+            "energy_tokens": 3
+          },
+          "after": {
+            "substrate": 4,
+            "energy_tokens": 8
+          },
+          "machinery": true,
+          "boundary": true,
+          "information": true,
+          "success": true
+        },
+        {
+          "id": "g5",
+          "parent": "g4",
+          "before": {
+            "substrate": 4,
+            "energy_tokens": 8
+          },
+          "inflow": {
+            "substrate": 1,
+            "energy_tokens": 2
+          },
+          "consumed": {
+            "substrate": 2,
+            "energy_tokens": 3
+          },
+          "after": {
+            "substrate": 3,
+            "energy_tokens": 7
+          },
+          "machinery": true,
+          "boundary": true,
+          "information": true,
+          "success": true
+        },
+        {
+          "id": "g6",
+          "parent": "g5",
+          "before": {
+            "substrate": 3,
+            "energy_tokens": 7
+          },
+          "inflow": {
+            "substrate": 1,
+            "energy_tokens": 2
+          },
+          "consumed": {
+            "substrate": 2,
+            "energy_tokens": 3
+          },
+          "after": {
+            "substrate": 2,
+            "energy_tokens": 6
+          },
+          "machinery": true,
+          "boundary": true,
+          "information": true,
+          "success": true
+        }
+      ],
+      "decision": [
+        "READY",
+        "current_observed_state"
+      ]
+    },
+    {
+      "name": "unmeasured_external_supply",
+      "events": [
+        {
+          "id": "g1",
+          "parent": null,
+          "before": {
+            "substrate": 8,
+            "energy_tokens": 12
+          },
+          "inflow": {
+            "substrate": 1,
+            "energy_tokens": 2
+          },
+          "consumed": {
+            "substrate": 2,
+            "energy_tokens": 3
+          },
+          "after": {
+            "substrate": 7,
+            "energy_tokens": 11
+          },
+          "machinery": true,
+          "boundary": true,
+          "information": true,
+          "success": true
+        },
+        {
+          "id": "g2",
+          "parent": "g1",
+          "before": {
+            "substrate": 7,
+            "energy_tokens": 11
+          },
+          "inflow": {
+            "substrate": 1,
+            "energy_tokens": 2
+          },
+          "consumed": {
+            "substrate": 2,
+            "energy_tokens": 3
+          },
+          "after": {
+            "substrate": 6,
+            "energy_tokens": 10
+          },
+          "machinery": true,
+          "boundary": true,
+          "information": true,
+          "success": true
+        },
+        {
+          "id": "g3",
+          "parent": "g2",
+          "before": {
+            "substrate": 6,
+            "energy_tokens": 10
+          },
+          "inflow": {
+            "substrate": null,
+            "energy_tokens": 2
+          },
+          "consumed": {
+            "substrate": 2,
+            "energy_tokens": 3
+          },
+          "after": {
+            "substrate": 5,
+            "energy_tokens": 9
+          },
+          "machinery": true,
+          "boundary": true,
+          "information": true,
+          "success": true
+        },
+        {
+          "id": "g4",
+          "parent": "g3",
+          "before": {
+            "substrate": 5,
+            "energy_tokens": 9
+          },
+          "inflow": {
+            "substrate": 1,
+            "energy_tokens": 2
+          },
+          "consumed": {
+            "substrate": 2,
+            "energy_tokens": 3
+          },
+          "after": {
+            "substrate": 4,
+            "energy_tokens": 8
+          },
+          "machinery": true,
+          "boundary": true,
+          "information": true,
+          "success": true
+        },
+        {
+          "id": "g5",
+          "parent": "g4",
+          "before": {
+            "substrate": 4,
+            "energy_tokens": 8
+          },
+          "inflow": {
+            "substrate": 1,
+            "energy_tokens": 2
+          },
+          "consumed": {
+            "substrate": 2,
+            "energy_tokens": 3
+          },
+          "after": {
+            "substrate": 3,
+            "energy_tokens": 7
+          },
+          "machinery": true,
+          "boundary": true,
+          "information": true,
+          "success": true
+        },
+        {
+          "id": "g6",
+          "parent": "g5",
+          "before": {
+            "substrate": 3,
+            "energy_tokens": 7
+          },
+          "inflow": {
+            "substrate": 1,
+            "energy_tokens": 2
+          },
+          "consumed": {
+            "substrate": 2,
+            "energy_tokens": 3
+          },
+          "after": {
+            "substrate": 2,
+            "energy_tokens": 6
+          },
+          "machinery": true,
+          "boundary": true,
+          "information": true,
+          "success": true
+        }
+      ],
+      "decision": [
+        "OPEN",
+        "unmeasured_resource"
+      ]
+    }
+  ],
+  "completed_cycles": [
+    4,
+    6
+  ],
+  "scope": "Synthetic ledger execution, not cell simulation. READY is current execution capacity, not indefinite self-maintenance. External nutrient/resource dependence is explicit, not a failure by itself. No population or division is simulated."
+}

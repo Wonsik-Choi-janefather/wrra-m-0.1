@@ -1,0 +1,161 @@
+{
+  "rows": [
+    {
+      "n": 32,
+      "mode": [
+        3,
+        0,
+        0
+      ],
+      "wavelength_cells": 10.666666666666666,
+      "phase_speed_error": 0.014394852503825994,
+      "poisson_relative_error": 0.029423489930766156,
+      "leading_phase_error": 0.01445742832190824
+    },
+    {
+      "n": 32,
+      "mode": [
+        2,
+        2,
+        1
+      ],
+      "wavelength_cells": 10.666666666666666,
+      "phase_speed_error": 0.00587782942949977,
+      "poisson_relative_error": 0.011860123795583988,
+      "leading_phase_error": 0.005890063390407061
+    },
+    {
+      "n": 64,
+      "mode": [
+        3,
+        0,
+        0
+      ],
+      "wavelength_cells": 21.333333333333332,
+      "phase_speed_error": 0.003610440030297535,
+      "poisson_relative_error": 0.0072601749978675745,
+      "leading_phase_error": 0.00361435708047706,
+      "measured_order": 1.9953064219074303
+    },
+    {
+      "n": 64,
+      "mode": [
+        2,
+        2,
+        1
+      ],
+      "wavelength_cells": 21.333333333333332,
+      "phase_speed_error": 0.0014717508086147246,
+      "poisson_relative_error": 0.0029500125436039415,
+      "leading_phase_error": 0.0014725158476017652,
+      "measured_order": 1.9977500732936722
+    },
+    {
+      "n": 128,
+      "mode": [
+        3,
+        0,
+        0
+      ],
+      "wavelength_cells": 42.666666666666664,
+      "phase_speed_error": 0.0009033443596642154,
+      "poisson_relative_error": 0.0018091397643862361,
+      "leading_phase_error": 0.000903589270119265,
+      "measured_order": 1.99882671877443
+    },
+    {
+      "n": 128,
+      "mode": [
+        2,
+        2,
+        1
+      ],
+      "wavelength_cells": 42.666666666666664,
+      "phase_speed_error": 0.0003680811404492834,
+      "poisson_relative_error": 0.0007365689316443103,
+      "leading_phase_error": 0.0003681289619004413,
+      "measured_order": 1.9994376836342207
+    },
+    {
+      "n": 256,
+      "mode": [
+        3,
+        0,
+        0
+      ],
+      "wavelength_cells": 85.33333333333333,
+      "phase_speed_error": 0.00022588200914441803,
+      "poisson_relative_error": 0.0004519171324484095,
+      "leading_phase_error": 0.00022589731752981624,
+      "measured_order": 1.999706686788028
+    },
+    {
+      "n": 256,
+      "mode": [
+        2,
+        2,
+        1
+      ],
+      "wavelength_cells": 85.33333333333333,
+      "phase_speed_error": 9.202925153251051e-05,
+      "poisson_relative_error": 0.00018408391433255566,
+      "leading_phase_error": 9.203224047511033e-05,
+      "measured_order": 1.9998594312141371
+    }
+  ],
+  "grid_checks": [
+    {
+      "n": 32,
+      "mode": [
+        3,
+        0,
+        0
+      ],
+      "symbol_absolute_error": 1.7053025658242404e-13,
+      "grid_eigen_residual": 1.3390761391013013e-12
+    },
+    {
+      "n": 32,
+      "mode": [
+        2,
+        2,
+        1
+      ],
+      "symbol_absolute_error": 5.684341886080802e-14,
+      "grid_eigen_residual": 5.765973092575155e-12
+    },
+    {
+      "n": 64,
+      "mode": [
+        3,
+        0,
+        0
+      ],
+      "symbol_absolute_error": 7.389644451905042e-13,
+      "grid_eigen_residual": 5.984779968372888e-12
+    },
+    {
+      "n": 64,
+      "mode": [
+        2,
+        2,
+        1
+      ],
+      "symbol_absolute_error": 5.684341886080802e-14,
+      "grid_eigen_residual": 1.887668019274406e-11
+    }
+  ],
+  "checks": {
+    "same_physical_wavelength": true,
+    "grid_matches_modal_symbol": true,
+    "grid_eigen_residual": true,
+    "second_order_measured": true,
+    "leading_coefficient_limit": true,
+    "cubic_symmetry_only": true,
+    "finite_directional_difference_detected": true,
+    "fixed_spacing_volume_does_not_remove_dispersion": true
+  },
+  "volume_test_absolute_difference": 0.0,
+  "boost_test": "OPEN: no boosted receiver/state map specified; rotations do not prove Lorentz covariance",
+  "scope": "Actual finite-scale receiver extension; n=32,64 grid runs; n=128,256 modal evaluations. No physical infinite universe, full relativistic closure or new cosmic length is inferred."
+}

@@ -1,0 +1,14 @@
+{
+  "framework": "Wonsik Reality\u2013Renderer Architecture",
+  "generated_at_utc": "2026-10-24T12:13:45.044374+00:00",
+  "sources": {
+    "mcc": "c69f3c656640160371af9d2399de1b332da0f83e",
+    "life": "ea1ca3c459e4fc73177cfaa2ff2707976db53c32",
+    "history": "006876a4b321d0e157ea2173d33191064231f380"
+  },
+  "source_files": {
+    "inputs/neuro_original.py": "0ee074ec2a7a70eea8084da5738bdbd483643a5a4f5a1ecfe6afa853e2b26838",
+    "inputs/finite_scale_original.py": "f7c10b9b911c8a622173aca4482ce0e97af9e7a10a007110d292b336c9d21f3e"
+  },
+  "scope": "Online supplemental evidence; no archived full-book PDF replacement"
+}

@@ -8,6 +8,8 @@ Complete Korean/English edition: 139 chapters and Appendices A–J.
 
 Appendix J integrates KZF rigor, exploratory SPARC comparisons, falsification decisions and notation. Observed advantages, failed held-out claims and open physical connections are all retained. Separate executable evidence does not imply whole-cosmology execution.
 
+[New scoped online supplements: directional resolution, readiness, resource budgets, verification and information retention](publication/WRRA_Moltbook_Followup_v1_0/README.md). Archived full-book PDFs retain v0.28-r6.
+
 ## Preserved earlier release notes
 
 ## Minimal Computing Cosmology 3.0 — current book v0.28-r5 · 2026-10-22
